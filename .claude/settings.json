@@ -1,0 +1,33 @@
+{
+  "excludeDynamicSections": true,
+  "permissions": {
+    "allow": [
+      "Bash(git log --oneline*)",
+      "Bash(git log --oneline -5)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git add wiki/*)",
+      "Bash(git add .claude/*)",
+      "Bash(git commit -m *)",
+      "Bash(find /Users/nick/Documents/shattered-sea/wiki -type f*)",
+      "Bash(find /Users/nick/Documents/shattered-sea/.claude -type f*)",
+      "Bash(find /Users/nick/.claude/skills -type f 2>/dev/null | sort)",
+      "Bash(grep -r * /Users/nick/Documents/shattered-sea/wiki)",
+      "Bash(mkdir -p /Users/nick/Documents/shattered-sea/*)",
+      "Bash(bash /Users/nick/Documents/shattered-sea/.claude/hooks/*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/validate-frontmatter.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

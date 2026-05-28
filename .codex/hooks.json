@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash '/Users/nick/Documents/shattered-sea/.codex/hooks/validate-frontmatter.sh'"
+          }
+        ]
+      }
+    ]
+  }
+}

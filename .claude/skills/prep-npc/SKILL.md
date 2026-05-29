@@ -9,10 +9,11 @@ description: >
   NPCs needing stat block integration.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-1. Check `wiki/index.md` — does a stub already exist? If yes, expand it; don't recreate.
-2. Read `wiki/hot.md` — what is the current session context this NPC enters?
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
@@ -24,7 +25,7 @@ If the user message doesn't already answer these, ask all at once — not one at
 - Role or function in the story (merchant, villain, faction leader, contact, etc.)
 - Which specific PC's backstory, goal, or fear does this NPC connect to?
 
-The PC connection is required. If you cannot name it, the NPC isn't ready — ask.
+The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
 
 ---
 
@@ -98,32 +99,9 @@ For any NPC introduced to players: create paired pages.
 
 ---
 
-## Frontmatter (Universal Fields + Entity Fields)
+## Frontmatter
 
-```yaml
----
-type: entity
-subtype: npc
-campaign: shattered-sea
-status: active
-audience: players
-publish: true
-summary: "[Concrete one-liner: who they are right now and why they matter]"
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags: [npc, relevant-faction-or-location]
-sources: [Homebrew]
-confidence_level: established
-relationships:
-  - "[[related-entity|Display Name]] — relationship type"
-primary_goal: ""
-consistent_method: ""
-active_problem: ""
-performance_hooks: ""
-link_of_relevance: ""
-quote: ""
----
-```
+Universal and entity fields are auto-completed by the write hook. You must author the NPC-specific values: the five toy fields (`primary_goal`, `consistent_method`, `active_problem`, `performance_hooks`, `link_of_relevance` — see Toy Fields above) and `quote`. Keep these in sync with the `## Toy Chest` body table.
 
 ---
 

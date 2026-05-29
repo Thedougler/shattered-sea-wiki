@@ -232,7 +232,7 @@ This sentence has a footnote.[^1]
 ## DRY Content Patterns
 
 When writing or editing wiki pages, choose the most dynamic content pattern to avoid
-duplication. See AGENTS.md § DRY & dynamic content for the full governance rules.
+duplication. See CLAUDE.md § DRY & dynamic content for the full governance rules.
 
 ### When to use each pattern
 

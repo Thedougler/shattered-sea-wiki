@@ -10,12 +10,13 @@ description: >
   wiki/situations/dormant/ per lifecycle state.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-1. Check `wiki/index.md` — stub exists? Expand it; don't recreate.
-2. Read `wiki/hot.md` — what factions and active situations already exist? Avoid redundancy.
-3. Determine whether this situation has a hidden conclusion (mystery, secret faction, hidden
-   cause) — if yes, Three Clue Rule applies.
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+
+Domain-specific: determine whether this situation has a hidden conclusion (mystery, secret faction, hidden cause) — if yes, the Three Clue Rule applies (below).
 
 ---
 
@@ -27,7 +28,7 @@ If the user message doesn't already answer these, ask all at once — not one at
 - Is the clock currently running (active) or waiting for a trigger (dormant)?
 - What happens when the clock fills — what is the consequence?
 
-PC connection is required. If you cannot name it, ask before generating.
+The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
 
 ---
 
@@ -129,29 +130,12 @@ resolve with or without party involvement. Player action changes *which* outcome
 
 ## Frontmatter
 
-```yaml
----
-type: situation
-subtype: conflict  # conflict | mystery | political | environmental | personal
-campaign: shattered-sea
-status: active
-audience: dm
-publish: false
-summary: "[One sentence: what is at stake and who is driving it]"
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags: [situation]
-sources: [Homebrew]
-lifecycle: active  # active | dormant | resolved
-island: null  # or "[[island-slug|Island Name]]"
-clocks:
-  - name: ""
-    segments: 4
-    filled: 0
-    trigger: ""
-    consequence: ""
----
-```
+Universal fields are auto-completed by the write hook. You must author the situation-specific values:
+
+- `subtype` — `conflict | mystery | political | environmental | personal`
+- `lifecycle` — `active | dormant | resolved` (see Lifecycle Decision above; drives the file path)
+- `island` — `null` or `"[[island-slug|Island Name]]"` if this situation belongs to an island
+- `clocks` — fill per the Clock Definition block above (`name`, `segments`, `filled`, `trigger`, `consequence`)
 
 ---
 

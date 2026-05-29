@@ -9,6 +9,10 @@ description: >
   travel encounters and sea events when designing maritime content.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+
 ## Tier Model
 
 Determine tier before generating any content. Confirm Tier 2+ with DM before building.
@@ -24,9 +28,7 @@ Determine tier before generating any content. Confirm Tier 2+ with DM before bui
 
 ## Ship Page Structure
 
-**Frontmatter:** `type: vehicle`, `subtype: ship` (or specific vessel type), `status`,
-`summary` (one sentence: class + who owns/controls it), `relationships` (owner, crew,
-faction affiliation), `confidence_level`
+**Frontmatter:** universal/entity fields auto-fill. Author the domain values: `subtype` (`ship` or specific vessel type), a `summary` of one sentence (class + who owns/controls it), and `relationships` (owner, crew, faction affiliation). Set the vessel's tier per the Tier Model above.
 
 **Required sections:**
 - **Profile** — class, size, speed, armament, cargo capacity (one line each)

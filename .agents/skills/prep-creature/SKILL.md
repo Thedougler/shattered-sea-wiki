@@ -10,13 +10,17 @@ description: >
   Uses Fantasy Statblocks plugin codeblock format for all statblocks.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+
+Domain-specific:
 1. **Named entity or creature type?**
    - Named creature (specific individual): `wiki/entities/characters/npcs/{slug}.md` + statblock
    - Creature type/species lore: `wiki/lore/creatures/{slug}.md`
-2. Check `wiki/index.md` — stub exists? Expand it.
-3. Read `wiki/system/party-combat-primer.md` before finalizing any stat calibration.
+2. Read `wiki/system/party-combat-primer.md` before finalizing any stat calibration.
    Party primer Avoid flags apply to creature design.
 
 ---

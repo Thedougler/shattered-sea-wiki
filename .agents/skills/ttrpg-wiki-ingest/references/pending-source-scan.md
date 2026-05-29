@@ -63,4 +63,13 @@ the source enough to understand it.
 
 ## Registry Sync
 
-When the scan finds unregistered sources, read `references/ingest-registry-update.md` — Discovery Sync.
+When the scan finds unregistered sources:
+
+1. Read `ingest-registry-update.md`.
+2. Add rows with `Status` = `pending`.
+3. Rebuild the Pending Queue section.
+4. Log the registry sync in `wiki/log.md`.
+
+Do not mark a source `ingested` just because a wiki page mentions it. A source is ingested
+only when the durable claims have been decomposed, placed, linked, and recorded in the
+registry output list.

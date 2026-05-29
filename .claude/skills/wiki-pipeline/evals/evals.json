@@ -1,0 +1,23 @@
+{
+  "skill_name": "wiki-pipeline",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I dropped a bunch of new source files in Inbox/ — can you catch the wiki up? Process everything that's pending.",
+      "expected_output": "Health-checks the vault, scans Inbox/ + .raw/ for pending/unregistered sources, ingests each in priority order, archives each source to .raw/<type>/, regenerates index.md, and commits per source with no permission prompts. Final summary lists sources ingested, files archived, and any blocked items.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "run the pipeline",
+      "expected_output": "Same autonomous startup->ingest pass. Surfaces the pending count up front, then processes the queue, commits per source, leaves Inbox/ clear of ingested sources, and reports hot.md updated/unchanged.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Ingest the HCS-Surety source files in my Inbox and commit them.",
+      "expected_output": "Ingests the HCS-Surety-related sources (HCS-Surety.md, layout, manifest, owners-manual, DM-guide), decomposes into the right wiki pages, archives each to .raw/, regenerates index, commits each source. Does not ask before committing.",
+      "files": []
+    }
+  ]
+}

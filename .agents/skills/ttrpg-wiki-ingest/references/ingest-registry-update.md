@@ -1,5 +1,8 @@
 # Ingest Registry Update
 
+This preserves the guidance from the narrower `ingest-registry-update` workflow inside
+the general `ttrpg-wiki-ingest` skill.
+
 ## Purpose
 
 Keep `wiki/ingest-registry.md` current. It should answer three questions quickly:

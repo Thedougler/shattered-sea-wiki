@@ -74,13 +74,15 @@ sources: []
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
+- [[coralyra-dranra|Coralyra Dranra]] — [stub] Stub — created during ingest of Flappers the Seal. Coralyra Dranra is referenced as Flappers' person; no further details available.
 - [[dario|Dario Vanni]] — Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak.
 - [[ettore|Ettore Lupo]] — Proprietor of Casa Lupo in Calveno's Le Paludi district. Seventy-something, prices everything from memory, moves with the energy conservation of someone who has decided he's already moved enough.
 - [[ferrin-locke|Ferrin Locke]] — [stub] Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found.
+- [[flappers-the-seal|Flappers the Seal]] — Coralyra Dranra's seal — her closest relationship and anchor in the world; currently out chasing mackerel.
 - [[giacinto|Giacinto]] — [stub] Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells beret-and-moustache kits that read as 'performer' to Calveno crowds; key to Jean-Claude blending in.
-- [[giacomo-moretti|Giacomo Moretti]] — [stub] Stub — Moretti & Sons chandler in Calveno; unbroken twenty-year Il Gioco delle Beffe Accord record; the committee finds this professionally embarrassing.
+- [[giacomo-moretti|Giacomo Moretti]] — Proprietor of Moretti and Sons on Calveno's Mercatura canal. Mid-sixties, grey stubble, can quote bulk chandlery prices without looking anything up. Remembers every captain who has moored at Calveno and gives them a discount.
 - [[gost|Gost]] — [stub] Stub — Half-orc berserker available as a loose hiring hook in the Warren; no fixed loyalty.
 - [[iacopo-fieschi|Iacopo Fieschi]] — [stub] Stub — Tessarine envoy in Calveno during the Beffa; holds debt leverage over six of the Seven Houses; indirectly named in the Vretek/Brol letter via advance agents. Present during the Beffa but not taken in the raid.
 - [[margaret-porcelain-pots|Margaret "Maggie" Porcelain Pots]] — [stub] Delmar Fisk's first love. Dragonborn with glittering peach-and-cream scales and vibrant pink eyes. Their relationship ended badly — she punched him hard enough to leave a shiner for a week. He has avoided her ever since.

@@ -230,3 +230,5 @@ sources: []
 - 2026-05-28 ingest: Dario-Vanni — upgraded stub to full NPC page; tortle, Acqua Nera
 - 2026-05-28 ingest: Enzo — merged statblock + session-03 canon; fixed content/ links
 - 2026-05-28 ingest: Ettore-Lupo — upgraded stub to full NPC page; Casa Lupo proprietor
+- 2026-05-28 ingest: Flappers-the-Seal — new page; stub for coralyra-dranra
+- 2026-05-28 ingest: Giacomo-Moretti — upgraded stub; halfling chandler, Mercatura; Beffa record note preserved

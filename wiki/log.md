@@ -320,3 +320,9 @@ sources: []
 - 2026-05-29 | ingest | Fermented-Cider — new item page (Essa's Low Lamp cider)
 - 2026-05-29 | ingest | Fernen — stub upgraded to full player-facing page
 - 2026-05-29 | ingest | Fever-Poultice — new item page (consumable)
+- 2026-05-29 | ingest | Fifitas-Slip — new location page (Kalowe informal boatyard)
+- 2026-05-29 | ingest | Fish-Broth — new item page (food)
+- 2026-05-29 | ingest | Fishing-Tackle — new item page (equipment)
+- 2026-05-29 | ingest | Flask-of-Endless-Water — stub upgraded to full player-facing item page
+- 2026-05-29 | ingest | Flintlock-Pistol — new item page (weapon, homebrew)
+- 2026-05-29 | ingest | Floor-Lodging — new item page (service, Warren)

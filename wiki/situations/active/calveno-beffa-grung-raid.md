@@ -150,7 +150,7 @@ One hint in Session 03, two in Session 04. Only escalate if the party leans in. 
 ## Related Pages
 
 - [[jean-claudes-desertion|Jean-Claude — Grung Expansion]]
-- [[calveno|Calveno — Warren, Salvage, and Ship Disguise]]
+- [[calveno-situation|Calveno — Warren, Salvage, and Ship Disguise]]
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]]
 - [[calveno-raid-signs|Calveno — Raid Prep Signs]]
 - [[warren-grung-sewers|Warren — Grung in the Sewers]]

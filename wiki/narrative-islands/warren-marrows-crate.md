@@ -149,7 +149,7 @@ The letter is addressed to no one. It was meant to be collected by a Tangle inte
 
 ## Related Pages
 
-[[warren-nonas-table|Warren — Nona's Table]] | [[warren-ferrin-locke|Warren — Ferrin Locke]] | [[warren|Warren — Active Hub]]
+[[warren-nonas-table|Warren — Nona's Table]] | [[warren-ferrin-locke|Warren — Ferrin Locke]] | [[warren-situation|Warren — Active Hub]]
 
 ---
 

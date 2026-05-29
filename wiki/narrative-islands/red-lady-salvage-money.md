@@ -155,7 +155,7 @@ Zusto mentioned someone else is asking. This second enquiry is not the funder an
 
 ## Related Pages
 
-[[calveno|Calveno — Warren, Salvage, and Ship Disguise]] | [[red-lady|Red Lady]] | [[delmar-fisk|Delmar Fisk]]
+[[calveno-situation|Calveno — Warren, Salvage, and Ship Disguise]] | [[red-lady|Red Lady]] | [[delmar-fisk|Delmar Fisk]]
 
 ---
 

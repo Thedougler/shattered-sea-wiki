@@ -112,7 +112,7 @@ sources: []
 - [[ruk|Ruk]] — Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
 - [[savia-brentino|Savia Brentino]] — Proprietor of Carpenter's Slip in Calveno. Thirty, small, sawdust in her eyebrows. Speaks in structural assessments. Does not quote timelines she cannot keep and does not do cosmetic work.
 - [[serin-haut|Serin Haut]] — [stub] Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
-- [[stripes-bitemore|Stripes Bitemore]] — Hunter from Keth Naar whose tribe read the seas as wrong and sent him to find the cause. Took passage on the Saltwright before Session 01; absent from current active party.
+- [[stripes-bitemore|Stripes Bitemore]] — Tiger tabaxi fighter sent west by Keth-Naar elders to find why the sea is angry — took passage on the Saltwright, was involved in the Session 01 boarding action, currently absent from the active party.
 - [[suryo-wibowo|Suryo Wibowo]] — Proprietor of Wibowo's Provisions on Kalowe's first island. Broad, efficient, talks at the same speed he works. Will tell a captain who is under-ordering exactly why, in terms that are not unkind but are precise.
 - [[taufa-fifita|Taufa Fifita]] — Patriarch of the Fifita family, proprietor of the Taufa Fifita & Sons chandlery on Kalowe. Knows every ship that has bought rope from him and what they used it for in general terms. Doesn't ask about specifics.
 - [[umberlee-servant|Umberlee's Servant → [[branca|Branca]]]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
@@ -142,8 +142,8 @@ sources: []
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit.
 - [[shelfworks|The Shelfworks]] — Open-water Antheri salvage field on the western shelf of the Drowned Maw, where clear shallow ruins promise impossible materials before the seabed drops into black water.
 - [[sorn|Sorn]] — A reef-fringed Grung island in the Verdant Teeth — known from the water as green wall, pale sand, and danger. Agricultural interior; trade beach only.
-- [[sunken-crown|Sunken Crown]] — [stub] Region containing Vel Orn and the Blue Shrine where Fisk's fleet stole the Pearl of Souls.
-- [[tail|The Tail]] — [stub] Stub — western staging region nearest to the Drowned Maw crossing approach.
+- [[sunken-crown|The Sunken Crown]] — Five low islands on the rim of something drowned — the Blue Hole, and the Tabaxi who have kept watch here longer than any outside record.
+- [[tail|The Tail]] — The eastern end of the Verdant Scatter — high cliffs, cold upwelling, hard pilots, longline grounds, morning fog, and Shelfworks salvage staging.
 - [[the-drowned-maw|The Drowned Maw]] — A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
 - [[tidefall|Tidefall]] — [stub] Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription.
 - [[vel-orn|Vel Orn]] — [stub] Site in the Sunken Crown with Umberlee's Blue Shrine, where Fisk's fleet stole the Pearl of Souls.
@@ -210,7 +210,7 @@ sources: []
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.
 - [[moretti-and-sons|Moretti & Sons Chandlery]] — Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up.
 - [[ponte-bassa|The Ponte Bassa]] — Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years.
-- [[studio-orsini|Studio Orsini]] — [stub] Workshop or studio in Calveno run by Marta Orsini. Referral destination for Jean-Claude's fertilized whip shark eggs.
+- [[studio-orsini|Studio Orsini]] — An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for.
 - [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
 
 ## entities/places/settlements/kalowe
@@ -410,6 +410,7 @@ sources: []
 - [[spear|Spear]] — An iron-tipped wooden shaft — the most basic polearm, thrown or thrust, at home on a ship's deck.
 - [[splint-and-wrap|Splint and Wrap]] — A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it.
 - [[spyglass|Spyglass]] — A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it.
+- [[surgical-consultation|Surgical Consultation]] — A professional assessment of a serious injury and a supply list for a ship's surgeon to operate — 2 gp, the apothecary does not operate herself.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -519,6 +520,7 @@ sources: []
 - [[ship-operations|Ship Operations]] — Travel speeds, navigation checks, upkeep costs, acquiring a ship, living quarters, and ship reputation for Shattered Sea play.
 - [[ship-stats|Ship Stats — The Shattered Sea]] — Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play.
 - [[ship-upgrades|Ship Upgrades — The Shattered Sea]] — Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability.
+- [[surgeons-berth|Surgeon's Berth]] — Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled.
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

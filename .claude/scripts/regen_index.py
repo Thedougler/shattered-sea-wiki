@@ -30,7 +30,7 @@ from wiki_common import (
 # Bookkeeping files are not catalogue targets — skip them.
 SKIP_BASENAMES = {
     "index.md", "log.md", "work-queue.md",
-    "ingest-registry.md", "discrepancy-log.md",
+    "discrepancy-log.md",
 }
 
 # Group display order. Anything unlisted sorts alphabetically after these.

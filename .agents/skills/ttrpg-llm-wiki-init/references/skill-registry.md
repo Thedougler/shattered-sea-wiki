@@ -53,7 +53,7 @@ section for DM review — does not apply updates directly. Creates stubs for eve
 entity before updating any existing file. Flags lore contradictions to `discrepancy-log.md`
 immediately — never resolves them unilaterally.
 **Coordinates with:** `wiki-categorize`, `faction-clock`, `player-interest-tracker`,
-`combat-data-extract`, `session-summary-write`, `ingest-registry-update`
+`combat-data-extract`, `session-summary-write`
 
 ### `session-flags-review`
 **Purpose:** Help the DM resolve ambiguous entries in a session flags file. Apply speaker
@@ -70,21 +70,20 @@ One flag at a time. DM has final say on every entry.
 ## Layer 1.5 — General Source Ingestion
 
 ### `ttrpg-wiki-ingest`
-**Purpose:** Orchestrate source ingestion into the Shattered Sea wiki. Scan `.raw/`, `Inbox/`,
-and optional top-level source documents for unprocessed files; classify each source; digest
-and decompose durable claims; update the correct wiki files; maintain links, index, hot file,
-log, and `wiki/ingest-registry.md`.
+**Purpose:** Orchestrate source ingestion into the Shattered Sea wiki. Find pending sources
+with `check_ingest.py` (every `Inbox/` file not yet archived to `.raw/`); classify each source;
+digest and decompose durable claims; update the correct wiki files; maintain links, index, hot
+file, and log; then archive the source so it drops off the queue.
 **Trigger:** "ingest this", "digest this document", "process this into the wiki",
-"what hasn't been ingested?", "what's pending?", any new source file in `.raw/` or `Inbox/`,
-or any source that must be decomposed into multiple wiki pages.
+"what hasn't been ingested?", "what's pending?", "process the inbox", "catch up the wiki",
+any new source file in `Inbox/`, or any source that must be decomposed into multiple wiki pages.
 **Critical behaviors:** Treat raw sources as immutable. Do not summarize when decomposition is
-needed. Do not ingest more than five pending files automatically; report the queue and ask
-which source to process. Preserve the narrower `transcript-ingest` and
-`ingest-registry-update` guidance by loading the reference files bundled inside this skill.
-Never invent missing canon to make a source fit.
+needed. Process the queue autonomously, one source at a time to full quality — quality does not
+degrade with queue depth — archiving and committing each before the next; never batch-skim.
+Preserve the narrower `transcript-ingest` guidance by loading the reference files bundled inside
+this skill. Never invent missing canon to make a source fit.
 **Coordinates with:** `ttrpg-llm-wiki-init`, `ttrpg-writing`, `wiki-categorize`,
-`transcript-ingest`, `ingest-registry-update`, `faction-clock`, `hot-update`, all `prep-*`
-skills.
+`transcript-ingest`, `faction-clock`, `hot-update`, all `prep-*` skills.
 
 ---
 
@@ -145,14 +144,6 @@ full session ingestion. Faction clock advanced manually. Situation resolved mid-
 **Critical behaviors:** Surgical — only rewrite sections that are affected. Always update
 the `updated` date. Always log the change.
 **Coordinates with:** `faction-clock`, `transcript-ingest`
-
-### `ingest-registry-update`
-**Purpose:** Keep `wiki/ingest-registry.md` current. Add new files from `.raw/` with
-`status: pending`. Update status, date, and wiki outputs list after any ingestion
-operation. Generate Pending Queue section ordered by priority (sessions first).
-**Trigger:** Automatically after any ingestion operation. "Update the ingest registry",
-"what's pending?", "what hasn't been processed?"
-**Coordinates with:** `transcript-ingest`, `ttrpg-llm-wiki-init`
 
 ---
 

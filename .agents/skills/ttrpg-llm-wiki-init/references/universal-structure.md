@@ -28,9 +28,10 @@ forgotten. Situations move through lifecycle folders as the campaign progresses.
 Everything starts as a stub. Player interest signals drive expansion. The mile-wide-inch-deep
 model is an editorial policy, not a structural one.
 
-**P6 — Every raw file is tracked. Every wiki file knows its source.**
-Bidirectional provenance through `ingest_status` + `produces` (on raw files) and `sources`
-(on wiki files). `wiki/ingest-registry.md` is the central ledger.
+**P6 — Every wiki file knows its source; every source is retained.**
+Wiki files cite their origin via `sources` frontmatter, and fully-ingested sources are
+archived into `.raw/` rather than deleted. Provenance lives in those two places plus git
+history — there is no separate registry ledger to keep in sync.
 
 **P7 — Large tasks are never abandoned. They are queued.**
 Any multi-file reorganization creates a `wiki/work-queue.md` entry before starting.
@@ -74,7 +75,6 @@ VAULT_ROOT/
     │
     ├── hot.md                                   ← read first, always; current world state
     ├── index.md                                 ← master catalog; every wiki file listed
-    ├── ingest-registry.md                       ← raw→wiki provenance ledger
     ├── work-queue.md                            ← active multi-step task tracker
     ├── discrepancy-log.md                       ← lore contradictions (created on first conflict)
     │
@@ -157,7 +157,6 @@ These files must exist for the wiki to be operational. Create them if absent.
 | `wiki/hot.md` | Yes | Create from template |
 | `wiki/index.md` | Yes | Create stub |
 | `wiki/system/task-routing.md` | Yes | Create stub; flag for DM completion |
-| `wiki/ingest-registry.md` | Recommended | Create with header when first session ingested |
 | `wiki/work-queue.md` | On demand | Create when first multi-file task begins |
 | `wiki/discrepancy-log.md` | On demand | Create on first lore contradiction |
 

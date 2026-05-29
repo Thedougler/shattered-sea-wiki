@@ -54,7 +54,10 @@ Mark it `skipped` when:
 - It is an asset with no wiki use yet.
 - The DM explicitly says not to ingest it.
 
-Always record the reason in `wiki/ingest-registry.md`.
+A skipped source still has a content hash absent from `.raw/`, so it will keep showing up in
+`check_ingest.py`. If the skip is permanent, archive it with `archive_source.py` so it moves
+into `.raw/` and drops off the queue; note the skip reason in the commit message. If the skip
+might be reconsidered later, leave it in `Inbox/` and tell the DM why.
 
 ## Triage Output
 
@@ -72,5 +75,7 @@ Flags:
 - none
 ```
 
-Keep this plan in chat unless the ingest is long. For long ingest work, create or update
-`wiki/work-queue.md` so another agent can resume.
+Keep this plan in chat. It is working scratch for the one source in front of you, not a
+durable artifact — once the source is written back and archived, the plan's job is done.
+There is no work-queue file to maintain; an interrupted run resumes by re-running
+`check_ingest.py`, which still lists every source that hasn't been archived yet.

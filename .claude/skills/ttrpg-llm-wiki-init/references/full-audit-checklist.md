@@ -215,13 +215,12 @@ Index entry format:
 
 ---
 
-## Phase 12 — Ingest Registry Sync
+## Phase 12 — Pending Ingest Check
 
-1. Read `wiki/ingest-registry.md`
-2. Scan `.raw/sessions/` for any session folders not in the registry → add with status: pending
-3. Scan `.raw/characters/` for any files not in the registry → add with status: pending
-4. Scan `.raw/homebrew/` for any files not in the registry → add with status: pending
-5. Log: `AUDIT: ingest-registry synced — {N} new entries added`
+1. Run `python3 .claude/scripts/check_ingest.py --count` — the number of `Inbox/` sources not
+   yet present in `.raw/`. There is no registry to reconcile; the filesystem is the queue.
+2. If the count is > 0, surface it to the DM and recommend running `ttrpg-wiki-ingest`.
+3. Log: `AUDIT: {N} sources pending ingest`
 
 ---
 

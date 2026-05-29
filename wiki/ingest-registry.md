@@ -70,5 +70,7 @@ sources: []
 | Inbox/Nona-Midchain-Commission.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/nona-midchain-commission.md` (new); `wiki/entities/places/aruhe.md` (stub) |
 | Inbox/Catarina-DaVirelli.md | entity-source | ingested | 2026-05-28 | `wiki/entities/characters/npcs/catarina-davirelli.md` (updated: active problems, DM notes, inventory tables) |
 
+| Inbox/Uncertainty.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/uncertainty.md` (new — full refit, crew, facilities, modifications) |
+
 ## Pending Queue (status: pending, priority order)
 (none)

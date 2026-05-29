@@ -347,6 +347,10 @@ sources: []
 - [[miras-blade|Mira's Blade]] — A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[mixed-spices|Mixed Spices]] — Pepper, clove, and ginger from the Verdant Teeth trade — makes salt provisions edible at sea. 1 gp per lb.
 - [[musket|Musket]] — Martial ranged weapon. Highest single-shot damage (1d12), but Loading, shortest range of any two-hander, and three firearm penalties (misfire, loud, wet) that bows avoid entirely.
+- [[nameboard-replacement|Nameboard Replacement]] — A new carved and fitted nameboard for a vessel — includes lettering at legitimate yards, plain board only at discreet ones.
+- [[nautical-chart|Nautical Chart]] — Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it.
+- [[needle-and-sail-twine|Needle and Sail Twine]] — A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp.
+- [[needles-and-thread|Needles and Thread]] — Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
@@ -381,7 +385,7 @@ sources: []
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 - [[saltwright|Saltwright]] — Old grey-brown two-masted merchant brig. Dark, close-quarters hold smelling of bilge water and shrimp. Currently in party possession after the Session 01 boarding.
-- [[the-narrow|The Narrow]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
+- [[the-narrow|The *Narrow*]] — Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
 - [[vestra|Vestra]] — Perrin Black-Jaw's family fishing ship, built and captained by his grandfather and later used to support the family. Destroyed by something massive from below; Perrin's family does not know the full loss.
@@ -433,6 +437,7 @@ sources: []
 ## rules
 - [[mortis|The Mortis]] — Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept.
 - [[mounts-and-vehicles|Mounts and Vehicles]] — PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold.
+- [[navigator-chart-room|Navigator's Chart Room]] — Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] —

@@ -93,10 +93,11 @@ sources: []
 - [[marta-orsini|Marta Orsini]] — Proprietor of Studio Orsini in Calveno's Le Paludi district. Late forties, pale, precise. Knows exactly what her compounds will be used for and doesn't ask. Gives instructions once and expects them followed.
 - [[nigel-strutt|Nigel Strutt]] — Crown chandlery clerk at the Tidefall Chandlery — young, conscientious, and genuinely distressed when a customer's paperwork is not in the right order.
 - [[norrington-kingsly|Norrington Kingsly]] — Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation.
-- [[oleandro-fuschi|Oleandro Fuschi]] — [stub] Stub — Soft-spoken Ponte Bassa tavern keeper in Calveno; remembers vessels better than names.
+- [[oleandro-fuschi|Oleandro Fuschi]] — Proprietor of Ponte Bassa, Calveno's canal-bridge tavern. Wide, soft-spoken, moves like he has all day. Keeps a mental ledger of every vessel that has moored at Calveno in twenty years and has never been caught wrong about one.
+- [[oswald-crench|Oswald Crench]] — Dwarf proprietor of the Shelf Instrument Dealer in Port Tidefall — has been calibrating Crown navigation equipment since before most current officers were posted east, and considers every customer a mild interruption to the cataloguing.
 - [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
-- [[prospero-morsani|Prospero Morsani]] — [stub] Stub — Proprietor of the Cabinet of Morsani in Calveno; knows the previous owner of everything; stops before the useful ending.
+- [[prospero-morsani|Prospero Morsani]] — Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part.
 - [[ruk|Ruk]] — [stub] Present in Nona Black-Jaw's Le Paludi kitchen during Perrin's reunion. Stood near the door.
 - [[savia-brentino|Savia Brentino]] — [stub] Stub — Carpenters' Slip yard master in Calveno; does hull work without Canal Commission filings; refuses cold approaches; Tangle-adjacent.
 - [[serin-haut|Serin Haut]] — [stub] Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
@@ -133,6 +134,7 @@ sources: []
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
+- [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 - [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.

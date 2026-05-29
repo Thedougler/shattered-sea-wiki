@@ -234,3 +234,5 @@ sources: []
 - 2026-05-28 ingest: Giacomo-Moretti — upgraded stub; halfling chandler, Mercatura; Beffa record note preserved
 - 2026-05-28 ingest: Hector-Podge — new minor NPC page; Hook & Ledger stub
 - 2026-05-28 ingest: Iacopo-Fieschi — upgraded stub to full NPC page; DM leverage note preserved
+- 2026-05-28 ingest: Ilaria-Grimaldi — new minor NPC page; Grimaldi's Dispensary stub
+- 2026-05-28 ingest: Kettil-Ormsson — new minor NPC page; Ormsson's Fittings stub

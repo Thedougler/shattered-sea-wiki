@@ -236,3 +236,6 @@ sources: []
 - 2026-05-28 ingest: Iacopo-Fieschi — upgraded stub to full NPC page; DM leverage note preserved
 - 2026-05-28 ingest: Ilaria-Grimaldi — new minor NPC page; Grimaldi's Dispensary stub
 - 2026-05-28 ingest: Kettil-Ormsson — new minor NPC page; Ormsson's Fittings stub
+- 2026-05-28 ingest: Maggie-Porcelain-Pots — upgraded stub to full NPC page
+- 2026-05-28 ingest: Marrow — upgraded stub to full NPC page
+- 2026-05-28 ingest: Marta-Orsini — upgraded stub to full NPC page

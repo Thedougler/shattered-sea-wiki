@@ -326,3 +326,4 @@ sources: []
 - 2026-05-29 | ingest | Flask-of-Endless-Water — stub upgraded to full player-facing item page
 - 2026-05-29 | ingest | Flintlock-Pistol — new item page (weapon, homebrew)
 - 2026-05-29 | ingest | Floor-Lodging — new item page (service, Warren)
+- 2026-05-29 | update | Session-04-Run-Guide — added six DM visual aids, embedded scene anchors, normalized hot.md links

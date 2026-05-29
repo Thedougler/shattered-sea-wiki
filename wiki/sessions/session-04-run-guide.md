@@ -45,6 +45,8 @@ sources: [Homebrew]
 > [!read-aloud]
 > The wind goes quiet. The sun is high and behind you — and then something with the sun behind it drops out of the sky in dead silence and hits Crissdalynn square in the chest, two arms around her before the wind is even back. The smell lands before the sight does: feathers, incense, home. "Oh my God, Priscilla. You're alive." [[master-kyzil\|Master Kyzil]] holds her at arm's length, then looks at the rest of you, remembering himself. "Hi. I'm — Master Kyzil. What happened?"
 
+![[raw/assets/session-art/session-04-01-kyzil-reunion.png|Master Kyzil embraces Crissdalynn in a Le Paludi canal street as the party watches]]
+
 Let the reunion breathe. Then the evening presses in: the ship in its cradle, a city dressing for festival, and — for Delmar — a woman in a shrine across the district who has not moved since she found him an hour ago.
 
 > [!dm]
@@ -68,6 +70,8 @@ This is a **fixed dramatic beat**, not a negotiation. The offer is unacceptable 
 
 > [!read-aloud] — Arrival
 > The [[waveservant-shrine\|Waveservant Shrine]] is a low, tide-stained vault off a Mercatura canal. The font behind the bench holds a hand's depth of seawater that will not lie flat — it rises and falls, slow, like something breathing under it. [[branca\|Branca]] is exactly where she sat down: upright, awake, salt-white hair pulled back hard, the little leather tide-table booklet open on her knee. "So," she says, bright and clipped, the warmth of someone rescheduling a missed meeting. "You came. Good. We have an appointment."
+
+![[raw/assets/session-art/session-04-02-branca-pearl-summons.png|Branca at the Waveservant Shrine, eyes white, as the seawater font rises behind her]]
 
 **NPC — Branca:** corporate cult executive assistant — bubbly, efficient, too much eye contact; opens "So!", closes "Does that work for you?", checks the booklet mid-sentence as if it settles every objection. She believes making divine horror *pleasant* is a kindness. She is the soft instrument; what comes through her is not.
 
@@ -105,6 +109,8 @@ Hold the silence. Then —
 > [!read-aloud]
 > [[le-paludi\|Le Paludi]] runs on quiet water and long memory. The smell of [[nona-black-jaw\|Nona]]'s kitchen reaches the canal before her door does.
 
+![[raw/assets/session-art/session-04-03-warren-ship-face.png|Savia Brentino points out that the Uncertainty still reads as a Crown cutter in the dry dock]]
+
 **What's true here:** two linked problems live in the Warren. **(a)** The *Uncertainty* still reads as a Crown cutter to anyone who knows cutters — paint won't fix a silhouette. The off-books yard, [[carpenters-slip\|Carpenters' Slip]], won't take a cold approach; she needs a Warren introduction, which runs through Nona. **(b)** Nona's **favor** ([[nonas-favor\|the unconditional yes]]) and the **sending stone** are live in Perrin's pocket.
 
 **NPC — Savia Brentino** ([[savia-brentino\|Carpenters' Slip]]): dry, unhurried, says the hard thing once and lets it sit. *Wants:* a Warren introduction before she'll deal — three ships tried cold this month and are on her list. *Reveals (flatly, at the end):* "She'll still read as a cutter to anyone who knows cutters. That's not a paint problem." **Terms:** 220 gp + 5 city days + one **unassigned Tangle favour**. The bow registry plate is the party's call.
@@ -128,6 +134,8 @@ Hold the silence. Then —
 
 > [!read-aloud]
 > A blue-caste Grung stands at the edge of a Velo square, watching a street performer. He is not enjoying it. He is watching how the crowd *moves* when the performer makes a scene — where people turn, where the gaps open, how long a knot of onlookers takes to dissolve.
+
+![[raw/assets/session-art/session-04-04-velo-handler.png|Jean-Claude recognizes a blue-caste handler watching crowd movement in a Velo festival square]]
 
 **What's true here:** [[simone-tabarnack\|Simone]]'s handlers are already in Calveno, mapping a mass capture operation under festival cover ([[calveno-beffa-grung-raid\|the Beffa Grung Raid]]). It fires **Day 4** — five synchronized snatch points, Slaad as distraction, sewer extraction to *vethka* past the Dravosi patrol gap. **Jean-Claude is the only PC who can read handler work for what it is.** Two ways in: the street (recognition beats below) or the tunnels (Nona's favor, §2).
 
@@ -159,6 +167,8 @@ Hold the silence. Then —
 > [!read-aloud]
 > A chandler lowers his voice without being asked. "You're not the first to ask about Maw salvage this month. There's money moving. Serious money — three buyers, or one buyer with three hands, nobody's sure. And they're not advertising a target."
 
+![[raw/assets/session-art/session-04-05-red-lady-salvage-money.png|Batta Zusto presents a sealed chart package and Red Lady token at the Bridge exchange]]
+
 **What's true here:** someone is assembling a salvage commission for a [[the-drowned-maw\|Maw]] wreck — unusual enough that [[savia-brentino\|Savia]] turned away three enquiries and the Tangle noticed. The accessible thread is broker **[[batta-zusto\|Batta Zusto]]** on the Bridge. The commission is **8–10 days from departure** — fast action gets the party there first.
 
 > **The wreck is the [[red-lady\|Red Lady]] — and it holds the [[pearl-of-souls\|Pearl]] Umberlee just ordered Delmar to retrieve.** If both fire, let the table feel the vise — a goddess, a funded rival crew, Delmar's own buried reasons, one wreck. Don't spell it out; let them assemble it.
@@ -181,6 +191,8 @@ Hold the silence. Then —
 
 > [!read-aloud]
 > The Mercatura bridge has become a registration desk. A clerk with a ledger and a long-suffering face takes team names, marks, categories, and stakes, while three would-be tricksters argue about whether a bucket counts as a "device."
+
+![[raw/assets/session-art/session-04-06-beffe-registration.png|Beffe registration crowds the Mercatura bridge while two masked figures study the pinch point]]
 
 **What's true here:** the festival rewards public deception and clean recovery; [[giacomo-moretti\|Giacomo Moretti]] has an unbroken 20-year record the committee finds embarrassing. The party can register a team (name, mark, category, symbol, stake), bet, watch, recruit contacts, or use the window as cover. **The festival is also the raid's camouflage** — every prank that trains the crowd to laugh at a staged scare makes Day 4 easier to hold open.
 
@@ -268,7 +280,7 @@ Don't plan an ending — recognize the highest-tension stopping point if it arri
 ## Capture For Next Time
 
 - Which situations fired, which were ignored, and where the ignored pressure moved (font omen? raid lane locked? commission departed?).
-- Clocks to advance in [[hot.md]]: raid day, Red Lady commission days, Knighton.
+- Clocks to advance in [[hot|hot.md]]: raid day, Red Lady commission days, Knighton.
 - **Umberlee:** did Delmar witness the Branca beat? Does the party now know he carries souls Umberlee claims, and that there's a Pearl in the [[red-lady\|Red Lady]]? Note what they overheard.
 - **Nona's favor:** did JC take the tunnel job? What did they find below — confirmed Grung, a sealed hatch, an egress point? Tick the [[calveno-beffa-grung-raid\|raid]].
 - Whose spotlight landed; who's owed next.
@@ -276,7 +288,7 @@ Don't plan an ending — recognize the highest-tension stopping point if it arri
 
 ## Context Read
 
-- [[hot.md]] — current world state, threads, clocks, spotlight
+- [[hot|hot.md]] — current world state, threads, clocks, spotlight
 - [[session-03-recap|Session 03 Recap]] — last break, Day-1 events
 - [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — parent island; rides, district hooks, agency guardrails
 - [[umberlees-message]], [[nonas-favor]], [[pearl-of-souls]], [[abyss-vision]], [[the-canister]] — active situations near the party

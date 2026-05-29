@@ -73,6 +73,7 @@ sources: []
 - [[capn-gorgeous|Cap'n Gorgeous]] — Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair.
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
+- [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
 - [[dario|Dario]] — [stub] Stub — Acqua-Nera operator in Calveno; does ship re-identification work for money and certainty.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — [stub] Nona Black-Jaw's enforcer in Calveno. Present in the Le Paludi kitchen. Ordered to console the Vestra's crew and to call off the attacks on Perrin.

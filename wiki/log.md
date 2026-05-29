@@ -225,3 +225,4 @@ sources: []
 - 2026-05-28 ingest: Bala-Tane — new minor NPC page; stub for the-mud-pits
 - 2026-05-28 ingest: Bisou — upgraded to full NPC page; merged session canon with character detail
 - 2026-05-28 ingest: Capn-Gorgeous — upgraded to full NPC page; House Knighton detail added
+- 2026-05-28 ingest: Colla — new minor NPC page; Rattkin apothecary, The Splint

@@ -384,6 +384,11 @@ sources: []
 - [[rudder-repair|Rudder Repair]] — Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment.
 - [[rum|Rum]] — Distilled sugarcane spirit — ship's stores, shore trade, and the social currency of the Midchain free ports.
 - [[sail-canvas|Sail Canvas]] — Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries.
+- [[salt|Salt]] — Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea.
+- [[salt-fish-and-root-porridge|Salt Fish and Root Porridge]] — The daily communal meal of the Warren — salt fish flaked into root vegetable porridge, reliable every day without exception.
+- [[salt-lantern|Salt Lantern]] — A brass lantern that burns indefinitely without fuel — but only in salt air; it goes dark inland or in enclosed spaces within one minute.
+- [[salt-pork|Salt Pork]] — Barrelled salt-cured pork belly — the meat provision on every working ship, before the scurvy sets in.
+- [[saltseal|Saltseal]] — An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
@@ -416,7 +421,7 @@ sources: []
 - [[loud-argument|The *Loud Argument*]] — Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
-- [[saltwright|Saltwright]] — Old grey-brown two-masted merchant brig. Dark, close-quarters hold smelling of bilge water and shrimp. Currently in party possession after the Session 01 boarding.
+- [[saltwright|The Saltwright]] — A hard-used two-masted merchant brig captained by Beaumont Sel, working the Midchain cargo run — home port Kalowe.
 - [[the-narrow|The *Narrow*]] — Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.

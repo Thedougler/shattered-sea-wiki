@@ -72,6 +72,10 @@ sources: []
 
 | Inbox/Uncertainty.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/uncertainty.md` (new — full refit, crew, facilities, modifications) |
 | Inbox/HCS-Surety.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety.md` (updated — full stat block, session log, Crown recognition clock) |
+| Inbox/HCS-Surety-Layout.md | reference, ship-layout | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-layout.md` (new — deck layouts with Uncertainty refit changes) |
+| Inbox/HCS-Surety-Manifest.md | reference, ship-inventory | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-manifest.md` (new — post-Session 02 manifest updated through La Vasca refit) |
+| Inbox/HCS-Surety-Owners-Manual.md | reference, player-facing | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-owners-manual.md` (new — player rules for Uncertainty) |
+| Inbox/HCS-Surety-DM-Guide.md | reference, dm-only | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-dm-guide.md` (new — Crown recognition clock active, chase/casualty tooling) |
 
 ## Pending Queue (status: pending, priority order)
 (none)

@@ -204,3 +204,7 @@ sources: []
 - CREATE: `wiki/entities/places/outer-reach.md` — under-governed zone; Sunken Crown instability; blue dragon sphere
 - CREATE: `wiki/entities/places/halythion.md` — hidden sea elf city; Maren's lead; shallow draft access potential
 - CREATE: `wiki/situations/active/cape-solitude.md` — Dead Light mystery; three crew vanished; intentionally unresolved
+- UPDATE: `wiki/entities/vehicles/red-lady.md` — full ship data; read-aloud, stat block, wreck context, connections
+- CREATE: `wiki/entities/vehicles/brass-cat.md` — DaVirelli's experimental submersible; full stats and capabilities
+- CREATE: `wiki/lore/campaign-overview.md` — player-facing setting reference; geography, powers, faith, peoples
+- CREATE: `wiki/system/lines-and-veils.md` — safety reference for agent content generation

@@ -96,6 +96,10 @@ sources: []
 | Inbox/The-Passage.md | faction-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/factions/the-passage.md` (updated — Calder's Tooth limestone cave infrastructure; Osha's Slip) |
 | Inbox/Maren.md | entity-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/characters/npcs/maren.md` (updated — Halythion lead via mortis mechanic) |
 | Inbox/Rael-Corven.md | entity-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/characters/npcs/rael-corven.md` (updated — Cloak of Useful Things at Shelfworks) |
+| Inbox/Red-Lady.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/red-lady.md` (updated — full stat block, read-aloud, wreck context) |
+| Inbox/Brass-Cat.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/brass-cat.md` (new — DaVirelli's submersible schooner) |
+| Inbox/campaign-overview.md | lore, player-facing | ingested | 2026-05-28 | `wiki/lore/campaign-overview.md` (new — player-facing setting reference) |
+| Inbox/lines-and-veils.md | reference, safety | ingested | 2026-05-28 | `wiki/system/lines-and-veils.md` (new — agent content boundary reference) |
 | Inbox/Il-Gioco-delle-Beffe copy.md | narrative-island, dm-notes | ingested | 2026-05-28 | `wiki/islands/il-gioco-delle-beffe-dm.md` (new — DM mechanics: phase structure, rivals, prize table) |
 
 ## Pending Queue (status: pending, priority order)

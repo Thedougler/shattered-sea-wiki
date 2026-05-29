@@ -23,6 +23,7 @@ sources: []
 ## entities/characters/npcs
 - [[admiral-fisk|Admiral Fisk]] — Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered.
 - [[aldric-drave|Aldric Drave]] — [stub] Stub — Dravosi founder-lich; the true reason Cosimo Verantio had the Pearl of Souls stolen. Tessarine intelligence believes Aldric could use the Pearl to extend his Hierarch abilities beyond the Dravosi bloodline.
+- [[andriana-trevisan|Andriana Trevisan]] — [stub] Knows roughly where something in the Warren is, but won't name a contact or lead anyone there.
 - [[anzolo|Anzolo]] — Unknown figure Nona Black-Jaw believes was sent to find Perrin. May already be at sea. Not yet encountered.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
 - [[barnaby-rook|Barnaby Rook]] — Hard Dravosi Crown privateer captain. Unharmed, alone, and pissed at the end of Session 01 — standing on the HCS Surety gangplank with a reloading flintlock.
@@ -38,6 +39,7 @@ sources: []
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
 - [[master-kyzil|Master Kyzil]] — Large owl-like figure; Crissdalynn's master or mentor. Reunited with her in Calveno after searching Kylo and Firefall. Thought she was dead when her ship went down.
+- [[noa-fifita|Noa Fifita]] — [stub] Referenced in the Kalowe–Takowan survey situation. Role not yet established.
 - [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch of the Black-Jaw Passage network; Perrin's grandmother. Met in Calveno's Le Paludi kitchen. Attacks on Perrin called off. Has a favor to ask — he said yes before hearing it. Holds the paired sending stone.
 - [[rael-corven|Rael Corven]] — Captain of the Red Lady and flag captain of Fisk's Fleet. His soul is one of the five captains pressed into Delmar Fisk.
 - [[rupert-knighton|Rupert Knighton]] — Dravosi Crown figure who will send ships in response to Cap'n Gorgeous's death. Not yet encountered. Represents the institutional consequence of the Session 01–02 boarding actions.
@@ -103,6 +105,7 @@ sources: []
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|Midchain]] — [stub] Island chain Jean-Claude crossed for months after fleeing Sorn. The Saltwright passed through here when Jean-Claude leapt aboard in Session 01.
+- [[oshas-slip|Osha's Slip]] — [stub] The Passage's favored night-landing site for small high-value cargo, on Calder's Tooth.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control.
 - [[shelfworks|Shelfworks]] — [stub] Area above the Antheri Ruins where Catarina DaVirelli salvaged functional components in 1488 DR, triggering the Shelfworks Goldrush.
 - [[sorn|Sorn]] — [stub] Grung site or garrison Jean-Claude fled from. Simone leads Sorn's garrison and a hunter unit tracking deserters.
@@ -114,15 +117,22 @@ sources: []
 - [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
 
 ## entities/places/buildings
+- [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
+- [[calders-tooth|Calder's Tooth]] — [stub] Island guarding the western mouth of the Central Strait; limestone cave systems under the Overland Track are used by The Passage. Parent island of the Cape Solitude lighthouse situation.
+
+## entities/places/regions
+- [[ashwall-islands|Ashwall Islands]] — [stub] Island group referenced as a destination beyond the Galewall crossing, toward the western edge of the Shattered Sea.
+- [[shattered-sea|The Shattered Sea]] — [stub] The campaign's setting: an archipelago in two main arcs separated by a wide channel.
 
 ## entities/places/settlements
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
 - [[kalowe|Kalowe]] — Largest Midchain free port, neutral dry dock, Chain Council meeting ground, Beaumont Sel off-route port, and Five Blades base.
 - [[murrat|Murrat]] — [stub] Home of the Moucheron. Ket flew toward Murrat after being freed from the HCS Surety.
+- [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
 
 ## entities/places/settlements/calveno
 - [[acqua-nera|Acqua-Nera]] — [stub] Stub — Calveno yard operated by [[dario|Dario]]; alternative to Carpenters' Slip for hull work; does re-identification for money and certainty, no referral required.
@@ -189,6 +199,7 @@ sources: []
 - [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.
 - [[hcs-surety-manifest|Uncertainty — Ship Manifest]] — Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 - [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
+- [[hcs-warrant|HCS Warrant]] — [stub] Crown enforcement vessel commanded by Commander Gideon Ault; the Phase 3 Crown response to the missing HCS Surety.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.

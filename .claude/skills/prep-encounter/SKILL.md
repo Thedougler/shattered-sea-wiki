@@ -10,12 +10,13 @@ description: >
   run at least once before calibrating.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-Read these before generating any encounter content:
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Then read these domain-specific sources before generating any encounter content:
 1. `wiki/system/party-combat-primer.md` — party combat patterns, Avoid flags (binding)
 2. `wiki/dm/combat-analytics.md` — empirical patterns observed at this table
-3. `wiki/hot.md` — current arc, faction pressures, active situations
 
 The party primer's **Avoid** section is binding. If your encounter would violate it, redesign before proceeding.
 

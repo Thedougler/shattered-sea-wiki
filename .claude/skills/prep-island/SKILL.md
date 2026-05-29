@@ -10,21 +10,21 @@ description: >
   Always loads sandbox-narrative for anti-railroading review.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-1. **Is this actually an island?** A single condition with one clock is a situation
-   (`prep-situation`). An island is a *cluster* of interconnected situations, NPCs, and
-   locations with a coherent premise. If in doubt, start with a situation — islands can
-   grow from them.
-2. Check `wiki/index.md` — stub exists? Expand it.
-3. Read `wiki/hot.md` — how does this island connect to active threads and party goals?
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+
+Domain-specific: **Is this actually an island?** A single condition with one clock is a situation (`prep-situation`). An island is a *cluster* of interconnected situations, NPCs, and locations with a coherent premise. If in doubt, start with a situation — islands can grow from them.
 
 ---
 
-## Required Frontmatter Fields
+## Island-Specific Frontmatter Fields
+
+Universal fields auto-fill. You must author these island-specific fields:
 
 ```yaml
-type: island
 portable: true/false          # can it be lifted and dropped into other campaign contexts?
 entry_points:                 # hooks that pull players in — minimum 2
   - "[Entry hook 1]"

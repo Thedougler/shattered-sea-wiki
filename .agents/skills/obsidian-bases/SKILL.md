@@ -298,7 +298,7 @@ views:
 ## When to Use Bases
 
 Bases are **canonical infrastructure**, not optional visualizations. They are the primary
-mechanism for keeping overview and aggregation pages DRY (see AGENTS.md § DRY & dynamic
+mechanism for keeping overview and aggregation pages DRY (see CLAUDE.md § DRY & dynamic
 content).
 
 ### Decision Tree
@@ -329,7 +329,7 @@ Bases **cannot read markdown body text**. They can only query:
 
 This means fields that need to appear in base views **must exist in frontmatter**.
 All toy fields (including `active_problem`) live in YAML frontmatter only.
-See AGENTS.md § DRY & dynamic content.
+See CLAUDE.md § DRY & dynamic content.
 
 ---
 

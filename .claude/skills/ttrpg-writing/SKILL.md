@@ -137,23 +137,10 @@ in the source material or explicit brief. Invention erodes the DM's trust in the
 
 ## Sandbox Constraints
 
-The Shattered Sea is a player-driven sandbox. These constraints override standard fiction
-technique wherever they conflict. Fiction technique builds toward authored outcomes; sandbox
-technique builds toward interesting decisions. The DM's job is to adjudicate an interactive
-simulation, not read from a script.
-
-**The Player Character Boundary.** Never write what a PC decides, chooses, intends, feels,
-thinks, or wants. Write what the environment does and what NPCs do. If a sentence ends with
-a player character taking action or having a feeling, rewrite it to end with the world doing
-something instead.
-
-**Independent NPC Agency.** Write NPC goals as if the party doesn't exist yet. Faction
-objectives predate the party. NPC behavior follows their own wants — NPCs pursue, they
-don't wait for players to arrive.
-
-**Pressures, Not Plots.** Frame content as pressures (things that are true and building) and
-possibilities (what the environment affords), never as scripted outcomes. Avoid "if the
-players do X, then Y happens" chains scripted more than one step deep.
+The three sandbox constraints — the Player Character Boundary, Independent NPC Agency, and
+Pressures Not Plots — are defined once in `wiki/system/doctrine.md`. They override standard
+fiction technique wherever they conflict, so apply them to every piece of prose. Load doctrine
+if you need the full statements and examples.
 
 ---
 

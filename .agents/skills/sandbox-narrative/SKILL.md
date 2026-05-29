@@ -20,32 +20,11 @@ lead to equally valid outcomes.
 
 ---
 
-## Sandbox Constraints (Apply to All Content)
+## Sandbox Constraints
 
-**The Player Character Boundary**
-Never write what a PC decides, chooses, feels, or wants. Every sentence ends with the world
-or an NPC doing something — not a PC reacting.
-
-```
-❌ Your breath catches as the ship crests the wave.
-✅ The ship crests the wave, and for one suspended moment the whole sea is below you.
-
-❌ You feel the weight of what you've done.
-✅ The square is empty now. The torch they lit is still burning.
-```
-
-**Independent NPC Agency**
-Write NPC goals as if the party doesn't exist yet. Faction objectives predate the party.
-NPCs pursue their goals — they don't wait for players to arrive.
-
-**Pressures, Not Plots**
-Frame content as pressures (things that are true and building) and possibilities (what the
-environment affords). Avoid "if the players do X, then Y happens" chains scripted more than
-one step deep.
-
-**Plot vs. Situation:**
-- ❌ "Players will discover the cult and stop the ritual."
-- ✅ "There is a cult. They are recruiting. The ritual happens in 5 days. Here's what they want and what happens if no one stops them."
+The three constraints that govern all content — the Player Character Boundary, Independent NPC
+Agency, and Pressures Not Plots — live in `wiki/system/doctrine.md`. They are the foundation
+these narrative principles build on; load doctrine for the full statements and examples.
 
 ---
 

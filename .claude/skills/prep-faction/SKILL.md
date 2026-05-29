@@ -10,19 +10,17 @@ description: >
   for existing stubs before creating a new page.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-1. Check `wiki/index.md` — stub exists? Expand it; don't recreate.
-2. Read `wiki/hot.md` — current clock status and active faction pressures.
-3. Confirm paths: `wiki/entities/factions/{slug}.md` (DM-facing) + player-facing page if needed.
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
 ## Faction Page Structure
 
-**Frontmatter:** `type: faction`, `subtype`, `status: active/dormant/dissolved`,
-`summary` (2 sentences: what they want + how they operate), `relationships`,
-`confidence_level`
+**Frontmatter:** universal/entity fields auto-fill. Author the domain values: `status` (`active | dormant | dissolved`) and a `summary` of 2 sentences (what they want + how they operate).
 
 **Required body sections:**
 

@@ -26,11 +26,9 @@ set of wiki files, and leave the source traceable.
 
 ## Required Skill Chain
 
-Load these first:
-
-1. `ttrpg-llm-wiki-init` — boot checks, `wiki/hot.md`, routing, structure.
-2. `ttrpg-writing` — DM reference mode, player-facing mode, anti-slop rules.
-3. This skill.
+Run `ttrpg-llm-wiki-init` once at session start (boot checks, routing). Load `ttrpg-writing`
+when you write prose. Cross-cutting rules — reading order, frontmatter, the auto-correct
+protocol — are in `wiki/system/doctrine.md`; load it on demand rather than re-deriving them.
 
 Load domain skills only when the source produces that content:
 
@@ -84,8 +82,10 @@ Choose one mode before reading source content.
 | `resume` | Work queue or partial registry entry exists | Continue the last source from the recorded next action |
 | `audit` | User suspects stale or missing ingest status | Compare `.raw/`, `Inbox/`, registry, and wiki outputs |
 
-Do not run an unbounded ingest over many files unless the DM explicitly asks. If the scan
-finds more than five pending files, report the queue and ask which source to process first.
+Process the pending queue autonomously in priority order — ingest each source, archive it,
+commit, move to the next. Don't stop to ask which to do first. The only reasons to pause are a
+genuine lore contradiction or ambiguous entity identity (see the auto-correct protocol in
+`doctrine.md`); flag those and keep going on the rest.
 
 ---
 
@@ -93,22 +93,20 @@ finds more than five pending files, report the queue and ask which source to pro
 
 ### 1. Preflight
 
-1. Read `CLAUDE.md`.
-2. Read `wiki/hot.md`.
-3. Read `wiki/system/task-routing.md`.
-4. Read `wiki/ingest-registry.md`.
-5. Run the pending-source scan if the task is not tied to one explicit source.
-
-Use:
+1. Read `wiki/hot.md` (CLAUDE.md is already in context; load `doctrine.md` only if needed).
+2. Read `wiki/ingest-registry.md`.
+3. Scan for pending/unregistered sources:
 
 ```bash
+python3 .claude/scripts/sync_registry.py
 python3 .claude/skills/ttrpg-wiki-ingest/scripts/scan_pending.py --include-root-docs
 ```
 
 ### 2. Source Handling
 
-Treat the source file as immutable. Never rewrite, clean up, or move the raw source during
-ingest unless the user explicitly asks.
+The source content is immutable — never rewrite or clean it up. But it is **relocated** once
+fully ingested: it moves from `Inbox/` into `.raw/<type>/` (see step 7). During ingest, read it
+in place.
 
 For large sources:
 
@@ -163,8 +161,10 @@ Write the smallest useful set of files. For every wiki file touched:
 4. Use wikilinks for entities, locations, factions, sessions, and situations.
 5. Add reciprocal links when the relationship is durable.
 6. Add stubs only for concrete referenced entities, not vague possibilities.
-7. Update `wiki/index.md`.
-8. Append a one-line entry to `wiki/log.md`.
+7. Append a one-line entry to `wiki/log.md`.
+
+Frontmatter completeness and `updated` are handled by the write hook — don't hand-maintain them.
+Do not hand-edit `wiki/index.md`; it is regenerated in step 7.
 
 Update `wiki/hot.md` when the source changes current world state, active situations,
 faction clocks, PC threads, or predictions.
@@ -181,17 +181,37 @@ Every ingest run ends by updating `wiki/ingest-registry.md`:
 - Source intentionally ignored: `skipped` with reason
 - Source blocked on DM judgment: `blocked` with the exact question
 
-List concrete wiki output paths in the registry. Do not write "various pages".
+List concrete wiki output paths in the registry. Do not write "various pages". Derive them from
+real changes rather than memory:
 
-### 7. Quality Gates
+```bash
+python3 .claude/scripts/sync_registry.py --diff HEAD..   # wiki/ files touched since last commit
+```
 
-Read `references/quality-gates.md` before final response.
+### 7. Archive, Regenerate Index, and Commit
+
+Once a source is fully propagated and its registry row reads `ingested`, finish it:
+
+```bash
+python3 .claude/scripts/archive_source.py Inbox/<Source>.md   # moves to .raw/<type>/, fixes registry path
+python3 .claude/scripts/regen_index.py --write
+git add wiki .raw Inbox
+git commit -m "ingest: <Source> — <short output summary>"
+```
+
+Commit **per source**, not per batch — one source, one commit, no prompt. This is the default;
+do not ask the DM for permission to commit routine ingests. (Blocked or contradiction-flagged
+sources are the exception: leave them in `Inbox/`, record the `blocked` status, and move on.)
+
+### 8. Quality Gates
+
+Read `references/quality-gates.md` before the final response.
 
 Minimum checks:
 
 - `git diff --check`
-- Run the pending-source scan again if registry status changed.
-- Confirm `.claude` and `.agents` skill packages stay mirrored when editing this skill.
+- `python3 .claude/scripts/sync_registry.py` shows the source moved out of `Inbox/` and no new unregistered drift.
+- If you edited this skill itself, run `python3 .claude/scripts/sync_skills.py --apply` to regenerate `.agents/skills/`.
 
 ---
 
@@ -223,12 +243,11 @@ Recommended next source: ...
 For ingest mode, return:
 
 ```markdown
-Ingested: source path
-Updated: wiki files
-Created: wiki files
+Ingested: source path → archived to .raw/<type>/
+Created/Updated: wiki files
+Committed: <commit subject(s)>
 Registry: status
 Flags for DM: none / list
-Verification: commands run
 ```
 
 Keep the final answer short. The durable record belongs in the wiki, registry, and log.

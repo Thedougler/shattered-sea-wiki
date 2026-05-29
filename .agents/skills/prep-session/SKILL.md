@@ -10,13 +10,14 @@ description: >
   moment and builds at least one scene for them.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-Read these before generating any content:
-1. `wiki/hot.md` — current arc, active pressures, faction clock states, spotlight status
-2. `wiki/system/party-session-primer.md` — party roleplay levers, PC connections
-3. `wiki/sessions/` — most recent `sNNN-summary.md` for continuity
-4. `wiki/dm/player-interests.md` — current player engagement queue
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page. Then read these domain-specific sources before generating:
+1. `wiki/system/party-session-primer.md` — party roleplay levers, PC connections
+2. `wiki/sessions/` — most recent `sNNN-summary.md` for continuity
+3. `wiki/dm/player-interests.md` — current player engagement queue
 
 **Spotlight check:** Identify which PC has not had a meaningful moment recently
 (check hot.md spotlight tracking). Build at least one scene that specifically serves

@@ -41,27 +41,26 @@ Is CLAUDE.md present?
 
 ---
 
-## Step 0 — Read CLAUDE.md First (All Modes Except Init)
+## Step 0 — Context Already Loaded (All Modes Except Init)
 
-Read `CLAUDE.md` completely before any check. It overrides defaults in this skill. Extract:
+`CLAUDE.md` is already in context every session — do not re-read it. It carries campaign name,
+party, factions, and a pointer to `wiki/system/doctrine.md`, which owns the cross-cutting rules
+(reading order, frontmatter requirements, auto-correct protocol, ideal state). Load `doctrine.md`
+only if you need a rule's full statement.
 
-- Campaign name and system
-- Party composition (PCs and players)
-- Folder structure expectations
-- Frontmatter requirements beyond universal defaults
-- Automatic behavior rules
-- Ideal State definition
-
-If `CLAUDE.md` is missing → switch to **Init Mode**.
-If `CLAUDE.md` is malformed or missing required sections → flag and continue with universal
-defaults. Do not halt.
+If `CLAUDE.md` is absent from context → switch to **Init Mode**.
 
 ---
 
 ## Fast Check Protocol
 
-Run all 14 checks in order. Fix each violation immediately before continuing to the next.
-Commit each fix with a brief message. Target: complete before any content task begins.
+Phase A is structural and cheap — always run it. **Early exit:** if all Phase A checks pass and
+there is no active task in `wiki/work-queue.md`, the vault is healthy — skip Phase B and go
+straight to routing. Phase B is for when something in Phase A was off or the session just
+ingested new material. Don't burn context gardening a vault that's already clean.
+
+Fix each violation immediately and commit it (`fix: …`). Frontmatter completeness is handled by
+the write hook, not by you — see `doctrine.md`.
 
 ### Phase A — Structural (Checks 1–7, Always Auto-Fix)
 
@@ -78,41 +77,36 @@ Commit each fix with a brief message. Target: complete before any content task b
 ### Phase B — Content Integrity (Checks 9–14)
 
 ```
-[ ] 9.  Inbox/ contents — list any files present; flag each for processing via wiki-categorize
-[ ] 10. Spot-check 5 random wiki files for frontmatter validity (type, summary, updated fields)
-[ ] 11. wiki/ingest-registry.md — if exists, count pending items; surface count to DM
+[ ] 9.  Inbox/ + .raw/ — run sync_registry.py; surface unregistered sources for ingest
+[ ] 10. Spot-check 3 wiki files for a concrete (non-stub) summary — the hook handles fields
+[ ] 11. wiki/ingest-registry.md — count pending/unregistered items; surface to DM
 [ ] 12. git log --oneline -5 — surface last 5 commits as the operation history (one line)
-[ ] 13. wiki/hot.md — READ FULLY and actively garden (see Check 13 Protocol)
-[ ] 14. wiki/index.md — SCAN directory and actively garden (see Check 14 Protocol)
+[ ] 13. wiki/hot.md — curate ONLY if sessions were ingested since its updated date (see below)
+[ ] 14. wiki/index.md — regenerate deterministically (see below)
 ```
 
-### Check 13 — hot.md Active Curation (Required, Not Optional)
+Run the scan and registry checks together:
+```bash
+python3 .claude/scripts/sync_registry.py
+```
 
-`hot.md` is a **living document**, not a file to check for staleness and move on.
-Read it fully. Cross-reference against `git log --oneline --since="{hot.md updated date}"` to see what sessions have been ingested.
+### Check 13 — hot.md Curation (Conditional)
 
-For each section, ask: *Does this reflect actual current world state?*
+Don't re-read and re-garden `hot.md` every session. Check whether anything actually changed:
+`git log --oneline --since="{hot.md updated date}"` — if no sessions or world-state ingests
+landed since, `hot.md` is current; skip. Only when new material landed, route to the `hot-update`
+skill (or, if absent, rewrite the affected sections inline) and commit
+`curation: hot.md updated — {what changed}`. hot.md must be accurate before downstream tasks,
+but accurate ≠ rewritten-from-scratch-every-time.
 
-- Faction clocks advanced since last update? → rewrite Faction Clocks section
-- Situations resolved or advanced? → rewrite Live Situations section
-- PC threads shifted? → rewrite Open PC Threads section
-- Spotlight changed? → rewrite Spotlight Tracking section
+### Check 14 — index.md Regeneration (Deterministic)
 
-Update the `updated` date. Write the file. Commit: `curation: hot.md updated — {what changed}`
-
-hot.md **must** be accurate before any downstream task runs.
-
-### Check 14 — index.md Active Curation (Required, Not Optional)
-
-Scan the `wiki/` directory tree. Compare against `wiki/index.md` entries.
-
-- Files present in wiki/ but absent from index → add entries with current frontmatter summary
-- Index entries pointing to non-existent files → remove entry (or create stub if referenced elsewhere)
-- Entries where frontmatter summary has changed → update one-line entry
-
-Write the file. Commit: `curation: index.md updated — {N entries added/removed/updated}`
-
-The index is the agent's navigation map. A stale index causes routing failures downstream.
+The index is auto-generated from frontmatter — never hand-curated. Regenerate it:
+```bash
+python3 .claude/scripts/regen_index.py --write
+```
+If `git status` shows the index changed, commit `curation: index.md regenerated`. That's the
+whole check — no manual scanning or diffing.
 
 ### Health Summary Output
 
@@ -188,8 +182,8 @@ Apply during Fast Check and Full Audit. **Fix immediately, then commit.**
 | Violation | Auto-Correction |
 |---|---|
 | File in wrong path | Move to correct path; update all inbound wikilinks; commit |
-| Missing frontmatter field | Add with default from `references/frontmatter-defaults.md`; commit |
-| Broken wikilink | Create stub at correct path; add to index.md; commit |
+| Missing frontmatter field | Handled automatically by the write hook (`fix_frontmatter.py`) |
+| Broken wikilink | Create stub at correct path; regenerate index; commit |
 | Naming convention violation | Rename to kebab-case; update all inbound wikilinks; commit |
 | Missing bidirectional relationship | Add reciprocal link to target file; commit |
 | Orphaned file | Add to index; find natural parent and link; commit |
@@ -203,26 +197,13 @@ fix: {correction-type} — {file} — {description}
 
 ---
 
-## Frontmatter Standards (Universal)
+## Frontmatter Standards
 
-Full defaults and type inference tables → `references/frontmatter-defaults.md`
-
-**Universal fields (every file):**
-`type` · `subtype` · `campaign` · `status` · `audience` · `publish` · `summary` ·
-`created` · `updated` · `tags` · `sources`
-
-**Additional fields by type:**
-- Entity files: + `confidence_level` · `relationships`
-- Situation files: + `lifecycle` · `island`
-- Island files: + `portable` · `entry_points` · `contains_situations`
-- Session files: + `session_number` · `session_date`
-- System files: + `system_role` · `token_profile` · `mandatory_for` · `update_trigger`
-
-**Summary quality bar:**
-- BAD: `"An important NPC with a complex background."` — no facts
-- GOOD: `"Rattkin matriarch of the Black-Jaw Run; reunited with Perrin in Calveno, has a favor to ask."` — concrete, current
-
-Every summary answers: *What is this entity RIGHT NOW, and why does it matter?*
+Frontmatter requirements by type, default values, and the summary quality bar live in
+`wiki/system/doctrine.md` (and full default/inference tables in
+`references/frontmatter-defaults.md`). The write hook completes missing fields automatically;
+your only frontmatter job is writing a concrete, current `summary` — the hook flags any that are
+still stub defaults.
 
 ---
 
@@ -230,6 +211,10 @@ Every summary answers: *What is this entity RIGHT NOW, and why does it matter?*
 
 After Fast Check: identify the user's task and route to the correct skill.
 **Read the target skill before generating any content.**
+
+When a routed skill's required reads include a primer or intelligence file (e.g.
+`party-combat-primer.md`, `player-interests.md`), check its `status:` first — if it's still
+`stub`, skip it. Reading an empty template wastes context; note "primer is a stub" and proceed.
 
 ### Session Pipeline
 | User Intent | Route To |

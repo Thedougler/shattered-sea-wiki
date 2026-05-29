@@ -8,10 +8,11 @@ description: >
   Applies to all location subtypes: regions, islands, settlements, buildings, dungeons, planes.
 ---
 
+> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+
 ## Prerequisites
 
-1. Check `wiki/index.md` — stub exists? Expand it.
-2. Read `wiki/hot.md` — what's currently true about this location?
+Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
@@ -23,7 +24,7 @@ If user message doesn't answer these, ask all at once:
 - Cultural root (who built or inhabits it)?
 - Campaign context — what is this location's current role?
 
-PC connection is required. If you cannot name it, ask before generating.
+The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
 
 ---
 
@@ -78,27 +79,7 @@ PC connection is required. If you cannot name it, ask before generating.
 
 ## Frontmatter
 
-```yaml
----
-type: entity
-subtype: [region|island|settlement|building|dungeon|plane]
-campaign: shattered-sea
-status: active
-audience: players
-publish: true
-summary: "[One-liner: what it is right now and why it matters]"
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags: [place, relevant-tags]
-sources: [Homebrew]
-confidence_level: established
-relationships: []
-verb: ""
-unstable_condition: ""
-consequence: ""
-link_of_relevance: ""
----
-```
+Universal and entity fields are auto-completed by the write hook. You must author the location-specific values: `subtype` (`region | island | settlement | building | dungeon | plane`) and the four toy fields (`verb`, `unstable_condition`, `consequence`, `link_of_relevance` — see Toy Fields above).
 
 ---
 

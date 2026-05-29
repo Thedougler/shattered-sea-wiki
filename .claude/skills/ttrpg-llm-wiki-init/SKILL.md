@@ -84,7 +84,7 @@ the write hook, not by you — see `doctrine.md`.
 [ ] 13. wiki/index.md — regenerate deterministically (see below)
 ```
 
-Count pending sources (read-only):
+Count pending sources (also safely removes exact duplicate Inbox files):
 ```bash
 python3 .claude/scripts/check_ingest.py --count
 ```
@@ -164,7 +164,9 @@ VAULT_ROOT/
     ├── entities/ characters/pcs/ npcs/ crew/ minor/
     │            places/  factions/  deities/  items/  vehicles/
     ├── situations/ active/  dormant/  resolved/
-    ├── islands/  lore/  rules/  sessions/
+    ├── narrative-islands/   (portable plot-device clusters — NOT geographic islands,
+    │                         which are places under entities/places/islands/)
+    ├── lore/  rules/  sessions/
 ```
 
 Log: `INIT: vault scaffolded for campaign {name} — {N} directories, {N} files created`

@@ -51,7 +51,7 @@ sources: []
 - [[wirra|Wirra]] — Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly.
 
 ## entities/characters/crew
-- [[alys-kuiper|Alys Kuiper]] — Surgeon. Joined the party crew from the HCS Surety in Session 02.
+- [[alys-kuiper|Alys Kuiper]] — Ship's surgeon — calm, competent, doing inventory while waiting to see if the new management understands what a surgeon's post actually is.
 - [[drav-holke|Drav Holke]] — Bosun aboard the Saltwright under Beaumont Sel. Short, broad, practical, and exacting about correct ship work.
 - [[fen|Fen]] — Ordinary sailor aboard the Saltwright under Beaumont Sel. Young, earnest, and treating eight months at sea as deeply formative.
 - [[geoffrey-draves|Geoffrey Draves]] — Nineteen-year-old Dravosi deckhand and ship's carpenter. Defected mid-fight when given a choice; party's first crew member. No ship assigned yet.

@@ -221,7 +221,7 @@ sources: []
 - [[low-lamp|The Low Lamp]] — The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.
 - [[marrows|Marrow's]] — A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
 - [[tangle-chambers|The Tangle Chambers]] — The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held.
-- [[the-splint|The Splint]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
+- [[the-splint|The Splint]] — The Warren's apothecary and healer — a small, methodical Rattkin named Colla sets bones, closes wounds, and stocks the only reliable supply of healing preparations below Calveno.
 
 ## entities/factions
 - [[beaumonts-crew|Beaumont's Crew]] — The four working hirelings crewing the Saltwright under Captain Beaumont Sel — navigator, bosun, cook, and ordinary sailor.
@@ -417,7 +417,8 @@ sources: []
 - [[the-baroness|The Baroness]] — Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip.
 - [[the-drowned-keel|The Drowned Keel]] — A legendary Antheri salvage modification enabling controlled temporary submersion — takes the ship to 60 feet and keeps the crew breathing for two hours per day.
 - [[the-duchess|The Duchess]] — Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last.
-- [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
+- [[the-red-flat|The Red Flat]] — Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it.
+- [[the-snap|The Snap]] — A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free.
 - [[truth-stone|Truth Stone]] — Stone that compels truth. Beaumont slid it to Jean-Claude; Jean-Claude used it and confirmed three facts about himself.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
@@ -450,7 +451,8 @@ sources: []
 - [[tessarine-silkvane|Tessarine Courier *Silkvane*]] — A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels.
 - [[the-bad-receipt|The *Bad Receipt*]] — A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo.
 - [[the-narrow|The *Narrow*]] — Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
-- [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
+- [[the-quorum|The *Quorum*]] — The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands.
+- [[the-tallow-bell|The *Tallow Bell*]] — A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
 - [[vestra|Vestra]] — Perrin Black-Jaw's family fishing ship, built and captained by his grandfather and later used to support the family. Destroyed by something massive from below; Perrin's family does not know the full loss.
 - [[vethka|Vethka]] — Grung single-trunk war proa built from Verdant Teeth ironpillar hardwood. Fast in reef country and used for raids.
@@ -492,6 +494,7 @@ sources: []
 - [[shattered-sea-pantheon|Shattered Sea Pantheon]] — The active divine landscape of the Shattered Sea: Umberlee dominates maritime practice, with Valkur and Tyr acting as important counterweights.
 - [[the-galewall-runners-drop|The Galewall Runner's Drop]] — A legendary privateer treasure cache rumored to be hidden on one of the volcanic Ashwall Islands — deposited during a desperate flight from the Dravosi Admiralty in the early colonial period.
 - [[the-grandfather-hole|The Grandfather Hole]] — A legendary underwater sinkhole in the eastern Midchain where a century of shipwrecks lie at the bottom — guarded by an ancient Sawek and animated crews.
+- [[the-tithe-of-the-bitch-queen|The Tithe of the Bitch Queen]] — A legendary collection of divine treasure scattered across the Sunken Crown seafloor — taking a single coin invites Umberlee's direct, personal spite. The sea follows you home.
 - [[umberlee-and-waveservants|Umberlee and the Waveservants]] — Public lore on Umberlee and the Waveservants: the feared sea goddess, her practical clergy, and the tribute customs sailors treat as port infrastructure.
 
 ## lore/species

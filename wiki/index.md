@@ -188,7 +188,7 @@ sources: []
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
-- [[murrat|Murrat]] — [stub] Home of the Moucheron. Ket flew toward Murrat after being freed from the HCS Surety.
+- [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
 - [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
 
 ## entities/places/settlements/calveno
@@ -201,7 +201,7 @@ sources: []
 - [[kats-curios|Kat's Curios]] — [stub] Curio shop or appraisal service in Calveno run by Catalina Curio. Delmar's whip shark barb was assessed here; Catalina is to follow up.
 - [[la-vasca|La Vasca]] — The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden.
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.
-- [[moretti-and-sons|Moretti & Sons]] — [stub] Stub — Calveno chandlery run by [[giacomo-moretti|Giacomo Moretti]]; ship stock, festival goods, and twenty-year Beffa Accord record.
+- [[moretti-and-sons|Moretti & Sons Chandlery]] — Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up.
 - [[ponte-bassa|The Ponte Bassa]] — [stub] Stub — Calveno tavern and canal-boat hire; [[oleandro-fuschi|Oleandro Fuschi]] keeps it; good for food, boats, and arrival intelligence.
 - [[studio-orsini|Studio Orsini]] — [stub] Workshop or studio in Calveno run by Marta Orsini. Referral destination for Jean-Claude's fertilized whip shark eggs.
 - [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
@@ -345,6 +345,8 @@ sources: []
 - [[mechanism-repair|Mechanism Repair]] — Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required.
 - [[medicinal-spirits|Medicinal Spirits]] — High-proof alcohol for wound cleaning and sterilisation — also consumed, which is its secondary purpose and its primary one at sea. 3 sp per bottle.
 - [[miras-blade|Mira's Blade]] — A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
+- [[mixed-spices|Mixed Spices]] — Pepper, clove, and ginger from the Verdant Teeth trade — makes salt provisions edible at sea. 1 gp per lb.
+- [[musket|Musket]] — Martial ranged weapon. Highest single-shot damage (1d12), but Loading, shortest range of any two-hander, and three firearm penalties (misfire, loud, wet) that bows avoid entirely.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
@@ -427,6 +429,10 @@ sources: []
 - [[grung|Grung]] — Playable amphibious poison frog humanoids from the Verdant Teeth. Grung society is caste-marked by skin color; Jean-Claude Tabarnack is a blue grung PC who fled that system.
 - [[rattkin|Rattkin]] — Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port.
 - [[tabaxi|Tabaxi]] — Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
+
+## rules
+- [[mortis|The Mortis]] — Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept.
+- [[mounts-and-vehicles|Mounts and Vehicles]] — PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] —

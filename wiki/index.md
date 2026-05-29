@@ -395,6 +395,8 @@ sources: []
 - [[sending-stone-anchor|Sending Stone Anchor]] — Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[shark-pull|Shark Pull]] — Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently.
+- [[ships-biscuit|Ship's Biscuit]] — Hard, dry, long-lasting sea bread — the staple provision of every working vessel in the Shattered Sea.
+- [[shortbow|Shortbow]] — Simple ranged weapon — compact, light, no proficiency barrier, the default ranged option for rangers, rogues, and anyone who needs reach without martial training.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -498,6 +500,10 @@ sources: []
 - [[expanded-cargo-hold|Expanded Cargo Hold]] — Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
 - [[ship-bastion|Ship Bastion — The Shattered Sea]] — Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits.
 - [[ship-combat|Ship Combat]] — Rules for ship's guns, broadsides, shot types, and multi-deck volleys — expands the 2024 DMG vehicle rules.
+- [[ship-mechanics|Ship Mechanics]] — Hub page for all Shattered Sea ship rules — tiers, crew, operations, bastion, upgrades, and combat.
+- [[ship-operations|Ship Operations]] — Travel speeds, navigation checks, upkeep costs, acquiring a ship, living quarters, and ship reputation for Shattered Sea play.
+- [[ship-stats|Ship Stats — The Shattered Sea]] — Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play.
+- [[ship-upgrades|Ship Upgrades — The Shattered Sea]] — Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability.
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

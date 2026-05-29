@@ -209,3 +209,4 @@ sources: []
 - CREATE: `wiki/lore/campaign-overview.md` — player-facing setting reference; geography, powers, faith, peoples
 - CREATE: `wiki/system/lines-and-veils.md` — safety reference for agent content generation
 - [[alys-kuiper|Alys Kuiper]] — crew surgeon, *Uncertainty*; recruited from HCS Surety. Session 02.
+- [[barnaby-rook|Barnaby Rook]] (creature) — stat block for CR 3 privateer captain encounter.

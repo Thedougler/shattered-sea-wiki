@@ -287,3 +287,10 @@ sources: []
 - 2026-05-28 | ingest | Clockwork-Familiar — merged into clockwork-owl-familiar (upgraded stub)
 - 2026-05-28 | ingest | Clydes-Bestiary-of-Oceanic-Creatures — stub upgraded with full excerpts
 - 2026-05-28 | ingest | Common-Wine — new item page
+- 2026-05-29 | ingest | Dinghy-Mooring — new item page (service)
+- 2026-05-29 | ingest | Document-Transit — new item page (service, Passage Kin-network)
+- 2026-05-29 | ingest | Doldrums — stub upgraded to full player-facing gazetteer
+- 2026-05-29 | ingest | Dorian-Bishop — new NPC page (DM-only, Crown escalation tier)
+- 2026-05-29 | new stub | hcs-tangent — stub created from Dorian Bishop ingest
+- 2026-05-29 | ingest | Drave-Vaults — new location page (dungeon seed, Fort Crestwall)
+- 2026-05-29 | ingest | Dreamwort-Extract — new item page (consumable, Studio Orsini)

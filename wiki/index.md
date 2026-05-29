@@ -38,6 +38,7 @@ sources: []
 - [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
 - [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk.
+- [[dorian-bishop|Captain Dorian Bishop]] — Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
@@ -109,7 +110,7 @@ sources: []
 - [[stripes-bitemore|Stripes Bitemore]] — Hunter from Keth Naar whose tribe read the seas as wrong and sent him to find the cause. Took passage on the Saltwright before Session 01; absent from current active party.
 - [[suryo-wibowo|Suryo Wibowo]] — Proprietor of Wibowo's Provisions on Kalowe's first island. Broad, efficient, talks at the same speed he works. Will tell a captain who is under-ordering exactly why, in terms that are not unkind but are precise.
 - [[taufa-fifita|Taufa Fifita]] — Patriarch of the Fifita family, proprietor of the Taufa Fifita & Sons chandlery on Kalowe. Knows every ship that has bought rope from him and what they used it for in general terms. Doesn't ask about specifics.
-- [[umberlee-servant|Umberlee's Servant (unnamed)]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
+- [[umberlee-servant|Umberlee's Servant → [[branca|Branca]]]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
 - [[vincenzo-black-jaw|Vincenzo Black-Jaw]] — Deceased patriarch of the Black-Jaw Run — built and captained the Vestra, Nona's late husband, Perrin's grandfather.
 - [[vrtek|Vrtek]] — Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships.
 
@@ -118,7 +119,8 @@ sources: []
 - [[aruhe|Aruhe]] —
 - [[central-strait|The Central Strait]] — The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end.
 - [[crown-islands|The Crown Islands]] — Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
-- [[doldrums|The Doldrums]] — A seasonally drifting zone of near-zero wind affecting the Central Strait corridor. Best used as a pacing and pressure tool — route intelligence and drift timing are tradable, high-value information.
+- [[doldrums|The Doldrums]] — A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels.
+- [[drave-vaults|Drave Vaults]] — Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file.
 - [[elemental-plane-of-water|Elemental Plane Of Water]] — [stub] Planar source connected to the Drowned Maw fissure. The Pearl of Souls turned the fissure into an attractor, pulling entities through.
 - [[galewall|The Galewall]] — A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something.
 - [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
@@ -256,6 +258,9 @@ sources: []
 - [[deepwater-ink|Deepwater Ink]] — An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures.
 - [[delmars-cloak-of-the-manta-ray|Delmar's Cloak of the Manta Ray]] — Delmar Fisk's family heirloom — 60 ft. swim speed, underwater breath, and manta form while the hood is up. Kept him alive when his ship didn't.
 - [[depth-eye|Depth Eye]] — A hull-mounted lens for 60-foot underwater observation from below decks.
+- [[dinghy-mooring|Dinghy Mooring]] — Overnight lagoon-side tie-up for a small dinghy or ship's launch — ring bolts, calm water, nothing stolen.
+- [[document-transit|Document Transit]] — Secure transit for sealed documents through the Warren's Kin network — 5 gp minimum, price reflects content weight not physical weight.
+- [[dreamwort-extract|Dreamwort Extract]] — A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -278,6 +283,7 @@ sources: []
 - [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.
 - [[hcs-surety-manifest|Uncertainty — Ship Manifest]] — Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 - [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
+- [[hcs-tangent|HCS Tangent]] — [stub] Stub — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; not used for inspections.
 - [[hcs-warrant|HCS Warrant]] — [stub] Crown enforcement vessel commanded by Commander Gideon Ault; the Phase 3 Crown response to the missing HCS Surety.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
@@ -352,6 +358,7 @@ sources: []
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
 - [[session-03-recap|03 — Getting in on the Joke]] — Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened.
+- [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week, run as a balanced sandbox + theme-park. Five attractions (Umberlee's Pearl summons, the Warren/ship, the sewer Grung, Red Lady salvage, the Beffa) each carry a directed entry hook AND reactive sandbox handling. ~4–5 hrs.
 
 ## system
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.

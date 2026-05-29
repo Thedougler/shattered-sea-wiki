@@ -299,6 +299,7 @@ sources: []
 - [[ghost-keel-coating|Ghost Keel Coating]] — A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months.
 - [[grappling-hook|Grappling Hook]] — A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp.
 - [[grilled-canal-eel|Grilled Canal Eel]] — The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired.
+- [[ground-coffee|Ground Coffee]] — Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -316,12 +317,16 @@ sources: []
 - [[dead-lady|The *Dead Lady*]] — The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him.
 - [[fernen|The *Fernen*]] — Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw.
 - [[greyteeth-runner|Greyteeth Runner]] — A lean Tier 1 reef runner sloop currently for sale in Port Tidefall — fast, shallow-drafted, and built for reef channels where patrol cutters can't follow.
+- [[hcs-constancy|HCS *Constancy*]] — A Dravosi Crown heavy frigate — the standard Tier 3 patrol vessel of the Crown fleet, built to inspect, board, and enforce across the Central Strait and Crown Islands waters.
+- [[hcs-ordinance|HCS *Ordinance*]] — A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign.
+- [[hcs-relentless|HCS Relentless]] — A Tier 1 patrol cutter in Port Tidefall — same class as HCS Surety but more heavily armed, in pristine condition, and not for sale.
+- [[hcs-sovereign|HCS *Sovereign*]] — The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
 - [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.
 - [[hcs-surety-manifest|Uncertainty — Ship Manifest]] — Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 - [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
-- [[hcs-tangent|HCS Tangent]] — [stub] Stub — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; not used for inspections.
+- [[hcs-tangent|HCS Tangent]] — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
 - [[hcs-warrant|HCS Warrant]] — [stub] Crown enforcement vessel commanded by Commander Gideon Ault; the Phase 3 Crown response to the missing HCS Surety.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.

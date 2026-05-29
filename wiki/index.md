@@ -141,7 +141,7 @@ sources: []
 - [[oshas-slip|Osha's Slip]] — A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit.
 - [[shelfworks|The Shelfworks]] — Open-water Antheri salvage field on the western shelf of the Drowned Maw, where clear shallow ruins promise impossible materials before the seabed drops into black water.
-- [[sorn|Sorn]] — [stub] Grung site or garrison Jean-Claude fled from. Simone leads Sorn's garrison and a hunter unit tracking deserters.
+- [[sorn|Sorn]] — A reef-fringed Grung island in the Verdant Teeth — known from the water as green wall, pale sand, and danger. Agricultural interior; trade beach only.
 - [[sunken-crown|Sunken Crown]] — [stub] Region containing Vel Orn and the Blue Shrine where Fisk's fleet stole the Pearl of Souls.
 - [[tail|The Tail]] — [stub] Stub — western staging region nearest to the Drowned Maw crossing approach.
 - [[the-drowned-maw|The Drowned Maw]] — A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
@@ -162,6 +162,7 @@ sources: []
 - [[kalowe-waveservant-shrine|Waveservant Shrine — Kalowe]] — Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything.
 - [[ormssons-fittings|Ormsson's Fittings]] — An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise.
 - [[shelf-instrument-dealer|The Shelf Instrument Dealer]] — Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance.
+- [[south-harbour-impound|South Harbour Impound]] — A roped-off section of the South Harbour east pier — chain, hand-lettered Crown notice, a clerk's hut with a lamp in it, and several vessels sitting in their berths going nowhere.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
@@ -191,6 +192,7 @@ sources: []
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
 - [[port-tidefall|Port Tidefall]] — Dravosi fortress-port carved into the cliff of Calder's Tooth in three tiers: Dockfront at the waterline, the Shelf mid-cliff, and Fort Crestwall at the crown.
+- [[south-harbour|South Harbour]] — The eastern working harbour of Calder's Tooth — fishing fleets, independent shipwrights, and the island's black-market breathing room.
 
 ## entities/places/settlements/calders-tooth
 - [[overland-track|The Overland Track]] — The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls.
@@ -400,6 +402,9 @@ sources: []
 - [[shortsword|Shortsword]] — A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships.
 - [[signal-lantern|Signal Lantern]] — Shuttered lantern with coloured glass panels for maritime signalling — found at every chandlery supplying working ships.
 - [[silk-rope|Silk Rope]] — Lighter and stronger than hemp, sold in small quantities at premium chandleries.
+- [[simple-meal|Simple Meal]] — Salt fish, hard bread, and pickled greens — the baseline meal at most Shattered Sea port taverns.
+- [[small-beer|Small Beer]] — Very low-alcohol fermented grain drink — safer than untreated water on long passages, without the intoxicating effects of real ale.
+- [[smoke-bomb|Smoke Bomb]] — A compact alchemical device that produces a 10-foot sphere of dense smoke lasting one minute.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.

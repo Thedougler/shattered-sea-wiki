@@ -22,7 +22,9 @@ sources: []
 
 ## entities/characters/npcs
 - [[admiral-fisk|Admiral Fisk]] — Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered.
-- [[aldric-drave|Aldric Drave]] — [stub] Stub — Dravosi founder-lich; the true reason Cosimo Verantio had the Pearl of Souls stolen. Tessarine intelligence believes Aldric could use the Pearl to extend his Hierarch abilities beyond the Dravosi bloodline.
+- [[aldo-riva|Aldo Riva]] — Co-proprietor of Al Fondale in Le Paludi — the cook, the talker, and the man who heard the cellar panel click at midnight two nights ago and has not told his wife.
+- [[aldous-draves|Aldous Draves]] — Minor Dravosi gentleman and Crown-licensed factor — Geoffrey Draves's father, who arranged his son's berth on the Surety using a wage contract he knew was not what Geoffrey believed it was.
+- [[aldric-drave|Aldric Drave]] — Founder of the Dravosi Crown — a Hierarch lich who seeded his bloodline into every noble family and has been running the Crown from underneath for three hundred years.
 - [[andriana-trevisan|Andriana Trevisan]] — [stub] Knows roughly where something in the Warren is, but won't name a contact or lead anyone there.
 - [[anzolo|Anzolo]] — Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
@@ -147,7 +149,7 @@ sources: []
 - [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
 
 ## entities/places/islands
-- [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
+- [[aldenmere|Aldenmere]] — The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake.
 - [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 
 ## entities/places/regions
@@ -207,6 +209,8 @@ sources: []
 - [[valkur|Valkur]] — Chaotic Good minor deity of sailors, sea survival, favorable winds, and private courage below decks.
 
 ## entities/items
+- [[alchemists-fire|Alchemist's Fire]] — A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp.
+- [[ale|Ale]] — A standard mug of fermented grain ale — dark and slightly sour at the Flat Water, and reliable. 4 cp.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.

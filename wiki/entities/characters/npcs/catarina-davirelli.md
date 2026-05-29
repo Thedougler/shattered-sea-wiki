@@ -4,25 +4,58 @@ subtype: npc
 campaign: shattered-sea
 status: active
 audience: dm
-publish: false
-summary: "Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench."
+publish: true
+species: human
+aliases:
+  - Da'Virelli
+  - Catarina
+roleplay_prompt: "Tony Stark without the charm, with better NDAs"
+summary: "An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [npc, inventor, calveno, antheri, artificer]
+tags: [npc, human, inventor, calveno, antheri, artificer]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Catarina-DaVirelli.md"]
 confidence_level: confirmed
 relationships:
-  - relation: located_in
-    target: "[[calveno|Calveno]]"
-  - relation: salvaged_from
-    target: "[[shelfworks|Shelfworks]]"
-  - relation: sold_to
-    target: "[[beaumont-sel|Beaumont Sel]]"
+  - "[[calveno|Calveno]] — based here, by referral only"
+  - "[[shelfworks|Shelfworks]] — salvage source; Shelfworks Goldrush"
+  - "[[beaumont-sel|Beaumont Sel]] — sold Salvaged Antheri Plate"
+  - "[[dravosi-crown|Dravosi Crown]] — binding contract"
+  - "[[tessarine-concordat|Tessarine Concordat]] — standing purchase orders she has not accepted"
 ---
 
-# Catarina DaVirelli
+# Catarina Da'Virelli
 
-Calveno inventor and reverse-engineer. In 1488 DR, salvaged functional [[antheri|Antheri]] components from the [[shelfworks|Shelfworks]] above the [[antheri-ruins|Antheri Ruins]] and turned several into working devices. The rush of prospectors, scholars, and criminal contractors that followed became the Shelfworks Goldrush. Catarina did not participate; she returned to [[calveno|Calveno]] and put her workshop into production.
+![[raw/assets/portraits/Catarina-DaVirelli.webp|Catarina DaVirelli in her workshop, holding tools among benches of mechanisms and ship fittings]]
+
+---
+
+| | |
+|---|---|
+| **Species** | Human |
+| **Role** | Artificer, Cat's Curios |
+| **Location** | [[calveno|Calveno]], by referral only |
+| **Status** | Not yet encountered |
+
+---
+
+## Overview
+
+Catarina Da'Virelli is an artificer working out of [[calveno|Calveno]]. She does not advertise. Her workshop has no sign. Finding it requires knowing where to look in the right side-street, which requires a referral, which requires someone in her network trusting you enough to pass your name along. This is not an accident.
+
+She is the foremost living expert on [[antheri|Antheri]] materials. She builds things that most artificers in the Scatter cannot replicate — magical items, ship installations, and prototypes that may or may not have a second version. She will tell you upfront if something is impossible and explain exactly why.
+
+In 1488 DR, salvaged functional [[antheri|Antheri]] components from the [[shelfworks|Shelfworks]] above the [[antheri-ruins|Antheri Ruins]] and turned several into working devices. The rush of prospectors, scholars, and criminal contractors that followed became the Shelfworks Goldrush. Catarina did not participate; she returned to [[calveno|Calveno]] and put her workshop into production.
+
+## Appearance & Manner
+
+Lean, in a work apron over plain clothes. Her hands carry the permanent fine stain of solder flux and dark Antheri metal. Grey-streaked dark hair, pinned up out of the way. She looks at what you've brought before she looks at you.
+
+Precise, honest to a fault about what she can and can't make. Will tell you upfront if something is impossible and explain why. Will not pretend a prototype is finished when it isn't.
+
+## Wants
+
+Build things that work. Maintain independence and workshop control.
 
 ---
 

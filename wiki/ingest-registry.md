@@ -86,6 +86,16 @@ sources: []
 | Inbox/Governors-Seat.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/governors-seat.md` (new — Voss boxed out; sealed Maw orders; Delmar's name opens the gate) |
 | Inbox/Fort-Crestwall.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/fort-crestwall.md` (new — sealed orders; underwater charges to Maw; Duty Sergeant's Necklace) |
 | Inbox/Port-Tidefall.md | situation-source, narrative-island | ingested | 2026-05-28 | `wiki/islands/port-tidefall-dockfront.md` (new — dockfront opportunities; ship leads, Maret, cache, Waveservant pressure) |
+| Inbox/Aruhe.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/aruhe.md` (updated — Blight DM notes added; Death Bloom; Grung awareness) |
+| Inbox/Cape-Solitude.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/situations/active/cape-solitude.md` (new — Dead Light mystery; intentionally unresolved) |
+| Inbox/Central-Strait.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/central-strait.md` (updated — DM chokepoint framing added) |
+| Inbox/Doldrums.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/doldrums.md` (new — seasonal drift pacing tool) |
+| Inbox/Galewall.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/galewall.md` (new — phoenix causality; crossing pressure; Stormwarden ambiguity) |
+| Inbox/Halythion.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/halythion.md` (new — hidden sea elf city; Maren's lead) |
+| Inbox/Outer-Reach.md | situation-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/places/outer-reach.md` (new — under-governed zone; Sunken Crown instability) |
+| Inbox/The-Passage.md | faction-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/factions/the-passage.md` (updated — Calder's Tooth limestone cave infrastructure; Osha's Slip) |
+| Inbox/Maren.md | entity-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/characters/npcs/maren.md` (updated — Halythion lead via mortis mechanic) |
+| Inbox/Rael-Corven.md | entity-source, dm-notes | ingested | 2026-05-28 | `wiki/entities/characters/npcs/rael-corven.md` (updated — Cloak of Useful Things at Shelfworks) |
 | Inbox/Il-Gioco-delle-Beffe copy.md | narrative-island, dm-notes | ingested | 2026-05-28 | `wiki/islands/il-gioco-delle-beffe-dm.md` (new — DM mechanics: phase structure, rivals, prize table) |
 
 ## Pending Queue (status: pending, priority order)

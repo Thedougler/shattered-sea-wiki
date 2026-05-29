@@ -26,3 +26,11 @@ Deep brown skin with blue-green iridescence, heavy salt-dampened locs threaded w
 Fast in the water, able to breathe beneath the surface, and treats a "no entry" sign as a suggestion worth investigating. She and the fleet's air scouts made Fisk's scouting reach exceptional.
 
 **Voice:** Warm, loud, and corrects people on her name: MARE-EN.
+
+---
+
+## DM Notes — What Maren's Soul Knows
+
+**Halythion lead:** Maren knows [[halythion|Halythion]] exists. South of the [[midchain|Midchain]], near the Tail — a natural bay guarded by reefs where ships that go looking don't return. Source: a sea elf friend who offered details in pieces over months. She never pushed for more. She doesn't know if the friend is still alive.
+
+This is a personal lead, not a tavern rumour. It surfaces through the mortis mechanic when [[delmar-fisk|Delmar]]'s soul-passengers surface.

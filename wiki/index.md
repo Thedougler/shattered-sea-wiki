@@ -45,7 +45,7 @@ sources: []
 - [[ket|Ket]] — A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN.
-- [[master-kyzil|Master Kyzil]] — Large owl-like figure; Crissdalynn's master or mentor. Reunited with her in Calveno after searching Kylo and Firefall. Thought she was dead when her ship went down.
+- [[master-kyzil|Master Kyzil]] — Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch of the Black-Jaw Passage network; Perrin's grandmother. Met in Calveno's Le Paludi kitchen. Attacks on Perrin called off. Has a favor to ask — he said yes before hearing it. Holds the paired sending stone.
 - [[rael-corven|Rael Corven]] — Captain of the Red Lady and flag captain of Fisk's Fleet. His soul is one of the five captains pressed into Delmar Fisk.
@@ -136,7 +136,7 @@ sources: []
 - [[halythion|Halythion]] — Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
 - [[high-eyrie|The High Eyrie]] — Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
-- [[midchain|Midchain]] — [stub] Island chain Jean-Claude crossed for months after fleeing Sorn. The Saltwright passed through here when Jean-Claude leapt aboard in Session 01.
+- [[midchain|The Midchain]] — The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one.
 - [[orak|Orak]] — [stub] Stub — island in the Verdant Teeth paired close to Dreth; the channel between them is crocodile water.
 - [[oshas-slip|Osha's Slip]] — [stub] The Passage's favored night-landing site for small high-value cargo, on Calder's Tooth.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control.
@@ -177,6 +177,7 @@ sources: []
 - [[huahei|Huahei]] — A small overgrown marshy island in the Midchain, notable for an odd fey presence.
 - [[karath|Karath]] — A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning.
 - [[keth-naar|Keth-Naar]] — A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone.
+- [[meth-var|Meth-Var]] — The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -341,7 +342,9 @@ sources: []
 - [[marlinspike|Marlinspike]] — A tapered steel tool for separating rope strands and working knots — essential gear for anyone who works rigging. 5 sp.
 - [[marsh-ale|Marsh Ale]] — Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds.
 - [[mast-work|Mast Work]] — Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing.
-- [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
+- [[mechanism-repair|Mechanism Repair]] — Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required.
+- [[medicinal-spirits|Medicinal Spirits]] — High-proof alcohol for wound cleaning and sterilisation — also consumed, which is its secondary purpose and its primary one at sea. 3 sp per bottle.
+- [[miras-blade|Mira's Blade]] — A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.

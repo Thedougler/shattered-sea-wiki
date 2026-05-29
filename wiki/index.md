@@ -240,6 +240,12 @@ sources: []
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations.
 - [[common-wine|Common Wine]] — Imported table wine — average quality, primarily useful for variety and because it keeps better than water at sea.
+- [[compass|Compass]] — A standard magnetic navigation compass — points north reliably, except near the Drowned Maw.
+- [[compass-of-the-drowned|Compass of the Drowned]] — A brass compass that points toward the nearest shipwreck within 10 miles rather than magnetic north — useful, unsettling, and currently in Morsani's cabinet.
+- [[consignment-storage|Consignment Storage]] — Secure short-term storage in the Warren — 1 gp per week, three-week hard limit, no exceptions.
+- [[cooked-meal|Cooked Meal]] — Rice, pork, and roast plantain — the evening hot meal at the Flat Water, available while it lasts.
+- [[cooking-oil|Cooking Oil]] — Palm oil or similar clean cooking fat — essential for any galley that does more than boil things.
+- [[cooking-tools|Cooking Tools]] — Pots, knives, fire strikers, and trivets — the basic equipment for any galley or kitchen.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.

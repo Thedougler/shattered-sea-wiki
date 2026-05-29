@@ -1,35 +1,89 @@
 ---
+title: Aruhe
 type: entity
 subtype: place
+category: location
+island_type: deserted-island
+publish: true
 campaign: shattered-sea
-status: stub
-audience: dm
-publish: false
-summary: "Stub — Midchain island commissioned for survey by Nona; three-phase structure (harbour safe, clifftop dangerous, interior = Blight dungeon); Grung call it 'the island that is already eaten.'"
-created: 2026-05-28
-updated: 2026-05-28
-tags: [stub, place, island, midchain, blight, nona]
-sources: ["Inbox/Nona-Midchain-Commission.md"]
-confidence_level: confirmed
-relationships:
-  - relation: located_in
-    target: "[[midchain|Midchain]]"
-  - relation: commissioned_by
-    target: "[[nona-black-jaw|Nona]]"
+audience: players
+status: active
+region: midchain
+parent_location: "[[midchain|The Midchain]]"
+governance: "Ungoverned; avoided by Grung patrols and pilots"
+access: "Avoided reef approach; no safe stop recommended"
+confidence_level: medium
+aliases:
+  - Aruhe Island
+tags: [island, midchain, deserted, hazard]
+sources:
+  - Homebrew
 ---
 
 # Aruhe
 
-Midchain island. Three-phase structure: harbour (safe), clifftop (dangerous), interior (Blight dungeon). Grung call it "the island that is already eaten." Party is commissioned by [[nona-black-jaw|Nona]] to survey viability — she has 5 specific questions (see [[nona-midchain-commission|Nona — Midchain Commission]]). Signal lantern protocol: 30-mile range, 25-word limit, daily at dusk. DM note: "don't stay past dark."
+A small reef island on the Midchain's inner edge, immediately east of the [[verdant-teeth|Verdant Teeth]]. It shows up on older charts as a minor waypoint — freshwater spring, narrow beach, shallow garden terraces. No one lives there now. Grung patrol boats from the Verdant Teeth work the surrounding reefs close enough that no settlement ever held long enough to matter, and the island was quietly abandoned. Even the [[sorn|Sorn]] merchants who know this stretch of the Midchain well have little to say about it. It never bordered their trade routes.
 
----
+There is nothing there worth stopping for.
 
-## DM Notes — The Blight
+The Grung don't go there either.
 
-The [[Blight]] has established a Memorial in the abandoned interior. The **Death Bloom** is the encounter at the island's interior center. The whole interior functions as the dungeon. The acid drainage dissolving the terraces is the Blight's byproduct.
+That is the detail most outside accounts omit, because most outside accounts are not close enough to notice. The Grung patrol the reefs around Aruhe — they do not land on it. Their boats work the channel and turn back at the beach line. Sorn intermediaries who know enough Grung to trade have offered the nearest translation of the island's local name as something like *the island that is already eaten*. They do not elaborate, and pushing for clarification ends the conversation.
 
-**Current state (World Tick 2026-05-16):** The interior is fully claimed. Corruption has pushed through every flooded ditch and terrace structure outward from the Death Bloom. Giant fauna have been driven out or subsumed — frogs, snakes, scorpions, and spiders are now crowded onto the narrow coastal strip. The Memorial is complete. The dungeon is set. No outward sign is visible to passing ships; the coastal crowding reads as wrong only to someone who lands.
+The water around Aruhe's eastern tip runs a faint brown-gold at low tide. Old Midchain pilots who have passed close know the smell. It is not silt or algae. It is the same sharp-mineral bite as a hull plank dissolved by prolonged acid contact, draining from the flooded interior into the sea. Something in there is old enough that the island's drainage has shaped itself around it. The terraces didn't fall from neglect. They dissolved from the base up, slowly, over a span of time that is easier to measure by how much limestone is missing than by any record anyone kept.
 
-**Grung awareness:** The Grung patrol the surrounding reefs but actively refuse to land. Their name for it translates as "the island that is already eaten." They know what's there.
+That is the public reason crews give. The practical reason is that abandoned garden terraces are perfect cover for things that followed the old settlement after people left. Traders who pass too close report giant frogs in the flooded ditches, giant venomous snakes and giant scorpions in the terrace walls, and webbed cuts through the brush that suggest giant spiders have had years to make the place their own. The terrace walls in particular are good scorpion ground: limestone blocks stacked dry, sun-warmed through the afternoon, and hollow behind the facing stones where the old mortar failed. One trader who anchored briefly to fill water came back to the beach to find a scorpion the size of a goat under his dinghy. He left the dinghy and used a barrel lid to paddle to his ship. The story travels as a joke among Midchain pilots. He does not find it funny.
 
-**Campaign role:** Optional regional hazard. Enters play if the party shelters from weather, follows a drifting wreck, avoids Karath patrols, or investigates a chart note. Not connected to the Sorn arc, Jean-Claude's thread, or the Grung escalation. Keep the public page simple (deserted, too close to the Teeth) until the party has reason to learn more.
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Deserted reef island near the Verdant Teeth |
+| Region | [[midchain|The Midchain]] |
+| Controlled By | Ungoverned; avoided by Grung patrols and pilots |
+| Access | Avoided reef approach; no safe stop recommended |
+| Primary Economy | None; former garden terraces and freshwater spring |
+| Known For | Abandoned terraces, acid-tainted drainage, and Grung refusal to land |
+
+## Geography
+
+Aruhe is a small reef island with a narrow beach, a freshwater spring, old garden terraces, and flooded interior drainage. The water around the eastern tip runs faint brown-gold at low tide, carrying the sharp mineral smell of prolonged acid contact.
+
+## Settlements & Sites
+
+| Place | Type | Notes |
+|---|---|---|
+| Old garden terraces | ruin / wilderness | Abandoned terraces dissolved from below and occupied by island predators. |
+| Freshwater spring | wilderness / water source | Former waypoint resource now too dangerous to rely on. |
+
+## People & Power
+
+No one openly governs Aruhe. Grung boats patrol nearby reefs but turn back at the beach line, which is the most important political fact about the place.
+
+## Trade & Resources
+
+Aruhe has no active trade. Its former value was freshwater, terrace gardening, and waypoint shelter; all of those uses have effectively failed.
+
+## Fauna
+
+The abandoned garden terraces have had years of uncontested occupation. Giant scorpions hold the terrace walls — the dry-stacked limestone blocks run warm through the afternoon and stay hollow behind the facing stones where the old mortar failed. They do not announce themselves.
+
+Giant spiders have taken the interior brush: webbed trail cuts through the old garden paths indicate a population that has spread from the terrace structures into the surrounding growth. The web density makes the interior visually distinctive from offshore if you know what you are looking at.
+
+Giant venomous snakes work the flooded ditches alongside giant frogs, which have colonised every standing-water feature on the island. The frogs are large enough to take small animals and territorial enough at the water's edge that they contest the beach at night.
+
+## Hazards
+
+Acid-tainted drainage, giant frogs, giant venomous snakes, giant scorpions, giant spiders, and whatever the Grung avoid make Aruhe a bad stop.
+
+## Current Hooks
+
+- The Grung patrol the reefs around Aruhe but do not land.
+- The brown-gold drainage suggests something old and acidic in the flooded interior.
+- Anyone who does land finds the coastal strip unnaturally crowded — too many giant frogs, scorpions, snakes, and spiders packed against the shoreline, pressed there as if something worse holds the interior.
+
+## See Also
+
+- [[verdant-teeth|Verdant Teeth]]
+- [[midchain|The Midchain]]
+- [[sorn|Sorn]]

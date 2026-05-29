@@ -28,8 +28,8 @@ sources: []
 - [[andriana-trevisan|Andriana Trevisan]] — [stub] Knows roughly where something in the Warren is, but won't name a contact or lead anyone there.
 - [[anzolo|Anzolo]] — Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
-- [[barnaby-rook|Barnaby Rook]] — Hard Dravosi Crown privateer captain. Unharmed, alone, and pissed at the end of Session 01 — standing on the HCS Surety gangplank with a reloading flintlock.
-- [[bastian-crev|Bastian Crev]] — Combat-specialist captain of the Loud Argument in Fisk's Fleet. Theatrical, dangerous, and one of the five souls pressed into Delmar Fisk.
+- [[barnaby-rook|Barnaby Rook]] — Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names.
+- [[bastian-crev|Bastian Crev]] —
 - [[beaumont-sel|Beaumont Sel]] — Old alligator-snapping tortle captain. Sun-bleached leather eye cover, clay pipe, Bisou the capuchin. Salvaged Antheri Plate on right shoulder. Now fighting alongside the party.
 - [[branca|Branca]] — [stub] Stub — Umberlee's representative in Calveno; waits for Delmar Fisk, whom Umberlee knew was coming before he did. Polite, appointment-pressure mode, tide-table booklet.
 - [[catarina-davirelli|Catarina DaVirelli]] — Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench.
@@ -114,7 +114,7 @@ sources: []
 
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
-- [[aruhe|Aruhe]] — [stub] Stub — Midchain island commissioned for survey by Nona; three-phase structure (harbour safe, clifftop dangerous, interior = Blight dungeon); Grung call it 'the island that is already eaten.
+- [[aruhe|Aruhe]] —
 - [[central-strait|Central Strait]] — [stub] Strategic strait with Dravosi inspection forces at the western entrance. Port Tidefall formed around that control point.
 - [[crown-islands|Crown Islands]] — [stub] Islands claimed by the Dravosi Crown when it established its first colonial presence in the Shattered Sea in 1195 DR.
 - [[doldrums|The Doldrums]] — A seasonally drifting zone of near-zero wind affecting the Central Strait corridor. Best used as a pacing and pressure tool — route intelligence and drift timing are tradable, high-value information.
@@ -154,7 +154,7 @@ sources: []
 - [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 
 ## entities/places/regions
-- [[ashwall-islands|Ashwall Islands]] — [stub] Island group referenced as a destination beyond the Galewall crossing, toward the western edge of the Shattered Sea.
+- [[ashwall-islands|Ashwall Islands]] —
 - [[shattered-sea|The Shattered Sea]] — [stub] The campaign's setting: an archipelago in two main arcs separated by a wide channel.
 
 ## entities/places/settlements
@@ -254,6 +254,7 @@ sources: []
 
 ## situations/active
 - [[abyss-vision|The Abyss Vision — "Grow"]] — Something in the abyss communicated with Perrin during the storm watch, at considerable cost. One word: 'Grow.' Perrin also inhabited a whip shark's body and witnessed something larger than two ships below.
+- [[aruhe|Aruhe — DM Notes]] —
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] — Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming.
 - [[calveno-situation|Calveno — Warren, Salvage, and Ship Disguise]] — Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city.
 - [[cape-solitude|Cape Solitude — Dead Light Mystery]] — Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
@@ -293,6 +294,12 @@ sources: []
 - [[grung|Grung]] — Playable amphibious poison frog humanoids from the Verdant Teeth. Grung society is caste-marked by skin color; Jean-Claude Tabarnack is a blue grung PC who fled that system.
 - [[rattkin|Rattkin]] — Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port.
 - [[tabaxi|Tabaxi]] — Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
+
+## rules/encounter-design
+- [[battlefield-actions|Battlefield Actions]] —
+
+## rules/subsystems
+- [[bastions|Bastions]] —
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

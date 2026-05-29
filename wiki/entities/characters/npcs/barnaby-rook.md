@@ -2,25 +2,35 @@
 type: entity
 subtype: npc
 campaign: shattered-sea
-status: active
+status: presumed_dead
+species: human
 audience: dm
 publish: false
-summary: "Hard Dravosi Crown privateer captain. Unharmed, alone, and pissed at the end of Session 01 — standing on the HCS Surety gangplank with a reloading flintlock."
+summary: "Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names."
 created: 2026-05-27
 updated: 2026-05-27
 tags: [npc, human, dravosi, captain, antagonist]
-sources: ["Inbox/Session-01-Recap.md"]
+sources: ["Inbox/Session-01-Recap.md", "Inbox/Barnaby-Rook.md"]
 confidence_level: observed
 relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — serves"
   - "[[hcs-surety|HCS Surety]] — commands"
-  - "[[geoffrey-draves|Geoffrey Draves]] — former crew, turned on him"
+  - "[[dravosi-crown|Dravosi Crown]] — serves"
   - "[[beaumont-sel|Beaumont Sel]] — fired on; shot deflected"
+  - "[[geoffrey-draves|Geoffrey Draves]] — former crew, turned on him"
+  - "[[dorian-bishop|Dorian Bishop]] — Crown chain of command"
+  - "[[rupert-knighton|Rupert Knighton]] — Crown chain of command"
+  - "[[norrington-kingsly|Norrington Kingsly]] — predecessor"
 ---
 
 # Barnaby Rook
 
 **Quote:** *"I'll shoot you myself for that, you turncoat."*
+
+## Role
+
+Barnaby is the face of Tidefall's tightening posture. He boards under colour of law, pushes conversations toward fear, and expects weaker captains to fold before violence starts. He is the harder replacement for [[norrington-kingsly|Norrington Kingsly]]: less interested in routine fees, more interested in leverage, names, and the kind of inspection that leaves a captain poorer even when the paperwork survives.
+
+## Appearance & Manner
 
 Hard Crown privateer captain. Dark officer coat. Flintlock and cutlass. Square jaw, coin-worthy authority. Commands the [[hcs-surety|HCS Surety]].
 
@@ -34,6 +44,14 @@ No hesitation about shooting his own crew for defection.
 **Proactive Objectives:**
 - Reclaim the Saltwright or make the boarding party regret it.
 - His crew is dead or defected. He is alone and calculating.
+
+## Wants
+
+He wants the eastern inspection campaign to produce leverage: names, contraband, compliant captains, and examples that make the next boarding easier.
+
+## Inspection Pressure
+
+Rook knows the Surety's orders, the pressure pattern around Tidefall, and enough about his crew to recognize [[geoffrey-draves|Geoffrey Draves]]'s surrender as betrayal in the moment it happens.
 
 ## State After Session 01
 Unharmed. Alone on the HCS Surety gangplank. Flintlock fired once at Beaumont — deflected.

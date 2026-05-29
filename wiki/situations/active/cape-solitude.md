@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, cape-solitude, mystery, calders-tooth]
 sources: ["Inbox/Cape-Solitude.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Cape Solitude — Dead Light Mystery
 region: crown-islands
 confidence_level: low

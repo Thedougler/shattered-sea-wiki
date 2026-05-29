@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [situation, thread, grung, calveno, raid, jean-claude]
 sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
 lifecycle: active
-island:
+narrative_island:
 confidence_level: high
 relationships:
   - relation: involves

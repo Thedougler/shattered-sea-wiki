@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [situation, thread, pearl, principal, tessarine, council]
 sources: ["Inbox/Who-Commissioned-the-Theft.md"]
 lifecycle: active
-island:
+narrative_island:
 confidence_level: high
 relationships:
   - relation: involves

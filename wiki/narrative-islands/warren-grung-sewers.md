@@ -1,5 +1,5 @@
 ---
-type: island
+type: narrative-island
 subtype: narrative
 campaign: shattered-sea
 status: active
@@ -10,8 +10,6 @@ created: 2026-05-26
 updated: 2026-05-28
 tags: [island, warren, grung, calveno, jean-claude, perrin]
 sources: ["Inbox/Warren-Grung-Sewers.md"]
-lifecycle: dormant
-island:
 portable: false
 entry_points:
   - Nona hears Jean-Claude is with Perrin (automatic; she offers this first)

@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, active, secret, dm-only, jean-claude]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Jean-Claude-Tabarnack.md"]
 lifecycle: active
-island:
+narrative_island:
 ---
 
 # The Canister

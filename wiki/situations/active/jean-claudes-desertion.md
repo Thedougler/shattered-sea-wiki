@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, grung, desertion, expansion, jean-claude]
 sources: ["Inbox/Jean-Claudes-Desertion.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Jean-Claude — Grung Expansion
 confidence_level: high
 region: midchain

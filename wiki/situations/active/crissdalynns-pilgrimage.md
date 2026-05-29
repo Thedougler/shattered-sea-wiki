@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, pilgrimage, aarakocra, eyrie, maw]
 sources: ["Inbox/Crissdalynns-Pilgrimage.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Crissdalynn's Pilgrimage
 confidence_level: high
 relationships:

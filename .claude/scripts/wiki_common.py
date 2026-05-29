@@ -76,7 +76,9 @@ def infer_type(relpath: str) -> str:
     table = [
         ("wiki/entities/", "entity"),
         ("wiki/situations/", "situation"),
-        ("wiki/islands/", "island"),
+        # A "narrative island" is a portable plot-device / scenario cluster — NOT a
+        # geographic landmass. Actual islands are places (entities/places/islands/).
+        ("wiki/narrative-islands/", "narrative-island"),
         ("wiki/sessions/", "session"),
         ("wiki/system/", "system"),
         ("wiki/lore/", "lore"),
@@ -112,7 +114,7 @@ def infer_subtype(relpath: str) -> str:
         ("wiki/situations/active/", "active-situation"),
         ("wiki/situations/dormant/", "dormant-situation"),
         ("wiki/situations/resolved/", "resolved-situation"),
-        ("wiki/islands/", "island"),
+        ("wiki/narrative-islands/", "narrative-island"),
         ("wiki/lore/species/", "species"),
         ("wiki/lore/creatures/", "creature"),
         ("wiki/lore/history/", "history"),
@@ -147,8 +149,8 @@ def infer_subtype(relpath: str) -> str:
 # relationships-in-frontmatter check, which drives migration of any that remain.
 TYPE_EXTRA_FIELDS = {
     "entity": ["confidence_level"],
-    "situation": ["lifecycle", "island"],
-    "island": ["portable", "entry_points", "contains_situations"],
+    "situation": ["lifecycle", "narrative_island"],
+    "narrative-island": ["portable", "entry_points", "contains_situations"],
     "session": ["session_number", "session_date"],
     "system": ["system_role", "token_profile", "mandatory_for", "update_trigger"],
 }

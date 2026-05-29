@@ -1,5 +1,5 @@
 ---
-type: island
+type: entity
 subtype: crown-isle
 campaign: shattered-sea
 status: stub

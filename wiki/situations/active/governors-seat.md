@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, port-tidefall, governor-voss, dravosi, maw]
 sources: ["Inbox/Governors-Seat.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Governor's Seat — Voss and the Sealed Orders
 region: crown-islands
 confidence_level: high

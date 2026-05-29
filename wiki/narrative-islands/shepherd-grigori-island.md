@@ -1,5 +1,5 @@
 ---
-type: situation
+type: narrative-island
 subtype: narrative-island
 campaign: shattered-sea
 status: active
@@ -10,8 +10,9 @@ created: 2026-05-28
 updated: 2026-05-28
 tags: [narrative-island, undead, hierarch, villain, late_game]
 sources: ["Inbox/Shepherd-Grigori.md"]
-lifecycle: island
-island:
+portable: false
+entry_points: []
+contains_situations: []
 title: Shepherd Grigori
 region: central-strait
 confidence_level: high

@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, resolved, conflict]
 sources: ["Inbox/Session-01-Recap.md"]
 lifecycle: resolved
-island:
+narrative_island:
 ---
 
 # The Rook Resolution

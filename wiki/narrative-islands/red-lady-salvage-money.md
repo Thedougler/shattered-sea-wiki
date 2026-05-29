@@ -1,5 +1,5 @@
 ---
-type: island
+type: narrative-island
 subtype: narrative
 campaign: shattered-sea
 status: active
@@ -10,8 +10,6 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, calveno, red-lady, salvage, delmar, crissdalynn]
 sources: ["Inbox/Red-Lady-Salvage-Money.md"]
-lifecycle: dormant
-island:
 portable: false
 entry_points:
   - Delmar asks about the Red Lady, the Maw, or salvage money in Calveno

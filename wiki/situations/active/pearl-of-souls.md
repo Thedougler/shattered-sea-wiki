@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, pearl, umberlee, souls, attractor, planar, maw]
 sources: ["Inbox/Pearl-of-Souls.md", "Inbox/Delmar-Fisk.md", "Inbox/Campaign-Timeline.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Maw Pearl Crisis
 region: maw
 confidence_level: high

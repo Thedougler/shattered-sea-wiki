@@ -226,3 +226,5 @@ sources: []
 - 2026-05-28 ingest: Bisou — upgraded to full NPC page; merged session canon with character detail
 - 2026-05-28 ingest: Capn-Gorgeous — upgraded to full NPC page; House Knighton detail added
 - 2026-05-28 ingest: Colla — new minor NPC page; Rattkin apothecary, The Splint
+- 2026-05-28 ingest: Cotter-Foss — upgraded stub to full NPC page; halfling manager of Nimmik Vollask
+- 2026-05-28 ingest: Dario-Vanni — upgraded stub to full NPC page; tortle, Acqua Nera

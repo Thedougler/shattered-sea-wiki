@@ -6,6 +6,9 @@
 # Local assistant/runtime settings
 .claude/settings.local.json
 
+# Obsidian per-vault config (workspace layout, plugin state, cache)
+.obsidian/
+
 # Python/cache artifacts
 __pycache__/
 *.py[cod]

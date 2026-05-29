@@ -8,13 +8,24 @@
       "Bash(git diff*)",
       "Bash(git add wiki/*)",
       "Bash(git add .claude/*)",
+      "Bash(git add .agents/*)",
+      "Bash(git add .codex/*)",
+      "Bash(git add Inbox/*)",
+      "Bash(git add .raw/*)",
+      "Bash(git add .gitignore)",
+      "Bash(git mv*)",
+      "Bash(git rm*)",
+      "Bash(git checkout -b*)",
+      "Bash(git push*)",
       "Bash(git commit -m *)",
+      "Bash(python3 /Users/nick/Documents/shattered-sea/.claude/scripts/*)",
       "Bash(find /Users/nick/Documents/shattered-sea/wiki -type f*)",
       "Bash(find /Users/nick/Documents/shattered-sea/.claude -type f*)",
       "Bash(find /Users/nick/.claude/skills -type f 2>/dev/null | sort)",
       "Bash(grep -r * /Users/nick/Documents/shattered-sea/wiki)",
       "Bash(mkdir -p /Users/nick/Documents/shattered-sea/*)",
-      "Bash(bash /Users/nick/Documents/shattered-sea/.claude/hooks/*)"
+      "Bash(bash /Users/nick/Documents/shattered-sea/.claude/hooks/*)",
+      "Bash(qmd:*)"
     ]
   },
   "hooks": {
@@ -25,6 +36,10 @@
           {
             "type": "command",
             "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/validate-frontmatter.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/qmd-reindex.sh"
           }
         ]
       }

@@ -12,14 +12,24 @@ summary: "Dravosi gatekeeper island at the western mouth of the Central Strait �
 created: 2026-05-01
 updated: 2026-05-28
 tags: [island, crown-islands, dravosi, player-resource]
-sources: ["wiki/entities/factions/the-passage.md", "wiki/situations/active/cape-solitude.md", "Inbox/index.md"]
+sources: ["wiki/entities/factions/the-passage.md", "wiki/situations/active/cape-solitude.md", "Inbox/Calders-Tooth-Overview.md"]
 ---
 
 # Calder's Tooth
 
 ![[1778025287065~2 2.png]]
 
-The [[dravosi-crown|Dravosi Crown]]'s gatekeeper island at the western mouth of the [[central-strait|Central Strait]]. Incoming Strait traffic is expected to stop here first. [[the-passage|The Passage]] runs cargo through limestone caves beneath the Overland Track, which the Crown has been trying to find for years.
+Calder's Tooth rises at the western mouth of the [[central-strait|Central Strait]] as a massive, jagged slab of limestone and basalt — its windward face sheer and storm-battered, taking everything the [[galewall|Galewall]] sends without complaint. The eastern side softens into mudflats, mangrove estuaries, and fishing hamlets that face the calmer Strait water. Between the two coasts runs a wet, fog-choked interior ridge riddled with sinkholes, where the roads are more like guidelines. The [[dravosi-crown|Dravosi Crown]] claims the island absolutely. What that claim covers in practice is the fortifications, the harbour mouth, and the ledgers.
+
+[[the-passage|The Passage]] runs cargo through limestone caves beneath the Overland Track, which the Crown has been trying to find for years.
+
+## Geography
+
+**The Western Wall** is a miles-long basalt and limestone cliff face slick with sea spray and battered by Galewall winds. Functionally unscalable from the water without magic.
+
+**The Marrow** is the island's north-south interior ridge — porous limestone riddled with sinkholes, collapsed cenotes, and unstable cave systems. Iron-oak and crown-pine dominate the canopy; the undergrowth is thick with razor-vine and stinging nettles.
+
+**The Eastern Mudflats** slope toward the [[central-strait|Central Strait]] in broad tidal flats and shallow mangrove-like estuaries. Tidal shifts can strand travellers in waist-deep muck, which makes the eastern approach difficult for armored patrols.
 
 ---
 
@@ -55,9 +65,18 @@ The calmer side of Calder's Tooth is muddier, less formal, and harder for the Cr
 
 - [[cape-solitude|Cape Solitude]] — wind-battered northern point with a ruined pre-colonial tower and an abandoned Crown lighthouse project.
 
+## Fauna
+
+Giant bats roost in sinkhole chambers and old sea caves in the limestone — colonies large enough to disturb a trail party on a night crossing and to draw predators that eat bats. Giant boar sign is consistent along wetter ridge sections — torn root beds, wallows, track damage. Giant wolf spiders occupy old cisterns and any structure unused long enough for web architecture to develop; villages on the mudflat side check cisterns before sending children for water. Giant axe beaks on the open switchbacks pace alongside wagons on broad track sections before deciding whether to commit.
+
 ## Hazards
 
-Giant bats (fog gullies), giant boar (ridge tracks), giant axe beaks (open switchbacks), giant wolf spiders (old cisterns and wet-side structures).
+Fog, sinkholes, mudflats, Crown inspection, cliff exposure, and interior predators. The island is administered, not tame.
+
+## Current Hooks
+
+- A ship trying to avoid Tidefall inspection may risk the northern reefs or eastern mudflats.
+- Interior travel between South Harbour and Port Tidefall can be interrupted by fog, sinkholes, or animal sign.
 
 > [!dm]
 > [[the-passage|The Passage]] uses limestone caves beneath the Overland Track for cargo. The Crown has not found them. See also the Cape Solitude lighthouse situation.

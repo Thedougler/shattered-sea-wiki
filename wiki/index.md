@@ -32,7 +32,7 @@ sources: []
 - [[bastian-crev|Bastian Crev]] —
 - [[beaumont-sel|Beaumont Sel]] —
 - [[bice-riva|Bice Riva]] —
-- [[branca|Branca]] — [stub] Stub — Umberlee's representative in Calveno; waits for Delmar Fisk, whom Umberlee knew was coming before he did. Polite, appointment-pressure mode, tide-table booklet.
+- [[branca|Branca]] —
 - [[catarina-davirelli|Catarina DaVirelli]] — Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [stub] Stub — The Principal; hidden Tessarine operative who manipulated the Chain Council into commissioning Fisk's Fleet to steal the Pearl of Souls, with the real goal of keeping it from Aldric Drave.
@@ -224,6 +224,10 @@ sources: []
 - [[bioluminescent-paint|Bioluminescent Paint]] — An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation.
 - [[block-and-tackle|Block and Tackle]] — A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance.
 - [[boiled-crab|Boiled Crab]] — Fresh-caught crab, boiled plain — seasonal at the Low Lamp, when Pip brings it back from the upper channels.
+- [[bone-setting|Bone Setting]] — Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward.
+- [[bracers-of-archery|Bracers of Archery]] — Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore.
+- [[bullseye-lantern|Bullseye Lantern]] — A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching.
+- [[canal-boat-hire|Canal Boat Hire]] — Flat-bottomed canal boats available for half- or full-day hire at the Ponte Bassa — no questions about destination.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.

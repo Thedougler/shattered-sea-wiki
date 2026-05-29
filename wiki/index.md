@@ -156,12 +156,13 @@ sources: []
 - [[anchor-and-line|The Anchor & Line]] — The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population.
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
-- [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
+- [[grimaldis-dispensary|Grimaldi's Dispensary]] — A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs.
 - [[harbourmasters-office|Harbourmaster's Office]] — [stub] Harbourmaster's Office in Port Tidefall — Crown authority for vessel registration, surveys, and inspection records.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
+- [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 - [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.
 - [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
@@ -295,6 +296,9 @@ sources: []
 - [[frag-canister|Frag Canister]] — Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius.
 - [[fresh-citrus|Fresh Citrus]] — Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else.
 - [[fresh-water|Fresh Water]] — A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained.
+- [[ghost-keel-coating|Ghost Keel Coating]] — A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months.
+- [[grappling-hook|Grappling Hook]] — A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp.
+- [[grilled-canal-eel|Grilled Canal Eel]] — The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -311,6 +315,7 @@ sources: []
 - [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.
 - [[dead-lady|The *Dead Lady*]] — The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him.
 - [[fernen|The *Fernen*]] — Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw.
+- [[greyteeth-runner|Greyteeth Runner]] — A lean Tier 1 reef runner sloop currently for sale in Port Tidefall — fast, shallow-drafted, and built for reef channels where patrol cutters can't follow.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
 - [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.

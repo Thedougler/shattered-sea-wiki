@@ -1,25 +1,95 @@
 ---
+title: Grimaldi's Dispensary
 type: entity
-subtype: location
-campaign: shattered-sea
-status: stub
-audience: players
+subtype: place
+building_type: shop
 publish: true
-summary: "Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island."
-created: 2026-05-28
-updated: 2026-05-28
-tags: [location, kalowe, apothecary]
-sources: ["Inbox/Ilaria-Grimaldi.md"]
+campaign: shattered-sea
+audience: players
+status: active
+confidence_level: medium
+tags: [place, building, kalowe, apothecary, midchain]
+sources: ["Inbox/Ilaria-Grimaldi.md", "Inbox/Grimaldis-Dispensary.md"]
+aliases: ["Grimaldi's"]
+summary: "A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs."
+parent_location: "[[kalowe|Kalowe]]"
+district: Third Island
 ---
 
 # Grimaldi's Dispensary
 
-|              |                                      |
-| ------------ | ------------------------------------ |
-| **Location** | [[kalowe|Kalowe]], third island      |
-| **Operator** | [[ilaria-grimaldi|Ilaria Grimaldi]]  |
+![[Ilaria-Grimaldi.webp|Ilaria Grimaldi, apothecary and proprietor of Grimaldi's Dispensary]]
 
-> [!dm]
-> Stub. Expand with inventory, back-room arrangements, and Ilaria's network of contacts before use at table.
+## Overview
 
-The only apothecary between Kalowe and Port Tidefall. [[ilaria-grimaldi|Ilaria Grimaldi]] has operated it for fifteen years. A back room exists; it is not accessible to customers.
+Grimaldi's Dispensary is on [[kalowe|Kalowe]]'s third island, away from the main causeway traffic and the dry-dock noise. It is the only apothecary in the free port. [[ilaria-grimaldi|Ilaria Grimaldi]] has been running it for fifteen years, which means she has outlasted two harbour bosses and one ill-advised attempt by a colonial factor to open a competing supply at the primary berth. She stocks healer's kits, wound supplies, antitoxins, and a limited supply of healing draughts. She also has other things she does not put on the board outside.
+
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Apothecary and healer's supply |
+| Location | [[kalowe|Kalowe]], third island |
+| Operated By | [[ilaria-grimaldi|Ilaria Grimaldi]] |
+| Public Access | Open; no appointment needed for standard stock |
+| Known For | The only healer's supply between Kalowe and [[port-tidefall|Port Tidefall]] |
+
+## Description
+
+Small and clean by the standards of a port that runs on non-interference. White-plastered walls inside; dried herbs hang from the ceiling beams in tied bundles; glass jars of varying sizes line the shelves above the counter, most labelled in Grimaldi's close handwriting. The smell is sharp and layered — camphor, vinegar, salt, something floral underneath. The counter has a scale on it with small brass weights and a mortar that has been used today.
+
+The back room is separated by a heavy curtain and is not accessible to customers.
+
+## Function
+
+Healer's supplies, apothecary goods, and minor medical services. Grimaldi does not perform surgery but will clean and dress serious wounds, set breaks, and supply the materials for a ship's surgeon to do the rest. She does not ask what created the injury.
+
+## People & Operations
+
+**[[ilaria-grimaldi|Ilaria Grimaldi]]** — proprietor, early sixties, a tiefling originally from the northern Scatter. Small horns, grey-violet skin, a composure built across a long time in a profession that requires it. Her manner is exact and economical: she identifies what the customer needs, names the price, and prepares it. She does not do small talk. If someone needs something she does not advertise, she listens to how they ask before deciding whether to tell them what she has.
+
+*Roleplay concept: a woman who has seen every kind of trouble that can arrive at a port and found none of it particularly interesting.*
+
+**Sample lines:**
+- *"Healer's kit or wound supplies? There's a difference."*
+- *"Antitoxin's fifty. I have two."*
+- *"Tell me what you were exposed to, not what happened."*
+
+## Stock / Services
+
+- 5 gp — [[healers-kit|Healer's kit]] — *"Ten uses. Stabilise or restore. If you're going offshore without one, that's your decision, not mine."*
+- 5 sp — Bandages and wound dressing (10) — *"Linen. Clean. Salt-treated. Keep them dry."*
+- 3 sp — Medicinal spirits, bottle — *"For the wound first. After that, your business."*
+- 5 gp — [[herbalism-kit|Herbalism kit]] — *"For characters with the proficiency. If you don't have it, this won't help you."*
+- 50 gp — [[antitoxin|Antitoxin, vial]] — *"Two in stock. Resupply is uncertain. If you need it, buy it now."*
+- 30 gp — Sea-poison antidote — *"Reef fish, shellfish, envenomation from common sea creatures. More specific than the broad antitoxin."*
+- 2 sp — [[fever-poultice|Poultice, fever-reducing]] — *"Three applications. Apply to the chest or forehead. Instructions are written on the pack."*
+- 1 gp — Splint and wrap — *"I'll show you how to apply it. Once."*
+- 2 sp — Wound closure (service) — *"Cleaning and stitching. No anaesthetic. I'm fast about it."*
+- 1 gp — [[bone-setting|Bone setting (service)]] — *"Straightforward breaks only. Tell me what happened and I'll tell you if it qualifies."*
+- 1 sp — Tooth extraction (service) — *"I'm fast about it."*
+- 2 gp — Surgical consultation (service) — *"Assessment and a supply list for whoever operates. I don't operate."*
+
+**Discretionary stock** *(ask; she decides)*
+
+- 55 gp — [[potion-of-healing|Potion of Healing]] — *"One or two in stock. I'll tell you if I have one."*
+- 52 gp — [[alchemists-fire|Alchemist's fire]] — *"Pest control product. That's the framing I use and you'll use the same one."*
+- 26 gp — Vial of acid — *"Same framing."*
+- 110 gp — [[basic-poison|Poison, basic (vial)]] — *"DC 10 Constitution. Tell me what you need it for, clearly, and I'll tell you whether I have it."*
+
+## Access & Security
+
+Front entrance from the third-island lane, quieter than the causeway buildings. Grimaldi locks at sundown. The back room curtain stays closed. She has arrangements with the harbour bosses that have kept the shop unmolested for fifteen years.
+
+## Current Hooks
+
+- A Takowan crew member came in two days ago with a hand wound not from working the rigging. Grimaldi dressed it and noted the ring he wore — Passage-style affiliation mark, specific design. She has said nothing to anyone yet.
+- **The Captain's Map** — a patient in the back room is dying of lung sickness and has half a privateering chart tattooed on her forearm. Grimaldi will mention the tattoo if the party buys supplies and asks the right question. The patient wants 200 gp and passage out.
+- **Sawek survivor** — a fisherman the Sawek dragged in but didn't kill is recovering here. Grimaldi will describe the attack pattern clinically if asked.
+
+## See Also
+
+- [[kalowe|Kalowe]]
+- [[ilaria-grimaldi|Ilaria Grimaldi]]
+- [[the-flat-water|The Flat Water]]
+- [[wibowos-provisions|Wibowo's Provisions]]

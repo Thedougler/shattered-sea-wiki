@@ -182,3 +182,6 @@ sources: []
 - CREATE: `wiki/entities/vehicles/hcs-surety-manifest.md` — post-Session 02 inventory updated through La Vasca refit
 - CREATE: `wiki/entities/vehicles/hcs-surety-owners-manual.md` — player-facing rules (ram bow, shallow draft, crew roles, bastion)
 - CREATE: `wiki/entities/vehicles/hcs-surety-dm-guide.md` — DM guide with Crown recognition clock (now active)
+- CREATE: `wiki/islands/shepherd-grigori.md` — narrative island; cure complete, heir bound, Grigori departed Calveno
+- CREATE: `wiki/situations/active/shepherd-grigori.md` — world state thread; network expanded, location unknown
+- CREATE: `wiki/islands/il-gioco-delle-beffe-dm.md` — DM mechanics for Beffa; phase structure, rivals, prize table

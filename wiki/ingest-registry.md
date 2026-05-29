@@ -76,6 +76,9 @@ sources: []
 | Inbox/HCS-Surety-Manifest.md | reference, ship-inventory | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-manifest.md` (new — post-Session 02 manifest updated through La Vasca refit) |
 | Inbox/HCS-Surety-Owners-Manual.md | reference, player-facing | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-owners-manual.md` (new — player rules for Uncertainty) |
 | Inbox/HCS-Surety-DM-Guide.md | reference, dm-only | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-dm-guide.md` (new — Crown recognition clock active, chase/casualty tooling) |
+| Inbox/Shepherd-Grigori.md | narrative-island | ingested | 2026-05-28 | `wiki/islands/shepherd-grigori.md` (new — full island prep; cure resolved, heir bound, stat block) |
+| Inbox/Shepherd-Grigori copy.md | situation-source, thread | ingested | 2026-05-28 | `wiki/situations/active/shepherd-grigori.md` (new — world state thread; session log, location unknown) |
+| Inbox/Il-Gioco-delle-Beffe copy.md | narrative-island, dm-notes | ingested | 2026-05-28 | `wiki/islands/il-gioco-delle-beffe-dm.md` (new — DM mechanics: phase structure, rivals, prize table) |
 
 ## Pending Queue (status: pending, priority order)
 (none)

@@ -167,7 +167,7 @@ sources: []
 - [[the-flat-water|The Flat Water]] — The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best.
-- [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.
+- [[tidefall-chandlery|Tidefall Chandlery]] — Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items.
 - [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
 
 ## entities/places/islands
@@ -236,7 +236,7 @@ sources: []
 - [[tessarine-concordat|Tessarine Concordat]] — Colonial commercial power that turns credit, contracts, insurance, route underwriting, and trade dependency into political leverage. Calveno is its strongest northern foothold.
 - [[the-glass-debt|The *Glass Debt*]] — A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave.
 - [[the-passage|The Passage]] — Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.
-- [[the-velvet-noose|The Velvet Noose]] — [stub] Stub — mostly-rumour pirate entity near the Drowned Maw; enough of a reputation to make convoys wait for daylight.
+- [[the-velvet-noose|The *Velvet Noose*]] — A Tier 4 pirate man-of-war — uses terror, hostages, legal blackmail, and overwhelming cannon weight to make ports and convoys surrender before battle.
 - [[vaka|Vaka]] — Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time.
 - [[waveservants|Waveservants]] — Umberlee's practical clergy: collectors, witnesses, and shrine operators whose neutrality lets them collect tribute from every side of a harbor.
 
@@ -419,6 +419,9 @@ sources: []
 - [[the-duchess|The Duchess]] — Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last.
 - [[the-red-flat|The Red Flat]] — Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it.
 - [[the-snap|The Snap]] — A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free.
+- [[the-uncharted-coast|The Uncharted Coast]] — A hand-drawn navigational chart of professional quality, depicting approximately 200 miles of coastline that does not appear on any Crown, Tessarine, or commercial chart.
+- [[tide-reader|Tide Reader]] — A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters.
+- [[timber-and-fittings|Timber and Fittings]] — Spare planks, bolts, canvas, and rope sold at chandlery rate from working boatyards — stock varies, but a good yard always has the basics.
 - [[truth-stone|Truth Stone]] — Stone that compels truth. Beaumont slid it to Jean-Claude; Jean-Claude used it and confirmed three facts about himself.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
@@ -495,6 +498,7 @@ sources: []
 - [[the-galewall-runners-drop|The Galewall Runner's Drop]] — A legendary privateer treasure cache rumored to be hidden on one of the volcanic Ashwall Islands — deposited during a desperate flight from the Dravosi Admiralty in the early colonial period.
 - [[the-grandfather-hole|The Grandfather Hole]] — A legendary underwater sinkhole in the eastern Midchain where a century of shipwrecks lie at the bottom — guarded by an ancient Sawek and animated crews.
 - [[the-tithe-of-the-bitch-queen|The Tithe of the Bitch Queen]] — A legendary collection of divine treasure scattered across the Sunken Crown seafloor — taking a single coin invites Umberlee's direct, personal spite. The sea follows you home.
+- [[the-vault-of-the-first-factor|The Vault of the First Factor]] — A legendary hidden Tessarine depository on an uncharted Midchain limestone spire — holds centuries of collateral from debtors who couldn't pay. No credentials means no return.
 - [[umberlee-and-waveservants|Umberlee and the Waveservants]] — Public lore on Umberlee and the Waveservants: the feared sea goddess, her practical clergy, and the tribute customs sailors treat as port infrastructure.
 
 ## lore/species

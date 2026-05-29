@@ -15,6 +15,7 @@ from dataclasses import dataclass
 
 _SESSION_MD = re.compile(r"^session-(\d+)\.md$")
 _SESSION_DIR = re.compile(r"^session-(\d+)$")
+_TRANSCRIPT_MD = re.compile(r"^session-(\d+)-transcript\.md$")
 
 
 @dataclass(frozen=True)
@@ -49,6 +50,30 @@ def next_session_number(sessions_dir: str, live_dir: str) -> int:
     canonical = _max_match(sessions_dir, _SESSION_MD)
     live = _max_match(live_dir, _SESSION_DIR)
     return max(canonical, live) + 1
+
+
+def finalized_sessions(sessions_dir: str) -> list[tuple[int, str, str]]:
+    """Find corrected sessions usable for profile enhancement.
+
+    Returns ``(session_number, transcript_path, audio_dir)`` for every committed
+    ``session-NN-transcript.md`` that still has its (gitignored) live audio dir,
+    sorted by session number. Sessions whose audio was discarded are skipped —
+    we can't slice spans without the recording.
+    """
+    if not os.path.isdir(sessions_dir):
+        return []
+    live_dir = os.path.join(sessions_dir, ".live")
+    out: list[tuple[int, str, str]] = []
+    for entry in os.listdir(sessions_dir):
+        m = _TRANSCRIPT_MD.match(entry)
+        if not m:
+            continue
+        n = int(m.group(1))
+        audio_dir = os.path.join(live_dir, f"session-{n:02d}", "audio")
+        if os.path.isdir(audio_dir):
+            out.append((n, os.path.join(sessions_dir, entry), audio_dir))
+    out.sort(key=lambda t: t[0])
+    return out
 
 
 def session_paths_for(live_dir: str, n: int) -> SessionPaths:

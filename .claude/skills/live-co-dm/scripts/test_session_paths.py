@@ -43,6 +43,33 @@ class NextSessionNumberTests(unittest.TestCase):
             self.assertEqual(session_paths.next_session_number(sessions, live), 6)
 
 
+class FinalizedSessionsTests(unittest.TestCase):
+    def test_pairs_finalized_transcripts_with_live_audio(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sessions = os.path.join(tmp, "sessions")
+            live = os.path.join(sessions, ".live")
+            os.makedirs(os.path.join(live, "session-03", "audio"))
+            os.makedirs(os.path.join(live, "session-04", "audio"))
+            open(os.path.join(sessions, "session-03-transcript.md"), "w").close()
+            open(os.path.join(sessions, "session-04-transcript.md"), "w").close()
+            pairs = session_paths.finalized_sessions(sessions)
+            self.assertEqual(
+                [(p[0], os.path.basename(os.path.dirname(p[2]))) for p in pairs],
+                [(3, "session-03"), (4, "session-04")],
+            )
+            self.assertTrue(pairs[0][1].endswith("session-03-transcript.md"))
+
+    def test_skips_finalized_without_audio(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sessions = os.path.join(tmp, "sessions")
+            os.makedirs(sessions)
+            open(os.path.join(sessions, "session-07-transcript.md"), "w").close()
+            self.assertEqual(session_paths.finalized_sessions(sessions), [])
+
+    def test_empty_when_no_sessions_dir(self) -> None:
+        self.assertEqual(session_paths.finalized_sessions(os.path.join("no", "dir")), [])
+
+
 class SessionPathsForTests(unittest.TestCase):
     def test_composes_subpaths(self) -> None:
         sp = session_paths.session_paths_for("/live", 4)

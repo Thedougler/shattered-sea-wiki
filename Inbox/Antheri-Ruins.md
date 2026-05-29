@@ -1,0 +1,162 @@
+---
+aliases:
+- The Ruins
+- Antheri
+audience: players
+campaign: shattered-sea
+category: location
+confidence_level: medium
+created: 2026-05-02
+publish: true
+region: maw
+parent_location: "[[Drowned-Maw|The Drowned Maw]]"
+governance: "contested by salvagers, the Tessarine Concordat, and the Dravosi Crown"
+access: "dangerous dive site; upper tier accessible, lower depths avoided"
+relationships:
+- relation: part_of
+  target: The Drowned Maw
+- relation: associated_with
+  target: The Tessarine Concordat
+- relation: associated_with
+  target: The Dravosi Crown
+- relation: threatened_by
+  target: Whip Shark
+- relation: threatened_by
+  target: Pirate Captain
+- relation: threatened_by
+  target: The Glass Debt
+- relation: threatened_by
+  target: Giant Octopus
+- relation: threatened_by
+  target: Giant Crab
+sources:
+- '[[antheri-ruins-expanded]]'
+- '[[antheri-species-expanded]]'
+subtype: site
+site_type: ruins
+summary: Public gazetteer entry for the submerged pre-collapse ruins built into the
+  western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings
+  that didn't need floors, and a...
+tags:
+- ruins
+- antheri
+- ancient_civilization
+title: Antheri Ruins
+type: location
+updated: 2026-05-15
+---
+
+# Antheri Ruins
+
+> *They built something. No one knows what it did.*
+
+## Overview
+
+The Antheri Ruins occupy the western wall of the [[Drowned-Maw|Drowned Maw]], beginning at the surface shelf around sixty feet down and continuing into depths no current diver has returned from with anything useful to say. The stone is a pale composite, unfouled and uncorroded, that no living materials expert has been able to identify. Biological growth does not adhere to it. A piece brought to the surface is as clean as the day it was placed — no patina, no salt stain, the original surface unchanged by however many centuries of submersion. The fittings are dark alloy, machined to tolerances that exceed anything current forges can reproduce. Whatever built this intended it to last. It has.
+
+The architecture is disorienting at the accessible tier and outright wrong deeper in. There are no stairs. No flat floors designed as floors. No sealed chambers, no pressure bulkheads, no air pockets, no provision whatsoever for beings that needed to breathe. What there are: massive vertical shafts dropping into the dark, spherical rooms connected by sweeping archways, open pipework designed for current-flow, and a coherence throughout the structure that becomes harder to miss the longer you spend in it — the coherence of a system, not a city. Whatever the Antheri were, they moved through this the way fish move. In three dimensions, in water, without equipment. They did not build this for anyone who needed to stand.
+
+---
+
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Submerged pre-collapse ruin system |
+| Location | Western wall of [[Drowned-Maw|The Drowned Maw]] |
+| Controlled By | Contested by independent salvagers, [[Tessarine-Concordat|Tessarine Concordat]], and [[Dravosi-Crown|Dravosi Crown]] |
+| Access | Dangerous dive site; upper tier accessible, lower depths avoided |
+| Known For | Dark-alloy fittings, non-human architecture, the Shelfworks tier, and a deeper containment crisis |
+
+## Description
+
+The Antheri Ruins begin at the surface shelf around sixty feet down and continue into depths no current diver has returned from with anything useful to say. The upper structures appear as pale composite stonework and dark-alloy fittings built into the Maw's western wall rather than spread across a seafloor.
+
+## Function
+
+Publicly, the ruins are an impossible salvage prize: dark alloy, ancient mechanisms, and architecture that attracts scholars, prospectors, criminal contractors, private salvage outfits, and faction-backed crews. DM-only, the site is a planetary-scale flooded machine regulating a planar boundary rather than a simple ruin.
+
+## Access & Approach
+
+The accessible tier can be worked with air pumps and rope discipline down to roughly sixty feet. Below the thermocline, sunlight fails, Maw compass drift begins, and salvage crews stop treating the descent as a job site.
+
+## People & Power
+
+The site is in open-ended factional deadlock that has recently become less open-ended and more dangerous. The [[Tessarine-Concordat|Tessarine Concordat]] controls the intelligence war — the most accurate early maps of the upper shelf and the best salvage manifests have disappeared into debt-settlement arrangements across several seasons, and the Concordat knows considerably more about the layout of the accessible tier than any independent crew. The [[Dravosi-Crown|Dravosi Crown]] attempts to assert naval and administrative authority over a frontier that sits outside any map the Crown originally drew and refuses to be cleanly taxed. Neither faction controls the site. Independent crews work the gaps between them, and most of the actual work gets done this way.
+
+What is changing is the depth profile of the danger. Crews that worked the eighty-foot tier last season without incident are not taking return contracts this season. The stories coming back from those runs do not agree on the specifics, but they agree on the general shape: something below the thermocline is moving upward. Not fast. But consistently. Salvage schedules that operated without casualty for three consecutive seasons are now producing reports of severed air lines, unexplained cold bands in the upper dive water, and light changing colour at depth without a cloud crossing overhead. The established crew wisdom about where it is safe to work is failing quietly, without announcement, which is the worst way for it to fail.
+
+Surface danger has compounded the change. Antheri prizes leave the site in visible crates, and everyone on the water knows which boats came up heavy. [[content/shattered-sea/beastiary/humanoid/pirate-captain|Pirate captains]] shadow pump barges back toward the Tail with varying levels of subtlety. The [[The-Glass-Debt|Glass Debt]] is the name crews use when they mean a threat that does not negotiate: a frigate-scale problem that can make a salvage flotilla surrender its best finds before anyone has enough wind to run. When the Glass Debt is reported near the eastern water, crews pull lines and the question of whether the pumps are worth abandoning resolves itself, once or twice, in the Glass Debt's favour.
+
+## Notable Features
+
+**The Shelfworks Tier** — The accessible upper ruins between the surface and roughly sixty feet, where ordinary dive operations can still work.
+
+**The Abyssal Bore** — The 60- to 200-foot depth range below the thermocline, where darkness, cold water, compass drift, and deeper predators change the risk profile.
+
+**The Abyssal Threshold** — The 200-foot-plus depth where organized descents return equipment rather than coherent accounts.
+
+**Dark Alloy** — Functional fittings machined to tolerances current forges cannot reproduce and valuable enough to drive the salvage economy.
+
+## The Upper Ruins — The Shelfworks Tier (0–60 ft)
+
+The accessible tier runs from the surface down to roughly sixty feet, where a sharp thermocline marks the transition to everything that comes after. Above that line, ordinary dive operations with air pumps and rope discipline can work the ruins. It is the face the city presents to the salvage economy: civic architecture, engineered stone, dark-alloy fittings in profusion, and an arrangement that is clearly organized around public function without being legible as any public function anyone has named.
+
+The ruins emerge from the Maw's western wall face like a relief pressed into the cliff — not a seafloor sprawl but a vertical structure, rooms stacked against the shelf rather than spread across it. The topmost reaches are in the deepest section of the shelf's sandy bottom on the western approach, where the water is turquoise and clear and the silhouette of buildings is visible from a skiff. Moving east, the ground drops away and the ruins are suddenly beside you rather than below: a wall face, intact archways at eye level, passages opening into the stone.
+
+**The civic halls** are the largest spaces in the accessible tier — atrium volumes with no ceiling detail designed to be seen from below and no arrangement of any kind on the curving stone floor. Channel-grooves run through the floor in branching patterns, clearly deliberate, clearly engineered, leading toward the eastern wall where they exit through openings the size of a person's torso. Whatever the channels carried, it no longer flows through them. Seagrass has found the grooves and settled into them. Schools of small fish work the upper archways. The space has the particular stillness of somewhere very large that has been very quiet for a very long time.
+
+**The workshop tier** sits one level below the civic halls, accessible through passages that open on the wall face rather than the floor — entries at mid-height, requiring a diver to orient horizontally to pass through. Inside: fixed equipment stations arranged in rows, the fittings still attached to the stone, each station's layout subtly wrong for human hands. The tool-holder geometry is five-fingered but narrower and slightly longer than a human handspan. The fixed mechanisms — valve assemblies, linked armatures, instrument housings — were designed to operate without turning, pulling, or pushing in any direction a human finds natural. Most of them no longer operate at all. Some of them still do, in ways salvagers have learned not to trigger by accident.
+
+**The residential sections** are cut directly into the trench wall, a dense cluster of identical alcoves stacked in rows accessible from the open water rather than through corridors. Each alcove is just large enough for a sleeping body, dimensioned for something roughly human in size but narrower across the shoulders. No furniture. No personal distinction between units. Nothing that would tell you one from another except position. They are empty now, uniformly and completely. Not ransacked. Just empty, the way a room is empty when it was left deliberately rather than abandoned in a hurry. Whatever was in them, the Antheri took it when they left.
+
+**The dark alloy** is the economic engine of the whole site. In the upper tier, it appears everywhere functional: hinges, valve assemblies, mechanism housings, instrument frames, linking armatures. Most of what was reachable with a pry bar has already been stripped by early salvagers — the original rush was not subtle. What remains is integrated into the stone, requiring careful disassembly rather than force extraction. The alloy is cold to the touch even at forty feet where the water is warm. It does not change colour with depth or temperature. It does not patina or stain on the surface. Bring a piece into daylight and it looks newly made. [[Catarina-DaVirelli|Catarina DaVirelli]] was the first to successfully adapt a recovered mechanism into active use, demonstrating that the alloy is not merely durable but functional by principles no current metallurgist fully understands. That demonstration is what brought everyone here.
+
+**Wall reliefs** run throughout the accessible tier, pressed into the composite stone with precision — not pictographic, not narrative, but geometric. A branching tree-shape. Concentric ovals. A triangle set inside a circle that recurs near sealed rooms with a frequency that seems significant and may be a warning. No current scholarly institution has a working translation of the Antheri symbolic language. Salvagers have their own practical translation: rooms with significant concentrations of the triangle-in-circle symbol are not worth the time to open.
+
+---
+
+## Below the Shelf — The Abyssal Bore (60–200+ ft)
+
+Past the sixty-foot thermocline, sunlight fails and the Maw's compass drift begins. The ruins continue downward but the marine life changes. Heavily armoured crustaceans occupy the deeper passages — large enough to crack iron diving suits, which some of them have. Blind bioluminescent eels nest in the ancient open pipework, filling channels in the stone with cold blue light that moves when disturbed. [[Whip-Shark|Whip-Sharks]] — cartilaginous predators up to fifty feet long with a lower tail lobe that terminates in a recurved bone-shattering sickle — patrol the deeper perimeter, drawn upward by the rhythmic vibration of surface air pumps. Their hearing is better than their eyesight. The pumps are audible to them from well above the sixty-foot line.
+
+Most crews do not work below the thermocline intentionally. Some have done it without meaning to: a current pulling a dive line east, a diver following a piece of alloy that rolled toward the drop-off, a hose snagged on something in the upper passage that required descending to free. The ones who have been there and come back tend to describe the same things: darkness that is not just the absence of light, cold water that moves in ways surface currents do not, a sense of scale in the lower structure that the accessible tier does not prepare you for. They do not tend to go back.
+
+---
+
+## The Abyssal Threshold (200+ ft)
+
+No one who has reached the lower depths has returned with a coherent account of what they found. What does come back: air hoses cut clean, diving suits crushed from outside, the occasional manifest entry that reads *recovered equipment only* with a blank where the crew count should be. Three different expeditions have attempted organised descents below the two-hundred-foot line. The results are in the salvage records filed at Tidefall, under incident reports, and they do not read like accidents.
+
+---
+
+## Flora
+
+Seagrass has found the channel-grooves in the upper civic halls. Other plant life is not documented; the composite stone itself resists ordinary biological growth.
+
+## Fauna
+
+The accessible upper tier (0–60 ft) has been colonized by the ordinary marine life of the Maw's rim. [[content/shattered-sea/beastiary/beasts/giant-octopus|Giant octopuses]] hold the archways and sealed-room openings throughout the civic halls — the Antheri architecture creates exactly the kind of crevice system they prefer, and the biological growth that the composite stone itself resists still accumulates around the fittings and in the channel grooves in ways that concentrate smaller prey. Salvage crews working the workshop tier move with poles rather than hands in the fitting housings.
+
+[[content/shattered-sea/beastiary/beasts/giant-crab|Giant crabs]] dominate the deeper accessible passages, growing larger as the thermocline is approached. Below sixty feet, the carapace size exceeds anything on the surface shelf by a significant margin — the cold water, the architectural shelter, and the lack of upper-tier predation pressure have produced a population that has had centuries to reach its upper limit. The fitting housings in the lower workshop tier that salvagers have not yet stripped are held partly because the crabs have staked the adjacent passages.
+
+[[content/shattered-sea/beastiary/sea-life/Whip-Shark|Whip sharks]] patrol the deeper perimeter and are drawn toward the accessible tier by the rhythmic vibration of surface air pumps. They can hear the pumps from well above the sixty-foot line. Dive crews that run pumps without a surface watch for shark sign are dive crews that occasionally lose a pump line to a strike that was following the sound for the better part of an hour.
+
+---
+
+## Hazards
+
+The Antheri Ruins' hazards are depth, thermocline transition, compass drift, cold bands, visibility changes, severed air lines, giant octopuses, giant crabs, whip sharks, pirate pressure, factional interference, and the DM-only planar containment crisis below the visible site.
+
+## Current Hooks
+
+- Crews that worked the eighty-foot tier last season without incident are not taking return contracts this season.
+- Salvage damage is concentrated on flow and pressure-regulation structures, which are not decorative ruins at all. ^[inferred]
+- The [[content/shattered-sea/situations/reference/Pearl-of-Souls-Item|Pearl of Souls]] acts as a planar beacon at the Maw floor and is pulling danger upward through the lower tiers.
+
+## See Also
+
+- [[Shelfworks|The Shelfworks]] — the accessible upper-tier salvage site; surface camp and dive operations
+- [[Drowned-Maw|The Drowned Maw]] — the trench the ruins are built into; the source of the Bore's compass drift
+- [[Tail|The Tail]] — staging islands for the surface operations
+- [[Catarina-DaVirelli|Catarina DaVirelli]] — reverse-engineered the first working Antheri mechanism; sparked the gold rush; foremost living expert on Antheri materials

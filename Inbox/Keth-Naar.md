@@ -1,0 +1,125 @@
+---
+title: Keth-Naar
+category: location
+type: location
+subtype: town
+settlement_type: city-island
+publish: true
+created: 2026-05-01
+updated: 2026-05-15
+summary: Public gazetteer entry for the tabaxi city island of Keth-Naar in the Sunken Crown.
+aliases:
+- Keth Naar
+- Keth-Naar Island
+tags:
+- city
+- tabaxi
+campaign: shattered-sea
+audience: players
+region: sunken_crown
+parent_location: "[[Sunken-Crown|The Sunken Crown]]"
+governance: "Keth-Naar elders and hunting community"
+access: "Dangerous reef approach; outsiders are assessed rather than casually admitted"
+confidence_level: medium
+sources:
+- Homebrew
+relationships:
+- relation: part_of
+  target: The Midchain
+- relation: part_of
+  target: The Sunken Crown
+- relation: threatened_by
+  target: Giant Lizard
+- relation: threatened_by
+  target: Giant Bat
+- relation: threatened_by
+  target: Giant Wolf Spider
+- relation: rumored_threat
+  target: Ancient Dragon Turtle
+---
+
+# Keth-Naar
+
+## Overview
+
+Keth-Naar is not one island but twelve promontories of ancient black basalt, clustered close enough that you cross between them at low tide on stepping-stone paths worn smooth by generations of feet. It sits at the edge of the Blue Hole — the vast, dark-indigo circle of deep water at the heart of the Sunken Crown — and from the highest point on the island the boundary between the turquoise shallows and that indigo drop is clean as a cut. The windward faces are spray-lashed and sharp-edged. The leeward sides shelter the tabaxi community that has lived here longer than any outsider chart acknowledges: hunters, readers of currents, people who know which tide channel the amberjack runs in and which deep shadow off the reef edge to leave alone.
+
+The tribe speaks with a distinct accent — clipped consonants and a precise, slightly stiff cadence that persists through Tabaxi inflection. Sailors who have traded around the Sunken Crown recognize it immediately as Keth-Naar speech. Those who have not heard it before tend to describe it as formal, or crisp, or occasionally as though the speaker is annoyed. They are not usually annoyed. It is simply how the island sounds.
+
+Visitors who arrive carefully may be watched before they are spoken to. This is not unfriendliness. It is the habit of a community that has been here long enough to know what a ship that does not read the water correctly looks like, and what usually follows it.
+
+The catches have been thin lately, and the weather around the Blue Hole has been less predictable than the tribe is used to. The birds are going inland before dark. The hunters are not saying much about what they have been seeing in the deep water, which is its own kind of information.
+
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Tabaxi city-island and hunting community |
+| Location | [[Sunken-Crown|The Sunken Crown]], clustered around the Blue Hole |
+| Controlled By | Keth-Naar elders and hunting families |
+| Public Access | Careful visitors may be assessed; reef approach is dangerous without a guide |
+| Primary Economy | Fishing, hunting, current-reading, drying fish, and Blue Hole stewardship |
+| Known For | Black basalt promontories, the Central Stone, stepping-stone paths, and the indigo edge of the Blue Hole |
+
+## Districts & Landmarks
+
+**Central Stone** — A massive black rock formation at the island's heart, weathered into natural caves and overhangs. Carved symbols mark the entrances.
+
+**Lookout Stone** — A forty-foot eastern platform with sightlines across the Blue Hole and the surrounding islands.
+
+**Tidal Channels** — Lower stone channels guide fish inward on high tide, with skinning racks, drying frames, and nets maintained nearby.
+
+## The Wreck Survivor
+
+Keth-Naar is where [[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]] came ashore after the *Vestra* was destroyed near the Maw. By the time the story reached the settlement, the useful details were not the name of the monster but the signs that came before it: still water, heat through the hull, steam where there should have been spray, and a strike from below.
+
+Local watchers treat that account as a warning about the deep line between Keth-Naar and the [[Drowned-Maw|Drowned Maw]]. Outsiders argue whether Perrin survived a [[content/shattered-sea/beastiary/sea-life/Leviathan|Leviathan]] attack or an [[ancient-dragon-turtle|ancient dragon turtle]] strike. Keth-Naar's hunters are less interested in the name than in the pattern: when the Blue Hole goes quiet and the birds leave early, nobody sensible takes a boat over the indigo edge. ^[ambiguous]
+
+---
+
+## Buildings & Services
+
+| Place | Type | Notes |
+|---|---|---|
+| Central Stone | Civic / residential core | Natural caves, carved entrances, shelter, and community memory at the island's heart. |
+| Lookout Stone | Watch post | Forty-foot eastern platform with sightlines over the Blue Hole. |
+| Skinning racks | Working structures | Fish drying, net repair, and the daily work of the hunting community. |
+| [[Vel-Orn]] | Shrine island | Sacred centre island kept apart from ordinary travel. |
+| [[Ral-Arn]] | Record island | Holds the oldest family records. |
+| [[Dath-Mar]] | Refuge island | Emergency refuge maintained for the community. |
+| [[Meth-Var]] | Watch island | Permanent watch post facing open Maw waters. |
+
+## People & Power
+
+The tribe's authority rests with elders, hunters, watchers, and the people who know how to read the water. The community watches visitors before speaking to them because careless ships usually bring consequences.
+
+## Trade & Services
+
+Keth-Naar can provide local fish, hunting knowledge, current-reading, warning signs, and deep familiarity with the Sunken Crown. Its services depend on trust and the purpose of the visit.
+
+## Access & Approach
+
+Visitors who arrive carefully may be watched before they are spoken to. This is not unfriendliness. It is the habit of a community that knows what a ship that does not read the water correctly looks like.
+
+## Current Hooks
+
+- The catches have been thin lately, and weather around the Blue Hole has become less predictable.
+- Hunters are fracturing over whether to push beyond the Blue Hole and hunt open waters.
+
+## Hazards
+
+Most land threats on Keth-Naar are known by route and season. [[content/shattered-sea/beastiary/beasts/giant-lizard|Giant lizards]] warm themselves on black stone after rain, [[content/shattered-sea/beastiary/beasts/giant-bat|giant bats]] roost in the higher caves, and [[content/shattered-sea/beastiary/beasts/giant-wolf-spider|giant wolf spiders]] nest where old paths fall out of use. Local hunters do not make the island safe by denying those things. They make it safe by remembering where they were last seen.
+
+## Associated Islands
+
+Keth-Naar is the most populated of five small islands arranged around the Blue Hole. The others each hold a specific role in the life of the community: [[Vel-Orn]] at the centre holds the shrine, kept apart from ordinary travel; [[Ral-Arn]] holds the oldest family records; [[Dath-Mar|Dath-Mar]] is the refuge island, kept ready for emergencies; [[Meth-Var]] faces the open Maw waters and is maintained as a permanent watch post.
+
+## See Also
+
+- [[Sunken-Crown|The Sunken Crown]]
+- [[Dath-Mar]] — refuge island
+- [[Ral-Arn]] — record island
+- [[Meth-Var]] — watch island
+- [[Vel-Orn]] — shrine island
+- [[Vestra]] — wreck survivor context
+- [[content/shattered-sea/lore/Demographics|Peoples of the Shattered Sea]] — regional demographics

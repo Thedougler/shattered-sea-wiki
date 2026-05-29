@@ -1,0 +1,109 @@
+---
+title: Karath
+category: location
+type: location
+subtype: island
+island_type: hostile-island
+publish: true
+created: 2026-05-01
+updated: 2026-05-15
+summary: Public gazetteer entry for Karath, a Verdant Teeth island with a hostile reputation and no visible invitation to land.
+tags:
+  - island
+  - grung
+campaign: shattered-sea
+audience: players
+region: verdant-teeth
+parent_location: "[[Verdant-Teeth|The Verdant Teeth]]"
+governance: "[[Grung-Clans|The Grung Clans]]"
+access: "Hostile reef approach; outsiders met with dart fire"
+confidence_level: medium
+aliases:
+  - Karath Island
+sources:
+  - "[[2026-04-13-simone-tabarnack-npc-2]]"
+relationships:
+  - relation: part_of
+    target: The Midchain
+  - relation: controlled_by
+    target: The Grung Clans
+  - relation: threatened_by
+    target: Giant Spider
+  - relation: threatened_by
+    target: Giant Venomous Snake
+  - relation: threatened_by
+    target: Giant Toad
+---
+
+# Karath
+
+## Overview
+
+Karath looks like the other [[Verdant-Teeth|Verdant Teeth]] from the water — low reef approaches, rainforest running close to the shore, no harbour, no smoke, no visible reason to stop. The distinction is what happens when you get close anyway. Outsiders who nose into the reef gaps are met with dart fire, no warning, no gap between the quiet beach and the response. Pilots who know these waters treat Karath specifically as the island you give extra room, not because the others are inviting but because Karath is the one with a reputation for not waiting to see what you were planning.
+
+[[content/shattered-sea/places/midchain/index|The Midchain]] coastal settlements have noticed the raids out of this direction have been getting worse. [[Chain-Council|The Chain Council]] has received the complaints. Whether either of those facts will produce consequences is an open question the people living near the water are watching closely.
+
+Karath's reputation belongs to the grung first, but the island helps maintain it. The forest behind the dart line is known for [[content/shattered-sea/beastiary/beasts/giant-spider|giant spiders]], [[content/shattered-sea/beastiary/beasts/giant-venomous-snake|giant venomous snakes]], and [[content/shattered-sea/beastiary/beasts/giant-toad|giant toads]] in the wet cuts between ridges. Outsiders who imagine the beach is the dangerous part have misunderstood the warning.
+
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Hostile Grung-held rainforest island |
+| Region | [[Verdant-Teeth|The Verdant Teeth]] |
+| Controlled By | [[Grung-Clans|The Grung Clans]] |
+| Access | Hostile reef approach; outsiders met with dart fire |
+| Primary Economy | No public trade; interior activity concealed |
+| Known For | Reef-gap dart fire and an especially lethal boundary reputation |
+
+## Geography
+
+Karath has low reef approaches, rainforest close to shore, wet cuts between ridges, and no harbour, smoke, or visible invitation to land.
+
+## Settlements & Sites
+
+| Place | Type | Notes |
+|---|---|---|
+| Reef gaps | approach / hazard | Boat approaches are met with dart fire before warning. |
+| Rainforest interior | wilderness | Known for spiders, venomous snakes, toads, and Grung paths outsiders cannot use. |
+
+## Roads & Routes
+
+Outsiders have no sanctioned route. Grung paths exist behind the beach and through the wet ridge cuts, but the public route guidance is simple: give Karath room.
+
+## People & Power
+
+The [[Grung-Clans|Grung clans]] hold the island and enforce the boundary immediately. The island's terrain supports that policy by making the forest behind the beach just as dangerous as the beach.
+
+## Trade & Resources
+
+No open trade is known from Karath. Its public economic role is negative: raids, warning, and pressure on nearby Midchain settlements.
+
+## Flora
+
+Karath is rainforest, reef-edge growth, wet ridge cuts, root tangles, and standing water. Specific useful plant resources are not yet documented.
+
+## Fauna
+
+The interior forest maintains the island's reputation past the waterline. [[content/shattered-sea/beastiary/beasts/giant-spider|Giant spiders]] occupy the older canopy growth and the shadow between ridge lines — the web structures are large enough to be visible from the forest floor and functional enough to catch things considerably larger than insects. The grung paths move around them rather than through them.
+
+[[content/shattered-sea/beastiary/beasts/giant-venomous-snake|Giant venomous snakes]] work the root tangles and fallen timber along the wet ridge cuts. They are a category of hazard that does not announce itself, and in a forest where outsiders are already under dart fire from above, a snake strike from ground level arrives without warning in either direction. Grung hunters move through this forest; anyone else is navigating terrain that has never been cleared for them.
+
+The wet cuts between ridges pool standing water year-round, which suits [[content/shattered-sea/beastiary/beasts/giant-toad|giant toads]] well. They are ambush feeders with the patience the environment rewards, and large enough to take prey that underestimates the reach of something that has been sitting motionless in the same pool since before the current season. Outsiders who imagine the beach is the dangerous part of Karath have not thought through the rest of the island.
+
+## Hazards
+
+Dart fire, reef traps, giant spiders, giant venomous snakes, giant toads, wet ridge cuts, and unknown interior patrols.
+
+## Current Hooks
+
+- Raids from the direction of the Teeth are worsening, and Karath is the island sailors most fear.
+- The Chain Council has heard complaints; whether that changes anything is unresolved.
+
+## See Also
+
+- [[Verdant-Teeth|The Verdant Teeth]]
+- [[Veth]]
+- [[Sorn|Sorn]]
+- [[Midchain|The Midchain]]
+- [[Grung-Clans|The Grung Clans]]

@@ -70,7 +70,7 @@ sources: []
 - [[batta-zusto|Batta Zusto]] — [stub] Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage.
 - [[bela-silt-paw|Bela Silt-Paw]] — [stub] Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
 - [[bisou|Bisou]] — Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth.
-- [[capn-gorgeous|Cap'n Gorgeous]] — Dravosi Enforcer killed in the Saltwright hold ambush. His death is the reason Rupert Knighton will send ships.
+- [[capn-gorgeous|Cap'n Gorgeous]] — Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair.
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[dario|Dario]] — [stub] Stub — Acqua-Nera operator in Calveno; does ship re-identification work for money and certainty.

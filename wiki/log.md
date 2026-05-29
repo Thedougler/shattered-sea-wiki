@@ -220,3 +220,4 @@ sources: []
 - [[peoples-of-the-shattered-sea|Peoples of the Shattered Sea]] — updated with full regional species tables.
 - [[leviathan|Leviathan]] (creature) — player-facing rumor entry; DM truth at npcs/leviathan.md.
 - Bestiary — 33 creature pages written to wiki/entities/creatures/: Dravosi Alchemist/Deckhand/Enforcer, Pirate/Captain/Admiral, Guard Captain, Animated Armor, Animated Rug of Smothering, Dragon Turtle family (wyrmling/young/adult/ancient), Sea Serpent family (young/ancient), Arclight Phoenix, Whip Shark, Sawek, Moucheron, Krakling, Ridgeback, Apotheosis, Blight, Covenant, Death March, Forsworn, Hierarch, Intoner, Necromaton, Restless, Skulldugger, Soul Incarnate, Unfamiliar.
+- 2026-05-28 ingest: algernon-reginald-clyde — new minor NPC page; stub for clydes-bestiary-of-oceanic-creatures; krakling bestiary link fixed

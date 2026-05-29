@@ -65,6 +65,7 @@ sources: []
 - [[wessa|Wessa]] — Cook aboard the Saltwright under Beaumont Sel. Stocky, grey-haired, terse, and better at provisions than the provisions deserve.
 
 ## entities/characters/minor
+- [[algernon-reginald-clyde|Algernon Reginald Clyde]] — Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying.
 - [[batta-zusto|Batta Zusto]] — [stub] Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage.
 - [[bela-silt-paw|Bela Silt-Paw]] — [stub] Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
 - [[bisou|Bisou]] — Beaumont Sel's capuchin monkey. Neutralized HCS Surety cannons by being thrown through a gun port and pissing in the powder; later stole 15 gp of shinies.
@@ -179,6 +180,7 @@ sources: []
 
 ## entities/items
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
+- [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.

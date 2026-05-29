@@ -69,7 +69,7 @@ sources: []
 - [[bala-tane|Bala Tane]] — Pit boss of the Mud Pits on Kalowe's third island — orc woman, mid-forties, has run the fights for fifteen years. Announces each match like a royal proclamation and then goes completely still for the duration.
 - [[batta-zusto|Batta Zusto]] — [stub] Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage.
 - [[bela-silt-paw|Bela Silt-Paw]] — [stub] Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
-- [[bisou|Bisou]] — Beaumont Sel's capuchin monkey. Neutralized HCS Surety cannons by being thrown through a gun port and pissing in the powder; later stole 15 gp of shinies.
+- [[bisou|Bisou]] — Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth.
 - [[capn-gorgeous|Cap'n Gorgeous]] — Dravosi Enforcer killed in the Saltwright hold ambush. His death is the reason Rupert Knighton will send ships.
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.

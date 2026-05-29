@@ -51,7 +51,7 @@ session_date: 2026-05-25
 - [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — whip shark chest wound, 3 fertilized eggs, green disguise, Casa Lupo + Studio Orsini visits
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — caught Perrin+JC, lifted whip shark, Rook chart archive found (Drowned Maw), Kyzil reunion
 - [[nona-black-jaw|Nona Black-Jaw]] — met in person, attacks called off, Vestra consolation ordered, favor called in, sending stone given
-- [[shepherd-grigori|Shepherd Grigori]] — departed Calveno, cold handshake, unidentified healing magic, 1–2 week business in city
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] — departed Calveno, cold handshake, unidentified healing magic, 1–2 week business in city
 - [[master-kyzil|Master Kyzil]] — new; Crissdalynn's master; reunited; had searched Kalowe and Tidefall
 - [[old-faas|Old Faas]] — taught Perrin rigging, ran cargo with Rook in old days
 - [[sem-holst|Sem Holst]] — worked hull with JC during transit; quietly fixed JC's mending misses

@@ -91,6 +91,6 @@ CR 19 | HP 263 | AC 17 | CHA 21 | Save DC 19
 
 - [[shepherd-grigori-island|Shepherd Grigori — Narrative Island]] — full encounter prep, scene spine, player choices
 - [[khlysty|Khlysty]] — the sect he leads
-- [[shepherd-grigori|Shepherd Grigori — NPC]] — public-facing page
+- [[wiki/situations/active/shepherd-grigori|Shepherd Grigori — NPC]] — public-facing page
 - [[tessarine-concordat|Tessarine Concordat]] — the family he targeted in Calveno
 - [[uncertainty|Uncertainty]] — the ship he traveled on

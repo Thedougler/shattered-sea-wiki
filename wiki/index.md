@@ -54,12 +54,12 @@ sources: []
 - [[alys-kuiper|Alys Kuiper]] — Ship's surgeon — calm, competent, doing inventory while waiting to see if the new management understands what a surgeon's post actually is.
 - [[drav-holke|Drav Holke]] — Bosun aboard the Saltwright under Beaumont Sel. Short, broad, practical, and exacting about correct ship work.
 - [[fen|Fen]] — Ordinary sailor aboard the Saltwright under Beaumont Sel. Young, earnest, and treating eight months at sea as deeply formative.
-- [[geoffrey-draves|Geoffrey Draves]] — Nineteen-year-old Dravosi deckhand and ship's carpenter. Defected mid-fight when given a choice; party's first crew member. No ship assigned yet.
+- [[geoffrey-draves|Geoffrey Draves]] — Young Dravosi deckhand recruited by Delmar mid-fight — a sailor by his father's command, a dancer by his own heart, vowed to earn enough to marry the woman he danced with once and then lost.
 - [[lenne-vor|Lenne Vor]] — Navigator aboard the Saltwright under Beaumont Sel. Middle-aged chart worker with twenty years of ink-darkened precision.
-- [[noor|Noor]] — Young crew member. Joined the party crew from the HCS Surety in Session 02.
-- [[old-faas|Old Faas]] — Rigger aboard the Uncertainty. Built like a brick shithouse, faster up the rigging than any rat. Ran cargo with Rook in his old days and tells stories about it.
-- [[sem-holst|Sem Holst]] — Shipwright aboard the Uncertainty. Worked hull repairs alongside Jean-Claude during transit; quietly fixed JC's Mending misses without comment. Ashore in Calveno, worried about the figurehead and hull integrity.
-- [[thunk|Thunk]] — Crew member described as 'the good kind of explosion.' Joined the party crew from the HCS Surety in Session 02.
+- [[noor|Noor]] — Fifteen, enthusiastic, knows every sailing manual by heart and has sailed on almost none of them — easiest recruit aboard, stays for any destination that sounds interesting.
+- [[old-faas|Old Faas]] — Veteran bosun, rated rigger, constitutionally unkillable. Returns from Calveno shore leave with two peg legs and three contradictory stories about how he lost them. Somehow faster on the rigging than before.
+- [[sem-holst|Sem Holst]] — Lean shipwright who catalogues damage without being asked and stays if someone demonstrates they understand the difference between a caulked seam and a packed one.
+- [[thunk|Thunk]] — Former Crown Shipyards blacksmith turned naval gunner — the best man at a cannon the party is likely to meet, who will not tell them that unless someone asks. Holds a master's degree in chemistry that he has never mentioned because it has not come up.
 - [[wessa|Wessa]] — Cook aboard the Saltwright under Beaumont Sel. Stocky, grey-haired, terse, and better at provisions than the provisions deserve.
 
 ## entities/characters/minor
@@ -70,7 +70,7 @@ sources: []
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[dario|Dario]] — [stub] Stub — Acqua-Nera operator in Calveno; does ship re-identification work for money and certainty.
-- [[ensign-wouters|Ensign Wouters]] — Dravosi Crown ensign aboard the HCS Surety. Shot in the groin by Delmar during the boarding. Used as a lure to free Ket. Deceased.
+- [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — [stub] Nona Black-Jaw's enforcer in Calveno. Present in the Le Paludi kitchen. Ordered to console the Vestra's crew and to call off the attacks on Perrin.
 - [[ettore|Ettore]] — [stub] Stub — Casa Lupo proprietor in Calveno; remembers purchases across decades; decides whether strangers deserve a direction.
 - [[ferrin-locke|Ferrin Locke]] — [stub] Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found.
@@ -115,6 +115,9 @@ sources: []
 
 ## entities/places/buildings
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
+
+## entities/places/islands
+- [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
 
 ## entities/places/settlements
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
@@ -224,22 +227,6 @@ sources: []
 - [[hull-impacts|Hull Impacts]] — RESOLVED Session 03 — whip shark (60+ ft) killed in open water by the party. Hull patched with scales during the 5-day transit to Calveno.
 - [[the-rook-resolution|The Rook Resolution]] — RESOLVED — Rook went into the water a second time in Session 02 and did not come back. Presumed dead, taken by something eel-like. Standoff never resolved; made moot by the water.
 
-## islands
-- [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
-- [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.
-- [[calveno-raid-signs|Calveno — Raid Prep Signs]] — Location-keyed ambient observations for the Calveno sandbox — the handlers are already in the city. Use one or two per session day, not all at once.
-- [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party.
-- [[calveno-street-encounters|Calveno — Street Encounters]] — Optional drop-in encounters for Calveno and Le Paludi — muggings, canal incidents, festival escalations, Dravosi gate checks, and a man in the water. Includes Jean-Claude Arc combat escalations: Handler Cell, Serin Haut at Bay, Le Paludi Hired Muscle.
-- [[il-gioco-delle-beffe-dm|Il Gioco delle Beffe — DM Notes]] — DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge.
-- [[port-tidefall-dockfront|Port Tidefall — Dockfront Opportunities]] — Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors.
-- [[red-lady-salvage-money|Red Lady — Salvage Money]] — Unusual broker money is moving through Calveno toward a Maw salvage commission targeting the Red Lady. Batta Zusto on the Bridge is the accessible thread. The funder is not yet known.
-- [[shepherd-grigori|Shepherd Grigori — Narrative Island]] — A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.
-- [[warren-bela-silt-paw|Warren — Bela Silt-Paw]] — A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left.
-- [[warren-ferrin-locke|Warren — Ferrin Locke]] — Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out.
-- [[warren-grung-sewers|Warren — Grung in the Sewers]] — Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building.
-- [[warren-marrows-crate|Warren — Marrow's Crate]] — A dead courier's crate at Marrow's has been sitting unclaimed for three weeks. The courier was murdered. A Dravosi spy is watching the canal approaches for whoever comes to collect.
-- [[warren-nonas-table|Warren — Nona's Table]] — The Perrin–Nona reunion at the Tangle Chambers — the Vestra reveal, what Nona asks in return for Tangle help, and how far family credit extends when the ship she gave him is gone.
-
 ## lore
 - [[antheri|The Antheri]] — Ancient aquatic civilization that built upward from the bottom of the Drowned Maw around a planar fissure. Their city, biomancy, soul-pledge technology, and disappearance all remain active archaeology threads.
 - [[campaign-overview|Campaign Overview]] — Dense reference overview of the Shattered Sea campaign — geography, powers, religion, starting situation, and the edges of the map. Player-facing.
@@ -280,3 +267,18 @@ sources: []
 
 ## entities/creatures
 - [[barnaby-rook|Captain Barnaby Rook — Stat Block]] — CR 3 Dravosi Crown privateer captain. Boarding specialist with Parry reaction, legendary actions, and lair actions aboard the HCS Surety. Phase 3 boss of the Saltwright encounter.
+
+## situations/islands
+- [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.
+- [[calveno-raid-signs|Calveno — Raid Prep Signs]] — Location-keyed ambient observations for the Calveno sandbox — the handlers are already in the city. Use one or two per session day, not all at once.
+- [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party.
+- [[calveno-street-encounters|Calveno — Street Encounters]] — Optional drop-in encounters for Calveno and Le Paludi — muggings, canal incidents, festival escalations, Dravosi gate checks, and a man in the water. Includes Jean-Claude Arc combat escalations: Handler Cell, Serin Haut at Bay, Le Paludi Hired Muscle.
+- [[il-gioco-delle-beffe-dm|Il Gioco delle Beffe — DM Notes]] — DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge.
+- [[port-tidefall-dockfront|Port Tidefall — Dockfront Opportunities]] — Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors.
+- [[red-lady-salvage-money|Red Lady — Salvage Money]] — Unusual broker money is moving through Calveno toward a Maw salvage commission targeting the Red Lady. Batta Zusto on the Bridge is the accessible thread. The funder is not yet known.
+- [[shepherd-grigori|Shepherd Grigori — Narrative Island]] — A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.
+- [[warren-bela-silt-paw|Warren — Bela Silt-Paw]] — A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left.
+- [[warren-ferrin-locke|Warren — Ferrin Locke]] — Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out.
+- [[warren-grung-sewers|Warren — Grung in the Sewers]] — Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building.
+- [[warren-marrows-crate|Warren — Marrow's Crate]] — A dead courier's crate at Marrow's has been sitting unclaimed for three weeks. The courier was murdered. A Dravosi spy is watching the canal approaches for whoever comes to collect.
+- [[warren-nonas-table|Warren — Nona's Table]] — The Perrin–Nona reunion at the Tangle Chambers — the Vestra reveal, what Nona asks in return for Tangle help, and how far family credit extends when the ship she gave him is gone.

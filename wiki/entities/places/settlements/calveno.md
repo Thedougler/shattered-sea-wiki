@@ -41,4 +41,4 @@ The party arrived Session 03 with the ship renamed *Uncertainty*, Black-Jaw colo
 
 ## Current State (Post-Session 03)
 
-Party ashore for an estimated week (5-day repair minimum). [[shepherd-grigori|Shepherd Grigori]] departed into the city. [[master-kyzil|Master Kyzil]] is somewhere here. [[nona-black-jaw|Nona]]'s favor is outstanding. The Umberlee servant is at the shrine.
+Party ashore for an estimated week (5-day repair minimum). [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] departed into the city. [[master-kyzil|Master Kyzil]] is somewhere here. [[nona-black-jaw|Nona]]'s favor is outstanding. The Umberlee servant is at the shrine.

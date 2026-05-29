@@ -109,7 +109,7 @@ Two confirmed Hierarchs operate in or near the campaign:
 
 **[[Aldric-Drave|Aldric Drave]]** founded the Dravosi Crown before the colonial project began, seeding his bloodline into every noble family the Crown would produce. The Crown's genealogical archives — maintained with religious devotion — are an inadvertent map of his phylactery network. He has been running this cycle for at least three centuries. The [[content/shattered-sea/items/Pearl-of-Souls|Pearl of Souls]] interests him because it may offer a way to anchor outside his own bloodline.
 
-**[[Shepherd-Grigori|Shepherd Grigori]]** is a CR 19 Hierarch traveling aboard the [[HCS-Surety|HCS Surety]] as Barnaby Rook's guest. His phylactery network is a collection of noble heirs whose incurable illnesses he cured. As long as any of them live, he cannot be permanently killed. He is heading to Calveno.
+**[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]** is a CR 19 Hierarch traveling aboard the [[HCS-Surety|HCS Surety]] as Barnaby Rook's guest. His phylactery network is a collection of noble heirs whose incurable illnesses he cured. As long as any of them live, he cannot be permanently killed. He is heading to Calveno.
 
 ## Lair Actions
 
@@ -123,7 +123,7 @@ On initiative count 20, the Hierarch can use one of the following (no repeat in 
 ## See Also
 
 - [[Aldric-Drave|Aldric Drave]]
-- [[Shepherd-Grigori|Shepherd Grigori]]
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]
 - [[content/shattered-sea/beastiary/undead/Intoner|Intoner]]
 - [[content/shattered-sea/beastiary/undead/Blight|Blight]]
 - [[content/shattered-sea/beastiary/undead/index|Undead]]

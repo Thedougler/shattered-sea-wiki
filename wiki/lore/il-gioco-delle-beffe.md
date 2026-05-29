@@ -16,7 +16,7 @@ sources: ["Inbox/Session-02-Recap.md", "Inbox/Il-Gioco-delle-Beffe.md"]
 
 Calveno's five-day prank festival. Teams design elaborate public hoaxes, execute them on willing marks, and leave their registered symbol at the scene to claim the score.
 
-[[shepherd-grigori|Shepherd Grigori]] left the party to attend festival business after the ship reached [[calveno|Calveno]].
+[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] left the party to attend festival business after the ship reached [[calveno|Calveno]].
 
 ## Structure
 

@@ -39,7 +39,7 @@ Calm, slight, and currently in the medic's cabinet doing inventory. She finds th
 
 She discusses triage and recovery with clinical warmth — as if everyone in the room shares her comfort with medical detail. They do not, but she has never quite registered this.
 
-She kept the Murrat casualties alive. She is precise about the limits of her own work: *"They pulled through because of him. I'll say that plainly."* She means [[shepherd-grigori|Shepherd Grigori]]. She does not know what that credit means, and she is not wrong to give it.
+She kept the Murrat casualties alive. She is precise about the limits of her own work: *"They pulled through because of him. I'll say that plainly."* She means [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]. She does not know what that credit means, and she is not wrong to give it.
 
 ## Aboard Ship
 
@@ -58,4 +58,4 @@ If the party mentions they intend to keep the Surgeon's Berth staffed and stocke
 
 - [[hcs-surety|HCS Surety]]
 - [[barnaby-rook|Barnaby Rook]]
-- [[shepherd-grigori|Shepherd Grigori]]
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]

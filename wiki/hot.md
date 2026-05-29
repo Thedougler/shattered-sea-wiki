@@ -18,7 +18,7 @@ sources: []
 
 Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vessel, HCS prefix dropped, Crown colours not flying. In dry dock at [[la-vasca|La Vasca]], [[calveno|Calveno]], for a 5-day repair. Party has approximately one week of shore leave in a city already in [[il-gioco-delle-beffe|Il Gioco delle Beffe]] motion; Beffe registration opens tomorrow morning at the Mercatura bridge.
 
-[[shepherd-grigori|Shepherd Grigori]] has departed into the city on undisclosed business. His magic type is unidentified (red viscous light, no components — Arcana 18 failed). His handshake was cold. DM truth now exists: he is tied to [[khlysty|the Khlysty]], an undead healing/flock/phylactery network.
+[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] has departed into the city on undisclosed business. His magic type is unidentified (red viscous light, no components — Arcana 18 failed). His handshake was cold. DM truth now exists: he is tied to [[khlysty|the Khlysty]], an undead healing/flock/phylactery network.
 
 ## Open PC Threads
 

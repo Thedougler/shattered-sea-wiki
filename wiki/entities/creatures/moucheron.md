@@ -86,6 +86,13 @@ Murrat itself is hostile to outsiders — island Moucherons attack anything that
 > [!dm]
 > The Five Blades carry 2–3 blood keeps each, meaning they can go 2–3 days without a contract before hitting Hungry. A Moucheron at Difficult or worse will not lie about their state if asked directly. They consider it a contractual disclosure.
 
+## Notable Individuals
+
+[[ket|Ket]] — a Moucheron captured by Rook. Intelligent and communicative: understood the situation, showed clear emotional response (laughter under *Tasha's Hideous Laughter*; relief when freed).
+
+> [!dm]
+> Rook was specifically investigating a connection between the Moucheron and the [[five-blades|Five Blades]]. The public source establishes the Five Blades are Moucheron; it does not establish why Rook escalated from research to specimen capture.
+
 ## Related
 
 - [[murrat|Murrat]]

@@ -180,6 +180,7 @@ sources: []
 - [[keth-naar|Keth-Naar]] — A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone.
 - [[meth-var|Meth-Var]] — The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar.
 - [[ral-arn|Ral-Arn]] — The memory island of the Sunken Crown — where the oldest family records, tide accounts, and storm marks are kept carved in stone.
+- [[stenmark|Stenmark]] — The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -405,6 +406,10 @@ sources: []
 - [[simple-meal|Simple Meal]] — Salt fish, hard bread, and pickled greens — the baseline meal at most Shattered Sea port taverns.
 - [[small-beer|Small Beer]] — Very low-alcohol fermented grain drink — safer than untreated water on long passages, without the intoxicating effects of real ale.
 - [[smoke-bomb|Smoke Bomb]] — A compact alchemical device that produces a 10-foot sphere of dense smoke lasting one minute.
+- [[spark-pistol|Spark Pistol]] — A single-shot lightning pistol that fires 2d8 damage with no powder and no wet-weather misfire — prototype; Catarina has not decided what went wrong with it.
+- [[spear|Spear]] — An iron-tipped wooden shaft — the most basic polearm, thrown or thrust, at home on a ship's deck.
+- [[splint-and-wrap|Splint and Wrap]] — A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it.
+- [[spyglass|Spyglass]] — A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -497,6 +502,7 @@ sources: []
 - [[circle-magic|Circle Magic]] —
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
 - [[siege-rules|Siege Rules]] — Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
+- [[sports-match-rules|Sports Match Rules]] — 5e-based rules for running a sports match as a combat encounter. Share with players the session before the match.
 
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] —

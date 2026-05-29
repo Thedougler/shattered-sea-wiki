@@ -49,3 +49,11 @@ Nona called off the attacks on Perrin when he arrived in her kitchen — she'd b
 
 > [!dm]
 > The organizational structure — how many cells, what geographic reach, who sits above Nona — is not established. Expand before the network becomes plot-relevant.
+
+## DM Notes — Calder's Tooth Infrastructure
+
+The Passage has turned the limestone cave systems under the Overland Track on [[calders-tooth|Calder's Tooth]] into a blind spot beneath Crown administration.
+
+**Overland Track — Hidden Route:** Rattkin couriers cross the island in approximately 6 hours unseen through parallel dry-routes — bypasses toll stations, patrol eyes, cargo counts, and anyone waiting with a ledger. The Crown owns the official road. The Passage effectively owns the passage beneath it.
+
+**[[oshas-slip|Osha's Slip]] — Landing Site:** The Passage's favored night-landing site for small high-value cargo. The mud makes Dravosi armored pursuit nearly impossible. Crown authority at Osha's Slip is largely theoretical.

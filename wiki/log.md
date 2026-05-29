@@ -194,3 +194,13 @@ sources: []
 - CREATE: `wiki/situations/active/governors-seat.md` — Governor Voss boxed out; sealed Maw orders; Delmar's name opens the gate
 - CREATE: `wiki/situations/active/fort-crestwall.md` — sealed orders in Commandant's office; Duty Sergeant's Necklace of Fireballs
 - CREATE: `wiki/islands/port-tidefall-dockfront.md` — narrative island; ship leads, Maret salvage, Waveservant pressure, cache
+- UPDATE: `wiki/entities/places/aruhe.md` — Blight DM notes; Death Bloom interior; Grung awareness; World Tick state
+- UPDATE: `wiki/entities/places/central-strait.md` — DM chokepoint framing; Doldrums pacing note
+- UPDATE: `wiki/entities/characters/npcs/maren.md` — Halythion lead DM notes via mortis mechanic
+- UPDATE: `wiki/entities/characters/npcs/rael-corven.md` — Cloak of Useful Things location at Shelfworks
+- UPDATE: `wiki/entities/factions/the-passage.md` — Calder's Tooth limestone cave infrastructure; Osha's Slip
+- CREATE: `wiki/entities/places/galewall.md` — phoenix causality; crossing pressure; Stormwarden ambiguity
+- CREATE: `wiki/entities/places/doldrums.md` — seasonal drift pacing tool; Central Strait corridor
+- CREATE: `wiki/entities/places/outer-reach.md` — under-governed zone; Sunken Crown instability; blue dragon sphere
+- CREATE: `wiki/entities/places/halythion.md` — hidden sea elf city; Maren's lead; shallow draft access potential
+- CREATE: `wiki/situations/active/cape-solitude.md` — Dead Light mystery; three crew vanished; intentionally unresolved

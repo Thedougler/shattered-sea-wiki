@@ -28,3 +28,9 @@ Met [[delmar-fisk|Fisk]] in the [[midchain|Midchain]] before either had a ship. 
 His father was a merchant sailor killed when the navy sank his vessel on false grounds and classified the cargo as pirate salvage. Rael never forgave the institution.
 
 **Voice:** Speaks rarely. Everything lands like a ruling.
+
+---
+
+## DM Notes — What Rael's Soul Knows
+
+**Cloak of Useful Things — location:** Went down with the [[red-lady|Red Lady]] at the [[shelfworks|Shelfworks]] eastern shelf descent, alongside the [[pearl-of-souls|Pearl of Souls]]. Potentially recoverable as part of a deeper Shelfworks dive. See [[pearl-of-souls|Maw Pearl Crisis]] for the full salvage context.

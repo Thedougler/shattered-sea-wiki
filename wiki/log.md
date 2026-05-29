@@ -254,3 +254,9 @@ sources: []
 - 2026-05-28 ingest: Vincenzo-Black-Jaw — new NPC page (deceased, Nona's husband)
 - 2026-05-28 ingest: Vrtek — new NPC page (Port Tidefall dockhand, treasure map)
 - 2026-05-28 ingest: Inbox/index.md — upgraded Calder's Tooth page from location index
+- 2026-05-28: Aruhe — place stub upgraded to player-facing; DM situation created (wiki/situations/active/aruhe.md)
+- 2026-05-28: Ashwall Islands — stub upgraded to full player-facing page
+- 2026-05-28: Barnaby Rook — status updated to presumed_dead; Role, Appearance, Wants, Inspection Pressure sections added
+- 2026-05-28: Bastian Crev — stub upgraded to full page with Mortis data and backstory
+- 2026-05-28: Bastions — rules reference created (wiki/rules/subsystems/bastions.md)
+- 2026-05-28: Battlefield Actions — encounter-design reference created (wiki/rules/encounter-design/battlefield-actions.md)

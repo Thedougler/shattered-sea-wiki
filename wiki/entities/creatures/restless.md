@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, undead, bestiary, cr9]
 sources: ["Inbox/Restless.md"]
-cr: 9
 confidence_level: high
+cr: 9
 aliases: ["Restless"]
 ---
 

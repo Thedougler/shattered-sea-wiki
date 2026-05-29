@@ -10,8 +10,8 @@ created: 2026-05-16
 updated: 2026-05-28
 tags: [creature, elemental, aquatic, boss, bestiary, cr8, planar]
 sources: ["Inbox/Ridgeback.md"]
-cr: 8
 confidence_level: high
+cr: 8
 aliases: ["The Ridgeback", "The Roller", "The Hump"]
 relationships:
   - "[[the-drowned-maw|The Drowned Maw]] — territory"

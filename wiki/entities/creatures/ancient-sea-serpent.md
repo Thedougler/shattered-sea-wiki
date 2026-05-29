@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr14]
 sources: ["Inbox/ancient-sea-serpent.md"]
-cr: 14
 confidence_level: medium
+cr: 14
 ---
 
 # Ancient Sea Serpent

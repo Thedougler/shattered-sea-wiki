@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, fey, bestiary, cr8]
 sources: ["Inbox/Moucheron.md"]
-cr: 8
 confidence_level: high
+cr: 8
 aliases: ["Moucheron"]
 relationships:
   - "[[kalowe|Kalowe]] — primary Midchain hiring port"

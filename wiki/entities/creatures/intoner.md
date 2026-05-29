@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, undead, lich, bestiary, cr18]
 sources: ["Inbox/Intoner.md"]
-cr: 18
 confidence_level: high
+cr: 18
 aliases: ["Intoner", "Intoner lich"]
 ---
 

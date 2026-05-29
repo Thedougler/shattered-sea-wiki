@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, undead, lich, bestiary, cr16]
 sources: ["Inbox/Soul-Incarnate.md"]
-cr: 16
 confidence_level: high
+cr: 16
 aliases: ["Soul Incarnate"]
 ---
 

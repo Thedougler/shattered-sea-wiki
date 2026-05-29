@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr10]
 sources: ["Inbox/young-dragon-turtle.md"]
-cr: 10
 confidence_level: high
+cr: 10
 ---
 
 # Young Dragon Turtle

@@ -5,12 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: Uncertainty — Deck Layouts
 summary: "Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [reference, ship, maritime, battlemap, bastion]
 sources: ["Inbox/HCS-Surety-Layout.md"]
+confidence_level: medium
+title: Uncertainty — Deck Layouts
 ---
 
 # Uncertainty — Deck Layouts

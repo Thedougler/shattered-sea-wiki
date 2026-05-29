@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-lifecycle: active
-island: null
 summary: "Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city."
 created: 2026-05-14
 updated: 2026-05-28
 tags: [situation, thread, calveno, tessarine, salvage, warren, surety]
 sources: ["Inbox/Calveno.md"]
+lifecycle: active
+island:
 confidence_level: high
 relationships:
   - relation: involves

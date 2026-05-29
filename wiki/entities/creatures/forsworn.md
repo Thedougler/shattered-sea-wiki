@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, undead, lich, bestiary, cr21]
 sources: ["Inbox/Forsworn.md"]
-cr: 21
 confidence_level: high
+cr: 21
 aliases: ["Forsworn"]
 ---
 

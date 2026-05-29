@@ -10,6 +10,8 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, warren, investigation, espionage]
 sources: ["Inbox/Warren-Marrows-Crate.md"]
+lifecycle: dormant
+island:
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr4]
 sources: ["Inbox/dragon-turtle-wyrmling.md"]
-cr: 4
 confidence_level: medium
+cr: 4
 relationships:
   - "[[sunken-crown|The Sunken Crown]] — sighted near"
 ---

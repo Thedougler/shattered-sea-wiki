@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr17]
 sources: ["Inbox/dragon-turtle.md"]
-cr: 17
 confidence_level: medium
+cr: 17
 relationships:
   - "[[the-drowned-maw|The Drowned Maw]] — hunting ground"
   - "[[sunken-crown|The Sunken Crown]] — hunting ground"

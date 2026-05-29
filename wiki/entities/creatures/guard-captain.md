@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, humanoid, cr4]
 sources: ["Inbox/guard-captain.md"]
-cr: 4
 confidence_level: high
+cr: 4
 ---
 
 # Guard Captain

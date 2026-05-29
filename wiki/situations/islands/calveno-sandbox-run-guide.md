@@ -10,6 +10,8 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, calveno, session-prep, sandbox]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
+lifecycle: dormant
+island:
 confidence_level: high
 portable: false
 entry_points:

@@ -5,12 +5,16 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-title: Lines and Veils
 summary: "Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [system, reference, safety]
 sources: ["Inbox/lines-and-veils.md"]
+system_role: unknown
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ''
+title: Lines and Veils
 ---
 
 # Lines and Veils

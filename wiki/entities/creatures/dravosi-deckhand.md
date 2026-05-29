@@ -10,8 +10,8 @@ created: 2026-04-19
 updated: 2026-05-28
 tags: [creature, humanoid, bestiary, dravosi, cr1/8]
 sources: ["Inbox/Dravosi-Deckhand.md"]
-cr: "1/8"
 confidence_level: medium
+cr: "1/8"
 relationships:
   - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---

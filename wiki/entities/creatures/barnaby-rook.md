@@ -10,8 +10,8 @@ created: 2026-04-14
 updated: 2026-05-28
 tags: [creature, humanoid, bestiary, dravosi, cr3, named-enemy]
 sources: ["Inbox/Barnaby-Rook.md"]
-cr: 3
 confidence_level: high
+cr: 3
 relationships:
   - "[[barnaby-rook|Barnaby Rook]] — NPC lore page"
   - "[[hcs-surety|HCS Surety]] — command vessel / lair"

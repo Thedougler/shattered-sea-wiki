@@ -3,15 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: active
 audience: dm
 publish: false
-title: Kalowe — Takowan and Ship Disguise
 summary: "The Dravosi intelligence ship Takowan is mapping Passage contacts at Kalowe while the Uncertainty needs Kalowe's hidden slip to change its affiliation markers. Noa Fifita won't work while the Takowan is in port."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [thread, kalowe, dravosi, takowan, intelligence, passage, ship-disguise]
 sources: ["Inbox/Kalowe.md"]
+lifecycle: active
+island:
+title: Kalowe — Takowan and Ship Disguise
 region: midchain
 confidence_level: high
 relationships:

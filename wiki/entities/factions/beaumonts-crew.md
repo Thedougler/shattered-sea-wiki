@@ -10,6 +10,7 @@ created: 2026-05-03
 updated: 2026-05-28
 tags: [crew, maritime, recurring]
 sources: ["Inbox/Beaumonts-Crew.md"]
+confidence_level: medium
 aliases: ["Saltwright Crew"]
 relationships:
   - "[[beaumont-sel|Beaumont Sel]] — captain they serve"

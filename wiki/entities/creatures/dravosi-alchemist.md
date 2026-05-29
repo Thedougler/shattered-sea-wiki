@@ -10,8 +10,8 @@ created: 2026-04-19
 updated: 2026-05-28
 tags: [creature, humanoid, bestiary, dravosi, cr1]
 sources: ["Inbox/Dravosi-Alchemist.md"]
-cr: 1
 confidence_level: medium
+cr: 1
 relationships:
   - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---

@@ -3,15 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: active
 audience: dm
 publish: false
-title: Shepherd Grigori — World State
 summary: "Hierarch sorcerer-lich who traveled as party guest, departed Calveno after curing (and binding) a Tessarine heir. Network expanded. Location unknown. Thread dormant until a phylactery NPC surfaces or he contacts the party."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [undead, hierarch, villain, late_game]
 sources: ["Inbox/Shepherd-Grigori copy.md"]
+lifecycle: active
+island:
+title: Shepherd Grigori — World State
 confidence_level: high
 region: calveno
 relationships:

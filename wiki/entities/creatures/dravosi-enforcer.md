@@ -10,8 +10,8 @@ created: 2026-04-19
 updated: 2026-05-28
 tags: [creature, humanoid, bestiary, dravosi, cr1/2]
 sources: ["Inbox/Dravosi-Enforcer.md"]
-cr: "1/2"
 confidence_level: medium
+cr: "1/2"
 relationships:
   - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---

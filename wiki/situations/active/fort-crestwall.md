@@ -3,15 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: active
 audience: dm
 publish: false
-title: Fort Crestwall — Sealed Orders
 summary: "Two extra companies arrived at Fort Crestwall under Admiralty-sealed orders Governor Voss was never given. Supply manifest includes reef-diving equipment and underwater charges bound for the Drowned Maw. Delmar's commission name still opens the gate. A Duty Sergeant has a Necklace of Fireballs he needs to sell before the audit."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [thread, port-tidefall, fort-crestwall, dravosi, maw]
 sources: ["Inbox/Fort-Crestwall.md"]
+lifecycle: active
+island:
+title: Fort Crestwall — Sealed Orders
 region: crown-islands
 confidence_level: high
 relationships:

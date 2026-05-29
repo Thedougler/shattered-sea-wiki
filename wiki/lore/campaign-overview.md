@@ -5,12 +5,12 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-title: Campaign Overview
 summary: "Dense reference overview of the Shattered Sea campaign — geography, powers, religion, starting situation, and the edges of the map. Player-facing."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [reference, setting, player-facing]
 sources: ["Inbox/campaign-overview.md"]
+title: Campaign Overview
 ---
 
 *1495 DR. Sixty thousand square miles of reef, deep channel, colonial paperwork, old gods, and water that remembers.*

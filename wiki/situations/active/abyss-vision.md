@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, active, mystery, perrin, abyss]
 sources: ["Inbox/Session-03-Recap.md"]
 lifecycle: active
-island: null
+island:
 ---
 
 # The Abyss Vision — "Grow"

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: lost
 audience: dm
 publish: true
-title: The Red Lady
 summary: "Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [vehicle, ship, destroyed, fisk-fleet, wreck, tier-2]
 sources: ["Inbox/Red-Lady.md", "Inbox/Crissdalynn-Khinriss.md", "Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md"]
 confidence_level: confirmed
+title: The Red Lady
 ship_class: Brigantine (privateer-rigged)
 tier: 2
 hull_points: 230

@@ -10,6 +10,8 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, warren, perrin, rattkin, nona]
 sources: ["Inbox/Warren-Nonas-Table.md"]
+lifecycle: dormant
+island:
 portable: false
 entry_points:
   - Perrin enters the Warren under any circumstances

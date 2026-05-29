@@ -10,6 +10,8 @@ created: 2026-05-27
 updated: 2026-05-28
 tags: [island, calveno, encounters, reference, combat]
 sources: ["Inbox/Calveno-Street-Encounters.md"]
+lifecycle: dormant
+island:
 portable: false
 entry_points:
   - Party moves through city districts

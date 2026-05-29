@@ -86,6 +86,8 @@ sources: []
 - [[gost|Gost]] — [stub] Stub — Half-orc berserker available as a loose hiring hook in the Warren; no fixed loyalty.
 - [[hector-podge|Hector Podge]] — Proprietor of the Hook & Ledger in Port Tidefall — heavyset, grey, and so thoroughly embedded in the Shelf that Crown officers stop asking his name and start asking which table is free.
 - [[iacopo-fieschi|Iacopo Fieschi]] — Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city.
+- [[ilaria-grimaldi|Ilaria Grimaldi]] — Proprietor of Grimaldi's Dispensary on Kalowe's third island. Exact, economical, has been here fifteen years and has seen every kind of trouble arrive at a port. Listens to how someone asks before deciding what to tell them.
+- [[kettil-ormsson|Kettil Ormsson]] — Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price.
 - [[margaret-porcelain-pots|Margaret "Maggie" Porcelain Pots]] — [stub] Delmar Fisk's first love. Dragonborn with glittering peach-and-cream scales and vibrant pink eyes. Their relationship ended badly — she punched him hard enough to leave a shiner for a week. He has avoided her ever since.
 - [[marrow|Marrow]] — [stub] Stub — Warren broker running Marrow's, an unclaimed-goods operation; holding the Vretek/Brol crate that Dren was delivering before he was killed.
 - [[marta-orsini|Marta Orsini]] — [stub] Proprietor of Studio Orsini in Calveno. Pointed to by a Casa Lupo shopkeeper as the person to see about a fertilized whip shark egg.
@@ -124,7 +126,9 @@ sources: []
 
 ## entities/places/buildings
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
+- [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
+- [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 

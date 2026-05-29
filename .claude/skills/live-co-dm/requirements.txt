@@ -1,0 +1,32 @@
+# live-co-dm bundled-script dependencies (Apple Silicon target).
+#
+# These are intentionally isolated here, NOT at the repo root or in
+# .claude/scripts/ — that tree stays pure-stdlib. Install into a dedicated
+# virtualenv before running voice_profiler.py / transcribe_session.py:
+#
+#   python3 -m venv .claude/skills/live-co-dm/.venv
+#   source .claude/skills/live-co-dm/.venv/bin/activate
+#   pip install -r .claude/skills/live-co-dm/requirements.txt
+#
+# The unit-test suite needs NONE of these (it runs on the stdlib); only the live
+# capture/finalization adapters do. See references/setup.md for HF token + model
+# license acceptance steps.
+
+# ASR — Parakeet v3 on Apple MLX
+parakeet-mlx>=0.2
+mlx>=0.18
+
+# Diarization + speaker embeddings (overlap-aware; the separation engine)
+pyannote.audio>=3.1
+diart>=0.9
+torch>=2.2
+torchaudio>=2.2
+
+# Audio capture + file I/O
+sounddevice>=0.4
+soundfile>=0.12
+numpy>=1.26
+scipy>=1.11
+
+# Teleprompter web UI
+nicegui>=2.0

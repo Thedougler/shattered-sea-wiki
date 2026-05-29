@@ -20,3 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# live-co-dm capture scratch (audio + provisional transcript). The canonical
+# finalized transcript is committed separately as wiki/sessions/session-NN-transcript.md.
+wiki/sessions/.live/
+
+# live-co-dm tool virtualenv
+.claude/skills/live-co-dm/.venv/
+

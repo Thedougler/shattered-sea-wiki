@@ -173,6 +173,7 @@ sources: []
 - [[cape-solitude|Cape Solitude]] — The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished.
 - [[dath-mar|Dath-Mar]] — The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be.
 - [[harwick|Harwick]] — The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter.
+- [[huahei|Huahei]] — A small overgrown marshy island in the Midchain, notable for an odd fey presence.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -312,6 +313,11 @@ sources: []
 - [[herbalism-kit|Herbalism Kit]] — Pouches, mortars, and dried plants for characters proficient in herbalism — required for crafting herbal preparations. 5 gp.
 - [[hooded-lantern|Hooded Lantern]] — A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp.
 - [[house-spirits|House Spirits]] — Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works.
+- [[hull-caulking|Hull Caulking]] — Sealing open or failing hull seams with oakum and tar — the basic maintenance that keeps a working vessel watertight.
+- [[hull-inspection|Hull Inspection]] — A professional inspection of hull condition, seams, and keel — an assessment report included with any job at reputable yards.
+- [[hull-patch-automaton|Hull Patch Automaton]] — A crab-sized brass mechanism that patrols the waterline interior, sealing hull breaches under 1 foot automatically and reducing combat flooding damage.
+- [[hull-plank-repair|Hull Plank Repair]] — Replacing damaged hull planking — minor to moderate damage handled in dry dock; full replank by negotiation.
+- [[hull-repaint|Hull Repaint]] — Full hull colour strip and repaint — changes what a vessel looks like from the waterline up.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.

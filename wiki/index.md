@@ -47,7 +47,7 @@ sources: []
 - [[maren|Maren]] — Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN.
 - [[master-kyzil|Master Kyzil]] — Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
-- [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch of the Black-Jaw Passage network; Perrin's grandmother. Met in Calveno's Le Paludi kitchen. Attacks on Perrin called off. Has a favor to ask — he said yes before hearing it. Holds the paired sending stone.
+- [[nona-black-jaw|Nona Black-Jaw]] — Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
 - [[rael-corven|Rael Corven]] — Captain of the Red Lady and flag captain of Fisk's Fleet. His soul is one of the five captains pressed into Delmar Fisk.
 - [[rupert-knighton|Rupert Knighton]] — Dravosi Crown figure who will send ships in response to Cap'n Gorgeous's death. Not yet encountered. Represents the institutional consequence of the Session 01–02 boarding actions.
 - [[shepherd-grigori|Shepherd Grigori]] — Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks.
@@ -137,7 +137,7 @@ sources: []
 - [[high-eyrie|The High Eyrie]] — Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|The Midchain]] — The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one.
-- [[orak|Orak]] — [stub] Stub — island in the Verdant Teeth paired close to Dreth; the channel between them is crocodile water.
+- [[orak|Orak]] — The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way.
 - [[oshas-slip|Osha's Slip]] — [stub] The Passage's favored night-landing site for small high-value cargo, on Calder's Tooth.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control.
 - [[shelfworks|Shelfworks]] — [stub] Area above the Antheri Ruins where Catarina DaVirelli salvaged functional components in 1488 DR, triggering the Shelfworks Goldrush.
@@ -351,6 +351,10 @@ sources: []
 - [[nautical-chart|Nautical Chart]] — Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it.
 - [[needle-and-sail-twine|Needle and Sail Twine]] — A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp.
 - [[needles-and-thread|Needles and Thread]] — Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails.
+- [[oakum|Oakum]] — Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port.
+- [[oil-lantern|Oil Lantern]] — A standard household oil lantern — clear glass, iron frame, reliable in any weather that isn't actually outdoor weather.
+- [[oil-of-still-water|Oil of Still Water]] — A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait.
+- [[oilskin-canvas|Oilskin Canvas]] — Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.

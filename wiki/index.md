@@ -30,7 +30,8 @@ sources: []
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
 - [[barnaby-rook|Barnaby Rook]] — Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names.
 - [[bastian-crev|Bastian Crev]] —
-- [[beaumont-sel|Beaumont Sel]] — Old alligator-snapping tortle captain. Sun-bleached leather eye cover, clay pipe, Bisou the capuchin. Salvaged Antheri Plate on right shoulder. Now fighting alongside the party.
+- [[beaumont-sel|Beaumont Sel]] —
+- [[bice-riva|Bice Riva]] —
 - [[branca|Branca]] — [stub] Stub — Umberlee's representative in Calveno; waits for Delmar Fisk, whom Umberlee knew was coming before he did. Polite, appointment-pressure mode, tide-table booklet.
 - [[catarina-davirelli|Catarina DaVirelli]] — Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
@@ -158,6 +159,7 @@ sources: []
 - [[shattered-sea|The Shattered Sea]] — [stub] The campaign's setting: an archipelago in two main arcs separated by a wide channel.
 
 ## entities/places/settlements
+- [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
 - [[kalowe|Kalowe]] — Largest Midchain free port, neutral dry dock, Chain Council meeting ground, Beaumont Sel off-route port, and Five Blades base.
 - [[murrat|Murrat]] — [stub] Home of the Moucheron. Ket flew toward Murrat after being freed from the HCS Surety.
@@ -218,6 +220,10 @@ sources: []
 - [[artificer-commission|Artificer Commission]] — Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter.
 - [[auto-helm|Auto Helm]] — A clockwork mechanism fitted to the ship's tiller or wheel — holds a set heading for up to 8 hours without a crew member at the helm. 1,400 gp.
 - [[basic-poison|Basic Poison]] — A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial.
+- [[bile-of-the-drowned|Bile of the Drowned]] — A forensic-grade topical compound that causes a wound to present as 2–4 days older than it is under standard medical examination.
+- [[bioluminescent-paint|Bioluminescent Paint]] — An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation.
+- [[block-and-tackle|Block and Tackle]] — A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance.
+- [[boiled-crab|Boiled Crab]] — Fresh-caught crab, boiled plain — seasonal at the Low Lamp, when Pip brings it back from the upper channels.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.

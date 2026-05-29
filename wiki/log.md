@@ -217,3 +217,5 @@ sources: []
 - [[sem-holst|Sem Holst]] — full character page; shipwright, knows about the fatigued keel joint.
 - [[thunk|Thunk]] — full character page; orc gunner with undisclosed chemistry degree.
 - [[geoffrey-draves|Geoffrey Draves]] — full character page; carpenter, secret dancer, the vow.
+- [[peoples-of-the-shattered-sea|Peoples of the Shattered Sea]] — updated with full regional species tables.
+- [[leviathan|Leviathan]] (creature) — player-facing rumor entry; DM truth at npcs/leviathan.md.

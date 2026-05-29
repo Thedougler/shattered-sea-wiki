@@ -267,6 +267,7 @@ sources: []
 
 ## entities/creatures
 - [[barnaby-rook|Captain Barnaby Rook — Stat Block]] — CR 3 Dravosi Crown privateer captain. Boarding specialist with Parry reaction, legendary actions, and lair actions aboard the HCS Surety. Phase 3 boss of the Saltwright encounter.
+- [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
 
 ## situations/islands
 - [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.

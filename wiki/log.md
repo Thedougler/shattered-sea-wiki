@@ -251,3 +251,6 @@ sources: []
 - 2026-05-28 ingest: Savia-Brentino — new/upgraded NPC page
 - 2026-05-28 ingest: Suryo-Wibowo — new/upgraded NPC page
 - 2026-05-28 ingest: Taufa-Fifita — new/upgraded NPC page
+- 2026-05-28 ingest: Vincenzo-Black-Jaw — new NPC page (deceased, Nona's husband)
+- 2026-05-28 ingest: Vrtek — new NPC page (Port Tidefall dockhand, treasure map)
+- 2026-05-28 ingest: Inbox/index.md — upgraded Calder's Tooth page from location index

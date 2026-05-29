@@ -242,3 +242,6 @@ sources: []
 - 2026-05-28 ingest: Nigel-Strutt — new/upgraded NPC page
 - 2026-05-28 ingest: Noa-Fifita — new/upgraded NPC page
 - 2026-05-28 ingest: Norrington-Kingsly — new/upgraded NPC page
+- 2026-05-28 ingest: Oleandro-Fuschi — new/upgraded NPC page
+- 2026-05-28 ingest: Oswald-Crench — new/upgraded NPC page
+- 2026-05-28 ingest: Prospero-Morsani — new/upgraded NPC page

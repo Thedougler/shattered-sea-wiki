@@ -10,6 +10,8 @@ created: 2026-05-27
 updated: 2026-05-28
 tags: [island, calveno, raid, grung, reference]
 sources: ["Inbox/Calveno-Raid-Signs.md"]
+lifecycle: dormant
+island:
 portable: false
 entry_points:
   - Ambient — one or two per session day

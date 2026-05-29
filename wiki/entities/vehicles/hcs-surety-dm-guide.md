@@ -5,12 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: Uncertainty — DM Guide
 summary: "DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active)."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [reference, ship, mechanics, dm-only]
 sources: ["Inbox/HCS-Surety-DM-Guide.md"]
+confidence_level: medium
+title: Uncertainty — DM Guide
 ---
 
 # Uncertainty — DM Guide

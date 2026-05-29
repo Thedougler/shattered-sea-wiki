@@ -3,15 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: active
 audience: dm
 publish: false
-title: Crissdalynn's Pilgrimage
 summary: "Crissdalynn was given a pilgrimage task — map the Drowned Maw from inside a storm — that she has not formally completed. Master Kyzil found her in Calveno, delivered the High Eyrie weather warning, confirmed surviving counts, and asked to meet again tomorrow. The missing Sentinels have not been asked about yet."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [thread, pilgrimage, aarakocra, eyrie, maw]
 sources: ["Inbox/Crissdalynns-Pilgrimage.md"]
+lifecycle: active
+island:
+title: Crissdalynn's Pilgrimage
 confidence_level: high
 relationships:
   - relation: involves

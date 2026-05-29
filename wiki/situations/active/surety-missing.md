@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-lifecycle: active
-island: null
 summary: "The Crown knows the HCS Surety is missing while Rupert Knighton and Verity Hollowell pursue faster personal searches through different networks. Beaumont's testimony has already gone out — carrying an already-wrong (repainted) description."
 created: 2026-05-15
 updated: 2026-05-28
 tags: [situation, thread, surety, dravosi, maritime, enforcement]
 sources: ["Inbox/Surety-Missing.md"]
+lifecycle: active
+island:
 confidence_level: high
 relationships:
   - relation: involves

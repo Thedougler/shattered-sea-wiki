@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, humanoid, bestiary, cr6]
 sources: ["Inbox/pirate-captain.md"]
-cr: 6
 confidence_level: high
+cr: 6
 ---
 
 # Pirate Captain

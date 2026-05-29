@@ -10,6 +10,8 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, warren, encounter, dungeon, timed]
 sources: ["Inbox/Warren-Bela-Silt-Paw.md"]
+lifecycle: dormant
+island:
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

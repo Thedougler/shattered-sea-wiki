@@ -2,15 +2,18 @@
 type: system
 subtype: party-primer
 campaign: shattered-sea
+status: unknown
 audience: agent
 publish: false
+summary: "Stub — party not yet defined. Populate after session zero."
+created: 2026-05-27
+updated: 2026-05-27
+tags: []
+sources: [Unknown]
 system_role: party-primer
 token_profile: always-read
 mandatory_for: [encounter-design]
 update_trigger: "PC levels up; new PC joins; mechanical capability changes; combat pattern observed"
-summary: "Stub — party not yet defined. Populate after session zero."
-created: 2026-05-27
-updated: 2026-05-27
 ---
 
 # Party Combat Primer — Shattered Sea

@@ -10,8 +10,8 @@ created: 2026-04-12
 updated: 2026-05-28
 tags: [creature, monstrosity, aquatic, siege, bestiary, cr6]
 sources: ["Inbox/Whip-Shark.md"]
-cr: 6
 confidence_level: high
+cr: 6
 aliases: ["Whip Shark", "Welak"]
 relationships:
   - "[[the-drowned-maw|The Drowned Maw]] — primary hunting ground"

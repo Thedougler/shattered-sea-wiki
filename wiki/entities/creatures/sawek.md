@@ -10,8 +10,8 @@ created: 2026-04-12
 updated: 2026-05-28
 tags: [creature, monstrosity, aquatic, lair, bestiary, cr5]
 sources: ["Inbox/Sawek.md"]
-cr: 5
 confidence_level: medium
+cr: 5
 aliases: ["Sawek", "Blue Devil"]
 relationships:
   - "[[midchain|The Midchain]] — primary habitat"

@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, bestiary, cr5]
 sources: ["Inbox/Unfamiliar.md"]
-cr: 5
 confidence_level: high
+cr: 5
 aliases: ["Unfamiliar"]
 ---
 

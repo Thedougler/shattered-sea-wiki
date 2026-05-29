@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, elemental, bestiary, cr12]
 sources: ["Inbox/arclight-phoenix.md"]
-cr: 12
 confidence_level: medium
+cr: 12
 ---
 
 # Arclight Phoenix

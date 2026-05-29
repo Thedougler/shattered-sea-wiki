@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, resolved, sea-creature, storm]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md"]
 lifecycle: resolved
-island: null
+island:
 ---
 
 # Hull Impacts

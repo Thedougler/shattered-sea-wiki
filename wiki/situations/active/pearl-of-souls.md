@@ -3,15 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: active
 audience: dm
 publish: false
-title: Maw Pearl Crisis
 summary: "The Pearl of Souls is broadcasting across the Maw fissure, turning a geological planar leak into a directed attractor that Auralis is containing and Umberlee needs Fisk to retrieve. Delmar carries the five captains' souls and the secret of why the fleet sank."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [thread, pearl, umberlee, souls, attractor, planar, maw]
 sources: ["Inbox/Pearl-of-Souls.md", "Inbox/Delmar-Fisk.md", "Inbox/Campaign-Timeline.md"]
+lifecycle: active
+island:
+title: Maw Pearl Crisis
 region: maw
 confidence_level: high
 relationships:

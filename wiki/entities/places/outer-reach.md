@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: The Outer Reach
 summary: "The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [place, navigation, outer-reach, maritime]
 sources: ["Inbox/Outer-Reach.md", "Inbox/campaign-overview.md"]
 confidence_level: medium
+title: The Outer Reach
 relationships:
   - relation: adjacent_to
     target: "[[the-drowned-maw|Drowned Maw]]"

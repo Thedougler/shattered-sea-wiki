@@ -2,18 +2,18 @@
 type: system
 subtype: dm-intelligence
 campaign: shattered-sea
+status: stub
 audience: dm
 publish: false
-system_role: dm-intelligence
-token_profile: quick-ref
-mandatory_for: [encounter-design]
-update_trigger: "After each combat; when encounter difficulty patterns become clear"
 summary: "Stub — populate after first combats. Empirical combat data to calibrate encounter design."
-status: stub
 created: 2026-05-27
 updated: 2026-05-27
 tags: [system, combat, analytics]
 sources: []
+system_role: dm-intelligence
+token_profile: quick-ref
+mandatory_for: [encounter-design]
+update_trigger: "After each combat; when encounter difficulty patterns become clear"
 ---
 
 # Combat Analytics — Shattered Sea

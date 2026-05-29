@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: The Doldrums
 summary: "A seasonally drifting zone of near-zero wind affecting the Central Strait corridor. Best used as a pacing and pressure tool — route intelligence and drift timing are tradable, high-value information."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [place, navigation, doldrums, maritime, weather]
 sources: ["Inbox/Doldrums.md"]
 confidence_level: high
+title: The Doldrums
 relationships:
   - relation: located_in
     target: "[[central-strait|Central Strait]]"

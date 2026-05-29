@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: The Galewall
 summary: "A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [place, navigation, galewall, weather]
 sources: ["Inbox/Galewall.md", "Inbox/campaign-overview.md"]
 confidence_level: high
+title: The Galewall
 relationships:
   - relation: borders
     target: "[[ashwall-islands|Ashwall Islands]]"

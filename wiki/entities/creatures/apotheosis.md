@@ -10,8 +10,8 @@ created: 2026-05-15
 updated: 2026-05-28
 tags: [creature, undead, lich, bestiary, cr20]
 sources: ["Inbox/Apotheosis.md"]
-cr: 20
 confidence_level: high
+cr: 20
 aliases: ["Apotheosis"]
 ---
 

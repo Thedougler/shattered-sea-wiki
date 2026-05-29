@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-lifecycle: active
-island: null
 summary: "The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks."
 created: 2026-05-14
 updated: 2026-05-28
 tags: [situation, thread, rattkin, warren, passage, perrin, calveno]
 sources: ["Inbox/Warren.md"]
+lifecycle: active
+island:
 confidence_level: high
 relationships:
   - relation: involves

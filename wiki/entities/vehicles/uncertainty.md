@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-title: Uncertainty
 summary: "Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [vehicle, ship, tier-1, prize, active_arc]
 sources: ["Inbox/Uncertainty.md", "Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md"]
 confidence_level: high
+title: Uncertainty
 relationships:
   - relation: formerly_was
     target: "[[hcs-surety|HCS Surety]]"

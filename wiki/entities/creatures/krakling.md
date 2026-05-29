@@ -10,8 +10,8 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [creature, elemental, aquatic, boss, bestiary, cr6, planar]
 sources: ["Inbox/Krakling.md"]
-cr: 6
 confidence_level: high
+cr: 6
 aliases: ["Krakling", "Young Kraken"]
 relationships:
   - "[[the-drowned-maw|The Drowned Maw]] — area of incursion"

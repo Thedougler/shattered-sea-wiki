@@ -2,15 +2,18 @@
 type: system
 subtype: dm-intelligence
 campaign: shattered-sea
+status: unknown
 audience: dm
 publish: false
+summary: "Stub — populate after first session. Tracks what each player is engaged with to drive content depth."
+created: 2026-05-27
+updated: 2026-05-27
+tags: []
+sources: [Unknown]
 system_role: dm-intelligence
 token_profile: quick-ref
 mandatory_for: [content-creation, session-prep]
 update_trigger: "After each session; after player feedback; when engagement patterns shift"
-summary: "Stub — populate after first session. Tracks what each player is engaged with to drive content depth."
-created: 2026-05-27
-updated: 2026-05-27
 ---
 
 # Player Interests — Shattered Sea

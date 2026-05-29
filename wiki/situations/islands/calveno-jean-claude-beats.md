@@ -10,6 +10,8 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, calveno, jean-claude, roleplay]
 sources: ["Inbox/Calveno-Jean-Claude-Beats.md"]
+lifecycle: dormant
+island:
 portable: true
 entry_points:
   - Jean-Claude moves through the Velo Quarter for any reason

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-lifecycle: active
-island: null
 summary: "Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming."
 created: 2026-05-20
 updated: 2026-05-28
 tags: [situation, thread, grung, calveno, raid, jean-claude]
 sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
+lifecycle: active
+island:
 confidence_level: high
 relationships:
   - relation: involves

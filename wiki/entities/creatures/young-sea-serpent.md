@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr8]
 sources: ["Inbox/young-sea-serpent.md"]
-cr: 8
 confidence_level: high
+cr: 8
 ---
 
 # Young Sea Serpent

@@ -10,8 +10,8 @@ created: 2026-04-25
 updated: 2026-05-28
 tags: [creature, dragon, bestiary, cr24, mythic]
 sources: ["Inbox/ancient-dragon-turtle.md"]
-cr: 24
 confidence_level: medium
+cr: 24
 relationships:
   - "[[the-drowned-maw|The Drowned Maw]] — hunting ground"
   - "[[perrin-black-jaw|Perrin Black-Jaw]] — connection; survived the Vestra disaster near the Maw"

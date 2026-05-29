@@ -88,9 +88,9 @@ sources: []
 - [[iacopo-fieschi|Iacopo Fieschi]] — Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city.
 - [[ilaria-grimaldi|Ilaria Grimaldi]] — Proprietor of Grimaldi's Dispensary on Kalowe's third island. Exact, economical, has been here fifteen years and has seen every kind of trouble arrive at a port. Listens to how someone asks before deciding what to tell them.
 - [[kettil-ormsson|Kettil Ormsson]] — Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price.
-- [[margaret-porcelain-pots|Margaret "Maggie" Porcelain Pots]] — [stub] Delmar Fisk's first love. Dragonborn with glittering peach-and-cream scales and vibrant pink eyes. Their relationship ended badly — she punched him hard enough to leave a shiner for a week. He has avoided her ever since.
-- [[marrow|Marrow]] — [stub] Stub — Warren broker running Marrow's, an unclaimed-goods operation; holding the Vretek/Brol crate that Dren was delivering before he was killed.
-- [[marta-orsini|Marta Orsini]] — [stub] Proprietor of Studio Orsini in Calveno. Pointed to by a Casa Lupo shopkeeper as the person to see about a fertilized whip shark egg.
+- [[margaret-porcelain-pots|Maggie Porcelain Pots]] — Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week.
+- [[marrow|Marrow]] — Cargo broker operating from an alcove in the Warren's Marrow's. Gives no other name and is not asked for one. Has been in the same spot for fifteen years. Accepts Kin by default; Dry need a Kin introduction and his own read of the situation.
+- [[marta-orsini|Marta Orsini]] — Proprietor of Studio Orsini in Calveno's Le Paludi district. Late forties, pale, precise. Knows exactly what her compounds will be used for and doesn't ask. Gives instructions once and expects them followed.
 - [[oleandro-fuschi|Oleandro Fuschi]] — [stub] Stub — Soft-spoken Ponte Bassa tavern keeper in Calveno; remembers vessels better than names.
 - [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.

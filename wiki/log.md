@@ -232,3 +232,5 @@ sources: []
 - 2026-05-28 ingest: Ettore-Lupo — upgraded stub to full NPC page; Casa Lupo proprietor
 - 2026-05-28 ingest: Flappers-the-Seal — new page; stub for coralyra-dranra
 - 2026-05-28 ingest: Giacomo-Moretti — upgraded stub; halfling chandler, Mercatura; Beffa record note preserved
+- 2026-05-28 ingest: Hector-Podge — new minor NPC page; Hook & Ledger stub
+- 2026-05-28 ingest: Iacopo-Fieschi — upgraded stub to full NPC page; DM leverage note preserved

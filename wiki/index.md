@@ -84,7 +84,8 @@ sources: []
 - [[giacinto|Giacinto]] — [stub] Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells beret-and-moustache kits that read as 'performer' to Calveno crowds; key to Jean-Claude blending in.
 - [[giacomo-moretti|Giacomo Moretti]] — Proprietor of Moretti and Sons on Calveno's Mercatura canal. Mid-sixties, grey stubble, can quote bulk chandlery prices without looking anything up. Remembers every captain who has moored at Calveno and gives them a discount.
 - [[gost|Gost]] — [stub] Stub — Half-orc berserker available as a loose hiring hook in the Warren; no fixed loyalty.
-- [[iacopo-fieschi|Iacopo Fieschi]] — [stub] Stub — Tessarine envoy in Calveno during the Beffa; holds debt leverage over six of the Seven Houses; indirectly named in the Vretek/Brol letter via advance agents. Present during the Beffa but not taken in the raid.
+- [[hector-podge|Hector Podge]] — Proprietor of the Hook & Ledger in Port Tidefall — heavyset, grey, and so thoroughly embedded in the Shelf that Crown officers stop asking his name and start asking which table is free.
+- [[iacopo-fieschi|Iacopo Fieschi]] — Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city.
 - [[margaret-porcelain-pots|Margaret "Maggie" Porcelain Pots]] — [stub] Delmar Fisk's first love. Dragonborn with glittering peach-and-cream scales and vibrant pink eyes. Their relationship ended badly — she punched him hard enough to leave a shiner for a week. He has avoided her ever since.
 - [[marrow|Marrow]] — [stub] Stub — Warren broker running Marrow's, an unclaimed-goods operation; holding the Vretek/Brol crate that Dren was delivering before he was killed.
 - [[marta-orsini|Marta Orsini]] — [stub] Proprietor of Studio Orsini in Calveno. Pointed to by a Casa Lupo shopkeeper as the person to see about a fertilized whip shark egg.
@@ -123,6 +124,7 @@ sources: []
 
 ## entities/places/buildings
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
+- [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 

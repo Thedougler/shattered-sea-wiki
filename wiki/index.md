@@ -57,7 +57,7 @@ sources: []
 - [[suke|Suke]] — Newest Moucheron member of the Five Blades. Quiet, watchful, and still adjusting from Murrat to Kalowe contract work.
 - [[toa|Toa]] — Biggest and most readable member of the Five Blades. Cheerful Moucheron mercenary with opinions about how fights went wrong.
 - [[varet|Varet]] — Moucheron contract speaker for the Five Blades mercenary company in Kalowe. Quotes rate and feeding clause before ink touches paper.
-- [[verity-hollowell|Verity Hollowell]] — [stub] Stub — Hollowell family; quietly searching records for Geoffrey Draves after finding him on the Surety manifest; sitting on a ledger problem (bonded cargo moved through Tidefall with no formal manifest entry). Has not told her father.
+- [[verity-hollowell|Verity Hollowell]] — [DM-only] Port Tidefall factor's daughter who can read a cargo manifest faster than most Crown inspectors — searching records for Geoffrey Draves, sitting on a ledger anomaly that implicates her family's license.
 - [[wirra|Wirra]] — Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly.
 
 ## entities/characters/crew
@@ -148,7 +148,8 @@ sources: []
 - [[tidefall|Tidefall]] — [stub] Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription.
 - [[vel-orn|Vel-Orn]] — The barren black-stone shrine island of the Sunken Crown — Umberlee's Blue Shrine, water-debt obligations, and the island from which Fisk's fleet stole the Pearl of Souls.
 - [[verdant-scatter|The Verdant Scatter]] — The main island chain of the Shattered Sea: two east-west arcs between the Galewall and the Drowned Maw, with the Crown Islands to the north and the Midchain to the south.
-- [[verdant-teeth|Verdant Teeth]] — Grung homeland. Outsiders trade at designated beaches only; the interior belongs to the caste-bound, slaveholding Grung Clans that Jean-Claude fled.
+- [[verdant-teeth|The Verdant Teeth]] — Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries.
+- [[veth|Veth]] — The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions.
 - [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
 
 ## entities/places/buildings
@@ -426,6 +427,7 @@ sources: []
 - [[tinderbox|Tinderbox]] — Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions.
 - [[tooth-extraction|Tooth Extraction]] — Professional tooth extraction — 1 sp, and the apothecary is fast about it.
 - [[truth-stone|Truth Stone]] — A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest.
+- [[vial-of-acid|Vial of Acid]] — Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 
@@ -460,8 +462,8 @@ sources: []
 - [[the-quorum|The *Quorum*]] — The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands.
 - [[the-tallow-bell|The *Tallow Bell*]] — A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
-- [[vestra|Vestra]] — Perrin Black-Jaw's family fishing ship, built and captained by his grandfather and later used to support the family. Destroyed by something massive from below; Perrin's family does not know the full loss.
-- [[vethka|Vethka]] — Grung single-trunk war proa built from Verdant Teeth ironpillar hardwood. Fast in reef country and used for raids.
+- [[vestra|The *Vestra*]] — Perrin Black-Jaw's family brig — built by his grandfather Vincenzo Black-Jaw, destroyed before the campaign begins by something massive from below.
+- [[vethka|*Vethka*]] — A Grung Tier 1 war proa — a double-outrigger raiding vessel built from Verdant Teeth ironpillar hardwood, designed to beach on any shore and disembark a raiding party faster than the target can respond.
 
 ## situations/active
 - [[abyss-vision|The Abyss Vision — "Grow"]] — Something in the abyss communicated with Perrin during the storm watch, at considerable cost. One word: 'Grow.' Perrin also inhabited a whip shark's body and witnessed something larger than two ships below.

@@ -1,28 +1,65 @@
 ---
+title: The Verdant Teeth
 type: entity
 subtype: place
+region_type: island-cluster
+publish: true
 campaign: shattered-sea
+audience: players
 status: active
-audience: dm
-publish: false
-summary: "Grung homeland. Outsiders trade at designated beaches only; the interior belongs to the caste-bound, slaveholding Grung Clans that Jean-Claude fled."
-created: 2026-05-27
-updated: 2026-05-28
-tags: [place, grung, homeland]
-sources: ["Inbox/Jean-Claude-Tabarnack.md", "Inbox/Grung.md", "Inbox/Demographics.md"]
 confidence_level: confirmed
-relationships:
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — born here; enemy to his clan now; wants to return and change it"
-  - "[[grung-clans|Grung Clans]] — the people who live here"
-  - "[[simone-tabarnack|Simone Tabarnack]] — still here, presumably"
+tags: [place, region, grung, midchain]
+sources: ["Inbox/Jean-Claude-Tabarnack.md", "Inbox/Grung.md", "Inbox/Demographics.md", "Inbox/Verdant-Teeth.md"]
+aliases:
+  - Verdant Teeth
+summary: "Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries."
+parent_location: "[[midchain|The Midchain]]"
+governance: "[[grung-clans|The Grung Clans]]"
+access: "restricted beach trade at Veth; interiors forbidden to outsiders"
 ---
 
-# Verdant Teeth
+# The Verdant Teeth
 
-[[grung-clans|Grung]] homeland. Where [[jean-claude-tabarnack|Jean-Claude]] was born, trained as a scout, and eventually fled. Bleak, insular, caste-bound, and slaveholding.
+## Overview
 
-The beach is as far as outsiders go. Trade happens at designated waterline sites. No overnight presence. All species may be permitted at the waterline; the interior remains closed.
+Five closely grouped islands sit two days south of [[kalowe|Kalowe]], where low reef-fringed coasts rise into limestone ridges and thick rainforest swallows the high ground. From the water, the islands look less like separate places than a single green wall broken by reefs, pale sand, and the occasional gap in the trees that no sensible pilot treats as an invitation.
 
-Jean-Claude's clan likely knows what he did. He is an enemy to them now.
+The [[grung-clans|Grung clans]] hold the cluster completely. Every Midchain chart from the last thirty years marks the interiors with some version of the same warning: do not approach. Outsiders who cross the tree line do not come back, and the locals talk about that as a rule of navigation, not a rumour.
 
-His long-term goal: return here with enough power and experience to show his people that every species has strengths and that working together is the only way to grow. He's not ready yet.
+Coastal settlements across the Midchain have noticed more raids coming from the direction of the Teeth in recent years. The [[chain-council|Chain Council]] has heard the complaints. For now, [[veth|Veth's]] beach remains open for trade.
+
+> [!dm]
+> [[jean-claude-tabarnack|Jean-Claude Tabarnack]] was born here and fled. [[simone-tabarnack|Simone Tabarnack]] still leads Sorn's garrison and supplies Grung toxin to the [[dravosi-crown|Dravosi Crown]]. Jean-Claude is wanted as a deserter.
+
+## At a Glance
+
+| Field | Detail |
+|---|---|
+| Type | Grung-held island cluster |
+| Parent Region | [[midchain|The Midchain]] |
+| Major Places | [[veth\|Veth]], [[sorn\|Sorn]], Karath, Dreth, Orak |
+| Controlled By | [[grung-clans|The Grung Clans]] |
+| Access | Sanctioned contact at [[veth\|Veth's]] west beach; interiors forbidden |
+| Known For | Strict trade protocols, poisonous boundaries, rainforest hazards, and worsening raids |
+
+## Major Locations
+
+| Place | Type | Notes |
+|---|---|---|
+| [[veth\|Veth]] | island | Largest island; only sanctioned trade face of the cluster. |
+| [[sorn\|Sorn]] | island | Known for interior agriculture and guarded beach traffic. |
+| Karath | island | Reef gaps are met with dart fire before questions. |
+| Dreth | island | Eastern, lower, wetter; not safe. |
+| Orak | island | Eastern, lower, wetter; linked to Dreth by shallow crossings. |
+
+## Trade
+
+The only sanctioned contact point is the west beach on [[veth|Veth]]. Traders anchor offshore and wait. Blue-caste intermediaries come down to the waterline, handle the exchange, and keep the conversation short. No one goes inland. No one addresses a gold grung directly.
+
+## See Also
+
+- [[midchain|The Midchain]]
+- [[veth|Veth]]
+- [[sorn|Sorn]]
+- [[grung-clans|The Grung Clans]]
+- [[jean-claude-tabarnack|Jean-Claude Tabarnack]]

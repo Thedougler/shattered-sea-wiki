@@ -1,34 +1,50 @@
 ---
+title: The Vestra
 type: entity
 subtype: vehicle
+ship_class: two-masted brig
+publish: true
 campaign: shattered-sea
+audience: players
 status: lost
-audience: dm
-publish: false
-summary: "Perrin Black-Jaw's family fishing ship, built and captained by his grandfather and later used to support the family. Destroyed by something massive from below; Perrin's family does not know the full loss."
-created: 2026-05-27
-updated: 2026-05-27
-tags: [vehicle, ship, rattkin, black-jaw]
-sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md"]
 confidence_level: confirmed
-relationships:
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — built, captained, and lost this ship"
-  - "[[nona-black-jaw|Nona Black-Jaw]] — widow of its original captain"
-  - "[[leviathan|Leviathan]] — destroyed it"
-  - "[[keth-naar|Keth Naar]] — Perrin washed ashore here"
+tags: [vehicle, ship, rattkin, black-jaw, lost]
+sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Vestra.md"]
+aliases:
+  - Vestra
+captain: "[[perrin-black-jaw|Perrin Black-Jaw]]"
+summary: "Perrin Black-Jaw's family brig — built by his grandfather Vincenzo Black-Jaw, destroyed before the campaign begins by something massive from below."
 ---
 
-# Vestra
+# The *Vestra*
 
-Perrin Black-Jaw's family fishing ship. Built and captained by Nona Black-Jaw's late husband, Perrin's grandfather. Passed down after his death.
+![[The-Vestra.webp]]
 
-Perrin built his life around the Vestra: fish, support the family, learn the water, stay useful. The [[leviathan|Leviathan]] destroyed it near [[keth-naar|Keth Naar]]. Perrin survived. He does not know what it was.
+> [!read-aloud]
+> A small two-masted brig rides low in the water, old-built and hard-worked, her topsides painted a deep green that has been reapplied so many times it no longer matches from plank to plank. At the prow stands a rat figurehead with one hand extended, palm up. She is compact, practical, and clearly modified for a small crew travelling light.
 
-## Current Pressure
+## Overview
 
-Perrin's family knows he is alive. They do not know the full scale of the loss. Perrin is trying to fix the problem before he has to tell them.
+A small two-masted brig, older than most Midchain traffic, sized for a Rattkin captain and a light crew. Built and captained by Vincenzo Black-Jaw, who left her to the family when he died. [[perrin-black-jaw|Perrin]] re-rigged her and added two gun mounts before she was lost.
 
-Nona does know now. In Session 03, Perrin told her enough for her to understand there were no known survivors. She ordered consolation for the Vestra's crew and called off the attacks she had set in motion against Perrin.
+She wasn't just transportation. She was his contacts, his capital, his crew, and his working life.
+
+## The Sinking
+
+The *Vestra* went down too fast for anyone aboard to understand what was happening. Something struck the hull from below. [[perrin-black-jaw|Perrin]] survived. The rest of the crew are assumed dead.
+
+## Session History
+
+In Session 03, Perrin told [[nona-black-jaw|Nona]] enough for her to understand there were no known survivors. She ordered consolation for the Vestra's crew and called off the attacks she had set in motion against Perrin.
+
+Perrin does not know what destroyed the ship.
 
 > [!dm]
-> A surviving Vestra crew member is a live pressure, not an established fact. If one appears, make the reunion useful and painful: relief first, then the cost of Perrin's silence.
+> The [[leviathan|Leviathan]] destroyed the Vestra. A surviving crew member is a live pressure — if one appears, make the reunion useful and painful: relief first, then the cost of Perrin's silence.
+
+## Connections
+
+- [[perrin-black-jaw|Perrin Black-Jaw]] — captain and last owner
+- [[nona-black-jaw|Nona Black-Jaw]] — widow of its original captain Vincenzo
+- [[leviathan|Leviathan]] — destroyed it
+- [[keth-naar|Keth-Naar]] — Perrin washed ashore here

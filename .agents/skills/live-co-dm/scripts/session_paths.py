@@ -16,6 +16,7 @@ from dataclasses import dataclass
 _SESSION_MD = re.compile(r"^session-(\d+)\.md$")
 _SESSION_DIR = re.compile(r"^session-(\d+)$")
 _TRANSCRIPT_MD = re.compile(r"^session-(\d+)-transcript\.md$")
+_CHUNK_WAV = re.compile(r"^\d+_(\d{2})h(\d{2})m(\d{2})s\.wav$")
 
 
 @dataclass(frozen=True)
@@ -33,6 +34,15 @@ def chunk_audio_filename(index: int, start_ms: int) -> str:
     h, rem = divmod(total, 3600)
     m, s = divmod(rem, 60)
     return f"{index:04d}_{h:02d}h{m:02d}m{s:02d}s.wav"
+
+
+def chunk_audio_start_ms(filename: str) -> int:
+    """Parse ``chunk_audio_filename`` output back into elapsed-session milliseconds."""
+    m = _CHUNK_WAV.match(filename)
+    if not m:
+        raise ValueError(f"Invalid chunk audio filename: {filename}")
+    hours, minutes, seconds = (int(part) for part in m.groups())
+    return ((hours * 3600) + (minutes * 60) + seconds) * 1000
 
 
 def _max_match(directory: str, pattern: re.Pattern) -> int:

@@ -17,6 +17,13 @@ class ChunkFilenameTests(unittest.TestCase):
     def test_handles_hours(self) -> None:
         self.assertEqual(session_paths.chunk_audio_filename(1, 3_725_000), "0001_01h02m05s.wav")
 
+    def test_parses_elapsed_time_back_from_chunk_name(self) -> None:
+        self.assertEqual(session_paths.chunk_audio_start_ms("0007_00h12m03s.wav"), 723_000)
+
+    def test_rejects_invalid_chunk_name(self) -> None:
+        with self.assertRaises(ValueError):
+            session_paths.chunk_audio_start_ms("chunk.wav")
+
 
 class NextSessionNumberTests(unittest.TestCase):
     def test_empty_dirs_start_at_one(self) -> None:

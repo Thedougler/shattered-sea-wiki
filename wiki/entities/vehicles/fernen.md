@@ -1,23 +1,42 @@
 ---
+title: The Fernen
 type: entity
 subtype: vehicle
 campaign: shattered-sea
 status: lost
-audience: dm
-publish: false
-summary: "One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw."
-created: 2026-05-27
-updated: 2026-05-28
-tags: [vehicle, ship, lost, fisk-fleet]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md"]
+audience: players
+publish: true
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — fleet admiral"
-  - "[[the-drowned-maw|The Drowned Maw]] — sinking site"
-  - "[[sienne-orre|Sienne Orre]] — captain"
-  - "[[fisks-fleet|Fisk's Fleet]] — fleet"
+tags: [vehicle, ship, lost, fisk-fleet, brigantine]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Fernen.md"]
+summary: "Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw."
+banner: raw/assets/banners/Fernen.webp
+ship_class: Two-masted brigantine
+aliases:
+  - Fernen
+  - The Fernen
 ---
 
-# Fernen
+# The *Fernen*
 
-One of the five ships in [[fisks-fleet|Delmar Fisk's Pearl of Souls fleet]], captained by [[sienne-orre|Sienne Orre]]. Lost at [[the-drowned-maw|the Drowned Maw]].
+![[Fernen.webp]]
+
+## Overview
+
+A two-masted brigantine, mid-sized, fourth ship of the fleet. Plain-hulled — dark brown below the waterline, weathered timber above. Six gun mounts, three per side. She rode at a moderate draft, neither as deep as the *Heft* nor as light as the *Narrow*. A working ship without distinguishing characteristics.
+
+Below decks: crew quarters, a compact galley, and a hold fitted for long-range independent operation — extended provisions, an oversized water cistern, and a navigator's station charting the full eastern Scatter.
+
+Captained by [[sienne-orre|Sienne Orre]].
+
+## The Sinking
+
+Lost simultaneously with the rest of [[fisks-fleet|Fisk's Fleet]] when Umberlee opened the [[the-drowned-maw|Drowned Maw]] beneath them. All hands lost.
+
+## Connections
+
+- [[sienne-orre|Sienne Orre]] — captain; one of the five souls pressed into [[delmar-fisk|Delmar Fisk]]
+- [[delmar-fisk|Delmar Fisk]] — fleet admiral
+- [[fisks-fleet|Fisk's Fleet]] — fleet
+- [[the-drowned-maw|The Drowned Maw]] — sinking site
+- [[red-lady|Red Lady]] — Fisk's flagship, lost the same night

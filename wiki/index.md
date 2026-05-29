@@ -41,6 +41,7 @@ sources: []
 - [[dorian-bishop|Captain Dorian Bishop]] — Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook.
 - [[elder-anton|Elder Anton]] — Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain.
 - [[estratto|Estratto]] — Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
+- [[felix-aho|Félix Aho]] — Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
@@ -127,6 +128,7 @@ sources: []
 - [[drave-vaults|Drave Vaults]] — Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file.
 - [[dreth|Dreth]] — One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
 - [[elemental-plane-of-water|Elemental Plane of Water]] — A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
+- [[fare-ia|Fare I'a]] — A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell.
 - [[galewall|The Galewall]] — A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something.
 - [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
@@ -216,6 +218,7 @@ sources: []
 - [[the-glass-debt|The Glass Debt]] — [stub] Stub — pirate entity known for making Maw-adjacent salvage traffic change course. No further details on file.
 - [[the-passage|The Passage]] — Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.
 - [[the-velvet-noose|The Velvet Noose]] — [stub] Stub — mostly-rumour pirate entity near the Drowned Maw; enough of a reputation to make convoys wait for daylight.
+- [[vaka|Vaka]] — Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time.
 - [[waveservants|Waveservants]] — Umberlee's practical clergy: collectors, witnesses, and shrine operators whose neutrality lets them collect tribute from every side of a harbor.
 
 ## entities/deities
@@ -278,6 +281,8 @@ sources: []
 - [[dried-salt-fish|Dried Salt Fish]] — Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port.
 - [[eldritch-claw-tattoo|Eldritch Claw Tattoo]] — Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition.
 - [[emergency-repair|Emergency Repair]] — Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency.
+- [[fermented-cider|Fermented Cider]] — Essa Two-Tooth's house-brewed cider from the Warren — she calls it cider; the jury remains out.
+- [[fever-poultice|Fever Poultice]] — A herbal compress preparation for reducing fever — three applications per pack.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -294,7 +299,7 @@ sources: []
 ## entities/vehicles
 - [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.
 - [[dead-lady|The *Dead Lady*]] — The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him.
-- [[fernen|Fernen]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
+- [[fernen|The *Fernen*]] — Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
 - [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.
@@ -367,6 +372,7 @@ sources: []
 - [[carpenters-shop|Carpenter's Shop]] —
 - [[chart-archive|Chart Archive]] —
 - [[crew-berths|Crew Berths]] —
+- [[expanded-cargo-hold|Expanded Cargo Hold]] — Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

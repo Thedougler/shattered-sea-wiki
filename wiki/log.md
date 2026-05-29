@@ -313,3 +313,10 @@ sources: []
 - 2026-05-29 | ingest | Emergency-Repair — new item page (service)
 - 2026-05-29 | ingest | Essa-Two-Tooth — new minor NPC page (Low Lamp operator)
 - 2026-05-29 | ingest | Estratto — new NPC page (DM-only, Tessarine warforged auditor)
+- 2026-05-29 | ingest | Expanded-Cargo-Hold — new rules page (bastion facility)
+- 2026-05-29 | ingest | Fare-Ia — new location page (Port Tidefall fish stall)
+- 2026-05-29 | ingest | Felix-Aho — new NPC page (DM-only, Vaka elder)
+- 2026-05-29 | new | vaka — new faction page (free Grung network)
+- 2026-05-29 | ingest | Fermented-Cider — new item page (Essa's Low Lamp cider)
+- 2026-05-29 | ingest | Fernen — stub upgraded to full player-facing page
+- 2026-05-29 | ingest | Fever-Poultice — new item page (consumable)

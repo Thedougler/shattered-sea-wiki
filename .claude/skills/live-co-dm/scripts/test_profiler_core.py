@@ -69,14 +69,115 @@ class BuildProfileTests(unittest.TestCase):
 class EnrollTests(unittest.TestCase):
     def test_enroll_writes_loadable_profile(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
-            path = profiler_core.enroll(
+            result = profiler_core.enroll(
                 name="Delmar", player="Ben", audio=[0.1] * 16000, sample_rate=16000,
                 embedder=FakeEmbedder([1.0, 0.0]), profiles_dir=tmp, model_id="m",
                 now_utc="2026-05-29T00:00:00Z",
             )
-            self.assertTrue(os.path.isfile(path))
+            self.assertEqual(result.profile.name, "Delmar")
             loaded = profiles.ProfileStore(tmp).load_all()
             self.assertEqual(loaded[0].name, "Delmar")
+
+    def test_enroll_without_enhancement_records_no_spans(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            profiler_core.enroll(
+                name="Delmar", player="Ben", audio=[0.1] * 16000, sample_rate=16000,
+                embedder=FakeEmbedder([1.0, 0.0]), profiles_dir=tmp, model_id="m",
+                now_utc="2026-05-29T00:00:00Z",
+            )
+            p = profiles.ProfileStore(tmp).load_all()[0]
+            self.assertEqual(p.enhanced_spans, 0)
+            self.assertEqual(p.enhanced_sessions, [])
+
+
+class EnrollWithCorrectionTests(unittest.TestCase):
+    """End-to-end: enroll harvests a character's spans from corrected sessions."""
+
+    def _build_corrected_session(self, sessions_dir: str) -> None:
+        import audio_file
+
+        live_audio = os.path.join(sessions_dir, ".live", "session-03", "audio")
+        os.makedirs(live_audio)
+        # 10s @ 1000Hz: quiet first half (Delmar), loud second half (Nona).
+        samples = [0.1] * 5000 + [0.9] * 5000
+        audio_file.write_wav(os.path.join(live_audio, "0001_00h00m00s.wav"), samples, 1000)
+        with open(os.path.join(sessions_dir, "session-03-transcript.md"), "w") as fh:
+            fh.write(
+                "# Session 03\n\nStarted: x\n\n"
+                "**Delmar** (Ben) [00:00]: hold fast and steady crew\n"
+                "**Nona** (Sam) [00:05]: aye aye then captain\n"
+            )
+
+    def test_enroll_folds_in_corrected_spans(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sessions_dir = os.path.join(tmp, "sessions")
+            os.makedirs(sessions_dir)
+            self._build_corrected_session(sessions_dir)
+            profiles_dir = os.path.join(tmp, "profiles")
+
+            # Embedder keys off mean amplitude so Delmar's quiet slice ~ his anchor.
+            class ContentEmbedder:
+                def embed(self, samples, sample_rate):
+                    avg = sum(samples) / len(samples) if samples else 0.0
+                    return [1.0, avg]
+
+            result = profiler_core.enroll(
+                name="Delmar", player="Ben", audio=[0.1] * 1000, sample_rate=1000,
+                embedder=ContentEmbedder(), profiles_dir=profiles_dir, model_id="m",
+                now_utc="2026-05-29T00:00:00Z", sessions_dir=sessions_dir,
+            )
+            self.assertEqual(result.profile.enhanced_spans, 1)
+            self.assertEqual(result.profile.enhanced_sessions, [3])
+
+    def test_enroll_without_sessions_dir_does_not_harvest(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sessions_dir = os.path.join(tmp, "sessions")
+            os.makedirs(sessions_dir)
+            self._build_corrected_session(sessions_dir)
+            result = profiler_core.enroll(
+                name="Delmar", player="Ben", audio=[0.1] * 1000, sample_rate=1000,
+                embedder=FakeEmbedder([1.0, 0.0]), profiles_dir=os.path.join(tmp, "p"),
+                model_id="m", now_utc="2026-05-29T00:00:00Z",
+            )
+            self.assertEqual(result.profile.enhanced_spans, 0)
+
+
+class EnhancementTests(unittest.TestCase):
+    """build_profile folds harvested corrected-session embeddings into the anchor."""
+
+    def test_records_used_spans_and_sessions(self) -> None:
+        result = profiler_core.build_profile(
+            name="Delmar", player="Ben", audio=[0.1] * 16000, sample_rate=16000,
+            embedder=FakeEmbedder([1.0, 0.0]), existing=[], model_id="m",
+            now_utc="2026-05-29T00:00:00Z",
+            harvested=[[1.0, 0.05], [1.0, 0.05]], harvested_sessions=[3, 4],
+            reject_below=0.5, anchor_weight=3.0,
+        )
+        self.assertEqual(result.profile.enhanced_spans, 2)
+        self.assertEqual(result.profile.enhanced_sessions, [3, 4])
+        self.assertEqual(result.rejected, 0)
+
+    def test_outlier_harvest_is_rejected_not_folded(self) -> None:
+        result = profiler_core.build_profile(
+            name="Delmar", player="Ben", audio=[0.1] * 16000, sample_rate=16000,
+            embedder=FakeEmbedder([1.0, 0.0]), existing=[], model_id="m",
+            now_utc="2026-05-29T00:00:00Z",
+            harvested=[[0.0, 1.0]], harvested_sessions=[3],
+            reject_below=0.5, anchor_weight=3.0,
+        )
+        self.assertEqual(result.profile.enhanced_spans, 0)
+        self.assertEqual(result.rejected, 1)
+
+    def test_enhanced_embedding_is_normalized(self) -> None:
+        result = profiler_core.build_profile(
+            name="Delmar", player="Ben", audio=[0.1] * 16000, sample_rate=16000,
+            embedder=FakeEmbedder([1.0, 0.0]), existing=[], model_id="m",
+            now_utc="2026-05-29T00:00:00Z",
+            harvested=[[1.0, 0.2]], harvested_sessions=[3],
+            reject_below=0.0, anchor_weight=3.0,
+        )
+        emb = result.profile.embedding
+        self.assertAlmostEqual(sum(x * x for x in emb) ** 0.5, 1.0)
 
 
 if __name__ == "__main__":

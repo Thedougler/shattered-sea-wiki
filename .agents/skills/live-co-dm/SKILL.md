@@ -6,13 +6,13 @@ description: >
   "mid-session", "improv help", "the players just...", "what happens next", "they
   went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO
   the home of the DM's voice tools — invoke for "save a voice profile", "set up a
-  character voice", "start transcribing the session", "record the session",
-  "transcribe tonight", "finalize the transcript". In live mode it reads the most
-  recent session transcript plus minimal world state and replies FAST and CONCISE,
-  then waits for the next ask — deliberately skipping wiki startup, init, lint,
-  index regen, and all routine maintenance so the whole context serves the moment.
-  Use the bundled scripts for voice profiling (browser teleprompter) and continuous
-  4h+ session transcription with accurate, overlap-aware speaker separation.
+  character voice", "improve/correct/optimize a voice profile", "start transcribing
+  the session", "record the session", "finalize the transcript". In live mode it reads
+  the most recent session transcript plus minimal world state and replies FAST and
+  CONCISE, then waits — skipping wiki startup, init, lint, index regen, and routine
+  maintenance so the whole context serves the moment. Bundled scripts do voice
+  profiling (browser teleprompter, self-correcting from finalized transcripts) and
+  continuous 4h+ transcription with accurate, overlap-aware speaker separation.
 ---
 
 > Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement,
@@ -72,7 +72,7 @@ right command. These need the one-time setup in `references/setup.md` (Python ve
 
 | The DM wants to… | Point them to | Command |
 |---|---|---|
-| Save a character's voice profile | `references/voice-profiler.md` | `voice_profiler.py --name "Grigori" --player "Dave"` |
+| Save / improve a character's voice profile | `references/voice-profiler.md` | `voice_profiler.py --name "Grigori" --player "Dave"` |
 | Transcribe a live session (4h+) | `references/transcription.md` | `transcribe_session.py --session 4 --speakers 5` |
 | Produce the canonical transcript | `references/transcription.md` | `finalize_session.py --session 4 --speakers 5` |
 
@@ -81,6 +81,13 @@ finalize pass re-diarizes the *whole* recording at once with the known speaker c
 — the big accuracy lever for the campaign's heavy crosstalk (5 players, many voices).
 Profiles are one per **character voice**; the `player` field groups the several voices
 one person performs so they can be told apart.
+
+**Self-correcting profiles:** saving a profile also harvests that character's lines from
+corrected, finalized transcripts (whose `.live` audio still exists), folding the real
+in-character audio into the teleprompter anchor. Overlap/low-confidence lines are skipped
+and outliers rejected, so correction only sharpens. The loop: correct a session transcript
+→ re-save that character's profile → it absorbs the fixes for next time. Details in
+`references/voice-profiler.md`.
 
 ---
 
@@ -91,8 +98,9 @@ one person performs so they can be told apart.
 | `latest_session_context.py` | Fast mid-session context bundle | yes |
 | `transcribe_session.py` (`run_loop.py`) | Continuous live capture loop | core: yes |
 | `finalize_session.py` (`finalize.py`) | Offline canonical re-pass | core: yes |
-| `voice_profiler.py` (`profiler_core.py`) | Teleprompter + enrollment | core: yes |
-| `vecmath / attribute / speaker_id / render / silence_chunker / profiles / session_paths / transcript_writer / pipeline` | Pure logic | yes |
+| `voice_profiler.py` (`profiler_core.py`) | Teleprompter + enrollment + correction | core: yes |
+| `profile_harvest.py` / `profile_enhance.py` / `transcript_parse.py` | Harvest + fold corrected audio into profiles | yes |
+| `vecmath / attribute / speaker_id / render / silence_chunker / profiles / session_paths / transcript_writer / pipeline / audio_file` | Pure logic | yes |
 | `adapters.py` | Thin Parakeet/pyannote/sounddevice/NiceGUI wrappers | manual + opt-in ML |
 
 Run the unit suite (no ML stack needed):

@@ -18,7 +18,7 @@ from __future__ import annotations
 import json
 import os
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 
 
 @dataclass(frozen=True)
@@ -30,6 +30,9 @@ class VoiceProfile:
     model_id: str
     seconds: float
     created_utc: str
+    # Provenance of post-correction enhancement (0/[] for a plain teleprompter profile).
+    enhanced_spans: int = 0
+    enhanced_sessions: list[int] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -44,6 +47,8 @@ class VoiceProfile:
             model_id=data["model_id"],
             seconds=float(data["seconds"]),
             created_utc=data["created_utc"],
+            enhanced_spans=int(data.get("enhanced_spans", 0)),
+            enhanced_sessions=[int(n) for n in data.get("enhanced_sessions", [])],
         )
 
 

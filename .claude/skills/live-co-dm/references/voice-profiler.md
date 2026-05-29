@@ -41,6 +41,31 @@ Then open the printed URL (default http://localhost:8080) in a browser.
 **committed** to the repo so the whole table's voices travel with the wiki. Re-running
 with the same `--name` overwrites that character's profile.
 
+## Self-correcting profiles (correction loop)
+
+Every time you save a profile, the tool doesn't just use the teleprompter read — it also
+**harvests that character's lines from corrected past sessions** and folds them in:
+
+1. The deliberate teleprompter read is the **anchor** (weighted heavily — it's clean,
+   single-speaker, and long).
+2. For each committed `wiki/sessions/session-NN-transcript.md` that still has its `.live`
+   audio, the tool finds the spans attributed to **this character**, slices that audio,
+   and embeds it. Lines marked `[overlap]` or low-confidence `(?)` are **skipped** — they
+   are exactly the audio most likely to be the wrong voice.
+3. Each harvested embedding is accepted only if it's similar enough to the anchor; stray
+   mis-attributions that survived your edits are **rejected**, so correction can only
+   sharpen a profile, never poison it.
+
+**The payoff:** after you correct and finalize a session transcript (fixing any
+mislabeled lines), just **re-save that character's profile** — it automatically absorbs
+the corrected, real in-character audio and gets more accurate for next session. The saved
+profile records how many spans were folded in (`enhanced_spans`) and from which sessions
+(`enhanced_sessions`).
+
+This only kicks in for sessions whose `.live` audio still exists (it's gitignored scratch;
+don't delete it if you want to keep improving profiles). No corrected sessions yet, or no
+audio left? Saving still works — you just get the plain teleprompter profile.
+
 ## Tips for separable profiles
 
 - Quiet room, consistent mic distance.

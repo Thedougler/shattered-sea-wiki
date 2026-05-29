@@ -27,8 +27,21 @@ class VoiceProfileTests(unittest.TestCase):
             model_id="pyannote/embedding",
             seconds=72.5,
             created_utc="2026-05-29T00:00:00Z",
+            enhanced_spans=4,
+            enhanced_sessions=[3, 4],
         )
         self.assertEqual(profiles.VoiceProfile.from_dict(p.to_dict()), p)
+
+    def test_from_dict_defaults_enhancement_fields_for_old_profiles(self) -> None:
+        # Profiles written before the enhancement feature have no such keys.
+        legacy = {
+            "name": "Nona", "player": "Sam", "embedding": [1.0, 0.0],
+            "sample_rate": 16000, "model_id": "m", "seconds": 60.0,
+            "created_utc": "2026-05-29T00:00:00Z",
+        }
+        p = profiles.VoiceProfile.from_dict(legacy)
+        self.assertEqual(p.enhanced_spans, 0)
+        self.assertEqual(p.enhanced_sessions, [])
 
 
 class ProfileStoreTests(unittest.TestCase):

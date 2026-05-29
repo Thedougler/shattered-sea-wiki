@@ -19,22 +19,19 @@ import argparse
 import datetime
 import os
 import sys
-import wave
 
 
 def _read_wavs_concatenated(audio_dir: str) -> tuple[list[float], int]:  # pragma: no cover
     """Concatenate every wav in ``audio_dir`` (sorted) into one float list."""
+    from audio_file import read_wav
+
     samples: list[float] = []
     sample_rate = 16000
     for name in sorted(os.listdir(audio_dir)):
         if not name.endswith(".wav"):
             continue
-        with wave.open(os.path.join(audio_dir, name), "rb") as wf:
-            sample_rate = wf.getframerate()
-            import struct
-
-            raw = wf.readframes(wf.getnframes())
-            samples.extend(x / 32767.0 for x in struct.unpack(f"<{len(raw) // 2}h", raw))
+        chunk, sample_rate = read_wav(os.path.join(audio_dir, name))
+        samples.extend(chunk)
     return samples, sample_rate
 
 

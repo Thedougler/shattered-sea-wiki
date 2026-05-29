@@ -28,6 +28,9 @@ import os
 SKILL_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS_DIR = os.path.join(SKILL_DIR, "assets", "teleprompter")
 PROFILES_DIR = os.path.join(SKILL_DIR, "profiles")
+# .claude/skills/live-co-dm -> repo root -> wiki/sessions (corrected transcripts + .live audio).
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(SKILL_DIR)))
+SESSIONS_DIR = os.path.join(REPO_ROOT, "wiki", "sessions")
 
 
 def _now_utc() -> str:
@@ -75,12 +78,19 @@ def run_app(name: str, player: str, script_text: str, *, sample_rate: int = 1600
         threading.Thread(target=_save, args=(audio,), daemon=True).start()
 
     def _save(audio) -> None:
-        path = enroll(
+        result = enroll(
             name=name, player=player, audio=[float(x) for x in audio],
             sample_rate=sample_rate, embedder=PyannoteEmbedder(), profiles_dir=PROFILES_DIR,
-            model_id=PYANNOTE_EMBED, now_utc=_now_utc(),
+            model_id=PYANNOTE_EMBED, now_utc=_now_utc(), sessions_dir=SESSIONS_DIR,
         )
-        status_label.set_text(f"Saved profile for {name} ({player}) → {path}")
+        p = result.profile
+        note = ""
+        if p.enhanced_spans:
+            note = (f" — enhanced with {p.enhanced_spans} corrected span(s) "
+                    f"from session(s) {p.enhanced_sessions}")
+        if result.rejected:
+            note += f"; {result.rejected} outlier span(s) rejected"
+        status_label.set_text(f"Saved profile for {name} ({player}){note}")
 
     @ui.page("/")
     def index() -> None:

@@ -52,6 +52,18 @@ Output: `wiki/sessions/session-04-transcript.md` — a **committed** markdown tr
 (the audio stays gitignored). From there, promote it into canon with `ttrpg-wiki-ingest`
 (transcript-ingest path) when you're ready to fold the session into the wiki.
 
+## Closing the loop — correcting voice profiles
+
+After you correct a finalized transcript (fix any mislabeled `(?)` lines, reassign wrong
+speakers), **re-save the affected characters' voice profiles** (`voice-profiler.md`). The
+profiler harvests each character's corrected lines from `session-NN-transcript.md`, slices
+the matching `.live` audio, and folds that real in-character speech into the profile — so
+separation keeps improving session over session.
+
+For this to work, **keep the session's `.live/session-NN/audio/` directory** (it's
+gitignored scratch but it's the source the harvester slices). Delete it only once you're
+done improving profiles from that session.
+
 ## If separation is poor
 
 - Confirm `--speakers` matches the people actually talking.

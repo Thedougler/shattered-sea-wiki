@@ -190,3 +190,7 @@ sources: []
 - CREATE: `wiki/situations/active/crissdalynns-pilgrimage.md` — Kyzil found her in Calveno; warning delivered; missing Sentinels deferred
 - CREATE: `wiki/situations/active/jean-claudes-desertion.md` — Grung Expansion; Simone hunting; Calveno raid; Tidefall toxin channel burned
 - CREATE: `wiki/situations/active/sunken-crown-blessing-crisis.md` — Keth-Naar under pressure; shrine failing; Stripes sent to find the answer
+- CREATE: `wiki/situations/active/kalowe-takowan.md` — Takowan intelligence ship; Noa Fifita; ship disguise thread
+- CREATE: `wiki/situations/active/governors-seat.md` — Governor Voss boxed out; sealed Maw orders; Delmar's name opens the gate
+- CREATE: `wiki/situations/active/fort-crestwall.md` — sealed orders in Commandant's office; Duty Sergeant's Necklace of Fireballs
+- CREATE: `wiki/islands/port-tidefall-dockfront.md` — narrative island; ship leads, Maret salvage, Waveservant pressure, cache

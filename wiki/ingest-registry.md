@@ -82,6 +82,10 @@ sources: []
 | Inbox/Crissdalynns-Pilgrimage.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/crissdalynns-pilgrimage.md` (new — Kyzil found her; warning delivered; missing Sentinels pending) |
 | Inbox/Jean-Claudes-Desertion.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/jean-claudes-desertion.md` (new — Grung Expansion; Simone hunting; Calveno raid context) |
 | Inbox/Sunken-Crown-Blessing-Crisis.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/sunken-crown-blessing-crisis.md` (new — Keth-Naar pressure; shrine failing; Pearl recovery resolves this) |
+| Inbox/Kalowe.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/kalowe-takowan.md` (new — Takowan ship; Noa Fifita; ship disguise thread) |
+| Inbox/Governors-Seat.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/governors-seat.md` (new — Voss boxed out; sealed Maw orders; Delmar's name opens the gate) |
+| Inbox/Fort-Crestwall.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/fort-crestwall.md` (new — sealed orders; underwater charges to Maw; Duty Sergeant's Necklace) |
+| Inbox/Port-Tidefall.md | situation-source, narrative-island | ingested | 2026-05-28 | `wiki/islands/port-tidefall-dockfront.md` (new — dockfront opportunities; ship leads, Maret, cache, Waveservant pressure) |
 | Inbox/Il-Gioco-delle-Beffe copy.md | narrative-island, dm-notes | ingested | 2026-05-28 | `wiki/islands/il-gioco-delle-beffe-dm.md` (new — DM mechanics: phase structure, rivals, prize table) |
 
 ## Pending Queue (status: pending, priority order)

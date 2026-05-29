@@ -176,6 +176,7 @@ sources: []
 - [[harwick|Harwick]] — The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter.
 - [[huahei|Huahei]] — A small overgrown marshy island in the Midchain, notable for an odd fey presence.
 - [[karath|Karath]] — A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning.
+- [[keth-naar|Keth-Naar]] — A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -197,7 +198,7 @@ sources: []
 - [[carpenters-slip|Carpenters' Slip]] — [stub] Stub — Calveno shipyard on the Basin; [[savia-brentino|Savia Brentino]] does hull work without Canal Commission filings; refuses cold approaches.
 - [[casa-lupo|Casa Lupo]] — [stub] Shop in Calveno. Jean-Claude visited first; shopkeeper redirected him to Studio Orsini for the whip shark egg.
 - [[kats-curios|Kat's Curios]] — [stub] Curio shop or appraisal service in Calveno run by Catalina Curio. Delmar's whip shark barb was assessed here; Catalina is to follow up.
-- [[la-vasca|La Vasca]] — Covered dry dock in Calveno flying Black-Jaw colors. The Uncertainty (ex-HCS Surety) is docked here for a 5-day repair. Password: garden.
+- [[la-vasca|La Vasca]] — The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden.
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.
 - [[moretti-and-sons|Moretti & Sons]] — [stub] Stub — Calveno chandlery run by [[giacomo-moretti|Giacomo Moretti]]; ship stock, festival goods, and twenty-year Beffa Accord record.
 - [[ponte-bassa|The Ponte Bassa]] — [stub] Stub — Calveno tavern and canal-boat hire; [[oleandro-fuschi|Oleandro Fuschi]] keeps it; good for food, boats, and arrival intelligence.
@@ -328,6 +329,8 @@ sources: []
 - [[iron-pot|Iron Pot]] — A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp.
 - [[iron-spike|Iron Spike]] — Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot.
 - [[keel-inspection|Keel Inspection]] — Shallow-water or slipped keel inspection with a written assessment — essential before any long passage or after a grounding.
+- [[lamp-oil|Lamp Oil]] — Refined oil for lanterns and lamps — standard stock at every chandlery in the Shattered Sea. 1 sp per flask, 6 sp per gallon.
+- [[lantern-of-revealing|Lantern of Revealing]] — A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -358,6 +361,8 @@ sources: []
 - [[hcs-warrant|HCS Warrant]] — A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
 - [[heft|The *Heft*]] — Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands.
 - [[ironmantle|Ironmantle]] — A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate.
+- [[knifes-wake|The *Knife's Wake*]] — A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power.
+- [[lasting-insult|Lasting Insult]] — A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.

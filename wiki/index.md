@@ -48,7 +48,7 @@ sources: []
 - [[master-kyzil|Master Kyzil]] — Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
-- [[rael-corven|Rael Corven]] — Captain of the Red Lady and flag captain of Fisk's Fleet. His soul is one of the five captains pressed into Delmar Fisk.
+- [[rael-corven|Rael Corven]] — Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
 - [[rupert-knighton|Rupert Knighton]] — Dravosi Crown figure who will send ships in response to Cap'n Gorgeous's death. Not yet encountered. Represents the institutional consequence of the Session 01–02 boarding actions.
 - [[shepherd-grigori|Shepherd Grigori]] — Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks.
 - [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen in Fisk's Fleet. Methodical, careful, route-wise, and one of the five souls pressed into Delmar Fisk.
@@ -372,6 +372,10 @@ sources: []
 - [[potion-of-water-breathing|Potion of Water Breathing]] — A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels.
 - [[preserved-eel|Preserved Eel]] — Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp.
 - [[preserved-meat-plate|Preserved Meat Plate]] — Salted pork, olives, and hard cheese — for eating slowly over a long conversation.
+- [[preserved-specimen-unknown|Preserved Specimen, Unknown]] — A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is.
+- [[private-alcove|Private Alcove]] — A curtained booth off the south wall of the Low Lamp — for conversations that need to not carry. 2 sp.
+- [[private-room|Private Room]] — A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night.
+- [[puntura|Puntura]] — A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
@@ -458,6 +462,7 @@ sources: []
 - [[mortis|The Mortis]] — Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept.
 - [[mounts-and-vehicles|Mounts and Vehicles]] — PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold.
 - [[navigator-chart-room|Navigator's Chart Room]] — Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
+- [[provisions-store|Provisions Store]] — Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] —

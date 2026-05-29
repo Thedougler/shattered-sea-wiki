@@ -183,6 +183,7 @@ sources: []
 - [[saltwright|Saltwright]] — Old grey-brown two-masted merchant brig. Dark, close-quarters hold smelling of bilge water and shrimp. Currently in party possession after the Session 01 boarding.
 - [[the-narrow|The Narrow]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
+- [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
 - [[vestra|Vestra]] — Perrin Black-Jaw's family fishing ship, built and captained by his grandfather and later used to support the family. Destroyed by something massive from below; Perrin's family does not know the full loss.
 - [[vethka|Vethka]] — Grung single-trunk war proa built from Verdant Teeth ironpillar hardwood. Fast in reef country and used for raids.
 

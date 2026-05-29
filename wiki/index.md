@@ -42,7 +42,7 @@ sources: []
 - [[elder-anton|Elder Anton]] — Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain.
 - [[estratto|Estratto]] — Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
 - [[felix-aho|Félix Aho]] — Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
-- [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
+- [[ket|Ket]] — A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
 - [[master-kyzil|Master Kyzil]] — Large owl-like figure; Crissdalynn's master or mentor. Reunited with her in Calveno after searching Kylo and Firefall. Thought she was dead when her ship went down.
@@ -135,7 +135,6 @@ sources: []
 - [[galewall-dm|The Galewall — DM Notes]] — DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
 - [[halythion|Halythion]] — Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
 - [[high-eyrie|The High Eyrie]] — Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
-- [[karath|Karath]] — [stub] Stub — Grung-controlled island in the Verdant Teeth with more visible military presence than Dreth. No further details on file.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|Midchain]] — [stub] Island chain Jean-Claude crossed for months after fleeing Sorn. The Saltwright passed through here when Jean-Claude leapt aboard in Session 01.
 - [[orak|Orak]] — [stub] Stub — island in the Verdant Teeth paired close to Dreth; the channel between them is crocodile water.
@@ -160,6 +159,7 @@ sources: []
 - [[harbourmasters-office|Harbourmaster's Office]] — Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter.
 - [[hook-and-ledger|The Hook & Ledger]] — A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early.
 - [[inspection-pier|The Inspection Pier]] — Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper.
+- [[kalowe-waveservant-shrine|Waveservant Shrine — Kalowe]] — Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
@@ -175,6 +175,7 @@ sources: []
 - [[dath-mar|Dath-Mar]] — The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be.
 - [[harwick|Harwick]] — The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter.
 - [[huahei|Huahei]] — A small overgrown marshy island in the Midchain, notable for an odd fey presence.
+- [[karath|Karath]] — A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -184,7 +185,7 @@ sources: []
 - [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
-- [[kalowe|Kalowe]] — Largest Midchain free port, neutral dry dock, Chain Council meeting ground, Beaumont Sel off-route port, and Five Blades base.
+- [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — [stub] Home of the Moucheron. Ket flew toward Murrat after being freed from the HCS Surety.
 - [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
 
@@ -326,6 +327,7 @@ sources: []
 - [[iron-lantern|Iron Lantern]] — A heavier, sturdier lantern built for use near ironwork and on rough decks where glass-panelled models don't survive. 4 gp.
 - [[iron-pot|Iron Pot]] — A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp.
 - [[iron-spike|Iron Spike]] — Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot.
+- [[keel-inspection|Keel Inspection]] — Shallow-water or slipped keel inspection with a written assessment — essential before any long passage or after a grounding.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.

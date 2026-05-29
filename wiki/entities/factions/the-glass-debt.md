@@ -1,20 +1,62 @@
 ---
 title: The Glass Debt
 type: entity
-subtype: faction
+subtype: ship
+ship_class: armed frigate
+tier: 3
+publish: true
 campaign: shattered-sea
-status: stub
-audience: dm
-publish: false
-confidence_level: inferred
-tags: [faction, pirate, stub]
-sources: ["Inbox/Drowned-Maw.md"]
-summary: "Stub — pirate entity known for making Maw-adjacent salvage traffic change course. No further details on file."
+audience: players
+status: active
+confidence_level: medium
+tags: [ship, pirate, tier-3, late-game]
+sources: ["Inbox/Drowned-Maw.md", "Inbox/The-Glass-Debt.md"]
+aliases:
+  - Glass Debt
+summary: "A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave."
 ---
 
-# The Glass Debt
+# The *Glass Debt*
+
+> [!read-aloud]
+> A three-masted frigate turns broadside with the patient confidence of a ship that does not need to hurry. Her hull is lacquered black over old navy-grey paint, and the gold scrollwork has been scratched through in places so the previous livery shows like a bruise. Forty gunports sit in two clean rows. At the prow, a glass-inlaid figurehead of a veiled woman holds a cracked balance scale in both hands. Every lantern aboard burns blue-white behind cut glass.
+
+## Overview
+
+The *Glass Debt* is a Tier 3 armed pirate frigate: too large for ordinary smuggling, too expensive for casual raiding, and too dangerous to dismiss as a local nuisance. She operates where the [[midchain|Midchain]] back routes open toward the [[central-strait|Central Strait]], the [[tail|Tail]], and the Drowned Maw western approaches. Smaller pirate ships take prizes. The *Glass Debt* changes how convoys behave.
+
+Her hull began life as a Crown-built heavy escort. Every formal mark has been made ambiguous rather than erased — grey still shows beneath black lacquer, old registry scars remain under decorative brass. Legal-looking at the edge of sight. Insulting up close.
+
+## Stats
+
+| | |
+|---|---|
+| **Tier** | 3 |
+| **Hull Points** | 380 |
+| **Hull AC** | 13 |
+| **Speed (good wind)** | 65 miles/day |
+| **Speed (poor wind)** | 30 miles/day |
+| **Crew (min/full)** | 24 / 72 |
+| **Gun Mounts** | 40 |
+| **Weapons** | 28 long cannon; 8 heavy chase guns; 4 swivel guns |
+| **Upkeep** | ~390 gp/week |
+
+## Magical Enhancements
+
+| Enhancement | Rarity | Use |
+|---|---|---|
+| Wardstone Figurehead | Rare | Advantage on saves vs magical effects; hostile divination can fail. |
+| Cartographer's Table | Rare | Maps route in real time; produces saleable charts. |
+| Arcane Artillery | Rare | Force-bolt gun mounts when powder fails. |
+| Ghost Keel Coating | Uncommon | Approaches more quietly than any frigate has a right to. |
 
 > [!dm]
-> Stub created during ingest from `Inbox/Drowned-Maw.md`. Expand before use at table.
+> **As an enemy:** Late-campaign threat. A Tier 1 or 2 party cannot fight this ship — encounter it as a blockader, convoy disruptor, or threat that changes routing decisions.
+> **As a prize:** Starts arguments between everyone with a claim. Most complex mid-to-late campaign ship acquisition.
 
-A pirate entity operating near the [[the-drowned-maw|Drowned Maw]] known for making salvage traffic change course. Works the western shelf edge around Maw-adjacent salvage lanes.
+## Connections
+
+- [[midchain|Midchain]] — operating area
+- [[central-strait|Central Strait]] — convoy corridor
+- [[tail|The Tail]] — eastern operational edge
+- [[dravosi-crown|Dravosi Crown]] — primary institutional enemy

@@ -164,9 +164,9 @@ sources: []
 - [[shelf-instrument-dealer|The Shelf Instrument Dealer]] — Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance.
 - [[south-harbour-impound|South Harbour Impound]] — A roped-off section of the South Harbour east pier — chain, hand-lettered Crown notice, a clerk's hut with a lamp in it, and several vessels sitting in their berths going nowhere.
 - [[tessarine-trade-house|Tessarine Trade House — Port Tidefall]] — The Tessarine Concordat's commercial office on the Shelf — trade licensing, contract brokerage, and a clerk who prefers paperwork to people.
-- [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
+- [[the-flat-water|The Flat Water]] — The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
-- [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
+- [[the-mud-pits|The Mud Pits]] — A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best.
 - [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.
 - [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
 
@@ -218,7 +218,7 @@ sources: []
 - [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
 
 ## entities/places/settlements/warren
-- [[low-lamp|Low Lamp]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
+- [[low-lamp|The Low Lamp]] — The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.
 - [[marrows|Marrow's]] — A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
 - [[tangle-chambers|The Tangle Chambers]] — The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held.
 - [[the-splint|The Splint]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
@@ -234,7 +234,7 @@ sources: []
 - [[khlysty|The Khlysty]] — [DM-only] Secret mystical flock threaded through Dravosi and Tessarine noble courts. Shepherd Grigori heals dying heirs and binds them as unwitting phylacteries.
 - [[sentinels-of-the-eyrie|Sentinels Of The Eyrie]] — Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter.
 - [[tessarine-concordat|Tessarine Concordat]] — Colonial commercial power that turns credit, contracts, insurance, route underwriting, and trade dependency into political leverage. Calveno is its strongest northern foothold.
-- [[the-glass-debt|The Glass Debt]] — [stub] Stub — pirate entity known for making Maw-adjacent salvage traffic change course. No further details on file.
+- [[the-glass-debt|The *Glass Debt*]] — A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave.
 - [[the-passage|The Passage]] — Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.
 - [[the-velvet-noose|The Velvet Noose]] — [stub] Stub — mostly-rumour pirate entity near the Drowned Maw; enough of a reputation to make convoys wait for daylight.
 - [[vaka|Vaka]] — Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time.
@@ -490,6 +490,8 @@ sources: []
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]] — Calveno's five-day prank festival. Teams execute elaborate public hoaxes on willing marks during a three-day window, then reveal authorship with a registered team symbol.
 - [[peoples-of-the-shattered-sea|Peoples of the Shattered Sea]] — Regional demographics of the Shattered Sea: who lives where, who sails through, and why the population mix changes farther east.
 - [[shattered-sea-pantheon|Shattered Sea Pantheon]] — The active divine landscape of the Shattered Sea: Umberlee dominates maritime practice, with Valkur and Tyr acting as important counterweights.
+- [[the-galewall-runners-drop|The Galewall Runner's Drop]] — A legendary privateer treasure cache rumored to be hidden on one of the volcanic Ashwall Islands — deposited during a desperate flight from the Dravosi Admiralty in the early colonial period.
+- [[the-grandfather-hole|The Grandfather Hole]] — A legendary underwater sinkhole in the eastern Midchain where a century of shipwrecks lie at the bottom — guarded by an ancient Sawek and animated crews.
 - [[umberlee-and-waveservants|Umberlee and the Waveservants]] — Public lore on Umberlee and the Waveservants: the feared sea goddess, her practical clergy, and the tribute customs sailors treat as port infrastructure.
 
 ## lore/species

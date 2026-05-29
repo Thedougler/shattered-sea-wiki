@@ -16,11 +16,11 @@ relationships:
   - "[[waveservant-shrine|Waveservant Shrine]] — location; waiting here"
 ---
 
-# Umberlee's Servant (unnamed)
+# Umberlee's Servant → [[branca|Branca]]
 
-Older woman. Blue-gray robes. White hair. Slight limp. Small leather book. Found [[delmar-fisk|Delmar]] specifically in the Mercatura district. Has a message from Umberlee's Bitch Queen. Will be at the [[waveservant-shrine|Waveservant Shrine]] all day; not sleeping until Delmar comes.
+**Identity resolved.** The "unnamed older woman in blue-gray robes" who found [[delmar-fisk|Delmar]] in the Mercatura (white hair, slight limp, small leather tide-table booklet, message from Umberlee) is **[[branca|Branca]]**, senior Waveservant and Umberlee's appointment-keeper. See her page for voice, manner, and the canon possession beat. The message she carries is canonized in [[umberlees-message|Umberlee's Message]].
 
-Delmar deceived her (Deception 19): told her Umberlee herself had required an errand first. She believed it and left.
+Session 03: Delmar deceived her (Deception 19) into believing Umberlee had required an errand first; she left and waited at the [[waveservant-shrine|Waveservant Shrine]].
 
 > [!dm]
-> Stub. She found him *specifically* — not random recruitment. The message content and how she identified Delmar are both unresolved. Expand before the shrine scene runs.
+> This page is retained only so older [[umberlee-servant]] links resolve. Use [[branca|Branca]] going forward.

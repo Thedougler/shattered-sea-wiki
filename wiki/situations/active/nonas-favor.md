@@ -18,7 +18,13 @@ narrative_island:
 
 [[perrin-black-jaw|Perrin]] agreed to [[nona-black-jaw|Nona]]'s favor before she stated what it was. She gave him a [[sending-stone-nona|sending stone]] and he left.
 
-The favor has not been named. The stone is the mechanism for delivery.
+## The Favor (canon)
+
+Word reached Nona that Perrin came into Calveno with a crew including a face nobody here knows: a **blue Grung in a beret and moustache** ([[jean-claude-tabarnack|Jean-Claude]]). She reads this as a stroke of luck. She's been getting reports she would normally dismiss as impossible this far north — **Grung moving in the old Warren tunnels that intersect the Calveno sewers.** She wants them confirmed or dismissed. And who better to send hunting Grung than a Grung.
+
+**The ask:** send Jean-Claude (with whoever he wants) into the old tunnels to confirm whether the Grung reports are real.
+
+**This is the door into the raid.** Those sewer Grung are [[calveno-beffa-grung-raid|Simone's extraction crews]] mapping the Day-4 egress route. Nona's favor and the handler thread are the same investigation from two ends — the street above and the tunnels below. The favor puts the Warren's blessing behind the descent.
 
 ## What Led Here
 

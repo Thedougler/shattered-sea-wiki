@@ -16,27 +16,31 @@ narrative_island:
 
 # Umberlee's Message
 
-An [[umberlee-servant|older woman in blue-gray robes]] found [[delmar-fisk|Delmar]] specifically in the Mercatura district on his first day in [[calveno|Calveno]]. She has a message from Umberlee's Bitch Queen. She is at the [[waveservant-shrine|Waveservant Shrine]] all day and is not sleeping until he comes.
+The "older woman in blue-gray robes" who found [[delmar-fisk|Delmar]] in the Mercatura on his first day in [[calveno|Calveno]] is [[branca|Branca]], senior Waveservant and Umberlee's appointment-keeper. She waits at the [[waveservant-shrine|Waveservant Shrine]], not sleeping, until he comes.
 
-## What the Party Knows
+## The Message (canon)
 
-- She found Delmar specifically (not generic proselytizing).
-- She has a message from the Bitch Queen directly.
-- Delmar Deceived her (19): told her Umberlee had required an errand first. She believed it.
-- Delmar told Geoffrey: they're not going to a second location alone.
+At the shrine, Branca opens with her usual bright scheduling manner — then her eyes roll white and **Umberlee speaks through her**. The demand:
+
+> Retrieve the [[pearl-of-souls|Pearl of Souls]] from the [[red-lady|Red Lady]] wreck at the [[the-drowned-maw|Drowned Maw]] and return it to a shrine of Umberlee. In return: a **swift death** for Delmar and the surrender of **the souls he carries** ("what is Mine" / "the souls you stole").
+
+It is a death sentence dressed as grace. Delmar refuses — by design.
+
+**The demonstration.** On the refusal: thunder out of a clear sky, the canal shivers, the thing wearing Branca *roars* and **snaps her neck**. She folds, dead, on the wet stone. Moments later sea-mist gathers around her body, she gasps back to life, smooths her robe, and says: *"I hope you understand my lady Umberlee's power. And her grace."* She means it completely — she experienced her own murder as a privilege (see [[branca|Branca]]).
+
+## What the Party Learns
+
+- Delmar **carries souls Umberlee claims**, and there is a **Pearl** he is meant to retrieve. (They need not learn the [[pearl-of-souls|five-captains / Vel Orn]] story — keep Umberlee's words cryptic.)
+- Umberlee's reach is absolute and casually lethal even to her own faithful.
+- The Pearl is in the Red Lady wreck — the same wreck the [[red-lady-salvage-money|salvage commission]] is racing for.
 
 ## Pressures
 
-- She is not sleeping until he comes — this is a deadline of a kind.
-- She identified Delmar in a crowd. How she did this is unresolved.
-- Delmar stepped off the gangplank and the water reached up toward him; he thought he heard his name. Same session.
+- The retrieval itself is the [[pearl-of-souls|Maw Pearl Crisis]] — a future-session payload. This scene delivers the summons and the demonstration.
+- If ignored: the water reaches for Delmar again, harder, the next time he touches deep seawater; Branca reschedules with another appointment. Umberlee does not chase — She reschedules.
+- Delmar's gangplank water-moment (Session 03) was Umberlee feeling for him; same pressure building.
 
 ## Open Questions
 
-- What is the message?
-- How did she identify Delmar?
-- Is Delmar's water moment connected?
-- What does Umberlee want with a Crown-affiliated PC?
-
-> [!dm]
-> Develop message content before this scene runs. The water reaching for Delmar same session suggests Umberlee pressure is building. Her finding him specifically raises the stakes — this isn't a general recruitment.
+- How much of "the souls you stole" does the party piece together?
+- Does Delmar pursue the Pearl, refuse, or stall — and at what cost?

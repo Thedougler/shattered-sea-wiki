@@ -323,6 +323,9 @@ sources: []
 - [[incendiary-flask|Incendiary Flask]] — Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished.
 - [[iron-chain|Iron Chain]] — Drop-forged iron chain sold by the foot — rigging, mooring, securing cargo, and improvised restraint. 5 sp per foot.
 - [[iron-cleat|Iron Cleat]] — A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp.
+- [[iron-lantern|Iron Lantern]] — A heavier, sturdier lantern built for use near ironwork and on rough decks where glass-panelled models don't survive. 4 gp.
+- [[iron-pot|Iron Pot]] — A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp.
+- [[iron-spike|Iron Spike]] — Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -352,6 +355,7 @@ sources: []
 - [[hcs-tangent|HCS Tangent]] — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
 - [[hcs-warrant|HCS Warrant]] — A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
 - [[heft|The *Heft*]] — Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands.
+- [[ironmantle|Ironmantle]] — A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
@@ -439,6 +443,7 @@ sources: []
 
 ## dm
 - [[combat-analytics|Combat Analytics — Shattered Sea]] — [stub] Stub — populate after first combats. Empirical combat data to calibrate encounter design.
+- [[jean-claude-primer|Jean-Claude Primer]] — Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers.
 - [[player-interests|Player Interests — Shattered Sea]] — Stub — populate after first session. Tracks what each player is engaged with to drive content depth.
 
 ## (root)

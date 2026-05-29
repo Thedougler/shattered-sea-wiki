@@ -59,7 +59,7 @@ After Pell's death and the slave escape, he fled east through the [[midchain|Mid
 
 **Class:** Gloomstalker Ranger 4 | **Background:** Hermit
 
-**Species:** [[grung|Grung]] (blue caste)
+**Species:** [[grung|Grung]] (blue caste) | **Clan:** Botukuri *(BOH-too-KOO-ree)*
 
 **Mortis:** Permanent disadvantage Persuasion/Deception; advantage Perception/Survival. Cannot mask intentions.
 

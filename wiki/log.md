@@ -177,3 +177,4 @@ sources: []
 - UPDATE: `wiki/ingest-registry.md` — 17 second-batch entries added
 - UPDATE: `wiki/index.md` — 30+ entries added/updated for second Calveno batch
 - CREATE: `wiki/entities/vehicles/uncertainty.md` — Tier 1 cutter, formerly HCS Surety; full refit and crew data
+- UPDATE: `wiki/entities/vehicles/hcs-surety.md` — full stat block, crew, session log, Crown recognition clock

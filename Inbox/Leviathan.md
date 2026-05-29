@@ -1,0 +1,86 @@
+---
+title: The Leviathan
+type: monster
+publish: true
+created: 2026-05-03
+updated: 2026-05-16
+summary: A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster, Clyde's bestiary notes, and sightings of boiling water, dead-calm seas, and a dark shape rising from below.
+tags:
+  - creature
+  - legend
+  - maritime
+  - bestiary
+campaign: shattered-sea
+audience: players
+subtype: monster-rumor
+confidence_level: low
+aliases:
+  - The Leviathan
+  - Leviathan
+sources:
+  - "[[Clydes-Bestiary-of-Oceanic-Creatures]]"
+  - "[[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]]"
+relationships:
+  - relation: listed_in
+    target: Bestiary
+  - relation: rumored_in
+    target: The Drowned Maw
+  - relation: connected_to
+    target: Perrin Black-Jaw
+  - relation: referenced_in
+    target: Clyde's Bestiary of Oceanic Creatures
+creature_type: unknown
+environment: deep water
+public_reason: Perrin Black-Jaw survived the Vestra disaster and carries an annotated bestiary entry about the creature.
+statblock: none
+---
+
+# The Leviathan
+
+![[Leviathan.webp|The Leviathan passing beneath a doomed ship as the sea boils from below]]
+
+No sensible captain says they have seen the Leviathan. That is how you lose a crew.
+
+They say they have seen where it passed. Fish cooked white in calm water, miles from any reef. A hull limping into harbour with the underside scorched black. Lines hauled in hot enough to blister palms. The sea boiling in the distance.
+
+[[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]] is why the old story has started moving again. The *Vestra* went down three days before the campaign began, on an ordinary fishing day that stopped being ordinary all at once. The water around the hull began to bubble. Perrin touched the rail and the wood burned his hand. Then something enormous struck from below, and the ship was gone.
+
+Perrin survived. That alone makes his version harder to dismiss.
+
+---
+
+## Sightings
+
+The size changes with the teller. In one port it can swallow a sloop. In another it cracked a brig in half. By the time the story reaches a Tessarine counting room, it has become large enough to threaten trade lanes and interesting enough to insure against.
+
+The signs stay the same.
+
+First the warmth. Not summer water, not shallow reef water, but heat coming from below. Rope damp with hot brine. Pitch softening between planks. Metal fittings too warm to hold.
+
+After that, steam. Sometimes only a low white breath across the water. Sometimes a boiling patch wide enough to hide what comes up through it.
+
+The shape itself is the least reliable part. People remember darkness. Length. A body where there should have been open sea. Something black moving under the keel, too large to be a mistake and too fast to be a reef.
+
+---
+
+## What Has Weight
+
+The Leviathan is still rumor, not a creature anyone can prove. Nobody has a clean drawing, a reliable lair, or a body hauled onto a beach for scholars to prod.
+
+But the *Vestra* is gone. Perrin felt the heat before the strike. [[Clydes-Bestiary-of-Oceanic-Creatures|Clyde's Bestiary]] has a Leviathan chapter, and since the sinking, Perrin has been reading it like it owes him money.
+
+---
+
+## Connections
+
+- [[content/shattered-sea/characters/player/Perrin-Black-Jaw]]
+- [[Clydes-Bestiary-of-Oceanic-Creatures]]
+- [[Drowned-Maw]]
+- [[Sawek]]
+- [[Whip-Shark]]
+- [[Vestra]]
+- [[Algernon-Reginald-Clyde]]
+
+## Source
+
+- GM notes — The Leviathan (2026-04-13)

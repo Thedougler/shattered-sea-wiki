@@ -61,6 +61,15 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 | 1 | `wiki/index.md` | `[FULL]` | Master catalog |
 | 2 | `CLAUDE.md` | `[SECTION: Ideal State]` | Correction rules |
 
+### Task: `live-co-dm`
+> Mid-session, real-time. Latency beats completeness. SKIP init/lint/audit/index/frontmatter.
+| # | File | Depth | Why |
+|---|---|---|---|
+| 1 | `latest_session_context.py` output | `[FULL]` | Live transcript tail + hot.md, one fast bundle |
+| 2 | any single entity page | `[ON-DEMAND]` | Only via `ttrpg-wiki-query` for one specific fact |
+
+See `.claude/skills/live-co-dm/SKILL.md`.
+
 ---
 
 ## System File Index

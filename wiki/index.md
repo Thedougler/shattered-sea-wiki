@@ -50,6 +50,7 @@ sources: []
 - [[nona-black-jaw|Nona Black-Jaw]] — Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
 - [[rael-corven|Rael Corven]] — Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
 - [[rupert-knighton|Commodore Rupert Knighton]] — [DM-only] Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
+- [[serafina-windfall-fisk|Serafina Windfall Fisk]] — Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter.
 - [[shepherd-grigori|Shepherd Grigori]] — Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks.
 - [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen in Fisk's Fleet. Methodical, careful, route-wise, and one of the five souls pressed into Delmar Fisk.
 - [[simone-tabarnack|Simone Tabarnack]] — [DM-only] Jean-Claude's younger sister. Purple-and-gold Grung warlord-tier soldier; betrayed Jean-Claude and Pell; leads Sorn's garrison and supplies toxin tied to the Dravosi Crown.
@@ -389,8 +390,11 @@ sources: []
 - [[salt-lantern|Salt Lantern]] — A brass lantern that burns indefinitely without fuel — but only in salt air; it goes dark inland or in enclosed spaces within one minute.
 - [[salt-pork|Salt Pork]] — Barrelled salt-cured pork belly — the meat provision on every working ship, before the scurvy sets in.
 - [[saltseal|Saltseal]] — An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea.
-- [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
+- [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli to cover the cannonball breach in his shell — +2 AC and disadvantage on ranged attacks against him.
+- [[sea-poison-antidote|Sea-Poison Antidote]] — A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin.
+- [[sending-stone-anchor|Sending Stone Anchor]] — Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
+- [[shark-pull|Shark Pull]] — Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -469,6 +473,7 @@ sources: []
 - [[aarakocra|Aarakocra]] — Playable winged birdfolk with sustained flight, talons, wind magic, keen sight, and a skyward view of the world. Crissdalynn Khinriss is the campaign's known aarakocra PC.
 - [[grung|Grung]] — Playable amphibious poison frog humanoids from the Verdant Teeth. Grung society is caste-marked by skin color; Jean-Claude Tabarnack is a blue grung PC who fled that system.
 - [[rattkin|Rattkin]] — Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port.
+- [[sea-elf|Sea Elf]] — Aquatic elf subtype — breathes air and water, cold resistance, can communicate simple ideas to beasts with swimming speed. Sea elves in the Shattered Sea are centered at Halythion.
 - [[tabaxi|Tabaxi]] — Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
 
 ## rules

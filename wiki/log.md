@@ -185,3 +185,8 @@ sources: []
 - CREATE: `wiki/islands/shepherd-grigori.md` — narrative island; cure complete, heir bound, Grigori departed Calveno
 - CREATE: `wiki/situations/active/shepherd-grigori.md` — world state thread; network expanded, location unknown
 - CREATE: `wiki/islands/il-gioco-delle-beffe-dm.md` — DM mechanics for Beffa; phase structure, rivals, prize table
+- CREATE: `wiki/situations/active/pearl-of-souls.md` — promoted from dormant stub; full Maw Pearl Crisis with Delmar's secret, Auralis, five captains
+- DELETE: `wiki/situations/dormant/pearl-of-souls.md` — content merged into active situation
+- CREATE: `wiki/situations/active/crissdalynns-pilgrimage.md` — Kyzil found her in Calveno; warning delivered; missing Sentinels deferred
+- CREATE: `wiki/situations/active/jean-claudes-desertion.md` — Grung Expansion; Simone hunting; Calveno raid; Tidefall toxin channel burned
+- CREATE: `wiki/situations/active/sunken-crown-blessing-crisis.md` — Keth-Naar under pressure; shrine failing; Stripes sent to find the answer

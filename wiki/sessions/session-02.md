@@ -21,7 +21,7 @@ session_date: 2026-05-18
 ## Durable Changes
 - [[barnaby-rook|Barnaby Rook]] — presumed dead; taken by something in the water after going in a second time.
 - Party now commands the [[hcs-surety|HCS Surety]]. The [[saltwright|Saltwright]] departed with [[beaumont-sel|Beaumont Sel]].
-- Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] (shipwright), [[alys-kuiper|Alys Kuiper]] (surgeon), [[old-faas|Old Faas]] (rigger), [[thunk|Thunk]], [[noor|Noor]]. [[shepherd-grigori|Shepherd Grigori]] aboard until Calveno.
+- Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] (shipwright), [[alys-kuiper|Alys Kuiper]] (surgeon), [[old-faas|Old Faas]] (rigger), [[thunk|Thunk]], [[noor|Noor]]. [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] aboard until Calveno.
 - [[ket|Ket]] (Moucheron) freed from cage; flew toward [[murrat|Murrat]].
 - [[ensign-wouters|Ensign Wouters]] killed (shot by Delmar through a gun port).
 - [[perrin-black-jaw|Perrin]] received [[miras-blade|Mira's Blade]] from the cargo.
@@ -66,7 +66,7 @@ session_date: 2026-05-18
 - When does Anzolo find Perrin?
 
 ## Follow-Up Queue
-- [ ] Expand [[shepherd-grigori]] before Calveno arrival — what does he know about Rook's operations?
+- [ ] Expand [[wiki/situations/islands/shepherd-grigori]] before Calveno arrival — what does he know about Rook's operations?
 - [ ] Decide the hull creature — needs a creature page when identified
 - [ ] Expand crew stubs (Sem, Alys, Faas, Thunk, Noor) as they become distinct
 - [ ] Rename the HCS Surety — party has not yet chosen a name

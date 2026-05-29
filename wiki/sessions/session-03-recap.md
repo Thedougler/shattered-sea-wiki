@@ -70,7 +70,7 @@ Delmar's voice carried up from the gun deck:
 
 *"We have learned much today."*
 
-[[shepherd-grigori|Shepherd Grigori]] came up from below carrying tins of pale healing liquid for the crew. He found Jean-Claude and extended his hand. A red, viscous light flowed from his wrist and settled into the wound. Flesh knit together, perfectly, silently. No components. No words. No incantation. He said nothing else and went back below.
+[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] came up from below carrying tins of pale healing liquid for the crew. He found Jean-Claude and extended his hand. A red, viscous light flowed from his wrist and settled into the wound. Flesh knit together, perfectly, silently. No components. No words. No incantation. He said nothing else and went back below.
 
 Perrin rolled an 18 on arcana and still couldn't place it.
 
@@ -112,7 +112,7 @@ They agreed. The [[hcs-surety|HCS Surety]] became the *Uncertainty* somewhere in
 
 As Delmar stepped from the gangplank onto shore, the water reached up toward him for a moment, and he thought he heard his name on the wind. Then he was on land and it was gone.
 
-[[shepherd-grigori|Shepherd Grigori]] came down after. He shook Delmar's hand. The cold hit first. Deep cold, nothing to do with the dock or the season. He thanked the crew and said his business in the city would take a week or two. Perhaps their paths would cross again. He left.
+[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] came down after. He shook Delmar's hand. The cold hit first. Deep cold, nothing to do with the dock or the season. He thanked the crew and said his business in the city would take a week or two. Perhaps their paths would cross again. He left.
 
 ---
 
@@ -190,7 +190,7 @@ Perrin touched the finger.
 |---|---|
 | **[[hcs-surety\|Uncertainty]]** | In dry dock at [[la-vasca\|La Vasca]]; 5-day repair estimate; password: *garden* |
 | **[[sem-holst\|Sem Holst]]** | Ashore; worried about the figurehead and hull integrity |
-| **[[shepherd-grigori\|Shepherd Grigori]]** | Departed; business of his own; icy handshake; a week or two |
+| **[[wiki/situations/islands/shepherd-grigori\|Shepherd Grigori]]** | Departed; business of his own; icy handshake; a week or two |
 | **[[nona-black-jaw\|Nona Black-Jaw]]** | Met; attacks called off; Vestra crew consolation ordered; favor owed |
 | **[[master-kyzil\|Master Kyzil]]** | Reunited with Crissdalynn; in Calveno; location unspecified |
 | **Unnamed Umberlee servant** | Waiting at [[waveservant-shrine\|Waveservant Shrine]]; not sleeping until Delmar appears |
@@ -218,7 +218,7 @@ Perrin touched the finger.
 - [[jean-claude-tabarnack|Jean-Claude Tabarnack]]
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]]
 - [[nona-black-jaw|Nona Black-Jaw]]
-- [[shepherd-grigori|Shepherd Grigori]]
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]
 - [[master-kyzil|Master Kyzil]]
 - [[calveno|Calveno]]
 - [[la-vasca|La Vasca]]

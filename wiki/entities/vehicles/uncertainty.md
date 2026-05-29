@@ -162,7 +162,7 @@ No space units remain. Tier 2 required for further facility expansion.
 The family is not publicizing this. The rumours come from the servants.
 
 > [!dm]
-> Grigori's target was the hemophiliac Tessarine heir — his Calveno business from the moment he came aboard. The healing is real; the drunk monk act is performance. See [[shepherd-grigori|Shepherd Grigori — DM]].
+> Grigori's target was the hemophiliac Tessarine heir — his Calveno business from the moment he came aboard. The healing is real; the drunk monk act is performance. See [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori — DM]].
 
 **Alys Kuiper** (Ship's Surgeon) — Did not return from shore leave. No note, no message. Berth cleared of personal effects. A Le Paludi boarding house records her checking out after a man visited on the second evening. This is the full extent of what is findable.
 
@@ -186,5 +186,5 @@ Full prior history and session log: [[hcs-surety|HCS Surety]].
 - [[nona-black-jaw|Nona Black-Jaw]] — commissioned and funded the refit
 - [[la-vasca|La Vasca]] — current berth and refit location
 - [[cobb|Cobb]] — refit supervisor
-- [[shepherd-grigori|Shepherd Grigori]] — former passenger; departed Calveno
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] — former passenger; departed Calveno
 - [[surety-missing|Crown Search]] — recognition clock

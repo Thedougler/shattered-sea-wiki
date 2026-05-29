@@ -42,7 +42,7 @@ Beaumont slid a [[truth-stone|Truth Stone]] across the decking to [[jean-claude-
 
 ![[raw/assets/session-art/session-02-03-grigori-galley.webp|Shepherd Grigori hosts the party in the HCS Surety galley]]
 
-The galley smelled wrong for a ship — bread, herbs, something on a low heat. [[shepherd-grigori|Shepherd Grigori]] waited at the head of the table: dark wild hair, a [[tessarine-concordat|Tessarine]] shirt, a [[dravosi-crown|Dravosi]] naval coat rolled to the sleeves. He asked what kind of pirates they were. No trafficking, no cannibalism, Robin Hood — near enough. He told them about Cap'n Gorgeous, and [[rupert-knighton|Rupert Knighton]], who will send ships. His condition: anyone who wants off at the next port walks free. Then he mentioned they'd forgotten to feed Ket. Every sailor found something to look at on the ceiling.
+The galley smelled wrong for a ship — bread, herbs, something on a low heat. [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] waited at the head of the table: dark wild hair, a [[tessarine-concordat|Tessarine]] shirt, a [[dravosi-crown|Dravosi]] naval coat rolled to the sleeves. He asked what kind of pirates they were. No trafficking, no cannibalism, Robin Hood — near enough. He told them about Cap'n Gorgeous, and [[rupert-knighton|Rupert Knighton]], who will send ships. His condition: anyone who wants off at the next port walks free. Then he mentioned they'd forgotten to feed Ket. Every sailor found something to look at on the ceiling.
 
 ![[raw/assets/session-art/session-02-04-ket-cage.webp|Ket watches from his brass cage in the HCS Surety hold]]
 
@@ -90,7 +90,7 @@ Then the hull took an impact. A second. A third — the Surety lurched hard to p
 | **[[bisou\|Bisou]]**                                        | Alive; departed with Beaumont and 15 gp that weren't hers           |
 | **[[geoffrey-draves\|Geoffrey Draves]]**                    | First crew member; working the ship in the storm                    |
 | **[[ensign-wouters\|Ensign Wouters]]**                      | Deceased; shot in the groin by Delmar during the boarding           |
-| **[[shepherd-grigori\|Shepherd Grigori]]**                  | Cooperative; wants off at Calveno                                   |
+| **[[wiki/situations/islands/shepherd-grigori\|Shepherd Grigori]]**                  | Cooperative; wants off at Calveno                                   |
 | **[[ket\|Ket]]**                                            | Freed; fed; flying toward Murrat                                    |
 | **[[hcs-surety\|HCS Surety]]**                              | Party prize; Crown-marked; heading for Calveno; hull taking impacts |
 | **Party level**                                             | Levelled up at session end                                          |
@@ -113,7 +113,7 @@ Then the hull took an impact. A second. A third — the Surety lurched hard to p
 - [[saltwright|Saltwright]]
 - [[beaumont-sel|Beaumont Sel]]
 - [[barnaby-rook|Barnaby Rook]]
-- [[shepherd-grigori|Shepherd Grigori]]
+- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]
 - [[ket|Ket]]
 - [[moucheron|Moucheron]]
 - [[perrin-black-jaw|Perrin Black-Jaw]]

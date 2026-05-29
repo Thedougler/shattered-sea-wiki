@@ -16,7 +16,7 @@ island: null
 
 # The Knighton Pursuit
 
-[[shepherd-grigori|Shepherd Grigori]] warned the party: [[rupert-knighton|Rupert Knighton]] will not let [[capn-gorgeous|Cap'n Gorgeous]]'s death go unanswered. Ships will be sent.
+[[wiki/situations/active/shepherd-grigori|Shepherd Grigori]] warned the party: [[rupert-knighton|Rupert Knighton]] will not let [[capn-gorgeous|Cap'n Gorgeous]]'s death go unanswered. Ships will be sent.
 
 ## Known Facts
 - Knighton knows (or will learn) the circumstances of Cap'n Gorgeous's death.

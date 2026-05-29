@@ -23,7 +23,7 @@ relationships:
 
 Political power that arrived in the Shattered Sea in 1210 DR, formed the Seven Houses of [[calveno|Calveno]], and began the slow arithmetic of obligation.
 
-[[shepherd-grigori|Shepherd Grigori]] wears a Tessarine shirt under his Dravosi naval coat — the Concordat is his affiliation or nation of origin.
+[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] wears a Tessarine shirt under his Dravosi naval coat — the Concordat is his affiliation or nation of origin.
 
 ## Method
 

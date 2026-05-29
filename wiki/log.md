@@ -211,3 +211,9 @@ sources: []
 - [[alys-kuiper|Alys Kuiper]] — crew surgeon, *Uncertainty*; recruited from HCS Surety. Session 02.
 - [[barnaby-rook|Barnaby Rook]] (creature) — stat block for CR 3 privateer captain encounter.
 - [[beaumonts-crew|Beaumont's Crew]] — crew roster page for the Saltwright four.
+- [[ensign-wouters|Ensign Wouters]] — full character page; deceased navigator, Dravosi.
+- [[noor|Noor]] — full character page; crew cook, 15.
+- [[old-faas|Old Faas]] — full character page; bosun, peg legs, constitutionally unkillable.
+- [[sem-holst|Sem Holst]] — full character page; shipwright, knows about the fatigued keel joint.
+- [[thunk|Thunk]] — full character page; orc gunner with undisclosed chemistry degree.
+- [[geoffrey-draves|Geoffrey Draves]] — full character page; carpenter, secret dancer, the vow.

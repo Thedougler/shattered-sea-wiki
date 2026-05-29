@@ -37,7 +37,7 @@ The central practice is **the Turning**: dance, song, fasting, confession, and f
 
 ## The Healing Covenant
 
-When [[shepherd-grigori|Shepherd Grigori]] heals someone, they become part of the flock. No vow is asked. No signature is taken. Through the healing, he binds a thread of his phylactery into their life.
+When [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] heals someone, they become part of the flock. No vow is asked. No signature is taken. Through the healing, he binds a thread of his phylactery into their life.
 
 As long as they live, he cannot be permanently destroyed.
 

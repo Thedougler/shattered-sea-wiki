@@ -3,25 +3,14 @@ type: entity
 subtype: pc
 campaign: shattered-sea
 status: active
-audience: dm
-publish: false
+audience: players
+publish: true
 summary: "41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [pc, human, rogue, swashbuckler]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Delmar-Fisk.md", "Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md"]
 confidence_level: confirmed
-relationships:
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — his anchor; sole co-survivor of the Red Lady; her opinion matters most"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — party"
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — party"
-  - "[[geoffrey-draves|Geoffrey Draves]] — recruited; training as Mr. James"
-  - "[[admiral-fisk|Admiral Fisk]] — claimed as a 'friend' in Session 02; identity unclear"
-  - "[[umberlee-servant|Umberlee's Servant]] — found him specifically; waiting at Waveservant Shrine"
-  - "[[umberlee|Umberlee]] — pressed five captains' souls into him; the debt is open"
-  - "[[margaret-porcelain-pots|Margaret Porcelain Pots]] — first love; dragonborn; avoids; unresolved"
-  - "[[pearl-of-souls|Pearl of Souls]] — stolen artifact; fleet disaster trigger"
-  - "[[fisks-fleet|Fisk's Fleet]] — destroyed fleet; five captains live in his head"
 ---
 
 # Delmar Atticus Fisk

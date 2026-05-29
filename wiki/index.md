@@ -37,7 +37,7 @@ sources: []
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
-- [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet. Blunt, enduring, practical, and one of the five souls pressed into Delmar Fisk.
+- [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
@@ -254,6 +254,8 @@ sources: []
 - [[custom-preparation|Custom Preparation]] — A commissioned herbal or medicinal preparation — 1–3 days, ingredients and availability dependent.
 - [[dagger|Dagger]] — A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea.
 - [[deepwater-ink|Deepwater Ink]] — An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures.
+- [[delmars-cloak-of-the-manta-ray|Delmar's Cloak of the Manta Ray]] — Delmar Fisk's family heirloom — 60 ft. swim speed, underwater breath, and manta form while the hood is up. Kept him alive when his ship didn't.
+- [[depth-eye|Depth Eye]] — A hull-mounted lens for 60-foot underwater observation from below decks.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -353,6 +355,7 @@ sources: []
 
 ## system
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
+- [[delmar-primer|Delmar Primer]] — Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.
 - [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
 - [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.

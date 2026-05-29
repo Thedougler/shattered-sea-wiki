@@ -48,7 +48,6 @@ def default_value(field: str, relpath: str) -> str:
         "tags": "[]",
         "sources": '["Unknown"]',
         "confidence_level": "medium",
-        "relationships": "[]",
         "lifecycle": "dormant",
         "island": "null",
         "portable": "false",

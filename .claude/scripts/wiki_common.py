@@ -142,8 +142,11 @@ def infer_subtype(relpath: str) -> str:
 
 
 # Required fields beyond the universal set, keyed by inferred type.
+# NOTE: `relationships` is intentionally NOT here. Relationships live in the
+# body prose as wikilinks, not as a frontmatter field — see ttrpg-wiki-lint's
+# relationships-in-frontmatter check, which drives migration of any that remain.
 TYPE_EXTRA_FIELDS = {
-    "entity": ["confidence_level", "relationships"],
+    "entity": ["confidence_level"],
     "situation": ["lifecycle", "island"],
     "island": ["portable", "entry_points", "contains_situations"],
     "session": ["session_number", "session_date"],

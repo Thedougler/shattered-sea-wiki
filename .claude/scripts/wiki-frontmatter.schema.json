@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wiki-frontmatter.schema.json",
+  "title": "Shattered Sea wiki frontmatter — value vocabularies",
+  "description": "Validates the VALUES of known frontmatter fields. Required-field presence is enforced separately in wiki_common.py (keyed on file path, the single source of truth for type/subtype). additionalProperties is true on purpose: entity pages carry rich domain fields (cr, aliases, region, species, pronouns, portrait, ship_class, hull_points, ...) that are legitimate and should not be flagged. Only add a property here when you want to constrain its VALUE.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "type": { "type": "string" },
+    "subtype": { "type": "string" },
+    "campaign": { "type": "string", "enum": ["shattered-sea"] },
+    "status": { "type": "string", "minLength": 1 },
+    "audience": { "type": "string", "enum": ["agent", "dm", "players"] },
+    "publish": { "type": "boolean" },
+    "summary": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "updated": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "tags": { "type": "array" },
+    "sources": { "type": "array" },
+    "confidence_level": {
+      "type": "string",
+      "enum": ["observed", "confirmed", "inferred", "low", "medium", "high"]
+    },
+    "lifecycle": { "type": "string", "enum": ["dormant", "active", "resolved"] },
+    "island": { "type": ["string", "null"] },
+    "portable": { "type": "boolean" },
+    "entry_points": { "type": "array" },
+    "contains_situations": { "type": "array" },
+    "session_number": { "type": "integer" },
+    "session_date": { "type": "string" },
+    "system_role": { "type": "string" },
+    "token_profile": {
+      "type": "string",
+      "enum": ["on-demand", "always-read", "quick-ref", "map"]
+    },
+    "mandatory_for": { "type": "array" },
+    "update_trigger": { "type": "string" }
+  }
+}

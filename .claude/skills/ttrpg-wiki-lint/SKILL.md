@@ -52,6 +52,19 @@ of that by hand.
 Don't read files one by one to assess health — run the script. It's the fast path
 and it won't miss things you would.
 
+## Where flagged decisions live
+
+So nothing gets forgotten, persistence has two homes:
+
+- **`wiki/dm/review-queue.md`** — written by `--report`, committed, regenerated each run.
+  It leads with *decisions needed* (the judgment items) and summarizes the mechanical/content
+  backlog. It shrinks as you resolve the underlying files — never hand-edit it. `ttrpg-llm-wiki-init`
+  surfaces its open-decision count at session start, so the DM sees it every session.
+- **`wiki/discrepancy-log.md`** — for genuine lore contradictions and ambiguous entity
+  identity (e.g. "is the *creature* page the same entity as the *npc* page?"). These are
+  durable judgment calls, not auto-detectable drift — record them here per `doctrine.md`,
+  leaving both traces visible, and escalate to the DM. Don't auto-resolve identity.
+
 ---
 
 ## Running it
@@ -72,8 +85,8 @@ python3 .claude/scripts/wiki_lint.py --summary
 # Only errors (the things that actually break navigation).
 python3 .claude/scripts/wiki_lint.py --min-severity error
 
-# Persist the list for a multi-session cleanup.
-python3 .claude/scripts/wiki_lint.py --report      # writes wiki/lint-report.md
+# Persist flagged decisions where the DM will see them across sessions.
+python3 .claude/scripts/wiki_lint.py --report      # writes wiki/dm/review-queue.md
 
 # Machine-readable, e.g. to count or filter.
 python3 .claude/scripts/wiki_lint.py --json

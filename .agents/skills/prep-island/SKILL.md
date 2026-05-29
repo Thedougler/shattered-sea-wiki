@@ -5,9 +5,11 @@ description: >
   portable cluster of situations, NPCs, and locations organized around a coherent premise.
   Invoke for: "create a narrative island", "prep [location] as a sandbox node", "create
   a portable scenario around [entity]", "design an island I can drop anywhere", "make a
-  self-contained adventure site", "prep [thing] as an island". Islands contain situations
-  — if the content is a single condition with a clock, use prep-situation instead.
-  Always loads sandbox-narrative for anti-railroading review.
+  self-contained adventure site", "prep [thing] as an island". A narrative island is a
+  PLOT DEVICE (a portable scenario cluster), not a geographic landmass — for an actual
+  island place (a real landmass like Calder's Tooth) use prep-location instead. Narrative
+  islands contain situations — if the content is a single condition with a clock, use
+  prep-situation instead. Always loads sandbox-narrative for anti-railroading review.
 ---
 
 > Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
@@ -16,7 +18,12 @@ description: >
 
 Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
 
-Domain-specific: **Is this actually an island?** A single condition with one clock is a situation (`prep-situation`). An island is a *cluster* of interconnected situations, NPCs, and locations with a coherent premise. If in doubt, start with a situation — islands can grow from them.
+Domain-specific: **Is this actually a narrative island?** Two things this is NOT, because the word "island" is overloaded:
+
+- **A geographic island** (an actual landmass in the world — Calder's Tooth, Aldenmere) is a *place*. Use `prep-location`; it files under `wiki/entities/places/islands/` as `type: entity`. A narrative island is a *plot device*, not a place — it can sit on a ship, in a city quarter, anywhere.
+- **A single condition with one clock** is a situation (`prep-situation`).
+
+A narrative island is a *portable cluster* of interconnected situations, NPCs, and locations with a coherent premise — it lives in `wiki/narrative-islands/` with `type: narrative-island`. If in doubt, start with a situation; islands can grow from them.
 
 ---
 
@@ -62,7 +69,7 @@ Load `sandbox-narrative` for anti-railroading review of all content.
 
 ## Filing
 
-- Island file: `wiki/islands/{slug}.md` (or `wiki/entities/places/islands/{slug}.md`)
+- Narrative-island file: `wiki/narrative-islands/{slug}.md`, `type: narrative-island`
 - Add to `wiki/index.md`
 - Add reciprocal links to all contained situations, NPCs, and locations
 

@@ -55,20 +55,25 @@ python3 .claude/scripts/check_ingest.py
 ```
 
 It prints one repo-relative path per source that still needs ingesting — every file in
-`Inbox/` whose exact content (by hash) is not yet stored anywhere in `.raw/`. **No paths
-printed means the queue is empty and you are done** (it also says `queue clear` on stderr).
-Paths mean those files still need work. The command is read-only — safe to run any time,
-including just to check status; `--count` prints only the number, for scan mode.
+`Inbox/` whose exact content (by hash) is not yet stored anywhere in `.raw/`. It also
+deduplicates `Inbox/` automatically and safely on each run:
+
+- If an `Inbox/` file is an exact byte-for-byte match for something already in `.raw/`, it is
+  removed because that source was already archived.
+- If multiple `Inbox/` files have the same exact content and none is in `.raw/`, it keeps one
+  deterministic pending source and removes the extra copies.
+
+**No paths printed means the queue is empty and you are done** (it also says `queue clear` on
+stderr). Paths mean those files still need work. `--count` prints only the number, for scan mode.
+Use `--dry-run` to preview duplicate removals without deleting; use `--no-dedupe` only when you
+explicitly need a diagnostic read without cleanup.
 
 You never need to know what was already ingested, only what remains. The filesystem is the
 source of truth: there is no registry to read, reconcile, or trust, because archiving a
 finished source (step 6) moves it from `Inbox/` into `.raw/`, and that move is exactly what
 removes it from the next run. Ingest fully, archive, and the source disappears from the list.
-That is the entire mechanism.
-
-(If a stray `Inbox/` file ever duplicates something already in `.raw/`, the script flags it and
-`check_ingest.py --prune` removes it. That's a manual tidy, not part of the loop — normal archiving
-already moves files out of `Inbox/`, so you won't need it in a routine run.)
+Stray duplicates are cleaned during the same queue check, so the loop does not accumulate
+manual tidy work.
 
 ### Work one source at a time
 

@@ -228,3 +228,5 @@ sources: []
 - 2026-05-28 ingest: Colla — new minor NPC page; Rattkin apothecary, The Splint
 - 2026-05-28 ingest: Cotter-Foss — upgraded stub to full NPC page; halfling manager of Nimmik Vollask
 - 2026-05-28 ingest: Dario-Vanni — upgraded stub to full NPC page; tortle, Acqua Nera
+- 2026-05-28 ingest: Enzo — merged statblock + session-03 canon; fixed content/ links
+- 2026-05-28 ingest: Ettore-Lupo — upgraded stub to full NPC page; Casa Lupo proprietor

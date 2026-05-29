@@ -76,8 +76,8 @@ sources: []
 - [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
 - [[dario|Dario Vanni]] — Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
-- [[enzo|Enzo]] — [stub] Nona Black-Jaw's enforcer in Calveno. Present in the Le Paludi kitchen. Ordered to console the Vestra's crew and to call off the attacks on Perrin.
-- [[ettore|Ettore]] — [stub] Stub — Casa Lupo proprietor in Calveno; remembers purchases across decades; decides whether strangers deserve a direction.
+- [[enzo|Enzo]] — Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak.
+- [[ettore|Ettore Lupo]] — Proprietor of Casa Lupo in Calveno's Le Paludi district. Seventy-something, prices everything from memory, moves with the energy conservation of someone who has decided he's already moved enough.
 - [[ferrin-locke|Ferrin Locke]] — [stub] Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found.
 - [[giacinto|Giacinto]] — [stub] Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells beret-and-moustache kits that read as 'performer' to Calveno crowds; key to Jean-Claude blending in.
 - [[giacomo-moretti|Giacomo Moretti]] — [stub] Stub — Moretti & Sons chandler in Calveno; unbroken twenty-year Il Gioco delle Beffe Accord record; the committee finds this professionally embarrassing.

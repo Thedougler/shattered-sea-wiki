@@ -15,10 +15,6 @@ species: human
 pronouns: she/her
 banner: raw/assets/banners/Alys-Kuiper.webp
 portrait: raw/assets/portraits/Alys-Kuiper.webp
-relationships:
-  - "[[hcs-surety|HCS Surety]] — former posting"
-  - "[[barnaby-rook|Barnaby Rook]] — former commanding officer"
-  - "[[shepherd-grigori|Shepherd Grigori]] — attributed credit for the Murrat casualties surviving"
 roleplay: "The medical professional who discusses clinical supply, triage, and recovery with the same warmth others use for the weather, and genuinely cannot tell why that's unsettling."
 ---
 

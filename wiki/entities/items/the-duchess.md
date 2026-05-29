@@ -1,23 +1,52 @@
 ---
+title: The Duchess
 type: entity
 subtype: item
+item_type: weapon
+rarity: common
+publish: true
 campaign: shattered-sea
-status: stub
-audience: dm
-publish: false
-summary: "Delmar Fisk's musket. He calls her his wife."
-created: 2026-05-27
-updated: 2026-05-27
-tags: [stub, item, weapon, firearm]
-sources: ["Inbox/Delmar-Fisk.md"]
-confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — owner"
+audience: players
+status: active
+confidence_level: high
+requires_attunement: false
+current_holder: "[[delmar-fisk|Delmar Fisk]]"
+tags: [item, weapon, ranged, firearm, homebrew]
+sources:
+  - "D&D 2024 PHB"
+  - Homebrew
+summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
 ---
 
 # The Duchess
 
-[[delmar-fisk|Delmar Fisk]]'s musket. He refers to her as his wife.
+*Musket · Delmar Fisk's*
 
-> [!dm]
-> Stub. No mechanical details beyond standard musket yet — expand if she gets narrative focus.
+A well-maintained musket with a long walnut stock, worn smooth at the grip from years of use. Carried across [[delmar-fisk|Delmar's]] back. Named after his wife, [[serafina-windfall-fisk|Serafina]].
+
+## Properties
+
+| Stat | Value |
+|---|---|
+| Damage | 1d12 piercing |
+| Range | 40 / 120 ft |
+| Properties | Ammunition, Heavy, Loading, Two-Handed |
+| Ammo cost | 1 gp per 20 shots |
+
+**Misfire.** On a natural 1 to hit, the weapon misfires and cannot be fired again until cleared (Action).
+
+**Loud.** Report carries up to 300 feet. Stealth advantage before the shot is lost even on a miss.
+
+**Powder and Ball.** Must stay dry. Full submersion: automatic misfire on next shot. In steady rain: DC 14 Dexterity check before each shot.
+
+## History
+
+Delmar prefers talking his way out of trouble. When that fails, the rapier ([[the-baroness|the Baroness]]) comes first. When the rapier isn't enough, the Duchess comes off his back. The order matters to him.
+
+He named it after Serafina because she was not aboard the *Red Lady* when it went down. The musket is the thing he carries that she didn't lose.
+
+## Connections
+
+- [[delmar-fisk|Delmar Fisk]] — owner
+- [[serafina-windfall-fisk|Serafina Windfall Fisk]] — namesake
+- [[the-baroness|The Baroness]] — Delmar's rapier

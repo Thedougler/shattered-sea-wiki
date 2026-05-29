@@ -163,6 +163,7 @@ sources: []
 - [[ormssons-fittings|Ormsson's Fittings]] — An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise.
 - [[shelf-instrument-dealer|The Shelf Instrument Dealer]] — Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance.
 - [[south-harbour-impound|South Harbour Impound]] — A roped-off section of the South Harbour east pier — chain, hand-lettered Crown notice, a clerk's hut with a lamp in it, and several vessels sitting in their berths going nowhere.
+- [[tessarine-trade-house|Tessarine Trade House — Port Tidefall]] — The Tessarine Concordat's commercial office on the Shelf — trade licensing, contract brokerage, and a clerk who prefers paperwork to people.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
@@ -413,8 +414,9 @@ sources: []
 - [[surgical-consultation|Surgical Consultation]] — A professional assessment of a serious injury and a supply list for a ship's surgeon to operate — 2 gp, the apothecary does not operate herself.
 - [[tanglefoot-compound|Tanglefoot Compound]] — An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place.
 - [[tar|Tar]] — Hull caulking tar — seals seams, coats rope, and keeps water where it belongs.
-- [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
-- [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
+- [[the-baroness|The Baroness]] — Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip.
+- [[the-drowned-keel|The Drowned Keel]] — A legendary Antheri salvage modification enabling controlled temporary submersion — takes the ship to 60 feet and keeps the crew breathing for two hours per day.
+- [[the-duchess|The Duchess]] — Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
 - [[truth-stone|Truth Stone]] — Stone that compels truth. Beaumont slid it to Jean-Claude; Jean-Claude used it and confirmed three facts about himself.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
@@ -446,6 +448,7 @@ sources: []
 - [[saltwright|The Saltwright]] — A hard-used two-masted merchant brig captained by Beaumont Sel, working the Midchain cargo run — home port Kalowe.
 - [[tessarine-amberreach|Tessarine Factor *Amberreach*]] — The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry.
 - [[tessarine-silkvane|Tessarine Courier *Silkvane*]] — A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels.
+- [[the-bad-receipt|The *Bad Receipt*]] — A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo.
 - [[the-narrow|The *Narrow*]] — Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
@@ -542,6 +545,7 @@ sources: []
 - [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
+- [[party-crew|Party Crew]] — Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.
 

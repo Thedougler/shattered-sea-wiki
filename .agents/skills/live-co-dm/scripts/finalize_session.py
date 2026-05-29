@@ -22,17 +22,28 @@ import sys
 
 
 def _read_wavs_concatenated(audio_dir: str) -> tuple[list[float], int]:  # pragma: no cover
-    """Concatenate every wav in ``audio_dir`` (sorted) into one float list."""
+    """Rebuild the session timeline from chunk wavs, preserving silent gaps."""
     from audio_file import read_wav
+    from session_paths import chunk_audio_start_ms
 
     samples: list[float] = []
-    sample_rate = 16000
+    sample_rate: int | None = None
     for name in sorted(os.listdir(audio_dir)):
         if not name.endswith(".wav"):
             continue
-        chunk, sample_rate = read_wav(os.path.join(audio_dir, name))
+        start_ms = chunk_audio_start_ms(name)
+        chunk, rate = read_wav(os.path.join(audio_dir, name))
+        if sample_rate is None:
+            sample_rate = rate
+        elif rate != sample_rate:
+            raise ValueError(f"Mixed sample rates in {audio_dir}: {sample_rate} vs {rate}")
+        start_i = (start_ms * sample_rate) // 1000
+        if start_i < len(samples):
+            raise ValueError(f"Overlapping or out-of-order chunk timeline in {audio_dir}: {name}")
+        if start_i > len(samples):
+            samples.extend([0.0] * (start_i - len(samples)))
         samples.extend(chunk)
-    return samples, sample_rate
+    return samples, sample_rate or 16000
 
 
 def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI/ML wiring
@@ -63,7 +74,11 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI/ML wir
         sys.stderr.write(f"Finalization needs the ML stack (install requirements.txt): {exc}\n")
         return 1
 
-    samples, sample_rate = _read_wavs_concatenated(paths.audio_dir)
+    try:
+        samples, sample_rate = _read_wavs_concatenated(paths.audio_dir)
+    except ValueError as exc:
+        sys.stderr.write(f"{exc}\n")
+        return 1
     profiles_dir = args.profiles_dir or os.path.join(os.path.dirname(__file__), os.pardir, "profiles")
     enrolled = ProfileStore(profiles_dir).load_all()
     auth = os.environ.get("HF_TOKEN")

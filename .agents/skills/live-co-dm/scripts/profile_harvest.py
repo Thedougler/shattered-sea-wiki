@@ -29,17 +29,29 @@ def _slice(samples: list[float], sample_rate: int, start_s: float, end_s: float)
 
 
 def _read_audio_dir(audio_dir: str) -> tuple[list[float], int]:
+    from session_paths import chunk_audio_start_ms
+
     samples: list[float] = []
-    sample_rate = 16000
+    sample_rate: int | None = None
     for name in sorted(os.listdir(audio_dir)):
         if not name.endswith(".wav"):
             continue
         try:
-            chunk, sample_rate = audio_file.read_wav(os.path.join(audio_dir, name))
+            start_ms = chunk_audio_start_ms(name)
+            chunk, rate = audio_file.read_wav(os.path.join(audio_dir, name))
         except Exception:
             continue
+        if sample_rate is None:
+            sample_rate = rate
+        elif rate != sample_rate:
+            return [], sample_rate
+        start_i = (start_ms * sample_rate) // 1000
+        if start_i < len(samples):
+            return [], sample_rate
+        if start_i > len(samples):
+            samples.extend([0.0] * (start_i - len(samples)))
         samples.extend(chunk)
-    return samples, sample_rate
+    return samples, sample_rate or 16000
 
 
 def harvest_embeddings(

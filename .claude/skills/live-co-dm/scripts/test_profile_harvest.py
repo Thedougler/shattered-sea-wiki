@@ -104,6 +104,51 @@ class HarvestTests(unittest.TestCase):
             )
             self.assertEqual(embs, [])
 
+    def test_gap_between_chunks_is_padded_before_slicing(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            audio_dir = os.path.join(tmp, "audio")
+            transcript = os.path.join(tmp, "session-04-transcript.md")
+            os.makedirs(audio_dir, exist_ok=True)
+            audio_file.write_wav(os.path.join(audio_dir, "0001_00h00m00s.wav"), [0.1] * 2000, 1000)
+            audio_file.write_wav(os.path.join(audio_dir, "0002_00h00m05s.wav"), [0.9] * 2000, 1000)
+            with open(transcript, "w") as fh:
+                fh.write(
+                    "# Session 04 — Live Transcript\n\nStarted: x\n\n"
+                    "**Delmar** (Ben) [00:05]: hold fast and steady now\n"
+                )
+            embs = ph.harvest_embeddings(
+                transcript_paths=[transcript],
+                audio_dirs=[audio_dir],
+                character="Delmar",
+                embedder=ContentEmbedder(),
+                min_seconds=1.0,
+                max_span_s=30.0,
+            )
+            self.assertEqual(len(embs), 1)
+            self.assertAlmostEqual(embs[0][1], 0.9, places=1)
+
+    def test_mixed_sample_rates_skip_session(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            audio_dir = os.path.join(tmp, "audio")
+            transcript = os.path.join(tmp, "session-04-transcript.md")
+            os.makedirs(audio_dir, exist_ok=True)
+            audio_file.write_wav(os.path.join(audio_dir, "0001_00h00m00s.wav"), [0.1] * 1000, 1000)
+            audio_file.write_wav(os.path.join(audio_dir, "0002_00h00m01s.wav"), [0.9] * 800, 800)
+            with open(transcript, "w") as fh:
+                fh.write(
+                    "# Session 04 — Live Transcript\n\nStarted: x\n\n"
+                    "**Delmar** (Ben) [00:00]: hold fast and steady now\n"
+                )
+            embs = ph.harvest_embeddings(
+                transcript_paths=[transcript],
+                audio_dirs=[audio_dir],
+                character="Delmar",
+                embedder=ContentEmbedder(),
+                min_seconds=0.1,
+                max_span_s=30.0,
+            )
+            self.assertEqual(embs, [])
+
 
 if __name__ == "__main__":
     unittest.main()

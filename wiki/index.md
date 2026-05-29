@@ -143,6 +143,7 @@ sources: []
 - [[the-splint|The Splint]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
 
 ## entities/factions
+- [[beaumonts-crew|Beaumont's Crew]] — The four working hirelings crewing the Saltwright under Captain Beaumont Sel — navigator, bosun, cook, and ordinary sailor.
 - [[black-jaw-run|The Black-Jaw Run]] — Rattkin Run anchored at the Warren beneath Calveno, led by Nona Black-Jaw. Smugglers, forgers, fugitive shelters, message-runners, community defense, and underground bank.
 - [[chain-council|Chain Council]] — Rarely assembled Midchain council convening in Kalowe when independent islands face problems too large for one island. It also controls Kalowe dry dock access and built Fisk's fleet under commission.
 - [[dravosi-crown|Dravosi Crown]] — Naval/imperial Crown power operating in the Shattered Sea. Sent Barnaby Rook and a boarding crew against the Saltwright in Session 01. Receiving Grung-made toxin supply from an unknown source.

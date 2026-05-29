@@ -266,8 +266,41 @@ sources: []
 - [[hot|hot.md — Updated 2026-05-28]] — Current world state, open threads, faction clocks, and predictions. Read first, always.
 
 ## entities/creatures
+- [[ancient-dragon-turtle|Ancient Dragon Turtle]] — CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea resets to 350 HP and activates mythic actions. Hunts the Drowned Maw and Outer Reach.
+- [[ancient-sea-serpent|Ancient Sea Serpent]] — CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes.
+- [[animated-armor|Animated Armor]] — CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks.
+- [[animated-rug-of-smothering|Animated Rug of Smothering]] — CR 2 construct. Grapples and suffocates one Medium or smaller creature; halves damage taken while grappling.
+- [[apotheosis|Apotheosis]] — CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die.
+- [[arclight-phoenix|Arclight Phoenix]] — CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall.
 - [[barnaby-rook|Captain Barnaby Rook — Stat Block]] — CR 3 Dravosi Crown privateer captain. Boarding specialist with Parry reaction, legendary actions, and lair actions aboard the HCS Surety. Phase 3 boss of the Saltwright encounter.
+- [[blight|Blight]] — Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
+- [[covenant|Covenant]] — CR 20 undead lich. Warlock lich whose phylacteries are signed pact contracts — it reforms as long as any pact-holder still lives.
+- [[death-march|Death March]] — CR 20 undead lich. Fighter lich whose phylacteries are the undead corpses of warriors it has slain and conscripted — it must keep hunting worthy opponents to replace decaying anchors.
+- [[dragon-turtle|Dragon Turtle]] — CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown.
+- [[dragon-turtle-wyrmling|Dragon Turtle Wyrmling]] — CR 4 dragon. Large amphibious; single Bite attack, 15-ft Steam Breath cone. Sighted around Meth-Var and the Sunken Crown.
+- [[dravosi-alchemist|Dravosi Alchemist — Stat Block]] — A Dravosi Crown support officer who turns shipboard supplies, medicinals, and weaponized compounds into tactical leverage.
+- [[dravosi-deckhand|Dravosi Deckhand — Stat Block]] — A young Dravosi patrol sailor trained for inspections, boarding duties, alarms, and buying time for heavier Crown response.
+- [[dravosi-enforcer|Dravosi Enforcer — Stat Block]] — A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
+- [[forsworn|Forsworn]] — CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
+- [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
+- [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
+- [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
+- [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.
 - [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
+- [[moucheron|Moucheron]] — CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on blood. Pays negotiated in bloodletting. Highly social when fed, vicious when starved. Active on Murrat; hires out of Kalowe.
+- [[necromaton|Necromaton]] — CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated.
+- [[pirate|Pirate]] — CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
+- [[pirate-admiral|Pirate Admiral]] — CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction.
+- [[pirate-captain|Pirate Captain]] — CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction.
+- [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
+- [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.
+- [[sawek|Sawek (Blue Devil)]] — CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair.
+- [[skulldugger|Skulldugger]] — CR 21 undead lich. Rogue lich that achieves undeath by stealing another lich's ritual — parasitizes spirit jars from other liches. Hated by all undead as a natural predator.
+- [[soul-incarnate|Soul Incarnate]] — CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal.
+- [[unfamiliar|Unfamiliar]] — CR 5 monstrosity. Designed to hunt familiars and their summoners — its attacks trigger random uncontrolled spell effects, and it instinctively targets anyone who has ever bonded with a familiar.
+- [[whip-shark|Whip Shark (Welak)]] — CR 6 monstrosity. Huge aquatic predator with a barbed tail that can hook ship hulls. Kalowe fishermen call it the Welak. Encountered in Session 03 — a 60-foot specimen attacked the Uncertainty west of Calveno.
+- [[young-dragon-turtle|Young Dragon Turtle]] — CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.
+- [[young-sea-serpent|Young Sea Serpent]] — CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach.
 
 ## situations/islands
 - [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.

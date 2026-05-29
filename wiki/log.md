@@ -208,3 +208,4 @@ sources: []
 - CREATE: `wiki/entities/vehicles/brass-cat.md` — DaVirelli's experimental submersible; full stats and capabilities
 - CREATE: `wiki/lore/campaign-overview.md` — player-facing setting reference; geography, powers, faith, peoples
 - CREATE: `wiki/system/lines-and-veils.md` — safety reference for agent content generation
+- [[alys-kuiper|Alys Kuiper]] — crew surgeon, *Uncertainty*; recruited from HCS Surety. Session 02.

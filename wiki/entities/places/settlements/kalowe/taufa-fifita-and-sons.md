@@ -1,25 +1,66 @@
 ---
+title: Taufa Fifita & Sons
 type: entity
-subtype: location
-campaign: shattered-sea
-status: stub
-audience: players
+subtype: place
+building_type: chandlery
 publish: true
-summary: "Primary chandlery on Kalowe — run by Taufa Fifita and his sons; family also operates Fifita's Slip on the lagoon side."
-created: 2026-05-28
-updated: 2026-05-28
-tags: [location, kalowe, chandlery]
-sources: ["Inbox/Taufa-Fifita.md"]
+campaign: shattered-sea
+audience: players
+status: active
+confidence_level: medium
+tags: [place, building, kalowe, chandlery, trade]
+sources: ["Inbox/Taufa-Fifita.md", "Inbox/Taufa-Fifita-and-Sons.md"]
+aliases:
+  - Fifita Trading House
+  - Fifita Chandlery
+district: Second Island, main causeway
+summary: "The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else."
+parent_location: "[[kalowe|Kalowe]]"
 ---
 
 # Taufa Fifita & Sons
 
-|              |                                        |
-| ------------ | -------------------------------------- |
-| **Location** | [[kalowe|Kalowe]], second island       |
-| **Operator** | [[taufa-fifita|Taufa Fifita]]          |
+![[Taufa-Fifita.webp|Taufa Fifita, Kalowe chandler and head of the Fifita trading family]]
 
-> [!dm]
-> Stub. Expand with stock list and connection to Fifita's Slip before use at table.
+| | |
+|---|---|
+| **Location** | [[kalowe|Kalowe]], second island, main causeway |
+| **Operator** | [[taufa-fifita|Taufa Fifita]] |
+| **Access** | Open; walk-in trade welcome |
 
-Kalowe's primary chandlery. Taufa Fifita and two sons. The family also runs [[fifitas-slip|Fifita's Slip]] — this is not discussed at the counter.
+The Fifita family chandlery sits three buildings back from the water, identifiable by coils of hempen rope hanging from the eaves and the smell of tar and linseed oil that the stone walls have absorbed over two generations. Kalowe's primary supplier of nautical stores. The family also runs [[fifitas-slip|Fifita's Slip]] on the lagoon side — not discussed at the counter.
+
+## Proprietor
+
+**[[taufa-fifita|Taufa Fifita]]** — Sixties, grey-green scaled, unhurried. Lizardfolk flat affect works in his favour: no unnecessary questions, no visible reaction to the answers. Knows every ship that has bought rope from him in the last decade and what they used it for in general terms. Does not ask about specific terms. If a customer wants something he does not stock, he will tell them who might have it — once — without elaboration.
+
+*Roleplay: family patriarch who survived in Kalowe by being useful and forgettable to people with power on both sides of the ledger.*
+
+> *"Hempen or tarred? How many fathoms?"*
+> *"I don't keep a book on what people carry out. Just what I sell."*
+
+## Stock
+
+| Price | Item |
+|---|---|
+| 1 gp | [[hempen-rope\|Hemp rope (50 ft)]] |
+| 2 sp | Hemp rope (per 10 ft, cut to length) |
+| 1 gp | [[block-and-tackle\|Block and tackle]] |
+| 6 sp/yd | [[sail-canvas\|Sailcloth]] |
+| 1 sp | [[lamp-oil\|Lamp oil, flask]] |
+| 6 sp | Lamp oil, gallon jug |
+| 2 gp | [[tar\|Tar, small keg]] |
+| 5 gp | [[hooded-lantern\|Lantern, hooded]] |
+| 11 gp | [[bullseye-lantern\|Lantern, bullseye]] |
+| 50 gp | [[compass\|Compass]] |
+| 8 gp | Nautical charts, local Midchain |
+| 1,100 gp | [[spyglass\|Spyglass]] |
+| 2 gp | [[crowbar\|Crowbar]] |
+| 5 sp | [[tinderbox\|Tinderbox]] |
+| 2 cp | [[candles\|Candles (10)]] |
+
+## See Also
+
+- [[kalowe|Kalowe]]
+- [[fifitas-slip|Fifita's Slip]] — lagoon-side; not discussed at counter
+- [[the-flat-water|The Flat Water]]

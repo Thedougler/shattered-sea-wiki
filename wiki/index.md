@@ -214,12 +214,12 @@ sources: []
 - [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
 
 ## entities/places/settlements/kalowe
-- [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — [stub] Primary chandlery on Kalowe — run by Taufa Fifita and his sons; family also operates Fifita's Slip on the lagoon side.
+- [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
 
 ## entities/places/settlements/warren
 - [[low-lamp|Low Lamp]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
 - [[marrows|Marrow's]] — A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
-- [[tangle-chambers|Tangle Chambers]] — [stub] Stub — Warren sub-location; referenced as a destination and lead in Nona's table scene and the Grung sewers.
+- [[tangle-chambers|The Tangle Chambers]] — The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held.
 - [[the-splint|The Splint]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
 
 ## entities/factions
@@ -411,6 +411,8 @@ sources: []
 - [[splint-and-wrap|Splint and Wrap]] — A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it.
 - [[spyglass|Spyglass]] — A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it.
 - [[surgical-consultation|Surgical Consultation]] — A professional assessment of a serious injury and a supply list for a ship's surgeon to operate — 2 gp, the apothecary does not operate herself.
+- [[tanglefoot-compound|Tanglefoot Compound]] — An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place.
+- [[tar|Tar]] — Hull caulking tar — seals seams, coats rope, and keeps water where it belongs.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -442,6 +444,8 @@ sources: []
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 - [[saltwright|The Saltwright]] — A hard-used two-masted merchant brig captained by Beaumont Sel, working the Midchain cargo run — home port Kalowe.
+- [[tessarine-amberreach|Tessarine Factor *Amberreach*]] — The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry.
+- [[tessarine-silkvane|Tessarine Courier *Silkvane*]] — A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels.
 - [[the-narrow|The *Narrow*]] — Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
 - [[uncertainty|Uncertainty]] — Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.

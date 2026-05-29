@@ -1,0 +1,25 @@
+---
+title: Tanglefoot Compound
+type: entity
+subtype: item
+item_type: consumable
+rarity: uncommon
+publish: true
+campaign: shattered-sea
+audience: players
+status: active
+confidence_level: medium
+attunement: false
+homebrew: true
+tags: [item, consumable, alchemical, calveno, homebrew]
+sources:
+  - Homebrew
+summary: "An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place."
+---
+
+# Tanglefoot Compound
+
+A sticky alchemical paste in a sealed jar. When thrown, it spreads across a 5-foot area and sets to a thick adhesive layer in one round. Sold exclusively by Studio Orsini in [[calveno|Calveno]].
+
+> [!mechanic]
+> Thrown at a point within 20 feet (Attack roll vs AC 10). Creatures in the 5-ft area make DC 13 Dex save or are Restrained until they succeed on a DC 13 Strength check (Action). Sets in 6 seconds.

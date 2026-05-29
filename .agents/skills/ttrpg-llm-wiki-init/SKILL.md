@@ -84,7 +84,7 @@ the write hook, not by you — see `doctrine.md`.
 [ ] 13. wiki/index.md — regenerate deterministically (see below)
 ```
 
-Count pending sources (read-only):
+Count pending sources (also safely removes exact duplicate Inbox files):
 ```bash
 python3 .claude/scripts/check_ingest.py --count
 ```
@@ -107,11 +107,25 @@ python3 .claude/scripts/regen_index.py --write
 If `git status` shows the index changed, commit `curation: index.md regenerated`. That's the
 whole check — no manual scanning or diffing.
 
+### Check 15 — Lint & DM Review Queue (Surface, Don't Grind)
+
+Run the linter to surface vault health — it's the engine, don't hand-check files:
+```bash
+python3 .claude/scripts/wiki_lint.py --summary    # one line: errors · warnings · quality
+```
+If there are **errors**, regenerate the persistent DM queue and point the DM at it — these are
+decisions that must not be forgotten:
+```bash
+python3 .claude/scripts/wiki_lint.py --report     # refreshes wiki/dm/review-queue.md
+```
+Surface the open-decision count in the health line below. Do **not** silently grind the whole
+backlog at session start — route deliberate cleanup through `ttrpg-wiki-lint`.
+
 ### Health Summary Output
 
-After completing all 14 checks, output **exactly one line** before routing:
+After completing all 15 checks, output **exactly one line** before routing:
 ```
-WIKI HEALTH: OK | {N} issues found and fixed | {N} flags for DM | Last session: {one-line from git log}
+WIKI HEALTH: OK | {N} issues found and fixed | {N} DM decisions open (wiki/dm/review-queue.md) | Last session: {one-line from git log}
 ```
 
 ---
@@ -164,7 +178,9 @@ VAULT_ROOT/
     ├── entities/ characters/pcs/ npcs/ crew/ minor/
     │            places/  factions/  deities/  items/  vehicles/
     ├── situations/ active/  dormant/  resolved/
-    ├── islands/  lore/  rules/  sessions/
+    ├── narrative-islands/   (portable plot-device clusters — NOT geographic islands,
+    │                         which are places under entities/places/islands/)
+    ├── lore/  rules/  sessions/
 ```
 
 Log: `INIT: vault scaffolded for campaign {name} — {N} directories, {N} files created`

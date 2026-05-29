@@ -178,6 +178,7 @@ sources: []
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 
 ## entities/vehicles
+- [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.
 - [[fernen|Fernen]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
@@ -187,7 +188,7 @@ sources: []
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
-- [[red-lady|Red Lady]] — Flagship of Delmar Fisk's five-ship fleet. Went down at the Drowned Maw after the Pearl of Souls theft; Crissdalynn and Delmar were the only survivors.
+- [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 - [[saltwright|Saltwright]] — Old grey-brown two-masted merchant brig. Dark, close-quarters hold smelling of bilge water and shrimp. Currently in party possession after the Session 01 boarding.
 - [[the-narrow|The Narrow]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[the-quorum|The Quorum]] — The Chain Council's dispatch sloop, built at Kalowe and kept as the closest thing the Chain has to an official presence on the water.
@@ -240,6 +241,7 @@ sources: []
 
 ## lore
 - [[antheri|The Antheri]] — Ancient aquatic civilization that built upward from the bottom of the Drowned Maw around a planar fissure. Their city, biomancy, soul-pledge technology, and disappearance all remain active archaeology threads.
+- [[campaign-overview|Campaign Overview]] — Dense reference overview of the Shattered Sea campaign — geography, powers, religion, starting situation, and the edges of the map. Player-facing.
 - [[campaign-timeline|Campaign Timeline]] — Canonical chronology for Shattered Sea pre-campaign history and early sessions. Anchors the Antheri, Drowned Maw, Fisk fleet disaster, Perrin's shipwreck, and Session 01 sequence.
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]] — Calveno's five-day prank festival. Teams execute elaborate public hoaxes on willing marks during a three-day window, then reveal authorship with a registered team symbol.
 - [[moucheron|Moucheron]] — Pigeon-sized sentient humanoid mosquito native to Murrat. Ket was captured by Rook; the Five Blades are the most visible integrated Moucheron presence in Kalowe.
@@ -263,6 +265,7 @@ sources: []
 
 ## system
 - [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
+- [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.

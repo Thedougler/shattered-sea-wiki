@@ -51,7 +51,7 @@ sources: []
 - [[rael-corven|Rael Corven]] — Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
 - [[rupert-knighton|Commodore Rupert Knighton]] — [DM-only] Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
 - [[serafina-windfall-fisk|Serafina Windfall Fisk]] — Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter.
-- [[shepherd-grigori|Shepherd Grigori]] — Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks.
+- [[shepherd-grigori|Shepherd Grigori]] — A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks.
 - [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen in Fisk's Fleet. Methodical, careful, route-wise, and one of the five souls pressed into Delmar Fisk.
 - [[simone-tabarnack|Simone Tabarnack]] — [DM-only] Jean-Claude's younger sister. Purple-and-gold Grung warlord-tier soldier; betrayed Jean-Claude and Pell; leads Sorn's garrison and supplies toxin tied to the Dravosi Crown.
 - [[suke|Suke]] — Newest Moucheron member of the Five Blades. Quiet, watchful, and still adjusting from Murrat to Kalowe contract work.
@@ -140,7 +140,7 @@ sources: []
 - [[orak|Orak]] — The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way.
 - [[oshas-slip|Osha's Slip]] — A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit.
-- [[shelfworks|Shelfworks]] — [stub] Area above the Antheri Ruins where Catarina DaVirelli salvaged functional components in 1488 DR, triggering the Shelfworks Goldrush.
+- [[shelfworks|The Shelfworks]] — Open-water Antheri salvage field on the western shelf of the Drowned Maw, where clear shallow ruins promise impossible materials before the seabed drops into black water.
 - [[sorn|Sorn]] — [stub] Grung site or garrison Jean-Claude fled from. Simone leads Sorn's garrison and a hunter unit tracking deserters.
 - [[sunken-crown|Sunken Crown]] — [stub] Region containing Vel Orn and the Blue Shrine where Fisk's fleet stole the Pearl of Souls.
 - [[tail|The Tail]] — [stub] Stub — western staging region nearest to the Drowned Maw crossing approach.
@@ -161,7 +161,7 @@ sources: []
 - [[inspection-pier|The Inspection Pier]] — Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper.
 - [[kalowe-waveservant-shrine|Waveservant Shrine — Kalowe]] — Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything.
 - [[ormssons-fittings|Ormsson's Fittings]] — An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise.
-- [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
+- [[shelf-instrument-dealer|The Shelf Instrument Dealer]] — Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
@@ -182,7 +182,7 @@ sources: []
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
-- [[shattered-sea|The Shattered Sea]] — [stub] The campaign's setting: an archipelago in two main arcs separated by a wide channel.
+- [[shattered-sea|The Shattered Sea]] — The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda.
 
 ## entities/places/settlements
 - [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
@@ -496,6 +496,8 @@ sources: []
 - [[chart-archive|Chart Archive]] —
 - [[crew-berths|Crew Berths]] —
 - [[expanded-cargo-hold|Expanded Cargo Hold]] — Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
+- [[ship-bastion|Ship Bastion — The Shattered Sea]] — Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits.
+- [[ship-combat|Ship Combat]] — Rules for ship's guns, broadsides, shot types, and multi-deck volleys — expands the 2024 DMG vehicle rules.
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

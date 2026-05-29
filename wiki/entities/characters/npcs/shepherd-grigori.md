@@ -3,51 +3,73 @@ type: entity
 subtype: npc
 campaign: shattered-sea
 status: active
-audience: dm
-publish: false
-summary: "Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks."
+audience: players
+publish: true
+species: human
+summary: "A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [npc, human, tessarine, crew]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Khlysty.md"]
+tags: [npc, human, healer, recurring]
+sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Khlysty.md", "Inbox/Shepherd-Grigori.md"]
 confidence_level: observed
-relationships:
-  - "[[tessarine-concordat|Tessarine Concordat]] — origin"
-  - "[[dravosi-crown|Dravosi Crown]] — former employer (involuntary?)"
-  - "[[calveno|Calveno]] — destination"
-  - "[[rupert-knighton|Rupert Knighton]] — warned party about him"
-  - "[[ket|Ket]] — was glad to see him freed"
-  - "[[khlysty|The Khlysty]] — shepherd, Korabl, undead source"
+roleplay_prompt: "Wandering miracle worker who appears exactly when the nobility need him — warm, deliberate, genuinely curious, and impossible to kill by all accounts."
+aliases:
+  - Shepherd Grigori
+  - Grigori
 ---
 
 # Shepherd Grigori
 
-**Quote:** *"Anyone who wants off at the next port walks free."*
+| | |
+|---|---|
+| **Role** | Wandering holy man; miracle worker to the desperate nobility |
+| **Location** | Currently ashore in [[calveno|Calveno]]; no fixed port |
 
-Dark wild hair. Tessarine shirt under a Dravosi naval coat rolled to the elbows. Waited at the head of the galley table like the ship was already his problem to manage. The galley smelled wrong for a ship — bread, herbs, something on a low heat.
+> *"Anyone who wants off at the next port walks free."*
 
-Asked what kind of pirates they were before offering anything. Extracted conditions: no trafficking, no cannibalism. Near enough.
+## Overview
 
-Knows [[rupert-knighton|Rupert Knighton]] will send ships in response to [[capn-gorgeous|Cap'n Gorgeous]]'s death.
+Shepherd Grigori is a miracle worker — the story is consistent across the noble courts of the Crown Islands. A holy man who appeared from nowhere and started curing noble heirs of things that shouldn't be curable. Red and gold coat, glass of wine, always a guest on someone else's ship.
 
-Was glad when [[ket|Ket]] was freed.
+He is said to be impossible to kill. Poison. Drowning. Worse. He survives. The nobility who have benefited from his cures don't tend to ask how.
 
-**Roleplaying:**
-- Calm, practical, slightly sardonic. Runs a galley the way a diplomat runs a meeting.
-- Volunteered information only after assessing who he was dealing with.
-- Not loyal to Rook — survived him. Not necessarily loyal to the party either.
+## Appearance & Manner
 
-**Proactive Objectives:**
-- Get to [[calveno|Calveno]].
-- Find [[il-gioco-delle-beffe|Il Gioco delle Beffe]] — whatever that is.
+Rugged, imposing frame. Dark flowing hair, untamed beard, unnerving hypnotic gaze. Opulent red and gold coats. Usually seen with a glass of fine wine.
 
-## Session Events
+His presence fills a room. Warm, deliberate, genuinely curious about people. He asks good questions and listens to the answers. Calm and practical — runs a galley the way a diplomat runs a meeting.
 
-- **Session 03:** Healed Jean-Claude's chest wound mid-combat — red viscous light from his wrist, no words, no somatic components, no incantation. Flesh knit perfectly, silently. Perrin rolled Arcana 18 and couldn't place the magic type. Departed at the Calveno docks after the ship docked. Shook Delmar's hand — the cold hit first, deep cold unrelated to the weather. Thanked the crew; said his business would take a week or two; perhaps their paths would cross again.
+## Session History
+
+### Session 02 — Aboard the Surety
+
+The party found Grigori in the galley with the table already set. He had made something real out of the galley's stores. He asked what kind of pirates they were. No trafficking, no cannibalism — near enough.
+
+He told them about [[capn-gorgeous|Cap'n Gorgeous]] and [[rupert-knighton|Rupert Knighton]] — specifically that Knighton would send ships in response to Gorgeous's death. His condition for the surviving crew: anyone who wants off at the next port walks free. He said he was glad [[ket|Ket]] was freed.
+
+He has business in Calveno — a young heir whose physicians have given up on them.
+
+### Session 03 — Calveno Departure
+
+After the whip shark fight, Grigori came up to the weather deck carrying tins of a pale healing liquid for the crew. He healed [[jean-claude-tabarnack|Jean-Claude]]'s wounds silently — a red, viscous, gaseous light flowed from his wrist and knit the flesh. No components, no words, no incantation. [[perrin-black-jaw|Perrin]]'s Arcana roll (18) confirmed: the magic just flowed.
+
+He mentioned "Impuni" — someone he needs to reach in Calveno in time.
+
+At [[la-vasca|La Vasca]] he said his goodbyes, thanked the party for the voyage, and left alone. His handshake with [[delmar-fisk|Delmar]] was icy cold — not normal warmth, like touching a dead body.
+
+He expects his Calveno business concluded in a week or two.
 
 ## Current State
 
-Somewhere in [[calveno|Calveno]]. Business of his own; 1–2 week timeline. His magic type is unidentified. His knowledge of Crown operations on the *Uncertainty* has not been fully tapped.
+Ashore in [[calveno|Calveno]]. Business of his own; 1–2 week timeline. His magic type is unidentified. His knowledge of Crown operations on the *Uncertainty* has not been fully tapped.
 
 > [!dm]
-> The cold handshake and unidentifiable magic are both player-facing mysteries. DM truth from `Inbox/Khlysty.md`: Grigori is an undead sorcerer and shepherd of the Khlysty, binding healed noble heirs as unwitting phylactery threads. Develop his Calveno business before the party potentially crosses his path again.
+> **DM Truth:** Grigori is an undead sorcerer and shepherd of the [[khlysty|Khlysty]] — a secret mystical flock threaded through Dravosi and Tessarine noble courts. He heals dying heirs and binds them as unwitting phylactery threads. The cold handshake and unidentifiable magic are the player-facing mystery. Develop his Calveno business (Impuni) before the party crosses his path again. The Khlysty truth should surface in layers, not exposition.
+
+## Relationships
+
+- [[khlysty|The Khlysty]] — shepherd; the real source of his healing
+- [[calveno|Calveno]] — current destination
+- [[rupert-knighton|Rupert Knighton]] — warned the party about him
+- [[capn-gorgeous|Cap'n Gorgeous]] — gave Knighton intelligence about
+- [[ket|Ket]] — was glad to see him freed

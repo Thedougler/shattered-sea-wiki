@@ -71,7 +71,7 @@ The krakling is what sailors are calling the arm-thing that has started appearin
 It is the third known elemental from the Plane of Water. Like the [[leviathan|Leviathan]] and the [[ridgeback|Ridgeback]], it has no eyes, black skin, and breathes only water. Unlike either of them, it is a surface hunter.
 
 > [!dm]
-> [[perrin-black-jaw|Perrin Black-Jaw]]'s connection to the Plane of Water incursion runs through the Leviathan and the Vestra sinking. A third elemental creature appearing is part of the same pattern the Pearl of Souls is driving. Perrin will recognize the flat-black skin and the absence of eyes if he gets a good look — they match Clyde's Bestiary notes on planar fauna.
+> [[perrin-black-jaw|Perrin Black-Jaw]]'s connection to the Plane of Water incursion runs through the Leviathan and the Vestra sinking. A third elemental creature appearing is part of the same pattern the Pearl of Souls is driving. Perrin will recognize the flat-black skin and the absence of eyes if he gets a good look — they match [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary]] notes on planar fauna.
 
 ## Behavior
 

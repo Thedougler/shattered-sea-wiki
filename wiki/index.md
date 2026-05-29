@@ -113,7 +113,7 @@ sources: []
 - [[vrtek|Vrtek]] — Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships.
 
 ## entities/places
-- [[antheri-ruins|Antheri Ruins]] — [stub] Deepest known Antheri construction, built into the western wall of the Drowned Maw and oriented toward the planar fissure below.
+- [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
 - [[aruhe|Aruhe]] — [stub] Stub — Midchain island commissioned for survey by Nona; three-phase structure (harbour safe, clifftop dangerous, interior = Blight dungeon); Grung call it 'the island that is already eaten.
 - [[central-strait|Central Strait]] — [stub] Strategic strait with Dravosi inspection forces at the western entrance. Port Tidefall formed around that control point.
 - [[crown-islands|Crown Islands]] — [stub] Islands claimed by the Dravosi Crown when it established its first colonial presence in the Shattered Sea in 1195 DR.
@@ -136,6 +136,7 @@ sources: []
 - [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
 
 ## entities/places/buildings
+- [[anchor-and-line|The Anchor & Line]] — The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population.
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
@@ -211,6 +212,12 @@ sources: []
 ## entities/items
 - [[alchemists-fire|Alchemist's Fire]] — A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp.
 - [[ale|Ale]] — A standard mug of fermented grain ale — dark and slightly sour at the Flat Water, and reliable. 4 cp.
+- [[anchor-chain|Anchor Chain]] — Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section.
+- [[antheri-mechanism|Antheri Mechanism]] — Dark-alloy mechanisms recovered from Antheri ruins — faintly iridescent, tooling marks too fine for any current forge in the Scatter.
+- [[antitoxin|Antitoxin]] — A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp.
+- [[artificer-commission|Artificer Commission]] — Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter.
+- [[auto-helm|Auto Helm]] — A clockwork mechanism fitted to the ship's tiller or wheel — holds a set heading for up to 8 hours without a crew member at the helm. 1,400 gp.
+- [[basic-poison|Basic Poison]] — A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.

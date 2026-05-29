@@ -1,23 +1,40 @@
 ---
+title: The Loud Argument
 type: entity
-subtype: vehicle
+subtype: ship
+ship_class: gun brig
+publish: true
 campaign: shattered-sea
+audience: players
 status: lost
-audience: dm
-publish: false
-summary: "One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw."
-created: 2026-05-27
-updated: 2026-05-28
-tags: [vehicle, ship, lost, fisk-fleet]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md"]
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — fleet admiral"
-  - "[[the-drowned-maw|The Drowned Maw]] — sinking site"
-  - "[[bastian-crev|Bastian Crev]] — captain"
-  - "[[fisks-fleet|Fisk's Fleet]] — fleet"
+cssclasses: [wiki-ship]
+aliases: ["Loud Argument", "The Loud Argument"]
+tags: [vehicle, ship, lost, fisk-fleet]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Loud-Argument.md"]
+captain: "[[bastian-crev|Bastian Crev]]"
+summary: "Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw."
 ---
 
-# Loud Argument
+# The *Loud Argument*
 
-One of the five ships in [[fisks-fleet|Delmar Fisk's Pearl of Souls fleet]], captained by [[bastian-crev|Bastian Crev]]. Lost at [[the-drowned-maw|the Drowned Maw]].
+## Overview
+
+A gun brig — the combat vessel of [[fisks-fleet|Fisk's Fleet]]. Shorter than the *Red Lady* but wider, built for close engagement: high freeboard, reinforced gunwale, eight gun mounts with four per side and two bow chasers. The hull was painted red below the waterline with a black upper hull — a deliberate inversion of the *Red Lady*'s scheme. The bow chasers were long-barrelled and prominent from ahead.
+
+Below decks: a locked magazine, crew quarters for a full complement, and minimal hold space — cargo capacity sacrificed for gun deck clearance. She was not built to carry things.
+
+Fifth ship of the fleet. Captained by [[bastian-crev|Bastian Crev]].
+
+## The Sinking
+
+Lost simultaneously with the rest of [[fisks-fleet|Fisk's Fleet]] when [[umberlee|Umberlee]] opened [[the-drowned-maw|the Drowned Maw]] beneath them. All hands lost.
+
+## Connections
+
+- [[bastian-crev|Bastian Crev]] — captain
+- [[delmar-fisk|Delmar Fisk]] — fleet admiral
+- [[red-lady|Red Lady]] — fleet flagship
+- [[fisks-fleet|Fisk's Fleet]]
+- [[the-drowned-maw|The Drowned Maw]]
+- [[umberlee|Umberlee]]

@@ -44,7 +44,7 @@ sources: []
 - [[felix-aho|Félix Aho]] — Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
 - [[ket|Ket]] — A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
-- [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
+- [[maren|Maren]] — Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN.
 - [[master-kyzil|Master Kyzil]] — Large owl-like figure; Crissdalynn's master or mentor. Reunited with her in Calveno after searching Kylo and Firefall. Thought she was dead when her ship went down.
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch of the Black-Jaw Passage network; Perrin's grandmother. Met in Calveno's Le Paludi kitchen. Attacks on Perrin called off. Has a favor to ask — he said yes before hearing it. Holds the paired sending stone.
@@ -210,7 +210,7 @@ sources: []
 
 ## entities/places/settlements/warren
 - [[low-lamp|Low Lamp]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
-- [[marrows|Marrow's]] — [stub] Stub — Warren unclaimed-goods broker operation run by Marrow; currently holding the Vretek/Brol crate.
+- [[marrows|Marrow's]] — A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
 - [[tangle-chambers|Tangle Chambers]] — [stub] Stub — Warren sub-location; referenced as a destination and lead in Nona's table scene and the Grung sewers.
 - [[the-splint|The Splint]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.
 
@@ -338,6 +338,9 @@ sources: []
 - [[lock-and-key|Lock and Key]] — A keyed door lock in common patterns — installation extra; the proprietor keeps records of who bought what pattern.
 - [[longbow|Longbow]] — Martial ranged weapon. Best range of any standard bow, solid damage, but Heavy bars Small creatures and martial proficiency is required.
 - [[loose-tobacco|Loose Tobacco]] — Cured leaf tobacco, sold by the pound — rolled, piped, or chewed according to preference. 6 sp per lb.
+- [[marlinspike|Marlinspike]] — A tapered steel tool for separating rope strands and working knots — essential gear for anyone who works rigging. 5 sp.
+- [[marsh-ale|Marsh Ale]] — Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds.
+- [[mast-work|Mast Work]] — Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
@@ -369,7 +372,7 @@ sources: []
 - [[ironmantle|Ironmantle]] — A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate.
 - [[knifes-wake|The *Knife's Wake*]] — A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power.
 - [[lasting-insult|Lasting Insult]] — A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp.
-- [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
+- [[loud-argument|The *Loud Argument*]] — Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 - [[saltwright|Saltwright]] — Old grey-brown two-masted merchant brig. Dark, close-quarters hold smelling of bilge water and shrimp. Currently in party possession after the Session 01 boarding.

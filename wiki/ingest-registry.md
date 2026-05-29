@@ -78,6 +78,10 @@ sources: []
 | Inbox/HCS-Surety-DM-Guide.md | reference, dm-only | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety-dm-guide.md` (new — Crown recognition clock active, chase/casualty tooling) |
 | Inbox/Shepherd-Grigori.md | narrative-island | ingested | 2026-05-28 | `wiki/islands/shepherd-grigori.md` (new — full island prep; cure resolved, heir bound, stat block) |
 | Inbox/Shepherd-Grigori copy.md | situation-source, thread | ingested | 2026-05-28 | `wiki/situations/active/shepherd-grigori.md` (new — world state thread; session log, location unknown) |
+| Inbox/Pearl-of-Souls.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/pearl-of-souls.md` (promoted from dormant stub — full Maw Pearl Crisis) |
+| Inbox/Crissdalynns-Pilgrimage.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/crissdalynns-pilgrimage.md` (new — Kyzil found her; warning delivered; missing Sentinels pending) |
+| Inbox/Jean-Claudes-Desertion.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/jean-claudes-desertion.md` (new — Grung Expansion; Simone hunting; Calveno raid context) |
+| Inbox/Sunken-Crown-Blessing-Crisis.md | situation-source | ingested | 2026-05-28 | `wiki/situations/active/sunken-crown-blessing-crisis.md` (new — Keth-Naar pressure; shrine failing; Pearl recovery resolves this) |
 | Inbox/Il-Gioco-delle-Beffe copy.md | narrative-island, dm-notes | ingested | 2026-05-28 | `wiki/islands/il-gioco-delle-beffe-dm.md` (new — DM mechanics: phase structure, rivals, prize table) |
 
 ## Pending Queue (status: pending, priority order)

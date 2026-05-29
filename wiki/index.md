@@ -24,7 +24,7 @@ sources: []
 - [[admiral-fisk|Admiral Fisk]] — Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered.
 - [[aldric-drave|Aldric Drave]] — [stub] Stub — Dravosi founder-lich; the true reason Cosimo Verantio had the Pearl of Souls stolen. Tessarine intelligence believes Aldric could use the Pearl to extend his Hierarch abilities beyond the Dravosi bloodline.
 - [[andriana-trevisan|Andriana Trevisan]] — [stub] Knows roughly where something in the Warren is, but won't name a contact or lead anyone there.
-- [[anzolo|Anzolo]] — Unknown figure Nona Black-Jaw believes was sent to find Perrin. May already be at sea. Not yet encountered.
+- [[anzolo|Anzolo]] — Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
 - [[barnaby-rook|Barnaby Rook]] — Hard Dravosi Crown privateer captain. Unharmed, alone, and pissed at the end of Session 01 — standing on the HCS Surety gangplank with a reloading flintlock.
 - [[bastian-crev|Bastian Crev]] — Combat-specialist captain of the Loud Argument in Fisk's Fleet. Theatrical, dangerous, and one of the five souls pressed into Delmar Fisk.

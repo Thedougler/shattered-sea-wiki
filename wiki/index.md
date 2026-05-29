@@ -332,6 +332,12 @@ sources: []
 - [[lamp-oil|Lamp Oil]] — Refined oil for lanterns and lamps — standard stock at every chandlery in the Shattered Sea. 1 sp per flask, 6 sp per gallon.
 - [[lantern-of-revealing|Lantern of Revealing]] — A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
+- [[light-crossbow|Light Crossbow]] — A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp.
+- [[light-rope|Light Rope]] — Lighter household rope for general use — not rigging grade, but sufficient for everything that doesn't go to sea.
+- [[linseed-oil|Linseed Oil]] — Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart.
+- [[lock-and-key|Lock and Key]] — A keyed door lock in common patterns — installation extra; the proprietor keeps records of who bought what pattern.
+- [[longbow|Longbow]] — Martial ranged weapon. Best range of any standard bow, solid damage, but Heavy bars Small creatures and martial proficiency is required.
+- [[loose-tobacco|Loose Tobacco]] — Cured leaf tobacco, sold by the pound — rolled, piped, or chewed according to preference. 6 sp per lb.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.

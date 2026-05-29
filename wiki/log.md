@@ -224,3 +224,4 @@ sources: []
 - 2026-05-28 ingest: Anzolo — updated stub to full NPC page; tortle fixer, Black-Jaw Run enforcer
 - 2026-05-28 ingest: Bala-Tane — new minor NPC page; stub for the-mud-pits
 - 2026-05-28 ingest: Bisou — upgraded to full NPC page; merged session canon with character detail
+- 2026-05-28 ingest: Capn-Gorgeous — upgraded to full NPC page; House Knighton detail added

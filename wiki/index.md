@@ -176,6 +176,10 @@ sources: []
 ## entities/vehicles
 - [[fernen|Fernen]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
+- [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
+- [[hcs-surety-layout|Uncertainty — Deck Layouts]] — Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes.
+- [[hcs-surety-manifest|Uncertainty — Ship Manifest]] — Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
+- [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.

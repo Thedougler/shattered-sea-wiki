@@ -178,3 +178,7 @@ sources: []
 - UPDATE: `wiki/index.md` — 30+ entries added/updated for second Calveno batch
 - CREATE: `wiki/entities/vehicles/uncertainty.md` — Tier 1 cutter, formerly HCS Surety; full refit and crew data
 - UPDATE: `wiki/entities/vehicles/hcs-surety.md` — full stat block, crew, session log, Crown recognition clock
+- CREATE: `wiki/entities/vehicles/hcs-surety-layout.md` — full three-deck layout with Uncertainty refit changes noted
+- CREATE: `wiki/entities/vehicles/hcs-surety-manifest.md` — post-Session 02 inventory updated through La Vasca refit
+- CREATE: `wiki/entities/vehicles/hcs-surety-owners-manual.md` — player-facing rules (ram bow, shallow draft, crew roles, bastion)
+- CREATE: `wiki/entities/vehicles/hcs-surety-dm-guide.md` — DM guide with Crown recognition clock (now active)

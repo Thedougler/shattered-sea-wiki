@@ -272,3 +272,5 @@ sources: []
 - 2026-05-28: Bullseye Lantern — new item page
 - 2026-05-28: Calder's Tooth — overview prose added (geography, fauna, hooks)
 - 2026-05-28: Canal Boat Hire — new service item
+- 2026-05-28: Candles, Canvas Bag, Canvas Cloth, Captain's Meal, Cargo Brokerage — new item/service pages
+- 2026-05-28: Cape Solitude — new location page (islands/cape-solitude.md)

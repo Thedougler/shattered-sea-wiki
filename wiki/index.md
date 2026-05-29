@@ -153,6 +153,7 @@ sources: []
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake.
 - [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
+- [[cape-solitude|Cape Solitude]] — The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -228,6 +229,11 @@ sources: []
 - [[bracers-of-archery|Bracers of Archery]] — Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore.
 - [[bullseye-lantern|Bullseye Lantern]] — A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching.
 - [[canal-boat-hire|Canal Boat Hire]] — Flat-bottomed canal boats available for half- or full-day hire at the Ponte Bassa — no questions about destination.
+- [[candles|Candles]] — Tallow or beeswax candles for general illumination — cheaper than lamp oil, dimmer, and prone to salt-air extinction.
+- [[canvas-bag|Canvas Bag]] — Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship.
+- [[canvas-cloth|Canvas Cloth]] — Bolts of canvas and heavy cloth for sewing, patching, and general fabrication.
+- [[captains-meal|Captain's Meal]] — A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers.
+- [[cargo-brokerage|Cargo Brokerage]] — Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.

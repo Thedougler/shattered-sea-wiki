@@ -134,7 +134,7 @@ sources: []
 - [[galewall|The Galewall]] — The permanent western storm belt separating the Scatter from the colonial homelands — a three-week crossing under the right pilot, with a one-in-three loss rate and no exceptions.
 - [[galewall-dm|The Galewall — DM Notes]] — DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
 - [[halythion|Halythion]] — Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
-- [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
+- [[high-eyrie|The High Eyrie]] — Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
 - [[karath|Karath]] — [stub] Stub — Grung-controlled island in the Verdant Teeth with more visible military presence than Dreth. No further details on file.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|Midchain]] — [stub] Island chain Jean-Claude crossed for months after fleeing Sorn. The Saltwright passed through here when Jean-Claude leapt aboard in Session 01.
@@ -158,7 +158,7 @@ sources: []
 - [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs.
 - [[harbourmasters-office|Harbourmaster's Office]] — Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter.
-- [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
+- [[hook-and-ledger|The Hook & Ledger]] — A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
@@ -181,6 +181,7 @@ sources: []
 ## entities/places/settlements
 - [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
 - [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
+- [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port, neutral dry dock, Chain Council meeting ground, Beaumont Sel off-route port, and Five Blades base.
 - [[murrat|Murrat]] — [stub] Home of the Moucheron. Ket flew toward Murrat after being freed from the HCS Surety.
 - [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
@@ -308,6 +309,9 @@ sources: []
 - [[healers-kit|Healer's Kit]] — A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp.
 - [[heavy-crossbow|Heavy Crossbow]] — Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely.
 - [[hempen-rope|Hempen Rope]] — Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft.
+- [[herbalism-kit|Herbalism Kit]] — Pouches, mortars, and dried plants for characters proficient in herbalism — required for crafting herbal preparations. 5 gp.
+- [[hooded-lantern|Hooded Lantern]] — A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp.
+- [[house-spirits|House Spirits]] — Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.

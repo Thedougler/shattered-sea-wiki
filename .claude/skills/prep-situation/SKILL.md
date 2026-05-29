@@ -4,7 +4,7 @@ description: >
   Create or expand a situation file for the Shattered Sea campaign. Invoke for:
   "create a situation for [conflict]", "track [event] with a clock", "this needs a
   lifecycle", "file this as a situation", any world pressure with a timeline or trigger
-  condition. Generates frontmatter with lifecycle and island fields, clock definition,
+  condition. Generates frontmatter with lifecycle and narrative_island fields, clock definition,
   trigger conditions, involved entities, possible outcomes, Three Clue placement (when
   applicable), and DM notes. Places correctly in wiki/situations/active/ or
   wiki/situations/dormant/ per lifecycle state.
@@ -134,7 +134,7 @@ Universal fields are auto-completed by the write hook. You must author the situa
 
 - `subtype` — `conflict | mystery | political | environmental | personal`
 - `lifecycle` — `active | dormant | resolved` (see Lifecycle Decision above; drives the file path)
-- `island` — `null` or `"[[island-slug|Island Name]]"` if this situation belongs to an island
+- `narrative_island` — `null`, or `"[[narrative-island-slug|Name]]"` if this situation belongs to a narrative island (a plot-device cluster in `wiki/narrative-islands/` — not a geographic place). The field is `narrative_island`, never `island`: "island" alone means a landmass.
 - `clocks` — fill per the Clock Definition block above (`name`, `segments`, `filled`, `trigger`, `consequence`)
 
 ---

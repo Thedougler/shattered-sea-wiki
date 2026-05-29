@@ -159,6 +159,7 @@ sources: []
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs.
 - [[harbourmasters-office|Harbourmaster's Office]] — Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter.
 - [[hook-and-ledger|The Hook & Ledger]] — A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early.
+- [[inspection-pier|The Inspection Pier]] — Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
@@ -318,6 +319,10 @@ sources: []
 - [[hull-patch-automaton|Hull Patch Automaton]] — A crab-sized brass mechanism that patrols the waterline interior, sealing hull breaches under 1 foot automatically and reducing combat flooding damage.
 - [[hull-plank-repair|Hull Plank Repair]] — Replacing damaged hull planking — minor to moderate damage handled in dry dock; full replank by negotiation.
 - [[hull-repaint|Hull Repaint]] — Full hull colour strip and repaint — changes what a vessel looks like from the waterline up.
+- [[ia-miti|I'a Miti]] — Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking.
+- [[incendiary-flask|Incendiary Flask]] — Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished.
+- [[iron-chain|Iron Chain]] — Drop-forged iron chain sold by the foot — rigging, mooring, securing cargo, and improvised restraint. 5 sp per foot.
+- [[iron-cleat|Iron Cleat]] — A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -474,6 +479,9 @@ sources: []
 - [[whip-shark|Whip Shark (Welak)]] — CR 6 monstrosity. Huge aquatic predator with a barbed tail that can hook ship hulls. Kalowe fishermen call it the Welak. Encountered in Session 03 — a 60-foot specimen attacked the Uncertainty west of Calveno.
 - [[young-dragon-turtle|Young Dragon Turtle]] — CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.
 - [[young-sea-serpent|Young Sea Serpent]] — CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach.
+
+## entities/species
+- [[human|Human]] — Playable species. Humans gain Heroic Inspiration on long rests, proficiency in one skill, and two Origin feats — the most feat-forward of the base species.
 
 ## narrative-islands
 - [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.

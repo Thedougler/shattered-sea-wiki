@@ -138,8 +138,8 @@ sources: []
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|The Midchain]] — The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one.
 - [[orak|Orak]] — The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way.
-- [[oshas-slip|Osha's Slip]] — [stub] The Passage's favored night-landing site for small high-value cargo, on Calder's Tooth.
-- [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control.
+- [[oshas-slip|Osha's Slip]] — A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out.
+- [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit.
 - [[shelfworks|Shelfworks]] — [stub] Area above the Antheri Ruins where Catarina DaVirelli salvaged functional components in 1488 DR, triggering the Shelfworks Goldrush.
 - [[sorn|Sorn]] — [stub] Grung site or garrison Jean-Claude fled from. Simone leads Sorn's garrison and a hunter unit tracking deserters.
 - [[sunken-crown|Sunken Crown]] — [stub] Region containing Vel Orn and the Blue Shrine where Fisk's fleet stole the Pearl of Souls.
@@ -160,7 +160,7 @@ sources: []
 - [[hook-and-ledger|The Hook & Ledger]] — A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early.
 - [[inspection-pier|The Inspection Pier]] — Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper.
 - [[kalowe-waveservant-shrine|Waveservant Shrine — Kalowe]] — Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything.
-- [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
+- [[ormssons-fittings|Ormsson's Fittings]] — An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
@@ -190,6 +190,9 @@ sources: []
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
 - [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
+
+## entities/places/settlements/calders-tooth
+- [[overland-track|The Overland Track]] — The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls.
 
 ## entities/places/settlements/calveno
 - [[acqua-nera|Acqua-Nera]] — [stub] Stub — Calveno yard operated by [[dario|Dario]]; alternative to Carpenters' Slip for hull work; does re-identification for money and certainty, no referral required.
@@ -355,6 +358,8 @@ sources: []
 - [[oil-lantern|Oil Lantern]] — A standard household oil lantern — clear glass, iron frame, reliable in any weather that isn't actually outdoor weather.
 - [[oil-of-still-water|Oil of Still Water]] — A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait.
 - [[oilskin-canvas|Oilskin Canvas]] — Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard.
+- [[padlock|Padlock]] — A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp.
+- [[passage-network-introduction|Passage Network Introduction]] — A formal introduction into the Passage's Kin-network for Dry (non-Rattkin) seeking operational access — Marrow decides eligibility. 15 gp minimum.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.

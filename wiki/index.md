@@ -133,7 +133,7 @@ sources: []
 - [[fort-crestwall|Fort Crestwall]] — The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should.
 - [[galewall|The Galewall]] — The permanent western storm belt separating the Scatter from the colonial homelands — a three-week crossing under the right pilot, with a one-in-three loss rate and no exceptions.
 - [[galewall-dm|The Galewall — DM Notes]] — DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
-- [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
+- [[halythion|Halythion]] — Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
 - [[karath|Karath]] — [stub] Stub — Grung-controlled island in the Verdant Teeth with more visible military presence than Dreth. No further details on file.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
@@ -300,6 +300,10 @@ sources: []
 - [[grappling-hook|Grappling Hook]] — A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp.
 - [[grilled-canal-eel|Grilled Canal Eel]] — The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired.
 - [[ground-coffee|Ground Coffee]] — Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb.
+- [[hammer|Hammer]] — A general-purpose iron hammer — drives spikes, sets caulking, and works anything that needs persuading.
+- [[hammock-berth|Hammock Berth]] — A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night.
+- [[hand-crossbow|Hand Crossbow]] — Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert.
+- [[handaxe|Handaxe]] — A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -327,7 +331,7 @@ sources: []
 - [[hcs-surety-manifest|Uncertainty — Ship Manifest]] — Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 - [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
 - [[hcs-tangent|HCS Tangent]] — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
-- [[hcs-warrant|HCS Warrant]] — [stub] Crown enforcement vessel commanded by Commander Gideon Ault; the Phase 3 Crown response to the missing HCS Surety.
+- [[hcs-warrant|HCS Warrant]] — A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.

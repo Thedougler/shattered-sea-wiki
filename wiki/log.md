@@ -306,3 +306,10 @@ sources: []
 - 2026-05-29 | new stub | the-glass-debt — pirate entity near the Maw
 - 2026-05-29 | new stub | the-velvet-noose — pirate rumour entity near the Maw
 - 2026-05-29 | new stub | tail — western staging region for Maw crossing
+- 2026-05-29 | ingest | Elder-Anton — new NPC page (DM-only, Keth-Naar memory-keeper)
+- 2026-05-29 | new stub | ral-arn — Keth-Naar tribe member
+- 2026-05-29 | ingest | Eldritch-Claw-Tattoo — new item page (Crissdalynn's Sentinel tattoo)
+- 2026-05-29 | ingest | Elemental-Plane-of-Water — stub upgraded to full DM page
+- 2026-05-29 | ingest | Emergency-Repair — new item page (service)
+- 2026-05-29 | ingest | Essa-Two-Tooth — new minor NPC page (Low Lamp operator)
+- 2026-05-29 | ingest | Estratto — new NPC page (DM-only, Tessarine warforged auditor)

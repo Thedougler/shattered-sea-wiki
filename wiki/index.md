@@ -39,6 +39,8 @@ sources: []
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
 - [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk.
 - [[dorian-bishop|Captain Dorian Bishop]] — Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook.
+- [[elder-anton|Elder Anton]] — Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain.
+- [[estratto|Estratto]] — Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
@@ -82,6 +84,7 @@ sources: []
 - [[dario|Dario Vanni]] — Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak.
+- [[essa-two-tooth|Essa Two-Tooth]] — Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong.
 - [[ettore|Ettore Lupo]] — Proprietor of Casa Lupo in Calveno's Le Paludi district. Seventy-something, prices everything from memory, moves with the energy conservation of someone who has decided he's already moved enough.
 - [[ferrin-locke|Ferrin Locke]] — [stub] Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found.
 - [[flappers-the-seal|Flappers the Seal]] — Coralyra Dranra's seal — her closest relationship and anchor in the world; currently out chasing mackerel.
@@ -102,6 +105,7 @@ sources: []
 - [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
 - [[prospero-morsani|Prospero Morsani]] — Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part.
+- [[ral-arn|Ral-Arn]] — [stub] Stub — Keth-Naar tribe member associated with Elder Anton. No further details on file.
 - [[reginald-fenn|Reginald Fenn]] — Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience.
 - [[reweti-kahurangi|Reweti Kahurangi]] — Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once.
 - [[ruk|Ruk]] — Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
@@ -122,7 +126,7 @@ sources: []
 - [[doldrums|The Doldrums]] — A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels.
 - [[drave-vaults|Drave Vaults]] — Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file.
 - [[dreth|Dreth]] — One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
-- [[elemental-plane-of-water|Elemental Plane Of Water]] — [stub] Planar source connected to the Drowned Maw fissure. The Pearl of Souls turned the fissure into an attractor, pulling entities through.
+- [[elemental-plane-of-water|Elemental Plane of Water]] — A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
 - [[galewall|The Galewall]] — A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something.
 - [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
@@ -272,6 +276,8 @@ sources: []
 - [[dried-fruit|Dried Fruit]] — Raisins, mango strips, and tamarind — sweet provision that keeps morale marginally above minimum.
 - [[dried-herbs|Dried Herbs]] — Common dried kitchen and medicinal herbs — cooking flavour and basic medicinal use, sold at general goods stores.
 - [[dried-salt-fish|Dried Salt Fish]] — Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port.
+- [[eldritch-claw-tattoo|Eldritch Claw Tattoo]] — Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition.
+- [[emergency-repair|Emergency Repair]] — Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -369,7 +375,7 @@ sources: []
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
 - [[session-03-recap|03 — Getting in on the Joke]] — Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened.
-- [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week, run as a balanced sandbox + theme-park. Five attractions (Umberlee's Pearl summons, the Warren/ship, the sewer Grung, Red Lady salvage, the Beffa) each carry a directed entry hook AND reactive sandbox handling. ~4–5 hrs.
+- [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs.
 
 ## system
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.

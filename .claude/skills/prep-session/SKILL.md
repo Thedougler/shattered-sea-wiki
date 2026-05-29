@@ -1,80 +1,78 @@
 ---
 name: prep-session
 description: >
-  Generate a full session run guide for the Shattered Sea campaign. Invoke for: "prep
-  for next session", "give me a session plan", "what do I run Saturday", "help me run
-  tonight", "session prep", "/run-guide", "/strong-start", "/thread-review",
-  "/spotlight", "/faction-clock". Reads party primer, player interests, active
-  situations, and last session summary before generating. Presents a scene menu with
-  options — not a plot. Sandbox first. Always identifies which PC needs a spotlight
-  moment and builds at least one scene for them.
+  Generate a complete, at-the-table session run guide for the Shattered Sea sandbox
+  campaign — a scannable operating document the DM can run cold, written like a
+  professional adventure module. Invoke for: "prep for next session", "give me a session
+  plan", "what do I run Saturday", "help me run tonight", "session prep", "/run-guide",
+  "/strong-start", "/thread-review", "/spotlight", "/faction-clock". Reads hot.md, active
+  situations, the last session recap, and relevant entity pages first, then grounds every
+  beat in established lore. Presents a scene menu the players choose from — never a plot.
+  Inlines what the DM needs to run each beat (NPC wants, key rolls, stat lines, secrets)
+  so they never flip between files mid-session; links only for depth. Always spotlights
+  the PC who has been waiting.
 ---
 
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
+> Cross-cutting rules (reading order, sandbox constraints, the PC-connection requirement, frontmatter, auto-correct, wikilink standards) live in `wiki/system/doctrine.md`. Load it on demand. This skill covers only what is specific to running a session.
 
-## Prerequisites
+## What this produces
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page. Then read these domain-specific sources before generating:
-1. `wiki/system/party-session-primer.md` — party roleplay levers, PC connections
-2. `wiki/sessions/` — most recent `sNNN-summary.md` for continuity
-3. `wiki/dm/player-interests.md` — current player engagement queue
+A **session run guide**: a DM-only operating document for one session of play. Not a story, not a script, not a recap. The DM opens this one file at the table and runs the whole session from it — written in the voice and density of a published adventure module, but built for a sandbox where the party can do anything in any order.
 
-**Spotlight check:** Identify which PC has not had a meaningful moment recently
-(check hot.md spotlight tracking). Build at least one scene that specifically serves
-that player before finalizing the run guide.
+The vault's own [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] is the quality target: every line is actionable, every NPC has a one-line "table handle," every secret is unassigned, every clock has a visible tick, and there is a procedure for when the party goes somewhere you didn't prep.
 
----
+## The rule that shapes everything: no mid-session hunting
 
-## Run Guide Structure
+A run guide fails the moment the DM has to open a second file to keep play moving. At the table there is no time to read an NPC's whole page or look up a stat block — the player just asked a question and four people are waiting.
 
-### Strong Start
+So **inline what the DM needs to run a beat, link only what they might want to explore later.** At the point a beat is used, the guide already carries:
 
-Drop in already in motion. No "you are in a tavern." The opening scene creates
-immediate pressure without forcing a single response. Read `references/STRONG-START.md`
-for scene types and construction before writing.
+- the **read-aloud** (boxed, ready to speak),
+- the **NPC's want right now** and a one-line handle for *how to play them*,
+- the **one roll** that matters (DC, ability, what success and failure each reveal),
+- a **compact stat line** if the beat can turn to violence (AC, HP, to-hit/save DC, key damage, one tactic) — full block linked,
+- the **secret or clue** in play and what surfaces it,
+- **if engaged / if ignored** consequences.
 
-Provide **3 strong start options** (different pressure types: faction, personal,
-discovery). DM picks one.
+Wikilinks are for depth the DM chooses to chase between sessions, never for information they need in the next ten seconds. This is the difference between "comprehensive" and "a pile of links" — the comprehensive guide brings the answer to the DM; the pile sends them looking. When the two goals collide, density of *useful* information wins and link-chasing loses.
 
-### Scene Menu
+## Modes
 
-5–7 scenes available this session. Not a sequence — a menu. Players choose engagement.
+| Mode | Produces |
+|---|---|
+| `/run-guide [N]` | Full session run guide for session N. Read `references/session-run-guide.md` and follow its workflow. |
+| `/strong-start` | Just the opening: one in-medias-res scene, one image, one pressure, no recap. Read `references/STRONG-START.md`. |
+| `/thread-review` | Active threads grouped *immediate / simmering / dormant / gap-or-contradiction*. Read-only — do not write unless asked. |
+| `/spotlight` | Spotlight targets, each attached to an existing pressure. Never a scene whose only job is "give X a moment." |
+| `/faction-clock` | **For prep:** simulate likely off-screen pressure as *pending* (do not write canon). **For post-session world advancement:** defer to the `faction-clock` skill, which owns canon clock writes. |
 
-Per scene:
-- **Pressure** — what's happening right now
-- **NPC beats** — who is present and what they want in this moment
-- **Stakes** — what changes based on how players engage (specific, not "things escalate")
-- **Hook out** — what naturally leads to another scene
+## Workflow
 
-### Faction Pressures
+1. **Ground in current state.** Read in the doctrine reading order, stopping when you have enough:
+   `wiki/hot.md` (always — it carries Open PC Threads, Faction Clocks, Live Situations, Predictions, and Spotlight Tracking) → the most recent `wiki/sessions/session-NN-recap.md` → the active situation files in `wiki/situations/active/` that are near the party → relevant entity pages (read the `summary` frontmatter first; open the full page only if the summary doesn't answer the beat you're writing).
+   Supplementary if present and populated: `wiki/dm/player-interests.md`, `wiki/system/party-session-primer.md`. These are aids, not gates — `hot.md` is the source of truth for current state.
+2. **Name what is already in motion** before inventing anything: where the party is, the last hard break, what they promised/broke/ignored, which situations and factions have reason to act now, which PC hooks are hot.
+3. **Spotlight check.** Read the Spotlight Tracking table in `hot.md`. Find the PC who has gone longest without a meaningful moment and make sure at least one scene gives them one — attached to a real pressure, never manufactured.
+4. **Pick threads and shape pacing.** Use `references/PACING.md` to choose the 2–3 threads worth advancing and to vary register so the session has rhythm.
+5. **Write the guide** using `references/session-run-guide.md` — its template, inline-first conventions, and module formatting craft.
+6. **Run the quality gate** at the end of that reference before finalizing.
 
-What each active faction does this session regardless of party action. Source from
-`hot.md` clocks. These should feel like the world moving independently.
+Ground every claim in a page you read this session. If a fact isn't in the wiki, mark it a **proposal** and say so — don't quietly canonize it. If two pages conflict, surface a `> [!contradiction]` with both sources rather than silently picking one.
 
-### Contingencies
+## Voice: concise, direct, and quietly encouraging
 
-2–3 "players go completely sideways" fallbacks. Not railroads — alternative pressures
-that activate if players leave the scene menu entirely.
+The DM reading this is busy and about to perform for hours. Respect their bandwidth:
 
----
+- **Cut every word that doesn't help them run a beat.** Atmosphere belongs in read-aloud text; DM notes are instructions. Prefer tables and tight bullets over paragraphs.
+- **Be direct and devoid of mystery.** State what is true, what the NPC wants, what the roll reveals. The DM should never have to decode your prep — you are their co-DM, not a puzzle.
+- **Encourage by removing fear, not by adding pep talk.** A sandbox DM's anxiety is "what if they don't do what I prepped?" Answer it *in the guide*: mark ignored content as resurfacing rather than wasted, give a Surprise procedure, and remind them the menu is theirs to react to, not drive. Confidence comes from "you have what you need and nothing breaks if they wander," delivered in as few words as possible. Encouragement that costs the DM reading time is not encouragement.
 
-## Pacing
-
-Read `references/PACING.md` for session rhythm, tension management, and when to cut
-scenes. Read `references/ADVENTURE-STRUCTURE.md` for multi-session arc structure.
-
-Load `ttrpg-writing` for all prose and formatting standards.
-Load `sandbox-narrative` for anti-railroading check on all generated content.
-
----
+Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative` for an anti-railroading pass on the finished guide.
 
 ## Reference Files
 
 | File | Read when |
 |---|---|
-| `references/co-dm.md` | Full co-DM methodology: strong starts, thread review, spotlight, faction clock |
-| `references/session-run-guide.md` | Run guide template and exact workflow |
-| `references/STRONG-START.md` | Strong start scene types and construction |
-| `references/PACING.md` | Session pacing heuristics and tension management |
-| `references/ADVENTURE-STRUCTURE.md` | Multi-session arc and adventure structure patterns |
-| `references/co-dm-config-template.md` | Co-DM config creation or repair |
+| `references/session-run-guide.md` | Building or revising a run guide — the inline-first template, assembly workflow, module formatting craft, and quality gate. |
+| `references/STRONG-START.md` | Writing the opening — the five strong-start types, failure modes, and anti-patterns. |
+| `references/PACING.md` | Choosing which threads to advance and shaping session rhythm, register variation, and off-screen faction action. |

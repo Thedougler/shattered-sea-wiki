@@ -3,7 +3,7 @@ type: entity
 subtype: npc
 campaign: shattered-sea
 status: active
-audience: dm
+audience: players
 publish: true
 species: human
 aliases:
@@ -127,4 +127,6 @@ The party's primary access point for magical ship enhancements, custom clockwork
 - [[shelfworks|Shelfworks]] — salvage source
 - [[beaumont-sel|Beaumont Sel]] — purchased [[salvaged-antheri-plate|Salvaged Antheri Plate]] from her
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — visible creation
+- [[cats-curios|Cat's Curios]] — her workshop
+- [[the-snap|The Snap]] — prototype Antheri-fabric buckler, small-framed client, status unknown
 - [[dravosi-crown|Dravosi Crown]] — binding contract

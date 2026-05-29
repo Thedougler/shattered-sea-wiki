@@ -274,3 +274,10 @@ sources: []
 - 2026-05-28: Canal Boat Hire — new service item
 - 2026-05-28: Candles, Canvas Bag, Canvas Cloth, Captain's Meal, Cargo Brokerage — new item/service pages
 - 2026-05-28: Cape Solitude — new location page (islands/cape-solitude.md)
+- 2026-05-28 | ingest | Carpenters-Shop — new rules/facility page
+- 2026-05-28 | ingest | Cartographers-Table — new item page
+- 2026-05-28 | ingest | Catarina-DaVirelli — audience fix, cats-curios + The Snap added to connections
+- 2026-05-28 | ingest | Caulking-Iron — new item page
+- 2026-05-28 | ingest | Cedric-Hollowell — stub upgraded to full minor NPC
+- 2026-05-28 | ingest | Central-Strait — stub replaced with full gazetteer
+- 2026-05-28 | new stub | the-snap — Antheri-fabric buckler prototype

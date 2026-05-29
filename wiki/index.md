@@ -33,7 +33,7 @@ sources: []
 - [[beaumont-sel|Beaumont Sel]] —
 - [[bice-riva|Bice Riva]] —
 - [[branca|Branca]] —
-- [[catarina-davirelli|Catarina DaVirelli]] — Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench.
+- [[catarina-davirelli|Catarina Da'Virelli]] — An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [stub] Stub — The Principal; hidden Tessarine operative who manipulated the Chain Council into commissioning Fisk's Fleet to steal the Pearl of Souls, with the real goal of keeping it from Aldric Drave.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
@@ -74,7 +74,7 @@ sources: []
 - [[bela-silt-paw|Bela Silt-Paw]] — [stub] Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
 - [[bisou|Bisou]] — Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth.
 - [[capn-gorgeous|Cap'n Gorgeous]] — Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair.
-- [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
+- [[cedric-hollowell|Cedric Hollowell]] — [DM-only] Crown-licensed import factor in Port Tidefall and Verity's father — set the financial terms that sent Geoffrey away, has a ledger problem he may or may not know about, and keeps making introductions his daughter keeps not concluding.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
 - [[coralyra-dranra|Coralyra Dranra]] — [stub] Stub — created during ingest of Flappers the Seal. Coralyra Dranra is referenced as Flappers' person; no further details available.
@@ -116,7 +116,7 @@ sources: []
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
 - [[aruhe|Aruhe]] —
-- [[central-strait|Central Strait]] — [stub] Strategic strait with Dravosi inspection forces at the western entrance. Port Tidefall formed around that control point.
+- [[central-strait|The Central Strait]] — The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end.
 - [[crown-islands|Crown Islands]] — [stub] Islands claimed by the Dravosi Crown when it established its first colonial presence in the Shattered Sea in 1195 DR.
 - [[doldrums|The Doldrums]] — A seasonally drifting zone of near-zero wind affecting the Central Strait corridor. Best used as a pacing and pressure tool — route intelligence and drift timing are tradable, high-value information.
 - [[elemental-plane-of-water|Elemental Plane Of Water]] — [stub] Planar source connected to the Drowned Maw fissure. The Pearl of Souls turned the fissure into an attractor, pulling entities through.
@@ -234,6 +234,8 @@ sources: []
 - [[canvas-cloth|Canvas Cloth]] — Bolts of canvas and heavy cloth for sewing, patching, and general fabrication.
 - [[captains-meal|Captain's Meal]] — A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers.
 - [[cargo-brokerage|Cargo Brokerage]] — Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold.
+- [[cartographers-table|Cartographer's Table]] —
+- [[caulking-iron|Caulking Iron]] — A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
 - [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
@@ -244,6 +246,7 @@ sources: []
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
+- [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
 - [[truth-stone|Truth Stone]] — Stone that compels truth. Beaumont slid it to Jean-Claude; Jean-Claude used it and confirmed three facts about himself.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
@@ -316,6 +319,7 @@ sources: []
 
 ## rules/subsystems
 - [[bastions|Bastions]] —
+- [[carpenters-shop|Carpenter's Shop]] —
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

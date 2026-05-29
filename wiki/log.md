@@ -245,3 +245,6 @@ sources: []
 - 2026-05-28 ingest: Oleandro-Fuschi — new/upgraded NPC page
 - 2026-05-28 ingest: Oswald-Crench — new/upgraded NPC page
 - 2026-05-28 ingest: Prospero-Morsani — new/upgraded NPC page
+- 2026-05-28 ingest: Reginald-Fenn — new/upgraded NPC page
+- 2026-05-28 ingest: Reweti-Kahurangi — new/upgraded NPC page
+- 2026-05-28 ingest: Ruk — new/upgraded NPC page

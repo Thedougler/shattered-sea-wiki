@@ -98,7 +98,9 @@ sources: []
 - [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
 - [[prospero-morsani|Prospero Morsani]] — Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part.
-- [[ruk|Ruk]] — [stub] Present in Nona Black-Jaw's Le Paludi kitchen during Perrin's reunion. Stood near the door.
+- [[reginald-fenn|Reginald Fenn]] — Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience.
+- [[reweti-kahurangi|Reweti Kahurangi]] — Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once.
+- [[ruk|Ruk]] — Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
 - [[savia-brentino|Savia Brentino]] — [stub] Stub — Carpenters' Slip yard master in Calveno; does hull work without Canal Commission filings; refuses cold approaches; Tangle-adjacent.
 - [[serin-haut|Serin Haut]] — [stub] Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
 - [[stripes-bitemore|Stripes Bitemore]] — Hunter from Keth Naar whose tribe read the seas as wrong and sent him to find the cause. Took passage on the Saltwright before Session 01; absent from current active party.
@@ -132,6 +134,7 @@ sources: []
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
+- [[harbourmasters-office|Harbourmaster's Office]] — [stub] Harbourmaster's Office in Port Tidefall — Crown authority for vessel registration, surveys, and inspection records.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.

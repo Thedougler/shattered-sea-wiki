@@ -294,3 +294,15 @@ sources: []
 - 2026-05-29 | new stub | hcs-tangent — stub created from Dorian Bishop ingest
 - 2026-05-29 | ingest | Drave-Vaults — new location page (dungeon seed, Fort Crestwall)
 - 2026-05-29 | ingest | Dreamwort-Extract — new item page (consumable, Studio Orsini)
+- 2026-05-29 | ingest | Dreth — new island page (Verdant Teeth, Grung territory)
+- 2026-05-29 | new stub | karath — Verdant Teeth island, Grung territory
+- 2026-05-29 | new stub | orak — Verdant Teeth island paired with Dreth
+- 2026-05-29 | ingest | Dried-Beans — new provision item page
+- 2026-05-29 | ingest | Dried-Fruit — new provision item page
+- 2026-05-29 | ingest | Dried-Herbs — new consumable item page
+- 2026-05-29 | ingest | Dried-Salt-Fish — new provision item page
+- 2026-05-29 | ingest | Drowned-Maw — stub upgraded to full page, DM secrets preserved
+- 2026-05-29 | new stub | verdant-scatter — navigation region west of the Maw
+- 2026-05-29 | new stub | the-glass-debt — pirate entity near the Maw
+- 2026-05-29 | new stub | the-velvet-noose — pirate rumour entity near the Maw
+- 2026-05-29 | new stub | tail — western staging region for Maw crossing

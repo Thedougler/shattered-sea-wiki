@@ -121,20 +121,25 @@ sources: []
 - [[crown-islands|The Crown Islands]] — Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
 - [[doldrums|The Doldrums]] — A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels.
 - [[drave-vaults|Drave Vaults]] — Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file.
+- [[dreth|Dreth]] — One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
 - [[elemental-plane-of-water|Elemental Plane Of Water]] — [stub] Planar source connected to the Drowned Maw fissure. The Pearl of Souls turned the fissure into an attractor, pulling entities through.
 - [[galewall|The Galewall]] — A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something.
 - [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
+- [[karath|Karath]] — [stub] Stub — Grung-controlled island in the Verdant Teeth with more visible military presence than Dreth. No further details on file.
 - [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|Midchain]] — [stub] Island chain Jean-Claude crossed for months after fleeing Sorn. The Saltwright passed through here when Jean-Claude leapt aboard in Session 01.
+- [[orak|Orak]] — [stub] Stub — island in the Verdant Teeth paired close to Dreth; the channel between them is crocodile water.
 - [[oshas-slip|Osha's Slip]] — [stub] The Passage's favored night-landing site for small high-value cargo, on Calder's Tooth.
 - [[outer-reach|The Outer Reach]] — The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Sunken Crown remains structurally unstable and subsiding. The Redwind Isles may fall under an ancient blue dragon's sphere of control.
 - [[shelfworks|Shelfworks]] — [stub] Area above the Antheri Ruins where Catarina DaVirelli salvaged functional components in 1488 DR, triggering the Shelfworks Goldrush.
 - [[sorn|Sorn]] — [stub] Grung site or garrison Jean-Claude fled from. Simone leads Sorn's garrison and a hunter unit tracking deserters.
 - [[sunken-crown|Sunken Crown]] — [stub] Region containing Vel Orn and the Blue Shrine where Fisk's fleet stole the Pearl of Souls.
-- [[the-drowned-maw|The Drowned Maw]] — [stub] Restricted Imperial trench containing Antheri ruins and a planar fissure to the Elemental Plane of Water. The Red Lady sank here; the Pearl of Souls turned the fissure into an attractor.
+- [[tail|The Tail]] — [stub] Stub — western staging region nearest to the Drowned Maw crossing approach.
+- [[the-drowned-maw|The Drowned Maw]] — A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
 - [[tidefall|Tidefall]] — [stub] Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription.
 - [[vel-orn|Vel Orn]] — [stub] Site in the Sunken Crown with Umberlee's Blue Shrine, where Fisk's fleet stole the Pearl of Souls.
+- [[verdant-scatter|Verdant Scatter]] — [stub] Stub — island-scatter region to the west of the Drowned Maw crossing; the Maw runs along its eastern edge.
 - [[verdant-teeth|Verdant Teeth]] — Grung homeland. Outsiders trade at designated beaches only; the interior belongs to the caste-bound, slaveholding Grung Clans that Jean-Claude fled.
 - [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
 
@@ -204,7 +209,9 @@ sources: []
 - [[khlysty|The Khlysty]] — [DM-only] Secret mystical flock threaded through Dravosi and Tessarine noble courts. Shepherd Grigori heals dying heirs and binds them as unwitting phylacteries.
 - [[sentinels-of-the-eyrie|Sentinels Of The Eyrie]] — Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter.
 - [[tessarine-concordat|Tessarine Concordat]] — Colonial commercial power that turns credit, contracts, insurance, route underwriting, and trade dependency into political leverage. Calveno is its strongest northern foothold.
+- [[the-glass-debt|The Glass Debt]] — [stub] Stub — pirate entity known for making Maw-adjacent salvage traffic change course. No further details on file.
 - [[the-passage|The Passage]] — Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.
+- [[the-velvet-noose|The Velvet Noose]] — [stub] Stub — mostly-rumour pirate entity near the Drowned Maw; enough of a reputation to make convoys wait for daylight.
 - [[waveservants|Waveservants]] — Umberlee's practical clergy: collectors, witnesses, and shrine operators whose neutrality lets them collect tribute from every side of a harbor.
 
 ## entities/deities
@@ -261,6 +268,10 @@ sources: []
 - [[dinghy-mooring|Dinghy Mooring]] — Overnight lagoon-side tie-up for a small dinghy or ship's launch — ring bolts, calm water, nothing stolen.
 - [[document-transit|Document Transit]] — Secure transit for sealed documents through the Warren's Kin network — 5 gp minimum, price reflects content weight not physical weight.
 - [[dreamwort-extract|Dreamwort Extract]] — A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours.
+- [[dried-beans|Dried Beans]] — Dried legumes for long-passage provisioning — cheap, filling, and they keep indefinitely when dry.
+- [[dried-fruit|Dried Fruit]] — Raisins, mango strips, and tamarind — sweet provision that keeps morale marginally above minimum.
+- [[dried-herbs|Dried Herbs]] — Common dried kitchen and medicinal herbs — cooking flavour and basic medicinal use, sold at general goods stores.
+- [[dried-salt-fish|Dried Salt Fish]] — Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.

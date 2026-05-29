@@ -260,3 +260,9 @@ sources: []
 - 2026-05-28: Bastian Crev — stub upgraded to full page with Mortis data and backstory
 - 2026-05-28: Bastions — rules reference created (wiki/rules/subsystems/bastions.md)
 - 2026-05-28: Battlefield Actions — encounter-design reference created (wiki/rules/encounter-design/battlefield-actions.md)
+- 2026-05-28: Beaumont Sel — DM stub upgraded to full player-facing page with stat block and session events
+- 2026-05-28: Bice Riva — new NPC page created; Al Fondale stub created
+- 2026-05-28: Bile of the Drowned — new item page
+- 2026-05-28: Bioluminescent Paint — new item page
+- 2026-05-28: Block and Tackle — new item page
+- 2026-05-28: Boiled Crab — new item page

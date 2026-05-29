@@ -130,7 +130,9 @@ sources: []
 - [[elemental-plane-of-water|Elemental Plane of Water]] — A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
 - [[fare-ia|Fare I'a]] — A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell.
 - [[fifitas-slip|Fifita's Slip]] — An informal back-channel boatyard on the lagoon side of Kalowe's second limestone island — no dry-dock books, no Canal Commission, and a proprietor who prices a job before you finish explaining it.
-- [[galewall|The Galewall]] — A permanent tropical storm belt marking the western edge of the Shattered Sea. Three-week crossing under the right pilot. Arclight-phoenix activity is likely what sustains it. Every crossing should cost something.
+- [[fort-crestwall|Fort Crestwall]] — The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should.
+- [[galewall|The Galewall]] — The permanent western storm belt separating the Scatter from the colonial homelands — a three-week crossing under the right pilot, with a one-in-three loss rate and no exceptions.
+- [[galewall-dm|The Galewall — DM Notes]] — DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
 - [[halythion|Halythion]] — Hidden sea elf city built 15–60 feet into the Shearwall Reef, south of the Midchain near the Tail. Only accessible to sea elves and a handful of authorized outsiders by vessels drawing under 2 feet. Maren knows it exists.
 - [[high-eyrie|High Eyrie]] — [stub] Basalt sea-stack monastery of the Sentinels of the Eyrie, founded to counter Umberlee's Waveservants. Crissdalynn trained here and was banished until her Drowned Maw task is complete.
 - [[karath|Karath]] — [stub] Stub — Grung-controlled island in the Verdant Teeth with more visible military presence than Dreth. No further details on file.
@@ -289,6 +291,10 @@ sources: []
 - [[flask-of-endless-water|Flask of Endless Water]] — A ceramic flask that produces unlimited fresh water on command — stream, fountain, or geyser. Jean-Claude's. Origin unestablished.
 - [[flintlock-pistol|Flintlock Pistol]] — Martial ranged weapon. Heavy crossbow damage (1d10) in a one-handed Light package — the only way to get that damage tier without two hands. Trades range and reliability for that flexibility.
 - [[floor-lodging|Floor Lodging]] — A spot on the communal floor of the Warren's Low Lamp — warm, safe, and watched.
+- [[fog-cannon|Fog Cannon]] — A deck-mounted fog generator for concealment and disengagement maneuvers — drops a 60-foot fog bank on demand, recharges in 24 hours.
+- [[frag-canister|Frag Canister]] — Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius.
+- [[fresh-citrus|Fresh Citrus]] — Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else.
+- [[fresh-water|Fresh Water]] — A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.

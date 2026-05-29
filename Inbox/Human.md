@@ -1,0 +1,62 @@
+---
+appearance: Humans vary as widely as the peoples of Earth; no single build, coloring,
+  or height defines them.
+campaign: shattered-sea
+confidence_level: medium
+created: 2026-04-21
+publish: true
+sources:
+- Player's Handbook (2024)
+- raw/ingested/clippings/Human - D&D 5e (2024).md
+subtype: species
+summary: Species page for Human.
+tags: []
+title: Human
+type: entity
+updated: 2026-04-21
+---
+
+# Human
+
+*Medium or Small Humanoid*
+
+*Found throughout the multiverse, humans are as varied as they are numerous. Their ambition and resourcefulness are commended, respected, and feared on many worlds.*
+
+---
+
+| | |
+|---|---|
+| **Creature Type** | Humanoid |
+| **Size** | Medium (4–7 ft.) or Small (2–4 ft.), chosen at character creation |
+| **Speed** | 30 ft. |
+| **Life Span** | ~80 years |
+
+---
+
+## Overview
+
+Humans originate from Sigil, the torus-shaped city at the center of the multiverse where Common was born. From there they spread to every part of the multiverse. They are as diverse in appearance as the peoples of Earth and worship many gods.
+
+## Traits
+
+**Resourceful.** You gain Heroic Inspiration whenever you finish a Long Rest.
+
+**Skillful.** You gain proficiency in one skill of your choice.
+
+**Versatile.** You gain two Origin feats of your choice.
+
+---
+
+## Connections
+
+- [[Species]]
+- [[content/shattered-sea/private/rules/Feats]]
+- [[Shattered-Sea]]
+- [[Rattkin]]
+- [[Grung]]
+- [[Antherian]]
+- [[content/shattered-sea/characters/player/Delmar-Fisk|Delmar Fisk]] — Variant Human Swashbuckler Rogue PC
+
+## Sources
+
+- [[raw/clippings/Human - D&D 5e (2024)|Human — D&D 5e 2024]]

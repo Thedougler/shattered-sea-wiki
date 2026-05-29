@@ -146,8 +146,8 @@ sources: []
 - [[tail|The Tail]] — The eastern end of the Verdant Scatter — high cliffs, cold upwelling, hard pilots, longline grounds, morning fog, and Shelfworks salvage staging.
 - [[the-drowned-maw|The Drowned Maw]] — A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
 - [[tidefall|Tidefall]] — [stub] Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription.
-- [[vel-orn|Vel Orn]] — [stub] Site in the Sunken Crown with Umberlee's Blue Shrine, where Fisk's fleet stole the Pearl of Souls.
-- [[verdant-scatter|Verdant Scatter]] — [stub] Stub — island-scatter region to the west of the Drowned Maw crossing; the Maw runs along its eastern edge.
+- [[vel-orn|Vel-Orn]] — The barren black-stone shrine island of the Sunken Crown — Umberlee's Blue Shrine, water-debt obligations, and the island from which Fisk's fleet stole the Pearl of Souls.
+- [[verdant-scatter|The Verdant Scatter]] — The main island chain of the Shattered Sea: two east-west arcs between the Galewall and the Drowned Maw, with the Crown Islands to the north and the Midchain to the south.
 - [[verdant-teeth|Verdant Teeth]] — Grung homeland. Outsiders trade at designated beaches only; the interior belongs to the caste-bound, slaveholding Grung Clans that Jean-Claude fled.
 - [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
 
@@ -182,6 +182,7 @@ sources: []
 - [[meth-var|Meth-Var]] — The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar.
 - [[ral-arn|Ral-Arn]] — The memory island of the Sunken Crown — where the oldest family records, tide accounts, and storm marks are kept carved in stone.
 - [[stenmark|Stenmark]] — The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins.
+- [[umberlee-shrine|Umberlee's Shrine — Sunken Crown]] — An old Waveservant shrine cut into black stone on Vel-Orn in the Sunken Crown, tied to water-debt, drowned names, and the old Umberlee worship of the Blue Hole.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -422,7 +423,9 @@ sources: []
 - [[the-uncharted-coast|The Uncharted Coast]] — A hand-drawn navigational chart of professional quality, depicting approximately 200 miles of coastline that does not appear on any Crown, Tessarine, or commercial chart.
 - [[tide-reader|Tide Reader]] — A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters.
 - [[timber-and-fittings|Timber and Fittings]] — Spare planks, bolts, canvas, and rope sold at chandlery rate from working boatyards — stock varies, but a good yard always has the basics.
-- [[truth-stone|Truth Stone]] — Stone that compels truth. Beaumont slid it to Jean-Claude; Jean-Claude used it and confirmed three facts about himself.
+- [[tinderbox|Tinderbox]] — Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions.
+- [[tooth-extraction|Tooth Extraction]] — Professional tooth extraction — 1 sp, and the apothecary is fast about it.
+- [[truth-stone|Truth Stone]] — A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 

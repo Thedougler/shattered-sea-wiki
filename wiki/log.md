@@ -248,3 +248,6 @@ sources: []
 - 2026-05-28 ingest: Reginald-Fenn — new/upgraded NPC page
 - 2026-05-28 ingest: Reweti-Kahurangi — new/upgraded NPC page
 - 2026-05-28 ingest: Ruk — new/upgraded NPC page
+- 2026-05-28 ingest: Savia-Brentino — new/upgraded NPC page
+- 2026-05-28 ingest: Suryo-Wibowo — new/upgraded NPC page
+- 2026-05-28 ingest: Taufa-Fifita — new/upgraded NPC page

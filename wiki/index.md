@@ -101,10 +101,11 @@ sources: []
 - [[reginald-fenn|Reginald Fenn]] — Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience.
 - [[reweti-kahurangi|Reweti Kahurangi]] — Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once.
 - [[ruk|Ruk]] — Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
-- [[savia-brentino|Savia Brentino]] — [stub] Stub — Carpenters' Slip yard master in Calveno; does hull work without Canal Commission filings; refuses cold approaches; Tangle-adjacent.
+- [[savia-brentino|Savia Brentino]] — Proprietor of Carpenter's Slip in Calveno. Thirty, small, sawdust in her eyebrows. Speaks in structural assessments. Does not quote timelines she cannot keep and does not do cosmetic work.
 - [[serin-haut|Serin Haut]] — [stub] Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
 - [[stripes-bitemore|Stripes Bitemore]] — Hunter from Keth Naar whose tribe read the seas as wrong and sent him to find the cause. Took passage on the Saltwright before Session 01; absent from current active party.
-- [[taufa-fifita|Taufa Fifita]] — [stub] Stub — patriarch of the Taufa Fifita trading house on Kalowe; Noa Fifita's father; his family connection is what keeps Fifita's Slip off the harbour books.
+- [[suryo-wibowo|Suryo Wibowo]] — Proprietor of Wibowo's Provisions on Kalowe's first island. Broad, efficient, talks at the same speed he works. Will tell a captain who is under-ordering exactly why, in terms that are not unkind but are precise.
+- [[taufa-fifita|Taufa Fifita]] — Patriarch of the Fifita family, proprietor of the Taufa Fifita & Sons chandlery on Kalowe. Knows every ship that has bought rope from him and what they used it for in general terms. Doesn't ask about specifics.
 - [[umberlee-servant|Umberlee's Servant (unnamed)]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
 
 ## entities/places
@@ -141,6 +142,7 @@ sources: []
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 - [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.
+- [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
@@ -170,6 +172,9 @@ sources: []
 - [[ponte-bassa|The Ponte Bassa]] — [stub] Stub — Calveno tavern and canal-boat hire; [[oleandro-fuschi|Oleandro Fuschi]] keeps it; good for food, boats, and arrival intelligence.
 - [[studio-orsini|Studio Orsini]] — [stub] Workshop or studio in Calveno run by Marta Orsini. Referral destination for Jean-Claude's fertilized whip shark eggs.
 - [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
+
+## entities/places/settlements/kalowe
+- [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — [stub] Primary chandlery on Kalowe — run by Taufa Fifita and his sons; family also operates Fifita's Slip on the lagoon side.
 
 ## entities/places/settlements/warren
 - [[low-lamp|Low Lamp]] — [stub] Stub — Warren sub-location; referenced in Nona's table scene as a Tangle lead.

@@ -239,3 +239,6 @@ sources: []
 - 2026-05-28 ingest: Maggie-Porcelain-Pots — upgraded stub to full NPC page
 - 2026-05-28 ingest: Marrow — upgraded stub to full NPC page
 - 2026-05-28 ingest: Marta-Orsini — upgraded stub to full NPC page
+- 2026-05-28 ingest: Nigel-Strutt — new/upgraded NPC page
+- 2026-05-28 ingest: Noa-Fifita — new/upgraded NPC page
+- 2026-05-28 ingest: Norrington-Kingsly — new/upgraded NPC page

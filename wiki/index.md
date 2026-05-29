@@ -39,7 +39,7 @@ sources: []
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water genasi captain of the Narrow in Fisk's Fleet. Loud, warm, exploratory, and one of the five souls pressed into Delmar Fisk.
 - [[master-kyzil|Master Kyzil]] — Large owl-like figure; Crissdalynn's master or mentor. Reunited with her in Calveno after searching Kylo and Firefall. Thought she was dead when her ship went down.
-- [[noa-fifita|Noa Fifita]] — [stub] Referenced in the Kalowe–Takowan survey situation. Role not yet established.
+- [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch of the Black-Jaw Passage network; Perrin's grandmother. Met in Calveno's Le Paludi kitchen. Attacks on Perrin called off. Has a favor to ask — he said yes before hearing it. Holds the paired sending stone.
 - [[rael-corven|Rael Corven]] — Captain of the Red Lady and flag captain of Fisk's Fleet. His soul is one of the five captains pressed into Delmar Fisk.
 - [[rupert-knighton|Rupert Knighton]] — Dravosi Crown figure who will send ships in response to Cap'n Gorgeous's death. Not yet encountered. Represents the institutional consequence of the Session 01–02 boarding actions.
@@ -91,6 +91,8 @@ sources: []
 - [[margaret-porcelain-pots|Maggie Porcelain Pots]] — Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week.
 - [[marrow|Marrow]] — Cargo broker operating from an alcove in the Warren's Marrow's. Gives no other name and is not asked for one. Has been in the same spot for fifteen years. Accepts Kin by default; Dry need a Kin introduction and his own read of the situation.
 - [[marta-orsini|Marta Orsini]] — Proprietor of Studio Orsini in Calveno's Le Paludi district. Late forties, pale, precise. Knows exactly what her compounds will be used for and doesn't ask. Gives instructions once and expects them followed.
+- [[nigel-strutt|Nigel Strutt]] — Crown chandlery clerk at the Tidefall Chandlery — young, conscientious, and genuinely distressed when a customer's paperwork is not in the right order.
+- [[norrington-kingsly|Norrington Kingsly]] — Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation.
 - [[oleandro-fuschi|Oleandro Fuschi]] — [stub] Stub — Soft-spoken Ponte Bassa tavern keeper in Calveno; remembers vessels better than names.
 - [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
@@ -99,6 +101,7 @@ sources: []
 - [[savia-brentino|Savia Brentino]] — [stub] Stub — Carpenters' Slip yard master in Calveno; does hull work without Canal Commission filings; refuses cold approaches; Tangle-adjacent.
 - [[serin-haut|Serin Haut]] — [stub] Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
 - [[stripes-bitemore|Stripes Bitemore]] — Hunter from Keth Naar whose tribe read the seas as wrong and sent him to find the cause. Took passage on the Saltwright before Session 01; absent from current active party.
+- [[taufa-fifita|Taufa Fifita]] — [stub] Stub — patriarch of the Taufa Fifita trading house on Kalowe; Noa Fifita's father; his family connection is what keeps Fifita's Slip off the harbour books.
 - [[umberlee-servant|Umberlee's Servant (unnamed)]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
 
 ## entities/places
@@ -126,11 +129,13 @@ sources: []
 
 ## entities/places/buildings
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
+- [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — [stub] Only apothecary between Kalowe and Port Tidefall — run by Ilaria Grimaldi on Kalowe's third island.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
 - [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
+- [[tidefall-chandlery|Tidefall Chandlery]] — [stub] Crown-sanctioned naval outfitter in Port Tidefall — first stop for vessels provisioning after inspection.
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.

@@ -106,7 +106,6 @@ sources: []
 - [[pell|Pell]] — Gnome labour slave at Sorn — the person who talked to Jean-Claude as if he were an equal, told him there were other ways of living, and whose death he could not prevent.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
 - [[prospero-morsani|Prospero Morsani]] — Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part.
-- [[ral-arn|Ral-Arn]] — [stub] Stub — Keth-Naar tribe member associated with Elder Anton. No further details on file.
 - [[reginald-fenn|Reginald Fenn]] — Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience.
 - [[reweti-kahurangi|Reweti Kahurangi]] — Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once.
 - [[ruk|Ruk]] — Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
@@ -178,6 +177,7 @@ sources: []
 - [[karath|Karath]] — A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning.
 - [[keth-naar|Keth-Naar]] — A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone.
 - [[meth-var|Meth-Var]] — The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar.
+- [[ral-arn|Ral-Arn]] — The memory island of the Sunken Crown — where the oldest family records, tide accounts, and storm marks are kept carved in stone.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -376,6 +376,10 @@ sources: []
 - [[private-alcove|Private Alcove]] — A curtained booth off the south wall of the Low Lamp — for conversations that need to not carry. 2 sp.
 - [[private-room|Private Room]] — A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night.
 - [[puntura|Puntura]] — A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike.
+- [[rapier|Rapier]] — Martial melee weapon. Finesse makes it the go-to for Dexterity-based fighters who want a d8 damage die without committing to Strength.
+- [[registry-plate-removal|Registry Plate Removal]] — Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings.
+- [[rice|Rice]] — Staple grain provision — padded against damp in waxed cloth, reliable on any passage. 5 sp per 10 lb.
+- [[rigging-block|Rigging Block]] — A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
@@ -463,6 +467,7 @@ sources: []
 - [[mounts-and-vehicles|Mounts and Vehicles]] — PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold.
 - [[navigator-chart-room|Navigator's Chart Room]] — Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
 - [[provisions-store|Provisions Store]] — Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
+- [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] —

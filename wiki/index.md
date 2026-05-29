@@ -107,6 +107,8 @@ sources: []
 - [[suryo-wibowo|Suryo Wibowo]] — Proprietor of Wibowo's Provisions on Kalowe's first island. Broad, efficient, talks at the same speed he works. Will tell a captain who is under-ordering exactly why, in terms that are not unkind but are precise.
 - [[taufa-fifita|Taufa Fifita]] — Patriarch of the Fifita family, proprietor of the Taufa Fifita & Sons chandlery on Kalowe. Knows every ship that has bought rope from him and what they used it for in general terms. Doesn't ask about specifics.
 - [[umberlee-servant|Umberlee's Servant (unnamed)]] — [stub] Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes.
+- [[vincenzo-black-jaw|Vincenzo Black-Jaw]] — Deceased patriarch of the Black-Jaw Run — built and captained the Vestra, Nona's late husband, Perrin's grandfather.
+- [[vrtek|Vrtek]] — Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships.
 
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — [stub] Deepest known Antheri construction, built into the western wall of the Drowned Maw and oriented toward the planar fissure below.
@@ -146,7 +148,7 @@ sources: []
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.
-- [[calders-tooth|Calder's Tooth]] — [stub] Island guarding the western mouth of the Central Strait; limestone cave systems under the Overland Track are used by The Passage. Parent island of the Cape Solitude lighthouse situation.
+- [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] — [stub] Island group referenced as a destination beyond the Galewall crossing, toward the western edge of the Shattered Sea.

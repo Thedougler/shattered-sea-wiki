@@ -71,6 +71,7 @@ sources: []
 | Inbox/Catarina-DaVirelli.md | entity-source | ingested | 2026-05-28 | `wiki/entities/characters/npcs/catarina-davirelli.md` (updated: active problems, DM notes, inventory tables) |
 
 | Inbox/Uncertainty.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/uncertainty.md` (new — full refit, crew, facilities, modifications) |
+| Inbox/HCS-Surety.md | entity-source, ship | ingested | 2026-05-28 | `wiki/entities/vehicles/hcs-surety.md` (updated — full stat block, session log, Crown recognition clock) |
 
 ## Pending Queue (status: pending, priority order)
 (none)

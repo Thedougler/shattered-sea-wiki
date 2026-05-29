@@ -175,7 +175,7 @@ sources: []
 
 ## entities/vehicles
 - [[fernen|Fernen]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
-- [[hcs-surety|HCS Surety]] — Ex-HCS Surety, now sailing as the Uncertainty (private vessel, HCS prefix dropped). In dry dock at La Vasca, Calveno. 5-day repair estimate. Password: garden.
+- [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.

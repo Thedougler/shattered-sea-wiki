@@ -52,8 +52,8 @@ sources: []
 - [[rupert-knighton|Commodore Rupert Knighton]] — [DM-only] Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
 - [[serafina-windfall-fisk|Serafina Windfall Fisk]] — Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter.
 - [[shepherd-grigori|Shepherd Grigori]] — A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks.
-- [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen in Fisk's Fleet. Methodical, careful, route-wise, and one of the five souls pressed into Delmar Fisk.
-- [[simone-tabarnack|Simone Tabarnack]] — [DM-only] Jean-Claude's younger sister. Purple-and-gold Grung warlord-tier soldier; betrayed Jean-Claude and Pell; leads Sorn's garrison and supplies toxin tied to the Dravosi Crown.
+- [[sienne-orre|Sienne Orre]] — Druid and captain of the Fernen, Fisk's fourth vessel — drowned at the Drowned Maw when Umberlee sank the fleet. Her soul is inside Delmar Fisk.
+- [[simone-tabarnack|Simone Tabarnack]] — Jean-Claude's younger sister — purple-caste Grung garrison soldier from Sorn, disciplined and clan-loyal, the one who told their parents about Pell.
 - [[suke|Suke]] — Newest Moucheron member of the Five Blades. Quiet, watchful, and still adjusting from Murrat to Kalowe contract work.
 - [[toa|Toa]] — Biggest and most readable member of the Five Blades. Cheerful Moucheron mercenary with opinions about how fights went wrong.
 - [[varet|Varet]] — Moucheron contract speaker for the Five Blades mercenary company in Kalowe. Quotes rate and feeding clause before ink touches paper.
@@ -397,6 +397,9 @@ sources: []
 - [[shark-pull|Shark Pull]] — Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently.
 - [[ships-biscuit|Ship's Biscuit]] — Hard, dry, long-lasting sea bread — the staple provision of every working vessel in the Shattered Sea.
 - [[shortbow|Shortbow]] — Simple ranged weapon — compact, light, no proficiency barrier, the default ranged option for rangers, rogues, and anyone who needs reach without martial training.
+- [[shortsword|Shortsword]] — A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships.
+- [[signal-lantern|Signal Lantern]] — Shuttered lantern with coloured glass panels for maritime signalling — found at every chandlery supplying working ships.
+- [[silk-rope|Silk Rope]] — Lighter and stronger than hemp, sold in small quantities at premium chandleries.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
 - [[the-duchess|The Duchess]] — [stub] Delmar Fisk's musket. He calls her his wife.
 - [[the-snap|The Snap]] — [stub] Stub — prototype Antheri-fabric buckler built by Catarina Da'Virelli for a small-framed client. Status and whereabouts unknown.
@@ -488,6 +491,7 @@ sources: []
 ## rules/core
 - [[circle-magic|Circle Magic]] —
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
+- [[siege-rules|Siege Rules]] — Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
 
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] —

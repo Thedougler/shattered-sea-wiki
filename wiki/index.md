@@ -103,7 +103,7 @@ sources: []
 - [[norrington-kingsly|Norrington Kingsly]] — Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation.
 - [[oleandro-fuschi|Oleandro Fuschi]] — Proprietor of Ponte Bassa, Calveno's canal-bridge tavern. Wide, soft-spoken, moves like he has all day. Keeps a mental ledger of every vessel that has moored at Calveno in twenty years and has never been caught wrong about one.
 - [[oswald-crench|Oswald Crench]] — Dwarf proprietor of the Shelf Instrument Dealer in Port Tidefall — has been calibrating Crown navigation equipment since before most current officers were posted east, and considers every customer a mild interruption to the cataloguing.
-- [[pell|Pell]] — [stub] Jean-Claude's gnome friend. Tortured to death over a month as a lesson in hardness. Taught JC that every species has unique strengths. Still present in every decision JC makes.
+- [[pell|Pell]] — Gnome labour slave at Sorn — the person who talked to Jean-Claude as if he were an equal, told him there were other ways of living, and whose death he could not prevent.
 - [[petra-venn|Petra Venn]] — [stub] Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
 - [[prospero-morsani|Prospero Morsani]] — Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part.
 - [[ral-arn|Ral-Arn]] — [stub] Stub — Keth-Naar tribe member associated with Elder Anton. No further details on file.
@@ -360,6 +360,8 @@ sources: []
 - [[oilskin-canvas|Oilskin Canvas]] — Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard.
 - [[padlock|Padlock]] — A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp.
 - [[passage-network-introduction|Passage Network Introduction]] — A formal introduction into the Passage's Kin-network for Dry (non-Rattkin) seeking operational access — Marrow decides eligibility. 15 gp minimum.
+- [[passage-paper-referral|Passage Paper Referral]] — An introduction to someone who can produce passage papers — not the papers themselves, and only to strangers Fifita has read.
+- [[pearl-of-souls|Pearl of Souls]] — Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
@@ -483,6 +485,7 @@ sources: []
 ## dm
 - [[combat-analytics|Combat Analytics — Shattered Sea]] — [stub] Stub — populate after first combats. Empirical combat data to calibrate encounter design.
 - [[jean-claude-primer|Jean-Claude Primer]] — Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers.
+- [[perrin-primer|Perrin Primer]] — Agent quick reference for spotlighting and fairly pressuring Perrin's ranged play, water mobility, avoidance, and family/patron hooks.
 - [[player-interests|Player Interests — Shattered Sea]] — Stub — populate after first session. Tracks what each player is engaged with to drive content depth.
 
 ## (root)

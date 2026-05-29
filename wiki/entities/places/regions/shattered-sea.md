@@ -1,11 +1,16 @@
 ---
 type: entity
 subtype: region
+campaign: shattered-sea
 status: stub
 audience: dm
+publish: false
 summary: "The campaign's setting: an archipelago in two main arcs separated by a wide channel."
+created: '2026-05-28'
+updated: '2026-05-28'
 tags: [stub, place, region, setting]
 sources: ["wiki/lore/campaign-overview.md"]
+confidence_level: medium
 ---
 
 # The Shattered Sea — Stub

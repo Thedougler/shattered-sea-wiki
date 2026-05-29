@@ -362,7 +362,12 @@ sources: []
 - [[passage-network-introduction|Passage Network Introduction]] — A formal introduction into the Passage's Kin-network for Dry (non-Rattkin) seeking operational access — Marrow decides eligibility. 15 gp minimum.
 - [[passage-paper-referral|Passage Paper Referral]] — An introduction to someone who can produce passage papers — not the papers themselves, and only to strangers Fifita has read.
 - [[pearl-of-souls|Pearl of Souls]] — Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw.
-- [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
+- [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Swim speed 60 ft., breathe underwater, manta ray form while the hood is up. Kept Perrin alive when his ship didn't.
+- [[phrase-box|Phrase Box]] — A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp.
+- [[pistol-ammunition|Pistol Ammunition]] — Paper cartridges of black powder and ball for flintlock pistols and muskets — kept dry in waxed paper, useless when wet. 12 gp per 20.
+- [[piton|Piton]] — A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10.
+- [[pneumatic-grapple|Pneumatic Grapple]] — A wrist-mounted device that fires a grappling hook up to 60 feet and retracts mechanically — three shots before a 10-minute repressurize.
+- [[poison-gas-canister|Poison Gas Canister]] — Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.

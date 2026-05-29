@@ -1,24 +1,37 @@
 ---
+title: Perrin's Cloak of the Manta Ray
 type: entity
 subtype: item
+item_type: magic-item
+rarity: uncommon
+publish: true
 campaign: shattered-sea
+audience: players
 status: active
-audience: dm
-publish: false
-summary: "Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin."
-created: 2026-05-27
-updated: 2026-05-27
-tags: [item, magic-item, perrin, black-jaw]
-sources: ["Inbox/Perrin-Black-Jaw.md"]
 confidence_level: confirmed
-relationships:
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — current bearer"
-  - "[[vestra|Vestra]] — earned through service to the ship"
+attunement: true
+homebrew: false
+tags: [item, magic-item, perrin, black-jaw, wondrous]
+sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Perrins-Cloak-of-the-Manta-Ray.md"]
+summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Swim speed 60 ft., breathe underwater, manta ray form while the hood is up. Kept Perrin alive when his ship didn't."
 ---
 
 # Perrin's Cloak of the Manta Ray
 
-Family heirloom carried by [[perrin-black-jaw|Perrin Black-Jaw]]. Its origin is murky. Perrin earned it through service to the [[vestra|Vestra]].
+> *An old family heirloom. It kept him alive when his ship didn't.*
 
-> [!mechanic]
-> Use the standard Cloak of the Manta Ray rules unless a later source establishes a Shattered Sea variant.
+An old travel cloak in mottled grey-green, the fabric slightly stiff and smelling faintly of mildew regardless of how it's stored — the stitching along the hem is a different hand than the original, repaired more than once over more years than anyone in the family can account for.
+
+## Properties
+
+**[RAW]** Standard *Cloak of the Manta Ray* (DMG):
+- While wearing and attuned: swim speed 60 ft., breathe underwater.
+- While hood is up: appear to be a manta ray, gaining the manta ray's damage immunities and resistances.
+
+## History
+
+A Black-Jaw family heirloom. Perrin earned it through service to the [[vestra|Vestra]] and carried it when the ship went down. Its origin before the family is not clearly established.
+
+## Current Location
+
+Carried by [[perrin-black-jaw|Perrin Black-Jaw]].

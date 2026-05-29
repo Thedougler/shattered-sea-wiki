@@ -392,6 +392,23 @@ def cross_file_checks(records, slug_to_paths):
     for slug, paths in slug_to_paths.items():
         lower_index.setdefault(slug.lower(), []).extend(paths)
 
+    # Duplicate slugs: two files sharing a basename make every [[slug]] to them
+    # ambiguous — Obsidian picks one arbitrarily. Flag each colliding file.
+    for low, paths in lower_index.items():
+        if len(paths) > 1:
+            others = sorted(paths)
+            for p in paths:
+                rest = [o for o in others if o != p]
+                by_file[p].append(
+                    Issue(
+                        "error",
+                        "duplicate-slug",
+                        p,
+                        f"slug also used by: {', '.join(rest)} — wikilinks to it are ambiguous",
+                        fix="rename one file to a distinct slug and update its inbound links",
+                    )
+                )
+
     for relpath, data, body in records:
         if os.path.basename(relpath) in SKIP_AS_SOURCE:
             continue  # generated catalogs / bookkeeping aren't link sources

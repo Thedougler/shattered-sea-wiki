@@ -35,7 +35,7 @@ sources: []
 - [[branca|Branca]] —
 - [[catarina-davirelli|Catarina Da'Virelli]] — An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
-- [[cosimo-verantio|Cosimo Verantio]] — [stub] Stub — The Principal; hidden Tessarine operative who manipulated the Chain Council into commissioning Fisk's Fleet to steal the Pearl of Souls, with the real goal of keeping it from Aldric Drave.
+- [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
 - [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet. Blunt, enduring, practical, and one of the five souls pressed into Delmar Fisk.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
@@ -77,7 +77,7 @@ sources: []
 - [[cedric-hollowell|Cedric Hollowell]] — [DM-only] Crown-licensed import factor in Port Tidefall and Verity's father — set the financial terms that sent Geoffrey away, has a ledger problem he may or may not know about, and keeps making introductions his daughter keeps not concluding.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
-- [[coralyra-dranra|Coralyra Dranra]] — [stub] Stub — created during ingest of Flappers the Seal. Coralyra Dranra is referenced as Flappers' person; no further details available.
+- [[coralyra-dranra|Coralyra Dranra]] — Season 2 PC concept — beautiful elf sorcerer/bard with a voice that stops conversation; raised in Halythion, left before being evaluated, marked by a Sawek.
 - [[dario|Dario Vanni]] — Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak.
@@ -246,6 +246,7 @@ sources: []
 - [[cooked-meal|Cooked Meal]] — Rice, pork, and roast plantain — the evening hot meal at the Flat Water, available while it lasts.
 - [[cooking-oil|Cooking Oil]] — Palm oil or similar clean cooking fat — essential for any galley that does more than boil things.
 - [[cooking-tools|Cooking Tools]] — Pots, knives, fire strikers, and trivets — the basic equipment for any galley or kitchen.
+- [[corto-di-velo|Corto di Velo]] — A +1 Calveno dock-pattern shortbow that removes the within-5-ft disadvantage penalty. Purchased by Jean-Claude in the Velo Quarter during Session 04.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -332,6 +333,7 @@ sources: []
 - [[bastions|Bastions]] —
 - [[carpenters-shop|Carpenter's Shop]] —
 - [[chart-archive|Chart Archive]] —
+- [[crew-berths|Crew Berths]] —
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

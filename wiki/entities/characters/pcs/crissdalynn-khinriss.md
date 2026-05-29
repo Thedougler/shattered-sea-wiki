@@ -3,23 +3,14 @@ type: entity
 subtype: pc
 campaign: shattered-sea
 status: active
-audience: dm
-publish: false
+audience: players
+publish: true
 summary: "Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the Red Lady with Delmar Fisk; was mapping the Drowned Maw when it sank. Kyzil's student; cast out of the High Eyrie at 14 — the monastery banishment is the wound that makes everything else matter."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [pc, aarakocra, monk, kensei]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Crissdalynn-Khinriss.md", "Inbox/Campaign-Timeline.md"]
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — fixed point; sole co-survivor of the Red Lady; his opinion is the one that matters"
-  - "[[master-kyzil|Master Kyzil]] — mentor; approval-chase; gifted her the crystal dreidel"
-  - "[[aarakocra|Aarakocra]] — species"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — party"
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — party; his darkness features are a tactical liability for her (no darkvision); she is a crow — he has a genetic terror of birds"
-  - "[[high-eyrie|High Eyrie]] — monastery; trained here; cast out at 14"
-  - "[[red-lady|Red Lady]] — ship that sank at the Drowned Maw; she flew Fisk clear"
-  - "[[the-drowned-maw|The Drowned Maw]] — her incomplete mapping task"
 ---
 
 # Crissdalynn Khinriss
@@ -62,6 +53,25 @@ The mapping is incomplete. She knows it.
 **Tactical note:** No darkvision. Jean-Claude's darkness features (invisibility, advantage) are a liability for her — she is blinded and at disadvantage in magical darkness. Party coordination required when managing light.
 
 **Gods:** [[remnis|Remnis]] (primary). [[syranita|Syranita]] and [[aerdrie-faenya|Aerdrie Faenya]] in the margins. Wears it lightly; prays from habit, not theology.
+
+## Known Possessions
+
+| Item | Notes |
+|---|---|
+| Crystal dreidel | [[master-kyzil|Kyzil]] pressed it into her talons when she left the Eyrie. Spins it when thinking. Throws rainbows in sunlight. |
+| Satchel of charts | Two years of Midchain navigational work from the *Red Lady*. Still being added to. |
+| Geometric leatherwork | Her armour. Maintained with care that doesn't match her public presentation. |
+| Eldritch Claw Tattoo | Uncommon, attuned. Inky lines across talons and forearms, nearly invisible against dark plumage until they move. Unarmed strikes are magical (+1 attack and damage). *Eldritch Maul* (1/dawn, BA): strikes reach 15 ft via inky tendrils; +1d6 force damage on hit for 1 minute. Received from Kyzil on the same day she received the pilgrimage. |
+
+## Relationships
+
+- [[delmar-fisk|Delmar Fisk]] — fixed point; sole co-survivor of the Red Lady; his opinion is the one that matters
+- [[master-kyzil|Master Kyzil]] — mentor; approval-chase; gifted her the crystal dreidel
+- [[perrin-black-jaw|Perrin Black-Jaw]] — party
+- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — party; his darkness features are a tactical liability for her (no darkvision); she is a crow — he has a genetic terror of birds
+- [[high-eyrie|High Eyrie]] — monastery; trained here; cast out at 14
+- [[red-lady|Red Lady]] — ship that sank at the Drowned Maw; she flew Fisk clear
+- [[the-drowned-maw|The Drowned Maw]] — her incomplete mapping task
 
 ## Session Events
 

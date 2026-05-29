@@ -157,7 +157,7 @@ sources: []
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[fifitas-slip|Fifita's Slip]] — [stub] Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita.
 - [[grimaldis-dispensary|Grimaldi's Dispensary]] — A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs.
-- [[harbourmasters-office|Harbourmaster's Office]] — [stub] Harbourmaster's Office in Port Tidefall — Crown authority for vessel registration, surveys, and inspection records.
+- [[harbourmasters-office|Harbourmaster's Office]] — Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter.
 - [[hook-and-ledger|Hook & Ledger]] — [stub] Shelf tavern in Port Tidefall where the paper side of the port comes to drink — run by Hector Podge, who has outlasted seven garrison commanders.
 - [[ormssons-fittings|Ormsson's Fittings]] — [stub] Dry-dock hardware shop on Kalowe's first island — Kettil Ormsson's place, with a back shelf of weapons he doesn't advertise.
 - [[shelf-instrument-dealer|Shelf Instrument Dealer]] — [stub] Port Tidefall's only navigation instrument shop — Shelf fixture run by Oswald Crench, who has been there longer than any current Crown officer.
@@ -172,6 +172,7 @@ sources: []
 - [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 - [[cape-solitude|Cape Solitude]] — The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished.
 - [[dath-mar|Dath-Mar]] — The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be.
+- [[harwick|Harwick]] — The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -304,6 +305,9 @@ sources: []
 - [[hammock-berth|Hammock Berth]] — A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night.
 - [[hand-crossbow|Hand Crossbow]] — Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert.
 - [[handaxe|Handaxe]] — A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp.
+- [[healers-kit|Healer's Kit]] — A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp.
+- [[heavy-crossbow|Heavy Crossbow]] — Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely.
+- [[hempen-rope|Hempen Rope]] — Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
 - [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — Perrin Black-Jaw's Cloak of the Manta Ray, a family heirloom with murky origin, earned through service to the Vestra and now carried by Perrin.
@@ -332,7 +336,7 @@ sources: []
 - [[hcs-surety-owners-manual|Hcs Surety Owners Manual]] — Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
 - [[hcs-tangent|HCS Tangent]] — Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
 - [[hcs-warrant|HCS Warrant]] — A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
-- [[heft|Heft]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
+- [[heft|The *Heft*]] — Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands.
 - [[loud-argument|Loud Argument]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.

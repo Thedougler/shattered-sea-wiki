@@ -1,23 +1,43 @@
 ---
+title: The Heft
 type: entity
-subtype: vehicle
+subtype: ship
+ship_class: Heavy brig
+publish: true
 campaign: shattered-sea
+audience: players
 status: lost
-audience: dm
-publish: false
-summary: "One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw."
-created: 2026-05-27
-updated: 2026-05-28
-tags: [vehicle, ship, lost, fisk-fleet]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md"]
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — fleet admiral"
-  - "[[the-drowned-maw|The Drowned Maw]] — sinking site"
-  - "[[detto-kalash|Detto Kalash]] — captain"
-  - "[[fisks-fleet|Fisk's Fleet]] — fleet"
+cssclasses: [wiki-ship]
+aliases: [Heft, "The Heft"]
+tags: [vehicle, ship, lost, fisk-fleet]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Heft.md"]
+banner: "raw/assets/banners/Detto-Kalash.webp"
+captain: "[[detto-kalash|Detto Kalash]]"
+summary: "Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands."
 ---
 
-# Heft
+# The *Heft*
 
-One of the five ships in [[fisks-fleet|Delmar Fisk's Pearl of Souls fleet]], captained by [[detto-kalash|Detto Kalash]]. Lost at [[the-drowned-maw|the Drowned Maw]].
+![[Detto-Kalash.webp]]
+
+## Overview
+
+A heavy brig — the largest ship in [[fisks-fleet|Fisk's Fleet]] after the *Red Lady*. Broad in the beam and deep-keeled, high freeboard, the hull sitting low under its own weight. Hull painted black from waterline to rail with white gun port lids. Ten gun mounts, five per side. A deliberate presence — nothing about her proportions suggested speed.
+
+Below decks: a magazine below the waterline, a surgeon's berth, crew quarters for a full complement. The hold ran deep and wide. Built to take punishment and hold position.
+
+Third ship of the fleet. Captained by [[detto-kalash|Detto Kalash]].
+
+## The Sinking
+
+Lost simultaneously with the rest of [[fisks-fleet|Fisk's Fleet]] when [[umberlee|Umberlee]] opened [[the-drowned-maw|the Drowned Maw]] beneath them. All hands lost.
+
+## Connections
+
+- [[detto-kalash|Detto Kalash]] — captain
+- [[delmar-fisk|Delmar Fisk]] — fleet admiral
+- [[red-lady|Red Lady]] — fleet flagship
+- [[fisks-fleet|Fisk's Fleet]]
+- [[the-drowned-maw|The Drowned Maw]]
+- [[umberlee|Umberlee]]

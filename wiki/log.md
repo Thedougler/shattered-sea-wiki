@@ -281,3 +281,9 @@ sources: []
 - 2026-05-28 | ingest | Cedric-Hollowell — stub upgraded to full minor NPC
 - 2026-05-28 | ingest | Central-Strait — stub replaced with full gazetteer
 - 2026-05-28 | new stub | the-snap — Antheri-fabric buckler prototype
+- 2026-05-28 | ingest | Chart-Archive — new rules/facility page
+- 2026-05-28 | ingest | Circle-Magic — new rules/core page
+- 2026-05-28 | ingest | Clockwork-Deck-Crew — new item page
+- 2026-05-28 | ingest | Clockwork-Familiar — merged into clockwork-owl-familiar (upgraded stub)
+- 2026-05-28 | ingest | Clydes-Bestiary-of-Oceanic-Creatures — stub upgraded with full excerpts
+- 2026-05-28 | ingest | Common-Wine — new item page

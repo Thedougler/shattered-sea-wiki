@@ -236,8 +236,10 @@ sources: []
 - [[cargo-brokerage|Cargo Brokerage]] — Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold.
 - [[cartographers-table|Cartographer's Table]] —
 - [[caulking-iron|Caulking Iron]] — A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming.
-- [[clockwork-owl-familiar|Clockwork Owl Familiar]] — [stub] Visible Antheri-derived creation from Catarina DaVirelli's workshop, common enough that most people in the Shattered Sea have seen one.
-- [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — [stub] Multi-volume survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print and on tour.
+- [[clockwork-deck-crew|Clockwork Deck Crew]] — A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding.
+- [[clockwork-owl-familiar|Clockwork Owl Familiar]] — Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable.
+- [[clydes-bestiary-of-oceanic-creatures|Clyde's Bestiary of Oceanic Creatures]] — Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations.
+- [[common-wine|Common Wine]] — Imported table wine — average quality, primarily useful for variety and because it keeps better than water at sea.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -314,12 +316,16 @@ sources: []
 - [[rattkin|Rattkin]] — Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port.
 - [[tabaxi|Tabaxi]] — Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
 
+## rules/core
+- [[circle-magic|Circle Magic]] —
+
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] —
 
 ## rules/subsystems
 - [[bastions|Bastions]] —
 - [[carpenters-shop|Carpenter's Shop]] —
+- [[chart-archive|Chart Archive]] —
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

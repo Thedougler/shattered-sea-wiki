@@ -189,7 +189,7 @@ sources: []
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
-- [[port-tidefall|Port Tidefall]] — [stub] Crown port and registration home of the HCS Surety (now the *Uncertainty*) and HCS Warrant; Governor Aldric Voss's seat. Nearest Crown port to Cape Solitude / Calder's Tooth.
+- [[port-tidefall|Port Tidefall]] — Dravosi fortress-port carved into the cliff of Calder's Tooth in three tiers: Dockfront at the waterline, the Shelf mid-cliff, and Fort Crestwall at the crown.
 
 ## entities/places/settlements/calders-tooth
 - [[overland-track|The Overland Track]] — The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls.
@@ -205,7 +205,7 @@ sources: []
 - [[la-vasca|La Vasca]] — The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden.
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.
 - [[moretti-and-sons|Moretti & Sons Chandlery]] — Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up.
-- [[ponte-bassa|The Ponte Bassa]] — [stub] Stub — Calveno tavern and canal-boat hire; [[oleandro-fuschi|Oleandro Fuschi]] keeps it; good for food, boats, and arrival intelligence.
+- [[ponte-bassa|The Ponte Bassa]] — Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years.
 - [[studio-orsini|Studio Orsini]] — [stub] Workshop or studio in Calveno run by Marta Orsini. Referral destination for Jean-Claude's fertilized whip shark eggs.
 - [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
 
@@ -368,6 +368,10 @@ sources: []
 - [[piton|Piton]] — A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10.
 - [[pneumatic-grapple|Pneumatic Grapple]] — A wrist-mounted device that fires a grappling hook up to 60 feet and retracts mechanically — three shots before a 10-minute repressurize.
 - [[poison-gas-canister|Poison Gas Canister]] — Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius.
+- [[potion-of-healing|Potion of Healing]] — A red restorative draught — restores 2d4+2 hit points when drunk. The most commonly sought magical consumable in the Shattered Sea.
+- [[potion-of-water-breathing|Potion of Water Breathing]] — A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels.
+- [[preserved-eel|Preserved Eel]] — Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp.
+- [[preserved-meat-plate|Preserved Meat Plate]] — Salted pork, olives, and hard cheese — for eating slowly over a long conversation.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.

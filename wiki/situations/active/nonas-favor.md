@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, active, perrin, passage, obligation]
 sources: ["Inbox/Session-03-Recap.md"]
 lifecycle: active
-island:
+narrative_island:
 ---
 
 # Nona's Favor

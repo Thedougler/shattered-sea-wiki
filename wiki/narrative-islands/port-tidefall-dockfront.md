@@ -1,5 +1,5 @@
 ---
-type: situation
+type: narrative-island
 subtype: narrative-island
 campaign: shattered-sea
 status: active
@@ -10,8 +10,9 @@ created: 2026-05-28
 updated: 2026-05-28
 tags: [narrative-island, port-tidefall, ships, umberlee, tessarine]
 sources: ["Inbox/Port-Tidefall.md"]
-lifecycle: island
-island:
+portable: false
+entry_points: []
+contains_situations: []
 title: Port Tidefall — Dockfront Opportunities
 region: crown-islands
 confidence_level: high

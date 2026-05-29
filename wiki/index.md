@@ -313,7 +313,7 @@ sources: []
 - [[young-dragon-turtle|Young Dragon Turtle]] — CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.
 - [[young-sea-serpent|Young Sea Serpent]] — CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach.
 
-## situations/islands
+## narrative-islands
 - [[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]] — One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters.
 - [[calveno-raid-signs|Calveno — Raid Prep Signs]] — Location-keyed ambient observations for the Calveno sandbox — the handlers are already in the city. Use one or two per session day, not all at once.
 - [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party.
@@ -321,7 +321,7 @@ sources: []
 - [[il-gioco-delle-beffe-dm|Il Gioco delle Beffe — DM Notes]] — DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge.
 - [[port-tidefall-dockfront|Port Tidefall — Dockfront Opportunities]] — Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors.
 - [[red-lady-salvage-money|Red Lady — Salvage Money]] — Unusual broker money is moving through Calveno toward a Maw salvage commission targeting the Red Lady. Batta Zusto on the Bridge is the accessible thread. The funder is not yet known.
-- [[shepherd-grigori|Shepherd Grigori — Narrative Island]] — A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.
+- [[shepherd-grigori-island|Shepherd Grigori — Narrative Island]] — A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.
 - [[warren-bela-silt-paw|Warren — Bela Silt-Paw]] — A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left.
 - [[warren-ferrin-locke|Warren — Ferrin Locke]] — Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out.
 - [[warren-grung-sewers|Warren — Grung in the Sewers]] — Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building.

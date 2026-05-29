@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, kalowe, dravosi, takowan, intelligence, passage, ship-disguise]
 sources: ["Inbox/Kalowe.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Kalowe — Takowan and Ship Disguise
 region: midchain
 confidence_level: high

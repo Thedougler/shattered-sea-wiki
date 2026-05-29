@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [undead, hierarch, villain, late_game]
 sources: ["Inbox/Shepherd-Grigori copy.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Shepherd Grigori — World State
 confidence_level: high
 region: calveno

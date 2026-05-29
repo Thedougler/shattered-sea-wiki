@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [situation, thread, rattkin, warren, passage, perrin, calveno]
 sources: ["Inbox/Warren.md"]
 lifecycle: active
-island:
+narrative_island:
 confidence_level: high
 relationships:
   - relation: involves

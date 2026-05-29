@@ -1,5 +1,5 @@
 ---
-type: situation
+type: narrative-island
 subtype: narrative-island
 campaign: shattered-sea
 status: active
@@ -10,8 +10,9 @@ created: 2026-05-28
 updated: 2026-05-28
 tags: [narrative-island, event, calveno, skill-challenge]
 sources: ["Inbox/Il-Gioco-delle-Beffe copy.md"]
-lifecycle: island
-island:
+portable: false
+entry_points: []
+contains_situations: []
 title: Il Gioco delle Beffe — DM Notes
 region: calveno
 confidence_level: medium

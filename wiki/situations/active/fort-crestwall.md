@@ -11,7 +11,7 @@ updated: 2026-05-28
 tags: [thread, port-tidefall, fort-crestwall, dravosi, maw]
 sources: ["Inbox/Fort-Crestwall.md"]
 lifecycle: active
-island:
+narrative_island:
 title: Fort Crestwall — Sealed Orders
 region: crown-islands
 confidence_level: high

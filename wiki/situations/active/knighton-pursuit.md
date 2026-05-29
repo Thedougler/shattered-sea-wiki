@@ -11,7 +11,7 @@ updated: 2026-05-27
 tags: [situation, active, pursuit, dravosi]
 sources: ["Inbox/Session-02-Recap.md"]
 lifecycle: active
-island:
+narrative_island:
 ---
 
 # The Knighton Pursuit

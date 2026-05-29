@@ -1,5 +1,5 @@
 ---
-type: island
+type: narrative-island
 subtype: sandbox-run-guide
 campaign: shattered-sea
 status: active
@@ -10,9 +10,6 @@ created: 2026-05-22
 updated: 2026-05-28
 tags: [island, calveno, session-prep, sandbox]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
-lifecycle: dormant
-island:
-confidence_level: high
 portable: false
 entry_points:
   - "La Vasca — ship enters dry dock after Session 03 Calveno approach"
@@ -27,6 +24,7 @@ contains_situations:
   - "[[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]]"
   - "[[calveno-street-encounters|Calveno — Street Encounters]]"
   - "[[calveno-raid-signs|Calveno — Raid Prep Signs]]"
+confidence_level: high
 relationships:
   - "[[calveno|Calveno]] — host city"
   - "[[hcs-surety|Uncertainty]] — party ship in dry dock at [[la-vasca|La Vasca]]"

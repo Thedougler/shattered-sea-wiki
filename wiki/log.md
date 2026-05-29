@@ -266,3 +266,9 @@ sources: []
 - 2026-05-28: Bioluminescent Paint — new item page
 - 2026-05-28: Block and Tackle — new item page
 - 2026-05-28: Boiled Crab — new item page
+- 2026-05-28: Bone Setting — new service item
+- 2026-05-28: Bracers of Archery — new item page (Stripes Bitemore)
+- 2026-05-28: Branca — stub upgraded to full NPC page
+- 2026-05-28: Bullseye Lantern — new item page
+- 2026-05-28: Calder's Tooth — overview prose added (geography, fauna, hooks)
+- 2026-05-28: Canal Boat Hire — new service item

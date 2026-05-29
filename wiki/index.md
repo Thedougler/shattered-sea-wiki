@@ -33,7 +33,7 @@ sources: []
 - [[catarina-davirelli|Catarina DaVirelli]] — Calveno inventor and reverse-engineer of Antheri components; party's primary access point for magical ship enhancements. Has a binding Dravosi Crown contract and an unsolved Spark-Pistol prototype on the side bench.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [stub] Stub — The Principal; hidden Tessarine operative who manipulated the Chain Council into commissioning Fisk's Fleet to steal the Pearl of Souls, with the real goal of keeping it from Aldric Drave.
-- [[cotter-foss|Cotter Foss]] — [stub] Stub — Ship manager and public face of the Nimmik Vollask; the interface between the gnomish crew and outside customers; operates from a folding table at the starboard rail with a ledger and a coffee pot.
+- [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
 - [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet. Blunt, enduring, practical, and one of the five souls pressed into Delmar Fisk.
 - [[ket|Ket]] — Moucheron from Murrat. Pigeon-sized, sentient humanoid mosquito. Was Rook's specimen — caged, starving. Party freed him. Fed from Jean-Claude, then Crissdalynn, then Ensign Wouters' body. Flew toward home.
 - [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
@@ -74,7 +74,7 @@ sources: []
 - [[cedric-hollowell|Cedric Hollowell]] — [stub] Stub — Hollowell family patriarch and license holder; possible author or unwitting vehicle of the bonded-cargo manifest gap in Tidefall.
 - [[cobb|Cobb]] — [stub] Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 - [[colla|Colla]] — Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
-- [[dario|Dario]] — [stub] Stub — Acqua-Nera operator in Calveno; does ship re-identification work for money and certainty.
+- [[dario|Dario Vanni]] — Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 - [[ensign-wouters|Ensign Wouters]] — Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited.
 - [[enzo|Enzo]] — [stub] Nona Black-Jaw's enforcer in Calveno. Present in the Le Paludi kitchen. Ordered to console the Vestra's crew and to call off the attacks on Perrin.
 - [[ettore|Ettore]] — [stub] Stub — Casa Lupo proprietor in Calveno; remembers purchases across decades; decides whether strangers deserve a direction.

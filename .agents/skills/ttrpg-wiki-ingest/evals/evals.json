@@ -4,19 +4,25 @@
     {
       "id": 1,
       "prompt": "What hasn't been ingested into the wiki yet?",
-      "expected_output": "Runs the pending-source scan, compares .raw/ and Inbox/ against wiki/ingest-registry.md, reports concise counts, and does not dump a large queue into chat.",
+      "expected_output": "Runs python3 .claude/scripts/check_ingest.py, reports the count of remaining sources and a recommended next one, and does not dump a large queue or read any registry. If the script returns nothing, reports the queue is clear.",
       "files": []
     },
     {
       "id": 2,
       "prompt": "Ingest Inbox/beffa-festival-notes.md into the wiki.",
-      "expected_output": "Triage source authority, decompose notes into canonical owner pages, update index/log/registry/hot.md as needed, preserve uncertainty, and avoid inventing extra plot.",
+      "expected_output": "Triages source authority, decomposes notes into canonical owner pages with reciprocal links, updates index/log/hot.md as needed, preserves uncertainty, invents no extra plot, archives the source to .raw/<type>/ with archive_source.py --type, commits per source, and never touches a registry.",
       "files": []
     },
     {
       "id": 3,
+      "prompt": "Catch up the wiki — process everything in the inbox.",
+      "expected_output": "Runs check_ingest.py, ingests one source at a time to full quality (no batch-skimming regardless of queue depth), archives + commits each before re-running the script, and continues until check_ingest.py returns nothing. Each source gets full decomposition and cross-linking; quality does not degrade as the queue shrinks.",
+      "files": []
+    },
+    {
+      "id": 4,
       "prompt": "Ingest the reviewed clean transcript for session 04.",
-      "expected_output": "Refuses raw or unresolved transcript ingest, extracts durable session changes, creates or updates the session note, updates affected entity/situation/faction files, and records exact outputs in the ingest registry.",
+      "expected_output": "Refuses raw or unresolved transcript ingest, extracts durable session changes, creates or updates the session note, updates affected entity/situation/faction files, then archives the clean transcript to .raw/sessions/ so it drops off check_ingest.py.",
       "files": []
     }
   ]

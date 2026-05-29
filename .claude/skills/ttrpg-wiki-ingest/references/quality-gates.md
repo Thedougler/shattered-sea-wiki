@@ -21,7 +21,6 @@ Run these before finalizing an ingest task.
 - `wiki/index.md` reflects created, moved, or newly meaningful files.
 - `wiki/log.md` has one-line entries for structural/content changes.
 - `wiki/hot.md` changed only if current world state changed.
-- `wiki/ingest-registry.md` reflects the source status and outputs.
 
 ## Prose Gates
 
@@ -42,7 +41,7 @@ Run:
 
 ```bash
 git diff --check
-python3 .claude/skills/ttrpg-wiki-ingest/scripts/scan_pending.py --include-root-docs
+python3 .claude/scripts/check_ingest.py   # the source just ingested should be gone from the output
 ```
 
 If this skill package was edited, also run:
@@ -64,9 +63,8 @@ If `quick_validate.py` is unavailable or incompatible, validate manually:
 
 Report only:
 
-- Source processed.
+- Source processed and archived to `.raw/<type>/`.
 - Files created/updated.
-- Registry status.
 - Flags requiring DM action.
 - Verification commands run or skipped.
 

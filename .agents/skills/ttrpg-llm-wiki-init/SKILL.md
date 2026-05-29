@@ -77,17 +77,16 @@ the write hook, not by you — see `doctrine.md`.
 ### Phase B — Content Integrity (Checks 9–14)
 
 ```
-[ ] 9.  Inbox/ + .raw/ — run sync_registry.py; surface unregistered sources for ingest
+[ ] 9.  Inbox/ — run check_ingest.py; surface the count of pending sources for ingest
 [ ] 10. Spot-check 3 wiki files for a concrete (non-stub) summary — the hook handles fields
-[ ] 11. wiki/ingest-registry.md — count pending/unregistered items; surface to DM
-[ ] 12. git log --oneline -5 — surface last 5 commits as the operation history (one line)
-[ ] 13. wiki/hot.md — curate ONLY if sessions were ingested since its updated date (see below)
-[ ] 14. wiki/index.md — regenerate deterministically (see below)
+[ ] 11. git log --oneline -5 — surface last 5 commits as the operation history (one line)
+[ ] 12. wiki/hot.md — curate ONLY if sessions were ingested since its updated date (see below)
+[ ] 13. wiki/index.md — regenerate deterministically (see below)
 ```
 
-Run the scan and registry checks together:
+Count pending sources (read-only):
 ```bash
-python3 .claude/scripts/sync_registry.py
+python3 .claude/scripts/check_ingest.py --count
 ```
 
 ### Check 13 — hot.md Curation (Conditional)
@@ -159,7 +158,7 @@ VAULT_ROOT/
 ├── .raw/
 │   └── sessions/ characters/interviews/ characters/sheets/ homebrew/ assets/
 └── wiki/
-    ├── hot.md  index.md  ingest-registry.md  work-queue.md
+    ├── hot.md  index.md  work-queue.md
     ├── system/ task-routing.md  players/
     ├── dm/ player-interests.md  combat-analytics.md
     ├── entities/ characters/pcs/ npcs/ crew/ minor/
@@ -231,7 +230,6 @@ When a routed skill's required reads include a primer or intelligence file (e.g.
 | Advance faction clocks | `faction-clock` |
 | Simulate world / NPC activity off-screen | `world-simulator` |
 | Update player interests | `player-interest-tracker` |
-| Update ingest registry | `ingest-registry-update` |
 | Targeted update to hot.md from a specific event | `hot-update` |
 
 ### Prep & Content Creation

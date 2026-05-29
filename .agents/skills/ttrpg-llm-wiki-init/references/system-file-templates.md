@@ -334,29 +334,3 @@ updated: {YYYY-MM-DD}
 | `wiki/dm/player-interests.md` | dm-intelligence | content-creation, session-prep | quick-ref |
 | `wiki/dm/combat-analytics.md` | dm-intelligence | encounter-design | quick-ref |
 ```
-
----
-
-## wiki/ingest-registry.md Template
-
-```markdown
----
-type: system
-subtype: ingest-registry
-campaign: {campaign}
-audience: agent
-publish: false
-summary: "Tracks every raw source file: what it is, whether it's been processed, and what wiki files it produced."
-created: {YYYY-MM-DD}
-updated: {YYYY-MM-DD}
----
-
-# Ingest Registry — {Campaign Name}
-
-| File | Type | Status | Date | Wiki Outputs |
-|---|---|---|---|---|
-| (none yet) | — | — | — | — |
-
-## Pending Queue (status: pending, priority order)
-(none)
-```

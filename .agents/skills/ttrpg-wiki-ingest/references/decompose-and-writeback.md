@@ -64,12 +64,11 @@ Preserve useful non-canon material in session notes or DM notes as speculation, 
 3. Add reciprocal links.
 4. Update situation/faction clocks if current state changed.
 5. Update `wiki/hot.md` if the table-facing state changed.
-6. Update `wiki/index.md`.
+6. Regenerate `wiki/index.md` (`regen_index.py --write`).
 7. Append `wiki/log.md`.
-8. Update `wiki/ingest-registry.md`.
 
-This order prevents links from pointing to nowhere and makes the registry reflect actual
-wiki output.
+This order prevents links from pointing to nowhere: stubs exist before owners reference them,
+owners exist before reciprocal links, and the index reflects the finished file set.
 
 ## Page Update Pattern
 
@@ -137,7 +136,7 @@ When two established sources conflict:
 1. Create `wiki/discrepancy-log.md` if missing.
 2. Record both claims, source paths, and affected files.
 3. Leave the wiki pages conservative.
-4. Mark the source `blocked` or `partial` in the registry.
+4. Leave the source un-archived in `Inbox/` so it stays on the `check_ingest.py` queue.
 5. Ask the DM for a ruling.
 
 Do not pick the more interesting version.

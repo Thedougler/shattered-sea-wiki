@@ -35,7 +35,7 @@ things that need *your* judgment (a still-default `summary`).
 
 `index.md` is regenerated, not hand-edited: run `python3 .claude/scripts/regen_index.py --write`.
 Other deterministic helpers live in `.claude/scripts/` (`regen_index`, `archive_source`,
-`sync_registry`, `sync_skills`). Reach for a script before doing its job token-by-token.
+`check_ingest`, `sync_skills`). Reach for a script before doing its job token-by-token.
 
 ---
 

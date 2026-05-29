@@ -137,12 +137,10 @@ If a system update is interpretive or strategic, create a "System File Updates N
 in the session note and ask the DM before applying. If it is a direct factual update, apply it
 and log it.
 
-## Registry
+## Archive
 
-When complete:
-
-- Mark clean transcript `ingested`.
-- List `wiki/sessions/session-XX.md` and all updated wiki files.
-- Leave the raw transcript row as `source-only` or `superseded` if both raw and clean files
-  are tracked.
-- Rebuild Pending Queue.
+When complete, archive the clean transcript with `archive_source.py --type transcript` so it
+moves into `.raw/sessions/` and drops off the `check_ingest.py` queue, then commit. If a raw
+transcript of the same session also sits in `Inbox/`, the clean one supersedes it for ingest —
+archive the clean version, and archive the raw one too (it becomes retained evidence in `.raw/`,
+not a second thing to ingest).

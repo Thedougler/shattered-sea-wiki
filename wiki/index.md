@@ -66,6 +66,7 @@ sources: []
 
 ## entities/characters/minor
 - [[algernon-reginald-clyde|Algernon Reginald Clyde]] — Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying.
+- [[bala-tane|Bala Tane]] — Pit boss of the Mud Pits on Kalowe's third island — orc woman, mid-forties, has run the fights for fifteen years. Announces each match like a royal proclamation and then goes completely still for the duration.
 - [[batta-zusto|Batta Zusto]] — [stub] Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage.
 - [[bela-silt-paw|Bela Silt-Paw]] — [stub] Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
 - [[bisou|Bisou]] — Beaumont Sel's capuchin monkey. Neutralized HCS Surety cannons by being thrown through a gun port and pissing in the powder; later stole 15 gp of shinies.
@@ -120,6 +121,7 @@ sources: []
 ## entities/places/buildings
 - [[cats-curios|Cat's Curios]] — [stub] DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling.
 - [[the-flat-water|The Flat Water]] — [stub] Kalowe contact point for hiring the Five Blades mercenary company. Exact venue details are not established yet.
+- [[the-mud-pits|The Mud Pits]] — [stub] Pit fighting venue on Kalowe's third island — run by Bala Tane for fifteen years; entry by her discretion, betting by her runners, match end by her word.
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — [stub] Crown Isle on the route toward Calveno. Glimpsed through a gap in the storm, then the gap closed. Probably Aldenmere — identification uncertain.

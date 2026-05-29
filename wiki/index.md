@@ -49,7 +49,7 @@ sources: []
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
 - [[rael-corven|Rael Corven]] — Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
-- [[rupert-knighton|Rupert Knighton]] — Dravosi Crown figure who will send ships in response to Cap'n Gorgeous's death. Not yet encountered. Represents the institutional consequence of the Session 01–02 boarding actions.
+- [[rupert-knighton|Commodore Rupert Knighton]] — [DM-only] Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
 - [[shepherd-grigori|Shepherd Grigori]] — Cook and shepherd, former HCS Surety crew. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free; Perrin at Arcana 18 couldn't identify it. Back in 1–2 weeks.
 - [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen in Fisk's Fleet. Methodical, careful, route-wise, and one of the five souls pressed into Delmar Fisk.
 - [[simone-tabarnack|Simone Tabarnack]] — [DM-only] Jean-Claude's younger sister. Purple-and-gold Grung warlord-tier soldier; betrayed Jean-Claude and Pell; leads Sorn's garrison and supplies toxin tied to the Dravosi Crown.
@@ -380,6 +380,10 @@ sources: []
 - [[registry-plate-removal|Registry Plate Removal]] — Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings.
 - [[rice|Rice]] — Staple grain provision — padded against damp in waxed cloth, reliable on any passage. 5 sp per 10 lb.
 - [[rigging-block|Rigging Block]] — A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp.
+- [[ringmakers-regret|Ringmaker's Regret]] — A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly.
+- [[rudder-repair|Rudder Repair]] — Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment.
+- [[rum|Rum]] — Distilled sugarcane spirit — ship's stores, shore trade, and the social currency of the Midchain free ports.
+- [[sail-canvas|Sail Canvas]] — Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries.
 - [[salvaged-antheri-plate|Salvaged Antheri Plate]] — Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli in 1490 DR to cover the cannonball breach in his shell.
 - [[sending-stone-nona|Sending Stone (Nona's)]] — Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona.
 - [[the-baroness|The Baroness]] — [stub] Delmar Fisk's rapier.
@@ -471,6 +475,7 @@ sources: []
 
 ## rules/core
 - [[circle-magic|Circle Magic]] —
+- [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
 
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] —

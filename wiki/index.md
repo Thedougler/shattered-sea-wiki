@@ -276,3 +276,6 @@ sources: []
 
 ## (root)
 - [[hot|hot.md — Updated 2026-05-28]] — Current world state, open threads, faction clocks, and predictions. Read first, always.
+
+## entities/creatures
+- [[barnaby-rook|Captain Barnaby Rook — Stat Block]] — CR 3 Dravosi Crown privateer captain. Boarding specialist with Parry reaction, legendary actions, and lair actions aboard the HCS Surety. Phase 3 boss of the Saltwright encounter.

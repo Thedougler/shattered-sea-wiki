@@ -154,6 +154,7 @@ sources: []
 - [[aldenmere|Aldenmere]] — The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake.
 - [[calders-tooth|Calder's Tooth]] — Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 - [[cape-solitude|Cape Solitude]] — The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished.
+- [[dath-mar|Dath-Mar]] — The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be.
 
 ## entities/places/regions
 - [[ashwall-islands|Ashwall Islands]] —
@@ -251,6 +252,8 @@ sources: []
 - [[crowbar|Crowbar]] — A straight iron pry bar — invaluable for shifting stuck hatches, breaking seals, and moving cargo that doesn't want to move.
 - [[custom-metalwork|Custom Metalwork]] — Custom bolt patterns, deck fittings, and ironwork fabricated to specification — 1–2 day turnaround at a dry-dock ironmonger.
 - [[custom-preparation|Custom Preparation]] — A commissioned herbal or medicinal preparation — 1–3 days, ingredients and availability dependent.
+- [[dagger|Dagger]] — A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea.
+- [[deepwater-ink|Deepwater Ink]] — An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures.
 - [[flask-of-endless-water|Flask of Endless Water]] — Compact metal flask carried by Jean-Claude Tabarnack. Has a geyser mode capable of knocking a full-grown human off a gangplank.
 - [[letters-of-marque|Letters of Marque]] — Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession.
 - [[miras-blade|Mira's Blade]] — Blade found in the HCS Surety cargo alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
@@ -266,6 +269,7 @@ sources: []
 
 ## entities/vehicles
 - [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.
+- [[dead-lady|The *Dead Lady*]] — The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him.
 - [[fernen|Fernen]] — One of the five ships in Delmar Fisk's Pearl of Souls fleet, lost at the Drowned Maw.
 - [[hcs-surety|HCS Surety]] — Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 - [[hcs-surety-dm-guide|Uncertainty — DM Guide]] — [DM-only] DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active).
@@ -349,6 +353,7 @@ sources: []
 
 ## system
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
+- [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
 - [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.

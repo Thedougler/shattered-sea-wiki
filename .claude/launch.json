@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "player-view",
+      "runtimeExecutable": "player-view/.venv/bin/python",
+      "runtimeArgs": ["-m", "player_view.main"],
+      "port": 8080
+    }
+  ]
+}

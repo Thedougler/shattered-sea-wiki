@@ -9,11 +9,11 @@ import player_view.pages  # noqa: F401 — triggers @ui.page registration
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
-def init_services():
+def _init_services():
     services.init(profile_dir=PROJECT_ROOT / 'profiles')
 
 
-def teardown_services():
+def _teardown_services():
     services.teardown()
 
 
@@ -23,10 +23,12 @@ def index():
     ui.navigate.to('/save-speaker')
 
 
+app.on_startup(_init_services)
+app.on_shutdown(_teardown_services)
+app.add_static_files('/assets', str(PROJECT_ROOT / 'assets'))
+
+
 def run():
-    app.on_startup(init_services)
-    app.on_shutdown(teardown_services)
-    app.add_static_files('/assets', str(PROJECT_ROOT / 'assets'))
     ui.run(
         title='Shattered Sea',
         dark=True,
@@ -37,5 +39,5 @@ def run():
     )
 
 
-if __name__ == '__main__':
+if __name__ in {'__main__', '__mp_main__'}:
     run()

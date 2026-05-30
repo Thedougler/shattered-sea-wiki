@@ -1,20 +1,21 @@
 ---
-title: Consignment Storage
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Secure short-term storage in the Warren — 1 gp per week, three-week hard limit, no exceptions."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, warren, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Consignment Storage
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, service, warren, homebrew]
-sources:
-  - Homebrew
-summary: "Secure short-term storage in the Warren — 1 gp per week, three-week hard limit, no exceptions."
 ---
 
 # Consignment Storage

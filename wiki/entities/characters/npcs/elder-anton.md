@@ -1,15 +1,17 @@
 ---
-title: Elder Anton
 type: entity
 subtype: npc
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-confidence_level: medium
+summary: "Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, tabaxi, keth-naar, sunken-crown]
 sources: ["Inbox/Elder-Anton.md"]
-summary: "Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain."
+confidence_level: medium
+title: Elder Anton
 species: tabaxi
 variant: tiger
 ---

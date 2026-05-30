@@ -1,19 +1,21 @@
 ---
-title: Grappling Hook
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["PHB"]
-summary: "A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp."
+confidence_level: medium
+title: Grappling Hook
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Grappling Hook

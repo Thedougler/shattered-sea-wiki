@@ -1,20 +1,21 @@
 ---
-title: Crossbow Bolts
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Iron-tipped wooden bolts for light and heavy crossbows — sold in lots of 20 at ironmongers."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ammunition]
+sources: [PHB]
+confidence_level: confirmed
+title: Crossbow Bolts
 item_type: ammunition
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, ammunition]
-sources:
-  - PHB
-summary: "Iron-tipped wooden bolts for light and heavy crossbows — sold in lots of 20 at ironmongers."
 ---
 
 # Crossbow Bolts

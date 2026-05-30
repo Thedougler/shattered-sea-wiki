@@ -1,19 +1,21 @@
 ---
-title: Ghost Keel Coating
 type: entity
 subtype: item
-item_type: ship-upgrade
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, ship-upgrade, stealth, homebrew]
 sources: ["Homebrew"]
-summary: "A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months."
+confidence_level: medium
+title: Ghost Keel Coating
+item_type: ship-upgrade
+rarity: uncommon
+attunement: false
+homebrew: true
 ---
 
 # Ghost Keel Coating

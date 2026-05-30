@@ -1,19 +1,21 @@
 ---
-title: Marsh Ale
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, drink, warren, calveno]
 sources: ["Homebrew"]
-summary: "Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds."
+confidence_level: medium
+title: Marsh Ale
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Marsh Ale

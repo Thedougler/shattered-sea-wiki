@@ -1,19 +1,20 @@
 ---
-title: The Velvet Noose
 type: entity
 subtype: ship
-ship_class: pirate man-of-war
-tier: 4
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "A Tier 4 pirate man-of-war — uses terror, hostages, legal blackmail, and overwhelming cannon weight to make ports and convoys surrender before battle."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [ship, pirate, tier-4, flagship, late-game]
 sources: ["Inbox/Drowned-Maw.md", "Inbox/The-Velvet-Noose.md"]
-aliases:
-  - Velvet Noose
-summary: "A Tier 4 pirate man-of-war — uses terror, hostages, legal blackmail, and overwhelming cannon weight to make ports and convoys surrender before battle."
+confidence_level: medium
+title: The Velvet Noose
+ship_class: pirate man-of-war
+tier: 4
+aliases: [Velvet Noose]
 ---
 
 # The *Velvet Noose*

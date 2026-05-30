@@ -1,24 +1,21 @@
 ---
-title: The Anchor & Line
 type: location
 subtype: building
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [building, tavern, rattkin]
+sources: [Homebrew]
+confidence_level: medium
+title: The Anchor & Line
 region: port-tidefall
 district: Dockfront
 parent_location: "[[port-tidefall|Port Tidefall]]"
-summary: "The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population."
-tags:
-  - building
-  - tavern
-  - rattkin
-sources:
-  - Homebrew
-aliases:
-  - Anchor and Line
-  - The Anchor and Line
+aliases: [Anchor and Line, The Anchor and Line]
 ---
 
 # The Anchor & Line

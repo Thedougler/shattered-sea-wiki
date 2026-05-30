@@ -1,15 +1,17 @@
 ---
-title: Félix Aho
 type: entity
 subtype: npc
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-confidence_level: medium
+summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, grung, free-grung, vaka, port-tidefall]
 sources: ["Inbox/Felix-Aho.md"]
-summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture."
+confidence_level: medium
+title: Félix Aho
 banner: raw/assets/banners/Felix-Aho.webp
 portrait: raw/assets/portraits/Felix-Aho.webp
 species: grung

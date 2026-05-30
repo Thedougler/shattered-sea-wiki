@@ -1,22 +1,20 @@
 ---
-title: Beaumont Sel
 type: entity
 subtype: npc
-category: character
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-species: tortle
-aliases:
-  - Beau
-  - Captain Sel
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, tortle, captain, midchain, ally]
-sources:
-  - Inbox/Session-01-Recap.md
-  - Inbox/Beaumonts-Crew.md
-  - Inbox/Beaumont-Sel.md
+sources: [Inbox/Session-01-Recap.md, Inbox/Beaumonts-Crew.md, Inbox/Beaumont-Sel.md]
 confidence_level: observed
+title: Beaumont Sel
+category: character
+species: tortle
+aliases: [Beau, Captain Sel]
 relationships:
   - "[[delmar-fisk|Delmar Fisk]] — allied, fought alongside"
   - "[[barnaby-rook|Barnaby Rook]] — antagonist; Rook shot at him"

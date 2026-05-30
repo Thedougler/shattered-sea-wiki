@@ -1,16 +1,17 @@
 ---
-title: The Galewall Runner's Drop
 type: lore
 subtype: legend
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: low
-tags: [lore, legend, treasure, pirates, ashwall-islands]
-sources:
-  - Homebrew
+audience: dm
+publish: false
 summary: "A legendary privateer treasure cache rumored to be hidden on one of the volcanic Ashwall Islands — deposited during a desperate flight from the Dravosi Admiralty in the early colonial period."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [lore, legend, treasure, pirates, ashwall-islands]
+sources: [Homebrew]
+title: The Galewall Runner's Drop
+confidence_level: low
 ---
 
 # The Galewall Runner's Drop

@@ -1,19 +1,21 @@
 ---
-title: Eldritch Claw Tattoo
 type: entity
 subtype: item
-item_type: wondrous-item
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: high
-attunement: true
-homebrew: false
+audience: players
+publish: true
+summary: "Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, wondrous-item, arcane, military, sentinel, crissdalynn]
 sources: ["Inbox/Crissdalynn-Khinriss-Interview.md", "Inbox/Sentinels-Of-The-Eyrie.md"]
-summary: "Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition."
+confidence_level: high
+title: Eldritch Claw Tattoo
+item_type: wondrous-item
+rarity: uncommon
+attunement: true
+homebrew: false
 ---
 
 # Eldritch Claw Tattoo

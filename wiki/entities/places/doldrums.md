@@ -1,21 +1,22 @@
 ---
-title: The Doldrums
 type: entity
 subtype: place
-region_type: sea-region
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, region, maritime, weather, navigation]
 sources: ["Inbox/Doldrums.md"]
-aliases:
-  - Doldrums
+confidence_level: medium
+title: The Doldrums
+region_type: sea-region
+aliases: [Doldrums]
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "ungoverned; used by Midchain pilots and opportunistic pirates"
 access: "seasonal drifting calm; avoid or cross by tow"
-summary: "A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels."
 ---
 
 # The Doldrums

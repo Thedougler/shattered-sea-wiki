@@ -1,21 +1,20 @@
 ---
-title: Sorn
 type: entity
 subtype: place
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A reef-fringed Grung island in the Verdant Teeth — known from the water as green wall, pale sand, and danger. Agricultural interior; trade beach only."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, island, grung, verdant-teeth]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Sorn.md"]
+confidence_level: medium
+title: Sorn
 island_type: trade-beach-island
 region_type: island
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
-tags: [place, island, grung, verdant-teeth]
-sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Sorn.md"
-aliases:
-  - Sorn Island
-summary: "A reef-fringed Grung island in the Verdant Teeth — known from the water as green wall, pale sand, and danger. Agricultural interior; trade beach only."
+aliases: [Sorn Island]
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "Botukuri clan of the [[grung-clans|Grung Clans]]"
 access: "Sanctioned beach traffic only; no inland access"

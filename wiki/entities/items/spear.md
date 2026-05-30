@@ -1,20 +1,21 @@
 ---
-title: Spear
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "An iron-tipped wooden shaft — the most basic polearm, thrown or thrust, at home on a ship's deck."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, simple, melee, thrown]
+sources: [PHB]
+confidence_level: confirmed
+title: Spear
 item_type: weapon
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, weapon, simple, melee, thrown]
-sources:
-  - PHB
-summary: "An iron-tipped wooden shaft — the most basic polearm, thrown or thrust, at home on a ship's deck."
 ---
 
 # Spear

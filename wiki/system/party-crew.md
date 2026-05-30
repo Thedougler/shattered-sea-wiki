@@ -1,16 +1,21 @@
 ---
-title: Party Crew
 type: system
 subtype: crew-roster
-publish: false
 campaign: shattered-sea
-audience: agent
 status: active
-confidence_level: medium
-tags: [system, reference, crew]
-sources:
-  - Homebrew
+audience: agent
+publish: false
 summary: "Roster of crew hired by the party — update after each session with new hires, departures, and role changes."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [system, reference, crew]
+sources: [Homebrew]
+system_role: unknown
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ''
+title: Party Crew
+confidence_level: medium
 ---
 
 # Party Crew

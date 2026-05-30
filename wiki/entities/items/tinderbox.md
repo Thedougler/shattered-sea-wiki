@@ -1,20 +1,21 @@
 ---
-title: Tinderbox
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, tool]
+sources: [PHB]
+confidence_level: confirmed
+title: Tinderbox
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, tool]
-sources:
-  - PHB
-summary: "Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions."
 ---
 
 # Tinderbox

@@ -1,20 +1,21 @@
 ---
-title: Bice Riva
 type: entity
 subtype: npc
-category: character
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [npc, halfling, calveno, passage, tavern]
+sources: [Inbox/Bice-Riva.md]
+confidence_level: medium
+title: Bice Riva
+category: character
 species: halfling
 pronouns: she/her
-aliases:
-  - Bice
-tags: [npc, halfling, calveno, passage, tavern]
-sources:
-  - Inbox/Bice-Riva.md
-confidence_level: medium
+aliases: [Bice]
 ---
 
 # Bice Riva

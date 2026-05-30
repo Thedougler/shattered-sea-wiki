@@ -5,14 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-aliases:
-  - Calder's Tooth Index
-  - Calders Tooth Index
 summary: "Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog."
 created: 2026-05-01
 updated: 2026-05-28
 tags: [island, crown-islands, dravosi, player-resource]
 sources: ["wiki/entities/factions/the-passage.md", "wiki/situations/active/cape-solitude.md", "Inbox/Calders-Tooth-Overview.md"]
+confidence_level: medium
+aliases: [Calder's Tooth Index, Calders Tooth Index]
 ---
 
 # Calder's Tooth

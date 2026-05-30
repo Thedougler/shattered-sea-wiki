@@ -1,20 +1,20 @@
 ---
-title: Artificer Commission
 type: item
 subtype: service
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service]
+sources: [Homebrew]
+confidence_level: medium
+title: Artificer Commission
 rarity: rare
 attunement: false
 homebrew: true
-summary: "Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter."
-tags:
-  - item
-  - service
-sources:
-  - Homebrew
 ---
 
 # Artificer Commission

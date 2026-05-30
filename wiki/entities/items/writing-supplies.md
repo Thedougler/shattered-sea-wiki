@@ -1,20 +1,21 @@
 ---
-title: Writing Supplies
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, tool]
+sources: [PHB]
+confidence_level: confirmed
+title: Writing Supplies
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, tool]
-sources:
-  - PHB
-summary: "Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official."
 ---
 
 # Writing Supplies

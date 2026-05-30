@@ -1,21 +1,22 @@
 ---
-title: The Quorum
 type: entity
 subtype: vehicle
-ship_class: cutter
-tier: 1
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: confirmed
+audience: players
+publish: true
+summary: "The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, chain-council, kalowe, tier-1]
 sources: ["Inbox/Chain-Council.md", "Inbox/The-Quorum.md"]
-aliases:
-  - Quorum
+confidence_level: confirmed
+title: The Quorum
+ship_class: cutter
+tier: 1
+aliases: [Quorum]
 captain: "[[chain-council|Chain Council]]"
 home_port: "[[kalowe|Kalowe]]"
-summary: "The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands."
 ---
 
 # The *Quorum*

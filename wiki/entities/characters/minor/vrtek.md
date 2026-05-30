@@ -10,6 +10,7 @@ created: 2026-04-19
 updated: 2026-05-28
 tags: [rattkin, social, minor-npc]
 sources: ["Inbox/Vrtek.md"]
+confidence_level: medium
 roleplay_prompt: "Pocket archaeologist — everything gets classified: useful, pretty, mysterious, food"
 ---
 

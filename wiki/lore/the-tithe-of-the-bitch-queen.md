@@ -1,16 +1,17 @@
 ---
-title: The Tithe of the Bitch Queen
 type: lore
 subtype: legend
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: low
-tags: [lore, legend, umberlee, sunken-crown, treasure]
-sources:
-  - Homebrew
+audience: dm
+publish: false
 summary: "A legendary collection of divine treasure scattered across the Sunken Crown seafloor — taking a single coin invites Umberlee's direct, personal spite. The sea follows you home."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [lore, legend, umberlee, sunken-crown, treasure]
+sources: [Homebrew]
+title: The Tithe of the Bitch Queen
+confidence_level: low
 ---
 
 # The Tithe of the Bitch Queen

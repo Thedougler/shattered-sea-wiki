@@ -1,20 +1,21 @@
 ---
-title: Vinegar
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, provision, consumable]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Vinegar
 item_type: provision
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, provision, consumable]
-sources:
-  - Homebrew
-summary: "Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available."
 ---
 
 # Vinegar

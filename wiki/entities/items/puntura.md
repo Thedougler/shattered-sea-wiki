@@ -1,19 +1,21 @@
 ---
-title: Puntura
 type: entity
 subtype: item
-item_type: weapon
-rarity: uncommon
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: dm
+publish: false
+summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, weapon, magic-item, commission, maritime, homebrew]
 sources: ["Homebrew"]
-summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike."
+confidence_level: medium
+title: Puntura
+item_type: weapon
+rarity: uncommon
+attunement: false
+homebrew: true
 ---
 
 # Puntura

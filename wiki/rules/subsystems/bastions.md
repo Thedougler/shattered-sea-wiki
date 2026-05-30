@@ -1,16 +1,17 @@
 ---
-title: Bastions
 type: rules
 subtype: subsystem
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, reference, bastion, subsystem]
-sources:
-  - Dungeon Master's Guide (2024)
-  - "RPGBOT: DnD 5.5 Bastions Guide"
+sources: [Dungeon Master's Guide (2024), "RPGBOT: DnD 5.5 Bastions Guide"]
+title: Bastions
+confidence_level: medium
 ---
 
 # Bastions

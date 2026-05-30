@@ -1,20 +1,20 @@
 ---
-title: Alchemist's Fire
 type: item
 subtype: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
+status: unknown
 audience: players
+publish: true
+summary: "A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical]
+sources: [DMG]
+confidence_level: medium
+title: Alchemist's Fire
+rarity: common
 attunement: false
 homebrew: false
-sources:
-  - DMG
-summary: "A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp."
-tags:
-  - item
-  - consumable
-  - alchemical
 ---
 
 # Alchemist's Fire

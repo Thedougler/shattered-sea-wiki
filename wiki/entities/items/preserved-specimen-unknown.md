@@ -1,20 +1,22 @@
 ---
-title: Preserved Specimen, Unknown
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, mystery, calveno]
+sources: ["Homebrew"]
+confidence_level: medium
+title: Preserved Specimen, Unknown
 item_type: other
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
 aliases: ["Orsini Specimen", "Unknown Specimen"]
-tags: [item, mystery, calveno]
-sources: ["Homebrew"]
-summary: "A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is."
 ---
 
 # Preserved Specimen, Unknown

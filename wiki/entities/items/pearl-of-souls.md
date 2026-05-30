@@ -1,19 +1,21 @@
 ---
-title: Pearl of Souls
 type: entity
 subtype: item
-item_type: artifact
-rarity: artifact
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: high
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, artifact, umberlee, souls, divine]
 sources: ["Homebrew"]
-summary: "Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw."
+confidence_level: high
+title: Pearl of Souls
+item_type: artifact
+rarity: artifact
+attunement: false
+homebrew: false
 ---
 
 # Pearl of Souls

@@ -1,18 +1,19 @@
 ---
-title: South Harbour
 type: entity
 subtype: place
-settlement_type: harbour
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [place, harbour, calders-tooth, dravosi]
-sources:
-  - Homebrew
-aliases: []
+audience: players
+publish: true
 summary: "The eastern working harbour of Calder's Tooth — fishing fleets, independent shipwrights, and the island's black-market breathing room."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, harbour, calders-tooth, dravosi]
+sources: [Homebrew]
+confidence_level: medium
+title: South Harbour
+settlement_type: harbour
+aliases: []
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "[[dravosi-crown|The Dravosi Crown]], intermittent in practice"
 access: "Open working harbour; mudflat and tide conditions complicate inspection"

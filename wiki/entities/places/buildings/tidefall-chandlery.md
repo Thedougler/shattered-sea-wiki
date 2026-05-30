@@ -1,19 +1,20 @@
 ---
-title: Tidefall Chandlery
 type: entity
 subtype: place
-building_type: chandlery
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, port-tidefall, dravosi, chandlery]
 sources: ["Inbox/Nigel-Strutt.md", "Inbox/Tidefall-Chandlery.md"]
-aliases:
-  - The Tidefall Chandlery
+confidence_level: medium
+title: Tidefall Chandlery
+building_type: chandlery
+aliases: [The Tidefall Chandlery]
 district: The Shelf
-summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items."
 parent_location: "[[port-tidefall|Port Tidefall]]"
 ---
 

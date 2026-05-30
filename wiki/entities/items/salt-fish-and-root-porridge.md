@@ -1,20 +1,21 @@
 ---
-title: Salt Fish and Root Porridge
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "The daily communal meal of the Warren — salt fish flaked into root vegetable porridge, reliable every day without exception."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, food, warren, provision]
+sources: [Homebrew]
+confidence_level: medium
+title: Salt Fish and Root Porridge
 item_type: food
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, food, warren, provision]
-sources:
-  - Homebrew
-summary: "The daily communal meal of the Warren — salt fish flaked into root vegetable porridge, reliable every day without exception."
 ---
 
 # Salt Fish and Root Porridge

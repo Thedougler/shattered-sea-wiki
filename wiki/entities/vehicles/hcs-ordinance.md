@@ -1,19 +1,21 @@
 ---
-title: HCS Ordinance
 type: entity
 subtype: ship
-ship_class: Ship of the Line
-tier: 4
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-cssclasses: [wiki-ship]
-aliases: [Ordinance, "HCS Ordinance", "The Ordinance"]
+audience: players
+publish: true
+summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, dravosi, tier-4]
 sources: ["Homebrew"]
-summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign."
+confidence_level: medium
+title: HCS Ordinance
+ship_class: Ship of the Line
+tier: 4
+cssclasses: [wiki-ship]
+aliases: [Ordinance, "HCS Ordinance", "The Ordinance"]
 ---
 
 # HCS *Ordinance*

@@ -1,23 +1,24 @@
 ---
-title: Aruhe
 type: entity
 subtype: place
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [island, midchain, deserted, hazard]
+sources: [Homebrew]
+confidence_level: medium
+title: Aruhe
 category: location
 island_type: deserted-island
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 region: midchain
 parent_location: "[[midchain|The Midchain]]"
 governance: "Ungoverned; avoided by Grung patrols and pilots"
 access: "Avoided reef approach; no safe stop recommended"
-confidence_level: medium
-aliases:
-  - Aruhe Island
-tags: [island, midchain, deserted, hazard]
-sources:
-  - Homebrew
+aliases: [Aruhe Island]
 ---
 
 # Aruhe

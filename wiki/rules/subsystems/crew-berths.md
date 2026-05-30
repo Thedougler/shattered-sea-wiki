@@ -1,15 +1,17 @@
 ---
-title: Crew Berths
 type: rules
 subtype: facility
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: confirmed
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, reference, bastion, facility, ship]
-sources:
-  - "Dungeon Master's Guide (2024)"
+sources: ["Dungeon Master's Guide (2024)"]
+title: Crew Berths
+confidence_level: confirmed
 ---
 
 # Crew Berths

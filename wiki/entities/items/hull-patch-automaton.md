@@ -1,19 +1,21 @@
 ---
-title: Hull Patch Automaton
 type: entity
 subtype: item
-item_type: ship-upgrade
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A crab-sized brass mechanism that patrols the waterline interior, sealing hull breaches under 1 foot automatically and reducing combat flooding damage."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, ship-upgrade, homebrew]
 sources: ["Homebrew"]
-summary: "A crab-sized brass mechanism that patrols the waterline interior, sealing hull breaches under 1 foot automatically and reducing combat flooding damage."
+confidence_level: medium
+title: Hull Patch Automaton
+item_type: ship-upgrade
+rarity: uncommon
+attunement: false
+homebrew: true
 ---
 
 # Hull Patch Automaton

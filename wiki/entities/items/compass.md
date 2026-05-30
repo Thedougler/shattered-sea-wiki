@@ -1,20 +1,21 @@
 ---
-title: Compass
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A standard magnetic navigation compass — points north reliably, except near the Drowned Maw."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, navigation, tool]
+sources: [PHB]
+confidence_level: confirmed
+title: Compass
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, navigation, tool]
-sources:
-  - PHB
-summary: "A standard magnetic navigation compass — points north reliably, except near the Drowned Maw."
 ---
 
 # Compass

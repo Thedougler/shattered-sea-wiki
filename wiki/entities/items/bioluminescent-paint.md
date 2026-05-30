@@ -1,20 +1,21 @@
 ---
-title: Bioluminescent Paint
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, calveno]
+sources: [Homebrew]
+confidence_level: medium
+title: Bioluminescent Paint
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: true
-confidence_level: medium
-tags: [item, consumable, alchemical, calveno]
-sources:
-  - Homebrew
-summary: "An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation."
 ---
 
 # Bioluminescent Paint

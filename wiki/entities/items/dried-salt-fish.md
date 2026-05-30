@@ -1,19 +1,21 @@
 ---
-title: Dried Salt Fish
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable, maritime]
 sources: ["Homebrew"]
-summary: "Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port."
+confidence_level: medium
+title: Dried Salt Fish
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Dried Salt Fish

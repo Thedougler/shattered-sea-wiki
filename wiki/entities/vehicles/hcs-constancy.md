@@ -1,19 +1,21 @@
 ---
-title: HCS Constancy
 type: entity
 subtype: ship
-ship_class: Heavy Frigate
-tier: 3
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-cssclasses: [wiki-ship]
-aliases: [Constancy, "HCS Constancy", "The Constancy"]
+audience: players
+publish: true
+summary: "A Dravosi Crown heavy frigate — the standard Tier 3 patrol vessel of the Crown fleet, built to inspect, board, and enforce across the Central Strait and Crown Islands waters."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, dravosi, tier-3]
 sources: ["Homebrew"]
-summary: "A Dravosi Crown heavy frigate — the standard Tier 3 patrol vessel of the Crown fleet, built to inspect, board, and enforce across the Central Strait and Crown Islands waters."
+confidence_level: medium
+title: HCS Constancy
+ship_class: Heavy Frigate
+tier: 3
+cssclasses: [wiki-ship]
+aliases: [Constancy, "HCS Constancy", "The Constancy"]
 ---
 
 # HCS *Constancy*

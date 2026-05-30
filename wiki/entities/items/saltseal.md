@@ -1,20 +1,21 @@
 ---
-title: Saltseal
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, calveno, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Saltseal
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources:
-  - Homebrew
-summary: "An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea."
 ---
 
 # Saltseal

@@ -1,19 +1,21 @@
 ---
-title: Heavy Crossbow
 type: entity
 subtype: item
-item_type: weapon
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: high
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, weapon, ranged, martial]
 sources: ["D&D 2024 PHB"]
-summary: "Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely."
+confidence_level: high
+title: Heavy Crossbow
+item_type: weapon
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Heavy Crossbow

@@ -1,20 +1,21 @@
 ---
-title: The Baroness
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, melee, martial]
+sources: ["D&D 2024 PHB"]
+confidence_level: high
+title: The Baroness
 item_type: weapon
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: high
 requires_attunement: false
 current_holder: "[[delmar-fisk|Delmar Fisk]]"
-tags: [item, weapon, melee, martial]
-sources:
-  - "D&D 2024 PHB"
-summary: "Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip."
 ---
 
 # The Baroness

@@ -1,20 +1,21 @@
 ---
-title: Dreamwort Extract
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, sedative, calveno, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Dreamwort Extract
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, alchemical, sedative, calveno, homebrew]
-sources:
-  - Homebrew
-summary: "A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours."
 ---
 
 # Dreamwort Extract

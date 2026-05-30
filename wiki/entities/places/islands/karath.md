@@ -1,17 +1,19 @@
 ---
-title: Karath
 type: entity
 subtype: place
-island_type: hostile-island
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Karath Island"]
+audience: players
+publish: true
+summary: "A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, island, grung, verdant-teeth]
 sources: ["Inbox/Dreth.md", "Inbox/Karath.md"]
-summary: "A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning."
+confidence_level: medium
+title: Karath
+island_type: hostile-island
+aliases: ["Karath Island"]
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
 access: "Hostile reef approach; outsiders met with dart fire"

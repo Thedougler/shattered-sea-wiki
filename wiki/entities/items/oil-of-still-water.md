@@ -1,19 +1,21 @@
 ---
-title: Oil of Still Water
 type: entity
 subtype: item
-item_type: consumable
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, alchemical, homebrew]
 sources: ["Homebrew"]
-summary: "A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait."
+confidence_level: medium
+title: Oil of Still Water
+item_type: consumable
+rarity: uncommon
+attunement: false
+homebrew: true
 ---
 
 # Oil of Still Water

@@ -1,20 +1,21 @@
 ---
-title: Sending Stone Anchor
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, communication, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Sending Stone Anchor
 item_type: ship-upgrade
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "1000"
-tags: [item, ship-upgrade, communication, homebrew]
-sources:
-  - Homebrew
-summary: "Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range."
 ---
 
 # Sending Stone Anchor

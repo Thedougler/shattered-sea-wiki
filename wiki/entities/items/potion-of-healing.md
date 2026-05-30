@@ -1,19 +1,21 @@
 ---
-title: Potion of Healing
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A red restorative draught — restores 2d4+2 hit points when drunk. The most commonly sought magical consumable in the Shattered Sea."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, magic-item]
 sources: ["DMG"]
-summary: "A red restorative draught — restores 2d4+2 hit points when drunk. The most commonly sought magical consumable in the Shattered Sea."
+confidence_level: medium
+title: Potion of Healing
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Potion of Healing

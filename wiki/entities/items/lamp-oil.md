@@ -1,19 +1,21 @@
 ---
-title: Lamp Oil
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Refined oil for lanterns and lamps — standard stock at every chandlery in the Shattered Sea. 1 sp per flask, 6 sp per gallon."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, maritime]
 sources: ["PHB"]
-summary: "Refined oil for lanterns and lamps — standard stock at every chandlery in the Shattered Sea. 1 sp per flask, 6 sp per gallon."
+confidence_level: medium
+title: Lamp Oil
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Lamp Oil

@@ -1,19 +1,21 @@
 ---
-title: Dried Beans
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Dried legumes for long-passage provisioning — cheap, filling, and they keep indefinitely when dry."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable]
 sources: ["Homebrew"]
-summary: "Dried legumes for long-passage provisioning — cheap, filling, and they keep indefinitely when dry."
+confidence_level: medium
+title: Dried Beans
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Dried Beans

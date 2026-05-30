@@ -1,22 +1,23 @@
 ---
-title: Tessarine Factor Amberreach
 type: entity
 subtype: vehicle
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [vehicle, ship, tessarine, tier-3, cargo]
+sources: [Homebrew]
+confidence_level: medium
+title: Tessarine Factor Amberreach
 ship_class: cargo galleon
 tier: 3
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: medium
-tags: [vehicle, ship, tessarine, tier-3, cargo]
-sources:
-  - Homebrew
 captain: "[[oriana-becht|Oriana Becht]]"
 owner: "[[tessarine-concordat|Tessarine Concordat]]"
 current_location: "Central Strait, inbound from the Galewall approaches"
 home_port: "[[calveno|Calveno]]"
-summary: "The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry."
 ---
 
 # Tessarine Factor *Amberreach*

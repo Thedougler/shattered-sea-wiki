@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: dead
 audience: dm
 publish: false
-species: unknown
 summary: "Druid and captain of the Fernen, Fisk's fourth vessel — drowned at the Drowned Maw when Umberlee sank the fleet. Her soul is inside Delmar Fisk."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [npc, fisk-fleet, dead, captain, druid, mortis]
 sources: ["Inbox/Fisks-Fleet.md", "Inbox/Sienne-Orre.md"]
 confidence_level: confirmed
+species: unknown
 roleplay_prompt: "Velma as a pirate captain, who had every piece of the picture except the one that mattered."
 ---
 

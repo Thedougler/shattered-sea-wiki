@@ -1,20 +1,21 @@
 ---
-title: The Red Flat
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, food, drink, kalowe, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: The Red Flat
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, food, drink, kalowe, homebrew]
-sources:
-  - Homebrew
-summary: "Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it."
 ---
 
 # The Red Flat

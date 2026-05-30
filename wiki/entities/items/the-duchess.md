@@ -1,21 +1,21 @@
 ---
-title: The Duchess
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, ranged, firearm, homebrew]
+sources: ["D&D 2024 PHB", Homebrew]
+confidence_level: high
+title: The Duchess
 item_type: weapon
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: high
 requires_attunement: false
 current_holder: "[[delmar-fisk|Delmar Fisk]]"
-tags: [item, weapon, ranged, firearm, homebrew]
-sources:
-  - "D&D 2024 PHB"
-  - Homebrew
-summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
 ---
 
 # The Duchess

@@ -1,20 +1,21 @@
 ---
-title: Vial of Acid
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, weapon]
+sources: [PHB]
+confidence_level: confirmed
+title: Vial of Acid
 item_type: consumable
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, consumable, alchemical, weapon]
-sources:
-  - PHB
-summary: "Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon."
 ---
 
 # Vial of Acid

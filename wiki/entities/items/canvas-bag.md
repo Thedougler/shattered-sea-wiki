@@ -1,20 +1,21 @@
 ---
-title: Canvas Bag
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime]
+sources: [Homebrew]
+confidence_level: medium
+title: Canvas Bag
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, equipment, maritime]
-sources:
-  - Homebrew
-summary: "Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship."
 ---
 
 # Canvas Bag

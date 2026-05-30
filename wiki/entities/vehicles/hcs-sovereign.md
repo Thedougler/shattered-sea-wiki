@@ -1,20 +1,22 @@
 ---
-title: HCS Sovereign
 type: entity
 subtype: ship
-ship_class: First-Rate Ship of the Line
-tier: 4
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-cssclasses: [wiki-ship]
-aliases: [Sovereign, "HCS Sovereign", "The Sovereign"]
+audience: players
+publish: true
+summary: "The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, dravosi, tier-4, flagship]
 sources: ["Homebrew"]
+confidence_level: medium
+title: HCS Sovereign
+ship_class: First-Rate Ship of the Line
+tier: 4
+cssclasses: [wiki-ship]
+aliases: [Sovereign, "HCS Sovereign", "The Sovereign"]
 banner: "raw/assets/banners/HCS-Sovereign.webp"
-summary: "The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy."
 ---
 
 # HCS *Sovereign*

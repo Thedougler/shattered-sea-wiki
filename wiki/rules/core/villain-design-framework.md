@@ -1,16 +1,17 @@
 ---
-title: Villain Design Framework
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-tags: [rule, reference, villain, design]
-sources:
-  - "Pointy Hat — How to Make a Villain (YouTube)"
+audience: dm
+publish: false
 summary: "Pointy Hat's system-agnostic villain creation method — three principles: Active (has agency), Present (has visibility), Personal (has stakes)."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, villain, design]
+sources: ["Pointy Hat — How to Make a Villain (YouTube)"]
+title: Villain Design Framework
+confidence_level: medium
 ---
 
 # Villain Design Framework

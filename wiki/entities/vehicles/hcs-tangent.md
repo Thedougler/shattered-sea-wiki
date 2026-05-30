@@ -1,15 +1,17 @@
 ---
-title: HCS Tangent
 type: entity
 subtype: ship
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-confidence_level: medium
+summary: "Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, dravosi, warship]
 sources: ["Inbox/Dorian-Bishop.md", "Inbox/HCS-Tangent.md"]
-summary: "Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural."
+confidence_level: medium
+title: HCS Tangent
 ---
 
 # HCS Tangent

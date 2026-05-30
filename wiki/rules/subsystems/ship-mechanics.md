@@ -1,16 +1,17 @@
 ---
-title: Ship Mechanics
 type: rules
 subtype: rule
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [rule, reference, ship, hub]
-sources:
-  - Homebrew
+audience: players
+publish: true
 summary: "Hub page for all Shattered Sea ship rules — tiers, crew, operations, bastion, upgrades, and combat."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, ship, hub]
+sources: [Homebrew]
+title: Ship Mechanics
+confidence_level: medium
 ---
 
 # Ship Mechanics

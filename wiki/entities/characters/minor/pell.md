@@ -1,16 +1,18 @@
 ---
-title: Pell
 type: entity
 subtype: npc
-publish: true
 campaign: shattered-sea
-audience: players
 status: dead
-confidence_level: confirmed
+audience: players
+publish: true
+summary: "Gnome labour slave at Sorn — the person who talked to Jean-Claude as if he were an equal, told him there were other ways of living, and whose death he could not prevent."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, minor, deceased, jc-history, gnome]
 sources: ["Inbox/Jean-Claude-Tabarnack.md", "Inbox/Pell.md"]
+confidence_level: confirmed
+title: Pell
 roleplay_prompt: "Mister Rogers who has seen the world and knows exactly what it costs — warm, unhurried, completely present."
-summary: "Gnome labour slave at Sorn — the person who talked to Jean-Claude as if he were an equal, told him there were other ways of living, and whose death he could not prevent."
 ---
 
 # Pell

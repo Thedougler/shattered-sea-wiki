@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [orc, minor-npc]
 sources: ["Inbox/Bala-Tane.md"]
+confidence_level: medium
 ---
 
 # Bala Tane

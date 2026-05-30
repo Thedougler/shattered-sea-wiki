@@ -1,20 +1,21 @@
 ---
-title: Canvas Cloth
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Bolts of canvas and heavy cloth for sewing, patching, and general fabrication."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime, craft]
+sources: [Homebrew]
+confidence_level: medium
+title: Canvas Cloth
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, equipment, maritime, craft]
-sources:
-  - Homebrew
-summary: "Bolts of canvas and heavy cloth for sewing, patching, and general fabrication."
 ---
 
 # Canvas Cloth

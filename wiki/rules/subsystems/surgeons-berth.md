@@ -1,16 +1,17 @@
 ---
-title: Surgeon's Berth
 type: rules
 subtype: facility
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: confirmed
-tags: [rule, reference, bastion, facility, ship, homebrew]
-sources:
-  - Homebrew
+audience: players
+publish: true
 summary: "Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, bastion, facility, ship, homebrew]
+sources: [Homebrew]
+title: Surgeon's Berth
+confidence_level: confirmed
 ---
 
 # Surgeon's Berth

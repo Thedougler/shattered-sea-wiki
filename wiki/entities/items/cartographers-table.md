@@ -1,19 +1,21 @@
 ---
-title: Cartographer's Table
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, navigation, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Cartographer's Table
 item_type: ship-upgrade
 rarity: rare
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "8000"
-tags: [item, ship-upgrade, navigation, homebrew]
-sources:
-  - Homebrew
 ---
 
 # Cartographer's Table

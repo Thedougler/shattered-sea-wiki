@@ -5,17 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-species: human
-aliases:
-  - Da'Virelli
-  - Catarina
-roleplay_prompt: "Tony Stark without the charm, with better NDAs"
 summary: "An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [npc, human, inventor, calveno, antheri, artificer]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Catarina-DaVirelli.md"]
 confidence_level: confirmed
+species: human
+aliases: [Da'Virelli, Catarina]
+roleplay_prompt: "Tony Stark without the charm, with better NDAs"
 relationships:
   - "[[calveno|Calveno]] — based here, by referral only"
   - "[[shelfworks|Shelfworks]] — salvage source; Shelfworks Goldrush"

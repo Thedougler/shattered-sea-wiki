@@ -1,19 +1,21 @@
 ---
-title: Needle and Sail Twine
 type: entity
 subtype: item
-item_type: tool
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, tool, maritime]
 sources: ["Homebrew"]
-summary: "A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp."
+confidence_level: medium
+title: Needle and Sail Twine
+item_type: tool
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Needle and Sail Twine

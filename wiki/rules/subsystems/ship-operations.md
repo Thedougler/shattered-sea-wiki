@@ -1,16 +1,17 @@
 ---
-title: Ship Operations
 type: rules
 subtype: rule
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [rule, reference, ship, travel, upkeep]
-sources:
-  - Homebrew
+audience: players
+publish: true
 summary: "Travel speeds, navigation checks, upkeep costs, acquiring a ship, living quarters, and ship reputation for Shattered Sea play."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, ship, travel, upkeep]
+sources: [Homebrew]
+title: Ship Operations
+confidence_level: medium
 ---
 
 # Ship Operations

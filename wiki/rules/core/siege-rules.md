@@ -1,16 +1,17 @@
 ---
-title: Siege Rules
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: high
-tags: [rule, reference, siege, large-scale]
-sources:
-  - "Pointy Hat — Storm Rising Adventure"
+audience: dm
+publish: false
 summary: "Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, siege, large-scale]
+sources: ["Pointy Hat — Storm Rising Adventure"]
+title: Siege Rules
+confidence_level: high
 ---
 
 # Siege Rules

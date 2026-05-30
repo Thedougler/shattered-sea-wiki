@@ -1,19 +1,21 @@
 ---
-title: Light Crossbow
 type: entity
 subtype: item
-item_type: weapon
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, weapon, ranged, simple]
 sources: ["PHB"]
-summary: "A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp."
+confidence_level: medium
+title: Light Crossbow
+item_type: weapon
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Light Crossbow

@@ -1,20 +1,22 @@
 ---
-title: I'a Miti
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, food, grung]
 sources: ["Homebrew"]
+confidence_level: medium
+title: I'a Miti
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: true
 acquired_from: "[[fare-ia|Fare Ia]]"
-summary: "Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking."
 ---
 
 # I'a Miti

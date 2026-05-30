@@ -1,20 +1,21 @@
 ---
-title: Rudder Repair
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, shipwright]
+sources: [Homebrew]
+confidence_level: medium
+title: Rudder Repair
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
-tags: [item, service, shipwright]
-sources:
-  - Homebrew
-summary: "Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment."
 ---
 
 # Rudder Repair

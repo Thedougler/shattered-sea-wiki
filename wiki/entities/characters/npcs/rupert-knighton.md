@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-species: human
 summary: "Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [npc, dm-only, dravosi, crown, threat, late-game]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Rupert-Knighton.md"]
 confidence_level: confirmed
+species: human
 ---
 
 # Commodore Rupert Knighton

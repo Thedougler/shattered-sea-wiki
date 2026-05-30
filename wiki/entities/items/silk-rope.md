@@ -1,20 +1,21 @@
 ---
-title: Silk Rope
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Lighter and stronger than hemp, sold in small quantities at premium chandleries."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, rope]
+sources: [PHB]
+confidence_level: confirmed
+title: Silk Rope
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, rope]
-sources:
-  - PHB
-summary: "Lighter and stronger than hemp, sold in small quantities at premium chandleries."
 ---
 
 # Silk Rope

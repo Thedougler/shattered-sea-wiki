@@ -1,19 +1,21 @@
 ---
-title: Nameboard Replacement
 type: entity
 subtype: item
-item_type: service
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A new carved and fitted nameboard for a vessel — includes lettering at legitimate yards, plain board only at discreet ones."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, service, maritime, ship-maintenance]
 sources: ["Homebrew"]
-summary: "A new carved and fitted nameboard for a vessel — includes lettering at legitimate yards, plain board only at discreet ones."
+confidence_level: medium
+title: Nameboard Replacement
+item_type: service
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Nameboard Replacement

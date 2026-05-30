@@ -1,20 +1,20 @@
 ---
-title: Antitoxin
 type: item
 subtype: consumable
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable]
+sources: [PHB]
+confidence_level: medium
+title: Antitoxin
 rarity: common
 attunement: false
 homebrew: false
-summary: "A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp."
-tags:
-  - item
-  - consumable
-sources:
-  - PHB
 ---
 
 # Antitoxin

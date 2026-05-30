@@ -1,8 +1,6 @@
 ---
-title: The Warren
 type: entity
 subtype: place
-settlement_type: hidden-settlement
 campaign: shattered-sea
 status: active
 audience: dm
@@ -13,6 +11,8 @@ updated: 2026-05-29
 tags: [place, rattkin, passage, settlement]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Perrin-Black-Jaw.md", "Inbox/Rattkin.md", "Inbox/Passage.md", "Inbox/Black-Jaw-Run.md", "Inbox/Warren.md"]
 confidence_level: confirmed
+title: The Warren
+settlement_type: hidden-settlement
 region: calveno
 parent_location: "[[calveno|Calveno]]"
 governance: "[[the-passage|The Passage]] and Kin elders"

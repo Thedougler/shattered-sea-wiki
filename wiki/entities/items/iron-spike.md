@@ -1,19 +1,21 @@
 ---
-title: Iron Spike
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment]
 sources: ["PHB"]
-summary: "Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot."
+confidence_level: medium
+title: Iron Spike
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Iron Spike

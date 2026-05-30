@@ -1,15 +1,17 @@
 ---
-title: Mounts and Vehicles
 type: concept
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
+audience: dm
+publish: false
+summary: "PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, reference, vehicles, mounts]
 sources: ["Player's Handbook (2024)"]
-summary: "PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold."
+title: Mounts and Vehicles
+confidence_level: medium
 ---
 
 # Mounts and Vehicles

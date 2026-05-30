@@ -1,19 +1,21 @@
 ---
-title: Grilled Canal Eel
 type: entity
 subtype: item
-item_type: food
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, calveno]
 sources: ["Homebrew"]
-summary: "The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired."
+confidence_level: medium
+title: Grilled Canal Eel
+item_type: food
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Grilled Canal Eel

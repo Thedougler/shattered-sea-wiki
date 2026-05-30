@@ -1,16 +1,17 @@
 ---
-title: Circle Magic
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
+audience: dm
+publish: false
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, reference, spellcasting]
-sources:
-  - "Heroes of Faerun (2024)"
-  - "rpgbot.net — 2024 Circle Spells Guide"
+sources: ["Heroes of Faerun (2024)", "rpgbot.net — 2024 Circle Spells Guide"]
+title: Circle Magic
+confidence_level: medium
 ---
 
 # Circle Magic

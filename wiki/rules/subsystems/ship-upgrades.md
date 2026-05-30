@@ -1,16 +1,17 @@
 ---
-title: Ship Upgrades
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-tags: [rule, reference, ship, upgrades]
-sources:
-  - Homebrew
+audience: dm
+publish: false
 summary: "Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, ship, upgrades]
+sources: [Homebrew]
+title: Ship Upgrades
+confidence_level: medium
 ---
 
 # Ship Upgrades — The Shattered Sea

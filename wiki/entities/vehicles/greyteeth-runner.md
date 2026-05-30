@@ -1,21 +1,23 @@
 ---
-title: Greyteeth Runner
 type: entity
 subtype: ship
-ship_class: reef runner (sloop)
-tier: 1
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-cssclasses: [wiki-ship]
+audience: dm
+publish: false
+summary: "A lean Tier 1 reef runner sloop currently for sale in Port Tidefall — fast, shallow-drafted, and built for reef channels where patrol cutters can't follow."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [ship, vehicle, tier-1, for-sale, midchain]
 sources: ["Homebrew"]
+confidence_level: medium
+title: Greyteeth Runner
+ship_class: reef runner (sloop)
+tier: 1
+cssclasses: [wiki-ship]
 current_location: Port Tidefall harbour
 home_port: "[[port-tidefall|Port Tidefall]]"
 asking_price: "1400 gp"
-summary: "A lean Tier 1 reef runner sloop currently for sale in Port Tidefall — fast, shallow-drafted, and built for reef channels where patrol cutters can't follow."
 ---
 
 # Greyteeth Runner

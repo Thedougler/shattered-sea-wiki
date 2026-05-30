@@ -1,19 +1,21 @@
 ---
-title: Medicinal Spirits
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "High-proof alcohol for wound cleaning and sterilisation — also consumed, which is its secondary purpose and its primary one at sea. 3 sp per bottle."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, medical]
 sources: ["Homebrew"]
-summary: "High-proof alcohol for wound cleaning and sterilisation — also consumed, which is its secondary purpose and its primary one at sea. 3 sp per bottle."
+confidence_level: medium
+title: Medicinal Spirits
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Medicinal Spirits

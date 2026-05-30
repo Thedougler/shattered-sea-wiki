@@ -1,19 +1,21 @@
 ---
-title: Preserved Meat Plate
 type: entity
 subtype: item
-item_type: food
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Salted pork, olives, and hard cheese — for eating slowly over a long conversation."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, calveno]
 sources: ["Homebrew"]
-summary: "Salted pork, olives, and hard cheese — for eating slowly over a long conversation."
+confidence_level: medium
+title: Preserved Meat Plate
+item_type: food
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Preserved Meat Plate

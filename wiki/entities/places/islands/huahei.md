@@ -1,16 +1,18 @@
 ---
-title: Huahei
 type: entity
 subtype: place
-island_type: wilderness-island
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "A small overgrown marshy island in the Midchain, notable for an odd fey presence."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, island, midchain]
 sources: ["Homebrew"]
-summary: "A small overgrown marshy island in the Midchain, notable for an odd fey presence."
+confidence_level: medium
+title: Huahei
+island_type: wilderness-island
 parent_location: "[[midchain|The Midchain]]"
 governance: "Ungoverned"
 access: "Overgrown marshy island; approach not documented"

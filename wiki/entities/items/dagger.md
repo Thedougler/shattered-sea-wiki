@@ -1,20 +1,21 @@
 ---
-title: Dagger
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, simple, melee]
+sources: [PHB]
+confidence_level: confirmed
+title: Dagger
 item_type: weapon
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, weapon, simple, melee]
-sources:
-  - PHB
-summary: "A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea."
 ---
 
 # Dagger

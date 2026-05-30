@@ -1,20 +1,21 @@
 ---
-title: Sea-Poison Antidote
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, poison]
+sources: [Homebrew]
+confidence_level: medium
+title: Sea-Poison Antidote
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, alchemical, poison]
-sources:
-  - Homebrew
-summary: "A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin."
 ---
 
 # Sea-Poison Antidote

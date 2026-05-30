@@ -1,19 +1,21 @@
 ---
-title: Iron Cleat
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["Homebrew"]
-summary: "A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp."
+confidence_level: medium
+title: Iron Cleat
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Iron Cleat

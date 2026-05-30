@@ -1,20 +1,21 @@
 ---
-title: Signal Lantern
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Shuttered lantern with coloured glass panels for maritime signalling — found at every chandlery supplying working ships."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime, navigation]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Signal Lantern
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, maritime, navigation]
-sources:
-  - Homebrew
-summary: "Shuttered lantern with coloured glass panels for maritime signalling — found at every chandlery supplying working ships."
 ---
 
 # Signal Lantern

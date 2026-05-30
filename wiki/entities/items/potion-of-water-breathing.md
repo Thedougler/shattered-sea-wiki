@@ -1,19 +1,21 @@
 ---
-title: Potion of Water Breathing
 type: entity
 subtype: item
-item_type: consumable
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, magic-item, maritime]
 sources: ["PHB"]
-summary: "A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels."
+confidence_level: medium
+title: Potion of Water Breathing
+item_type: consumable
+rarity: uncommon
+attunement: false
+homebrew: false
 ---
 
 # Potion of Water Breathing

@@ -1,17 +1,19 @@
 ---
-title: Grimaldi's Dispensary
 type: entity
 subtype: place
-building_type: shop
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, kalowe, apothecary, midchain]
 sources: ["Inbox/Ilaria-Grimaldi.md", "Inbox/Grimaldis-Dispensary.md"]
+confidence_level: medium
+title: Grimaldi's Dispensary
+building_type: shop
 aliases: ["Grimaldi's"]
-summary: "A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs."
 parent_location: "[[kalowe|Kalowe]]"
 district: Third Island
 ---

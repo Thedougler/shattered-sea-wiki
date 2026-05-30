@@ -1,16 +1,17 @@
 ---
-title: Ship Bastion — The Shattered Sea
 type: rules
 subtype: rule
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [rule, reference, bastion, ship]
-sources:
-  - "Dungeon Master's Guide (2024)"
+audience: players
+publish: true
 summary: "Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, bastion, ship]
+sources: ["Dungeon Master's Guide (2024)"]
+title: Ship Bastion — The Shattered Sea
+confidence_level: medium
 ---
 
 # Ship Bastion — The Shattered Sea

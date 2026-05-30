@@ -1,20 +1,21 @@
 ---
-title: Captain's Meal
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, food]
+sources: [Homebrew]
+confidence_level: medium
+title: Captain's Meal
 item_type: food
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, food]
-sources:
-  - Homebrew
-summary: "A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers."
 ---
 
 # Captain's Meal

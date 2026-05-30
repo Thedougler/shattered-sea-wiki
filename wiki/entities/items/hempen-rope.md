@@ -1,19 +1,21 @@
 ---
-title: Hempen Rope
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["PHB"]
-summary: "Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft."
+confidence_level: medium
+title: Hempen Rope
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Hempen Rope

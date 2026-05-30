@@ -1,19 +1,21 @@
 ---
-title: Healer's Kit
 type: entity
 subtype: item
-item_type: tool
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, tool, medical]
 sources: ["PHB"]
-summary: "A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp."
+confidence_level: medium
+title: Healer's Kit
+item_type: tool
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Healer's Kit

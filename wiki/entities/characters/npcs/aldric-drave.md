@@ -1,22 +1,20 @@
 ---
-title: Aldric Drave
 type: character
 subtype: npc
 campaign: shattered-sea
 status: active
-publish: false
 audience: dm
+publish: false
+summary: "Founder of the Dravosi Crown — a Hierarch lich who seeded his bloodline into every noble family and has been running the Crown from underneath for three hundred years."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [dravosi, undead, lich, late_game]
+sources: [Homebrew]
+confidence_level: medium
+title: Aldric Drave
 species: undead (appears human)
 faction: "[[dravosi-crown|Dravosi Crown]]"
 location: "[[port-tidefall|Port Tidefall]]"
-summary: "Founder of the Dravosi Crown — a Hierarch lich who seeded his bloodline into every noble family and has been running the Crown from underneath for three hundred years."
-tags:
-  - dravosi
-  - undead
-  - lich
-  - late_game
-sources:
-  - Homebrew
 ---
 
 # Aldric Drave

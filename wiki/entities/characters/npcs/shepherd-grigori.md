@@ -5,17 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-species: human
 summary: "A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [npc, human, healer, recurring]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Khlysty.md", "Inbox/Shepherd-Grigori.md"]
 confidence_level: observed
+species: human
 roleplay_prompt: "Wandering miracle worker who appears exactly when the nobility need him — warm, deliberate, genuinely curious, and impossible to kill by all accounts."
-aliases:
-  - Shepherd Grigori
-  - Grigori
+aliases: [Shepherd Grigori, Grigori]
 ---
 
 # Shepherd Grigori

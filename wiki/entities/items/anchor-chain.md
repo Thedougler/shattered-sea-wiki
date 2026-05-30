@@ -1,20 +1,20 @@
 ---
-title: Anchor Chain
 type: item
 subtype: equipment
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment]
+sources: [Homebrew]
+confidence_level: medium
+title: Anchor Chain
 rarity: common
 attunement: false
 homebrew: false
-summary: "Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section."
-tags:
-  - item
-  - equipment
-sources:
-  - Homebrew
 ---
 
 # Anchor Chain

@@ -1,16 +1,17 @@
 ---
-title: Rival Team Design
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-tags: [rule, reference, rival, design]
-sources:
-  - "Pointy Hat — Creating a Rival Team for Your Players (YouTube)"
+audience: dm
+publish: false
 summary: "Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, rival, design]
+sources: ["Pointy Hat — Creating a Rival Team for Your Players (YouTube)"]
+title: Rival Team Design
+confidence_level: medium
 ---
 
 # Rival Team Design

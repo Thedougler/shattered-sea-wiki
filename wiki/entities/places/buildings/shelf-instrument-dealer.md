@@ -1,8 +1,6 @@
 ---
-title: The Shelf Instrument Dealer
 type: entity
 subtype: location
-building_type: shop
 campaign: shattered-sea
 status: active
 audience: players
@@ -12,9 +10,11 @@ created: 2026-05-28
 updated: 2026-05-28
 tags: [location, building, port-tidefall, instruments, navigation]
 sources: ["Inbox/Oswald-Crench.md", "Inbox/Shelf-Instrument-Dealer.md"]
+confidence_level: medium
+title: The Shelf Instrument Dealer
+building_type: shop
 district: The Shelf
-aliases:
-  - Shelf Instrument Dealer
+aliases: [Shelf Instrument Dealer]
 ---
 
 # The Shelf Instrument Dealer

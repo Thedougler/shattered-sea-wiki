@@ -1,20 +1,21 @@
 ---
-title: Document Transit
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Secure transit for sealed documents through the Warren's Kin network — 5 gp minimum, price reflects content weight not physical weight."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, warren, passage, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Document Transit
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, service, warren, passage, homebrew]
-sources:
-  - Homebrew
-summary: "Secure transit for sealed documents through the Warren's Kin network — 5 gp minimum, price reflects content weight not physical weight."
 ---
 
 # Document Transit

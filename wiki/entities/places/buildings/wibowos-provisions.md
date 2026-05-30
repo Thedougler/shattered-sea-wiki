@@ -1,8 +1,6 @@
 ---
-title: Wibowo's Provisions
 type: entity
 subtype: place
-building_type: shop
 campaign: shattered-sea
 status: active
 audience: players
@@ -12,9 +10,11 @@ created: 2026-05-28
 updated: 2026-05-29
 tags: [location, kalowe, provisions, shop]
 sources: ["Inbox/Suryo-Wibowo.md", "Inbox/Wibowos-Provisions.md"]
+confidence_level: confirmed
+title: Wibowo's Provisions
+building_type: shop
 region: midchain
 district: First Island, harbour-side
-confidence_level: confirmed
 ---
 
 # Wibowo's Provisions

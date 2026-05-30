@@ -1,25 +1,22 @@
 ---
-title: Aldenmere
 type: location
 subtype: island
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [island, crown-islands, dravosi]
+sources: [Homebrew]
+confidence_level: medium
+title: Aldenmere
 region: crown-islands
 parent_location: "[[crown-islands|The Crown Islands]]"
 governance: "Local fishing families under nominal Dravosi Crown tithe authority"
 access: "Open harbour approach; local pilots preferred around the mere and inlet"
-summary: "The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake."
-tags:
-  - island
-  - crown-islands
-  - dravosi
-sources:
-  - Homebrew
-aliases:
-  - Aldenmere Island
-  - Isle of Aldenmere
+aliases: [Aldenmere Island, Isle of Aldenmere]
 ---
 
 # Aldenmere

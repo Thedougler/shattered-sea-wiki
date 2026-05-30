@@ -1,23 +1,23 @@
 ---
-title: Cape Solitude
 type: entity
 subtype: place
-site_type: landmark
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
+audience: players
+publish: true
+summary: "The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [landmark, calders-tooth, hazard, mystery]
+sources: [Homebrew]
+confidence_level: medium
+title: Cape Solitude
+site_type: landmark
 region: calders_tooth
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "Avoided by locals; failed Dravosi Crown lighthouse project"
 access: "Dangerous; local fisherfolk avoid anchoring within two miles"
-confidence_level: medium
-aliases:
-  - Cape Solitude
-tags: [landmark, calders-tooth, hazard, mystery]
-sources:
-  - Homebrew
-summary: "The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished."
+aliases: [Cape Solitude]
 ---
 
 # Cape Solitude

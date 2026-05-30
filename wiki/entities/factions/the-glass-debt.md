@@ -1,19 +1,20 @@
 ---
-title: The Glass Debt
 type: entity
 subtype: ship
-ship_class: armed frigate
-tier: 3
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [ship, pirate, tier-3, late-game]
 sources: ["Inbox/Drowned-Maw.md", "Inbox/The-Glass-Debt.md"]
-aliases:
-  - Glass Debt
-summary: "A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave."
+confidence_level: medium
+title: The Glass Debt
+ship_class: armed frigate
+tier: 3
+aliases: [Glass Debt]
 ---
 
 # The *Glass Debt*

@@ -1,20 +1,22 @@
 ---
-title: The Narrow
 type: entity
 subtype: ship
-ship_class: scout sloop
-publish: true
 campaign: shattered-sea
-audience: players
 status: lost
-confidence_level: confirmed
-cssclasses: [wiki-ship]
-aliases: ["Narrow", "The Narrow"]
+audience: players
+publish: true
+summary: "Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, lost, fisk-fleet]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Narrow.md"]
+confidence_level: confirmed
+title: The Narrow
+ship_class: scout sloop
+cssclasses: [wiki-ship]
+aliases: ["Narrow", "The Narrow"]
 banner: "raw/assets/banners/Maren.webp"
 captain: "[[maren|Maren]]"
-summary: "Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw."
 ---
 
 # The *Narrow*

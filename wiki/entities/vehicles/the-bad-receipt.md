@@ -1,19 +1,20 @@
 ---
-title: The Bad Receipt
 type: entity
 subtype: vehicle
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [vehicle, ship, pirate, tier-2]
+sources: [Homebrew]
+confidence_level: medium
+title: The Bad Receipt
 ship_class: armed schooner
 tier: 2
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
-tags: [vehicle, ship, pirate, tier-2]
-sources:
-  - Homebrew
 home_port: "[[kalowe|Kalowe]]"
-summary: "A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo."
 ---
 
 # The *Bad Receipt*

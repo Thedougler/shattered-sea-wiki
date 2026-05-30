@@ -1,19 +1,21 @@
 ---
-title: Oil Lantern
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A standard household oil lantern — clear glass, iron frame, reliable in any weather that isn't actually outdoor weather."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment]
 sources: ["PHB"]
-summary: "A standard household oil lantern — clear glass, iron frame, reliable in any weather that isn't actually outdoor weather."
+confidence_level: medium
+title: Oil Lantern
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Oil Lantern

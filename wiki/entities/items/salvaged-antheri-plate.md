@@ -1,21 +1,21 @@
 ---
-title: Salvaged Antheri Plate
 type: entity
 subtype: item
-item_type: wondrous
-rarity: uncommon
 campaign: shattered-sea
 status: active
 audience: players
 publish: true
-requires_attunement: true
-current_holder: "[[beaumont-sel|Beaumont Sel]]"
 summary: "Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli to cover the cannonball breach in his shell — +2 AC and disadvantage on ranged attacks against him."
 created: 2026-05-27
 updated: 2026-05-28
 tags: [item, antheri, armor, wondrous]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Session-01-Recap.md", "Inbox/Salvaged-Antheri-Plate.md"]
 confidence_level: confirmed
+title: Salvaged Antheri Plate
+item_type: wondrous
+rarity: uncommon
+requires_attunement: true
+current_holder: "[[beaumont-sel|Beaumont Sel]]"
 ---
 
 # Salvaged Antheri Plate

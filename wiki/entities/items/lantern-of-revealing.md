@@ -1,19 +1,21 @@
 ---
-title: Lantern of Revealing
 type: entity
 subtype: item
-item_type: magic-item
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, magic-item]
 sources: ["DMG"]
-summary: "A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone."
+confidence_level: medium
+title: Lantern of Revealing
+item_type: magic-item
+rarity: uncommon
+attunement: false
+homebrew: false
 ---
 
 # Lantern of Revealing

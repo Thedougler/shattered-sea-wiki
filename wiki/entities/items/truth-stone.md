@@ -1,19 +1,21 @@
 ---
-title: Truth Stone
 type: entity
 subtype: item
-item_type: wondrous
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: observed
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, wondrous, magic, homebrew]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Truth-Stone.md"]
-summary: "A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest."
+confidence_level: observed
+title: Truth Stone
+item_type: wondrous
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Truth Stone

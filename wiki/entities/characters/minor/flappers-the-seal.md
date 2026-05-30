@@ -10,6 +10,7 @@ created: 2026-04-26
 updated: 2026-05-28
 tags: [beast, companion]
 sources: ["Inbox/Flappers-the-Seal.md"]
+confidence_level: medium
 ---
 
 # Flappers the Seal

@@ -1,20 +1,21 @@
 ---
-title: Custom Metalwork
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Custom bolt patterns, deck fittings, and ironwork fabricated to specification — 1–2 day turnaround at a dry-dock ironmonger."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, kalowe]
+sources: [Homebrew]
+confidence_level: medium
+title: Custom Metalwork
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
-tags: [item, service, kalowe]
-sources:
-  - Homebrew
-summary: "Custom bolt patterns, deck fittings, and ironwork fabricated to specification — 1–2 day turnaround at a dry-dock ironmonger."
 ---
 
 # Custom Metalwork

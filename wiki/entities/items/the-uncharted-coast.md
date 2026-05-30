@@ -1,23 +1,23 @@
 ---
-title: The Uncharted Coast
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A hand-drawn navigational chart of professional quality, depicting approximately 200 miles of coastline that does not appear on any Crown, Tessarine, or commercial chart."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, navigation, mystery, morsani-stock]
+sources: [Homebrew]
+confidence_level: medium
+title: The Uncharted Coast
 item_type: navigation
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
 asking_price: "180"
-tags: [item, navigation, mystery, morsani-stock]
-sources:
-  - Homebrew
-aliases:
-  - Uncharted Coast Chart
-summary: "A hand-drawn navigational chart of professional quality, depicting approximately 200 miles of coastline that does not appear on any Crown, Tessarine, or commercial chart."
+aliases: [Uncharted Coast Chart]
 ---
 
 # The Uncharted Coast

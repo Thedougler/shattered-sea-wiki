@@ -1,16 +1,18 @@
 ---
-title: Captain Dorian Bishop
 type: entity
 subtype: npc
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-reveal_status: unrevealed
-confidence_level: high
+summary: "Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, dravosi, unrevealed, captain]
 sources: ["Inbox/Dorian-Bishop.md"]
-summary: "Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook."
+confidence_level: high
+title: Captain Dorian Bishop
+reveal_status: unrevealed
 ---
 
 # Captain Dorian Bishop

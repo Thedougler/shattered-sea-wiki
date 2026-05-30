@@ -1,15 +1,21 @@
 ---
-title: Delmar Primer
 type: system
 subtype: pc-primer
-publish: false
 campaign: shattered-sea
-audience: agent
 status: active
-confidence_level: medium
+audience: agent
+publish: false
+summary: "Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [system, primer, pc]
 sources: []
-summary: "Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile."
+system_role: unknown
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ''
+title: Delmar Primer
+confidence_level: medium
 ---
 
 # Delmar Primer

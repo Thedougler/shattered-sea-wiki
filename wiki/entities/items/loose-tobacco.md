@@ -1,19 +1,21 @@
 ---
-title: Loose Tobacco
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Cured leaf tobacco, sold by the pound — rolled, piped, or chewed according to preference. 6 sp per lb."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable]
 sources: ["Homebrew"]
-summary: "Cured leaf tobacco, sold by the pound — rolled, piped, or chewed according to preference. 6 sp per lb."
+confidence_level: medium
+title: Loose Tobacco
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Loose Tobacco

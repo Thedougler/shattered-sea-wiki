@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [tiefling, minor-npc, kalowe]
 sources: ["Inbox/Ilaria-Grimaldi.md"]
+confidence_level: medium
 ---
 
 # Ilaria Grimaldi

@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [lizardfolk, minor-npc, kalowe]
 sources: ["wiki/situations/active/kalowe-takowan.md", "Inbox/Noa-Fifita.md"]
+confidence_level: medium
 ---
 
 # Noa Fifita

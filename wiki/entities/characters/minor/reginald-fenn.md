@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [elf, dravosi, minor-npc, port-tidefall]
 sources: ["Inbox/Reginald-Fenn.md"]
+confidence_level: medium
 ---
 
 # Reginald Fenn

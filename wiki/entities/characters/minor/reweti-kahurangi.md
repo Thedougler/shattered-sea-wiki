@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [tortle, minor-npc, kalowe]
 sources: ["Inbox/Reweti-Kahurangi.md"]
+confidence_level: medium
 ---
 
 # Reweti Kahurangi

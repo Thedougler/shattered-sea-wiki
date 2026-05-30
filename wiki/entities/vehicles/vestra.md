@@ -1,19 +1,20 @@
 ---
-title: The Vestra
 type: entity
 subtype: vehicle
-ship_class: two-masted brig
-publish: true
 campaign: shattered-sea
-audience: players
 status: lost
-confidence_level: confirmed
+audience: players
+publish: true
+summary: "Perrin Black-Jaw's family brig — built by his grandfather Vincenzo Black-Jaw, destroyed before the campaign begins by something massive from below."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, rattkin, black-jaw, lost]
 sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Vestra.md"]
-aliases:
-  - Vestra
+confidence_level: confirmed
+title: The Vestra
+ship_class: two-masted brig
+aliases: [Vestra]
 captain: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-summary: "Perrin Black-Jaw's family brig — built by his grandfather Vincenzo Black-Jaw, destroyed before the campaign begins by something massive from below."
 ---
 
 # The *Vestra*

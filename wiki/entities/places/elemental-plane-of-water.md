@@ -1,16 +1,18 @@
 ---
-title: Elemental Plane of Water
 type: entity
 subtype: place
-plane_type: elemental-plane
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
+audience: dm
+publish: false
+summary: "A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, plane, elemental, drowned-maw, cosmology]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Elemental-Plane-of-Water.md"]
-summary: "A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through."
+confidence_level: medium
+title: Elemental Plane of Water
+plane_type: elemental-plane
 access: "breach through the Drowned Maw fissure"
 banner: raw/assets/banners/Elemental-Plane-of-Water.webp
 ---

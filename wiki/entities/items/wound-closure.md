@@ -1,20 +1,21 @@
 ---
-title: Wound Closure
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Professional cleaning and suturing of open wounds — 2 sp at an apothecary."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, medical]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Wound Closure
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: true
-tags: [item, service, medical]
-sources:
-  - Homebrew
-summary: "Professional cleaning and suturing of open wounds — 2 sp at an apothecary."
 ---
 
 # Wound Closure

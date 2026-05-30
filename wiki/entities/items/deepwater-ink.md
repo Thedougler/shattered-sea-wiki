@@ -1,20 +1,21 @@
 ---
-title: Deepwater Ink
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, calveno, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Deepwater Ink
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources:
-  - Homebrew
-summary: "An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures."
 ---
 
 # Deepwater Ink

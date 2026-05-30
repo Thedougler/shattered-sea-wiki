@@ -1,19 +1,21 @@
 ---
-title: Fever Poultice
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A herbal compress preparation for reducing fever — three applications per pack."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, medical, homebrew]
 sources: ["Homebrew"]
-summary: "A herbal compress preparation for reducing fever — three applications per pack."
+confidence_level: medium
+title: Fever Poultice
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Fever Poultice

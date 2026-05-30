@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: deceased
 audience: players
 publish: true
-aliases:
-  - Vincenzo
 summary: "Deceased patriarch of the Black-Jaw Run — built and captained the Vestra, Nona's late husband, Perrin's grandfather."
 created: 2026-05-20
 updated: 2026-05-28
 tags: [rattkin, deceased, minor-npc]
 sources: ["Inbox/Vincenzo-Black-Jaw.md"]
+confidence_level: medium
+aliases: [Vincenzo]
 ---
 
 # Vincenzo Black-Jaw

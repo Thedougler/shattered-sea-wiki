@@ -1,22 +1,22 @@
 ---
-title: Frag Canister
 type: entity
 subtype: item
-item_type: consumable
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
 sources: ["Homebrew"]
-summary: "Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius."
-aliases:
-  - Fragmentation Canister
-  - Frag
+confidence_level: medium
+title: Frag Canister
+item_type: consumable
+rarity: uncommon
+attunement: false
+homebrew: true
+aliases: [Fragmentation Canister, Frag]
 ---
 
 # Frag Canister

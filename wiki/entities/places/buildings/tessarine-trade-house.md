@@ -1,21 +1,20 @@
 ---
-title: Tessarine Trade House — Port Tidefall
 type: entity
 subtype: place
-building_type: trade-house
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [place, building, port-tidefall, tessarine, trade]
-sources:
-  - Homebrew
-aliases:
-  - Tessarine Trade House
-  - Concordat Trade House — Tidefall
-district: The Shelf
+audience: players
+publish: true
 summary: "The Tessarine Concordat's commercial office on the Shelf — trade licensing, contract brokerage, and a clerk who prefers paperwork to people."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, building, port-tidefall, tessarine, trade]
+sources: [Homebrew]
+confidence_level: medium
+title: Tessarine Trade House — Port Tidefall
+building_type: trade-house
+aliases: [Tessarine Trade House, Concordat Trade House — Tidefall]
+district: The Shelf
 parent_location: "[[port-tidefall|Port Tidefall]]"
 ---
 

@@ -1,19 +1,21 @@
 ---
-title: Pistol Ammunition
 type: entity
 subtype: item
-item_type: ammunition
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Paper cartridges of black powder and ball for flintlock pistols and muskets — kept dry in waxed paper, useless when wet. 12 gp per 20."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, ammunition, firearm]
 sources: ["Homebrew"]
-summary: "Paper cartridges of black powder and ball for flintlock pistols and muskets — kept dry in waxed paper, useless when wet. 12 gp per 20."
+confidence_level: medium
+title: Pistol Ammunition
+item_type: ammunition
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Pistol Ammunition

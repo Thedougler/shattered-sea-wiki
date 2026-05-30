@@ -1,20 +1,21 @@
 ---
-title: Bracers of Archery
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, wondrous, ranged, attunement]
+sources: [PHB]
+confidence_level: high
+title: Bracers of Archery
 item_type: wondrous-item
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: true
 homebrew: false
-confidence_level: high
-tags: [item, wondrous, ranged, attunement]
-sources:
-  - PHB
-summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
 current_holder: "[[stripes-bitemore|Stripes Bitemore]]"
 ---
 

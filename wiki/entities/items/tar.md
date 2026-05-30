@@ -1,20 +1,21 @@
 ---
-title: Tar
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Hull caulking tar — seals seams, coats rope, and keeps water where it belongs."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime, ship]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Tar
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, maritime, ship]
-sources:
-  - Homebrew
-summary: "Hull caulking tar — seals seams, coats rope, and keeps water where it belongs."
 ---
 
 # Tar

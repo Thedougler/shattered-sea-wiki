@@ -1,20 +1,21 @@
 ---
-title: Wind Caller's Boom
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "A mainmast boom installation that forces favorable wind for 4 hours once per day — useless in a storm or the Doldrums."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, navigation, homebrew, uncommon]
+sources: [Homebrew]
+confidence_level: medium
+title: Wind Caller's Boom
 item_type: ship-upgrade
 rarity: uncommon
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "1200"
-tags: [item, ship-upgrade, navigation, homebrew, uncommon]
-sources:
-  - Homebrew
-summary: "A mainmast boom installation that forces favorable wind for 4 hours once per day — useless in a storm or the Doldrums."
 ---
 
 # Wind Caller's Boom

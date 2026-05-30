@@ -1,19 +1,20 @@
 ---
-title: Studio Orsini
 type: entity
 subtype: place
-building_type: shop
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, calveno, shop, alchemy, le-paludi]
 sources: ["Inbox/Session-03-Recap.md", "Inbox/Studio-Orsini.md"]
-aliases:
-  - Orsini's
+confidence_level: medium
+title: Studio Orsini
+building_type: shop
+aliases: [Orsini's]
 district: Le Paludi
-summary: "An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for."
 parent_location: "[[calveno|Calveno]]"
 ---
 

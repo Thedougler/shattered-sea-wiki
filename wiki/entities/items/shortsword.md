@@ -1,20 +1,21 @@
 ---
-title: Shortsword
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, melee, martial]
+sources: [PHB]
+confidence_level: confirmed
+title: Shortsword
 item_type: weapon
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, weapon, melee, martial]
-sources:
-  - PHB
-summary: "A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships."
 ---
 
 # Shortsword

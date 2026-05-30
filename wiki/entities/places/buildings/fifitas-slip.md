@@ -10,6 +10,7 @@ created: 2026-05-28
 updated: 2026-05-28
 tags: [location, kalowe, boatyard]
 sources: ["Inbox/Noa-Fifita.md"]
+confidence_level: medium
 ---
 
 # Fifita's Slip

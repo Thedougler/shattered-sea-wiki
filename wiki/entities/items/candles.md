@@ -1,20 +1,21 @@
 ---
-title: Candles
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Tallow or beeswax candles for general illumination — cheaper than lamp oil, dimmer, and prone to salt-air extinction."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, light]
+sources: [PHB]
+confidence_level: medium
+title: Candles
 item_type: consumable
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, consumable, light]
-sources:
-  - PHB
-summary: "Tallow or beeswax candles for general illumination — cheaper than lamp oil, dimmer, and prone to salt-air extinction."
 ---
 
 # Candles

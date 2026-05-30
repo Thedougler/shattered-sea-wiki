@@ -1,19 +1,21 @@
 ---
-title: Perrin's Cloak of the Manta Ray
 type: entity
 subtype: item
-item_type: magic-item
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: confirmed
-attunement: true
-homebrew: false
+audience: players
+publish: true
+summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Swim speed 60 ft., breathe underwater, manta ray form while the hood is up. Kept Perrin alive when his ship didn't."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, magic-item, perrin, black-jaw, wondrous]
 sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Perrins-Cloak-of-the-Manta-Ray.md"]
-summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Swim speed 60 ft., breathe underwater, manta ray form while the hood is up. Kept Perrin alive when his ship didn't."
+confidence_level: confirmed
+title: Perrin's Cloak of the Manta Ray
+item_type: magic-item
+rarity: uncommon
+attunement: true
+homebrew: false
 ---
 
 # Perrin's Cloak of the Manta Ray

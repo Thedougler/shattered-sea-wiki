@@ -1,22 +1,21 @@
 ---
-title: Aldous Draves
 type: character
 subtype: npc
 campaign: shattered-sea
 status: active
-publish: false
 audience: dm
+publish: false
+summary: "Minor Dravosi gentleman and Crown-licensed factor — Geoffrey Draves's father, who arranged his son's berth on the Surety using a wage contract he knew was not what Geoffrey believed it was."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [dravosi, civilian, family]
+sources: [Homebrew]
+confidence_level: medium
+title: Aldous Draves
 species: human
 affiliations:
   - "[[dravosi-crown|Dravosi Crown]]"
 current_location: "[[port-tidefall|Port Tidefall]]"
-summary: "Minor Dravosi gentleman and Crown-licensed factor — Geoffrey Draves's father, who arranged his son's berth on the Surety using a wage contract he knew was not what Geoffrey believed it was."
-tags:
-  - dravosi
-  - civilian
-  - family
-sources:
-  - Homebrew
 ---
 
 # Aldous Draves

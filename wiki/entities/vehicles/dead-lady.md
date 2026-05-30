@@ -1,18 +1,19 @@
 ---
-title: The Dead Lady
 type: entity
 subtype: vehicle
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [vehicle, ship, undead, umberlee, antagonist, tier-2]
+sources: [Homebrew]
+confidence_level: confirmed
+title: The Dead Lady
 ship_class: brigantine
 tier: 2
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: confirmed
-tags: [vehicle, ship, undead, umberlee, antagonist, tier-2]
-sources:
-  - Homebrew
-summary: "The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him."
 captain: "[[umberlee|Umberlee]]"
 current_location: "Dormant — deployed on Umberlee's order"
 ---

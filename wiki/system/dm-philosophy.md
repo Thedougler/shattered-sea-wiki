@@ -1,16 +1,21 @@
 ---
-title: DM Philosophy
 type: system
 subtype: system-guide
-publish: false
 campaign: shattered-sea
-audience: agent
 status: active
-confidence_level: medium
-tags: [system, reference, table-philosophy]
-sources:
-  - Homebrew
+audience: agent
+publish: false
 summary: "A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [system, reference, table-philosophy]
+sources: [Homebrew]
+system_role: unknown
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ''
+title: DM Philosophy
+confidence_level: medium
 ---
 
 # DM Philosophy

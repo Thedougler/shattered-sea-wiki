@@ -1,16 +1,18 @@
 ---
-title: Governor's Seat — Port Tidefall
 type: entity
 subtype: place
-building_type: government office
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, dravosi, port-tidefall]
 sources: ["Inbox/Governors-Seat.md"]
-summary: "The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday."
+confidence_level: medium
+title: Governor's Seat — Port Tidefall
+building_type: government office
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: The Shelf
 ---

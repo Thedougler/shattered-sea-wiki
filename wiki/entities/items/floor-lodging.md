@@ -1,19 +1,21 @@
 ---
-title: Floor Lodging
 type: entity
 subtype: item
-item_type: service
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A spot on the communal floor of the Warren's Low Lamp — warm, safe, and watched."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, lodging, warren, homebrew]
 sources: ["Homebrew"]
-summary: "A spot on the communal floor of the Warren's Low Lamp — warm, safe, and watched."
+confidence_level: medium
+title: Floor Lodging
+item_type: service
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Floor Lodging

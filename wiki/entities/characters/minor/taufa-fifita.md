@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [lizardfolk, minor-npc, kalowe]
 sources: ["Inbox/Noa-Fifita.md", "Inbox/Taufa-Fifita.md"]
+confidence_level: medium
 ---
 
 # Taufa Fifita

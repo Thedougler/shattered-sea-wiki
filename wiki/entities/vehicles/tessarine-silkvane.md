@@ -1,20 +1,21 @@
 ---
-title: Tessarine Courier Silkvane
 type: entity
 subtype: vehicle
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [vehicle, ship, tessarine, tier-1, dispatch]
+sources: [Homebrew]
+confidence_level: medium
+title: Tessarine Courier Silkvane
 ship_class: dispatch sloop
 tier: 1
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: medium
-tags: [vehicle, ship, tessarine, tier-1, dispatch]
-sources:
-  - Homebrew
 home_port: "[[port-tidefall|Port Tidefall]]"
 current_location: "[[port-tidefall|Port Tidefall]] harbour"
-summary: "A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels."
 ---
 
 # Tessarine Courier *Silkvane*

@@ -1,20 +1,21 @@
 ---
-title: Spark Pistol
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A single-shot lightning pistol that fires 2d8 damage with no powder and no wet-weather misfire — prototype; Catarina has not decided what went wrong with it."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, prototype, antheri-adjacent, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Spark Pistol
 item_type: weapon
 rarity: rare
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "2200"
-tags: [item, weapon, prototype, antheri-adjacent, homebrew]
-sources:
-  - Homebrew
-summary: "A single-shot lightning pistol that fires 2d8 damage with no powder and no wet-weather misfire — prototype; Catarina has not decided what went wrong with it."
 ---
 
 # Spark Pistol

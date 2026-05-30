@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [rattkin, minor-npc]
 sources: ["Inbox/Colla.md"]
+confidence_level: medium
 ---
 
 # Colla

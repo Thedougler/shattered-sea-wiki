@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [minor-npc, port-tidefall]
 sources: ["Inbox/Hector-Podge.md"]
+confidence_level: medium
 ---
 
 # Hector Podge

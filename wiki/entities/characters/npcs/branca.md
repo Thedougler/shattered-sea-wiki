@@ -1,21 +1,22 @@
 ---
-title: Branca
 type: entity
 subtype: npc
-category: character
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
+audience: dm
+publish: false
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [npc, human, waveservants, calveno, umberlee, divine]
+sources: [Inbox/Calveno-Sandbox-Run-Guide.md, Inbox/Branca.md]
+confidence_level: observed
+title: Branca
+category: character
 species: human
 role: "Senior Waveservant / Umberlee's appointment-keeper"
 roleplay_prompt: "Corporate Cult Executive Assistant"
 deployment_note: "Place at the Waveservant Shrine of whichever major port the party visits first. Her role and manner are identical at each shrine."
-tags: [npc, human, waveservants, calveno, umberlee, divine]
-sources:
-  - Inbox/Calveno-Sandbox-Run-Guide.md
-  - Inbox/Branca.md
-confidence_level: observed
 relationships:
   - "[[delmar-fisk|Delmar Fisk]] — target; here specifically for him"
   - "[[umberlee|Umberlee]] — serves; sent by"

@@ -1,20 +1,20 @@
 ---
-title: The Fernen
 type: entity
 subtype: vehicle
 campaign: shattered-sea
 status: lost
 audience: players
 publish: true
-confidence_level: confirmed
+summary: "Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, lost, fisk-fleet, brigantine]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Fernen.md"]
-summary: "Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw."
+confidence_level: confirmed
+title: The Fernen
 banner: raw/assets/banners/Fernen.webp
 ship_class: Two-masted brigantine
-aliases:
-  - Fernen
-  - The Fernen
+aliases: [Fernen, The Fernen]
 ---
 
 # The *Fernen*

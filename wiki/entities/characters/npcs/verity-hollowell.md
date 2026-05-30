@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-species: human
 summary: "Port Tidefall factor's daughter who can read a cargo manifest faster than most Crown inspectors — searching records for Geoffrey Draves, sitting on a ledger anomaly that implicates her family's license."
 created: 2026-05-28
 updated: 2026-05-28
 tags: [npc, dm-only, hollowell, tidefall, draves]
 sources: ["Inbox/Surety-Missing.md", "Inbox/Verity-Hollowell.md"]
 confidence_level: confirmed
+species: human
 ---
 
 # Verity Hollowell

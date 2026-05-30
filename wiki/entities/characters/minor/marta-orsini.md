@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [tiefling, minor-npc, calveno]
 sources: ["Inbox/Session-03-Recap.md", "Inbox/Marta-Orsini.md"]
+confidence_level: medium
 ---
 
 # Marta Orsini

@@ -1,17 +1,19 @@
 ---
-title: Kalowe
 type: entity
 subtype: place
-settlement_type: free-port
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Kalowe Free Port"]
+audience: players
+publish: true
+summary: "Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, settlement, midchain, kalowe, harbour]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Chain-Council.md", "Inbox/Five-Blades.md", "Inbox/Kalowe.md"]
-summary: "Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms."
+confidence_level: medium
+title: Kalowe
+settlement_type: free-port
+aliases: ["Kalowe Free Port"]
 parent_location: "[[midchain|The Midchain]]"
 governance: "Island Council, harbour bosses, and money-backed non-interference"
 access: "Open free port behind a reef gap; papers matter less than payment"

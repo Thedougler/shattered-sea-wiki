@@ -1,15 +1,17 @@
 ---
-title: Provisions Store
 type: concept
 subtype: rule
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, bastion, facility, reference]
 sources: ["Dungeon Master's Guide (2024)"]
-summary: "Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type."
+title: Provisions Store
+confidence_level: medium
 ---
 
 # Provisions Store

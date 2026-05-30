@@ -1,8 +1,6 @@
 ---
-title: Waveservant Shrine — Calveno
 type: entity
 subtype: place
-building_type: shrine
 campaign: shattered-sea
 status: active
 audience: dm
@@ -13,6 +11,8 @@ updated: 2026-05-29
 tags: [place, calveno, shrine, umberlee, dm-active]
 sources: ["Inbox/Session-03-Recap.md", "Inbox/Waveservant-Shrine.md"]
 confidence_level: confirmed
+title: Waveservant Shrine — Calveno
+building_type: shrine
 district: Mercatura
 relationships:
   - "[[umberlee-servant|Umberlee's Servant]] — waiting here, has not slept"

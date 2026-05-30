@@ -1,19 +1,21 @@
 ---
-title: Hooded Lantern
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["PHB"]
-summary: "A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp."
+confidence_level: medium
+title: Hooded Lantern
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Hooded Lantern

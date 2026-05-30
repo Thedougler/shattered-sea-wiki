@@ -1,15 +1,17 @@
 ---
-title: Jean-Claude Primer
 type: reference
 subtype: pc-primer
-publish: false
 campaign: shattered-sea
-audience: agent
 status: active
-confidence_level: medium
+audience: agent
+publish: false
+summary: "Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [system, primer, jean-claude]
 sources: ["Inbox/Jean-Claude-Primer.md"]
-summary: "Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers."
+title: Jean-Claude Primer
+confidence_level: medium
 ---
 
 # Jean-Claude Primer

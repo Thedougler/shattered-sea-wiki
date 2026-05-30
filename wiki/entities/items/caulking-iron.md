@@ -1,20 +1,21 @@
 ---
-title: Caulking Iron
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, tool]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Caulking Iron
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, tool]
-sources:
-  - Homebrew
-summary: "A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming."
 ---
 
 # Caulking Iron

@@ -1,20 +1,21 @@
 ---
-title: Clockwork Deck Crew
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, crew, construct, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Clockwork Deck Crew
 item_type: ship-upgrade
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "2800"
-tags: [item, ship-upgrade, crew, construct, homebrew]
-sources:
-  - Homebrew
-summary: "A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding."
 ---
 
 # Clockwork Deck Crew

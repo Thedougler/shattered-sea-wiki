@@ -1,19 +1,21 @@
 ---
-title: Rice
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Staple grain provision — padded against damp in waxed cloth, reliable on any passage. 5 sp per 10 lb."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable]
 sources: ["Homebrew"]
-summary: "Staple grain provision — padded against damp in waxed cloth, reliable on any passage. 5 sp per 10 lb."
+confidence_level: medium
+title: Rice
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Rice

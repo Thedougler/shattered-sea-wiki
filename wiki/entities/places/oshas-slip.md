@@ -1,17 +1,19 @@
 ---
-title: Osha's Slip
 type: entity
 subtype: place
-settlement_type: village
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Osha's Slip"]
+audience: players
+publish: true
+summary: "A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, settlement, calders-tooth]
 sources: ["wiki/entities/factions/the-passage.md", "Inbox/Oshas-Slip.md"]
-summary: "A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out."
+confidence_level: medium
+title: Osha's Slip
+settlement_type: village
+aliases: ["Osha's Slip"]
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "Local fishing families; Crown authority is largely theoretical"
 access: "Tide-dependent stilt village with no solid road in or out"

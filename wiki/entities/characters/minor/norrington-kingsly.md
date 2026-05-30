@@ -10,6 +10,7 @@ created: 2026-04-24
 updated: 2026-05-28
 tags: [dravosi, navy, minor-npc]
 sources: ["Inbox/Norrington-Kingsly.md"]
+confidence_level: medium
 roleplay_prompt: "Jolly retired small-town cop who knows exactly why he retired when he did"
 ---
 

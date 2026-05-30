@@ -1,19 +1,21 @@
 ---
-title: Musket
 type: entity
 subtype: item
-item_type: weapon
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: high
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Martial ranged weapon. Highest single-shot damage (1d12), but Loading, shortest range of any two-hander, and three firearm penalties (misfire, loud, wet) that bows avoid entirely."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, weapon, ranged, martial, firearm, homebrew]
 sources: ["Homebrew"]
-summary: "Martial ranged weapon. Highest single-shot damage (1d12), but Loading, shortest range of any two-hander, and three firearm penalties (misfire, loud, wet) that bows avoid entirely."
+confidence_level: high
+title: Musket
+item_type: weapon
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Musket

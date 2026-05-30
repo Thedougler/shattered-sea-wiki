@@ -1,20 +1,21 @@
 ---
-title: Corto di Velo
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "A +1 Calveno dock-pattern shortbow that removes the within-5-ft disadvantage penalty. Purchased by Jean-Claude in the Velo Quarter during Session 04."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, weapon, ranged, calveno, homebrew]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Corto di Velo
 item_type: weapon
 rarity: uncommon
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: true
-tags: [item, weapon, ranged, calveno, homebrew]
-sources:
-  - Homebrew
-summary: "A +1 Calveno dock-pattern shortbow that removes the within-5-ft disadvantage penalty. Purchased by Jean-Claude in the Velo Quarter during Session 04."
 ---
 
 # Corto di Velo

@@ -1,20 +1,22 @@
 ---
-title: Poison Gas Canister
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
+sources: ["Homebrew"]
+confidence_level: medium
+title: Poison Gas Canister
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
 aliases: ["Gas Canister"]
-tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
-sources: ["Homebrew"]
-summary: "Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius."
 ---
 
 # Poison Gas Canister

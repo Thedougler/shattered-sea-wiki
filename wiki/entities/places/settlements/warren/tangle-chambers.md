@@ -1,19 +1,20 @@
 ---
-title: The Tangle Chambers
 type: entity
 subtype: place
-building_type: chambers
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, warren, calveno, rattkin, passage]
 sources: ["Inbox/Warren-Nonas-Table.md", "Inbox/Warren-Grung-Sewers.md", "Inbox/Tangle-Chambers.md"]
-aliases:
-  - Tangle Chambers
+confidence_level: medium
+title: The Tangle Chambers
+building_type: chambers
+aliases: [Tangle Chambers]
 district: Warren
-summary: "The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held."
 parent_location: "[[warren|The Warren]]"
 ---
 

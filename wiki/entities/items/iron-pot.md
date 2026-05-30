@@ -1,19 +1,21 @@
 ---
-title: Iron Pot
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["PHB"]
-summary: "A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp."
+confidence_level: medium
+title: Iron Pot
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Iron Pot

@@ -1,19 +1,21 @@
 ---
-title: Hammock Berth
 type: entity
 subtype: item
-item_type: lodging
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, lodging]
 sources: ["Homebrew"]
-summary: "A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night."
+confidence_level: medium
+title: Hammock Berth
+item_type: lodging
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Hammock Berth

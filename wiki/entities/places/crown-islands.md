@@ -1,20 +1,19 @@
 ---
-title: The Crown Islands
 type: entity
 subtype: place
-region_type: archipelago
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [place, region, archipelago, dravosi, crown-islands]
-sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Crown-Islands.md"
-aliases:
-  - Crown Islands
+audience: players
+publish: true
 summary: "Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, region, archipelago, dravosi, crown-islands]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Crown-Islands.md"]
+confidence_level: medium
+title: The Crown Islands
+region_type: archipelago
+aliases: [Crown Islands]
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "[[dravosi-crown|The Dravosi Crown]]"
 access: "charted route; controlled harbours; pilots recommended through the Greyteeth"

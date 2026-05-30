@@ -1,19 +1,21 @@
 ---
-title: Fresh Water
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, drink, consumable, maritime]
 sources: ["Homebrew"]
-summary: "A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained."
+confidence_level: medium
+title: Fresh Water
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Fresh Water

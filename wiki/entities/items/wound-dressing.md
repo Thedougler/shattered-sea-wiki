@@ -1,20 +1,21 @@
 ---
-title: Wound Dressing
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Salt-treated linen bandages and wound cloths — extends what a healer's kit can do."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, medical]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Wound Dressing
 item_type: consumable
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, consumable, medical]
-sources:
-  - Homebrew
-summary: "Salt-treated linen bandages and wound cloths — extends what a healer's kit can do."
 ---
 
 # Wound Dressing

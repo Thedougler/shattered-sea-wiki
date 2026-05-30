@@ -1,16 +1,18 @@
 ---
-title: Ket
 type: entity
 subtype: npc
-publish: false
 campaign: shattered-sea
-audience: dm
 status: resolved
-confidence_level: high
+audience: dm
+publish: false
+summary: "A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, fey, moucheron, freed]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Ket.md"]
+confidence_level: high
+title: Ket
 banner: "raw/assets/banners/Ket.webp"
-summary: "A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat."
 ---
 
 # Ket

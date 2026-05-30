@@ -1,23 +1,22 @@
 ---
-title: Clyde's Bestiary of Oceanic Creatures
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, book, reference, naturalist]
+sources: ["Inbox/Algernon-Reginald-Clyde.md", "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"]
+confidence_level: confirmed
+title: Clyde's Bestiary of Oceanic Creatures
 item_type: book
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 requires_attunement: false
 current_holder: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-aliases:
-  - Clyde's Bestiary
-tags: [item, book, reference, naturalist]
-sources:
-  - "Inbox/Algernon-Reginald-Clyde.md"
-  - "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"
-summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations."
+aliases: [Clyde's Bestiary]
 ---
 
 # Clyde's Bestiary of Oceanic Creatures

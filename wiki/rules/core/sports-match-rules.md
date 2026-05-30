@@ -1,16 +1,17 @@
 ---
-title: Sports Match Rules
 type: rules
 subtype: rule
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-tags: [rule, reference, minigame, combat]
-sources:
-  - "Pointy Hat — Sports Match Rules"
+audience: dm
+publish: false
 summary: "5e-based rules for running a sports match as a combat encounter. Share with players the session before the match."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [rule, reference, minigame, combat]
+sources: ["Pointy Hat — Sports Match Rules"]
+title: Sports Match Rules
+confidence_level: medium
 ---
 
 # Sports Match Rules

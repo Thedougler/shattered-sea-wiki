@@ -1,17 +1,19 @@
 ---
-title: Meth-Var
 type: entity
 subtype: place
-island_type: watch-island
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Eastern Gate"]
+audience: players
+publish: true
+summary: "The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, island, sunken-crown, tabaxi]
 sources: ["Homebrew"]
-summary: "The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar."
+confidence_level: medium
+title: Meth-Var
+island_type: watch-island
+aliases: ["Eastern Gate"]
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] rotating watchers"
 access: "Exposed watch run facing open Maw waters"

@@ -1,20 +1,21 @@
 ---
-title: Wardstone Figurehead
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "A warded ship figurehead that hardens the vessel against hostile magic and defeats most hostile divination."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, warding, rare, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Wardstone Figurehead
 item_type: ship-upgrade
 rarity: rare
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "12000"
-tags: [item, ship-upgrade, warding, rare, homebrew]
-sources:
-  - Homebrew
-summary: "A warded ship figurehead that hardens the vessel against hostile magic and defeats most hostile divination."
 ---
 
 # Wardstone Figurehead

@@ -1,20 +1,22 @@
 ---
-title: HCS Relentless
 type: entity
 subtype: ship
-ship_class: patrol cutter
-tier: 1
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
-cssclasses: [wiki-ship]
+audience: dm
+publish: false
+summary: "A Tier 1 patrol cutter in Port Tidefall — same class as HCS Surety but more heavily armed, in pristine condition, and not for sale."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, dravosi, tier-1]
 sources: ["Homebrew"]
+confidence_level: medium
+title: HCS Relentless
+ship_class: patrol cutter
+tier: 1
+cssclasses: [wiki-ship]
 current_location: Main harbour pier, Port Tidefall
 home_port: "[[port-tidefall|Port Tidefall]]"
-summary: "A Tier 1 patrol cutter in Port Tidefall — same class as HCS Surety but more heavily armed, in pristine condition, and not for sale."
 ---
 
 # HCS Relentless

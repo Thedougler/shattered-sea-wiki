@@ -1,19 +1,21 @@
 ---
-title: Fresh Citrus
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable, maritime]
 sources: ["Homebrew"]
-summary: "Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else."
+confidence_level: medium
+title: Fresh Citrus
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Fresh Citrus

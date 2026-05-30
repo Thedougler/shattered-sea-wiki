@@ -1,19 +1,21 @@
 ---
-title: Fermented Cider
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Essa Two-Tooth's house-brewed cider from the Warren — she calls it cider; the jury remains out."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, consumable, warren, homebrew]
 sources: ["Homebrew"]
-summary: "Essa Two-Tooth's house-brewed cider from the Warren — she calls it cider; the jury remains out."
+confidence_level: medium
+title: Fermented Cider
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Fermented Cider

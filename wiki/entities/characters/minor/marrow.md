@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [rattkin, minor-npc, warren]
 sources: ["Inbox/Warren-Marrows-Crate.md", "Inbox/Marrow.md"]
+confidence_level: medium
 ---
 
 # Marrow

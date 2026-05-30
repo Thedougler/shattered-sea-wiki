@@ -1,20 +1,21 @@
 ---
-title: Tide Reader
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, ship-upgrade, navigation, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Tide Reader
 item_type: ship-upgrade
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 requires_attunement: false
 asking_price: "600"
-tags: [item, ship-upgrade, navigation, homebrew]
-sources:
-  - Homebrew
-summary: "A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters."
 ---
 
 # Tide Reader

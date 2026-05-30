@@ -1,20 +1,21 @@
 ---
-title: Custom Preparation
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A commissioned herbal or medicinal preparation — 1–3 days, ingredients and availability dependent."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, warren, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Custom Preparation
 item_type: service
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, service, warren, homebrew]
-sources:
-  - Homebrew
-summary: "A commissioned herbal or medicinal preparation — 1–3 days, ingredients and availability dependent."
 ---
 
 # Custom Preparation

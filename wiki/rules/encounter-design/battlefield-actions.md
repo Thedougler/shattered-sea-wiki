@@ -1,15 +1,17 @@
 ---
-title: Battlefield Actions
 type: rules
 subtype: encounter-design
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: medium
+audience: dm
+publish: false
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, reference, combat, boss, encounter-design]
-sources:
-  - "Pointy Hat: Battlefield Actions"
+sources: ["Pointy Hat: Battlefield Actions"]
+title: Battlefield Actions
+confidence_level: medium
 ---
 
 # Battlefield Actions

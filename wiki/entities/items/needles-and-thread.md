@@ -1,19 +1,21 @@
 ---
-title: Needles and Thread
 type: entity
 subtype: item
-item_type: tool
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, tool]
 sources: ["Homebrew"]
-summary: "Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails."
+confidence_level: medium
+title: Needles and Thread
+item_type: tool
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Needles and Thread

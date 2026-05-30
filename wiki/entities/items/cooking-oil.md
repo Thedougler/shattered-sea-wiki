@@ -1,20 +1,21 @@
 ---
-title: Cooking Oil
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Palm oil or similar clean cooking fat — essential for any galley that does more than boil things."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, provision, consumable]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Cooking Oil
 item_type: provision
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, provision, consumable]
-sources:
-  - Homebrew
-summary: "Palm oil or similar clean cooking fat — essential for any galley that does more than boil things."
 ---
 
 # Cooking Oil

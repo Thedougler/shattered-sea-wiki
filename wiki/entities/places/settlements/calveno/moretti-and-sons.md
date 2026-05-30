@@ -1,17 +1,19 @@
 ---
-title: Moretti & Sons Chandlery
 type: entity
 subtype: place
-building_type: shop
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Moretti and Sons", "Moretti's"]
+audience: players
+publish: true
+summary: "Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, shop, calveno]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md", "Inbox/Moretti-and-Sons.md"]
-summary: "Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up."
+confidence_level: medium
+title: Moretti & Sons Chandlery
+building_type: shop
+aliases: ["Moretti and Sons", "Moretti's"]
 parent_location: "[[calveno|Calveno]]"
 district: Mercatura
 ---

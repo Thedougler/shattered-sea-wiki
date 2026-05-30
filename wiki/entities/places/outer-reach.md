@@ -1,16 +1,18 @@
 ---
-title: The Outer Reach
 type: entity
 subtype: place
-region_type: open-ocean
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, navigation, outer-reach, maritime]
 sources: ["Inbox/Outer-Reach.md", "Inbox/campaign-overview.md"]
-summary: "The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit."
+confidence_level: medium
+title: The Outer Reach
+region_type: open-ocean
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 ---
 

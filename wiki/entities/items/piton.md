@@ -1,19 +1,21 @@
 ---
-title: Piton
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, climbing]
 sources: ["PHB"]
-summary: "A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10."
+confidence_level: medium
+title: Piton
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Piton

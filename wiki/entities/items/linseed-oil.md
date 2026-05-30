@@ -1,19 +1,21 @@
 ---
-title: Linseed Oil
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, consumable, maritime]
 sources: ["Homebrew"]
-summary: "Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart."
+confidence_level: medium
+title: Linseed Oil
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Linseed Oil

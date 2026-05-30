@@ -1,19 +1,21 @@
 ---
-title: Emergency Repair
 type: entity
 subtype: item
-item_type: service
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, service, shipwright, maritime]
 sources: ["Homebrew"]
-summary: "Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency."
+confidence_level: medium
+title: Emergency Repair
+item_type: service
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Emergency Repair

@@ -1,19 +1,21 @@
 ---
-title: Phrase Box
 type: entity
 subtype: item
-item_type: wondrous
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, wondrous, clockwork, utility, kenku, homebrew]
 sources: ["Homebrew"]
-summary: "A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp."
+confidence_level: medium
+title: Phrase Box
+item_type: wondrous
+rarity: common
+attunement: false
+homebrew: true
 ---
 
 # Phrase Box

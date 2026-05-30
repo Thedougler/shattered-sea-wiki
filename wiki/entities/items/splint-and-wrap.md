@@ -1,20 +1,21 @@
 ---
-title: Splint and Wrap
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, medical, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Splint and Wrap
 item_type: consumable
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, medical, homebrew]
-sources:
-  - Homebrew
-summary: "A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it."
 ---
 
 # Splint and Wrap

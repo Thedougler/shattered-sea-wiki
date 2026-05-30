@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [dravosi, minor-npc, port-tidefall]
 sources: ["Inbox/Nigel-Strutt.md"]
+confidence_level: medium
 ---
 
 # Nigel Strutt

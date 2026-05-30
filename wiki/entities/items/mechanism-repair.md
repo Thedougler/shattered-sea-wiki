@@ -1,19 +1,21 @@
 ---
-title: Mechanism Repair
 type: entity
 subtype: item
-item_type: service
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: true
+audience: players
+publish: true
+summary: "Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, service, calveno]
 sources: ["Homebrew"]
-summary: "Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required."
+confidence_level: medium
+title: Mechanism Repair
+item_type: service
+rarity: uncommon
+attunement: false
+homebrew: true
 ---
 
 # Mechanism Repair

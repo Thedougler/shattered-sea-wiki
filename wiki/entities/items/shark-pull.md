@@ -1,20 +1,21 @@
 ---
-title: Shark Pull
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, food, drink, kalowe, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Shark Pull
 item_type: consumable
 rarity: rare
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, food, drink, kalowe, homebrew]
-sources:
-  - Homebrew
-summary: "Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently."
 ---
 
 # Shark Pull

@@ -1,18 +1,20 @@
 ---
-title: Rael Corven
 type: entity
 subtype: npc
-publish: true
 campaign: shattered-sea
-audience: players
 status: dead
-confidence_level: confirmed
-aliases: ["Rael"]
+audience: players
+publish: true
+summary: "Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, fisk-fleet, dead, captain, sorcerer]
 sources: ["Inbox/Fisks-Fleet.md", "Inbox/Rael-Corven.md"]
+confidence_level: confirmed
+title: Rael Corven
+aliases: ["Rael"]
 banner: "raw/assets/banners/Rael-Corven.webp"
 roleplay_prompt: "Ron Swanson as a pirate captain, who is absolutely furious that he keeps caring about this new crew."
-summary: "Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest."
 ---
 
 # Rael Corven

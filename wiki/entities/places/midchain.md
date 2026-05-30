@@ -1,17 +1,19 @@
 ---
-title: The Midchain
 type: entity
 subtype: place
-region_type: island-chain
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Midchain", "The Midchain"]
+audience: players
+publish: true
+summary: "The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, region, islands, midchain]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Midchain.md"]
-summary: "The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one."
+confidence_level: medium
+title: The Midchain
+region_type: island-chain
+aliases: ["Midchain", "The Midchain"]
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "Island councils, free ports, pilot families, market bosses, and contested colonial patrols"
 access: "Local routes and shifting reef channels; pilots strongly recommended"

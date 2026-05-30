@@ -1,19 +1,21 @@
 ---
-title: Private Room
 type: entity
 subtype: item
-item_type: lodging
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, lodging]
 sources: ["Homebrew"]
-summary: "A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night."
+confidence_level: medium
+title: Private Room
+item_type: lodging
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Private Room

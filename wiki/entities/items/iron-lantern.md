@@ -1,19 +1,21 @@
 ---
-title: Iron Lantern
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A heavier, sturdier lantern built for use near ironwork and on rough decks where glass-panelled models don't survive. 4 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment]
 sources: ["Homebrew"]
-summary: "A heavier, sturdier lantern built for use near ironwork and on rough decks where glass-panelled models don't survive. 4 gp."
+confidence_level: medium
+title: Iron Lantern
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Iron Lantern

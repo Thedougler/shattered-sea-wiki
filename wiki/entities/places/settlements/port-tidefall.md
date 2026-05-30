@@ -1,17 +1,19 @@
 ---
-title: Port Tidefall
 type: entity
 subtype: place
-settlement_type: fortress-port
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Port Tidefall"]
+audience: players
+publish: true
+summary: "Dravosi fortress-port carved into the cliff of Calder's Tooth in three tiers: Dockfront at the waterline, the Shelf mid-cliff, and Fort Crestwall at the crown."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, settlement, crown-islands, dravosi, harbour]
 sources: ["wiki/entities/vehicles/hcs-surety.md", "wiki/situations/active/governors-seat.md", "Inbox/Port-Tidefall.md"]
-summary: "Dravosi fortress-port carved into the cliff of Calder's Tooth in three tiers: Dockfront at the waterline, the Shelf mid-cliff, and Fort Crestwall at the crown."
+confidence_level: medium
+title: Port Tidefall
+settlement_type: fortress-port
+aliases: ["Port Tidefall"]
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "[[dravosi-crown|The Dravosi Crown]]"
 access: "Open to shipping after Crown inspection; restricted above the Shelf"

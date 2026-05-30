@@ -1,20 +1,21 @@
 ---
-title: Smoke Bomb
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A compact alchemical device that produces a 10-foot sphere of dense smoke lasting one minute."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, calveno, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Smoke Bomb
 item_type: consumable
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources:
-  - Homebrew
-summary: "A compact alchemical device that produces a 10-foot sphere of dense smoke lasting one minute."
 ---
 
 # Smoke Bomb

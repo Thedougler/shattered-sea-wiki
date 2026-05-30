@@ -1,24 +1,22 @@
 ---
-title: The Snap
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, antheri, wondrous, homebrew]
+sources: ["Inbox/Catarina-DaVirelli.md", "Inbox/The-Snap.md"]
+confidence_level: medium
+title: The Snap
 item_type: wondrous
 rarity: rare
-publish: false
-campaign: shattered-sea
-audience: dm
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
-tags: [item, antheri, wondrous, homebrew]
-sources:
-  - "Inbox/Catarina-DaVirelli.md"
-  - "Inbox/The-Snap.md"
-aliases:
-  - Catarina's Fan
-  - The Brace
-summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free."
+aliases: [Catarina's Fan, The Brace]
 ---
 
 # The Snap

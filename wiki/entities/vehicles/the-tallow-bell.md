@@ -1,21 +1,21 @@
 ---
-title: The Tallow Bell
 type: entity
 subtype: vehicle
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [vehicle, ship, waveservant, umberlee, tier-1]
+sources: [Homebrew]
+confidence_level: medium
+title: The Tallow Bell
 ship_class: shrine sloop
 tier: 1
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
-tags: [vehicle, ship, waveservant, umberlee, tier-1]
-sources:
-  - Homebrew
-aliases:
-  - Tallow Bell
+aliases: [Tallow Bell]
 captain: "[[waveservants|Waveservants]]"
-summary: "A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports."
 ---
 
 # The *Tallow Bell*

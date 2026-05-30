@@ -1,15 +1,17 @@
 ---
-title: Rigger's Workshop
 type: concept
 subtype: rule
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [rule, bastion, facility, reference]
 sources: ["Dungeon Master's Guide (2024)"]
-summary: "Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting."
+title: Rigger's Workshop
+confidence_level: medium
 ---
 
 # Rigger's Workshop

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-aliases:
-  - Fieschi
 summary: "Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city."
 created: 2026-05-02
 updated: 2026-05-28
 tags: [tessarine, political, minor-npc]
 sources: ["Inbox/Calveno.md", "Inbox/Warren-Marrows-Crate.md", "Inbox/Calveno-Beffa-Grung-Raid.md", "Inbox/Iacopo-Fieschi.md"]
+confidence_level: medium
+aliases: [Fieschi]
 ---
 
 # Iacopo Fieschi

@@ -1,19 +1,21 @@
 ---
-title: Flask of Endless Water
 type: entity
 subtype: item
-item_type: wondrous-item
-rarity: uncommon
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: confirmed
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A ceramic flask that produces unlimited fresh water on command — stream, fountain, or geyser. Jean-Claude's. Origin unestablished."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, wondrous-item, jean-claude]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Flask-of-Endless-Water.md"]
-summary: "A ceramic flask that produces unlimited fresh water on command — stream, fountain, or geyser. Jean-Claude's. Origin unestablished."
+confidence_level: confirmed
+title: Flask of Endless Water
+item_type: wondrous-item
+rarity: uncommon
+attunement: false
+homebrew: false
 ---
 
 # Flask of Endless Water

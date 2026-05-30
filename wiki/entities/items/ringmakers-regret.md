@@ -1,23 +1,23 @@
 ---
-title: Ringmaker's Regret
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, wondrous, mystery, morsani-stock, homebrew]
+sources: [Homebrew]
+confidence_level: medium
+title: Ringmaker's Regret
 item_type: wondrous
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
 asking_price: "250"
-tags: [item, wondrous, mystery, morsani-stock, homebrew]
-sources:
-  - Homebrew
-aliases:
-  - For Lisca
-summary: "A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly."
+aliases: [For Lisca]
 ---
 
 # Ringmaker's Regret

@@ -1,20 +1,21 @@
 ---
-title: Dinghy Mooring
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Overnight lagoon-side tie-up for a small dinghy or ship's launch — ring bolts, calm water, nothing stolen."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, maritime]
+sources: [Homebrew]
+confidence_level: medium
+title: Dinghy Mooring
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
-tags: [item, service, maritime]
-sources:
-  - Homebrew
-summary: "Overnight lagoon-side tie-up for a small dinghy or ship's launch — ring bolts, calm water, nothing stolen."
 ---
 
 # Dinghy Mooring

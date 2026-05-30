@@ -1,19 +1,20 @@
 ---
-title: The Low Lamp
 type: entity
 subtype: place
-building_type: tavern
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, warren, calveno, rattkin]
 sources: ["Inbox/Warren-Nonas-Table.md", "Inbox/The-Low-Lamp.md"]
-aliases:
-  - Low Lamp
+confidence_level: medium
+title: The Low Lamp
+building_type: tavern
+aliases: [Low Lamp]
 district: Warren
-summary: "The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business."
 parent_location: "[[warren|The Warren]]"
 ---
 

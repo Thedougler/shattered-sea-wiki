@@ -1,19 +1,21 @@
 ---
-title: Iron Chain
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Drop-forged iron chain sold by the foot — rigging, mooring, securing cargo, and improvised restraint. 5 sp per foot."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["PHB"]
-summary: "Drop-forged iron chain sold by the foot — rigging, mooring, securing cargo, and improvised restraint. 5 sp per foot."
+confidence_level: medium
+title: Iron Chain
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Iron Chain

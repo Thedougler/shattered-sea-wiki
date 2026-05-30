@@ -1,20 +1,21 @@
 ---
-title: Bone Setting
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, service, medical]
+sources: [Homebrew]
+confidence_level: medium
+title: Bone Setting
 item_type: service
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: true
-confidence_level: medium
-tags: [item, service, medical]
-sources:
-  - Homebrew
-summary: "Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward."
 ---
 
 # Bone Setting

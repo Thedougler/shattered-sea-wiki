@@ -1,18 +1,20 @@
 ---
-title: Master Kyzil
 type: entity
 subtype: npc
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: confirmed
-aliases: ["Kyzil"]
+audience: dm
+publish: false
+summary: "Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, aarakocra, mentor, sentinel]
 sources: ["Inbox/Session-03-Recap.md", "Inbox/Master-Kyzil.md"]
+confidence_level: confirmed
+title: Master Kyzil
+aliases: ["Kyzil"]
 banner: "raw/assets/banners/Master-Kyzil.webp"
 roleplay_prompt: "Javier Bardem doing Kenobi — composed enough to be unnerving, cracked exactly once, covering the crack immediately with a question. He says 'I corrected course three times' when he means 'I was scared.' He just hugged someone in public and is still recovering."
-summary: "Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno."
 ---
 
 # Master Kyzil

@@ -1,20 +1,21 @@
 ---
-title: Cooked Meal
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Rice, pork, and roast plantain — the evening hot meal at the Flat Water, available while it lasts."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, food, provision, consumable]
+sources: [Homebrew]
+confidence_level: medium
+title: Cooked Meal
 item_type: food
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: false
-tags: [item, food, provision, consumable]
-sources:
-  - Homebrew
-summary: "Rice, pork, and roast plantain — the evening hot meal at the Flat Water, available while it lasts."
 ---
 
 # Cooked Meal

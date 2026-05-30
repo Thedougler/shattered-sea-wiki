@@ -1,18 +1,20 @@
 ---
-title: Maren
 type: entity
 subtype: npc
-publish: true
 campaign: shattered-sea
-audience: players
 status: dead
-confidence_level: confirmed
-aliases: ["Maren"]
+audience: players
+publish: true
+summary: "Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, fisk-fleet, dead, captain, water-genasi]
 sources: ["Inbox/Fisks-Fleet.md", "Inbox/Maren.md"]
+confidence_level: confirmed
+title: Maren
+aliases: ["Maren"]
 banner: "raw/assets/banners/Maren.webp"
 roleplay_prompt: "Regina Hall as a pirate captain — warm, loud, and absolutely not the one to mispronounce her name in front of."
-summary: "Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN."
 ---
 
 # Maren

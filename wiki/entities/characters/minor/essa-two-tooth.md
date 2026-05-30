@@ -1,15 +1,17 @@
 ---
-title: Essa Two-Tooth
 type: entity
 subtype: minor-npc
 campaign: shattered-sea
 status: active
 audience: players
 publish: true
-confidence_level: medium
+summary: "Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [minor-npc, rattkin, warren]
 sources: ["Inbox/Essa-Two-Tooth.md"]
-summary: "Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong."
+confidence_level: medium
+title: Essa Two-Tooth
 banner: raw/assets/banners/Essa-Two-Tooth.webp
 species: Rattkin
 pronouns: she/her

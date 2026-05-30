@@ -1,19 +1,21 @@
 ---
-title: Oakum
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime, ship-maintenance]
 sources: ["Homebrew"]
-summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port."
+confidence_level: medium
+title: Oakum
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Oakum

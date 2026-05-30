@@ -1,21 +1,20 @@
 ---
-title: Antheri Mechanism
 type: item
 subtype: artifact
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "Dark-alloy mechanisms recovered from Antheri ruins — faintly iridescent, tooling marks too fine for any current forge in the Scatter."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, arcane, antheri]
+sources: [Homebrew]
+confidence_level: medium
+title: Antheri Mechanism
 rarity: rare
 attunement: false
 homebrew: true
-summary: "Dark-alloy mechanisms recovered from Antheri ruins — faintly iridescent, tooling marks too fine for any current forge in the Scatter."
-tags:
-  - item
-  - arcane
-  - antheri
-sources:
-  - Homebrew
 ---
 
 # Antheri Mechanism

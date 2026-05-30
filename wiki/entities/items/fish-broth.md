@@ -1,19 +1,21 @@
 ---
-title: Fish Broth
 type: entity
 subtype: item
-item_type: consumable
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A bowl of hot fish stock with bread — the most reliable meal at a canal-side tavern and the one that always comes."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, consumable]
 sources: ["Homebrew"]
-summary: "A bowl of hot fish stock with bread — the most reliable meal at a canal-side tavern and the one that always comes."
+confidence_level: medium
+title: Fish Broth
+item_type: consumable
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Fish Broth

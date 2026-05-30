@@ -1,19 +1,21 @@
 ---
-title: Hand Crossbow
 type: entity
 subtype: item
-item_type: weapon
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: high
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, weapon, ranged, martial]
 sources: ["D&D 2024 PHB"]
-summary: "Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert."
+confidence_level: high
+title: Hand Crossbow
+item_type: weapon
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Hand Crossbow

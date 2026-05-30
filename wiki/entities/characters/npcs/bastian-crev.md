@@ -1,19 +1,20 @@
 ---
-title: Bastian Crev
 type: entity
 subtype: npc
-category: character
-publish: false
 campaign: shattered-sea
-audience: dm
 status: dead
-species: human
-aliases:
-  - Bastian
+audience: dm
+publish: false
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [npc, captain, fisk-fleet, dead, mortis]
-sources:
-  - Inbox/Bastian-Crev.md
+sources: [Inbox/Bastian-Crev.md]
 confidence_level: confirmed
+title: Bastian Crev
+category: character
+species: human
+aliases: [Bastian]
 relationships:
   - "[[delmar-fisk|Delmar Fisk]] — admiral; now carries his soul"
   - "[[loud-argument|Loud Argument]] — captain"

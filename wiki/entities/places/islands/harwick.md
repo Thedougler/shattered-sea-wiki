@@ -1,17 +1,19 @@
 ---
-title: Harwick
 type: entity
 subtype: place
-island_type: military-island
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-aliases: ["Harwick Island"]
+audience: players
+publish: true
+summary: "The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, island, crown-islands, dravosi, military]
 sources: ["Homebrew"]
-summary: "The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter."
+confidence_level: medium
+title: Harwick
+island_type: military-island
+aliases: ["Harwick Island"]
 parent_location: "[[crown-islands|The Crown Islands]]"
 governance: "[[dravosi-crown|The Dravosi Crown]] and Harwick Admiralty"
 access: "Restricted naval harbour; civilian town access around the Yard"

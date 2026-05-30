@@ -1,19 +1,21 @@
 ---
-title: Mast Work
 type: entity
 subtype: item
-item_type: service
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, service, maritime, ship-maintenance]
 sources: ["Homebrew"]
-summary: "Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing."
+confidence_level: medium
+title: Mast Work
+item_type: service
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Mast Work

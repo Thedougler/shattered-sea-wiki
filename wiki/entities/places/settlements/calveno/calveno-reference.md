@@ -1,5 +1,4 @@
 ---
-title: Calveno — Player Reference
 type: entity
 subtype: place
 campaign: shattered-sea
@@ -12,6 +11,7 @@ updated: 2026-05-29
 tags: [place, settlement, port, reference, players]
 sources: ["Inbox/calven-summary.md"]
 confidence_level: confirmed
+title: Calveno — Player Reference
 canonical_location: "[[calveno|Calveno]]"
 ---
 

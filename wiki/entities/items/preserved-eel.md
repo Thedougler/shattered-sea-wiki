@@ -1,19 +1,21 @@
 ---
-title: Preserved Eel
 type: entity
 subtype: item
-item_type: food
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, warren, calveno]
 sources: ["Homebrew"]
-summary: "Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp."
+confidence_level: medium
+title: Preserved Eel
+item_type: food
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Preserved Eel

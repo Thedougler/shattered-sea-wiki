@@ -1,19 +1,21 @@
 ---
-title: Rigging Block
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment, maritime]
 sources: ["Homebrew"]
-summary: "A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp."
+confidence_level: medium
+title: Rigging Block
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Rigging Block

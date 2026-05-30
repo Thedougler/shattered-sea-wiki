@@ -1,20 +1,21 @@
 ---
-title: Salt
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, provision, consumable]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Salt
 item_type: provision
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, provision, consumable]
-sources:
-  - Homebrew
-summary: "Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea."
 ---
 
 # Salt

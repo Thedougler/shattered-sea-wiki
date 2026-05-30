@@ -1,19 +1,21 @@
 ---
-title: House Spirits
 type: entity
 subtype: item
-item_type: food
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, food, drink]
 sources: ["Homebrew"]
-summary: "Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works."
+confidence_level: medium
+title: House Spirits
+item_type: food
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # House Spirits

@@ -1,19 +1,21 @@
 ---
-title: Padlock
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment]
 sources: ["PHB"]
-summary: "A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp."
+confidence_level: medium
+title: Padlock
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Padlock

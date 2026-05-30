@@ -1,20 +1,21 @@
 ---
-title: Block and Tackle
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime, tool]
+sources: [PHB]
+confidence_level: medium
+title: Block and Tackle
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, equipment, maritime, tool]
-sources:
-  - PHB
-summary: "A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance."
 ---
 
 # Block and Tackle

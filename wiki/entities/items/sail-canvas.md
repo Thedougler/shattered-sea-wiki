@@ -1,20 +1,21 @@
 ---
-title: Sail Canvas
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, maritime, ship]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Sail Canvas
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, maritime, ship]
-sources:
-  - Homebrew
-summary: "Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries."
 ---
 
 # Sail Canvas

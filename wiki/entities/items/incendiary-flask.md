@@ -1,20 +1,22 @@
 ---
-title: Incendiary Flask
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
+sources: ["Homebrew"]
+confidence_level: medium
+title: Incendiary Flask
 item_type: consumable
 rarity: uncommon
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
 attunement: false
 homebrew: true
 aliases: ["Incendiary"]
-tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
-sources: ["Homebrew"]
-summary: "Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished."
 ---
 
 # Incendiary Flask

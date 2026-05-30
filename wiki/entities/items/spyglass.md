@@ -1,20 +1,21 @@
 ---
-title: Spyglass
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, navigation, tool]
+sources: [PHB]
+confidence_level: confirmed
+title: Spyglass
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, navigation, tool]
-sources:
-  - PHB
-summary: "A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it."
 ---
 
 # Spyglass

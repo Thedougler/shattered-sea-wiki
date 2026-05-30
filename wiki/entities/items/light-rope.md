@@ -1,19 +1,21 @@
 ---
-title: Light Rope
 type: entity
 subtype: item
-item_type: equipment
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Lighter household rope for general use — not rigging grade, but sufficient for everything that doesn't go to sea."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, equipment]
 sources: ["Homebrew"]
-summary: "Lighter household rope for general use — not rigging grade, but sufficient for everything that doesn't go to sea."
+confidence_level: medium
+title: Light Rope
+item_type: equipment
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Light Rope

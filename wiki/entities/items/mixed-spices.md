@@ -1,19 +1,21 @@
 ---
-title: Mixed Spices
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Pepper, clove, and ginger from the Verdant Teeth trade — makes salt provisions edible at sea. 1 gp per lb."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable]
 sources: ["Homebrew"]
-summary: "Pepper, clove, and ginger from the Verdant Teeth trade — makes salt provisions edible at sea. 1 gp per lb."
+confidence_level: medium
+title: Mixed Spices
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Mixed Spices

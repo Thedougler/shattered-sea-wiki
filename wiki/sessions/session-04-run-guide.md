@@ -1,18 +1,18 @@
 ---
-title: "Session 04 — Run Guide"
 type: session
 subtype: run-guide
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-session_number: 4
-session_date: "2026-05-29"
 summary: "At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs."
 created: "2026-05-29"
 updated: "2026-05-29"
 tags: [session-prep, run-guide]
 sources: [Homebrew]
+session_number: 4
+session_date: "2026-05-29"
+title: "Session 04 — Run Guide"
 ---
 
 # Session 04 — Run Guide

@@ -1,20 +1,21 @@
 ---
-title: Fifita's Slip
 type: entity
 subtype: place
-building_type: boatyard
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "An informal back-channel boatyard on the lagoon side of Kalowe's second limestone island — no dry-dock books, no Canal Commission, and a proprietor who prices a job before you finish explaining it."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, building, boatyard, kalowe, midchain]
 sources: ["Inbox/Fifitas-Slip.md"]
-summary: "An informal back-channel boatyard on the lagoon side of Kalowe's second limestone island — no dry-dock books, no Canal Commission, and a proprietor who prices a job before you finish explaining it."
+confidence_level: medium
+title: Fifita's Slip
+building_type: boatyard
 parent_location: "[[kalowe|Kalowe]]"
 district: "Back Channel, Second Island"
-aliases:
-  - Fifita's
+aliases: [Fifita's]
 ---
 
 # Fifita's Slip

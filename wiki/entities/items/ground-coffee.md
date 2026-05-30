@@ -1,19 +1,21 @@
 ---
-title: Ground Coffee
 type: entity
 subtype: item
-item_type: provision
-rarity: common
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-attunement: false
-homebrew: false
+audience: players
+publish: true
+summary: "Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [item, provision, consumable]
 sources: ["Homebrew"]
-summary: "Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb."
+confidence_level: medium
+title: Ground Coffee
+item_type: provision
+rarity: common
+attunement: false
+homebrew: false
 ---
 
 # Ground Coffee

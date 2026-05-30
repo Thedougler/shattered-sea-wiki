@@ -1,20 +1,21 @@
 ---
-title: Water Cask
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, provision, maritime]
+sources: [Homebrew]
+confidence_level: confirmed
+title: Water Cask
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, provision, maritime]
-sources:
-  - Homebrew
-summary: "Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one."
 ---
 
 # Water Cask

@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [orc, minor-npc, calveno]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md", "Inbox/Oleandro-Fuschi.md"]
+confidence_level: medium
 ---
 
 # Oleandro Fuschi

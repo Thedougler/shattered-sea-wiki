@@ -1,15 +1,17 @@
 ---
-title: Human
 type: entity
 subtype: species
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
+audience: players
+publish: true
+summary: "Playable species. Humans gain Heroic Inspiration on long rests, proficiency in one skill, and two Origin feats — the most feat-forward of the base species."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [species, playable]
 sources: ["Player's Handbook (2024)"]
-summary: "Playable species. Humans gain Heroic Inspiration on long rests, proficiency in one skill, and two Origin feats — the most feat-forward of the base species."
+confidence_level: medium
+title: Human
 ---
 
 # Human

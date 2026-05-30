@@ -10,6 +10,7 @@ created: 2026-05-17
 updated: 2026-05-28
 tags: [dwarf, minor-npc, kalowe]
 sources: ["Inbox/Kettil-Ormsson.md"]
+confidence_level: medium
 ---
 
 # Kettil Ormsson

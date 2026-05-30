@@ -1,18 +1,19 @@
 ---
-title: Veth
 type: entity
 subtype: place
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, island, grung, verdant-teeth, trade]
+sources: [Homebrew]
+confidence_level: medium
+title: Veth
 island_type: trade-beach-island
 region_type: island
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
-tags: [place, island, grung, verdant-teeth, trade]
-sources:
-  - Homebrew
-summary: "The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions."
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
 access: "Sanctioned western beach trade only; no inland access"

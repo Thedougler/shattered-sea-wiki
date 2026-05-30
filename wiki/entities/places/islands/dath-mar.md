@@ -1,20 +1,20 @@
 ---
-title: Dath-Mar
 type: entity
 subtype: place
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, island, tabaxi, sunken-crown, refuge]
+sources: [Homebrew]
+confidence_level: medium
+title: Dath-Mar
 island_type: refuge-island
 region_type: island
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: medium
-tags: [place, island, tabaxi, sunken-crown, refuge]
-sources:
-  - Homebrew
-aliases:
-  - South Sentinel
-summary: "The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be."
+aliases: [South Sentinel]
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] refuge custom and maintenance obligations"
 access: "Tide-dependent sheltered cut; emergency refuge rather than casual stop"

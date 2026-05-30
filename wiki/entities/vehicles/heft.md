@@ -1,20 +1,22 @@
 ---
-title: The Heft
 type: entity
 subtype: ship
-ship_class: Heavy brig
-publish: true
 campaign: shattered-sea
-audience: players
 status: lost
-confidence_level: confirmed
-cssclasses: [wiki-ship]
-aliases: [Heft, "The Heft"]
+audience: players
+publish: true
+summary: "Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [vehicle, ship, lost, fisk-fleet]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Heft.md"]
+confidence_level: confirmed
+title: The Heft
+ship_class: Heavy brig
+cssclasses: [wiki-ship]
+aliases: [Heft, "The Heft"]
 banner: "raw/assets/banners/Detto-Kalash.webp"
 captain: "[[detto-kalash|Detto Kalash]]"
-summary: "Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands."
 ---
 
 # The *Heft*

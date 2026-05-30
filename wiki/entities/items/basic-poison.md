@@ -1,21 +1,20 @@
 ---
-title: Basic Poison
 type: item
 subtype: consumable
 campaign: shattered-sea
 status: active
-publish: true
 audience: players
+publish: true
+summary: "A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, consumable, alchemical]
+sources: [PHB]
+confidence_level: medium
+title: Basic Poison
 rarity: common
 attunement: false
 homebrew: false
-summary: "A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial."
-tags:
-  - item
-  - consumable
-  - alchemical
-sources:
-  - PHB
 ---
 
 # Basic Poison

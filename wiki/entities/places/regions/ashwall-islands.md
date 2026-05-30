@@ -1,23 +1,23 @@
 ---
-title: Ashwall Islands
 type: entity
 subtype: region
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Stub — no summary yet.
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [region, volcanic, galewall, storm-edge]
+sources: [Homebrew]
+confidence_level: medium
+title: Ashwall Islands
 category: location
 region_type: island-chain
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "Ashwall pilot families and repair crews; no formal destination authority"
 access: "Dangerous storm-edge approach; repair lee and volcanic spires"
-confidence_level: medium
-aliases:
-  - The Ashwalls
-  - Ashwalls
-tags: [region, volcanic, galewall, storm-edge]
-sources:
-  - Homebrew
+aliases: [The Ashwalls, Ashwalls]
 ---
 
 # Ashwall Islands

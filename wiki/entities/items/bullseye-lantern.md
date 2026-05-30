@@ -1,20 +1,21 @@
 ---
-title: Bullseye Lantern
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, light]
+sources: [PHB]
+confidence_level: medium
+title: Bullseye Lantern
 item_type: equipment
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
 attunement: false
 homebrew: false
-confidence_level: medium
-tags: [item, equipment, light]
-sources:
-  - PHB
-summary: "A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching."
 ---
 
 # Bullseye Lantern

@@ -1,20 +1,19 @@
 ---
-title: The Sunken Crown
 type: entity
 subtype: place
-region_type: reef-region
-publish: true
 campaign: shattered-sea
-audience: players
 status: active
-confidence_level: medium
-tags: [place, region, outer-reach, tabaxi, umberlee]
-sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Sunken-Crown.md"
-aliases:
-  - Sunken Crown
+audience: players
+publish: true
 summary: "Five low islands on the rim of something drowned — the Blue Hole, and the Tabaxi who have kept watch here longer than any outside record."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [place, region, outer-reach, tabaxi, umberlee]
+sources: ["Inbox/Campaign-Timeline.md", "Inbox/Sunken-Crown.md"]
+confidence_level: medium
+title: The Sunken Crown
+region_type: reef-region
+aliases: [Sunken Crown]
 parent_location: "[[outer-reach|The Outer Reach]]"
 governance: "Keth-Naar elders, watch rotations, and shrine authority"
 access: "dangerous reef approach; local knowledge required"

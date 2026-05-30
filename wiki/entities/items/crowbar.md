@@ -1,20 +1,21 @@
 ---
-title: Crowbar
 type: entity
 subtype: item
+campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: "A straight iron pry bar — invaluable for shifting stuck hatches, breaking seals, and moving cargo that doesn't want to move."
+created: '2026-05-29'
+updated: '2026-05-29'
+tags: [item, equipment, tool]
+sources: [PHB]
+confidence_level: confirmed
+title: Crowbar
 item_type: tool
 rarity: common
-publish: true
-campaign: shattered-sea
-audience: players
-status: active
-confidence_level: confirmed
 attunement: false
 homebrew: false
-tags: [item, equipment, tool]
-sources:
-  - PHB
-summary: "A straight iron pry bar — invaluable for shifting stuck hatches, breaking seals, and moving cargo that doesn't want to move."
 ---
 
 # Crowbar

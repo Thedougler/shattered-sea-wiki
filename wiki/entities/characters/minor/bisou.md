@@ -10,6 +10,7 @@ created: 2026-05-02
 updated: 2026-05-28
 tags: [beast, companion, monkey]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Session-02-Recap.md", "Inbox/Bisou.md"]
+confidence_level: medium
 ---
 
 # Bisou

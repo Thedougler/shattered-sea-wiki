@@ -1,15 +1,17 @@
 ---
-title: The Galewall — DM Notes
 type: entity
 subtype: place
-publish: false
 campaign: shattered-sea
-audience: dm
 status: active
-confidence_level: high
+audience: dm
+publish: false
+summary: "DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something."
+created: '2026-05-29'
+updated: '2026-05-29'
 tags: [place, navigation, weather, dm-notes]
 sources: ["Inbox/Galewall.md"]
-summary: "DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something."
+confidence_level: high
+title: The Galewall — DM Notes
 ---
 
 # The Galewall — DM Notes

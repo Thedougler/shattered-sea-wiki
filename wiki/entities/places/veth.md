@@ -43,7 +43,7 @@ Veth takes preserved food, worked timber, salvaged metal, rope, and materials us
 
 ## Hazards
 
-Beyond the narrow beach permission: giant venomous snakes on warm stone, giant spiders in the upper green, giant frogs wherever water sits long enough. The limestone ridges above the beach hold giant scorpions — they work the rock face at night and occasionally reach the beach by dawn.
+Beyond the narrow beach permission: giant venomous snakes on warm stone, giant spiders in the upper green, [[giant-frog|giant frogs]] wherever water sits long enough. The limestone ridges above the beach hold giant scorpions — they work the rock face at night and occasionally reach the beach by dawn.
 
 Merchants who describe Veth as safe mean the beach, during trade, while watched.
 

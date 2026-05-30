@@ -51,7 +51,7 @@ Interior agriculture, resin shipments, pigments, and alchemical specimens traded
 
 ## Fauna
 
-Giant wasps audible above the cut-back treeline. Giant centipedes carried out on hooked poles. Grung patrols keep flooded interior paths clear of giant frogs. Giant apes apply pressure from the ridgelines. Traders see only aftermath: repaired palisades, delayed resin shipments, guards returning with crushed equipment.
+Giant wasps audible above the cut-back treeline. [[giant-centipede|Giant centipedes]] carried out on hooked poles. Grung patrols keep flooded interior paths clear of [[giant-frog|giant frogs]]. Giant apes apply pressure from the ridgelines. Traders see only aftermath: repaired palisades, delayed resin shipments, guards returning with crushed equipment.
 
 ## Current Hooks
 

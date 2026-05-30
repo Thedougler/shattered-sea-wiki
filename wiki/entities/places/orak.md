@@ -37,7 +37,7 @@ Less militarized than [[karath|Karath]]. Still Grung territory.
 
 ## Fauna
 
-Orak's danger is low, wet, and patient. Giant frogs sit half-buried along the channel edge. Giant constrictor snakes hold the darker root water between Orak and [[dreth|Dreth]]. Giant spiders bridge the root gaps above animal paths. Venomous snake swarms gather in warm hollows after rain. Grung scouts move through it like a known street. Outsiders do not.
+Orak's danger is low, wet, and patient. [[giant-frog|Giant frogs]] sit half-buried along the channel edge. Giant constrictor snakes hold the darker root water between Orak and [[dreth|Dreth]]. Giant spiders bridge the root gaps above animal paths. Venomous snake swarms gather in warm hollows after rain. Grung scouts move through it like a known street. Outsiders do not.
 
 The interaction of these hazards is not sequential — they occupy the same ground simultaneously.
 

@@ -57,7 +57,7 @@ The survivor's version is consistent in the useful places: stormlight gathered a
 
 ## Fauna
 
-Storms kill more ships than monsters here, but wreckage feeds a food chain. Giant sharks follow damaged hulls near the Ashwall lee. Killer whale pods work the cold water on both sides of the storm belt and will follow lifeboats and debris for hours — not always attacking, sometimes circling, which most survivors describe as worse. Crews tell high-weather stories about rocs riding the stormfronts above the volcanic spires.
+Storms kill more ships than monsters here, but wreckage feeds a food chain. [[giant-shark|Giant sharks]] follow damaged hulls near the Ashwall lee. Killer whale pods work the cold water on both sides of the storm belt and will follow lifeboats and debris for hours — not always attacking, sometimes circling, which most survivors describe as worse. Crews tell high-weather stories about rocs riding the stormfronts above the volcanic spires.
 
 The Galewall also creates a narrow kind of piracy: recovery-lane predation. Ships that survive the crossing arrive damaged, short-handed, and grateful for any sail that looks helpful. A disciplined [[pirate-captain|pirate captain]] can make a rescue look like a boarding action. The [[the-velvet-noose|Velvet Noose]] is the nightmare version — a deep-water flagship large enough to make weather-beaten convoys negotiate before their guns are dry.
 

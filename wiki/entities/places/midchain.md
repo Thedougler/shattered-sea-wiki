@@ -57,7 +57,7 @@ The Midchain is also where small piracy becomes geography. A cutter like [[knife
 
 ## Hazards
 
-Shifting reefs, uncertain channels, Sawek blue holes, giant crocodiles in mangrove water, constrictor snakes along root mats, Grung boundary violations, and piracy that turns local route knowledge into a weapon.
+Shifting reefs, uncertain channels, Sawek blue holes, [[giant-crocodile|giant crocodiles]] in mangrove water, constrictor snakes along root mats, Grung boundary violations, and piracy that turns local route knowledge into a weapon.
 
 ## Current Hooks
 

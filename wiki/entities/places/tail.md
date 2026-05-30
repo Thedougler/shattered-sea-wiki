@@ -48,7 +48,7 @@ Morning fog hangs late in the eastern channels before burning off. Compass varia
 
 ## Hazards
 
-Giant sharks work the cold shelf. Giant vultures ride cliff thermals. Giant axe beaks and giant bats on the island interiors. Harpies rumoured in the cliff systems. The Glass Debt makes Shelfworks traffic change course when she's active. The Velvet Noose is a worse rumour.
+[[giant-shark|Giant sharks]] work the cold shelf. Giant vultures ride cliff thermals. Giant axe beaks and giant bats on the island interiors. Harpies rumoured in the cliff systems. The Glass Debt makes Shelfworks traffic change course when she's active. The Velvet Noose is a worse rumour.
 
 ## Current Hooks
 

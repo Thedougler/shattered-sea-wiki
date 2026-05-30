@@ -43,7 +43,7 @@ Dreth has a low coastal profile, dense rainforest interior, rainwater smell, wet
 
 | Place | Type | Notes |
 |---|---|---|
-| Dreth-Orak channel | route / hazard | Shadowed channel where giant crocodiles and constrictor snakes hold. |
+| Dreth-Orak channel | route / hazard | Shadowed channel where [[giant-crocodile|giant crocodiles]] and constrictor snakes hold. |
 | Rainforest interior | wilderness | Dense interior with audible work somewhere inland. |
 
 ## Routes & Access
@@ -70,7 +70,7 @@ Giant wasps nest high in the canopy on the dry eastern slope — high enough tha
 
 ## Hazards
 
-Giant crocodiles, giant frogs, giant constrictor snakes, giant wasps, shadowed channel water, and Grung boundary control.
+Giant crocodiles, [[giant-frog|giant frogs]], giant constrictor snakes, giant wasps, shadowed channel water, and Grung boundary control.
 
 ## Current Hooks
 

@@ -150,7 +150,7 @@ sources: []
 - [[verdant-scatter|The Verdant Scatter]] — The main island chain of the Shattered Sea: two east-west arcs between the Galewall and the Drowned Maw, with the Crown Islands to the north and the Midchain to the south.
 - [[verdant-teeth|The Verdant Teeth]] — Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries.
 - [[veth|Veth]] — The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions.
-- [[warren|Warren]] — Rattkin origin point for the Passage network, which formed in 1240 DR to evade Tessarine and Dravosi colonial pressure.
+- [[warren|The Warren]] — The fixed Rattkin city beneath Calveno's Le Paludi drainage network — low old channels, hidden holds, oil lamps, rope bridges, and the deepest anchor of the Passage.
 
 ## entities/places/buildings
 - [[anchor-and-line|The Anchor & Line]] — The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population.
@@ -191,7 +191,7 @@ sources: []
 
 ## entities/places/settlements
 - [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
-- [[calveno|Calveno]] — [stub] Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway.
+- [[calveno|Calveno]] — The oldest commercial centre in the Scatter — canal city, seven merchant houses, Tessarine debt leverage, Rattkin Tangle beneath Le Paludi. Party arrived Session 03; ship in dry dock as Uncertainty.
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
@@ -206,6 +206,7 @@ sources: []
 - [[cabinet-of-morsani|The Cabinet of Morsani]] — [stub] Stub — Calveno magic shop and curiosity cabinet in the Velo district; run by [[prospero-morsani|Prospero Morsani]]; magic items, stories, and black-market trade.
 - [[calveno-districts|Calveno — District Layout]] — [stub] Stub — District navigation reference for Calveno: Mercatura (public deals), Le Paludi (quiet practical), Velo (vice/trade), Arsenal edge (ship scale), La Vasca/Basin (dockyard).
 - [[calveno-improv|Calveno — Improv Reference]] — [stub] Stub — Improv reference for Calveno: name banks, NPC quick-build, location naming, how Calvenans talk.
+- [[calveno-reference|Calveno — Player Reference]] — Quick-reference for Calveno — the canal city, its districts, key people, and how it works.
 - [[carpenters-slip|Carpenters' Slip]] — [stub] Stub — Calveno shipyard on the Basin; [[savia-brentino|Savia Brentino]] does hull work without Canal Commission filings; refuses cold approaches.
 - [[casa-lupo|Casa Lupo]] — [stub] Shop in Calveno. Jean-Claude visited first; shopkeeper redirected him to Studio Orsini for the whip shark egg.
 - [[kats-curios|Kat's Curios]] — [stub] Curio shop or appraisal service in Calveno run by Catalina Curio. Delmar's whip shark barb was assessed here; Catalina is to follow up.
@@ -428,6 +429,9 @@ sources: []
 - [[tooth-extraction|Tooth Extraction]] — Professional tooth extraction — 1 sp, and the apothecary is fast about it.
 - [[truth-stone|Truth Stone]] — A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest.
 - [[vial-of-acid|Vial of Acid]] — Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon.
+- [[vinegar|Vinegar]] — Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available.
+- [[wardstone-figurehead|Wardstone Figurehead]] — A warded ship figurehead that hardens the vessel against hostile magic and defeats most hostile divination.
+- [[water-cask|Water Cask]] — Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 
@@ -525,6 +529,7 @@ sources: []
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
 - [[siege-rules|Siege Rules]] — Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
 - [[sports-match-rules|Sports Match Rules]] — 5e-based rules for running a sports match as a combat encounter. Share with players the session before the match.
+- [[villain-design-framework|Villain Design Framework]] — Pointy Hat's system-agnostic villain creation method — three principles: Active (has agency), Present (has visibility), Personal (has stakes).
 
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] —

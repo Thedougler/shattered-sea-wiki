@@ -2,10 +2,10 @@
 type: entity
 subtype: place
 campaign: shattered-sea
-status: stub
+status: active
 audience: dm
 publish: false
-summary: "Very busy port settlement. Party arrived Session 03 flying no Crown colours; ship in dry dock as Uncertainty. Nona Black-Jaw operates here. Festival preparations underway."
+summary: "The oldest commercial centre in the Scatter — canal city, seven merchant houses, Tessarine debt leverage, Rattkin Tangle beneath Le Paludi. Party arrived Session 03; ship in dry dock as Uncertainty."
 created: 2026-05-27
 updated: 2026-05-27
 tags: [place, settlement, port]

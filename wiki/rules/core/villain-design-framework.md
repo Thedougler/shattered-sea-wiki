@@ -23,6 +23,8 @@ The villain must have a **goal** that is obtainable but campaign-spanning, with 
 
 **Design questions:** What does the villain want? How will they pursue it step by step? How can players interrupt each step? How can the villain respond to those interruptions?
 
+**Worked example:** Villain wants to resurrect their dead lover → must sacrifice four of the lover's living descendants → players can hide, protect, or fake the death of descendants → villain can infiltrate their refuge, deceive players into protecting the wrong person, or manipulate a descendant into willing sacrifice.
+
 ## II — Present (Has Visibility)
 
 The villain must interact with the party semi-regularly — not just a final boss. Players need to form an emotional relationship with the villain.

@@ -616,6 +616,7 @@ sources: []
 - [[giant-owl|Giant Owl]] — Public statblock reference for Giant Owl, a CR 1/4 celestial in the Shattered Sea bestiary.
 - [[giant-rat|Giant Rat]] — Public statblock reference for Giant Rat, a CR 1/8 beast in the Shattered Sea bestiary.
 - [[giant-scorpion|Giant Scorpion]] — Public statblock reference for Giant Scorpion, a CR 3 beast in the Shattered Sea bestiary.
+- [[giant-seahorse|Giant Seahorse]] — Public statblock reference for Giant Seahorse, a CR 1/2 beast in the Shattered Sea bestiary.
 - [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.

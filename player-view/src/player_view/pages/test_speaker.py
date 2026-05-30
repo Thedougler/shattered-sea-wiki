@@ -18,7 +18,7 @@ def test_speaker_page():
         stop_btn.set_visibility(False)
         status_label = ui.label('ready').style('color: #888')
 
-    content_height = 'height: calc(100vh - 100px - 72px);'
+    content_height = 'height: calc(100vh - 100px - 90px);'
     with ui.column().classes('w-full scroll-hidden').style(content_height):
         teleprompter.render_raw_output()
         results_container = ui.column().classes('w-full px-8 gap-3')

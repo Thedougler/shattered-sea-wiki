@@ -36,7 +36,7 @@ def save_speaker_page():
         status_label = ui.label('ready').style('color: #888')
 
     teleprompter.render_script(
-        container_style='height: calc(100vh - 100px - 72px);'
+        container_style='height: calc(100vh - 100px - 90px);'
     )
 
     with ui.row().classes('status-strip'):

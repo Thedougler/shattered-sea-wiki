@@ -22,12 +22,53 @@ log() { printf '\033[1;36m[live-co-dm]\033[0m %s\n' "$*" >&2; }
 die() { printf '\033[1;31m[live-co-dm] error:\033[0m %s\n' "$*" >&2; exit 1; }
 
 # --- 1. Python -------------------------------------------------------------
-command -v python3 >/dev/null 2>&1 || die "python3 not found on PATH."
+# parakeet-mlx (and the rest of the ML stack) needs Python >= 3.11. The bare
+# `python3` on this machine is often an older pyenv/system shim (e.g. 3.9), so
+# pick the first interpreter that actually meets the floor instead of trusting
+# whatever `python3` happens to resolve to.
+MIN_MAJOR=3
+MIN_MINOR=11
+
+py_ok() {  # $1 = interpreter; succeeds if it exists, imports venv, and is new enough
+  local py="$1"
+  command -v "$py" >/dev/null 2>&1 || return 1
+  "$py" - "$MIN_MAJOR" "$MIN_MINOR" <<'PY' >/dev/null 2>&1 || return 1
+import sys
+need = (int(sys.argv[1]), int(sys.argv[2]))
+import venv  # noqa: F401  (ensure the venv module is available)
+sys.exit(0 if sys.version_info[:2] >= need else 1)
+PY
+}
+
+PYTHON=""
+for cand in \
+  python3.11 python3.12 python3.13 python3.14 python3 \
+  /opt/homebrew/bin/python3.11 /opt/homebrew/bin/python3.12 \
+  /opt/homebrew/bin/python3.13 /opt/homebrew/bin/python3.14; do
+  if py_ok "$cand"; then PYTHON="$cand"; break; fi
+done
+
+[[ -n "$PYTHON" ]] || die "No Python >= ${MIN_MAJOR}.${MIN_MINOR} found (required by parakeet-mlx). Install one, e.g. 'brew install python@3.11', then re-run. See .claude/skills/live-co-dm/references/setup.md."
 
 # --- 2. Virtualenv ---------------------------------------------------------
-if [[ ! -x "$VENV_PY" ]]; then
-  log "Creating virtualenv at $VENV_DIR ..."
-  python3 -m venv "$VENV_DIR"
+# Rebuild the venv when it is missing, broken, or was created with a too-old
+# interpreter (the common failure: a stale 3.9 venv from before this fix).
+venv_too_old() {
+  [[ -x "$VENV_PY" ]] || return 0   # missing/broken -> needs (re)build
+  ! "$VENV_PY" - "$MIN_MAJOR" "$MIN_MINOR" <<'PY' >/dev/null 2>&1
+import sys
+sys.exit(0 if sys.version_info[:2] >= (int(sys.argv[1]), int(sys.argv[2])) else 1)
+PY
+}
+
+if venv_too_old; then
+  if [[ -e "$VENV_DIR" ]]; then
+    log "Existing virtualenv uses an unsupported Python; rebuilding at $VENV_DIR ..."
+    rm -rf "$VENV_DIR"
+    rm -f "$DEPS_STAMP"
+  fi
+  log "Creating virtualenv at $VENV_DIR using $("$PYTHON" -c 'import sys;print("%d.%d.%d"%sys.version_info[:3])') ($PYTHON) ..."
+  "$PYTHON" -m venv "$VENV_DIR"
 fi
 
 # --- 3. Dependencies (reinstall only when requirements.txt changes) --------

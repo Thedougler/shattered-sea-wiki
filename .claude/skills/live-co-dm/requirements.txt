@@ -1,10 +1,12 @@
 # live-co-dm bundled-script dependencies (Apple Silicon target).
 #
 # These are intentionally isolated here, NOT at the repo root or in
-# .claude/scripts/ — that tree stays pure-stdlib. Install into a dedicated
-# virtualenv before running voice_profiler.py / transcribe_session.py:
+# .claude/scripts/ — that tree stays pure-stdlib. The save_voice.sh /
+# transcribe_session.sh / finalize_session.sh wrappers build this venv for you
+# (picking a Python >= 3.11; see scripts/_bootstrap.sh). To do it by hand,
+# parakeet-mlx REQUIRES Python >= 3.11 — a bare `python3` may be too old:
 #
-#   python3 -m venv .claude/skills/live-co-dm/.venv
+#   python3.11 -m venv .claude/skills/live-co-dm/.venv
 #   source .claude/skills/live-co-dm/.venv/bin/activate
 #   pip install -r .claude/skills/live-co-dm/requirements.txt
 #

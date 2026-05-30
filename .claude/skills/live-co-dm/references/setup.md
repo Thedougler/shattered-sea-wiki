@@ -6,11 +6,19 @@ capture/finalization adapters do.
 
 ## 1. Virtualenv + dependencies
 
+The wrapper scripts (`save_voice.sh` / `transcribe_session.sh` /
+`finalize_session.sh`) build and populate this venv automatically — they pick a
+Python >= 3.11 and reinstall when `requirements.txt` changes, so you normally
+don't run these by hand. To do it manually, use an explicit `python3.11+`
+(`parakeet-mlx` requires Python >= 3.11; the system `python3` is often 3.9):
+
 ```bash
-python3 -m venv .claude/skills/live-co-dm/.venv
+python3.11 -m venv .claude/skills/live-co-dm/.venv   # or any python3.11+
 source .claude/skills/live-co-dm/.venv/bin/activate
 pip install -r .claude/skills/live-co-dm/requirements.txt
 ```
+
+No `python3.11`? Install one with `brew install python@3.11`.
 
 The venv directory is gitignored. Keep it out of the wiki's base environment so
 `.claude/scripts/` stays pure-stdlib.

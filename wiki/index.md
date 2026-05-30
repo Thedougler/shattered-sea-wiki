@@ -568,6 +568,12 @@ sources: []
 - [[blinded|Blinded]] — Blinded condition — can't see, auto-fail sight checks, attack rolls against you have Advantage, attack rolls you make have Disadvantage.
 - [[charmed|Charmed]] — Charmed condition — can't attack or target the charmer with harm; the charmer has Advantage on social ability checks against you.
 - [[deafened|Deafened]] — Deafened condition — can't hear, auto-fail hearing checks.
+- [[exhaustion|Exhaustion]] — Exhaustion condition — stacking levels (1-6); each level reduces D20 Tests by 2 and speed by 5 ft; level 6 is death; 1 level removed per Long Rest.
+- [[frightened|Frightened]] — Frightened condition — Disadvantage on ability checks and attacks while source is in line of sight; can't willingly move closer to the source.
+- [[grappled|Grappled]] — Grappled condition — Speed 0; Disadvantage on attacks against anyone other than the grappler; grappler can move you at cost of 1 extra foot per foot moved.
+- [[incapacitated|Incapacitated]] — Incapacitated condition — can't take actions or reactions, Concentration broken, can't speak; Disadvantage on Initiative if Incapacitated when rolling.
+- [[invisible|Invisible]] — Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
+- [[paralyzed|Paralyzed]] — Paralyzed condition — Incapacitated, Speed 0, auto-fail STR/DEX saves, attacks against you have Advantage, and any hit by an attacker within 5 ft is a Critical Hit.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

@@ -464,3 +464,9 @@ sources: []
 - 2026-05-30 | ingest | rules/conditions/blinded — new condition reference
 - 2026-05-30 | ingest | rules/conditions/charmed — new condition reference
 - 2026-05-30 | ingest | rules/conditions/deafened — new condition reference
+- 2026-05-30 | ingest | rules/conditions/exhaustion — new condition reference
+- 2026-05-30 | ingest | rules/conditions/frightened — new condition reference
+- 2026-05-30 | ingest | rules/conditions/grappled — new condition reference
+- 2026-05-30 | ingest | rules/conditions/incapacitated — new condition reference
+- 2026-05-30 | ingest | rules/conditions/invisible — new condition reference
+- 2026-05-30 | ingest | rules/conditions/paralyzed — new condition reference

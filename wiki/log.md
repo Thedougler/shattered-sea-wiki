@@ -416,3 +416,9 @@ sources: []
 - 2026-05-30 | ingest | reef-shark — new creature page (CR 1/2 beast, Central Strait / Sunken Crown)
 - 2026-05-30 | ingest | sea-hag — new creature page (CR 2 fey, Drowned Maw)
 - 2026-05-30 | ingest | sea-life.md — new player-facing sea life index
+- 2026-05-30 | ingest | undead.md — new DM-facing undead index (all lich types)
+- 2026-05-30 | ingest | wiki/entities/characters/index.md — new player-facing characters hub
+- 2026-05-30 | ingest | wiki/entities/characters/crew/index.md — new crew characters index
+- 2026-05-30 | ingest | wiki/entities/characters/minor/index.md — new minor NPCs index
+- 2026-05-30 | archive | Inbox/beastiary/undead/Hierarch.md — wiki version is more recent, no update
+- 2026-05-30 | archive | Inbox/campaign-timeline.md — wiki version is more complete, no update

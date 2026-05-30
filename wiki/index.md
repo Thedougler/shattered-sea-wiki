@@ -703,6 +703,7 @@ sources: []
 - [[swarm-of-ravens|Swarm of Ravens]] — A CR 1/4 beast swarm from the cliffs of Vel-Orn; a carrion flock circling over a distressed vessel is a universally understood bad sign.
 - [[swarm-of-venomous-snakes|Swarm of Venomous Snakes]] — A CR 2 beast swarm from a disturbed nest or flooded burrow; the interior undergrowth of Orak and the Verdant Scatter harbours more than it shows.
 - [[tiger|Tiger]] — CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
+- [[undead|Undead]] — DM index for undead creature types in the Shattered Sea bestiary — Pointy Hat lich variants and related undead.
 - [[unfamiliar|Unfamiliar]] — CR 5 monstrosity. Designed to hunt familiars and their summoners — its attacks trigger random uncontrolled spell effects, and it instinctively targets anyone who has ever bonded with a familiar.
 - [[unicorn|Unicorn]] — A CR 5 celestial; unconfirmed in the Shattered Sea — a single interior expedition account from the Midchain describes a white-maned creature that vanished before corroboration.
 - [[venomous-snake|Venomous Snake]] — A CR 1/8 beast; common bite hazard of the Verdant Teeth undergrowth, small enough to go unnoticed until stepped on.

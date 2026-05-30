@@ -23,10 +23,7 @@ DEFAULT_SCRIPT = (
 def save_speaker_page():
     apply_theme()
     teleprompter = Teleprompter(script_text=DEFAULT_SCRIPT)
-
-    character_input = None
-    player_input = None
-    status_label = None
+    recording = {'active': False}
 
     with ui.column().classes('w-full items-center gap-4 p-4'):
         ui.label('Save Voice Profile').classes('text-3xl').style('color: #c9a84c')
@@ -39,27 +36,36 @@ def save_speaker_page():
         status_label = ui.label('Press Record to begin').classes('text-xl').style('color: #888')
 
         with ui.row().classes('gap-4'):
-            record_btn = ui.button('Record', on_click=lambda: _start())
-            stop_btn = ui.button('Stop & Save', on_click=lambda: _stop())
+            record_btn = ui.button('Record', on_click=lambda: start())
+            stop_btn = ui.button('Stop & Save', on_click=lambda: stop())
             stop_btn.set_visibility(False)
 
-    word_count = {'value': 0}
+    def poll_asr():
+        if not recording['active']:
+            return
+        result = services.asr.latest_result
+        if result.text:
+            word_count = len(result.text.split())
+            teleprompter.update_spoken(word_count)
 
-    def _on_asr(result):
-        word_count['value'] = len(result.text.split())
-        teleprompter.mark_spoken(word_count['value'])
+    timer = ui.timer(0.2, poll_asr)
 
-    def _start():
+    def start():
+        recording['active'] = True
         status_label.text = 'Recording... read the text aloud'
         record_btn.set_visibility(False)
         stop_btn.set_visibility(True)
-        teleprompter.start_recording(on_asr_result=_on_asr)
 
-    def _stop():
-        result = teleprompter.stop_recording()
-        if result is None:
-            return
-        audio, asr_result = result
+        def on_chunk(chunk):
+            services.asr.feed_audio(chunk)
+
+        services.asr.start_streaming()
+        services.audio.start(on_chunk=on_chunk)
+
+    def stop():
+        recording['active'] = False
+        audio = services.audio.stop()
+        asr_result = services.asr.stop_streaming()
         stop_btn.set_visibility(False)
 
         character = character_input.value.strip()
@@ -70,7 +76,9 @@ def save_speaker_page():
             return
 
         status_label.text = 'Extracting voice embedding...'
+        ui.timer(0.1, lambda: _save_profile(character, player, audio), once=True)
 
+    def _save_profile(character, player, audio):
         embedding = services.diarization.extract_embedding(audio)
         existing = services.profiles.load(character)
         if existing:
@@ -86,5 +94,4 @@ def save_speaker_page():
             status_label.text = f'Saved new profile for {character}'
 
         record_btn.set_visibility(True)
-        teleprompter.mark_spoken(0)
-        word_count['value'] = 0
+        teleprompter.reset()

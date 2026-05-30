@@ -1,65 +1,43 @@
 from nicegui import ui
 
-from player_view.theme import apply_theme
-from player_view import services
-
 
 class Teleprompter:
     def __init__(self, script_text: str = ''):
         self.script_words = script_text.split() if script_text else []
         self.spoken_count = 0
-        self._word_spans: list[ui.html] = []
-        self._container = None
-        self._raw_output = None
-        self._recording = False
+        self._script_element: ui.html | None = None
+        self._raw_element: ui.label | None = None
 
     def render_script(self):
-        self._container = ui.column().classes('w-full p-8')
-        with self._container:
-            text_div = ui.html('').classes('teleprompter-text')
-            self._update_script_html(text_div)
-        return self._container
+        container = ui.column().classes('w-full p-8')
+        with container:
+            self._script_element = ui.html('').classes('teleprompter-text')
+            self._refresh_script()
+        return container
 
     def render_raw_output(self):
-        self._raw_output = ui.label('').classes('teleprompter-text w-full p-8')
-        return self._raw_output
+        self._raw_element = ui.label('').classes('teleprompter-text w-full p-8')
+        return self._raw_element
 
-    def _update_script_html(self, element: ui.html):
+    def _refresh_script(self):
+        if not self._script_element:
+            return
         parts = []
         for i, word in enumerate(self.script_words):
             cls = 'spoken' if i < self.spoken_count else ''
             parts.append(f'<span class="{cls}">{word} </span>')
-        element.content = ''.join(parts)
-        self._script_element = element
+        self._script_element.content = ''.join(parts)
 
-    def mark_spoken(self, count: int):
+    def update_spoken(self, count: int):
         self.spoken_count = min(count, len(self.script_words))
-        if hasattr(self, '_script_element'):
-            self._update_script_html(self._script_element)
+        self._refresh_script()
 
-    def set_raw_text(self, text: str):
-        if self._raw_output:
-            self._raw_output.text = text
+    def update_raw(self, text: str):
+        if self._raw_element:
+            self._raw_element.text = text
 
-    def start_recording(self, on_asr_result=None):
-        if self._recording:
-            return
-        self._recording = True
-
-        def on_chunk(chunk):
-            services.asr.feed_audio(chunk)
-
-        def on_result(result):
-            if on_asr_result:
-                on_asr_result(result)
-
-        services.asr.start_streaming(on_result=on_result)
-        services.audio.start(on_chunk=on_chunk)
-
-    def stop_recording(self):
-        if not self._recording:
-            return None
-        self._recording = False
-        audio = services.audio.stop()
-        asr_result = services.asr.stop_streaming()
-        return audio, asr_result
+    def reset(self):
+        self.spoken_count = 0
+        self._refresh_script()
+        if self._raw_element:
+            self._raw_element.text = ''

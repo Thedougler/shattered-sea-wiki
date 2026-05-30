@@ -9,9 +9,7 @@ from player_view import services
 def test_speaker_page():
     apply_theme()
     teleprompter = Teleprompter()
-
-    ranking_column = None
-    status_label = None
+    recording = {'active': False}
 
     with ui.column().classes('w-full items-center gap-4 p-4'):
         ui.label('Test Voice Profile').classes('text-3xl').style('color: #c9a84c')
@@ -28,29 +26,43 @@ def test_speaker_page():
         status_label = ui.label('Press Record to begin').classes('text-xl').style('color: #888')
 
         with ui.row().classes('gap-4'):
-            record_btn = ui.button('Record', on_click=lambda: _start())
-            stop_btn = ui.button('Stop & Match', on_click=lambda: _stop())
+            record_btn = ui.button('Record', on_click=lambda: start())
+            stop_btn = ui.button('Stop & Match', on_click=lambda: stop())
             stop_btn.set_visibility(False)
 
-    def _on_asr(result):
-        teleprompter.set_raw_text(result.text)
+    def poll_asr():
+        if not recording['active']:
+            return
+        result = services.asr.latest_result
+        if result.text:
+            teleprompter.update_raw(result.text)
 
-    def _start():
+    timer = ui.timer(0.2, poll_asr)
+
+    def start():
+        recording['active'] = True
         status_label.text = 'Recording... speak naturally'
         record_btn.set_visibility(False)
         stop_btn.set_visibility(True)
         ranking_column.clear()
-        teleprompter.start_recording(on_asr_result=_on_asr)
+        teleprompter.reset()
 
-    def _stop():
-        result = teleprompter.stop_recording()
-        if result is None:
-            return
-        audio, asr_result = result
+        def on_chunk(chunk):
+            services.asr.feed_audio(chunk)
+
+        services.asr.start_streaming()
+        services.audio.start(on_chunk=on_chunk)
+
+    def stop():
+        recording['active'] = False
+        audio = services.audio.stop()
+        asr_result = services.asr.stop_streaming()
         stop_btn.set_visibility(False)
 
         status_label.text = 'Extracting embedding and matching...'
+        ui.timer(0.1, lambda: _match_profiles(audio), once=True)
 
+    def _match_profiles(audio):
         embedding = services.diarization.extract_embedding(audio)
         all_profiles = services.profiles.load_all()
 

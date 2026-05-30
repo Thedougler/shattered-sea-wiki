@@ -536,6 +536,12 @@ sources: []
 - [[carouser|Carouser]] — D&D 5e 2024 Carouser background — Dexterity, Intelligence, Charisma; Tireless Reveler feat; Deception and Persuasion proficiencies.
 - [[charlatan|Charlatan]] — D&D 5e 2024 Charlatan background — Dexterity, Constitution, Charisma; Skilled feat; Deception and Sleight of Hand proficiencies.
 - [[criminal|Criminal]] — D&D 5e 2024 Criminal background — Dexterity, Constitution, Intelligence; Alert feat; Sleight of Hand and Stealth proficiencies.
+- [[entertainer|Entertainer]] — D&D 5e 2024 Entertainer background — Strength, Dexterity, Charisma; Musician feat; Acrobatics and Performance proficiencies.
+- [[farmer|Farmer]] — D&D 5e 2024 Farmer background — Strength, Constitution, Wisdom; Tough feat; Animal Handling and Nature proficiencies.
+- [[guard|Guard]] — D&D 5e 2024 Guard background — Strength, Intelligence, Wisdom; Alert feat; Athletics and Perception proficiencies.
+- [[guide|Guide]] — D&D 5e 2024 Guide background — Dexterity, Constitution, Wisdom; Magic Initiate (Druid) feat; Stealth and Survival proficiencies.
+- [[harper|Harper]] — D&D 5e 2024 Harper background — Dexterity, Intelligence, Charisma; Harper Agent feat; Performance and Sleight of Hand proficiencies.
+- [[hermit|Hermit]] — D&D 5e 2024 Hermit background — Constitution, Wisdom, Charisma; Healer feat; Medicine and Religion proficiencies.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

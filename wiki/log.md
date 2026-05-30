@@ -434,3 +434,9 @@ sources: []
 - 2026-05-30 | ingest | rules/backgrounds/carouser — new background reference
 - 2026-05-30 | ingest | rules/backgrounds/charlatan — new background reference
 - 2026-05-30 | ingest | rules/backgrounds/criminal — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/entertainer — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/farmer — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/guard — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/guide — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/harper — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/hermit — new background reference (Jean-Claude)

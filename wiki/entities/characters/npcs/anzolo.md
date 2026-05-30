@@ -35,4 +35,4 @@ He operates as a fixer and enforcer for the Black-Jaw Run, Passage-adjacent, wor
 Both the [[tessarine-concordat|Tessarine Concordat]] and the [[dravosi-crown|Dravosi Crown]] would like a word with him.
 
 > [!dm]
-> Before Nona met the party in Session 03, she believed Anzolo had already been sent to find [[perrin-black-jaw|Perrin Black-Jaw]]. She called him off — but he may have been at sea before the message arrived. See [[nona-and-anzolo]].
+> Before Nona met the party in Session 03, she believed Anzolo had already been sent to find [[perrin-black-jaw|Perrin Black-Jaw]]. She called him off — but he may have been at sea before the message arrived. See [[nona-and-anzolo|Nona and Anzolo]].

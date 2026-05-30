@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: Stub — no summary yet.
+summary: "Ship facility (Smithy Tier 1) that lets hirelings craft from Smith's Tools or commission magic armaments at level 9+."
 created: '2026-05-29'
 updated: '2026-05-29'
 tags: [rule, reference, bastion, facility, ship]

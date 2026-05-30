@@ -38,8 +38,8 @@ session_date: 2026-05-10
 - [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — identified Simone's toxin; said nothing
 
 ## Situation And Faction Updates
-- Situation created: [[the-rook-resolution]] — Rook alive and armed at session break
-- Situation created: [[the-canister]] — Jean-Claude holds knowledge of Simone's Crown supply (DM-only)
+- Situation created: [[the-rook-resolution|The Rook Resolution]] — Rook alive and armed at session break
+- Situation created: [[the-canister|The Canister]] — Jean-Claude holds knowledge of Simone's Crown supply (DM-only)
 - [[dravosi-crown|Dravosi Crown]] — lost Rook's boarding crew; using Grung toxin in field operations
 
 ## Open Questions
@@ -49,6 +49,6 @@ session_date: 2026-05-10
 - Does Jean-Claude tell anyone about Simone?
 
 ## Follow-Up Queue
-- [ ] Expand [[geoffrey-draves]] before next session — skills, disposition, what he wants
+- [ ] Expand [[geoffrey-draves|Geoffrey Draves]] before next session — skills, disposition, what he wants
 - [ ] Decide Rook's fate (capture, escape, death, deal)
 - [ ] Update [[party-session-primer|party-session-primer]] with crew status and Saltwright ownership

@@ -291,7 +291,7 @@ Don't plan an ending — recognize the highest-tension stopping point if it arri
 - [[hot|hot.md]] — current world state, threads, clocks, spotlight
 - [[session-03-recap|Session 03 Recap]] — last break, Day-1 events
 - [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — parent island; rides, district hooks, agency guardrails
-- [[umberlees-message]], [[nonas-favor]], [[pearl-of-souls]], [[abyss-vision]], [[the-canister]] — active situations near the party
-- [[calveno-beffa-grung-raid]], [[calveno-raid-signs]] — raid plan + ambient signs
-- [[red-lady-salvage-money]] — Zusto, the commission, the chart package
-- [[calveno-street-encounters]] — Handler Cell, Wrong Mark, papers-check + drop-in combat statlines
+- [[umberlees-message|Umberlee's Message]], [[nonas-favor|Nona's Favor]], [[pearl-of-souls|Pearl of Souls]], [[abyss-vision|The Abyss Vision]], [[the-canister|The Canister]] — active situations near the party
+- [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]], [[calveno-raid-signs|Calveno — Raid Prep Signs]] — raid plan + ambient signs
+- [[red-lady-salvage-money|Red Lady — Salvage Money]] — Zusto, the commission, the chart package
+- [[calveno-street-encounters|Calveno — Street Encounters]] — Handler Cell, Wrong Mark, papers-check + drop-in combat statlines

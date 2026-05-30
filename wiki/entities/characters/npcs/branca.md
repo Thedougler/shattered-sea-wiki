@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: Stub — no summary yet.
+summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do."
 created: '2026-05-29'
 updated: '2026-05-29'
 tags: [npc, human, waveservants, calveno, umberlee, divine]

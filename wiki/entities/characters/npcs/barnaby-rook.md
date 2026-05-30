@@ -57,7 +57,7 @@ Rook knows the Surety's orders, the pressure pattern around Tidefall, and enough
 Unharmed. Alone on the HCS Surety gangplank. Flintlock fired once at Beaumont — deflected.
 
 ## State After Session 02 — Presumed Dead
-Blasted from the rigging into the water by a thrown chair (Delmar, wind-assisted). Something long and eel-like was in the water. He did not resurface. Presumed dead — taken. See [[hull-impacts]].
+Blasted from the rigging into the water by a thrown chair (Delmar, wind-assisted). Something long and eel-like was in the water. He did not resurface. Presumed dead — taken. See [[hull-impacts|Hull Impacts]].
 
 ## Stat Block
 

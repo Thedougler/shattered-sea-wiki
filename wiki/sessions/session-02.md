@@ -51,11 +51,11 @@ session_date: 2026-05-18
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — deflected flintlock; let Ket feed from her
 
 ## Situation And Faction Updates
-- Situation created: [[hull-impacts]] — something large is hitting the hull
-- Situation created: [[knighton-pursuit]] — Rupert Knighton will send ships
-- Situation created: [[nona-and-anzolo]] — Perrin named; Nona's search is live
-- Situation updated: [[the-canister]] — 20 vials now in party possession; evidence escalated
-- Situation resolved: [[the-rook-resolution]] — Rook is dead (presumed)
+- Situation created: [[hull-impacts|Hull Impacts]] — something large is hitting the hull
+- Situation created: [[knighton-pursuit|The Knighton Pursuit]] — Rupert Knighton will send ships
+- Situation created: [[nona-and-anzolo|Nona and Anzolo]] — Perrin named; Nona's search is live
+- Situation updated: [[the-canister|The Canister]] — 20 vials now in party possession; evidence escalated
+- Situation resolved: [[the-rook-resolution|The Rook Resolution]] — Rook is dead (presumed)
 
 ## Open Questions
 - What is hitting the hull? Is it the eel-creature that took Rook?
@@ -66,7 +66,7 @@ session_date: 2026-05-18
 - When does Anzolo find Perrin?
 
 ## Follow-Up Queue
-- [ ] Expand [[wiki/situations/islands/shepherd-grigori]] before Calveno arrival — what does he know about Rook's operations?
+- [ ] Expand [[shepherd-grigori|Shepherd Grigori]] before Calveno arrival — what does he know about Rook's operations?
 - [ ] Decide the hull creature — needs a creature page when identified
 - [ ] Expand crew stubs (Sem, Alys, Faas, Thunk, Noor) as they become distinct
 - [ ] Rename the HCS Surety — party has not yet chosen a name

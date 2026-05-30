@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: Stub — no summary yet.
+summary: "Ship facility (Barrack Tier 1) that adds up to 4 Bastion Defenders per Recruit order."
 created: '2026-05-29'
 updated: '2026-05-29'
 tags: [rule, reference, bastion, facility, ship]

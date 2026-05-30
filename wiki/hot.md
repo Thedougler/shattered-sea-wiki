@@ -24,7 +24,7 @@ Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vess
 
 - **[[perrin-black-jaw|Perrin Black-Jaw]]:** Heard one word from the abyss: *"Grow."* Nona met — attacks called off, favor promised (terms unknown), sending stone received. Rook's chart archive has Drowned Maw breach records; Crissdalynn found them.
 - **[[delmar-fisk|Delmar Fisk]]:** Water reached up for him at the Calveno dock and said his name. An [[umberlee-servant|Umberlee servant]] is at the [[waveservant-shrine|Waveservant Shrine]] and not sleeping until he comes. Red coat locked in the captain's chest. Admiral Fisk form has duration limits — ran too long this session.
-- **[[jean-claude-tabarnack|Jean-Claude Tabarnack]]:** Has 3 fertilized whip shark eggs; directed to [[studio-orsini|Studio Orsini]] / Marta Orsini. Still hasn't told the party about the 20 Simone vials in cargo. See [[the-canister]].
+- **[[jean-claude-tabarnack|Jean-Claude Tabarnack]]:** Has 3 fertilized whip shark eggs; directed to [[studio-orsini|Studio Orsini]] / Marta Orsini. Still hasn't told the party about the 20 Simone vials in cargo. See [[the-canister|The Canister]].
 - **[[crissdalynn-khinriss|Crissdalynn Khinriss]]:** Reunited with [[master-kyzil|Master Kyzil]] in Le Paludi. Had Rook's chart archive — found Drowned Maw breach records. The Drowned Maw may be her thread or Perrin's or both.
 
 ## Faction Clocks

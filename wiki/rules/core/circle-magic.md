@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: Stub — no summary yet.
+summary: "2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions."
 created: '2026-05-29'
 updated: '2026-05-29'
 tags: [rule, reference, spellcasting]

@@ -20,4 +20,4 @@ confidence_level: observed
 Session 03: Delmar deceived her (Deception 19) into believing Umberlee had required an errand first; she left and waited at the [[waveservant-shrine|Waveservant Shrine]].
 
 > [!dm]
-> This page is retained only so older [[umberlee-servant]] links resolve. Use [[branca|Branca]] going forward.
+> This page is retained only so older [[umberlee-servant|Umberlee's Servant]] links resolve. Use [[branca|Branca]] going forward.

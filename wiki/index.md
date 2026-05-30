@@ -169,7 +169,7 @@ sources: []
 - [[the-governors-seat|Governor's Seat — Port Tidefall]] — The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
 - [[the-mud-pits|The Mud Pits]] — A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best.
 - [[tidefall-chandlery|Tidefall Chandlery]] — Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items.
-- [[wibowos-provisions|Wibowo's Provisions]] — [stub] Harbour-side victualler on Kalowe's first island — run by Suryo Wibowo; best approached with a list and a crew count.
+- [[wibowos-provisions|Wibowo's Provisions]] — Ship's victualler on Kalowe's first island — Suryo Wibowo sells crew rations, water casks, rum, and fresh produce. Bring a list and a crew count.
 
 ## entities/places/islands
 - [[aldenmere|Aldenmere]] — The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake.
@@ -215,7 +215,7 @@ sources: []
 - [[moretti-and-sons|Moretti & Sons Chandlery]] — Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up.
 - [[ponte-bassa|The Ponte Bassa]] — Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years.
 - [[studio-orsini|Studio Orsini]] — An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for.
-- [[waveservant-shrine|Waveservant Shrine]] — [stub] Umberlee shrine in Calveno. An unnamed servant is waiting here for Delmar, carrying a message from the Bitch Queen. She is not sleeping until he arrives.
+- [[waveservant-shrine|Waveservant Shrine — Calveno]] — Umberlee's shrine on the Mercatura canal front — basin fed from the channel, tribute terms facing outward. An unnamed servant is not sleeping here until Delmar arrives.
 
 ## entities/places/settlements/kalowe
 - [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
@@ -434,6 +434,8 @@ sources: []
 - [[water-cask|Water Cask]] — Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one.
 - [[whip-shark-barb|Whip Shark Barb]] — Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
+- [[wind-callers-boom|Wind Caller's Boom]] — A mainmast boom installation that forces favorable wind for 4 hours once per day — useless in a storm or the Doldrums.
+- [[wound-closure|Wound Closure]] — Professional cleaning and suturing of open wounds — 2 sp at an apothecary.
 
 ## entities/vehicles
 - [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.
@@ -547,6 +549,7 @@ sources: []
 - [[ship-stats|Ship Stats — The Shattered Sea]] — Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play.
 - [[ship-upgrades|Ship Upgrades — The Shattered Sea]] — Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability.
 - [[surgeons-berth|Surgeon's Berth]] — Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled.
+- [[weapons-locker|Weapons Locker]] — Tier 1 bastion facility — stocking it upgrades defender death dice from d6 to d8 for one Bastion Turn. Cost halved if the ship also has a Carpenter's Shop.
 
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.

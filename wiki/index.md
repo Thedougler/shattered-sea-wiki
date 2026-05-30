@@ -605,6 +605,7 @@ sources: []
 - [[arclight-phoenix|Arclight Phoenix]] — CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall.
 - [[beasts|Beasts]] — Player index for beasts, swarms, and natural predators of the Shattered Sea.
 - [[bestiary|Bestiary]] — Public index for Shattered Sea creature and monster references — every sailor working the Scatter has a story.
+- [[black-pudding|Black Pudding]] — CR 4 ooze that dissolves metal and wood on contact; splits into smaller puddings when hit with slashing or lightning damage.
 - [[blight|Blight]] — Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 - [[boar|Boar]] — Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[celestials|Celestials]] — Player index for celestials of the Shattered Sea — divine and sacred creatures; encountering one is rarely accidental.
@@ -654,14 +655,18 @@ sources: []
 - [[goblin-warrior|Goblin Warrior]] — CR 1/4 fey goblin combatant; Nimble Escape lets it disengage or hide as a bonus action, making it frustrating to pin down.
 - [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
 - [[guardian-naga|Guardian Naga]] — A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
+- [[harpy|Harpy]] — CR 1 monstrosity nesting in the sea cliffs of the Ashwall Islands and Meth-Var; Luring Song carries further than it should and compels victims toward the nest.
 - [[haunt-hag|Haunt Hag]] — CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[humanoids|Humanoids]] — Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
 - [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.
 - [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
+- [[mimic|Mimic]] — CR 2 shapechanger monstrosity; disguises itself as mundane objects and grapples prey with adhesive pseudopods.
+- [[monstrosities|Monstrosities]] — Player index for monstrosities of the Shattered Sea — creatures that defy easy classification, part animal, part nightmare.
 - [[moucheron|Moucheron]] — CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on blood. Pays negotiated in bloodletting. Highly social when fed, vicious when starved. Active on Murrat; hires out of Kalowe.
 - [[necromaton|Necromaton]] — CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated.
+- [[oozes|Oozes]] — Player index for oozes of the Shattered Sea — mindless dissolving predators of the underdark with no confirmed surface sightings.
 - [[owlbear|Owlbear]] — The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 - [[panther|Panther]] — Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[pegasus|Pegasus]] — The Pegasus, a CR 2 celestial rumoured above the High Eyrie; sightings treated as a private matter by the Sentinels.
@@ -671,6 +676,7 @@ sources: []
 - [[primeval-owlbear|Primeval Owlbear]] — A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 - [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
 - [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.
+- [[roc|Roc]] — CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
 - [[sahuagin-baron|Sahuagin Baron]] — CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
 - [[sahuagin-priest|Sahuagin Priest]] — CR 2 fiend; conducts blood rites at submerged shrines in the blue holes of the Drowned Maw; encountered where warbands gather before a raid.
 - [[sahuagin-warrior|Sahuagin Warrior]] — CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.

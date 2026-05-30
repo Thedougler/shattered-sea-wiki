@@ -398,3 +398,9 @@ sources: []
 - 2026-05-30 | ingest | fiends.md — new player-facing fiends index
 - 2026-05-30 | ingest | humanoids.md — new player-facing humanoids index
 - 2026-05-30 | ingest | bestiary.md — new master bestiary index
+- 2026-05-30 | ingest | harpy — new creature page (CR 1 monstrosity, Ashwall Islands / Meth-Var / The Tail)
+- 2026-05-30 | ingest | mimic — new creature page (CR 2 monstrosity, urban ruins)
+- 2026-05-30 | ingest | roc — new creature page (CR 11 monstrosity, High Eyrie)
+- 2026-05-30 | ingest | black-pudding — new creature page (CR 4 ooze, underdark, DM-only)
+- 2026-05-30 | ingest | monstrosities.md — new player-facing monstrosities index
+- 2026-05-30 | ingest | oozes.md — new player-facing oozes index

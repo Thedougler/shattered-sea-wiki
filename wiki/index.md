@@ -555,6 +555,12 @@ sources: []
 - [[bard|Bard]] — D&D 5e 2024 Bard — full CHA caster with Bardic Inspiration, Expertise, and Jack of All Trades; Perrin Black-Jaw is Bard/Warlock.
 - [[cleric|Cleric]] — D&D 5e 2024 Cleric — WIS-based divine full caster with Heavy armor, Channel Divinity, and strong healing/support capability.
 - [[druid|Druid]] — D&D 5e 2024 Druid — WIS-based primal full caster with Wild Shape, nature magic, and strong control/healing options.
+- [[fighter|Fighter]] — D&D 5e 2024 Fighter — all armor, Action Surge, Extra Attack scaling; Stripes Bitemore is a Battle Master Fighter.
+- [[monk|Monk]] — D&D 5e 2024 Monk — DEX+WIS unarmored class with Martial Arts, Focus Points, and Stunning Strike; Crissdalynn Khinriss is a Kensei Monk.
+- [[paladin|Paladin]] — D&D 5e 2024 Paladin — CHA-based half caster with Divine Smite, heavy armor, Auras, and Lay on Hands.
+- [[ranger|Ranger]] — D&D 5e 2024 Ranger — DEX+WIS half caster with Hunter's Mark, Favored Enemy, and Expertise; Jean-Claude Tabarnack is a Gloom Stalker Ranger.
+- [[rogue|Rogue]] — D&D 5e 2024 Rogue — DEX-based Sneak Attack, Expertise, and Cunning Action; Delmar Fisk is a Swashbuckler Rogue.
+- [[sorcerer|Sorcerer]] — D&D 5e 2024 Sorcerer — CHA full caster with Sorcery Points and Metamagic; fewer spells known but exceptional flexibility via metamagic.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

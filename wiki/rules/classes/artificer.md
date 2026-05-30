@@ -14,6 +14,7 @@ audience: dm
 confidence_level: medium
 sources:
 - rpgbot.net Artificer Guide
+status: unknown
 ---
 
 # Artificer

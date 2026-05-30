@@ -452,3 +452,9 @@ sources: []
 - 2026-05-30 | ingest | rules/classes/bard — new class reference page (Perrin)
 - 2026-05-30 | ingest | rules/classes/cleric — new class reference stub
 - 2026-05-30 | ingest | rules/classes/druid — new class reference stub
+- 2026-05-30 | ingest | rules/classes/fighter — new class reference (Stripes Bitemore)
+- 2026-05-30 | ingest | rules/classes/monk — new class reference (Crissdalynn Khinriss)
+- 2026-05-30 | ingest | rules/classes/paladin — new class reference stub
+- 2026-05-30 | ingest | rules/classes/ranger — new class reference (Jean-Claude Tabarnack)
+- 2026-05-30 | ingest | rules/classes/rogue — new class reference (Delmar Fisk)
+- 2026-05-30 | ingest | rules/classes/sorcerer — new class reference

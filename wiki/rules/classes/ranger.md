@@ -14,6 +14,7 @@ audience: dm
 confidence_level: medium
 sources:
 - PHB 2024
+status: unknown
 ---
 
 # Ranger

@@ -458,3 +458,9 @@ sources: []
 - 2026-05-30 | ingest | rules/classes/ranger — new class reference (Jean-Claude Tabarnack)
 - 2026-05-30 | ingest | rules/classes/rogue — new class reference (Delmar Fisk)
 - 2026-05-30 | ingest | rules/classes/sorcerer — new class reference
+- 2026-05-30 | ingest | rules/classes/warlock — new class reference (Perrin Black-Jaw)
+- 2026-05-30 | ingest | rules/classes/wizard — new class reference stub
+- 2026-05-30 | ingest | rules/classes/index.md — new classes index
+- 2026-05-30 | ingest | rules/conditions/blinded — new condition reference
+- 2026-05-30 | ingest | rules/conditions/charmed — new condition reference
+- 2026-05-30 | ingest | rules/conditions/deafened — new condition reference

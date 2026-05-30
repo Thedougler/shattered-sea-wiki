@@ -561,6 +561,13 @@ sources: []
 - [[ranger|Ranger]] — D&D 5e 2024 Ranger — DEX+WIS half caster with Hunter's Mark, Favored Enemy, and Expertise; Jean-Claude Tabarnack is a Gloom Stalker Ranger.
 - [[rogue|Rogue]] — D&D 5e 2024 Rogue — DEX-based Sneak Attack, Expertise, and Cunning Action; Delmar Fisk is a Swashbuckler Rogue.
 - [[sorcerer|Sorcerer]] — D&D 5e 2024 Sorcerer — CHA full caster with Sorcery Points and Metamagic; fewer spells known but exceptional flexibility via metamagic.
+- [[warlock|Warlock]] — D&D 5e 2024 Warlock — CHA caster with Pact Magic (SR recharge), Eldritch Invocations, and Mystic Arcanum; Perrin Black-Jaw is Bard/Warlock.
+- [[wizard|Wizard]] — D&D 5e 2024 Wizard — INT full caster with the largest spell list; copies spells into a spellbook and can ritual cast from it without preparing.
+
+## rules/conditions
+- [[blinded|Blinded]] — Blinded condition — can't see, auto-fail sight checks, attack rolls against you have Advantage, attack rolls you make have Disadvantage.
+- [[charmed|Charmed]] — Charmed condition — can't attack or target the charmer with harm; the charmer has Advantage on social ability checks against you.
+- [[deafened|Deafened]] — Deafened condition — can't hear, auto-fail hearing checks.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

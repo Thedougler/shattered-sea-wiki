@@ -45,6 +45,13 @@ class ScriptTracker:
             total_tokens=len(self._raw_tokens),
         )
 
+    def extend_script(self, new_text: str) -> None:
+        if not new_text.strip():
+            return
+        new_raw = new_text.split()
+        self._raw_tokens.extend(new_raw)
+        self._norm_tokens.extend(_normalize(w) for w in new_raw)
+
     def advance(self, recognized_words: list[str]) -> TrackerState:
         for word in recognized_words:
             norm = _normalize(word)

@@ -149,5 +149,37 @@ class EmDashTests(unittest.TestCase):
         self.assertEqual(t.norm_tokens, ["hello", "world"])
 
 
+class ExtendScriptTests(unittest.TestCase):
+    def test_extend_adds_tokens(self) -> None:
+        t = ScriptTracker("one two")
+        t.extend_script("three four")
+        self.assertEqual(t.state.total_tokens, 4)
+        self.assertEqual(t.raw_tokens, ["one", "two", "three", "four"])
+
+    def test_extend_preserves_matched_pointer(self) -> None:
+        t = ScriptTracker("one two three")
+        t.advance(["one", "two"])
+        t.extend_script("four five")
+        self.assertEqual(t.state.matched_up_to, 1)
+        self.assertEqual(t.state.total_tokens, 5)
+
+    def test_advance_works_across_extension_boundary(self) -> None:
+        t = ScriptTracker("one two")
+        t.advance(["one", "two"])
+        t.extend_script("three four")
+        state = t.advance(["three"])
+        self.assertEqual(state.matched_up_to, 2)
+
+    def test_extend_empty_string_is_noop(self) -> None:
+        t = ScriptTracker("one two")
+        t.extend_script("")
+        self.assertEqual(t.state.total_tokens, 2)
+
+    def test_extend_normalizes_new_tokens(self) -> None:
+        t = ScriptTracker("hello")
+        t.extend_script("World!")
+        self.assertEqual(t.norm_tokens, ["hello", "world"])
+
+
 if __name__ == "__main__":
     unittest.main()

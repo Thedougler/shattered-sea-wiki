@@ -15,6 +15,7 @@ audience: dm
 confidence_level: medium
 sources:
 - Fiends of Fey and Flame (2024)
+status: unknown
 ---
 
 # Spellfire Sorcery

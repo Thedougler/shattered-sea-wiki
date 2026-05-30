@@ -612,6 +612,12 @@ sources: []
 - [[spellfire-sorcery|Spellfire Sorcery]] — Sorcerer subclass (Fiends of Fey & Flame 2024) — divine radiant magic; Spellfire Burst rider effects, Absorb Spells defensive tool, Greater Restoration at 11th level; support-oriented.
 - [[swashbuckler|Swashbuckler]] — Rogue subclass (XGtE 2014) — CHA-based Rogue for duelists and pirates; Fancy Footwork prevents opportunity attacks after melee strikes; Sneak Attack without an ally nearby; Delmar Fisk is a Swashbuckler.
 - [[thief|Thief]] — Rogue subclass (PHB 2024) — iconic Scout Rogue; Fast Hands grants Bonus Action use of magic items; High Jump and Reliable Talent round out a skill-focused build.
+- [[way-of-mercy|Way of Mercy]] — Monk subclass (PHB 2024) — combat medic; Hand of Harm adds necrotic damage, Hand of Healing provides action-economic healing, Hand of Ultimate Mercy resurrects at Level 17.
+- [[way-of-shadow|Way of Shadow]] — Monk subclass (PHB 2024) — darkness-powered striker; Shadow Arts (1 FP) casts Darkness for permanent Advantage; Shadow Step teleports in dim light/darkness; Cloak of Shadows grants free Flurry.
+- [[way-of-the-elements|Way of the Elements]] — Monk subclass (PHB 2024) — 10-foot reach, elemental damage type switching, vertical knockback for falling damage, flight at Level 11 via Stride of the Elements.
+- [[way-of-the-kensei|Way of the Kensei]] — Monk subclass (XGtE 2014) — weapons as extensions of the body; Kensei weapons, Agile Parry (+2 AC), Sharpen the Blade (+1/2/3 to attacks/damage), Unerring Accuracy; Crissdalynn Khinriss uses this subclass.
+- [[way-of-the-open-hand|Way of the Open Hand]] — Monk subclass (PHB 2024) — the classic Monk; Open Hand Technique adds push/prone/reaction-strip to Flurry of Blows; Fleet Step for free Dash; Quivering Palm 10d12 finisher at L11.
+- [[wild-magic-sorcery|Wild Magic Sorcery]] — Sorcerer subclass (PHB 2024) — chaotic magic; Tides of Chaos for Advantage, Bend Luck for ally/enemy roll manipulation (2 SP), Controlled Chaos doubles surge table results; lacks a prepared spell list.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

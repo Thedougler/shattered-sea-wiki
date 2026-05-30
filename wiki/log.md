@@ -500,3 +500,9 @@ sources: []
 - 2026-05-30 | ingest | rules/subclasses/spellfire-sorcery — new subclass reference
 - 2026-05-30 | ingest | rules/subclasses/swashbuckler — new subclass reference (Delmar Fisk)
 - 2026-05-30 | ingest | rules/subclasses/thief — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/way-of-mercy — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/way-of-shadow — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/way-of-the-elements — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/way-of-the-kensei — new subclass reference (Crissdalynn Khinriss)
+- 2026-05-30 | ingest | rules/subclasses/way-of-the-open-hand — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/wild-magic-sorcery — new subclass reference

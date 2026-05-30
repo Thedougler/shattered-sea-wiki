@@ -4,6 +4,7 @@ from nicegui import app, ui
 from pydantic import BaseModel
 
 from player_view.theme import apply_theme
+from player_view.components.header import operator_header
 from player_view.models.state import ChatMessage, SessionState
 
 _state = SessionState()
@@ -45,30 +46,23 @@ def push_status(payload: StatusPayload):
 def session_page():
     apply_theme()
 
-    message_container = None
-    status_labels = {}
+    with operator_header('Session'):
+        status_lbl = ui.label('idle').style('color: #888')
+        length_lbl = ui.label('0:00').style('color: #888')
+        chunks_lbl = ui.label('0 chunks').style('color: #888')
+        speakers_lbl = ui.label('0 spk').style('color: #888')
 
-    with ui.column().classes('w-full h-screen'):
-        with ui.row().classes('w-full p-4 gap-8').style('border-bottom: 1px solid #333'):
-            status_labels['status'] = ui.label('idle').classes('status-panel')
-            status_labels['length'] = ui.label('0:00').classes('status-panel')
-            status_labels['chunks'] = ui.label('0 chunks').classes('status-panel')
-            status_labels['speakers'] = ui.label('0 speakers').classes('status-panel')
-
-        message_container = ui.column().classes(
-            'w-full flex-grow overflow-y-auto p-4 gap-1'
-        )
+    message_container = ui.column().classes('w-full p-4 gap-1')
 
     last_count = {'value': 0}
 
     def refresh():
-        if _state.status:
-            status_labels['status'].text = _state.status
+        status_lbl.text = _state.status or 'idle'
         mins, secs = divmod(int(_state.session_length_s), 60)
         hrs, mins = divmod(mins, 60)
-        status_labels['length'].text = f'{hrs}:{mins:02d}:{secs:02d}' if hrs else f'{mins}:{secs:02d}'
-        status_labels['chunks'].text = f'{_state.chunk_count} chunks'
-        status_labels['speakers'].text = f'{_state.speaker_count} speakers'
+        length_lbl.text = f'{hrs}:{mins:02d}:{secs:02d}' if hrs else f'{mins}:{secs:02d}'
+        chunks_lbl.text = f'{_state.chunk_count} chunks'
+        speakers_lbl.text = f'{_state.speaker_count} spk'
 
         current_count = len(_state.messages)
         if current_count > last_count['value']:

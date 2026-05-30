@@ -4,6 +4,7 @@ from nicegui import app, ui
 from pydantic import BaseModel
 
 from player_view.theme import apply_theme
+from player_view.components.header import operator_header
 
 _maps: dict[str, str] = {}
 
@@ -36,14 +37,21 @@ def map_page(name: str):
     apply_theme()
     _discover_maps()
 
-    ui.query('body').style('margin: 0; padding: 0; overflow: hidden')
-
     src = _maps.get(name, '')
+    available = ', '.join(sorted(_maps.keys())) or 'none'
+
+    with operator_header(f'Map: {name}'):
+        ui.label(f'available: {available}').style('color: #666')
+
+    ui.query('body').style('overflow: hidden')
 
     if src:
-        ui.image(src).classes('w-screen h-screen object-contain')
+        ui.image(src).classes('w-full').style(
+            'height: calc(100vh - 100px); object-fit: contain;'
+        )
     else:
-        available = ', '.join(sorted(_maps.keys())) or 'none'
-        with ui.column().classes('w-full h-screen items-center justify-center'):
+        with ui.column().classes('w-full items-center justify-center').style(
+            'height: calc(100vh - 100px);'
+        ):
             ui.label(f'Map "{name}" not found').classes('text-3xl').style('color: #c9a84c')
             ui.label(f'Available: {available}').classes('text-xl').style('color: #888')

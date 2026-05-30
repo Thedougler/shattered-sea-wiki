@@ -5,6 +5,7 @@ from nicegui import app, ui
 from pydantic import BaseModel
 
 from player_view.theme import apply_theme
+from player_view.components.header import operator_header
 from player_view.models.state import SlideshowState
 
 _state = SlideshowState()
@@ -50,19 +51,27 @@ def slideshow_page():
     if not _state.images:
         _scan_default_folder()
 
-    img = None
+    with operator_header('Slideshow'):
+        count_lbl = ui.label(f'{len(_state.images)} images').style('color: #888')
+        index_lbl = ui.label('0').style('color: #888')
+        interval_lbl = ui.label(f'{_state.interval_s}s').style('color: #888')
 
-    with ui.column().classes('w-full h-screen items-center justify-center'):
-        if _state.images:
-            img = ui.image(_state.images[0]).classes('max-w-full max-h-screen object-contain')
-        else:
-            img = ui.image('').classes('max-w-full max-h-screen object-contain')
-            ui.label('No images loaded').classes('text-2xl').style('color: #888')
+    ui.query('body').style('overflow: hidden')
+
+    if _state.images:
+        img = ui.image(_state.images[0]).classes('w-full').style(
+            'height: calc(100vh - 100px); object-fit: contain;'
+        )
+    else:
+        img = ui.image('').classes('w-full').style(
+            'height: calc(100vh - 100px); object-fit: contain;'
+        )
 
     def advance():
         if not _state.images:
             return
         _state.current_index = (_state.current_index + 1) % len(_state.images)
         img.source = _state.images[_state.current_index]
+        index_lbl.text = f'{_state.current_index + 1}/{len(_state.images)}'
 
     ui.timer(_state.interval_s, advance)

@@ -574,6 +574,12 @@ sources: []
 - [[incapacitated|Incapacitated]] — Incapacitated condition — can't take actions or reactions, Concentration broken, can't speak; Disadvantage on Initiative if Incapacitated when rolling.
 - [[invisible|Invisible]] — Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
 - [[paralyzed|Paralyzed]] — Paralyzed condition — Incapacitated, Speed 0, auto-fail STR/DEX saves, attacks against you have Advantage, and any hit by an attacker within 5 ft is a Critical Hit.
+- [[petrified|Petrified]] — Petrified condition — transformed into inanimate stone; Incapacitated, Speed 0, Resistance all damage, Immunity Poisoned, Advantage on attacks against you, auto-fail STR/DEX saves.
+- [[poisoned|Poisoned]] — Poisoned condition — Disadvantage on attack rolls and ability checks.
+- [[prone|Prone]] — Prone condition — only movement option is to crawl or spend half Speed to stand; Disadvantage on attacks; attacks against you have Advantage within 5 ft, Disadvantage otherwise.
+- [[restrained|Restrained]] — Restrained condition — Speed 0, Advantage on attacks against you, Disadvantage on your attacks and Dexterity saves.
+- [[stunned|Stunned]] — Stunned condition — Incapacitated, auto-fail STR/DEX saves, Advantage on attacks against you.
+- [[unconscious|Unconscious]] — Unconscious condition — Incapacitated and Prone, Speed 0, Advantage on attacks against you, auto-fail STR/DEX saves, any hit within 5 ft is a Critical Hit, unaware of surroundings.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

@@ -470,3 +470,9 @@ sources: []
 - 2026-05-30 | ingest | rules/conditions/incapacitated — new condition reference
 - 2026-05-30 | ingest | rules/conditions/invisible — new condition reference
 - 2026-05-30 | ingest | rules/conditions/paralyzed — new condition reference
+- 2026-05-30 | ingest | rules/conditions/petrified — new condition reference
+- 2026-05-30 | ingest | rules/conditions/poisoned — new condition reference
+- 2026-05-30 | ingest | rules/conditions/prone — new condition reference
+- 2026-05-30 | ingest | rules/conditions/restrained — new condition reference
+- 2026-05-30 | ingest | rules/conditions/stunned — new condition reference
+- 2026-05-30 | ingest | rules/conditions/unconscious — new condition reference

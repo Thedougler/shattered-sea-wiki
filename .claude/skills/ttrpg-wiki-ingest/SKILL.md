@@ -60,7 +60,8 @@ Report "queue clear" and stop. Nothing else to do.
 This is the fast path for routine use. No batching, no re-running the script between sources.
 
 1. Read `wiki/hot.md` for current world state.
-2. Run `python3 .claude/scripts/check_ingest.py` to get all pending paths.
+2. Run `python3 .claude/scripts/check_ingest.py` to get all pending paths (ordered smallest
+   first by the script — process them in the order listed).
 3. Process each source to completion (steps below), then archive it.
 4. After all sources: regenerate index, commit once.
 

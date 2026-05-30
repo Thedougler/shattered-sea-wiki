@@ -193,7 +193,7 @@ def classify_inbox(inbox_path: str, raw_path: str, algorithm: str) -> Classifica
 
     raw_duplicates.sort(key=lambda d: display_path(d.path))
     inbox_duplicates.sort(key=lambda d: display_path(d.path))
-    pending.sort(key=display_path)
+    pending.sort(key=lambda p: (os.path.getsize(p), display_path(p)))
     return Classification(
         pending=pending,
         raw_duplicates=raw_duplicates,

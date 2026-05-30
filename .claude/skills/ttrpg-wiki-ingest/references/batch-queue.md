@@ -35,19 +35,14 @@ before continuing. If output is empty, you're done.
 Do not summarize the whole queue or plan all sources up front. Pull a wave, finish it, pull
 the next.
 
-## Priority Within a Wave
+## Ordering
 
-The script lists paths alphabetically. When choosing which to process first within a wave:
+The script outputs paths sorted smallest-first by file size. Process them in the order listed
+— small files are quick wins that build cross-link density early, and large sources (session
+transcripts, PDFs) get full context budget when they come up later.
 
-1. Reviewed clean session transcripts (they set chronology others link to).
-2. DM-declared canon updates.
-3. Entity / location / faction / situation notes.
-4. Rules and homebrew with table impact.
-5. Player-facing handouts needing publish control.
-6. Assets and research/guidance documents.
-
-For a one-pass run this barely matters. It matters only when a session can't finish the whole
-queue: do the spine first.
+Do not re-sort or cherry-pick within a wave. The script's ordering is deterministic and
+optimized for throughput.
 
 ## Shared Context Efficiency
 

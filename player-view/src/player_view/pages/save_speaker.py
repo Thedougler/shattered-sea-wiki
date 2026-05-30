@@ -113,7 +113,10 @@ def save_speaker_page():
     def poll_asr():
         if not state['recording']:
             return
+        services.asr.process_pending()
         result = services.asr.latest_result
+        if result.finalized_text or result.draft_text:
+            print(f'[ASR] finalized={result.finalized_text!r} draft={result.draft_text!r}')
         teleprompter.update_from_asr(
             result.finalized_text or '', result.draft_text or '',
         )

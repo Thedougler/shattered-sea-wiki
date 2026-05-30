@@ -20,6 +20,8 @@ import queue
 import signal
 import sys
 
+from ..core.profiler_core import format_enroll_status  # noqa: F401 — re-export
+
 _PROJECT_ROOT = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 )
@@ -31,18 +33,6 @@ SESSIONS_DIR = os.path.join(
 
 def _now_utc() -> str:
     return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-def format_enroll_status(name: str, player: str, result) -> str:
-    """Format enrollment result for display. Pure helper — unit-testable."""
-    p = result.profile
-    note = ""
-    if p.enhanced_spans:
-        note = (f" — enhanced with {p.enhanced_spans} corrected span(s) "
-                f"from session(s) {p.enhanced_sessions}")
-    if result.rejected:
-        note += f"; {result.rejected} outlier span(s) rejected"
-    return f"Saved profile for {name} ({player}){note}"
 
 
 def run_app(name: str, player: str, script_text: str, *, sample_rate: int = 16000,
@@ -201,7 +191,6 @@ def run_app(name: str, player: str, script_text: str, *, sample_rate: int = 1600
             with ui.column().classes(
                 "teleprompter w-2/3 overflow-y-auto text-3xl leading-relaxed text-center"
             ).style("height: 60vh"):
-                tokens = script_text.split() if script_text.strip() else []
                 paragraphs = script_text.split("\n\n") if script_text.strip() else []
                 word_idx = 0
                 for para in paragraphs:

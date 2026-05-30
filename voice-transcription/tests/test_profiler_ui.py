@@ -6,7 +6,7 @@ import unittest
 
 from voice_transcription.core.profiler_core import EnrollmentResult
 from voice_transcription.core.profiles import VoiceProfile
-from voice_transcription.app.profiler_ui import format_enroll_status
+from voice_transcription.core.profiler_core import format_enroll_status
 
 
 def _profile(**overrides) -> VoiceProfile:

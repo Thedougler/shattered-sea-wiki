@@ -41,6 +41,18 @@ class EnrollmentResult:
     rejected: int = 0
 
 
+def format_enroll_status(name: str, player: str, result: EnrollmentResult) -> str:
+    """Format enrollment result for display. Pure helper — unit-testable."""
+    p = result.profile
+    note = ""
+    if p.enhanced_spans:
+        note = (f" — enhanced with {p.enhanced_spans} corrected span(s) "
+                f"from session(s) {p.enhanced_sessions}")
+    if result.rejected:
+        note += f"; {result.rejected} outlier span(s) rejected"
+    return f"Saved profile for {name} ({player}){note}"
+
+
 def load_script(script_file: str | None, assets_dir: str) -> str:
     """Return teleprompter text: an explicit ``--script-file`` else the bundled default."""
     if script_file is not None:

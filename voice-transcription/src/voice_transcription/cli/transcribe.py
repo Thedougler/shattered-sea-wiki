@@ -1,15 +1,12 @@
-#!/usr/bin/env python3
-"""CLI entry point for live session transcription.
+"""CLI entry point for live session transcription — TUI + teleprompter WebUI.
 
-Thin wrapper over ``run_loop.main`` so the documented command line
-(``transcribe_session.py --session N --speakers M``) matches the file name. All
-orchestration lives in ``run_loop`` (unit-tested with fakes); the real model/mic
-wiring lives in ``adapters.build_live_deps``.
+Delegates to the operator CLI (``voice_transcription.cli.operator:main``),
+which provides the Textual TUI control panel and read-only teleprompter WebUI.
 """
 
 from __future__ import annotations
 
-from ..core.run_loop import main
+from .operator import main
 
 if __name__ == "__main__":  # pragma: no cover
     raise SystemExit(main())

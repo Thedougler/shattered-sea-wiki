@@ -220,21 +220,19 @@ body {
     animation: msg-in 0.3s ease-out;
 }
 
-/* --- Level badge (save-speaker) --- */
+/* --- Level badge (save-speaker, in status strip) --- */
 .level-badge {
-    position: fixed;
-    top: 110px;
-    right: 2.5rem;
     font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #c9a84c;
-    z-index: 100;
+    letter-spacing: 0.05em;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
+    display: inline-block;
 }
 .level-badge.level-up {
-    transform: scale(1.4);
-    text-shadow: 0 0 30px rgba(201, 168, 76, 0.8), 0 0 60px rgba(201, 168, 76, 0.4);
+    transform: scale(1.3);
+    text-shadow: 0 0 20px rgba(201, 168, 76, 0.8), 0 0 40px rgba(201, 168, 76, 0.4);
 }
 
 /* --- Status panel (header labels) --- */

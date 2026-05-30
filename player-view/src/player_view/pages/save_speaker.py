@@ -9,16 +9,15 @@ from player_view import services
 from player_view.models.voice_profile import VoiceProfile
 
 DEFAULT_SCRIPT = (
-    'Welcome, brave voice actor, to the enchanted voice chamber. '
-    'Right now your dulcet tones are being captured by ancient microphone magic. '
-    'Just speak naturally and read along. Thirty seconds is the minimum, '
-    'but the longer you go, the better your voice print becomes. '
-    'She sells seashells by the shimmering shore. '
-    'Try a deep gravelly pirate voice: Arrr, the kraken devours ships at dawn! '
-    'Now go high and nasal: Excuse me, I ordered the quinoa frittata. '
-    'Excellent. Keep going, the machine is learning your beautiful, unique, '
-    'completely unreplicable voice. Red leather yellow leather, '
-    'red leather yellow leather. You are doing fantastically.'
+    "I'm reading a series of increasingly terrible tongue twisters "
+    "without breaking character. Thirty seconds is all it takes, "
+    "but more is better. Here we go. "
+    "She sells seashells by the seashore. "
+    "Red leather yellow leather, red leather yellow leather. "
+    "The sixth sick sheik's sixth sheep is sick. "
+    "A proper copper coffee pot. "
+    "How much wood would a woodchuck chuck if a woodchuck could chuck wood? "
+    "Honestly this is going great, keep talking, the machine is listening."
 )
 
 
@@ -41,8 +40,6 @@ def save_speaker_page():
         stop_btn.set_visibility(False)
         status_label = ui.label('ready').style('color: #888')
 
-    level_badge = ui.html('<div class="level-badge">LVL 1</div>')
-
     scroll = teleprompter.render_script(
         container_style='height: calc(100vh - 100px - 90px);'
     )
@@ -57,6 +54,8 @@ def save_speaker_page():
             '</div>'
         )
         match_lbl = ui.label('').classes('voice-match')
+        ui.element('div').style('flex: 1')
+        level_badge = ui.html('<span class="level-badge">LVL 1</span>')
 
     async def _generate_next_chunk():
         chunk_start = state['chunk_start']
@@ -72,7 +71,7 @@ def save_speaker_page():
         state['level'] = next_level
         state['generating'] = False
 
-        level_badge.content = f'<div class="level-badge">LVL {next_level}</div>'
+        level_badge.content = f'<span class="level-badge">LVL {next_level}</span>'
         ui.run_javascript('''
             const b = document.querySelector('.level-badge');
             if (b) { b.classList.add('level-up');
@@ -192,6 +191,6 @@ def save_speaker_page():
             state['chunk_start'] = 0
             state['chunk_size'] = teleprompter.word_count
             state['generating'] = False
-            level_badge.content = '<div class="level-badge">LVL 1</div>'
+            level_badge.content = '<span class="level-badge">LVL 1</span>'
 
         ui.timer(0.1, save, once=True)

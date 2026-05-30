@@ -7,14 +7,14 @@
 # the committed wiki/sessions/session-NN-transcript.md. Needs the session's
 # .live/session-NN/audio/ directory (gitignored scratch) to still be present.
 #
-# All flags are passed straight through to finalize_session.py:
+# All flags are passed straight through:
 #   --session N    session number (required)
 #   --speakers N   known physical speaker count
 #   --threshold F  voice-ID cosine cutoff (default 0.5)
 
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$HERE/.claude/skills/live-co-dm/scripts/_bootstrap.sh"
+source "$HERE/voice-transcription/_bootstrap.sh"
 
-cd "$REPO_ROOT"   # reads/writes wiki/sessions relative to cwd
-exec "$VENV_PY" "$SCRIPT_DIR/finalize_session.py" "$@"
+cd "$REPO_ROOT"
+exec "$VENV_PY" -m voice_transcription.cli.finalize "$@"

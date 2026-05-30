@@ -5,14 +5,14 @@
 #
 # Then open the printed URL, read the teleprompter aloud in character, Stop & Save.
 # Re-running with the same --name overwrites that profile (and folds in corrected
-# audio from finalized transcripts — see references/voice-profiler.md).
+# audio from finalized transcripts — see voice-transcription/references/voice-profiler.md).
 #
-# All flags are passed straight through to voice_profiler.py:
+# All flags are passed straight through:
 #   --name        character voice (required)   --player  performing person (required)
 #   --script-file custom teleprompter text      --port    web port (default 8080)
 
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$HERE/.claude/skills/live-co-dm/scripts/_bootstrap.sh"
+source "$HERE/voice-transcription/_bootstrap.sh"
 
-exec "$VENV_PY" "$SCRIPT_DIR/voice_profiler.py" "$@"
+exec "$VENV_PY" -m voice_transcription.cli.save_voice "$@"

@@ -30,7 +30,7 @@ yarn-error.log*
 # finalized transcript is committed separately as wiki/sessions/session-NN-transcript.md.
 wiki/sessions/.live/
 
-# live-co-dm tool virtualenv
-.claude/skills/live-co-dm/.venv/
+# voice-transcription tool virtualenv
+voice-transcription/.venv/
 .agents/
 

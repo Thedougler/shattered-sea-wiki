@@ -7,14 +7,14 @@
 # wiki/sessions/.live/session-NN/ (gitignored scratch). After the game, run
 # ./finalize_session.sh to produce the canonical transcript.
 #
-# All flags are passed straight through to transcribe_session.py:
+# All flags are passed straight through:
 #   --session N    session number (auto-picks next if omitted)
 #   --speakers N   physical people at the table — always set it; biggest accuracy win
 #   --threshold F  voice-ID cosine cutoff (default 0.5)
 
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$HERE/.claude/skills/live-co-dm/scripts/_bootstrap.sh"
+source "$HERE/voice-transcription/_bootstrap.sh"
 
-cd "$REPO_ROOT"   # script writes to wiki/sessions/.live relative to cwd
-exec "$VENV_PY" "$SCRIPT_DIR/transcribe_session.py" "$@"
+cd "$REPO_ROOT"
+exec "$VENV_PY" -m voice_transcription.cli.transcribe "$@"

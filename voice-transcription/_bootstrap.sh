@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Shared bootstrap for the human-facing live-co-dm wrappers
+# Shared bootstrap for the voice-transcription wrappers
 # (save_voice.sh / transcribe_session.sh / finalize_session.sh).
 #
 # Ensures the venv + dependencies exist, loads HF_TOKEN from .env, and leaves the
@@ -10,32 +10,27 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"          # .../live-co-dm/scripts
-SKILL_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"                            # .../live-co-dm
-REPO_ROOT="$(cd "$SKILL_DIR/../../.." && pwd)"                       # repo root
-VENV_DIR="$SKILL_DIR/.venv"
-REQUIREMENTS="$SKILL_DIR/requirements.txt"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"            # .../voice-transcription
+REPO_ROOT="$(cd "$PROJECT_DIR/.." && pwd)"                              # repo root
+VENV_DIR="$PROJECT_DIR/.venv"
+PYPROJECT="$PROJECT_DIR/pyproject.toml"
 DEPS_STAMP="$VENV_DIR/.deps-installed"
 VENV_PY="$VENV_DIR/bin/python3"
 
-log() { printf '\033[1;36m[live-co-dm]\033[0m %s\n' "$*" >&2; }
-die() { printf '\033[1;31m[live-co-dm] error:\033[0m %s\n' "$*" >&2; exit 1; }
+log() { printf '\033[1;36m[voice-transcription]\033[0m %s\n' "$*" >&2; }
+die() { printf '\033[1;31m[voice-transcription] error:\033[0m %s\n' "$*" >&2; exit 1; }
 
 # --- 1. Python -------------------------------------------------------------
-# parakeet-mlx (and the rest of the ML stack) needs Python >= 3.11. The bare
-# `python3` on this machine is often an older pyenv/system shim (e.g. 3.9), so
-# pick the first interpreter that actually meets the floor instead of trusting
-# whatever `python3` happens to resolve to.
 MIN_MAJOR=3
 MIN_MINOR=11
 
-py_ok() {  # $1 = interpreter; succeeds if it exists, imports venv, and is new enough
+py_ok() {
   local py="$1"
   command -v "$py" >/dev/null 2>&1 || return 1
   "$py" - "$MIN_MAJOR" "$MIN_MINOR" <<'PY' >/dev/null 2>&1 || return 1
 import sys
 need = (int(sys.argv[1]), int(sys.argv[2]))
-import venv  # noqa: F401  (ensure the venv module is available)
+import venv  # noqa: F401
 sys.exit(0 if sys.version_info[:2] >= need else 1)
 PY
 }
@@ -48,13 +43,11 @@ for cand in \
   if py_ok "$cand"; then PYTHON="$cand"; break; fi
 done
 
-[[ -n "$PYTHON" ]] || die "No Python >= ${MIN_MAJOR}.${MIN_MINOR} found (required by parakeet-mlx). Install one, e.g. 'brew install python@3.11', then re-run. See .claude/skills/live-co-dm/references/setup.md."
+[[ -n "$PYTHON" ]] || die "No Python >= ${MIN_MAJOR}.${MIN_MINOR} found (required by parakeet-mlx). Install one, e.g. 'brew install python@3.11', then re-run."
 
 # --- 2. Virtualenv ---------------------------------------------------------
-# Rebuild the venv when it is missing, broken, or was created with a too-old
-# interpreter (the common failure: a stale 3.9 venv from before this fix).
 venv_too_old() {
-  [[ -x "$VENV_PY" ]] || return 0   # missing/broken -> needs (re)build
+  [[ -x "$VENV_PY" ]] || return 0
   ! "$VENV_PY" - "$MIN_MAJOR" "$MIN_MINOR" <<'PY' >/dev/null 2>&1
 import sys
 sys.exit(0 if sys.version_info[:2] >= (int(sys.argv[1]), int(sys.argv[2])) else 1)
@@ -71,11 +64,11 @@ if venv_too_old; then
   "$PYTHON" -m venv "$VENV_DIR"
 fi
 
-# --- 3. Dependencies (reinstall only when requirements.txt changes) --------
-if [[ ! -f "$DEPS_STAMP" || "$REQUIREMENTS" -nt "$DEPS_STAMP" ]]; then
-  log "Installing dependencies from requirements.txt (first run downloads model weights later) ..."
+# --- 3. Dependencies (reinstall only when pyproject.toml changes) ----------
+if [[ ! -f "$DEPS_STAMP" || "$PYPROJECT" -nt "$DEPS_STAMP" ]]; then
+  log "Installing dependencies from pyproject.toml (first run downloads model weights later) ..."
   "$VENV_PY" -m pip install --quiet --upgrade pip
-  "$VENV_PY" -m pip install --quiet -r "$REQUIREMENTS"
+  "$VENV_PY" -m pip install --quiet -e "$PROJECT_DIR"
   touch "$DEPS_STAMP"
 fi
 
@@ -86,7 +79,7 @@ if [[ -z "${HF_TOKEN:-}" && -f "$REPO_ROOT/.env" ]]; then
 fi
 
 if [[ -z "${HF_TOKEN:-}" || "${HF_TOKEN}" == "..." ]]; then
-  die "HF_TOKEN is not set. Add 'HF_TOKEN=hf_...' to $REPO_ROOT/.env (a free Hugging Face read token), or export it in your shell. See .claude/skills/live-co-dm/references/setup.md."
+  die "HF_TOKEN is not set. Add 'HF_TOKEN=hf_...' to $REPO_ROOT/.env (a free Hugging Face read token), or export it in your shell."
 fi
 
-export VENV_PY SCRIPT_DIR SKILL_DIR REPO_ROOT
+export VENV_PY PROJECT_DIR REPO_ROOT

@@ -516,3 +516,5 @@ sources: []
 - 2026-05-30 | ingest | ashwall-islands.md — added DM design notes (late-campaign intent, Selune cult lever, arclight-phoenix confirmation)
 - 2026-05-30 | archive | central-strait-dm-notes.md — already fully captured in wiki page
 - 2026-05-30 | archive | feats-stub.md, shattered-sea-map-leaflet.md, private-dm-index.md — no actionable content
+- 2026-05-30 | ingest | waveservant-shrine-facility.md — new facility rules page (Sanctuary, Tier 1 bastion)
+- 2026-05-30 | archive | miras-blade, stripes-bitemore, tail-index, guides-index, mic-test transcript — already captured or no content

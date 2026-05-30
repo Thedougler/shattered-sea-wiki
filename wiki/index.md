@@ -533,6 +533,7 @@ sources: []
 - [[optimization-meta-2024|Optimization Meta (2024 D&D)]] — DM-facing reference for 2024 5e balance and build optimization — based on RPGBOT meta analysis (December 2025). Subject to change as new supplements release.
 - [[provisions-store|Provisions Store]] — Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
 - [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
+- [[waveservant-shrine-facility|Waveservant Shrine (Facility)]] — Tier 1 bastion facility — Sanctuary adapted for the ship. Grants a weekly Healing Word charm and supports crafting of holy symbols or druidic focuses.
 
 ## rules/backgrounds
 - [[acolyte|Acolyte]] — D&D 5e 2024 Acolyte background — Intelligence, Wisdom, Charisma; Magic Initiate (Cleric) feat; Insight and Religion proficiencies.

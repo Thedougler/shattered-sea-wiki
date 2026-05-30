@@ -15,6 +15,7 @@ audience: dm
 confidence_level: medium
 sources:
 - Xanathar's Guide to Everything (2014)
+status: unknown
 ---
 
 # Way of the Kensei

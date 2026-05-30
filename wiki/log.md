@@ -506,3 +506,9 @@ sources: []
 - 2026-05-30 | ingest | rules/subclasses/way-of-the-kensei — new subclass reference (Crissdalynn Khinriss)
 - 2026-05-30 | ingest | rules/subclasses/way-of-the-open-hand — new subclass reference
 - 2026-05-30 | ingest | rules/subclasses/wild-magic-sorcery — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/winter-walker — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/index.md — new subclasses index
+- 2026-05-30 | archive | Inbox/places/Doldrums.md — wiki version is more recent, no update
+- 2026-05-30 | ingest | calven.md — expanded from stub; Calven Island (city-island containing Calveno)
+- 2026-05-30 | ingest | acqua-nera.md — expanded from stub; hull conversion yard, outer harbour
+- 2026-05-30 | ingest | al-fondale.md — expanded from stub; Le Paludi tavern with Warren access

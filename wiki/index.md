@@ -123,7 +123,7 @@ sources: []
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
 - [[aruhe|Aruhe]] — Deserted reef island near the Verdant Teeth on the Midchain's inner edge; the Grung patrol its reefs but refuse to land, and the drainage runs faintly acid from something old dissolving below the terraces.
-- [[calven|Calven]] — [stub] Stub — referenced in [[aldenmere]] as a regional comparison. Possibly the broader region that contains Calveno.
+- [[calven|Calven]] — The oldest settled island in the Crown Islands — low-lying marshland and tidal flats beneath a Tessarine-dominated commercial city, with a Rattkin population beneath it older than either colonial power.
 - [[central-strait|The Central Strait]] — The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end.
 - [[crown-islands|The Crown Islands]] — Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
 - [[doldrums|The Doldrums]] — A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels.
@@ -190,7 +190,7 @@ sources: []
 - [[shattered-sea|The Shattered Sea]] — The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda.
 
 ## entities/places/settlements
-- [[al-fondale|Al Fondale]] — [stub] Tavern in Le Paludi, Calveno — run by Bice and Aldo Riva for twenty-two years. Has a Warren entrance in the cellar, arranged by Nona Black-Jaw.
+- [[al-fondale|Al Fondale]] — A cozy Le Paludi tavern in the oldest canal zone of Calveno — good food, cheap wine, four rooms above, run by an old couple who have been here long enough to stop advertising.
 - [[calveno|Calveno]] — The oldest commercial centre in the Scatter — canal city, seven merchant houses, Tessarine debt leverage, Rattkin Tangle beneath Le Paludi. Party arrived Session 03; ship in dry dock as Uncertainty.
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
@@ -202,7 +202,7 @@ sources: []
 - [[overland-track|The Overland Track]] — The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls.
 
 ## entities/places/settlements/calveno
-- [[acqua-nera|Acqua-Nera]] — [stub] Stub — Calveno yard operated by [[dario|Dario]]; alternative to Carpenters' Slip for hull work; does re-identification for money and certainty, no referral required.
+- [[acqua-nera|Acqua Nera]] — A hull conversion and repainting yard in Calveno's outer harbour, southwest approach — specialises in prize conversions and vessel re-identification, no Canal Commission filing on quiet work.
 - [[cabinet-of-morsani|The Cabinet of Morsani]] — [stub] Stub — Calveno magic shop and curiosity cabinet in the Velo district; run by [[prospero-morsani|Prospero Morsani]]; magic items, stories, and black-market trade.
 - [[calveno-districts|Calveno — District Layout]] — [stub] Stub — District navigation reference for Calveno: Mercatura (public deals), Le Paludi (quiet practical), Velo (vice/trade), Arsenal edge (ship scale), La Vasca/Basin (dockyard).
 - [[calveno-improv|Calveno — Improv Reference]] — [stub] Stub — Improv reference for Calveno: name banks, NPC quick-build, location naming, how Calvenans talk.
@@ -618,6 +618,7 @@ sources: []
 - [[way-of-the-kensei|Way of the Kensei]] — Monk subclass (XGtE 2014) — weapons as extensions of the body; Kensei weapons, Agile Parry (+2 AC), Sharpen the Blade (+1/2/3 to attacks/damage), Unerring Accuracy; Crissdalynn Khinriss uses this subclass.
 - [[way-of-the-open-hand|Way of the Open Hand]] — Monk subclass (PHB 2024) — the classic Monk; Open Hand Technique adds push/prone/reaction-strip to Flurry of Blows; Fleet Step for free Dash; Quivering Palm 10d12 finisher at L11.
 - [[wild-magic-sorcery|Wild Magic Sorcery]] — Sorcerer subclass (PHB 2024) — chaotic magic; Tides of Chaos for Advantage, Bend Luck for ally/enemy roll manipulation (2 SP), Controlled Chaos doubles surge table results; lacks a prepared spell list.
+- [[winter-walker|Winter Walker]] — Ranger subclass (Forgotten Realms Heroes of Faerun 2024) — cold damage specialist; Polar Strikes adds WIS to cold rolls; Frozen Haunt at L11 grants cold immunity and partial incorporeality.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

@@ -436,6 +436,8 @@ sources: []
 - [[whip-shark-eggs|Whip Shark Eggs (×3, fertilized)]] — Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 - [[wind-callers-boom|Wind Caller's Boom]] — A mainmast boom installation that forces favorable wind for 4 hours once per day — useless in a storm or the Doldrums.
 - [[wound-closure|Wound Closure]] — Professional cleaning and suturing of open wounds — 2 sp at an apothecary.
+- [[wound-dressing|Wound Dressing]] — Salt-treated linen bandages and wound cloths — extends what a healer's kit can do.
+- [[writing-supplies|Writing Supplies]] — Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official.
 
 ## entities/vehicles
 - [[brass-cat|The *Brass Cat*]] — Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support.

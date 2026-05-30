@@ -28,42 +28,44 @@ class VoiceProfile:
 
     def to_dict(self) -> dict:
         d = {
-            'character': self.character,
-            'player': self.player,
-            'embedding': base64.b64encode(self.embedding.tobytes()).decode(),
-            'embedding_shape': list(self.embedding.shape),
-            'embedding_dtype': str(self.embedding.dtype),
-            'sample_count': self.sample_count,
-            'created_at': self.created_at,
-            'updated_at': self.updated_at,
-            'spatial_sample_count': self.spatial_sample_count,
+            "character": self.character,
+            "player": self.player,
+            "embedding": base64.b64encode(self.embedding.tobytes()).decode(),
+            "embedding_shape": list(self.embedding.shape),
+            "embedding_dtype": str(self.embedding.dtype),
+            "sample_count": self.sample_count,
+            "created_at": self.created_at,
+            "updated_at": self.updated_at,
+            "spatial_sample_count": self.spatial_sample_count,
         }
         if self.spatial_fingerprint is not None:
-            d['spatial_fingerprint'] = self.spatial_fingerprint.tolist()
+            d["spatial_fingerprint"] = self.spatial_fingerprint.tolist()
         else:
-            d['spatial_fingerprint'] = None
+            d["spatial_fingerprint"] = None
         if self.spatial_m2 is not None:
-            d['spatial_m2'] = self.spatial_m2.tolist()
+            d["spatial_m2"] = self.spatial_m2.tolist()
         else:
-            d['spatial_m2'] = None
+            d["spatial_m2"] = None
         return d
 
     @classmethod
-    def from_dict(cls, d: dict) -> 'VoiceProfile':
-        raw = base64.b64decode(d['embedding'])
-        dtype = np.dtype(d.get('embedding_dtype', 'float32'))
-        shape = tuple(d.get('embedding_shape', [-1]))
+    def from_dict(cls, d: dict) -> "VoiceProfile":
+        raw = base64.b64decode(d["embedding"])
+        dtype = np.dtype(d.get("embedding_dtype", "float32"))
+        shape = tuple(d.get("embedding_shape", [-1]))
         embedding = np.frombuffer(raw, dtype=dtype).reshape(shape)
 
-        fp_raw = d.get('spatial_fingerprint')
-        m2_raw = d.get('spatial_m2')
-        spatial_n = d.get('spatial_sample_count', 0)
+        fp_raw = d.get("spatial_fingerprint")
+        m2_raw = d.get("spatial_m2")
+        spatial_n = d.get("spatial_sample_count", 0)
 
         if fp_raw is not None:
             spatial_fp = np.array(fp_raw, dtype=np.float64)
-            spatial_m2 = np.array(m2_raw, dtype=np.float64) if m2_raw is not None else None
-        elif d.get('spatial_signature') is not None:
-            sig = d['spatial_signature']
+            spatial_m2 = (
+                np.array(m2_raw, dtype=np.float64) if m2_raw is not None else None
+            )
+        elif d.get("spatial_signature") is not None:
+            sig = d["spatial_signature"]
             rest = (1.0 - sig) / 2.0
             spatial_fp = np.array([sig, rest, rest], dtype=np.float64)
             spatial_m2 = None
@@ -72,12 +74,12 @@ class VoiceProfile:
             spatial_m2 = None
 
         return cls(
-            character=d['character'],
-            player=d['player'],
+            character=d["character"],
+            player=d["player"],
             embedding=embedding,
-            sample_count=d.get('sample_count', 1),
-            created_at=d.get('created_at', 0),
-            updated_at=d.get('updated_at', 0),
+            sample_count=d.get("sample_count", 1),
+            created_at=d.get("created_at", 0),
+            updated_at=d.get("updated_at", 0),
             spatial_fingerprint=spatial_fp,
             spatial_m2=spatial_m2,
             spatial_sample_count=spatial_n,
@@ -103,8 +105,8 @@ class ProfileStore:
         self.directory.mkdir(parents=True, exist_ok=True)
 
     def _path_for(self, character: str) -> Path:
-        safe = character.lower().replace(' ', '_')
-        return self.directory / f'{safe}.json'
+        safe = character.lower().replace(" ", "_")
+        return self.directory / f"{safe}.json"
 
     def save(self, profile: VoiceProfile):
         profile.updated_at = time.time()
@@ -119,7 +121,7 @@ class ProfileStore:
 
     def load_all(self) -> list[VoiceProfile]:
         profiles = []
-        for path in self.directory.glob('*.json'):
+        for path in self.directory.glob("*.json"):
             try:
                 profiles.append(VoiceProfile.from_dict(json.loads(path.read_text())))
             except (json.JSONDecodeError, KeyError):
@@ -136,7 +138,7 @@ class ProfileStore:
     def update_embedding(self, character: str, new_embedding: np.ndarray):
         profile = self.load(character)
         if profile is None:
-            raise ValueError(f'No profile for {character}')
+            raise ValueError(f"No profile for {character}")
         n = profile.sample_count
         profile.embedding = (profile.embedding * n + new_embedding) / (n + 1)
         profile.sample_count = n + 1

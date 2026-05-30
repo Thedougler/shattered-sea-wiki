@@ -1,4 +1,3 @@
-import math
 from dataclasses import dataclass
 
 import numpy as np
@@ -29,10 +28,9 @@ class SpatialAnalyzer:
 
     def analyze(self, chunk: np.ndarray) -> SpatialAnalysis:
         n_channels = chunk.shape[1]
-        channel_rms = np.array([
-            float(np.sqrt(np.mean(chunk[:, ch] ** 2)))
-            for ch in range(n_channels)
-        ])
+        channel_rms = np.array(
+            [float(np.sqrt(np.mean(chunk[:, ch] ** 2))) for ch in range(n_channels)]
+        )
         total_rms = channel_rms.sum()
         if total_rms < 1e-10:
             fingerprint = np.full(n_channels, 1.0 / n_channels)
@@ -42,8 +40,8 @@ class SpatialAnalyzer:
         dm_audio = np.mean(chunk[:, self.dm_channels], axis=1)
         player_audio = np.mean(chunk[:, self.player_channels], axis=1)
 
-        dm_rms = float(np.sqrt(np.mean(dm_audio ** 2)))
-        player_rms = float(np.sqrt(np.mean(player_audio ** 2)))
+        dm_rms = float(np.sqrt(np.mean(dm_audio**2)))
+        player_rms = float(np.sqrt(np.mean(player_audio**2)))
 
         dm_ratio = dm_rms / (dm_rms + player_rms + 1e-10)
         is_speech = max(dm_rms, player_rms) > self._silence_threshold

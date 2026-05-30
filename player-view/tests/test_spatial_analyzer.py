@@ -1,6 +1,5 @@
 import numpy as np
 import pytest
-
 from player_view.services.spatial import SpatialAnalyzer
 
 
@@ -74,7 +73,9 @@ class TestBestChannel:
         player = np.random.randn(len(dm)).astype(np.float32) * 0.01
         chunk = _make_chunk(dm, player)
         result = analyzer.analyze(chunk)
-        np.testing.assert_array_equal(result.best_channel_audio, result.dm_channel_audio)
+        np.testing.assert_array_equal(
+            result.best_channel_audio, result.dm_channel_audio
+        )
 
     def test_best_channel_is_player_when_player_louder(self):
         analyzer = SpatialAnalyzer()
@@ -82,7 +83,9 @@ class TestBestChannel:
         player = _sine(440, 0.1, amplitude=0.5)
         chunk = _make_chunk(dm, player)
         result = analyzer.analyze(chunk)
-        np.testing.assert_array_equal(result.best_channel_audio, result.player_channel_audio)
+        np.testing.assert_array_equal(
+            result.best_channel_audio, result.player_channel_audio
+        )
 
     def test_player_channels_downmixed_to_mono(self):
         analyzer = SpatialAnalyzer()
@@ -171,7 +174,7 @@ class TestFingerprint:
         chunk = np.zeros((1600, 3), dtype=np.float32)
         result = analyzer.analyze(chunk)
         np.testing.assert_array_almost_equal(
-            result.fingerprint, [1/3, 1/3, 1/3], decimal=5
+            result.fingerprint, [1 / 3, 1 / 3, 1 / 3], decimal=5
         )
 
 

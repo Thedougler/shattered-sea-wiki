@@ -6,14 +6,14 @@ from nicegui import ui
 
 
 def _normalize(word: str) -> str:
-    return re.sub(r"[^a-z0-9']", '', word.lower())
+    return re.sub(r"[^a-z0-9']", "", word.lower())
 
 
 class Teleprompter:
     LOOKAHEAD = 5
     TARGET_WPM = 130
 
-    def __init__(self, script_text: str = ''):
+    def __init__(self, script_text: str = ""):
         self._script_words: list[str] = script_text.split() if script_text else []
         self._matched_pos = 0
         self._display_cursor = 0
@@ -23,24 +23,24 @@ class Teleprompter:
         self._script_element: ui.html | None = None
         self._raw_element: ui.html | None = None
 
-    def render_script(self, container_style: str = ''):
-        outer = ui.column().classes('w-full scroll-hidden').style(container_style)
+    def render_script(self, container_style: str = ""):
+        outer = ui.column().classes("w-full scroll-hidden").style(container_style)
         with outer:
-            self._script_element = ui.html('').classes('teleprompter-text')
+            self._script_element = ui.html("").classes("teleprompter-text")
             self._refresh()
-            ui.element('div').style('height: 50vh')
+            ui.element("div").style("height: 50vh")
         return outer
 
-    def render_raw_output(self, container_style: str = ''):
-        container = ui.column().classes('w-full').style(container_style)
+    def render_raw_output(self, container_style: str = ""):
+        container = ui.column().classes("w-full").style(container_style)
         with container:
-            self._raw_element = ui.html('').classes('raw-output')
+            self._raw_element = ui.html("").classes("raw-output")
         return container
 
     def update_from_asr(self, finalized_text: str, draft_text: str):
         finalized = finalized_text.split() if finalized_text else []
 
-        for word in finalized[self._prev_finalized:]:
+        for word in finalized[self._prev_finalized :]:
             idx = self._match_word(word, self._matched_pos)
             if idx >= 0:
                 self._matched_pos = idx + 1
@@ -65,7 +65,7 @@ class Teleprompter:
         self._last_tick = now
         self._refresh()
 
-    def update_raw(self, finalized: str = '', draft: str = ''):
+    def update_raw(self, finalized: str = "", draft: str = ""):
         if not self._raw_element:
             return
         parts = []
@@ -73,7 +73,7 @@ class Teleprompter:
             parts.append(f'<span class="finalized">{escape(finalized)}</span>')
         if draft:
             parts.append(f' <span class="draft-text">{escape(draft)}</span>')
-        self._raw_element.content = ''.join(parts) or '&nbsp;'
+        self._raw_element.content = "".join(parts) or "&nbsp;"
 
     @property
     def word_count(self) -> int:
@@ -110,7 +110,7 @@ class Teleprompter:
         self._last_tick = 0.0
         self._refresh()
         if self._raw_element:
-            self._raw_element.content = ''
+            self._raw_element.content = ""
 
     def _match_word(self, asr_word: str, start: int) -> int:
         norm = _normalize(asr_word)
@@ -138,26 +138,26 @@ class Teleprompter:
 
         for i, word in enumerate(self._script_words):
             if i < self._display_cursor:
-                cls = 'spoken'
+                cls = "spoken"
             elif i == self._display_cursor and not cursor_set:
-                cls = 'current'
+                cls = "current"
                 parts.append(
                     f'<span id="tw-cursor" class="{cls}">{escape(word)} </span>'
                 )
                 cursor_set = True
                 continue
             else:
-                cls = ''
+                cls = ""
             parts.append(f'<span class="{cls}">{escape(word)} </span>')
 
-        self._script_element.content = ''.join(parts)
+        self._script_element.content = "".join(parts)
 
         if cursor_set:
-            ui.run_javascript('''(() => {
+            ui.run_javascript("""(() => {
                 const el = document.getElementById("tw-cursor");
                 if (!el) return;
                 const p = el.closest('.scroll-hidden');
                 if (!p) { el.scrollIntoView({behavior:"smooth",block:"center"}); return; }
                 const y = el.offsetTop - p.clientHeight * 0.35;
                 p.scrollTo({top: Math.max(0, y), behavior: "smooth"});
-            })()''')
+            })()""")

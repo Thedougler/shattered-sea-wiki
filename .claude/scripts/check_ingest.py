@@ -23,13 +23,13 @@ suppress it. Use --count to print just the number of pending sources to stdout.
 from __future__ import annotations
 
 import argparse
-from collections import defaultdict
-from dataclasses import dataclass
 import filecmp
 import hashlib
 import os
 import subprocess
 import sys
+from collections import defaultdict
+from dataclasses import dataclass
 
 from wiki_common import REPO_ROOT, rel
 

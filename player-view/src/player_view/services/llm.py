@@ -45,9 +45,9 @@ like a game show host who's rooting for the contestant.\
 
 class LLMService:
     def __init__(self):
-        self.api_key = os.getenv('OPENROUTER_API_KEY', '')
-        self.model = os.getenv('OPENROUTER_MODEL', 'deepseek/deepseek-v4-flash')
-        self.base_url = os.getenv('OPENROUTER_BASE_URL', 'https://openrouter.ai/api/v1')
+        self.api_key = os.getenv("OPENROUTER_API_KEY", "")
+        self.model = os.getenv("OPENROUTER_MODEL", "deepseek/deepseek-v4-flash")
+        self.base_url = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
         self._client: httpx.AsyncClient | None = None
 
     @property
@@ -59,8 +59,8 @@ class LLMService:
             self._client = httpx.AsyncClient(
                 base_url=self.base_url,
                 headers={
-                    'Authorization': f'Bearer {self.api_key}',
-                    'Content-Type': 'application/json',
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json",
                 },
                 timeout=10.0,
             )
@@ -72,22 +72,28 @@ class LLMService:
 
         client = self._get_client()
         try:
-            resp = await client.post('/chat/completions', json={
-                'model': self.model,
-                'messages': [
-                    {'role': 'system', 'content': SYSTEM_PROMPT},
-                    {'role': 'user', 'content': (
-                        f'Level {level}. Previous chunk the actor just read:\n'
-                        f'"{previous_chunk}"\n\n'
-                        f'Generate the next ~65 words, increasing difficulty.'
-                    )},
-                ],
-                'max_tokens': 200,
-                'temperature': 0.9,
-            })
+            resp = await client.post(
+                "/chat/completions",
+                json={
+                    "model": self.model,
+                    "messages": [
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {
+                            "role": "user",
+                            "content": (
+                                f"Level {level}. Previous chunk the actor just read:\n"
+                                f'"{previous_chunk}"\n\n'
+                                f"Generate the next ~65 words, increasing difficulty."
+                            ),
+                        },
+                    ],
+                    "max_tokens": 200,
+                    "temperature": 0.9,
+                },
+            )
             resp.raise_for_status()
             data = resp.json()
-            return data['choices'][0]['message']['content'].strip()
+            return data["choices"][0]["message"]["content"].strip()
         except Exception:
             return FALLBACK_SCRIPT
 

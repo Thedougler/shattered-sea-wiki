@@ -1,10 +1,10 @@
 from nicegui import ui
 
-BACKGROUND = '#111118'
-TEXT_COLOR = '#e8e6e3'
-ACCENT = '#c9a84c'
+BACKGROUND = "#111118"
+TEXT_COLOR = "#e8e6e3"
+ACCENT = "#c9a84c"
 
-DISTANCE_CSS = '''
+DISTANCE_CSS = """
 body {
     background-color: #111118 !important;
     color: #e8e6e3;
@@ -241,9 +241,9 @@ body {
     color: #888;
     font-family: 'SF Mono', 'Fira Code', monospace;
 }
-'''
+"""
 
 
 def apply_theme():
     ui.add_css(DISTANCE_CSS)
-    ui.query('body').style(f'background-color: {BACKGROUND}')
+    ui.query("body").style(f"background-color: {BACKGROUND}")

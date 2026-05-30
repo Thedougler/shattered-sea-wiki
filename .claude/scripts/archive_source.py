@@ -31,7 +31,9 @@ TYPE_TO_SUBDIR = [
     ("homebrew", "homebrew"),
     ("asset", "assets"),
 ]
-DEFAULT_SUBDIR = "reference"  # factions, situations, locations, lore, species, research, handouts
+DEFAULT_SUBDIR = (
+    "reference"  # factions, situations, locations, lore, species, research, handouts
+)
 
 
 def subdir_for(type_str: str) -> str:
@@ -43,8 +45,9 @@ def subdir_for(type_str: str) -> str:
 
 
 def git(*args, check=True):
-    return subprocess.run(["git", "-C", REPO_ROOT, *args], check=check,
-                          capture_output=True, text=True)
+    return subprocess.run(
+        ["git", "-C", REPO_ROOT, *args], check=check, capture_output=True, text=True
+    )
 
 
 def main(argv) -> int:

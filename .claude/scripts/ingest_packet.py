@@ -51,11 +51,51 @@ LIST_LINK_FIELDS = (
 
 # Common words that start a sentence and would otherwise look like proper nouns.
 STOPWORDS = {
-    "The", "A", "An", "This", "That", "These", "Those", "He", "She", "It",
-    "They", "We", "You", "I", "His", "Her", "Its", "Their", "Our", "Not",
-    "No", "When", "Where", "What", "Who", "Why", "How", "If", "And", "But",
-    "Or", "So", "For", "Of", "In", "On", "At", "To", "From", "With", "By",
-    "DM", "PC", "NPC", "Stub",
+    "The",
+    "A",
+    "An",
+    "This",
+    "That",
+    "These",
+    "Those",
+    "He",
+    "She",
+    "It",
+    "They",
+    "We",
+    "You",
+    "I",
+    "His",
+    "Her",
+    "Its",
+    "Their",
+    "Our",
+    "Not",
+    "No",
+    "When",
+    "Where",
+    "What",
+    "Who",
+    "Why",
+    "How",
+    "If",
+    "And",
+    "But",
+    "Or",
+    "So",
+    "For",
+    "Of",
+    "In",
+    "On",
+    "At",
+    "To",
+    "From",
+    "With",
+    "By",
+    "DM",
+    "PC",
+    "NPC",
+    "Stub",
 }
 
 
@@ -103,7 +143,11 @@ def frontmatter_targets(fm_lines: list[str]) -> list[str]:
         val = fields.get(key, "")
         out.extend(wikilink_targets(val))
         bare = val.strip().strip("\"'")
-        if bare and "[[" not in val and not bare.lower().startswith(("ungoverned", "none")):
+        if (
+            bare
+            and "[[" not in val
+            and not bare.lower().startswith(("ungoverned", "none"))
+        ):
             out.append(bare)
     # List fields span multiple indented lines; scan the raw block for links + bare items.
     raw = "\n".join(fm_lines)
@@ -115,7 +159,10 @@ def frontmatter_targets(fm_lines: list[str]) -> list[str]:
                 out.extend(wikilink_targets(item))
                 m = re.search(r"target:\s*(.+)$", item)
                 if m:
-                    out.extend(wikilink_targets(m.group(1)) or [m.group(1).strip().strip("\"'")])
+                    out.extend(
+                        wikilink_targets(m.group(1))
+                        or [m.group(1).strip().strip("\"'")]
+                    )
                 elif item and "[[" not in item and ":" not in item:
                     out.append(item.strip("\"'"))
     return out
@@ -196,8 +243,9 @@ def packet_for(source: str, by_slug: dict, title_to_slug: dict) -> str:
 
 
 def main(argv) -> int:
-    ap = argparse.ArgumentParser(description=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     ap.add_argument("sources", nargs="+", help="source file(s) to build packets for")
     args = ap.parse_args(argv)
 

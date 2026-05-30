@@ -7,13 +7,13 @@ from parakeet_mlx import from_pretrained
 
 @dataclass
 class ASRResult:
-    text: str = ''
-    finalized_text: str = ''
-    draft_text: str = ''
+    text: str = ""
+    finalized_text: str = ""
+    draft_text: str = ""
 
 
 class ASRService:
-    MODEL_ID = 'mlx-community/parakeet-tdt-0.6b-v3'
+    MODEL_ID = "mlx-community/parakeet-tdt-0.6b-v3"
 
     def __init__(self):
         self.model = None
@@ -58,8 +58,8 @@ class ASRService:
             return
         for chunk in chunks:
             self._streamer.add_audio(mx.array(chunk))
-        finalized = ' '.join(t.text for t in self._streamer.finalized_tokens)
-        draft = ' '.join(t.text for t in self._streamer.draft_tokens)
+        finalized = " ".join(t.text for t in self._streamer.finalized_tokens)
+        draft = " ".join(t.text for t in self._streamer.draft_tokens)
         self.latest_result = ASRResult(
             text=self._streamer.result.text,
             finalized_text=finalized,

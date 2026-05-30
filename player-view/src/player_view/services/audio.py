@@ -8,7 +8,12 @@ import sounddevice as sd
 class AudioService:
     SAMPLE_RATE = 16000
 
-    def __init__(self, chunk_duration: float = 1.0, device: int | str | None = None, channels: int = 1):
+    def __init__(
+        self,
+        chunk_duration: float = 1.0,
+        device: int | str | None = None,
+        channels: int = 1,
+    ):
         self.chunk_duration = chunk_duration
         self.chunk_size = int(self.SAMPLE_RATE * chunk_duration)
         self.device = device
@@ -53,7 +58,7 @@ class AudioService:
         self._stream = sd.InputStream(
             samplerate=self.SAMPLE_RATE,
             channels=self.channels,
-            dtype='float32',
+            dtype="float32",
             callback=self._callback,
             device=self.device,
         )
@@ -87,7 +92,7 @@ class AudioService:
         levels = []
         for ch in range(self.channels):
             col = indata[:, ch]
-            rms = float(np.sqrt(np.mean(col ** 2)))
+            rms = float(np.sqrt(np.mean(col**2)))
             db = 20 * math.log10(max(rms, 1e-10))
             levels.append(max(0.0, min(1.0, (db + 60) / 50)))
         self._rms_levels = levels

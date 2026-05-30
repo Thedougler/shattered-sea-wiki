@@ -10,17 +10,17 @@ load_dotenv(find_dotenv(usecwd=True))
 
 
 class DiarizationService:
-    EMBEDDING_MODEL = 'pyannote/embedding'
+    EMBEDDING_MODEL = "pyannote/embedding"
     SAMPLE_RATE = 16000
 
     def __init__(self):
         self._embedding_model: PretrainedSpeakerEmbedding | None = None
 
     def init(self):
-        token = os.environ.get('HF_TOKEN')
+        token = os.environ.get("HF_TOKEN")
         self._embedding_model = PretrainedSpeakerEmbedding(
             self.EMBEDDING_MODEL,
-            device=torch.device('cpu'),
+            device=torch.device("cpu"),
             token=token,
         )
 
@@ -33,7 +33,7 @@ class DiarizationService:
         dist = cdist(
             emb_a.reshape(1, -1),
             emb_b.reshape(1, -1),
-            metric='cosine',
+            metric="cosine",
         )[0, 0]
         return 1.0 - dist
 
@@ -53,7 +53,9 @@ class DiarizationService:
         self,
         embedding: np.ndarray,
         fingerprint: np.ndarray,
-        profiles: list[tuple[str, np.ndarray, np.ndarray | None, np.ndarray | None, int]],
+        profiles: list[
+            tuple[str, np.ndarray, np.ndarray | None, np.ndarray | None, int]
+        ],
         base_weight: float = 0.2,
         ramp_samples: int = 5,
         channel_weights: np.ndarray | None = None,
@@ -73,10 +75,12 @@ class DiarizationService:
                 diff = prof_fp - fingerprint
                 if channel_weights is not None:
                     diff = diff * channel_weights
-                spatial_sim = 1.0 - float(np.sqrt(np.mean(diff ** 2))) / 0.5
+                spatial_sim = 1.0 - float(np.sqrt(np.mean(diff**2))) / 0.5
                 spatial_sim = max(0.0, min(1.0, spatial_sim))
 
-                score = (1 - effective_weight) * cosine_sim + effective_weight * spatial_sim
+                score = (
+                    1 - effective_weight
+                ) * cosine_sim + effective_weight * spatial_sim
             else:
                 score = cosine_sim
             results.append((name, score))

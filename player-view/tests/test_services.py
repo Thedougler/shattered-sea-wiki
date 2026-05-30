@@ -1,9 +1,9 @@
 import time
+
 import numpy as np
 import pytest
-
-from player_view.services.audio import AudioService
 from player_view.services.asr import ASRService
+from player_view.services.audio import AudioService
 from player_view.services.diarization import DiarizationService
 
 
@@ -30,7 +30,7 @@ class TestAudioService:
 
 
 class TestASRService:
-    @pytest.fixture(scope='class')
+    @pytest.fixture(scope="class")
     def asr(self):
         svc = ASRService()
         svc.init()
@@ -60,13 +60,13 @@ class TestASRService:
         asr.start_streaming(on_result=lambda r: results.append(r))
         chunk_size = 8000
         for i in range(0, len(audio), chunk_size):
-            asr.feed_audio(audio[i:i + chunk_size])
+            asr.feed_audio(audio[i : i + chunk_size])
         final = asr.stop_streaming()
         assert final is not None
 
 
 class TestDiarizationService:
-    @pytest.fixture(scope='class')
+    @pytest.fixture(scope="class")
     def diarization(self):
         svc = DiarizationService()
         svc.init()
@@ -95,10 +95,10 @@ class TestDiarizationService:
     def test_rank_against(self, diarization):
         target = np.random.randn(192).astype(np.float32)
         profiles = [
-            ('Alice', np.random.randn(192).astype(np.float32)),
-            ('Bob', target * 1.0),
-            ('Charlie', np.random.randn(192).astype(np.float32)),
+            ("Alice", np.random.randn(192).astype(np.float32)),
+            ("Bob", target * 1.0),
+            ("Charlie", np.random.randn(192).astype(np.float32)),
         ]
         ranked = diarization.rank_against(target, profiles)
-        assert ranked[0][0] == 'Bob'
+        assert ranked[0][0] == "Bob"
         assert ranked[0][1] > 0.99

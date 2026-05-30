@@ -14,7 +14,6 @@ Usage:
 from __future__ import annotations
 
 import os
-import re
 import sys
 
 from wiki_common import (
@@ -29,8 +28,11 @@ from wiki_common import (
 
 # Bookkeeping files are not catalogue targets — skip them.
 SKIP_BASENAMES = {
-    "index.md", "log.md", "work-queue.md",
-    "discrepancy-log.md", "review-queue.md",
+    "index.md",
+    "log.md",
+    "work-queue.md",
+    "discrepancy-log.md",
+    "review-queue.md",
 }
 
 # Group display order. Anything unlisted sorts alphabetically after these.
@@ -84,7 +86,7 @@ def marker_of(fields: dict) -> str:
 
 def group_key(relpath: str) -> str:
     # relpath like "wiki/entities/characters/pcs/foo.md" -> group dir
-    d = os.path.dirname(relpath[len("wiki/"):])
+    d = os.path.dirname(relpath[len("wiki/") :])
     return d if d else "(root)"
 
 

@@ -57,9 +57,7 @@ from typing import Optional
 import jsonschema
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
-
 from wiki_common import (
-    REPO_ROOT,
     TYPE_EXTRA_FIELDS,
     UNIVERSAL_FIELDS,
     WIKI_DIR,
@@ -117,9 +115,24 @@ INLINE_CODE_RE = re.compile(r"`[^`\n]*`")
 # pages — they live in an attachments folder, not as .md files, so never treat
 # them as broken page links.
 ASSET_EXTS = {
-    ".webp", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".bmp", ".pdf",
-    ".mp3", ".mp4", ".mov", ".wav", ".ogg", ".json", ".canvas", ".excalidraw",
+    ".webp",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".gif",
+    ".svg",
+    ".bmp",
+    ".pdf",
+    ".mp3",
+    ".mp4",
+    ".mov",
+    ".wav",
+    ".ogg",
+    ".json",
+    ".canvas",
+    ".excalidraw",
 }
+
 
 # Python-native defaults for missing required fields. Field LISTS come from
 # wiki_common (the source of truth); only the default VALUES live here, matching
@@ -229,6 +242,7 @@ def wikilink_targets(text: str):
 # Per-file checks
 # ---------------------------------------------------------------------------
 
+
 def load_frontmatter(yaml: YAML, fm_text: str):
     if not fm_text.strip():
         return CommentedMap()
@@ -288,7 +302,11 @@ def check_file(relpath: str, data, body: str, yaml: YAML, validator):
     # type matches the path it lives at.
     expected_type = infer_type(relpath)
     actual_type = str(data.get("type", "")).strip()
-    if expected_type not in ("unknown", "governance") and actual_type and actual_type != expected_type:
+    if (
+        expected_type not in ("unknown", "governance")
+        and actual_type
+        and actual_type != expected_type
+    ):
         issues.append(
             Issue(
                 "warning",
@@ -315,7 +333,9 @@ def check_file(relpath: str, data, body: str, yaml: YAML, validator):
     # already wikilinked in the body — if it is, weaving is usually just folding
     # the note into a sentence near the existing link; if not, the relationship
     # isn't reflected in the prose at all yet.
-    rels = relationship_entries(data.get("relationships")) if hasattr(data, "get") else []
+    rels = (
+        relationship_entries(data.get("relationships")) if hasattr(data, "get") else []
+    )
     if rels:
         body_links = {
             t.lower()
@@ -341,7 +361,11 @@ def check_file(relpath: str, data, body: str, yaml: YAML, validator):
     if relpath.startswith("wiki/situations/"):
         folder = relpath.split("/")[2] if len(relpath.split("/")) > 3 else ""
         lifecycle = str(data.get("lifecycle", "")).strip()
-        if folder in ("active", "dormant", "resolved") and lifecycle and lifecycle != folder:
+        if (
+            folder in ("active", "dormant", "resolved")
+            and lifecycle
+            and lifecycle != folder
+        ):
             issues.append(
                 Issue(
                     "warning",
@@ -384,6 +408,7 @@ def check_naming(relpath: str):
 # ---------------------------------------------------------------------------
 # Cross-file checks
 # ---------------------------------------------------------------------------
+
 
 def cross_file_checks(records, slug_to_paths):
     """records: list of (relpath, data, body). Returns dict relpath -> [Issue]."""
@@ -485,6 +510,7 @@ def _dump_node(node) -> str:
 # Auto-fix: standardize frontmatter
 # ---------------------------------------------------------------------------
 
+
 def standardize(relpath: str, data, yaml: YAML):
     """Return (new_data, changed_fields). File-local, idempotent."""
     changed = []
@@ -556,7 +582,7 @@ def apply_fix(path: str, relpath: str, yaml: YAML):
     m = FM_BLOCK_RE.match(text)
     if m:
         fm_text = m.group(1)
-        body = text[m.end():]  # verbatim, including its leading/trailing newlines
+        body = text[m.end() :]  # verbatim, including its leading/trailing newlines
     else:
         fm_text = ""
         body = text
@@ -577,6 +603,7 @@ def apply_fix(path: str, relpath: str, yaml: YAML):
 # Driver
 # ---------------------------------------------------------------------------
 
+
 def gather_records(yaml: YAML):
     records = []
     parse_errors = []
@@ -595,7 +622,12 @@ def gather_records(yaml: YAML):
             data = load_frontmatter(yaml, fm_text)
         except Exception as exc:
             parse_errors.append(
-                Issue("error", "unparseable-frontmatter", relpath, str(exc).splitlines()[0])
+                Issue(
+                    "error",
+                    "unparseable-frontmatter",
+                    relpath,
+                    str(exc).splitlines()[0],
+                )
             )
             records.append((relpath, CommentedMap(), body))
             continue
@@ -654,7 +686,9 @@ def write_report(issues, counts):
         [i for i in issues if i.rule in DECISION_RULES],
         key=lambda x: (SEVERITIES.index(x.severity), x.rule, x.path),
     )
-    backlog = collections.Counter(i.rule for i in issues if i.rule not in DECISION_RULES)
+    backlog = collections.Counter(
+        i.rule for i in issues if i.rule not in DECISION_RULES
+    )
 
     lines = [
         "---",
@@ -690,7 +724,9 @@ def write_report(issues, counts):
     if decisions:
         for i in decisions:
             fixpart = f" — _fix:_ {i.fix}" if i.fix else ""
-            lines.append(f"- [{i.severity}] `{i.path}` **{i.rule}** — {i.detail}{fixpart}")
+            lines.append(
+                f"- [{i.severity}] `{i.path}` **{i.rule}** — {i.detail}{fixpart}"
+            )
     else:
         lines.append("_None — every detectable structural issue is resolved._")
     lines += ["", "## Backlog (mechanical / content)", ""]
@@ -707,9 +743,17 @@ def write_report(issues, counts):
 
 def main(argv) -> int:
     ap = argparse.ArgumentParser(description="Lint the Shattered Sea wiki.")
-    ap.add_argument("paths", nargs="*", help="limit to these files/dirs (default: whole vault)")
-    ap.add_argument("--fix", action="store_true", help="standardize frontmatter in place")
-    ap.add_argument("--report", action="store_true", help="also write the DM review queue to wiki/dm/review-queue.md")
+    ap.add_argument(
+        "paths", nargs="*", help="limit to these files/dirs (default: whole vault)"
+    )
+    ap.add_argument(
+        "--fix", action="store_true", help="standardize frontmatter in place"
+    )
+    ap.add_argument(
+        "--report",
+        action="store_true",
+        help="also write the DM review queue to wiki/dm/review-queue.md",
+    )
     ap.add_argument("--summary", action="store_true", help="print only the count line")
     ap.add_argument(
         "--min-severity",
@@ -772,7 +816,10 @@ def main(argv) -> int:
         if in_scope(i.path, scope) and SEVERITIES.index(i.severity) <= min_idx
     ]
 
-    counts = {s: sum(1 for i in all_issues if i.severity == s and in_scope(i.path, scope)) for s in SEVERITIES}
+    counts = {
+        s: sum(1 for i in all_issues if i.severity == s and in_scope(i.path, scope))
+        for s in SEVERITIES
+    }
     summary = (
         f"WIKI LINT: {counts['error']} errors · {counts['warning']} warnings · "
         f"{counts['quality']} quality"
@@ -780,7 +827,16 @@ def main(argv) -> int:
     )
 
     if args.json:
-        print(json.dumps({"summary": counts, "fixed": fixed, "issues": [asdict(i) for i in issues]}, indent=2))
+        print(
+            json.dumps(
+                {
+                    "summary": counts,
+                    "fixed": fixed,
+                    "issues": [asdict(i) for i in issues],
+                },
+                indent=2,
+            )
+        )
         return 1 if counts["error"] else 0
 
     report_path = None

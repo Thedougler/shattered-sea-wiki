@@ -23,6 +23,7 @@ def today() -> str:
 # Frontmatter parsing
 # ---------------------------------------------------------------------------
 
+
 def split_frontmatter(text: str):
     """Return (frontmatter_lines, body_text, had_frontmatter).
 
@@ -34,7 +35,7 @@ def split_frontmatter(text: str):
     for i in range(1, len(lines)):
         if lines[i].strip() == "---":
             fm = lines[1:i]
-            body = "\n".join(lines[i + 1:])
+            body = "\n".join(lines[i + 1 :])
             return fm, body, True
     # No closing delimiter — treat as no frontmatter to avoid corrupting.
     return [], text, False
@@ -67,6 +68,7 @@ def first_h1(body: str) -> str | None:
 # ---------------------------------------------------------------------------
 # Path inference (mirrors references/frontmatter-defaults.md)
 # ---------------------------------------------------------------------------
+
 
 def rel(path: str) -> str:
     return os.path.relpath(os.path.abspath(path), REPO_ROOT).replace(os.sep, "/")
@@ -156,8 +158,17 @@ TYPE_EXTRA_FIELDS = {
 }
 
 UNIVERSAL_FIELDS = [
-    "type", "subtype", "campaign", "status", "audience", "publish",
-    "summary", "created", "updated", "tags", "sources",
+    "type",
+    "subtype",
+    "campaign",
+    "status",
+    "audience",
+    "publish",
+    "summary",
+    "created",
+    "updated",
+    "tags",
+    "sources",
 ]
 
 

@@ -1,6 +1,8 @@
-from player_view.pages import save_speaker  # noqa: F401
-from player_view.pages import test_speaker  # noqa: F401
-from player_view.pages import session  # noqa: F401
-from player_view.pages import slideshow  # noqa: F401
-from player_view.pages import map_view  # noqa: F401
-from player_view.pages import dm  # noqa: F401
+from player_view.pages import (
+    dm,  # noqa: F401
+    map_view,  # noqa: F401
+    save_speaker,  # noqa: F401
+    session,  # noqa: F401
+    slideshow,  # noqa: F401
+    test_speaker,  # noqa: F401
+)

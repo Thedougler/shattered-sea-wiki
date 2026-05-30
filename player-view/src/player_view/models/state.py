@@ -15,7 +15,7 @@ class SessionState:
     session_length_s: float = 0.0
     chunk_count: int = 0
     speaker_count: int = 0
-    status: str = 'idle'
+    status: str = "idle"
 
 
 @dataclass

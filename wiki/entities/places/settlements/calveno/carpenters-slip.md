@@ -11,13 +11,9 @@ updated: 2026-05-28
 tags: [stub, place, calveno, shipyard]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
 confidence_level: observed
-relationships:
-  - "[[calveno|Calveno]] — district: Basin/La Vasca area"
-  - "[[savia-brentino|Savia Brentino]] — operates here"
-  - "[[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — Warren Route ride"
 ---
 
 # Carpenters' Slip — Stub
 
 > [!dm]
-> Stub — referenced in [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]]. Savia Brentino's yard. Does discreet hull work without Canal Commission filings. Cold approaches are refused and logged. Requires a Tangle/Warren warm introduction.
+> Stub — [[calveno|Calveno]] (Basin/La Vasca) yard run by [[savia-brentino|Savia Brentino]], referenced in [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]]. Does discreet hull work without Canal Commission filings. Cold approaches are refused and logged. Requires a Tangle/Warren warm introduction.

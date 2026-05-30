@@ -12,19 +12,12 @@ tags: [vehicle, ship, dravosi, crown, cutter, prize]
 sources: ["Inbox/HCS-Surety.md", "Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md"]
 confidence_level: high
 title: HCS Surety
-relationships:
-  - relation: commanded_by
-    target: "[[barnaby-rook|Barnaby Rook]]"
-  - relation: registered_to
-    target: "[[dravosi-crown|Dravosi Crown]]"
-  - relation: renamed_to
-    target: "[[uncertainty|Uncertainty]]"
 ship_class: patrol cutter
 tier: 1
 hull_points: 120
 hull_ac: 11
 cssclasses:
-  - wiki-ship
+- wiki-ship
 ---
 
 # HCS Surety

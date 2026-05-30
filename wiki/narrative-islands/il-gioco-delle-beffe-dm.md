@@ -16,11 +16,6 @@ contains_situations: []
 title: Il Gioco delle Beffe — DM Notes
 region: calveno
 confidence_level: medium
-relationships:
-  - relation: public_page
-    target: "[[il-gioco-delle-beffe|Il Gioco delle Beffe]]"
-  - relation: located_at
-    target: "[[calveno|Calveno]]"
 ---
 
 # Il Gioco delle Beffe — DM Notes

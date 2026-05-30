@@ -13,13 +13,6 @@ sources: ["Inbox/Nona-Midchain-Commission.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: commissioned_by
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
-  - relation: assigned_to
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: location
-    target: "[[aruhe|Aruhe]]"
 ---
 
 # Nona's Midchain Commission — Aruhe Survey

@@ -12,18 +12,11 @@ tags: [island, warren, grung, calveno, jean-claude, perrin]
 sources: ["Inbox/Warren-Grung-Sewers.md"]
 portable: false
 entry_points:
-  - Nona hears Jean-Claude is with Perrin (automatic; she offers this first)
-  - The party asks what Nona needs before she offers
-  - A Warren runner brings a new sighting while the party is at the table
+- Nona hears Jean-Claude is with Perrin (automatic; she offers this first)
+- The party asks what Nona needs before she offers
+- A Warren runner brings a new sighting while the party is at the table
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-  - relation: involves
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
-  - relation: feeds
-    target: "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
 ---
 
 # Warren — Grung in the Sewers

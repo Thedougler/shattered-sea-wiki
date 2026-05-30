@@ -11,11 +11,6 @@ updated: 2026-05-28
 tags: [faction, umberlee, sea, clergy]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Umberlee.md", "Inbox/Waveservants.md"]
 confidence_level: confirmed
-relationships:
-  - "[[umberlee|Umberlee]] — patron deity"
-  - "[[sentinels-of-the-eyrie|Sentinels of the Eyrie]] — opposition"
-  - "[[vel-orn|Vel Orn]] — shrine target in fleet theft"
-  - "[[waveservant-shrine|Waveservant Shrine]] — Calveno shrine currently active"
 ---
 
 # Waveservants
@@ -43,4 +38,4 @@ The [[sentinels-of-the-eyrie|Sentinels of the Eyrie]] established their monastic
 
 ## Current Table State
 
-An [[umberlee-servant|older servant of Umberlee]] waits at [[waveservant-shrine|the Waveservant Shrine]] in [[calveno|Calveno]] for [[delmar-fisk|Delmar Fisk]]. She is not sleeping until he comes.
+[[branca|Branca]] waits at [[waveservant-shrine|the Waveservant Shrine]] in [[calveno|Calveno]] for [[delmar-fisk|Delmar Fisk]]. She is not sleeping until he comes. The shrine was also the intended destination of Fisk's fleet before the Pearl reached [[vel-orn|Vel Orn]].

@@ -17,20 +17,7 @@ tier: 2
 hull_points: 230
 hull_ac: 12
 cssclasses:
-  - wiki-ship
-relationships:
-  - relation: commanded_by
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: captained_by
-    target: "[[rael-corven|Rael Corven]]"
-  - relation: survivor
-    target: "[[crissdalynn-khinriss|Crissdalynn Khinriss]]"
-  - relation: survivor
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: wreck_site
-    target: "[[shelfworks|Shelfworks]]"
-  - relation: carries
-    target: "[[pearl-of-souls|Pearl of Souls]]"
+- wiki-ship
 ---
 
 # The *Red Lady*

@@ -13,9 +13,6 @@ sources: ["Inbox/Krakling.md"]
 confidence_level: high
 cr: 6
 aliases: ["Krakling", "Young Kraken"]
-relationships:
-  - "[[the-drowned-maw|The Drowned Maw]] — area of incursion"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — planar water incursion connects to his thread"
 ---
 
 # Krakling
@@ -79,7 +76,7 @@ It hunts by feel. The arms go up over the railing first, testing — then one lo
 
 **Morale:** At 40 HP or below, the krakling releases all grapples and dives. It does not chase ships. If driven off twice, it retreats.
 
-Three ships have reported arm-related attacks in the outer Midchain in the past month. One has not made port.
+Sightings concentrate in the outer Midchain near [[the-drowned-maw|The Drowned Maw]] — the same region the other planar fauna have emerged from. Three ships have reported arm-related attacks in the past month. One has not made port.
 
 ## Related
 

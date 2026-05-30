@@ -11,12 +11,6 @@ updated: 2026-05-28
 tags: [faction, midchain, council, kalowe]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Chain-Council.md"]
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — fleet admiral"
-  - "[[pearl-of-souls|Pearl of Souls]] — theft target"
-  - "[[kalowe|Kalowe]] — normal meeting place and dry dock"
-  - "[[midchain|Midchain]] — regional scope"
-  - "[[the-quorum|The Quorum]] — dispatch sloop"
 ---
 
 # Chain Council

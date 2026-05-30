@@ -12,27 +12,19 @@ tags: [island, calveno, session-prep, sandbox]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
 portable: false
 entry_points:
-  - "La Vasca — ship enters dry dock after Session 03 Calveno approach"
-  - "Beffe registration opens the morning after the Surety docks"
+- "La Vasca — ship enters dry dock after Session 03 Calveno approach"
+- "Beffe registration opens the morning after the Surety docks"
 contains_situations:
-  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
-  - "[[warren-nonas-table|Warren — Nona's Table]]"
-  - "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"
-  - "[[warren-marrows-crate|Warren — Marrow's Crate]]"
-  - "[[warren-ferrin-locke|Warren — Ferrin Locke]]"
-  - "[[red-lady-salvage-money|Red Lady — Salvage Money]]"
-  - "[[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]]"
-  - "[[calveno-street-encounters|Calveno — Street Encounters]]"
-  - "[[calveno-raid-signs|Calveno — Raid Prep Signs]]"
+- "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
+- "[[warren-nonas-table|Warren — Nona's Table]]"
+- "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"
+- "[[warren-marrows-crate|Warren — Marrow's Crate]]"
+- "[[warren-ferrin-locke|Warren — Ferrin Locke]]"
+- "[[red-lady-salvage-money|Red Lady — Salvage Money]]"
+- "[[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]]"
+- "[[calveno-street-encounters|Calveno — Street Encounters]]"
+- "[[calveno-raid-signs|Calveno — Raid Prep Signs]]"
 confidence_level: high
-relationships:
-  - "[[calveno|Calveno]] — host city"
-  - "[[hcs-surety|Uncertainty]] — party ship in dry dock at [[la-vasca|La Vasca]]"
-  - "[[nona-black-jaw|Nona Black-Jaw]] — Warren access; Nona's Table ride"
-  - "[[the-passage|The Passage]] — Warren network"
-  - "[[il-gioco-delle-beffe|Il Gioco delle Beffe]] — festival running during stay"
-  - "[[surety-missing|Surety Missing]] — Crown search situation"
-  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] — active raid prep"
 ---
 
 # Calveno Sandbox Run Guide
@@ -77,7 +69,7 @@ Five rides for this city. Each one connects to the party goal (hide the Surety, 
 *Players: Perrin · Delmar*
 *Goal connection: De-marks the Surety and buys five weeks before courtesy-stop watch lists harden*
 
-[[savia-brentino|Savia Brentino]] at the [[carpenters-slip|Carpenters' Slip]] does hull work without Canal Commission filings. She will not take a cold approach — three ships this month already tried and are now on her list. A Warren introduction changes the shape of the request. The job is 220 gp and five city days, plus one Tangle favour: recorded but unassigned. Complication: Savia says it once, flatly, at the end of the assessment — *"She'll still read as a cutter to anyone who knows cutters. That's not a paint problem."* The party decides what that means and what they do about the bow registry plate.
+[[savia-brentino|Savia Brentino]] at the [[carpenters-slip|Carpenters' Slip]] does hull work without Canal Commission filings. She will not take a cold approach — three ships this month already tried and are now on her list. A [[the-passage|Passage]]/Warren introduction changes the shape of the request. The job is 220 gp and five city days, plus one Tangle favour: recorded but unassigned. Complication: Savia says it once, flatly, at the end of the assessment — *"She'll still read as a cutter to anyone who knows cutters. That's not a paint problem."* The party decides what that means and what they do about the bow registry plate.
 
 ### Nona's Table
 *Players: Perrin (primary) · anyone who follows*

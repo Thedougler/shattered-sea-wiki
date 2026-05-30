@@ -15,15 +15,6 @@ narrative_island:
 title: Sunken Crown Blessing Crisis
 confidence_level: medium
 region: outer-reach
-relationships:
-  - relation: caused_by
-    target: "[[pearl-of-souls|Maw Pearl Crisis]]"
-  - relation: threatens
-    target: "[[keth-naar|Keth-Naar]]"
-  - relation: destabilizes
-    target: "[[sunken-crown|The Sunken Crown]]"
-  - relation: involves
-    target: Stripes Bitemore
 ---
 
 # Sunken Crown Blessing Crisis

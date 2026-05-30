@@ -12,18 +12,11 @@ tags: [island, calveno, red-lady, salvage, delmar, crissdalynn]
 sources: ["Inbox/Red-Lady-Salvage-Money.md"]
 portable: false
 entry_points:
-  - Delmar asks about the Red Lady, the Maw, or salvage money in Calveno
-  - Crissdalynn asks about survivors, charts, or wrecks in the Maw
-  - The party has a Warren introduction and Savia mentions the suspicious enquiries
+- Delmar asks about the Red Lady, the Maw, or salvage money in Calveno
+- Crissdalynn asks about survivors, charts, or wrecks in the Maw
+- The party has a Warren introduction and Savia mentions the suspicious enquiries
 contains_situations: []
 confidence_level: medium
-relationships:
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: involves
-    target: "[[crissdalynn-khinriss|Crissdalynn]]"
-  - relation: involves
-    target: "[[batta-zusto|Batta Zusto]]"
 ---
 
 # Red Lady — Salvage Money

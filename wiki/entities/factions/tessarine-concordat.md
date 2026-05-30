@@ -11,17 +11,11 @@ updated: 2026-05-28
 tags: [faction, tessarine, colonial, commerce]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Tessarine-Concordat.md"]
 confidence_level: confirmed
-relationships:
-  - "[[shepherd-grigori|Shepherd Grigori]] — member or national"
-  - "[[calveno|Calveno]] — Seven Houses formed here"
-  - "[[dravosi-crown|Dravosi Crown]] — rival colonial power"
-  - "[[shelfworks|Shelfworks]] — salvage contracts and purchase orders"
-  - "[[the-passage|The Passage]] — rumored courier utility, no formal recognition"
 ---
 
 # Tessarine Concordat
 
-Political power that arrived in the Shattered Sea in 1210 DR, formed the Seven Houses of [[calveno|Calveno]], and began the slow arithmetic of obligation.
+Political power that arrived in the Shattered Sea in 1210 DR, formed the Seven Houses of [[calveno|Calveno]], and began the slow arithmetic of obligation. Its principal colonial rival is the [[dravosi-crown|Dravosi Crown]]; both powers compete across the same Scatter routes. [[the-passage|The Passage]] uses Tessarine paper and commercial channels as cover infrastructure, though there is no formal arrangement.
 
 [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] wears a Tessarine shirt under his Dravosi naval coat — the Concordat is his affiliation or nation of origin.
 

@@ -11,11 +11,6 @@ updated: 2026-05-28
 tags: [vehicle, ship, merchant, tier-2, maritime]
 sources: ["Inbox/Nimmik-Vollask.md"]
 confidence_level: medium
-relationships:
-  - relation: managed_by
-    target: "[[cotter-foss|Cotter Foss]]"
-  - relation: operates_in
-    target: "[[central-strait|Central Strait]]"
 ---
 
 # Nimmik Vollask

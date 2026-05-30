@@ -1,5 +1,4 @@
 ---
-title: Calven
 type: entity
 subtype: place
 campaign: shattered-sea
@@ -12,6 +11,7 @@ updated: 2026-05-29
 tags: [place, region, stub]
 sources: []
 confidence_level: low
+title: Calven
 ---
 
 # Calven

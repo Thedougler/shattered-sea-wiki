@@ -11,16 +11,6 @@ updated: 2026-05-28
 tags: [faction, fleet, fisk, drowned-maw]
 sources: ["Inbox/Fisks-Fleet.md", "Inbox/Delmar-Fisk.md", "Inbox/Campaign-Timeline.md"]
 confidence_level: confirmed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — rear admiral"
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — known survivor"
-  - "[[red-lady|Red Lady]] — flagship"
-  - "[[the-narrow|The Narrow]] — fleet ship"
-  - "[[heft|Heft]] — fleet ship"
-  - "[[fernen|Fernen]] — fleet ship"
-  - "[[loud-argument|Loud Argument]] — fleet ship"
-  - "[[pearl-of-souls|Pearl of Souls]] — theft target"
-  - "[[the-drowned-maw|The Drowned Maw]] — destruction site"
 ---
 
 # Fisk's Fleet

@@ -11,19 +11,6 @@ updated: 2026-05-28
 tags: [pc, rattkin, bard, warlock]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Perrin-Black-Jaw.md", "Inbox/Campaign-Timeline.md"]
 confidence_level: confirmed
-relationships:
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — party; avian shape complicates his prey response"
-  - "[[rattkin|Rattkin]] — species; fancy rat variety"
-  - "[[delmar-fisk|Delmar Fisk]] — party"
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — party"
-  - "[[beaumont-sel|Beaumont Sel]] — connection (species, surname)"
-  - "[[nona-black-jaw|Nona Black-Jaw]] — grandmother; met in Session 03; favor promised; sending stone received"
-  - "[[vestra|Vestra]] — family ship he built and lost"
-  - "[[cobb|Cobb]] — old contact; met at La Vasca"
-  - "[[miras-blade|Mira's Blade]] — carries"
-  - "[[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — family heirloom; carries"
-  - "[[sending-stone-nona|Sending Stone (Nona's)]] — carries"
-  - "[[auralis|Auralis]] — saved him from the wreck; pact formed unknowingly"
 ---
 
 # Perrin Black-Jaw
@@ -69,6 +56,10 @@ The timeline source says the [[leviathan|Leviathan]] destroyed the Vestra and th
 - Longsword, bodhran drum, Clyde's Bestiary of Oceanic Creatures
 - Guilt about crew members he thinks died
 
+## Party
+
+[[jean-claude-tabarnack|Jean-Claude Tabarnack]], [[delmar-fisk|Delmar Fisk]], [[crissdalynn-khinriss|Crissdalynn Khinriss]]. [[cobb|Cobb]] is an old contact met at [[la-vasca|La Vasca]] on the Calveno arrival.
+
 ## Unresolved Threads
 
 - A surviving Vestra crew member could walk through a door; relief would arrive wrapped in guilt.
@@ -80,12 +71,12 @@ The timeline source says the [[leviathan|Leviathan]] destroyed the Vestra and th
 
 **Strengths:** Reading people and situations, social pressure, charm, bribery, escape routes, Bard/Warlock magic.
 
-**Weaknesses:** Prey response when genuinely scared; physical weakness from Mortis; limited trust for dry-landers; Crissdalynn's avian shape sits directly against his instinctive fear response.
+**Weaknesses:** Prey response when genuinely scared; physical weakness from Mortis; limited trust for dry-landers; [[crissdalynn-khinriss|Crissdalynn]]'s avian shape sits directly against his instinctive fear response.
 
 **Crisis response:** Finds the nearest exit first. Not necessarily to run, but to know it is there.
 
 ## Session Events
 
 - **Session 01** — Laid Minor Illusion over the hold doorway; emerged from a deck gap at a second angle during the breach; resisted Grung toxin gas.
-- **Session 02** — Received Beaumont's message: Nona Black-Jaw is searching for him; Anzolo may already be at sea. Drew his longsword to kill [[ket|Ket]] before Crissdalynn intervened; cast Tasha's Hideous Laughter to drop Ket safely. Received [[miras-blade|Mira's Blade]] from the cargo. Named himself as a Black-Jaw to the assembled crew. See [[nona-and-anzolo|Nona and Anzolo]].
+- **Session 02** — Received [[beaumont-sel|Beaumont]]'s message: Nona Black-Jaw is searching for him; Anzolo may already be at sea. Drew his longsword to kill [[ket|Ket]] before Crissdalynn intervened; cast Tasha's Hideous Laughter to drop Ket safely. Received [[miras-blade|Mira's Blade]] from the cargo. Named himself as a Black-Jaw to the assembled crew. See [[nona-and-anzolo|Nona and Anzolo]].
 - **Session 03** — Experienced the [[abyss-vision|abyss vision]] on watch: worked stone floor, bioluminescent entities, inhabited a 60-ft creature's body, witnessed something longer than two ships below, heard *"Grow."* Gave bardic inspiration to all three party members and drummed through the whip shark fight. Navigated the alternate approach into Calveno. Renamed ship to *Uncertainty* on approach. Met [[nona-black-jaw|Nona]] in Le Paludi — told her about the Vestra, attacks called off, promised a favor without conditions. Received [[sending-stone-nona|Nona's sending stone]]. Spotted the bioluminescent whale on day 2 at sea and recognized it. Met [[master-kyzil|Master Kyzil]]; emerged from a barrel to shake his finger.

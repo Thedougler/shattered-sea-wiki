@@ -11,9 +11,6 @@ updated: 2026-05-27
 tags: [stub, place, calveno, shop]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[calveno|Calveno]] — located within"
-  - "[[studio-orsini|Studio Orsini]] — referred Jean-Claude here"
 ---
 
 # Casa Lupo

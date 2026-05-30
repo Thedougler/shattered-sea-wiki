@@ -12,15 +12,10 @@ tags: [island, warren, encounter, dungeon, timed]
 sources: ["Inbox/Warren-Bela-Silt-Paw.md"]
 portable: false
 entry_points:
-  - Nona offers the lead after the reunion scene
-  - The Tangle mentions the shard has gone quiet (urgency escalation)
+- Nona offers the lead after the reunion scene
+- The Tangle mentions the shard has gone quiet (urgency escalation)
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
-  - relation: location
-    target: "[[warren|The Warren]]"
 ---
 
 # Warren — Bela Silt-Paw

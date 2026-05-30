@@ -18,10 +18,7 @@ hull_points: 240
 hull_ac: 13
 captain: "[[catarina-davirelli|Catarina DaVirelli]]"
 cssclasses:
-  - wiki-ship
-relationships:
-  - relation: owned_by
-    target: "[[catarina-davirelli|Catarina DaVirelli]]"
+- wiki-ship
 ---
 
 # The *Brass Cat*

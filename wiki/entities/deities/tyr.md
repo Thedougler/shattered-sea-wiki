@@ -11,16 +11,13 @@ updated: 2026-05-28
 tags: [deity, dravosi, law, justice, colonial]
 sources: ["Inbox/Tyr.md", "Inbox/Shattered-Sea-Pantheon.md"]
 confidence_level: confirmed
-relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — military and administrative state faith"
-  - "[[shattered-sea-pantheon|Shattered Sea Pantheon]] — pantheon page"
 ---
 
 # Tyr
 
 Lawful Good god of law, justice, civic order, and state legitimacy. The [[dravosi-crown|Dravosi Crown]]'s administrative and military apparatus uses Tyr's theology to frame law as civilization, authority as obligation, and justice as active duty.
 
-His symbol appears on Dravosi commission papers, garrison walls, and judicial proceedings. A priest of Tyr's signed witness is legally binding in Dravosi courts.
+His symbol appears on Dravosi commission papers, garrison walls, and judicial proceedings. A priest of Tyr's signed witness is legally binding in Dravosi courts. See [[shattered-sea-pantheon|Shattered Sea Pantheon]] for his place in the broader regional faith landscape.
 
 ## In the Scatter
 

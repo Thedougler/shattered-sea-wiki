@@ -15,22 +15,13 @@ narrative_island:
 title: Fort Crestwall — Sealed Orders
 region: crown-islands
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: located_at
-    target: "[[port-tidefall|Port Tidefall]]"
-  - relation: connected_to
-    target: "[[governors-seat|Governor's Seat]]"
-  - relation: connected_to
-    target: "[[the-drowned-maw|Drowned Maw]]"
 ---
 
 # Fort Crestwall — Sealed Orders
 
 ## Situation
 
-Two extra companies arrived six weeks ago under sealed orders the Governor never received. The orders are held in the Commandant's office. Supply manifests include reef-diving equipment and underwater charges — destination: the [[the-drowned-maw|Drowned Maw]]. Barnaby Rook's commissioning authority did not extend past the gate.
+Fort Crestwall is the harbor fortification at [[port-tidefall|Port Tidefall]]. Two extra companies arrived six weeks ago under sealed orders the Governor never received. The orders are held in the Commandant's office. Supply manifests include reef-diving equipment and underwater charges — destination: the [[the-drowned-maw|Drowned Maw]]. Barnaby Rook's commissioning authority did not extend past the gate.
 
 See [[governors-seat|Governor's Seat]] for Governor Voss's willingness to trade for this information. See [[who-commissioned-the-theft|Who Commissioned the Theft]] for the deeper context on the Drave Vaults below the fort.
 

@@ -14,10 +14,6 @@ confidence_level: confirmed
 title: Waveservant Shrine — Calveno
 building_type: shrine
 district: Mercatura
-relationships:
-  - "[[umberlee-servant|Umberlee's Servant]] — waiting here, has not slept"
-  - "[[delmar-fisk|Delmar Fisk]] — the intended recipient"
-  - "[[calveno|Calveno]] — Mercatura canal front"
 ---
 
 # Waveservant Shrine — Calveno

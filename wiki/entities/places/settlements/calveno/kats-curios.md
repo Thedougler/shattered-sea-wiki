@@ -11,10 +11,6 @@ updated: 2026-05-27
 tags: [stub, place, calveno, shop]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — brought barb here"
-  - "[[whip-shark-barb|Whip Shark Barb]] — item under appraisal"
-  - "[[calveno|Calveno]] — located within"
 ---
 
 # Kat's Curios

@@ -16,20 +16,13 @@ contains_situations: []
 title: Port Tidefall — Dockfront Opportunities
 region: crown-islands
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: involves
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
 ---
 
 # Port Tidefall — Dockfront Opportunities
 
 ## Situation
 
-Port Tidefall is overfull, resentful, and full of small useful doors. The party can find ship options, impound schedules, a buried cache, a Tessarine salvage job, Waveservant pressure on Delmar, and personal/social hooks without treating each building as a separate situation.
+Port Tidefall is overfull, resentful, and full of small useful doors. The party can find ship options, impound schedules, a buried cache, a Tessarine salvage job, Waveservant pressure on [[delmar-fisk|Delmar]], and personal/social hooks without treating each building as a separate situation.
 
 ---
 
@@ -40,7 +33,7 @@ Port Tidefall is overfull, resentful, and full of small useful doors. The party 
 | Verb | Offers. Tidefall puts useful trouble on counters, notice boards, bar tables, and shrine shelves. |
 | Unstable Condition | The port is processing too many ships, too much gossip, and too many private agendas after the Surety incident. |
 | Consequence | Small opportunities can solve immediate needs, but each one exposes a PC to a different watcher. |
-| Link of Relevance | Delmar needs ships/tithe/social cover; Perrin needs refuge; Jean-Claude reacts to coercion; Stripes is recognized by Waveservants. |
+| Link of Relevance | [[delmar-fisk|Delmar]] needs ships/tithe/social cover; [[perrin-black-jaw|Perrin]] needs refuge; [[jean-claude-tabarnack|Jean-Claude]] reacts to coercion; Stripes is recognized by Waveservants. |
 
 ---
 

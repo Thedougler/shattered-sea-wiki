@@ -12,14 +12,6 @@ tags: [npc, human, dravosi, captain, antagonist]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Barnaby-Rook.md"]
 confidence_level: observed
 species: human
-relationships:
-  - "[[hcs-surety|HCS Surety]] — commands"
-  - "[[dravosi-crown|Dravosi Crown]] — serves"
-  - "[[beaumont-sel|Beaumont Sel]] — fired on; shot deflected"
-  - "[[geoffrey-draves|Geoffrey Draves]] — former crew, turned on him"
-  - "[[dorian-bishop|Dorian Bishop]] — Crown chain of command"
-  - "[[rupert-knighton|Rupert Knighton]] — Crown chain of command"
-  - "[[norrington-kingsly|Norrington Kingsly]] — predecessor"
 ---
 
 # Barnaby Rook
@@ -32,7 +24,7 @@ Barnaby is the face of Tidefall's tightening posture. He boards under colour of 
 
 ## Appearance & Manner
 
-Hard Crown privateer captain. Dark officer coat. Flintlock and cutlass. Square jaw, coin-worthy authority. Commands the [[hcs-surety|HCS Surety]].
+Hard [[dravosi-crown|Dravosi Crown]] privateer captain. Dark officer coat. Flintlock and cutlass. Square jaw, coin-worthy authority. Commands the [[hcs-surety|HCS Surety]].
 
 No hesitation about shooting his own crew for defection.
 
@@ -51,10 +43,10 @@ He wants the eastern inspection campaign to produce leverage: names, contraband,
 
 ## Inspection Pressure
 
-Rook knows the Surety's orders, the pressure pattern around Tidefall, and enough about his crew to recognize [[geoffrey-draves|Geoffrey Draves]]'s surrender as betrayal in the moment it happens.
+Rook knows the Surety's orders, the pressure pattern around Tidefall, and enough about his crew to recognize [[geoffrey-draves|Geoffrey Draves]]'s surrender as betrayal in the moment it happens. His Crown chain of command runs through [[dorian-bishop|Dorian Bishop]] to [[rupert-knighton|Rupert Knighton]].
 
 ## State After Session 01
-Unharmed. Alone on the HCS Surety gangplank. Flintlock fired once at Beaumont — deflected.
+Unharmed. Alone on the HCS Surety gangplank. Flintlock fired once at [[beaumont-sel|Beaumont]] — deflected.
 
 ## State After Session 02 — Presumed Dead
 Blasted from the rigging into the water by a thrown chair (Delmar, wind-assisted). Something long and eel-like was in the water. He did not resurface. Presumed dead — taken. See [[hull-impacts|Hull Impacts]].

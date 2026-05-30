@@ -12,8 +12,6 @@ tags: [creature, undead, lich, bestiary]
 sources: ["Inbox/Blight.md"]
 confidence_level: high
 aliases: ["Blight", "Druid Lich"]
-relationships:
-  - "[[the-drowned-maw|The Drowned Maw]] — Maw-adjacent Midchain context"
 ---
 
 # Blight
@@ -41,6 +39,6 @@ Unlike other liches, a Blight cannot be destroyed by finding and smashing a phyl
 
 The [[grung-clans|Grung Clans]] patrol the surrounding reefs but refuse to land. Their name for Aruhe translates roughly as "the island that is already eaten." They know what is there.
 
-The Blight is an **optional encounter**. It enters play if the party shelters at Aruhe, follows a drifting wreck there, needs to avoid patrols, or investigates a chart note. It is not connected to the main campaign threads.
+The Blight is an **optional encounter**. It enters play if the party shelters at Aruhe, follows a drifting wreck there, needs to avoid patrols, or investigates a chart note. It sits in the same Midchain stretch as [[the-drowned-maw|The Drowned Maw]] — useful thematic context if the party is already moving that direction.
 
 *Source: Pointy Hat*

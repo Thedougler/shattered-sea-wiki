@@ -13,18 +13,13 @@ sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-  - relation: location
-    target: "[[calveno|Calveno]]"
 ---
 
 # Calveno — Beffa Grung Raid
 
 ## Situation
 
-Simone Tabarnack's western expansion culminates in an operation that will be remembered as a watershed: a mass slave raid on [[calveno|Calveno]] during [[il-gioco-delle-beffe|Il Gioco delle Beffe]] that takes hundreds of the city's civic population — workers, sailors, dockside families, festival labourers — in a single coordinated strike.
+[[jean-claude-tabarnack|Jean-Claude Tabarnack]]'s sister Simone Tabarnack's western expansion culminates in an operation that will be remembered as a watershed: a mass slave raid on [[calveno|Calveno]] during [[il-gioco-delle-beffe|Il Gioco delle Beffe]] that takes hundreds of the city's civic population — workers, sailors, dockside families, festival labourers — in a single coordinated strike.
 
 This is not an ambitious coastal raid scaled up. It is a purpose-built urban operation, years of expansion converted into one proof-of-concept: the Grung can take people from the heart of a Central Strait commercial city in broad daylight, and the powers who were supposed to stop it either could not or chose not to.
 

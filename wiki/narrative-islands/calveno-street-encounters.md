@@ -12,16 +12,11 @@ tags: [island, calveno, encounters, reference, combat]
 sources: ["Inbox/Calveno-Street-Encounters.md"]
 portable: false
 entry_points:
-  - Party moves through city districts
-  - Festival escalation
-  - Jean-Claude acts on handlers — see Handler Cell entry
+- Party moves through city districts
+- Festival escalation
+- Jean-Claude acts on handlers — see Handler Cell entry
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: location
-    target: "[[calveno|Calveno]]"
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
 ---
 
 # Calveno — Street Encounters
@@ -47,7 +42,7 @@ Festival context: these are set during or just after [[il-gioco-delle-beffe|Il G
 
 ## 1. The Wrong Mark
 
-**Setup:** A Beffa team — three young Calveno dockworkers with a bucket of fish oil, a rope, and a signed permission slip from someone they have clearly coerced — has targeted one of the party as their mark. They have been following for two blocks. They have the wrong person, and they are about to commit.
+**Setup:** A Beffa team — three young [[calveno|Calveno]] dockworkers with a bucket of fish oil, a rope, and a signed permission slip from someone they have clearly coerced — has targeted one of the party as their mark. They have been following for two blocks. They have the wrong person, and they are about to commit.
 
 > [!read-aloud]
 > The oil lands before the sound reaches you — a wide cold splash from above, and a cheer from the balcony. Three young Calvenans lean over the railing, rope still swinging. The crowd turns. Someone laughs. The smell arrives a moment later: fish, and not the fresh kind.
@@ -135,7 +130,7 @@ Festival context: these are set during or just after [[il-gioco-delle-beffe|Il G
 
 **Delmar:** Any Dravosi officer who has served on this class of cutter will clock the *Uncertainty*'s silhouette. The sergeant has not — he is Canal Commission, not Navy. But DC 14 Charisma (Deception) to maintain the Fisk persona under direct questioning; the sergeant asks the same question twice, slightly differently.
 
-**Jean-Claude:** DC 12 Deception with working papers. DC 15 without. If the sergeant has received a flag notice for a deserter matching his description: DC 17, disadvantage.
+**[[jean-claude-tabarnack|Jean-Claude]]:** DC 12 Deception with working papers. DC 15 without. If the sergeant has received a flag notice for a deserter matching his description: DC 17, disadvantage.
 
 > [!mechanic]
 > **If it goes wrong:** The sergeant calls for two more guards (now 6 total) and asks the party to step to the side. Window for talking out of this closes after three rounds; after that he sends for a lieutenant. Sergeant: Veteran stats (AC 17, HP 58, multiattack, +5 to hit). Guards: AC 16, HP 11, spear +3. The sergeant will not draw first; he will call for backup.

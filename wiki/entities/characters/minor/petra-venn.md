@@ -11,15 +11,8 @@ updated: 2026-05-28
 tags: [stub, minor, calveno, dravosi, tessarine, intelligence]
 sources: ["Inbox/Warren-Ferrin-Locke.md"]
 confidence_level: confirmed
-relationships:
-  - relation: located_in
-    target: "[[calveno|Calveno]]"
-  - relation: handler_of
-    target: "[[ferrin-locke|Ferrin Locke]]"
-  - relation: affiliated_with
-    target: "[[dravosi-crown|Dravosi Crown]]"
 ---
 
 # Petra Venn — Stub
 
-Dravosi handler in [[calveno|Calveno]], operating under Tessarine merchant cover. Has been in place approximately 4 months. Runs [[ferrin-locke|Ferrin Locke]] as an asset. Check-in clock: 9 days. Missing a check-in escalates to extraction or replacement. See [[warren-ferrin-locke|Warren — Ferrin Locke]].
+[[dravosi-crown|Dravosi Crown]] handler in [[calveno|Calveno]], operating under Tessarine merchant cover. Has been in place approximately 4 months. Runs [[ferrin-locke|Ferrin Locke]] as an asset. Check-in clock: 9 days. Missing a check-in escalates to extraction or replacement. See [[warren-ferrin-locke|Warren — Ferrin Locke]].

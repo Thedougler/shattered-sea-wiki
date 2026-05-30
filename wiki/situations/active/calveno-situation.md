@@ -13,20 +13,13 @@ sources: ["Inbox/Calveno.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: location
-    target: "[[calveno|Calveno]]"
 ---
 
 # Calveno — Warren, Salvage, and Ship Disguise
 
 ## Situation
 
-Calveno is useful because Perrin can reach the [[warren|Warren]] here and the party can disguise the [[hcs-surety|HCS Surety]] without using a public dry dock. It is dangerous because the same city is under Tessarine debt pressure, watched by commercial ledgers, and quietly assembling a salvage commission aimed at Delmar's *Red Lady*.
+[[calveno|Calveno]] is useful because Perrin can reach the [[warren|Warren]] here and the party can disguise the [[hcs-surety|HCS Surety]] without using a public dry dock. It is dangerous because the same city is under Tessarine debt pressure, watched by commercial ledgers, and quietly assembling a salvage commission aimed at Delmar's *Red Lady*.
 
 ---
 

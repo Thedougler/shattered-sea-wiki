@@ -11,15 +11,11 @@ updated: 2026-05-27
 tags: [item, creature-parts, shark]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: observed
-relationships:
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — current holder"
-  - "[[studio-orsini|Studio Orsini]] — directed here for sale/trade"
-  - "[[marta-orsini|Marta Orsini]] — the contact"
 ---
 
 # Whip Shark Eggs (×3, fertilized)
 
-Three fertilized eggs recovered by Jean-Claude from the whip shark's body. Directed to [[studio-orsini|Studio Orsini]] by a [[casa-lupo|Casa Lupo]] shopkeeper.
+Three fertilized eggs recovered by [[jean-claude-tabarnack|Jean-Claude Tabarnack]] from the whip shark's body. Directed to [[studio-orsini|Studio Orsini]] by a [[casa-lupo|Casa Lupo]] shopkeeper.
 
 Jean-Claude told [[marta-orsini|Marta Orsini]] he fertilized the egg himself and that "the infant will have multiple extra muscles."
 

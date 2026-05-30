@@ -15,15 +15,6 @@ narrative_island:
 title: Kalowe — Takowan and Ship Disguise
 region: midchain
 confidence_level: high
-relationships:
-  - relation: threatens
-    target: "[[the-passage|The Passage]]"
-  - relation: involves
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: involves
-    target: "[[uncertainty|Uncertainty]]"
 ---
 
 # Kalowe — Takowan and Ship Disguise

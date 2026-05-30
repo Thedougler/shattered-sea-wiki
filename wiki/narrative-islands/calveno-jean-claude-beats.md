@@ -12,22 +12,17 @@ tags: [island, calveno, jean-claude, roleplay]
 sources: ["Inbox/Calveno-Jean-Claude-Beats.md"]
 portable: true
 entry_points:
-  - Jean-Claude moves through the Velo Quarter for any reason
-  - Party needs a roleplay beat without plot setup
+- Jean-Claude moves through the Velo Quarter for any reason
+- Party needs a roleplay beat without plot setup
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-  - relation: location
-    target: "[[calveno|Calveno]]"
 ---
 
 # Calveno — Jean-Claude Beats
 
 ## How to Use This File
 
-The roleplay beat does not require Warren access or plot setup. Drop it through ordinary city movement — Velo Quarter, any errand. Jean-Claude's player doesn't need to have done anything specific to earn it.
+The roleplay beat does not require Warren access or plot setup. Drop it through ordinary [[calveno|Calveno]] city movement — Velo Quarter, any errand. Jean-Claude's player doesn't need to have done anything specific to earn it.
 
 For combat, pull from [[calveno-street-encounters|Calveno — Street Encounters]] (Combat Escalations — Jean-Claude Arc section) when the handler investigation heats up.
 

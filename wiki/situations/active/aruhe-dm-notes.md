@@ -1,21 +1,19 @@
 ---
-title: Aruhe — DM Notes
 type: situation
 subtype: location-hazard
-lifecycle: active
-status: background
-publish: false
 campaign: shattered-sea
+status: background
 audience: dm
-confidence_level: confirmed
+publish: false
 summary: "DM notes for Aruhe — Blight has claimed the interior; Death Bloom dungeon set; Nona's commission is the entry hook. No outward sign visible from sea."
 created: 2026-05-01
 updated: 2026-05-29
-narrative_island: null
 tags: [blight, aruhe, midchain, dungeon, hazard]
-sources:
-  - Inbox/Nona-Midchain-Commission.md
-  - Inbox/Aruhe.md
+sources: [Inbox/Nona-Midchain-Commission.md, Inbox/Aruhe.md]
+lifecycle: active
+narrative_island:
+title: Aruhe — DM Notes
+confidence_level: confirmed
 ---
 
 # Aruhe — DM Notes

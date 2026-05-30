@@ -13,13 +13,6 @@ sources: ["Inbox/Warren.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: involves
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
-  - relation: location
-    target: "[[warren|The Warren]]"
 ---
 
 # The Warren — Active Hub

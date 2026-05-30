@@ -11,11 +11,6 @@ updated: 2026-05-28
 tags: [faction, monastery, high-eyrie, aarakocra]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Sentinels-Of-The-Eyrie.md"]
 confidence_level: confirmed
-relationships:
-  - "[[high-eyrie|High Eyrie]] — monastery"
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — trained under this tradition"
-  - "[[waveservants|Waveservants]] — founded to counter"
-  - "[[the-drowned-maw|The Drowned Maw]] — observation ledger target"
 ---
 
 # Sentinels Of The Eyrie
@@ -41,7 +36,7 @@ Principles:
 
 The Sentinels record weather, water, drift, wrecks, storms, compass failures, ship movements, light anomalies, surface stillness, survivor sightings, and unexplained events. Entries are standardized by date, time, position, weather, water condition, observed event, duration, and circuit observer.
 
-Researchers are sometimes granted access to public records at [[high-eyrie|High Eyrie]]. Few have the patience or context to use what they read.
+Researchers are sometimes granted access to public records at [[high-eyrie|High Eyrie]]. Few have the patience or context to use what they read. [[crissdalynn-khinriss|Crissdalynn Khinriss]] trained under this tradition.
 
 ## Pilgrimage and Needle
 

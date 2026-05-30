@@ -11,15 +11,11 @@ updated: 2026-05-27
 tags: [stub, place, calveno, district]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[nona-black-jaw|Nona Black-Jaw]] — kitchen here"
-  - "[[master-kyzil|Master Kyzil]] — reunion happened here"
-  - "[[calveno|Calveno]] — located within"
 ---
 
 # Le Paludi
 
-District in [[calveno|Calveno]]. [[nona-black-jaw|Nona]]'s kitchen is here. The Kyzil reunion happened on these streets.
+District in [[calveno|Calveno]]. [[nona-black-jaw|Nona]]'s kitchen is here. [[master-kyzil|Master Kyzil]] reunited with Crissdalynn on these streets.
 
 > [!dm]
 > Stub. Expand with district character before running scenes here. Rattkin presence suggested by Nona's location. "Le Paludi" is Italian for "The Marshes" — possibly low-lying, waterfront, or economically marginal.

@@ -11,17 +11,6 @@ updated: 2026-05-28
 tags: [pc, grung, ranger, gloomstalker]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Jean-Claude-Tabarnack.md", "Inbox/Campaign-Timeline.md"]
 confidence_level: confirmed
-relationships:
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — party; her avian appearance sits against his bird phobia"
-  - "[[grung|Grung]] — species; blue caste"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — party"
-  - "[[delmar-fisk|Delmar Fisk]] — party"
-  - "[[simone-tabarnack|Simone Tabarnack]] — younger sister; betrayed him and Pell to their parents; 20 vials in cargo"
-  - "[[pell|Pell]] — gnome friend; tortured to death; still present in every decision"
-  - "[[flask-of-endless-water|Flask of Endless Water]] — carries"
-  - "[[grung-clans|Grung Clans]] — his people; enemy to them now; wants to change them"
-  - "[[verdant-teeth|Verdant Teeth]] — Grung homeland; where he wants to return"
-  - "[[sorn|Sorn]] — fled from here; Simone leads the garrison"
 ---
 
 # Jean-Claude Tabarnack
@@ -39,14 +28,14 @@ Red beret. False black moustache. Worn ranger harness. Compact shortbow.
 
 **The last ordinary day:** He had a plan — petition his parents to make Pell his personal slave, take him hunting to establish companionship, then fake Pell's death and let him go free. He walked to his parents' hut and found his sister, his parents, and Pell already in chains. [[simone-tabarnack|Simone]] had betrayed them. The moment his plan would have worked was already gone.
 
-After Pell's death and the slave escape, he fled east through the [[midchain|Midchain]], living rough for months to avoid leaving a trail. Simone's hunter unit followed one island behind.
+After Pell's death and the slave escape, he fled east through the [[midchain|Midchain]], living rough for months to avoid leaving a trail — keeping ahead of Simone's garrison at [[sorn|Sorn]]. Her hunter unit followed one island behind.
 
 **The secret:** Before his conscience woke, he was a slave-raider. Scout years: identified settlements, acquired slaves, developed ambush tactics, and made the Grung a more effective threat. Did it chasing glory. Was good at it. No one knows.
 
 ## What He Wants
 
 - **Now:** See the world. Find a society not built on slavery.
-- **Long-term:** Return to the [[verdant-teeth|Verdant Teeth]] with enough power and evidence to show his people a better way.
+- **Long-term:** Return to the [[verdant-teeth|Verdant Teeth]] with enough power and evidence to show the [[grung-clans|Grung clans]] a better way.
 - **The pipe dream:** Be the one who changes Grung society forever. Pell taught him that every species has unique strengths and working together is the only way to grow. He's living for both of them now.
 
 **Who he trusts:** No one yet. Hopefully someone, eventually.
@@ -92,12 +81,16 @@ After Pell's death and the slave escape, he fled east through the [[midchain|Mid
 
 **Transparent by nature:** He cannot mask himself, his intentions, or what he is. This reads as mechanical Mortis and social behavior: he is genuinely unsure whether he is bad at talking to people or if something deeper is happening.
 
+## Party
+
+[[perrin-black-jaw|Perrin Black-Jaw]], [[delmar-fisk|Delmar Fisk]], [[crissdalynn-khinriss|Crissdalynn Khinriss]].
+
 ## Simone
 
 His younger sister. She betrayed Pell and him to their parents. A reunion would be a threat and a grief in equal measure. He has twenty vials of her tincture in the cargo and has said nothing to the party. See [[the-canister|The Canister]].
 
 ## Session Events
 
-- **Session 01** — Opened gangplank engagement with Flask of Endless Water geyser, blasting Rook off the plank; identified the Grung toxin canister as Simone's work; said nothing.
+- **Session 01** — Opened gangplank engagement with [[flask-of-endless-water|Flask of Endless Water]] geyser, blasting Rook off the plank; identified the Grung toxin canister as Simone's work; said nothing.
 - **Session 02** — Used the [[truth-stone|Truth Stone]] Beaumont gave him; confirmed three truths: former kinsmen hunted him, he stowed away to survive, nobody sent him. Found twenty vials of Simone's tincture in the HCS Surety cargo; said nothing. Seasick in the storm.
-- **Session 03** — Fell from rigging with Perrin (nat 1); Crissdalynn caught both. Arrowed the whip shark; chest torn open by tail swipe; held on. Shot arrow through shark's anus — killed it. Healed by Grigori (wordless, red viscous light). Recovered 3 fertilized whip shark eggs. Worked hull with Sem Holst for 4 days; Sem quietly fixed what he missed. Changed color green as city disguise; visited [[casa-lupo|Casa Lupo]], then [[studio-orsini|Studio Orsini]] re: eggs. See [[whip-shark-eggs|Whip Shark Eggs]].
+- **Session 03** — Fell from rigging with [[perrin-black-jaw|Perrin]] (nat 1); Crissdalynn caught both. Arrowed the whip shark; chest torn open by tail swipe; held on. Shot arrow through shark's anus — killed it. Healed by Grigori (wordless, red viscous light). Recovered 3 fertilized whip shark eggs. Worked hull with Sem Holst for 4 days; Sem quietly fixed what he missed. Changed color green as city disguise; visited [[casa-lupo|Casa Lupo]], then [[studio-orsini|Studio Orsini]] re: eggs. See [[whip-shark-eggs|Whip Shark Eggs]].

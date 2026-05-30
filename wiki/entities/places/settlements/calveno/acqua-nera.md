@@ -11,13 +11,9 @@ updated: 2026-05-28
 tags: [stub, place, calveno, shipyard]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
 confidence_level: observed
-relationships:
-  - "[[calveno|Calveno]] — location"
-  - "[[dario|Dario]] — operates here"
-  - "[[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — Fast Location Hooks; Scene Menu"
 ---
 
 # Acqua-Nera — Stub
 
 > [!dm]
-> Stub — referenced in [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]]. Dario's yard. Does re-identification work for money and certainty. No warm introduction required. Public approach means the work is observable.
+> Stub — [[calveno|Calveno]] yard run by [[dario|Dario]], referenced in [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]]. Does re-identification work for money and certainty. No warm introduction required. Public approach means the work is observable.

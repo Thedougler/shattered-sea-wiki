@@ -11,23 +11,13 @@ updated: 2026-05-28
 tags: [faction, dravosi, crown, naval]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Dravosi-Crown.md"]
 confidence_level: inferred
-relationships:
-  - "[[barnaby-rook|Barnaby Rook]] — privateer captain, operative"
-  - "[[simone-tabarnack|Simone Tabarnack]] — toxin supplier (DM secret)"
-  - "[[grung-clans|Grung Clans]] — source of toxin supply"
-  - "[[hcs-surety|HCS Surety]] — registered vessel"
-  - "[[crown-islands|Crown Islands]] — colonial claim"
-  - "[[central-strait|Central Strait]] — western inspection force"
-  - "[[tyr|Tyr]] — state faith of military and administration"
-  - "[[tessarine-concordat|Tessarine Concordat]] — rival colonial-commercial power"
-  - "[[the-passage|The Passage]] — hidden infrastructure and rattkin pressure"
 ---
 
 # Dravosi Crown
 
 Imperial Crown authority. First colonial presence in the Shattered Sea established in 1195 DR: claiming the [[crown-islands|Crown Islands]] and placing inspection forces at the western entrance to the [[central-strait|Central Strait]], forming [[tidefall|Port Tidefall]].
 
-Naval presence is enforced through patrol cutters and privateers. Rook operated under their flag. Their boarding crew carried Grung-made toxin sourced from [[simone-tabarnack|Simone Tabarnack]] — the supply arrangement is unknown to the party.
+Naval presence is enforced through patrol cutters and privateers. [[barnaby-rook|Barnaby Rook]] operated under their flag aboard the [[hcs-surety|HCS Surety]]. Their boarding crew carried toxin sourced from the [[grung-clans|Grung Clans]] via [[simone-tabarnack|Simone Tabarnack]] — the supply arrangement is unknown to the party. The [[tessarine-concordat|Tessarine Concordat]] is the competing colonial power; [[the-passage|The Passage]] operates against Crown inspection infrastructure throughout the Scatter.
 
 ## Public Face
 

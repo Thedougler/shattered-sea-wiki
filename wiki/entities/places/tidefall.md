@@ -11,8 +11,6 @@ updated: 2026-05-27
 tags: [stub, place]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[master-kyzil|Master Kyzil]] — searched here for Crissdalynn"
 ---
 
 # Tidefall

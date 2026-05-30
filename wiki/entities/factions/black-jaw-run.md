@@ -11,20 +11,13 @@ updated: 2026-05-28
 tags: [faction, rattkin, passage, black-jaw]
 sources: ["Inbox/Black-Jaw-Run.md", "Inbox/Session-03-Recap.md"]
 confidence_level: confirmed
-relationships:
-  - "[[the-passage|The Passage]] — parent network"
-  - "[[warren|Warren]] — anchor settlement"
-  - "[[nona-black-jaw|Nona Black-Jaw]] — matriarch"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — grandson of the line"
-  - "[[anzolo|Anzolo]] — Passage-adjacent enforcer deployed to find Perrin"
-  - "[[dravosi-crown|Dravosi Crown]] — rival"
 ---
 
 # The Black-Jaw Run
 
 Kin call them the Black-Jaw Run. Outsiders call them the Black-Jaw Family.
 
-They are a travelling family, crew, and route-network within [[the-passage|the Passage]], anchored at [[warren|the Warren]] beneath [[calveno|Calveno]]. They smuggle goods, forge documents, shelter fugitives, bribe officials, move messages, disappear people who need disappearing, and sabotage Crown operations.
+They are a travelling family, crew, and route-network within [[the-passage|the Passage]], anchored at [[warren|the Warren]] beneath [[calveno|Calveno]]. They smuggle goods, forge documents, shelter fugitives, bribe officials, move messages, disappear people who need disappearing, and sabotage [[dravosi-crown|Crown]] operations.
 
 They are also a refugee network, intelligence service, community defense system, and underground bank. [[nona-black-jaw|Nona Black-Jaw]] sees no contradiction.
 

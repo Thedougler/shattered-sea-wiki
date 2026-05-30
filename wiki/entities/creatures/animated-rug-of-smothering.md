@@ -12,11 +12,11 @@ tags: [creature, construct, bestiary, cr2]
 sources: ["Inbox/animated-rug-of-smothering.md"]
 confidence_level: high
 cr: 2
-relationships:
-  - "[[cats-curios|Cat's Curios]] — found in"
 ---
 
 # Animated Rug of Smothering
+
+Found at [[cats-curios|Kat's Curios]] in Calveno.
 
 ```statblock
 layout: Basic 5e Layout

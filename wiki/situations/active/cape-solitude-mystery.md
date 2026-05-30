@@ -15,9 +15,6 @@ narrative_island:
 title: Cape Solitude — Dead Light Mystery
 region: crown-islands
 confidence_level: low
-relationships:
-  - relation: located_at
-    target: "[[calders-tooth|Calder's Tooth]]"
 ---
 
 # Cape Solitude — Dead Light Mystery

@@ -15,12 +15,6 @@ species: human
 pronouns: he/him
 banner: raw/assets/banners/Ensign-Wouters.webp
 portrait: raw/assets/portraits/Ensign-Wouters.webp
-relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — served"
-  - "[[hcs-surety|HCS Surety]] — posted aboard"
-  - "[[barnaby-rook|Barnaby Rook]] — former commanding officer"
-  - "[[delmar-fisk|Delmar Fisk]] — shot by"
-  - "[[ket|Ket]] — body used to lure and free"
 roleplay: "The eager junior officer who organizes things before anyone asks him to and then gets embarrassed when someone notices."
 ---
 
@@ -43,7 +37,7 @@ roleplay: "The eager junior officer who organizes things before anyone asks him 
 
 Barely twenty, uniform almost still correct, quill already out before he's fully through the door. He had the boarding manifests sorted by date before anyone asked him to. He hadn't noticed doing it yet.
 
-He was a Crown-trained navigator — chart work, reef avoidance, Maw crossings. Competent without being exceptional. He had nowhere particular to go when the ship made port and was quietly aware of it.
+He served the [[dravosi-crown|Dravosi Crown]] — Crown-trained navigator, chart work, reef avoidance, Maw crossings. Competent without being exceptional. He had nowhere particular to go when the ship made port and was quietly aware of it.
 
 ## Aboard Ship
 

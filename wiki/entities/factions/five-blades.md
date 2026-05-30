@@ -11,12 +11,6 @@ updated: 2026-05-28
 tags: [faction, mercenary, moucheron, midchain]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Five-Blades.md"]
 confidence_level: inferred
-relationships:
-  - "[[kalowe|Kalowe]] — operates from"
-  - "[[barnaby-rook|Barnaby Rook]] — was investigating their connection to Moucheron"
-  - "[[ket|Ket]] — Rook captured him in context of Five Blades research"
-  - "[[the-flat-water|The Flat Water]] — hire contact"
-  - "[[murrat|Murrat]] — Moucheron homeland"
 ---
 
 # Five Blades
@@ -29,7 +23,7 @@ They take contracts through [[the-flat-water|The Flat Water]] and through factor
 
 - [[varet|Varet]] — contract speaker; quotes rate and feeding clause.
 - [[toa|Toa]] — biggest and most readable; cheerful fight analyst.
-- [[suke|Suke]] — newest out of Murrat; quiet and watchful.
+- [[suke|Suke]] — newest out of [[murrat|Murrat]]; quiet and watchful.
 - [[wirra|Wirra]] — medic; keeps client crews alive after jobs go badly.
 
 ## Working With Them

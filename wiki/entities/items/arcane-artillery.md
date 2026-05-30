@@ -1,8 +1,6 @@
 ---
-title: Arcane Artillery
 type: entity
 subtype: item
-item_type: ship-upgrade
 campaign: shattered-sea
 status: stub
 audience: dm
@@ -13,6 +11,8 @@ updated: 2026-05-29
 tags: [item, ship-upgrade, stub]
 sources: []
 confidence_level: low
+title: Arcane Artillery
+item_type: ship-upgrade
 ---
 
 # Arcane Artillery

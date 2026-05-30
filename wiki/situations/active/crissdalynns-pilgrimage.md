@@ -14,15 +14,6 @@ lifecycle: active
 narrative_island:
 title: Crissdalynn's Pilgrimage
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[crissdalynn-khinriss|Crissdalynn Khinriss]]"
-  - relation: involves
-    target: "[[master-kyzil|Master Kyzil]]"
-  - relation: involves
-    target: "[[high-eyrie|High Eyrie]]"
-  - relation: connected_to
-    target: "[[pearl-of-souls|Maw Pearl Crisis]]"
 ---
 
 # Crissdalynn's Pilgrimage

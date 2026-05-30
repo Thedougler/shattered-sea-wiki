@@ -11,8 +11,6 @@ updated: 2026-05-27
 tags: [stub, deity, aarakocra]
 sources: ["Inbox/Crissdalynn-Khinriss.md"]
 confidence_level: inferred
-relationships:
-  - "[[crissdalynn-khinriss|Crissdalynn Khinriss]] — marginal worshiper"
 ---
 
 # Syranita

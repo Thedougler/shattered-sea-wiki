@@ -11,21 +11,15 @@ updated: 2026-05-28
 tags: [faction, grung, verdant-teeth]
 sources: ["Inbox/Session-01-Recap.md", "Inbox/Jean-Claude-Tabarnack.md", "Inbox/Grung.md", "Inbox/Demographics.md", "Inbox/Grung-Clans.md"]
 confidence_level: confirmed
-relationships:
-  - "[[simone-tabarnack|Simone Tabarnack]] — member, toxin supplier"
-  - "[[dravosi-crown|Dravosi Crown]] — receiving toxin supply"
-  - "[[jean-claude-tabarnack|Jean-Claude Tabarnack]] — former scout; enemy after freeing slaves and fleeing"
-  - "[[verdant-teeth|Verdant Teeth]] — homeland"
-  - "[[the-passage|The Passage]] — refuses bondage and treats Grung raiding as hard line"
 ---
 
 # Grung Clans
 
-The Grung Clans are Jean-Claude's people in the [[verdant-teeth|Verdant Teeth]]. Their society is caste-bound and slaveholding. Jean-Claude knew the system was weak before he had the power to challenge it.
+The Grung Clans are [[jean-claude-tabarnack|Jean-Claude]]'s people in the [[verdant-teeth|Verdant Teeth]]. Their society is caste-bound and slaveholding. Jean-Claude knew the system was weak before he had the power to challenge it.
 
 Jean-Claude served as a scout before his escape. He identified settlements, acquired slaves, developed ambush tactics, and made the clans more effective at raiding. He did it chasing glory before his conscience woke.
 
-The clans produce the toxin compound that [[simone-tabarnack|Simone Tabarnack]] is supplying to the [[dravosi-crown|Dravosi Crown]]. Their broader structure and politics are unknown.
+The clans produce the toxin compound that [[simone-tabarnack|Simone Tabarnack]] is supplying to the [[dravosi-crown|Dravosi Crown]]. Their broader structure and politics are unknown. [[the-passage|The Passage]] treats Grung coastal raiding and bondage as a hard line and does not extend network cooperation into Grung-adjacent routes.
 
 ## Public Structure
 

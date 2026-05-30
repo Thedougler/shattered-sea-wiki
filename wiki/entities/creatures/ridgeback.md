@@ -13,9 +13,6 @@ sources: ["Inbox/Ridgeback.md"]
 confidence_level: high
 cr: 8
 aliases: ["The Ridgeback", "The Roller", "The Hump"]
-relationships:
-  - "[[the-drowned-maw|The Drowned Maw]] — territory"
-  - "[[auralis|Auralis]] — knows something crossed"
 ---
 
 # Ridgeback
@@ -77,7 +74,7 @@ legendary_actions:
 
 ## Overview
 
-The ridgeback is the second entity to follow the Pearl of Souls signal through the Maw fissure. Its type, behaviour, and origin are unknown to anyone in the Shattered Sea. [[auralis|Auralis]] knows something crossed. Beyond that, nothing is established above the waterline.
+The ridgeback is the second entity to follow the Pearl of Souls signal through the fissure at [[the-drowned-maw|The Drowned Maw]]. Its type, behaviour, and origin are unknown to anyone in the Shattered Sea. [[auralis|Auralis]] knows something crossed. Beyond that, nothing is established above the waterline.
 
 It does not ambush. It announces itself. The humps appear on the horizon, roll toward the ship, and close the distance at a pace that is neither slow nor panicked. There is time to make a decision before it arrives.
 

@@ -12,15 +12,10 @@ tags: [island, warren, investigation, espionage, jean-claude]
 sources: ["Inbox/Warren-Ferrin-Locke.md"]
 portable: false
 entry_points:
-  - Nona offers the lead after the reunion scene
-  - The party finds Ferrin's cooperation agreement in Haut's or Venn's room (fast path)
+- Nona offers the lead after the reunion scene
+- The party finds Ferrin's cooperation agreement in Haut's or Venn's room (fast path)
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-  - relation: location
-    target: "[[warren|The Warren]]"
 ---
 
 # Warren — Ferrin Locke
@@ -33,7 +28,7 @@ Three Passage surface operations have been intercepted in the last three months.
 
 ## Strong Start
 
-Deliver through a Warren contact or Nona directly: *"We have three intercepts in three months. They share a canal broker named Faro. Faro's clients include a man named Ferrin Locke — chandlery factor in Le Paludi, mid-tier, clean reputation except for a conviction from twelve years ago. Find out if Locke is the leak and what it costs to close it."*
+Deliver through a [[warren|Warren]] contact or Nona directly: *"We have three intercepts in three months. They share a canal broker named Faro. Faro's clients include a man named Ferrin Locke — chandlery factor in Le Paludi, mid-tier, clean reputation except for a conviction from twelve years ago. Find out if Locke is the leak and what it costs to close it."*
 
 The Tangle does not specify how. They want it stopped and they want the handler identified.
 

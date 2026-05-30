@@ -11,14 +11,6 @@ updated: 2026-05-28
 tags: [faction, rattkin, passage]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Rattkin.md", "Inbox/Demographics.md", "Inbox/Passage.md", "Inbox/Black-Jaw-Run.md"]
 confidence_level: inferred
-relationships:
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — Friend of the Passage (granted by Beaumont)"
-  - "[[beaumont-sel|Beaumont Sel]] — granted Passage status to Perrin"
-  - "[[nona-black-jaw|Nona Black-Jaw]] — operates within"
-  - "[[warren|Warren]] — network origin"
-  - "[[black-jaw-run|Black-Jaw Run]] — Calveno anchor Run"
-  - "[[dravosi-crown|Dravosi Crown]] — bounties and colonial pressure"
-  - "[[grung-clans|Grung Clans]] — caution because of bondage and coastal raids"
 ---
 
 # The Passage
@@ -41,7 +33,7 @@ The Passage moves people, cargo, and information across routes that do not appea
 
 ## One Law
 
-The Passage does not move people in bondage. Cargo can be hidden, messages carried, and people smuggled to freedom. Enslaved people are not a trade good the Passage will handle.
+The Passage does not move people in bondage. Cargo can be hidden, messages carried, and people smuggled to freedom. Enslaved people are not a trade good the Passage will handle. The [[grung-clans|Grung Clans]]' coastal raiding and bondage practices are treated as a hard line; the Passage does not operate where Grung hold routes.
 
 ## Session 03 Update
 

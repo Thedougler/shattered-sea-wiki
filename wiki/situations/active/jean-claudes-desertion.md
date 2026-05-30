@@ -15,15 +15,6 @@ narrative_island:
 title: Jean-Claude — Grung Expansion
 confidence_level: high
 region: midchain
-relationships:
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-  - relation: pursuer
-    target: "[[simone-tabarnack|Simone Tabarnack]]"
-  - relation: connected_to
-    target: "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
-  - relation: terminal_node
-    target: "[[sorn|Sorn]]"
 ---
 
 # Jean-Claude — Grung Expansion

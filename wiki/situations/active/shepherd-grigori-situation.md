@@ -15,13 +15,6 @@ narrative_island:
 title: Shepherd Grigori — World State
 confidence_level: high
 region: calveno
-relationships:
-  - relation: leads
-    target: "[[khlysty|Khlysty]]"
-  - relation: traveled_aboard
-    target: "[[uncertainty|Uncertainty]]"
-  - relation: bound
-    target: Tessarine heir (unnamed, Calveno)
 ---
 
 # Shepherd Grigori — World State

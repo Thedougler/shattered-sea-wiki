@@ -16,13 +16,6 @@ contains_situations: []
 title: Shepherd Grigori
 region: central-strait
 confidence_level: high
-relationships:
-  - relation: leads
-    target: "[[khlysty|Khlysty]]"
-  - relation: creature_type
-    target: Hierarch sorcerer-lich
-  - relation: traveled_aboard
-    target: "[[hcs-surety|HCS Surety]] / [[uncertainty|Uncertainty]]"
 ---
 
 # Shepherd Grigori — Narrative Island

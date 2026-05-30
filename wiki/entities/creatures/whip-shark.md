@@ -13,9 +13,6 @@ sources: ["Inbox/Whip-Shark.md"]
 confidence_level: high
 cr: 6
 aliases: ["Whip Shark", "Welak"]
-relationships:
-  - "[[the-drowned-maw|The Drowned Maw]] — primary hunting ground"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — abyss vision connected to a whip shark"
 ---
 
 # Whip Shark (Welak)

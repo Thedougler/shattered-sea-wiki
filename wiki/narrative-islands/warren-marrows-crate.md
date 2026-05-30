@@ -12,22 +12,17 @@ tags: [island, warren, investigation, espionage]
 sources: ["Inbox/Warren-Marrows-Crate.md"]
 portable: false
 entry_points:
-  - Nona offers the lead after the reunion scene
-  - The party asks about the dead courier through any Calveno canal contact
+- Nona offers the lead after the reunion scene
+- The party asks about the dead courier through any Calveno canal contact
 contains_situations: []
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
-  - relation: location
-    target: "[[marrows|Marrow's]]"
 ---
 
 # Warren — Marrow's Crate
 
 ## Island Premise
 
-Dren, a Dry runner who handled cargo for the Warren's broker network, delivered a crate to Marrow's three weeks ago and never returned. His body was found near the Harbourmaster's Office ten days ago, ruled accidental drowning. The crate is still on Marrow's shelf, its consignment window expiring. The crate contains a letter that implicates House Vretek and Commendant Alessi Brol in feeding Passage cargo timing to Tessarine merchants. The person who killed Dren is still watching the canal approaches.
+Dren, a Dry runner who handled cargo for the Warren's broker network, delivered a crate to Marrow's three weeks ago and never returned. [[nona-black-jaw|Nona Black-Jaw]] can surface this lead after the reunion scene when the consignment window comes up. His body was found near the Harbourmaster's Office ten days ago, ruled accidental drowning. The crate is still on Marrow's shelf, its consignment window expiring. The crate contains a letter that implicates House Vretek and Commendant Alessi Brol in feeding Passage cargo timing to Tessarine merchants. The person who killed Dren is still watching the canal approaches.
 
 ---
 

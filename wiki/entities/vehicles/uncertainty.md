@@ -12,15 +12,6 @@ tags: [vehicle, ship, tier-1, prize, active_arc]
 sources: ["Inbox/Uncertainty.md", "Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md"]
 confidence_level: high
 title: Uncertainty
-relationships:
-  - relation: formerly_was
-    target: "[[hcs-surety|HCS Surety]]"
-  - relation: captained_by
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: refitted_by
-    target: "[[cobb|Cobb]]"
-  - relation: commissioned_by
-    target: "[[nona-black-jaw|Nona Black-Jaw]]"
 ship_class: patrol cutter (private registry)
 captain: "[[delmar-fisk|Delmar Fisk]]"
 home_port: "[[la-vasca|La Vasca]], Calveno"
@@ -29,7 +20,7 @@ tier: 1
 hull_points: 130
 hull_ac: 11
 cssclasses:
-  - wiki-ship
+- wiki-ship
 ---
 
 # Uncertainty

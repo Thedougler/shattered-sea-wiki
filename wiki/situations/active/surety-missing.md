@@ -13,11 +13,6 @@ sources: ["Inbox/Surety-Missing.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[verity-hollowell|Verity Hollowell]]"
-  - relation: involves
-    target: "[[hcs-surety|HCS Surety]]"
 ---
 
 # Surety — Crown and Hollowell Search

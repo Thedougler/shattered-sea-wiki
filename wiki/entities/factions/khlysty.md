@@ -11,17 +11,13 @@ updated: 2026-05-28
 tags: [faction, cult, dm-only, undead, grigori]
 sources: ["Inbox/Khlysty.md"]
 confidence_level: confirmed
-relationships:
-  - "[[shepherd-grigori|Shepherd Grigori]] — shepherd, Korabl, undead source"
-  - "[[dravosi-crown|Dravosi Crown]] — noble courts host many unwitting flock members"
-  - "[[tessarine-concordat|Tessarine Concordat]] — noble and commercial courts used as social infrastructure"
 ---
 
 # The Khlysty
 
 Outsider name. The sect does not call itself this. Among themselves, when they use a name, they say the Flock.
 
-The Khlysty are a secret mystical sect threading through Dravosi and Tessarine noble courts. They leave no shrines, hold no charters, and carry no visible insignia. Their reputation travels privately among desperate families: miraculous cures for dying heirs.
+The Khlysty are a secret mystical sect threading through [[dravosi-crown|Dravosi]] and [[tessarine-concordat|Tessarine]] noble courts. They leave no shrines, hold no charters, and carry no visible insignia. Their reputation travels privately among desperate families: miraculous cures for dying heirs.
 
 The healer arrives. He heals. The healing is real. He asks only to be a guest a while, to eat well, to move on when his business is concluded.
 

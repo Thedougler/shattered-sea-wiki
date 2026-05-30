@@ -13,13 +13,6 @@ sources: ["Inbox/Who-Commissioned-the-Theft.md"]
 lifecycle: active
 narrative_island:
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[cosimo-verantio|Cosimo Verantio]]"
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: involves
-    target: "[[chain-council|Chain Council]]"
 ---
 
 # Who Commissioned the Pearl Theft

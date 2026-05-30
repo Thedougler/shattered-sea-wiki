@@ -15,12 +15,6 @@ title: Bastian Crev
 category: character
 species: human
 aliases: [Bastian]
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — admiral; now carries his soul"
-  - "[[loud-argument|Loud Argument]] — captain"
-  - "[[fisks-fleet|Fisk's Fleet]] — combat specialist"
-  - "[[drowned-maw|Drowned Maw]] — where he died"
-  - "[[umberlee|Umberlee]] — her act pressed his soul into Fisk"
 mortis:
   trigger_forced: "Enemy Deception/Persuasion succeeds against Delmar, or he witnesses powerless person coerced"
   trigger_env: "Black jackdaw — surfaces fast, warm, generous, expansive; may reach for the bird"
@@ -47,7 +41,7 @@ roleplay_prompt: "Nicolas Cage as a pirate captain who prides himself on being i
 
 Bastian captained the *[[loud-argument|Loud Argument]]*, the fleet's combat vessel. The fleet's dedicated fighter, the ship built for close engagement, the bow chasers always prominent from ahead. He commanded the distraction team at the main entrance during the operation: sustained bombardment, spell suppression, trap triggering. His job was to be impossible to ignore, and he was good at it.
 
-He drowned in the Maw when Umberlee closed the water over all five ships. His soul was pressed into Delmar at the moment of sinking.
+He drowned at [[the-drowned-maw|the Maw]] when [[umberlee|Umberlee]] closed the water over all five ships. His soul was pressed into Delmar at the moment of sinking.
 
 ## Role
 

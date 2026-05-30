@@ -11,13 +11,11 @@ updated: 2026-05-27
 tags: [stub, npc, admiral]
 sources: ["Inbox/Session-02-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — Delmar named him as 'a friend'; possible relative"
 ---
 
 # Admiral Fisk
 
 > [!dm]
-> Stub. Delmar said "he had a friend in Admiral Fisk" when speaking to Beaumont at departure. Fisk shares Delmar's surname — possible family connection, but not confirmed by source. Rank is Admiral. Not yet encountered.
+> Stub. [[delmar-fisk|Delmar]] named him as "a friend" when speaking to Beaumont at departure. Fisk shares Delmar's surname — possible family connection, but not confirmed by source. Rank is Admiral. Not yet encountered.
 
 Naval admiral, identity otherwise unknown.

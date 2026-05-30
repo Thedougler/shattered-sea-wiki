@@ -12,16 +12,11 @@ tags: [island, calveno, raid, grung, reference]
 sources: ["Inbox/Calveno-Raid-Signs.md"]
 portable: false
 entry_points:
-  - Ambient — one or two per session day
-  - Jean-Claude recognizes handler behaviour
+- Ambient — one or two per session day
+- Jean-Claude recognizes handler behaviour
 contains_situations:
-  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
+- "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
 confidence_level: high
-relationships:
-  - relation: feeds
-    target: "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
-  - relation: involves
-    target: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
 ---
 
 # Calveno — Raid Prep Signs
@@ -62,7 +57,7 @@ The handlers are already in Calveno. These details are available whenever the pa
 
 ## Jean-Claude — Handler Recognition
 
-Jean-Claude was blue-caste. He ran capture operations. He knows the difference between a Grung enjoying a city and a Grung working one.
+[[jean-claude-tabarnack|Jean-Claude]] was blue-caste. He ran capture operations. He knows the difference between a Grung enjoying a city and a Grung working one.
 
 If Jean-Claude is in any public space, offer him one of these — once per day, quiet and unprompted. Do not offer more than one per session:
 

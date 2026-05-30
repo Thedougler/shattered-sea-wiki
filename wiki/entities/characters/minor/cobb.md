@@ -11,15 +11,11 @@ updated: 2026-05-27
 tags: [stub, npc, rattkin, passage, calveno]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: inferred
-relationships:
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — known contact"
-  - "[[la-vasca|La Vasca]] — works here"
-  - "[[the-passage|The Passage]] — affiliated (La Vasca is Black-Jaw colors)"
 ---
 
 # Cobb
 
-Stocky brown rat. Was at the water's edge at [[la-vasca|La Vasca]] when the *Uncertainty* arrived. Perrin shook his hand, said it was all sorted, and bolted.
+Stocky brown rat. Was at the water's edge at [[la-vasca|La Vasca]] when the *Uncertainty* arrived. [[perrin-black-jaw|Perrin]] shook his hand, said it was all sorted, and bolted.
 
 > [!dm]
-> Stub. Expand before use. Perrin's contact pre-dates the campaign; he knows the dock and apparently expected them. Might know more about Passage activity in Calveno.
+> Stub. Expand before use. Perrin's contact pre-dates the campaign; he knows the dock and apparently expected them. Affiliated with [[the-passage|The Passage]] — La Vasca is Black-Jaw colors.

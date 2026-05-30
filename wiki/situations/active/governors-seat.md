@@ -15,15 +15,6 @@ narrative_island:
 title: Governor's Seat — Voss and the Sealed Orders
 region: crown-islands
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: located_at
-    target: "[[port-tidefall|Port Tidefall]]"
-  - relation: connected_to
-    target: "[[fort-crestwall|Fort Crestwall]]"
-  - relation: connected_to
-    target: "[[the-drowned-maw|Drowned Maw]]"
 ---
 
 # Governor's Seat — Voss and the Sealed Orders

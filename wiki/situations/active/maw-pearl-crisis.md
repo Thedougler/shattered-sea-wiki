@@ -15,17 +15,6 @@ narrative_island:
 title: Maw Pearl Crisis
 region: maw
 confidence_level: high
-relationships:
-  - relation: involves
-    target: "[[delmar-fisk|Delmar Fisk]]"
-  - relation: involves
-    target: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-  - relation: demands_from
-    target: "[[umberlee|Umberlee]]"
-  - relation: guarded_by
-    target: "[[auralis|Auralis]]"
-  - relation: located_at
-    target: "[[the-drowned-maw|Drowned Maw]]"
 ---
 
 # Maw Pearl Crisis

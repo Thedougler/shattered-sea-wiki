@@ -1,5 +1,4 @@
 ---
-title: Oriana Becht
 type: entity
 subtype: npc
 campaign: shattered-sea
@@ -12,6 +11,7 @@ updated: 2026-05-29
 tags: [npc, stub]
 sources: []
 confidence_level: low
+title: Oriana Becht
 ---
 
 # Oriana Becht

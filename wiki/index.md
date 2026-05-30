@@ -623,6 +623,7 @@ sources: []
 - [[fey|Fey]] — Player index for fey creatures of the Shattered Sea — goblins are the primary fey threat in the Scatter's interior islands.
 - [[fiends|Fiends]] — Player index for fiends and fiendish raiders of the Shattered Sea — sahuagin warbands are the primary fiendish threat, raiding from the deep shelf.
 - [[forsworn|Forsworn]] — CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
+- [[gas-spore-fungus|Gas Spore Fungus]] — CR 1/2 fungal plant that explodes on death, releasing spores that infect creatures and reanimate their corpses as tiny gas spore fungi.
 - [[gentle-hag|Gentle Hag]] — CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 - [[giant-ape|Giant Ape]] — The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
 - [[giant-axe-beak|Giant Axe Beak]] — The Giant Axe Beak, a CR 5 monstrosity in the Shattered Sea bestiary.
@@ -665,7 +666,11 @@ sources: []
 - [[mimic|Mimic]] — CR 2 shapechanger monstrosity; disguises itself as mundane objects and grapples prey with adhesive pseudopods.
 - [[monstrosities|Monstrosities]] — Player index for monstrosities of the Shattered Sea — creatures that defy easy classification, part animal, part nightmare.
 - [[moucheron|Moucheron]] — CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on blood. Pays negotiated in bloodletting. Highly social when fed, vicious when starved. Active on Murrat; hires out of Kalowe.
+- [[myconid-adult|Myconid Adult]] — CR 1/2 fungal plant creature; communicates via spores and can merge consciousnesses in a Rapport circle.
+- [[myconid-sovereign|Myconid Sovereign]] — CR 2 fungal plant leader; rules myconid colonies and projects animating spores to reanimate the dead as servants.
+- [[myconid-spore-servant|Myconid Spore Servant]] — CR 1 plant creature animated by myconid sovereign spores; retains no personality, only function.
 - [[necromaton|Necromaton]] — CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated.
+- [[ochre-jelly|Ochre Jelly]] — CR 2 ooze that deals acid damage and splits into smaller jellies when struck by lightning or slashing weapons.
 - [[oozes|Oozes]] — Player index for oozes of the Shattered Sea — mindless dissolving predators of the underdark with no confirmed surface sightings.
 - [[owlbear|Owlbear]] — The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 - [[panther|Panther]] — Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
@@ -673,6 +678,7 @@ sources: []
 - [[pirate|Pirate]] — CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
 - [[pirate-admiral|Pirate Admiral]] — CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction.
 - [[pirate-captain|Pirate Captain]] — CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction.
+- [[plants|Plants]] — Player index for plant creatures and fungi of the Shattered Sea — primarily found in the deep underdark beneath the Scatter.
 - [[primeval-owlbear|Primeval Owlbear]] — A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 - [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
 - [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.

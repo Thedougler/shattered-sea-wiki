@@ -404,3 +404,9 @@ sources: []
 - 2026-05-30 | ingest | black-pudding — new creature page (CR 4 ooze, underdark, DM-only)
 - 2026-05-30 | ingest | monstrosities.md — new player-facing monstrosities index
 - 2026-05-30 | ingest | oozes.md — new player-facing oozes index
+- 2026-05-30 | ingest | ochre-jelly — new creature page (CR 2 ooze, underdark, DM-only)
+- 2026-05-30 | ingest | gas-spore-fungus — new creature page (CR 1/2 plant, underdark, DM-only)
+- 2026-05-30 | ingest | myconid-adult — new creature page (CR 1/2 plant, underdark, DM-only)
+- 2026-05-30 | ingest | myconid-sovereign — new creature page (CR 2 plant, underdark, DM-only)
+- 2026-05-30 | ingest | myconid-spore-servant — new creature page (CR 1 plant, underdark, DM-only)
+- 2026-05-30 | ingest | plants.md — new player-facing plants index

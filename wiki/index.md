@@ -606,6 +606,12 @@ sources: []
 - [[gloom-stalker|Gloom Stalker]] — Ranger subclass (PHB 2024) — Scout/ambush specialist; Umbral Sight grants effective invisibility in darkness; Jean-Claude Tabarnack is a Gloom Stalker.
 - [[great-old-one|Great Old One]] — Warlock subclass (PHB 2024) — alien patron grants telepathy, aberration knowledge, Entropic Ward, and eventually Devouring Blade; Perrin Black-Jaw is a Great Old One Warlock.
 - [[hexblade|Hexblade]] — Warlock subclass (XGtE 2014) — CHA-based weapon attacks, Medium armor, Hexblade's Curse for bonus damage and self-healing; strong melee Warlock foundation.
+- [[hunter-ranger|Hunter]] — Ranger subclass (PHB 2024) — the iconic Ranger; mostly passive features with Hunter's Lore, Hunter's Prey options, and Superior Hunter's Defense. Accessible but low ceiling.
+- [[scion-of-the-three|Scion of the Three]] — Rogue subclass (PHB 2024) — extra Sneak Attack via Reaction (Bloodthirst), deity-based combat buffs (Dread Allegiance), and fear-based crowd control; focused on direct damage.
+- [[soulknife|Soulknife]] — Rogue subclass (PHB 2024) — psionics-based; Psionic Energy Dice pool fuels Psychic Blades, telepathy, and bonus features; reliable and satisfying — benefits even on failed rolls.
+- [[spellfire-sorcery|Spellfire Sorcery]] — Sorcerer subclass (Fiends of Fey & Flame 2024) — divine radiant magic; Spellfire Burst rider effects, Absorb Spells defensive tool, Greater Restoration at 11th level; support-oriented.
+- [[swashbuckler|Swashbuckler]] — Rogue subclass (XGtE 2014) — CHA-based Rogue for duelists and pirates; Fancy Footwork prevents opportunity attacks after melee strikes; Sneak Attack without an ally nearby; Delmar Fisk is a Swashbuckler.
+- [[thief|Thief]] — Rogue subclass (PHB 2024) — iconic Scout Rogue; Fast Hands grants Bonus Action use of magic items; High Jump and Reliable Talent round out a skill-focused build.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

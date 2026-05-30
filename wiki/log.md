@@ -494,3 +494,9 @@ sources: []
 - 2026-05-30 | ingest | rules/subclasses/gloom-stalker — new subclass reference (Jean-Claude)
 - 2026-05-30 | ingest | rules/subclasses/great-old-one — new subclass reference (Perrin)
 - 2026-05-30 | ingest | rules/subclasses/hexblade — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/hunter-ranger — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/scion-of-the-three — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/soulknife — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/spellfire-sorcery — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/swashbuckler — new subclass reference (Delmar Fisk)
+- 2026-05-30 | ingest | rules/subclasses/thief — new subclass reference

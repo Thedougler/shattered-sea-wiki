@@ -582,7 +582,9 @@ sources: []
 - [[player-interests|Player Interests — Shattered Sea]] — Stub — populate after first session. Tracks what each player is engaged with to drive content depth.
 
 ## (root)
+- [[faq|Frequently Asked Questions]] — Public FAQ for using the Shattered Sea campaign wiki, including where to start, how navigation-safety works, and how to use the wiki with a chatbot.
 - [[hot|hot.md — Updated 2026-05-28]] — Current world state, open threads, faction clocks, and predictions. Read first, always.
+- [[hub|The Shattered Sea]] — Player-facing root hub for the Shattered Sea campaign wiki, with onboarding links, rules references, character creation resources, and setting indexes.
 
 ## entities/creatures
 - [[adult-black-dragon|Adult Black Dragon]] — CR 14 chromatic dragon; amphibious acid breather that lairs in the Doldrums' mangrove shallows — a becalmed ship is close to ideal hunting.

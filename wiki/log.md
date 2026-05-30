@@ -422,3 +422,9 @@ sources: []
 - 2026-05-30 | ingest | wiki/entities/characters/minor/index.md — new minor NPCs index
 - 2026-05-30 | archive | Inbox/beastiary/undead/Hierarch.md — wiki version is more recent, no update
 - 2026-05-30 | archive | Inbox/campaign-timeline.md — wiki version is more complete, no update
+- 2026-05-30 | ingest | wiki/entities/characters/npcs/index.md — new recurring NPCs index
+- 2026-05-30 | ingest | wiki/entities/characters/pcs/index.md — new player characters index
+- 2026-05-30 | ingest | wiki/entities/factions/index.md — new factions hub index
+- 2026-05-30 | ingest | wiki/faq.md — new player-facing FAQ
+- 2026-05-30 | ingest | wiki/hub.md — new campaign root hub page
+- 2026-05-30 | ingest | wiki/entities/items/index.md — new items index

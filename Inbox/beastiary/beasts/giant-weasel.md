@@ -1,0 +1,70 @@
+---
+
+title: Giant Weasel
+type: monster
+publish: true
+created: '2026-04-25'
+updated: '2026-05-03'
+summary: Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered
+  Sea bestiary.
+tags:
+- creature
+- beast
+- bestiary
+campaign: shattered-sea
+audience: players
+subtype: monster
+confidence_level: high
+aliases:
+- Giant Weasel
+sources:
+- XPHB
+relationships:
+- relation: listed_in
+  target: Bestiary
+- relation: habitat
+  target: The Crown Islands
+cha: 5
+con: 10
+cr: 1/8
+creature_type: beast
+cssclasses:
+- wiki-monster
+dex: 17
+environment: forest, grassland, hill
+int: 4
+page: 351
+statblock: inline
+str: 11
+wis: 12
+---
+
+# Giant Weasel
+
+```statblock
+layout: Basic 5e Layout
+name: "Giant Weasel"
+size: Medium
+type: beast
+alignment: Unaligned
+ac: 13
+hp: 9
+hit_dice: 2d8
+speed: "40 ft., Climb 30 ft."
+stats: [11, 17, 10, 4, 12, 5]
+skillsaves:
+  - acrobatics: 5
+  - perception: 3
+  - stealth: 5
+senses: "Darkvision 60 ft., Passive Perception 13"
+languages: "—"
+cr: "1/8"
+actions:
+  - name: "Bite"
+    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+```
+
+## Related
+
+- [[giant-constrictor-snake]] — Giant Constrictor Snake
+- [[giant-axe-beak]] — Giant Axe Beak

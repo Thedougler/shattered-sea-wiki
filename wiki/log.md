@@ -327,3 +327,9 @@ sources: []
 - 2026-05-29 | ingest | Flintlock-Pistol — new item page (weapon, homebrew)
 - 2026-05-29 | ingest | Floor-Lodging — new item page (service, Warren)
 - 2026-05-29 | update | Session-04-Run-Guide — added six DM visual aids, embedded scene anchors, normalized hot.md links
+- 2026-05-30 | ingest | boar — new creature page (CR 1/4 beast, Crown Islands habitat)
+- 2026-05-30 | ingest | constrictor-snake — new creature page (CR 1/4 beast, Midchain habitat)
+- 2026-05-30 | ingest | giant-ape — new creature page (CR 7 beast, Verdant Teeth / Midchain, with Shattered Sea prose)
+- 2026-05-30 | ingest | giant-axe-beak — new creature page (CR 5 monstrosity, Crown Islands / Calder's Tooth, with Shattered Sea prose)
+- 2026-05-30 | ingest | giant-bat — new creature page (CR 1/4 beast, Ashwall / Tail / Sunken Crown / Calder's Tooth)
+- 2026-05-30 | ingest | giant-boar — new creature page (CR 2 beast, Crown Islands / Verdant Scatter / Calder's Tooth)

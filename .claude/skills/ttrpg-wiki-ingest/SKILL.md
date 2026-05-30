@@ -1,18 +1,11 @@
 ---
 name: ttrpg-wiki-ingest
 description: >
-  Ingest new Shattered Sea source material into the wiki. Use this skill whenever
-  the user says "ingest", "process this into the wiki", "digest this document",
-  "decompose this source", "link this into the wiki", "what hasn't been ingested",
-  "what's pending", "process the inbox", "catch up the wiki", "clear the backlog",
-  or when new files appear in `Inbox/` or `.raw/`. It finds pending sources with one
-  script, pulls them in batches so a large queue never floods context, pre-compiles
-  each source's cross-link map so the agent spends its window reasoning about content
-  instead of rediscovering the wiki, classifies each source, extracts durable canon
-  without inventing, decomposes the source into the right wiki pages, cross-links them,
-  updates index/log/hot.md, then archives the source so it drops off the queue. This is
-  the general ingestion orchestrator; load the narrower reference files for transcript
-  ingest and decomposition rather than treating them as separate top-level skills.
+  Use when ingesting source material into the Shattered Sea wiki. Triggers: "ingest",
+  "process this into the wiki", "digest this document", "decompose this source",
+  "what hasn't been ingested", "what's pending", "process the inbox", "catch up the
+  wiki", "clear the backlog", or new files appearing in Inbox/. Also use when the user
+  asks about ingest status or wants to check what remains to process.
 ---
 
 # TTRPG Wiki Ingest
@@ -53,36 +46,49 @@ paid a single time, not re-paid per source.
 
 ---
 
-## The Queue Is a Script, Not a Document
+## Dedup Before Anything Else (Mandatory Gate)
 
-One command tells you everything that is left to do:
+**Before reading a single source, run:**
+
+```bash
+python3 .claude/scripts/check_ingest.py --count
+```
+
+This does two things atomically:
+
+1. **Prunes duplicates** — removes any `Inbox/` file whose bytes already exist in `.raw/`
+   (already archived) or that is a duplicate of another pending file. Removals print to stderr.
+2. **Reports the true queue depth** — only genuinely new sources remain. The count printed to
+   stdout is the real work.
+
+If the prune removed tracked files (`git rm`), commit the cleanup before starting ingest:
+
+```bash
+git add Inbox/ && git diff --cached --quiet || git commit -m "fix: prune already-ingested duplicates from Inbox"
+```
+
+**Do not skip this step.** A large Inbox can be 50–70% duplicates. Processing them wastes
+context, produces no wiki output, and risks conflicting writes if a source is half-ingested
+and also present in `.raw/`. The script is cheap (hashes + byte compare); the ingest loop is
+expensive. Gate the expensive work behind the cheap check.
+
+Only after the count is stable (zero removals reported) do you proceed to the ingest loop.
+
+## The Queue
+
+After dedup, the same script gives you your work list:
 
 ```bash
 python3 .claude/scripts/check_ingest.py            # all pending paths, one per line
-python3 .claude/scripts/check_ingest.py --count    # just the number (scan mode)
-python3 .claude/scripts/check_ingest.py --limit 6  # only the next 6 pending paths (a batch)
+python3 .claude/scripts/check_ingest.py --limit 6  # next batch of 6
 ```
 
-It prints one repo-relative path per source that still needs ingesting — every file in
-`Inbox/` whose exact content (by hash) is not yet stored anywhere in `.raw/`. It also
-deduplicates `Inbox/` automatically and safely on each run:
-
-- If an `Inbox/` file is an exact byte-for-byte match for something already in `.raw/`, it is
-  removed because that source was already archived.
-- If multiple `Inbox/` files have the same exact content and none is in `.raw/`, it keeps one
-  deterministic pending source and removes the extra copies.
-
 **No paths printed means the queue is empty and you are done** (it also says `queue clear` on
-stderr). Paths mean those files still need work. `--count` prints only the number, for scan mode.
-Use `--dry-run` to preview duplicate removals without deleting; use `--no-dedupe` only when you
-explicitly need a diagnostic read without cleanup.
+stderr). `--dry-run` previews removals without deleting; `--no-dedupe` skips cleanup for
+diagnostic reads only.
 
-You never need to know what was already ingested, only what remains. The filesystem is the
-source of truth: there is no registry to read, reconcile, or trust, because archiving a
-finished source (step 6) moves it from `Inbox/` into `.raw/`, and that move is exactly what
-removes it from the next run. Ingest fully, archive, and the source disappears from the list.
-Stray duplicates are cleaned during the same queue check, so the loop does not accumulate
-manual tidy work.
+The filesystem is the source of truth. Archiving a finished source (step 6) moves it from
+`Inbox/` into `.raw/`, which removes it from the next run. There is no registry to keep in sync.
 
 ### Pull work in batches, process one source at a time
 
@@ -165,26 +171,36 @@ Read only the file needed for the current task.
 
 | Mode | Trigger | Output |
 |---|---|---|
-| `scan` | "what's pending?", "what hasn't been ingested?" | Count from `check_ingest.py`; recommended next source |
-| `ingest` | "ingest", "process the inbox", "catch up the wiki" | Run the loop below: triage → decompose → write → archive → commit, one source at a time in batches, until the script returns nothing |
+| `scan` | "what's pending?", "what hasn't been ingested?" | Run dedup, report removals + true pending count |
+| `ingest` | "ingest", "process the inbox", "catch up the wiki" | Dedup gate → loop: triage → decompose → write → archive → commit, until queue empty |
 
-For `scan`, run the script and report the count and the recommended next source. Don't dump
-the whole list into chat unless the user asks. For `ingest`, process the queue autonomously in
-priority order without stopping to ask which to do first. The only reasons to pause are a
-genuine lore contradiction or ambiguous entity identity (see the auto-correct protocol in
-`doctrine.md`); flag those, leave that one source in `Inbox/`, and keep going on the rest.
+For `scan`, run the script (which prunes duplicates) and report: how many were pruned, how many
+genuinely remain, and the recommended next source. Don't dump the whole list unless asked.
+
+For `ingest`, run the full dedup gate (step 0), then process the queue autonomously in priority
+order without stopping to ask which to do first. The only reasons to pause are a genuine lore
+contradiction or ambiguous entity identity (see the auto-correct protocol in `doctrine.md`);
+flag those, leave that one source in `Inbox/`, and keep going on the rest.
 
 ---
 
 ## Standard Workflow
 
-This is the per-source body of the loop. Run steps 2–5 for each path in the current batch, then
-finalize the batch once in step 6.
+### 0. Dedup Gate (once per session, before any source work)
+
+Run `python3 .claude/scripts/check_ingest.py --count`. Let it prune. Commit removals if any
+tracked files were cleaned. This is a hard prerequisite — do not proceed to step 1 until the
+gate passes cleanly (the count reflects only genuinely pending sources, and stderr shows no
+further removals on re-run).
 
 ### 1. Preflight (once per session)
 
 Read `wiki/hot.md` for current world state. CLAUDE.md is already in context; load `doctrine.md`
 only if you need the cross-cutting rules.
+
+Then pull your first batch: `python3 .claude/scripts/check_ingest.py --limit 6`
+
+Steps 2–5 run for each path in the current batch; step 6 finalizes the batch.
 
 ### 2. Source Handling
 
@@ -290,13 +306,15 @@ traces visible. Escalate to the DM instead of resolving it.
 For scan mode:
 
 ```markdown
-Pending ingest: N files
+Dedup: removed N already-archived duplicates from Inbox
+Pending ingest: M files
 Recommended next source: ...
 ```
 
 For ingest mode:
 
 ```markdown
+Dedup: removed N duplicates (Inbox 841 → 307 pending)
 Ingested: source path(s) → archived to .raw/<type>/
 Created/Updated: wiki files
 Committed: <commit subject(s)>

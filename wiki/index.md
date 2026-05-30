@@ -527,6 +527,7 @@ sources: []
 - [[mortis|The Mortis]] — Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept.
 - [[mounts-and-vehicles|Mounts and Vehicles]] — PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold.
 - [[navigator-chart-room|Navigator's Chart Room]] — Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
+- [[optimization-meta-2024|Optimization Meta (2024 D&D)]] — DM-facing reference for 2024 5e balance and build optimization — based on RPGBOT meta analysis (December 2025). Subject to change as new supplements release.
 - [[provisions-store|Provisions Store]] — Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
 - [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
 
@@ -590,6 +591,9 @@ sources: []
 
 ## rules/encounter-design
 - [[battlefield-actions|Battlefield Actions]] — Pointy Hat's system for dynamic boss fights: the boss telegraphs a threat at end of its turn, players have a full round to neutralize or mitigate it before resolution.
+
+## rules/subclasses
+- [[aberrant-sorcery|Aberrant Sorcery]] — Sorcerer subclass (PHB 2024) — psionic power derived from alien influence; Psionic Spells, SP-cost casting, Revelation in Flesh, and Warping Implosion.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

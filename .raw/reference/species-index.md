@@ -1,0 +1,42 @@
+---
+title: Species
+publish: true
+visibility: public
+audience: players
+summary: Public index for Shattered Sea playable species references and setting-specific social context.
+type: index
+campaign: shattered-sea
+created: 2026-05-04
+updated: 2026-05-03
+tags:
+  - player-resource
+  - index
+  - playable
+
+---
+# Playable Species
+
+Standard 2024 D&D species are all available. These are the Shattered Sea additions and setting-specific options worth knowing about.
+
+---
+
+**[[Aarakocra|Aarakocra]]** — Winged people with sustained flight, wind magic, and keen sight. Most sailors know them through the [[Sentinels-Of-The-Eyrie|Sentinels of the Eyrie]], which shapes how they're treated in port.
+
+**[[Grung|Grung]]** — Amphibious, poisonous humanoids from the [[Verdant-Teeth|Verdant Teeth]], with caste written in their coloration. A Grung PC comes with immediate questions of caste, exile, and what it means to leave.
+
+**[[Human|Human]]** — Common across colonial ports, free cities, and shipboard crews. Useful for characters rooted in Dravosi, Tessarine, or independent life.
+
+**[[Rattkin|Rattkin]]** — Small, fast, built for tight spaces and improvised survival. Closely tied to [[Passage|the Passage]] and its networks.
+
+**[[Tabaxi|Tabaxi]]** — Feline humanoids with deep roots in the [[Shattered-Sea|Shattered Sea]], especially the Sunken Crown and the eastern islands.
+
+---
+
+For social context around the Grung, see [[Grung-Clans|The Grung Clans]] · [[content/shattered-sea/index|The Shattered Sea]].
+
+For where each species is most commonly found, see [[content/shattered-sea/lore/Demographics|Peoples of the Shattered Sea]].
+
+## Sources
+
+- [[raw/clippings/Species - D&D 5e (2024)|Species — D&D 5e 2024]]
+- [[raw/clippings/DnD 5.5 Species - Character Optimization Guides|DnD 5.5 Species Optimization Guide]]

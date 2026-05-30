@@ -476,3 +476,9 @@ sources: []
 - 2026-05-30 | ingest | rules/conditions/restrained — new condition reference
 - 2026-05-30 | ingest | rules/conditions/stunned — new condition reference
 - 2026-05-30 | ingest | rules/conditions/unconscious — new condition reference
+- 2026-05-30 | ingest | rules/conditions/index.md — new conditions index
+- 2026-05-30 | ingest | lore/index.md — new lore hub index
+- 2026-05-30 | ingest | rules/optimization-meta-2024 — new DM meta reference (2024)
+- 2026-05-30 | ingest | rules/index.md — new public rules index
+- 2026-05-30 | ingest | lore/species/index.md — new species index
+- 2026-05-30 | ingest | rules/subclasses/aberrant-sorcery — new subclass reference

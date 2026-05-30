@@ -440,3 +440,9 @@ sources: []
 - 2026-05-30 | ingest | rules/backgrounds/guide — new background reference
 - 2026-05-30 | ingest | rules/backgrounds/harper — new background reference
 - 2026-05-30 | ingest | rules/backgrounds/hermit — new background reference (Jean-Claude)
+- 2026-05-30 | ingest | rules/backgrounds/merchant — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/noble — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/sage — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/sailor — new background reference (Delmar, Perrin)
+- 2026-05-30 | ingest | rules/backgrounds/scribe — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/soldier — new background reference

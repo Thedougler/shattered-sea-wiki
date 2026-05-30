@@ -542,6 +542,12 @@ sources: []
 - [[guide|Guide]] — D&D 5e 2024 Guide background — Dexterity, Constitution, Wisdom; Magic Initiate (Druid) feat; Stealth and Survival proficiencies.
 - [[harper|Harper]] — D&D 5e 2024 Harper background — Dexterity, Intelligence, Charisma; Harper Agent feat; Performance and Sleight of Hand proficiencies.
 - [[hermit|Hermit]] — D&D 5e 2024 Hermit background — Constitution, Wisdom, Charisma; Healer feat; Medicine and Religion proficiencies.
+- [[merchant|Merchant]] — D&D 5e 2024 Merchant background — Constitution, Intelligence, Charisma; Lucky feat; Animal Handling and Persuasion proficiencies.
+- [[noble|Noble]] — D&D 5e 2024 Noble background — Strength, Intelligence, Charisma; Skilled feat; History and Persuasion proficiencies.
+- [[sage|Sage]] — D&D 5e 2024 Sage background — Constitution, Intelligence, Wisdom; Magic Initiate (Wizard) feat; Arcana and History proficiencies.
+- [[sailor|Sailor]] — D&D 5e 2024 Sailor background — Strength, Dexterity, Wisdom; Tavern Brawler feat; Acrobatics and Perception proficiencies.
+- [[scribe|Scribe]] — D&D 5e 2024 Scribe background — Dexterity, Intelligence, Wisdom; Skilled feat; Investigation and Perception proficiencies.
+- [[soldier|Soldier]] — D&D 5e 2024 Soldier background — Strength, Dexterity, Constitution; Savage Attacker feat; Athletics and Intimidation proficiencies.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

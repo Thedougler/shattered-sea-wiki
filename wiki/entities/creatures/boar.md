@@ -1,28 +1,24 @@
 ---
-title: Boar
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Boar
-sources:
-- XPHB
+title: Boar
+aliases: [Boar]
 cha: 5
 con: 14
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 11
 environment: forest, grassland, hill
 int: 2
@@ -30,7 +26,6 @@ page: 347
 statblock: inline
 str: 13
 wis: 9
-status: unknown
 ---
 
 # Boar

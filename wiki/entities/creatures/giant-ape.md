@@ -1,29 +1,24 @@
 ---
-title: Giant Ape
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-summary: The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Giant Ape
-sources:
-- XMM
-- Homebrew
+title: Giant Ape
+aliases: [Giant Ape]
 cha: 7
 con: 18
 cr: 7
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: forest
 int: 5
@@ -31,7 +26,6 @@ page: 354
 statblock: inline
 str: 23
 wis: 12
-status: unknown
 ---
 
 # Giant Ape

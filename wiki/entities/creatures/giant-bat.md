@@ -1,28 +1,24 @@
 ---
-title: Giant Bat
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Bat, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Bat, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Bat
-sources:
-- XMM
+title: Giant Bat
+aliases: [Giant Bat]
 cha: 6
 con: 11
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: forest, mountain, underdark
 int: 2
@@ -30,7 +26,6 @@ page: 355
 statblock: inline
 str: 15
 wis: 12
-status: unknown
 ---
 
 # Giant Bat

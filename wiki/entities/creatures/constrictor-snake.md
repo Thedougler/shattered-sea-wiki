@@ -1,28 +1,24 @@
 ---
-title: Constrictor Snake
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Constrictor Snake, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Constrictor Snake, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Constrictor Snake
-sources:
-- XPHB
+title: Constrictor Snake
+aliases: [Constrictor Snake]
 cha: 3
 con: 12
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: desert, forest, swamp, underwater
 int: 1
@@ -30,7 +26,6 @@ page: 348
 statblock: inline
 str: 15
 wis: 10
-status: unknown
 ---
 
 # Constrictor Snake

@@ -1,28 +1,24 @@
 ---
-title: Giant Frog
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Frog, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Frog, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Frog
-sources:
-- XMM
+title: Giant Frog
+aliases: [Giant Frog]
 cha: 3
 con: 11
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 13
 environment: forest, swamp
 int: 2
@@ -30,7 +26,6 @@ page: 357
 statblock: inline
 str: 12
 wis: 10
-status: unknown
 ---
 
 # Giant Frog

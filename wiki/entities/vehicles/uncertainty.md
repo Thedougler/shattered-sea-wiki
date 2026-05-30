@@ -20,7 +20,7 @@ tier: 1
 hull_points: 130
 hull_ac: 11
 cssclasses:
-- wiki-ship
+  - wiki-ship
 ---
 
 # Uncertainty

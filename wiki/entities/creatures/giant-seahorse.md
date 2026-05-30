@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Public statblock reference for Giant Seahorse, a CR 1/2 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 tags: [creature, beast, bestiary]
 sources: [XPHB]
 confidence_level: high

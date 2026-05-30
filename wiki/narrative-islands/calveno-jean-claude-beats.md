@@ -12,8 +12,8 @@ tags: [island, calveno, jean-claude, roleplay]
 sources: ["Inbox/Calveno-Jean-Claude-Beats.md"]
 portable: true
 entry_points:
-- Jean-Claude moves through the Velo Quarter for any reason
-- Party needs a roleplay beat without plot setup
+  - Jean-Claude moves through the Velo Quarter for any reason
+  - Party needs a roleplay beat without plot setup
 contains_situations: []
 confidence_level: high
 ---

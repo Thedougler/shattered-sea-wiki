@@ -1,28 +1,24 @@
 ---
-title: Giant Crab
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Crab, a CR 1/8 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Crab, a CR 1/8 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Giant Crab
-sources:
-- XPHB
+title: Giant Crab
+aliases: [Giant Crab]
 cha: 3
 con: 11
 cr: 1/8
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 13
 environment: coastal, underwater
 int: 1
@@ -30,7 +26,6 @@ page: 350
 statblock: inline
 str: 13
 wis: 9
-status: unknown
 ---
 
 # Giant Crab

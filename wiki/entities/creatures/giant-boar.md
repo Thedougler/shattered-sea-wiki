@@ -1,28 +1,24 @@
 ---
-title: Giant Boar
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: The Giant Boar, a CR 2 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-summary: The Giant Boar, a CR 2 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Boar
-sources:
-- XMM
+title: Giant Boar
+aliases: [Giant Boar]
 cha: 5
 con: 16
 cr: 2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: forest, grassland, hill
 int: 2
@@ -30,7 +26,6 @@ page: 355
 statblock: inline
 str: 17
 wis: 7
-status: unknown
 ---
 
 # Giant Boar

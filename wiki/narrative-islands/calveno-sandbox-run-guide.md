@@ -12,18 +12,18 @@ tags: [island, calveno, session-prep, sandbox]
 sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
 portable: false
 entry_points:
-- "La Vasca — ship enters dry dock after Session 03 Calveno approach"
-- "Beffe registration opens the morning after the Surety docks"
+  - "La Vasca — ship enters dry dock after Session 03 Calveno approach"
+  - "Beffe registration opens the morning after the Surety docks"
 contains_situations:
-- "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
-- "[[warren-nonas-table|Warren — Nona's Table]]"
-- "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"
-- "[[warren-marrows-crate|Warren — Marrow's Crate]]"
-- "[[warren-ferrin-locke|Warren — Ferrin Locke]]"
-- "[[red-lady-salvage-money|Red Lady — Salvage Money]]"
-- "[[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]]"
-- "[[calveno-street-encounters|Calveno — Street Encounters]]"
-- "[[calveno-raid-signs|Calveno — Raid Prep Signs]]"
+  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
+  - "[[warren-nonas-table|Warren — Nona's Table]]"
+  - "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"
+  - "[[warren-marrows-crate|Warren — Marrow's Crate]]"
+  - "[[warren-ferrin-locke|Warren — Ferrin Locke]]"
+  - "[[red-lady-salvage-money|Red Lady — Salvage Money]]"
+  - "[[calveno-jean-claude-beats|Calveno — Jean-Claude Beats]]"
+  - "[[calveno-street-encounters|Calveno — Street Encounters]]"
+  - "[[calveno-raid-signs|Calveno — Raid Prep Signs]]"
 confidence_level: high
 ---
 

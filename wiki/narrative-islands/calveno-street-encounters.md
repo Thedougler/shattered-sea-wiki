@@ -12,9 +12,9 @@ tags: [island, calveno, encounters, reference, combat]
 sources: ["Inbox/Calveno-Street-Encounters.md"]
 portable: false
 entry_points:
-- Party moves through city districts
-- Festival escalation
-- Jean-Claude acts on handlers — see Handler Cell entry
+  - Party moves through city districts
+  - Festival escalation
+  - Jean-Claude acts on handlers — see Handler Cell entry
 contains_situations: []
 confidence_level: high
 ---

@@ -12,10 +12,10 @@ tags: [island, calveno, raid, grung, reference]
 sources: ["Inbox/Calveno-Raid-Signs.md"]
 portable: false
 entry_points:
-- Ambient — one or two per session day
-- Jean-Claude recognizes handler behaviour
+  - Ambient — one or two per session day
+  - Jean-Claude recognizes handler behaviour
 contains_situations:
-- "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
+  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
 confidence_level: high
 ---
 

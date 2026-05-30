@@ -17,7 +17,7 @@ tier: 2
 hull_points: 230
 hull_ac: 12
 cssclasses:
-- wiki-ship
+  - wiki-ship
 ---
 
 # The *Red Lady*

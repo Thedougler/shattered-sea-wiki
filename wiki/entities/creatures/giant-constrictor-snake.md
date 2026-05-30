@@ -1,29 +1,24 @@
 ---
-title: Giant Constrictor Snake
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: The Giant Constrictor Snake, a CR 2 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-summary: The Giant Constrictor Snake, a CR 2 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Giant Constrictor Snake
-sources:
-- XMM
-- Homebrew
+title: Giant Constrictor Snake
+aliases: [Giant Constrictor Snake]
 cha: 3
 con: 12
 cr: 2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: desert, forest, swamp, underwater
 int: 1
@@ -31,7 +26,6 @@ page: 355
 statblock: inline
 str: 19
 wis: 10
-status: unknown
 ---
 
 # Giant Constrictor Snake

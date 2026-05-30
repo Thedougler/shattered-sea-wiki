@@ -17,7 +17,7 @@ tier: 1
 hull_points: 120
 hull_ac: 11
 cssclasses:
-- wiki-ship
+  - wiki-ship
 ---
 
 # HCS Surety

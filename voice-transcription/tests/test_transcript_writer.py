@@ -7,7 +7,7 @@ import os
 import tempfile
 import unittest
 
-from transcript_writer import TranscriptWriter
+from voice_transcription.core.transcript_writer import TranscriptWriter
 
 
 class TranscriptWriterTests(unittest.TestCase):

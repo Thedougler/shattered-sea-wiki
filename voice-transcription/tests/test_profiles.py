@@ -14,7 +14,7 @@ import os
 import tempfile
 import unittest
 
-import profiles
+from voice_transcription.core import profiles
 
 
 class VoiceProfileTests(unittest.TestCase):

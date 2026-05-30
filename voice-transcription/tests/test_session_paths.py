@@ -7,7 +7,7 @@ import os
 import tempfile
 import unittest
 
-import session_paths
+from voice_transcription.core import session_paths
 
 
 class ChunkFilenameTests(unittest.TestCase):

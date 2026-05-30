@@ -11,8 +11,8 @@ from __future__ import annotations
 
 import unittest
 
-import profiles
-import speaker_id
+from voice_transcription.core import profiles
+from voice_transcription.core import speaker_id
 
 
 def prof(name: str, player: str, emb: list[float]) -> profiles.VoiceProfile:

@@ -12,13 +12,13 @@ import tempfile
 import unittest
 import wave
 
-import profiles
-from attribute import SpeakerTurn, Word
-from fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber, ListAudioSource
-from run_loop import LoopDeps, run_loop
-from silence_chunker import ChunkerConfig, SilenceChunker
-from speaker_id import SpeakerIdentifier
-from transcript_writer import TranscriptWriter
+from voice_transcription.core import profiles
+from voice_transcription.core.attribute import SpeakerTurn, Word
+from .fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber, ListAudioSource
+from voice_transcription.core.run_loop import LoopDeps, run_loop
+from voice_transcription.core.silence_chunker import ChunkerConfig, SilenceChunker
+from voice_transcription.core.speaker_id import SpeakerIdentifier
+from voice_transcription.core.transcript_writer import TranscriptWriter
 
 
 def prof(name, player, emb):

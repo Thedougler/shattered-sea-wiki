@@ -14,8 +14,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-import vecmath
-from profiles import VoiceProfile
+from . import vecmath
+from .profiles import VoiceProfile
 
 
 @dataclass(frozen=True)

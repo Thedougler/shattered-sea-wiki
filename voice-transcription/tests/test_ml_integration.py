@@ -25,15 +25,14 @@ def tone(freq: float, seconds: float, sample_rate: int = 16000, amp: float = 0.3
 @unittest.skipUnless(RUN, "set RUN_ML_TESTS=1 with the ML stack installed")
 class MlIntegrationTests(unittest.TestCase):
     def test_adapters_import_and_construct(self) -> None:
-        import adapters
+        from voice_transcription.adapters.asr import ParakeetTranscriber
 
-        self.assertTrue(hasattr(adapters, "ParakeetTranscriber"))
-        adapters.ParakeetTranscriber()  # downloads model on first run
+        ParakeetTranscriber()  # downloads model on first run
 
     def test_diarizer_separates_two_distinct_voices(self) -> None:
-        import adapters
+        from voice_transcription.adapters.diarization import PyannoteDiarizer
 
-        diar = adapters.PyannoteDiarizer(num_speakers=2)
+        diar = PyannoteDiarizer(num_speakers=2)
         # Two acoustically distinct segments back to back.
         samples = tone(110.0, 2.0) + tone(330.0, 2.0)
         turns = diar.diarize(samples, 16000)

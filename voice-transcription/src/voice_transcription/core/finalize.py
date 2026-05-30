@@ -17,10 +17,10 @@ from __future__ import annotations
 
 import os
 
-from boundaries import Diarizer, Embedder, Transcriber
-from pipeline import process_chunk
-from render import render_header, render_transcript
-from speaker_id import SpeakerIdentifier
+from .boundaries import Diarizer, Embedder, Transcriber
+from .pipeline import process_chunk
+from .render import render_header, render_transcript
+from .speaker_id import SpeakerIdentifier
 
 
 def finalize_session(

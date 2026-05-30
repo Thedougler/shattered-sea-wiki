@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import unittest
 
-import transcript_parse as tp
+from voice_transcription.core import transcript_parse as tp
 
 
 class ParseLineTests(unittest.TestCase):

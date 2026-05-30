@@ -18,13 +18,13 @@ import sys
 from dataclasses import dataclass, field
 from typing import Callable
 
-import audio_file
-from boundaries import AudioSource, Diarizer, Embedder, Transcriber
-from pipeline import process_chunk
-from session_paths import chunk_audio_filename
-from silence_chunker import AudioChunk, SilenceChunker
-from speaker_id import SpeakerIdentifier
-from transcript_writer import TranscriptWriter
+from . import audio_file
+from .boundaries import AudioSource, Diarizer, Embedder, Transcriber
+from .pipeline import process_chunk
+from .session_paths import chunk_audio_filename
+from .silence_chunker import AudioChunk, SilenceChunker
+from .speaker_id import SpeakerIdentifier
+from .transcript_writer import TranscriptWriter
 
 
 @dataclass
@@ -99,7 +99,7 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - thin CLI w
     parser.add_argument("--threshold", type=float, default=0.5)
     args = parser.parse_args(argv)
     try:
-        from adapters import build_live_deps  # imported lazily; needs ML stack
+        from ..adapters.wiring import build_live_deps  # imported lazily; needs ML stack
     except ImportError as exc:
         sys.stderr.write(
             f"Live capture needs the ML stack. Install requirements.txt first ({exc}).\n"

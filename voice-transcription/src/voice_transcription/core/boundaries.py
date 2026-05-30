@@ -15,7 +15,7 @@ from __future__ import annotations
 
 from typing import Iterator, Protocol
 
-from attribute import SpeakerTurn, Word
+from .attribute import SpeakerTurn, Word
 
 
 class AudioSource(Protocol):

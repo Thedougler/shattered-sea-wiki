@@ -11,8 +11,8 @@ from __future__ import annotations
 
 import unittest
 
-import profile_enhance as pe
-from transcript_parse import TranscriptLine
+from voice_transcription.core import profile_enhance as pe
+from voice_transcription.core.transcript_parse import TranscriptLine
 
 
 def line(char, player, start, *, overlap=False, lc=False, text="words words") -> TranscriptLine:

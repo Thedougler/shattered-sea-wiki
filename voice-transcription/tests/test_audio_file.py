@@ -7,7 +7,7 @@ import os
 import tempfile
 import unittest
 
-import audio_file
+from voice_transcription.core import audio_file
 
 
 class WavRoundTripTests(unittest.TestCase):

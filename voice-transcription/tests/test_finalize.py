@@ -13,11 +13,11 @@ import os
 import tempfile
 import unittest
 
-import profiles
-from attribute import SpeakerTurn, Word
-from fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber
-from finalize import finalize_session
-from speaker_id import SpeakerIdentifier
+from voice_transcription.core import profiles
+from voice_transcription.core.attribute import SpeakerTurn, Word
+from .fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber
+from voice_transcription.core.finalize import finalize_session
+from voice_transcription.core.speaker_id import SpeakerIdentifier
 
 
 def prof(name, player, emb):

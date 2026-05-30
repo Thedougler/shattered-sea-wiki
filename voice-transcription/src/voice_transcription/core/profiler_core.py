@@ -17,12 +17,12 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-import vecmath
-from boundaries import Embedder
-from profile_enhance import aggregate_embedding
-from profile_harvest import harvest_embeddings
-from profiles import ProfileStore, VoiceProfile
-from session_paths import finalized_sessions
+from . import vecmath
+from .boundaries import Embedder
+from .profile_enhance import aggregate_embedding
+from .profile_harvest import harvest_embeddings
+from .profiles import ProfileStore, VoiceProfile
+from .session_paths import finalized_sessions
 
 DEFAULT_SCRIPT_NAME = "default-script.md"
 

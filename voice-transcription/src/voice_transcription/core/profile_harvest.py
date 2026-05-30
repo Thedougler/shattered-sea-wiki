@@ -16,10 +16,10 @@ from __future__ import annotations
 
 import os
 
-import audio_file
-from boundaries import Embedder
-from profile_enhance import select_spans
-from transcript_parse import parse_transcript
+from . import audio_file
+from .boundaries import Embedder
+from .profile_enhance import select_spans
+from .transcript_parse import parse_transcript
 
 
 def _slice(samples: list[float], sample_rate: int, start_s: float, end_s: float) -> list[float]:
@@ -29,7 +29,7 @@ def _slice(samples: list[float], sample_rate: int, start_s: float, end_s: float)
 
 
 def _read_audio_dir(audio_dir: str) -> tuple[list[float], int]:
-    from session_paths import chunk_audio_start_ms
+    from .session_paths import chunk_audio_start_ms
 
     samples: list[float] = []
     sample_rate: int | None = None

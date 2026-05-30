@@ -16,11 +16,11 @@ lines, or to ``Unknown``) and never aborts a four-hour session.
 
 from __future__ import annotations
 
-import render
-from attribute import AttributedSegment, Word, assign_words_to_turns
-from boundaries import Diarizer, Embedder, Transcriber
-from render import RenderedLine
-from speaker_id import SpeakerIdentifier
+from . import render
+from .attribute import AttributedSegment, Word, assign_words_to_turns
+from .boundaries import Diarizer, Embedder, Transcriber
+from .render import RenderedLine
+from .speaker_id import SpeakerIdentifier
 
 
 def _slice(samples: list[float], sample_rate: int, start_s: float, end_s: float) -> list[float]:

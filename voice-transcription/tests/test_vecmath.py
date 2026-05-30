@@ -6,7 +6,7 @@ from __future__ import annotations
 import math
 import unittest
 
-import vecmath
+from voice_transcription.core import vecmath
 
 
 class NormalizeTests(unittest.TestCase):

@@ -9,7 +9,7 @@ wiring lives in ``adapters.build_live_deps``.
 
 from __future__ import annotations
 
-from run_loop import main
+from ..core.run_loop import main
 
 if __name__ == "__main__":  # pragma: no cover
     raise SystemExit(main())

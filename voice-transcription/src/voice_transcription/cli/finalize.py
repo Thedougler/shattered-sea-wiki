@@ -23,8 +23,8 @@ import sys
 
 def _read_wavs_concatenated(audio_dir: str) -> tuple[list[float], int]:  # pragma: no cover
     """Rebuild the session timeline from chunk wavs, preserving silent gaps."""
-    from audio_file import read_wav
-    from session_paths import chunk_audio_start_ms
+    from ..core.audio_file import read_wav
+    from ..core.session_paths import chunk_audio_start_ms
 
     samples: list[float] = []
     sample_rate: int | None = None
@@ -58,7 +58,7 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI/ML wir
     sessions_dir = os.path.join(args.wiki, "sessions")
     live_dir = os.path.join(sessions_dir, ".live")
 
-    from session_paths import session_paths_for
+    from ..core.session_paths import session_paths_for
 
     paths = session_paths_for(live_dir, args.session)
     if not os.path.isdir(paths.audio_dir):
@@ -66,10 +66,12 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI/ML wir
         return 1
 
     try:
-        from adapters import PyannoteDiarizer, PyannoteEmbedder, ParakeetTranscriber
-        from finalize import finalize_session
-        from profiles import ProfileStore
-        from speaker_id import SpeakerIdentifier
+        from ..adapters.diarization import PyannoteDiarizer
+        from ..adapters.embedding import PyannoteEmbedder
+        from ..adapters.asr import ParakeetTranscriber
+        from ..core.finalize import finalize_session
+        from ..core.profiles import ProfileStore
+        from ..core.speaker_id import SpeakerIdentifier
     except ImportError as exc:
         sys.stderr.write(f"Finalization needs the ML stack (install requirements.txt): {exc}\n")
         return 1
@@ -79,7 +81,10 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI/ML wir
     except ValueError as exc:
         sys.stderr.write(f"{exc}\n")
         return 1
-    profiles_dir = args.profiles_dir or os.path.join(os.path.dirname(__file__), os.pardir, "profiles")
+    profiles_dir = args.profiles_dir or os.path.join(
+        os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))),
+        "profiles",
+    )
     enrolled = ProfileStore(profiles_dir).load_all()
     auth = os.environ.get("HF_TOKEN")
     out_path = os.path.join(sessions_dir, f"session-{args.session:02d}-transcript.md")

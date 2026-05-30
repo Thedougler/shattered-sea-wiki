@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import unittest
 
-from silence_chunker import ChunkerConfig, SilenceChunker
+from voice_transcription.core.silence_chunker import ChunkerConfig, SilenceChunker
 
 
 def speech(n: int, amp: float = 0.5) -> list[float]:
@@ -24,12 +24,12 @@ def silence(n: int) -> list[float]:
 
 class FrameRmsTests(unittest.TestCase):
     def test_silence_is_near_zero(self) -> None:
-        from silence_chunker import frame_rms
+        from voice_transcription.core.silence_chunker import frame_rms
 
         self.assertAlmostEqual(frame_rms(silence(100)), 0.0)
 
     def test_speech_is_above_zero(self) -> None:
-        from silence_chunker import frame_rms
+        from voice_transcription.core.silence_chunker import frame_rms
 
         self.assertGreater(frame_rms(speech(100)), 0.1)
 

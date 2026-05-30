@@ -5,9 +5,9 @@ from __future__ import annotations
 
 import unittest
 
-import render
-from attribute import AttributedSegment, Word
-from render import RenderedLine
+from voice_transcription.core import render
+from voice_transcription.core.attribute import AttributedSegment, Word
+from voice_transcription.core.render import RenderedLine
 
 
 def seg(speaker: str, texts: list[tuple[str, float]], overlap: bool = False) -> AttributedSegment:

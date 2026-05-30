@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import os
 
-from render import render_header
+from .render import render_header
 
 
 class TranscriptWriter:

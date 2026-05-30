@@ -11,8 +11,8 @@ import os
 import tempfile
 import unittest
 
-import audio_file
-import profile_harvest as ph
+from voice_transcription.core import audio_file
+from voice_transcription.core import profile_harvest as ph
 
 
 class ContentEmbedder:

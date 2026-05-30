@@ -7,8 +7,8 @@ import os
 import tempfile
 import unittest
 
-import audio_file
-import finalize_session as finalize_cli
+from voice_transcription.core import audio_file
+from voice_transcription.cli import finalize as finalize_cli
 
 
 class ReadWavsConcatenatedTests(unittest.TestCase):

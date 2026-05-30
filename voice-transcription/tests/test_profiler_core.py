@@ -12,9 +12,9 @@ import os
 import tempfile
 import unittest
 
-import profiles
-import profiler_core
-from fakes import FakeEmbedder
+from voice_transcription.core import profiles
+from voice_transcription.core import profiler_core
+from .fakes import FakeEmbedder
 
 
 def prof(name, player, emb):
@@ -94,7 +94,7 @@ class EnrollWithCorrectionTests(unittest.TestCase):
     """End-to-end: enroll harvests a character's spans from corrected sessions."""
 
     def _build_corrected_session(self, sessions_dir: str) -> None:
-        import audio_file
+        from voice_transcription.core import audio_file
 
         live_audio = os.path.join(sessions_dir, ".live", "session-03", "audio")
         os.makedirs(live_audio)

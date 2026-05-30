@@ -25,8 +25,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-import vecmath
-from transcript_parse import TranscriptLine
+from . import vecmath
+from .transcript_parse import TranscriptLine
 
 
 def select_spans(

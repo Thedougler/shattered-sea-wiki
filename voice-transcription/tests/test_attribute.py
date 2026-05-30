@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import unittest
 
-from attribute import AttributedSegment, SpeakerTurn, Word, assign_words_to_turns
+from voice_transcription.core.attribute import AttributedSegment, SpeakerTurn, Word, assign_words_to_turns
 
 
 def w(text: str, start: float, end: float) -> Word:

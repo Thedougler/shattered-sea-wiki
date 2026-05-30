@@ -10,11 +10,11 @@ from __future__ import annotations
 
 import unittest
 
-import profiles
-from attribute import SpeakerTurn, Word
-from fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber
-from pipeline import process_chunk
-from speaker_id import SpeakerIdentifier
+from voice_transcription.core import profiles
+from voice_transcription.core.attribute import SpeakerTurn, Word
+from .fakes import FakeDiarizer, FakeEmbedder, FakeTranscriber
+from voice_transcription.core.pipeline import process_chunk
+from voice_transcription.core.speaker_id import SpeakerIdentifier
 
 
 def prof(name, player, emb):

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from typing import Iterator
 
-from attribute import SpeakerTurn, Word
+from voice_transcription.core.attribute import SpeakerTurn, Word
 
 
 class ListAudioSource:

@@ -14,7 +14,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from attribute import AttributedSegment
+from .attribute import AttributedSegment
 
 
 @dataclass(frozen=True)

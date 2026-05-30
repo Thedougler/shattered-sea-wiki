@@ -9,6 +9,18 @@ from player_view.models.state import ChatMessage, SessionState
 
 _state = SessionState()
 
+_SPEAKER_COLORS: dict[str, str] = {}
+_PALETTE = [
+    '#e74c3c', '#3498db', '#2ecc71', '#e67e22', '#9b59b6',
+    '#1abc9c', '#f39c12', '#e91e63', '#00bcd4', '#8bc34a',
+]
+
+
+def _speaker_color(name: str) -> str:
+    if name not in _SPEAKER_COLORS:
+        _SPEAKER_COLORS[name] = _PALETTE[len(_SPEAKER_COLORS) % len(_PALETTE)]
+    return _SPEAKER_COLORS[name]
+
 
 class MessagePayload(BaseModel):
     speaker: str
@@ -54,7 +66,9 @@ def session_page():
 
     VISIBLE_MESSAGES = 30
 
-    message_container = ui.column().classes('w-full p-4 gap-1')
+    message_container = ui.column().classes(
+        'w-full p-4 gap-1 session-messages scroll-hidden'
+    ).style('height: calc(100vh - 100px);')
 
     rendered = {'count': 0}
 
@@ -74,10 +88,16 @@ def session_page():
         message_container.clear()
         with message_container:
             for msg in tail:
-                with ui.column().classes('chat-message').style('background: #1a1a2e'):
-                    ui.label(msg.speaker).classes('chat-speaker')
-                    ui.label(msg.text).style('color: #e8e6e3')
+                color = _speaker_color(msg.speaker)
+                with ui.column().classes('chat-message chat-message-new').style(
+                    f'border-left-color: {color}'
+                ):
+                    ui.label(msg.speaker).classes('chat-speaker').style(f'color: {color}')
+                    ui.label(msg.text).classes('chat-text')
         rendered['count'] = total
-        ui.run_javascript('window.scrollTo(0, document.body.scrollHeight)')
+        ui.run_javascript('''
+            const c = document.querySelector('.session-messages');
+            if (c) c.scrollTo({top: c.scrollHeight, behavior: 'smooth'});
+        ''')
 
     ui.timer(0.5, refresh)

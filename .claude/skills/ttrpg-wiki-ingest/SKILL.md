@@ -93,6 +93,28 @@ Load domain skills only when the source produces that content:
 
 ## Per-Source Processing
 
+**Your job is this batch. Not the queue.**
+
+Once you pull a batch, the total queue depth is irrelevant. You will never be asked to finish
+all 200+ sources in one session — the script handles resumption. What you are asked to do is
+ingest each source in this batch at full quality. The 7th source deserves the same reciprocal
+links, the same `ingest_packet.py` run, the same reference-file consultation, and the same
+decomposition depth as the 1st.
+
+Quality shortcuts that surface under queue pressure — catch yourself:
+
+| Temptation | What actually happens if you yield |
+|---|---|
+| Skip `ingest_packet.py` ("I know the connections") | Miss existing pages, create duplicate stubs |
+| Thin reciprocal links ("minor entity") | Wiki graph becomes sparse and one-directional |
+| Skip reference files ("I already know the pattern") | Format drift, missed edge cases |
+| Summarize instead of decompose | Claims lose granularity, become un-linkable |
+| Stub when source has extractable content | Information buried, never surfaces |
+| Vague log/commit messages | Future queries can't find what changed |
+
+None of these save meaningful time. They trade durable wiki quality for the feeling of
+progress. The queue shrinks at the same rate either way — one batch per pass.
+
 For every source, regardless of queue depth:
 
 ### 1. Read and Classify

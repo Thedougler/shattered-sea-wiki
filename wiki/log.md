@@ -350,3 +350,9 @@ sources: []
 - 2026-05-30 | ingest | giant-toad — new creature page (CR 1 beast, Karath)
 - 2026-05-30 | ingest | giant-venomous-snake — new creature page (CR 1/4 beast, Verdant Scatter / Karath / Verdant Teeth / Aruhe / Veth)
 - 2026-05-30 | ingest | giant-vulture — new creature page (CR 1 monstrosity, Ashwall Islands / Tail / Meth-Var)
+- 2026-05-30 | ingest | giant-wasp — new creature page (CR 1/2 beast, Doldrums / Kalowe / Sorn / Dreth)
+- 2026-05-30 | ingest | giant-weasel — new creature page (CR 1/8 beast, Crown Islands)
+- 2026-05-30 | ingest | giant-wolf-spider — new creature page (CR 1/4 beast, Crown Islands / Ral-Arn / Calder's Tooth / Keth-Naar)
+- 2026-05-30 | ingest | owlbear — new creature page (CR 3 monstrosity, Crown Islands)
+- 2026-05-30 | ingest | panther — new creature page (CR 1/4 beast, Verdant Teeth)
+- 2026-05-30 | ingest | beasts.md — new player-facing bestiary index, all wikilinks corrected

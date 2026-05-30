@@ -576,6 +576,7 @@ sources: []
 
 ## dm
 - [[combat-analytics|Combat Analytics — Shattered Sea]] — [stub] Stub — populate after first combats. Empirical combat data to calibrate encounter design.
+- [[daily-log|Daily Update Log]] — Log of autonomous daily wiki maintenance runs.
 - [[jean-claude-primer|Jean-Claude Primer]] — Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers.
 - [[perrin-primer|Perrin Primer]] — Agent quick reference for spotlighting and fairly pressuring Perrin's ranged play, water mobility, avoidance, and family/patron hooks.
 - [[player-interests|Player Interests — Shattered Sea]] — Stub — populate after first session. Tracks what each player is engaged with to drive content depth.
@@ -590,6 +591,7 @@ sources: []
 - [[animated-rug-of-smothering|Animated Rug of Smothering]] — CR 2 construct. Grapples and suffocates one Medium or smaller creature; halves damage taken while grappling.
 - [[apotheosis|Apotheosis]] — CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die.
 - [[arclight-phoenix|Arclight Phoenix]] — CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall.
+- [[beasts|Beasts]] — Player index for beasts, swarms, and natural predators of the Shattered Sea.
 - [[blight|Blight]] — Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 - [[boar|Boar]] — Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[constrictor-snake|Constrictor Snake]] — Public statblock reference for Constrictor Snake, a CR 1/4 beast in the Shattered Sea bestiary.
@@ -623,6 +625,9 @@ sources: []
 - [[giant-toad|Giant Toad]] — Public statblock reference for Giant Toad, a CR 1 beast in the Shattered Sea bestiary.
 - [[giant-venomous-snake|Giant Venomous Snake]] — Public statblock reference for Giant Venomous Snake, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[giant-vulture|Giant Vulture]] — Public statblock reference for Giant Vulture, a CR 1 monstrosity in the Shattered Sea bestiary.
+- [[giant-wasp|Giant Wasp]] — Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
+- [[giant-weasel|Giant Weasel]] — Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
+- [[giant-wolf-spider|Giant Wolf Spider]] — Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
@@ -630,6 +635,8 @@ sources: []
 - [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
 - [[moucheron|Moucheron]] — CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on blood. Pays negotiated in bloodletting. Highly social when fed, vicious when starved. Active on Murrat; hires out of Kalowe.
 - [[necromaton|Necromaton]] — CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated.
+- [[owlbear|Owlbear]] — The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
+- [[panther|Panther]] — Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[pirate|Pirate]] — CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
 - [[pirate-admiral|Pirate Admiral]] — CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction.
 - [[pirate-captain|Pirate Captain]] — CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction.

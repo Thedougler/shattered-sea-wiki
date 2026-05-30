@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Append-only structural and ingest change log for the Shattered Sea wiki."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [system, log]
 sources: []
 ---
@@ -332,4 +332,9 @@ sources: []
 - 2026-05-30 | ingest | giant-ape — new creature page (CR 7 beast, Verdant Teeth / Midchain, with Shattered Sea prose)
 - 2026-05-30 | ingest | giant-axe-beak — new creature page (CR 5 monstrosity, Crown Islands / Calder's Tooth, with Shattered Sea prose)
 - 2026-05-30 | ingest | giant-bat — new creature page (CR 1/4 beast, Ashwall / Tail / Sunken Crown / Calder's Tooth)
-- 2026-05-30 | ingest | giant-boar — new creature page (CR 2 beast, Crown Islands / Verdant Scatter / Calder's Tooth)
+- 2026-05-30 | ingest | giant-boar — new creature page (CR 2 beast, Crown Islands / Verdant Scatter / Calder's Tooth)- 2026-05-30 | ingest | giant-centipede — new creature page (CR 1/4 beast, Sorn habitat)
+- 2026-05-30 | ingest | giant-constrictor-snake — new creature page (CR 2 beast, Midchain / Verdant Teeth, with Shattered Sea prose)
+- 2026-05-30 | ingest | giant-crab — new creature page (CR 1/8 beast, Crown Islands habitat)
+- 2026-05-30 | ingest | giant-crocodile — new creature page (CR 5 beast, Dreth-Orak channel, with Shattered Sea prose)
+- 2026-05-30 | ingest | giant-eagle — new creature page (CR 1 celestial, High Eyrie habitat)
+- 2026-05-30 | ingest | giant-frog — new creature page (CR 1/4 beast, Sorn / Verdant Teeth / Veth / Aruhe)

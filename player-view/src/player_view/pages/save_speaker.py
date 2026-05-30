@@ -8,23 +8,25 @@ from player_view.components.teleprompter import Teleprompter
 from player_view import services
 from player_view.models.voice_profile import VoiceProfile
 
-DEFAULT_SCRIPT = (
-    "I'm reading a series of increasingly terrible tongue twisters "
-    "without breaking character. Thirty seconds is all it takes, "
-    "but more is better. Here we go. "
-    "She sells seashells by the seashore. "
-    "Red leather yellow leather, red leather yellow leather. "
-    "The sixth sick sheik's sixth sheep is sick. "
-    "A proper copper coffee pot. "
-    "How much wood would a woodchuck chuck if a woodchuck could chuck wood? "
-    "Honestly this is going great, keep talking, the machine is listening."
-)
+def _build_script(name: str) -> str:
+    who = f"I'm {name}" if name else "I'm"
+    return (
+        f"{who} reading a series of increasingly terrible tongue twisters "
+        "without breaking character. Thirty seconds is all it takes, "
+        "but more is better. Here we go. "
+        "She sells seashells by the seashore. "
+        "Red leather yellow leather, red leather yellow leather. "
+        "The sixth sick sheik's sixth sheep is sick. "
+        "A proper copper coffee pot. "
+        "How much wood would a woodchuck chuck if a woodchuck could chuck wood? "
+        "Honestly this is going great, keep talking, the machine is listening."
+    )
 
 
 @ui.page('/save-speaker')
 def save_speaker_page():
     apply_theme()
-    teleprompter = Teleprompter(script_text=DEFAULT_SCRIPT)
+    teleprompter = Teleprompter(script_text=_build_script(''))
     state = {
         'recording': False, 'matching': False, 'last_match': 0.0,
         'level': 1,
@@ -34,7 +36,12 @@ def save_speaker_page():
     }
 
     with operator_header('Save Speaker'):
-        name_input = ui.input('Name').props('dense').classes('w-36')
+        def _on_name_change(e):
+            if not state['recording']:
+                teleprompter.set_script(_build_script(e.value.strip()))
+                state['chunk_size'] = teleprompter.word_count
+
+        name_input = ui.input('Name', on_change=_on_name_change).props('dense').classes('w-36')
         record_btn = ui.button('REC', on_click=lambda: start(), color='red').props('dense')
         stop_btn = ui.button('STOP & SAVE', on_click=lambda: stop(), color='green').props('dense')
         stop_btn.set_visibility(False)
@@ -137,8 +144,16 @@ def save_speaker_page():
     ui.timer(2.0, poll_match)
 
     def start():
+        name = name_input.value.strip()
+        teleprompter.set_script(_build_script(name))
         state['recording'] = True
         state['last_match'] = 0.0
+        state['level'] = 1
+        state['chunk_start'] = 0
+        state['chunk_size'] = teleprompter.word_count
+        state['generating'] = False
+        level_badge.content = '<span class="level-badge">LVL 1</span>'
+
         status_label.text = 'recording...'
         status_label.style('color: #f44336')
         record_btn.set_visibility(False)

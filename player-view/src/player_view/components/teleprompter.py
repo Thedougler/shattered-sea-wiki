@@ -82,6 +82,13 @@ class Teleprompter:
             parts.append(f' <span class="draft-text">{draft}</span>')
         self._raw_element.content = ''.join(parts) or '&nbsp;'
 
+    def set_script(self, text: str):
+        self._original_words = text.split() if text else []
+        self.script_words = list(self._original_words)
+        self.finalized_count = 0
+        self.draft_count = 0
+        self._refresh_script()
+
     def reset(self):
         self.script_words = list(self._original_words)
         self.finalized_count = 0

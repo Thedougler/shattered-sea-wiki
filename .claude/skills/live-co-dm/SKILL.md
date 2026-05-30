@@ -23,8 +23,9 @@ description: >
 This skill has two distinct users:
 
 - **The agent (you), live at the table** — give the DM fast, concise improv help.
-- **The human DM, with the bundled scripts** — capture voice profiles and transcribe
-  the session. You do not run these for them; you point them to the reference docs.
+- **The human DM, with the voice-transcription tools** — capture voice profiles and
+  transcribe the session. You do not run these for them; you point them to the right
+  doc. The tools live in `voice-transcription/` at the repo root.
 
 ---
 
@@ -67,14 +68,15 @@ When you need the deeper grounding/agency contract, read `references/co-dm-behav
 ## Mode B — The DM's voice tools (you point, you don't run)
 
 If the DM asks about voices or transcription, route them to the right doc and the
-right command. These need the one-time setup in `references/setup.md` (Python venv +
-`requirements.txt`, Hugging Face token, pyannote license acceptance, mic permission).
+right command. The tools live in the `voice-transcription/` project at the repo root.
+They need the one-time setup described in the project README (Python venv + HF token +
+mic permission).
 
 | The DM wants to… | Point them to | Command |
 |---|---|---|
-| Save / improve a character's voice profile | `references/voice-profiler.md` | `voice_profiler.py --name "Grigori" --player "Dave"` |
-| Transcribe a live session (4h+) | `references/transcription.md` | `transcribe_session.py --session 4 --speakers 5` |
-| Produce the canonical transcript | `references/transcription.md` | `finalize_session.py --session 4 --speakers 5` |
+| Save / improve a character's voice profile | `references/voice-profiler.md` | `./save_voice.sh --name "Grigori" --player "Dave"` |
+| Transcribe a live session (4h+) | `references/transcription.md` | `./transcribe_session.sh --session 4 --speakers 5` |
+| Produce the canonical transcript | `references/transcription.md` | `./finalize_session.sh --session 4 --speakers 5` |
 
 **Why two passes:** the live run gives a provisional transcript during play; the
 finalize pass re-diarizes the *whole* recording at once with the known speaker count
@@ -91,19 +93,14 @@ and outliers rejected, so correction only sharpens. The loop: correct a session 
 
 ---
 
-## Bundled scripts (reference)
+## Bundled scripts (this skill only)
 
 | Script | Role | Tested |
 |---|---|---|
 | `latest_session_context.py` | Fast mid-session context bundle | yes |
-| `transcribe_session.py` (`run_loop.py`) | Continuous live capture loop | core: yes |
-| `finalize_session.py` (`finalize.py`) | Offline canonical re-pass | core: yes |
-| `voice_profiler.py` (`profiler_core.py`) | Teleprompter + enrollment + correction | core: yes |
-| `profile_harvest.py` / `profile_enhance.py` / `transcript_parse.py` | Harvest + fold corrected audio into profiles | yes |
-| `vecmath / attribute / speaker_id / render / silence_chunker / profiles / session_paths / transcript_writer / pipeline / audio_file` | Pure logic | yes |
-| `adapters.py` | Thin Parakeet/pyannote/sounddevice/NiceGUI wrappers | manual + opt-in ML |
 
-Run the unit suite (no ML stack needed):
+All voice/transcription code has moved to `voice-transcription/` at the repo root.
+Run its test suite with:
 ```bash
-cd .claude/skills/live-co-dm/scripts && python3 -m unittest discover -s . -p 'test_*.py'
+cd voice-transcription && pip install -e ".[dev]" && pytest tests/
 ```

@@ -23,7 +23,7 @@ is for running the tooling.
 | `wiki/system/` | Doctrine, party primers, routing rules (agent-facing reference). |
 | `.claude/skills/` | Claude Code skills (campaign prep, ingest, lint, live co-DM). |
 | `.claude/scripts/` | Pure-stdlib maintenance scripts (index regen, frontmatter, ingest helpers). |
-| `.claude/skills/live-co-dm/scripts/` | The voice-profile + transcription Python tools (this README's main subject). |
+| `voice-transcription/` | The voice-profile + transcription Python tools (this README's main subject). |
 | `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
 
 ---
@@ -44,14 +44,14 @@ Open the repo root as an Obsidian vault. Conventions worth knowing:
 
 ---
 
-## Voice & transcription tools (live-co-dm)
+## Voice & transcription tools
 
-These are the scripts you run by hand. They capture per-character **voice profiles**, then
+These are the tools you run by hand. They capture per-character **voice profiles**, then
 **transcribe a 4-hour+ session** with overlap-aware speaker separation tuned for a noisy
 table (≈5 players, heavy crosstalk, each voicing several characters).
 
-All paths below are relative to the repo root. Apple Silicon required (Parakeet via MLX +
-pyannote on MPS/CPU).
+The code lives in `voice-transcription/` — a proper Python package with `pyproject.toml`.
+Apple Silicon required (Parakeet via MLX + pyannote on MPS/CPU).
 
 Three convenience wrappers live at the repo root — **start here**. Each one creates the
 virtualenv, installs dependencies on first run, reads `HF_TOKEN` from `.env`, and then runs
@@ -63,16 +63,13 @@ the underlying Python tool. Flags pass straight through.
 ./finalize_session.sh   --session 4 --speakers 5
 ```
 
-The manual setup below is only needed if you want to run the Python scripts directly or
-understand what the wrappers do.
-
 ### One-time setup
 
 ```bash
 # 1. Virtualenv + dependencies (the venv is gitignored)
-python3 -m venv .claude/skills/live-co-dm/.venv
-source .claude/skills/live-co-dm/.venv/bin/activate
-pip install -r .claude/skills/live-co-dm/requirements.txt
+python3.11 -m venv voice-transcription/.venv
+source voice-transcription/.venv/bin/activate
+pip install -e voice-transcription/
 
 # 2. Hugging Face token (pyannote models are gated — free account)
 #    Accept the license for pyannote/speaker-diarization-3.1 + the embedding model
@@ -83,88 +80,58 @@ export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
 #    System Settings -> Privacy & Security -> Microphone -> enable your terminal app
 ```
 
-First run downloads the Parakeet and pyannote weights (a few minutes); they cache after
-that. Full detail: `.claude/skills/live-co-dm/references/setup.md`.
-
-> The wrappers do all of the above for you — venv creation, `pip install`, and reading
-> `HF_TOKEN` from `.env`. Put your token in `.env` once (`HF_TOKEN=hf_...`) and you never
-> need to activate the venv or export anything by hand.
-
-The raw-Python examples below assume the venv is active and `HF_TOKEN` is exported:
-
-```bash
-source .claude/skills/live-co-dm/.venv/bin/activate
-export HF_TOKEN=hf_...
-```
+> The wrappers do all of the above for you. Put your token in `.env` once
+> (`HF_TOKEN=hf_...`) and you never need to activate the venv or export anything.
 
 ### Save a voice profile
 
-One profile per **character voice**. Run once per voice each table member performs, before
-your first transcription.
+One profile per **character voice**. Run once per voice each table member performs.
 
 ```bash
 ./save_voice.sh --name "Grigori" --player "Dave"
-# raw: python3 .claude/skills/live-co-dm/scripts/voice_profiler.py --name "Grigori" --player "Dave"
 ```
 
-Then open the printed URL (default `http://localhost:8080`), click **Start**, read the
-auto-scrolling teleprompter aloud *in character* (~60–90s), then **Stop & Save**.
+Then open the printed URL (default `http://localhost:8080`), click **Start** (the ASR
+model loads, then recording begins). Read the teleprompter aloud *in character* — words
+grey out as they are recognized. Click **Stop & Save**; the process exits cleanly.
 
 | Flag | Meaning |
 |---|---|
 | `--name` | The **character voice** (e.g. `Grigori`, `Captain Nona`). One profile per voice. |
-| `--player` | The **physical person** performing it (e.g. `Dave`). Groups one person's many voices so they can be told apart. |
+| `--player` | The **physical person** performing it (e.g. `Dave`). Groups one person's many voices. |
 | `--script-file PATH` | Optional. Use your own teleprompter text instead of the bundled passage. |
 | `--port N` | Optional. Change the web port. |
 
-Profiles are written to `.claude/skills/live-co-dm/profiles/<slug>.json` and **committed**
-to the repo, so the table's voices travel with the wiki. Re-running with the same `--name`
-overwrites that profile. Detail: `references/voice-profiler.md`.
+Profiles are written to `voice-transcription/profiles/<slug>.json` and **committed** to the
+repo. Re-running with the same `--name` overwrites that profile.
 
 ### Transcribe a session
 
-**Pass 1 — live capture.** Start at session open and leave running the whole game; `Ctrl-C`
-to stop.
+**Pass 1 — live capture.** Start at session open and leave running; `Ctrl-C` to stop.
 
 ```bash
 ./transcribe_session.sh --session 4 --speakers 5
-# raw: python3 .claude/skills/live-co-dm/scripts/transcribe_session.py --session 4 --speakers 5
 ```
 
 | Flag | Meaning |
 |---|---|
 | `--session N` | Session number. Omit to auto-pick the next one. |
-| `--speakers N` | **Physical people at the table** (not character count). The single biggest accuracy win on crosstalk — always set it. |
-| `--threshold` | Cosine match cutoff for voice ID (default `0.5`). Raise to split confused voices; lower to rescue known ones falling through to `Unknown-N`. |
+| `--speakers N` | **Physical people at the table** (not character count). Always set it. |
+| `--threshold` | Cosine match cutoff for voice ID (default `0.5`). |
 
-It writes a growing transcript to `wiki/sessions/.live/session-04/live_transcript.md` and
-silence-chunked audio under `.live/session-04/audio/`. Everything under `.live/` is
-gitignored scratch, flushed to disk immediately so a crash at hour three loses nothing.
-
-**Pass 2 — finalize** (after the session). Re-diarizes the entire recording at once with the
-known speaker count — far more accurate on overlap — and writes the canonical transcript.
+**Pass 2 — finalize** (after the session):
 
 ```bash
 ./finalize_session.sh --session 4 --speakers 5
-# raw: python3 .claude/skills/live-co-dm/scripts/finalize_session.py --session 4 --speakers 5
 ```
 
-Output: `wiki/sessions/session-04-transcript.md` (committed; the audio stays gitignored).
-From there, ask the agent to fold it into canon via the `ttrpg-wiki-ingest` transcript path.
+Output: `wiki/sessions/session-04-transcript.md` (committed).
 
-### Correction loop (profiles that improve over time)
+### Correction loop
 
-Profiles get sharper every session if you close the loop:
-
-1. Correct the finalized `wiki/sessions/session-NN-transcript.md` — fix any mislabeled
-   `(?)` lines or wrong speakers.
-2. **Re-save** the affected characters' profiles (`voice_profiler.py --name ...`). The
-   profiler harvests each character's corrected lines, slices the matching `.live` audio,
-   and folds that real in-character speech into the profile. Overlap/low-confidence lines
-   are skipped and outliers rejected, so correction only ever sharpens.
-
-For this to work, **keep the session's `.live/session-NN/audio/` directory** until you're
-done improving profiles from it. Detail: `references/transcription.md`.
+Profiles get sharper every session: correct the finalized transcript, then re-save the
+affected profiles. The profiler harvests corrected audio automatically. Keep the session's
+`.live/` audio until you're done improving profiles from it.
 
 ### Transcript markers
 
@@ -173,15 +140,7 @@ done improving profiles from it. Detail: `references/transcription.md`.
 **Nona (?)** (Sam) [01:12:05] [overlap]: belay that
 ```
 
-`(?)` = low-confidence attribution. `[overlap]` = crosstalk region; both speakers get a
-stacked line so no one is dropped. This is honest uncertainty, not a bug — the finalize
-pass resolves much of it.
-
-### If separation is poor
-
-- Confirm `--speakers` matches the people actually talking.
-- Re-enroll thin/echoey profiles in a quieter room.
-- Nudge `--threshold` (up to split confused voices, down to rescue known ones).
+`(?)` = low-confidence attribution. `[overlap]` = crosstalk region.
 
 ---
 
@@ -200,15 +159,14 @@ but they're plain CLI:
 
 ## Tests
 
-The voice/transcription logic has a unit suite that needs **no ML stack** — pure stdlib:
+The voice/transcription logic has a unit suite that needs **no ML stack**:
 
 ```bash
-cd .claude/skills/live-co-dm/scripts
-python3 -m unittest discover -s . -p 'test_*.py'
+cd voice-transcription && pip install -e ".[dev]" && pytest tests/
 ```
 
 Optional real-adapter checks (venv active + `HF_TOKEN` set):
 
 ```bash
-RUN_ML_TESTS=1 python3 -m unittest test_ml_integration -v
+RUN_ML_TESTS=1 pytest tests/test_ml_integration.py -v
 ```

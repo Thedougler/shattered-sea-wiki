@@ -594,6 +594,12 @@ sources: []
 
 ## rules/subclasses
 - [[aberrant-sorcery|Aberrant Sorcery]] — Sorcerer subclass (PHB 2024) — psionic power derived from alien influence; Psionic Spells, SP-cost casting, Revelation in Flesh, and Warping Implosion.
+- [[arcane-trickster|Arcane Trickster]] — Rogue subclass (PHB 2024) — adds INT spellcasting to the Rogue; Mage Hand Legerdemain, True Strike for weapon-based INT builds, Arcane Deflection.
+- [[assassin|Assassin]] — Rogue subclass (PHB 2024) — focused on massive turn-1 damage; Assassinate rewards going first in initiative with bonus damage and guaranteed Sneak Attack.
+- [[battle-master|Battle Master]] — Fighter subclass (PHB 2024) — tactical combat maneuvers using Superiority Dice; the most mechanically flexible Fighter subclass; Stripes Bitemore is a Battle Master.
+- [[beast-master|Beast Master]] — Ranger subclass (PHB 2024) — commands a Primal Companion beast that scales with WIS; both Striker and Defender; bypass Hunter's Mark in multi-target encounters.
+- [[clockwork-sorcery|Clockwork Sorcery]] — Sorcerer subclass (PHB 2024) — orderly, reroll-focused magic; Restore Balance flips advantage/disadvantage on saves; Trance of Order guarantees minimum 10 on d20s.
+- [[college-of-eloquence|College of Eloquence]] — Bard subclass (Tasha's Cauldron 2020) — masters of rhetoric; Bardic Inspiration dice can't be wasted on low rolls; Unsettling Words imposes Disadvantage on one save; Perrin Black-Jaw uses this subclass.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

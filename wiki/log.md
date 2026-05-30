@@ -482,3 +482,9 @@ sources: []
 - 2026-05-30 | ingest | rules/index.md — new public rules index
 - 2026-05-30 | ingest | lore/species/index.md — new species index
 - 2026-05-30 | ingest | rules/subclasses/aberrant-sorcery — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/arcane-trickster — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/assassin — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/battle-master — new subclass reference (Stripes Bitemore)
+- 2026-05-30 | ingest | rules/subclasses/beast-master — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/clockwork-sorcery — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/college-of-eloquence — new subclass reference (Perrin)

@@ -114,12 +114,12 @@ def save_speaker_page():
         if not state['recording']:
             return
         result = services.asr.latest_result
-        finalized = len(result.finalized_text.split()) if result.finalized_text else 0
-        draft = len(result.draft_text.split()) if result.draft_text else 0
-        teleprompter.update_spoken(finalized, draft)
+        teleprompter.update_from_asr(
+            result.finalized_text or '', result.draft_text or '',
+        )
 
         threshold = state['chunk_start'] + int(state['chunk_size'] * 0.5)
-        if finalized >= threshold and not state['generating']:
+        if teleprompter.cursor >= threshold and not state['generating']:
             state['generating'] = True
             ui.timer(0, _generate_next_chunk, once=True)
 

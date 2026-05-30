@@ -51,6 +51,15 @@ body {
     color: #c9a84c;
     text-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
 }
+.teleprompter-text .offscript {
+    color: #3a3a3a;
+    font-size: 0.85em;
+    transition: color 0.3s ease;
+}
+.teleprompter-text .offscript.draft {
+    color: #555;
+    font-style: italic;
+}
 
 /* --- Teleprompter reading-window mask --- */
 .teleprompter-mask {

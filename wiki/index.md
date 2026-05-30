@@ -604,6 +604,7 @@ sources: []
 - [[apotheosis|Apotheosis]] — CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die.
 - [[arclight-phoenix|Arclight Phoenix]] — CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall.
 - [[beasts|Beasts]] — Player index for beasts, swarms, and natural predators of the Shattered Sea.
+- [[bestiary|Bestiary]] — Public index for Shattered Sea creature and monster references — every sailor working the Scatter has a story.
 - [[blight|Blight]] — Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 - [[boar|Boar]] — Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[celestials|Celestials]] — Player index for celestials of the Shattered Sea — divine and sacred creatures; encountering one is rarely accidental.
@@ -619,6 +620,7 @@ sources: []
 - [[dravosi-enforcer|Dravosi Enforcer — Stat Block]] — A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
 - [[elementals|Elementals]] — Player index for elemental creatures of the Shattered Sea — creatures born from or bound to elemental forces.
 - [[fey|Fey]] — Player index for fey creatures of the Shattered Sea — goblins are the primary fey threat in the Scatter's interior islands.
+- [[fiends|Fiends]] — Player index for fiends and fiendish raiders of the Shattered Sea — sahuagin warbands are the primary fiendish threat, raiding from the deep shelf.
 - [[forsworn|Forsworn]] — CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
 - [[gentle-hag|Gentle Hag]] — CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 - [[giant-ape|Giant Ape]] — The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
@@ -654,6 +656,7 @@ sources: []
 - [[guardian-naga|Guardian Naga]] — A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 - [[haunt-hag|Haunt Hag]] — CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
+- [[humanoids|Humanoids]] — Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
 - [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.
 - [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
@@ -668,6 +671,9 @@ sources: []
 - [[primeval-owlbear|Primeval Owlbear]] — A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 - [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
 - [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.
+- [[sahuagin-baron|Sahuagin Baron]] — CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
+- [[sahuagin-priest|Sahuagin Priest]] — CR 2 fiend; conducts blood rites at submerged shrines in the blue holes of the Drowned Maw; encountered where warbands gather before a raid.
+- [[sahuagin-warrior|Sahuagin Warrior]] — CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
 - [[sawek|Sawek (Blue Devil)]] — CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair.
 - [[skulldugger|Skulldugger]] — CR 21 undead lich. Rogue lich that achieves undeath by stealing another lich's ritual — parasitizes spirit jars from other liches. Hated by all undead as a natural predator.
 - [[soul-incarnate|Soul Incarnate]] — CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal.

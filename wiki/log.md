@@ -392,3 +392,9 @@ sources: []
 - 2026-05-30 | ingest | goblin-minion — new creature page (CR 1/8 fey, DM-only)
 - 2026-05-30 | ingest | goblin-warrior — new creature page (CR 1/4 fey, DM-only)
 - 2026-05-30 | ingest | fey.md — new player-facing fey index
+- 2026-05-30 | ingest | sahuagin-baron — new creature page (CR 5 fiend, Drowned Maw)
+- 2026-05-30 | ingest | sahuagin-priest — new creature page (CR 2 fiend, Drowned Maw)
+- 2026-05-30 | ingest | sahuagin-warrior — new creature page (CR 1/2 fiend, Drowned Maw)
+- 2026-05-30 | ingest | fiends.md — new player-facing fiends index
+- 2026-05-30 | ingest | humanoids.md — new player-facing humanoids index
+- 2026-05-30 | ingest | bestiary.md — new master bestiary index

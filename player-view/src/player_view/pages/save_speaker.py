@@ -8,19 +8,36 @@ from player_view.components.teleprompter import Teleprompter
 from player_view import services
 from player_view.models.voice_profile import VoiceProfile
 
+_script_cache: dict[str, dict] = {}
+
+
 def _build_script(name: str) -> str:
-    who = f"I'm {name}" if name else "I'm"
+    who = f"I'm {name} and I'm" if name else "I'm"
     return (
-        f"{who} reading a series of increasingly terrible tongue twisters "
-        "without breaking character. Thirty seconds is all it takes, "
-        "but more is better. Here we go. "
-        "She sells seashells by the seashore. "
-        "Red leather yellow leather, red leather yellow leather. "
-        "The sixth sick sheik's sixth sheep is sick. "
-        "A proper copper coffee pot. "
-        "How much wood would a woodchuck chuck if a woodchuck could chuck wood? "
-        "Honestly this is going great, keep talking, the machine is listening."
+        f"{who} about to read whatever nonsense appears on this screen "
+        "without laughing, breaking character, or questioning my life choices. "
+        "Thirty seconds is the minimum but honestly the longer I go the more "
+        "the machine learns my voice so here we go. "
+        "Picture a grizzled old sea captain who just discovered his parrot "
+        "has been ordering supplies behind his back. "
+        "Six hundred silver spoons shipped south on a single shallow sloop. "
+        "Now that same captain, whispering, confessing he actually "
+        "respects the parrot's initiative. "
+        "Alright, still going, this is going well, the machine is listening."
     )
+
+
+def _get_cached_script(name: str) -> tuple[str, int]:
+    key = name.lower().strip() if name else ''
+    if key in _script_cache:
+        return _script_cache[key]['script'], _script_cache[key]['level']
+    base = _build_script(name)
+    return base, 1
+
+
+def _cache_script(name: str, script: str, level: int):
+    key = name.lower().strip() if name else ''
+    _script_cache[key] = {'script': script, 'level': level}
 
 
 @ui.page('/save-speaker')
@@ -29,7 +46,7 @@ def save_speaker_page():
     teleprompter = Teleprompter(script_text=_build_script(''))
     state = {
         'recording': False, 'matching': False, 'last_match': 0.0,
-        'level': 1,
+        'level': 1, 'high_level': 1,
         'chunk_start': 0,
         'chunk_size': teleprompter.word_count,
         'generating': False,
@@ -38,8 +55,9 @@ def save_speaker_page():
     with operator_header('Save Speaker'):
         def _on_name_change(e):
             if not state['recording']:
-                teleprompter.set_script(_build_script(e.value.strip()))
-                state['chunk_size'] = teleprompter.word_count
+                cached_script, _ = _get_cached_script(e.value.strip())
+                teleprompter.set_script(cached_script)
+                state['chunk_size'] = len(_build_script(e.value.strip()).split())
 
         name_input = ui.input('Name', on_change=_on_name_change).props('dense').classes('w-36')
         record_btn = ui.button('REC', on_click=lambda: start(), color='red').props('dense')
@@ -67,11 +85,18 @@ def save_speaker_page():
     async def _generate_next_chunk():
         chunk_start = state['chunk_start']
         chunk_end = chunk_start + state['chunk_size']
-        previous_chunk = ' '.join(teleprompter.script_words[chunk_start:chunk_end])
         next_level = state['level'] + 1
 
-        new_text = await services.llm.generate_script(next_level, previous_chunk)
-        new_count = teleprompter.append_words(new_text)
+        if next_level > state['high_level']:
+            previous_chunk = ' '.join(teleprompter.script_words[chunk_start:chunk_end])
+            name = name_input.value.strip()
+            new_text = await services.llm.generate_script(next_level, previous_chunk)
+            new_count = teleprompter.append_words(new_text)
+            state['high_level'] = next_level
+            full_script = ' '.join(teleprompter.script_words)
+            _cache_script(name, full_script, next_level)
+        else:
+            new_count = teleprompter.word_count - chunk_end
 
         state['chunk_start'] = chunk_end
         state['chunk_size'] = new_count
@@ -145,12 +170,16 @@ def save_speaker_page():
 
     def start():
         name = name_input.value.strip()
-        teleprompter.set_script(_build_script(name))
+        cached_script, cached_level = _get_cached_script(name)
+        teleprompter.set_script(cached_script)
+        base_size = len(_build_script(name).split())
+
         state['recording'] = True
         state['last_match'] = 0.0
         state['level'] = 1
+        state['high_level'] = cached_level
         state['chunk_start'] = 0
-        state['chunk_size'] = teleprompter.word_count
+        state['chunk_size'] = base_size
         state['generating'] = False
         level_badge.content = '<span class="level-badge">LVL 1</span>'
 
@@ -201,10 +230,11 @@ def save_speaker_page():
                 status_label.text = f'saved {name}'
             status_label.style('color: #4caf50')
             record_btn.set_visibility(True)
-            teleprompter.reset()
+            cached_script, _ = _get_cached_script(name)
+            teleprompter.set_script(cached_script)
             state['level'] = 1
             state['chunk_start'] = 0
-            state['chunk_size'] = teleprompter.word_count
+            state['chunk_size'] = len(_build_script(name).split())
             state['generating'] = False
             level_badge.content = '<span class="level-badge">LVL 1</span>'
 

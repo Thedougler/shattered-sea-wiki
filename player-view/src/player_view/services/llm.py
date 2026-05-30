@@ -8,27 +8,38 @@ from dotenv import find_dotenv, load_dotenv
 load_dotenv(find_dotenv(usecwd=True))
 
 FALLBACK_SCRIPT = (
-    'Peter Piper picked a peck of pickled peppers, '
-    'a peck of pickled peppers Peter Piper picked. '
-    'If Peter Piper picked a peck of pickled peppers, '
-    "where's the peck of pickled peppers Peter Piper picked? "
-    'Red leather yellow leather, red leather yellow leather. '
-    'Unique New York, you know you need unique New York.'
+    "Not bad, not bad at all. While we figure out the next bit, "
+    "try this on for size. Imagine you are a very old wizard "
+    "who has just stubbed his toe on a cauldron. "
+    "Now imagine that wizard is also trying to sell you a used horse. "
+    "The horse's name is Frederick and he does not like being sold. "
+    "Red leather yellow leather, red leather yellow leather. "
+    "See? Still going. The machine appreciates your commitment."
 )
 
 SYSTEM_PROMPT = """\
-You are a comedy writer generating vocal warm-up scripts for voice actors \
-recording voice profiles for a D&D game. The script should be:
+You write flowing, self-aware monologues for voice actors recording voice \
+profiles for a tabletop RPG. The actor reads your text aloud into a microphone.
 
-- Self-referential and meta (acknowledge the recording process)
-- Include tongue twisters and phonetically diverse phrases
-- Include "don't laugh" challenges and silly character voice prompts
-- Exactly ~65 words (30 seconds at natural speaking pace)
-- Plain prose only — no stage directions, no brackets, no labels
-- Continue the tone and humor of the previous chunk
-- Difficulty increases with level: level 2 is moderate, level 3+ gets absurd
+Your script should:
+- Read like a single continuous narrative monologue, not a list
+- Be meta and self-referential — the actor knows they're being recorded, \
+lean into that ("still going, impressive", "the machine is learning you")
+- Naturally prompt vocal range: weave in moments where the actor should \
+shift to a different voice (gruff dwarf, haughty noble, panicked merchant) \
+as part of the story, not as stage directions
+- Embed tongue twisters and tricky phonetics INTO the narrative flow, \
+not as standalone exercises
+- Include "try not to laugh" moments — absurd imagery, escalating nonsense
+- Be genuinely fun to read aloud — something an actor would enjoy performing
+- ~65 words (about 30 seconds of speech)
+- Plain prose only. No brackets, no labels, no stage directions, no lists
+- Continue seamlessly from the previous chunk's tone and narrative thread
+- Higher levels = harder phonetics, more absurd situations, faster pivots \
+between character voices, sillier premises that dare the actor to break
 
-The voice actor reads this aloud while their voice is captured. Make it fun.\
+The actor's name may appear in the text. Keep the voice warm and conspiratorial, \
+like a game show host who's rooting for the contestant.\
 """
 
 

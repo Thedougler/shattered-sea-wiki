@@ -15,6 +15,8 @@ class VoiceProfile:
     sample_count: int = 1
     created_at: float = field(default_factory=time.time)
     updated_at: float = field(default_factory=time.time)
+    spatial_signature: float | None = None
+    spatial_sample_count: int = 0
 
     def to_dict(self) -> dict:
         return {
@@ -26,6 +28,8 @@ class VoiceProfile:
             'sample_count': self.sample_count,
             'created_at': self.created_at,
             'updated_at': self.updated_at,
+            'spatial_signature': self.spatial_signature,
+            'spatial_sample_count': self.spatial_sample_count,
         }
 
     @classmethod
@@ -41,7 +45,18 @@ class VoiceProfile:
             sample_count=d.get('sample_count', 1),
             created_at=d.get('created_at', 0),
             updated_at=d.get('updated_at', 0),
+            spatial_signature=d.get('spatial_signature'),
+            spatial_sample_count=d.get('spatial_sample_count', 0),
         )
+
+    def update_spatial(self, new_ratio: float):
+        if self.spatial_signature is None:
+            self.spatial_signature = new_ratio
+            self.spatial_sample_count = 1
+        else:
+            n = self.spatial_sample_count
+            self.spatial_signature = (self.spatial_signature * n + new_ratio) / (n + 1)
+            self.spatial_sample_count = n + 1
 
 
 class ProfileStore:

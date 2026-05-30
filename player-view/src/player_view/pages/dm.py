@@ -1,10 +1,14 @@
 import random
 from pathlib import Path
 
+import sounddevice as sd
 from nicegui import ui
 
 from player_view import services
 from player_view.models.voice_profile import VoiceProfile
+from player_view.services.audio import AudioService
+from player_view.services.spatial import SpatialAnalyzer
+from player_view.services.session_transcriber import SessionTranscriber
 from player_view.pages import slideshow as slideshow_page
 from player_view.pages import session as session_page
 from player_view.pages import map_view as map_page
@@ -247,18 +251,117 @@ def _build_profiles_card():
         refresh_profiles()
 
 
+def _get_input_devices():
+    devices = sd.query_devices()
+    result = {}
+    for i, d in enumerate(devices):
+        if d['max_input_channels'] > 0:
+            label = f"{d['name']} ({d['max_input_channels']}ch)"
+            result[i] = label
+    return result
+
+
 def _build_session_card():
+    state = {'active': False, 'session_audio': None}
+
     with ui.card().classes('dm-card flex-1'):
         ui.html('<h3>Session Transcribe</h3>')
-        status_lbl = ui.label('').style('color: #888; font-size: 0.8rem')
+
+        input_devices = _get_input_devices()
+        device_select = ui.select(
+            options=input_devices,
+            label='Input device',
+        ).props('dense outlined dark').classes('w-full')
+        for dev_id, label in input_devices.items():
+            if 'aggregate' in label.lower():
+                device_select.value = dev_id
+                break
+
+        with ui.row().classes('gap-2 items-center'):
+            dm_ch = ui.input('DM ch', value='0').props('dense outlined dark').classes('w-16')
+            player_ch = ui.input('Player ch', value='1,2').props('dense outlined dark').classes('w-20')
+
+        with ui.row().classes('gap-2 items-center'):
+            start_btn = ui.button('Start Session', color='green').props('dense')
+            stop_btn = ui.button('Stop Session', color='red').props('dense')
+            stop_btn.set_visibility(False)
+
+        status_lbl = ui.label('idle').style('color: #888; font-size: 0.8rem')
+        ratio_lbl = ui.label('').style('color: #666; font-size: 0.8rem')
+
+        def start():
+            dev = device_select.value
+            if dev is None:
+                status_lbl.text = 'select a device'
+                status_lbl.style('color: #ff9800')
+                return
+
+            dm_channels = [int(x.strip()) for x in dm_ch.value.split(',')]
+            player_channels = [int(x.strip()) for x in player_ch.value.split(',')]
+            total_channels = max(max(dm_channels), max(player_channels)) + 1
+
+            spatial = SpatialAnalyzer(
+                dm_channels=dm_channels,
+                player_channels=player_channels,
+            )
+            session_audio = AudioService(device=dev, channels=total_channels)
+
+            services.session_state.messages.clear()
+            services.session_state.chunk_count = 0
+            services.session_state.speaker_count = 0
+            services.session_state.status = 'recording'
+
+            session_page._state = services.session_state
+
+            transcriber = SessionTranscriber(
+                asr=services.asr,
+                spatial=spatial,
+                diarization=services.diarization,
+                profiles=services.profiles,
+                session_state=services.session_state,
+            )
+
+            services.asr.start_streaming()
+            session_audio.start(on_chunk=lambda c: transcriber.process_chunk(c))
+
+            state['active'] = True
+            state['session_audio'] = session_audio
+            state['transcriber'] = transcriber
+            start_btn.set_visibility(False)
+            stop_btn.set_visibility(True)
+            status_lbl.text = 'recording...'
+            status_lbl.style('color: #4caf50')
+
+        def stop():
+            if state.get('session_audio'):
+                state['session_audio'].stop()
+            services.asr.stop_streaming()
+            if state.get('transcriber'):
+                state['transcriber'].flush()
+            services.session_state.status = 'idle'
+            state['active'] = False
+            stop_btn.set_visibility(False)
+            start_btn.set_visibility(True)
+            status_lbl.text = 'stopped'
+            status_lbl.style('color: #888')
+            ratio_lbl.text = ''
+
+        start_btn.on_click(start)
+        stop_btn.on_click(stop)
 
         def poll():
-            s = session_page._state
-            mins, secs = divmod(int(s.session_length_s), 60)
+            s = services.session_state
+            if s is None:
+                return
+            msgs = len(s.messages)
             status_lbl.text = (
-                f'{s.status} | {len(s.messages)} msgs | '
-                f'{s.speaker_count} spk | {mins}:{secs:02d}'
+                f'{s.status} | {msgs} msgs | {s.speaker_count} spk | '
+                f'{s.chunk_count} chunks'
             )
+            if state['active'] and state.get('session_audio'):
+                levels = state['session_audio'].channel_rms_levels
+                if len(levels) >= 2:
+                    ratio_lbl.text = f'DM: {levels[0]:.0%} | Player: {max(levels[1:]):.0%}'
 
         ui.timer(1, poll)
 

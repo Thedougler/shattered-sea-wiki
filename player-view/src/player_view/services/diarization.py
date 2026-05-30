@@ -48,3 +48,22 @@ class DiarizationService:
             results.append((name, sim))
         results.sort(key=lambda x: x[1], reverse=True)
         return results
+
+    def rank_against_with_spatial(
+        self,
+        embedding: np.ndarray,
+        dm_ratio: float,
+        profiles: list[tuple[str, np.ndarray, float | None]],
+        spatial_weight: float = 0.2,
+    ) -> list[tuple[str, float]]:
+        results = []
+        for name, prof_emb, spatial_sig in profiles:
+            cosine_sim = self.compare(embedding, prof_emb)
+            if spatial_sig is not None and spatial_weight > 0:
+                spatial_sim = 1.0 - abs(spatial_sig - dm_ratio)
+                score = (1 - spatial_weight) * cosine_sim + spatial_weight * spatial_sim
+            else:
+                score = cosine_sim
+            results.append((name, score))
+        results.sort(key=lambda x: x[1], reverse=True)
+        return results

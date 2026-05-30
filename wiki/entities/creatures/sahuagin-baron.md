@@ -30,6 +30,7 @@ page: 265
 statblock: inline
 str: 19
 wis: 13
+status: unknown
 ---
 
 # Sahuagin Baron

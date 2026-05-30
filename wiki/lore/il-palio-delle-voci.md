@@ -21,6 +21,7 @@ timeline_position: during campaign
 confidence_level: medium
 sources:
 - Homebrew
+status: unknown
 ---
 
 # Il Palio delle Voci Contese

@@ -3,7 +3,7 @@ title: Giant Wolf Spider
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 362
 statblock: inline
 str: 12
 wis: 12
+status: unknown
 ---
 
 # Giant Wolf Spider

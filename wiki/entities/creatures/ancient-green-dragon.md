@@ -30,6 +30,7 @@ page: 154
 statblock: inline
 str: 27
 wis: 17
+status: unknown
 ---
 
 # Ancient Green Dragon

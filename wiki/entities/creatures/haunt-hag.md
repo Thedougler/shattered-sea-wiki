@@ -31,6 +31,7 @@ page: 0
 statblock: inline
 str: 9
 wis: 18
+status: unknown
 ---
 
 # Haunt Hag

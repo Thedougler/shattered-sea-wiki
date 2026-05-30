@@ -29,6 +29,7 @@ page: 143
 statblock: inline
 str: 8
 wis: 10
+status: unknown
 ---
 
 # Goblin Hexer

@@ -95,6 +95,13 @@ High-wind stories from crews who have sheltered in the Ashwall channels include 
 
 Storm-edge approaches, hard landings, giant bats in warm vent caves, giant scorpions in handhold fissures, giant vultures after wrecks, harpy stories in storm gaps, and arclight phoenix hatch events that signal Galewall activity.
 
+## DM Notes
+
+> [!dm]
+> The Ashwalls are intentionally under-detailed — a western orientation point and late-campaign expansion space, not a near-term destination. Pilot lore that the [[galewall|Galewall]] is sustained by [[arclight-phoenix|arclight-phoenix]] activity is substantially true in-setting.
+>
+> **Development levers if the party pushes west:** hostile-weather expedition zone; Selune navigation-cult stronghold; staging point for Galewall crossing arcs.
+
 ## Current Hooks
 
 - Ashwall crews mark lateral vent-fire as a hatching sign and a warning of expected Galewall activity.

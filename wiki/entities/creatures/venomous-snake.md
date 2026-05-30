@@ -30,6 +30,7 @@ page: 358
 statblock: inline
 str: 2
 wis: 10
+status: unknown
 ---
 
 # Venomous Snake

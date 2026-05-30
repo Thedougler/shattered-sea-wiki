@@ -17,6 +17,7 @@ tags:
 - creature
 sources:
 - Inbox/beastiary/fey/index.md
+confidence_level: medium
 ---
 
 # Fey

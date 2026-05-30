@@ -30,6 +30,7 @@ page: 153
 statblock: inline
 str: 23
 wis: 15
+status: unknown
 ---
 
 # Adult Green Dragon

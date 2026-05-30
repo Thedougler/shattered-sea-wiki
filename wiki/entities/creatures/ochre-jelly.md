@@ -29,6 +29,7 @@ page: 230
 statblock: inline
 str: 15
 wis: 6
+status: unknown
 ---
 
 # Ochre Jelly

@@ -3,7 +3,7 @@ title: Owlbear
 type: monster
 publish: true
 created: 2026-04-25
-updated: 2026-05-03
+updated: 2026-05-30
 summary: The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 234
 statblock: inline
 str: 20
 wis: 12
+status: unknown
 ---
 
 # Owlbear

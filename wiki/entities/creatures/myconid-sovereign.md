@@ -29,6 +29,7 @@ page: 223
 statblock: inline
 str: 12
 wis: 15
+status: unknown
 ---
 
 # Myconid Sovereign

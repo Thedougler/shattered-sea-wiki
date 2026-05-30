@@ -33,6 +33,7 @@ page: 59
 statblock: inline
 str: 25
 wis: 15
+status: unknown
 ---
 
 # Adult Bronze Dragon

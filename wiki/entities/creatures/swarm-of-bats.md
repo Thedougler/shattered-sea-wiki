@@ -30,6 +30,7 @@ page: 370
 statblock: inline
 str: 5
 wis: 12
+status: unknown
 ---
 
 # Swarm of Bats

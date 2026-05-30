@@ -17,6 +17,7 @@ tags:
 - creature
 sources:
 - Inbox/beastiary/celestial/index.md
+confidence_level: medium
 ---
 
 # Celestials

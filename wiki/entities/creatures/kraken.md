@@ -30,6 +30,7 @@ page: 187
 statblock: inline
 str: 30
 wis: 18
+status: unknown
 ---
 
 # Kraken

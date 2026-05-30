@@ -30,6 +30,7 @@ page: 265
 statblock: inline
 str: 13
 wis: 14
+status: unknown
 ---
 
 # Sahuagin Priest

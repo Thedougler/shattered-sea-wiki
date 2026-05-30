@@ -29,6 +29,7 @@ page: 122
 statblock: inline
 str: 27
 wis: 15
+status: unknown
 ---
 
 # Adult Gold Dragon

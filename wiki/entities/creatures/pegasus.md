@@ -30,6 +30,7 @@ page: 235
 statblock: inline
 str: 18
 wis: 15
+status: unknown
 ---
 
 # Pegasus

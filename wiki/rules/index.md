@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/lore/rules/index.md
 confidence_level: high
+subtype: rule
+status: unknown
 ---
 
 # Public Rules

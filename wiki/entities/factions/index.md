@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/factions/index.md
 confidence_level: high
+subtype: faction
+status: unknown
 ---
 
 # Factions of the Shattered Sea

@@ -3,7 +3,7 @@ title: Panther
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 354
 statblock: inline
 str: 14
 wis: 14
+status: unknown
 ---
 
 # Panther

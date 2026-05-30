@@ -29,6 +29,7 @@ page: 223
 statblock: inline
 str: 10
 wis: 13
+status: unknown
 ---
 
 # Myconid Adult

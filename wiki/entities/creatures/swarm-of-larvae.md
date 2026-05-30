@@ -30,6 +30,7 @@ page: 193
 statblock: inline
 str: 14
 wis: 12
+status: unknown
 ---
 
 # Swarm of Larvae

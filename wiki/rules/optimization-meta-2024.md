@@ -14,6 +14,7 @@ audience: dm
 confidence_level: medium
 sources:
 - rpgbot.net 2024 meta analysis
+status: unknown
 ---
 
 # Optimization Meta (2024 D&D)

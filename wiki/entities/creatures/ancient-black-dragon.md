@@ -31,6 +31,7 @@ page: 40
 statblock: inline
 str: 27
 wis: 15
+status: unknown
 ---
 
 # Ancient Black Dragon

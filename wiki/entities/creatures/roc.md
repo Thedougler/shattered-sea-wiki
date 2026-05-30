@@ -30,6 +30,7 @@ page: 261
 statblock: inline
 str: 28
 wis: 10
+status: unknown
 ---
 
 # Roc

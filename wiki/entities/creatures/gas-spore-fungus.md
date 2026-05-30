@@ -29,6 +29,7 @@ page: 125
 statblock: inline
 str: 5
 wis: 1
+status: unknown
 ---
 
 # Gas Spore Fungus

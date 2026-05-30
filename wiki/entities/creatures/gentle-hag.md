@@ -31,6 +31,7 @@ page: 0
 statblock: inline
 str: 14
 wis: 15
+status: unknown
 ---
 
 # Gentle Hag

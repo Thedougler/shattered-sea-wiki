@@ -30,6 +30,7 @@ page: 313
 statblock: inline
 str: 18
 wis: 17
+status: unknown
 ---
 
 # Unicorn

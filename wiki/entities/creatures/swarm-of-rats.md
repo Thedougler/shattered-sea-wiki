@@ -30,6 +30,7 @@ page: 370
 statblock: inline
 str: 9
 wis: 10
+status: unknown
 ---
 
 # Swarm of Rats

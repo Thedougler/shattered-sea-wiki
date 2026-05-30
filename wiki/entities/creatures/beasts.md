@@ -9,12 +9,14 @@ subtype: creature-index
 status: active
 campaign: shattered-sea
 created: '2026-05-05'
-updated: '2026-05-05'
+updated: 2026-05-30
 tags:
 - player-resource
 - index
 - bestiary
 - creature
+sources: ["Unknown"]
+confidence_level: medium
 ---
 
 # Beasts

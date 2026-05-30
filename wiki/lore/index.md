@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/lore/index.md
 confidence_level: high
+subtype: lore-page
+status: unknown
 ---
 
 # Lore Index

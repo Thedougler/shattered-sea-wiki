@@ -16,6 +16,8 @@ tags:
 sources:
 - Inbox/characters/minor/index.md
 confidence_level: high
+subtype: minor-npc
+status: unknown
 ---
 
 # Minor NPCs

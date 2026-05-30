@@ -30,6 +30,7 @@ page: 364
 statblock: inline
 str: 19
 wis: 12
+status: unknown
 ---
 
 # Killer Whale

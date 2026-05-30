@@ -30,6 +30,7 @@ page: 212
 statblock: inline
 str: 17
 wis: 13
+status: unknown
 ---
 
 # Mimic

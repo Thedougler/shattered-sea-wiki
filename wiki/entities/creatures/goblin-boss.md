@@ -29,6 +29,7 @@ page: 143
 statblock: inline
 str: 10
 wis: 8
+status: unknown
 ---
 
 # Goblin Boss

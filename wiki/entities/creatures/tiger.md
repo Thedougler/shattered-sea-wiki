@@ -29,6 +29,7 @@ page: 358
 statblock: inline
 str: 17
 wis: 12
+status: unknown
 ---
 
 # Tiger

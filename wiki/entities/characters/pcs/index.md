@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/characters/player/index.md
 confidence_level: high
+subtype: pc
+status: unknown
 ---
 
 # Player Characters

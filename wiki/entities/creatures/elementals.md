@@ -17,6 +17,7 @@ tags:
 - creature
 sources:
 - Inbox/beastiary/elementals/index.md
+confidence_level: medium
 ---
 
 # Elementals

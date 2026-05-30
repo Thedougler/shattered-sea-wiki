@@ -30,6 +30,7 @@ page: 264
 statblock: inline
 str: 13
 wis: 13
+status: unknown
 ---
 
 # Sahuagin Warrior

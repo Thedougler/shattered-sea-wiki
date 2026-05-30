@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/characters/crew/index.md
 confidence_level: high
+subtype: crew
+status: unknown
 ---
 
 # Hireable Crew Characters

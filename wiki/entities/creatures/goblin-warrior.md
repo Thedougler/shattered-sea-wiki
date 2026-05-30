@@ -29,6 +29,7 @@ page: 142
 statblock: inline
 str: 8
 wis: 8
+status: unknown
 ---
 
 # Goblin Warrior

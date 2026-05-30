@@ -30,6 +30,7 @@ page: 17
 statblock: inline
 str: 12
 wis: 5
+status: unknown
 ---
 
 # Animated Flying Sword

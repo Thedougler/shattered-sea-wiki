@@ -3,7 +3,7 @@ title: Giant Weasel
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 351
 statblock: inline
 str: 11
 wis: 12
+status: unknown
 ---
 
 # Giant Weasel

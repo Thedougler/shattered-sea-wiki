@@ -31,6 +31,7 @@ page: 39
 statblock: inline
 str: 23
 wis: 13
+status: unknown
 ---
 
 # Adult Black Dragon

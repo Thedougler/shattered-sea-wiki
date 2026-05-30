@@ -30,6 +30,7 @@ page: 161
 statblock: inline
 str: 19
 wis: 19
+status: unknown
 ---
 
 # Guardian Naga

@@ -29,6 +29,7 @@ page: 123
 statblock: inline
 str: 30
 wis: 17
+status: unknown
 ---
 
 # Ancient Gold Dragon

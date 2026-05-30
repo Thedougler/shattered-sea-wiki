@@ -32,6 +32,7 @@ page: 60
 statblock: inline
 str: 29
 wis: 17
+status: unknown
 ---
 
 # Ancient Bronze Dragon

@@ -29,6 +29,7 @@ page: 223
 statblock: inline
 str: 16
 wis: 6
+status: unknown
 ---
 
 # Myconid Spore Servant

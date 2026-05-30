@@ -14,6 +14,9 @@ tags:
 - index
 sources:
 - Inbox/places/index.md
+subtype: place
+status: unknown
+confidence_level: medium
 ---
 
 # Places in the Shattered Sea

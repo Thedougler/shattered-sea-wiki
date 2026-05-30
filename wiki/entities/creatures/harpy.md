@@ -30,6 +30,7 @@ page: 164
 statblock: inline
 str: 12
 wis: 10
+status: unknown
 ---
 
 # Harpy

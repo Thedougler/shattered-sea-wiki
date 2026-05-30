@@ -30,6 +30,7 @@ page: 271
 statblock: inline
 str: 16
 wis: 12
+status: unknown
 ---
 
 # Sea Hag

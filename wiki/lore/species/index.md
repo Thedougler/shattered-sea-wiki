@@ -15,6 +15,8 @@ tags:
 sources:
 - Inbox/lore/species/index.md
 confidence_level: high
+subtype: species
+status: unknown
 ---
 
 # Playable Species

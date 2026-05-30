@@ -512,3 +512,7 @@ sources: []
 - 2026-05-30 | ingest | calven.md — expanded from stub; Calven Island (city-island containing Calveno)
 - 2026-05-30 | ingest | acqua-nera.md — expanded from stub; hull conversion yard, outer harbour
 - 2026-05-30 | ingest | al-fondale.md — expanded from stub; Le Paludi tavern with Warren access
+- 2026-05-30 | archive | 6 navigation indexes (PC indexes ×5, sessions index) — superseded by wiki index system
+- 2026-05-30 | ingest | ashwall-islands.md — added DM design notes (late-campaign intent, Selune cult lever, arclight-phoenix confirmation)
+- 2026-05-30 | archive | central-strait-dm-notes.md — already fully captured in wiki page
+- 2026-05-30 | archive | feats-stub.md, shattered-sea-map-leaflet.md, private-dm-index.md — no actionable content

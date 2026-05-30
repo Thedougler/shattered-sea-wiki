@@ -31,6 +31,7 @@ page: 50
 statblock: inline
 str: 29
 wis: 17
+status: unknown
 ---
 
 # Ancient Blue Dragon

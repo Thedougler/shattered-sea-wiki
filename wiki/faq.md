@@ -14,6 +14,7 @@ title: FAQ
 type: reference
 updated: 2026-05-30
 confidence_level: high
+status: unknown
 ---
 
 # Frequently Asked Questions

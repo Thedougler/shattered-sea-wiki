@@ -29,6 +29,7 @@ page: 42
 statblock: inline
 str: 16
 wis: 6
+status: unknown
 ---
 
 # Black Pudding

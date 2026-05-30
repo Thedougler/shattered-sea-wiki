@@ -17,6 +17,7 @@ tags:
 - creature
 sources:
 - Inbox/beastiary/monstrosity/index.md
+confidence_level: medium
 ---
 
 # Monstrosities

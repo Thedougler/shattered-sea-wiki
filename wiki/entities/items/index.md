@@ -14,6 +14,8 @@ tags:
 sources:
 - Inbox/items/index.md
 confidence_level: high
+subtype: item
+status: unknown
 ---
 
 # Notable Items

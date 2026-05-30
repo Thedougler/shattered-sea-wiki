@@ -16,6 +16,8 @@ tags:
 sources:
 - Inbox/characters/npcs/index.md
 confidence_level: high
+subtype: npc
+status: unknown
 ---
 
 # Recurring NPCs

@@ -3,7 +3,7 @@ title: Giant Wasp
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 361
 statblock: inline
 str: 10
 wis: 10
+status: unknown
 ---
 
 # Giant Wasp

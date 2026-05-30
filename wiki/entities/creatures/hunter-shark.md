@@ -30,6 +30,7 @@ page: 363
 statblock: inline
 str: 18
 wis: 10
+status: unknown
 ---
 
 # Hunter Shark

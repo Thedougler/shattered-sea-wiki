@@ -15,6 +15,7 @@ audience: dm
 confidence_level: medium
 sources:
 - Forgotten Realms Heroes of Faerun (2024)
+status: unknown
 ---
 
 # Winter Walker

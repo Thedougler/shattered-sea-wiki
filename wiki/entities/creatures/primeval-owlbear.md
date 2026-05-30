@@ -30,6 +30,7 @@ page: 234
 statblock: inline
 str: 22
 wis: 15
+status: unknown
 ---
 
 # Primeval Owlbear

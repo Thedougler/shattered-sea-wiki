@@ -30,6 +30,7 @@ page: 370
 statblock: inline
 str: 13
 wis: 7
+status: unknown
 ---
 
 # Swarm of Piranhas

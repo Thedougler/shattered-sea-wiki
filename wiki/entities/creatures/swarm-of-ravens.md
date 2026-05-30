@@ -30,6 +30,7 @@ page: 371
 statblock: inline
 str: 6
 wis: 12
+status: unknown
 ---
 
 # Swarm of Ravens

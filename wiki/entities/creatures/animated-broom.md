@@ -30,6 +30,7 @@ page: 16
 statblock: inline
 str: 10
 wis: 5
+status: unknown
 ---
 
 # Animated Broom

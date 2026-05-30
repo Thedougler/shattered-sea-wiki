@@ -30,6 +30,7 @@ page: 356
 statblock: inline
 str: 14
 wis: 10
+status: unknown
 ---
 
 # Reef Shark

@@ -3,7 +3,8 @@ from nicegui import ui
 
 class Teleprompter:
     def __init__(self, script_text: str = ''):
-        self.script_words = script_text.split() if script_text else []
+        self._original_words = script_text.split() if script_text else []
+        self.script_words = list(self._original_words)
         self.finalized_count = 0
         self.draft_count = 0
         self._script_element: ui.html | None = None
@@ -51,6 +52,20 @@ class Teleprompter:
                 p.scrollTo({{top: Math.max(0, y), behavior: "smooth"}});
             }})()''')
 
+    @property
+    def word_count(self) -> int:
+        return len(self.script_words)
+
+    @property
+    def progress(self) -> float:
+        return self.finalized_count / max(1, len(self.script_words))
+
+    def append_words(self, text: str) -> int:
+        new_words = text.split()
+        self.script_words.extend(new_words)
+        self._refresh_script()
+        return len(new_words)
+
     def update_spoken(self, finalized_count: int, draft_count: int = 0):
         self.finalized_count = min(finalized_count, len(self.script_words))
         remaining = len(self.script_words) - self.finalized_count
@@ -68,6 +83,7 @@ class Teleprompter:
         self._raw_element.content = ''.join(parts) or '&nbsp;'
 
     def reset(self):
+        self.script_words = list(self._original_words)
         self.finalized_count = 0
         self.draft_count = 0
         self._refresh_script()

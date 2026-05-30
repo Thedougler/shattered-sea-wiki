@@ -9,16 +9,16 @@ from player_view import services
 from player_view.models.voice_profile import VoiceProfile
 
 DEFAULT_SCRIPT = (
-    'The quick brown fox jumps over the lazy dog. '
-    'She sells seashells by the seashore. '
-    'How vexingly quick daft zebras jump. '
-    'The five boxing wizards jump quickly. '
-    'Pack my box with five dozen liquor jugs. '
-    'Amazingly few discotheques provide jukeboxes. '
-    'The old sailor watched the horizon, his weathered hands gripping the wheel '
-    'as the storm clouds gathered in the distance. He had seen worse, far worse, '
-    'but something about this particular squall set his teeth on edge. '
-    'The sea had a memory, and tonight it was angry.'
+    'Welcome, brave voice actor, to the enchanted voice chamber. '
+    'Right now your dulcet tones are being captured by ancient microphone magic. '
+    'Just speak naturally and read along. Thirty seconds is the minimum, '
+    'but the longer you go, the better your voice print becomes. '
+    'She sells seashells by the shimmering shore. '
+    'Try a deep gravelly pirate voice: Arrr, the kraken devours ships at dawn! '
+    'Now go high and nasal: Excuse me, I ordered the quinoa frittata. '
+    'Excellent. Keep going, the machine is learning your beautiful, unique, '
+    'completely unreplicable voice. Red leather yellow leather, '
+    'red leather yellow leather. You are doing fantastically.'
 )
 
 
@@ -26,7 +26,13 @@ DEFAULT_SCRIPT = (
 def save_speaker_page():
     apply_theme()
     teleprompter = Teleprompter(script_text=DEFAULT_SCRIPT)
-    state = {'recording': False, 'matching': False, 'last_match': 0.0}
+    state = {
+        'recording': False, 'matching': False, 'last_match': 0.0,
+        'level': 1,
+        'chunk_start': 0,
+        'chunk_size': teleprompter.word_count,
+        'generating': False,
+    }
 
     with operator_header('Save Speaker'):
         name_input = ui.input('Name').props('dense').classes('w-36')
@@ -34,6 +40,8 @@ def save_speaker_page():
         stop_btn = ui.button('STOP & SAVE', on_click=lambda: stop(), color='green').props('dense')
         stop_btn.set_visibility(False)
         status_label = ui.label('ready').style('color: #888')
+
+    level_badge = ui.html('<div class="level-badge">LVL 1</div>')
 
     scroll = teleprompter.render_script(
         container_style='height: calc(100vh - 100px - 90px);'
@@ -50,6 +58,27 @@ def save_speaker_page():
         )
         match_lbl = ui.label('').classes('voice-match')
 
+    async def _generate_next_chunk():
+        chunk_start = state['chunk_start']
+        chunk_end = chunk_start + state['chunk_size']
+        previous_chunk = ' '.join(teleprompter.script_words[chunk_start:chunk_end])
+        next_level = state['level'] + 1
+
+        new_text = await services.llm.generate_script(next_level, previous_chunk)
+        new_count = teleprompter.append_words(new_text)
+
+        state['chunk_start'] = chunk_end
+        state['chunk_size'] = new_count
+        state['level'] = next_level
+        state['generating'] = False
+
+        level_badge.content = f'<div class="level-badge">LVL {next_level}</div>'
+        ui.run_javascript('''
+            const b = document.querySelector('.level-badge');
+            if (b) { b.classList.add('level-up');
+            setTimeout(() => b.classList.remove('level-up'), 600); }
+        ''')
+
     def poll_asr():
         if not state['recording']:
             return
@@ -57,6 +86,11 @@ def save_speaker_page():
         finalized = len(result.finalized_text.split()) if result.finalized_text else 0
         draft = len(result.draft_text.split()) if result.draft_text else 0
         teleprompter.update_spoken(finalized, draft)
+
+        threshold = state['chunk_start'] + int(state['chunk_size'] * 0.5)
+        if finalized >= threshold and not state['generating']:
+            state['generating'] = True
+            ui.timer(0, _generate_next_chunk, once=True)
 
     def poll_vu():
         if not state['recording']:
@@ -154,5 +188,10 @@ def save_speaker_page():
             status_label.style('color: #4caf50')
             record_btn.set_visibility(True)
             teleprompter.reset()
+            state['level'] = 1
+            state['chunk_start'] = 0
+            state['chunk_size'] = teleprompter.word_count
+            state['generating'] = False
+            level_badge.content = '<div class="level-badge">LVL 1</div>'
 
         ui.timer(0.1, save, once=True)

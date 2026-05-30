@@ -7,6 +7,7 @@ from player_view.services.asr import ASRService
 from player_view.services.diarization import DiarizationService
 from player_view.services.spatial import SpatialAnalyzer
 from player_view.services.session_transcriber import SessionTranscriber
+from player_view.services.llm import LLMService
 from player_view.models.voice_profile import ProfileStore
 from player_view.models.state import SessionState
 
@@ -17,10 +18,11 @@ profiles: ProfileStore | None = None
 spatial: SpatialAnalyzer | None = None
 transcriber: SessionTranscriber | None = None
 session_state: SessionState | None = None
+llm: LLMService | None = None
 
 
 def init(profile_dir: Path | None = None):
-    global audio, asr, diarization, profiles, spatial, transcriber, session_state
+    global audio, asr, diarization, profiles, spatial, transcriber, session_state, llm
     audio = AudioService()
     asr = ASRService()
     asr.init()
@@ -29,6 +31,7 @@ def init(profile_dir: Path | None = None):
     profiles = ProfileStore(profile_dir or Path('profiles'))
     spatial = SpatialAnalyzer()
     session_state = SessionState()
+    llm = LLMService()
     transcriber = SessionTranscriber(
         asr=asr, spatial=spatial, diarization=diarization,
         profiles=profiles, session_state=session_state,
@@ -36,7 +39,7 @@ def init(profile_dir: Path | None = None):
 
 
 def teardown():
-    global audio, asr, diarization, profiles, spatial, transcriber, session_state
+    global audio, asr, diarization, profiles, spatial, transcriber, session_state, llm
     if audio and audio.recording:
         audio.stop()
-    audio = asr = diarization = profiles = spatial = transcriber = session_state = None
+    audio = asr = diarization = profiles = spatial = transcriber = session_state = llm = None

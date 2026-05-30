@@ -74,7 +74,7 @@ Then, in the same breath, without registering the shift, he will tell you that b
 layout: Basic 5e Layout
 name: Thunk
 size: Medium
-type: humanoid
+type: entity
 subtype: orc
 alignment: neutral good
 ac: 13

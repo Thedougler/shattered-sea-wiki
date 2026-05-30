@@ -20,7 +20,7 @@ cr: 1
 layout: Basic 5e Layout
 name: "Animated Armor"
 size: Medium
-type: construct
+type: entity
 alignment: Unaligned
 ac: 18
 hp: 33

@@ -1,5 +1,5 @@
 ---
-type: character
+type: entity
 subtype: minor-npc
 campaign: shattered-sea
 status: active
@@ -53,7 +53,7 @@ Stood near the door in Nona's kitchen in [[le-paludi|Le Paludi]] when Perrin arr
 layout: Basic 5e Layout
 name: Ruk
 size: Medium
-type: humanoid
+type: entity
 subtype: lizardfolk
 alignment: neutral
 ac: 16

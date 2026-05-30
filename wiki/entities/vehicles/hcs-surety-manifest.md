@@ -1,5 +1,5 @@
 ---
-type: reference
+type: entity
 subtype: ship-manifest
 campaign: shattered-sea
 status: active

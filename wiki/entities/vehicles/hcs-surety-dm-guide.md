@@ -1,5 +1,5 @@
 ---
-type: reference
+type: entity
 subtype: dm-guide
 campaign: shattered-sea
 status: active

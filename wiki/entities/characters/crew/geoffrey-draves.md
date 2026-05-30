@@ -80,7 +80,7 @@ With the party, his terms are carpenter only, six gold a week, no boarding dutie
 layout: Basic 5e Layout
 name: Geoffrey Draves
 size: Medium
-type: humanoid
+type: entity
 subtype: human
 alignment: neutral
 ac: 13

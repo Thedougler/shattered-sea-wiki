@@ -69,7 +69,7 @@ CR 3 boarding specialist — Phase 3 boss of the Saltwright encounter, with lair
 layout: Basic 5e Layout
 name: Captain Barnaby Rook
 size: Medium
-type: humanoid
+type: entity
 subtype: "human"
 alignment: "lawful neutral"
 ac: 17

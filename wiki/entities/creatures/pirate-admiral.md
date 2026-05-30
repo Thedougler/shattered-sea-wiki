@@ -20,7 +20,7 @@ cr: 12
 layout: Basic 5e Layout
 name: "Pirate Admiral"
 size: Small
-type: humanoid
+type: entity
 alignment: Neutral
 ac: 20
 hp: 182

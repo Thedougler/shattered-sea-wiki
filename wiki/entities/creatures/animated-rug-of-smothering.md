@@ -22,7 +22,7 @@ relationships:
 layout: Basic 5e Layout
 name: "Animated Rug of Smothering"
 size: Large
-type: construct
+type: entity
 alignment: Unaligned
 ac: 12
 hp: 27

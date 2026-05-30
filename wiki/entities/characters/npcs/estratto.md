@@ -129,7 +129,7 @@ layout: Basic 5e Layout
 dice: true
 name: Estratto
 size: Medium
-type: construct
+type: entity
 subtype: warforged
 alignment: lawful neutral
 ac: 13

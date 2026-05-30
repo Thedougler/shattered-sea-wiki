@@ -1,5 +1,5 @@
 ---
-type: concept
+type: rules
 subtype: rule
 campaign: shattered-sea
 status: active

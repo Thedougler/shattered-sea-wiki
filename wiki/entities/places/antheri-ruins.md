@@ -1,5 +1,5 @@
 ---
-type: location
+type: entity
 subtype: site
 campaign: shattered-sea
 status: active

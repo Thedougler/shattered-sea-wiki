@@ -1,5 +1,5 @@
 ---
-type: item
+type: entity
 subtype: consumable
 campaign: shattered-sea
 status: active

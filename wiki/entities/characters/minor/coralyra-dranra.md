@@ -1,5 +1,5 @@
 ---
-type: character
+type: entity
 subtype: minor-npc
 campaign: shattered-sea
 status: future

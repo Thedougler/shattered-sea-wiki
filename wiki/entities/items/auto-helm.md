@@ -1,5 +1,5 @@
 ---
-type: item
+type: entity
 subtype: equipment
 campaign: shattered-sea
 status: active

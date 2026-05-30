@@ -1,5 +1,5 @@
 ---
-type: rules
+type: lore
 subtype: species
 campaign: shattered-sea
 status: active

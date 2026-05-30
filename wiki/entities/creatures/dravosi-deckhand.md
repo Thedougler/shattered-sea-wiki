@@ -24,7 +24,7 @@ relationships:
 layout: Basic 5e Layout
 name: Dravosi Deckhand
 size: Medium
-type: humanoid
+type: entity
 subtype: "human"
 alignment: "lawful neutral"
 ac: 13

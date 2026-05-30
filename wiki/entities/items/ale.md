@@ -1,5 +1,5 @@
 ---
-type: item
+type: entity
 subtype: food
 campaign: shattered-sea
 status: active

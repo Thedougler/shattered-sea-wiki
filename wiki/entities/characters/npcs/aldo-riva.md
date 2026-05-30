@@ -1,5 +1,5 @@
 ---
-type: character
+type: entity
 subtype: npc
 campaign: shattered-sea
 status: active

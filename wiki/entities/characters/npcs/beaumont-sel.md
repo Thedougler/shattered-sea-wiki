@@ -96,7 +96,7 @@ Beaumont knows the Midchain route, the Saltwright's crew and cargo, local port h
 layout: Basic 5e Layout
 name: Beaumont Sel
 size: Medium
-type: humanoid
+type: entity
 subtype: tortle
 alignment: neutral good
 ac: 19

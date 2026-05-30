@@ -20,7 +20,7 @@ cr: 6
 layout: Basic 5e Layout
 name: "Pirate Captain"
 size: Small
-type: humanoid
+type: entity
 alignment: Neutral
 ac: 17
 hp: 84

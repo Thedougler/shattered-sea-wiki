@@ -24,7 +24,7 @@ A [[dravosi-crown|Dravosi Crown]] warrant officer responsible for shipboard stor
 layout: Basic 5e Layout
 name: Dravosi Alchemist
 size: Medium
-type: humanoid
+type: entity
 subtype: "human"
 alignment: "lawful neutral"
 ac: 13

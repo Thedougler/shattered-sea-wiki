@@ -1,5 +1,5 @@
 ---
-type: character
+type: entity
 subtype: minor-npc
 campaign: shattered-sea
 status: active
@@ -49,7 +49,7 @@ Present in Nona's kitchen in Le Paludi when Perrin arrived. Leaned against the f
 layout: Basic 5e Layout
 name: Enzo
 size: Medium
-type: humanoid
+type: entity
 subtype: tabaxi
 alignment: neutral
 ac: 16

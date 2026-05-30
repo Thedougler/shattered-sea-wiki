@@ -1,5 +1,5 @@
 ---
-type: item
+type: entity
 subtype: service
 campaign: shattered-sea
 status: active

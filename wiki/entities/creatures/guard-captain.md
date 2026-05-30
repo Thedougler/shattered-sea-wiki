@@ -20,7 +20,7 @@ cr: 4
 layout: Basic 5e Layout
 name: "Guard Captain"
 size: Medium
-type: humanoid
+type: entity
 alignment: Neutral
 ac: 18
 hp: 75

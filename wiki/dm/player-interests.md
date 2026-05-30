@@ -1,5 +1,5 @@
 ---
-type: system
+type: dm-intelligence
 subtype: dm-intelligence
 campaign: shattered-sea
 status: unknown

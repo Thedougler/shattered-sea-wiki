@@ -1,5 +1,5 @@
 ---
-type: reference
+type: dm-intelligence
 subtype: pc-primer
 campaign: shattered-sea
 status: active

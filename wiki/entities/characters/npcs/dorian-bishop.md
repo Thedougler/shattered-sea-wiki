@@ -79,7 +79,7 @@ Pressure points:
 layout: Basic 5e Layout
 name: Captain Dorian Bishop
 size: Medium
-type: humanoid
+type: entity
 subtype: human
 alignment: lawful neutral
 ac: 17

@@ -93,7 +93,7 @@ layout: Basic 5e Layout
 dice: true
 name: Master Kyzil
 size: Medium
-type: humanoid
+type: entity
 subtype: aarakocra
 alignment: lawful neutral
 ac: "21 (unarmored defense)"

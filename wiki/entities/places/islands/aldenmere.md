@@ -1,5 +1,5 @@
 ---
-type: location
+type: entity
 subtype: island
 campaign: shattered-sea
 status: active

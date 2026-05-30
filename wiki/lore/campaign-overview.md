@@ -1,5 +1,5 @@
 ---
-type: reference
+type: lore
 subtype: campaign-overview
 campaign: shattered-sea
 status: active

@@ -368,3 +368,9 @@ sources: []
 - 2026-05-30 | ingest | tiger — new creature page (CR 1 beast, Crown Islands / Verdant Teeth)
 - 2026-05-30 | ingest | unicorn — new creature page (CR 5 celestial, Midchain unconfirmed)
 - 2026-05-30 | ingest | venomous-snake — new creature page (CR 1/8 beast, Verdant Teeth)
+- 2026-05-30 | ingest | guardian-naga — new creature page (CR 10 celestial, Midchain / Antheri Ruins)
+- 2026-05-30 | ingest | celestials.md — new player-facing celestials index
+- 2026-05-30 | ingest | animated-broom — new creature page (CR 1/4 construct, Cat's Curios)
+- 2026-05-30 | ingest | animated-flying-sword — new creature page (CR 1/4 construct, Calveno)
+- 2026-05-30 | ingest | constructs.md — new player-facing constructs index
+- 2026-05-30 | ingest | adult-gold-dragon — new creature page (CR 17 dragon metallic, DM-only)

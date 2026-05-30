@@ -585,16 +585,21 @@ sources: []
 - [[hot|hot.md — Updated 2026-05-28]] — Current world state, open threads, faction clocks, and predictions. Read first, always.
 
 ## entities/creatures
+- [[adult-gold-dragon|Adult Gold Dragon]] — CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
 - [[ancient-dragon-turtle|Ancient Dragon Turtle]] — CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea resets to 350 HP and activates mythic actions. Hunts the Drowned Maw and Outer Reach.
 - [[ancient-sea-serpent|Ancient Sea Serpent]] — CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes.
 - [[animated-armor|Animated Armor]] — CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks.
+- [[animated-broom|Animated Broom]] — A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
+- [[animated-flying-sword|Animated Flying Sword]] — A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno vault that does not distinguish between intruder and rescuer.
 - [[animated-rug-of-smothering|Animated Rug of Smothering]] — CR 2 construct. Grapples and suffocates one Medium or smaller creature; halves damage taken while grappling.
 - [[apotheosis|Apotheosis]] — CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die.
 - [[arclight-phoenix|Arclight Phoenix]] — CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall.
 - [[beasts|Beasts]] — Player index for beasts, swarms, and natural predators of the Shattered Sea.
 - [[blight|Blight]] — Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 - [[boar|Boar]] — Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
+- [[celestials|Celestials]] — Player index for celestials of the Shattered Sea — divine and sacred creatures; encountering one is rarely accidental.
 - [[constrictor-snake|Constrictor Snake]] — Public statblock reference for Constrictor Snake, a CR 1/4 beast in the Shattered Sea bestiary.
+- [[constructs|Constructs]] — Player index for constructs and animated objects of the Shattered Sea — typically stationary until a threshold is crossed.
 - [[covenant|Covenant]] — CR 20 undead lich. Warlock lich whose phylacteries are signed pact contracts — it reforms as long as any pact-holder still lives.
 - [[death-march|Death March]] — CR 20 undead lich. Fighter lich whose phylacteries are the undead corpses of warriors it has slain and conscripted — it must keep hunting worthy opponents to replace decaying anchors.
 - [[dragon-turtle|Dragon Turtle]] — CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown.
@@ -629,6 +634,7 @@ sources: []
 - [[giant-weasel|Giant Weasel]] — Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
 - [[giant-wolf-spider|Giant Wolf Spider]] — Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
 - [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
+- [[guardian-naga|Guardian Naga]] — A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
 - [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.

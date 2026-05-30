@@ -80,7 +80,7 @@ def run_operator_tui(orchestrator: SessionOrchestrator, *, port: int = 8080) -> 
 
         def __init__(self) -> None:
             super().__init__()
-            self._start_time: float | None = None
+            self._rec_start: float | None = None
             self._transcript_lines: list[str] = []
 
         def compose(self) -> ComposeResult:
@@ -98,8 +98,8 @@ def run_operator_tui(orchestrator: SessionOrchestrator, *, port: int = 8080) -> 
         def _refresh_display(self) -> None:
             snap = orchestrator.snapshot()
             elapsed = ""
-            if self._start_time is not None:
-                elapsed = f"  {format_elapsed(int(time.time() - self._start_time))}"
+            if self._rec_start is not None:
+                elapsed = f"  {format_elapsed(int(time.time() - self._rec_start))}"
 
             status_widget = self.query_one("#status", Static)
             status_widget.update(
@@ -127,7 +127,7 @@ def run_operator_tui(orchestrator: SessionOrchestrator, *, port: int = 8080) -> 
 
         def action_start_recording(self) -> None:
             orchestrator.start()
-            self._start_time = time.time()
+            self._rec_start = time.time()
 
         def action_pause_recording(self) -> None:
             orchestrator.stop()

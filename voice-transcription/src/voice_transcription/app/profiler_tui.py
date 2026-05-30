@@ -72,7 +72,7 @@ def run_profiler_tui(  # pragma: no cover - TUI wiring
 
         def __init__(self) -> None:
             super().__init__()
-            self._start_time: float | None = None
+            self._rec_start: float | None = None
             self._save_result: str | None = None
             self._captured: list[np.ndarray] = []
             self._audio_queue: queue.Queue[np.ndarray] = queue.Queue()
@@ -94,8 +94,8 @@ def run_profiler_tui(  # pragma: no cover - TUI wiring
         def _refresh_display(self) -> None:
             snap = orchestrator.snapshot()
             elapsed = ""
-            if self._start_time is not None:
-                elapsed = f"  {format_elapsed(int(time.time() - self._start_time))}"
+            if self._rec_start is not None:
+                elapsed = f"  {format_elapsed(int(time.time() - self._rec_start))}"
 
             status_widget = self.query_one("#status", Static)
             status_widget.update(
@@ -181,7 +181,7 @@ def run_profiler_tui(  # pragma: no cover - TUI wiring
             )
             self._stream.start()
             orchestrator.start()
-            self._start_time = time.time()
+            self._rec_start = time.time()
 
         def action_save_profile(self) -> None:
             if not orchestrator.is_recording and not self._captured:

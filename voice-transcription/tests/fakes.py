@@ -71,3 +71,24 @@ class FakeEmbedder:
         if self._raise_always:
             raise RuntimeError("fake embedder failure")
         return list(self._vector)
+
+
+class FakeStreamingTranscriber:
+    """Returns pre-configured words as if they were finalized by streaming ASR."""
+
+    def __init__(self, words_sequence: list[list[str]] | None = None) -> None:
+        self._words_sequence = list(words_sequence or [])
+        self._call_count = 0
+        self._all_words: list[str] = []
+        self.closed = False
+
+    def add_audio(self, chunk: list[float]) -> None:
+        if self._call_count < len(self._words_sequence):
+            self._all_words.extend(self._words_sequence[self._call_count])
+        self._call_count += 1
+
+    def finalized_words(self) -> list[str]:
+        return list(self._all_words)
+
+    def close(self) -> None:
+        self.closed = True

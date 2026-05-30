@@ -356,3 +356,9 @@ sources: []
 - 2026-05-30 | ingest | owlbear — new creature page (CR 3 monstrosity, Crown Islands)
 - 2026-05-30 | ingest | panther — new creature page (CR 1/4 beast, Verdant Teeth)
 - 2026-05-30 | ingest | beasts.md — new player-facing bestiary index, all wikilinks corrected
+- 2026-05-30 | ingest | pegasus — new creature page (CR 2 celestial, High Eyrie)
+- 2026-05-30 | ingest | primeval-owlbear — new creature page (CR 7 monstrosity, forest interior)
+- 2026-05-30 | ingest | swarm-of-bats — new creature page (CR 1/4 beast, Ashwall Islands)
+- 2026-05-30 | ingest | swarm-of-insects — new creature page (CR 1/2 beast, Verdant Teeth)
+- 2026-05-30 | ingest | swarm-of-larvae — new creature page (CR 1 fiend, Antheri Ruins planar scarring)
+- 2026-05-30 | ingest | swarm-of-piranhas — new creature page (CR 1 beast, Midchain freshwater)

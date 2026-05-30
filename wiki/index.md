@@ -637,14 +637,20 @@ sources: []
 - [[necromaton|Necromaton]] — CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated.
 - [[owlbear|Owlbear]] — The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 - [[panther|Panther]] — Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
+- [[pegasus|Pegasus]] — The Pegasus, a CR 2 celestial rumoured above the High Eyrie; sightings treated as a private matter by the Sentinels.
 - [[pirate|Pirate]] — CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
 - [[pirate-admiral|Pirate Admiral]] — CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction.
 - [[pirate-captain|Pirate Captain]] — CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction.
+- [[primeval-owlbear|Primeval Owlbear]] — A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 - [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
 - [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.
 - [[sawek|Sawek (Blue Devil)]] — CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair.
 - [[skulldugger|Skulldugger]] — CR 21 undead lich. Rogue lich that achieves undeath by stealing another lich's ritual — parasitizes spirit jars from other liches. Hated by all undead as a natural predator.
 - [[soul-incarnate|Soul Incarnate]] — CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal.
+- [[swarm-of-bats|Swarm of Bats]] — A CR 1/4 beast swarm roosting in the sea-cliff overhangs of the Ashwall Islands; the evening exodus sounds like distant thunder.
+- [[swarm-of-insects|Swarm of Insects]] — A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
+- [[swarm-of-larvae|Swarm of Larvae]] — A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
+- [[swarm-of-piranhas|Swarm of Piranhas]] — A CR 1 beast swarm of freshwater predators found in still interior lakes and spring-fed pools of the Midchain; the Vatumei lake margins are known to locals.
 - [[unfamiliar|Unfamiliar]] — CR 5 monstrosity. Designed to hunt familiars and their summoners — its attacks trigger random uncontrolled spell effects, and it instinctively targets anyone who has ever bonded with a familiar.
 - [[whip-shark|Whip Shark (Welak)]] — CR 6 monstrosity. Huge aquatic predator with a barbed tail that can hook ship hulls. Kalowe fishermen call it the Welak. Encountered in Session 03 — a 60-foot specimen attacked the Uncertainty west of Calveno.
 - [[young-dragon-turtle|Young Dragon Turtle]] — CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.

@@ -428,3 +428,9 @@ sources: []
 - 2026-05-30 | ingest | wiki/faq.md — new player-facing FAQ
 - 2026-05-30 | ingest | wiki/hub.md — new campaign root hub page
 - 2026-05-30 | ingest | wiki/entities/items/index.md — new items index
+- 2026-05-30 | ingest | il-palio-delle-voci — new lore page (Calveno bardic competition, player-facing)
+- 2026-05-30 | ingest | rules/backgrounds/acolyte — new background reference (D&D 5e 2024)
+- 2026-05-30 | ingest | rules/backgrounds/artisan — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/carouser — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/charlatan — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/criminal — new background reference

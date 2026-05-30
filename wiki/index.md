@@ -507,6 +507,7 @@ sources: []
 - [[campaign-overview|Campaign Overview]] — Dense reference overview of the Shattered Sea campaign — geography, powers, religion, starting situation, and the edges of the map. Player-facing.
 - [[campaign-timeline|Campaign Timeline]] — Canonical chronology for Shattered Sea pre-campaign history and early sessions. Anchors the Antheri, Drowned Maw, Fisk fleet disaster, Perrin's shipwreck, and Session 01 sequence.
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]] — Calveno's five-day prank festival. Teams execute elaborate public hoaxes on willing marks during a three-day window, then reveal authorship with a registered team symbol.
+- [[il-palio-delle-voci|Il Palio delle Voci Contese]] — Calveno's annual open bardic competition — multiple bands playing simultaneously across the canal district for three hours while crowds move between them, judged by which stage holds the most people at the end.
 - [[peoples-of-the-shattered-sea|Peoples of the Shattered Sea]] — Regional demographics of the Shattered Sea: who lives where, who sails through, and why the population mix changes farther east.
 - [[shattered-sea-pantheon|Shattered Sea Pantheon]] — The active divine landscape of the Shattered Sea: Umberlee dominates maritime practice, with Valkur and Tyr acting as important counterweights.
 - [[the-galewall-runners-drop|The Galewall Runner's Drop]] — A legendary privateer treasure cache rumored to be hidden on one of the volcanic Ashwall Islands — deposited during a desperate flight from the Dravosi Admiralty in the early colonial period.
@@ -528,6 +529,13 @@ sources: []
 - [[navigator-chart-room|Navigator's Chart Room]] — Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
 - [[provisions-store|Provisions Store]] — Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
 - [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
+
+## rules/backgrounds
+- [[acolyte|Acolyte]] — D&D 5e 2024 Acolyte background — Intelligence, Wisdom, Charisma; Magic Initiate (Cleric) feat; Insight and Religion proficiencies.
+- [[artisan|Artisan]] — D&D 5e 2024 Artisan background — Strength, Dexterity, Intelligence; Crafter feat; Investigation and Persuasion proficiencies.
+- [[carouser|Carouser]] — D&D 5e 2024 Carouser background — Dexterity, Intelligence, Charisma; Tireless Reveler feat; Deception and Persuasion proficiencies.
+- [[charlatan|Charlatan]] — D&D 5e 2024 Charlatan background — Dexterity, Constitution, Charisma; Skilled feat; Deception and Sleight of Hand proficiencies.
+- [[criminal|Criminal]] — D&D 5e 2024 Criminal background — Dexterity, Constitution, Intelligence; Alert feat; Sleight of Hand and Stealth proficiencies.
 
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.

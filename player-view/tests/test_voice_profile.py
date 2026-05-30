@@ -1,3 +1,5 @@
+import base64
+
 import numpy as np
 import pytest
 
@@ -70,48 +72,96 @@ class TestProfileStore:
             profile_store.update_embedding('Ghost', np.zeros(192))
 
 
-class TestSpatialSignature:
-    def test_spatial_signature_none_by_default(self):
+class TestSpatialFingerprint:
+    def test_fingerprint_none_by_default(self):
         emb = np.random.randn(192).astype(np.float32)
         profile = VoiceProfile(character='Test', player='Test', embedding=emb)
-        assert profile.spatial_signature is None
+        assert profile.spatial_fingerprint is None
+        assert profile.spatial_m2 is None
         assert profile.spatial_sample_count == 0
 
-    def test_spatial_signature_serialization(self):
+    def test_fingerprint_serialization_roundtrip(self):
         emb = np.random.randn(192).astype(np.float32)
+        fp = np.array([0.65, 0.18, 0.17], dtype=np.float32)
+        m2 = np.array([0.01, 0.005, 0.004], dtype=np.float32)
         profile = VoiceProfile(
             character='Test', player='Test', embedding=emb,
-            spatial_signature=0.75, spatial_sample_count=5,
+            spatial_fingerprint=fp, spatial_m2=m2, spatial_sample_count=10,
         )
         d = profile.to_dict()
         restored = VoiceProfile.from_dict(d)
-        assert restored.spatial_signature == pytest.approx(0.75)
-        assert restored.spatial_sample_count == 5
+        np.testing.assert_array_almost_equal(restored.spatial_fingerprint, fp)
+        np.testing.assert_array_almost_equal(restored.spatial_m2, m2)
+        assert restored.spatial_sample_count == 10
 
-    def test_spatial_signature_backward_compat(self):
+    def test_no_spatial_fields_backward_compat(self):
         emb = np.random.randn(192).astype(np.float32)
-        profile = VoiceProfile(character='Old', player='Old', embedding=emb)
-        d = profile.to_dict()
-        del d['spatial_signature']
-        del d['spatial_sample_count']
+        d = {
+            'character': 'Old', 'player': 'Old',
+            'embedding': base64.b64encode(emb.tobytes()).decode(),
+            'embedding_shape': [192], 'embedding_dtype': 'float32',
+        }
         restored = VoiceProfile.from_dict(d)
-        assert restored.spatial_signature is None
+        assert restored.spatial_fingerprint is None
+        assert restored.spatial_m2 is None
         assert restored.spatial_sample_count == 0
 
-    def test_update_spatial_signature_averaging(self):
+    def test_scalar_spatial_signature_migrated_to_fingerprint(self):
         emb = np.random.randn(192).astype(np.float32)
-        profile = VoiceProfile(
-            character='Spatial', player='Test', embedding=emb,
-            spatial_signature=0.8, spatial_sample_count=2,
-        )
-        profile.update_spatial(0.4)
-        assert profile.spatial_sample_count == 3
-        expected = (0.8 * 2 + 0.4) / 3
-        assert profile.spatial_signature == pytest.approx(expected)
+        d = {
+            'character': 'Legacy', 'player': 'Legacy',
+            'embedding': base64.b64encode(emb.tobytes()).decode(),
+            'embedding_shape': [192], 'embedding_dtype': 'float32',
+            'spatial_signature': 0.7, 'spatial_sample_count': 3,
+        }
+        restored = VoiceProfile.from_dict(d)
+        assert restored.spatial_fingerprint is not None
+        assert restored.spatial_fingerprint[0] == pytest.approx(0.7)
+        assert restored.spatial_fingerprint.sum() == pytest.approx(1.0)
+        assert restored.spatial_sample_count == 3
 
-    def test_update_spatial_from_none(self):
+    def test_update_spatial_first_sample(self):
         emb = np.random.randn(192).astype(np.float32)
         profile = VoiceProfile(character='New', player='Test', embedding=emb)
-        profile.update_spatial(0.6)
-        assert profile.spatial_signature == pytest.approx(0.6)
+        fp = np.array([0.6, 0.2, 0.2])
+        profile.update_spatial(fp)
+        np.testing.assert_array_almost_equal(profile.spatial_fingerprint, fp)
         assert profile.spatial_sample_count == 1
+        np.testing.assert_array_almost_equal(profile.spatial_m2, [0, 0, 0])
+
+    def test_update_spatial_running_average(self):
+        emb = np.random.randn(192).astype(np.float32)
+        profile = VoiceProfile(character='Avg', player='Test', embedding=emb)
+        profile.update_spatial(np.array([0.8, 0.1, 0.1]))
+        profile.update_spatial(np.array([0.6, 0.2, 0.2]))
+        assert profile.spatial_sample_count == 2
+        np.testing.assert_array_almost_equal(
+            profile.spatial_fingerprint, [0.7, 0.15, 0.15]
+        )
+
+    def test_update_spatial_variance_tracks_spread(self):
+        emb = np.random.randn(192).astype(np.float32)
+        profile = VoiceProfile(character='Var', player='Test', embedding=emb)
+        for fp in [
+            np.array([0.8, 0.1, 0.1]),
+            np.array([0.8, 0.1, 0.1]),
+            np.array([0.8, 0.1, 0.1]),
+        ]:
+            profile.update_spatial(fp)
+        assert profile.spatial_consistency > 0.9
+
+    def test_low_consistency_when_position_varies(self):
+        emb = np.random.randn(192).astype(np.float32)
+        profile = VoiceProfile(character='Var', player='Test', embedding=emb)
+        for fp in [
+            np.array([0.8, 0.1, 0.1]),
+            np.array([0.1, 0.1, 0.8]),
+            np.array([0.1, 0.8, 0.1]),
+        ]:
+            profile.update_spatial(fp)
+        assert profile.spatial_consistency < 0.5
+
+    def test_consistency_none_with_no_samples(self):
+        emb = np.random.randn(192).astype(np.float32)
+        profile = VoiceProfile(character='Empty', player='Test', embedding=emb)
+        assert profile.spatial_consistency is None

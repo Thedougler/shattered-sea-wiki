@@ -38,12 +38,12 @@ class SessionTranscriber:
         embedding = self._diarization.extract_embedding(analysis.best_channel_audio)
         all_profiles = self._profiles.load_all()
         profile_tuples = [
-            (p.character, p.embedding, p.spatial_signature)
+            (p.character, p.embedding, p.spatial_fingerprint, p.spatial_m2, p.spatial_sample_count)
             for p in all_profiles
         ]
         ranked = self._diarization.rank_against_with_spatial(
-            embedding, analysis.dm_ratio, profile_tuples,
-            spatial_weight=self._spatial_weight,
+            embedding, analysis.fingerprint, profile_tuples,
+            base_weight=self._spatial_weight,
         )
         speaker = ranked[0][0] if ranked else 'Unknown'
 
@@ -58,7 +58,7 @@ class SessionTranscriber:
 
         for p in all_profiles:
             if p.character == speaker:
-                p.update_spatial(analysis.dm_ratio)
+                p.update_spatial(analysis.fingerprint)
                 self._profiles.save(p)
                 break
 

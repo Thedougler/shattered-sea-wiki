@@ -121,6 +121,60 @@ class TestConfiguration:
         assert analyzer_strict.analyze(chunk).is_speech is False
 
 
+class TestFingerprint:
+    def test_fingerprint_shape_matches_channels(self):
+        analyzer = SpatialAnalyzer()
+        chunk = np.ones((1600, 3), dtype=np.float32) * 0.3
+        result = analyzer.analyze(chunk)
+        assert result.fingerprint.shape == (3,)
+
+    def test_fingerprint_sums_to_one(self):
+        analyzer = SpatialAnalyzer()
+        dm = _sine(440, 0.1, amplitude=0.5)
+        player = _sine(440, 0.1, amplitude=0.2)
+        chunk = _make_chunk(dm, player)
+        result = analyzer.analyze(chunk)
+        assert result.fingerprint.sum() == pytest.approx(1.0, abs=1e-6)
+
+    def test_fingerprint_encodes_dm_position(self):
+        analyzer = SpatialAnalyzer()
+        dm = _sine(440, 0.1, amplitude=0.5)
+        player = np.random.randn(len(dm)).astype(np.float32) * 0.01
+        chunk = _make_chunk(dm, player)
+        result = analyzer.analyze(chunk)
+        assert result.fingerprint[0] > 0.8
+
+    def test_fingerprint_encodes_left_right_difference(self):
+        analyzer = SpatialAnalyzer()
+        n = 1600
+        chunk = np.zeros((n, 3), dtype=np.float32)
+        chunk[:, 0] = 0.01
+        t = np.arange(n) / 16000
+        chunk[:, 1] = 0.5 * np.sin(2 * np.pi * 440 * t)  # left loud
+        chunk[:, 2] = 0.1 * np.sin(2 * np.pi * 440 * t)  # right quiet
+        result = analyzer.analyze(chunk)
+        assert result.fingerprint[1] > result.fingerprint[2]
+
+    def test_fingerprint_directionally_consistent_with_dm_ratio(self):
+        analyzer = SpatialAnalyzer()
+        dm = _sine(440, 0.1, amplitude=0.5)
+        player = _sine(440, 0.1, amplitude=0.2)
+        chunk_dm_loud = _make_chunk(dm, player)
+        chunk_player_loud = _make_chunk(player, dm)
+        r1 = analyzer.analyze(chunk_dm_loud)
+        r2 = analyzer.analyze(chunk_player_loud)
+        assert r1.fingerprint[0] > r2.fingerprint[0]
+        assert r1.dm_ratio > r2.dm_ratio
+
+    def test_silence_fingerprint_is_uniform(self):
+        analyzer = SpatialAnalyzer()
+        chunk = np.zeros((1600, 3), dtype=np.float32)
+        result = analyzer.analyze(chunk)
+        np.testing.assert_array_almost_equal(
+            result.fingerprint, [1/3, 1/3, 1/3], decimal=5
+        )
+
+
 class TestEdgeCases:
     def test_single_sample_doesnt_crash(self):
         analyzer = SpatialAnalyzer()
@@ -128,3 +182,4 @@ class TestEdgeCases:
         result = analyzer.analyze(chunk)
         assert isinstance(result.dm_ratio, float)
         assert not np.isnan(result.dm_ratio)
+        assert result.fingerprint.shape == (3,)

@@ -53,7 +53,7 @@ class FakeDiarization:
         self._embeddings_from.append(audio)
         return np.random.randn(192).astype(np.float32)
 
-    def rank_against_with_spatial(self, embedding, dm_ratio, profiles, spatial_weight=0.2):
+    def rank_against_with_spatial(self, embedding, fingerprint, profiles, base_weight=0.2, **kwargs):
         if self._call_count < len(self._rankings):
             result = self._rankings[self._call_count]
         else:
@@ -179,10 +179,10 @@ class TestSpatialIntegration:
         called_with = {}
 
         class TrackingDiarization(FakeDiarization):
-            def rank_against_with_spatial(self, embedding, dm_ratio, profiles, spatial_weight=0.2):
-                called_with['dm_ratio'] = dm_ratio
-                called_with['spatial_weight'] = spatial_weight
-                return super().rank_against_with_spatial(embedding, dm_ratio, profiles, spatial_weight)
+            def rank_against_with_spatial(self, embedding, fingerprint, profiles, base_weight=0.2, **kwargs):
+                called_with['fingerprint'] = fingerprint
+                called_with['base_weight'] = base_weight
+                return super().rank_against_with_spatial(embedding, fingerprint, profiles, base_weight)
 
         diar = TrackingDiarization([[('Perrin', 0.9)]])
         spatial = SpatialAnalyzer()
@@ -191,10 +191,10 @@ class TestSpatialIntegration:
             profiles=profile_store, session_state=state,
         )
         transcriber.process_chunk(_make_chunk(0.01, 0.5))
-        assert 'dm_ratio' in called_with
-        assert called_with['dm_ratio'] < 0.5
+        assert 'fingerprint' in called_with
+        assert called_with['fingerprint'][0] < 0.3  # DM channel quiet
 
-    def test_spatial_signature_updated_on_identification(self, tmp_path):
+    def test_spatial_fingerprint_updated_on_identification(self, tmp_path):
         store = ProfileStore(tmp_path / 'profiles')
         emb = np.random.randn(192).astype(np.float32)
         store.save(VoiceProfile(character='Perrin', player='P1', embedding=emb))
@@ -209,7 +209,9 @@ class TestSpatialIntegration:
         transcriber.process_chunk(_make_chunk(0.01, 0.5))
         transcriber.flush()
         updated = store.load('Perrin')
-        assert updated.spatial_signature is not None
+        assert updated.spatial_fingerprint is not None
+        assert len(updated.spatial_fingerprint) == 3
+        assert updated.spatial_sample_count == 1
 
 
 class TestSessionStatus:

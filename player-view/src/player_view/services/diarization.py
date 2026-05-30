@@ -52,16 +52,31 @@ class DiarizationService:
     def rank_against_with_spatial(
         self,
         embedding: np.ndarray,
-        dm_ratio: float,
-        profiles: list[tuple[str, np.ndarray, float | None]],
-        spatial_weight: float = 0.2,
+        fingerprint: np.ndarray,
+        profiles: list[tuple[str, np.ndarray, np.ndarray | None, np.ndarray | None, int]],
+        base_weight: float = 0.2,
+        ramp_samples: int = 5,
+        channel_weights: np.ndarray | None = None,
     ) -> list[tuple[str, float]]:
         results = []
-        for name, prof_emb, spatial_sig in profiles:
+        for name, prof_emb, prof_fp, prof_m2, sample_count in profiles:
             cosine_sim = self.compare(embedding, prof_emb)
-            if spatial_sig is not None and spatial_weight > 0:
-                spatial_sim = 1.0 - abs(spatial_sig - dm_ratio)
-                score = (1 - spatial_weight) * cosine_sim + spatial_weight * spatial_sim
+            if prof_fp is not None and base_weight > 0 and sample_count > 0:
+                ramp = min(1.0, sample_count / ramp_samples)
+                if prof_m2 is not None and sample_count >= 2:
+                    variance = prof_m2 / sample_count
+                    consistency = float(np.exp(-10.0 * np.mean(variance)))
+                else:
+                    consistency = 0.5
+                effective_weight = base_weight * consistency * ramp
+
+                diff = prof_fp - fingerprint
+                if channel_weights is not None:
+                    diff = diff * channel_weights
+                spatial_sim = 1.0 - float(np.sqrt(np.mean(diff ** 2))) / 0.5
+                spatial_sim = max(0.0, min(1.0, spatial_sim))
+
+                score = (1 - effective_weight) * cosine_sim + effective_weight * spatial_sim
             else:
                 score = cosine_sim
             results.append((name, score))

@@ -15,11 +15,19 @@ class VoiceProfile:
     sample_count: int = 1
     created_at: float = field(default_factory=time.time)
     updated_at: float = field(default_factory=time.time)
-    spatial_signature: float | None = None
+    spatial_fingerprint: np.ndarray | None = None
+    spatial_m2: np.ndarray | None = None
     spatial_sample_count: int = 0
 
+    @property
+    def spatial_consistency(self) -> float | None:
+        if self.spatial_sample_count < 2 or self.spatial_m2 is None:
+            return None
+        variance = self.spatial_m2 / self.spatial_sample_count
+        return float(np.exp(-10.0 * np.mean(variance)))
+
     def to_dict(self) -> dict:
-        return {
+        d = {
             'character': self.character,
             'player': self.player,
             'embedding': base64.b64encode(self.embedding.tobytes()).decode(),
@@ -28,9 +36,17 @@ class VoiceProfile:
             'sample_count': self.sample_count,
             'created_at': self.created_at,
             'updated_at': self.updated_at,
-            'spatial_signature': self.spatial_signature,
             'spatial_sample_count': self.spatial_sample_count,
         }
+        if self.spatial_fingerprint is not None:
+            d['spatial_fingerprint'] = self.spatial_fingerprint.tolist()
+        else:
+            d['spatial_fingerprint'] = None
+        if self.spatial_m2 is not None:
+            d['spatial_m2'] = self.spatial_m2.tolist()
+        else:
+            d['spatial_m2'] = None
+        return d
 
     @classmethod
     def from_dict(cls, d: dict) -> 'VoiceProfile':
@@ -38,6 +54,23 @@ class VoiceProfile:
         dtype = np.dtype(d.get('embedding_dtype', 'float32'))
         shape = tuple(d.get('embedding_shape', [-1]))
         embedding = np.frombuffer(raw, dtype=dtype).reshape(shape)
+
+        fp_raw = d.get('spatial_fingerprint')
+        m2_raw = d.get('spatial_m2')
+        spatial_n = d.get('spatial_sample_count', 0)
+
+        if fp_raw is not None:
+            spatial_fp = np.array(fp_raw, dtype=np.float64)
+            spatial_m2 = np.array(m2_raw, dtype=np.float64) if m2_raw is not None else None
+        elif d.get('spatial_signature') is not None:
+            sig = d['spatial_signature']
+            rest = (1.0 - sig) / 2.0
+            spatial_fp = np.array([sig, rest, rest], dtype=np.float64)
+            spatial_m2 = None
+        else:
+            spatial_fp = None
+            spatial_m2 = None
+
         return cls(
             character=d['character'],
             player=d['player'],
@@ -45,18 +78,23 @@ class VoiceProfile:
             sample_count=d.get('sample_count', 1),
             created_at=d.get('created_at', 0),
             updated_at=d.get('updated_at', 0),
-            spatial_signature=d.get('spatial_signature'),
-            spatial_sample_count=d.get('spatial_sample_count', 0),
+            spatial_fingerprint=spatial_fp,
+            spatial_m2=spatial_m2,
+            spatial_sample_count=spatial_n,
         )
 
-    def update_spatial(self, new_ratio: float):
-        if self.spatial_signature is None:
-            self.spatial_signature = new_ratio
-            self.spatial_sample_count = 1
+    def update_spatial(self, new_fingerprint: np.ndarray):
+        fp = np.asarray(new_fingerprint, dtype=np.float64)
+        self.spatial_sample_count += 1
+        n = self.spatial_sample_count
+        if n == 1:
+            self.spatial_fingerprint = fp.copy()
+            self.spatial_m2 = np.zeros_like(fp)
         else:
-            n = self.spatial_sample_count
-            self.spatial_signature = (self.spatial_signature * n + new_ratio) / (n + 1)
-            self.spatial_sample_count = n + 1
+            delta = fp - self.spatial_fingerprint
+            self.spatial_fingerprint = self.spatial_fingerprint + delta / n
+            delta2 = fp - self.spatial_fingerprint
+            self.spatial_m2 = self.spatial_m2 + delta * delta2
 
 
 class ProfileStore:

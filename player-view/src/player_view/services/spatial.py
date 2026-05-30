@@ -9,6 +9,7 @@ class SpatialAnalysis:
     dm_energy: float
     player_energy: float
     dm_ratio: float
+    fingerprint: np.ndarray
     best_channel_audio: np.ndarray
     dm_channel_audio: np.ndarray
     player_channel_audio: np.ndarray
@@ -27,6 +28,17 @@ class SpatialAnalyzer:
         self._silence_threshold = 10 ** (silence_db / 20)
 
     def analyze(self, chunk: np.ndarray) -> SpatialAnalysis:
+        n_channels = chunk.shape[1]
+        channel_rms = np.array([
+            float(np.sqrt(np.mean(chunk[:, ch] ** 2)))
+            for ch in range(n_channels)
+        ])
+        total_rms = channel_rms.sum()
+        if total_rms < 1e-10:
+            fingerprint = np.full(n_channels, 1.0 / n_channels)
+        else:
+            fingerprint = channel_rms / total_rms
+
         dm_audio = np.mean(chunk[:, self.dm_channels], axis=1)
         player_audio = np.mean(chunk[:, self.player_channels], axis=1)
 
@@ -45,6 +57,7 @@ class SpatialAnalyzer:
             dm_energy=dm_rms,
             player_energy=player_rms,
             dm_ratio=dm_ratio,
+            fingerprint=fingerprint,
             best_channel_audio=best,
             dm_channel_audio=dm_audio,
             player_channel_audio=player_audio,

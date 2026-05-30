@@ -65,10 +65,15 @@ if venv_too_old; then
 fi
 
 # --- 3. Dependencies (reinstall only when pyproject.toml changes) ----------
-if [[ ! -f "$DEPS_STAMP" || "$PYPROJECT" -nt "$DEPS_STAMP" ]]; then
+OVERRIDES="$PROJECT_DIR/overrides.txt"
+
+if [[ ! -f "$DEPS_STAMP" || "$PYPROJECT" -nt "$DEPS_STAMP" || "$OVERRIDES" -nt "$DEPS_STAMP" ]]; then
   log "Installing dependencies from pyproject.toml (first run downloads model weights later) ..."
-  "$VENV_PY" -m pip install --quiet --upgrade pip
-  "$VENV_PY" -m pip install --quiet -e "$PROJECT_DIR"
+  if command -v uv >/dev/null 2>&1; then
+    VIRTUAL_ENV="$VENV_DIR" uv pip install --quiet --override "$OVERRIDES" -e "$PROJECT_DIR"
+  else
+    die "uv is required (diart 0.9.2 has conflicting numpy/matplotlib constraints that pip cannot resolve). Install with: curl -LsSf https://astral.sh/uv/install.sh | sh"
+  fi
   touch "$DEPS_STAMP"
 fi
 

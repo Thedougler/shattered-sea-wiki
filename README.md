@@ -53,6 +53,19 @@ table (≈5 players, heavy crosstalk, each voicing several characters).
 All paths below are relative to the repo root. Apple Silicon required (Parakeet via MLX +
 pyannote on MPS/CPU).
 
+Three convenience wrappers live at the repo root — **start here**. Each one creates the
+virtualenv, installs dependencies on first run, reads `HF_TOKEN` from `.env`, and then runs
+the underlying Python tool. Flags pass straight through.
+
+```bash
+./save_voice.sh         --name "Grigori" --player "Dave"
+./transcribe_session.sh --session 4 --speakers 5
+./finalize_session.sh   --session 4 --speakers 5
+```
+
+The manual setup below is only needed if you want to run the Python scripts directly or
+understand what the wrappers do.
+
 ### One-time setup
 
 ```bash
@@ -73,7 +86,11 @@ export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
 First run downloads the Parakeet and pyannote weights (a few minutes); they cache after
 that. Full detail: `.claude/skills/live-co-dm/references/setup.md`.
 
-Every session below assumes the venv is active and `HF_TOKEN` is exported:
+> The wrappers do all of the above for you — venv creation, `pip install`, and reading
+> `HF_TOKEN` from `.env`. Put your token in `.env` once (`HF_TOKEN=hf_...`) and you never
+> need to activate the venv or export anything by hand.
+
+The raw-Python examples below assume the venv is active and `HF_TOKEN` is exported:
 
 ```bash
 source .claude/skills/live-co-dm/.venv/bin/activate
@@ -86,8 +103,8 @@ One profile per **character voice**. Run once per voice each table member perfor
 your first transcription.
 
 ```bash
-python3 .claude/skills/live-co-dm/scripts/voice_profiler.py \
-    --name "Grigori" --player "Dave"
+./save_voice.sh --name "Grigori" --player "Dave"
+# raw: python3 .claude/skills/live-co-dm/scripts/voice_profiler.py --name "Grigori" --player "Dave"
 ```
 
 Then open the printed URL (default `http://localhost:8080`), click **Start**, read the
@@ -110,8 +127,8 @@ overwrites that profile. Detail: `references/voice-profiler.md`.
 to stop.
 
 ```bash
-python3 .claude/skills/live-co-dm/scripts/transcribe_session.py \
-    --session 4 --speakers 5
+./transcribe_session.sh --session 4 --speakers 5
+# raw: python3 .claude/skills/live-co-dm/scripts/transcribe_session.py --session 4 --speakers 5
 ```
 
 | Flag | Meaning |
@@ -128,8 +145,8 @@ gitignored scratch, flushed to disk immediately so a crash at hour three loses n
 known speaker count — far more accurate on overlap — and writes the canonical transcript.
 
 ```bash
-python3 .claude/skills/live-co-dm/scripts/finalize_session.py \
-    --session 4 --speakers 5
+./finalize_session.sh --session 4 --speakers 5
+# raw: python3 .claude/skills/live-co-dm/scripts/finalize_session.py --session 4 --speakers 5
 ```
 
 Output: `wiki/sessions/session-04-transcript.md` (committed; the audio stays gitignored).

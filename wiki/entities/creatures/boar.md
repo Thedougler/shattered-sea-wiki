@@ -3,7 +3,7 @@ title: Boar
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 347
 statblock: inline
 str: 13
 wis: 9
+status: unknown
 ---
 
 # Boar

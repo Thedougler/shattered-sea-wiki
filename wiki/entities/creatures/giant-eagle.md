@@ -3,7 +3,7 @@ title: Giant Eagle
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Eagle, a CR 1 celestial in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 356
 statblock: inline
 str: 16
 wis: 14
+status: unknown
 ---
 
 # Giant Eagle
@@ -60,7 +61,7 @@ actions:
 
 ## Habitat
 
-Coastal cliffs, highlands, and mountains. In the Shattered Sea, associated with the High Eyrie.
+Coastal cliffs, highlands, and mountains. In the Shattered Sea, associated with the [[high-eyrie|High Eyrie]].
 
 ## Related
 

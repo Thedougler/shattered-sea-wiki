@@ -3,7 +3,7 @@ title: Giant Centipede
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Centipede, a CR 1/4 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 355
 statblock: inline
 str: 5
 wis: 7
+status: unknown
 ---
 
 # Giant Centipede

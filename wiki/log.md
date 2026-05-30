@@ -380,3 +380,9 @@ sources: []
 - 2026-05-30 | ingest | adult-bronze-dragon — new creature page (CR 15 dragon metallic, Galewall Stormwarden)
 - 2026-05-30 | ingest | adult-green-dragon — new creature page (CR 15 dragon, forest)
 - 2026-05-30 | ingest | ancient-black-dragon — new creature page (CR 21 dragon, Aruhe)
+- 2026-05-30 | ingest | ancient-blue-dragon — new creature page (CR 23 dragon, Redwind Isles / Outer Reach)
+- 2026-05-30 | ingest | ancient-bronze-dragon — new creature page (CR 22 dragon metallic, Shelfworks / Drowned Maw)
+- 2026-05-30 | ingest | ancient-green-dragon — new creature page (CR 22 dragon, forest)
+- 2026-05-30 | ingest | dragons.md — new player-facing dragons index
+- 2026-05-30 | ingest | elementals.md — new player-facing elementals index
+- 2026-05-30 | ingest | gentle-hag — new creature page (CR 7 fey, Pointy Hat homebrew, DM-only)

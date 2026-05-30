@@ -591,8 +591,11 @@ sources: []
 - [[adult-gold-dragon|Adult Gold Dragon]] — CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
 - [[adult-green-dragon|Adult Green Dragon]] — CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
 - [[ancient-black-dragon|Ancient Black Dragon]] — CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
+- [[ancient-blue-dragon|Ancient Blue Dragon]] — CR 23 chromatic dragon laired in the Redwind Isles of the Outer Reach; it has made the islands uninhabitable and doesn't need to explain itself.
+- [[ancient-bronze-dragon|Ancient Bronze Dragon]] — CR 22 metallic dragon; watches the Shelfworks and the Drowned Maw — it has established, via cold currents and repositioned dive lines, that certain parts of the ruins are not for salvage.
 - [[ancient-dragon-turtle|Ancient Dragon Turtle]] — CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea resets to 350 HP and activates mythic actions. Hunts the Drowned Maw and Outer Reach.
 - [[ancient-gold-dragon|Ancient Gold Dragon]] — CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
+- [[ancient-green-dragon|Ancient Green Dragon]] — CR 22 chromatic dragon; master manipulator with devastating poison breath and a taste for long schemes over direct confrontation.
 - [[ancient-sea-serpent|Ancient Sea Serpent]] — CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes.
 - [[animated-armor|Animated Armor]] — CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks.
 - [[animated-broom|Animated Broom]] — A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
@@ -610,10 +613,13 @@ sources: []
 - [[death-march|Death March]] — CR 20 undead lich. Fighter lich whose phylacteries are the undead corpses of warriors it has slain and conscripted — it must keep hunting worthy opponents to replace decaying anchors.
 - [[dragon-turtle|Dragon Turtle]] — CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown.
 - [[dragon-turtle-wyrmling|Dragon Turtle Wyrmling]] — CR 4 dragon. Large amphibious; single Bite attack, 15-ft Steam Breath cone. Sighted around Meth-Var and the Sunken Crown.
+- [[dragons|Dragons]] — Player index for dragons, dragon turtles, and sea serpents of the Shattered Sea — most are apex threats where encounters are survival problems, not fights.
 - [[dravosi-alchemist|Dravosi Alchemist — Stat Block]] — A Dravosi Crown support officer who turns shipboard supplies, medicinals, and weaponized compounds into tactical leverage.
 - [[dravosi-deckhand|Dravosi Deckhand — Stat Block]] — A young Dravosi patrol sailor trained for inspections, boarding duties, alarms, and buying time for heavier Crown response.
 - [[dravosi-enforcer|Dravosi Enforcer — Stat Block]] — A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
+- [[elementals|Elementals]] — Player index for elemental creatures of the Shattered Sea — creatures born from or bound to elemental forces.
 - [[forsworn|Forsworn]] — CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
+- [[gentle-hag|Gentle Hag]] — CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 - [[giant-ape|Giant Ape]] — The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
 - [[giant-axe-beak|Giant Axe Beak]] — The Giant Axe Beak, a CR 5 monstrosity in the Shattered Sea bestiary.
 - [[giant-bat|Giant Bat]] — Public statblock reference for Giant Bat, a CR 1/4 beast in the Shattered Sea bestiary.

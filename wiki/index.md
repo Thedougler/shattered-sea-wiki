@@ -585,8 +585,14 @@ sources: []
 - [[hot|hot.md — Updated 2026-05-28]] — Current world state, open threads, faction clocks, and predictions. Read first, always.
 
 ## entities/creatures
+- [[adult-black-dragon|Adult Black Dragon]] — CR 14 chromatic dragon; amphibious acid breather that lairs in the Doldrums' mangrove shallows — a becalmed ship is close to ideal hunting.
+- [[adult-blue-dragon|Adult Blue Dragon]] — CR 16 chromatic dragon; territorial lightning breather laired in the Greyteeth reef system of the Crown Islands — it taxes shipping rather than hunting it.
+- [[adult-bronze-dragon|Adult Bronze Dragon]] — CR 15 metallic dragon; the Stormwarden of the Galewall — a shapeshifting guide that appears during the worst crossings and is gone before anyone can ask its name.
 - [[adult-gold-dragon|Adult Gold Dragon]] — CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
+- [[adult-green-dragon|Adult Green Dragon]] — CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
+- [[ancient-black-dragon|Ancient Black Dragon]] — CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
 - [[ancient-dragon-turtle|Ancient Dragon Turtle]] — CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea resets to 350 HP and activates mythic actions. Hunts the Drowned Maw and Outer Reach.
+- [[ancient-gold-dragon|Ancient Gold Dragon]] — CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
 - [[ancient-sea-serpent|Ancient Sea Serpent]] — CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes.
 - [[animated-armor|Animated Armor]] — CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks.
 - [[animated-broom|Animated Broom]] — A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.

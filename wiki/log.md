@@ -374,3 +374,9 @@ sources: []
 - 2026-05-30 | ingest | animated-flying-sword — new creature page (CR 1/4 construct, Calveno)
 - 2026-05-30 | ingest | constructs.md — new player-facing constructs index
 - 2026-05-30 | ingest | adult-gold-dragon — new creature page (CR 17 dragon metallic, DM-only)
+- 2026-05-30 | ingest | ancient-gold-dragon — new creature page (CR 24 dragon metallic, DM-only)
+- 2026-05-30 | ingest | adult-black-dragon — new creature page (CR 14 dragon, Doldrums)
+- 2026-05-30 | ingest | adult-blue-dragon — new creature page (CR 16 dragon, Crown Islands Greyteeth)
+- 2026-05-30 | ingest | adult-bronze-dragon — new creature page (CR 15 dragon metallic, Galewall Stormwarden)
+- 2026-05-30 | ingest | adult-green-dragon — new creature page (CR 15 dragon, forest)
+- 2026-05-30 | ingest | ancient-black-dragon — new creature page (CR 21 dragon, Aruhe)

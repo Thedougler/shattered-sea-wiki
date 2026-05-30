@@ -40,6 +40,10 @@
           {
             "type": "command",
             "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/qmd-reindex.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/lint-python.sh"
           }
         ]
       }

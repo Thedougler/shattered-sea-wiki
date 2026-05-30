@@ -1,26 +1,25 @@
-# CLAUDE.md — Shattered Sea Wiki Governance
-# Under 200 lines. Agent reads this first, every session.
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ---
 
-## Campaign
+## What This Repo Is
 
-**Name:** Shattered Sea
-**System:** D&D 5e 2024
-**Status:** Active
-**Philosophy:** {One sentence describing the campaign's core creative philosophy}
-**Style:** Sandbox
+An LLM-assisted D&D 5e (2024) campaign wiki ("Shattered Sea") that is both an **Obsidian vault** (`wiki/`) and a **Claude Code agent workspace** (`.claude/`). A companion **player-view** NiceGUI app (`player-view/`) handles live voice profiling, transcription, and OBS-ready overlays.
+
+**System:** D&D 5e 2024 | **Style:** Sandbox | **Status:** Active
 
 ---
 
 ## Party
 
-| PC | Player | Notes |
-|---|---|---|
-| Crissdalynn Khinriss | {Player Name} | Crow aarakocra monk |
-| Perrin Black-Jaw | {Player Name} | Rattkin sailor; bodhran, Minor Illusion |
-| Jean-Claude Tabarnack | {Player Name} | Poison dart frog ranger; holds secret about Simone |
-| Delmar Fisk | {Player Name} | Scarlet admiral coat; musket; party face |
+| PC | Notes |
+|---|---|
+| Crissdalynn Khinriss | Crow aarakocra monk |
+| Perrin Black-Jaw | Rattkin sailor; bodhran, Minor Illusion |
+| Jean-Claude Tabarnack | Poison dart frog ranger; holds secret about Simone |
+| Delmar Fisk | Scarlet admiral coat; musket; party face |
 
 **Home base:** *Uncertainty* (ex-HCS Surety) — `wiki/entities/vehicles/hcs-surety.md`
 **Current arc:** Party in Calveno after Session 03; ship in dry dock at La Vasca (5-day repair); three new active situations (abyss vision, Umberlee's message, Nona's favor); Kyzil reunited with Crissdalynn.
@@ -38,6 +37,21 @@ Update this block after every session or faction-clock run.
 
 ---
 
+## Repo Layout
+
+| Path | Purpose |
+|---|---|
+| `wiki/` | Obsidian vault — all campaign content. Start at `wiki/hot.md` then `wiki/index.md`. |
+| `wiki/system/` | Agent-facing system files: doctrine, task-routing, PC primers. |
+| `wiki/narrative-islands/` | Plot-device clusters (not geographic islands — see memory). |
+| `wiki/situations/active/` | Live threads. `resolved/` for closed ones. |
+| `.claude/skills/` | Claude Code skills (prep, ingest, lint, live co-DM). |
+| `.claude/scripts/` | Pure-stdlib maintenance scripts (no venv needed). |
+| `player-view/` | NiceGUI web app — voice profiling, live transcription, OBS overlays. Has its own `CLAUDE.md`. |
+| `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
+
+---
+
 ## Doctrine & Automatic Behaviors
 
 All cross-cutting rules — reading order, sandbox constraints, the PC-connection requirement,
@@ -46,14 +60,68 @@ definition — live in one place: **`wiki/system/doctrine.md`**. Load it on dema
 those rules to be restated in each skill.
 
 Frontmatter completeness and the `updated` date are enforced automatically by a PostToolUse
-hook (`.claude/scripts/fix_frontmatter.py`) — you do not maintain them by hand. `index.md` is
-regenerated with `.claude/scripts/regen_index.py`, not hand-edited. Structural fixes are applied
-without asking and committed; escalate to the DM only for genuine lore contradictions or
-ambiguous entity identity (see doctrine).
+hook (`.claude/hooks/validate-frontmatter.sh` → `.claude/scripts/fix_frontmatter.py`) — you do
+not maintain them by hand. `index.md` is regenerated with `.claude/scripts/regen_index.py`,
+not hand-edited. A second PostToolUse hook (`.claude/hooks/qmd-reindex.sh`) updates the
+`qmd` search index in the background after wiki edits.
 
 Read order at a glance: `wiki/hot.md` first, then `wiki/system/task-routing.md`, then
 `doctrine.md` and only the entity/situation files the task needs. Never read the full vault
 before generating content.
+
+---
+
+## Scripts & Commands
+
+### Wiki maintenance (pure stdlib, no venv)
+
+```bash
+python3 .claude/scripts/regen_index.py --write   # regenerate wiki/index.md
+python3 .claude/scripts/wiki_lint.py              # lint vault: frontmatter, broken wikilinks, orphans
+python3 .claude/scripts/check_ingest.py           # list source material still pending ingest
+python3 .claude/scripts/fix_frontmatter.py <file> # add missing frontmatter fields to a single file
+```
+
+### player-view app (requires venv)
+
+```bash
+cd player-view
+python3.11 -m venv .venv && .venv/bin/pip install -e ".[dev]"  # first-time setup
+.venv/bin/python -m player_view.main                            # serves on localhost:8080
+```
+
+### Tests
+
+```bash
+cd player-view && .venv/bin/pytest tests/   # unit tests (no ML stack needed)
+```
+
+No test suite exists for the wiki scripts — they're validated by the hooks on every edit.
+
+---
+
+## player-view Architecture
+
+NiceGUI app in `player-view/src/player_view/`. Layered as:
+
+- **`pages/`** — NiceGUI route handlers (one per URL: `/dm`, `/save-speaker`, `/session`, etc.)
+- **`services/`** — ML and audio backends: `asr.py` (parakeet-mlx streaming ASR), `audio.py` (sounddevice capture), `diarization.py` (pyannote speaker separation), `session_transcriber.py` (live transcript assembly), `spatial.py` (spatial analysis), `llm.py`
+- **`models/`** — shared state (`state.py`) and voice profile data (`voice_profile.py`)
+- **`components/`** — reusable UI pieces (header, teleprompter)
+
+Requires Python 3.11+, Apple Silicon (MLX), and `HF_TOKEN` in repo-root `.env`.
+
+---
+
+## Commit Conventions
+
+Commit messages follow these prefixes (from `wiki/system/doctrine.md`):
+- `fix:` — structural corrections
+- `ingest:` — source material processed into wiki
+- `curation:` — content quality improvements
+- `feat:` / `refactor:` — for player-view and script code changes
+
+Commit directly to `main` — this is a solo content repo. Only branch when explicitly asked.
 
 ---
 

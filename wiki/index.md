@@ -618,6 +618,7 @@ sources: []
 - [[dravosi-deckhand|Dravosi Deckhand — Stat Block]] — A young Dravosi patrol sailor trained for inspections, boarding duties, alarms, and buying time for heavier Crown response.
 - [[dravosi-enforcer|Dravosi Enforcer — Stat Block]] — A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
 - [[elementals|Elementals]] — Player index for elemental creatures of the Shattered Sea — creatures born from or bound to elemental forces.
+- [[fey|Fey]] — Player index for fey creatures of the Shattered Sea — goblins are the primary fey threat in the Scatter's interior islands.
 - [[forsworn|Forsworn]] — CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
 - [[gentle-hag|Gentle Hag]] — CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 - [[giant-ape|Giant Ape]] — The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
@@ -645,8 +646,13 @@ sources: []
 - [[giant-wasp|Giant Wasp]] — Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
 - [[giant-weasel|Giant Weasel]] — Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
 - [[giant-wolf-spider|Giant Wolf Spider]] — Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
+- [[goblin-boss|Goblin Boss]] — CR 1 fey goblin leader; commands minions and uses Redirect Attack to force an ally to take a hit meant for it.
+- [[goblin-hexer|Goblin Hexer]] — CR 3 fey goblin spellcaster; curses and debilitates enemies with fey magic, and can negate a hit against it once per round with Jinx.
+- [[goblin-minion|Goblin Minion]] — CR 1/8 fey goblin foot soldier; drops to 0 HP from any single hit — dangerous only in numbers.
+- [[goblin-warrior|Goblin Warrior]] — CR 1/4 fey goblin combatant; Nimble Escape lets it disengage or hide as a bonus action, making it frustrating to pin down.
 - [[guard-captain|Guard Captain]] — CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack.
 - [[guardian-naga|Guardian Naga]] — A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
+- [[haunt-hag|Haunt Hag]] — CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
 - [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.

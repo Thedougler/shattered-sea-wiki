@@ -386,3 +386,9 @@ sources: []
 - 2026-05-30 | ingest | dragons.md — new player-facing dragons index
 - 2026-05-30 | ingest | elementals.md — new player-facing elementals index
 - 2026-05-30 | ingest | gentle-hag — new creature page (CR 7 fey, Pointy Hat homebrew, DM-only)
+- 2026-05-30 | ingest | haunt-hag — new creature page (CR 5 fey, Pointy Hat homebrew, DM-only)
+- 2026-05-30 | ingest | goblin-boss — new creature page (CR 1 fey, DM-only)
+- 2026-05-30 | ingest | goblin-hexer — new creature page (CR 3 fey, DM-only)
+- 2026-05-30 | ingest | goblin-minion — new creature page (CR 1/8 fey, DM-only)
+- 2026-05-30 | ingest | goblin-warrior — new creature page (CR 1/4 fey, DM-only)
+- 2026-05-30 | ingest | fey.md — new player-facing fey index

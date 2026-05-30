@@ -81,14 +81,16 @@ def render_paragraphs(text: str) -> str:
 
 
 def run_teleprompter(orchestrator: SessionOrchestrator, *, port: int = 8080) -> None:  # pragma: no cover
-    """Start the teleprompter as a blocking uvicorn server.
+    """Start the teleprompter via NiceGUI's own ``ui.run`` (blocking).
 
-    Designed to be called from a daemon thread — creates its own event loop
-    so it doesn't conflict with the TUI on the main thread.
+    Designed to be called from a daemon thread so it doesn't conflict with the
+    TUI on the main thread. We must go through ``ui.run`` rather than serving
+    the bare FastAPI app under uvicorn directly: NiceGUI's startup hook aborts
+    unless ``ui.run`` has populated the run config and wired up storage and the
+    required middlewares. uvicorn only installs signal handlers on the main
+    thread, so ``ui.run`` is safe to call from this daemon thread.
     """
-    import asyncio
-    import uvicorn
-    from nicegui import app, ui
+    from nicegui import ui
 
     @ui.page("/", dark=True)
     def index() -> None:
@@ -120,13 +122,11 @@ def run_teleprompter(orchestrator: SessionOrchestrator, *, port: int = 8080) -> 
 
         ui.timer(0.4, _update)
 
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    config = uvicorn.Config(
-        app,
+    ui.run(
         host="0.0.0.0",
         port=port,
-        log_level="warning",
+        title="Teleprompter",
+        show=False,
+        reload=False,
+        uvicorn_logging_level="warning",
     )
-    server = uvicorn.Server(config)
-    loop.run_until_complete(server.serve())

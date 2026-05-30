@@ -50,12 +50,20 @@ Ormsson's Fittings is on the first island, a short walk from the primary dry-doc
 - 2 gp — [[grappling-hook|Grappling hook]]
 - 4 gp — [[iron-lantern|Lantern, iron-cased]]
 - 5 gp+ — [[custom-metalwork|Custom bolt pattern work]] — *"Quoted per job. One to two days."*
+- 3 gp — [[lock-and-key|Lock and key]] — *"Brass barrel. Common fit."*
+- 5 sp/10 — [[piton|Pitons]]
+- 4 sp — [[linseed-oil|Linseed oil]], quart — *"Wood and canvas treatment."*
+- 2 gp — [[oil-lantern|Oil lantern]]
 
 **Arms (back shelf)**
 
 - 2 gp — [[dagger|Dagger]]
 - 5 gp — [[handaxe|Handaxe]]
-- 1 gp — Spear; 10 gp — Shortsword; 26 gp — Rapier
+- 1 gp — [[spear|Spear]]; 10 gp — [[shortsword|Shortsword]]; 26 gp — [[rapier|Rapier]]
+- 35 gp — [[heavy-crossbow|Heavy crossbow]]
+- 50 gp — [[longbow|Longbow]]
+- 25 gp — [[shortbow|Shortbow]]
+- 12 gp/20 — [[pistol-ammunition|Pistol ammunition]] — *"Waxed paper cartridges. Keep them dry."*
 - 25 gp — [[light-crossbow|Crossbow, light]]
 - 1 gp — [[crossbow-bolts|Crossbow bolts (20)]]
 - 260 gp — [[flintlock-pistol|Flintlock pistol]] — *"Gray market. Works."*

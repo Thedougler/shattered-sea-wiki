@@ -60,23 +60,24 @@ Healer's supplies, apothecary goods, and minor medical services. Grimaldi does n
 ## Stock / Services
 
 - 5 gp — [[healers-kit|Healer's kit]] — *"Ten uses. Stabilise or restore. If you're going offshore without one, that's your decision, not mine."*
-- 5 sp — Bandages and wound dressing (10) — *"Linen. Clean. Salt-treated. Keep them dry."*
-- 3 sp — Medicinal spirits, bottle — *"For the wound first. After that, your business."*
+- 5 sp — [[wound-dressing|Bandages and wound dressing (10)]] — *"Linen. Clean. Salt-treated. Keep them dry."*
+- 3 sp — [[medicinal-spirits|Medicinal spirits, bottle]] — *"For the wound first. After that, your business."*
+- 3 sp — [[dried-herbs|Dried herbs]], bundle — *"Source, dose, and preparation are on the label."*
 - 5 gp — [[herbalism-kit|Herbalism kit]] — *"For characters with the proficiency. If you don't have it, this won't help you."*
 - 50 gp — [[antitoxin|Antitoxin, vial]] — *"Two in stock. Resupply is uncertain. If you need it, buy it now."*
-- 30 gp — Sea-poison antidote — *"Reef fish, shellfish, envenomation from common sea creatures. More specific than the broad antitoxin."*
+- 30 gp — [[sea-poison-antidote|Sea-poison antidote]] — *"Reef fish, shellfish, envenomation from common sea creatures. More specific than the broad antitoxin."*
 - 2 sp — [[fever-poultice|Poultice, fever-reducing]] — *"Three applications. Apply to the chest or forehead. Instructions are written on the pack."*
-- 1 gp — Splint and wrap — *"I'll show you how to apply it. Once."*
-- 2 sp — Wound closure (service) — *"Cleaning and stitching. No anaesthetic. I'm fast about it."*
+- 1 gp — [[splint-and-wrap|Splint and wrap]] — *"I'll show you how to apply it. Once."*
+- 2 sp — [[wound-closure|Wound closure (service)]] — *"Cleaning and stitching. No anaesthetic. I'm fast about it."*
 - 1 gp — [[bone-setting|Bone setting (service)]] — *"Straightforward breaks only. Tell me what happened and I'll tell you if it qualifies."*
-- 1 sp — Tooth extraction (service) — *"I'm fast about it."*
-- 2 gp — Surgical consultation (service) — *"Assessment and a supply list for whoever operates. I don't operate."*
+- 1 sp — [[tooth-extraction|Tooth extraction (service)]] — *"I'm fast about it."*
+- 2 gp — [[surgical-consultation|Surgical consultation (service)]] — *"Assessment and a supply list for whoever operates. I don't operate."*
 
 **Discretionary stock** *(ask; she decides)*
 
 - 55 gp — [[potion-of-healing|Potion of Healing]] — *"One or two in stock. I'll tell you if I have one."*
 - 52 gp — [[alchemists-fire|Alchemist's fire]] — *"Pest control product. That's the framing I use and you'll use the same one."*
-- 26 gp — Vial of acid — *"Same framing."*
+- 26 gp — [[vial-of-acid|Vial of acid]] — *"Same framing."*
 - 110 gp — [[basic-poison|Poison, basic (vial)]] — *"DC 10 Constitution. Tell me what you need it for, clearly, and I'll tell you whether I have it."*
 
 ## Access & Security

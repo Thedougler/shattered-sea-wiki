@@ -44,13 +44,13 @@ Business is conducted here openly — debts acknowledged, introductions made, ne
 
 | Price | Item |
 |---|---|
-| 3 cp | Marsh ale, mug |
-| 5 cp | Fermented cider, cup |
+| 3 cp | [[marsh-ale\|Marsh ale]], mug |
+| 5 cp | [[fermented-cider\|Fermented cider]], cup |
 | 2 cp | [[salt-fish-and-root-porridge\|Salt fish and root porridge]] |
-| 6 cp | Boiled crab |
+| 6 cp | [[boiled-crab\|Boiled crab]] |
 | 4 cp | [[preserved-eel\|Preserved eel]] |
-| 1 sp | Floor space, communal |
-| 2 sp | Private alcove, south wall, curtained |
+| 1 sp | [[floor-lodging\|Floor space, communal]] |
+| 2 sp | [[private-alcove\|Private alcove]], south wall, curtained |
 
 ## Current Hooks
 

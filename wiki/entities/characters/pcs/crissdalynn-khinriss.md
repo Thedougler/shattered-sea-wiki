@@ -61,7 +61,7 @@ The mapping is incomplete. She knows it.
 | Crystal dreidel | [[master-kyzil|Kyzil]] pressed it into her talons when she left the Eyrie. Spins it when thinking. Throws rainbows in sunlight. |
 | Satchel of charts | Two years of Midchain navigational work from the *Red Lady*. Still being added to. |
 | Geometric leatherwork | Her armour. Maintained with care that doesn't match her public presentation. |
-| Eldritch Claw Tattoo | Uncommon, attuned. Inky lines across talons and forearms, nearly invisible against dark plumage until they move. Unarmed strikes are magical (+1 attack and damage). *Eldritch Maul* (1/dawn, BA): strikes reach 15 ft via inky tendrils; +1d6 force damage on hit for 1 minute. Received from Kyzil on the same day she received the pilgrimage. |
+| [[eldritch-claw-tattoo|Eldritch Claw Tattoo]] | Uncommon, attuned. Inky lines across talons and forearms, nearly invisible against dark plumage until they move. Unarmed strikes are magical (+1 attack and damage). *Eldritch Maul* (1/dawn, BA): strikes reach 15 ft via inky tendrils; +1d6 force damage on hit for 1 minute. Received from Kyzil on the same day she received the pilgrimage. |
 
 ## Relationships
 

@@ -49,6 +49,7 @@ Marrow is usually already seated when anyone enters and usually already watching
 - 5 gp+ — [[document-transit|Document transit]] — *"Price reflects content weight. Not physical weight. No questions."*
 - 10 gp + 5% — [[cargo-brokerage|Small cargo brokerage]] — *"Three-week hold. Stated value. Non-negotiable terms."*
 - 1 gp/wk — [[consignment-storage|Consignment storage]] — *"Three weeks. Hard limit. After that — my concern, not yours."*
+- 15 gp+ — [[passage-network-introduction|Passage network introduction]] — *"Kin by default. Dry by my read and a Kin introduction. No guarantees."*
 
 ## Access & Security
 

@@ -19,3 +19,11 @@ confidence_level: medium
 
 > [!dm]
 > Source spells this both "Cat's Curios" and "Kat's Curios" — confirm which is canon before this page is fleshed out.
+
+## Known Services
+
+- [[artificer-commission|Artificer commission]] — Custom precision work; referral required; priced per job.
+- [[mechanism-repair|Mechanism repair]] — Clockwork, firearms, and arcane mechanisms. Referral required.
+- [[pneumatic-grapple|Pneumatic grapple]] — Wrist-mounted. Three shots; 10-minute repressurize. Prototype pricing on request.
+- [[spark-pistol|Spark pistol]] — Single-shot lightning. No powder, no wet-weather misfire. One prototype; Catarina has not decided what went wrong with it.
+- [[puntura|Puntura]] — On commission. Not for sale. See notes.

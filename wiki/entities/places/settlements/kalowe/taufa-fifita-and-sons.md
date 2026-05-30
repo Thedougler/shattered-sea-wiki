@@ -41,23 +41,29 @@ The Fifita family chandlery sits three buildings back from the water, identifiab
 
 ## Stock
 
-| Price | Item |
-|---|---|
-| 1 gp | [[hempen-rope\|Hemp rope (50 ft)]] |
-| 2 sp | Hemp rope (per 10 ft, cut to length) |
-| 1 gp | [[block-and-tackle\|Block and tackle]] |
-| 6 sp/yd | [[sail-canvas\|Sailcloth]] |
-| 1 sp | [[lamp-oil\|Lamp oil, flask]] |
-| 6 sp | Lamp oil, gallon jug |
-| 2 gp | [[tar\|Tar, small keg]] |
-| 5 gp | [[hooded-lantern\|Lantern, hooded]] |
-| 11 gp | [[bullseye-lantern\|Lantern, bullseye]] |
-| 50 gp | [[compass\|Compass]] |
-| 8 gp | Nautical charts, local Midchain |
-| 1,100 gp | [[spyglass\|Spyglass]] |
-| 2 gp | [[crowbar\|Crowbar]] |
-| 5 sp | [[tinderbox\|Tinderbox]] |
-| 2 cp | [[candles\|Candles (10)]] |
+| Price | Item | Notes |
+|---|---|---|
+| 1 gp | [[hempen-rope\|Hemp rope (50 ft)]] | |
+| 2 sp | Hemp rope (per 10 ft, cut to length) | |
+| 1 gp | [[block-and-tackle\|Block and tackle]] | |
+| 6 sp/yd | [[sail-canvas\|Sailcloth]] | |
+| 1 sp | [[lamp-oil\|Lamp oil, flask]] | |
+| 6 sp | Lamp oil, gallon jug | |
+| 2 gp | [[tar\|Tar, small keg]] | |
+| 5 gp | [[hooded-lantern\|Lantern, hooded]] | |
+| 11 gp | [[bullseye-lantern\|Lantern, bullseye]] | |
+| 50 gp | [[compass\|Compass]] | |
+| 8 gp | [[nautical-chart\|Nautical charts, local Midchain]] | |
+| 1,100 gp | [[spyglass\|Spyglass]] | |
+| 2 gp | [[crowbar\|Crowbar]] | |
+| 5 sp | [[tinderbox\|Tinderbox]] | |
+| 2 cp | [[candles\|Candles (10)]] | |
+| 1 gp/yd | [[oilskin-canvas\|Oilskin canvas]] | Waterproofed. For anything that needs to stay dry. |
+| 3 sp/50 ft | [[light-rope\|Light rope]] | Not rigging grade. General use. |
+| 1 gp 5 sp | [[rigging-block\|Rigging block]] | Iron-strapped oak. Spare component. |
+| 4 sp | [[linseed-oil\|Linseed oil]] | Quart. Rot inhibitor for wood and canvas. |
+| 5 sp | [[needles-and-thread\|Needles and thread]] | Sail kit — curved needles, waxed twine. |
+| ask | [[passage-paper-referral\|Passage paper referral]] | An introduction to someone who can produce passage papers. Fifita decides who qualifies. |
 
 ## See Also
 

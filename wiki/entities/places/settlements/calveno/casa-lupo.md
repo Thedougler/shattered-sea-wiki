@@ -19,3 +19,8 @@ Shop in [[calveno|Calveno]]. Jean-Claude entered asking about a shortbow; the sh
 
 > [!dm]
 > Stub. Expand only if the party returns.
+
+## Known Stock
+
+- [[shortbow|Shortbow]] — Standard stock; the reason Jean-Claude entered.
+- [[longbow|Longbow]] — Martial ranged; martial proficiency required.

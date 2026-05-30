@@ -58,6 +58,7 @@ actions:
 
 ## Related
 
+- [[poison-gas-canister|Poison Gas Canister]]
 - [[dravosi-deckhand|Dravosi Deckhand]]
 - [[dravosi-enforcer|Dravosi Enforcer]]
 - [[barnaby-rook|Barnaby Rook]]

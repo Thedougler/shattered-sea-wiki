@@ -42,8 +42,10 @@ A glass-fronted case in the window holds brass instruments: sextants, compasses,
 | Sextant | Standard navigational tool. |
 | Compass | Brass-cased. |
 | Chronometer | Practical shipboard timepiece; condition varies. |
-| Charts | Crown Islands and Central Strait common; Midchain coverage partial. |
+| [[nautical-chart\|Charts]] | Crown Islands and Central Strait common; Midchain coverage partial. |
 | Almanacs | Tide, star, and seasonal weather references. |
+| [[the-uncharted-coast\|The Uncharted Coast]] *(1 in stock)* | ask | A hand-drawn chart of ~200 miles of coastline found on no Crown, Tessarine, or commercial chart. Provenance unknown. Crench does not know where it came from. |
+| [[phrase-box\|Phrase box]] | 8 gp | Clockwork. Approximates common maritime words and phrases in tones. Standard Kenku shipboard aid. |
 
 ## Current Hooks
 

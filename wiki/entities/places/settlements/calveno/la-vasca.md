@@ -61,6 +61,12 @@ He will have the cradle ready before he asks any questions, and he will not ask 
 - *"Basin's free. I'll have the cradle ready in an hour. Your shipwright know how to use a hand-pump rig?"*
 - *"You should go see her before she comes to you. It'll go better."*
 
+## Services
+
+- [[registry-plate-removal|Registry plate removal]] — Removal and disposal of a vessel's registry plate. No record of prior markings kept.
+- [[hull-caulking|Hull caulking]] — Basic maintenance between major jobs.
+- [[timber-and-fittings|Timber and fittings]] — Stock from the starboard wall; varies by recent turnover.
+
 ## Current State
 
 [[hcs-surety|Uncertainty]] in cradle. 5-day repair estimate.

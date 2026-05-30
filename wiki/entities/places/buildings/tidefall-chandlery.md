@@ -41,10 +41,10 @@ At the back, a locked glass case holds the magic items. The clerk knows the list
 ## Stock (Selected)
 
 - Weapons and armour suitable for shipboard work
-- Rope, hooks, blocks, tackle, sail repair supplies, [[tar|tar]], oakum, chains, lanterns, flags
-- Ship provisions: rations, fresh water, [[rum|rum]], salted fish, vinegar, limes
-- Practical tools including navigator's tools, forgery kits, thieves' tools
-- Common magic useful at sea: healing, water breathing, communication, language
+- Rope, hooks, blocks, tackle, sail repair supplies, [[tar|tar]], [[oakum|oakum]], chains, [[signal-lantern|signal lanterns]], flags
+- Ship provisions: rations, [[fresh-water|fresh water]], [[rum|rum]], salted fish, vinegar, limes
+- Practical tools including navigator's tools, forgery kits, thieves' tools, [[writing-supplies|writing supplies]]
+- Common magic useful at sea: healing, [[potion-of-water-breathing|water breathing]], communication, language
 
 ## Current Hooks
 

@@ -29,10 +29,10 @@ sources: []
 - [[anzolo|Anzolo]] — Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
 - [[barnaby-rook|Barnaby Rook]] — Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names.
-- [[bastian-crev|Bastian Crev]] — Stub — no summary yet.
-- [[beaumont-sel|Beaumont Sel]] — Stub — no summary yet.
-- [[bice-riva|Bice Riva]] — Stub — no summary yet.
-- [[branca|Branca]] — Stub — no summary yet.
+- [[bastian-crev|Bastian Crev]] — Captain of the *Loud Argument* and Fisk's combat specialist; died in the Drowned Maw when Umberlee closed the water over the fleet, his soul pressed into Delmar.
+- [[beaumont-sel|Beaumont Sel]] — Tortle captain of the *Saltwright*; pulled Crissdalynn and Delmar from the water after the fleet went down and carried them west along the Midchain.
+- [[bice-riva|Bice Riva]] — Halfling proprietor of Al Fondale in Calveno's Le Paludi; knows about the Passage's Warren entrance in her cellar and has kept it quiet for two years.
+- [[branca|Branca]] — Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do.
 - [[catarina-davirelli|Catarina Da'Virelli]] — An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
@@ -122,7 +122,7 @@ sources: []
 
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
-- [[aruhe|Aruhe]] — Stub — no summary yet.
+- [[aruhe|Aruhe]] — Deserted reef island near the Verdant Teeth on the Midchain's inner edge; the Grung patrol its reefs but refuse to land, and the drainage runs faintly acid from something old dissolving below the terraces.
 - [[calven|Calven]] — [stub] Stub — referenced in [[aldenmere]] as a regional comparison. Possibly the broader region that contains Calveno.
 - [[central-strait|The Central Strait]] — The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end.
 - [[crown-islands|The Crown Islands]] — Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
@@ -186,7 +186,7 @@ sources: []
 - [[umberlee-shrine|Umberlee's Shrine — Sunken Crown]] — An old Waveservant shrine cut into black stone on Vel-Orn in the Sunken Crown, tied to water-debt, drowned names, and the old Umberlee worship of the Blue Hole.
 
 ## entities/places/regions
-- [[ashwall-islands|Ashwall Islands]] — Stub — no summary yet.
+- [[ashwall-islands|Ashwall Islands]] — Cold volcanic spire-chain near the Galewall; the last solid ground on the outbound run and the first proof of survival on the return.
 - [[shattered-sea|The Shattered Sea]] — The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda.
 
 ## entities/places/settlements
@@ -274,7 +274,7 @@ sources: []
 - [[canvas-cloth|Canvas Cloth]] — Bolts of canvas and heavy cloth for sewing, patching, and general fabrication.
 - [[captains-meal|Captain's Meal]] — A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers.
 - [[cargo-brokerage|Cargo Brokerage]] — Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold.
-- [[cartographers-table|Cartographer's Table]] — Stub — no summary yet.
+- [[cartographers-table|Cartographer's Table]] — Ship upgrade that automatically charts the vessel's route in real time; produced charts sell for 50–200 gp each.
 - [[caulking-iron|Caulking Iron]] — A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming.
 - [[clockwork-deck-crew|Clockwork Deck Crew]] — A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable.
@@ -476,7 +476,7 @@ sources: []
 
 ## situations/active
 - [[abyss-vision|The Abyss Vision — "Grow"]] — Something in the abyss communicated with Perrin during the storm watch, at considerable cost. One word: 'Grow.' Perrin also inhabited a whip shark's body and witnessed something larger than two ships below.
-- [[aruhe-dm-notes|Aruhe — DM Notes]] —
+- [[aruhe-dm-notes|Aruhe — DM Notes]] — DM notes for Aruhe — Blight has claimed the interior; Death Bloom dungeon set; Nona's commission is the entry hook. No outward sign visible from sea.
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] — Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming.
 - [[calveno-situation|Calveno — Warren, Salvage, and Ship Disguise]] — Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city.
 - [[cape-solitude-mystery|Cape Solitude — Dead Light Mystery]] — Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
@@ -530,20 +530,20 @@ sources: []
 - [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
 
 ## rules/core
-- [[circle-magic|Circle Magic]] — Stub — no summary yet.
+- [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
 - [[siege-rules|Siege Rules]] — Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
 - [[sports-match-rules|Sports Match Rules]] — 5e-based rules for running a sports match as a combat encounter. Share with players the session before the match.
 - [[villain-design-framework|Villain Design Framework]] — Pointy Hat's system-agnostic villain creation method — three principles: Active (has agency), Present (has visibility), Personal (has stakes).
 
 ## rules/encounter-design
-- [[battlefield-actions|Battlefield Actions]] — Stub — no summary yet.
+- [[battlefield-actions|Battlefield Actions]] — Pointy Hat's system for dynamic boss fights: the boss telegraphs a threat at end of its turn, players have a full round to neutralize or mitigate it before resolution.
 
 ## rules/subsystems
-- [[bastions|Bastions]] — Stub — no summary yet.
-- [[carpenters-shop|Carpenter's Shop]] — Stub — no summary yet.
-- [[chart-archive|Chart Archive]] — Stub — no summary yet.
-- [[crew-berths|Crew Berths]] — Stub — no summary yet.
+- [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.
+- [[carpenters-shop|Carpenter's Shop]] — Ship facility (Smithy Tier 1) that lets hirelings craft from Smith's Tools or commission magic armaments at level 9+.
+- [[chart-archive|Chart Archive]] — Ship facility (Library Tier 1) that lets a hireling research a topic over 7 days and return up to three previously unknown facts.
+- [[crew-berths|Crew Berths]] — Ship facility (Barrack Tier 1) that adds up to 4 Bastion Defenders per Recruit order.
 - [[expanded-cargo-hold|Expanded Cargo Hold]] — Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
 - [[ship-bastion|Ship Bastion — The Shattered Sea]] — Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits.
 - [[ship-combat|Ship Combat]] — Rules for ship's guns, broadsides, shot types, and multi-deck volleys — expands the 2024 DMG vehicle rules.

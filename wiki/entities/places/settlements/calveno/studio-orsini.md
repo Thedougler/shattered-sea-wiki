@@ -47,7 +47,7 @@ The smell reaches you before the door. Inside: high shelves of sealed glass jars
 | 50 gp | [[antitoxin\|Antitoxin]] |
 | 52 gp | [[alchemists-fire\|Alchemist's Fire]] |
 | ask | [[smoke-bomb\|Smoke Bomb]] |
-| ask | Tanglefoot Compound |
+| ask | [[tanglefoot-compound\|Tanglefoot Compound]] |
 | ask | [[saltseal\|Saltseal]] |
 | ask | [[bioluminescent-paint\|Bioluminescent Paint]] |
 | ask | [[deepwater-ink\|Deepwater Ink]] |

@@ -44,17 +44,18 @@ Low stone walls, a roof of salvaged timber and layered palm, a wide terrace faci
 
 | Price | Item |
 |---|---|
-| 3 cp | Simple meal (salt fish, hard bread, pickled greens) |
-| 1 sp | Cooked meal (rice, pork, roast plantain) — evenings only |
-| 4 cp | Ale, mug |
+| 3 cp | [[simple-meal\|Simple meal]] (salt fish, hard bread, pickled greens) |
+| 1 sp | [[cooked-meal\|Cooked meal]] (rice, pork, roast plantain) — evenings only |
+| ask | [[captains-meal\|Captain's meal]] (fish, pork, roast plantain, lime — the house best) — *"I'll need to know by mid-afternoon."* |
+| 4 cp | [[ale\|Ale]], mug |
 | 5 cp | [[rum\|Rum]], dram |
 | 4 sp | Rum, bottle |
 | 2 sp | [[common-wine\|Wine]], common, pitcher |
-| 8 cp | The Red Flat (dark rum, pig blood, lime) — not on the board; ask |
+| 8 cp | [[the-red-flat\|The Red Flat]] (dark rum, pig blood, lime) — not on the board; ask |
 | 2 sp | [[shark-pull\|Shark Pull]] — not on the board; when available |
-| 1 sp | Hammock berth (shared floor, upper level) |
-| 5 sp | Private room (window, door, no lock) |
-| 2 cp | Dinghy mooring, lagoon-side |
+| 1 sp | [[hammock-berth\|Hammock berth]] (shared floor, upper level) |
+| 5 sp | [[private-room\|Private room]] (window, door, no lock) |
+| 2 cp | [[dinghy-mooring\|Dinghy mooring]], lagoon-side |
 
 ## Current Hooks
 

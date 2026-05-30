@@ -17,3 +17,10 @@ confidence_level: observed
 
 > [!dm]
 > Stub — [[calveno|Calveno]] (Velo district) magic shop run by [[prospero-morsani|Prospero Morsani]], referenced in [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]]. Magic items, Velo history, odd stories, black-market trade. Morsani's Beffa history gives a social thread he will not finish. Use when the party wants magic or strange information.
+
+## Known Stock
+
+- [[ringmakers-regret|Ringmaker's Regret]] — Plain silver ring engraved *For Lisca*. Radiates faint divination aura. Morsani insists it is working correctly.
+- [[lantern-of-revealing|Lantern of Revealing]] — Reveals invisible objects in its 30-ft cone. Standard magic stock.
+- [[salt-lantern|Salt Lantern]] — Burns indefinitely in salt air only; goes dark inland. Maritime novelty.
+- [[preserved-specimen-unknown|Preserved specimen (unknown)]] — Sealed glass jar, brine, features of several fish that should not combine. Morsani claims it reacts to divination magic.

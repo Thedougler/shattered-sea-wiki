@@ -44,7 +44,7 @@ The green grung behind the counter wraps parcels fast and watches the market wit
 
 ## Stock
 
-- 2 cp — I'a Miti (fish jerky parcel) — *"Sweet brine, spiced. Dock workers buy it every day. Sailors buy it on a dare and come back."*
+- 2 cp — [[ia-miti|I'a Miti]] (fish jerky parcel) — *"Sweet brine, spiced. Dock workers buy it every day. Sailors buy it on a dare and come back."*
 
 ## Current Hooks
 

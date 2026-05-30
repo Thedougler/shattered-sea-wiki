@@ -56,7 +56,7 @@ Purchaseable magical enhancements and installed ship gear. [[catarina-davirelli|
 
 | Item | Price |
 |---|---|
-| The Drowned Keel [HB — Antheri salvage] | 25,000 gp |
+| [[the-drowned-keel|The Drowned Keel]] [HB — Antheri salvage] | 25,000 gp |
 
 ---
 

@@ -47,11 +47,11 @@ A warehouse built flush with the Mercatura canal, long and low, with a loading d
 ## Stock / Services
 
 - 1 gp — [[hempen-rope|Hemp rope (50 ft)]] — *"Standard rigging weight. Heavier gauge in the back if you need it."*
-- 10 gp — Silk rope (50 ft) — *"Small quantities. I don't always have it — if you need it, buy it now."*
-- by weight — Oakum and tar — *"Caulking tools for hire if you don't own a set."*
+- 10 gp — [[silk-rope|Silk rope (50 ft)]] — *"Small quantities. I don't always have it — if you need it, buy it now."*
+- by weight — [[oakum|Oakum]] and [[tar|tar]] — *"Caulking tools for hire if you don't own a set."*
 - by grade — Sail canvas (per sq yd) — *"Three grades. Tell me what you're patching."*
 - 6 sp — [[lamp-oil|Lamp oil (per gallon)]] — *"Standard grade for general use. Sea-lantern grade costs four more per gallon and doesn't fog up in salt air."*
-- varies — Signal lanterns — *"Clear, red, green, shuttered. Spare panels too."*
+- varies — [[signal-lantern|Signal lanterns]] — *"Clear, red, green, shuttered. Spare panels too."*
 - 1 gp — [[block-and-tackle|Block and tackle sets]] — *"Single or double. Iron-fitted."*
 - 2 sp — Ship's biscuit (10 lb) — *"Hardtack. Keeps. That's the whole recommendation."*
 - 3 sp — Salt pork (10 lb) — *"Barrelled, ready to cask."*
@@ -62,6 +62,14 @@ A warehouse built flush with the Mercatura canal, long and low, with a loading d
 - 5 sp — [[marlinspike|Marlinspike]] — *"Good steel."*
 - varies — [[iron-cleat|Spare fittings]] — *"Cleats, rings, bolts, pins — sorted by size on the east wall."*
 - varies — [[canvas-bag|Canvas bags and netting]] — *"Multiple sizes. Cargo net is a special order, two days."*
+- 1 gp/yd — [[oilskin-canvas|Oilskin canvas]] — *"Waterproofed. For covers and gear bags."*
+- 4 sp/bolt — [[canvas-cloth|Canvas cloth]] — *"Unfinished. Cutting and hemming extra."*
+- 5 sp/50 ft — [[light-rope|Light rope]] — *"Not rigging grade. Fine for everything else."*
+- 1 gp 5 sp — [[rigging-block|Rigging block]] — *"Iron-strapped oak shell."*
+- 4 sp — [[linseed-oil|Linseed oil]], quart — *"Wood and canvas treatment. Not the lamp grade."*
+- 5 sp — [[needles-and-thread|Needles and thread]], sail kit — *"Curved sail needles, waxed twine. For canvas work."*
+- 2 sp — [[cooking-tools|Cooking tools]] (basic) — *"Pot, knife, fire striker. Galley fit."*
+- 3 sp — [[writing-supplies|Writing supplies]] — *"Ink, quill, paper, wax seal."*
 
 ## Current Hooks
 

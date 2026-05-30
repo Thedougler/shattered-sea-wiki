@@ -29,26 +29,28 @@ On [[kalowe|Kalowe]]'s first island, harbour-side lane between the dry-dock offi
 
 | Item | Price | Notes |
 |---|---|---|
-| Ship's biscuit (10 lb) | 2 sp | Hardtack. Long shelf life is the only thing you need to know about it. |
-| Salt pork (10 lb) | 3 sp | Barrelled. Ready to cask. |
+| [[ships-biscuit\|Ship's biscuit]] (10 lb) | 2 sp | Hardtack. Long shelf life is the only thing you need to know about it. |
+| [[salt-pork\|Salt pork]] (10 lb) | 3 sp | Barrelled. Ready to cask. |
 | Salt fish, dried (10 lb) | 2 sp | Local catch. Well-preserved. |
 | [[rice\|Rice]] (10 lb) | 5 sp | Padded against damp. Reliable staple. |
 | Dried beans (10 lb) | 3 sp | Shelf-stable. |
-| Dried fruit, assorted (5 lb) | 5 sp | Raisins, mango, tamarind — morale on long passages. |
-| Citrus, basket (20 pieces) | 5 sp | *"Scurvy costs more than the fruit."* |
+| [[dried-fruit\|Dried fruit, assorted]] (5 lb) | 5 sp | Raisins, mango, tamarind — morale on long passages. |
+| [[fresh-citrus\|Citrus, basket]] (20 pieces) | 5 sp | *"Scurvy costs more than the fruit."* |
 | Fresh produce, mixed (10 lb) | 4 sp | Varies with supply boats. Ask first. |
-| Salt (per lb) | 2 cp | — |
+| [[fresh-water\|Fresh water]], jug | 1 cp | Drawn from the cistern same morning. |
+| [[fishing-tackle\|Fishing tackle]] | 5 sp | Line, hooks, leads. Supplements provisions on long passages. |
+| [[salt\|Salt]] (per lb) | 2 cp | — |
 | [[vinegar\|Vinegar]] (quart) | 1 sp | Cask-cleaning and preservation. |
-| Spices, mixed (per lb) | 1 gp | Pepper, clove, ginger. Makes everything else edible. |
-| Coffee, ground (per lb) | 6 sp | Your night watch will thank you. |
-| Tobacco, loose (per lb) | 6 sp | Trade good at ports with low through-traffic. |
-| Cooking oil (quart) | 4 sp | Palm. Clean. Galley stock. |
+| [[mixed-spices\|Spices, mixed]] (per lb) | 1 gp | Pepper, clove, ginger. Makes everything else edible. |
+| [[ground-coffee\|Coffee, ground]] (per lb) | 6 sp | Your night watch will thank you. |
+| [[loose-tobacco\|Tobacco, loose]] (per lb) | 6 sp | Trade good at ports with low through-traffic. |
+| [[cooking-oil\|Cooking oil]] (quart) | 4 sp | Palm. Clean. Galley stock. |
 | [[water-cask\|Water cask, small]] (5 gal) | 1 sp | Filled and sealed. For immediate use. |
 | [[water-cask\|Water cask, ship's]] (40 gal) | 8 sp | Empty cask; cistern fill 1 sp. |
-| Rum, bottle | 5 sp | Local distill. Reliable. |
+| [[rum\|Rum, bottle]] | 5 sp | Local distill. Reliable. |
 | Rum, cask (10 gal) | 4 gp | Bulk rate. Price is on the board. |
 | Wine, common (bottle) | 2 sp | Imported. Average. |
-| Beer, small (keg) | 6 sp | Non-intoxicating. Safer than untreated water past 3 days. |
+| [[small-beer\|Beer, small]] (keg) | 6 sp | Non-intoxicating. Safer than untreated water past 3 days. |
 
 **Bulk rate** applies above 50 lb dry weight or 20 gal liquid: 10% off dry stores, 10% off cased liquids, 15% off mixed orders.
 

@@ -52,7 +52,7 @@ The low ceiling on the canal side is where the bridge arch comes down; the back 
 - 2 sp — [[common-wine|Cheap wine, carafe]]
 - ask — [[house-spirits|House spirits]] — *"Comes in a clay cup. No label."*
 - 2 sp — [[hammock-berth|Bed, shared room]] — *"Three per room."*
-- ask — Canal boat hire — *"Two boats. Half-day or full day. I don't ask where you're going."*
+- ask — [[canal-boat-hire\|Canal boat hire]] — *"Two boats. Half-day or full day. I don't ask where you're going."*
 
 ## Current Hooks
 

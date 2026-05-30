@@ -50,7 +50,7 @@ The five captains were [[rael-corven|Rael Corven]], [[maren|Maren]], [[detto-kal
 
 - [[the-duchess|The Duchess]] — musket; his wife
 - [[the-baroness|The Baroness]] — rapier
-- Scarlet admiral coat / Cloak of the Manta Ray — locked in captain's chest ashore in Calveno
+- Scarlet admiral coat / [[delmars-cloak-of-the-manta-ray|Cloak of the Manta Ray]] — locked in captain's chest ashore in Calveno
 - Pocket watch with mother's picture inside — his father's only relic; his mother pickpocketed it for him
 
 ## Personality

@@ -116,7 +116,7 @@ title: Uncertainty — Ship Manifest
 |---|---|---|---|
 | Spare cutlass | 1 | Aboard | Still on rack |
 | Loaded blunderbuss | 1 | **Delmar** | 4d6, 15-ft cone, one shot; needs reloading |
-| Crown commission papers / letters of marque | 1 set | **Party** | Rook's privateer authority; useful as forgeable reference |
+| Crown commission papers / [[letters-of-marque|letters of marque]] | 1 set | **Party** | Rook's privateer authority; useful as forgeable reference |
 | 45 gp (from chest) | 45 gp | **Party** | Taken Session 02 |
 | 110 gp (from lockbox) | 110 gp | **Party** | Taken Session 02 |
 | 2 × garnet | 2 | **Party** | Taken Session 02; ~25 gp each |

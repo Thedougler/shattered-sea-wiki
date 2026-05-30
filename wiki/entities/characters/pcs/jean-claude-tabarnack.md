@@ -17,7 +17,7 @@ confidence_level: confirmed
 
 Three feet tall. Electric-blue slick skin with large black underside patches and geometric black bands across arms, legs, shoulders, and face. Visible scars worn proudly. Hard escaped-hunter stare.
 
-Red beret. False black moustache. Worn ranger harness. Compact shortbow.
+Red beret. False black moustache. Worn ranger harness. [[corto-di-velo|Corto di Velo]].
 
 > [!dm]
 > Cannot lie or mask his intentions — permanent disadvantage on Persuasion/Deception (Mortis). What you see is what he is. Advantage on Perception/Survival in exchange. He is genuinely uncertain whether this is a flaw or just how he is.

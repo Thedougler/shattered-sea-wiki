@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed, submersible to 120 ft, operated by four brass clockwork constructs. Not for sale. Full subsea capability and an onboard garden tied to life support."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [vehicle, ship, tier-2, submersible, clockwork, midchain]
 sources: ["Inbox/Brass-Cat.md"]
 confidence_level: medium

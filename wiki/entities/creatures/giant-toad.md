@@ -3,7 +3,7 @@ title: Giant Toad
 type: monster
 publish: true
 created: '2026-04-25'
-updated: '2026-05-03'
+updated: 2026-05-30
 summary: Public statblock reference for Giant Toad, a CR 1 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 360
 statblock: inline
 str: 15
 wis: 10
+status: unknown
 ---
 
 # Giant Toad

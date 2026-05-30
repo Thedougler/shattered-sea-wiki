@@ -3,7 +3,7 @@ title: Giant Shark
 type: monster
 publish: true
 created: 2026-04-25
-updated: 2026-05-03
+updated: 2026-05-30
 summary: The Giant Shark, a CR 5 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 359
 statblock: inline
 str: 23
 wis: 10
+status: unknown
 ---
 
 # Giant Shark

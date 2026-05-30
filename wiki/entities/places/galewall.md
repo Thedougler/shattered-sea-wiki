@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The permanent western storm belt separating the Scatter from the colonial homelands — a three-week crossing under the right pilot, with a one-in-three loss rate and no exceptions."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags: [place, navigation, weather, maritime]
 sources: ["Inbox/Galewall.md"]
 confidence_level: medium

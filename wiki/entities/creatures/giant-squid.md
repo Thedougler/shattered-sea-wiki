@@ -3,7 +3,7 @@ title: Giant Squid
 type: monster
 publish: true
 created: 2026-04-25
-updated: 2026-05-03
+updated: 2026-05-30
 summary: The Giant Squid, a CR 6 beast in the Shattered Sea bestiary.
 tags:
 - creature
@@ -30,6 +30,7 @@ page: 360
 statblock: inline
 str: 23
 wis: 11
+status: unknown
 ---
 
 # Giant Squid

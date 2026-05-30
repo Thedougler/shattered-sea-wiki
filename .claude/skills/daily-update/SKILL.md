@@ -10,8 +10,8 @@ description: >
 
 # Daily Update — Autonomous Wiki Maintenance
 
-Quick, safe, daily routine. Touches only mechanical/auto-fixable issues. Defers all
-judgment calls. Designed to run unattended — no DM input needed, no canon invented.
+Safe daily routine. Triages the wiki, then spends its budget on whatever matters
+most today. Defers all judgment calls. No DM input needed, no canon invented.
 
 **Idempotent:** safe to re-run if interrupted. Wiki-init resumes interrupted work via
 `work-queue.md`; ingest dedup prevents double-processing; lint `--fix` is idempotent.
@@ -21,134 +21,140 @@ continue to the next phase. Never abort the entire routine for a single-phase fa
 
 ---
 
-## Skill Chain
-
-Load skills in this order — each is mandatory:
-
-1. `ttrpg-llm-wiki-init` — run Fast Check (validates vault, resumes interrupted work)
-2. `ttrpg-wiki-ingest` — only if pending sources exist (capped)
-3. `ttrpg-wiki-lint` — auto-fix only, no manual judgment fixes
-4. `cross-linker` — only if Obsidian is running
-
-Do not skip steps. Do not reorder.
-
----
-
-## The Routine
-
-```dot
-digraph daily {
-  "Start" [shape=doublecircle];
-  "1. Wiki-Init Fast Check" [shape=box];
-  "2. Ingest (capped)" [shape=box];
-  "3. Lint --fix" [shape=box];
-  "4. Cross-link" [shape=box];
-  "5. Index regen + final commit" [shape=box];
-  "6. Report" [shape=box];
-  "Done" [shape=doublecircle];
-
-  "Start" -> "1. Wiki-Init Fast Check";
-  "1. Wiki-Init Fast Check" -> "2. Ingest (capped)";
-  "2. Ingest (capped)" -> "3. Lint --fix";
-  "3. Lint --fix" -> "4. Cross-link";
-  "4. Cross-link" -> "5. Index regen + final commit";
-  "5. Index regen + final commit" -> "6. Report";
-  "6. Report" -> "Done";
-}
-```
-
-### Step 1 — Wiki-Init Fast Check
+## Step 1 — Wiki-Init Fast Check
 
 Load and run `ttrpg-llm-wiki-init`. It validates structure, auto-corrects deviations,
 and resumes any interrupted work-queue tasks. If it finds structural issues, it commits
 them with `fix:` prefixes before returning control.
 
-### Step 2 — Ingest (Capped at 6 Sources)
+---
+
+## Step 2 — Triage
+
+Run these three commands to assess the wiki's state before deciding what to work on:
 
 ```bash
 python3 .claude/scripts/check_ingest.py --count
+python3 .claude/scripts/wiki_lint.py --summary
+bash .claude/skills/cross-linker/scripts/check-tools.sh
 ```
 
-```dot
-digraph ingest_gate {
-  "Pending count?" [shape=diamond];
-  "0 → skip, log 'queue clear'" [shape=box];
-  "1-6 → ingest all (single pass)" [shape=box];
-  "7+ → ingest 6 (--limit 6), log remainder" [shape=box];
+Record three numbers:
+- **pending_ingest** — count from `check_ingest.py`
+- **lint_autofixable** — count of issues `--fix` would resolve (frontmatter/formatting)
+- **obsidian_available** — whether `check-tools.sh` succeeded (cross-linking possible)
 
-  "Pending count?" -> "0 → skip, log 'queue clear'" [label="0"];
-  "Pending count?" -> "1-6 → ingest all (single pass)" [label="1-6"];
-  "Pending count?" -> "7+ → ingest 6 (--limit 6), log remainder" [label="7+"];
+---
+
+## Step 3 — Execute by Priority
+
+Spend context on the highest-value work first. The priority chain is:
+
+```
+INGEST → LINT → CROSS-LINK
+```
+
+Each source ingested consumes significant context (reading source, loading domain
+skills, writing pages). Each lint fix is cheap. Cross-linking is moderate. Use the
+triage numbers to decide depth at each tier — the goal is maximum wiki improvement
+per run without degrading quality by exhausting context.
+
+```dot
+digraph budget {
+  "Triage complete" [shape=doublecircle];
+  "pending_ingest?" [shape=diamond];
+
+  "HEAVY INGEST\n6 sources, then stop" [shape=box];
+  "MODERATE INGEST\nall pending, then lint" [shape=box];
+  "NO INGEST\nfull budget to lint + cross-link" [shape=box];
+
+  "Triage complete" -> "pending_ingest?";
+  "pending_ingest?" -> "HEAVY INGEST\n6 sources, then stop" [label="7+"];
+  "pending_ingest?" -> "MODERATE INGEST\nall pending, then lint" [label="1-6"];
+  "pending_ingest?" -> "NO INGEST\nfull budget to lint + cross-link" [label="0"];
 }
 ```
 
-Load `ttrpg-wiki-ingest` and follow its full protocol — including the mandatory dedup
-gate, skill chain (writing standards, domain skills), and per-source archive. **Cap at
-6 sources per daily run.** Process them in the order `check_ingest.py` returns (do not
-cherry-pick or reorder). If more remain, log the count but do not continue — tomorrow's
-run picks up where today left off.
+### Tier 1 — Ingest
 
-Commit per the ingest skill's cadence (typically one commit after all sources in the batch).
-If a single source errors during ingest, skip it and continue with the next — log the
-failed path so the DM can investigate.
+Load `ttrpg-wiki-ingest` and follow its full protocol — dedup gate, skill chain
+(writing standards, domain skills), per-source archive. Process sources in the
+order `check_ingest.py` returns them (do not cherry-pick or reorder).
 
-### Step 3 — Lint (Auto-Fix Only)
+| Pending | Sources to process | Then |
+|---|---|---|
+| 7+ | 6 (use `--limit 6`) | Stop — skip lint and cross-link. Ingest is the bottleneck; new pages will need linking tomorrow anyway. |
+| 1–6 | All | Continue to lint with remaining budget. |
+| 0 | — | Skip to lint. |
+
+If a single source errors during ingest, skip it, log the failed path, and continue
+with the next. Commit per the ingest skill's cadence.
+
+### Tier 2 — Lint
+
+Always run the mechanical auto-fix pass:
 
 ```bash
 python3 .claude/scripts/wiki_lint.py --fix
-```
-
-This standardizes frontmatter, reorders fields, coerces booleans — all safe, idempotent,
-file-local fixes. Commit if changes were made:
-
-```bash
 git add wiki/ && git diff --cached --quiet || git commit -m "curation: daily lint --fix"
 ```
 
-Then run the linter again in report mode to surface what remains:
+Then assess what remains:
 
 ```bash
 python3 .claude/scripts/wiki_lint.py --summary
 ```
 
-**Do not manually fix any reported issues.** The daily update only does mechanical fixes.
-Judgment items (broken wikilinks, orphans, tag variants, naming conventions) are left for
-the DM or an explicit curation session. If errors exist, run `--report` to write
-`wiki/dm/review-queue.md` so they're visible:
+**If this tier has the remaining budget** (ingest was 0 or light): run `--report`
+to write `wiki/dm/review-queue.md`, then commit it. This surfaces judgment items
+for the DM without acting on them.
 
 ```bash
 python3 .claude/scripts/wiki_lint.py --report
 git add wiki/dm/review-queue.md && git diff --cached --quiet || git commit -m "curation: update review queue"
 ```
 
-### Step 4 — Cross-Link (If Obsidian Running)
+**Do not manually fix any reported issues.** Broken wikilinks, orphans, tag variants,
+naming conventions — all deferred.
 
-```bash
-bash .claude/skills/cross-linker/scripts/check-tools.sh
-```
+### Tier 3 — Cross-Link
 
-- **Tools available:** Load `cross-linker` skill and run it. Cap at 10 orphan pages
-  per run (use `-limit 10` on `orphans-clean.sh`). The cross-linker skill references
-  `content/` paths — this vault uses `wiki/` as the content root; translate accordingly.
-  Commit: `curation: daily cross-link — N links added`
-- **Obsidian not running:** Log "cross-linking skipped — Obsidian not running" and
-  continue. Do not fail.
+Only runs when:
+1. Obsidian is running (from triage), AND
+2. Ingest was light (0–6 sources) — heavy ingest skips this tier.
 
-### Step 5 — Index Regen + Final Commit
+Load the `cross-linker` skill. The cross-linker references `content/` paths — this
+vault uses `wiki/` as the content root; translate accordingly.
+
+| Budget remaining | Depth |
+|---|---|
+| Full (no ingest today) | Up to 15 orphans (`-limit 15 -suggest`) |
+| Moderate (light ingest) | Up to 5 orphans (`-limit 5`) |
+
+Commit: `curation: daily cross-link — N links added`
+
+If Obsidian is not running, log "cross-linking skipped — Obsidian not running" and
+continue.
+
+---
+
+## Step 4 — Finalize
 
 ```bash
 python3 .claude/scripts/regen_index.py --write
 git add wiki/index.md && git diff --cached --quiet || git commit -m "curation: regenerate index"
 ```
 
-### Step 6 — Report
+---
 
-Output a brief summary (no trailing explanation). For scheduled/cron runs, also
-append this summary to `wiki/dm/daily-log.md` (create if missing) so the DM
-can review what happened while away.
+## Step 5 — Report
+
+Output a brief summary. For scheduled/cron runs, also append to
+`wiki/dm/daily-log.md` (create if missing).
 
 ```
 Daily update complete.
+- Budget: [heavy ingest / moderate ingest + lint / lint + cross-link / etc.]
 - Init: [ok / N fixes]
 - Ingest: [N sources processed / queue clear / N remaining]
 - Lint: [N auto-fixes / N issues deferred to review queue]
@@ -161,16 +167,13 @@ Daily update complete.
 
 ## Safety Boundaries
 
-These are non-negotiable for autonomous runs:
+Non-negotiable for autonomous runs:
 
-- **Never invent canon.** Auto-fixes are mechanical (frontmatter, formatting). Content
-  is only created during ingest, which follows the ingest skill's extraction protocol.
-- **Never make judgment calls.** Broken wikilinks, orphans, tag variants, naming
-  conventions, singleton properties — all deferred. Surface them in the review queue.
-- **Never exceed the cap.** 6 ingest sources, 10 cross-link orphans. Tomorrow exists.
-- **Always commit.** Every phase that changes files gets its own commit. Git history
-  is the undo mechanism.
-- **Never skip wiki-init.** It catches interrupted work and structural drift.
+- **Never invent canon.** Content is only created during ingest via the extraction protocol.
+- **Never make judgment calls.** Surface them in the review queue, don't act on them.
+- **Never exceed 6 ingest sources per run.** Quality per source matters more than throughput.
+- **Always commit.** Every phase that changes files gets its own commit.
+- **Never skip wiki-init or triage.** Init catches drift; triage prevents wasted context.
 
 ---
 
@@ -181,6 +184,3 @@ These are non-negotiable for autonomous runs:
 - Faction clock advancement (use `faction-clock`)
 - Session prep (use `prep-session`)
 - Content writing or rewriting (use `ttrpg-writing`)
-
-If you're tempted to "just fix one more thing" — stop. The daily update is a bounded
-routine, not an open-ended session.

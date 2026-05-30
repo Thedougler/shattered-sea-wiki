@@ -6,6 +6,8 @@ import argparse
 import os
 import sys
 import threading
+import time
+import webbrowser
 
 
 def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI wiring
@@ -64,7 +66,14 @@ def main(argv: list[str] | None = None) -> int:  # pragma: no cover - CLI wiring
         daemon=True,
     )
     webui_thread.start()
-    sys.stderr.write(f"Teleprompter WebUI: http://localhost:{args.port}\n")
+    url = f"http://localhost:{args.port}"
+    sys.stderr.write(f"Teleprompter WebUI: {url}\n")
+
+    def _open_browser():
+        time.sleep(1.5)
+        webbrowser.open(url)
+
+    threading.Thread(target=_open_browser, daemon=True).start()
 
     from ..app.operator_tui import run_operator_tui
 

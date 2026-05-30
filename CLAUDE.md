@@ -63,7 +63,8 @@ Frontmatter completeness and the `updated` date are enforced automatically by a 
 hook (`.claude/hooks/validate-frontmatter.sh` → `.claude/scripts/fix_frontmatter.py`) — you do
 not maintain them by hand. `index.md` is regenerated with `.claude/scripts/regen_index.py`,
 not hand-edited. A second PostToolUse hook (`.claude/hooks/qmd-reindex.sh`) updates the
-`qmd` search index in the background after wiki edits.
+`qmd` search index in the background after wiki edits. A third hook
+(`.claude/hooks/lint-python.sh`) runs `ruff` format and lint on any edited Python file.
 
 Read order at a glance: `wiki/hot.md` first, then `wiki/system/task-routing.md`, then
 `doctrine.md` and only the entity/situation files the task needs. Never read the full vault
@@ -80,6 +81,8 @@ python3 .claude/scripts/regen_index.py --write   # regenerate wiki/index.md
 python3 .claude/scripts/wiki_lint.py              # lint vault: frontmatter, broken wikilinks, orphans
 python3 .claude/scripts/check_ingest.py           # list source material still pending ingest
 python3 .claude/scripts/fix_frontmatter.py <file> # add missing frontmatter fields to a single file
+python3 .claude/scripts/archive_source.py <file>   # git-mv ingested source from Inbox/ to .raw/
+python3 .claude/scripts/ingest_packet.py <dir>     # compile context packet for subagent ingest
 ```
 
 ### player-view app (requires venv)
@@ -97,19 +100,6 @@ cd player-view && .venv/bin/pytest tests/   # unit tests (no ML stack needed)
 ```
 
 No test suite exists for the wiki scripts — they're validated by the hooks on every edit.
-
----
-
-## player-view Architecture
-
-NiceGUI app in `player-view/src/player_view/`. Layered as:
-
-- **`pages/`** — NiceGUI route handlers (one per URL: `/dm`, `/save-speaker`, `/session`, etc.)
-- **`services/`** — ML and audio backends: `asr.py` (parakeet-mlx streaming ASR), `audio.py` (sounddevice capture), `diarization.py` (pyannote speaker separation), `session_transcriber.py` (live transcript assembly), `spatial.py` (spatial analysis), `llm.py`
-- **`models/`** — shared state (`state.py`) and voice profile data (`voice_profile.py`)
-- **`components/`** — reusable UI pieces (header, teleprompter)
-
-Requires Python 3.11+, Apple Silicon (MLX), and `HF_TOKEN` in repo-root `.env`.
 
 ---
 

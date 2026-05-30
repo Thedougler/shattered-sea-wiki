@@ -24,6 +24,14 @@ python3.11 -m venv .venv
 
 Requires Python 3.11+, Apple Silicon (MLX), and `HF_TOKEN` in the repo-root `.env` (for pyannote gated models).
 
+Ruff enforces formatting and linting — a PostToolUse hook runs it automatically on every
+Python edit, but you can run manually:
+
+```bash
+ruff format src/ tests/
+ruff check --fix src/ tests/
+```
+
 ## Architecture
 
 Source lives in `src/player_view/`. Entry point is `main.py` which wires up services at startup via `services.init()`.

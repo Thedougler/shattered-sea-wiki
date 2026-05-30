@@ -14,13 +14,6 @@ confidence_level: observed
 species: human
 pronouns: he/him
 portrait: raw/assets/portraits/Geoffrey-Draves.webp
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — recruited by; being mentored as 'Mr. James'"
-  - "[[barnaby-rook|Barnaby Rook]] — former captain; threatened to shoot him for defecting"
-  - "[[hcs-surety|HCS Surety]] — former posting"
-  - "[[aldric-drave|Aldric Drave]] — father's connections; possible family link"
-  - "[[verity-hollowell|Verity Hollowell]] — the woman he danced with; Cedric's daughter"
-  - "[[rupert-knighton|Rupert Knighton]] — uncle"
 roleplay: "Zuko, the sailor and secret fire dancer — competent, controlled, and quietly tanking his entire future over a woman he danced with once."
 ---
 

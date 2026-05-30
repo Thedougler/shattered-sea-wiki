@@ -11,9 +11,6 @@ updated: 2026-05-28
 tags: [stub, minor, calveno, gnome, craftsman]
 sources: ["Inbox/Calveno-Jean-Claude-Beats.md"]
 confidence_level: medium
-relationships:
-  - relation: located_in
-    target: "[[calveno|Calveno]]"
 ---
 
 # Giacinto — Stub

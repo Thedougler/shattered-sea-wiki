@@ -11,9 +11,6 @@ updated: 2026-05-28
 tags: [stub, npc, dravosi, crown, enforcement]
 sources: ["Inbox/Surety-Missing.md"]
 confidence_level: low
-relationships:
-  - relation: commands
-    target: "[[hcs-warrant|HCS Warrant]]"
 ---
 
 # Commander Gideon Ault — Stub

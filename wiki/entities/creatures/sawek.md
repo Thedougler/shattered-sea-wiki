@@ -13,9 +13,6 @@ sources: ["Inbox/Sawek.md"]
 confidence_level: medium
 cr: 5
 aliases: ["Sawek", "Blue Devil"]
-relationships:
-  - "[[midchain|The Midchain]] — primary habitat"
-  - "[[kalowe|Kalowe]] — Kalowe divers mark claimed holes with cord"
 ---
 
 # Sawek (Blue Devil)

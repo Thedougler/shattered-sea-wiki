@@ -12,8 +12,6 @@ tags: [creature, humanoid, bestiary, dravosi, cr1/8]
 sources: ["Inbox/Dravosi-Deckhand.md"]
 confidence_level: medium
 cr: "1/8"
-relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---
 
 # Dravosi Deckhand — Stat Block

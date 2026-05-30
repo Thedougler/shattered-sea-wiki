@@ -12,8 +12,6 @@ tags: [creature, humanoid, bestiary, dravosi, cr1/2]
 sources: ["Inbox/Dravosi-Enforcer.md"]
 confidence_level: medium
 cr: "1/2"
-relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---
 
 # Dravosi Enforcer — Stat Block

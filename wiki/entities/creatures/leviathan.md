@@ -12,10 +12,6 @@ tags: [creature, legend, maritime, bestiary]
 sources: ["Inbox/Leviathan.md"]
 confidence_level: low
 aliases: ["The Leviathan"]
-relationships:
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — survived the Vestra; carries Clyde's bestiary entry"
-  - "[[vestra|Vestra]] — the ship it destroyed"
-  - "[[the-drowned-maw|The Drowned Maw]] — rumored to emerge from"
 ---
 
 # The Leviathan

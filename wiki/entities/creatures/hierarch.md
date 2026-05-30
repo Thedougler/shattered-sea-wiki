@@ -13,9 +13,6 @@ sources: ["Inbox/Hierarch.md"]
 confidence_level: high
 cr: 19
 aliases: ["Hierarch", "Hierarch lich"]
-relationships:
-  - "[[aldric-drave|Aldric Drave]] — confirmed Hierarch; founded the Dravosi Crown"
-  - "[[shepherd-grigori|Shepherd Grigori]] — confirmed CR 19 Hierarch; currently aboard ship"
 ---
 
 # Hierarch

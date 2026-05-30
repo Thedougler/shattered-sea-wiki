@@ -15,15 +15,6 @@ title: Beaumont Sel
 category: character
 species: tortle
 aliases: [Beau, Captain Sel]
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — allied, fought alongside"
-  - "[[barnaby-rook|Barnaby Rook]] — antagonist; Rook shot at him"
-  - "[[saltwright|Saltwright]] — captain"
-  - "[[bisou|Bisou]] — companion"
-  - "[[lenne-vor|Lenne Vor]] — navigator"
-  - "[[drav-holke|Drav Holke]] — bosun"
-  - "[[wessa|Wessa]] — cook"
-  - "[[fen|Fen]] — ordinary sailor"
 ---
 
 # Beaumont Sel

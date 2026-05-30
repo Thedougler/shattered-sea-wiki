@@ -11,12 +11,6 @@ updated: 2026-05-27
 tags: [creature, leviathan, drowned-maw, dm-only]
 sources: ["Inbox/Campaign-Timeline.md", "Inbox/Perrin-Black-Jaw.md"]
 confidence_level: confirmed
-relationships:
-  - "[[the-drowned-maw|The Drowned Maw]] — entry point"
-  - "[[elemental-plane-of-water|Elemental Plane of Water]] — origin direction"
-  - "[[vestra|Vestra]] — destroyed"
-  - "[[perrin-black-jaw|Perrin Black-Jaw]] — shipwrecked by it"
-  - "[[auralis|Auralis]] — opposes it as parasitic invader"
 ---
 
 # Leviathan

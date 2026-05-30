@@ -15,9 +15,6 @@ species: human
 pronouns: he/him
 banner: raw/assets/banners/Old-Faas.webp
 portrait: raw/assets/portraits/Old-Faas.webp
-relationships:
-  - "[[hcs-surety|HCS Surety]] — former posting"
-  - "[[barnaby-rook|Barnaby Rook]] — former commanding officer; ran cargo together in old days"
 roleplay: "Scruffy the Janitor as a literally fearless and inexplicably immortal sailor. Flat affect. Short declarative sentences. Does not elaborate unless asked, then elaborates exactly once. Unaware that other people find his situation remarkable."
 ---
 

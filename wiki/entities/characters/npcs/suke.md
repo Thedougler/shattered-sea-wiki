@@ -11,9 +11,6 @@ updated: 2026-05-28
 tags: [npc, moucheron, five-blades, mercenary]
 sources: ["Inbox/Five-Blades.md"]
 confidence_level: confirmed
-relationships:
-  - "[[five-blades|Five Blades]] — member"
-  - "[[murrat|Murrat]] — origin"
 ---
 
 # Suke

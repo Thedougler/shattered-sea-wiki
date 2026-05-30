@@ -12,8 +12,6 @@ tags: [creature, dragon, bestiary, cr4]
 sources: ["Inbox/dragon-turtle-wyrmling.md"]
 confidence_level: medium
 cr: 4
-relationships:
-  - "[[sunken-crown|The Sunken Crown]] — sighted near"
 ---
 
 # Dragon Turtle Wyrmling

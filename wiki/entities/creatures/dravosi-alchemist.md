@@ -12,8 +12,6 @@ tags: [creature, humanoid, bestiary, dravosi, cr1]
 sources: ["Inbox/Dravosi-Alchemist.md"]
 confidence_level: medium
 cr: 1
-relationships:
-  - "[[dravosi-crown|Dravosi Crown]] — faction"
 ---
 
 # Dravosi Alchemist — Stat Block

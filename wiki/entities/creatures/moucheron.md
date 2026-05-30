@@ -13,10 +13,6 @@ sources: ["Inbox/Moucheron.md"]
 confidence_level: high
 cr: 8
 aliases: ["Moucheron"]
-relationships:
-  - "[[kalowe|Kalowe]] — primary Midchain hiring port"
-  - "[[dravosi-crown|Dravosi Crown]] — classifies as hazardous wildlife"
-  - "[[five-blades|Five Blades]] — known Moucheron mercenary group"
 ---
 
 # Moucheron

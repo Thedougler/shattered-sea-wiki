@@ -15,10 +15,6 @@ species: human
 pronouns: they/them
 banner: raw/assets/banners/Noor.webp
 portrait: raw/assets/portraits/Noor.webp
-relationships:
-  - "[[hcs-surety|HCS Surety]] — former posting"
-  - "[[barnaby-rook|Barnaby Rook]] — former commanding officer"
-  - "[[shepherd-grigori|Shepherd Grigori]] — vouched for them below decks"
 roleplay: "The kid who memorized the textbook and now gets to find out if any of it was right."
 ---
 

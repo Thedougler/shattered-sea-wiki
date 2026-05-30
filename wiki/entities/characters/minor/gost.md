@@ -11,9 +11,6 @@ updated: 2026-05-28
 tags: [stub, minor, warren, half-orc, mercenary]
 sources: ["Inbox/Calveno-Street-Encounters.md"]
 confidence_level: low
-relationships:
-  - relation: located_in
-    target: "[[warren|Warren]]"
 ---
 
 # Gost — Stub

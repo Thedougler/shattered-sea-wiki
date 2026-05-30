@@ -15,10 +15,6 @@ species: human
 pronouns: he/him
 banner: raw/assets/banners/Sem-Holst.webp
 portrait: raw/assets/portraits/Sem-Holst.webp
-relationships:
-  - "[[hcs-surety|HCS Surety]] — former posting"
-  - "[[barnaby-rook|Barnaby Rook]] — former commanding officer"
-  - "[[geoffrey-draves|Geoffrey Draves]] — works alongside as carpenter's mate"
 roleplay: "The shipwright who sees hull damage the way a doctor sees symptoms — as information, not drama — and whose professional opinions are always correct and sometimes annoying."
 ---
 

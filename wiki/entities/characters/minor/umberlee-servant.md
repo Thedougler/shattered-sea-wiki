@@ -11,9 +11,6 @@ updated: 2026-05-27
 tags: [stub, npc, umberlee, calveno]
 sources: ["Inbox/Session-03-Recap.md"]
 confidence_level: observed
-relationships:
-  - "[[delmar-fisk|Delmar Fisk]] — sought him out specifically"
-  - "[[waveservant-shrine|Waveservant Shrine]] — location; waiting here"
 ---
 
 # Umberlee's Servant → [[branca|Branca]]

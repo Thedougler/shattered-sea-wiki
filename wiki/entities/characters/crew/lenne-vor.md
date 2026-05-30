@@ -11,9 +11,6 @@ updated: 2026-05-28
 tags: [crew, saltwright, navigator]
 sources: ["Inbox/Beaumonts-Crew.md"]
 confidence_level: confirmed
-relationships:
-  - "[[beaumont-sel|Beaumont Sel]] — captain"
-  - "[[saltwright|Saltwright]] — vessel"
 ---
 
 # Lenne Vor

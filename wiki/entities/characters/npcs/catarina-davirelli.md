@@ -14,12 +14,6 @@ confidence_level: confirmed
 species: human
 aliases: [Da'Virelli, Catarina]
 roleplay_prompt: "Tony Stark without the charm, with better NDAs"
-relationships:
-  - "[[calveno|Calveno]] — based here, by referral only"
-  - "[[shelfworks|Shelfworks]] — salvage source; Shelfworks Goldrush"
-  - "[[beaumont-sel|Beaumont Sel]] — sold Salvaged Antheri Plate"
-  - "[[dravosi-crown|Dravosi Crown]] — binding contract"
-  - "[[tessarine-concordat|Tessarine Concordat]] — standing purchase orders she has not accepted"
 ---
 
 # Catarina Da'Virelli

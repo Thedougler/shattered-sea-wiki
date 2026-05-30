@@ -87,4 +87,10 @@ if [[ -z "${HF_TOKEN:-}" || "${HF_TOKEN}" == "..." ]]; then
   die "HF_TOKEN is not set. Add 'HF_TOKEN=hf_...' to $REPO_ROOT/.env (a free Hugging Face read token), or export it in your shell."
 fi
 
+# Python 3.11's site.py skips .pth files it considers "hidden" (underscore-
+# prefixed, wrong permissions, extended attributes). Hatchling's editable
+# install creates _editable_impl_*.pth which gets ignored. Set PYTHONPATH
+# so the src layout works regardless.
+export PYTHONPATH="${PROJECT_DIR}/src${PYTHONPATH:+:$PYTHONPATH}"
+
 export VENV_PY PROJECT_DIR REPO_ROOT

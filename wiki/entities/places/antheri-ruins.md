@@ -13,7 +13,7 @@ sources: [Homebrew]
 confidence_level: medium
 title: Antheri Ruins
 region: maw
-parent_location: "[[drowned-maw|The Drowned Maw]]"
+parent_location: "[[the-drowned-maw|The Drowned Maw]]"
 governance: "Contested by salvagers, the Tessarine Concordat, and the Dravosi Crown"
 access: "Dangerous dive site; upper tier accessible, lower depths avoided"
 aliases: [The Ruins, Antheri]
@@ -25,7 +25,7 @@ aliases: [The Ruins, Antheri]
 
 ## Overview
 
-The Antheri Ruins occupy the western wall of the [[drowned-maw|Drowned Maw]], beginning at the surface shelf around sixty feet down and continuing into depths no current diver has returned from with anything useful to say. The stone is a pale composite, unfouled and uncorroded, that no living materials expert has identified. Biological growth does not adhere to it. A piece brought to the surface is as clean as the day it was placed.
+The Antheri Ruins occupy the western wall of the [[the-drowned-maw|Drowned Maw]], beginning at the surface shelf around sixty feet down and continuing into depths no current diver has returned from with anything useful to say. The stone is a pale composite, unfouled and uncorroded, that no living materials expert has identified. Biological growth does not adhere to it. A piece brought to the surface is as clean as the day it was placed.
 
 The architecture is disorienting at the accessible tier and outright wrong deeper in. There are no stairs. No flat floors designed as floors. No provision whatsoever for beings that needed to breathe. Massive vertical shafts drop into the dark. Spherical rooms connect by sweeping archways. Whatever the Antheri were, they moved in three dimensions, in water, without equipment.
 
@@ -34,7 +34,7 @@ The architecture is disorienting at the accessible tier and outright wrong deepe
 | Field | Detail |
 |---|---|
 | Type | Submerged pre-collapse ruin system |
-| Location | Western wall of [[drowned-maw|The Drowned Maw]] |
+| Location | Western wall of [[the-drowned-maw|The Drowned Maw]] |
 | Controlled By | Contested by salvagers, [[tessarine-concordat|Tessarine Concordat]], and [[dravosi-crown|Dravosi Crown]] |
 | Access | Dangerous dive site; upper tier accessible, lower depths avoided |
 | Known For | Dark-alloy fittings, non-human architecture, the Shelfworks tier, and a deeper containment crisis |
@@ -75,7 +75,7 @@ The [[tessarine-concordat|Tessarine Concordat]] controls the intelligence war â€
 
 ## See Also
 
-- [[drowned-maw|The Drowned Maw]]
+- [[the-drowned-maw|The Drowned Maw]]
 - [[catarina-davirelli|Catarina DaVirelli]]
 - [[tessarine-concordat|Tessarine Concordat]]
 - [[antheri-mechanism|Antheri Mechanism]]

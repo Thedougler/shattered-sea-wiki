@@ -29,10 +29,10 @@ sources: []
 - [[anzolo|Anzolo]] — Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 - [[auralis|Auralis]] — [DM-only] Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure.
 - [[barnaby-rook|Barnaby Rook]] — Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names.
-- [[bastian-crev|Bastian Crev]] —
-- [[beaumont-sel|Beaumont Sel]] —
-- [[bice-riva|Bice Riva]] —
-- [[branca|Branca]] —
+- [[bastian-crev|Bastian Crev]] — Stub — no summary yet.
+- [[beaumont-sel|Beaumont Sel]] — Stub — no summary yet.
+- [[bice-riva|Bice Riva]] — Stub — no summary yet.
+- [[branca|Branca]] — Stub — no summary yet.
 - [[catarina-davirelli|Catarina Da'Virelli]] — An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
@@ -43,11 +43,12 @@ sources: []
 - [[estratto|Estratto]] — Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
 - [[felix-aho|Félix Aho]] — Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
 - [[ket|Ket]] — A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
-- [[leviathan|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
+- [[leviathan-entity|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 - [[maren|Maren]] — Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN.
 - [[master-kyzil|Master Kyzil]] — Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
 - [[noa-fifita|Noa Fifita]] — Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 - [[nona-black-jaw|Nona Black-Jaw]] — Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
+- [[oriana-becht|Oriana Becht]] — [stub] Stub — referenced in [[tessarine-amberreach]]. No page yet.
 - [[rael-corven|Rael Corven]] — Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
 - [[rupert-knighton|Commodore Rupert Knighton]] — [DM-only] Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
 - [[serafina-windfall-fisk|Serafina Windfall Fisk]] — Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter.
@@ -121,7 +122,8 @@ sources: []
 
 ## entities/places
 - [[antheri-ruins|Antheri Ruins]] — Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
-- [[aruhe|Aruhe]] —
+- [[aruhe|Aruhe]] — Stub — no summary yet.
+- [[calven|Calven]] — [stub] Stub — referenced in [[aldenmere]] as a regional comparison. Possibly the broader region that contains Calveno.
 - [[central-strait|The Central Strait]] — The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end.
 - [[crown-islands|The Crown Islands]] — Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
 - [[doldrums|The Doldrums]] — A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels.
@@ -129,13 +131,11 @@ sources: []
 - [[dreth|Dreth]] — One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
 - [[elemental-plane-of-water|Elemental Plane of Water]] — A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
 - [[fare-ia|Fare I'a]] — A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell.
-- [[fifitas-slip|Fifita's Slip]] — An informal back-channel boatyard on the lagoon side of Kalowe's second limestone island — no dry-dock books, no Canal Commission, and a proprietor who prices a job before you finish explaining it.
 - [[fort-crestwall|Fort Crestwall]] — The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should.
 - [[galewall|The Galewall]] — The permanent western storm belt separating the Scatter from the colonial homelands — a three-week crossing under the right pilot, with a one-in-three loss rate and no exceptions.
 - [[galewall-dm|The Galewall — DM Notes]] — DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
 - [[halythion|Halythion]] — Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
 - [[high-eyrie|The High Eyrie]] — Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
-- [[keth-naar|Keth Naar]] — Sunken Crown tabaxi community where Perrin washed ashore after the Vestra's destruction and where Stripes Bitemore's people read the seas as wrong.
 - [[midchain|The Midchain]] — The southern arc of the Verdant Scatter — dozens of low limestone and coral islands, free ports, reef channels, Grung trade beaches, and water that can feed a careful crew and swallow a careless one.
 - [[orak|Orak]] — The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way.
 - [[oshas-slip|Osha's Slip]] — A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out.
@@ -186,7 +186,7 @@ sources: []
 - [[umberlee-shrine|Umberlee's Shrine — Sunken Crown]] — An old Waveservant shrine cut into black stone on Vel-Orn in the Sunken Crown, tied to water-debt, drowned names, and the old Umberlee worship of the Blue Hole.
 
 ## entities/places/regions
-- [[ashwall-islands|Ashwall Islands]] —
+- [[ashwall-islands|Ashwall Islands]] — Stub — no summary yet.
 - [[shattered-sea|The Shattered Sea]] — The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda.
 
 ## entities/places/settlements
@@ -257,6 +257,7 @@ sources: []
 - [[anchor-chain|Anchor Chain]] — Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section.
 - [[antheri-mechanism|Antheri Mechanism]] — Dark-alloy mechanisms recovered from Antheri ruins — faintly iridescent, tooling marks too fine for any current forge in the Scatter.
 - [[antitoxin|Antitoxin]] — A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp.
+- [[arcane-artillery|Arcane Artillery]] — [stub] Stub — referenced in [[ship-upgrades]]. No page yet.
 - [[artificer-commission|Artificer Commission]] — Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter.
 - [[auto-helm|Auto Helm]] — A clockwork mechanism fitted to the ship's tiller or wheel — holds a set heading for up to 8 hours without a crew member at the helm. 1,400 gp.
 - [[basic-poison|Basic Poison]] — A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial.
@@ -273,7 +274,7 @@ sources: []
 - [[canvas-cloth|Canvas Cloth]] — Bolts of canvas and heavy cloth for sewing, patching, and general fabrication.
 - [[captains-meal|Captain's Meal]] — A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers.
 - [[cargo-brokerage|Cargo Brokerage]] — Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold.
-- [[cartographers-table|Cartographer's Table]] —
+- [[cartographers-table|Cartographer's Table]] — Stub — no summary yet.
 - [[caulking-iron|Caulking Iron]] — A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming.
 - [[clockwork-deck-crew|Clockwork Deck Crew]] — A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding.
 - [[clockwork-owl-familiar|Clockwork Owl Familiar]] — Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable.
@@ -475,20 +476,20 @@ sources: []
 
 ## situations/active
 - [[abyss-vision|The Abyss Vision — "Grow"]] — Something in the abyss communicated with Perrin during the storm watch, at considerable cost. One word: 'Grow.' Perrin also inhabited a whip shark's body and witnessed something larger than two ships below.
-- [[aruhe|Aruhe — DM Notes]] —
+- [[aruhe-dm-notes|Aruhe — DM Notes]] —
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] — Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming.
 - [[calveno-situation|Calveno — Warren, Salvage, and Ship Disguise]] — Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city.
-- [[cape-solitude|Cape Solitude — Dead Light Mystery]] — Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
+- [[cape-solitude-mystery|Cape Solitude — Dead Light Mystery]] — Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
 - [[crissdalynns-pilgrimage|Crissdalynn's Pilgrimage]] — Crissdalynn was given a pilgrimage task — map the Drowned Maw from inside a storm — that she has not formally completed. Master Kyzil found her in Calveno, delivered the High Eyrie weather warning, confirmed surviving counts, and asked to meet again tomorrow. The missing Sentinels have not been asked about yet.
-- [[fort-crestwall|Fort Crestwall — Sealed Orders]] — Two extra companies arrived at Fort Crestwall under Admiralty-sealed orders Governor Voss was never given. Supply manifest includes reef-diving equipment and underwater charges bound for the Drowned Maw. Delmar's commission name still opens the gate. A Duty Sergeant has a Necklace of Fireballs he needs to sell before the audit.
+- [[fort-crestwall-sealed-orders|Fort Crestwall — Sealed Orders]] — Two extra companies arrived at Fort Crestwall under Admiralty-sealed orders Governor Voss was never given. Supply manifest includes reef-diving equipment and underwater charges bound for the Drowned Maw. Delmar's commission name still opens the gate. A Duty Sergeant has a Necklace of Fireballs he needs to sell before the audit.
 - [[governors-seat|Governor's Seat — Voss and the Sealed Orders]] — Governor Aldric Voss is boxed out of his own fort by Admiralty-sealed orders and willing to trade access for Admiralty-level leverage. The sealed orders concern an operation staged at the Drowned Maw. Delmar Fisk's name still opens the gate.
 - [[jean-claudes-desertion|Jean-Claude — Grung Expansion]] — Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting.
 - [[kalowe-takowan|Kalowe — Takowan and Ship Disguise]] — The Dravosi intelligence ship Takowan is mapping Passage contacts at Kalowe while the Uncertainty needs Kalowe's hidden slip to change its affiliation markers. Noa Fifita won't work while the Takowan is in port.
 - [[knighton-pursuit|The Knighton Pursuit]] — Rupert Knighton will send ships in response to Cap'n Gorgeous's death. Warning came from Shepherd Grigori. Timeline unknown. The party has not yet encountered Knighton.
+- [[maw-pearl-crisis|Maw Pearl Crisis]] — The Pearl of Souls is broadcasting across the Maw fissure, turning a geological planar leak into a directed attractor that Auralis is containing and Umberlee needs Fisk to retrieve. Delmar carries the five captains' souls and the secret of why the fleet sank.
 - [[nona-and-anzolo|Nona and Anzolo]] — Nona met in Calveno — attacks on Perrin called off, favor promised. Anzolo's status: was in motion before the calls-off; may still be at sea. The Passage knows where Perrin is.
 - [[nona-midchain-commission|Nona's Midchain Commission — Aruhe Survey]] — Nona has located Aruhe — a deserted cliff island near the Verdant Teeth — from old Passage route notes and wants Perrin to survey it as a clandestine Rattkin shipyard site. She is aware the Grung avoid it; she does not know why. The Blight is already inside.
 - [[nonas-favor|Nona's Favor]] — Perrin said yes to Nona's favor before hearing what it was. She gave him a sending stone. The favor has not yet been named.
-- [[pearl-of-souls|Maw Pearl Crisis]] — The Pearl of Souls is broadcasting across the Maw fissure, turning a geological planar leak into a directed attractor that Auralis is containing and Umberlee needs Fisk to retrieve. Delmar carries the five captains' souls and the secret of why the fleet sank.
 - [[shepherd-grigori-situation|Shepherd Grigori — World State]] — Hierarch sorcerer-lich who traveled as party guest, departed Calveno after curing (and binding) a Tessarine heir. Network expanded. Location unknown. Thread dormant until a phylactery NPC surfaces or he contacts the party.
 - [[sunken-crown-blessing-crisis|Sunken Crown Blessing Crisis]] — Umberlee's blessing has withdrawn from the Sunken Crown since the Pearl of Souls theft, destabilizing Keth-Naar — food security, weather protection, and shrine authority all degrading. Stripes Bitemore was sent to find why the sea turned.
 - [[surety-missing|Surety — Crown and Hollowell Search]] — The Crown knows the HCS Surety is missing while Rupert Knighton and Verity Hollowell pursue faster personal searches through different networks. Beaumont's testimony has already gone out — carrying an already-wrong (repainted) description.
@@ -529,20 +530,20 @@ sources: []
 - [[riggers-workshop|Rigger's Workshop]] — Tier 1 bastion facility — workshop adapted for the ship. Crafts adventuring gear with six chosen tools, grants Heroic Inspiration after a Short Rest aboard, and (at level 9+) supports Uncommon magic item crafting.
 
 ## rules/core
-- [[circle-magic|Circle Magic]] —
+- [[circle-magic|Circle Magic]] — Stub — no summary yet.
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.
 - [[siege-rules|Siege Rules]] — Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
 - [[sports-match-rules|Sports Match Rules]] — 5e-based rules for running a sports match as a combat encounter. Share with players the session before the match.
 - [[villain-design-framework|Villain Design Framework]] — Pointy Hat's system-agnostic villain creation method — three principles: Active (has agency), Present (has visibility), Personal (has stakes).
 
 ## rules/encounter-design
-- [[battlefield-actions|Battlefield Actions]] —
+- [[battlefield-actions|Battlefield Actions]] — Stub — no summary yet.
 
 ## rules/subsystems
-- [[bastions|Bastions]] —
-- [[carpenters-shop|Carpenter's Shop]] —
-- [[chart-archive|Chart Archive]] —
-- [[crew-berths|Crew Berths]] —
+- [[bastions|Bastions]] — Stub — no summary yet.
+- [[carpenters-shop|Carpenter's Shop]] — Stub — no summary yet.
+- [[chart-archive|Chart Archive]] — Stub — no summary yet.
+- [[crew-berths|Crew Berths]] — Stub — no summary yet.
 - [[expanded-cargo-hold|Expanded Cargo Hold]] — Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
 - [[ship-bastion|Ship Bastion — The Shattered Sea]] — Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits.
 - [[ship-combat|Ship Combat]] — Rules for ship's guns, broadsides, shot types, and multi-deck volleys — expands the 2024 DMG vehicle rules.

@@ -651,7 +651,13 @@ sources: []
 - [[swarm-of-insects|Swarm of Insects]] — A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
 - [[swarm-of-larvae|Swarm of Larvae]] — A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
 - [[swarm-of-piranhas|Swarm of Piranhas]] — A CR 1 beast swarm of freshwater predators found in still interior lakes and spring-fed pools of the Midchain; the Vatumei lake margins are known to locals.
+- [[swarm-of-rats|Swarm of Rats]] — A CR 1/4 beast swarm; a hull-rot hazard of Kalowe's waterfront that infests badly-kept stowage and spreads between vessels in harbour.
+- [[swarm-of-ravens|Swarm of Ravens]] — A CR 1/4 beast swarm from the cliffs of Vel-Orn; a carrion flock circling over a distressed vessel is a universally understood bad sign.
+- [[swarm-of-venomous-snakes|Swarm of Venomous Snakes]] — A CR 2 beast swarm from a disturbed nest or flooded burrow; the interior undergrowth of Orak and the Verdant Scatter harbours more than it shows.
+- [[tiger|Tiger]] — CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
 - [[unfamiliar|Unfamiliar]] — CR 5 monstrosity. Designed to hunt familiars and their summoners — its attacks trigger random uncontrolled spell effects, and it instinctively targets anyone who has ever bonded with a familiar.
+- [[unicorn|Unicorn]] — A CR 5 celestial; unconfirmed in the Shattered Sea — a single interior expedition account from the Midchain describes a white-maned creature that vanished before corroboration.
+- [[venomous-snake|Venomous Snake]] — A CR 1/8 beast; common bite hazard of the Verdant Teeth undergrowth, small enough to go unnoticed until stepped on.
 - [[whip-shark|Whip Shark (Welak)]] — CR 6 monstrosity. Huge aquatic predator with a barbed tail that can hook ship hulls. Kalowe fishermen call it the Welak. Encountered in Session 03 — a 60-foot specimen attacked the Uncertainty west of Calveno.
 - [[young-dragon-turtle|Young Dragon Turtle]] — CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.
 - [[young-sea-serpent|Young Sea Serpent]] — CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach.

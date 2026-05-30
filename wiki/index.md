@@ -209,7 +209,7 @@ sources: []
 - [[calveno-reference|Calveno — Player Reference]] — Quick-reference for Calveno — the canal city, its districts, key people, and how it works.
 - [[carpenters-slip|Carpenters' Slip]] — A narrow independent boatyard at Calveno's Arsenal end — no fourteen-month queue, no Arsenal gate, just Savia Brentino and the work that actually needs doing.
 - [[casa-lupo|Casa Lupo]] — A general goods shop in Le Paludi's lower canal zone — low ceiling, oil lamps, uneven floors, and an old proprietor who prices everything from memory and hasn't been wrong yet.
-- [[kats-curios|Kat's Curios]] — [stub] Curio shop or appraisal service in Calveno run by Catalina Curio. Delmar's whip shark barb was assessed here; Catalina is to follow up.
+- [[kats-curios|Cat's Curios]] — Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 - [[la-vasca|La Vasca]] — The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden.
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.
 - [[moretti-and-sons|Moretti & Sons Chandlery]] — Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up.
@@ -219,6 +219,9 @@ sources: []
 
 ## entities/places/settlements/kalowe
 - [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
+
+## entities/places/settlements/port-tidefall
+- [[waveservant-shrine|Waveservant Shrine — Port Tidefall]] — Umberlee's shrine at the Port Tidefall Dockfront — cut into the cliff base, bare stone, a seawater basin, tallow candles. Mariners pay before they sail or after they survive.
 
 ## entities/places/settlements/warren
 - [[low-lamp|The Low Lamp]] — The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.

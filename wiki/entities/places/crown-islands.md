@@ -53,10 +53,10 @@ The Greyteeth reefs between islands have contradicted three generations of chart
 | Place | Type | Notes |
 |---|---|---|
 | [[calders-tooth|Calder's Tooth]] | island | Western gatekeeper of the [[central-strait|Central Strait]]; home to [[port-tidefall|Port Tidefall]]. |
-| Calven | island | Large Crown island; sheltering waters and canal city face the Strait. |
-| Harwick | island | Deep-water anchorage and naval staging facing the Strait. |
-| [[aldenmere|Aldenmere]] | island | Crown island with livestock pressure and Greyteeth exposure. |
-| Stenmark | island | Eastern island near the Tail and the Maw-facing approaches. |
+| [[calven|Calven]] | island | Oldest settled island in the northern arc; low-lying marshland and tidal flats around farmland. Tessarine, not Dravosi, holds the money here. |
+| Harwick | island | Crown's primary naval base; the Harwick Naval Yard has built every class of Crown warship for six generations. Admiralty here administers patrol rotations, commission papers, and sealed orders for the fleet. |
+| [[aldenmere|Aldenmere]] | island | Farms, fishing fleets, and an inland tidal lake called the mere. No military installation. Crown collects tithes twice a year and otherwise leaves it alone. |
+| Stenmark | island | Easternmost Crown island. From the eastern cliffs, the Drowned Maw's water discolouration is visible on clear days. A Crown signal station watches the Maw edge and files monthly reports. |
 
 ## Settlements & Sites
 

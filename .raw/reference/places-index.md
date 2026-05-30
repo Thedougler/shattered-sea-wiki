@@ -1,0 +1,32 @@
+---
+title: Places
+publish: true
+visibility: public
+audience: players
+summary: Index of the Regions present within the [[Shattered-Sea|Shattered Sea]]
+type: index
+campaign: shattered-sea
+created: 2026-05-04
+updated: 2026-05-04
+tags:
+  - player-resource
+  - location
+  - index
+
+---
+# Places in the Shattered Sea
+![[1778028302576~2.png|355x194]]
+Ports, islands, storm belts, routes, shrines, ruins, and dangerous water the characters can know about without crossing into GM-only material.
+
+## Region Scale
+
+- [[Shattered-Sea|The Shattered Sea]] — warm archipelago of reefs, ports, colonial claims, old ruins, sea tribute, and dangerous routes.
+- [[content/shattered-sea/places/crown-islands/index|The Crown Islands]] — northern arc of large, fortified islands where Dravosi authority is strongest.
+- [[content/shattered-sea/places/midchain/index|The Midchain]] — southern arc of close-packed islands, free ports, reefs, and local arrangements.
+- [[content/shattered-sea/places/tail/index|The Tail]] — eastern convergence of the Scatter near the Drowned Maw; high cliffs, cold upwelling, and Shelfworks staging.
+- [[content/shattered-sea/places/sunken-crown/index|The Sunken Crown]] — five small islands around a vast Blue Hole in the Outer Reach.
+- [[Galewall|The Galewall]] — permanent western storm belt separating the Scatter from the colonial homelands.
+- [[Central-Strait|The Central Strait]] — main east-west shipping corridor between the [[content/shattered-sea/places/crown-islands/index|Crown Islands]] and the [[content/shattered-sea/places/midchain/index|Midchain]].
+- [[Doldrums|The Doldrums]] — mirror-flat dead water south of the Midchain where sail ships can lose days.
+- [[Outer-Reach|The Outer Reach]] — open ocean beyond the Maw, thinly charted and outside ordinary colonial reach.
+- [[Ashwall-Islands|The Ashwall Islands]] — cold volcanic spire-chain near the Galewall.

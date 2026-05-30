@@ -59,6 +59,18 @@ The Midchain is also where small piracy becomes geography. A cutter like [[knife
 
 Shifting reefs, uncertain channels, Sawek blue holes, [[giant-crocodile|giant crocodiles]] in mangrove water, constrictor snakes along root mats, Grung boundary violations, and piracy that turns local route knowledge into a weapon.
 
+## Key NPCs
+
+- [[simone-tabarnack|Simone Tabarnack]] — Jean-Claude's younger sister; purple-caste Grung garrison soldier from Sorn.
+- [[pell|Pell]] — gnome labour slave at Sorn; spoke to Jean-Claude as if he weren't a stranger.
+
+## Passage Notes
+
+- Back channels can help westbound ships avoid predictable Strait inspection routes; [[the-passage|the Passage]] knows which ones are clean.
+- Deep blue holes are avoided unless a pilot knows them by name — some are lairs, some are just drops.
+- The [[doldrums|Doldrums]] shift by season, making southern route planning a moving problem.
+- The [[verdant-teeth|Verdant Teeth]] trade route is profitable, narrow, and watched.
+
 ## Current Hooks
 
 - Grung raids from the direction of the [[verdant-teeth|Verdant Teeth]] have worsened; the [[chain-council|Chain Council]] has heard enough complaints that the beach trade may become a regional pressure point.

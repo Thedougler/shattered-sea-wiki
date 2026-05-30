@@ -27,8 +27,7 @@ def save_speaker_page():
     recording = {'active': False}
 
     with operator_header('Save Speaker'):
-        character_input = ui.input('Character').props('dense').classes('w-32')
-        player_input = ui.input('Player').props('dense').classes('w-28')
+        name_input = ui.input('Name').props('dense').classes('w-36')
         record_btn = ui.button('REC', on_click=lambda: start(), color='red').props('dense')
         stop_btn = ui.button('STOP & SAVE', on_click=lambda: stop(), color='green').props('dense')
         stop_btn.set_visibility(False)
@@ -65,32 +64,27 @@ def save_speaker_page():
         services.asr.stop_streaming()
         stop_btn.set_visibility(False)
 
-        character = character_input.value.strip()
-        player = player_input.value.strip()
-        if not character:
-            status_label.text = 'need character name'
+        name = name_input.value.strip()
+        if not name:
+            status_label.text = 'need name'
             status_label.style('color: #ff9800')
             record_btn.set_visibility(True)
             return
 
         status_label.text = 'extracting embedding...'
         status_label.style('color: #888')
-        ui.timer(0.1, lambda: _save_profile(character, player, audio), once=True)
+        ui.timer(0.1, lambda: _save_profile(name, audio), once=True)
 
-    def _save_profile(character, player, audio):
+    def _save_profile(name, audio):
         embedding = services.diarization.extract_embedding(audio)
-        existing = services.profiles.load(character)
+        existing = services.profiles.load(name)
         if existing:
-            services.profiles.update_embedding(character, embedding)
-            status_label.text = f'updated {character} (#{existing.sample_count + 1})'
+            services.profiles.update_embedding(name, embedding)
+            status_label.text = f'updated {name} (#{existing.sample_count + 1})'
         else:
-            profile = VoiceProfile(
-                character=character,
-                player=player or 'unknown',
-                embedding=embedding,
-            )
+            profile = VoiceProfile(character=name, player='', embedding=embedding)
             services.profiles.save(profile)
-            status_label.text = f'saved {character}'
+            status_label.text = f'saved {name}'
 
         status_label.style('color: #4caf50')
         record_btn.set_visibility(True)

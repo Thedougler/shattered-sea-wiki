@@ -191,7 +191,7 @@ sources: []
 
 ## entities/places/settlements
 - [[al-fondale|Al Fondale]] — A cozy Le Paludi tavern in the oldest canal zone of Calveno — good food, cheap wine, four rooms above, run by an old couple who have been here long enough to stop advertising.
-- [[calveno|Calveno]] — The oldest commercial centre in the Scatter — canal city, seven merchant houses, Tessarine debt leverage, Rattkin Tangle beneath Le Paludi. Party arrived Session 03; ship in dry dock as Uncertainty.
+- [[calveno|Calveno]] — Oldest continuous commercial centre in the Scatter — a canal city of pale stone, witnessed deals, and a thousand conversations happening at once in the open.
 - [[high-line|High Line]] — A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 - [[kalowe|Kalowe]] — Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
 - [[murrat|Murrat]] — A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
@@ -203,12 +203,12 @@ sources: []
 
 ## entities/places/settlements/calveno
 - [[acqua-nera|Acqua Nera]] — A hull conversion and repainting yard in Calveno's outer harbour, southwest approach — specialises in prize conversions and vessel re-identification, no Canal Commission filing on quiet work.
-- [[cabinet-of-morsani|The Cabinet of Morsani]] — [stub] Stub — Calveno magic shop and curiosity cabinet in the Velo district; run by [[prospero-morsani|Prospero Morsani]]; magic items, stories, and black-market trade.
-- [[calveno-districts|Calveno — District Layout]] — [stub] Stub — District navigation reference for Calveno: Mercatura (public deals), Le Paludi (quiet practical), Velo (vice/trade), Arsenal edge (ship scale), La Vasca/Basin (dockyard).
-- [[calveno-improv|Calveno — Improv Reference]] — [stub] Stub — Improv reference for Calveno: name banks, NPC quick-build, location naming, how Calvenans talk.
+- [[cabinet-of-morsani|The Cabinet of Morsani]] — An eccentric magical curio dealer in the Velo Quarter — lanterns at all hours, things on the shelves that don't look the same twice, and an old man who knows the previous owner of everything and will not tell you how it ended.
+- [[calveno-districts|Calveno — District Layout]] — DM navigation reference for Calveno — district-by-district layout, key locations, and phrases for describing movement between them.
+- [[calveno-improv|Calveno — Improv Reference]] — At-table improv tools for Calveno — name banks by culture, NPC quick-build, location naming, district texture, and how Calvenans talk.
 - [[calveno-reference|Calveno — Player Reference]] — Quick-reference for Calveno — the canal city, its districts, key people, and how it works.
-- [[carpenters-slip|Carpenters' Slip]] — [stub] Stub — Calveno shipyard on the Basin; [[savia-brentino|Savia Brentino]] does hull work without Canal Commission filings; refuses cold approaches.
-- [[casa-lupo|Casa Lupo]] — [stub] Shop in Calveno. Jean-Claude visited first; shopkeeper redirected him to Studio Orsini for the whip shark egg.
+- [[carpenters-slip|Carpenters' Slip]] — A narrow independent boatyard at Calveno's Arsenal end — no fourteen-month queue, no Arsenal gate, just Savia Brentino and the work that actually needs doing.
+- [[casa-lupo|Casa Lupo]] — A general goods shop in Le Paludi's lower canal zone — low ceiling, oil lamps, uneven floors, and an old proprietor who prices everything from memory and hasn't been wrong yet.
 - [[kats-curios|Kat's Curios]] — [stub] Curio shop or appraisal service in Calveno run by Catalina Curio. Delmar's whip shark barb was assessed here; Catalina is to follow up.
 - [[la-vasca|La Vasca]] — The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden.
 - [[le-paludi|Le Paludi]] — [stub] District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence.

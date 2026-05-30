@@ -1,164 +1,135 @@
 ---
-title: Calveno — Warren, Salvage, and Ship Disguise
-category: situation
-type: situation
-subtype: thread
-publish: false
-audience: dm
-created: 2026-05-14
-updated: 2026-05-20
-tags:
-  - calveno
-  - tessarine
-  - salvage
-  - red-lady
-  - warren
-  - surety
-campaign: shattered-sea
+title: "Calveno"
+category: location
+publish: true
+visibility: public
+audience: players
+summary: "Oldest continuous commercial centre in the Scatter — a canal city of pale stone, witnessed deals, and a thousand conversations happening at once in the open."
+type: location
+subtype: town
+settlement_type: city
 status: active
-lifecycle: active
-confidence_level: high
-region: central-strait
+campaign: shattered-sea
+region: crown_islands
+parent_location: "[[content/shattered-sea/places/calven/index|Calven]]"
+governance: "Seven hereditary merchant families under heavy [[Tessarine-Concordat|Tessarine Concordat]] leverage"
+access: "Open canal city; private access is bought, witnessed, or vouched for"
+relationships:
+  - relation: part_of
+    target: "Crown Islands"
+  - relation: controlled_by
+    target: "The Tessarine Concordat"
+  - relation: contains
+    target: "The Warren"
+created: 2026-05-01
+updated: 2026-05-23
+tags:
+  - city
+  - tessarine
+  - crown-islands
+  - player-resource
 sources:
   - Homebrew
-relationships: []
-summary: Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city.
----
-
-# Calveno — Warren, Salvage, and Ship Disguise
-
-## Situation
-
-Calveno is useful because Perrin can reach the [[Warren]] here and the party can disguise the [[HCS-Surety]] without using a public dry dock. It is dangerous because the same city is under Tessarine debt pressure, watched by commercial ledgers, and quietly assembling a salvage commission aimed at Delmar's *Red Lady*.
+source_count: 1
+confidence_level: medium
 
 ---
+# Calveno
 
-## Current State
+![[Calveno.webp|Sunlit canal city of pale stone buildings and boats moving through turquoise water]]
 
-The Seven Houses are locked four-to-three over Tessarine terms. Iacopo Fieschi holds debt leverage over six Houses, making the holdout faction more interesting than the formal majority. Separately, unusual money is moving through the broker network toward the Maw; the Warren has noticed enough to know a *Red Lady* salvage commission is forming, but not who is behind it.
+## Overview
 
-For the *Surety*, Calveno has no usable public dry dock. The Arsenal queue is fourteen months and paperwork-heavy. The practical option is a Warren-routed job through Savia Brentino at the Carpenters' Slip, with compounds from Studio Orsini and an outer anchorage that avoids Canal Commission records.
+> [!read-aloud]
+> The sound reaches you before the buildings do — not the sound of a port, but the sound of a thousand conversations happening at once in the open, close together, across water. Then the city itself: pale stone rising four and five stories straight from the canal, bright where it faces the light and bare on the backs, because nobody is meant to look at those. Flat-bottomed boats thread the channels in both directions, pilots standing, reading the traffic. The air is warm stone and salt water and the faint green breath of a canal that has been a canal for five hundred years. At the far end of the longest channel, a building rises a full story above everything around it — pale stone, no signage, no banner. It watches everything come in and says nothing about what it remembers.
 
-## Toy Fields
+Calveno is the oldest continuous commercial centre in the Scatter — a canal city of pale stone facades rising four and five stories straight from the water, detailed where they face the light and bare on the backs, because nobody is meant to look at those. There are no docks in the usual sense. Flat-bottomed boats thread the channels between buildings, and the sound that reaches you on approach is not the sound of a port but the sound of a thousand conversations happening at once, close together, in the open.
 
-| Field | Value |
-|---|---|
-| Verb | Records. Calveno turns every favour, debt, arrival, and cargo movement into leverage. |
-| Unstable Condition | The party needs Warren help while the Warren is already tracking suspicious salvage money and Passage exposure. |
-| Consequence | The *Surety* can be de-marked, but Perrin incurs Tangle debt and Delmar may walk into the salvage operation targeting his own wreck. |
-| Link of Relevance | Perrin's family credit opens the route; Delmar's ship is the target; Tessarine ledgers make even quiet work observable later. |
+That openness is the point. The city runs on witnessed transactions — deals struck where the right people can see who smiled and who did not, alliances performed in public, information traded with the canal at your back and an audience you half-chose. Seven hereditary merchant families hold Council seats. [[Tessarine-Concordat|The Tessarine Concordat]]'s factor house stands at the harbour end of the Mercatura, a full story taller than everything around it, pale stone, no signage. It does not need any. In Calveno, privacy is not scarce. It is expensive, and someone is usually selling it.
 
-## Narrative Devices
+Rumour has it the [[Warren]] is hidden somewhere within Calveno, though only a member of the [[Passage]] could confirm this.
 
-- **Loaded Gun:** Batta Zusto on the top tier of The Bridge is the accessible intermediary between salvage money and the unknown spender.
-- **Foreshadowing:** Three ships have already asked Savia about discreet work this month; she refused all three and remembers them.
-- **Clock:** The *Surety* has roughly one month before courtesy-stop watch lists harden; Calveno work costs five days plus travel.
-- **Reversal Potential:** A ship-disguise favour can pull the party straight into the hidden *Red Lady* commission.
+*Three days from Tidefall on good wind. A week on bad.*
 
-## Key Facts
+## At a Glance
 
-- Savia Brentino will not take a cold illegal-looking job; a Warren introduction changes the shape of the request.
-- Savia frames the work as maintenance, not cosmetic disguise, and refuses to touch the bow registry plate.
-- The Tangle does not charge coin for this kind of routing. It records a favour.
-- Tessarine factors do not need to care about the *Surety* specifically to notice a cutter-class vessel changing appearance outside the Arsenal.
+| Field           | Detail                                                                                                               |
+| --------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Theme**       | Witnessed Commerce — privacy is expensive and every favour is a ledger entry                                         |
+| **Party Goal**  | Disguise and repair the Surety without Tessarine or Crown notice; navigate what the city wants in return             |
+| Type            | Canal city and commercial centre                                                                                     |
+| Location        | Calven island in the [[Crown-Islands]], northern [[content/shattered-sea/situations/active/Central-Strait\|Central-Strait]] |
+| Controlled By   | Seven merchant families; [[Tessarine-Concordat]] debt leverage                                                       |
+| Public Access   | Open by canal traffic; true privacy is expensive and brokered                                                        |
+| Primary Economy | Witnessed trade, finance, shipping, shipyard work, brokerage, and information                                        |
+| Known For       | Pale stone canals, public negotiations, the Mercatura, and the hidden [[Warren]]                                     |
 
-## Involved Parties
+## Districts & Landmarks
 
-- [[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]] — can access the Warren; spends family/network credit.
-- [[content/shattered-sea/characters/player/Delmar-Fisk|Delmar Fisk]] — tied to the *Red Lady* salvage target.
-- [[Warren|The Warren]] / the Tangle — routes the job and keeps a copy of any papers.
-- Savia Brentino — Carpenters' Slip operator; structural work only, no official filings on quick jobs.
-- Marta Orsini — supplies paint stripper and pigment compounds from Studio Orsini.
-- Batta Zusto — Bridge intermediary for the hidden salvage money.
-- Iacopo Fieschi — Tessarine envoy with House debt leverage.
+- **The Mercatura** — The commercial artery, running straight from the harbour inward. Boats press in from both sides; the smell is salt, spice, and coin changing hands in volume. The Tessarine factor building anchors the harbour end — a full story above everything around it, pale stone, no signage.
 
-## Locations
+- **The Bridge** — Three-tier stone arch at the main canal crossing, wide enough for two boats abreast. The lowest level is noise: vendors, food, bodies. The middle tier is shuttered shops. The top tier is plain stone with a narrow staircase that turns out of sight. You can hear voices up there, but you cannot make out the words.
 
-- [[content/shattered-sea/places/calveno/Calveno|Calveno]] — commercial pressure cooker and canal city.
-- [[Warren]] — fixed Rattkin settlement; only route that makes the disguise job viable.
-- Carpenters' Slip — Savia's work base; cold approach fails.
-- Studio Orsini — paint and compound supplier.
-- Southwest approach anchorage — outside Arsenal sightlines and Canal Commission records.
-- The Bridge — Batta Zusto's tier; salvage-money access point.
+- **The Arsenal** — Walled shipyard in the southwest, separated by a fortified canal. The smell of pitch and fresh timber carries before the walls come into view. Fourteen-month wait for non-House commissions.
 
-## Timeline
+- **Le Paludi** — The oldest district. Buildings shorter and older, foundations settled unevenly. The channels narrow until two boats cannot pass without touching, and the water moves differently here — slower, darker. Numbers spoken quietly, once, not repeated.
 
-- This month: three ships ask Savia about discreet work; she refuses and remembers.
-- Day 1: Perrin contacts the Warren; Tangle decides whether to route the job.
-- Day 2: Studio Orsini compounds are picked up; stripper begins working on naval grey.
-- Days 3-6: Savia and two workers recoat hull, replace nameboards, and assess fittings.
-- Later: the Tangle calls in the favour on its own timing.
+- **The Velo Quarter** — A separate island attached by two low bridges. Lantern light at all hours, music from several directions at once, buildings painted in colours the rest of Calveno doesn't permit itself. Whatever authority governs the city stops at the bridges.
 
-## Triggers
+## Buildings & Services
 
-- Perrin asks the Warren for help disguising the *Surety*.
-- Delmar investigates the *Red Lady* salvage money or appears near the wrong broker.
-- The party cold-approaches Savia and becomes the fourth suspicious vessel inquiry.
-- Tessarine factors note the cutter-class vessel at the outer anchorage.
+| Place | Type | Notes |
+| --- | --- | --- |
+| [[Ponte-Bassa\|The Ponte Bassa]] | Tavern / inn | Canal-level tavern at the main bridge crossing; cheap food, basic beds, proprietor with a twenty-year memory for boats. |
+| [[Al-Fondale\|Al Fondale]] | Tavern / inn | Le Paludi side-canal tavern; good food, cheap wine, four rooms, keeper asks no questions. |
+| [[Moretti-and-Sons\|Moretti & Sons Chandlery]] | Ship chandlery | Mercatura canal-front outfitter for rope, provisions, canvas, and naval fittings. |
+| [[Carpenters-Slip\|Carpenters' Slip]] | Boatyard | Small independent repair yard at the Arsenal end; no queue, no Commission paperwork, Savia Brentino decides what's urgent. |
+| [[Casa-Lupo\|Casa Lupo]] | General store | Le Paludi general goods; old Ettore prices everything from memory and has not been wrong. |
+| [[Studio-Orsini\|Studio Orsini]] | Alchemist | Le Paludi side canal, off the map; Marta Orsini does not ask what the compounds are for. |
+| [[Cabinet-of-Morsani\|The Cabinet of Morsani]] | Curio / magic items | Velo Quarter eccentric dealer in magical and exotic items of uncertain provenance; Prospero Morsani knows the previous owner of everything. |
+| [[Waveservant-Shrine\|Waveservant Shrine]] | Shrine | Umberlee's canal-front shrine on the Mercatura; tribute paid in full view of passing boats. |
+| [[Cats-Curios\|Cat's Curios]] | Artificer workshop | Referral-only artificer workshop; no sign, no walk-ins, best work in the Scatter. |
+| [[Warren\|The Warren]] | Hidden settlement | Fixed Rattkin settlement beneath Le Paludi and deepest anchor of [[Passage\|the Passage]]. |
+| [[Acqua-Nera\|Acqua Nera]] | Boatyard | Outer harbour hull conversion and repainting yard; specialises in prize conversions, no Canal Commission filing on quiet work, Dario Vanni prices discreet jobs at double rate. |
+| The Arsenal | Shipyard | Walled shipyard in the southwest; fourteen-month wait for non-House commissions. |
+| Tessarine factor house | Trade house | Concordat factor building at the harbour end of the Mercatura; no dedicated page yet. |
+| [[Il-Gioco-delle-Beffe\|Il Gioco delle Beffe]] | Annual festival | The city's prank competition — teams design and execute public hoaxes on willing marks, judged on craft and surprise; prize pool, side betting, and Beffa Medallion for the winner. |
+| [[Il-Palio-delle-Voci\|Il Palio delle Voci Contese]] | Annual festival | Open bardic competition across the canal district — multiple bands play simultaneously for three hours while crowds move between them; judged by which stage holds the most people at the end. |
 
-## Blocks
+## People & Power
 
-- Use Kalowe instead, accepting Takowan/Passage-node risk there.
-- Keep Delmar away from Bridge/salvage inquiries until the *Surety* work is complete.
-- Frame all hull work as maintenance; do not ask Savia for cosmetic or paperwork fraud.
-- Pull the registry plate themselves before Savia has to refuse.
+Seven hereditary merchant families hold Council seats. [[Tessarine-Concordat|The Tessarine Concordat]] holds debt leverage over six of the seven and does not need to announce it. [[Passage|The Passage]] and the [[Warren]] operate beneath the visible city where money flow, canal traffic, and hidden routes meet.
 
-## Consequences
+## Trade & Services
 
-- **Clean Warren route:** *Surety* leaves de-marked, with Tangle debt and possible false papers.
-- **Cold approach:** Savia refuses and remembers the party; the list of suspicious vessels grows.
-- **Tessarine notice:** the work becomes a ledger detail that may surface later.
-- **Salvage thread engaged:** Batta Zusto connects the party to the *Red Lady* commission before they are ready.
+Calveno offers high-end brokerage, shipyard commissions, artificer referrals, private meetings, credit, information, and every lesser service that accretes around a city built on witnessed deals.
 
-## Open Questions
+## Access & Approach
 
-- Who is ultimately funding the *Red Lady* salvage commission?
-- What job will the Tangle route back through Perrin as payment?
-- What false vessel name and home port can survive inspection?
+There are no docks in the usual sense. Flat-bottomed boats move through channels between buildings, and newcomers learn quickly that being seen with the right person matters as much as what they say.
 
-## DM Notes
+## Entry Hooks
 
-### The Work
+Each of these lands immediately on arrival — no investigation required. They are offers, not demands.
 
-| Element | Detail |
-|---|---|
-| Location | Southwest approach anchorage, outside Arsenal fortified canal |
-| Access | Warren introduction through Perrin; cold approach to Savia fails |
-| Timeline | 1 day assessment + 4 days work |
-| Cost | About 180 gp labour + 40 gp Studio Orsini compounds |
-| Paper trail | No Canal Commission filing; Tangle keeps its own record |
+- **Perrin — Cobb at the canal gate.** Before the mooring rope is off the bollard, a young Rattkin on a Black-Jaw canal skiff is alongside. Cobb says Nona would be glad to know Perrin is well. He does not ask whether Perrin wants her to know.
+- **Delmar — The Red Lady rates.** Savia Brentino at the Carpenters' Slip, while looking at the Surety's hull, mentions that a broker on the Bridge's top tier has been offering unusual rates for Red Lady survivor accounts. Two sailors have already taken the money. She mentions it the way she mentions the weather.
+- **Jean-Claude — Crowd reading.** A Grung in festival half-mask stands at the Bridge pillar in the single position that gives sightlines to three exits without appearing to watch any of them. Jean-Claude has stood in that position. It is not instinctive unless someone taught you.
+- **Crissdalynn — Branca's booklet.** The Waveservant shrine attendant on the Mercatura has a tide-table booklet she says Umberlee told her to hold until someone came in from the direction of the Maw. She has been waiting a week. She hands it over without ceremony and does not explain what it means.
 
-Changes: hull coating, nameboards, pennant removal. Does not change: cutter silhouette. Savia says once, *"She'll still read as a cutter to anyone who knows cutters. That's not a paint problem."*
+## Current Hooks
 
-### Savia's Line
+- The [[Warren]] exists beneath Le Paludi, but surface Calveno knows it mostly as rumour.
+- [[Il-Gioco-delle-Beffe|Il Gioco delle Beffe]] registration opens tomorrow morning on the Mercatura bridge. [[Giacomo-Moretti|Giacomo Moretti]] has signed the Accord for the twentieth consecutive year without being pranked. The committee finds this professionally embarrassing.
 
-Savia does not do cosmetic work. The correct frame is maintenance: hull recoating, damaged nameboards, bow fittings assessment. She understands the real purpose and will do the job if the Warren routes it, but she will not call it disguise work and neither should the party.
+## See Also
 
-She refuses the bow registry plate: *"Not structural."* The party removes it themselves.
-
-### False Papers
-
-The Calveno Passage broker network can produce a false home port, vessel name, and owner-of-record in two days for 60 gp, routed through the Warren. The papers are clean. The Tangle keeps a copy.
-
-### Council and Salvage
-
-The deadlock is not a debate scene unless the party makes it one. Its table function is pressure: Tessarine paper is binding six Houses while Batta Zusto moves money toward a Maw salvage operation. The accessible lead is Zusto, not the abstract council vote.
-
-## Related Pages
-
-- [[content/shattered-sea/places/calveno/Calveno|Calveno]]
-- [[content/shattered-sea/situations/active/Warren|The Warren — DM Notes]]
-- [[content/shattered-sea/situations/active/Kalowe|Kalowe — Takowan and Ship Disguise]]
-- [[HCS-Surety]]
 - [[Tessarine-Concordat]]
-- [[Red-Lady]]
-- [[content/shattered-sea/situations/active/Pearl-of-Souls|Pearl of Souls]]
-- [[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]]
-- [[content/shattered-sea/characters/player/Delmar-Fisk|Delmar Fisk]]
-
----
-
-## Session Log
-
-| Session | Development |
-|---------|-------------|
+- [[Warren]]
+- [[Passage]]
+- [[Port-Tidefall]]
+- [[Crown-Islands]]
+- [[content/shattered-sea/places/calveno/index]]
+- [[content/shattered-sea/lore/Demographics|Peoples of the Shattered Sea]] — regional demographics
+- [[content/shattered-sea/places/calven/index]]
+- [[content/shattered-sea/situations/active/Calveno|Calveno — DM Notes]]

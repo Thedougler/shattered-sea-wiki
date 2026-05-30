@@ -660,7 +660,10 @@ sources: []
 - [[haunt-hag|Haunt Hag]] — CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 - [[hierarch|Hierarch]] — CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori.
 - [[humanoids|Humanoids]] — Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
+- [[hunter-shark|Hunter Shark]] — CR 2 beast; the working shark of the Scatter, following ship routes and harbour chum — common enough that experienced sailors stop flinching and start paying attention instead.
 - [[intoner|Intoner]] — CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
+- [[killer-whale|Killer Whale]] — CR 3 beast; hunts in pods through the cold open water of the Outer Reach — a shark is an event, a pod of killer whales is a situation that develops.
+- [[kraken|Kraken]] — CR 23 monstrosity; titanic deep-sea predator capable of destroying ships, rumoured in the Outer Reach and beyond the Drowned Maw.
 - [[krakling|Krakling]] — CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship.
 - [[leviathan|The Leviathan]] — A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there.
 - [[mimic|Mimic]] — CR 2 shapechanger monstrosity; disguises itself as mundane objects and grapples prey with adhesive pseudopods.
@@ -680,6 +683,7 @@ sources: []
 - [[pirate-captain|Pirate Captain]] — CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction.
 - [[plants|Plants]] — Player index for plant creatures and fungi of the Shattered Sea — primarily found in the deep underdark beneath the Scatter.
 - [[primeval-owlbear|Primeval Owlbear]] — A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
+- [[reef-shark|Reef Shark]] — CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
 - [[restless|Restless]] — CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality.
 - [[ridgeback|Ridgeback]] — CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps.
 - [[roc|Roc]] — CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
@@ -687,6 +691,8 @@ sources: []
 - [[sahuagin-priest|Sahuagin Priest]] — CR 2 fiend; conducts blood rites at submerged shrines in the blue holes of the Drowned Maw; encountered where warbands gather before a raid.
 - [[sahuagin-warrior|Sahuagin Warrior]] — CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
 - [[sawek|Sawek (Blue Devil)]] — CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair.
+- [[sea-hag|Sea Hag]] — CR 2 fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor.
+- [[sea-life|Sea Life]] — Player index for sea creatures, ocean predators, and nautical horrors of the Shattered Sea.
 - [[skulldugger|Skulldugger]] — CR 21 undead lich. Rogue lich that achieves undeath by stealing another lich's ritual — parasitizes spirit jars from other liches. Hated by all undead as a natural predator.
 - [[soul-incarnate|Soul Incarnate]] — CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal.
 - [[swarm-of-bats|Swarm of Bats]] — A CR 1/4 beast swarm roosting in the sea-cliff overhangs of the Ashwall Islands; the evening exodus sounds like distant thunder.

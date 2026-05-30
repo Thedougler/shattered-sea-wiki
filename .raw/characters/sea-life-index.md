@@ -1,0 +1,32 @@
+---
+title: Sea Life
+publish: true
+visibility: public
+audience: players
+summary: Player index for sea creatures, ocean predators, and nautical horrors of the Shattered Sea.
+type: index
+subtype: creature-index
+status: active
+campaign: shattered-sea
+created: '2026-05-05'
+updated: '2026-05-05'
+tags:
+- player-resource
+- index
+- bestiary
+- creature
+---
+# Sea Life
+
+Creatures of the open water, reef, and deep.
+
+- [[content/shattered-sea/beastiary/sea-life/Leviathan|The Leviathan]] - Rumoured titanic black eel that boils the sea around it; sightings limited to the [[Drowned-Maw|Drowned Maw]]
+- [[content/shattered-sea/beastiary/sea-life/Ridgeback|Ridgeback (The Roller)]] - Elemental serpent from the Plane of Water; second entity through the [[content/shattered-sea/situations/active/Pearl-of-Souls|Maw fissure]]; identified by rolling hump movement and tribute-demanding behaviour
+- [[Sawek|Sawek (Blue Devil)]] - Ambush predator of blue holes in the [[Central-Strait|Central Strait]] and [[content/shattered-sea/places/midchain/index|Midchain]]
+- [[content/shattered-sea/beastiary/sea-life/Whip-Shark|Whip Shark (Welak)]] - Open-ocean hunter big enough to sink small ships, found in the [[Drowned-Maw|Drowned Maw]] and deep open water
+- [[content/shattered-sea/beastiary/sea-life/Krakling|Krakling (Young Kraken)]] - Eyeless, eight-armed black predator; recent reports of arm-attacks on ships in the outer [[content/shattered-sea/places/midchain/index|Midchain]]; possible juvenile form of the Kraken
+- [[content/shattered-sea/beastiary/sea-life/kraken|Kraken]] - Titanic deep-sea predator capable of destroying ships; rumoured in the [[Outer-Reach|Outer Reach]] and beyond the [[Drowned-Maw|Drowned Maw]]
+- [[content/shattered-sea/beastiary/sea-life/killer-whale|Killer Whale]] - Hunts in pods through the cold open water of the [[Outer-Reach|Outer Reach]] and approaches to the [[Galewall|Galewall]]
+- [[hunter-shark|Hunter Shark]] - Common working shark of the Scatter, following ship routes and harbour chum
+- [[reef-shark|Reef Shark]] - Common in shallow reef channels of the [[Central-Strait|Central Strait]] and the [[content/shattered-sea/places/sunken-crown/index|Sunken Crown]]
+- [[content/shattered-sea/beastiary/sea-life/sea-hag|Sea Hag]] - Fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor

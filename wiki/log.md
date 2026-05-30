@@ -410,3 +410,9 @@ sources: []
 - 2026-05-30 | ingest | myconid-sovereign — new creature page (CR 2 plant, underdark, DM-only)
 - 2026-05-30 | ingest | myconid-spore-servant — new creature page (CR 1 plant, underdark, DM-only)
 - 2026-05-30 | ingest | plants.md — new player-facing plants index
+- 2026-05-30 | ingest | hunter-shark — new creature page (CR 2 beast, Central Strait / Crown Islands)
+- 2026-05-30 | ingest | killer-whale — new creature page (CR 3 beast, Outer Reach / Galewall)
+- 2026-05-30 | ingest | kraken — new creature page (CR 23 monstrosity, Drowned Maw / Outer Reach)
+- 2026-05-30 | ingest | reef-shark — new creature page (CR 1/2 beast, Central Strait / Sunken Crown)
+- 2026-05-30 | ingest | sea-hag — new creature page (CR 2 fey, Drowned Maw)
+- 2026-05-30 | ingest | sea-life.md — new player-facing sea life index

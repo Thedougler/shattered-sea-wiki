@@ -42,10 +42,14 @@ class Teleprompter:
 
         target = min(frontier, len(self.script_words) - 1)
         if target >= 0:
-            ui.run_javascript(
-                f'document.getElementById("tw-{target}")'
-                f'?.scrollIntoView({{behavior:"smooth",block:"center"}})'
-            )
+            ui.run_javascript(f'''(() => {{
+                const el = document.getElementById("tw-{target}");
+                if (!el) return;
+                const p = el.closest('.scroll-hidden');
+                if (!p) {{ el.scrollIntoView({{behavior:"smooth",block:"center"}}); return; }}
+                const y = el.offsetTop - p.clientHeight * 0.35;
+                p.scrollTo({{top: Math.max(0, y), behavior: "smooth"}});
+            }})()''')
 
     def update_spoken(self, finalized_count: int, draft_count: int = 0):
         self.finalized_count = min(finalized_count, len(self.script_words))

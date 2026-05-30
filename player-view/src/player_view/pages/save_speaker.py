@@ -35,9 +35,10 @@ def save_speaker_page():
         stop_btn.set_visibility(False)
         status_label = ui.label('ready').style('color: #888')
 
-    teleprompter.render_script(
+    scroll = teleprompter.render_script(
         container_style='height: calc(100vh - 100px - 90px);'
     )
+    scroll.classes('teleprompter-mask')
 
     with ui.row().classes('status-strip'):
         rec_dot = ui.html('<div class="rec-dot"></div>')

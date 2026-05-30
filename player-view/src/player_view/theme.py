@@ -52,6 +52,24 @@ body {
     text-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
 }
 
+/* --- Teleprompter reading-window mask --- */
+.teleprompter-mask {
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 20%,
+        black 50%,
+        transparent 75%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 20%,
+        black 50%,
+        transparent 75%
+    );
+}
+
 /* --- Status strip (fixed bottom bar) --- */
 .status-strip {
     position: fixed;

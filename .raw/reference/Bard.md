@@ -1,0 +1,84 @@
+---
+confidence_level: medium
+created: '2026-04-19'
+cssclasses:
+- wiki-reference
+publish: true
+sources:
+- '[[DnD 5.5 Bard Class Guide-part-6]]'
+- '[[DnD 5.5 Bard Class Guide-part-5]]'
+- '[[DnD 5.5 Bard Class Guide-part-4]]'
+- '[[DnD 5.5 Bard Class Guide-part-3]]'
+- '[[DnD 5.5 Bard Class Guide-part-2]]'
+- '[[DnD 5.5 Bard Class Guide-part-1]]'
+- raw/ingested/clippings/Bard - D&D 5e (2024).md
+subtype: class
+summary: Class — Player's Handbook (2024)
+tags:
+- reference
+- bard
+- class
+title: Bard
+type: concept
+updated: '2026-04-19'
+---
+
+# Bard
+
+*Class — Player's Handbook (2024)*
+
+**Primary Ability:** Charisma · **Hit Die:** d8 · **Saves:** Dexterity, Charisma · **Armor:** Light · **Weapons:** Simple · **Spellcasting:** CHA (prepared, up to 9th level, full caster)
+
+---
+
+## Bardic Inspiration Die
+
+d6 (L1–4) → d8 (L5–9) → d10 (L10–14) → d12 (L15+)
+
+Uses per LR = CHA modifier (min 1). At L5+, also recharge on Short Rest (Font of Inspiration).
+
+Creature within 60 ft uses as bonus to a d20 Test within 1 hour.
+
+---
+
+## Spell Slots
+
+Full caster progression (same as [[Wizard]]). Prepared spells: 4 at L1, scaling to 22 at L20. From L10, can prepare from Bard/[[Cleric]]/[[Druid]]/Wizard lists (Magical Secrets).
+
+---
+
+## Core Features
+
+| Level | Feature |
+|---|---|
+| 1 | Bardic Inspiration, Spellcasting (CHA) |
+| 2 | Expertise (2 skills), Jack of All Trades (half prof on unproficient skill checks) |
+| 3 | Subclass |
+| 5 | Font of Inspiration (Bardic Inspiration recharges on SR; spend spell slot to recover 1 use) |
+| 7 | Countercharm (reaction: reroll Charmed/Frightened save with Advantage) |
+| 9 | Expertise (2 more skills) |
+| 10 | Magical Secrets (prepare spells from any of Bard/Cleric/Druid/Wizard) |
+| 18 | Superior Inspiration (on Initiative, regain Bardic uses to minimum 2) |
+| 20 | Words of Creation (always prepared Power Word Heal + Kill; each can target 2 creatures) |
+
+---
+
+## Subclasses
+
+College of Dance, College of Glamour, College of Lore, College of Valor *(2024 PHB)*
+
+---
+
+## Connections
+
+- [[College-of-Valor]]
+- [[College-of-Eloquence|College of Eloquence]]
+- [[weapons]]
+- [[raw/ingested/Frightened]]
+- [[raw/ingested/Charmed]]
+- [[content/shattered-sea/characters/player/Perrin-Black-Jaw|Perrin Black-Jaw]] — Bard / Warlock PC
+
+## Source
+
+- [[Bard - D&D 5e (2024)|Source: Bard — D&D 5e (2024)]]
+- [[College of Valor - D&D 5e (2024)|Source: College of Valor — D&D 5e (2024)]]

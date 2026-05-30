@@ -14,6 +14,7 @@ audience: dm
 confidence_level: medium
 sources:
 - http://dnd2024.wikidot.com/background:scribe
+status: unknown
 ---
 
 # Scribe

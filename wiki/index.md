@@ -549,6 +549,13 @@ sources: []
 - [[scribe|Scribe]] — D&D 5e 2024 Scribe background — Dexterity, Intelligence, Wisdom; Skilled feat; Investigation and Perception proficiencies.
 - [[soldier|Soldier]] — D&D 5e 2024 Soldier background — Strength, Dexterity, Constitution; Savage Attacker feat; Athletics and Intimidation proficiencies.
 
+## rules/classes
+- [[artificer|Artificer]] — D&D 5e 2024 Artificer — half caster, master of magic items and tools, Replicate Magic Item is the signature feature.
+- [[barbarian|Barbarian]] — D&D 5e 2024 Barbarian — martial class with Rage for damage resistance and bonus damage; Constitution-heavy, front-line fighter.
+- [[bard|Bard]] — D&D 5e 2024 Bard — full CHA caster with Bardic Inspiration, Expertise, and Jack of All Trades; Perrin Black-Jaw is Bard/Warlock.
+- [[cleric|Cleric]] — D&D 5e 2024 Cleric — WIS-based divine full caster with Heavy armor, Channel Divinity, and strong healing/support capability.
+- [[druid|Druid]] — D&D 5e 2024 Druid — WIS-based primal full caster with Wild Shape, nature magic, and strong control/healing options.
+
 ## rules/core
 - [[circle-magic|Circle Magic]] — 2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions.
 - [[rival-team-design|Rival Team Design]] — Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first.

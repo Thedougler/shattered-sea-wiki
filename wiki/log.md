@@ -446,3 +446,9 @@ sources: []
 - 2026-05-30 | ingest | rules/backgrounds/sailor — new background reference (Delmar, Perrin)
 - 2026-05-30 | ingest | rules/backgrounds/scribe — new background reference
 - 2026-05-30 | ingest | rules/backgrounds/soldier — new background reference
+- 2026-05-30 | ingest | rules/backgrounds/index.md — new backgrounds index (player-facing)
+- 2026-05-30 | ingest | rules/classes/artificer — new class reference page
+- 2026-05-30 | ingest | rules/classes/barbarian — new class reference stub
+- 2026-05-30 | ingest | rules/classes/bard — new class reference page (Perrin)
+- 2026-05-30 | ingest | rules/classes/cleric — new class reference stub
+- 2026-05-30 | ingest | rules/classes/druid — new class reference stub

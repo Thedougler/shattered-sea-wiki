@@ -600,6 +600,12 @@ sources: []
 - [[beast-master|Beast Master]] — Ranger subclass (PHB 2024) — commands a Primal Companion beast that scales with WIS; both Striker and Defender; bypass Hunter's Mark in multi-target encounters.
 - [[clockwork-sorcery|Clockwork Sorcery]] — Sorcerer subclass (PHB 2024) — orderly, reroll-focused magic; Restore Balance flips advantage/disadvantage on saves; Trance of Order guarantees minimum 10 on d20s.
 - [[college-of-eloquence|College of Eloquence]] — Bard subclass (Tasha's Cauldron 2020) — masters of rhetoric; Bardic Inspiration dice can't be wasted on low rolls; Unsettling Words imposes Disadvantage on one save; Perrin Black-Jaw uses this subclass.
+- [[college-of-valor|College of Valor]] — Bard subclass (PHB 2024) — martial Bard with Medium armor, Martial weapons, Combat Inspiration for offense/defense, and Extra Attack at Level 6.
+- [[draconic-sorcery|Draconic Sorcery]] — Sorcerer subclass (PHB 2024) — draconic power grants AC bonus, HP boost, elemental resistance and damage bonus, Dragon Wings at 14, Dragon Companion at 18; the generalist Sorcerer.
+- [[fey-wanderer|Fey Wanderer]] — Ranger subclass (PHB 2024) — WIS-based Face and spellcasting; Dreadful Strikes adds free psychic damage per turn; Misty Wanderer grants free Misty Step uses at L11.
+- [[gloom-stalker|Gloom Stalker]] — Ranger subclass (PHB 2024) — Scout/ambush specialist; Umbral Sight grants effective invisibility in darkness; Jean-Claude Tabarnack is a Gloom Stalker.
+- [[great-old-one|Great Old One]] — Warlock subclass (PHB 2024) — alien patron grants telepathy, aberration knowledge, Entropic Ward, and eventually Devouring Blade; Perrin Black-Jaw is a Great Old One Warlock.
+- [[hexblade|Hexblade]] — Warlock subclass (XGtE 2014) — CHA-based weapon attacks, Medium armor, Hexblade's Curse for bonus damage and self-healing; strong melee Warlock foundation.
 
 ## rules/subsystems
 - [[bastions|Bastions]] — 2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days.

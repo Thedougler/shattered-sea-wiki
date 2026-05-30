@@ -488,3 +488,9 @@ sources: []
 - 2026-05-30 | ingest | rules/subclasses/beast-master — new subclass reference
 - 2026-05-30 | ingest | rules/subclasses/clockwork-sorcery — new subclass reference
 - 2026-05-30 | ingest | rules/subclasses/college-of-eloquence — new subclass reference (Perrin)
+- 2026-05-30 | ingest | rules/subclasses/college-of-valor — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/draconic-sorcery — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/fey-wanderer — new subclass reference
+- 2026-05-30 | ingest | rules/subclasses/gloom-stalker — new subclass reference (Jean-Claude)
+- 2026-05-30 | ingest | rules/subclasses/great-old-one — new subclass reference (Perrin)
+- 2026-05-30 | ingest | rules/subclasses/hexblade — new subclass reference

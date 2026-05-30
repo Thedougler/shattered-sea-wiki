@@ -295,6 +295,7 @@ def _build_save_speaker_card():
         def poll():
             if not recording['active']:
                 return
+            services.asr.process_pending()
             result = services.asr.latest_result
             if result.text:
                 asr_preview.text = result.text[-200:]
@@ -347,14 +348,17 @@ def _build_save_speaker_card():
 
 
 def _build_test_speaker_card():
-    recording = {'active': False}
+    recording = {'active': False, 'matching': False}
+    MATCH_WINDOW_S = 4
+    MATCH_INTERVAL_S = 1.5
+    MIN_AUDIO_S = 1.5
 
     with ui.card().classes('dm-card flex-1'):
         ui.html('<h3>Test Speaker</h3>')
 
         with ui.row().classes('gap-2 items-center'):
             rec_btn = ui.button('REC', color='red').props('dense')
-            stop_btn = ui.button('STOP & MATCH', color='green').props('dense')
+            stop_btn = ui.button('STOP').props('dense')
             stop_btn.set_visibility(False)
             status = ui.label('ready').style('color: #888; font-size: 0.8rem')
 
@@ -367,15 +371,60 @@ def _build_test_speaker_card():
         def poll():
             if not recording['active']:
                 return
+            services.asr.process_pending()
             result = services.asr.latest_result
             if result.text:
                 asr_preview.text = result.text[-200:]
 
+        async def poll_match():
+            if not recording['active'] or recording['matching']:
+                return
+            buf = services.audio.get_buffer_copy()
+            min_samples = int(MIN_AUDIO_S * services.audio.SAMPLE_RATE)
+            if len(buf) < min_samples:
+                return
+            window_samples = int(MATCH_WINDOW_S * services.audio.SAMPLE_RATE)
+            window = buf[-window_samples:]
+
+            all_profiles = services.profiles.load_all()
+            if not all_profiles:
+                status.text = 'no profiles saved'
+                status.style('color: #ff9800')
+                return
+
+            recording['matching'] = True
+            try:
+                from nicegui import run
+                embedding = await run.io_bound(
+                    services.diarization.extract_embedding, window
+                )
+                ranked = services.diarization.rank_against(
+                    embedding,
+                    [(p.character, p.embedding) for p in all_profiles],
+                )
+                results_col.clear()
+                with results_col:
+                    for name, sim in ranked[:5]:
+                        pct = int(sim * 100)
+                        color = '#4caf50' if pct > 70 else '#ff9800' if pct > 40 else '#f44336'
+                        with ui.row().classes('items-center gap-2'):
+                            ui.label(name).style('min-width: 120px; color: #ccc')
+                            ui.linear_progress(value=sim).classes('w-32').props(f'color="{color}"')
+                            ui.label(f'{pct}%').style(f'color: {color}; font-size: 0.8rem')
+
+                if ranked:
+                    status.text = f'best: {ranked[0][0]}'
+                    status.style('color: #4caf50')
+            finally:
+                recording['matching'] = False
+
         ui.timer(0.3, poll)
+        ui.timer(MATCH_INTERVAL_S, poll_match)
 
         def start():
             recording['active'] = True
-            status.text = 'recording...'
+            recording['matching'] = False
+            status.text = 'listening...'
             status.style('color: #f44336')
             rec_btn.set_visibility(False)
             stop_btn.set_visibility(True)
@@ -387,40 +436,13 @@ def _build_test_speaker_card():
 
         def stop():
             recording['active'] = False
-            audio = services.audio.stop()
+            services.audio.stop()
             services.asr.stop_streaming()
             stop_btn.set_visibility(False)
-
-            status.text = 'matching...'
-            status.style('color: #888')
-            ui.timer(0.1, lambda: _match(audio), once=True)
-
-        def _match(audio):
-            embedding = services.diarization.extract_embedding(audio)
-            all_profiles = services.profiles.load_all()
-            if not all_profiles:
-                status.text = 'no profiles saved'
-                status.style('color: #ff9800')
-                rec_btn.set_visibility(True)
-                return
-
-            ranked = services.diarization.rank_against(
-                embedding,
-                [(p.character, p.embedding) for p in all_profiles],
-            )
-            results_col.clear()
-            with results_col:
-                for name, sim in ranked[:5]:
-                    pct = int(sim * 100)
-                    color = '#4caf50' if pct > 70 else '#ff9800' if pct > 40 else '#f44336'
-                    with ui.row().classes('items-center gap-2'):
-                        ui.label(name).style('min-width: 120px; color: #ccc')
-                        ui.linear_progress(value=sim).classes('w-32').props(f'color="{color}"')
-                        ui.label(f'{pct}%').style(f'color: {color}; font-size: 0.8rem')
-
-            status.text = 'done'
-            status.style('color: #4caf50')
             rec_btn.set_visibility(True)
+
+            status.text = 'ready'
+            status.style('color: #888')
 
         rec_btn.on_click(start)
         stop_btn.on_click(stop)

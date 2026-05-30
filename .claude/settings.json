@@ -26,7 +26,9 @@
       "Bash(grep -r * /Users/nick/Documents/shattered-sea/wiki)",
       "Bash(mkdir -p /Users/nick/Documents/shattered-sea/*)",
       "Bash(bash /Users/nick/Documents/shattered-sea/.claude/hooks/*)",
-      "Bash(qmd:*)"
+      "Bash(qmd:*)",
+      "Bash(obsidian *)",
+      "Bash(markdownlint-cli2 *)"
     ]
   },
   "hooks": {

@@ -78,11 +78,13 @@ before generating content.
 
 ```bash
 python3 .claude/scripts/regen_index.py --write   # regenerate wiki/index.md
-python3 .claude/scripts/wiki_lint.py              # lint vault: frontmatter, broken wikilinks, orphans
+python3 .claude/scripts/wiki_lint.py              # lint vault (auto-detects Obsidian CLI + markdownlint)
+python3 .claude/scripts/wiki_lint.py --obsidian on  # force Obsidian CLI for deeper cross-file checks
 python3 .claude/scripts/check_ingest.py           # list source material still pending ingest
 python3 .claude/scripts/fix_frontmatter.py <file> # add missing frontmatter fields to a single file
 python3 .claude/scripts/archive_source.py <file>   # git-mv ingested source from Inbox/ to .raw/
 python3 .claude/scripts/ingest_packet.py <dir>     # compile context packet for subagent ingest
+markdownlint-cli2 "wiki/**/*.md"                  # markdown formatting (config: .markdownlint-cli2.jsonc)
 ```
 
 ### player-view app (requires venv)

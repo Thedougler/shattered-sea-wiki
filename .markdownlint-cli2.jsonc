@@ -1,0 +1,23 @@
+{
+  "config": {
+    "default": true,
+    // Obsidian wiki uses long lines (summaries, tables, wikilinks)
+    "MD013": false,
+    // Wikilinks use [[target|alias]] syntax, not standard link syntax
+    "MD042": false,
+    // Obsidian callouts use > [!type] which triggers blockquote spacing
+    "MD028": false,
+    // DM/player sections use multiple H1s
+    "MD025": false,
+    // Obsidian tables are flexible about column counts
+    "MD056": false,
+    // Obsidian table formatting doesn't enforce pipe alignment
+    "MD060": false,
+    // Allow inline HTML for banners, formatting, image sizing
+    "MD033": false,
+    // Emphasis-as-heading is used intentionally in some DM notes
+    "MD036": false
+  },
+  "globs": ["wiki/**/*.md"],
+  "ignores": ["wiki/index.md", "wiki/dm/review-queue.md"]
+}

@@ -40,6 +40,8 @@ Usage:
     wiki_lint.py --report             # also write wiki/lint-report.md
     wiki_lint.py --min-severity error # only errors
     wiki_lint.py --json               # machine-readable
+    wiki_lint.py --obsidian on        # force Obsidian CLI for cross-file checks
+    wiki_lint.py --markdown on        # include markdownlint-cli2 findings
 """
 
 from __future__ import annotations
@@ -50,6 +52,8 @@ import io
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 from dataclasses import asdict, dataclass
 from typing import Optional
@@ -58,6 +62,7 @@ import jsonschema
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
 from wiki_common import (
+    REPO_ROOT,
     TYPE_EXTRA_FIELDS,
     UNIVERSAL_FIELDS,
     WIKI_DIR,
@@ -132,6 +137,92 @@ ASSET_EXTS = {
     ".canvas",
     ".excalidraw",
 }
+
+
+# ---------------------------------------------------------------------------
+# Obsidian CLI helpers
+# ---------------------------------------------------------------------------
+
+OBSIDIAN_CLI = (
+    shutil.which("obsidian") or "/Applications/Obsidian.app/Contents/MacOS/obsidian"
+)
+
+_obsidian_live: Optional[bool] = None
+
+
+def _obsidian_available() -> bool:
+    global _obsidian_live
+    if _obsidian_live is not None:
+        return _obsidian_live
+    try:
+        r = subprocess.run(
+            [OBSIDIAN_CLI, "vault", "info=name"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+        )
+        _obsidian_live = r.returncode == 0 and bool(r.stdout.strip())
+    except Exception:
+        _obsidian_live = False
+    return _obsidian_live
+
+
+def _obsidian_json(args: str):
+    """Run `obsidian {args} format=json` and return parsed JSON."""
+    cmd = [OBSIDIAN_CLI] + args.split() + ["format=json"]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+    if r.returncode != 0:
+        raise RuntimeError(f"obsidian {args}: {r.stderr.strip()}")
+    return json.loads(r.stdout)
+
+
+def _obsidian_lines(args: str) -> list[str]:
+    """Run `obsidian {args}` and return stdout lines."""
+    cmd = [OBSIDIAN_CLI] + args.split()
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+    if r.returncode != 0:
+        raise RuntimeError(f"obsidian {args}: {r.stderr.strip()}")
+    return [line for line in r.stdout.splitlines() if line.strip()]
+
+
+# ---------------------------------------------------------------------------
+# markdownlint-cli2 helpers
+# ---------------------------------------------------------------------------
+
+MARKDOWNLINT_CLI = shutil.which("markdownlint-cli2")
+
+MARKDOWNLINT_LINE_RE = re.compile(
+    r"^(.+?):(\d+)(?::(\d+))?\s+error\s+(MD\d+)/(\S+)\s+(.+)$"
+)
+
+
+def _run_markdownlint(scope_paths: Optional[list[str]]) -> list["Issue"]:
+    """Shell out to markdownlint-cli2 and convert findings to Issues."""
+    if not MARKDOWNLINT_CLI:
+        return []
+    globs = scope_paths if scope_paths else [os.path.join(WIKI_DIR, "**", "*.md")]
+    cmd = [MARKDOWNLINT_CLI] + globs
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=120, cwd=REPO_ROOT)
+    issues = []
+    for line in r.stdout.splitlines() + r.stderr.splitlines():
+        m = MARKDOWNLINT_LINE_RE.match(line)
+        if m:
+            path, lineno, _col, rule_id, rule_name, detail = m.groups()
+            relpath = (
+                rel(os.path.join(REPO_ROOT, path))
+                if not path.startswith("wiki/")
+                else path
+            )
+            issues.append(
+                Issue(
+                    "quality",
+                    f"md-{rule_name}",
+                    relpath,
+                    f"line {lineno}: {detail}",
+                    fix=f"fix markdown formatting ({rule_id})",
+                )
+            )
+    return issues
 
 
 # Python-native defaults for missing required fields. Field LISTS come from
@@ -410,11 +501,67 @@ def check_naming(relpath: str):
 # ---------------------------------------------------------------------------
 
 
-def cross_file_checks(records, slug_to_paths):
+def _obsidian_broken_links() -> list[Issue]:
+    """Use Obsidian CLI to find unresolved links (more accurate than regex)."""
+    try:
+        data = _obsidian_json("unresolved verbose")
+    except Exception as exc:
+        sys.stderr.write(f"wiki_lint: obsidian unresolved failed: {exc}\n")
+        return []
+    issues = []
+    for entry in data:
+        link = entry.get("link", "")
+        if is_asset(link):
+            continue
+        sources_raw = entry.get("sources", "")
+        sources = [s.strip() for s in sources_raw.split(",") if s.strip()]
+        for src in sources:
+            src_rel = (
+                src if src.startswith("wiki/") else rel(os.path.join(REPO_ROOT, src))
+            )
+            issues.append(
+                Issue(
+                    "error",
+                    "broken-wikilink",
+                    src_rel,
+                    f"[[{link}]] resolves to no page (via Obsidian)",
+                    fix=f"create a stub for {link!r} or fix the link",
+                )
+            )
+    return issues
+
+
+def _obsidian_deadends() -> list[Issue]:
+    """Use Obsidian CLI to find files with no outgoing links."""
+    try:
+        lines = _obsidian_lines("deadends")
+    except Exception as exc:
+        sys.stderr.write(f"wiki_lint: obsidian deadends failed: {exc}\n")
+        return []
+    issues = []
+    for path in lines:
+        if not path.startswith("wiki/"):
+            continue
+        if os.path.basename(path) in SKIP_CONTENT:
+            continue
+        if path.startswith(ORPHAN_EXEMPT_PREFIXES):
+            continue
+        issues.append(
+            Issue(
+                "quality",
+                "deadend",
+                path,
+                "no outgoing wikilinks",
+                fix="add wikilinks to related pages",
+            )
+        )
+    return issues
+
+
+def cross_file_checks(records, slug_to_paths, use_obsidian=False):
     """records: list of (relpath, data, body). Returns dict relpath -> [Issue]."""
     by_file = {r[0]: [] for r in records}
     inbound = {r[0]: set() for r in records}
-    # Obsidian resolves wikilinks case-insensitively; match on lowered slugs.
     lower_index = {}
     for slug, paths in slug_to_paths.items():
         lower_index.setdefault(slug.lower(), []).extend(paths)
@@ -436,14 +583,18 @@ def cross_file_checks(records, slug_to_paths):
                     )
                 )
 
+    has_outgoing = set()
+
     for relpath, data, body in records:
         if os.path.basename(relpath) in SKIP_AS_SOURCE:
-            continue  # generated catalogs / bookkeeping aren't link sources
+            continue
         scan = scannable(body)
         seen_broken = set()
+        file_has_links = False
         for target, has_alias, is_embed in wikilink_targets(scan):
             if is_asset(target):
-                continue  # attachment, not a page
+                continue
+            file_has_links = True
             matches = lower_index.get(target.lower())
             if matches:
                 for tgt_path in matches:
@@ -459,7 +610,7 @@ def cross_file_checks(records, slug_to_paths):
                             fix=f"alias it: [[{target}|Display Name]]",
                         )
                     )
-            else:
+            elif not use_obsidian:
                 if target in seen_broken:
                     continue
                 seen_broken.add(target)
@@ -470,6 +621,34 @@ def cross_file_checks(records, slug_to_paths):
                         relpath,
                         f"[[{target}]] resolves to no page",
                         fix=f"create a stub for {target!r} or fix the link",
+                    )
+                )
+        if file_has_links:
+            has_outgoing.add(relpath)
+
+    # When Obsidian CLI is active, use it for broken links and deadends.
+    if use_obsidian:
+        for issue in _obsidian_broken_links():
+            by_file.setdefault(issue.path, []).append(issue)
+        for issue in _obsidian_deadends():
+            by_file.setdefault(issue.path, []).append(issue)
+    else:
+        # Fallback deadend detection from the scan pass.
+        for relpath, data, body in records:
+            if os.path.basename(relpath) in SKIP_CONTENT:
+                continue
+            if relpath.startswith(ORPHAN_EXEMPT_PREFIXES):
+                continue
+            if os.path.basename(relpath) in SKIP_AS_SOURCE:
+                continue
+            if relpath not in has_outgoing:
+                by_file[relpath].append(
+                    Issue(
+                        "quality",
+                        "deadend",
+                        relpath,
+                        "no outgoing wikilinks",
+                        fix="add wikilinks to related pages",
                     )
                 )
 
@@ -494,6 +673,85 @@ def _finish_orphans(records, inbound, by_file):
                 )
             )
     return by_file
+
+
+# ---------------------------------------------------------------------------
+# Vault-wide checks (tags, property names)
+# ---------------------------------------------------------------------------
+
+
+def check_tag_variants(records) -> list[Issue]:
+    """Flag tags that look like plural/singular variants of each other."""
+    tag_counter: dict[str, int] = collections.Counter()
+    tag_files: dict[str, list[str]] = collections.defaultdict(list)
+    for relpath, data, _body in records:
+        tags = data.get("tags") if hasattr(data, "get") else None
+        if not isinstance(tags, list):
+            continue
+        for tag in tags:
+            t = str(tag).strip().lower()
+            if t:
+                tag_counter[t] += 1
+                tag_files[t].append(relpath)
+
+    issues = []
+    seen = set()
+    for tag in sorted(tag_counter):
+        if tag in seen:
+            continue
+        # Check plural/singular pairs.
+        variants = []
+        if tag.endswith("s") and tag[:-1] in tag_counter:
+            variants.append(tag[:-1])
+        if tag + "s" in tag_counter:
+            variants.append(tag + "s")
+        for var in variants:
+            if var in seen:
+                continue
+            # Flag the less-used one.
+            if tag_counter[tag] < tag_counter[var]:
+                lesser, greater = tag, var
+            else:
+                lesser, greater = var, tag
+            seen.add(lesser)
+            for f in tag_files[lesser][:3]:
+                issues.append(
+                    Issue(
+                        "quality",
+                        "tag-variant",
+                        f,
+                        f"tag '{lesser}' may be a variant of '{greater}' ({tag_counter[greater]} uses)",
+                        fix=f"consolidate to '{greater}'",
+                    )
+                )
+    return issues
+
+
+def check_singleton_properties(records, schema_props: set[str]) -> list[Issue]:
+    """Flag frontmatter properties that appear in only one file and aren't in the schema."""
+    prop_counter: dict[str, int] = collections.Counter()
+    prop_files: dict[str, str] = {}
+    for relpath, data, _body in records:
+        if not hasattr(data, "keys"):
+            continue
+        for key in data.keys():
+            k = str(key)
+            prop_counter[k] += 1
+            prop_files[k] = relpath
+
+    issues = []
+    for prop, count in prop_counter.items():
+        if count == 1 and prop not in schema_props:
+            issues.append(
+                Issue(
+                    "quality",
+                    "singleton-property",
+                    prop_files[prop],
+                    f"property '{prop}' appears only in this file and is not in the schema",
+                    fix="verify this isn't a typo, or add it to the schema if intentional",
+                )
+            )
+    return issues
 
 
 def _dump_node(node) -> str:
@@ -673,6 +931,9 @@ BACKLOG_HINT = {
     "bare-wikilink": "add display aliases",
     "orphan": "link from a natural parent",
     "summary-stale": "write a concrete summary",
+    "deadend": "add wikilinks to related pages",
+    "tag-variant": "consolidate plural/singular tag variants",
+    "singleton-property": "verify not a typo, or add to schema",
 }
 
 
@@ -762,12 +1023,42 @@ def main(argv) -> int:
         help="suppress issues below this severity (default: quality = show all)",
     )
     ap.add_argument("--json", action="store_true", help="emit issues as JSON to stdout")
+    ap.add_argument(
+        "--obsidian",
+        choices=["auto", "on", "off"],
+        default="auto",
+        help="use Obsidian CLI for cross-file checks (default: auto-detect)",
+    )
+    ap.add_argument(
+        "--markdown",
+        choices=["auto", "on", "off"],
+        default="auto",
+        help="run markdownlint-cli2 for formatting checks (default: auto-detect)",
+    )
     args = ap.parse_args(argv)
+
+    # Resolve tool availability.
+    use_obsidian = args.obsidian == "on" or (
+        args.obsidian == "auto" and _obsidian_available()
+    )
+    use_markdown = args.markdown == "on" or (
+        args.markdown == "auto" and MARKDOWNLINT_CLI is not None
+    )
+    if args.obsidian == "off":
+        use_obsidian = False
+    if args.markdown == "off":
+        use_markdown = False
+
+    if use_obsidian:
+        sys.stderr.write("wiki_lint: Obsidian CLI active\n")
+    if use_markdown:
+        sys.stderr.write("wiki_lint: markdownlint-cli2 active\n")
 
     yaml = make_yaml()
     with open(SCHEMA_PATH, "r", encoding="utf-8") as fh:
         schema = json.load(fh)
     validator = jsonschema.Draft202012Validator(schema)
+    schema_props = set(schema.get("properties", {}).keys())
 
     scope = resolve_scope(args.paths)
 
@@ -804,9 +1095,18 @@ def main(argv) -> int:
             if naming:
                 all_issues.append(naming)
 
-    cross = cross_file_checks(records, slug_to_paths)
-    for relpath, issues in cross.items():
-        all_issues.extend(issues)
+    cross = cross_file_checks(records, slug_to_paths, use_obsidian=use_obsidian)
+    for relpath, file_issues in cross.items():
+        all_issues.extend(file_issues)
+
+    # Vault-wide checks.
+    all_issues.extend(check_tag_variants(records))
+    all_issues.extend(check_singleton_properties(records, schema_props))
+
+    # markdownlint pass.
+    if use_markdown:
+        scope_paths = [os.path.join(REPO_ROOT, s) for s in scope] if scope else None
+        all_issues.extend(_run_markdownlint(scope_paths))
 
     # Scope + severity filter.
     min_idx = SEVERITIES.index(args.min_severity)

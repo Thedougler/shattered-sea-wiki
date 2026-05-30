@@ -19,8 +19,7 @@ def _teardown_services():
 
 @ui.page('/')
 def index():
-    apply_theme()
-    ui.navigate.to('/save-speaker')
+    ui.navigate.to('/dm')
 
 
 app.on_startup(_init_services)

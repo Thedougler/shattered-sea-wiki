@@ -52,9 +52,11 @@ def session_page():
         chunks_lbl = ui.label('0 chunks').style('color: #888')
         speakers_lbl = ui.label('0 spk').style('color: #888')
 
+    VISIBLE_MESSAGES = 30
+
     message_container = ui.column().classes('w-full p-4 gap-1')
 
-    last_count = {'value': 0}
+    rendered = {'count': 0}
 
     def refresh():
         status_lbl.text = _state.status or 'idle'
@@ -64,14 +66,18 @@ def session_page():
         chunks_lbl.text = f'{_state.chunk_count} chunks'
         speakers_lbl.text = f'{_state.speaker_count} spk'
 
-        current_count = len(_state.messages)
-        if current_count > last_count['value']:
-            with message_container:
-                for msg in _state.messages[last_count['value']:]:
-                    with ui.column().classes('chat-message').style('background: #1a1a2e'):
-                        ui.label(msg.speaker).classes('chat-speaker')
-                        ui.label(msg.text).style('color: #e8e6e3')
-            last_count['value'] = current_count
-            ui.run_javascript('window.scrollTo(0, document.body.scrollHeight)')
+        total = len(_state.messages)
+        if total == rendered['count']:
+            return
+
+        tail = _state.messages[-VISIBLE_MESSAGES:]
+        message_container.clear()
+        with message_container:
+            for msg in tail:
+                with ui.column().classes('chat-message').style('background: #1a1a2e'):
+                    ui.label(msg.speaker).classes('chat-speaker')
+                    ui.label(msg.text).style('color: #e8e6e3')
+        rendered['count'] = total
+        ui.run_javascript('window.scrollTo(0, document.body.scrollHeight)')
 
     ui.timer(0.5, refresh)

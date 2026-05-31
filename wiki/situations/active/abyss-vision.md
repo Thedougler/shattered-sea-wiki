@@ -46,5 +46,9 @@ narrative_island:
 - Is the bioluminescent whale the same creature whose body Perrin inhabited?
 - What was the larger thing below?
 
+### World Update — Session 03
+**Roll:** 12 — Partial
+Auralis holds the Maw fissure in active containment, but the wards are burning through reserves the Antheri machine wasn't designed to sustain at this intensity indefinitely. The fissure doesn't widen further — but it doesn't close. A stalemate that favors whatever is pressing from the other side. The bioluminescent whale remains in deep water near Calveno's approach channels, but Perrin is ashore and the connection is dormant. "Grow" sits unanswered.
+
 > [!dm]
 > High player investment (Perrin's vision). The cost to send one word implies significant stakes. Develop before Perrin has further sea encounters or before "Grow" becomes contextually obvious.

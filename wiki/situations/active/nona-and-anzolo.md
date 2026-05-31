@@ -31,7 +31,11 @@ Perrin arrived at Nona's Le Paludi kitchen. She heard about the Vestra; called o
 
 Nona knows where Perrin is. The Passage knows.
 
+### World Update — Session 03
+**Roll:** 3 — Setback
+Nona's call-off directive went out through Enzo, but Anzolo was already at sea — methodically working Passage contacts eastward, hunting for a rattkin named Black-Jaw on a ship. The message is still in transit through the lantern and courier chain. Worse: Anzolo's inquiries at an eastern port reached a Tessarine informant. He's wanted by the Concordat, and now a Tessarine patrol knows a tortle matching his description was recently asking about Black-Jaw crew movements and heading west. Anzolo doesn't know he has a tail, and he doesn't know the search is over.
+
 ## Open Questions
 - Why did Perrin leave? Was he driven out, or did he choose to go?
-- Anzolo: was called off after Nona's directive, but may still be in motion. His status is not confirmed.
-- What is the favor?
+- Anzolo: still at sea, still hunting, now with a Tessarine patrol aware of his movements. The call-off hasn't reached him.
+- Does the Tessarine tail reach Anzolo before the call-off does? If so, they may follow him all the way back to Calveno — and to Nona.

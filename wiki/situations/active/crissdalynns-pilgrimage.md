@@ -92,6 +92,7 @@ Info earned through attention, not access. A visitor expects answers; receives a
 |---|---|
 | World Tick 2026-05-19 | Kyzil left Tidefall, initially headed east. Found a sighting — aarakocra monk aboard a captured Crown patrol cutter, heading west. Corrected course toward the Central Strait. Days behind. |
 | World Tick 2026-05-26 | Kyzil found Crissdalynn in Calveno. Formal debrief: heard the Maw account, delivered the weather warning. Confirmed surviving counts. Stopped himself before asking about missing Sentinels — wants anomaly records first. Asked to meet again tomorrow. |
+| World Update — Session 03 | **Roll:** 15 — Partial. Kyzil prepared for tomorrow's meeting — found a roost with sightlines, reviewed what he knows about the anomaly, ready to share the missing Sentinels and offer the spar. But his unease — "a foul wind from the south" — is getting worse, not better. Something in Calveno's Beffe preparations reads wrong to him: activity patterns in the streets he can't place, a gut sense tuned by decades of observation that something is moving beneath the festival noise. He can't name it. He arrives at the meeting tomorrow preoccupied — split between his student and an instinct he can't articulate. |
 
 ---
 

@@ -91,11 +91,17 @@ Dragon turtle nesting sites — the elders' most protected knowledge. Nesting fe
 - If unresolved: Keth-Naar forced toward open-water hunting, riskier petition, or internal fracture
 - If the Pearl is recovered or an equivalent divine artifact is found: the shrine can become a place of terms again
 
+### World Update — Session 03 (Cold)
+**Roll:** 18 — Full Success
+With Stripes gone, the open-water hunters won the argument. Six hunters launched beyond the Blue Hole for the first time in a generation and returned with a catch — enough to quiet the immediate food pressure. But they also brought back a report: currents outside the Blue Hole are cycling weekly instead of seasonally, and something large displaced water near Dath-Mar without surfacing. The success emboldens the hunters; Keth-Naar's self-imposed boundary is now broken. The next expedition will go further.
+**Hook strength:** Whisper — the party has no connection to the Sunken Crown yet. Stripes is absent. Only relevant if the party encounters Tabaxi sailors reporting unusual currents in the Outer Reach.
+
 ## Open Questions
 
 - Is the ancient dragon turtle near the Maw a returning female displaced by the Blue Hole disruption?
 - How much will Elder Anton reveal before the party proves its intent?
 - What does Umberlee accept as an equivalent to restoring the Pearl?
+- The open-water precedent is set. How far do the hunters push before something in the deep water pushes back?
 
 ---
 

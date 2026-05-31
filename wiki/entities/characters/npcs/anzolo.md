@@ -41,4 +41,4 @@ He operates as a fixer and enforcer for the Black-Jaw Run, Passage-adjacent, wor
 Both the [[tessarine-concordat|Tessarine Concordat]] and the [[dravosi-crown|Dravosi Crown]] would like a word with him.
 
 > [!dm]
-> Before Nona met the party in Session 03, she believed Anzolo had already been sent to find [[perrin-black-jaw|Perrin Black-Jaw]]. She called him off — but he may have been at sea before the message arrived. See [[nona-and-anzolo|Nona and Anzolo]].
+> Anzolo is at sea, still hunting for [[perrin-black-jaw|Perrin]] on outdated orders. Nona's call-off is in transit but hasn't reached him. His inquiries at an eastern port flagged a Tessarine informant — a patrol now knows a tortle matching his description was asking about Black-Jaw crew movements and heading west. He doesn't know he has a tail. See [[nona-and-anzolo|Nona and Anzolo]].

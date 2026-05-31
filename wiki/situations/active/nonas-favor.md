@@ -39,5 +39,9 @@ Word reached Nona that Perrin came into Calveno with a crew including a face nob
 - The favor is unknown — Perrin is committed regardless of what it turns out to be.
 - Nona is a Passage matriarch in Calveno. The favor is likely operationally significant.
 
+### World Update — Session 03
+**Roll:** 14 — Partial
+Nona received Cobb's report that Perrin's crew includes a blue Grung in a beret and moustache. She sent Warren runners deeper into the tunnel network to confirm the Grung sighting reports and map entry points before calling in the favor. Runners confirmed the sightings are real — movement in old maintenance corridors beneath Le Paludi and the Bridge district, concentrated near canal intersections. Two reliable entry points identified. Nona has good intel and confirmation — she's ready to call in the favor.
+
 > [!dm]
-> Design the favor before Nona uses the stone. Perrin's unconditional yes is a significant commitment. The favor should be proportionate to the relationship — something Nona couldn't easily ask of someone who hadn't proven themselves, or something that puts Perrin in tension with the party.
+> The favor is designed and Nona is ready to use the sending stone. The call happens at the table, not offscreen. When she contacts Perrin, she can brief him on the confirmed sightings and two entry points.

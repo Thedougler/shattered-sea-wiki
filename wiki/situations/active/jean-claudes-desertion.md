@@ -150,6 +150,7 @@ Death fact: Pell died in a cell beneath Sorn after 31 days of torture for names.
 | World Tick 2026-05-16 | Blue-caste scouts pushed into outer Midchain under trade cover. One raid landed; a second overextended and returned empty. Raid rumour begins moving through fishing communities. |
 | Session 02 | Beaumont used a Truth Stone on Jean-Claude. Jean-Claude truthfully said former kinsmen hunted him and he was not there on anyone's behalf. Beaumont did not ask about Simone; Jean-Claude did not mention her. |
 | World Tick 2026-05-19 | Rook was Simone's toxin buyer. With Rook silent, Simone sent a blue-caste operative to check his last route. The operative asked wrong-shaped questions in Tidefall and exposed the supply channel at one end. |
+| World Update — Session 03 (Cold) | **Roll:** 20 — Full Success. A vethka crew under trade cover raided a western Midchain fishing settlement — closer to the Central Strait than Grung have operated in a generation. Fourteen captives, zero crew casualties, no witnesses who can identify them as Grung. Slave-soldier pipeline replenished. The scout circuit now operates at a range where Calveno-bound shipping routes intersect their patrol area. **Hook strength:** Ripple — fishing communities in the western Midchain are now reporting unusual raiders; Felix Aho's stall in Calveno may hear about it through trade contacts. |
 
 ---
 

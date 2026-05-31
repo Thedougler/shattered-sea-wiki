@@ -9,8 +9,6 @@ summary: "Post-Session 02 inventory of the ship (then HCS Surety), organized by 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - reference
-  - ship
   - maritime
   - inventory
 sources:

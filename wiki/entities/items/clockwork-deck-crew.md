@@ -9,9 +9,6 @@ summary: "A set of four brass constructs counting as sailors for minimum crew â€
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
-  - crew
   - construct
   - homebrew
 sources:

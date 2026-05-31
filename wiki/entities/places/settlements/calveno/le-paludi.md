@@ -9,9 +9,7 @@ summary: "District or neighborhood in Calveno. Location of Nona Black-Jaw's kitc
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - stub
-  - place
-  - calveno
+  - needs-detail
   - district
 sources:
   - "Inbox/Session-03-Recap.md"

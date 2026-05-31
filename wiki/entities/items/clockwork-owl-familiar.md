@@ -9,10 +9,8 @@ summary: "Antheri-derived brass familiar from Cat's Curios — repairable rather
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - construct
   - antheri
-  - calveno
   - homebrew
 sources:
   - "Inbox/Campaign-Timeline.md"

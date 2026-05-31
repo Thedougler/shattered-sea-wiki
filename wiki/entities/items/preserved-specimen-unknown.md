@@ -9,9 +9,7 @@ summary: "A sealed glass jar containing a creature in brine — it has features 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - mystery
-  - calveno
 sources:
   - "Homebrew"
 confidence_level: medium

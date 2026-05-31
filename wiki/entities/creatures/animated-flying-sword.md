@@ -9,9 +9,7 @@ summary: A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno va
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - construct
-  - bestiary
 sources:
   - XMM
 confidence_level: high

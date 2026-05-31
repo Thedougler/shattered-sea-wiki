@@ -8,10 +8,7 @@ publish: true
 summary: CR 22 chromatic dragon; master manipulator with devastating poison breath and a taste for long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - dragon
-  - bestiary
+tags: []
 sources:
   - XMM
 confidence_level: high

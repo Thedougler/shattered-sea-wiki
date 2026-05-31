@@ -10,6 +10,7 @@ visibility: public
 audience: players
 summary: Index for the Shattered Sea player characters and recurring NPCs.
 tags:
+  - player-resource
 - player-resource
 - index
 sources:

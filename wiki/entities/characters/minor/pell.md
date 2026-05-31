@@ -9,11 +9,7 @@ summary: "Gnome labour slave at Sorn — the person who talked to Jean-Claude as
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - minor
-  - deceased
   - jc-history
-  - gnome
 sources:
   - "Inbox/Jean-Claude-Tabarnack.md"
   - "Inbox/Pell.md"

@@ -9,10 +9,7 @@ summary: "A one-handed martial blade — lighter than a full sword, faster, and 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - melee
-  - martial
 sources:
   - PHB
 confidence_level: confirmed

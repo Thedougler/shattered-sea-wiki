@@ -9,9 +9,6 @@ summary: "Limes, lemons, and oranges from the interior islands — prevents scur
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - provision
-  - consumable
   - maritime
 sources:
   - "Homebrew"

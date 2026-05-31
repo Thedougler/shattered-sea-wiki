@@ -9,10 +9,7 @@ summary: "A Tessarine Concordat dispatch sloop — single-masted, built for spee
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - tessarine
-  - tier-1
   - dispatch
 sources:
   - Homebrew

@@ -9,9 +9,6 @@ summary: "Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - pc
-  - aarakocra
-  - monk
   - kensei
 sources:
   - "Inbox/Session-01-Recap.md"

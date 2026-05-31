@@ -8,10 +8,7 @@ publish: true
 summary: "Raisins, mango strips, and tamarind — sweet provision that keeps morale marginally above minimum."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - provision
-  - consumable
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

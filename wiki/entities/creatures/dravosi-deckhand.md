@@ -9,9 +9,6 @@ summary: "A young Dravosi patrol sailor trained for inspections, boarding duties
 created: 2026-04-19
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
-  - bestiary
   - dravosi
   - cr1/8
 sources:

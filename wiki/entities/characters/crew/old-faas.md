@@ -9,9 +9,7 @@ summary: "Veteran bosun, rated rigger, constitutionally unkillable. Returns from
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - crew
   - recurring
-  - rigger
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"

@@ -9,12 +9,7 @@ summary: "Crown-licensed import factor in Port Tidefall and Verity's father — 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - minor
-  - dm-only
   - dravosi
-  - civilian
-  - family
-  - tidefall
 sources:
   - "Inbox/Cedric-Hollowell.md"
 confidence_level: confirmed

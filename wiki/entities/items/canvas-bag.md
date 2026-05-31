@@ -9,8 +9,6 @@ summary: "Heavy-duty canvas sacks and cargo nets for moving and securing goods a
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - Homebrew

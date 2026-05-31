@@ -9,8 +9,6 @@ summary: "A plain silver ring engraved inside with 'For Lisca' — radiates a fa
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
   - mystery
   - morsani-stock
   - homebrew

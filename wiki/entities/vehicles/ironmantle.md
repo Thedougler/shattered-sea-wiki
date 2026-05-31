@@ -9,9 +9,6 @@ summary: "A Valcoran-built remnant sloop with an iron-plated hull — highest HP
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - tier-1
   - remnant
   - iron-hull
 sources:

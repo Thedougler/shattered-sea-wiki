@@ -9,8 +9,6 @@ summary: "Dravosi gatekeeper island at the western mouth of the Central Strait â
 created: 2026-05-01
 updated: 2026-05-30
 tags:
-  - island
-  - crown-islands
   - dravosi
   - player-resource
 sources:

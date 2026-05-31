@@ -9,8 +9,6 @@ summary: "CR 4 humanoid military officer. Leads soldiers and guards; skilled mel
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
   - cr4
 sources:
   - "Inbox/guard-captain.md"

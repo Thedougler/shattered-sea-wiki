@@ -9,10 +9,7 @@ summary: "The Dravosi Crown's administrative building on the Shelf — colonial 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - dravosi
-  - port-tidefall
 sources:
   - "Inbox/Governors-Seat.md"
 confidence_level: medium

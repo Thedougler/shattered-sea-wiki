@@ -9,10 +9,8 @@ summary: "DM companion for the Galewall. Phoenix causality is likely true. Storm
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - navigation
   - weather
-  - dm-notes
+  - dm-prep
 sources:
   - "Inbox/Galewall.md"
 confidence_level: high

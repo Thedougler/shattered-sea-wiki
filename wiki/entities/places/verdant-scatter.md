@@ -9,8 +9,6 @@ summary: "The main island chain of the Shattered Sea: two east-west arcs between
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - archipelago
   - shattered-sea
 sources:

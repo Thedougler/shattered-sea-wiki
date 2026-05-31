@@ -8,11 +8,7 @@ publish: true
 summary: "An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - place
-  - building
-  - shop
-  - kalowe
+tags: []
 sources:
   - "Inbox/Kettil-Ormsson.md"
   - "Inbox/Ormssons-Fittings.md"

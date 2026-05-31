@@ -9,8 +9,6 @@ summary: "A short stabbing blade — the most versatile and most commonly carrie
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - simple
   - melee
 sources:

@@ -8,10 +8,7 @@ publish: true
 summary: "Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - provision
-  - consumable
+tags: []
 sources:
   - Homebrew
 confidence_level: confirmed

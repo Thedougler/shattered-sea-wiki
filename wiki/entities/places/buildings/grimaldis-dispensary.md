@@ -9,11 +9,7 @@ summary: "A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - kalowe
   - apothecary
-  - midchain
 sources:
   - "Inbox/Ilaria-Grimaldi.md"
   - "Inbox/Grimaldis-Dispensary.md"

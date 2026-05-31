@@ -9,9 +9,6 @@ summary: "A roped-off section of the South Harbour east pier — chain, hand-let
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - calders-tooth
   - dravosi
 sources:
   - Homebrew

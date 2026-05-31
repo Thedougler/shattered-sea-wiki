@@ -9,8 +9,6 @@ summary: "A smooth grey stone that heats white-hot when held by someone who know
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
   - magic
   - homebrew
 sources:

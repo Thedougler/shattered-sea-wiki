@@ -9,10 +9,6 @@ summary: "A cramped alcove-stall off the Warren's north channel corridor where a
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - warren
-  - calveno
   - rattkin
 sources:
   - "Inbox/Warren-Marrows-Crate.md"

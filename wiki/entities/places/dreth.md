@@ -9,10 +9,7 @@ summary: "One of the eastern Verdant Teeth, paired close to Orak — low coastal
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - grung
-  - verdant-teeth
   - hostile
 sources:
   - "Inbox/Dreth.md"

@@ -8,9 +8,7 @@ publish: true
 summary: "Playable species. Humans gain Heroic Inspiration on long rests, proficiency in one skill, and two Origin feats — the most feat-forward of the base species."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - species
-  - playable
+tags: []
 sources:
   - "Player's Handbook (2024)"
 confidence_level: medium

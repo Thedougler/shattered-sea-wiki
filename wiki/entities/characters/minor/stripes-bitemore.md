@@ -9,10 +9,7 @@ summary: "Tiger tabaxi fighter sent west by Keth-Naar elders to find why the sea
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - pc
-  - tabaxi
   - keth-naar
-  - fighter
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Tabaxi.md"

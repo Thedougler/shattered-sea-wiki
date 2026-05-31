@@ -9,9 +9,6 @@ summary: "A waist-deep limestone fighting pit on Kalowe's third island — no-ho
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - kalowe
   - arena
   - venue
 sources:

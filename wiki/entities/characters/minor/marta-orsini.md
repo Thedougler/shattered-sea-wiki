@@ -10,8 +10,6 @@ created: 2026-05-17
 updated: 2026-05-30
 tags:
   - tiefling
-  - minor-npc
-  - calveno
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Marta-Orsini.md"

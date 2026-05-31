@@ -9,9 +9,7 @@ summary: DM navigation reference for Calveno — district-by-district layout, ke
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - calveno
-  - dm-reference
-  - navigation
+  - dm-prep
 sources:
   - Inbox/places/calveno/Calveno-Districts.md
 confidence_level: high

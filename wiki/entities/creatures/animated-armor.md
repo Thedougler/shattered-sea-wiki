@@ -9,9 +9,7 @@ summary: "CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two S
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - construct
-  - bestiary
   - cr1
 sources:
   - "Inbox/animated-armor.md"

@@ -11,7 +11,6 @@ updated: 2026-05-30
 tags:
   - city
   - tessarine
-  - crown-islands
   - player-resource
 sources:
   - Inbox/places/calveno/Calveno.md

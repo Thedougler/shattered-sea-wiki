@@ -9,8 +9,6 @@ summary: "A short-hafted single-bitted axe — works as a tool and a weapon, thr
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - melee
   - simple
 sources:

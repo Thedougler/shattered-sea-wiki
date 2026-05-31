@@ -9,7 +9,6 @@ summary: "Open-water Antheri salvage field on the western shelf of the Drowned M
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - antheri
   - salvage
   - ruins

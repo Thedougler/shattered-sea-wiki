@@ -9,10 +9,7 @@ summary: "Martial melee weapon. Finesse makes it the go-to for Dexterity-based f
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - melee
-  - martial
 sources:
   - "D&D 2024 PHB"
 confidence_level: high

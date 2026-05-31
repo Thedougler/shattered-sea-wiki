@@ -9,10 +9,6 @@ summary: "A +1 Calveno dock-pattern shortbow — silent firing that rewards Gloo
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
-  - ranged
-  - calveno
   - homebrew
 sources:
   - Homebrew

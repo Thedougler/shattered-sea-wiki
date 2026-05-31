@@ -9,10 +9,6 @@ summary: "Dark rum mixed with fresh pig blood and lime — not on the board at t
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - food
-  - drink
-  - kalowe
   - homebrew
 sources:
   - Homebrew

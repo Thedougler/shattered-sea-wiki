@@ -9,10 +9,8 @@ summary: "A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Ve
 created: 2026-05-03
 updated: 2026-05-30
 tags:
-  - creature
   - legend
   - maritime
-  - bestiary
 sources:
   - "Inbox/Leviathan.md"
 confidence_level: low

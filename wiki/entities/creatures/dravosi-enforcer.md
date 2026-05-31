@@ -9,9 +9,6 @@ summary: "A Dravosi Crown veteran built for confined boarding fights, crowd supp
 created: 2026-04-19
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
-  - bestiary
   - dravosi
   - cr1/2
 sources:

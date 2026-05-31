@@ -9,9 +9,6 @@ summary: "The Tessarine Concordat's commercial office on the Shelf — trade lic
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - port-tidefall
   - tessarine
   - trade
 sources:

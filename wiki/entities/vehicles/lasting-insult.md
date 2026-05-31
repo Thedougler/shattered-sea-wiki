@@ -9,9 +9,6 @@ summary: "A courier-rigged sloop impounded for three years at Port Tidefall — 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - tier-1
   - impounded
   - for-sale
 sources:

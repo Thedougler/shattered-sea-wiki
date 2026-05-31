@@ -9,8 +9,6 @@ summary: "Tallow or beeswax candles for general illumination — cheaper than la
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
   - light
 sources:
   - PHB

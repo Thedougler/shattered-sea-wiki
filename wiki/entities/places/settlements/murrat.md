@@ -9,10 +9,6 @@ summary: "A limestone reef island between Kalowe and the Verdant Teeth, inhabite
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
-  - midchain
-  - fey
   - moucheron
 sources:
   - "Inbox/Session-02-Recap.md"

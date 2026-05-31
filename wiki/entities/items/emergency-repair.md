@@ -9,9 +9,6 @@ summary: "Priority hull or structural repair — jumps the queue, costs double, 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - shipwright
   - maritime
 sources:
   - "Homebrew"

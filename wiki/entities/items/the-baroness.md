@@ -9,10 +9,7 @@ summary: "Delmar Fisk's rapier — named, primary, and the weapon he reaches for
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - melee
-  - martial
 sources:
   - "D&D 2024 PHB"
 confidence_level: high

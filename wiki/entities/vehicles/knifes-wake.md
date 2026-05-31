@@ -9,9 +9,6 @@ summary: "A Tier 1 armed pirate cutter built for ambush, boarding, and reef-chan
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - tier-1
   - pirate
 sources:
   - "Homebrew"

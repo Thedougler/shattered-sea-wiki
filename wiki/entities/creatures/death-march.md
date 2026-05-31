@@ -9,10 +9,7 @@ summary: "CR 20 undead lich. Fighter lich whose phylacteries are the undead corp
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr20
 sources:
   - "Inbox/Death-March.md"

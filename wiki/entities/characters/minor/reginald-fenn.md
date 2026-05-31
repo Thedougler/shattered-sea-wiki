@@ -9,10 +9,7 @@ summary: "Elven chart clerk at Port Tidefall's Harbourmaster's Office — has be
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - elf
   - dravosi
-  - minor-npc
-  - port-tidefall
 sources:
   - "Inbox/Reginald-Fenn.md"
 confidence_level: medium

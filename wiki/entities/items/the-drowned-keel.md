@@ -9,8 +9,6 @@ summary: "A legendary Antheri salvage modification enabling controlled temporary
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
   - antheri
   - legendary
   - homebrew

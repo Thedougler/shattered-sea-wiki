@@ -9,7 +9,6 @@ summary: "Cold volcanic spire-chain near the Galewall; the last solid ground on 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - region
   - volcanic
   - galewall
   - storm-edge

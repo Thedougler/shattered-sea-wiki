@@ -8,10 +8,7 @@ publish: true
 summary: "Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - service
-  - calveno
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

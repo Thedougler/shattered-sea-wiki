@@ -9,9 +9,7 @@ summary: "Stub — Calveno chandlery factor and Dravosi intelligence leak; wife 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - calveno
+  - needs-detail
   - dravosi
   - intelligence
 sources:

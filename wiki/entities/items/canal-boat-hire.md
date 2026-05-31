@@ -9,9 +9,6 @@ summary: "Flat-bottomed canal boats available for half- or full-day hire at the 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - calveno
   - transport
 sources:
   - Homebrew

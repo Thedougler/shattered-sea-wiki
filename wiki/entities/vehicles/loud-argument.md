@@ -9,8 +9,6 @@ summary: "Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated comb
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - lost
   - fisk-fleet
 sources:

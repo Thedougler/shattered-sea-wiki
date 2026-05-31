@@ -9,10 +9,8 @@ summary: "The fixed Rattkin city beneath Calveno's Le Paludi drainage network â€
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - place
   - rattkin
   - passage
-  - settlement
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Perrin-Black-Jaw.md"

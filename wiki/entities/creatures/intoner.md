@@ -9,10 +9,7 @@ summary: "CR 18 undead lich. Bard lich whose immortality is anchored in living m
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr18
 sources:
   - "Inbox/Intoner.md"

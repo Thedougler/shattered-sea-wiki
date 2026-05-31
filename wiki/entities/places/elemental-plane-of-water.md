@@ -9,7 +9,6 @@ summary: "A crack in the floor of the Drowned Maw — ragged stone edges, faint 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - plane
   - elemental
   - drowned-maw

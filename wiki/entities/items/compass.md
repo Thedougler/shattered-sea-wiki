@@ -8,11 +8,7 @@ publish: true
 summary: "A standard magnetic navigation compass — points north reliably, except near the Drowned Maw."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
-  - navigation
-  - tool
+tags: []
 sources:
   - PHB
 confidence_level: confirmed

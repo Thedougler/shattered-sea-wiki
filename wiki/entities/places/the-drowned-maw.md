@@ -9,10 +9,7 @@ summary: "A vast eastern trench where charts, compasses, and sailors grow less c
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - maritime
-  - navigation
   - landmark
   - restricted
 sources:

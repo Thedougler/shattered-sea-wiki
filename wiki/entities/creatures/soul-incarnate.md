@@ -9,10 +9,7 @@ summary: "CR 16 undead lich. Monk lich achieved through meditation and ritual de
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr16
 sources:
   - "Inbox/Soul-Incarnate.md"

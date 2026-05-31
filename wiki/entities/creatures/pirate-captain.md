@@ -9,9 +9,6 @@ summary: "CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
-  - bestiary
   - cr6
 sources:
   - "Inbox/pirate-captain.md"

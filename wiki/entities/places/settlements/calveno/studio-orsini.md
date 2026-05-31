@@ -9,10 +9,6 @@ summary: "An alchemist's studio down a Le Paludi side canal — the smell arrive
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - calveno
-  - shop
   - alchemy
   - le-paludi
 sources:

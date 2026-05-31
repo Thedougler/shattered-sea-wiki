@@ -9,11 +9,7 @@ summary: "The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kep
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - chain-council
-  - kalowe
-  - tier-1
 sources:
   - "Inbox/Chain-Council.md"
   - "Inbox/The-Quorum.md"

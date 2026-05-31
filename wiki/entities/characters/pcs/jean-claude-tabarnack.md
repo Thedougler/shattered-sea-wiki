@@ -9,9 +9,7 @@ summary: "12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himse
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - pc
   - grung
-  - ranger
   - gloomstalker
 sources:
   - "Inbox/Session-01-Recap.md"

@@ -9,10 +9,6 @@ summary: "A compact alchemical device that produces a 10-foot sphere of dense sm
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
-  - calveno
   - homebrew
 sources:
   - Homebrew

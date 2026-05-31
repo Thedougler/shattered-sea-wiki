@@ -9,9 +9,6 @@ summary: "Delmar Fisk's flagship — a privateer-rigged brigantine that led five
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - destroyed
   - fisk-fleet
   - wreck
   - tier-2

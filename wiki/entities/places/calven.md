@@ -9,8 +9,6 @@ summary: The oldest settled island in the Crown Islands — low-lying marshland 
 created: 2026-05-04
 updated: 2026-05-30
 tags:
-  - island
-  - crown-islands
   - tessarine
 sources:
   - Inbox/places/calven/index.md

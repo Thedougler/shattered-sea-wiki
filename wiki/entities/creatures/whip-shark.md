@@ -9,11 +9,8 @@ summary: "CR 6 monstrosity. Huge aquatic predator with a barbed tail that can ho
 created: 2026-04-12
 updated: 2026-05-30
 tags:
-  - creature
-  - monstrosity
   - aquatic
   - siege
-  - bestiary
   - cr6
 sources:
   - "Inbox/Whip-Shark.md"

@@ -9,10 +9,7 @@ summary: "A formal introduction into the Passage's Kin-network for Dry (non-Ratt
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - passage
-  - warren
 sources:
   - "Homebrew"
 confidence_level: medium

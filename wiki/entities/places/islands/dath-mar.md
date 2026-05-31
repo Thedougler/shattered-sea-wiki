@@ -9,9 +9,6 @@ summary: "The smallest of the five Sunken Crown islands — a hard, exposed rock
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
-  - tabaxi
   - sunken-crown
   - refuge
 sources:

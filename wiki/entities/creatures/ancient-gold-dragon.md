@@ -9,8 +9,6 @@ summary: CR 24 lawful good metallic dragon; one of the most powerful creatures i
 created: 2026-04-21
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
   - dragon-metallic
 sources: []
 confidence_level: high

@@ -9,9 +9,6 @@ summary: "CR 4 dragon. Large amphibious; single Bite attack, 15-ft Steam Breath 
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
-  - bestiary
   - cr4
 sources:
   - "Inbox/dragon-turtle-wyrmling.md"

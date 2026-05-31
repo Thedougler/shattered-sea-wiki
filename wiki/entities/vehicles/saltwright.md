@@ -9,8 +9,6 @@ summary: "A hard-used two-masted merchant brig captained by Beaumont Sel, workin
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - merchant
   - brig
 sources:

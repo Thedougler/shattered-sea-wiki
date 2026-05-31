@@ -9,8 +9,6 @@ summary: "Refined oil for lanterns and lamps — standard stock at every chandle
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
   - maritime
 sources:
   - "PHB"

@@ -9,9 +9,6 @@ summary: "A herbal compress preparation for reducing fever — three application
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - medical
   - homebrew
 sources:
   - "Homebrew"

@@ -9,10 +9,6 @@ summary: "Overproof rum and hunter shark blood from the gap — only available w
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - food
-  - drink
-  - kalowe
   - homebrew
 sources:
   - Homebrew

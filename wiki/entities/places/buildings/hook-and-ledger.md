@@ -9,10 +9,7 @@ summary: "A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, p
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - tavern
-  - port-tidefall
 sources:
   - "Inbox/Hector-Podge.md"
   - "Inbox/Hook-and-Ledger.md"

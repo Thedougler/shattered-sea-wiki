@@ -9,11 +9,8 @@ summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, sligh
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - magic-item
-  - perrin
   - black-jaw
-  - wondrous
 sources:
   - "Inbox/Perrin-Black-Jaw.md"
   - "Inbox/Perrins-Cloak-of-the-Manta-Ray.md"

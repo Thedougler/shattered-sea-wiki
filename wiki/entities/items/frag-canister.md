@@ -9,11 +9,7 @@ summary: "Dravosi Crown alchemical canister — detonates on impact, spraying sh
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
   - dravosi
-  - weapon
   - homebrew
 sources:
   - "Homebrew"

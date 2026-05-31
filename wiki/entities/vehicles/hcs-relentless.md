@@ -9,10 +9,7 @@ summary: "A Tier 1 patrol cutter in Port Tidefall — same class as HCS Surety b
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
-  - tier-1
 sources:
   - "Homebrew"
 confidence_level: medium

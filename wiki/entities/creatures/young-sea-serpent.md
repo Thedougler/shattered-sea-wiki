@@ -9,9 +9,6 @@ summary: "CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-f
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
-  - bestiary
   - cr8
 sources:
   - "Inbox/young-sea-serpent.md"

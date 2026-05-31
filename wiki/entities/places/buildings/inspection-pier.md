@@ -9,10 +9,7 @@ summary: "Port Tidefall's first-stop inspection pier, where incoming vessels tie
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - dravosi
-  - port-tidefall
   - maritime
 sources:
   - "Homebrew"

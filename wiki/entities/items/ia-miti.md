@@ -9,9 +9,6 @@ summary: "Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - food
   - grung
 sources:
   - "Homebrew"

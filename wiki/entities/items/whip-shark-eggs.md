@@ -9,7 +9,6 @@ summary: "Three fertilized whip shark eggs recovered from the body. Jean-Claude'
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - item
   - creature-parts
   - shark
 sources:

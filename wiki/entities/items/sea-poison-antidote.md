@@ -9,9 +9,6 @@ summary: "A targeted antidote for reef fish, shellfish, and common sea-creature 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
   - poison
 sources:
   - Homebrew

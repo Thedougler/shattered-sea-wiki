@@ -9,8 +9,6 @@ summary: "The under-governed zone east of the Drowned Maw — no colonial presen
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - navigation
   - outer-reach
   - maritime
 sources:

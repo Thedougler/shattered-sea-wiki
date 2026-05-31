@@ -8,9 +8,7 @@ publish: true
 summary: "Common dried kitchen and medicinal herbs — cooking flavour and basic medicinal use, sold at general goods stores."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - consumable
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

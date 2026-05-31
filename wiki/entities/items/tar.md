@@ -9,10 +9,7 @@ summary: "Hull caulking tar — seals seams, coats rope, and keeps water where i
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
-  - ship
 sources:
   - Homebrew
 confidence_level: confirmed

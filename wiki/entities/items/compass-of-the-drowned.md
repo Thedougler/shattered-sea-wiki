@@ -9,9 +9,6 @@ summary: "A brass compass that points toward the nearest shipwreck within 10 mil
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
-  - arcane
   - morsani-stock
   - homebrew
 sources:

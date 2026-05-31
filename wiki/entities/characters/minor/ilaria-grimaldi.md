@@ -10,8 +10,6 @@ created: 2026-05-17
 updated: 2026-05-30
 tags:
   - tiefling
-  - minor-npc
-  - kalowe
 sources:
   - "Inbox/Ilaria-Grimaldi.md"
 confidence_level: medium

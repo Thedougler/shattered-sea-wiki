@@ -9,10 +9,7 @@ summary: "CR 20 undead lich. Artificer lich that transfers its soul into a const
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr20
 sources:
   - "Inbox/Necromaton.md"

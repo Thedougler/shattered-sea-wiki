@@ -9,8 +9,7 @@ summary: At-table improv tools for Calveno — name banks by culture, NPC quick-
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - calveno
-  - dm-reference
+  - dm-prep
   - improv
 sources:
   - Inbox/places/calveno/Calveno-Improv.md

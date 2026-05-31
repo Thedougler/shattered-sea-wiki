@@ -9,8 +9,6 @@ summary: "Delmar Fisk's family heirloom — 60 ft. swim speed, underwater breath
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
   - water
   - heirloom
 sources:

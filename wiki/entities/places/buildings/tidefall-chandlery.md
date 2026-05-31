@@ -9,9 +9,6 @@ summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing insp
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - port-tidefall
   - dravosi
   - chandlery
 sources:

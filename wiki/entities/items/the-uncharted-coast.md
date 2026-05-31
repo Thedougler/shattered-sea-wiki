@@ -9,8 +9,6 @@ summary: "A hand-drawn navigational chart of professional quality, depicting app
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - navigation
   - mystery
   - morsani-stock
 sources:

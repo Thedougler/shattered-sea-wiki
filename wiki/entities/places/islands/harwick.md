@@ -9,9 +9,6 @@ summary: "The Crown's primary naval base in the Shattered Sea — home of the Ha
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
-  - crown-islands
   - dravosi
   - military
 sources:

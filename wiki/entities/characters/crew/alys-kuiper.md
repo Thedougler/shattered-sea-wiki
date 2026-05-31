@@ -9,8 +9,6 @@ summary: "Ship's surgeon — calm, competent, doing inventory while waiting to s
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - crew
-  - surgeon
   - recurring
 sources:
   - "Inbox/Alys-Kuiper.md"

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened."
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - tessarine
   - late-game

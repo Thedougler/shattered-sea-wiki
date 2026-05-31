@@ -9,10 +9,6 @@ summary: "Largest Midchain free port — the only Tier 2 dry dock outside coloni
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - settlement
-  - midchain
-  - kalowe
   - harbour
 sources:
   - "Inbox/Session-02-Recap.md"

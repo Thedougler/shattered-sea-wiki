@@ -9,8 +9,6 @@ summary: "A standard iron lantern with a hinged hood for controlling light — t
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "PHB"

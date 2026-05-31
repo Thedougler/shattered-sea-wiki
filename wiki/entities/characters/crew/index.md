@@ -9,6 +9,7 @@ publish: false
 audience: dm
 summary: Index for major recurring hired crew and shipboard character pages.
 tags:
+  - player-resource
 - player-resource
 - index
 - crew

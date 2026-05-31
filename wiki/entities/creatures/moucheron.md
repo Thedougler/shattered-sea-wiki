@@ -9,9 +9,6 @@ summary: "CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on 
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
-  - fey
-  - bestiary
   - cr8
 sources:
   - "Inbox/Moucheron.md"

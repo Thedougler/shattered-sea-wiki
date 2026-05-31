@@ -9,10 +9,6 @@ summary: "An alchemical ink that adheres to wet surfaces and cures fully underwa
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
-  - calveno
   - homebrew
 sources:
   - Homebrew

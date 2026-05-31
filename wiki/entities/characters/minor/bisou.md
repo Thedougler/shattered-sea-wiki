@@ -8,10 +8,7 @@ publish: true
 summary: "Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth."
 created: 2026-05-02
 updated: 2026-05-30
-tags:
-  - beast
-  - companion
-  - monkey
+tags: []
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Session-02-Recap.md"

@@ -9,11 +9,7 @@ summary: "A lean Tier 1 reef runner sloop currently for sale in Port Tidefall â€
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - ship
-  - vehicle
-  - tier-1
   - for-sale
-  - midchain
 sources:
   - "Homebrew"
 confidence_level: medium

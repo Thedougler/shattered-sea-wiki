@@ -9,7 +9,6 @@ summary: "Paper cartridges of black powder and ball for flintlock pistols and mu
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - ammunition
   - firearm
 sources:

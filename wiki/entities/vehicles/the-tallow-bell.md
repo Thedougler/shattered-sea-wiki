@@ -9,11 +9,8 @@ summary: "A Tier 1 Waveservant shrine sloop used to move clergy, tribute records
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - waveservant
+  - waveservants
   - umberlee
-  - tier-1
 sources:
   - Homebrew
 confidence_level: medium

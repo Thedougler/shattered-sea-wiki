@@ -9,9 +9,7 @@ summary: "Stub — Rattkin scout, 22 years old, first solo assignment; trapped b
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - warren
+  - needs-detail
   - rattkin
   - scout
 sources:

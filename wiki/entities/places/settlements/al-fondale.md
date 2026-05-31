@@ -9,10 +9,8 @@ summary: A cozy Le Paludi tavern in the oldest canal zone of Calveno — good fo
 created: 2026-05-25
 updated: 2026-05-30
 tags:
-  - building
   - tavern
   - passage
-  - calveno
 sources:
   - Inbox/places/calveno/Al-Fondale.md
 confidence_level: medium

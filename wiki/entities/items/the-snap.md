@@ -9,9 +9,7 @@ summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - antheri
-  - wondrous
   - homebrew
 sources:
   - "Inbox/Catarina-DaVirelli.md"

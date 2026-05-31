@@ -9,9 +9,7 @@ summary: "Stub — Dravosi intelligence attaché in Calveno; killed courier Dren
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - calveno
+  - needs-detail
   - dravosi
   - intelligence
   - threat

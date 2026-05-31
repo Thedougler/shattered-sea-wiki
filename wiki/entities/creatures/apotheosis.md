@@ -9,10 +9,7 @@ summary: "CR 20 undead lich. Cleric lich whose phylactery is a living cult — a
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr20
 sources:
   - "Inbox/Apotheosis.md"

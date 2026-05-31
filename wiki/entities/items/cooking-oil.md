@@ -8,10 +8,7 @@ publish: true
 summary: "Palm oil or similar clean cooking fat — essential for any galley that does more than boil things."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - provision
-  - consumable
+tags: []
 sources:
   - Homebrew
 confidence_level: confirmed

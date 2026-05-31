@@ -9,8 +9,6 @@ summary: "Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - merchant
   - tier-2
   - maritime

@@ -8,10 +8,7 @@ publish: true
 summary: "Professional tooth extraction — 1 sp, and the apothecary is fast about it."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - service
-  - medical
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "The Dravosi Crown's first-rate flagship and the most powerful warship 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
   - tier-4
   - flagship

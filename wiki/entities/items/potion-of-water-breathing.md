@@ -9,8 +9,6 @@ summary: "A standard maritime consumable — for one hour, the drinker breathes 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
   - magic-item
   - maritime
 sources:

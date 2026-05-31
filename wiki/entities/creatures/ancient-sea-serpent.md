@@ -9,9 +9,6 @@ summary: "CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattac
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
-  - bestiary
   - cr14
 sources:
   - "Inbox/ancient-sea-serpent.md"

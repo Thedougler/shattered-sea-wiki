@@ -9,7 +9,6 @@ summary: CR 1/2 fungal plant creature; communicates via spores and can merge con
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - plant
 sources:
   - XMM

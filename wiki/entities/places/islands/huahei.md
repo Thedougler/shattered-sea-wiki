@@ -8,10 +8,7 @@ publish: true
 summary: "A small overgrown marshy island in the Midchain, notable for an odd fey presence."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - place
-  - island
-  - midchain
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

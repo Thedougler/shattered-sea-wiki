@@ -9,10 +9,7 @@ summary: "CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodl
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr19
 sources:
   - "Inbox/Hierarch.md"

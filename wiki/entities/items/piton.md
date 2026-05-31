@@ -9,8 +9,6 @@ summary: "A small iron spike driven into stone or wood to anchor a rope — stan
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - climbing
 sources:
   - "PHB"

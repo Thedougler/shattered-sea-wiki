@@ -9,7 +9,6 @@ summary: CR 2 fungal plant leader; rules myconid colonies and projects animating
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - plant
 sources:
   - XMM

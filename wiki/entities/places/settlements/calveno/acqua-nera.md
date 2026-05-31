@@ -9,9 +9,7 @@ summary: A hull conversion and repainting yard in Calveno's outer harbour, south
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - building
   - shipyard
-  - calveno
 sources:
   - Inbox/places/calveno/Acqua-Nera.md
 confidence_level: medium

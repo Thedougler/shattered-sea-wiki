@@ -8,10 +8,7 @@ publish: true
 summary: "Salt-treated linen bandages and wound cloths — extends what a healer's kit can do."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - consumable
-  - medical
+tags: []
 sources:
   - Homebrew
 confidence_level: confirmed

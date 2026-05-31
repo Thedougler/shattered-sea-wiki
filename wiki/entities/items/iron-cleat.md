@@ -9,8 +9,6 @@ summary: "A deck fitting for belaying lines — bolted through deck planking, ho
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "Homebrew"

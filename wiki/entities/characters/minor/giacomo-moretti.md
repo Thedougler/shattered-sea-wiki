@@ -10,8 +10,6 @@ created: 2026-05-17
 updated: 2026-05-30
 tags:
   - halfling
-  - minor-npc
-  - calveno
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
   - "Inbox/Giacomo-Moretti.md"

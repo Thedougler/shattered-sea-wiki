@@ -9,10 +9,6 @@ summary: "The deep, dry governing chambers of the Warren — where the seven Tan
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - warren
-  - calveno
   - rattkin
   - passage
 sources:

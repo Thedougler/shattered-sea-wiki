@@ -9,9 +9,7 @@ summary: CR 2 fiend; conducts blood rites at submerged shrines in the blue holes
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - fiend
-  - bestiary
 sources:
   - XMM
 confidence_level: high

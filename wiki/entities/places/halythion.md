@@ -9,10 +9,8 @@ summary: "Ancient sea elf city built into the Teikhinos Reef — invisible from 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - city
   - sea-elf
-  - midchain
   - hidden
 sources:
   - "Inbox/Halythion.md"

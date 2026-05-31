@@ -9,10 +9,7 @@ summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking wo
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
-  - ship-maintenance
 sources:
   - "Homebrew"
 confidence_level: medium

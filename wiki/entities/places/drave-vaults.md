@@ -9,11 +9,9 @@ summary: "Sub-basements beneath Fort Crestwall, officially recorded in Crown arc
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - site
   - dungeon
   - dravosi
-  - fort-crestwall
 sources:
   - "Inbox/Drave-Vaults.md"
   - "raw/caldurs-tooth.md"

@@ -9,10 +9,6 @@ summary: "Essa Two-Tooth's house-brewed cider from the Warren — she calls it c
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - food
-  - consumable
-  - warren
   - homebrew
 sources:
   - "Homebrew"

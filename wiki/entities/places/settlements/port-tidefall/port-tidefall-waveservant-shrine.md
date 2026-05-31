@@ -9,10 +9,8 @@ summary: Umberlee's shrine at the Port Tidefall Dockfront — cut into the cliff
 created: 2026-05-05
 updated: 2026-05-30
 tags:
-  - building
   - shrine
   - umberlee
-  - port-tidefall
 sources:
   - Inbox/places/port-tidefall/Waveservant-Shrine.md
 confidence_level: medium

@@ -9,10 +9,7 @@ summary: "CR 21 undead lich. Rogue lich that achieves undeath by stealing anothe
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr21
 sources:
   - "Inbox/Skulldugger.md"

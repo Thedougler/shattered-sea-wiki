@@ -8,10 +8,7 @@ publish: true
 summary: "Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
-  - tool
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

@@ -8,10 +8,7 @@ publish: true
 summary: "Professional cleaning and suturing of open wounds — 2 sp at an apothecary."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - service
-  - medical
+tags: []
 sources:
   - Homebrew
 confidence_level: confirmed

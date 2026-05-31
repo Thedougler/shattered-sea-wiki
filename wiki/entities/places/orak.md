@@ -9,10 +9,7 @@ summary: "The second eastern Verdant Teeth island, paired close with Dreth acros
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - grung
-  - verdant-teeth
 sources:
   - "Inbox/Dreth.md"
   - "Inbox/Orak.md"

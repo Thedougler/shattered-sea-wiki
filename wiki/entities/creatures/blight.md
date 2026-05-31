@@ -9,10 +9,7 @@ summary: "Druid lich whose phylactery is a place — the Death Bloom at the hear
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
 sources:
   - "Inbox/Blight.md"
 confidence_level: high

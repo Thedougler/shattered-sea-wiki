@@ -9,10 +9,7 @@ summary: "Shuttered lantern with coloured glass panels for maritime signalling â
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
-  - navigation
 sources:
   - Homebrew
 confidence_level: confirmed

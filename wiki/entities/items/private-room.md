@@ -9,7 +9,6 @@ summary: "A room with a door that latches — more expensive than a hammock, les
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - lodging
 sources:
   - "Homebrew"

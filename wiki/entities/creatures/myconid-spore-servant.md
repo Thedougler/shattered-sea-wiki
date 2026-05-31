@@ -9,7 +9,6 @@ summary: CR 1 plant creature animated by myconid sovereign spores; retains no pe
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - plant
 sources:
   - XMM

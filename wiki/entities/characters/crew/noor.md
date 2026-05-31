@@ -9,7 +9,6 @@ summary: "Fifteen, enthusiastic, knows every sailing manual by heart and has sai
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - crew
   - recurring
 sources:
   - "Inbox/Session-02-Recap.md"

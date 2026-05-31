@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Umberlee's practical clergy: collectors, witnesses, and shrine operators whose neutrality lets them collect tribute from every side of a harbor."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - umberlee
   - waveservants

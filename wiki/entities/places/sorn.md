@@ -9,10 +9,7 @@ summary: "A reef-fringed Grung island in the Verdant Teeth — known from the wa
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - grung
-  - verdant-teeth
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Sorn.md"

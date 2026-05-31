@@ -9,9 +9,6 @@ summary: "A professional assessment of a serious injury and a supply list for a 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - medical
   - homebrew
 sources:
   - Homebrew

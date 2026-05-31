@@ -8,9 +8,7 @@ publish: true
 summary: "A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - food
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

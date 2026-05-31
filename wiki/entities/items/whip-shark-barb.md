@@ -9,7 +9,6 @@ summary: "Four-foot spike of bone and cartilage from a 60-ft whip shark; serrate
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - item
   - weapon-component
   - shark
 sources:

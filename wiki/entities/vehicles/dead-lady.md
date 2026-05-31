@@ -9,8 +9,6 @@ summary: "The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - undead
   - umberlee
   - antagonist

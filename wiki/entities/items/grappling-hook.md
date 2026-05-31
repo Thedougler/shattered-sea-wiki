@@ -9,8 +9,6 @@ summary: "A four-prong iron hook for boarding, climbing, and securing lines to d
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "PHB"

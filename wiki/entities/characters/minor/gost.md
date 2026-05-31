@@ -9,9 +9,7 @@ summary: "Stub — Half-orc berserker available as a loose hiring hook in the Wa
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - warren
+  - needs-detail
   - half-orc
   - mercenary
 sources:

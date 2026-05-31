@@ -11,7 +11,6 @@ updated: 2026-05-30
 tags:
   - tessarine
   - political
-  - minor-npc
 sources:
   - "Inbox/Calveno.md"
   - "Inbox/Warren-Marrows-Crate.md"

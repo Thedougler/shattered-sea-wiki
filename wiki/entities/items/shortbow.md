@@ -9,9 +9,6 @@ summary: "Simple ranged weapon — compact, light, no proficiency barrier, the d
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
-  - ranged
   - simple
 sources:
   - "D&D 2024 PHB"

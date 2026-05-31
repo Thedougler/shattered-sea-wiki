@@ -9,11 +9,8 @@ summary: "CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue
 created: 2026-04-12
 updated: 2026-05-30
 tags:
-  - creature
-  - monstrosity
   - aquatic
   - lair
-  - bestiary
   - cr5
 sources:
   - "Inbox/Sawek.md"

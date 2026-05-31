@@ -12,6 +12,10 @@ campaign: shattered-sea
 created: 2026-05-01
 updated: 2026-05-30
 tags:
+  - location
+  - city
+  - tessarine
+  - player-resource
 - location
 - city
 - tessarine

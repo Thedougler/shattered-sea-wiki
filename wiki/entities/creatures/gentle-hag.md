@@ -8,10 +8,7 @@ publish: false
 summary: CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 created: 2026-05-15
 updated: 2026-05-30
-tags:
-  - creature
-  - fey
-  - bestiary
+tags: []
 sources:
   - Homebrew
   - Pointy Hat

@@ -9,9 +9,7 @@ summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain 
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - celestial
-  - bestiary
 sources:
   - XMM
 confidence_level: high

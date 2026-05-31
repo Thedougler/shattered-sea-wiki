@@ -9,9 +9,6 @@ summary: "41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carrie
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - pc
-  - human
-  - rogue
   - swashbuckler
 sources:
   - "Inbox/Session-01-Recap.md"

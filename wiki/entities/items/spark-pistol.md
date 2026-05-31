@@ -9,10 +9,8 @@ summary: "A single-shot lightning pistol that fires 2d8 damage with no powder an
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - prototype
-  - antheri-adjacent
+  - antheri
   - homebrew
 sources:
   - Homebrew

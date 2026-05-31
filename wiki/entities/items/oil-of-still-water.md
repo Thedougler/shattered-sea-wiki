@@ -9,9 +9,6 @@ summary: "A topical compound that arrests surface bleeding within 10 minutes and
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
   - homebrew
 sources:
   - "Homebrew"

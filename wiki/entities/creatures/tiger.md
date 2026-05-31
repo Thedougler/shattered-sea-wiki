@@ -8,9 +8,7 @@ publish: false
 summary: CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - beast
+tags: []
 sources:
   - XPHB
 confidence_level: high

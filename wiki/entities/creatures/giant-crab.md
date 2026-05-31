@@ -8,10 +8,7 @@ publish: true
 summary: Public statblock reference for Giant Crab, a CR 1/8 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags:
-  - creature
-  - beast
-  - bestiary
+tags: []
 sources:
   - XPHB
 confidence_level: high

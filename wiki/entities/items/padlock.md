@@ -8,9 +8,7 @@ publish: true
 summary: "A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
+tags: []
 sources:
   - "PHB"
 confidence_level: medium

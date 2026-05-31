@@ -9,9 +9,6 @@ summary: "A mainmast boom installation that forces favorable wind for 4 hours on
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
-  - navigation
   - homebrew
   - uncommon
 sources:

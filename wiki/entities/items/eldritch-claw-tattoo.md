@@ -9,12 +9,9 @@ summary: "Inky tattoo across talons and forearms — makes unarmed strikes magic
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - wondrous-item
-  - arcane
   - military
   - sentinel
-  - crissdalynn
 sources:
   - "Inbox/Crissdalynn-Khinriss-Interview.md"
   - "Inbox/Sentinels-Of-The-Eyrie.md"

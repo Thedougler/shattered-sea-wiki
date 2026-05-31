@@ -8,10 +8,7 @@ publish: true
 summary: "Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - service
-  - shipwright
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

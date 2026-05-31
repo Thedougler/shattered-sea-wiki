@@ -9,10 +9,8 @@ summary: "Chaotic Good minor deity of sailors, sea survival, favorable winds, an
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - deity
   - sailors
   - survival
-  - minor
 sources:
   - "Inbox/Valkur.md"
   - "Inbox/Shattered-Sea-Pantheon.md"

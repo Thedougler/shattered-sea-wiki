@@ -9,9 +9,6 @@ summary: "A jug of clean cistern-collected fresh water — essential at sea and 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - drink
-  - consumable
   - maritime
 sources:
   - "Homebrew"

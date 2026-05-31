@@ -9,7 +9,6 @@ summary: "The Dockfront's working tavern in Port Tidefall — cheap rum, long be
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - building
   - tavern
   - rattkin
 sources:

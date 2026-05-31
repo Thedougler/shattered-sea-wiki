@@ -9,9 +9,6 @@ summary: "Air-dried and salted fish — light, shelf-stable, and available fresh
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - provision
-  - consumable
   - maritime
 sources:
   - "Homebrew"

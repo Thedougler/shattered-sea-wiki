@@ -9,7 +9,6 @@ summary: "An old Waveservant shrine cut into black stone on Vel-Orn in the Sunke
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - shrine
   - umberlee
   - sunken-crown

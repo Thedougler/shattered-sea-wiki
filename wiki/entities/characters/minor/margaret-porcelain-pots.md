@@ -11,7 +11,6 @@ updated: 2026-05-30
 tags:
   - dragonborn
   - social
-  - minor-npc
 sources:
   - "Inbox/Delmar-Fisk.md"
   - "Inbox/Maggie-Porcelain-Pots.md"

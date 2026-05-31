@@ -9,10 +9,8 @@ summary: "Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - item
   - antheri
   - armor
-  - wondrous
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Session-01-Recap.md"

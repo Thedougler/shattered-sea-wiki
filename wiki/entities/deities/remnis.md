@@ -9,9 +9,7 @@ summary: "Primary deity of Crissdalynn Khinriss. Aarakocra sky-pantheon. She pra
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - stub
-  - deity
-  - aarakocra
+  - needs-detail
 sources:
   - "Inbox/Crissdalynn-Khinriss.md"
 confidence_level: inferred

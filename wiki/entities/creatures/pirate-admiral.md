@@ -9,9 +9,6 @@ summary: "CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
-  - bestiary
   - cr12
 sources:
   - "Inbox/pirate-admiral.md"

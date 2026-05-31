@@ -9,8 +9,6 @@ summary: "Umberlee's shrine on the Mercatura canal front — basin fed from the 
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - place
-  - calveno
   - shrine
   - umberlee
   - dm-active

@@ -9,9 +9,6 @@ summary: "Transit and routing for small cargo that cannot move through official 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - warren
   - contraband
 sources:
   - Homebrew

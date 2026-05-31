@@ -8,9 +8,7 @@ publish: true
 summary: "Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
+tags: []
 sources:
   - "PHB"
 confidence_level: medium

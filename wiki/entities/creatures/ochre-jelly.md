@@ -9,7 +9,6 @@ summary: CR 2 ooze that deals acid damage and splits into smaller jellies when s
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - ooze
 sources:
   - XMM

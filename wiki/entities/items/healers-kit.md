@@ -8,11 +8,7 @@ publish: true
 summary: "A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
-  - tool
-  - medical
+tags: []
 sources:
   - "PHB"
 confidence_level: medium

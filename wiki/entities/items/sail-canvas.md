@@ -9,10 +9,7 @@ summary: "Heavy woven cloth for sail construction and repair, sold by the square
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
-  - ship
 sources:
   - Homebrew
 confidence_level: confirmed

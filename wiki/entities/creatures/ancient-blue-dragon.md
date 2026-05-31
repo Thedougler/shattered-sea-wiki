@@ -8,10 +8,7 @@ publish: true
 summary: CR 23 chromatic dragon laired in the Redwind Isles of the Outer Reach; it has made the islands uninhabitable and doesn't need to explain itself.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - dragon
-  - bestiary
+tags: []
 sources:
   - XMM
   - Homebrew

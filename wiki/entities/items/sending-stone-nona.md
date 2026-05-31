@@ -9,7 +9,6 @@ summary: "Sending stone given to Perrin by Nona Black-Jaw after he promised a fa
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - item
   - magic
   - communication
 sources:

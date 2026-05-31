@@ -9,10 +9,7 @@ summary: "Crown administrative office at the Tidefall Dockfront — vessel ratin
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - dravosi
-  - port-tidefall
 sources:
   - "Inbox/Reginald-Fenn.md"
   - "Inbox/Harbourmasters-Office.md"

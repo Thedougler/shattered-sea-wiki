@@ -9,7 +9,6 @@ summary: CR 4 ooze that dissolves metal and wood on contact; splits into smaller
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - ooze
 sources:
   - XMM

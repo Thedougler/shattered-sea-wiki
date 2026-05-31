@@ -9,11 +9,9 @@ summary: "CR 8 elemental serpent from the Plane of Water — the second entity t
 created: 2026-05-16
 updated: 2026-05-30
 tags:
-  - creature
   - elemental
   - aquatic
   - boss
-  - bestiary
   - cr8
   - planar
 sources:

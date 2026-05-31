@@ -9,10 +9,7 @@ summary: "The southern arc of the Verdant Scatter — dozens of low limestone an
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - islands
-  - midchain
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Midchain.md"

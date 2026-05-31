@@ -10,9 +10,6 @@ created: 2026-05-03
 updated: 2026-05-30
 tags:
   - player-resource
-  - index
-  - bestiary
-  - creature
 sources:
   - Inbox/beastiary/index.md
 confidence_level: medium

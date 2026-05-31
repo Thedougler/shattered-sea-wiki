@@ -9,11 +9,8 @@ summary: "Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - reference
-  - ship
   - maritime
   - battlemap
-  - bastion
 sources:
   - "Inbox/HCS-Surety-Layout.md"
 confidence_level: medium

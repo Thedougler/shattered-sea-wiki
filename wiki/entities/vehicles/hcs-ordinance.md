@@ -9,8 +9,6 @@ summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admira
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
   - tier-4
 sources:

@@ -9,8 +9,6 @@ summary: "A hull-mounted lens for 60-foot underwater observation from below deck
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
   - scouting
   - homebrew
 sources:

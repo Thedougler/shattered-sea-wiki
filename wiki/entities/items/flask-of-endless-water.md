@@ -9,9 +9,7 @@ summary: "A ceramic flask that produces unlimited fresh water on command — str
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - wondrous-item
-  - jean-claude
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Flask-of-Endless-Water.md"

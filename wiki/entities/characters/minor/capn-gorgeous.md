@@ -10,8 +10,6 @@ created: 2026-05-11
 updated: 2026-05-30
 tags:
   - dravosi
-  - deceased
-  - minor-npc
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Session-02-Recap.md"

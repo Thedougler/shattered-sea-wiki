@@ -9,11 +9,7 @@ summary: "Quick-reference for Calveno — the canal city, its districts, key peo
 created: 2026-05-29
 updated: 2026-05-30
 tags:
-  - place
-  - settlement
   - port
-  - reference
-  - players
 sources:
   - "Inbox/calven-summary.md"
 confidence_level: confirmed

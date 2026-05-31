@@ -8,12 +8,10 @@ publish: false
 summary: "Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs."
 created: "2026-05-30"
 tags:
-  - creature
   - aberration
   - slaad
   - boss
   - cr8
-  - calveno
   - named-enemy
 sources:
   - Homebrew
@@ -34,7 +32,7 @@ name: "Otar the Foul"
 
 | **Named Antagonist** | **Otar** *(OH-tar)* — Red Slaad, Slaad-tongue root, guttural and blunt |
 
-![[wiki/assets/sessions/session-04/calveno-slaad-emergence-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Combat art, 16:9 widescreen cinematic. A massive red Slaad hauls itself out of a collapsed plaza crater in the Mercatura, dust and rubble cascading off its back, festival cloth tangled around one arm, mouth open in a roar that scatters a majority-human Calveno crowd with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. Show the crater, broken cobblestones, festival lanterns, and civilians fleeing at the edges; no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/calveno-slaad-emergence-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Combat art, 16:9 widescreen cinematic. A massive red Slaad hauls itself out of a collapsed plaza crater in the Mercatura, dust and rubble cascading off its back, festival cloth tangled around one arm, mouth open in a roar that scatters a majority-human Calveno crowd with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. Show the crater, broken cobblestones, festival lanterns, and civilians fleeing at the edges; no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 Not a nameless Red Slaad pulled from Limbo at random. Simone's summoning circle was keyed to a specific resonance — what it called through has a name among the few planar scholars who catalogue individual slaadi: Otar the Foul.
 

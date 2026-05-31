@@ -9,8 +9,6 @@ summary: "An iron-tipped wooden shaft — the most basic polearm, thrown or thru
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - simple
   - melee
   - thrown

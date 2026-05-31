@@ -9,8 +9,6 @@ summary: "A Dravosi Crown heavy frigate — the standard Tier 3 patrol vessel of
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
   - tier-3
 sources:

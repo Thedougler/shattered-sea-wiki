@@ -9,10 +9,7 @@ summary: "Shallow-water or slipped keel inspection with a written assessment —
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - maritime
-  - ship-maintenance
 sources:
   - "Homebrew"
 confidence_level: medium

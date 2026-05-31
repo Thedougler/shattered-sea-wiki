@@ -9,9 +9,7 @@ summary: "Crown-trained Dravosi navigator, barely twenty. Killed during the boar
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - npc
   - dravosi
-  - deceased
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Ensign-Wouters.md"

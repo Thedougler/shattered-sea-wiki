@@ -8,9 +8,7 @@ publish: false
 summary: CR 1/8 fey goblin foot soldier; drops to 0 HP from any single hit — dangerous only in numbers.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - fey
+tags: []
 sources:
   - XMM
 confidence_level: high

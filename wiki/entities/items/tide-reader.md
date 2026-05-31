@@ -9,9 +9,6 @@ summary: "A hull-mounted hydrographic instrument — reads current speed and dir
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
-  - navigation
   - homebrew
 sources:
   - Homebrew

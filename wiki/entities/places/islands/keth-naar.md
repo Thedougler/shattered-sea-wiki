@@ -9,9 +9,6 @@ summary: "A tabaxi city of twelve black basalt promontories at the edge of the B
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
-  - tabaxi
   - sunken-crown
 sources:
   - "Homebrew"

@@ -10,8 +10,6 @@ created: 2026-05-17
 updated: 2026-05-30
 tags:
   - lizardfolk
-  - minor-npc
-  - kalowe
 sources:
   - "Inbox/Noa-Fifita.md"
   - "Inbox/Taufa-Fifita.md"

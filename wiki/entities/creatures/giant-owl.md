@@ -9,9 +9,7 @@ summary: Public statblock reference for Giant Owl, a CR 1/4 celestial in the Sha
 created: '2026-04-25'
 updated: 2026-05-30
 tags:
-  - creature
   - celestial
-  - bestiary
 sources:
   - XMM
 confidence_level: high

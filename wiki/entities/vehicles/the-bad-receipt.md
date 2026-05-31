@@ -9,8 +9,6 @@ summary: "A Tier 2 armed pirate schooner out of Kalowe, built to pass as a dispu
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - pirate
   - tier-2
 sources:

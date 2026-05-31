@@ -9,8 +9,6 @@ summary: "Waterproofed canvas for covers, gear bags, and anything that needs to 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "Homebrew"

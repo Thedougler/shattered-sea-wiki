@@ -8,10 +8,7 @@ publish: true
 summary: "Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying."
 created: 2026-05-02
 updated: 2026-05-30
-tags:
-  - gnome
-  - arcane
-  - naturalist
+tags: []
 sources:
   - "Inbox/Algernon-Reginald-Clyde.md"
 confidence_level: medium

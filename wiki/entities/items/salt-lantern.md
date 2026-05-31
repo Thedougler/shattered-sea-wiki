@@ -9,9 +9,6 @@ summary: "A brass lantern that burns indefinitely without fuel — but only in s
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
-  - arcane
   - morsani-stock
   - maritime
   - homebrew

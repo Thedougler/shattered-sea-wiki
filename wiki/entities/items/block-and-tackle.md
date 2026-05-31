@@ -9,10 +9,7 @@ summary: "A pulley system for rigging and cargo work — multiplies hauling forc
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
-  - tool
 sources:
   - PHB
 confidence_level: medium

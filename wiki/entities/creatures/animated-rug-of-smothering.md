@@ -9,9 +9,7 @@ summary: "CR 2 construct. Grapples and suffocates one Medium or smaller creature
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - construct
-  - bestiary
   - cr2
 sources:
   - "Inbox/animated-rug-of-smothering.md"

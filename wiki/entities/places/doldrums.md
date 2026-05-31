@@ -9,11 +9,8 @@ summary: "A windless band of flat water below the Midchain's southern edge — m
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - maritime
   - weather
-  - navigation
 sources:
   - "Inbox/Doldrums.md"
 confidence_level: medium

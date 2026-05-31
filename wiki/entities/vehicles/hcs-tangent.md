@@ -9,8 +9,6 @@ summary: "Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier arma
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
   - warship
 sources:

@@ -9,7 +9,6 @@ summary: "A canvas hammock on the upper floor — shared space, close quarters, 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - lodging
 sources:
   - "Homebrew"

@@ -9,9 +9,7 @@ summary: CR 1/2 fiend; raiding soldiers of the deep encountered in packs along s
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - fiend
-  - bestiary
 sources:
   - XMM
 confidence_level: high

@@ -9,9 +9,7 @@ summary: "The eastern working harbour of Calder's Tooth — fishing fleets, inde
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - harbour
-  - calders-tooth
   - dravosi
 sources:
   - Homebrew

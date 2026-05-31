@@ -9,8 +9,6 @@ summary: "Perrin Black-Jaw's family brig — built by his grandfather Vincenzo B
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - rattkin
   - black-jaw
   - lost

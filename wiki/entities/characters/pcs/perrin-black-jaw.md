@@ -9,10 +9,7 @@ summary: "Ten-year-old fancy-rat Rattkin Bard 3 / Warlock 1. Built the Vestra to
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - pc
   - rattkin
-  - bard
-  - warlock
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Session-03-Recap.md"

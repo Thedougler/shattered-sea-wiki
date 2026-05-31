@@ -9,8 +9,6 @@ summary: "The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - tessarine
   - tier-3
   - cargo

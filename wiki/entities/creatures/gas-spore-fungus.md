@@ -9,7 +9,6 @@ summary: CR 1/2 fungal plant that explodes on death, releasing spores that infec
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - plant
 sources:
   - XMM

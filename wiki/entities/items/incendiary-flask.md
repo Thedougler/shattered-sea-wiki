@@ -9,11 +9,7 @@ summary: "Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
-  - alchemical
   - dravosi
-  - weapon
   - homebrew
 sources:
   - "Homebrew"

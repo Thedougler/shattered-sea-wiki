@@ -9,8 +9,6 @@ summary: "A deck-mounted fog generator for concealment and disengagement maneuve
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
   - concealment
   - homebrew
 sources:

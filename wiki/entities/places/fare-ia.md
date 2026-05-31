@@ -9,11 +9,8 @@ summary: "A small Port Tidefall dock-market stall selling sweet, sharp Grung-sty
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - stall
   - grung
-  - port-tidefall
 sources:
   - "Inbox/Fare-Ia.md"
 confidence_level: medium

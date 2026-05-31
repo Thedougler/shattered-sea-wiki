@@ -9,9 +9,6 @@ summary: "CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
-  - bestiary
   - cr10
 sources:
   - "Inbox/young-dragon-turtle.md"

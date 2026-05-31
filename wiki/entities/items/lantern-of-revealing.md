@@ -9,7 +9,6 @@ summary: "A magic hooded lantern that reveals invisible creatures and objects wi
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - magic-item
 sources:
   - "DMG"

@@ -9,9 +9,7 @@ summary: "Lean shipwright who catalogues damage without being asked and stays if
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - crew
   - recurring
-  - shipwright
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"

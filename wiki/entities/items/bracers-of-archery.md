@@ -9,9 +9,6 @@ summary: "Leather bracers that grant proficiency with longbow and shortbow, and 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - wondrous
-  - ranged
   - attunement
 sources:
   - PHB

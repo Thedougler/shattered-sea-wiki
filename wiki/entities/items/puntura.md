@@ -9,8 +9,6 @@ summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
   - magic-item
   - commission
   - maritime

@@ -9,10 +9,7 @@ summary: "CR 20 undead lich. Warlock lich whose phylacteries are signed pact con
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - lich
-  - bestiary
   - cr20
 sources:
   - "Inbox/Covenant.md"

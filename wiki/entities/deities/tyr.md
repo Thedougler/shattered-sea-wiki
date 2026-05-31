@@ -9,7 +9,6 @@ summary: "Lawful Good god of law, justice, civic order, and Dravosi state legiti
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - deity
   - dravosi
   - law
   - justice

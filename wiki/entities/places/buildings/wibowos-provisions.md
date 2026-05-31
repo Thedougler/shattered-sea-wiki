@@ -10,9 +10,7 @@ created: 2026-05-28
 updated: 2026-05-30
 tags:
   - location
-  - kalowe
   - provisions
-  - shop
 sources:
   - "Inbox/Suryo-Wibowo.md"
   - "Inbox/Wibowos-Provisions.md"

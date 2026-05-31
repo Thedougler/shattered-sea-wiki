@@ -9,9 +9,6 @@ summary: "Sealed barrel for storing fresh water aboard ship — the difference b
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
-  - provision
   - maritime
 sources:
   - Homebrew

@@ -8,10 +8,7 @@ publish: true
 summary: CR 3 beast; hunts in pods through the cold open water of the Outer Reach — a shark is an event, a pod of killer whales is a situation that develops.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - beast
-  - bestiary
+tags: []
 sources:
   - XMM
 confidence_level: high

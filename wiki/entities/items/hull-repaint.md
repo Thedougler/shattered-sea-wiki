@@ -9,10 +9,7 @@ summary: "Full hull colour strip and repaint — changes what a vessel looks lik
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - maritime
-  - ship-maintenance
 sources:
   - "Homebrew"
 confidence_level: medium

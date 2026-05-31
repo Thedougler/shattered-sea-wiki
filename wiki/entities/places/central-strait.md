@@ -9,8 +9,6 @@ summary: "The main east-west shipping corridor between the Crown Islands and the
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - maritime
   - strait
 sources:

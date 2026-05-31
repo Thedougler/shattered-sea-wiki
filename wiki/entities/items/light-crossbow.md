@@ -9,9 +9,6 @@ summary: "A self-contained ranged weapon requiring no training to use effectivel
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
-  - ranged
   - simple
 sources:
   - "PHB"

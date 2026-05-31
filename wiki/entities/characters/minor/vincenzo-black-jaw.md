@@ -10,8 +10,6 @@ created: 2026-05-20
 updated: 2026-05-30
 tags:
   - rattkin
-  - deceased
-  - minor-npc
 sources:
   - "Inbox/Vincenzo-Black-Jaw.md"
 confidence_level: medium

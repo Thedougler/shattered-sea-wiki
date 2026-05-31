@@ -9,9 +9,6 @@ summary: "The Fifita family chandlery on Kalowe's second island — rope, canvas
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - kalowe
   - chandlery
   - trade
 sources:

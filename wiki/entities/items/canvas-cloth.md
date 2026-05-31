@@ -9,8 +9,6 @@ summary: "Bolts of canvas and heavy cloth for sewing, patching, and general fabr
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
   - craft
 sources:

@@ -9,9 +9,7 @@ summary: "The muddy southern switchback road crossing Calder's Tooth between Sou
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
   - road
-  - calders-tooth
 sources:
   - "Homebrew"
 confidence_level: medium

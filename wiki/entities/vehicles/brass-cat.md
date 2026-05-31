@@ -9,12 +9,9 @@ summary: "Catarina DaVirelli's experimental Tier 2 schooner — copper-sheathed,
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - tier-2
   - submersible
   - clockwork
-  - midchain
 sources:
   - "Inbox/Brass-Cat.md"
 confidence_level: medium

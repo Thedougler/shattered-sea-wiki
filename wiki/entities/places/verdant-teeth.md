@@ -9,10 +9,7 @@ summary: "Five reef-fringed Grung-held islands south of Kalowe — dense rainfor
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
   - grung
-  - midchain
 sources:
   - "Inbox/Jean-Claude-Tabarnack.md"
   - "Inbox/Grung.md"

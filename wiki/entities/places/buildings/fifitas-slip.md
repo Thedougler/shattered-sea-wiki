@@ -10,7 +10,6 @@ created: 2026-05-28
 updated: 2026-05-30
 tags:
   - location
-  - kalowe
   - boatyard
 sources:
   - "Inbox/Noa-Fifita.md"

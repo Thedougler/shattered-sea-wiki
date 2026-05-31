@@ -9,10 +9,7 @@ summary: "Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken 
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
-  - crown
   - cutter
   - prize
 sources:

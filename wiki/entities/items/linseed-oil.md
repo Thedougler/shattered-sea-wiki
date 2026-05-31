@@ -9,8 +9,6 @@ summary: "Pressed flaxseed oil for treating wood and canvas against moisture —
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
   - maritime
 sources:
   - "Homebrew"

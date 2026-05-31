@@ -9,10 +9,7 @@ summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - book
-  - reference
-  - naturalist
 sources:
   - "Inbox/Algernon-Reginald-Clyde.md"
   - "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"

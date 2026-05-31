@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - grung
 sources:

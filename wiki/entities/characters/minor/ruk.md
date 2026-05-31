@@ -10,7 +10,6 @@ created: 2026-05-20
 updated: 2026-05-30
 tags:
   - lizardfolk
-  - minor-npc
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Ruk.md"

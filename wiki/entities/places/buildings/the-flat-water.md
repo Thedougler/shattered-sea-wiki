@@ -9,9 +9,6 @@ summary: "The main drinking house and lodging on Kalowe's second island — name
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - kalowe
   - tavern
   - lodging
 sources:

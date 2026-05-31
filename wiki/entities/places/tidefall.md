@@ -9,8 +9,7 @@ summary: "Location searched by Master Kyzil when looking for Crissdalynn after h
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - stub
-  - place
+  - needs-detail
 sources:
   - "Inbox/Session-03-Recap.md"
 confidence_level: inferred

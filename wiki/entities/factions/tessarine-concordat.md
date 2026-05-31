@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Colonial commercial power that turns credit, contracts, insurance, route underwriting, and trade dependency into political leverage. Calveno is its strongest northern foothold."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - tessarine
   - maritime

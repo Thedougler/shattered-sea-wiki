@@ -9,12 +9,8 @@ summary: "A Grung Tier 1 war proa — a double-outrigger raiding vessel built fr
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - grung
   - raid
-  - verdant-teeth
-  - tier-1
 sources:
   - "Inbox/Grung-Clans.md"
   - "Inbox/Vethka.md"

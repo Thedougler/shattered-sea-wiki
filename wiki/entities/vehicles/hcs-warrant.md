@@ -9,8 +9,6 @@ summary: "A Dravosi Crown Tier 2 enforcement brigantine commanding the Central S
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
   - dravosi
   - tier-2
   - enforcement

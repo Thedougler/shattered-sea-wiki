@@ -9,9 +9,7 @@ summary: "CR 9 undead. Not a lich — an undead born from slain humanoids that p
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
   - undead
-  - bestiary
   - cr9
 sources:
   - "Inbox/Restless.md"

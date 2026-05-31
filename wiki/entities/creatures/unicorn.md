@@ -9,9 +9,7 @@ summary: A CR 5 celestial; unconfirmed in the Shattered Sea — a single interio
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - celestial
-  - bestiary
 sources:
   - XMM
 confidence_level: high

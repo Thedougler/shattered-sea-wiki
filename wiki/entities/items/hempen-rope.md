@@ -9,8 +9,6 @@ summary: "Standard naval rope sold by the foot at Shattered Sea chandleries — 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "PHB"

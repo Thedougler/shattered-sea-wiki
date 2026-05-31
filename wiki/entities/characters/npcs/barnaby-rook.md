@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - recurring

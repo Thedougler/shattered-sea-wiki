@@ -9,9 +9,6 @@ summary: "Line, hooks, and leads for fishing — supplements ship's provisions o
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
-  - tool
   - maritime
 sources:
   - "PHB"

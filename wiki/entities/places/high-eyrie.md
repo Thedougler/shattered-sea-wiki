@@ -9,11 +9,7 @@ summary: "Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - monastery
-  - aarakocra
-  - crown-islands
 sources:
   - "Inbox/Crissdalynn-Khinriss.md"
   - "Inbox/Campaign-Timeline.md"

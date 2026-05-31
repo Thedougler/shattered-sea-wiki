@@ -9,8 +9,6 @@ summary: "A grooved iron-strapped pulley in an oak shell — the basic component
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "Homebrew"

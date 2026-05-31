@@ -10,10 +10,7 @@ created: 2026-05-28
 updated: 2026-05-30
 tags:
   - location
-  - building
-  - port-tidefall
   - instruments
-  - navigation
 sources:
   - "Inbox/Oswald-Crench.md"
   - "Inbox/Shelf-Instrument-Dealer.md"

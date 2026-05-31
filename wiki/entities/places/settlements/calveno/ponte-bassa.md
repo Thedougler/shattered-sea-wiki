@@ -9,10 +9,7 @@ summary: "Canal-level tavern built into the bridge masonry at the main Calveno c
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - tavern
-  - calveno
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
   - "Inbox/Ponte-Bassa.md"

@@ -9,10 +9,7 @@ summary: "Mast stepping, splicing, and repair for vessels up to two masts — th
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - maritime
-  - ship-maintenance
 sources:
   - "Homebrew"
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "The barren black-stone shrine island of the Sunken Crown — Umberlee'
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - umberlee
   - sunken-crown
   - shrine

@@ -8,9 +8,7 @@ publish: true
 summary: "Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

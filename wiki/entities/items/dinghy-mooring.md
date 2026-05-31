@@ -9,8 +9,6 @@ summary: "Overnight lagoon-side tie-up for a small dinghy or ship's launch — r
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - maritime
 sources:
   - Homebrew

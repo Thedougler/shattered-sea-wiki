@@ -9,10 +9,7 @@ summary: "Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells bere
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - calveno
-  - gnome
+  - needs-detail
   - craftsman
 sources:
   - "Inbox/Calveno-Jean-Claude-Beats.md"

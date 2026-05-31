@@ -10,8 +10,6 @@ created: 2026-05-17
 updated: 2026-05-30
 tags:
   - dwarf
-  - minor-npc
-  - port-tidefall
 sources:
   - "Inbox/Oswald-Crench.md"
 confidence_level: medium

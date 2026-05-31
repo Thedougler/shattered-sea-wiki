@@ -9,9 +9,7 @@ summary: "Spare planks, bolts, canvas, and rope sold at chandlery rate from work
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - gear
-  - shipwright
   - material
 sources:
   - Homebrew

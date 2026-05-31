@@ -9,9 +9,6 @@ summary: "Dravosi fortress-port carved into the cliff of Calder's Tooth in three
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - settlement
-  - crown-islands
   - dravosi
   - harbour
 sources:

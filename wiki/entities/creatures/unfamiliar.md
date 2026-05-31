@@ -9,8 +9,6 @@ summary: "CR 5 monstrosity. Designed to hunt familiars and their summoners — i
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - creature
-  - bestiary
   - cr5
 sources:
   - "Inbox/Unfamiliar.md"

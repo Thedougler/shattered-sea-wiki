@@ -9,10 +9,6 @@ summary: "Martial ranged weapon. Highest single-shot damage (1d12), but Loading,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - weapon
-  - ranged
-  - martial
   - firearm
   - homebrew
 sources:

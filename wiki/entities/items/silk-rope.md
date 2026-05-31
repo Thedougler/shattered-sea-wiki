@@ -9,8 +9,6 @@ summary: "Lighter and stronger than hemp, sold in small quantities at premium ch
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - rope
 sources:
   - PHB

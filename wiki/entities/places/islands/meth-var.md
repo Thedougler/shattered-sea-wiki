@@ -9,10 +9,7 @@ summary: "The exposed watch island at the eastern edge of the Sunken Crown, faci
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - sunken-crown
-  - tabaxi
 sources:
   - "Homebrew"
 confidence_level: medium

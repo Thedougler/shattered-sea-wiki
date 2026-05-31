@@ -9,9 +9,6 @@ summary: "CR 1 humanoid pirate statblock. Charming, daggers-out, fights with pan
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - humanoid
-  - bestiary
   - cr1
 sources:
   - "Inbox/pirate.md"

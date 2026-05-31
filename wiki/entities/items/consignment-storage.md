@@ -9,9 +9,6 @@ summary: "Secure short-term storage in the Warren — 1 gp per week, three-week 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - warren
   - homebrew
 sources:
   - Homebrew

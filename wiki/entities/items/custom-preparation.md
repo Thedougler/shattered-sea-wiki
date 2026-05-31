@@ -9,9 +9,6 @@ summary: "A commissioned herbal or medicinal preparation — 1–3 days, ingredi
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
-  - warren
   - homebrew
 sources:
   - Homebrew

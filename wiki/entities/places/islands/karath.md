@@ -9,10 +9,7 @@ summary: "A Verdant Teeth island with no harbour, no smoke, no visible reason to
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - island
   - grung
-  - verdant-teeth
 sources:
   - "Inbox/Dreth.md"
   - "Inbox/Karath.md"

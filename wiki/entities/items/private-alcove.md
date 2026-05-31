@@ -9,10 +9,7 @@ summary: "A curtained booth off the south wall of the Low Lamp — for conversat
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
   - lodging
-  - warren
-  - calveno
 sources:
   - "Homebrew"
 confidence_level: medium

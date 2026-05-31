@@ -9,10 +9,7 @@ summary: "Replacing damaged hull planking — minor to moderate damage handled i
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - maritime
-  - ship-maintenance
 sources:
   - "Homebrew"
 confidence_level: medium

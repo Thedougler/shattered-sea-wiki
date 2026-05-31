@@ -9,10 +9,7 @@ summary: "DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: al
 created: '2026-05-28'
 updated: 2026-05-30
 tags:
-  - stub
-  - place
-  - building
-  - shop
+  - needs-detail
 sources:
   - "wiki/entities/vehicles/brass-cat.md"
   - "wiki/entities/creatures/animated-rug-of-smothering.md"

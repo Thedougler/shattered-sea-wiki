@@ -9,8 +9,6 @@ summary: "A red restorative draught — restores 2d4+2 hit points when drunk. Th
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - consumable
   - magic-item
 sources:
   - "DMG"

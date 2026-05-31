@@ -9,9 +9,7 @@ summary: "Stub — referenced in [[ship-upgrades]]. No page yet."
 created: 2026-05-29
 updated: 2026-05-30
 tags:
-  - item
-  - ship-upgrade
-  - stub
+  - needs-detail
 sources: []
 confidence_level: low
 item_type: ship-upgrade

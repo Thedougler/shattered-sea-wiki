@@ -9,9 +9,6 @@ summary: "CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea rese
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
-  - dragon
-  - bestiary
   - cr24
   - mythic
 sources:

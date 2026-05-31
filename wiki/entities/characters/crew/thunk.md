@@ -9,10 +9,7 @@ summary: "Former Crown Shipyards blacksmith turned naval gunner — the best man
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - crew
   - recurring
-  - gunner
-  - orc
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"

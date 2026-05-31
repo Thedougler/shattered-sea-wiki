@@ -9,11 +9,8 @@ summary: "The Dravosi fort crowning Port Tidefall — visible from the harbour a
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - fort
   - dravosi
-  - port-tidefall
 sources:
   - "Inbox/Fort-Crestwall.md"
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "Dying privateer in Grimaldi's Dispensary, Kalowe — has half a 40-yea
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - npc
-  - kalowe
   - privateer
   - treasure
 sources:

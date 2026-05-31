@@ -9,9 +9,6 @@ summary: "A tapered steel tool for separating rope strands and working knots —
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
-  - tool
   - maritime
 sources:
   - "Homebrew"

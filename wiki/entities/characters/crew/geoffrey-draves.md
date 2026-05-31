@@ -9,9 +9,6 @@ summary: "Young Dravosi deckhand recruited by Delmar mid-fight — a sailor by h
 created: 2026-05-10
 updated: 2026-05-30
 tags:
-  - crew
-  - npc
-  - human
   - dravosi
   - recurring
 sources:

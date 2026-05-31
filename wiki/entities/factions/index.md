@@ -9,6 +9,7 @@ campaign: shattered-sea
 created: 2026-05-01
 updated: 2026-05-30
 tags:
+  - player-resource
 - player-resource
 - index
 - faction

@@ -9,10 +9,7 @@ summary: "Umberlee's shrine on the main causeway at Kalowe — a stone niche, a 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
   - shrine
-  - kalowe
   - umberlee
 sources:
   - "Homebrew"

@@ -9,9 +9,7 @@ summary: CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shel
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - creature
   - fiend
-  - bestiary
 sources:
   - XMM
 confidence_level: high

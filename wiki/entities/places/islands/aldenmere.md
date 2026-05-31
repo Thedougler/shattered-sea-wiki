@@ -9,8 +9,6 @@ summary: "The quietest of the Crown Islands — farms, fishing fleets, and a sma
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - island
-  - crown-islands
   - dravosi
 sources:
   - Homebrew

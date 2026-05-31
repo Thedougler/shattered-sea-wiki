@@ -8,10 +8,7 @@ publish: true
 summary: "Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - equipment
-  - navigation
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

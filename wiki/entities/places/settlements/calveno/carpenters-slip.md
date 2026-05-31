@@ -9,9 +9,7 @@ summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - building
   - shipyard
-  - calveno
   - le-paludi
 sources:
   - Inbox/places/calveno/Carpenters-Slip.md

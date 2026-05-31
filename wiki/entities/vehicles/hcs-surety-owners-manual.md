@@ -9,10 +9,8 @@ summary: "Player-facing reference for owning and operating the Uncertainty (ex-H
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - reference
-  - ship
   - mechanics
-  - player-facing
+  - player-resource
 sources:
   - "Inbox/HCS-Surety-Owners-Manual.md"
 confidence_level: medium

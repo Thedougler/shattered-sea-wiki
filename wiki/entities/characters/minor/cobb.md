@@ -9,11 +9,9 @@ summary: "Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - stub
-  - npc
+  - needs-detail
   - rattkin
   - passage
-  - calveno
 sources:
   - "Inbox/Session-03-Recap.md"
 confidence_level: inferred

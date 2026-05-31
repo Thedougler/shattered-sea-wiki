@@ -9,10 +9,7 @@ summary: "An introduction to someone who can produce passage papers — not the 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - service
   - passage
-  - kalowe
 sources:
   - "Homebrew"
 confidence_level: medium

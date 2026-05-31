@@ -9,9 +9,7 @@ summary: "Rattkin elder who runs the Low Lamp in the Warren. Old enough to have 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - minor-npc
   - rattkin
-  - warren
 sources:
   - "Inbox/Essa-Two-Tooth.md"
 confidence_level: medium

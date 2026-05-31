@@ -9,8 +9,6 @@ summary: "Player-facing index of known ships — vessels the party sails, has sa
 created: 2026-05-04
 updated: 2026-05-30
 tags:
-  - index
-  - ship
   - player-resource
 sources:
   - "Inbox/ships/index.md"

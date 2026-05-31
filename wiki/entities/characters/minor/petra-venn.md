@@ -9,9 +9,7 @@ summary: "Stub — Dravosi handler operating in Calveno under Tessarine merchant
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - minor
-  - calveno
+  - needs-detail
   - dravosi
   - tessarine
   - intelligence

@@ -8,10 +8,7 @@ publish: true
 summary: CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-tags:
-  - creature
-  - dragon
-  - bestiary
+tags: []
 sources:
   - XMM
 confidence_level: high

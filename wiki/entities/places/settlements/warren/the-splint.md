@@ -9,10 +9,6 @@ summary: "The Warren's apothecary and healer — a small, methodical Rattkin nam
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - building
-  - warren
-  - calveno
   - rattkin
   - healer
 sources:

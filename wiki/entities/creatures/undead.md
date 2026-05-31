@@ -9,9 +9,6 @@ summary: DM index for undead creature types in the Shattered Sea bestiary — Po
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - index
-  - bestiary
-  - creature
   - undead
 sources:
   - Inbox/beastiary/undead/index.md

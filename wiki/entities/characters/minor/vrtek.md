@@ -11,7 +11,6 @@ updated: 2026-05-30
 tags:
   - rattkin
   - social
-  - minor-npc
 sources:
   - "Inbox/Vrtek.md"
 confidence_level: medium

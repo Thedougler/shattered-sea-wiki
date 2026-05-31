@@ -9,9 +9,6 @@ summary: "The eastern end of the Verdant Scatter — high cliffs, cold upwelling
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - place
-  - region
-  - navigation
   - drowned-maw
   - shelfworks
 sources:

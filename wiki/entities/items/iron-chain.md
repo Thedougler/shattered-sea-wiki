@@ -9,8 +9,6 @@ summary: "Drop-forged iron chain sold by the foot — rigging, mooring, securing
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - equipment
   - maritime
 sources:
   - "PHB"

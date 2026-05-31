@@ -9,10 +9,7 @@ summary: "DM-facing operational guide for running the Uncertainty (ex-HCS Surety
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - reference
-  - ship
   - mechanics
-  - dm-only
 sources:
   - "Inbox/HCS-Surety-DM-Guide.md"
 confidence_level: medium

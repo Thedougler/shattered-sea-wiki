@@ -9,9 +9,6 @@ summary: "Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - vehicle
-  - ship
-  - tier-1
   - prize
   - active_arc
 sources:

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
 sources:

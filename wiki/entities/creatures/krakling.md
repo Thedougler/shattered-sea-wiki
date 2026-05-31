@@ -9,11 +9,9 @@ summary: "CR 6 juvenile elemental kraken from the Elemental Plane of Water — e
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - creature
   - elemental
   - aquatic
   - boss
-  - bestiary
   - cr6
   - planar
 sources:

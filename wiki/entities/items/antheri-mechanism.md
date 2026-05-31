@@ -9,8 +9,6 @@ summary: "Dark-alloy mechanisms recovered from Antheri ruins — faintly iridesc
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - item
-  - arcane
   - antheri
 sources:
   - Homebrew

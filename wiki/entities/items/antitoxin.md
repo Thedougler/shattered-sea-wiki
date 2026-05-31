@@ -8,9 +8,7 @@ publish: true
 summary: "A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - item
-  - consumable
+tags: []
 sources:
   - PHB
 confidence_level: medium

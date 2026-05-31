@@ -10,7 +10,7 @@ description: >
 disable-model-invocation: true
 ---
 
-> Cross-cutting rules live in `wiki/system/doctrine.md`. Load it on demand.
+> Sandbox rules are in CLAUDE.md (always loaded). Operational rules: see `.claude/skills/ttrpg-llm-wiki-init/references/`.
 
 ## What this produces
 

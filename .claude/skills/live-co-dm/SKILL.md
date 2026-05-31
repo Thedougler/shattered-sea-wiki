@@ -15,10 +15,10 @@ description: >
   continuous 4h+ transcription with accurate, overlap-aware speaker separation.
 ---
 
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement,
-> frontmatter, auto-correct) live in `wiki/system/doctrine.md`. **In live mode you
-> deliberately skip most of them** — see below. Grounding/agency non-negotiables are
-> shared with `.claude/skills/prep-session/references/co-dm.md`.
+> Sandbox rules (PC boundary, NPC agency, pressures not plots) are in CLAUDE.md.
+> **In live mode you deliberately skip most operational rules** — see below.
+> Grounding/agency non-negotiables are shared with
+> `.claude/skills/prep-session/references/co-dm.md`.
 
 This skill has two distinct users:
 

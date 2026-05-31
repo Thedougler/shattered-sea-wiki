@@ -13,8 +13,6 @@ description: >
   the PC who has been waiting.
 ---
 
-> Cross-cutting rules (reading order, sandbox constraints, the PC-connection requirement, frontmatter, auto-correct, wikilink standards) live in `wiki/system/doctrine.md`. Load it on demand. This skill covers only what is specific to running a session.
-
 ## What this produces
 
 A **session run guide**: a DM-only operating document for one session of play. Not a story, not a script, not a recap. The DM opens this one file at the table and runs the whole session from it — written in the voice and density of a published adventure module, but built for a sandbox where the party can do anything in any order.
@@ -48,7 +46,7 @@ Wikilinks are for depth the DM chooses to chase between sessions, never for info
 
 ## Workflow
 
-1. **Ground in current state.** Read in the doctrine reading order, stopping when you have enough:
+1. **Ground in current state.** Read in the CLAUDE.md reading order, stopping when you have enough:
    `wiki/hot.md` (always — it carries Open PC Threads, Faction Clocks, Live Situations, Predictions, and Spotlight Tracking) → the most recent `wiki/sessions/session-NN-recap.md` → the active situation files in `wiki/situations/active/` that are near the party → relevant entity pages (read the `summary` frontmatter first; open the full page only if the summary doesn't answer the beat you're writing).
    Supplementary if present and populated: `wiki/dm/player-interests.md`, `wiki/system/party-session-primer.md`. These are aids, not gates — `hot.md` is the source of truth for current state.
 2. **Name what is already in motion** before inventing anything: where the party is, the last hard break, what they promised/broke/ignored, which situations and factions have reason to act now, which PC hooks are hot.

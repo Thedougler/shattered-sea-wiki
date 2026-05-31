@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Player recap of Session 01 — the boarding of the Saltwright and HCS Surety through the gangplank standoff. Canon events as they happened."
 created: 2026-05-10
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - maritime

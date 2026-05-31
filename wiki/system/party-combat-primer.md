@@ -9,8 +9,7 @@ summary: "Agent quick reference for party-wide encounter tuning at level 4 — P
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - system
-  - primer
+  - player-resource
 sources:
   - "Inbox/private/system/Party-Combat-Primer.md"
 system_role: party-primer

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Nona met in Calveno — attacks on Perrin called off, favor promised. Anzolo's status: was in motion before the calls-off; may still be at sea. The Passage knows where Perrin is."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - rattkin
   - passage

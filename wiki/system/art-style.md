@@ -9,7 +9,6 @@ summary: Visual style guide for AI-generated campaign art — agents read this b
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - system
   - meta
 sources: []
 system_role: style-guide
@@ -29,11 +28,36 @@ Edit this file to change the campaign's visual identity globally.
 
 All generated images use this foundation unless a category override says otherwise.
 
-**style_prompt:** Archer-style adult animated illustration, clean vector-like linework, cel-shaded lighting
+**style_prompt:** Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette
 
 **aspect_ratio:** 16:9 widescreen cinematic
 
 **negative:** no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic
+
+### Style Definition
+
+The campaign's visual identity follows the reference style shown in the Archer
+season and poster images: adult animated adventure art with crisp comic-book
+draftsmanship, clean digital color, and cinematic ensemble staging. It should
+look like polished television animation adapted into a dramatic TTRPG still,
+not painterly fantasy illustration.
+
+Use these traits consistently:
+
+- Thick-to-medium black outlines with confident contour shapes and smaller interior line detail for faces, clothing folds, hair, and equipment
+- Cel-shaded forms with hard shadow edges, limited soft blending, and readable highlights on skin, fabric, metal, and wet surfaces
+- Expressive faces with clear eyes, arched brows, distinct noses, and grounded adult proportions; avoid cute, simplified, or exaggerated cartoon anatomy
+- Graphic poster composition: strong foreground subject, readable silhouettes, diagonal action lines, and supporting figures placed to clarify the scene
+- Saturated but controlled color: teal seas, warm sunsets, crisp whites, deep blacks, rich reds, and selective bright accents rather than muddy realism
+- Backgrounds rendered as stylized sets with enough detail to identify place, era, weather, and tactical layout without stealing focus from the action
+- Adventure-serial mood: competent, wry, dangerous, and cinematic; no slapstick distortion unless the scene itself calls for comedy
+
+Avoid these drift points:
+
+- Painterly brush texture, oil-paint fantasy rendering, watercolor, or loose concept-art strokes
+- Photorealistic faces, 3D-rendered lighting, plastic skin, or stock-photo composition
+- Anime, chibi, manga speed-line language, superhero muscle exaggeration, or children's-cartoon softness
+- Overly grim dark fantasy palettes that bury linework and facial expression
 
 ---
 

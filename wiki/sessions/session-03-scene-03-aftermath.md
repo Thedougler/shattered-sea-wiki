@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 03, Scene 3 — Post-shark aftermath: Sem's damage report, Grigori healing crew at dawn, ship departing for Calveno."
 created: 2026-05-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dm-prep
 sources:

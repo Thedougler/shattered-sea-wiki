@@ -9,7 +9,6 @@ summary: "Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - system
   - doctrine
 sources: []
 system_role: doctrine

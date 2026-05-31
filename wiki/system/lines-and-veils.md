@@ -9,8 +9,6 @@ summary: "Hard content boundaries for the Shattered Sea campaign — lines are f
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - system
-  - reference
   - safety
 sources:
   - "Inbox/lines-and-veils.md"

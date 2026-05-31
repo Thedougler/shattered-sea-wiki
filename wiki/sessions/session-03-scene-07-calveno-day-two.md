@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 03, Scene 07 — Crissdalynn's reunion with Master Kyzil in Calveno: relief, Owl Obi-Wan formality, pilgrimage progress, Read the Current, and the High Eyrie weather warning."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - drowned-maw
   - dm-prep

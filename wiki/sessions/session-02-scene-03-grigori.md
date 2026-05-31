@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 02, Scene 03 — Shepherd Grigori alone in the galley with the table set; crew behind a locked door; the Question, the Condition, and the Knighton reveal."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - mystery
   - undead

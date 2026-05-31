@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "The Chain Council unknowingly hired Fisk's Fleet to steal the Pearl of Souls, manipulated by Tessarine operative Cosimo Verantio. The evidence sits in the Red Lady's Intelligence Room and can turn the Council from employer into witness."
 created: 2026-05-13
-updated: 2026-05-28
+updated: 2026-05-31
 tags:
   - tessarine
   - mystery

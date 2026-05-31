@@ -10,7 +10,6 @@ created: 2026-05-04
 updated: 2026-05-30
 tags:
   - player-resource
-  - index
 sources:
   - Inbox/index.md
 visibility: public

@@ -9,7 +9,6 @@ summary: "A blank questionnaire for players to establish character foundations b
 created: 2026-04-21
 updated: 2026-05-30
 tags:
-  - system
   - session-zero
   - character-creation
 sources:

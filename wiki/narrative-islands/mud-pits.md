@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM mechanics for running the Mud Pits as a party attraction at Kalowe — calibration table, opponent roster, betting mechanics, and crowd-as-social-resource."
 created: 2026-05-17
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - combat
   - maritime

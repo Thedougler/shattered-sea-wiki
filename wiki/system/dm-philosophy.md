@@ -9,8 +9,6 @@ summary: "A compiled philosophy for running tabletop RPG campaigns — core hier
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - system
-  - reference
   - table-philosophy
 sources:
   - Homebrew

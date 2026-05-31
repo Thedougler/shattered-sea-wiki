@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 02, Scene 04 — The party tours the HCS Surety with Geoffrey Draves as guide. Ship roles, loot by room, crew retention hooks, and Ket in the brig."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
   - dm-prep

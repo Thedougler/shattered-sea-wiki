@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A dead courier's crate at Marrow's has been sitting unclaimed for three weeks. The courier was murdered. A Dravosi spy is watching the canal approaches for whoever comes to collect."
 created: 2026-05-22
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - rattkin
   - mystery

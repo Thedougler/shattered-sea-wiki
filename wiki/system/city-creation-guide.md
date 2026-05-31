@@ -9,10 +9,8 @@ summary: "Pointy Hat's Theme Park Method for city design: choose one legible the
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - system
   - city-design
-  - dm-craft
-  - reference
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/City-Creation-Guide.md"
 system_role: "unknown"

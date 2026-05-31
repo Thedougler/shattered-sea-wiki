@@ -8,9 +8,7 @@ publish: true
 summary: Public FAQ for using the Shattered Sea campaign wiki, including where to start, how navigation-safety works, and how to use the wiki with a chatbot.
 created: 2026-05-03
 updated: 2026-05-30
-tags:
-  - reference
-  - setting
+tags: []
 sources:
   - Inbox/faq.md
 confidence_level: high

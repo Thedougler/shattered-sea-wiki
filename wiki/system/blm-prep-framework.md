@@ -9,10 +9,7 @@ summary: "Brennan Lee Mulligan's prep methodology: reactive toys over predicted 
 created: 2026-04-21
 updated: 2026-05-30
 tags:
-  - system
-  - prep
-  - dm-craft
-  - reference
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/BLM-Prep-Framework.md"
 system_role: "unknown"

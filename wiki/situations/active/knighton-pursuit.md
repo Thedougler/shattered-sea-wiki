@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Rupert Knighton will send ships in response to Cap'n Gorgeous's death. Warning came from Shepherd Grigori. Timeline unknown. The party has not yet encountered Knighton."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - maritime

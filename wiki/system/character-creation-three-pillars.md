@@ -9,9 +9,7 @@ summary: "Pointy Hat's three-pillar framework for character identity before mech
 created: 2026-04-24
 updated: 2026-05-30
 tags:
-  - system
   - character-creation
-  - reference
 sources:
   - "Inbox/private/system/guides/Character-Creation-Three-Pillars.md"
 system_role: "unknown"

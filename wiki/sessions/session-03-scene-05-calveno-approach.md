@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 03, Scene 05 — The damaged Uncertainty approaches Calveno harbour; party must solve the Crown-cutter identification problem. Perrin's name opens La Vasca and alerts Nona."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dm-prep
 sources: []

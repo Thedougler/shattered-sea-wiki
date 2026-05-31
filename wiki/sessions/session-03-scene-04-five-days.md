@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 03, Scene 4 — Five-day transit to Calveno: downtime menu, d20 Central Strait flavour, and The Whale on Day 2 (Perrin spotlight)."
 created: 2026-05-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
   - dm-prep

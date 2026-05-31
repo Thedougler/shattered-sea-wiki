@@ -9,9 +9,8 @@ summary: "Stub — referenced in [[player-agency]] and [[character-interview-gui
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - system
   - session-zero
-  - stub
+  - needs-detail
 sources: []
 system_role: "unknown"
 token_profile: on-demand

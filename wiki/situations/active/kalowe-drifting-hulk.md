@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A crewless schooner has been drifting 4 miles north of Kalowe for two nights — first boarding party claims salvage rights; something killed the crew and is still aboard."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
   - salvage

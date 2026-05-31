@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "An intentionally unnamed Tail island near the Maw's western edge — the primary Shelfworks salvage staging point, kept blank until the campaign needs it."
 created: '2026-05-30'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

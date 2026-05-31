@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A dying privateer at Grimaldi's Dispensary has half a treasure chart tattooed on her forearm — the other half burned. The cache is on Orak: 800gp in old Imperial coin and matched silver, buried in a tidal sea cave with a 3-hour window and a constrictor snake."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - salvage
   - maritime

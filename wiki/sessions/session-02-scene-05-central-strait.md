@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
   - dm-prep

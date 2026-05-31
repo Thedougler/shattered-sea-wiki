@@ -9,10 +9,8 @@ summary: "Pointy Hat's 7-step modular one-shot framework (MMOS): two paths, one 
 created: 2026-04-24
 updated: 2026-05-30
 tags:
-  - system
   - one-shot
-  - dm-craft
-  - reference
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/One-Shot-Modular-Method.md"
 system_role: "unknown"

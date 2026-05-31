@@ -9,9 +9,8 @@ summary: "Core prep principle: write situations, not stories. Drop the players i
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - system
   - dm-philosophy
-  - prep
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/Situations-Not-Stories.md"
 system_role: "unknown"

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM mechanics for running Il Palio delle Voci as a skill challenge — three-phase structure, rival disruptions, party roles, recruitable NPCs, and reward tiers."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dm-prep
 sources:

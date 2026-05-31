@@ -9,7 +9,6 @@ summary: "Spotlight isn't distributed automatically. The DM must actively watch 
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - system
   - dm-philosophy
   - table-craft
 sources:

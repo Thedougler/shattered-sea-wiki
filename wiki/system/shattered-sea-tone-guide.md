@@ -9,9 +9,7 @@ summary: "Core tone equation for all Shattered Sea content: high competence trap
 created: 2026-04-20
 updated: 2026-05-30
 tags:
-  - system
   - tone
-  - reference
   - writing
 sources:
   - "Inbox/private/system/guides/Shattered-Sea-Tone-Guide.md"

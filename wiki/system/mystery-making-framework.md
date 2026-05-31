@@ -9,10 +9,8 @@ summary: "Pointy Hat's mystery-building method: define culprit, motive, and meth
 created: 2026-04-24
 updated: 2026-05-30
 tags:
-  - system
   - mystery
-  - dm-craft
-  - reference
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/Mystery-Making-Framework.md"
 system_role: "unknown"

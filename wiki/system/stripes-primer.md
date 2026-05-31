@@ -9,10 +9,7 @@ summary: "Agent quick reference for Stripes Bitemore — Battle Master Fighter, 
 created: 2026-04-23
 updated: 2026-05-30
 tags:
-  - system
-  - primer
-  - pc
-  - tabaxi
+  - player-resource
 sources:
   - "Inbox/private/system/players/Stripes-Primer.md"
 system_role: "unknown"

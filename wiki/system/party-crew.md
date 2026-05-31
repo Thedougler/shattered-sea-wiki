@@ -8,10 +8,7 @@ publish: false
 summary: "Roster of crew hired by the party — update after each session with new hires, departures, and role changes."
 created: '2026-05-29'
 updated: 2026-05-30
-tags:
-  - system
-  - reference
-  - crew
+tags: []
 sources:
   - Homebrew
 system_role: unknown

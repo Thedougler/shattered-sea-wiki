@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened."
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
   - mystery

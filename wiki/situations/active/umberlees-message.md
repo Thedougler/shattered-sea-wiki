@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "An Umberlee servant found Delmar specifically in Calveno and is waiting at the Waveservant Shrine — not sleeping — until he comes. The message is from the Bitch Queen herself."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - umberlee
   - waveservants

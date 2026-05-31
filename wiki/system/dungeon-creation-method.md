@@ -9,10 +9,8 @@ summary: "Pointy Hat's 5-step dungeon framework: one-word theme → mechanics th
 created: 2026-04-24
 updated: 2026-05-30
 tags:
-  - system
   - dungeon-design
-  - dm-craft
-  - reference
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/Dungeon-Creation-Method.md"
 system_role: "unknown"

@@ -9,9 +9,7 @@ summary: "Agent quick reference for spotlighting and fairly pressuring Delmar's 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - system
-  - primer
-  - pc
+  - player-resource
 sources: []
 system_role: unknown
 token_profile: on-demand

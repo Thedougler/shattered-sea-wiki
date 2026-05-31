@@ -9,7 +9,6 @@ summary: "Player agency is the North Star. Everything at the table exists to ser
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - system
   - dm-philosophy
   - agency
 sources:

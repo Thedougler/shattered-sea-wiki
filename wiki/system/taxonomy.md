@@ -9,6 +9,11 @@ summary: Controlled tag vocabulary for the Shattered Sea wiki. Read this before 
 created: 2026-05-31
 updated: 2026-05-31
 tags: [dm-prep]
+sources: ["Unknown"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # Tag Taxonomy — Shattered Sea

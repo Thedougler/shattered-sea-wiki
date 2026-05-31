@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal."
 created: 2026-04-22
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dm-prep
 sources:

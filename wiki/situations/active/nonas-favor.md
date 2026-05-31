@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Perrin said yes to Nona's favor before hearing what it was. She gave him a sending stone. The favor has not yet been named."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - passage
   - rattkin

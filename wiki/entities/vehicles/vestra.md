@@ -41,7 +41,7 @@ In Session 03, Perrin told [[nona-black-jaw|Nona]] enough for her to understand 
 Perrin does not know what destroyed the ship.
 
 > [!dm]
-> The [[leviathan|Leviathan]] destroyed the Vestra. A surviving crew member is a live pressure — if one appears, make the reunion useful and painful: relief first, then the cost of Perrin's silence.
+> The [[leviathan|Leviathan]] destroyed the Vestra. Perrin survived because [[perrins-cloak-of-the-manta-ray|his Cloak of the Manta Ray]] kept him alive in the water; [[auralis|Auralis]] found and recovered him. Perrin does not know about Auralis's role — he believes the cloak alone saved him. The warlock pact formed in that moment without his awareness. A surviving crew member is a live pressure — if one appears, make the reunion useful and painful: relief first, then the cost of Perrin's silence.
 
 ## Connections
 

@@ -504,6 +504,8 @@ sources: []
 
 ## situations/dormant
 - [[aldric-drave-designed-the-crown|Who Designed the Dravosi Crown]] — The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries.
+- [[concordat-magus-dragon|What Is the Tessarine Concordat's True Architect]] — The Tessarine Concordat has no human leadership. Its true architect is a Magus Dragon who accumulates obligation — leverage over councils, trade routes, and inherited debt — rather than gold.
+- [[draves-bloodline-question|The Draves Bloodline Question]] — The Draves family name appears in Crown genealogical archives further back than their standing explains — and Aldric Drave's heir-selection process reads those same records. Whether Geoffrey is a functioning phylactery remains deliberately open.
 - [[sentinels-true-head|Who Is the True Head of the Sentinels]] — The true head of the Sentinels of the Eyrie is a Soul Incarnate — a neutral lich whose mummified body-phylactery is sealed beneath High Eyrie, and who has personally maintained the 200-year Maw observation record.
 - [[tail-staging-island|Tail Staging Island]] — An intentionally unnamed Tail island near the Maw's western edge — the primary Shelfworks salvage staging point, kept blank until the campaign needs it.
 
@@ -676,6 +678,7 @@ sources: []
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
 - [[player-agency|Player Agency]] — Player agency is the North Star. Everything at the table exists to serve it: the rules, rulings, narrative consequences, and the world itself.
 - [[session-zero|Session Zero]] — [stub] Stub — referenced in [[player-agency]] and [[character-interview-guide]]. Pre-campaign setup session covering lines/veils, character creation, and table expectations.
+- [[shattered-sea-tone-guide|Shattered Sea — Tone Guide]] — Core tone equation for all Shattered Sea content: high competence trapped inside low emotional maturity. Scenes need real danger, petty internal friction, and stylish presentation.
 - [[situations-not-stories|Situations Not Stories]] — Core prep principle: write situations, not stories. Drop the players into something interesting and find out what they do. Whatever they do next is the story.
 - [[spotlight-management|Spotlight Management]] — Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing.
 - [[stripes-primer|Stripes Primer]] — Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.

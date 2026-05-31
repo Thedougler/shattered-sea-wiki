@@ -7,9 +7,13 @@ audience: dm
 publish: false
 summary: "Pointy Hat's 5-step dungeon framework: one-word theme → mechanics that express it → goal → varied encounters → climax that synthesizes all. Use before generating any dungeon, ruin, or enclosed site."
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-30
 tags: [system, dungeon-design, dm-craft, reference]
 sources: ["Inbox/private/system/guides/Dungeon-Creation-Method.md"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # Dungeon Creation Method

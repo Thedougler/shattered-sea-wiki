@@ -7,11 +7,12 @@ audience: dm
 publish: false
 summary: "The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries."
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-30
 tags: [situation, revelation, dravosi, lich, aldric-drave, late-game]
 sources: ["Inbox/situations/revelations/Aldric-Drave-Crown.md"]
 reveal_tier: late
 lifecycle: dormant
+narrative_island: ""
 ---
 
 # Who Designed the Dravosi Crown

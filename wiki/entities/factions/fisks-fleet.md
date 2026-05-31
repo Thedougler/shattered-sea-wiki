@@ -40,3 +40,5 @@ They stayed. They worked through every vessel and every failure until Fisk had s
 ## Current State
 
 The wrecks lie somewhere in the Maw. Their exact positions are not public knowledge. The five captains' souls are pressed into Fisk by Umberlee and surface as his Mortis personalities.
+
+**DM notes:** [[fisks-fleet-dm|Fisk's Fleet (DM)]] — commission history, operation breakdown, soul mechanics, captain personality table.

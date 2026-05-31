@@ -13,6 +13,7 @@ updated: 2026-05-30
 tags: [situation, kalowe, treasure, exploration, orak]
 sources: ["Inbox/situations/islands/Kalowe-Captains-Map.md"]
 confidence_level: medium
+narrative_island: ""
 ---
 
 # Kalowe — The Captain's Map

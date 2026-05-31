@@ -28,6 +28,21 @@ For combat, pull from [[calveno-street-encounters|Calveno — Street Encounters]
 
 ---
 
+## Arrival Observation — The Bridge Pillar
+
+**When:** As soon as any PC crosses into open Calveno on Day 1 — the Mercatura, the Bridge, anywhere with a crowd. Private sensory note to Jean-Claude's player; no announcement to the group.
+
+A Grung in a festival half-mask is standing at the Bridge pillar in the single position that gives sightlines to three exits without appearing to watch any of them.
+
+Jean-Claude has stood in that position. He knows what it means.
+
+> [!dm]
+> Private note, not read-aloud. Let his player choose whether to tell the party. This is the first observable sign of the handler cell. It does not require Jean-Claude to act — it only requires him to notice.
+
+Connection: [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] | [[calveno-jean-claude-beats|Jean-Claude combat escalation → Street Encounters]]
+
+---
+
 ## Roleplay Beat — The Moustache Craftsman
 
 **Where:** The Velo Quarter. A narrow booth selling theatrical accessories — wigs, prosthetics, ornamental beards, stage paint.

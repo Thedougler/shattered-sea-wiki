@@ -54,6 +54,14 @@ The mapping is incomplete. She knows it.
 
 **Gods:** [[remnis|Remnis]] (primary). [[syranita|Syranita]] and [[aerdrie-faenya|Aerdrie Faenya]] in the margins. Wears it lightly; prays from habit, not theology.
 
+**Read the Current (Kensei technique, taught by Kyzil):** Once on her turn when she hits a creature with an unarmed strike or Kensei weapon, she can spend 1 ki/focus point to read the target through the contact. Cannot combine with Stunning Strike or Deft Strike on the same hit. Choose one question; DM answers truthfully using combat-observable information:
+
+- **Guard:** What is this creature relying on most for defense right now — armor, agility, toughness, will, magic, distance, or terrain?
+- **Opening:** Which saving throw appears easiest to pressure — STR, DEX, CON, INT, WIS, or CHA?
+- **Pattern:** What is one combat habit the creature is relying on right now — counterattacks, reach, mobility, guarding an ally, protecting an object, concentration, brute force, or escape?
+
+No exact numbers, full statblocks, secret identity, hidden lore, or motives. Repeating on the same creature should reveal a different category or deeper version, not the same fact again.
+
 ## Known Possessions
 
 | Item | Notes |

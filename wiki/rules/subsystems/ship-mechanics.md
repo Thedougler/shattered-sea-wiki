@@ -26,6 +26,7 @@ Ship combat and chases use the **2024 DMG vehicle rules** as written.
 
 | Page | Covers |
 |---|---|
+| [[ships-quick-reference\|Quick Reference]] | All-in-one cheat sheet — tiers, crew, bastion, guns |
 | [[ship-stats\|Ship Stats]] | Tiers, vehicle stats, crew roles, minimum crew |
 | [[ship-combat\|Ship Combat]] | Guns, broadsides, shot types, multi-deck volleys, targeting |
 | [[ship-operations\|Ship Operations]] | Upkeep, travel speeds, navigation, acquisition, quarters, reputation |

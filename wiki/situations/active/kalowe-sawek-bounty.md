@@ -12,6 +12,7 @@ created: 2026-05-15
 updated: 2026-05-30
 tags: [situation, kalowe, monster-hunt, sawek, bounty]
 sources: ["Inbox/situations/islands/Kalowe-Sawek-Bounty.md"]
+narrative_island: ""
 ---
 
 # Kalowe — The Sawek Bounty

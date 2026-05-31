@@ -13,6 +13,7 @@ updated: 2026-05-30
 tags: [situation, calveno, skill-challenge, palio, event]
 sources: ["Inbox/situations/islands/Il-Palio-delle-Voci.md"]
 confidence_level: medium
+narrative_island: ""
 ---
 
 # Il Palio delle Voci — DM Notes

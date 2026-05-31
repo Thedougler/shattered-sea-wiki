@@ -12,6 +12,7 @@ tags: [session, session-00, prep, run-guide]
 sources: ["Inbox/sessions/00/Session-00-Run-Guide.md"]
 session_number: 0
 table_status: complete
+session_date: "unknown"
 ---
 
 # Session 00 — Run Guide

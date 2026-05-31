@@ -11,6 +11,7 @@ updated: 2026-05-30
 tags: [session, session-02, scene, travel, central-strait]
 sources: ["Inbox/sessions/02/Scene-05-Central-Strait.md"]
 session_number: 2
+session_date: "unknown"
 ---
 
 # Central Strait Events

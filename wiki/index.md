@@ -401,6 +401,7 @@ sources: []
 - [[ship-operations|Ship Operations]] — Travel speeds, navigation checks, upkeep costs, acquiring a ship, living quarters, and ship reputation for Shattered Sea play.
 - [[ship-stats|Ship Stats — The Shattered Sea]] — Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play.
 - [[ship-upgrades|Ship Upgrades — The Shattered Sea]] — Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability.
+- [[ships-quick-reference|Ships & Bastion — Quick Reference]] — Play-table cheat sheet for ship tiers, crew roles, operations, bastion, and guns — consolidated quick reference.
 - [[surgeons-berth|Surgeon's Berth]] — Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled.
 - [[weapons-locker|Weapons Locker]] — Tier 1 bastion facility — stocking it upgrades defender death dice from d6 to d8 for one Bastion Turn. Cost halved if the ship also has a Carpenter's Shop.
 

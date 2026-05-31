@@ -13,6 +13,7 @@ updated: 2026-05-30
 tags: [situation, kalowe, contraband, race, the-bad-receipt]
 sources: ["Inbox/situations/islands/Kalowe-Bad-Receipt-Cache.md"]
 confidence_level: medium
+narrative_island: ""
 ---
 
 # Kalowe — The Bad Receipt's Cache

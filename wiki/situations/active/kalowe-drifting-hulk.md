@@ -12,6 +12,7 @@ created: 2026-05-15
 updated: 2026-05-30
 tags: [situation, kalowe, ghost-ship, undead, salvage]
 sources: ["Inbox/situations/islands/Kalowe-Drifting-Hulk.md"]
+narrative_island: ""
 ---
 
 # Kalowe — The Drifting Hulk

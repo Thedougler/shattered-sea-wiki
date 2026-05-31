@@ -7,12 +7,16 @@ audience: agent
 publish: false
 summary: "Current world state, open threads, faction clocks, and predictions. Read first, always."
 created: 2026-05-27
-updated: 2026-05-30
-tags: [system, current-state]
+updated: 2026-05-31
+tags: [dm-prep]
 sources: []
 ---
 
 # hot.md — Updated Post-Session 03
+
+## Recent Activity
+
+- 2026-05-31: Tag taxonomy created (`wiki/system/taxonomy.md`): 26 canonical tags across 4 groups; audit shows 919 frontmatter-dupe tags, 233 entity-name tags, 49 alias remaps pending.
 
 ## Current Arc
 

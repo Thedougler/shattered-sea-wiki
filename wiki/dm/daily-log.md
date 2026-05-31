@@ -14,6 +14,17 @@ sources: []
 
 # Daily Update Log
 
+## 2026-05-31
+
+- **Lint:** Warnings 111→94 (17 resolved); Quality 1373→316 (1057 resolved)
+  - Status-drift: 4 fixed (deceased→dead ×3, open→active ×1); barnaby-rook `presumed_dead` deferred — lore-accurate, not confirmed dead
+  - Dead-entity-ref: removed `captain:` from Heft, Loud Argument, The Narrow (all `status: lost`, captain info in body)
+  - Island-situation-mismatch: 10 resolved — `narrative_island` set on 8 child narrative islands (→calveno-sandbox-run-guide); calveno-beffa-grung-raid→calveno-raid-signs; removed redundant transitive link from sandbox-run-guide
+  - Parent-gap: 8 resolved — 4 Midchain children, 2 Shattered Sea children, Anchor & Line (Tidefall), Taufa Fifita & Sons (Kalowe)
+  - Singleton-property: removed junk `name:` from otar-the-foul frontmatter
+  - Markdown: 813 files — trailing newlines, blanks-around-headings/lists fixed by markdownlint-cli2
+  - Type-path-mismatch: 93 deferred — creatures schema gap (path infers `entity`, files correctly typed `monster`/`index`); requires wiki_common.py update
+
 ## 2026-05-30
 
 - **Init:** OK — vault healthy, no active work queue, no structural issues

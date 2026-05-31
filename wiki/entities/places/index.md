@@ -11,9 +11,6 @@ updated: 2026-05-31
 tags:
   - player-resource
   - location
-- player-resource
-- location
-- index
 sources:
 - Inbox/places/index.md
 subtype: place

@@ -10,8 +10,6 @@ created: 2026-05-04
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
 sources:
 - Inbox/items/index.md
 confidence_level: high

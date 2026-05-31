@@ -12,9 +12,7 @@ created: 2026-05-03
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
-- background
+  - background
 sources:
 - PHB 2024
 confidence_level: high

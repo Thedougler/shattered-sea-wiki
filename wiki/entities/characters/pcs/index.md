@@ -11,8 +11,6 @@ audience: players
 summary: Index for canonical Shattered Sea player-character pages.
 tags:
   - player-resource
-- player-resource
-- index
 sources:
 - Inbox/characters/player/index.md
 confidence_level: high

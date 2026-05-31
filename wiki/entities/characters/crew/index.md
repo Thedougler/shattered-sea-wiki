@@ -10,9 +10,7 @@ audience: dm
 summary: Index for major recurring hired crew and shipboard character pages.
 tags:
   - player-resource
-- player-resource
-- index
-- crew
+  - crew
 sources:
 - Inbox/characters/crew/index.md
 confidence_level: high

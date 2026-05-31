@@ -16,11 +16,6 @@ tags:
   - city
   - tessarine
   - player-resource
-- location
-- city
-- tessarine
-- crown-islands
-- player-resource
 sources:
 - Inbox/places/calveno/index.md
 confidence_level: medium

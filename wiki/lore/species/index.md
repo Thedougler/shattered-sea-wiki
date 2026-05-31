@@ -10,9 +10,7 @@ created: 2026-05-04
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
-- playable
+  - playable
 sources:
 - Inbox/lore/species/index.md
 confidence_level: high

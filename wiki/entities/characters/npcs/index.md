@@ -11,9 +11,6 @@ created: 2026-05-12
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
-- npc
 sources:
 - Inbox/characters/npcs/index.md
 confidence_level: high

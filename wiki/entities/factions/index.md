@@ -10,9 +10,6 @@ created: 2026-05-01
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
-- faction
 sources:
 - Inbox/factions/index.md
 confidence_level: high

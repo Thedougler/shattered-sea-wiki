@@ -11,8 +11,6 @@ audience: players
 summary: Index for the Shattered Sea player characters and recurring NPCs.
 tags:
   - player-resource
-- player-resource
-- index
 sources:
 - Inbox/characters/index.md
 confidence_level: high

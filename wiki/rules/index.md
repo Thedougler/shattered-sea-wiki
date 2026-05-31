@@ -10,9 +10,7 @@ created: 2026-04-29
 updated: 2026-05-31
 tags:
   - player-resource
-- player-resource
-- index
-- rule
+  - rule
 sources:
 - Inbox/lore/rules/index.md
 confidence_level: high

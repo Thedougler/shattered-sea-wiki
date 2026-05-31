@@ -153,3 +153,12 @@ anti-slop constraints, and callout types apply to every situation page.
 ---
 
 **Coordinates with:** `wiki-categorize`, `faction-clock`, `sandbox-narrative`
+
+---
+
+## Reference Files
+
+| File | Read when |
+|---|---|
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

@@ -42,7 +42,7 @@ Update this block after every session or faction-clock run.
 | Path | Purpose |
 |---|---|
 | `wiki/` | Obsidian vault — all campaign content. Start at `wiki/hot.md` then `wiki/index.md`. |
-| `wiki/system/` | Agent-facing system files: doctrine, task-routing, PC primers. |
+| `wiki/system/` | Agent-facing system files: task-routing, PC primers. |
 | `wiki/narrative-islands/` | Plot-device clusters (not geographic islands — see memory). |
 | `wiki/situations/active/` | Live threads. `resolved/` for closed ones. |
 | `.claude/skills/` | Claude Code skills (prep, ingest, lint, live co-DM). |
@@ -52,23 +52,35 @@ Update this block after every session or faction-clock run.
 
 ---
 
-## Doctrine & Automatic Behaviors
+## Sandbox Rules (apply to all wiki content)
 
-All cross-cutting rules — reading order, sandbox constraints, the PC-connection requirement,
-the auto-correct protocol, frontmatter requirements, wikilink standards, and the ideal-state
-definition — live in one place: **`wiki/system/doctrine.md`**. Load it on demand; don't expect
-those rules to be restated in each skill.
+**PC Boundary.** Never write what a PC decides, chooses, intends, feels, thinks, or wants.
+Write what the environment does and what NPCs do.
 
-Frontmatter completeness and the `updated` date are enforced automatically by a PostToolUse
-hook (`.claude/hooks/validate-frontmatter.sh` → `.claude/scripts/fix_frontmatter.py`) — you do
-not maintain them by hand. `index.md` is regenerated with `.claude/scripts/regen_index.py`,
-not hand-edited. A second PostToolUse hook (`.claude/hooks/qmd-reindex.sh`) updates the
-`qmd` search index in the background after wiki edits. A third hook
-(`.claude/hooks/lint-python.sh`) runs `ruff` format and lint on any edited Python file.
+**NPC Agency.** NPC goals predate the party. NPCs pursue their goals — they don't wait for
+players to arrive.
 
-Read order at a glance: `wiki/hot.md` first, then `wiki/system/task-routing.md`, then
-`doctrine.md` and only the entity/situation files the task needs. Never read the full vault
-before generating content.
+**Pressures, Not Plots.** Frame content as pressures and possibilities, never scripted
+outcomes. No "if players do X then Y" chains more than one step deep.
+
+**PC-Connection Requirement.** Every NPC, location, faction, and situation must pull on at
+least one PC's internal tensions. If you can't name the connection, the element isn't ready —
+ask the DM before generating.
+
+**Ideal State.** Every file has complete frontmatter with a concrete `summary`; all wikilinks
+resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects current state.
+
+## Automatic Behaviors
+
+PostToolUse hooks enforce: frontmatter completeness (`fix_frontmatter.py`), search index
+updates (`qmd-reindex.sh`), Python linting (`lint-python.sh`). `index.md` is regenerated
+via `regen_index.py`, not hand-edited.
+
+Read order: `wiki/hot.md` first → `wiki/system/task-routing.md` → entity/situation files
+the task needs. Never read the full vault before generating content.
+
+Operational references (auto-correct, wikilinks, frontmatter defaults) live in
+`.claude/skills/ttrpg-llm-wiki-init/references/`.
 
 ---
 
@@ -107,7 +119,7 @@ No test suite exists for the wiki scripts — they're validated by the hooks on 
 
 ## Commit Conventions
 
-Commit messages follow these prefixes (from `wiki/system/doctrine.md`):
+Commit messages follow these prefixes:
 - `fix:` — structural corrections
 - `ingest:` — source material processed into wiki
 - `curation:` — content quality improvements

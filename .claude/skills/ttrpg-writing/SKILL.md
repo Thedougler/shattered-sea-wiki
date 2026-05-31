@@ -140,9 +140,8 @@ in the source material or explicit brief. Invention erodes the DM's trust in the
 ## Sandbox Constraints
 
 The three sandbox constraints — the Player Character Boundary, Independent NPC Agency, and
-Pressures Not Plots — are defined once in `wiki/system/doctrine.md`. They override standard
-fiction technique wherever they conflict, so apply them to every piece of prose. Load doctrine
-if you need the full statements and examples.
+Pressures Not Plots — are in CLAUDE.md (always loaded). They override standard fiction
+technique wherever they conflict. Apply them to every piece of prose.
 
 ---
 

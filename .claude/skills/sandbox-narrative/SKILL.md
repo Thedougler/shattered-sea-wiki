@@ -22,9 +22,9 @@ lead to equally valid outcomes.
 
 ## Sandbox Constraints
 
-The three constraints that govern all content — the Player Character Boundary, Independent NPC
-Agency, and Pressures Not Plots — live in `wiki/system/doctrine.md`. They are the foundation
-these narrative principles build on; load doctrine for the full statements and examples.
+The three constraints — the Player Character Boundary, Independent NPC Agency, and
+Pressures Not Plots — are in CLAUDE.md (always loaded). They are the foundation these
+narrative principles build on.
 
 ---
 

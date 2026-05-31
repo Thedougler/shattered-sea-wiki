@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires, Nona's sending stone names the favor, JC gets his first handler recognition beat, and Red Lady threads surface."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - session-prep
   - run-guide
@@ -56,7 +56,7 @@ session_date: "unknown"
 *Optional — the most fun; background if skipped.*
 
 > [!read-aloud]
-> The Mercatura bridge has become a registration desk. A clerk with a ledger and a long-suffering face takes team names, marks, categories, and stakes, while three would-be tricksters argue about whether a bucket counts as a "device."
+> The Mercatura bridge has become a registration desk. A woman with ink-stained fingers and the patience of a saint sits behind a ledger that already has three crossed-out team names on this page alone. Behind her, someone's mask has fallen off mid-argument and rolled under the desk. She retrieves it without looking up. "Team name, mark, category, stake. If you say 'The Masked Avengers' I am crossing you out before you finish."
 
 **The toy:** if they register, get the table choosing — team name, mark, category, symbol, stake. Standard entry is 25 gp; Legendary-scale is 50 gp. Scoring: Craft 10, Surprise 5, Recovery 5, out of 20. Loud, dumb, theirs.
 
@@ -123,6 +123,9 @@ Hold the silence. Then —
 
 Perrin already visited Nona in Session 03 — apologized, heard about the Vestra, agreed to the favor unconditionally, and left with the sending stone. Two linked problems remain. **(a)** The *Uncertainty* still reads as a Crown cutter to anyone who knows cutters — paint won't fix a silhouette. [[carpenters-slip\|Carpenters' Slip]] won't take a cold approach; she needs a Warren introduction, which runs through Nona. **(b)** Nona is ready to **name the favor** and use the **sending stone** to do it.
 
+> [!dm]
+> When Perrin meets with Nona (whenever that happens), she drops one line unprompted after the favor is named: "Your ship reads wrong. I know a woman at the Slip — Savia. Tell her I sent you." This wires the ship-repair thread through Nona rather than requiring the party to deduce the connection.
+
 ### The Hook — The Stone Speaks
 
 Nona uses the sending stone this morning. One sentence, flat, unhurried.
@@ -185,7 +188,7 @@ Let the party sit inside this for a moment. Then —
 *JC only. Private. One recognition beat — do not announce to the table.*
 
 > [!dm]
-> As soon as Jean-Claude is in any public space — the Mercatura, the Bridge, a Velo square — offer him one of these as a private sensory note. Let his player decide what JC does with it.
+> As soon as JC enters any crowd scene — Mercatura, Bridge, Velo square — slide his player a written note or whisper the read-aloud below. Do not announce to the table. If his player doesn't bite, don't push — mark the lane as confirmed for the raid and move on. The beat fires once; repeating it turns a private moment into a quest marker.
 
 **Crowd positioning.** A Grung at the Bridge or Velo stands in the one position that gives sightlines to three exits without appearing to watch any. Jean-Claude has stood in that position. It is trained, not instinctive.
 
@@ -222,7 +225,7 @@ Two ways this surfaces today:
 [[master-kyzil\|Kyzil]] knows what the party doesn't — Crissdalynn's original ship went down to *"a foul wind from the south."* If she pulls on Red Lady traces with Kyzil present, he can set that phrase against the Maw rumours. Reveal one layer at most — he's grief held under discipline; his instinct is to protect her, not dump lore.
 
 > [!dm]
-> Don't force the Kyzil reveal. If Crissdalynn asks about the Maw, wrecks, or her past in his presence, he gives one careful sentence. If she doesn't, he holds it. His protection is silence, not secrecy.
+> Don't force the Kyzil reveal. If Crissdalynn asks about the Maw, wrecks, or her past in his presence, he gives one careful sentence. If she doesn't today, he holds it — but he does not hold it forever. If the party discusses salvage, wrecks, or Maw money in Kyzil's earshot on any later day, he volunteers one guarded sentence: "I should tell you something about that wreck." His protection is timing, not permanent silence.
 
 **If ignored:** the commission clock ticks. One more day of gear sourcing, crew assembly, and chart preparation. Savia mentions the suspicious enquiries to anyone who earns her trust — but only once.
 

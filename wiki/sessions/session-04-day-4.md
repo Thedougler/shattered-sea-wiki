@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 4 — second Finestra day: handler cell combat, Red Lady convergence with the Pearl demand, false alarms conditioning the crowd, and a full raid prep status check before the Day 5 strike."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - session-prep
   - run-guide
@@ -31,7 +31,7 @@ session_date: "unknown"
 | **Raid** | Day 4 of prep. Final handler deployment. All five extraction paths confirmed and clear. Slaad materials in final position. Purple-caste raid teams en route to the city via the *vethka*. **Tomorrow is the strike.** |
 | **Beffa** | Second Finestra day. More pranks, more false alarms. The crowd's hesitation reflex is sharpening — they have been trained to laugh first and look second. |
 | **Red Lady** | Commission clock: **3–5 days.** The sealed chart package has been collected. Crew arriving in Calveno today and tomorrow. |
-| **Ship** | Day 4 of ~5. **Registry plate decision due today.** Sem needs an answer — keep Crown, blank, or fabricate. |
+| **Ship** | Day 4 of ~5. If the party hasn't given Sem a plate decision yet, he finds them this morning (see below). If they already decided, he's installing their choice. |
 | **Pearl** | If the Summons fired: the demand is two days old. Delmar has refused but the Pearl is still in the wreck. If not: Branca is in the shrine for the fifth dawn. The shrine has become a minor public curiosity. |
 | **Warren** | If JC went underground: the Warren has sealed one or two tunnel access points. If not: those lanes are open. |
 
@@ -40,9 +40,23 @@ session_date: "unknown"
 
 ---
 
+## Registry Plate — Sem's Deadline (Conditional)
+
+*Skip if the party already made this decision.*
+
+If the registry plate is still undecided, Sem finds whoever is responsible for the ship — at their lodging, the dock, or the street.
+
+> [!read-aloud]
+> Sem is standing outside the Ponte Bassa with sawdust in his beard and a piece of brass plate under one arm. He does not sit down. "Hull's done tomorrow. I need a name for the bow or I'm sending her out blank. Crown plate's still bolted on. Your call — keep it, scrape it, or tell me what goes in its place. I need the answer by tonight."
+
+> [!dm]
+> If Delmar isn't there, Sem finds Perrin — "Your ship, your crew's problem." The three options and consequences are in [[session-04-day-3#Ship Silhouette — The Hard Truth|Day 3]]. Let them discuss and decide. Sem nods once and leaves.
+
+---
+
 ## Handler Cell — Combat
 
-![[Handler-Cell-Alley.png|A narrow Le Paludi canal alley at dusk — two blue-caste Grung in nondescript trade clothes at a Bridge pillar, one watching the crowd flow with trained stillness, two boats tied at the nearest mooring, poor light from a single festival lantern reflecting off canal water]]
+![[wiki/assets/sessions/session-04/handler-cell-alley-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Combat art, 16:9 widescreen cinematic. A narrow Le Paludi canal alley at dusk: two blue-caste Grung handlers in nondescript trade clothes near a Bridge pillar, one watching crowd flow with trained stillness while the other prepares to cut across a boat mooring. Two small boats tied at the nearest mooring, wet stone alley walls, poor light from a single festival lantern reflecting off canal water. Emphasize spatial relationships, escape routes, and tactical positioning rather than posed combat. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Jean-Claude (primary), anyone he brings. Combat-ready encounter.*
 
@@ -63,6 +77,9 @@ JC spots what looks like operational handler work — a pair of Grung in nondesc
 > **Blue-Caste Handler x 2.** Scout stats (MM p.349). AC 13, HP 16. Shortbow +4, 1d8+3 piercing + **Grung Poison** (DC 11 Con save or poisoned 1 min). Standing Leap 20 ft as part of movement. **Breaks and runs at half HP** — they have a report to file.
 
 **Tactics:** break contact first. Fight only if cornered. One draws pursuit down the alley while the other cuts through a boat mooring. If one escapes, they report. If both escape, Simone learns the party is in Calveno and JC's face is now a priority.
+
+> [!dm]
+> **Scaling.** If the party has magic weapons or high-AC frontliners, add a third handler — a spotter on a rooftop with a hand crossbow, same stats. The encounter should feel fast and breakable. If it lasts more than four rounds, the handlers disengage and flee underground. This is a skirmish, not a boss fight.
 
 ### What the Handlers Carry
 
@@ -96,7 +113,7 @@ By Day 4, three threads are pointing at the same wreck. Let the party feel the p
 
 ### The Offer
 
-If Delmar has been visible in Calveno as a Maw expert — asking questions at the Bridge, trading intel with Zusto, mentioned by name to a chandler — someone comes to him.
+Delmar counts as "visible" if he: **(a)** asked Zusto about salvage, **(b)** asked a chandler about Maw gear, or **(c)** was mentioned by name to anyone at the Bridge. If none of these happened, the runner doesn't come — the commission departs without him. This is the world moving, not a punishment.
 
 > [!read-aloud]
 > A runner from the Bridge finds Delmar at the Ponte Bassa. Clean clothes, damp hair, a polite voice that does not carry. "My employer heard there's a captain in Calveno who's actually sailed the Maw. Not many of those. He'd like to talk. No obligation. He's buying."
@@ -110,11 +127,13 @@ If Delmar has been visible in Calveno as a Maw expert — asking questions at th
 
 ## False Alarms — Crowd Conditioning
 
-![[Crowd-Conditioning.png|The Mercatura during a staged Beffa mugging — a performer in a mask and fake blood sprawled theatrically on cobblestones while the crowd claps and laughs, the mark taking a bow, a watch sergeant at the canal gate watching without moving, the city training itself not to react to screams]]
+![[wiki/assets/sessions/session-04/crowd-conditioning-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. The Mercatura during a staged Beffa mugging: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A masked performer lies theatrically on the cobblestones with a wooden prop dagger and a bright silk scarf, completely unharmed; the marked victim takes a laughing bow; a watch sergeant at the canal gate watches without moving. The city is training itself not to react to staged crisis. Calveno plaza, canal gate, festival bunting, lanterns, masks, amused crowd. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
-*Ambient. One or two beats throughout the day.*
+*Ambient. Drop these into scenes the party is already in — one at midday crowd peak, one at the watch shift change.*
 
 The Beffa is doing its work. The crowd has been trained.
+
+**Midday — Mercatura crowd peak:**
 
 > [!read-aloud]
 > A scream cuts across the Mercatura — high, sharp, genuine terror. The crowd freezes for one breath. Then someone sees the mask, and the laughter starts. A Beffa team has staged a mugging with fake blood and a victim who falls too theatrically. The crowd claps. The mark — who was the victim — takes a bow. Everyone relaxes.
@@ -122,7 +141,7 @@ The Beffa is doing its work. The crowd has been trained.
 > [!dm]
 > This is the conditioning the raid depends on. Tomorrow, the first screams during the real operation will buy three to five seconds of crowd hesitation — people looking for the mask, waiting for the punchline, before they understand that the thing happening in front of them is not a performance. That delay is the operational gap. Let the party see the training happening. Don't explain what it's for.
 
-**Second beat (harbour approach):**
+**Watch shift change — harbour approach:**
 
 > [!read-aloud]
 > Three figures in half-masks sprint past the harbour approach and vault a canal railing — Beffa runners, mid-prank, pursued by a furious mark with wine-stained trousers. The watch at the canal gate watches them pass without moving. The gate sergeant shakes his head.
@@ -172,9 +191,15 @@ The raid fires tomorrow (Beffa Day 4 / party Day 5). The party's actions over Da
 
 ## Night Before the Storm
 
+> [!dm]
+> **Spotlight.** JC owns the handler cell if he engages. Delmar owns the Red Lady offer if it fires. The registry plate belongs to whoever cares about the ship. Make sure each player has one moment today where the table is listening to them.
+
 **If the party has assembled the picture:** they know an organized Grung operation is running through Calveno's sewers, timed to the festival. They may know the scale (five strikes), the extraction method (sewer to outer water), and the pickup (*vethka* past the patrol minimum). They have options: warn the Warren, warn the watch, position themselves at a known strike point, seal more lanes, pursue the *vethka*.
 
 **If the party hasn't assembled the picture:** they sleep. Tomorrow is the last day of La Finestra. The committee is preparing Il Giudizio scoring. The city is relaxed, amused, a little drunk. The crowd will hesitate.
+
+> [!read-aloud]
+> The canal is quiet. Lanterns hang from mooring posts, their reflections broken by the slow push of the tide. Somewhere in the Velo a bodhran is playing, and from the Mercatura the sound of the committee setting up the scoring stage for tomorrow's Il Giudizio. The city is warm, fed, and a little drunk. It has no idea.
 
 > [!dm]
 > Don't tell the party what they missed. If they go to bed without acting on the handler thread, that is a valid outcome — the raid's scale is the consequence, not a punishment. If they've been focused on the Pearl, the ship, the Warren, the Beffa — those are real choices with real payoffs. The raid is what moves when they look away.

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 3 — first Finestra day: handler investigation and tunnel descent via Nona's favor, Batta Zusto and the salvage commission, ship silhouette hard truth, Beffa execution window opens."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - session-prep
   - run-guide
@@ -31,12 +31,12 @@ session_date: "unknown"
 | **Beffa** | La Finestra has opened. First pranks fire this morning. Nervous marks look over their shoulders. The crowd is *enjoying* being on edge. |
 | **Raid** | Day 3 of prep. Route testing under live festival conditions. Handlers walking the five extraction paths with actual crowd flow, timing the surface-to-hatch transfer. |
 | **Pearl Summons** | If it fired yesterday: Branca is gone; the demand hangs over Delmar. If Delmar still hasn't gone: Branca is in the shrine for the third dawn. The font's breathing is visible from the canal. |
-| **Nona** | If the favor was named yesterday: JC's tunnel job is live. If Perrin ignored the Day 2 stone: Nona sends a runner to find him directly — flat, unhurried, no second chances: "She's done waiting." |
+| **Nona** | If the favor was named: JC's tunnel job is live. If Perrin hasn't responded to the stone yet (unlikely — he has every reason to go): Nona sends a Warren runner to find him directly, flat and unhurried. |
 | **Red Lady** | Commission clock: **5–7 days.** The sealed chart package has been delivered. Crew in two ports confirmed. A lugger at the outer anchorage is taking on diving gear. |
 | **Ship** | Day 3 of ~5. Sem asks about the registry plate today — keep the old Crown designation, blank it, or fabricate a new one. Each has a consequence. |
 
 > [!dm]
-> If the favor still hasn't been named by Day 3, Nona escalates from the stone to a physical runner. She already used the stone on Day 2. She does not repeat herself. If Perrin ignores the runner, she starts making arrangements without him — the Warren can send its own people into the tunnels, but without JC they'll lack the Grung expertise to read what they find.
+> If Perrin hasn't responded to the stone yet — unlikely, but possible — Nona sends a Warren runner. She does not repeat herself. The runner finds Perrin wherever he is, delivers one line, and waits for an answer: "Nona Black-Jaw is asking for you and the blue one. She is done asking the stone." If even the runner is ignored, Nona starts making arrangements without the party — the Warren can send its own people into the tunnels, but without JC they'll lack the Grung expertise to read what they find.
 
 ---
 
@@ -89,6 +89,8 @@ If JC follows a handler from a Day 2 or Day 3 recognition beat:
 
 Today the Red Lady thread has a name and a face. **[[batta-zusto\|Batta Zusto]]** operates from the upper tier of the Bridge exchange — mid-tier broker, stocky, late fifties, dressed a touch too formally for the weather. Clean information, priced, no embellishment. Not hostile, not protective of clients.
 
+**NPC — Batta Zusto** ([[batta-zusto\|page]]): Information broker, not a fixer. Sits with his back to the crowd — not paranoia, confidence. States facts and states prices. Silences are deliberate and longer than normal; he lets the buyer fill them. Never qualifies a claim. The cup in front of him is a prop — he doesn't drink during business. Verbal style: short declarative sentences, no hedging. "The commission exists. It's funded. The gear is rented, not purchased. That's three things. Forty gold or equivalent."
+
 ### Entry
 
 Two paths in:
@@ -96,7 +98,7 @@ Two paths in:
 - **Delmar makes himself visible** as a Maw expert — Zusto (or his runner) finds *him*.
 
 > [!read-aloud]
-> The Bridge's upper tier runs narrow — stone counters, sealed ledgers, men who do not speak first. Batta Zusto is exactly where the chandler said he'd be: sitting at a counter with his back to the crowd, a cup of something cold that he has not drunk, and the patience of someone who sells time and does not waste his own.
+> The Bridge's upper tier runs narrow — stone counters, sealed ledgers, men who do not speak first. Batta Zusto sits at a counter with his back to the crowd, a cup of something cold he has not drunk, watching nothing. He does not look up when you approach. He waits until you sit, then: "I know what you're asking. The question is whether you can afford the answer or only the rumour."
 
 ### What Zusto Sells
 
@@ -124,7 +126,9 @@ If Crissdalynn is investigating the Red Lady or Maw salvage with [[master-kyzil\
 
 *Delmar, Perrin (if he arranged the Warren intro). Logistics / decision.*
 
-[[savia-brentino\|Savia]] needs a decision on the registry plate by end of day tomorrow (Day 4). Three options, each with a consequence:
+**Sem's prompt:** Whenever the party next visits La Vasca or Sem crosses their path, he raises the registry plate. One line: "I can't paint a name I don't have, and I'm not scraping the Crown plate until someone tells me what goes in its place." He needs an answer before the hull work finishes.
+
+[[savia-brentino\|Savia]] needs a decision on the registry plate. Three options, each with a consequence:
 
 | Option | Consequence |
 |---|---|
@@ -161,9 +165,14 @@ The execution window is live. Pranks fire throughout the day.
 
 *One or two of these, as ambient texture. See [[calveno-raid-signs\|Calveno — Raid Prep Signs]] for the full menu.*
 
+> [!dm]
+> Don't volunteer these. Drop them into scenes the party is already in. If anyone asks about odd festival behavior, canal oddities, or unusual registrations, give them one sign from this section — reward curiosity.
+
 **Le Paludi canals:** a ferryman points out a storm-drain access grate set slightly off its seating. He noticed it yesterday. No one has reported it because nobody's sure whose job that is during festival week.
 
 **Ponte Bassa / Moretti & Sons:** Giacomo mentions that a buyer this morning wanted to know which of his regular dock customers take their lunch break aboard their vessel and which come ashore. *"Bought nothing. Asked three questions about my customers and left."* He found it rude. He does not connect it to anything.
+
+**The harbour (if anyone is watching the water):** Three dark-hulled boats sit at anchor past the patrol line. No pennant, no activity on deck. A harbour regular squints at them: "Double-outrigger. Nobody here rigs like that." Anyone with Grung or Midchain maritime knowledge identifies them as *vethka*.
 
 ---
 
@@ -180,7 +189,15 @@ The festival's prank culture is being used. Grung-themed jokes, costumes, and bi
 **The Bridge:** a street comedian is doing a bit about Grung raiders registering for the Beffa. The crowd treats it as absurdist humour. The comedian was paid 5 gp by a small figure with a moustache. He thought the moustache was part of a costume.
 
 > [!dm]
-> The desensitization is cumulative. By Day 3, seeing Grung references in the streets is festival normal. On Day 5, the first seconds of the real raid will read as another prank — and those seconds are the operational gap. If the party investigates the money trail, each paid performer traces back to a purple-caste handler in a bad disguise ([[calveno-raid-signs#Grung-Normalizing Pranks|full details]]).
+> The desensitization is cumulative. By Day 3, seeing Grung references in the streets is festival normal. On Day 5, the first seconds of the real raid will read as another prank — and those seconds are the operational gap.
+
+> [!check] Investigation — Prank Money Trail
+> DC 13. Available if any PC follows the money or interrogates a performer.
+> Fail: "Some little fellow in a hat. Paid in advance. Didn't leave a name."
+> Success: paid by a Grung — not in costume, a real Grung — in plain trade clothes, spoke with a Karath accent, asked no questions about the performer's act or the bit's content. Paid well for something they didn't care about.
+> Crit success: the performer kept the coin. It bears a mark JC recognizes from Botukuri merchant script — military supply, not trade.
+
+See [[calveno-raid-signs#Grung-Normalizing Pranks|full details]] for the complete prank roster.
 
 ---
 

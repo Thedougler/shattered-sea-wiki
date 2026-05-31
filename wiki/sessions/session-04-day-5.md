@@ -15,7 +15,7 @@ sources:
   - Homebrew
 session_number: 4
 session_date: "unknown"
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Session 04 — Day 5: The Raid
@@ -100,7 +100,16 @@ The session's climactic fight if the party reaches Day 5. The Slaad is at the pr
 
 **Tactics:** The Slaad is not intelligent. It attacks the nearest creature. It does not pursue strategically — it is chaos, not tactics. It uses Tongue Lash to yank ranged attackers (Jean-Claude) into melee. Chaos Pulse punishes clustering. Rubble Surge punishes repositioning and flight (Crissdalynn). It will jump into and out of the crater if pressed.
 
-**The tactical key:** fire or acid suppresses the 15 HP/round regeneration. The party does not have reliable fire damage by default. Reward creative sourcing — festival torches, chandler's oil in the rubble (DC 14 Investigation), alchemical improvisation. Without fire, the fight is a war of attrition they will lose.
+**The tactical key:** fire or acid suppresses the 15 HP/round regeneration. The party does not have reliable fire damage by default. Without fire, the fight is a war of attrition they will lose.
+
+> [!dm]
+> **Fire sourcing.** The party needs to find fire or acid. Here's what's available in the environment:
+> - **Festival torch racks** at the Mercatura — scattered in the collapse. DC 12 Investigation finds one still burning in the rubble.
+> - **Giacomo's oil stock** — if Moretti & Sons is near the Mercatura, a crate of chandler's lamp oil spilled in the blast. DC 14 Investigation to locate, then throw or pour.
+> - **Overturned vendor cart** — a festival alchemist's cart tipped in the collapse. DC 14 Investigation finds two flasks of alchemist's fire (2d6 fire, splash) in the wreckage.
+> - **Ruk** — arrives after round 5 if the party is struggling (see scaling below). Carries a lit festival torch and a cleaver. He brings fire; the party doesn't need to ask.
+>
+> Reward creative improvisation — canal oil, broken lanterns, cooking fires from a nearby food stall. If the idea is plausible and the player is specific, give it a DC and let it work.
 
 > [!dm]
 > **The choice the Slaad creates:** every round the party fights the Slaad is a round the extraction runs at the secondary sites. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide — stay and kill, or split and save. This is not a punishment — it is a design decision that makes the raid feel like a coordinated operation.
@@ -116,20 +125,29 @@ The session's climactic fight if the party reaches Day 5. The Slaad is at the pr
 
 If the party is not at the Mercatura when it fires, they experience a secondary strike up close.
 
-### Strike Site — The Bridge
+### Strike Site — The Bridge (Chase Extraction)
 
 > [!read-aloud]
-> The Bridge shakes. A section of the approach ramp cracks open and Grung pour out — purple-caste, armed, moving in formation. They ignore the bridge traffic. They are heading for the working crowd at the lower quay. A catching force is already in position — a line of small figures in festival cloaks, standing too still, arms out, herding the running crowd toward the breach.
+> The Bridge shakes. A section of the approach ramp cracks open and Grung pour out — purple-caste, armed, moving in formation. They ignore the bridge traffic. They are heading for the working crowd at the lower quay — not grabbing anyone here, driving them. The catching force is at the far end, funneling the running crowd through the bridge pinch-point into a second breach below the ramp.
 
-### Strike Site — Le Paludi Working Yard
+> [!dm]
+> The Bridge extraction is a cattle drive — the raid team pushes the crowd through the bottleneck where the catching force grabs targets at the choke point. If the party engages here, it's a chase and interception problem: they need to reach the far end before the crowd is driven through, or break the drive from behind. Running against the crowd is DC 13 Athletics.
 
-> [!read-aloud]
-> The yard floor drops. Two dockhands fall with it. Dust. A hand reaches up from below and pulls one of them down. Grung emerge — fast, low, practiced. They bind the nearest dockhand before his partner has finished turning around. The rope is pre-knotted. The work takes four seconds.
-
-### Strike Site — Harbour Approach
+### Strike Site — Le Paludi Working Yard (Vertical Breach)
 
 > [!read-aloud]
-> The harbour-approach cobblestones split like a wound. Grung haul themselves up through it, already running toward the tied boats. A boatman who sleeps aboard his vessel is dragged from his cabin. His shout is cut short. Two more Grung are working the nearest mooring line, clearing the path to the outer water.
+> The yard floor drops in two places — upper tier and lower, staggered. Two dockhands fall with the upper collapse. A hand reaches up from below and pulls one of them down. Grung emerge from both levels, fast, low, practiced. The rope is pre-knotted. The work takes four seconds.
+
+> [!dm]
+> The Le Paludi breach is two-tier — upper yard and canal-level storage below. Grung emerge from both openings, creating a pincer. If the party engages, they have to choose a level. Jumping down is free (10 ft, DC 10 Acrobatics to land clean); climbing up costs a full action.
+
+### Strike Site — Harbour Approach (Water Extraction)
+
+> [!read-aloud]
+> The harbour-approach cobblestones split like a wound. Grung haul themselves up through it, already running toward the tied boats. A boatman who sleeps aboard his vessel is dragged from his cabin. His shout is cut short. Two more Grung are working the nearest mooring line, clearing the path to the outer water. A canal boat is already drifting toward the breach — someone cut its mooring upstream.
+
+> [!dm]
+> The harbour extraction loads captives directly onto a canal boat and runs for the outer water. If the party engages here, they can fight on the dock or pursue by water — commandeer a tied boat (DC 12 Athletics to cast off fast), swim (DC 14 Athletics in canal current), or cut the canal boat's line from the quay edge. The boat reaches open water in 3 rounds if no one stops it.
 
 > [!dm]
 > Each secondary site has a purple-caste raid team (4 Grung Elite Warriors) and a catching force (6 Grung). The catching force does not fight — they bind and extract. If the party engages a secondary site, they face the raid team. Defeating the raid team at one site saves 20–30 potential captives. The catching force scatters if the raid team falls.
@@ -157,6 +175,9 @@ If the party captures or kills a purple-caste handler during the raid, they find
 
 The raid runs for approximately ten minutes, surface to extraction. Then the Grung are gone — underground, through the sewer network, to the egress vents, to the *vethka*. What remains is dust, debris, absence, and the sound of people calling names into crowds that have already moved on.
 
+> [!dm]
+> **Spotlight.** Crissdalynn owns the physical fight — her mobility makes her the Slaad's primary aerial threat. JC owns the Simone recognition (keep it private). Delmar carries the Pearl's weight in the aftermath — the wreck Umberlee wants is the wreck someone else just proved they'll kill for. Perrin owns the Warren/Nona relationship. Give each one quiet beat after the dust settles.
+
 ### The Silence After
 
 ![[wiki/assets/sessions/session-04/calveno-raid-aftermath-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. The Mercatura plaza after the raid: a twenty-foot crater in the centre, festival cloth hanging from rubble like flags of surrender, dropped tools and trampled masks in canal water, dust in the air, majority-human Calveno civilians stunned in small clusters with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs, and a woman standing alone at the crater edge calling a name into empty air. Somber aftermath, no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
@@ -165,6 +186,9 @@ The raid runs for approximately ten minutes, surface to extraction. Then the Gru
 > The dust settles. The Mercatura plaza has a hole in it twenty feet across. Festival cloth hangs in the rubble like flags of surrender. Dropped tool rolls. Masks in trampled water. A woman is calling a man's name, over and over, into a crowd that is not listening because the crowd is doing the same thing.
 >
 > The watch arrives. They are too late. They know it. The sergeant stands at the edge of the crater and looks down into the dark and does not speak.
+
+> [!read-aloud]
+> The ringing fades. The dust is thinning, and through it you can see the other craters — one at the Bridge, smoke rising from Le Paludi, a hole in the harbour approach where cobblestones used to be. The festival cloth hangs from rubble like flags of surrender. Somewhere a bell is ringing that nobody asked to ring. And from every direction, the same sound: names. People calling names into crowds that have already moved on.
 
 > [!dm]
 > Give the aftermath room to breathe. The party has been through combat or rescue or both. The city is in shock. This is not a failure-state for the party — even a partial raid changes the world. What matters now is what they do next.
@@ -212,8 +236,16 @@ And she recognizes the pain. She has heard it before. Countless Rattkin have sim
 > Nona's vow is real. She will assemble a pursuit force from Warren volunteers, Passage contacts, and anyone in Calveno willing to crew a fast ship. The pursuit is the next beat of the raid situation — whether the party joins it, leads it, or watches it leave without them.
 >
 > **What this changes:** Nona has publicly declared the Passage's allegiance to Calveno's citizens. This is unprecedented. The Passage has operated in the shadows for generations — Rattkin help Rattkin, and the Dry take care of themselves. Nona just broke that wall. She did it because the grief is the same grief, and because she is old enough to be done pretending otherwise.
->
-> **Mechanical consequence:** the party now has access to a Passage-backed pursuit operation. Nona can provide: a fast ship (not the *Uncertainty*), Warren volunteers as crew, Passage intelligence on Grung water routes, and a Tangle contact at the nearest outer-island port who can resupply without questions.
+
+### What Nona Can Provide
+
+| Resource | Detail |
+|---|---|
+| **A fast ship** | The *Brezza Nera* — a Warren-maintained smuggler sloop, lateen-rigged, faster than the *Uncertainty* but smaller. Crew of twelve. Nona kept her in a Le Paludi canal slip for exactly this kind of need. |
+| **Warren crew** | Eight volunteers — "eight who stood up before Ruk finished setting down the cauldron." Rattkin, experienced sailors, loyal to Nona. Not fighters. |
+| **Passage intelligence** | The *vethka* will run the eastern shelf of the Calven Roads past the Dravosi patrol minimum. Nona's contacts in the outer islands can track their heading within a day. |
+| **Tangle resupply** | A contact named **Dagna** at Marengo who can provision a ship without questions and without a manifest. One resupply, no charge — "Tell her Nona sent you and she'll feed your ship the way I feed my kitchen." |
+| **Cost** | Perrin's existing favor covers the whole party if he commits. No additional price. Nona is not transacting — she is keeping a promise she just made in public. |
 
 ---
 

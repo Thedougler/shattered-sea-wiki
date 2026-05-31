@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskippable vigil at the Waveservant Shrine, Cobb's check-in about the sending stone, and the party's first night in Calveno."
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - session-prep
   - run-guide
@@ -70,13 +70,13 @@ There is no skipping this scene; there is only *when* Delmar walks into it. The 
 
 The party has a few hours before dark. Calveno is dressing for festival — cloth going up on facades, registration desks being assembled on the Mercatura bridge, canal boats hung with lanterns.
 
-| If the party wants... | Put in front of them |
-|---|---|
-| Food and lodging | [[ponte-bassa\|The Ponte Bassa]] — [[oleandro-fuschi\|Oleandro Fuschi]] remembers vessels, not names. A quiet tavern that smells of canal water and fried squid. |
-| Ship check | [[la-vasca\|La Vasca]] — Sem is already naming repairs. The ship is safe; it is not solved. |
-| City walk | Festival setup is visible: cloth, masks, registration materials. A Beffa clerk tests the bridge desk in lamplight. |
-| Supplies | [[moretti-and-sons\|Moretti & Sons]] — [[giacomo-moretti\|Giacomo]] closes at sundown during festival week but will open for a real order. |
-| Privacy | La Vasca's covered basin hides the ship. The party's faces are not hidden. |
+| If the party wants... | Put in front of them | Thread to pull if they linger |
+|---|---|---|
+| Food and lodging | [[ponte-bassa\|The Ponte Bassa]] — [[oleandro-fuschi\|Oleandro]] seats them near the canal window without asking names. Fried squid, cheap wine, lamplight on dark water. | Two dock regulars at the next table mention a Beffa team that asked odd questions at registration — "How many people through the bridge in a minute?" |
+| Ship check | [[la-vasca\|La Vasca]] — Sem is naming repairs in the order he'll do them. He needs time, not help. | A Warren dock hand eyes the hull's Crown lines, then looks at Perrin and looks away. The silhouette is a problem someone has noticed. |
+| City walk | Festival cloth going up on every facade. Lanterns on canal boats. A Beffa clerk tests the bridge desk, ink on her fingers, arguing with a vendor about mask storage. | The energy of a city dressing for something it loves — and a stone shrine off the Mercatura canal where a single lamp is burning and a woman is sitting very still. |
+| Supplies | [[moretti-and-sons\|Moretti & Sons]] — [[giacomo-moretti\|Giacomo]] closes at sundown but opens for a real order. Examines JC's moustache with professional interest. | "You know, I had a buyer this morning who didn't buy anything. Three questions about my customers and left." (Raid sign — reward curiosity, don't flag it.) |
+| Privacy | La Vasca's covered basin hides the ship. The party's faces are not hidden. | Perrin is already known in the Warren — Cobb will find him before the evening is done. |
 
 ---
 
@@ -84,11 +84,20 @@ The party has a few hours before dark. Calveno is dressing for festival — clot
 
 [[cobb\|Cobb]] finds Perrin before the evening is done — at the tavern, the dock, or wherever Perrin settles. He knows Perrin already went to see Nona.
 
+**NPC — Cobb** ([[cobb\|page]]): Young Warren Rattkin, dockworker's coat, speaks quietly, glances at exits out of habit. Drops onto a bench without asking permission. Loyal to Nona but likes Perrin — won't hide him from the family, won't volunteer more than he knows. Emotional default: cautious warmth. What cracks it: being asked to choose between Nona's instructions and Perrin's safety.
+
 > [!read-aloud]
 > A young Rattkin in a dockworker's coat drops onto the bench beside Perrin without asking. "She was glad you came. She won't say it twice, so I'm saying it." He glances at the sending stone if it's visible. "That thing's not decorative. When she uses it, she means now, not when you get around to it."
 
+**If Perrin asks about the stone or the favor:** "I don't know what she's planning. I know she's been waiting for a reason to use it, and you showing up gave her one. That's all I've got." He's telling the truth — Nona keeps her plans close.
+
+**If Perrin asks about the Warren:** "It's still there. She's still there. The Rattle still works. Come see for yourself — she'd like that." (Genuine; not a summons.)
+
 > [!dm]
 > Cobb is bridging. Perrin already met Nona, apologized, and left with the sending stone and an unconditional favor he hasn't heard yet. Cobb's role tonight is to reinforce that the stone is live and the favor is coming — not to arrange a first meeting.
+
+> [!dm]
+> **Spotlight.** Crissdalynn owns the opening beat (Kyzil). Once that breathes, make sure Delmar feels Branca's weight before the party sleeps. JC and Perrin get city texture tonight — their threads activate when the city opens.
 
 ---
 

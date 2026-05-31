@@ -16,7 +16,8 @@ sources: []
 
 ## Recent Activity
 
-- 2026-05-31: Tag taxonomy created (`wiki/system/taxonomy.md`): 26 canonical tags across 4 groups; audit shows 919 frontmatter-dupe tags, 233 entity-name tags, 49 alias remaps pending.
+- 2026-05-31: Tag normalization complete — 6 passes, ~900 files touched; vault now 100% canonical (26 tags). All aliases remapped, frontmatter-dupe/entity-name/granular tags removed.
+- 2026-05-31: Tag taxonomy created (`wiki/system/taxonomy.md`): 26 canonical tags across 4 groups.
 
 ## Current Arc
 

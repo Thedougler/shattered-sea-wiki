@@ -7,7 +7,7 @@ audience: dm
 publish: true
 summary: "A young Dravosi patrol sailor trained for inspections, boarding duties, alarms, and buying time for heavier Crown response."
 created: 2026-04-19
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - cr1/8

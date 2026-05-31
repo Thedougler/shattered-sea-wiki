@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - construct
+updated: 2026-05-31
+tags: []
 sources:
   - XMM
 confidence_level: high

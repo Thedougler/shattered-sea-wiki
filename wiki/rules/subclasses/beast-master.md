@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Ranger subclass (PHB 2024) — commands a Primal Companion beast that scales with WIS; both Striker and Defender; bypass Hunter's Mark in multi-target encounters.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

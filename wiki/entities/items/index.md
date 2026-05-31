@@ -7,7 +7,7 @@ summary: Public index for Shattered Sea item references, including party gear, n
 type: index
 campaign: shattered-sea
 created: 2026-05-04
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 - player-resource

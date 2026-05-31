@@ -7,10 +7,9 @@ audience: dm
 publish: false
 summary: "CR 19 undead lich. Sorcerer lich whose soul is bound to its own bloodline — every living descendant is a phylactery. Two confirmed Hierarchs in the campaign: Aldric Drave and Shepherd Grigori."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
-  - cr19
 sources:
   - "Inbox/Hierarch.md"
 confidence_level: high

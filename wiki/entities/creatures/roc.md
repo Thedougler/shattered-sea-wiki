@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Fighter — all armor, Action Surge, Extra Attack scaling; Stripes Bitemore is a Battle Master Fighter.
 created: 2026-04-19
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

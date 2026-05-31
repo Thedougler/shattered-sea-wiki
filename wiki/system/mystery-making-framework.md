@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's mystery-building method: define culprit, motive, and method first; then place at least 3 clues per core question. Use before creating any investigation, clue set, or mystery arc."
 created: 2026-04-24
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - mystery
   - dm-prep

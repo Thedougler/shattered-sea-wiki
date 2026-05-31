@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Poisoned condition — Disadvantage on attack rolls and ability checks.
 created: 2026-04-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

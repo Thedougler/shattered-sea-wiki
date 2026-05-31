@@ -7,10 +7,9 @@ audience: dm
 publish: false
 summary: "CR 20 undead lich. Fighter lich whose phylacteries are the undead corpses of warriors it has slain and conscripted — it must keep hunting worthy opponents to replace decaying anchors."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
-  - cr20
 sources:
   - "Inbox/Death-March.md"
 confidence_level: high

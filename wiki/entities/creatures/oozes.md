@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for oozes of the Shattered Sea — mindless dissolving predators of the underdark with no confirmed surface sightings.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

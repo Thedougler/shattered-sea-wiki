@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Warlock — CHA caster with Pact Magic (SR recharge), Eldritch Invocations, and Mystic Arcanum; Perrin Black-Jaw is Bard/Warlock.
 created: 2026-04-19
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

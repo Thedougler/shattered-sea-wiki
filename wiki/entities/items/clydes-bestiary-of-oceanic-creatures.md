@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - book
 sources:

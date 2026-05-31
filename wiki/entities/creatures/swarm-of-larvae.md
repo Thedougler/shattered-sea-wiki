@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - fiend
+updated: 2026-05-31
+tags: []
 sources:
   - XMM
 confidence_level: high

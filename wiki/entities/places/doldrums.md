@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A windless band of flat water below the Midchain's southern edge — mirror-still surface, sound carrying too well, and a black dragon using the still water as hunting cover in the deeper channels."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
   - weather

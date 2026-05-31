@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - stealth
   - homebrew

@@ -7,10 +7,9 @@ audience: dm
 publish: false
 summary: "CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
-  - cr9
 sources:
   - "Inbox/Restless.md"
 confidence_level: high

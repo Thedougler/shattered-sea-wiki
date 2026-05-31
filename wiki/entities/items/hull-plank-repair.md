@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Replacing damaged hull planking — minor to moderate damage handled in dry dock; full replank by negotiation."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

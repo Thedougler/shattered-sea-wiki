@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A single-shot lightning pistol that fires 2d8 damage with no powder and no wet-weather misfire — prototype; Catarina has not decided what went wrong with it."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - prototype
   - antheri

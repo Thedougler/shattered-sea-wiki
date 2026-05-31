@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for constructs and animated objects of the Shattered Sea — typically stationary until a threshold is crossed.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

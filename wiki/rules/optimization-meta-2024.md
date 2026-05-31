@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: DM-facing reference for 2024 5e balance and build optimization — based on RPGBOT meta analysis (December 2025). Subject to change as new supplements release.
 created: 2026-04-21
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - rpgbot.net 2024 meta analysis

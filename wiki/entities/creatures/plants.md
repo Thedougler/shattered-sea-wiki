@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for plant creatures and fungi of the Shattered Sea — primarily found in the deep underdark beneath the Scatter.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

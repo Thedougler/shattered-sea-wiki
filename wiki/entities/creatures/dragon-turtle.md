@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown."
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - cr17
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/dragon-turtle.md"
 confidence_level: medium

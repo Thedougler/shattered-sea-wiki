@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Rogue subclass (PHB 2024) — adds INT spellcasting to the Rogue; Mage Hand Legerdemain, True Strike for weapon-based INT builds, Arcane Deflection.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

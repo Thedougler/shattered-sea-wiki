@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Rogue subclass (PHB 2024) — iconic Scout Rogue; Fast Hands grants Bonus Action use of magic items; High Jump and Reliable Talent round out a skill-focused build.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

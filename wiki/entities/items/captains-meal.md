@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - Homebrew

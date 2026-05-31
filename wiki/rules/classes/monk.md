@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Monk — DEX+WIS unarmored class with Martial Arts, Focus Points, and Stunning Strike; Crissdalynn Khinriss is a Kensei Monk.
 created: 2026-04-19
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

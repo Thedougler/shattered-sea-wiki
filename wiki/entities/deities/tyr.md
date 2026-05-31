@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Lawful Good god of law, justice, civic order, and Dravosi state legitimacy. His clergy witness oaths, commissions, and courts martial."
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - law

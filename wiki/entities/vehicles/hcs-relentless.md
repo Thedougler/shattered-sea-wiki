@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A Tier 1 patrol cutter in Port Tidefall — same class as HCS Surety but more heavily armed, in pristine condition, and not for sale."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
 sources:

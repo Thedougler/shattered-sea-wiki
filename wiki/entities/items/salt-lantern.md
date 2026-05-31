@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "A brass lantern that burns indefinitely without fuel — but only in salt air; it goes dark inland or in enclosed spaces within one minute."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - morsani-stock
   - maritime
   - homebrew
 sources:

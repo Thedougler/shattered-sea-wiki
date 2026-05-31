@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - homebrew

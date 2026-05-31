@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Public index for Shattered Sea creature and monster references — every sailor working the Scatter has a story.
 created: 2026-05-03
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

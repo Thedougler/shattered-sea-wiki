@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Fighter subclass (PHB 2024) — tactical combat maneuvers using Superiority Dice; the most mechanically flexible Fighter subclass; Stripes Bitemore is a Battle Master.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

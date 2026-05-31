@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A tapered steel tool for separating rope strands and working knots — essential gear for anyone who works rigging. 5 sp."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

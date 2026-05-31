@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Agent quick reference for party-wide encounter tuning at level 4 — PC combat roles, observed patterns, lighting asymmetry, resource budget, and fair pressure distribution."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for dragons, dragon turtles, and sea serpents of the Shattered Sea — most are apex threats where encounters are survival problems, not fights.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

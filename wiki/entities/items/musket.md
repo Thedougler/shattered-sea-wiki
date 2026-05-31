@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Martial ranged weapon. Highest single-shot damage (1d12), but Loading, shortest range of any two-hander, and three firearm penalties (misfire, loud, wet) that bows avoid entirely."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - firearm
   - homebrew

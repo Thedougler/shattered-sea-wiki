@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: CR 22 metallic dragon; watches the Shelfworks and the Drowned Maw — it has established, via cold currents and repositioned dive lines, that certain parts of the ruins are not for salvage.
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - dragon-metallic
+updated: 2026-05-31
+tags: []
 sources:
   - XMM
   - Homebrew

@@ -7,7 +7,7 @@ audience: players
 summary: Index of the regions within the Shattered Sea.
 campaign: shattered-sea
 created: 2026-05-04
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
   - location

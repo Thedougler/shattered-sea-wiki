@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Monk subclass (PHB 2024) — 10-foot reach, elemental damage type switching, vertical knockback for falling damage, flight at Level 11 via Stride of the Elements.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

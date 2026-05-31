@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A CR 1/4 beast swarm roosting in the sea-cliff overhangs of the Ashwall Islands; the evening exodus sounds like distant thunder.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11."
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - needs-detail
   - dravosi

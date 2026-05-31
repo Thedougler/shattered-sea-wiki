@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 created: 2026-05-02
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - Inbox/places/calveno/Cats-Curios.md

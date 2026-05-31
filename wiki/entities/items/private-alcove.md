@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "A curtained booth off the south wall of the Low Lamp — for conversations that need to not carry. 2 sp."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - lodging
+updated: 2026-05-31
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

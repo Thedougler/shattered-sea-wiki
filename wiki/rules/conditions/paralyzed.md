@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Paralyzed condition — Incapacitated, Speed 0, auto-fail STR/DEX saves, attacks against you have Advantage, and any hit by an attacker within 5 ft is a Critical Hit.
 created: 2026-04-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

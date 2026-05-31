@@ -7,10 +7,8 @@ audience: players
 publish: true
 summary: "The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - tavern
-  - lodging
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/Five-Blades.md"
   - "Inbox/The-Flat-Water.md"

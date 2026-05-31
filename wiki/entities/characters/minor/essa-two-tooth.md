@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - rattkin
 sources:

@@ -8,7 +8,7 @@ summary: Index for compact Shattered Sea supporting NPC character pages.
 type: index
 campaign: shattered-sea
 created: 2026-05-16
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 - player-resource

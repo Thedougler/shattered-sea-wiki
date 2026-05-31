@@ -4,7 +4,7 @@ category: index
 type: index
 campaign: shattered-sea
 created: 2026-05-16
-updated: 2026-05-30
+updated: 2026-05-31
 publish: true
 visibility: public
 audience: players

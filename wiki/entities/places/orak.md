@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - grung
 sources:

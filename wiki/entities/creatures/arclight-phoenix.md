@@ -7,10 +7,8 @@ audience: players
 publish: true
 summary: "CR 12 elemental. Medium lightning-form bird; dies in an explosion that leaves a hatching egg. Born in Ashwall volcanoes, possibly sustains the Galewall."
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - elemental
-  - cr12
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/arclight-phoenix.md"
 confidence_level: medium

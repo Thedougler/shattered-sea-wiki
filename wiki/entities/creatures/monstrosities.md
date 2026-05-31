@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for monstrosities of the Shattered Sea — creatures that defy easy classification, part animal, part nightmare.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

@@ -10,8 +10,6 @@ created: "2026-05-30"
 tags:
   - aberration
   - slaad
-  - boss
-  - cr8
   - named-enemy
 sources:
   - Homebrew

@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Log of lore contradictions and ambiguous entity identity that need a DM decision. Append on conflict; never auto-resolve identity. Both traces stay visible until resolved."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-31
 tags: []
 sources: []
 ---

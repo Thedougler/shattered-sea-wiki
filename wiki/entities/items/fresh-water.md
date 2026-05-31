@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

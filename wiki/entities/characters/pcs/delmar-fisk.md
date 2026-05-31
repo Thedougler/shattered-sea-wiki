@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - swashbuckler
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

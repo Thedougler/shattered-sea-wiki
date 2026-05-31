@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A smooth grey stone that heats white-hot when held by someone who knowingly lies — common on the Midchain; favored by captains, merchants, and anyone who has been burned by a false manifest."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - magic
   - homebrew

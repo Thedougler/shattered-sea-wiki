@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Active task tracking for multi-file ingest operations."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-31
 tags: []
 sources: []
 ---

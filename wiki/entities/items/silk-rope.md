@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Lighter and stronger than hemp, sold in small quantities at premium chandleries."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - rope
 sources:

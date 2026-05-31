@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

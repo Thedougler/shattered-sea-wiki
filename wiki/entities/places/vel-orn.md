@@ -7,11 +7,10 @@ audience: players
 publish: true
 summary: "The barren black-stone shrine island of the Sunken Crown — Umberlee's Blue Shrine, water-debt obligations, and the island from which Fisk's fleet stole the Pearl of Souls."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - umberlee
   - sunken-crown
-  - shrine
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Vel-Orn.md"

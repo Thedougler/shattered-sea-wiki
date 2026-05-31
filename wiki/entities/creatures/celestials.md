@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for celestials of the Shattered Sea — divine and sacred creatures; encountering one is rarely accidental.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

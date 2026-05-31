@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - tier-4

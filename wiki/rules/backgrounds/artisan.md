@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Artisan background — Strength, Dexterity, Intelligence; Crafter feat; Investigation and Persuasion proficiencies.
 created: 2026-04-24
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - http://dnd2024.wikidot.com/background:artisan

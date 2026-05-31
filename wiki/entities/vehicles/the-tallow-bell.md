@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - waveservants
   - umberlee

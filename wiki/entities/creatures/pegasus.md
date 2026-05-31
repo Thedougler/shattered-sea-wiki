@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: The Pegasus, a CR 2 celestial rumoured above the High Eyrie; sightings treated as a private matter by the Sentinels.
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - celestial
+updated: 2026-05-31
+tags: []
 sources:
   - XMM
 confidence_level: high

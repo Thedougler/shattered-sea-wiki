@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - magic-item
   - mystery
 sources:
   - "Inbox/Session-02-Recap.md"

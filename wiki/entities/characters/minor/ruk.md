@@ -7,9 +7,8 @@ audience: dm
 publish: false
 summary: "Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings."
 created: 2026-05-20
-updated: 2026-05-30
-tags:
-  - lizardfolk
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Ruk.md"

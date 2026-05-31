@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A CR 1/4 beast swarm from the cliffs of Vel-Orn; a carrion flock circling over a distressed vessel is a universally understood bad sign.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

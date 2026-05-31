@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
   - drowned-maw

@@ -7,11 +7,10 @@ audience: players
 publish: true
 summary: "CR 6 monstrosity. Huge aquatic predator with a barbed tail that can hook ship hulls. Kalowe fishermen call it the Welak. Encountered in Session 03 — a 60-foot specimen attacked the Uncertainty west of Calveno."
 created: 2026-04-12
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - aquatic
   - siege
-  - cr6
 sources:
   - "Inbox/Whip-Shark.md"
 confidence_level: high

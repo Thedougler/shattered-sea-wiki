@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - antheri
   - homebrew

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Guard background — Strength, Intelligence, Wisdom; Alert feat; Athletics and Perception proficiencies.
 created: 2026-04-24
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - http://dnd2024.wikidot.com/background:guard

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 created: 2026-05-05
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

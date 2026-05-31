@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Paladin — CHA-based half caster with Divine Smite, heavy armor, Auras, and Lay on Hands.
 created: 2026-04-22
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

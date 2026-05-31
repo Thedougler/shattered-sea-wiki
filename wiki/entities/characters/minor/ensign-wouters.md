@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited."
 created: 2026-05-17
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
 sources:

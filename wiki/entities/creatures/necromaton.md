@@ -7,10 +7,9 @@ audience: dm
 publish: false
 summary: "CR 20 undead lich. Artificer lich that transfers its soul into a construct of its own making — three stat block variants by chassis type. Permanently destroyed only when all construct bodies are eliminated."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
-  - cr20
 sources:
   - "Inbox/Necromaton.md"
 confidence_level: high

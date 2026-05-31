@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Prone condition — only movement option is to crawl or spend half Speed to stand; Disadvantage on attacks; attacks against you have Advantage within 5 ft, Disadvantage otherwise.
 created: 2026-04-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

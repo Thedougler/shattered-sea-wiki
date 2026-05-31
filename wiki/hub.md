@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player-facing root hub for the Shattered Sea campaign wiki, with onboarding links, rules references, character creation resources, and setting indexes.
 created: 2026-05-04
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

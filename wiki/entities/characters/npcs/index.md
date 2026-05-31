@@ -8,7 +8,7 @@ summary: Index for recurring Shattered Sea NPC character pages.
 type: index
 campaign: shattered-sea
 created: 2026-05-12
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 - player-resource

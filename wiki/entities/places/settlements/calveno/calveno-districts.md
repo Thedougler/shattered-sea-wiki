@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: DM navigation reference for Calveno — district-by-district layout, key locations, and phrases for describing movement between them.
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dm-prep
 sources:

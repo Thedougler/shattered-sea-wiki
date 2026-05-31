@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - melee
+updated: 2026-05-31
+tags: []
 sources:
   - "D&D 2024 PHB"
 confidence_level: high

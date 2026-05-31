@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Bolts of canvas and heavy cloth for sewing, patching, and general fabrication."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
   - craft

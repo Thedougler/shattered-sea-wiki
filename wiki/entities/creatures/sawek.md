@@ -7,11 +7,10 @@ audience: players
 publish: true
 summary: "CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair."
 created: 2026-04-12
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - aquatic
   - lair
-  - cr5
 sources:
   - "Inbox/Sawek.md"
 confidence_level: medium

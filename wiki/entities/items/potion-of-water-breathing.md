@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - magic-item
   - maritime
 sources:
   - "PHB"

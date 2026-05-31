@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 sources:

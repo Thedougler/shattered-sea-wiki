@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance."
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - location
   - instruments
 sources:
   - "Inbox/Oswald-Crench.md"

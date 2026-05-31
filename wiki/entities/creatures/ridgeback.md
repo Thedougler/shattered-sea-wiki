@@ -7,12 +7,9 @@ audience: dm
 publish: false
 summary: "CR 8 elemental serpent from the Plane of Water — the second entity through the Maw fissure. Territorial tribute-warden: attacks vessels that cross its claimed water without offering. Announces approach via visible rolling humps."
 created: 2026-05-16
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - elemental
   - aquatic
-  - boss
-  - cr8
   - planar
 sources:
   - "Inbox/Ridgeback.md"

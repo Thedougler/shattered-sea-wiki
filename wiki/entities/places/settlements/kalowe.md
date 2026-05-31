@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - harbour
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"

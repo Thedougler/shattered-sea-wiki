@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Monk subclass (PHB 2024) — darkness-powered striker; Shadow Arts (1 FP) casts Darkness for permanent Advantage; Shadow Step teleports in dim light/darkness; Cloak of Shadows grants free Flurry.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

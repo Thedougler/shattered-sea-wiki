@@ -7,10 +7,9 @@ audience: players
 publish: true
 summary: "A hand-drawn navigational chart of professional quality, depicting approximately 200 miles of coastline that does not appear on any Crown, Tessarine, or commercial chart."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - mystery
-  - morsani-stock
 sources:
   - Homebrew
 confidence_level: medium

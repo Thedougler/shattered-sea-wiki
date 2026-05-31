@@ -7,9 +7,8 @@ audience: dm
 publish: false
 summary: CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
 created: 2026-04-21
-updated: 2026-05-30
-tags:
-  - dragon-metallic
+updated: 2026-05-31
+tags: []
 sources: []
 confidence_level: high
 aliases:

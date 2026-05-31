@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache."
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - cr1
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/pirate.md"
 confidence_level: high

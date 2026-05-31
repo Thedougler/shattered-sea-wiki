@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 4 ooze that dissolves metal and wood on contact; splits into smaller puddings when hit with slashing or lightning damage.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - ooze
 sources:

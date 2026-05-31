@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - maritime
 sources:

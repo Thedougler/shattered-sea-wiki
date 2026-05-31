@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB

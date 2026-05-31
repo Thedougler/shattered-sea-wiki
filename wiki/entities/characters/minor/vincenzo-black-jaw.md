@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Deceased patriarch of the Black-Jaw Run — built and captained the Vestra, Nona's late husband, Perrin's grandfather."
 created: 2026-05-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - rattkin
 sources:

@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - construct
   - antheri
   - homebrew
 sources:

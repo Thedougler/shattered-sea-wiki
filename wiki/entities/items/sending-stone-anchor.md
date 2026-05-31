@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - communication
   - homebrew

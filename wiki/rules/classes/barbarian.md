@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Barbarian — martial class with Rage for damage resistance and bonus damage; Constitution-heavy, front-line fighter.
 created: 2026-04-22
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

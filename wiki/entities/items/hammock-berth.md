@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - lodging
+updated: 2026-05-31
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

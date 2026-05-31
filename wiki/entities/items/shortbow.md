@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Simple ranged weapon — compact, light, no proficiency barrier, the default ranged option for rangers, rogues, and anyone who needs reach without martial training."
 created: '2026-05-29'
-updated: 2026-05-30
-tags:
-  - simple
+updated: 2026-05-31
+tags: []
 sources:
   - "D&D 2024 PHB"
 confidence_level: high

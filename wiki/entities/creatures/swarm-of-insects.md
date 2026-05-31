@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

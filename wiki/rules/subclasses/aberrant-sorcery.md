@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Sorcerer subclass (PHB 2024) — psionic power derived from alien influence; Psionic Spells, SP-cost casting, Revelation in Flesh, and Warping Implosion.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

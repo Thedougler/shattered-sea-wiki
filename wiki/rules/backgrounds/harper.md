@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Harper background — Dexterity, Intelligence, Charisma; Harper Agent feat; Performance and Sleight of Hand proficiencies.
 created: 2026-04-24
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - http://dnd2024.wikidot.com/background:harper

@@ -7,10 +7,9 @@ audience: dm
 publish: false
 summary: "CR 20 undead lich. Warlock lich whose phylacteries are signed pact contracts — it reforms as long as any pact-holder still lives."
 created: 2026-05-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - undead
-  - cr20
 sources:
   - "Inbox/Covenant.md"
 confidence_level: high

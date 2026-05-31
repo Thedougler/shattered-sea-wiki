@@ -7,7 +7,7 @@ summary: Player-facing index for Shattered Sea factions, focused on what charact
 type: index
 campaign: shattered-sea
 created: 2026-05-01
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 - player-resource

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A +1 Calveno dock-pattern shortbow — silent firing that rewards Gloomstalker ambush tactics. Available at a Velo Quarter estate-lot dealer, unidentified."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - homebrew
 sources:

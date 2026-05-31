@@ -7,10 +7,9 @@ audience: dm
 publish: true
 summary: "A Dravosi Crown support officer who turns shipboard supplies, medicinals, and weaponized compounds into tactical leverage."
 created: 2026-04-19
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - dravosi
-  - cr1
 sources:
   - "Inbox/Dravosi-Alchemist.md"
 confidence_level: medium

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Sorcerer subclass (PHB 2024) — orderly, reroll-focused magic; Restore Balance flips advantage/disadvantage on saves; Trance of Order guarantees minimum 10 on d20s.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

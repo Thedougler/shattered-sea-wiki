@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 1 monstrosity nesting in the sea cliffs of the Ashwall Islands and Meth-Var; Luring Song carries further than it should and compels victims toward the nest.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

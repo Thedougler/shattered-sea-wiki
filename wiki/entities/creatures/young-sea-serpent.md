@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach."
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - cr8
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/young-sea-serpent.md"
 confidence_level: high

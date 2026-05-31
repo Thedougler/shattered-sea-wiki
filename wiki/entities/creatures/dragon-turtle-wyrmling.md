@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "CR 4 dragon. Large amphibious; single Bite attack, 15-ft Steam Breath cone. Sighted around Meth-Var and the Sunken Crown."
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - cr4
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/dragon-turtle-wyrmling.md"
 confidence_level: medium

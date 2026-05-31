@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
 created: 2026-04-20
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

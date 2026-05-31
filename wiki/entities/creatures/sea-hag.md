@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 2 fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor.
 created: 2026-04-25
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - XMM

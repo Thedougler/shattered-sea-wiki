@@ -7,9 +7,8 @@ audience: players
 publish: true
 summary: "Patriarch of the Fifita family, proprietor of the Taufa Fifita & Sons chandlery on Kalowe. Knows every ship that has bought rope from him and what they used it for in general terms. Doesn't ask about specifics."
 created: 2026-05-17
-updated: 2026-05-30
-tags:
-  - lizardfolk
+updated: 2026-05-31
+tags: []
 sources:
   - "Inbox/Noa-Fifita.md"
   - "Inbox/Taufa-Fifita.md"

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Sorcerer subclass (PHB 2024) — draconic power grants AC bonus, HP boost, elemental resistance and damage bonus, Dragon Wings at 14, Dragon Companion at 18; the generalist Sorcerer.
 created: 2026-04-23
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - PHB 2024

@@ -9,7 +9,7 @@ subtype: conditions-index
 status: active
 campaign: shattered-sea
 created: 2026-05-03
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - player-resource
 - player-resource

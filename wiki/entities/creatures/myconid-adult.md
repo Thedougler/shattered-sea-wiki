@@ -7,9 +7,8 @@ audience: dm
 publish: false
 summary: CR 1/2 fungal plant creature; communicates via spores and can merge consciousnesses in a Rapport circle.
 created: 2026-04-25
-updated: 2026-05-30
-tags:
-  - plant
+updated: 2026-05-31
+tags: []
 sources:
   - XMM
 confidence_level: high

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out."
 created: '2026-05-29'
-updated: 2026-05-30
+updated: 2026-05-31
 tags: []
 sources:
   - "wiki/entities/factions/the-passage.md"

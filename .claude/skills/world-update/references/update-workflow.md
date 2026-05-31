@@ -29,9 +29,11 @@ Read in this order:
 1. Most recent session recap (`wiki/sessions/session-NN-recap.md`)
    - If recap doesn't exist, ask the DM for a summary before proceeding
 2. `wiki/hot.md` — current world state, faction clocks, live situations, spotlight
-3. All files in `wiki/situations/active/` — read at minimum the frontmatter, summary,
-   and current state of each
-4. Relevant narrative island files referenced by active situations
+3. All files in `wiki/situations/active/` — read **frontmatter only** (summary + tags +
+   status). This is for triage classification, NOT for understanding the thread. You will
+   do deep reads per-thread in Step 3. Do not form opinions about what entities will do
+   based on summaries alone — summaries omit the critical details that make proposals
+   specific and grounded.
 
 From the session recap, extract:
 
@@ -95,18 +97,65 @@ Wait for DM confirmation before proceeding.
 
 Work through all tiers in order: HOT first, then WARM, then COLD.
 
-### 3a. Read and Propose
+Process one thread at a time. Complete all sub-steps (3a through 3d) for each thread
+before starting the next.
 
-Read the situation file in full. Read the relevant faction or NPC file. Only after reading
-both, form one clear sentence about what this entity was trying to accomplish.
+### 3a. Deep Read — Mandatory Before Any Proposal
+
+**You may not propose an action for a thread you have not deeply read.**
+
+Step 1's triage used summaries. That is not enough to propose an advancement. For each
+thread, you must now read the full content — not skim, not recall from the summary pass.
+
+**Read sequence:**
+
+1. Read the **situation file in full** — every section, including DM notes, pressures,
+   clocks, open questions, and any existing world-update entries.
+2. Follow every **wikilink** in the situation file to the relevant entity pages (NPC,
+   faction, location, item). Read each linked page's current state, goals, and resources.
+3. If the situation references a **narrative island**, read that file too.
+
+**After reading, produce a Context Brief** — a short block proving you read the source
+material. This is not optional. If you skip it, your proposal will be shallow and wrong.
+
+Format:
+
+> **Context Brief — [Thread Name]**
+> - **Entity goal:** [What the entity is trying to accomplish — quoted or paraphrased
+>   from the file, not inferred from the summary]
+> - **Current position:** [Where they are, what resources/leverage they have — from file]
+> - **This session:** [What specifically changed for this thread — from recap
+>   cross-referenced with situation file]
+> - **File says next:** [What the situation file's "next beat", DM notes, or pressures
+>   section says should happen — quote if possible]
+> - **Key detail the summary omits:** [At least one specific fact from the full file
+>   that wasn't in the frontmatter summary — this proves deep reading]
+
+**Red flags — you haven't read deeply enough if:**
+- Your context brief contains only information that was in the frontmatter `summary:` field
+- You can't name the entity's specific goal (not "advance their agenda" — the actual goal)
+- You haven't followed any wikilinks
+- Your "key detail" is vague or restates the summary
+
+### 3b. Propose
+
+Only after completing the Context Brief, form one clear sentence about what this entity
+attempts. The proposal must be grounded in facts from the Context Brief — not in generic
+faction behavior.
 
 Frame by tier:
 
-- **HOT:** "In response to [party action], [entity] attempts to [concrete action]."
-- **WARM:** "While the party is elsewhere, [entity] pursues [concrete goal]."
-- **COLD:** "Unopposed, [entity] advances [concrete plan]."
+- **HOT:** "In response to [specific party action from recap], [entity] attempts to
+  [concrete action grounded in their current goal and resources from the file]."
+- **WARM:** "While the party is elsewhere, [entity] pursues [concrete next step from
+  situation file's pressures/next beat]."
+- **COLD:** "Unopposed, [entity] advances [concrete plan detail from file, not generic
+  'their agenda']."
 
-### 3b. Roll
+**Test your proposal:** Could someone who read only hot.md's summary have written this
+exact proposal? If yes, you haven't used the deep read. Rewrite it.
+
+### 3c. Roll
 
 ```bash
 .claude/skills/roll-dice/roll.sh d20
@@ -114,7 +163,7 @@ Frame by tier:
 
 The result is canon. No re-rolling. No softening. No "that doesn't fit the narrative."
 
-### 3c. Interpret
+### 3d. Interpret
 
 | Roll | Outcome |
 |------|---------|
@@ -143,7 +192,7 @@ or lost a resource they'll need later. Even failures create new world state.
 Follow faction logic, not narrative convenience. The world is honest, and honesty is
 more interesting than managed drama.
 
-### 3d. Write Immediately
+### 3e. Write Immediately
 
 Update every relevant wiki page before moving to the next thread:
 
@@ -169,7 +218,7 @@ For **COLD threads**, add a hook escalation note:
 **Hook strength:** [Whisper / Ripple / Wave / Collision] — [what the party could notice]
 ```
 
-### 3e. Collisions
+### 3f. Collisions
 
 If two threads act against each other in the same time window, resolve as one beat:
 
@@ -178,7 +227,7 @@ If two threads act against each other in the same time window, resolve as one be
 - Low roll favors the weaker or more desperate faction (upsets are interesting)
 - Write the collision result to both situation files
 
-### 3f. Continue
+### 3g. Continue
 
 Move to the next thread. No confirmation needed between threads — the DM approved the
 triage in Step 2.
@@ -316,10 +365,38 @@ git commit -m "world-update: session NN — [brief summary of major changes]"
 
 ---
 
+## Shallow Reading — How This Skill Fails
+
+The single most common failure mode is proposing thread advances based on summaries
+instead of full situation files. When this happens, every proposal sounds generic:
+"Nona advances her agenda," "Knighton sends ships," "the faction continues its plan."
+The world update becomes useless — it tells the DM nothing they didn't already know.
+
+**How to tell you're doing it wrong:**
+
+| What you wrote | What deep reading would produce |
+|---|---|
+| "Nona pursues her goals in Calveno" | "Nona activates the sending stone to ask Perrin to send JC into the Warren tunnels — she's had reports of Grung moving in the old sewers and wants them confirmed" |
+| "Knighton sends ships after the party" | "Knighton dispatches ships toward the party's last known route; the Surety's unflagged HCS hull makes interception easier, and Rook's letters of marque in the captain's cabin could accelerate the Crown's trace" |
+| "The Umberlee thread advances" | "Branca is still at the Waveservant Shrine, not sleeping; if Delmar doesn't come, Umberlee's next contact is harder — water reaching for him the next time he touches deep seawater" |
+
+The left column comes from reading summaries. The right column comes from reading
+the actual files. If your proposals look like the left column, stop and go back to
+Step 3a.
+
+**Why this matters:** The DM runs the world update to discover what happens next. If
+the proposals just restate what they already know, the ritual is wasted time. The value
+comes from the agent synthesizing the detailed situation content with the session events
+and the dice — not from restating frontmatter.
+
+---
+
 ## Quality Checks
 
 Before committing, verify:
 
+- [ ] Every thread had a Context Brief with at least one detail NOT in the frontmatter
+- [ ] Every proposal references specific facts from the full situation file
 - [ ] Every thread had a d20 roll via `.claude/skills/roll-dice/roll.sh d20`
 - [ ] Every state claim was read from a wiki page, not assumed or inferred
 - [ ] No DM design note was treated as established world fact

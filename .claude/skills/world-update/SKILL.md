@@ -74,9 +74,10 @@ Read `references/update-workflow.md` for the complete step-by-step ritual.
 
 Summary:
 
-1. **Load context** — session recap, hot.md, active situations
+1. **Load context** — session recap, hot.md, situation frontmatter (summaries only)
 2. **Triage** — classify threads as HOT / WARM / COLD; present for DM confirmation
-3. **Process each thread** — propose action, roll d20 via roll.sh, interpret, write
+3. **Process each thread** — deep read situation + linked entities → Context Brief →
+   propose action → roll d20 via roll.sh → interpret → write (one thread at a time)
 4. **PC arc weaving** — convergence scan, spotlight check, narrative device seeding
 5. **Close out** — update hot.md, situation lifecycle, commit
 

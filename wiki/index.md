@@ -501,6 +501,9 @@ sources: []
 - [[warren-situation|The Warren — Active Hub]] — The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks.
 - [[who-commissioned-the-theft|Who Commissioned the Pearl Theft]] — The Chain Council unknowingly hired Fisk's Fleet to steal the Pearl of Souls, manipulated by Tessarine operative Cosimo Verantio. The evidence sits in the Red Lady's Intelligence Room and can turn the Council from employer into witness.
 
+## situations/dormant
+- [[tail-staging-island|Tail Staging Island]] — An intentionally unnamed Tail island near the Maw's western edge — the primary Shelfworks salvage staging point, kept blank until the campaign needs it.
+
 ## situations/resolved
 - [[hull-impacts|Hull Impacts]] — RESOLVED Session 03 — whip shark (60+ ft) killed in open water by the party. Hull patched with scales during the 5-day transit to Calveno.
 - [[the-rook-resolution|The Rook Resolution]] — RESOLVED — Rook went into the water a second time in Session 02 and did not come back. Presumed dead, taken by something eel-like. Standoff never resolved; made moot by the water.
@@ -654,7 +657,7 @@ sources: []
 - [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
 - [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
-- [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
+- [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution.
 - [[party-crew|Party Crew]] — Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.

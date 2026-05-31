@@ -2,14 +2,14 @@
 type: system
 subtype: party-primer
 campaign: shattered-sea
-status: unknown
+status: active
 audience: agent
 publish: false
-summary: "Stub — party not yet defined. Populate after session zero."
+summary: "Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution."
 created: 2026-05-27
-updated: 2026-05-27
-tags: []
-sources: [Unknown]
+updated: '2026-05-30'
+tags: [system, primer]
+sources: ["Inbox/private/system/Party-Combat-Primer.md"]
 system_role: party-primer
 token_profile: always-read
 mandatory_for: [encounter-design]
@@ -18,16 +18,26 @@ update_trigger: "PC levels up; new PC joins; mechanical capability changes; comb
 
 # Party Combat Primer — Shattered Sea
 
-> Stub. Populate after session zero or first character sheet ingest.
+> Agent use: Read before building encounters for the current party composition.
 
-## Party Overview
-{Total party size, average level, general role distribution}
+## Fast Read
 
-## PC Combat Profiles
-{One section per PC: key offensive tools, defensive floor, action economy}
+- **Default assumption:** mixed lighting is better than full darkness.
+- **Primary risk:** [[jean-claude-tabarnack|Jean-Claude]] thrives in darkness while [[crissdalynn-khinriss|Crissdalynn]] and likely [[delmar-fisk|Delmar]] are impaired by it.
+- **Best lever:** use patches of dim light, cover, elevation, and line-of-sight breaks instead of blanket shutdowns.
 
-## Design Rules
-{Encounter design adjustments specific to this party — what to watch, what to avoid}
+## Lighting Asymmetry
 
-## Design Adjustments (Active Flags)
-{Any current flags from combat-analytics.md — e.g. "encounters running too long", "party lacks AOE"}
+| Factor | Helps | Pressures | Avoid |
+|---|---|---|---|
+| Full darkness | Jean-Claude | Crissdalynn, likely Delmar | Treating it as a party buff |
+| Dim light / shadow patches | Jean-Claude plus sighted allies | Enemies without dark tools | Overusing perfect darkness |
+| Low ceiling | Grounded melee tactics | Crissdalynn | Repeating anti-flight rooms |
+| Water / tight routes | [[perrin-black-jaw|Perrin]], Jean-Claude | Heavy or slow enemies | Making water only an escape button |
+
+## Prep Levers
+
+- **Give them:** mixed terrain, mixed light, at least one target for each PC's core trick.
+- **If struggling:** add clearer lanes, dim light pockets, water/vertical options, or vulnerable isolated targets.
+- **If dominating:** split objectives, pressure concentration, add ranged enemies, and use grapples sparingly.
+- **Avoid:** stacking multiple hard shutdowns on the same PC.

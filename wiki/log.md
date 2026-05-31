@@ -518,3 +518,6 @@ sources: []
 - 2026-05-30 | archive | feats-stub.md, shattered-sea-map-leaflet.md, private-dm-index.md — no actionable content
 - 2026-05-30 | ingest | waveservant-shrine-facility.md — new facility rules page (Sanctuary, Tier 1 bastion)
 - 2026-05-30 | archive | miras-blade, stripes-bitemore, tail-index, guides-index, mic-test transcript — already captured or no content
+- 2026-05-30 | ingest | tail-staging-island.md — new dormant situation (unnamed Shelfworks staging point)
+- 2026-05-30 | ingest | party-combat-primer.md — updated from stub with lighting asymmetry and prep levers
+- 2026-05-30 | archive | session-02-overview, stripes-interview, session-zero, heft — already captured or no canon

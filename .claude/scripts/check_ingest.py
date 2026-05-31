@@ -45,20 +45,21 @@ DEFAULT_TOKEN_BUDGET = 30_000
 
 try:
     import tiktoken as _tiktoken
-
-    _ENC = _tiktoken.get_encoding("cl100k_base")
-
-    def count_tokens(path: str) -> int:
-        try:
-            with open(path, "r", errors="replace") as fh:
-                return len(_ENC.encode(fh.read()))
-        except Exception:
-            return os.path.getsize(path) // 4
-
 except ImportError:
-    _ENC = None
+    subprocess.check_call(
+        [sys.executable, "-m", "pip", "install", "--quiet", "tiktoken"],
+        stdout=subprocess.DEVNULL,
+    )
+    import tiktoken as _tiktoken
 
-    def count_tokens(path: str) -> int:  # type: ignore[misc]
+_ENC = _tiktoken.get_encoding("cl100k_base")
+
+
+def count_tokens(path: str) -> int:
+    try:
+        with open(path, "r", errors="replace") as fh:
+            return len(_ENC.encode(fh.read()))
+    except Exception:
         return os.path.getsize(path) // 4
 
 
@@ -421,7 +422,7 @@ def main(argv: list[str]) -> int:
                 sys.stderr.write("check_ingest: queue clear (0 pending)\n")
             else:
                 remaining = len(pending) - len(batch)
-                method = "tiktoken" if _ENC else "bytes//4"
+                method = "tiktoken"
                 sys.stderr.write(
                     f"check_ingest: batch {len(batch)} file(s), "
                     f"~{batch_tokens:,} tokens ({method}), "

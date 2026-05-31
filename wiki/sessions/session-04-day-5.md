@@ -20,7 +20,7 @@ updated: 2026-05-30
 
 # Session 04 — Day 5: The Raid
 
-![[Calveno-Raid-Overview.png|Aerial view of Calveno's festival districts with five detonation points marked in red — the Mercatura plaza crater largest at centre, four smaller breaches at the Bridge, two Le Paludi yards, and the harbour approach, dust plumes rising from each]]
+![[wiki/assets/sessions/session-04/calveno-raid-overview-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Aerial oblique view of Calveno's festival districts at the moment of the coordinated raid: the Mercatura plaza crater is the largest at centre, with four smaller breaches at the Bridge, two Le Paludi yards, and the harbour approach; dust plumes rise from each breach, canals divide the districts, festival banners flutter over stone streets, crowds scatter in confusion. Use visible red smoke or red-lit dust at the five breach points instead of map labels. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Last day of La Finestra. Crowd peak. The ground opens. This is the session's crescendo if the table reaches it — if not, hold for Session 05. Run the [[calveno-beffa-grung-raid|raid situation file]] alongside this page.*
 
@@ -49,7 +49,7 @@ Five detonations fire within seconds of each other. The primary charge is the la
 
 ### The Primary — Mercatura Plaza
 
-![[Mercatura-Plaza-Collapse.png|The Mercatura plaza mid-collapse — cobblestones buckling inward, a festival registration desk tilting into the widening hole, festival cloth and lanterns falling into dust and darkness, crowd frozen in the moment before they understand]]
+![[wiki/assets/sessions/session-04/mercatura-plaza-collapse-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. The Mercatura plaza mid-collapse during a festival: cobblestones buckle inward, a registration desk tilts into a widening hole, festival cloth and lanterns fall into dust and darkness, and the majority-human Calveno crowd freezes in the single beat before they understand, with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. Emphasize stone rippling from below, panic about to begin, and the false-performance confusion of the Beffa. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 > [!read-aloud]
 > The sound comes from below. Not thunder — thunder has a sky. This has stone. The Mercatura plaza shudders once, a ripple running through the cobblestones like a wave through water. Then the centre drops. Twenty feet of plaza collapses inward — stone, earth, festival cloth, registration desks, people — falling into a cloud of dust and noise that swallows everything. The crowd does not scream. They are waiting for the punchline.
@@ -68,7 +68,7 @@ Hold for one breath. Then —
 
 ### The Secondary Sites — Simultaneous
 
-![[Secondary-Strike-Breach.png|A Le Paludi working yard — cobblestones cracked open, dust fountaining up, small armoured Grung figures pouring out of the breach in disciplined formation, a dockhand stumbling backward with a dropped tool roll]]
+![[wiki/assets/sessions/session-04/secondary-strike-breach-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Combat art, 16:9 widescreen cinematic. A Le Paludi working yard during the raid: cobblestones cracked open, dust fountaining up, small armored Grung figures pour out of the breach in disciplined formation, a human dockhand stumbles backward with a dropped tool roll, ropes and workbenches scattered around the yard. Emphasize tactical positions around the breach and the sudden snatch-team threat, with no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 At the four secondary strike points, smaller charges open holes in the ground. No collapse — a breach. Dust, debris, a gap wide enough for Grung to pour through.
 
@@ -85,12 +85,13 @@ At the four secondary strike points, smaller charges open holes in the ground. N
 The session's climactic fight if the party reaches Day 5. The Slaad is at the primary breach point in the Mercatura.
 
 > [!mechanic]
-> **Custom stat block: [[calveno-slaad|Calveno Slaad — The Groundbreaker]].** CR 7. AC 15, HP 161 (17d10+68). Speed 40 ft., climb 20 ft.
-> **Multiattack:** Bite (+8, 2d8+5 piercing + DC 15 Con Slaad egg), Claw (+8, 2d6+5 slashing, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft and grappled/restrained).
-> **Entropic Regeneration:** 15 HP/round. Suppressed by fire or acid damage.
+> **Custom stat block: [[otar-the-foul|Otar the Foul]].** CR 8. AC 15, HP 150 (16d10+64). Speed 40 ft., climb 20 ft. Legendary Resistance (1/Day).
+> **Multiattack:** Bite (+8, 2d8+5 piercing + DC 15 Con Slaad egg), Claw (+8, 2d6+5 slashing, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft and grappled).
+> **Foul Miasma:** 10-ft radius, lightly obscured, 1d6 poison to creatures starting turn in it.
+> **Entropic Regeneration:** 10 HP/round. Suppressed by fire or acid damage.
 > **Chaos Pulse (Recharge 5-6):** 20-ft radius, DC 15 Dex, 4d10 force + prone. Area becomes difficult terrain.
-> **Chaos Embodied:** Creatures starting turn within 10 ft — DC 15 Wis save or disadvantage on next attack.
-> **Unstable Form (≤80 HP):** Melee attacks deal +1d6 acid; melee attackers within 5 ft take 1d10 acid.
+> **Unstable Form (≤75 HP):** Melee attacks deal +1d6 acid; melee attackers within 5 ft take 1d10 acid.
+> **Legendary Actions (2/round):** Lash (Tongue Lash attack), Thrash (5-ft DC 16 Str or pushed 10 ft + prone), Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
 > **Rubble Surge (reaction):** Hurls rubble at a creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0. Hits flyers.
 > **Magic Resistance.** Advantage on saves vs. spells/magical effects.
 > **Resistances:** cold, lightning, thunder. **Immunities:** frightened.
@@ -158,7 +159,7 @@ The raid runs for approximately ten minutes, surface to extraction. Then the Gru
 
 ### The Silence After
 
-![[Calveno-Raid-Aftermath.png|The Mercatura plaza after the raid — a twenty-foot crater in the centre, festival cloth hanging from rubble like flags of surrender, dropped tools and trampled masks in canal water, a woman standing alone at the crater edge calling a name into empty air]]
+![[wiki/assets/sessions/session-04/calveno-raid-aftermath-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. The Mercatura plaza after the raid: a twenty-foot crater in the centre, festival cloth hanging from rubble like flags of surrender, dropped tools and trampled masks in canal water, dust in the air, majority-human Calveno civilians stunned in small clusters with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs, and a woman standing alone at the crater edge calling a name into empty air. Somber aftermath, no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 > [!read-aloud]
 > The dust settles. The Mercatura plaza has a hole in it twenty feet across. Festival cloth hangs in the rubble like flags of surrender. Dropped tool rolls. Masks in trampled water. A woman is calling a man's name, over and over, into a crowd that is not listening because the crowd is doing the same thing.
@@ -172,7 +173,7 @@ The raid runs for approximately ten minutes, surface to extraction. Then the Gru
 
 ## Nona's Emergence
 
-![[Nona-Aftermath-Speech.png|Nona Black-Jaw standing in the dust of the ruined Mercatura, tiny and silver-furred in a flour-dusted apron, holding a ladle and a loaf of bread, Enzo in his tailored suit to her left with claws out and Ruk to her right carrying a cauldron on one shoulder, civilians sitting in rubble around them]]
+![[wiki/assets/sessions/session-04/nona-aftermath-speech-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Nona Black-Jaw stands in the dust of the ruined Mercatura after the raid, tiny and silver-white furred with a dark brown-black jaw mask, sharp pink-rimmed eyes, flour-dusted floral apron over dark well-made cloth, holding a ladle and a loaf of bread. Enzo stands to her left: black jaguar tabaxi, obsidian fur with rosettes visible in the light, pale scar along the left side of his jaw, tailored suit, immaculate shoes, one polished claw unsheathed. Ruk stands to her right: massive scarred lizardfolk with heavy muscle, carrying a cauldron on one shoulder. Majority-human Calveno civilians sit in rubble around them with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs; dust and festival cloth everywhere. Somber public vow atmosphere, no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 [[nona-black-jaw|Nona Black-Jaw]] emerges from her safehouses within the hour. Both bodyguards at her sides — [[enzo|Enzo]] in his tailored suit, jaw set, claws out; [[ruk|Ruk]] carrying a cauldron of stew on one shoulder and a cleaver on the other.
 

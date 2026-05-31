@@ -516,6 +516,21 @@ def main(argv: list[str]) -> int:
             "run without --no-dedupe to remove\n"
         )
 
+    if dedupe_enabled and not args.dry_run:
+        inbox_abs = resolve_path(args.inbox)
+        for dirpath, _dirnames, _filenames in os.walk(inbox_abs, topdown=False):
+            if dirpath == inbox_abs:
+                continue
+            try:
+                remaining = os.listdir(dirpath)
+            except OSError:
+                continue
+            if not any(e for e in remaining if not e.startswith(".")):
+                try:
+                    os.rmdir(dirpath)
+                except OSError:
+                    pass
+
     if args.limit is not None and args.limit < 0:
         parser.error("--limit must be >= 0")
 

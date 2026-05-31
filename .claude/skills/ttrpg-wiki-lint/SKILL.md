@@ -5,14 +5,18 @@ description: >
   Lint the Shattered Sea wiki and fix what's safe to fix. Run this whenever you
   need to check vault health, standardize frontmatter, find broken wikilinks or
   orphans, find deadend pages, check lore consistency (dead entity refs, parent
-  location gaps, narrative island mismatches, status drift), check tag hygiene,
-  detect singleton properties, or run markdown formatting checks. Auto-detects
-  Obsidian CLI for deeper cross-file checks and markdownlint-cli2 for formatting.
-  Trigger on: "lint the wiki", "check wiki health", "fix the frontmatter",
-  "find broken links", "find orphans", "find deadends", "lore consistency",
-  "check consistency", "dead NPC still captaining", "status drift", "tag
-  hygiene", "what's wrong with the wiki", "clean up the vault", "audit the
-  wiki", "check markdown formatting".
+  location gaps, narrative island mismatches, status drift), check temporal
+  consistency (timeline contradictions, impossible travel, stale "current state"
+  claims, session-number misattributions, in-world day sequencing errors), check
+  tag hygiene, detect singleton properties, or run markdown formatting checks.
+  Auto-detects Obsidian CLI for deeper cross-file checks and markdownlint-cli2
+  for formatting. Trigger on: "lint the wiki", "check wiki health", "fix the
+  frontmatter", "find broken links", "find orphans", "find deadends", "lore
+  consistency", "check consistency", "dead NPC still captaining", "status drift",
+  "tag hygiene", "what's wrong with the wiki", "clean up the vault", "audit the
+  wiki", "check markdown formatting", "timeline issues", "temporal consistency",
+  "when did this happen", "check the timeline", "is this possible given the
+  timeline", "stale state", "session number wrong".
 ---
 
 # TTRPG Wiki Lint — Shattered Sea
@@ -229,10 +233,13 @@ multi-H1) are already disabled.
 ## Manual lore consistency review
 
 The script catches structural lore drift (dead-entity-ref, island-situation-mismatch,
-status-drift, parent-gap) but cannot read prose for meaning. After working the
-automated report, do a manual pass over files the script flagged or that you touched
-during fixes. This is where an LLM-wiki agent earns its keep — the compounding
-knowledge base is only as reliable as its internal coherence.
+status-drift, parent-gap) but cannot read prose for meaning — and it cannot reason
+about time. After working the automated report, do a manual pass over files the
+script flagged or that you touched during fixes. Temporal consistency (when things
+happened, whether movements and durations are physically possible, whether "current
+state" claims have decayed) is the highest-value part of this pass. This is where
+an LLM-wiki agent earns its keep — the compounding knowledge base is only as
+reliable as its internal coherence.
 
 ### What to check
 
@@ -253,15 +260,65 @@ When you find a contradiction: check session notes (the primary source) to deter
 which version is correct. Fix the wrong one. If both could be right (ambiguous source
 material), append to `wiki/discrepancy-log.md` — don't guess.
 
-**Timeline consistency.** Session notes are the authoritative timeline. When a page
-references events, verify:
+**Temporal consistency.** This is judgment work that no script can do — it requires
+understanding when things happened in-world, what was physically possible given
+distances and durations, and whether entity pages reflect the world as it stands
+after the most recent session.
 
-- The session number cited actually contains that event
-- The order of events within a session matches the session recap
-- "Current" state claims in entity pages haven't been superseded by later sessions
+Session notes are the authoritative timeline. The in-world clock is layered:
+sessions map to stretches of in-world time, and within a session the day structure
+(e.g. Session 04's Day 1–5 files) establishes what happens when. Reconstructing
+the timeline for a specific entity or event means reading the session files that
+touch it and building a sequence: where were they, what happened, how much time
+passed.
 
-Use `qmd query` or `obsidian search` to find cross-references efficiently rather than
-reading files one by one.
+**What to check:**
+
+*Session-number accuracy.* When a page cites "Session 02" or "in Session 03,"
+verify the event actually occurred in that session. Open the session recap or
+scene file and confirm. Common drift: events get attributed to the session where
+they were *discussed* rather than the session where they *happened*.
+
+*In-world day sequencing.* When session files use day numbering (Day 1, Day 2),
+entity and situation pages that reference those events should be consistent with
+the day they occurred. A ship that docks on Day 1 cannot have a completed 5-day
+refit on Day 3. An NPC who departs at dawn on Day 2 should not appear in a scene
+set on Day 1 evening as already gone.
+
+*Location-time plausibility.* If an NPC is established as being in location A
+during a specific session or day, they cannot simultaneously be in location B
+unless travel is plausible in the elapsed time. This applies to the party too —
+check that "the party did X in Calveno" claims don't conflict with travel
+timelines. The campaign is nautical; sea travel takes days, not hours.
+
+*"Current state" decay.* Entity pages, situation files, and hot.md all carry
+claims about the present: "currently docked at La Vasca," "Grigori is aboard,"
+"the favor has not been named." Each of these has a session-of-origin. When a
+later session changes the state, every page that cached the old state needs
+updating. The most dangerous form is a callout or info box labeled
+"post-Session N" — these read as authoritative but rot silently.
+
+*Causal ordering.* Some events depend on others: Nona calling off the attacks
+requires Perrin to have met her first. The sending stone can't be used before
+it's given. When a page describes consequences, verify the cause has already
+occurred in the timeline. This catches cases where world-building pages
+(written ahead of play) describe outcomes that haven't happened yet in the
+session record.
+
+*Concurrent timeline plausibility.* Multiple threads run simultaneously in
+Calveno (ship repair, festival days, raid prep, NPC movements). When two
+threads reference the same in-world day, their claims must be compatible.
+The raid prep timeline in one file and the festival schedule in another should
+agree on which day is which.
+
+**How to do it:** Don't try to audit the entire timeline at once. Start from
+the files the automated lint flagged or the files you touched during fixes.
+For each temporal claim, trace it back to its session source. Use
+`qmd query` or `obsidian search` to find cross-references efficiently. When
+you find a mismatch, check the session recap (primary source) to determine
+which version is correct. Fix the wrong one. If both could be right, or if
+the timeline is genuinely ambiguous in the source material, append to
+`wiki/discrepancy-log.md`.
 
 **hot.md coherence.** After any batch of fixes, scan `wiki/hot.md` for claims that
 conflict with what you just corrected. hot.md is the most-read file and the most

@@ -37,10 +37,12 @@ sources: []
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — [DM-only] Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.
+- [[dario-vanni|Dario Vanni]] — [stub] Stub — proprietor of Acqua Nera drydock in Calveno; referenced in [[acqua-nera]].
 - [[detto-kalash|Detto Kalash]] — Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk.
 - [[dorian-bishop|Captain Dorian Bishop]] — Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook.
 - [[elder-anton|Elder Anton]] — Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain.
 - [[estratto|Estratto]] — Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
+- [[ettore-lupo|Ettore Lupo]] — [stub] Stub — elderly proprietor of Casa Lupo in Calveno; referenced in [[casa-lupo]].
 - [[felix-aho|Félix Aho]] — Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
 - [[ket|Ket]] — A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
 - [[leviathan-entity|Leviathan]] — [DM-only] Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
@@ -416,12 +418,19 @@ sources: []
 - [[session-01-scene-05-perrin|Beat 5: Perrin]] — Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal.
 - [[session-01-scene-06-jean-claude|Beat 6: Jean-Claude]] — Session 01, Beat 6 — Jean-Claude Tabarnack introduction; fleeing the Verdant Teeth; boarding the Saltwright hull; reef shark escalation; meeting Perrin in the hold.
 - [[session-01-scene-07-the-hold|Beat 7: The Hold]] — Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins.
+- [[session-01-scene-08-encounter|The Saltwright Boarding]] — Session 01, Scene 08 — The Saltwright boarding encounter: three phases (Hold, Above Deck, Gangplank). Phase 3 ends mid-combat at session close; resolution continues in Session 02.
 - [[session-02|Session 02 — Conflict is a Surety]] — Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up.
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
+- [[session-02-run-guide|Session 02 — Run Guide: Conflict is a Surety]] — At-table run guide for Session 02. Opens mid-combat with Rook alone; resolves into Grigori, the ship, and the sandbox opening. 4–6 hours. Destination is the party's call.
+- [[session-02-scene-01-rook-final|The Rook Resolution]] — Session 02, Scene 01 — Rook alone, unharmed, all crew dead or defected. Opens mid-combat. Three lair actions: Arm the Guns, Fire the Guns, Call to Arms. Grigori's voice came from below.
+- [[session-02-scene-03-grigori|Below Deck]] — Session 02, Scene 03 — Shepherd Grigori alone in the galley with the table set; crew behind a locked door; the Question, the Condition, and the Knighton reveal.
 - [[session-02-scene-05-central-strait|Central Strait Events]] — Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
 - [[session-03-recap|03 — Getting in on the Joke]] — Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened.
+- [[session-03-scene-01-auralis|Session 03 — Before the First Impact]] — Session 03, Scene 1 — Auralis pulls Perrin into a real impression of the Drowned Maw, shows the whip shark's tail-joint weakness through embodied experience, and delivers a single word: GROW.
+- [[session-03-scene-02-the-shark|The Shark]] — Session 03, Scene 02 — Whip shark encounter: three phases (probing, hook-seated, blood interruption), crew defaults, fast solution map, and ship narration reference.
 - [[session-03-scene-03-aftermath|Session 03 — Aftermath]] — Session 03, Scene 3 — Post-shark aftermath: Sem's damage report, Grigori healing crew at dawn, ship departing for Calveno.
+- [[session-03-scene-04-five-days|Session 03 — At Sea — Five Days]] — Session 03, Scene 4 — Five-day transit to Calveno: downtime menu, d20 Central Strait flavour, and The Whale on Day 2 (Perrin spotlight).
 - [[session-03-scene-06-calveno-day-one|Calveno Day One]] — Session 03, Scene 06 — Delmar crosses the gangplank and the water notices; Branca finds him on the streets of Calveno and brings him to the Waveservant Shrine.
 - [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs.
 

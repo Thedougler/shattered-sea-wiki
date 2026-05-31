@@ -257,7 +257,7 @@ def field_defaults(relpath: str) -> dict:
     }
 
 
-FLOW_LIST_FIELDS = ("tags", "sources", "aliases")
+BLOCK_LIST_FIELDS = ("tags", "sources", "aliases")
 
 
 @dataclass
@@ -957,15 +957,14 @@ def standardize(relpath: str, data, yaml: YAML):
                 data[field] = v == "true"
                 changed.append(field)
 
-    # 3. Render short list fields in flow style ([a, b]) deterministically.
-    #    Rebuild as a flow CommentedSeq so the result is identical whether the
-    #    field arrived as a plain default list or an authored block sequence —
-    #    otherwise the first --fix and the second would disagree (block → flow).
-    for field in FLOW_LIST_FIELDS:
+    # 3. Render list fields in block style (- item) per Obsidian convention.
+    #    Rebuild as a block CommentedSeq so the result is identical whether the
+    #    field arrived as flow [a, b] or block — idempotent after one pass.
+    for field in BLOCK_LIST_FIELDS:
         node = data.get(field)
         if isinstance(node, list):
             seq = CommentedSeq(node)
-            seq.fa.set_flow_style()
+            seq.fa.set_block_style()
             data[field] = seq
 
     # 4. Canonical key order: required first (in canonical order), then the rest

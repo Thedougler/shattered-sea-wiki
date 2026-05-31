@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM companion for Fisk's Fleet — the Pearl commission, sinking mechanics, soul consequences, wreck locations, and captain personality table for the Mortis."
 created: 2026-04-15
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
   - fisk-fleet
   - umberlee
@@ -40,8 +40,8 @@ The fleet's final commission came through [[chain-council|the Chain Council]]: t
 | [[red-lady|*Red Lady*]] *(flagship)* | [[rael-corven|Rael Corven]] | Entered the shrine with Fisk; navigated to the Pearl using Detect Magic |
 | [[the-narrow|*Narrow*]] | [[maren|Maren]] | Led the aquatic perimeter survey that located the sub-surface entry point |
 | [[heft|*Heft*]] | [[detto-kalash|Detto Kalash]] | Used Mold Earth to open the passage from the island's submerged base into the shrine |
-| [[fernen|*Fernen*]] | [[sienne-orre|Sienne Orre]] | Ran the second scout team alongside Maren during the perimeter survey |
-| [[loud-argument|*Loud Argument*]] | [[bastian-crev|Bastian Crev]] | Commanded the distraction team — sustained bombardment, spell suppression, trap triggering |
+| [[fernen|*Fernen*]] | [[sienne-orre|Sienne Orre]] ([[minotaur|minotaur]]) | Ran the second scout team alongside Maren during the perimeter survey — her passage-sense mapped the reef structure |
+| [[loud-argument|*Loud Argument*]] | [[bastian-crev|Bastian Crev]] ([[lizardfolk|lizardfolk]]) | Commanded the distraction team — sustained bombardment, spell suppression, trap triggering |
 
 ## Soul Mechanics
 
@@ -62,8 +62,8 @@ All five ships sank simultaneously. The [[pearl-of-souls|Pearl of Souls]] — st
 | [[rael-corven|Rael Corven]] | Commanding, protective — stops performing, starts moving people | Intimidation, History | Ally drops to 0 HP within 30 ft | A woman in a dark red dress — goes still, scans her face, searching |
 | [[maren|Maren]] | Sassy, anti-authority, finds the way in — Navy contempt surfaces immediately | Perception (Exp.), Stealth (Exp.) | Delmar denied entry or passage blocked | Navy vessel or insignia in clear view — contempt immediate; short sentences |
 | [[detto-kalash|Detto Kalash]] | Blunt, physical — states facts, no charm, "no" is a sentence | Athletics (Exp.), Survival | Fails Con save, or knocked prone/grappled | A white horse — stops, stares, says nothing; legibility goes absent |
-| [[sienne-orre|Sienne Orre]] | Methodical, careful — slows down, wants more information | Arcana, Investigation | Targeted by spell 2nd level+, or fails Int save | A green mermaid sign or figurehead — quiet recognition; asks about the establishment |
-| [[bastian-crev|Bastian Crev]] | Theatrical, confrontational — goes all-in, makes scenes | Performance, Deception (Exp.) | Enemy Deception/Persuasion succeeds, or witnesses coercion of the powerless | A black jackdaw — surfaces warm and expansive; may reach for the bird |
+| [[sienne-orre|Sienne Orre]] ([[minotaur|minotaur]]) | Methodical, careful — slows down, wants more information. The horns come forward when she concentrates; her passage-sense surfaces as spatial awareness Delmar doesn't normally have | Arcana, Investigation | Targeted by spell 2nd level+, or fails Int save | A green mermaid sign or figurehead — quiet recognition; asks about the establishment |
+| [[bastian-crev|Bastian Crev]] ([[lizardfolk|lizardfolk]]) | Theatrical, confrontational — goes all-in, makes scenes. Learned warmth over years with the crew; the most emotionally expressive voice in Fisk despite being the only cold-blooded captain | Performance, Deception (Exp.) | Enemy Deception/Persuasion succeeds, or witnesses coercion of the powerless | A black jackdaw — surfaces warm and expansive; may reach for the bird |
 
 Rael is the loudest voice — his forced trigger (ally at 0 HP) is the most likely to create compounding pressure in combat.
 

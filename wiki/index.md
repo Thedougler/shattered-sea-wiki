@@ -357,6 +357,8 @@ sources: []
 ## lore/species
 - [[aarakocra|Aarakocra]] — Playable winged birdfolk with sustained flight, talons, wind magic, keen sight, and a skyward view of the world. Crissdalynn Khinriss is the campaign's known aarakocra PC.
 - [[grung|Grung]] — Playable amphibious poison frog humanoids from the Verdant Teeth. Grung society is caste-marked by skin color; Jean-Claude Tabarnack is a blue grung PC who fled that system.
+- [[lizardfolk|Lizardfolk]] — Playable reptilian humanoids with natural armor, bite attacks, and a pragmatic cognition that processes the world in terms of utility and survival. Lizardfolk in the Shattered Sea are hull-workers, salvagers, and tidal-zone settlers.
+- [[minotaur|Minotaur]] — Playable large-framed humanoids with horns, labyrinthine spatial memory, and a cultural identity built around passages. Minotaur navigators are the most sought-after pilots in the Shattered Sea.
 - [[rattkin|Rattkin]] — Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port.
 - [[sea-elf|Sea Elf]] — Aquatic elf subtype — breathes air and water, cold resistance, can communicate simple ideas to beasts with swimming speed. Sea elves in the Shattered Sea are centered at Halythion.
 - [[tabaxi|Tabaxi]] — Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
@@ -469,6 +471,7 @@ sources: []
 - [[spotlight-management|Spotlight Management]] — Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing.
 - [[stripes-primer|Stripes Primer]] — Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.
+- [[taxonomy|Tag Taxonomy — Shattered Sea]] — Controlled tag vocabulary for the Shattered Sea wiki. Read this before assigning tags to any page.
 
 ## dm
 - [[combat-analytics|Combat Analytics — Shattered Sea]] — [stub] Stub — populate after first combats. Empirical combat data to calibrate encounter design.

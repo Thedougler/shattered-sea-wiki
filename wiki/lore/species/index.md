@@ -29,6 +29,10 @@ Standard 2024 D&D species are all available. These are the Shattered Sea additio
 
 **[[grung|Grung]]** — Amphibious, poisonous humanoids from the [[verdant-teeth|Verdant Teeth]], with caste written in their coloration. A Grung PC comes with immediate questions of caste, exile, and what it means to leave.
 
+**[[lizardfolk|Lizardfolk]]** — Reptilian humanoids with natural armor, powerful jaws, and pragmatic cognition. Tidal-zone settlers and hull-workers across the Shattered Sea. Not to be confused with other reptilian species in the setting.
+
+**[[minotaur|Minotaur]]** — Large-framed humanoids with horns and labyrinthine spatial memory. The most sought-after navigators and channel pilots in the Midchain.
+
 **[[rattkin|Rattkin]]** — Small, fast, built for tight spaces and improvised survival. Closely tied to [[the-passage|the Passage]] and its networks.
 
 **[[tabaxi|Tabaxi]]** — Feline humanoids with deep roots in the Shattered Sea, especially the Sunken Crown and the eastern islands.

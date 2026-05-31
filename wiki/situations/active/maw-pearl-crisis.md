@@ -146,6 +146,7 @@ The fissure is geological and widening slowly. Under normal conditions it would 
 Auralis is a manufactured demigod — the last Antheri consciousness fused into an immortal framework engineered to survive the trench bottom. The visible Shelfworks are the newest layer of a bottom-up machine: vents, pressure bleeds, and safety architecture. Salvagers are pulling valves off a pressurized planar system.
 
 Checks at the Shelfworks:
+
 - Perception DC 12: temperature drops and light changes colour below 80 ft.
 - Arcana/History DC 14: lower channels are too regular for habitation and too large for plumbing.
 - Investigation DC 15: salvage damage concentrates on flow/pressure-regulation structures.
@@ -162,6 +163,7 @@ Waveservants will not discuss the theological problem: Umberlee does not own the
 ### The Five Captains
 
 Maren, Rael Corven, and three others are pressed into Delmar. Each has a thread that can surface via the mortis mechanic:
+
 - [[maren|Maren]] — knows Halythion exists; personal lead from a sea elf friend.
 - [[rael-corven|Rael Corven]] — his Cloak of Useful Things went down with the Red Lady; potentially recoverable.
 

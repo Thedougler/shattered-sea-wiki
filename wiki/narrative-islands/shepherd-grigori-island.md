@@ -134,12 +134,14 @@ The heir's Tessarine connections make this addition particularly valuable — th
 **Immunities:** Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
 
 **Traits:**
+
 - *Blood Phylactery* — reforms in 1d10 days/weeks/months based on network size; cannot be permanently destroyed while any healed heir lives
 - *Mad Monk's Resilience* — CON save to drop to 1 HP vs. non-radiant non-crit
 - *Magic Resistance*; *Turn Resistance*
 - *Family Reunion* — +1 attack per adjacent phylactery
 
 **Spells:** Save DC 19, +11 to hit
+
 - At will: alter self, chill touch, command, hold person, thaumaturgy
 - 3/day: cure wounds L3, counterspell, fear, hypnotic pattern
 - 2/day: blight, dominate person, mass suggestion

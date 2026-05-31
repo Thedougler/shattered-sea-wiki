@@ -13,6 +13,7 @@ tags:
   - dm-prep
 sources:
   - "Inbox/Calveno-Jean-Claude-Beats.md"
+narrative_island: calveno-sandbox-run-guide
 portable: true
 entry_points:
   - Jean-Claude moves through the Velo Quarter for any reason
@@ -74,6 +75,7 @@ He then explains, at length and with genuine enthusiasm, exactly which visible s
 > *"Nobody looks twice at a performer. The moustache says 'I am in a costume.' The beret says 'I do not care that you know.' Together? Invisible. Don't change anything."*
 
 **Performance hooks:**
+
 - He takes out a small box of spirit gum and starts reapplying it to the moustache's corners before anyone has agreed to this. He has assumed permission.
 - If Jean-Claude asks how Giacinto knows which signals humans read: *"I've made faces for fifty years. I know what people look at."*
 - If another PC tries to tell Jean-Claude the disguise doesn't work: Giacinto disagrees with them, loudly, on professional grounds.

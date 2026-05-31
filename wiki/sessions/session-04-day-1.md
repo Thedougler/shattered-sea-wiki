@@ -41,6 +41,7 @@ Let the reunion breathe. Then the evening presses in: the ship in its cradle, a 
 **What he knows:** He searched east of Midchain. Corrected course when word reached him that Crissdalynn was alive and heading toward the Central Strait. He knows her original ship went down to *"a foul wind from the south"* — he will not volunteer this tonight. Grief sits under discipline; he shares facts when he judges her ready, not when the party asks.
 
 **What he offers (tonight):**
+
 - Asks about Crissdalynn's pilgrimage progress — how many of the four trials has she completed?
 - Offers to teach **Read the Current** (a monk technique) in a future sparring session.
 - Warns that Maw weather has made the High Eyrie approach route dangerous.

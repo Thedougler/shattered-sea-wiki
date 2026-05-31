@@ -66,6 +66,7 @@ Each gun requires a crew of three.
 A PC filling the **Gunner** role takes one ship action per round:
 
 **Salvo.** Fire all manned guns on one side simultaneously.
+
 1. Choose port or starboard.
 2. Roll one attack (Dexterity + proficiency vs Hull AC). Advantage if one Gunner per gun deck.
 3. Hit: full damage from all fully crewed guns that side. Miss: half that damage.

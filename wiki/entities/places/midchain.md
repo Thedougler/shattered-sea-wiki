@@ -49,6 +49,10 @@ Fresh water and shelter are rarely far away. Certainty is harder to find.
 | [[verdant-teeth|The Verdant Teeth]] | island-cluster | Grung-held southern cluster with strict beach trade and lethal interior boundaries. |
 | [[central-strait|The Central Strait]] | strait | Northern shipping corridor and colonial inspection route adjacent to the Midchain. |
 | [[doldrums|The Doldrums]] | sea-region | Windless southern band that shapes routing and back-channel risk. |
+| [[aruhe|Aruhe]] | reef island | Deserted inner-edge island near the Verdant Teeth; Grung patrol the reefs but refuse to land. |
+| [[halythion|Halythion]] | sea elf city | Ancient settlement built into the Teikhinos Reef — invisible from the surface, older than any colonial record. |
+| [[huahei|Huahei]] | island | Small overgrown marshy island with a fey presence. |
+| [[murrat|Murrat]] | settlement | Limestone reef island between Kalowe and the Verdant Teeth; Moucheron-held — non-Moucheron attacked on sight. |
 
 ## Routes & Access
 

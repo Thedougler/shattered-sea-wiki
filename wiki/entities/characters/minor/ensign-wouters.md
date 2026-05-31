@@ -2,7 +2,7 @@
 type: entity
 subtype: npc
 campaign: shattered-sea
-status: deceased
+status: dead
 audience: dm
 publish: false
 summary: "Crown-trained Dravosi navigator, barely twenty. Killed during the boarding of the HCS Surety — shot in the groin by Delmar Fisk's musket. Body used to lure Ket from his cage. Never recruited."

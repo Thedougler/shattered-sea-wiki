@@ -2,7 +2,7 @@
 type: situation
 subtype: question
 campaign: shattered-sea
-status: open
+status: active
 audience: dm
 publish: false
 summary: "The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters."

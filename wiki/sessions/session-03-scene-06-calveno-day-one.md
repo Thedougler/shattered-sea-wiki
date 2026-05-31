@@ -51,6 +51,7 @@ She finds [[delmar-fisk|Delmar]] in the streets — wherever he's drifted, Merca
 
 > [!check] Insight — "We have an appointment"
 > DC 12 surface read, DC 16 mechanism clear.
+>
 > - Crit fail: reads her as cold or threatening — misread; she's warm, not menacing.
 > - Fail: professional veneer; can't read through it.
 > - Near miss: she means exactly what she said. Not rhetorical.
@@ -89,6 +90,7 @@ The basin is fed directly from the canal. She steps into it up to her knees, til
 
 > [!check] Perception (Delmar) — The basin water
 > DC 10, or passive Perception 10.
+>
 > - Fail: misses it; only Branca knows it happened.
 > - Near miss: the water near his foot rises slightly and settles — brief, gone.
 > - Success: the water rises toward him when he approaches the basin, the same slow deliberate reach as the gangplank. Nobody else triggers it.
@@ -98,6 +100,7 @@ She looks at Delmar: *"She sees you."* A pause. *"That's all she wanted. For now
 
 > [!check] Religion — What does "She sees you" mean?
 > DC 14 surface read, DC 18 full implications.
+>
 > - Crit fail: thinks being seen is being claimed — incorrect; confuses observation with a pact.
 > - Fail: sounds significant but meaning is opaque.
 > - Near miss: gods of this type maintain awareness through open water; different from prayer.

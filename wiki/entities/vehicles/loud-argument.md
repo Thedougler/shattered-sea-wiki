@@ -19,7 +19,6 @@ ship_class: gun brig
 aliases:
   - "Loud Argument"
   - "The Loud Argument"
-captain: "[[bastian-crev|Bastian Crev]]"
 ---
 
 # The *Loud Argument*

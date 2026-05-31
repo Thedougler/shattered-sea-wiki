@@ -59,6 +59,7 @@ One eye is covered in sun-bleached leather. His jaw is undershot and broad, the 
 Beaumont does not hurry. He handles problems like bad weather: he waits them out when he can, pays what he must when he can't, and does not let his face show which he thinks it is.
 
 **Roleplaying:**
+
 - Holds eye contact too long, says too little, then moves.
 - Never looks surprised. Looks inconvenienced at best.
 - Bisou reads the room before Beaumont reacts — watch the monkey.

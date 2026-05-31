@@ -28,6 +28,7 @@ A brass and leather wrist brace with a short barrel along the forearm and a pres
 ## Properties
 
 **[HB]**
+
 - Fires a grappling hook up to **60 feet** as a bonus action.
 - Line retracts mechanically, pulling the user toward a fixed point (STR 18 for the pull).
 - **Three shots** before requiring 10 minutes to repressurize from the included hand pump.

@@ -25,6 +25,7 @@ Focuses on cold damage and sharing cold effects with enemies. Works with convent
 ## Features
 
 **Frigid Explorer (Level 3).**
+
 - *Biting Cold:* Ignore resistance to cold damage.
 - *Frost Resistance:* Permanent resistance to cold damage.
 - *Polar Strikes:* Add WIS modifier to cold damage rolls.
@@ -38,6 +39,7 @@ Focuses on cold damage and sharing cold effects with enemies. Works with convent
 **Chilling Retribution (Level 9).** Reaction when a creature within 5 ft hits you: target makes DEX save or is Incapacitated (Speed 0) until end of their next turn. Uses/LR = WIS modifier.
 
 **Frozen Haunt (Level 11).** When you cast Hunter's Mark: choose one of:
+
 - *Frozen Soul:* Cold immunity; creatures starting their turn within 30 ft take 1d6 cold damage.
 - *Partially Incorporeal:* Move through objects and creatures (difficult terrain); 1 hour or until you end it.
 

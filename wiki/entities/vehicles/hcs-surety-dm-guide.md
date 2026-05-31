@@ -122,11 +122,13 @@ The *Uncertainty* was registered as HCS Surety, active Crown patrol vessel out o
 **The Calveno refit changes the clock:** the identity erasure (paint, name, registry plate, flags) handles port authority at a glance. It does not handle a Dravosi naval officer who has served on this class of vessel. A cutter's profile is distinctive.
 
 **What slows the clock:**
+
 - Operating far from Crown waters (Midchain, Outer Reach)
 - No Crown colours flying (done — nothing flies)
 - Avoiding Crown ports and inspection vessels
 
 **What accelerates it:**
+
 - Operating in the Central Strait or Crown Islands
 - Delmar Fisk walking openly in Crown ports (he is already a known name; see [[surety-missing|Crown Search]])
 - The vessel being spotted by anyone who served on the Eastern Islands patrol circuit

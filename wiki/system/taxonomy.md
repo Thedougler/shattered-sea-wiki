@@ -8,8 +8,9 @@ publish: false
 summary: Controlled tag vocabulary for the Shattered Sea wiki. Read this before assigning tags to any page.
 created: 2026-05-31
 updated: 2026-05-31
-tags: [dm-prep]
-sources: ["Unknown"]
+tags:
+  - dm-prep
+sources: []
 system_role: "unknown"
 token_profile: on-demand
 mandatory_for: []
@@ -171,6 +172,7 @@ occupation labels (`pirate`, `captain`, `merchant`, `sailor`, etc.)
 ## Adding a New Tag
 
 Before adding, verify no existing tag covers the concept. If genuinely new:
+
 1. It must appear or be needed on 5+ files across 3+ entity types.
 2. Add it to the appropriate section above with a one-line description.
 3. Add any aliases to the alias map.

@@ -60,6 +60,7 @@ The Below is the Tangle's evacuation strategy: a Tier 4 habitat carrack under co
 Purpose: carry 400 Rattkin, the Tangle Chamber, and the Memory Hold archive to open water if Calveno ever exposes the Warren. Perrin's silence since the *Vestra* sank makes the elders ask whether he can still be trusted to carry knowledge of it.
 
 **Triggers:**
+
 - Perrin makes contact and establishes whether he is still Kin in their eyes
 - Crown genealogical records or Calveno politics move closer to the Run
 - Chain Council discovers the true purpose of the commission
@@ -141,6 +142,7 @@ Plausible paths to entry: service to a Run in danger, a threat neutralized again
 Nona has activated a circuit-wide Passage inquiry because Perrin's silence has gone on too long. Anzolo has worked the Passage contacts between Calveno and the Central Strait and found nothing.
 
 Outcomes:
+
 - Perrin contacts Nona first: the *Vestra* conversation happens on his terms
 - Anzolo finds him first: it happens on Nona's terms, with a witness
 - No contact next interval: Nona escalates; Anzolo is not her last card

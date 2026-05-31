@@ -27,10 +27,12 @@ Blade-focused rogues who combine speed, elegance, and Charisma. Duelists and pir
 **Fancy Footwork (Level 3).** After making a melee attack against a creature on your turn, that creature cannot make opportunity attacks against you for the rest of your turn.
 
 **Rakish Audacity (Level 3).**
+
 - Add CHA modifier to Initiative rolls.
 - Sneak Attack applies with no Advantage if: within 5 ft of target, no other creature within 5 ft of you, no Disadvantage on the attack.
 
 **Panache (Level 9).** Action: CHA (Persuasion) vs. WIS (Insight).
+
 - *Hostile:* Disadvantage on attacks vs. targets other than you; no OA vs. non-you targets. Lasts 1 min.
 - *Non-hostile:* Charmed for 1 min.
 

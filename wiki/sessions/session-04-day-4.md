@@ -86,6 +86,7 @@ JC spots what looks like operational handler work — a pair of Grung in nondesc
 ### What the Handlers Carry
 
 One handler has:
+
 - **Binding rope** — light, professional, pre-knotted
 - **Sealed wax message cylinder** — blank on inspection, but the wax bears a mark Jean-Claude recognizes from Botukuri shipping labels
 

@@ -42,6 +42,7 @@ Word reached Nona that Perrin came into Calveno with a crew including a face nob
 - Nona is a Passage matriarch in Calveno. The favor is likely operationally significant.
 
 ### World Update — Session 03
+
 **Roll:** 14 — Partial
 Nona received Cobb's report that Perrin's crew includes a blue Grung in a beret and moustache. She sent Warren runners deeper into the tunnel network to confirm the Grung sighting reports and map entry points before calling in the favor. Runners confirmed the sightings are real — movement in old maintenance corridors beneath Le Paludi and the Bridge district, concentrated near canal intersections. Two reliable entry points identified. Nona has good intel and confirmation — she's ready to call in the favor.
 

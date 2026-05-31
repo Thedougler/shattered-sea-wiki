@@ -23,6 +23,7 @@ session_date: 2026-05-18
 **Player-facing recap:** [[session-02-recap|Session 02 Recap]]
 
 ## Durable Changes
+
 - [[barnaby-rook|Barnaby Rook]] — presumed dead; taken by something in the water after going in a second time.
 - Party now commands the [[hcs-surety|HCS Surety]]. The [[saltwright|Saltwright]] departed with [[beaumont-sel|Beaumont Sel]].
 - Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] (shipwright), [[alys-kuiper|Alys Kuiper]] (surgeon), [[old-faas|Old Faas]] (rigger), [[thunk|Thunk]], [[noor|Noor]]. [[shepherd-grigori|Shepherd Grigori]] aboard until Calveno.
@@ -35,6 +36,7 @@ session_date: 2026-05-18
 - Cargo recovered: 45 gp + letters of marque + blunderbuss (cabin); 110 gp + 2 garnets (under floor); pendant + flintlocks + Mira's Blade + 20 vials Grung tincture (cargo crate).
 
 ## Scene Log
+
 - **Gangplank continuation:** Crissdalynn deflected Rook's flintlock on her bracers; her wind bent him toward the rail. Beaumont threw Bisou through a gun port — she pissed in the powder, cannons neutralized. Delmar fired through the second port, hit Wouters below. Rook went back up the rigging. Delmar threw a chair (wind-assisted). Rook went into the water; something eel-like was in it; he didn't come back. Crissdalynn retrieved his admiral hat with a boat hook. Beaumont: "Belongs to the captain."
 - **Settlement of accounts:** Beaumont to Perrin — Friend of the Passage; Nona Black-Jaw message delivered. Beaumont to Jean-Claude — Truth Stone; Jean-Claude confirmed his three truths.
 - **The galley:** Geoffrey led them below. Shepherd Grigori at the head of the table — assessed the party before cooperating. Named Cap'n Gorgeous and Rupert Knighton. His condition: anyone off at the next port walks free. Then: "You forgot to feed Ket."
@@ -45,6 +47,7 @@ session_date: 2026-05-18
 - **Storm:** Tropical storm hit two hours out. Jean-Claude seasick. Aldenmere (Crown Isle) glimpsed northwest in a gap — closed. Three hull impacts, third deliberate — Surety lurched to port. Jean-Claude reached for his spyglass.
 
 ## Entity Updates
+
 - [[barnaby-rook|Barnaby Rook]] — presumed dead
 - [[beaumont-sel|Beaumont Sel]] — departed on Saltwright; friend of the party
 - [[hcs-surety|HCS Surety]] — party vessel; Crown-marked; hull taking impacts
@@ -55,6 +58,7 @@ session_date: 2026-05-18
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — deflected flintlock; let Ket feed from her
 
 ## Situation And Faction Updates
+
 - Situation created: [[hull-impacts|Hull Impacts]] — something large is hitting the hull
 - Situation created: [[knighton-pursuit|The Knighton Pursuit]] — Rupert Knighton will send ships
 - Situation created: [[nona-and-anzolo|Nona and Anzolo]] — Perrin named; Nona's search is live
@@ -62,6 +66,7 @@ session_date: 2026-05-18
 - Situation resolved: [[the-rook-resolution|The Rook Resolution]] — Rook is dead (presumed)
 
 ## Open Questions
+
 - What is hitting the hull? Is it the eel-creature that took Rook?
 - What is aboard the Aldenmere Crown Isle? Could the creature be based there?
 - Does Jean-Claude ever tell the party about the 20 vials?
@@ -70,6 +75,7 @@ session_date: 2026-05-18
 - When does Anzolo find Perrin?
 
 ## Follow-Up Queue
+
 - [ ] Expand [[shepherd-grigori|Shepherd Grigori]] before Calveno arrival — what does he know about Rook's operations?
 - [ ] Decide the hull creature — needs a creature page when identified
 - [ ] Expand crew stubs (Sem, Alys, Faas, Thunk, Noor) as they become distinct

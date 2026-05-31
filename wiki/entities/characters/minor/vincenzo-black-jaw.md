@@ -2,7 +2,7 @@
 type: entity
 subtype: minor-npc
 campaign: shattered-sea
-status: deceased
+status: dead
 audience: players
 publish: true
 summary: "Deceased patriarch of the Black-Jaw Run — built and captained the Vestra, Nona's late husband, Perrin's grandfather."

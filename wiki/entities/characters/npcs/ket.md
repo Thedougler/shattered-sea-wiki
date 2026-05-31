@@ -35,6 +35,7 @@ A brass birdcage, roughly two feet across, hanging from a bent ship nail in the 
 > Even [[shepherd-grigori|Grigori]] looked at him once and left without getting near the cage. Ket found this funny. He told the crew afterward that the "big one smells wrong." Nobody wanted to ask what that meant.
 
 **Sample lines:**
+
 - *"Come closer. I won't bite."*
 - *"You're bleeding a little. From the fight. I can smell it."*
 - *"Just your hand. Just for a moment."*

@@ -38,6 +38,7 @@ The sealed orders remain in [[fort-crestwall|Fort Crestwall]] under the Commanda
 ## What Voss Can Provide
 
 In exchange for Admiralty-level leverage or intelligence:
+
 - Name of the officer who delivered the sealed orders
 - Supply manifest addendum (reef-diving equipment, underwater charges — destination: Drowned Maw)
 - A letter of introduction that functions as a [[fort-crestwall|Fort Crestwall]] pass

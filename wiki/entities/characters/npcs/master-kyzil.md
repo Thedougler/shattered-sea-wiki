@@ -53,6 +53,7 @@ His formality cracks once, and only where Crissdalynn is concerned. The reunion 
 ## Voice & Delivery
 
 **Speech patterns:**
+
 - Questions over statements. When he wants something, he asks. When he's teaching, he still asks.
 - Stops before the emotional word. "I corrected course—" [beat] "—three times." The pause is the feeling.
 - Agrees when he wants to apply pressure: student says something self-critical, he says "Yes." No elaboration.

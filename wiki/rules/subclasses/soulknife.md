@@ -29,6 +29,7 @@ Psionics-based Rogue. Psionic Energy Dice (PED) pool — d6 scaling to d12 at Le
 **Psychic Blades (Level 3).** As part of the Attack action, manifest two Psychic Blades (light, finesse, 60 ft range, psychic damage, appear in empty hands). Vanish immediately after — no Opportunity Attacks.
 
 **Soul Blades (Level 9).** Add effects to Psychic Blade attacks:
+
 - *Homing Strikes (1 PED):* On a miss, add one PED to the attack roll. If it now hits, don't add the die to damage.
 - *Psychic Teleportation (1 PED):* Instead of an attack, teleport up to 10 × the PED result in feet.
 

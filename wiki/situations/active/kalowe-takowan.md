@@ -63,11 +63,13 @@ The party's practical choice: burn risk into Perrin's contact network now, delay
 Short, still, salt-bleached canvas trousers. Does not greet customers, does not negotiate, looks at the hull instead of the speaker. If the party explains, he lets them finish and prices the job as if they said nothing.
 
 Sample lines:
+
 - *"Two hundred. Three days, maybe five."*
 - *"She's a cutter. Paint her any colour you want. She's still a cutter."*
 - *"The plate comes off. What you do with it after — not my business."*
 
 First meeting:
+
 1. Perrin makes contact through the second-causeway Passage stall
 2. Noa names the back of the second-island chandlery after dark
 3. First price: 200 gp; 3 days, maybe 5

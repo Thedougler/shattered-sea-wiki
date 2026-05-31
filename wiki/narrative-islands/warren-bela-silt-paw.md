@@ -13,6 +13,7 @@ tags:
   - combat
 sources:
   - "Inbox/Warren-Bela-Silt-Paw.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

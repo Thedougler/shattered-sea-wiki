@@ -47,6 +47,7 @@ A low stone building against the outer harbour wall with a single wide slip open
 **Proprietor: [[dario-vanni|Dario Vanni]]** — Shell worn and paint-scarred along the right rim from decades of drydock work. Deliberate, with the unhurried manner of someone who is never surprised by what a customer needs. Runs two workers who do not ask questions because Vanni does not answer them. Prices discreet work at double the standard rate, cited without embarrassment.
 
 **Sample lines:**
+
 - *"Prize conversion or something else? — same rate either way, before you answer."*
 - *"I don't need the story. I need the name you want on the board and the colour you want on the hull."*
 - *"She'll float out of here looking like she was built somewhere else. What she actually is — that's your concern."*

@@ -59,6 +59,7 @@ Flat limestone shelf, 60 ft wide, barely above waterline at mean tide. Single wi
 *One of the sealed silver plate crates contains an engraved service with a noble house seal — worth 200 gp to the right buyer, or trouble if the wrong people recognise it.*
 
 **Selling options:**
+
 - [[taufa-fifita-and-sons|Taufa Fifita & Sons]]: 720 gp (10% cut, no questions, 2-day wait)
 - Harbour direct: 680 gp (faster, fewer buyers)
 - Silver plate sold elsewhere: 350 gp for those 3 crates at any non-Dravosi port

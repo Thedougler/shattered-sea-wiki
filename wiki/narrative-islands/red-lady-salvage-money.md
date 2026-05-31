@@ -14,6 +14,7 @@ tags:
   - maritime
 sources:
   - "Inbox/Red-Lady-Salvage-Money.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Delmar asks about the Red Lady, the Maw, or salvage money in Calveno
@@ -73,6 +74,7 @@ The money is moving through at least three separate Calveno broker contacts. Nob
 Human, late fifties, stocky, always dressed slightly too formally for the weather. He brokers large commissions and does not pretend to care about their morality, only their completion. He has a reputation for clean information — accurate, priced, no embellishment. He is not hostile to the party. He is also not protective of his clients.
 
 **What he knows:**
+
 - The commission is for a Maw wreck, deep access, cargo recovery. He has not been told the wreck name.
 - Three separate supply chains: diving apparatus (hired, not bought), a chart service (sealed package, premium rate), crew contacts in two port cities.
 - The money came through a factor in Port Tidefall he has worked with before. Good for the credit. Not previously interested in salvage.
@@ -87,6 +89,7 @@ Human, late fifties, stocky, always dressed slightly too formally for the weathe
 ## What the Commission Looks Like
 
 When assembled:
+
 - Crew: 8–10 people, mixed skills, at least two with documented deep-diving experience
 - Vessel: a mid-size cargo lugger with extended hull storage for recovered goods
 - Navigation: a sealed chart package that someone paid premium for — recent data, Maw-specific

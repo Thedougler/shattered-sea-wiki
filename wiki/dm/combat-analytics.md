@@ -22,6 +22,7 @@ update_trigger: "After each combat; when encounter difficulty patterns become cl
 > Stub. Populate after first few sessions of combat data.
 
 ## Design Adjustments (Active Flags)
+
 {Current active flags for encounter design — e.g. "party burning resources fast", "encounters resolving in 2 rounds"}
 
 ## Encounter Log
@@ -31,7 +32,9 @@ update_trigger: "After each combat; when encounter difficulty patterns become cl
 | (none yet) | — | — | — | — | — |
 
 ## Patterns Observed
+
 {Running notes on what makes encounters challenging vs. trivial for this party}
 
 ## Calibration Notes
+
 {Adjustments actively in use — e.g. "+1 to all enemy HP totals", "avoid single-target boss fights"}

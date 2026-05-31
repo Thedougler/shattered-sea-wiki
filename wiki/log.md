@@ -13,9 +13,11 @@ sources: []
 ---
 
 # wiki/log.md — Shattered Sea
-# Append-only. Never edit existing entries. Add new entries at the bottom.
+
+# Append-only. Never edit existing entries. Add new entries at the bottom
 
 ## 2026-05-27
+
 - INIT: vault scaffolded for campaign Shattered Sea — 46 directories, 10 files created
 - INGEST: Inbox/Session-01-Recap.md — session-01 boarding of Saltwright
 - CREATE: wiki/sessions/session-01.md — DM session note
@@ -121,6 +123,7 @@ sources: []
 - CREATE: broken-link stubs — `bisou`, `capn-gorgeous`, `il-gioco-delle-beffe`
 
 ## 2026-05-28
+
 - INGEST: `Inbox/Aarakocra.md` — status ingested — outputs: `wiki/lore/species/aarakocra.md`, `wiki/entities/characters/pcs/crissdalynn-khinriss.md`
 - INGEST: `Inbox/Antherian.md` — status ingested — outputs: `wiki/lore/antheri.md`
 - INGEST: `Inbox/Demographics.md` — status ingested — outputs: `wiki/lore/peoples-of-the-shattered-sea.md`, `wiki/entities/factions/grung-clans.md`, `wiki/entities/factions/the-passage.md`, `wiki/entities/places/verdant-teeth.md`, `wiki/entities/places/keth-naar.md`
@@ -137,6 +140,7 @@ sources: []
 - UPDATE: `wiki/hot.md` — Beffe registration is tomorrow morning; added immediate Calveno toy to predictions
 
 ## 2026-05-28
+
 - INGEST: `Inbox/Beaumonts-Crew.md` — status ingested — outputs: `wiki/entities/characters/crew/lenne-vor.md`, `wiki/entities/characters/crew/drav-holke.md`, `wiki/entities/characters/crew/wessa.md`, `wiki/entities/characters/crew/fen.md`, `wiki/entities/characters/npcs/beaumont-sel.md`, `wiki/entities/vehicles/saltwright.md`
 - INGEST: `Inbox/Black-Jaw-Run.md` — status ingested — outputs: `wiki/entities/factions/black-jaw-run.md`, `wiki/entities/factions/the-passage.md`, `wiki/entities/characters/npcs/nona-black-jaw.md`, `wiki/entities/places/warren.md`
 - INGEST: `Inbox/Chain-Council.md` — status ingested — outputs: `wiki/entities/factions/chain-council.md`, `wiki/entities/vehicles/the-quorum.md`, `wiki/entities/places/settlements/kalowe.md`

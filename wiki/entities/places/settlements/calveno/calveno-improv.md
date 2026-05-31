@@ -184,6 +184,7 @@ Calveno places are named from observable facts, not mythology.
 Every conversation in Calveno has a transaction under it, stated or implied.
 
 **Common openings:**
+
 - "Who sent you?" — before answering anything useful
 - "That's not cheap." — before the price
 - "Someone will have heard about this." — before helping with something private
@@ -192,18 +193,21 @@ Every conversation in Calveno has a transaction under it, stated or implied.
 - "Paid in full, witnessed, no argument." — closing a deal
 
 **Common hedges:**
+
 - "You understand I can't—" *(then does the thing, for a price)*
 - "That's between you and whoever you're asking about." *(not a refusal; an invitation)*
 - "I only remember boats." *(deniability; they remember everything)*
 
 **Tessarine voice:**
 More patient, more formal. They wait. They record.
+
 - "I wonder if you've considered—" *(a better offer that serves them more)*
 - "That's already in our ledger." *(they know more than you thought)*
 - "Naturally, we'd be happy to facilitate—" *(a condition is coming)*
 
 **Rattkin voice (Warren, Passage, Black-Jaw):**
 Direct, concrete, no performance.
+
 - "What do you need." *(not a question)*
 - "That costs a favour." *(specific currency; they track these)*
 - "Nona will know." *(sometimes a warning, sometimes a reassurance)*

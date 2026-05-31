@@ -52,6 +52,7 @@ The Sawek is well-fed and territorial. It attacked the first boat that passed ov
 **The trap approach:** The channel narrows to 20 feet 60 yards north of the blue hole. Chain across at depth (available from Ormsson's Fittings, 5sp/ft) fouled against both walls — Sawek makes DC 13 Dex save or tentacles restrained (no tentacle attacks; uses action to attempt DC 16 Str, 2 tries/round). Removes its grapple attack.
 
 **The lair (post-kill):** Visibility nil without light. Floor holds:
+
 - 6 weeks of accumulated debris from passing boats
 - A sealed iron box it sank two weeks before settling here — contains dry-stored pilot charts for the eastern reef channels (60gp standard; 90gp to [[algernon-reginald-clyde|Algernon Reginald Clyde]] if he's in port)
 - 185gp in mixed coin, gritty with silt

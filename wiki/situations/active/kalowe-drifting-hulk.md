@@ -36,6 +36,7 @@ Word reached the causeway by the morning market. Two other crews in Kalowe are a
 **What the [[kalowe-waveservant-shrine|Waveservant shrine]] knows:** Brother Tamoa recognises the *Pale Covenant* from the ledger — Orlen Vass, tithe balance outstanding. He will tell the party the tithe status if they describe the colours. He can also perform a consecration ritual (10gp incense + saltwater into the basin) that suppresses the specters for 1 hour from boarding — enough to load the hold.
 
 **What the party doesn't know:**
+
 - The crew were killed by specters and their own undead shadows within hours of Vass dying
 - The captain's specter is anchored to the wheel and cannot move from the helm deck
 - Permanent resolution: pay the tithe posthumously, or destroy the wheel (AC 15, 20hp; the specter fights to prevent this)
@@ -50,6 +51,7 @@ Word reached the causeway by the morning market. Two other crews in Kalowe are a
 ## DM Notes
 
 **Aboard the *Pale Covenant*:**
+
 - Below decks: **4 Shadows (CR 1/2)** — haunt the cargo hold and crew quarters; emerge on any light source entering the hold. HP 16, AC 12, Strength Drain (hit + DC 13 Con save or -1d4 Str; 0 Str = new shadow). Resist most damage; immune to exhaustion/frightened/grappled; vulnerable to radiant. In dim light they attack with advantage — *the hold is dim.*
 - Helm deck: **1 Specter (CR 1)** (Captain Orlen Vass) — anchored to the wheel, cannot be driven off, only destroyed or appeased. HP 22, AC 12, Life Drain +4 / 3d6 necrotic (DC 13 Con or max HP reduced until long rest). Says nothing except *"Pay what you owe"* on repeat, directed at nobody visible.
 

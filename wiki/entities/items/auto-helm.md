@@ -22,6 +22,7 @@ homebrew: true
 A brass clockwork assembly bolted around the ship's tiller or wheel — gears, a tension spring, and a compass housing — that holds a set heading with a low mechanical ticking when engaged. Available at [[cats-curios|Cat's Curios]] in [[calveno|Calveno]]. **1,400 gp.**
 
 **Properties [HB]:**
+
 - Holds a set course without a crew member at the helm for up to 8 hours.
 - Does not react to other vessels, obstacles, or changing weather.
 - Requires a course to be set manually before engaging.

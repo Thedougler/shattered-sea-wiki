@@ -40,6 +40,7 @@ A combat overlay for battles where normal 5e combat cannot represent the scale: 
 ## Design Notes
 
 Siege rules work best when:
+
 - The party's individual actions can meaningfully affect the siege totals (disabling siege actions, protecting key NPCs).
 - Named NPC deaths have mechanical weight (Blaze of Glory: their last action resolves immediately before they die).
 - The encounter's end state is not "kill everything" but a specific objective (ritual completed, creature retreats, city saves).

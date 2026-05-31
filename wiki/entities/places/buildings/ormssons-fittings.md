@@ -33,6 +33,7 @@ Ormsson's Fittings is on the first island, a short walk from the primary dry-doc
 **[[kettil-ormsson|Kettil Ormsson]]** — late forties, stocky, a dwarf from Harwick or thereabouts. Does not chat. Reads a customer fast and gives a price with minimal elaboration. If someone asks about the back shelf without preamble, he tells them what's there. If they explain why they need it, he loses interest.
 
 **Sample lines:**
+
 - *"Chain's in the third crate. Per foot."*
 - *"Curtain's open. What do you need?"*
 

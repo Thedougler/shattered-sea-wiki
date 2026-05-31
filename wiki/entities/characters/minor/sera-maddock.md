@@ -25,6 +25,7 @@ She is not sentimental about the money. She would rather someone get it than it 
 **Deal:** 200 gp and passage out (not to Tidefall — she wants a healer city with the right herbalist). The forearm tattoo is worth the price.
 
 *Sample lines:*
+
 - *"The map's on my arm. I'll show you the bearing if you show me a ship."*
 - *"I burned the other half. The man I was going to share it with deserved less."*
 - *"There's something in that cave. I'm not telling you it's nothing. I'm telling you I don't know what it is now."*

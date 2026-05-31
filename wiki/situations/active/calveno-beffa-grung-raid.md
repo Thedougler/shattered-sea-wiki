@@ -13,7 +13,7 @@ tags:
   - combat
 sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
 lifecycle: active
-narrative_island:
+narrative_island: calveno-raid-signs
 confidence_level: high
 ---
 
@@ -99,6 +99,7 @@ The main distraction at the primary strike point — and the session's boss enco
 At the moment of detonation, the summoning circle in the primary collector chamber activates. A **Red Slaad** erupts through the rubble of the collapsed Mercatura plaza into daylight, emerging from the dust and debris into a crowd already in panic. It is not controlled. It is not directed at specific targets. It is released to do what Slaadi do: destroy everything in front of it.
 
 The Slaad serves three operational purposes for Simone:
+
 - It fixes the city's armed response at the Mercatura — the watch, the militia, any adventurers — buying the four secondary strike teams time to complete extraction.
 - It generates mass civilian flight away from the primary site, pushing crowds toward the secondary catching forces.
 - It is expendable. Simone does not care whether it survives. Every round it fights is a round the extraction runs unopposed.
@@ -116,6 +117,7 @@ Simone's purple-caste warriors serve as her on-the-ground coordinators during th
 This is not incompetence — purple caste are warriors, not infiltrators. Simone's blue-caste handlers are invisible. The purple handlers are visible but overlooked because Calveno does not expect Grung and because the festival makes strange costumes unremarkable. During La Finestra, a small person in a bad moustache reads as a Beffa participant, not an enemy combatant.
 
 The party may encounter them:
+
 - Supervising blackpowder deliveries at storm-drain access points after dark
 - Taking position reports from blue-caste handlers in Velo alleyways
 - Coordinating with the catching-force teams at secondary strike perimeters

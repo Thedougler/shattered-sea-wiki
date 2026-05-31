@@ -28,6 +28,7 @@ An old travel cloak in mottled grey-green, the fabric slightly stiff and smellin
 ## Properties
 
 **[RAW]** Standard *Cloak of the Manta Ray* (DMG):
+
 - While wearing and attuned: swim speed 60 ft., breathe underwater.
 - While hood is up: appear to be a manta ray, gaining the manta ray's damage immunities and resistances.
 

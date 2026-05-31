@@ -55,6 +55,7 @@ Healer's supplies, apothecary goods, and minor medical services. Grimaldi does n
 *Roleplay concept: a woman who has seen every kind of trouble that can arrive at a port and found none of it particularly interesting.*
 
 **Sample lines:**
+
 - *"Healer's kit or wound supplies? There's a difference."*
 - *"Antitoxin's fifty. I have two."*
 - *"Tell me what you were exposed to, not what happened."*

@@ -7,6 +7,7 @@ audience: dm
 publish: false
 summary: "Day 5 — the raid fires: blackpowder detonations collapse the ground, a Slaad erupts from the Mercatura breach, four secondary snatch teams hit simultaneously, and Nona emerges in the aftermath to rally pursuit."
 created: "2026-05-30"
+updated: 2026-05-31
 tags:
   - grung
   - combat
@@ -15,7 +16,6 @@ sources:
   - Homebrew
 session_number: 4
 session_date: "unknown"
-updated: 2026-05-31
 ---
 
 # Session 04 — Day 5: The Raid
@@ -112,6 +112,7 @@ The session's climactic fight if the party reaches Day 5. The Slaad is at the pr
 
 > [!dm]
 > **Fire sourcing.** The party needs to find fire or acid. Here's what's available in the environment:
+>
 > - **Festival torch racks** at the Mercatura — scattered in the collapse. DC 12 Investigation finds one still burning in the rubble.
 > - **Giacomo's oil stock** — if Moretti & Sons is near the Mercatura, a crate of chandler's lamp oil spilled in the blast. DC 14 Investigation to locate, then throw or pour.
 > - **Overturned vendor cart** — a festival alchemist's cart tipped in the collapse. DC 14 Investigation finds two flasks of alchemist's fire (2d6 fire, splash) in the wreckage.
@@ -175,6 +176,7 @@ During the raid, the purple-caste handlers who coordinated the build-up are visi
 > If Jean-Claude is present for any secondary strike, he sees purple-caste deference hierarchy in action — the way a catching-force leader defers to the raid-team commander, the way the commander defers to a handler who is not fighting but watching from a doorway. Jean-Claude has seen this chain of command before. It is Simone's operational structure. The handler in the doorway is the moment JC knows his sister built this. Do not narrate the realization. Let his player arrive there.
 
 If the party captures or kills a purple-caste handler during the raid, they find:
+
 - A wax message cylinder bearing the same Botukuri shipping mark as the Day 4 handler
 - A rough sketch of Calveno's sewer system with five X marks — one per strike site
 - A fake moustache, poorly made, horsehair and spirit gum

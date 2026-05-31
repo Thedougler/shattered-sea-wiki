@@ -71,6 +71,7 @@ He is twice the problem Rook was. Treat him accordingly.
 Bishop enters when the Crown needs investigation and suppression rather than ordinary enforcement. His presence means someone has decided the party is no longer a dockside problem.
 
 Pressure points:
+
 - Rook's death or humiliation can move Bishop from background escalation to active pursuit.
 - The *Tangent* should appear only when the campaign is ready for Crown pressure to become naval rather than procedural.
 

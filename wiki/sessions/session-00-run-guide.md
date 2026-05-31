@@ -26,12 +26,14 @@ table_status: complete
 ## State of Prep
 
 **Ready:**
+
 - Campaign primer, tone, world — fully prepped: [[shattered-sea-tone-guide|Shattered Sea Tone Guide]]
 - Gravity wells: Perrin, JC, Delmar, Crissdalynn — complete: [[player-gravity-wells|Player Gravity Wells]]
 - Mortises: Perrin, JC, Delmar — locked. Crissdalynn — intentionally none (no defined Mortis; kid still coming into herself)
 - Session 1 fully scripted (9 scenes), ready to run the moment Session 0 closes
 
 **Gaps to close today:**
+
 1. **Stripes** — no interview, no gravity wells, no Mortis, player TBD. Run section 4 separately before Session 1.
 2. **Lines and veils** — establish and record today.
 3. **Table expectations** — verbal is fine; cover it.
@@ -43,16 +45,19 @@ table_status: complete
 ### 1. Table Talk (15–20 min)
 
 **Tone and content**
+
 - Lines (won't appear at all): ask each player. Common candidates: sexual violence, child harm.
 - Veils (happens off-screen): torture details, extreme body horror. Confirm or adjust.
 - X-card: always on the table. No explanation needed, no questions asked.
 
 **Table expectations**
+
 - Phones: call it.
 - Attendance: how many to run? Cancellation window?
 - "It's not working" signal: how does a player flag something without killing the session?
 
 **Death rules** (in primer — confirm verbally)
+
 - Death is on the table. DM won't aim for it but won't pad it.
 - Options: resurrection or new same-level character.
 
@@ -67,6 +72,7 @@ Don't recite the primer. Hit the tone in one sentence:
 Then: **Archer but Age of Sail high magic.**
 
 Confirm everyone has answered the four pre-session questions:
+
 - Why are you aboard the Saltwright?
 - What do you want badly enough to cross dangerous water for?
 - What kind of trouble follows you onto a ship?
@@ -81,6 +87,7 @@ Quick pass on Perrin, JC, Delmar, Crissdalynn. You have the gravity wells — th
 **For each:** "Tell me one thing your character wants right now and one thing they're afraid of losing." Listen for anything that contradicts or updates the gravity well notes.
 
 Watch for:
+
 - **Perrin + Crissdalynn friction** — prey response to large birds. Confirm Kaden knows this is a live dynamic.
 - **JC's slave-catcher secret** — confirm Chad is comfortable with it surfacing mid-campaign as a grenade.
 - **Delmar's five captains** — confirm Frederick knows this is an obsession, not a long game.
@@ -98,17 +105,20 @@ Watch for:
 **Questions from [[character-interview-guide|Character Interview Guide]]:**
 
 *Who they are:*
+
 - What do they want right now?
 - What are they afraid of losing?
 - What do they believe that most people would disagree with?
 - What's a line they won't cross?
 
 *Where they've been:*
+
 - What did their life look like before all this?
 - What's the worst thing that's ever happened to them?
 - What's the worst thing they've ever done?
 
 *For the DM:*
+
 - Give me one person from their past I can bring back — name, relationship, good or bad reunion?
 - Give me one thing they want badly enough to do something questionable for.
 - Give me one secret.
@@ -116,6 +126,7 @@ Watch for:
 
 **Umberlee hook — probe specifically:**
 Three other PCs have direct Umberlee entanglement. Stripes is described as a shrine guardian whose goal is to "set the seas right."
+
 - What does "setting the seas right" mean to them specifically?
 - What do they think is wrong?
 - Does Umberlee speak to them, or is it one-way devotion?
@@ -149,6 +160,7 @@ See [[mortis|The Mortis]] for design rules.
 ### 6. Player Goals — Round Table (10–15 min)
 
 Ask the player, not the character:
+
 1. What is your character trying to *become* by the end of this campaign?
 2. What are they *afraid* of losing?
 3. Who do they love, or who did they love?
@@ -160,6 +172,7 @@ Ask the player, not the character:
 ### 7. Party Connection (10 min)
 
 Everyone's aboard the Saltwright. Establish:
+
 - Which PCs have history before this voyage?
 - Which are strangers?
 - Is there anyone who doesn't want to be here?
@@ -182,6 +195,7 @@ That's where they wake up in Session 1.
 ## Write Down Tonight
 
 Before notes go stale:
+
 - Stripes' gravity wells → [[player-gravity-wells|Player Gravity Wells]]
 - Stripes' Mortis → section 5 table above
 - Lines and veils for this table

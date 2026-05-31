@@ -27,6 +27,7 @@ Bards who train in the College of Valor fight alongside warriors, inspiring alli
 **Martial Training (Level 3).** Proficiency with Martial weapons, Medium armor, and Shields. A held weapon may serve as a spellcasting focus.
 
 **Combat Inspiration (Level 3).** Bardic Inspiration die grants two uses:
+
 - *Defense:* Reaction when hit — add the die to AC; if the attack then misses, the die is consumed.
 - *Offense:* After rolling a hit — add the Bardic die to the damage roll, then consume it.
 

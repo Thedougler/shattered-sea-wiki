@@ -30,12 +30,14 @@ The *Cormorant*, a small merchant sloop, went down three months ago on the reef 
 Davu is two months past his savings and offering 30% of whatever is recovered — which he cannot actually guarantee, since the money isn't his to split; the captain's widow in Tidefall has a claim. He has not mentioned this. He knows the dive location within 200 yards, has the strongbox key, and knows there was something large living in the wreck the last time a hired diver got close and came back empty-handed.
 
 **What the party knows (if they talk to Davu):**
+
 - Sunken sloop, 2 miles southwest, reef shelf, ~30ft
 - 600gp in a locked iron strongbox (he has the key)
 - 30% cut (180gp + rubies, which he'll value at 60gp — they're worth 90gp each)
 - "Something in the wreck" — big, pale, wrong-shaped
 
 **What the party doesn't know:**
+
 - The merrow has reinforced the grotto with salvaged chain and hull planking
 - Two [[hunter-shark|hunter sharks]] patrol the outer reef — not in the grotto, but will investigate noise and blood
 - The rubies are worth 180gp total, not 60gp; Davu is underselling in case he can buy them back later
@@ -52,6 +54,7 @@ Davu is two months past his savings and offering 30% of whatever is recovered �
 **[[davu-kamu|Davu Kamu]]** — Midchain mixed heritage, late thirties, former first mate. Drinks steadily rather than heavily; talks in the careful way of someone who knows he is leaving things out. If the party agrees to the job, he insists on coming along in a boat to navigate but will not enter the water. If they discover the rubies' real value and confront him, he admits it without much shame: *"I needed someone to say yes."*
 
 **The wreck approach:**
+
 - Small boat or swimming — Davu can borrow a dinghy from the Fifita family quay for 2sp
 - Visibility underwater: 30 feet in open water; 10 feet near the wreck (silt disturbed by the merrow's movement)
 - Athletics DC 12 to swim to depth without a Swim speed; failure costs a turn, not drowning (yet)

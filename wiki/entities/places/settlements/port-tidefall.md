@@ -64,6 +64,7 @@ Every ship entering the western Strait is expected to stop, answer questions, an
 | [[tessarine-trade-house|Tessarine Trade House]] | Office | Trade licensing, contract brokerage, and courier dispatch. |
 | [[the-governors-seat|Governor's Seat]] | Government office | Petitions, appointments, appeals, and civic Crown authority. |
 | [[hook-and-ledger|Hook & Ledger]] | Tavern | Shelf tavern for clerks, pursers, quartermasters, and quiet side deals. |
+| [[anchor-and-line|Anchor & Line]] | Tavern | Dockfront working tavern — cheap rum, long benches, canvas-screened back section for the Rattkin population. |
 | [[fort-crestwall|Fort Crestwall]] | Fort | Barracks, command post, and cannon battery above the harbour approach. |
 
 ## Current Hooks

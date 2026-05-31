@@ -88,6 +88,7 @@ Most sourcebook species have a place in the Scatter. The setting adds four homeb
 The *[[saltwright|Saltwright]]* is captained by **[[beaumont-sel|Beaumont Sel]]** — an alligator-snapping tortle who has survived eleven years on the Midchain route by treating danger as weather. You are aboard for your own reason.
 
 **Questions to answer before Session Zero:**
+
 - Why are you aboard?
 - What do you want badly enough to cross dangerous water for?
 - What kind of trouble follows you onto a ship?

@@ -13,6 +13,7 @@ tags:
   - mystery
 sources:
   - "Inbox/Warren-Marrows-Crate.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene
@@ -80,6 +81,7 @@ Haut is a Dravosi intelligence attaché operating under Tessarine trade-assessor
 ## The Crate
 
 Sealed with Dren's wax and courier notation. Inside:
+
 - A sealed letter implicating House Vretek and Commendant Alessi Brol in selling Passage cargo timing windows to Tessarine factor [[iacopo-fieschi|Iacopo Fieschi]]'s advance agents.
 - 280 gp in Tessarine silver.
 - A secondary House Vretek signet ring worth 120 gp as jewelry or considerably more as evidence.

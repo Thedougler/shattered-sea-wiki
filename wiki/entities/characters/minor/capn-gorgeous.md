@@ -2,7 +2,7 @@
 type: entity
 subtype: minor-npc
 campaign: shattered-sea
-status: deceased
+status: dead
 audience: players
 publish: true
 summary: "Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair."

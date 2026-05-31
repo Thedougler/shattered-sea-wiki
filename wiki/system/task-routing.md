@@ -25,6 +25,7 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 ---
 
 ## Read Depth Notation
+
 - `[FULL]` — read the complete file
 - `[FAST-READ]` — read the summary/Fast Read section only; expand if insufficient
 - `[SECTION: X]` — read only the named section
@@ -36,6 +37,7 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 ## Routing Table
 
 ### Task: `encounter-design`
+
 | # | File | Depth | Why |
 |---|---|---|---|
 | 1 | `wiki/system/party-combat-primer.md` | `[FULL]` | Party capabilities and design rules |
@@ -43,6 +45,7 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 | 3 | `wiki/system/players/[pc]-sheet.md` (all PCs) | `[FAST-READ]` | Current resource state |
 
 ### Task: `session-prep`
+
 | # | File | Depth | Why |
 |---|---|---|---|
 | 1 | `wiki/system/party-session-primer.md` | `[FULL]` | Party context for this session |
@@ -50,18 +53,21 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 | 3 | `wiki/situations/active/[relevant]` | `[FAST-READ]` | Active threads |
 
 ### Task: `transcript-ingestion`
+
 | # | File | Depth | Why |
 |---|---|---|---|
 | 1 | `wiki/system/players/[all-pcs]-sheet.md` | `[FULL]` | Current mechanical state |
 | 2 | `wiki/hot.md` | `[FULL]` | World state at session start |
 
 ### Task: `wiki-audit`
+
 | # | File | Depth | Why |
 |---|---|---|---|
 | 1 | `wiki/index.md` | `[FULL]` | Master catalog |
 | 2 | `CLAUDE.md` | `[SECTION: Ideal State]` | Correction rules |
 
 ### Task: `live-co-dm`
+>
 > Mid-session, real-time. Latency beats completeness. SKIP init/lint/audit/index/frontmatter.
 | # | File | Depth | Why |
 |---|---|---|---|

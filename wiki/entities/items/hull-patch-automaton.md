@@ -28,6 +28,7 @@ A crab-sized brass mechanism that runs the waterline interior on six articulated
 ## Properties
 
 **[HB]**
+
 - Automatically seals hull breaches under 1 foot in diameter without crew intervention.
 - Reduces hull HP loss from combat flooding by **1d6 per round**.
 - Requires monthly refill of sealant compound: **40 gp**.

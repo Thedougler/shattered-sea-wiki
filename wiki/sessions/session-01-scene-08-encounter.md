@@ -75,6 +75,7 @@ Beaumont's emergency stash: 3× potions of healing (2d4+2 each) behind a false p
 | **Win condition** | All three crewmen silenced before they can signal above. |
 
 **PC Spotlights — Phase 1**
+
 - **JC:** Umbral Sight active. Invisible to darkvision creatures, advantage on attacks. Priority target: the Enforcer before he closes to melee.
 - **Crissdalynn:** No darkvision. Best position near the hatch to intercept anyone breaking for the ladder.
 - **Delmar:** Cramped lanes isolate targets. Rakish Audacity fires freely. Burn SA on the Enforcer first, not low-HP deckhands.
@@ -105,6 +106,7 @@ The party emerges through the hatch. If Phase 1 was clean, topside crew is watch
 | **Win condition** | Deck crew defeated or driven back before the gangplank is pulled. |
 
 **PC Spotlights — Phase 2**
+
 - **Crissdalynn:** Send airborne toward the rail deckhands immediately — she can intercept before they reach the gangplank.
 - **JC:** Umbral Sight still operational in patches near the hull and rigging. Position matters.
 - **Delmar:** Enforcers at the hatch are clustered — needs one ally adjacent or isolatable target for Sneak Attack.

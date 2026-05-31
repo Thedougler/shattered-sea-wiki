@@ -131,6 +131,7 @@ Simone does not know Jean-Claude's location. She knows he is alive and outside t
 Play Pell warm first: she made Jean-Claude feel seen, not useful. The crack is when she talks about slaves who will never get out. She does not cry; she gets very still.
 
 Sample lines:
+
 - *"Where I'm from, it's different. Not better, just — different. That's enough, isn't it?"*
 - *"You already knew. You just needed someone to say it out loud."*
 - *"I'm not telling you what to do. I'm just telling you what I've seen."*

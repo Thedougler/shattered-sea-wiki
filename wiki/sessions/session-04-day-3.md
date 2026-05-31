@@ -56,6 +56,7 @@ Two paths into this beat: **(a)** Nona's favor — JC is sent into the old Warre
 ![[wiki/assets/sessions/session-04/maps/session-04-warren-sewer-y-junction-map.png|Use case: stylized-concept. Asset type: TTRPG top-down battlemap for a D&D sewer exploration scene, square 1:1. Primary request: Create an unlabeled top-down battlemap of the Warren-to-Calveno sewer Y-junction investigation route from Session 04. Scene/backdrop: Old smuggling tunnels under Le Paludi connecting into Calveno collector sewers. Include a ladder access hatch dropping into a main collector corridor, ankle-deep slow water, a Y-junction with one branch showing heavier disturbed silt, a narrower 4-foot Bridge connector, a far hatch with disturbed silt on both sides, scrape marks at knee height on limestone walls, and small clean incisions low on the wall. Add a few old brick supports, drainage pipes, puddles, and shadowed alcoves, but no enemies. Composition: True overhead VTT battlemap, about 30 by 30 squares, clean 5-foot square grid overlay, clear branching routes and investigation zones, readable water depth, enough space for cautious movement and a possible crocodile or fleeing Grung encounter. Style: High-quality fantasy TTRPG sewer battlemap, crisp stone and water textures, cool damp palette, practical cartographic readability. Constraints: no readable writing, no labels, no numbers, no legend, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 **What JC finds below:**
+
 - **Scrape marks** on tunnel walls at knee height — consistent with bound captives being moved at speed.
 - **A sealed hatch** between the Warren tunnels and the Mercatura sewer collector — recently re-seated. The bolts are clean; someone has been through here with tools, not a canal inspector's pry bar.
 - **Grung sign** — a direction marker scratched into the hatch frame in a pattern JC recognizes from Botukuri tunnel protocol. It points toward the outer quay.
@@ -96,6 +97,7 @@ Today the Red Lady thread has a name and a face. **[[batta-zusto\|Batta Zusto]]*
 ### Entry
 
 Two paths in:
+
 - **The party asks after Maw salvage** anywhere in Calveno — a chandler, a dock regular, or Savia names "Zusto" once.
 - **Delmar makes himself visible** as a Maw expert — Zusto (or his runner) finds *him*.
 
@@ -152,6 +154,7 @@ If Crissdalynn is investigating the Red Lady or Maw salvage with [[master-kyzil\
 The execution window is live. Pranks fire throughout the day.
 
 **Ambient texture (use one or two):**
+
 - A Beffa team executes a prank on a Mercatura cheese merchant — they've replaced his wheel weights with equal-weight painted wood. The crowd watches his face as he realizes.
 - A false alarm panics a pocket of crowd for a breath — someone in a mask lunges from behind a cloth backdrop. The crowd flinches, then laughs. Then relaxes. The city is *training itself to wait* before believing the next scare.
 - A registered team that never verified their symbol is disqualified by the committee. The clerk is confused — they asked very specific questions about crowd-compression timing through the bridge pinch point and then never came back.

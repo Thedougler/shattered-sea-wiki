@@ -8,7 +8,9 @@ publish: true
 summary: A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno vault that does not distinguish between intruder and rescuer.
 created: 2026-04-25
 updated: 2026-05-31
-tags: [combat, mystery]
+tags:
+  - combat
+  - mystery
 sources:
   - XMM
 confidence_level: high

@@ -20,7 +20,6 @@ aliases:
   - "Narrow"
   - "The Narrow"
 banner: "raw/assets/banners/Maren.webp"
-captain: "[[maren|Maren]]"
 ---
 
 # The *Narrow*

@@ -25,6 +25,7 @@ The classic Monk subclass. Open Hand Technique dramatically improves Flurry of B
 ## Features
 
 **Open Hand Technique (Level 3).** When using Flurry of Blows, choose one attack to trigger:
+
 - *Addle:* WIS save or target can't take Reactions until end of its next turn.
 - *Push:* STR save or pushed up to 5 ft (allows vertical push → falling damage + Prone).
 - *Topple:* STR save or knocked Prone.

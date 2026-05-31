@@ -13,6 +13,7 @@ tags:
   - dm-prep
 sources:
   - "Inbox/Calveno-Raid-Signs.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Ambient — one or two per session day
@@ -86,12 +87,15 @@ During La Finestra, several Beffa pranks incorporate Grung elements — costumes
 These are background texture unless the party investigates. If they do, the trail leads to handlers.
 
 **Ponte Bassa / Le Paludi:**
+
 - A Beffa team executes a prank in which a "Grung raider" leaps from a canal boat and "kidnaps" a mark's lunch from his hands. The crowd laughs. The Grung costume is surprisingly accurate — the proportions are right, the colouring is specific, and the standing leap is real. The performer is short, very agile, and leaves before anyone asks questions. If anyone investigates: the performer was hired three days ago by a stranger in a hat who paid 10 gp and asked no questions.
 
 **The Bridge / Mercatura:**
+
 - A street comedian near the registration desk is doing a bit about Grung raiders showing up to register for the Beffa. *"What's your team name?" "The Snatch-and-Grab." "And your mark?" "Everyone."* The crowd treats it as absurdist humour. The comedian was paid 5 gp by a small figure with a moustache who said it was "for the festival spirit." If pushed: the figure had an accent the comedian couldn't place and skin he thought was painted.
 
 **Velo (festival entertainment district):**
+
 - A mask vendor is selling a new line of "Grung masks" — green, wide-mouthed, painted with caste colours. They are selling well. The vendor says a supplier approached him a week before the festival with the moulds and a bulk discount he couldn't refuse. The supplier was accompanied by two assistants in hats who did not speak.
 
 > [!dm]

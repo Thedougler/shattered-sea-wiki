@@ -20,7 +20,6 @@ aliases:
   - Heft
   - "The Heft"
 banner: "raw/assets/banners/Detto-Kalash.webp"
-captain: "[[detto-kalash|Detto Kalash]]"
 ---
 
 # The *Heft*

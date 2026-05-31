@@ -41,6 +41,7 @@ The price is submission to the document. A vessel is safe because its papers say
 - **Admiralty pass:** Named document opening forts, restricted piers, military archives, and sealed roads.
 
 ## Known Capabilities
+
 - Patrol cutters (HCS-class) with cannon and armed crew.
 - Contracted Grung toxin canisters.
 - Privateer captains with authority to board and seize vessels.

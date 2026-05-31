@@ -94,6 +94,7 @@ A Hierarch is a sorcerer who has bound their soul to their own blood. Every livi
 ## Lair Actions
 
 On initiative count 20:
+
 - Bloodied floor — spilled blood covers the area as magical difficult terrain.
 - Ancestral surge — all bloodline creatures gain +1 to attacks and saving throws.
 - Family rally — all bloodline creatures move up to their speed without opportunity attacks.

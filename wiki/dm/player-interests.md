@@ -21,14 +21,17 @@ update_trigger: "After each session; after player feedback; when engagement patt
 > Stub. Populate after first session or session zero debrief.
 
 ## Content Priority Queue
+
 {Ordered list of content types/threads by current player engagement — highest first}
 
 ## Per-Player Tracking
 
 ### {Player Name} — {PC Name}
+
 - **Engaged with:** {factions, themes, NPCs they've shown interest in}
 - **Cold to:** {content that hasn't landed}
 - **Notes:** {anything notable about their play style or preferences}
 
 ## Recent Signals
+
 {Session-by-session notes on what landed and what didn't — most recent first}

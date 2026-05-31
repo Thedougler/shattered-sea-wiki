@@ -13,6 +13,7 @@ tags:
   - dm-prep
 sources:
   - "Inbox/Calveno-Street-Encounters.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Party moves through city districts
@@ -67,6 +68,7 @@ Festival context: these are set during or just after [[il-gioco-delle-beffe|Il G
 > A broad man in a dockworker's coat stands in the middle of the walkway. Not moving through it — standing in it. His two friends wait on the far side of the bridge. There is a man between him and you who is nearly out of options.
 
 **What the party can do:**
+
 - Pay (2 cp each — this is about the delay, not the money)
 - Push past without paying: DC 10 Persuasion or Intimidation; failure brings the two friends off the far side
 - Intervene for the man being held: the man being held turns out to be a Passage runner for a Warren contact, and [[nona-black-jaw|Nona]] hears about it within a day
@@ -154,6 +156,7 @@ Festival context: these are set during or just after [[il-gioco-delle-beffe|Il G
 > **Gost:** Berserker stats, CR 2, AC 13, HP 67, greataxe +5, 2d12+3. Not violent yet. Watch is four minutes away.
 
 **What the party can do:**
+
 - Talk him down: DC 13 Charisma (Persuasion) or DC 10 Intimidation. Jean-Claude telling him the watch is coming and this is going to be a bad four minutes: automatic success.
 - Get him moving: DC 10 if someone offers to buy him another drink somewhere quieter. No fight, no watch.
 - Wait for the watch: Gost ends up in a holding cell.

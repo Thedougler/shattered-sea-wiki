@@ -14,8 +14,8 @@ tags:
 sources:
   - "Inbox/sessions/02/Scene-04-Ship-Exploration.md"
 session_number: 2
-beat_number: 4
 session_date: "unknown"
+beat_number: 4
 ---
 
 # The Ship
@@ -159,6 +159,7 @@ Low overhead (5'8"), six inches of bilge water at the lowest point. Bring a ligh
 > If anyone gets within 5 feet of the cage: DC 12 Dexterity save or the proboscis finds a gap in the bars. On a hit: 1d6 piercing damage and Ket is Satiated until his next scene. He grins about this. It is the worst grin.
 
 > [!DM] Loot Summary
+>
 > | Location | Coin / Goods | Magic / Notable |
 > |---|---|---|
 > | Officer's berths | 15 gp | — |
@@ -171,6 +172,7 @@ Low overhead (5'8"), six inches of bilge water at the lowest point. Bring a ligh
 > | **Total** | **~587 gp** | 1× +1 shortsword, 2× potion of greater healing, 1× potion of water breathing, 1× potion of healing |
 >
 > **Party treasury note:** The Surety has immediate running costs. Before individual shares are divided, the party should consider pulling ~120 gp off the top into a ship's fund. Rough expenses ahead:
+>
 > - **Crew wages** — 2 sp/day per sailor; ~6 crew (if everyone stays) = ~36 gp/month. Geoffrey works for passage/shares, not wages, but the others expect pay.
 > - **Repainting** (to lose the Crown registry) — ~75 gp at a working yard like Kalowe; ~150 gp at Tidefall (better work, higher fees, more questions).
 > - **Port fees, provisions, incidentals** — 5–15 gp per port depending on size.

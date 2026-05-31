@@ -27,6 +27,7 @@ All about direct damage and intimidation. Bloodthirst grants an extra Sneak Atta
 **Bloodthirst (Level 3).** When an enemy within 30 feet you can see becomes Bloodied (first time this turn), use your Reaction to move up to Speed and make one weapon attack. If it hits, add your Sneak Attack dice. Uses/LR = PB.
 
 **Dread Allegiance (Level 3).** Choose one deity's boon at end of each Long Rest:
+
 - *Bhaal:* After Sneak Attack hits, force CON save or target is Poisoned until end of its next turn.
 - *Bane:* After Sneak Attack, impose −1d4 to all saving throws until end of its next turn.
 - *Myrkul:* After Sneak Attack, creature gains Vulnerability to your next attack's damage type.

@@ -25,6 +25,7 @@ Divine magic derived from radiant power. Similar to Cleric in healing and condit
 ## Features
 
 **Spellfire Burst (Level 3).** When you cast a spell using Sorcery Points, gain rider effects:
+
 - *Bolstering Flames:* Gain THP equal to 1 + spell level.
 - *Radiant Fire:* Creatures within 5 feet take 1d4 Radiant damage.
 

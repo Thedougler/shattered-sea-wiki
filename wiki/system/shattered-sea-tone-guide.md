@@ -71,6 +71,7 @@ Real danger, glamour, hierarchy, and momentum — populated by stylish, capable 
 ## Scene Construction Rule
 
 Every major scene combines:
+
 1. A real external threat (battle, storm, monster, curse, betrayal)
 2. A petty internal conflict (insult, jealousy, rank dispute, old fling, unpaid tab)
 3. Stylish presentation (beauty, wealth, elegance, rot)

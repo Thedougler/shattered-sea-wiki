@@ -8,7 +8,8 @@ publish: true
 summary: "The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: [maritime]
+tags:
+  - maritime
 sources:
   - "wiki/lore/campaign-overview.md"
   - "Inbox/Shattered-Sea.md"
@@ -57,6 +58,8 @@ Nobody owns the Shattered Sea. The [[dravosi-crown|Dravosi Crown]] claims the no
 | [[central-strait|Central Strait]] | Main east-west trade highway; Tidefall inspection at western gate. |
 | [[doldrums|The Doldrums]] | Windless band south of the Midchain; seasonal drift. |
 | [[outer-reach|The Outer Reach]] | Under-governed zone east of the Maw; no reliable resupply. |
+| [[verdant-scatter|The Verdant Scatter]] | The main two-arc island chain spanning from the Galewall to the Drowned Maw. |
+| [[ashwall-islands|The Ashwall Islands]] | Cold volcanic spire-chain near the Galewall; last solid ground outbound, first proof of survival on return. |
 
 ## Major Ports
 

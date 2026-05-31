@@ -34,6 +34,7 @@ update_trigger: ""
 ## [[perrin-black-jaw|Perrin Black-Jaw]] — player: Kaden
 
 **Two Dials:**
+
 - **Family loyalty** — the Tangle, the Run, the elders, what his Kin think of him. Everything he built was for them.
 - **Staying in motion to avoid hard truths** — manipulation, bribery, the vengeance chase. He is not grieving; he is *doing*. The doing is the avoidance.
 
@@ -48,6 +49,7 @@ update_trigger: ""
 ## [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — player: Chad
 
 **Two Dials:**
+
 - **Uncompromising moral conviction** — slavery ends, no exceptions. Witnessing active abuse ends rational thought entirely.
 - **Crushing guilt over his own past** — he was a fervent, skilled slave-catcher before his conscience woke. He has told no one.
 
@@ -62,6 +64,7 @@ update_trigger: ""
 ## [[delmar-fisk|Delmar Fisk]] — player: Frederick
 
 **Two Dials:**
+
 - **Generosity and his mother's ethic** — everyone has value regardless of station. Genuine warmth. Instinctive extension of trust even when exploited.
 - **Willingness to compromise everything for his captains** — he said it himself, plainly. The guardrails come off. He knows it. He's not sure it's wrong.
 
@@ -76,6 +79,7 @@ update_trigger: ""
 ## [[crissdalynn-khinriss|Crissdalynn Khinriss]]
 
 **Two Dials:**
+
 - **Need for belonging and approval** — the banishment is the wound under everything. She wants to be let back in. She has not said that out loud.
 - **Absolute loyalty to found family** — Fisk is the fixed point. His opinion is the measure. If he's in danger, the lightness drains out completely.
 

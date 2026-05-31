@@ -32,6 +32,7 @@ update_trigger: ""
 ## Step 0: Above Table (Pre-Game)
 
 Do these before play begins:
+
 1. Tell players the quest in advance.
 2. Have players describe their characters to each other (skip in-game introductions).
 3. Communicate that the goal is to finish in one session.

@@ -78,6 +78,7 @@ Repaint plus false plate gets an unrecognized vessel into the water before the r
 Her ledger problem: Hollowell paperwork moved bonded cargo through Tidefall with no formal manifest entry. The paperwork is real; the gap is not an error. She has been deciding what to do for six weeks.
 
 **Hooks from Verity:**
+
 - Ledger leverage against Crown inspection or unlicensed cargo movement
 - Hollowell pier scheduling access
 - Geoffrey returning to Tidefall

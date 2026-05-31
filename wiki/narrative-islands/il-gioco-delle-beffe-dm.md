@@ -88,6 +88,7 @@ The party picks their mark, designs their concept, and registers their symbol. T
 The party decides when during the window to strike. Earlier = less risk of sabotage; later = more time to prep and a more relaxed mark.
 
 **Complications on failure:**
+
 - A prop is wrong → disadvantage on one Phase 3 check
 - The mark spotted something → raise Phase 3 DC by 2
 - A rival team noticed → they attempt a counter move
@@ -104,6 +105,7 @@ The party decides when during the window to strike. Earlier = less risk of sabot
 *Each party member makes one live-pressure check. The mark makes a Wisdom save. The symbol must be placed.*
 
 **The mark's save:** DC = 8 + number of party successes in Phase 2.
+
 - Fails: completely fooled. Scores 4–5.
 - Succeeds by 1–4: partially fooled, something felt off. Scores 2–3.
 - Succeeds by 5+: spotted the trick. Scores 0–1. The prank still proceeds — craft and recovery can still win it.

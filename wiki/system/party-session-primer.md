@@ -21,13 +21,17 @@ update_trigger: "After each session; when party circumstances change significant
 > Stub. Populate after session zero.
 
 ## Current Situation
+
 {Where the party is physically, what they know, what they're trying to do}
 
 ## PC Motivations
+
 {One line per PC: what they want right now, what's driving them}
 
 ## Party Dynamics
+
 {Tensions, alliances, running jokes, tone the table is enjoying}
 
 ## What to Emphasize
+
 {Content types and hooks the party has responded well to recently}

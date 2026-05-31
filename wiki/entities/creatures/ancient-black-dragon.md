@@ -8,7 +8,10 @@ publish: true
 summary: CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
 created: 2026-04-25
 updated: 2026-05-31
-tags: [combat, homebrew, late-game]
+tags:
+  - combat
+  - homebrew
+  - late-game
 sources:
   - XMM
   - Homebrew

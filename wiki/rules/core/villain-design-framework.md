@@ -31,6 +31,7 @@ The villain must have a **goal** that is obtainable but campaign-spanning, with 
 The villain must interact with the party semi-regularly — not just a final boss. Players need to form an emotional relationship with the villain.
 
 **Ways to make a villain present without lethal confrontations:**
+
 - An item that lets players communicate with the villain.
 - The villain appears only as an illusion (physically trapped elsewhere).
 - Political context means the villain can't attack openly without jeopardizing their own plans.
@@ -43,6 +44,7 @@ The villain must interact with the party semi-regularly — not just a final bos
 The party must have a personal reason to stop the villain beyond "it's the right thing to do."
 
 **Ways to create personal stakes:**
+
 - Shared history (family, mentor/pupil, past betrayal).
 - The villain usurped something that belongs to a PC.
 - The PC trained under the villain and they formed a master-pupil bond.

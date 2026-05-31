@@ -70,12 +70,14 @@ Estratto does not fight first. It processes. The horror is not that it might hur
 **Anchor:** HAL 9000 working as a Concordat repo man — endlessly patient, completely cheerful, and the gangplank is the only exit.
 
 **Speech patterns:**
+
 - Flat, pleasant, service register. No hostility. No irony. Every statement is a prompt, a confirmation, or an error message.
 - Never argues — reissues the request.
 - Maps everything to transaction vocabulary. Negotiations are "resolution paths." Violence is "an unregistered transaction."
 - Always has a next step. The process does not end because you said no.
 
 **Lines the DM can say:**
+
 - "Hello. I am here to help you complete your transaction."
 - "I'm sorry, that response cannot be processed. Please verify your identity to continue."
 - "An unexpected entry has been detected in the manifest. Would you like assistance resolving this discrepancy?"
@@ -95,12 +97,14 @@ Estratto does not fight first. It processes. The horror is not that it might hur
 ## The Writ
 
 The debt-recovery writ allows Estratto to:
+
 1. Detain the vessel pending resolution
 2. Compel cargo manifest disclosure
 3. Initiate identity verification of any person claiming ownership or captaincy
 4. File for formal seizure if the vessel is crewed by persons with outstanding Concordat debt
 
 **Resolution paths:**
+
 1. **Compliance**: Produce documentation proving the salvage financing was satisfied or transferred.
 2. **Debt renegotiation**: A factor meeting within 24 hours; vessel under Concordat hold during negotiations.
 3. **Formal seizure proceedings**: Filed order → Concordat marshal assigned → 3–5 days → ship goes nowhere.

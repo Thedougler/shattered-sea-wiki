@@ -13,6 +13,7 @@ tags:
   - mystery
 sources:
   - "Inbox/Warren-Ferrin-Locke.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene
@@ -66,6 +67,7 @@ He will not volunteer anything. He is aware he is being watched and that watchin
 - **If treated with basic human decency:** DC 13 Insight to read how frightened he is. After that, he talks without needing a roll.
 
 **What he knows:**
+
 - Handler's name: Petra Venn, posing as a Tessarine trade arbitration consultant. Meets him every nine days at a coffeehouse in Le Paludi.
 - What he provides: route timing for Passage surface operations, gathered passively through Faro and two other brokers who do not know they are sources.
 - The conviction: smuggling, twelve years ago, petty and resolved. Venn has documentation. He does not believe the Crown will be lenient if she surfaces it.

@@ -60,11 +60,13 @@ Perrin has the connection through Nona. If the party approaches without a Warren
 **[[savia-brentino|Savia Brentino]]:** Dwarf, compact, sawdust in her eyebrows. Speaks in structural assessments — diagnosis is greeting, prognosis is farewell. Does not quote timelines she cannot keep and does not explain herself twice.
 
 **Sample lines (discreet work):**
+
 - *"A repaint does not make a cutter stop reading as a cutter. I do the geometry."*
 - *"Five days. She stays slipped the whole time. Your crew finds somewhere else to sleep."*
 - *"The Warren sent you, so I'll do the work. The terms are the terms."*
 
 **Sample lines (cold approach / no introduction):**
+
 - *"Transom's carrying too much. I can fix that. Anything else you need is at the Arsenal."*
 - *"I don't do cosmetic work."*
 

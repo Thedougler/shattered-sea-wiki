@@ -25,6 +25,7 @@ Psionic power derived from alien influence: a psychic wind from the Astral Plane
 ## Features
 
 **Psionic Spells (Level 3).** Always-prepared spells by level:
+
 - 3: Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, Mind Sliver
 - 5: Hunger of Hadar, Sending
 - 7: Evard's Black Tentacles, Summon Aberration

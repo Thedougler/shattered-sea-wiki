@@ -25,11 +25,13 @@ Monks who master the Kensei tradition treat weapons as extensions of the body â€
 ## Features
 
 **Path of the Kensei (Level 3).**
+
 - *Kensei Weapons:* Choose 1 melee + 1 ranged weapon as Monk weapons (any non-Heavy/non-Special simple or martial; Longbow valid). Add 1 weapon at levels 6, 11, 17.
 - *Agile Parry:* If you make an unarmed strike as part of an Attack action while holding a melee kensei weapon, gain +2 AC until start of your next turn.
 - *Kensei's Shot:* Bonus action â€” ranged kensei attacks deal +1d4 damage until end of turn.
 
 **One with the Blade (Level 6).**
+
 - Kensei weapon attacks count as magical.
 - *Deft Strike:* Spend 1 FP on hit to add Martial Arts die to damage. Once per turn.
 

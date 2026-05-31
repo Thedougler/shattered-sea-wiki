@@ -68,6 +68,7 @@ Rook spent two phases watching from the cutter deck. He knows who's hurt, who's 
 Two Cutlass attacks per turn, shove option whenever a PC is near the gangplank edge or rail. He Disengages after attacking. Uses rigging and cargo nets as cover, corners where only one PC can engage at a time.
 
 **Targeting priority:**
+
 1. Whoever looks most injured
 2. [[perrin-black-jaw|Perrin]] — softest target, ranged threat
 3. Whoever is closest to the gangplank edge — shove them in
@@ -158,12 +159,14 @@ Rook is pragmatic, not suicidal. He will not offer terms first.
 ## Dial
 
 **Rook going down too fast:**
+
 - Parry everything — no per-round limit. Average reduction 11.5 (1d10+6).
 - Delay Call to Arms — use Reposition until he crosses 55 HP.
 - Geoffrey hesitates one round early.
 - Rook climbs the rigging (DC 10 Athletics, costs his action) — positioning problem worth one round.
 
 **Rook surviving too long:**
+
 - Beaumont heals via Kalowe Maneuver (3 potions; 2d4+2 each). Use freely.
 - Rook drops a shove this round.
 - Geoffrey flanks with a PC, granting advantage on their attack.

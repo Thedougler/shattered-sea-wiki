@@ -58,6 +58,7 @@ Kalowe is also the normal meeting place of [[chain-council|the Chain Council]], 
 | [[ormssons-fittings|Ormsson's Fittings]] | hardware shop | Dry-dock fittings; back shelf of weapons not advertised |
 | [[wibowos-provisions|Wibowo's Provisions]] | victualler | Harbour-side; best approached with a list and a crew count |
 | [[kalowe-waveservant-shrine|Waveservant Shrine]] | shrine | Umberlee's causeway shrine; reef gap visible from the door |
+| [[taufa-fifita-and-sons|Taufa Fifita & Sons]] | chandlery | Rope, canvas, lamp oil, navigation tools on the second island; trust-priced like everything else. |
 
 ## DM Notes
 

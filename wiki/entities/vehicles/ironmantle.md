@@ -8,7 +8,8 @@ publish: false
 summary: "A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: [maritime]
+tags:
+  - maritime
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -76,11 +77,13 @@ Estimated Value: 3,500 gp (hull and fittings — no current shipyard can reprodu
 ## Strengths and Weaknesses
 
 **Strengths:**
+
 - Highest HP and AC of any Tier 1 vessel. Absorbs punishment that would sink a standard sloop.
 - Gun mounts more stable in rough weather — no accuracy penalty.
 - The iron construction is a psychological deterrent.
 
 **Weaknesses:**
+
 - Speed. Slowest Tier 1 in standard conditions.
 - Maneuverability. Does not respond quickly.
 - Maintenance. 40 gp/week upkeep is nearly double a standard sloop.

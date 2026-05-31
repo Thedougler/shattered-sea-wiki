@@ -69,6 +69,7 @@ The result was the theft of the Pearl of Souls, Umberlee's retaliation against F
 ## What the Council Can Do With This
 
 Once the party brings evidence, the Council becomes a political vehicle rather than a dormant employer. It can:
+
 - Vote to fund a search or rescue operation
 - Issue a Midchain warning
 - Revoke a commission

@@ -64,6 +64,7 @@ Unarmed strikes are magical for the purpose of overcoming resistance and immunit
 
 **Long Reach / Eldritch Maul** (1/dawn, bonus action)
 Activate for 1 minute. While active:
+
 - Melee attacks with weapons or unarmed strikes can reach targets up to **15 feet away** — inky tendrils extend toward the target.
 - Melee attacks deal an extra **1d6 force damage** on hit.
 

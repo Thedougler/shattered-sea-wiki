@@ -28,6 +28,7 @@ A matte grey-black hull finish that absorbs light rather than reflecting it. The
 ## Properties
 
 **[HB]**
+
 - Grants **advantage on Stealth checks** at sea.
 - Reapplication required every **6 months**.
 - Must be applied at a shipyard; cannot be applied at sea.

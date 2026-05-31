@@ -33,11 +33,13 @@ Hard [[dravosi-crown|Dravosi Crown]] privateer captain. Dark officer coat. Flint
 No hesitation about shooting his own crew for defection.
 
 **Roleplaying:**
+
 - Speaks in flat declaratives — commands, not conversation.
 - Absorbs a blow, recalibrates, comes back.
 - Threat is always implied, never theatrical — until it isn't.
 
 **Proactive Objectives:**
+
 - Reclaim the Saltwright or make the boarding party regret it.
 - His crew is dead or defected. He is alone and calculating.
 
@@ -50,9 +52,11 @@ He wants the eastern inspection campaign to produce leverage: names, contraband,
 Rook knows the Surety's orders, the pressure pattern around Tidefall, and enough about his crew to recognize [[geoffrey-draves|Geoffrey Draves]]'s surrender as betrayal in the moment it happens. His Crown chain of command runs through [[dorian-bishop|Dorian Bishop]] to [[rupert-knighton|Rupert Knighton]].
 
 ## State After Session 01
+
 Unharmed. Alone on the HCS Surety gangplank. Flintlock fired once at [[beaumont-sel|Beaumont]] — deflected.
 
 ## State After Session 02 — Presumed Dead
+
 Blasted from the rigging into the water by a thrown chair (Delmar, wind-assisted). Something long and eel-like was in the water. He did not resurface. Presumed dead — taken. See [[hull-impacts|Hull Impacts]].
 
 ## Stat Block

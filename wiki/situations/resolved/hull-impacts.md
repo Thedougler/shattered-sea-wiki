@@ -25,12 +25,14 @@ Something long and eel-like was in the water when [[barnaby-rook|Rook]] went in 
 Session 02 ended with [[jean-claude-tabarnack|Jean-Claude]] reaching for his spyglass.
 
 ## Known Facts
+
 - The creature (or creatures) is large enough to move a cutter hard to port.
 - Something eel-like was observed in the water near Rook's position.
 - Rook is presumed dead — taken.
 - Impacts escalated in intensity (first, second, third/lurch) suggesting the creature is testing or attacking.
 
 ## Pressures
+
 - The hull may be compromised. [[sem-holst|Sem Holst]] (shipwright) is aboard.
 - The storm limits visibility and maneuverability.
 - Party is at sea with a crew they've had for hours and no safe port near.

@@ -70,6 +70,7 @@ table_status: complete
 
 > [!mechanic] Reef Shark escalation
 > CR 1/2, 22 HP. It is not hunting — it is curious. Run the escalation at your pace:
+>
 > 1. Holds at thirty feet, circling. Nature/Survival DC 12: reef sharks don't typically attack prey this size unprovoked. *Typically.*
 > 2. If he stays still: closes to fifteen feet. The eye, white and flat, finds him. "It isn't moving away."
 > 3. If he kicks or splashes: startles back, then resumes the arc tighter — ten feet. The curiosity is more focused.

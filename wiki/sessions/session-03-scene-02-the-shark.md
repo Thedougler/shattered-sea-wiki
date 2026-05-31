@@ -126,6 +126,7 @@ The shark turns and drags. The bow swings hard to port — 30 degrees in a few s
 > The port rail goes under. The bow tilts hard. Water comes over the side in sheets. Then the ship fights back — she's too light, too full of air. The shark cannot hold her under. The ship hits the waterline like a dropped plank. The hull rings. Something below breaks.
 
 **Hull condition (Sem narrates — not HP):**
+
 1. *"She can take another one, but not five more."*
 2. *"The frames are cracking — she's breathing water now."*
 3. *"One more of those and I can't keep her up."*
@@ -153,16 +154,19 @@ If blood enters the water (PC overboard, crew blood washing out through the brea
 The joint — the scarred seam where the lower lobe begins — is **below the waterline**, outside the hull. Never visible from the weather deck.
 
 **What they can discover:**
+
 - From the hold: the lobe enters through the breached planking below water level; they can touch it, feel it flexing — but the joint is further out, outside the hull, underwater
 - From above deck: the tail disappears into dark water; no visible indication of joint location
 - Perrin's dream: he knows the joint is roughly 10 ft. along the lobe from the hull, and how deep
 
 **Attacking the joint:**
+
 - Over the rail: DC 12 Acrobatics first or fall overboard. Attack at disadvantage from unstable deck. 20+ slashing severs the lobe.
 - Overboard: full access, no disadvantage, but Surge fires immediately. Death pressure.
 - Perrin's knowledge removes disadvantage on the over-the-rail attack and lets him direct another PC precisely.
 
 **Cutting the lobe from inside the hold:**
+
 - Needs 3 successful hits (any damage) or 1 hit dealing 15+
 - Severs the lobe stub from the shark; barb remains wedged in hull but shark is freed
 - Breach widens; Sem screams; shark disengages
@@ -223,16 +227,19 @@ The joint — the scarred seam where the lower lobe begins — is **below the wa
 ## Ship Narration
 
 **Probing:**
+
 - A low percussion from below the port hull. Not a wave. Regular.
 - The ship rocks to port and doesn't fully settle before the next one comes.
 - From below: something moving along the hull, slow and heavy.
 
 **Hooked / pull:**
+
 - The list deepens hard as the shark drives weight into the hull, then partially corrects.
 - Salt water comes over the port rail in a sheet.
 - Barrels in the hold roll to port and hit the bulkhead together.
 
 **Drown:**
+
 - The port rail goes under. It comes back. Everything not lashed is wet.
 - The ship hits the surface hard — not a roll, a strike.
 - From below: a sound like a frame cracking, then Sem's voice.

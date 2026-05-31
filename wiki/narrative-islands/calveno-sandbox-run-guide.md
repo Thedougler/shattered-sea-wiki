@@ -17,7 +17,6 @@ entry_points:
   - "La Vasca — ship enters dry dock after Session 03 Calveno approach"
   - "Beffe registration opens the morning after the Surety docks"
 contains_situations:
-  - "[[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]"
   - "[[warren-nonas-table|Warren — Nona's Table]]"
   - "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"
   - "[[warren-marrows-crate|Warren — Marrow's Crate]]"
@@ -68,30 +67,35 @@ Five rides for this city. Each one connects to the party goal (hide the Surety, 
 ---
 
 ### The Warren Route
+
 *Players: Perrin · Delmar*
 *Goal connection: De-marks the Surety and buys five weeks before courtesy-stop watch lists harden*
 
 [[savia-brentino|Savia Brentino]] at the [[carpenters-slip|Carpenters' Slip]] does hull work without Canal Commission filings. She will not take a cold approach — three ships this month already tried and are now on her list. A [[the-passage|Passage]]/Warren introduction changes the shape of the request. The job is 220 gp and five city days, plus one Tangle favour: recorded but unassigned. Complication: Savia says it once, flatly, at the end of the assessment — *"She'll still read as a cutter to anyone who knows cutters. That's not a paint problem."* The party decides what that means and what they do about the bow registry plate.
 
 ### Nona's Table
+
 *Players: Perrin (primary) · anyone who follows*
 *Goal connection: Opens the Warren network — ship papers, intelligence, hidden routes, full Tangle access*
 
 [[nona-black-jaw|Nona Black-Jaw]] already knows Perrin is here. The reunion happens in [[warren|the Warren]], in her kitchen, with full Black-Jaw hospitality: food first, talk second, terms third. Complication: Nona does not yet know the [[vestra|Vestra]] is gone. She will name what the Tangle is owed before the meal is done — not as a threat, as an accounting. The favour balance is real. The party owes more than they have been told.
 
 ### Red Lady Salvage Money
+
 *Players: Delmar · Crissdalynn*
 *Goal connection: Names who is racing the party to the Maw and how far ahead they are*
 
 Unusual broker rates are moving through Calveno toward a salvage commission targeting the [[red-lady|Red Lady]]. [[batta-zusto|Batta Zusto]] on the Bridge's top tier is the accessible link between the money and the unknown spender. He will trade the commissioner's name for a confirmed cut of the actual salvage. Complication: Accepting Zusto's terms makes the party's Red Lady interest public in the city where Tessarine factors record everything. The same broker network that surfaces the wreck for them will also report what they asked about.
 
 ### The Handler Cell
+
 *Players: Jean-Claude (primary) · all when it escalates*
 *Goal connection: Disrupts [[simone-tabarnack|Simone Tabarnack]]'s raid preparation; earns standing with the Warren's intelligence network*
 
 Blue-caste Grung handlers are running reconnaissance in Calveno under festival cover. Jean-Claude is the only one in the party who can read what they are doing. If he acts — follows, confronts, captures, or reports to [[warren|the Warren]] — the raid loses a lane. Complication: Acting makes the party visible to Simone's network. Not acting lets the prep complete unobserved. A third option exists: take a handler alive. That handler knows the extraction plan. That handler also knows Jean-Claude's face and has a report to file. Combat: [[calveno-street-encounters|Calveno — Street Encounters]], "Handler Cell."
 
 ### Il Gioco delle Beffe
+
 *Players: all*
 *Goal connection: Festival cover for five days; civic reputation; the Beffa's normalizing effect accelerates the raid threat*
 
@@ -223,6 +227,7 @@ Keep these unassigned. Give them to the first action that earns them.
 - Kyzil searched east of Midchain, corrected course, and arrived because Crissdalynn was seen alive.
 
 **Raid-adjacent (use one if players are looking in the right direction):**
+
 - The sewer collector under the Mercatura has three access hatches. Two were opened and re-seated sometime this week. The Canal Commission has no record of it because their festival-week inspection cycle skips that section.
 - The Dravosi patrol schedule for the Calven Roads has a three-day minimum gap starting on Day 4 of the Beffa. It is not secret. Any harbour factor with the right contacts can quote the dates. The question is who else already has them.
 - The Beffa Medallion committee clerk noticed that one registered team — small, masked, extremely specific about crowd timing — never came back to verify their symbol registration. Teams who don't return for verification are automatically disqualified. This has never happened before.

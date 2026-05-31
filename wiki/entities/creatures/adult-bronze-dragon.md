@@ -8,7 +8,10 @@ publish: true
 summary: CR 15 metallic dragon; the Stormwarden of the Galewall — a shapeshifting guide that appears during the worst crossings and is gone before anyone can ask its name.
 created: 2026-04-25
 updated: 2026-05-31
-tags: [combat, homebrew, maritime]
+tags:
+  - combat
+  - homebrew
+  - maritime
 sources:
   - XMM
   - Homebrew

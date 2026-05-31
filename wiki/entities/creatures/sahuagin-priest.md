@@ -8,7 +8,10 @@ publish: true
 summary: CR 2 fiend; conducts blood rites at submerged shrines in the blue holes of the Drowned Maw; encountered where warbands gather before a raid.
 created: 2026-04-25
 updated: 2026-05-31
-tags: [combat, maritime, drowned-maw]
+tags:
+  - combat
+  - maritime
+  - drowned-maw
 sources:
   - XMM
 confidence_level: high

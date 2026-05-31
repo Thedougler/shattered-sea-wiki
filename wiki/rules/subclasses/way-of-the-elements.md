@@ -25,6 +25,7 @@ Avatar-style elemental Monk with enhanced reach, damage versatility, forced move
 ## Features
 
 **Elemental Attunement (Level 3).** Bonus action (free, no FP):
+
 - *Extended Reach:* Unarmed strikes have 10 ft reach for one turn.
 - *Elemental Strikes:* Switch unarmed damage to cold, fire, lightning, or thunder. Push/pull targets (enables vertical knockback → falling damage).
 

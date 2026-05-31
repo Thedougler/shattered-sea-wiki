@@ -23,6 +23,7 @@ judgment. Leave both traces visible until the DM resolves the entry.
 ## OPEN — Leviathan: one entity, two audience-split pages
 
 **Files**
+
 - `wiki/entities/creatures/leviathan.md` — player-facing legend, `publish: true`,
   `audience: players`. The in-world rumor (sightings, boiling water, no confirmed body).
 - `wiki/entities/characters/npcs/leviathan.md` — DM-only truth, `audience: dm`. The

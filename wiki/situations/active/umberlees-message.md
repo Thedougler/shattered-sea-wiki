@@ -43,6 +43,7 @@ It is a death sentence dressed as grace. Delmar refuses — by design.
 - Delmar's gangplank water-moment (Session 03) was Umberlee feeling for him; same pressure building.
 
 ### World Update — Session 03
+
 **Roll:** 5 — Setback
 Branca believed Delmar's Deception 19 completely. She interpreted his deflection — "Umberlee herself required this errand first" — as genuine divine priority and rescheduled his communion to a later slot. She returned to the shrine, noted "engaged on prior divine business" in her tide-table booklet, and settled in to wait for him to finish that errand before presenting. The soft instrument was too trusting; Umberlee's agenda stalls because her own appointment-keeper accepted the target's lie. No escalation this cycle. The shrine scene still waits, but the next harder instrument doesn't activate yet.
 

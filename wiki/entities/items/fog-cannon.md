@@ -28,5 +28,6 @@ A squat deck-mounted brass cylinder with a wide flared mouth and a pressurized r
 ## Properties
 
 **[HB; based on Fog Cloud]**
+
 - Creates a **60-foot-radius** fog bank for **1 hour**.
 - Recharges after 24 hours.

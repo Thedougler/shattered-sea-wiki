@@ -27,17 +27,20 @@ The Palio is a multi-phase skill challenge spanning three in-game nights. The pa
 ## Party Roles
 
 **Performer** *(CHA-primary)*
+
 - Performance (DC varies by phase) — core contribution each phase
 - Persuasion — working the crowd between sets; pulling undecided audience
 - Bardic Inspiration, Vicious Mockery, Enthrall, etc. — full magical support valid
 
 **Stage Crew** *(DEX/STR/WIS)*
+
 - DEX Acrobatics — rigging dramatic entrances, aerial work, dangerous stage business
 - STR Athletics — hauling props, managing pyrotechnics physically, building crowd-visible spectacle
 - WIS Perception DC 13 — timing a cue at the exact right moment (advantage to Performer check that phase if successful)
 - INT (Arcana or tools) — operating alchemical or mechanical effects; failed check = chaos table roll
 
 **Crowd Work** *(WIS/CHA/INT)*
+
 - Insight DC 12 — read what the crowd wants (success gives Performer +2 to next check)
 - Persuasion or Deception — redirect wandering audience
 - Deception DC 14 — spread a rumour about a rival band (rival loses 1 success from running total; detectable with Investigation DC 16)
@@ -88,6 +91,7 @@ Rival disruptions (party can counter one per phase; others land):
 | 6 | Nothing bad happens. The crowd thinks it was intentional. +1 success this phase. |
 
 **Rival band performance (rough tracking):**
+
 - La Canzone Nera: 2 automatic successes per phase (flawless but boring — crowds erode)
 - Il Vento di Seta: 2 per phase (consistent)
 - Le Ossa del Toro: 1 per phase + bonus 2 in Phase 3 from sheer volume

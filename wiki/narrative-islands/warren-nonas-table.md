@@ -14,6 +14,7 @@ tags:
   - recurring
 sources:
   - "Inbox/Warren-Nonas-Table.md"
+narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Perrin enters the Warren under any circumstances
@@ -88,6 +89,7 @@ Full job brief: [[warren-grung-sewers|Warren — Grung in the Sewers]].
 > Nona looks at the far end of the table. Then she looks at Perrin. "Vincenzo's chair. Have you been sitting in it?"
 
 When she hears it, she will:
+
 1. Stop moving.
 2. Set down whatever is in her hands carefully.
 3. Be quiet for several seconds.

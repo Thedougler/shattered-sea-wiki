@@ -7,6 +7,7 @@ audience: dm
 publish: false
 summary: "Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs."
 created: "2026-05-30"
+updated: 2026-05-31
 tags: []
 sources:
   - Homebrew
@@ -18,9 +19,7 @@ aliases:
   - "Simone's Slaad"
   - "Calveno Slaad"
   - "The Groundbreaker"
-updated: 2026-05-31
 statblock: inline
-name: "Otar the Foul"
 ---
 
 # Otar the Foul
@@ -139,6 +138,7 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 **Weakness — Fire/Acid:** Suppressing the regeneration is the tactical key. The party has no innate fire or acid damage. They need to find it — a festival torch, a lantern, Perrin's spells if he has any fire options, or an alchemical solution from the rubble (DC 14 Investigation to find a chandler's oil stock scattered by the blast — improvised fire damage 1d6, bonus action to ignite). Otar's own Bile Spray deals acid damage — if it hits a PC near Otar, the splash suppresses Otar's own regen. He's too dumb to avoid this. Reward creative fire use. With fire, the fight takes 5–6 rounds. Without it, 6–7.
 
 **Scaling:**
+
 - **If the fight is too hard:** Ruk arrives after round 4 with a festival torch and a cleaver, dealing 2d6+4 slashing + 1d6 fire per round. He does not speak. He hits the thing.
 - **If the fight is too easy:** Otar targets a cluster of trapped civilians in the rubble, forcing the party to reposition rather than focus-fire. Uses Tongue Lash to pull a PC into the crater, creating a bad position. Uses Thrash legendary action to clear melee and charge toward civilians.
 - **If the party splits early:** Otar pursues the nearest target for 2 rounds, then loses interest and attacks civilians. It does not chase strategically — it is chaos, not tactics.

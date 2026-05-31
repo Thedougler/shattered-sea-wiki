@@ -59,6 +59,7 @@ He will have the cradle ready before he asks any questions, and he will not ask 
 > If a player tries to ask Cobb not to tell Nona: he pauses, looks at Perrin with something between sympathy and mild disbelief, and says *"I can't do that."* Not unkind. Just: no.
 
 **Sample lines:**
+
 - *"She's been asking around. I got a description three weeks ago — fancy rat, olive hood, oversized sword. Said to send word if he came through."*
 - *"Basin's free. I'll have the cradle ready in an hour. Your shipwright know how to use a hand-pump rig?"*
 - *"You should go see her before she comes to you. It'll go better."*

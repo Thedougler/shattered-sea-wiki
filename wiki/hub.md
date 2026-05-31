@@ -47,7 +47,7 @@ confidence_level: high
 
 ---
 
-## New to the Campaign? Start Here.
+## New to the Campaign? Start Here
 
 1. **[[player-primer|Player Primer]]** — tone, geography, factions, character creation, ship rules, and what kind of trouble to expect.
 2. **[[campaign-overview|Campaign Overview]]** — the region, major powers, the starting situation, and the edges of the map.

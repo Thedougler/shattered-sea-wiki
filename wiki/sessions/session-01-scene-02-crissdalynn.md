@@ -7,12 +7,13 @@ audience: dm
 publish: false
 summary: "Session 01, Beat 2 — Crissdalynn introduction flying above the Saltwright; backstory of the Maw mapping task and fleet loss; Dravosi cutter spotted."
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-30
 tags: [session, session-01, scene, read-aloud, crissdalynn-khinriss]
 sources: ["Inbox/sessions/01/Scene-02-Crissdalynn.md"]
 session_number: 1
 beat_number: 2
 table_status: complete
+session_date: "unknown"
 ---
 
 # Beat 2: Crissdalynn

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing."
 created: 2026-05-10
-updated: 2026-05-27
+updated: 2026-05-30
 tags: [session]
 sources: ["Inbox/Session-01-Recap.md"]
 session_number: 1

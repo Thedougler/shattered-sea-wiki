@@ -503,6 +503,8 @@ sources: []
 - [[who-commissioned-the-theft|Who Commissioned the Pearl Theft]] — The Chain Council unknowingly hired Fisk's Fleet to steal the Pearl of Souls, manipulated by Tessarine operative Cosimo Verantio. The evidence sits in the Red Lady's Intelligence Room and can turn the Council from employer into witness.
 
 ## situations/dormant
+- [[aldric-drave-designed-the-crown|Who Designed the Dravosi Crown]] — The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries.
+- [[sentinels-true-head|Who Is the True Head of the Sentinels]] — The true head of the Sentinels of the Eyrie is a Soul Incarnate — a neutral lich whose mummified body-phylactery is sealed beneath High Eyrie, and who has personally maintained the 200-year Maw observation record.
 - [[tail-staging-island|Tail Staging Island]] — An intentionally unnamed Tail island near the Maw's western edge — the primary Shelfworks salvage staging point, kept blank until the campaign needs it.
 
 ## situations/resolved
@@ -666,7 +668,9 @@ sources: []
 - [[delmar-primer|Delmar Primer]] — Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.
 - [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
 - [[doctrine|Wiki Doctrine — Shattered Sea (Deprecated)]] — Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/references/. This stub redirects to the new locations.
+- [[dungeon-creation-method|Dungeon Creation Method]] — Pointy Hat's 5-step dungeon framework: one-word theme → mechanics that express it → goal → varied encounters → climax that synthesizes all. Use before generating any dungeon, ruin, or enclosed site.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
+- [[mystery-making-framework|Mystery-Making Framework]] — Pointy Hat's mystery-building method: define culprit, motive, and method first; then place at least 3 clues per core question. Use before creating any investigation, clue set, or mystery arc.
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution.
 - [[party-crew|Party Crew]] — Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.

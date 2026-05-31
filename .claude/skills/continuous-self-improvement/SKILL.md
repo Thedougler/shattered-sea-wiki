@@ -149,6 +149,10 @@ sessions, one-line quotes. Frustration signals feed priority 0; waste patterns
 feed priority 6. If no transcript evidence exists, skip to snapshot-only
 identification.
 
+**Scheduled/autonomous runs:** Transcript search requires interactive MCP
+approval and is unavailable in scheduled routines. Skip step 2b and start
+the priority stack at P1. Priority 0 only fires during interactive runs.
+
 ### 2c. Check daily-log trends
 
 Scan `wiki/dm/daily-log.md` for patterns across recent entries: zero-output

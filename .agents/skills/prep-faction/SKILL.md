@@ -9,12 +9,9 @@ description: >
   Determines whether the faction warrants a clock in hot.md. Always checks index.md
   for existing stubs before creating a new page.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
@@ -53,3 +50,5 @@ Load `ttrpg-writing` for prose and formatting standards.
 |---|---|
 | `references/FACTION.md` | Full faction page template, clock format, quality bar |
 | `references/faction-simulation.md` | Faction off-screen behavior and simulation heuristics |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

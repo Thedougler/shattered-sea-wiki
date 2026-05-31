@@ -9,12 +9,9 @@ description: >
   applicable), and DM notes. Places correctly in wiki/situations/active/ or
   wiki/situations/dormant/ per lifecycle state.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 Domain-specific: determine whether this situation has a hidden conclusion (mystery, secret faction, hidden cause) — if yes, the Three Clue Rule applies (below).
 
@@ -28,7 +25,7 @@ If the user message doesn't already answer these, ask all at once — not one at
 - Is the clock currently running (active) or waiting for a trigger (dormant)?
 - What happens when the clock fills — what is the consequence?
 
-The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
+Name the connecting PC or ask before generating.
 
 ---
 
@@ -156,3 +153,12 @@ anti-slop constraints, and callout types apply to every situation page.
 ---
 
 **Coordinates with:** `wiki-categorize`, `faction-clock`, `sandbox-narrative`
+
+---
+
+## Reference Files
+
+| File | Read when |
+|---|---|
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

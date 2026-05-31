@@ -60,7 +60,7 @@ and it won't miss things you would.
   It leads with *decisions needed* (the judgment items) and summarizes the mechanical/content
   backlog. It shrinks as you resolve the underlying files — never hand-edit it.
 - **`wiki/discrepancy-log.md`** — for genuine lore contradictions and ambiguous entity
-  identity. These are durable judgment calls — record them here per `doctrine.md`,
+  identity. These are durable judgment calls — record them here per the escalation protocol in `.claude/skills/ttrpg-llm-wiki-init/references/auto-correct.md`,
   leaving both traces visible, and escalate to the DM.
 
 ---
@@ -130,12 +130,12 @@ would. After a bulk `--fix`, commit: `curation: frontmatter standardized — {N}
 ## Working the report
 
 Fix in this order; commit per logical batch using the conventions in
-`wiki/system/doctrine.md` (`fix: {type} — {file} — {what}`).
+`.claude/skills/ttrpg-llm-wiki-init/references/auto-correct.md` (`fix: {type} — {file} — {what}`).
 
 ### broken-wikilink (error)
 A `[[target]]` resolves to no page. When Obsidian CLI is active, this uses Obsidian's
 live metadata cache — it catches path-qualified links (`[[wiki/situations/...]]`) and
-alias-resolved links that regex-based checking misses. Per `doctrine.md`, the standard
+alias-resolved links that regex-based checking misses. Per `.claude/skills/ttrpg-llm-wiki-init/references/wikilink-standards.md`, the standard
 correction is to **create a stub** at the right path with `status: stub` and a
 `summary: "Stub — referenced in [[source]]. No page yet."`, then let the hook
 complete the frontmatter. If the link is a typo or wrong slug, fix it instead.
@@ -214,7 +214,7 @@ the rule either — **surface it to the DM**: describe the pattern, name both op
 and let them decide. That's a structural decision, not a lint fix.
 
 Genuine lore contradictions and ambiguous entity identity always escalate to the DM
-per `doctrine.md` — append to `wiki/discrepancy-log.md`, don't auto-resolve.
+per the escalation protocol — append to `wiki/discrepancy-log.md`, don't auto-resolve.
 
 ---
 

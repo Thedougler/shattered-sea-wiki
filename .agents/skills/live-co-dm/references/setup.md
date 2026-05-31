@@ -1,19 +1,25 @@
 # Setup — voice tools (one-time)
 
-The bundled scripts run on **Apple Silicon** (Parakeet v3 via MLX; pyannote/diart on
-MPS or CPU). The agent's unit-test suite needs none of this — only the live
-capture/finalization adapters do.
+The voice-transcription tools run on **Apple Silicon** (Parakeet v3 via MLX;
+pyannote/diart on MPS or CPU). The code lives at `voice-transcription/` in the
+repo root.
 
 ## 1. Virtualenv + dependencies
 
+The wrapper scripts (`save_voice.sh` / `transcribe_session.sh` /
+`finalize_session.sh`) build and populate the venv automatically — they pick a
+Python >= 3.11 and install deps from `pyproject.toml`, so you normally don't run
+these by hand. To do it manually:
+
 ```bash
-python3 -m venv .claude/skills/live-co-dm/.venv
-source .claude/skills/live-co-dm/.venv/bin/activate
-pip install -r .claude/skills/live-co-dm/requirements.txt
+python3.11 -m venv voice-transcription/.venv   # or any python3.11+
+source voice-transcription/.venv/bin/activate
+pip install -e voice-transcription/
 ```
 
-The venv directory is gitignored. Keep it out of the wiki's base environment so
-`.claude/scripts/` stays pure-stdlib.
+No `python3.11`? Install one with `brew install python@3.11`.
+
+The venv directory is gitignored.
 
 ## 2. Hugging Face token + model licenses
 
@@ -33,32 +39,28 @@ locally after that.
 ## 3. Microphone permission
 
 On macOS, grant microphone access to the terminal/app you launch the scripts from
-(System Settings → Privacy & Security → Microphone). For the cleanest profiles and
-transcripts, use a decent mic in a quiet room — input quality is the single biggest
-lever on speaker-separation accuracy.
+(System Settings -> Privacy & Security -> Microphone). For the cleanest profiles and
+transcripts, use a decent mic in a quiet room.
 
 ## 4. Verify
 
 ```bash
 # Pure logic — must pass with no ML stack:
-cd .claude/skills/live-co-dm/scripts && python3 -m unittest discover -s . -p 'test_*.py'
+cd voice-transcription && pip install -e ".[dev]" && pytest tests/
 
 # Real adapters (with venv active + HF_TOKEN set), optional:
-RUN_ML_TESTS=1 python3 -m unittest test_ml_integration -v
+RUN_ML_TESTS=1 pytest tests/test_ml_integration.py -v
 ```
 
-## Accuracy levers (why this is set up the way it is)
-
-The campaign's audio is hard: ~5 players, heavy crosstalk, each voicing 2+ characters.
-The design leans on every available lever:
+## Accuracy levers
 
 - **Tell pyannote the speaker count.** Pass `--speakers N` (physical people at the
-  table, not characters). This is the biggest single accuracy gain on overlapped speech.
-- **Enroll long, varied samples.** The teleprompter targets ~60–90s of phonetically
-  rich, dynamic-range reading per character voice → stronger, more separable embeddings.
+  table, not characters).
+- **Enroll long, varied samples.** The teleprompter targets ~60–90s per character
+  voice.
 - **Profile per character, group by player.** Each profile's `player` field lets the
   identifier disambiguate the several voices one person performs.
-- **Two passes.** The live pass is provisional (latency-bound). The finalize pass
-  re-diarizes the whole recording at once for global clustering — that's the canon.
+- **Two passes.** The live pass is provisional. The finalize pass re-diarizes the
+  whole recording at once for global clustering — that's the canon.
 - **Overlap is preserved, not guessed.** Crosstalk regions emit stacked `[overlap]`
-  lines so no speaker is silently dropped; low-confidence IDs are marked `(?)`.
+  lines; low-confidence IDs are marked `(?)`.

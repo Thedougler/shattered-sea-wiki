@@ -25,7 +25,7 @@ to that owner instead of copying the same information.
 | Homebrew/ruling | `wiki/rules/...` |
 | Player-facing handout | publish-safe page with `audience: players` |
 | Current state and next pressure | `wiki/hot.md` |
-| Structural operation | `wiki/log.md` |
+| Structural operation | Git commit message |
 
 ## Extraction Pass
 
@@ -65,7 +65,6 @@ Preserve useful non-canon material in session notes or DM notes as speculation, 
 4. Update situation/faction clocks if current state changed.
 5. Update `wiki/hot.md` if the table-facing state changed.
 6. Regenerate `wiki/index.md` (`regen_index.py --write`).
-7. Append `wiki/log.md`.
 
 This order prevents links from pointing to nowhere: stubs exist before owners reference them,
 owners exist before reciprocal links, and the index reflects the finished file set.

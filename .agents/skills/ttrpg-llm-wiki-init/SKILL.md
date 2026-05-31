@@ -44,9 +44,8 @@ Is CLAUDE.md present?
 ## Step 0 — Context Already Loaded (All Modes Except Init)
 
 `CLAUDE.md` is already in context every session — do not re-read it. It carries campaign name,
-party, factions, and a pointer to `wiki/system/doctrine.md`, which owns the cross-cutting rules
-(reading order, frontmatter requirements, auto-correct protocol, ideal state). Load `doctrine.md`
-only if you need a rule's full statement.
+party, factions, and sandbox rules (always loaded). Operational references (auto-correct,
+wikilinks, frontmatter defaults) are in this skill's `references/` folder — load on demand.
 
 If `CLAUDE.md` is absent from context → switch to **Init Mode**.
 
@@ -60,7 +59,7 @@ straight to routing. Phase B is for when something in Phase A was off or the ses
 ingested new material. Don't burn context gardening a vault that's already clean.
 
 Fix each violation immediately and commit it (`fix: …`). Frontmatter completeness is handled by
-the write hook, not by you — see `doctrine.md`.
+the write hook, not by you — see `references/auto-correct.md`.
 
 ### Phase A — Structural (Checks 1–7, Always Auto-Fix)
 
@@ -188,34 +187,17 @@ Then run Fast Check to confirm health before routing.
 
 ---
 
-## Auto-Correction Rules
+## Auto-Correct Protocol
 
-Apply during Fast Check and Full Audit. **Fix immediately, then commit.**
-**Never ask for confirmation on structural corrections.**
-**Escalate to DM only for:** lore contradictions, ambiguous entity identity.
-
-| Violation | Auto-Correction |
-|---|---|
-| File in wrong path | Move to correct path; update all inbound wikilinks; commit |
-| Missing frontmatter field | Handled automatically by the write hook (`fix_frontmatter.py`) |
-| Broken wikilink | Create stub at correct path; regenerate index; commit |
-| Naming convention violation | Rename to kebab-case; update all inbound wikilinks; commit |
-| Missing bidirectional relationship | Add reciprocal link to target file; commit |
-| Orphaned file | Add to index; find natural parent and link; commit |
-| Situation/island in wrong lifecycle folder | Move to correct folder; update `lifecycle` and `status` frontmatter; update all inbound links; commit |
-| Stub summary still default text | Flag: `FLAG: summary-stale — {file}` — do not guess content |
-
-Commit message format for corrections:
-```
-fix: {correction-type} — {file} — {description}
-```
+Structural problems are fixed immediately — never ask for confirmation. Full protocol
+(violation table, escalation rules, commit format): `references/auto-correct.md`.
 
 ---
 
 ## Frontmatter Standards
 
 Frontmatter requirements by type, default values, and the summary quality bar live in
-`wiki/system/doctrine.md` (and full default/inference tables in
+`Full default/inference tables in
 `references/frontmatter-defaults.md`). The write hook completes missing fields automatically;
 your only frontmatter job is writing a concrete, current `summary` — the hook flags any that are
 still stub defaults.
@@ -329,14 +311,7 @@ Then proceed with the original task using best judgment, clearly noting the gap.
 
 ## Wikilink Standards
 
-- Always alias: `[[npc-slug|NPC Display Name]]` — never bare slugs in body text
-- First mention of any named entity in a section → wikilink. Subsequent mentions in the same section → no link.
-- When a wikilink target doesn't exist:
-  1. Create stub immediately at the correct path
-  2. Stub frontmatter: `status: stub`, `summary: "Stub — referenced in [[source]]. No page yet."`
-  3. Stub body: `# {Title} — Stub`
-  4. Add to `wiki/index.md` with `[stub]` marker
-  5. Log: `AUTO-CORRECT: stub-created — {path}`
+Aliasing, stub creation, and bidirectional link rules: `references/wikilink-standards.md`.
 
 ---
 
@@ -381,3 +356,5 @@ Read these when the SKILL.md body is insufficient for the task at hand.
 | `references/CAMPAIGN.md` | Campaign scaffolding: folder shape, hub pages, season/chapter organization |
 | `references/CAMPAIGN-TYPES.md` | Campaign structure types — linear, sandbox, episodic, reference when scaffolding |
 | `references/REFERENCE.md` | Condition, class, and rule reference page format (DM-facing technical docs) |
+| `references/auto-correct.md` | Fixing structural issues — violations, corrections, escalation, commit format |
+| `references/wikilink-standards.md` | Writing or fixing wikilinks — aliasing, stub creation, bidirectional rule |

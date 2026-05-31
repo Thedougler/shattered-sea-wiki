@@ -19,7 +19,6 @@ Run these before finalizing an ingest task.
 - New wikilinks resolve or have stubs.
 - Reciprocal links exist where the relationship is durable.
 - `wiki/index.md` reflects created, moved, or newly meaningful files.
-- `wiki/log.md` has one-line entries for structural/content changes.
 - `wiki/hot.md` changed only if current world state changed.
 
 ## Prose Gates

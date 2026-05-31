@@ -499,6 +499,7 @@ sources: []
 - [[the-canister|The Canister]] — [DM-only] Jean-Claude identified Simone Tabarnack's Grung toxin compound in the Dravosi Alchemist's bandolier during the Saltwright boarding. He said nothing. The party does not know.
 - [[umberlees-message|Umberlee's Message]] — An Umberlee servant found Delmar specifically in Calveno and is waiting at the Waveservant Shrine — not sleeping — until he comes. The message is from the Bitch Queen herself.
 - [[warren-situation|The Warren — Active Hub]] — The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks.
+- [[what-sunk-the-vestra|What Sunk The Vestra?]] — The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters.
 - [[who-commissioned-the-theft|Who Commissioned the Pearl Theft]] — The Chain Council unknowingly hired Fisk's Fleet to steal the Pearl of Souls, manipulated by Tessarine operative Cosimo Verantio. The evidence sits in the Red Lady's Intelligence Room and can turn the Council from employer into witness.
 
 ## situations/dormant
@@ -645,18 +646,23 @@ sources: []
 ## sessions
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.
 - [[session-01-recap|01 — The Boarding of the Saltwright]] — Player recap of Session 01 — the boarding of the Saltwright and HCS Surety through the gangplank standoff. Canon events as they happened.
+- [[session-01-scene-01-world|Beat 1: The World]] — Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night.
+- [[session-01-scene-04-stripes|Beat 4: Stripes]] — Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check.
+- [[session-01-scene-05-perrin|Beat 5: Perrin]] — Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal.
 - [[session-02|Session 02 — Conflict is a Surety]] — Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up.
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
 - [[session-03-recap|03 — Getting in on the Joke]] — Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened.
+- [[session-03-scene-03-aftermath|Session 03 — Aftermath]] — Session 03, Scene 3 — Post-shark aftermath: Sem's damage report, Grigori healing crew at dawn, ship departing for Calveno.
 - [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs.
 
 ## system
+- [[art-style|Art Style Guide]] — Visual style guide for AI-generated campaign art — agents read this before every image generation task
 - [[character-interview-guide|Character Interview Guide]] — A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers.
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
 - [[delmar-primer|Delmar Primer]] — Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.
 - [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
-- [[doctrine|Wiki Doctrine — Shattered Sea]] — Single source of truth for cross-cutting wiki rules: reading order, sandbox constraints, the PC-connection requirement, the auto-correct protocol, frontmatter requirements, and wikilink standards. Skills point here instead of restating these.
+- [[doctrine|Wiki Doctrine — Shattered Sea (Deprecated)]] — Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/references/. This stub redirects to the new locations.
 - [[lines-and-veils|Lines and Veils]] — Hard content boundaries for the Shattered Sea campaign — lines are fully forbidden, veils fade to black. Agent-facing: apply these boundaries when generating any campaign content.
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution.
 - [[party-crew|Party Crew]] — Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
@@ -664,6 +670,7 @@ sources: []
 - [[player-agency|Player Agency]] — Player agency is the North Star. Everything at the table exists to serve it: the rules, rulings, narrative consequences, and the world itself.
 - [[session-zero|Session Zero]] — [stub] Stub — referenced in [[player-agency]] and [[character-interview-guide]]. Pre-campaign setup session covering lines/veils, character creation, and table expectations.
 - [[situations-not-stories|Situations Not Stories]] — Core prep principle: write situations, not stories. Drop the players into something interesting and find out what they do. Whatever they do next is the story.
+- [[spotlight-management|Spotlight Management]] — Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing.
 - [[stripes-primer|Stripes Primer]] — Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.
 

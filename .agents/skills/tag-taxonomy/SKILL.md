@@ -168,16 +168,4 @@ When the user wants to add a tag to the vocabulary:
 
 ## After Any Tag Operation
 
-Append to `log.md`:
-
-```
-- [TIMESTAMP] TAG_AUDIT tags_normalized=N unknown_tags=M pages_modified=P
-```
-
-Or for normalization:
-
-```
-- [TIMESTAMP] TAG_NORMALIZE tags_renamed=N pages_modified=M new_tags_added=P
-```
-
 **`hot.md`** — Read `$OBSIDIAN_VAULT_PATH/hot.md` (create from the template in `wiki-ingest` if missing). Update **Recent Activity** with a one-line summary — e.g. "Tag audit: normalized 14 tags across 28 pages; 2 new canonical tags added." Keep the last 3 operations. Update `updated` timestamp.

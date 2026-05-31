@@ -11,12 +11,9 @@ description: >
   islands contain situations — if the content is a single condition with a clock, use
   prep-situation instead. Always loads sandbox-narrative for anti-railroading review.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 Domain-specific: **Is this actually a narrative island?** Two things this is NOT, because the word "island" is overloaded:
 
@@ -80,3 +77,5 @@ Load `sandbox-narrative` for anti-railroading review of all content.
 | File | Read when |
 |---|---|
 | `references/ISLAND-TEMPLATE.md` | Full island template, quality criteria, failure modes |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

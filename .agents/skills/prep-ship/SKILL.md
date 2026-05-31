@@ -8,10 +8,7 @@ description: >
   a tiered detail model based on how central the vessel is to the campaign. Also handles
   travel encounters and sea events when designing maritime content.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ## Tier Model
 
@@ -66,3 +63,5 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/SHIP-GENERATE.md` | Ship generation, fleet design, naming conventions, stat generation |
 | `references/SHIP-RULES.md` | Naval rules, maritime mechanics, sea encounter structure |
 | `references/TRAVEL.md` | Travel encounters and sea events |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

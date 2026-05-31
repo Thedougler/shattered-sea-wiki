@@ -1,6 +1,19 @@
 ---
 summary: Visual style guide for AI-generated campaign art — agents read this before every image generation task
 tags: [system, meta]
+type: system
+subtype: system-file
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+created: 2026-05-30
+updated: 2026-05-30
+sources: []
+system_role: style-guide
+token_profile: on-demand
+mandatory_for: [ttrpg-visual-aids]
+update_trigger: "when the DM changes art style preferences"
 ---
 
 # Art Style Guide

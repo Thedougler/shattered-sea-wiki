@@ -76,7 +76,7 @@ archive + commit per batch, re-run the script, repeat until empty.
 ## Required Skill Chain
 
 Run `ttrpg-llm-wiki-init` once at session start. Load `ttrpg-writing` when you write prose.
-Cross-cutting rules are in `wiki/system/doctrine.md`; load on demand.
+Sandbox rules are in CLAUDE.md (always loaded). Operational rules (auto-correct, wikilinks): see `.claude/skills/ttrpg-llm-wiki-init/references/`.
 
 Load domain skills only when the source produces that content:
 

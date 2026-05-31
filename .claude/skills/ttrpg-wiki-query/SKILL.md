@@ -114,7 +114,7 @@ the pages it depends on — this is what makes context *comprehensive* rather th
   An NPC's faction, home location, the situation they're entangled in, the ship they crew.
 - **Read summaries first.** For each linked page, the `summary:` frontmatter usually tells
   you whether you need the full file. Open the body only when the summary is insufficient
-  (this is the doctrine reading-order: summary → section → full).
+  (the reading-order: summary → section → full).
 - **Pull current state.** If the entity appears in `hot.md` or an active situation
   (`wiki/situations/active/`), that present-tense state overrides older page prose.
 
@@ -150,8 +150,7 @@ How you close out a search determines whether the next step is trustworthy:
   *"No wiki page covers X"* — do not manufacture an answer. Absence is useful information
   (it usually means the page should be created, which routes to a `prep-*` skill).
 - **Surface contradictions, don't resolve them silently.** If two pages disagree, or a page
-  contradicts `hot.md`, present both and flag it per the auto-correct/discrepancy protocol
-  in `wiki/system/doctrine.md` — never quietly pick one.
+  contradicts `hot.md`, present both and flag it per the discrepancy protocol — append to `wiki/discrepancy-log.md`, never quietly pick one.
 
 ---
 
@@ -183,5 +182,4 @@ have them in context, and grep / `qmd search` (keyword) catch them immediately. 
 |---|---|
 | `references/qmd-querying.md` | Writing lex/vec/hyde queries, using `intent`, tuning a query that underperformed, or the collection/path map |
 
-Cross-cutting wiki rules (reading order, auto-correct, discrepancy protocol) live in
-`wiki/system/doctrine.md` — load it only if you need a rule's full statement.
+Operational rules (auto-correct, wikilinks) are in `.claude/skills/ttrpg-llm-wiki-init/references/`. Sandbox rules are in CLAUDE.md (always loaded).

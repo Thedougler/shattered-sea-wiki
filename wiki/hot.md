@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Current world state, open threads, faction clocks, and predictions. Read first, always."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [system, current-state]
 sources: []
 ---
@@ -56,9 +56,4 @@ Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vess
 
 ## Spotlight Tracking
 
-| PC | Last Meaningful Moment | Sessions Since |
-|---|---|---|
-| [[perrin-black-jaw\|Perrin Black-Jaw]] | Abyss vision, "Grow"; Nona reunion; named the ship | 0 |
-| [[jean-claude-tabarnack\|Jean-Claude Tabarnack]] | Shot arrow through shark anus; fertilized egg pitch to Marta Orsini | 0 |
-| [[crissdalynn-khinriss\|Crissdalynn Khinriss]] | Lifted 60-ft shark out of the sea; Kyzil reunion, broke down | 0 |
-| [[delmar-fisk\|Delmar Fisk]] | Admiral Fisk drift; water reaching up at the dock; Umberlee servant deceived | 0 |
+All four PCs had strong moments in Session 03 (0 sessions since). Next session: watch for JC falling behind — his threads are internal and easy to miss.

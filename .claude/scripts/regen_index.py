@@ -3,8 +3,12 @@
 
 The index is the agent's navigation map. Rather than hand-maintain it on
 every write, derive it: each entry is `[[slug|Title]] — summary`, grouped by
-directory, with `[stub]` / `[DM-only]` markers read from frontmatter. Ordering
-is deterministic (priority groups, then slug-sorted) so reruns are stable.
+directory, with `[stub]` / `[DM-only]` markers read from frontmatter.
+
+Groups listed in COMPACT_GROUPS emit entries without summaries (just
+`[[slug|Title]]` + marker) to keep token cost low — these are categories
+where the title alone is sufficient for navigation. Ordering is deterministic
+(priority groups, then slug-sorted) so reruns are stable.
 
 Usage:
     regen_index.py            # print to stdout (dry run)
@@ -33,6 +37,19 @@ SKIP_BASENAMES = {
     "work-queue.md",
     "discrepancy-log.md",
     "review-queue.md",
+}
+
+# Groups where the title alone is sufficient for navigation — emit entries
+# without summaries to save tokens. Matched as prefixes, so
+# "rules/conditions" also covers "rules/conditions/foo".
+COMPACT_GROUPS = {
+    "entities/items",
+    "entities/creatures",
+    "entities/species",
+    "rules/backgrounds",
+    "rules/classes",
+    "rules/subclasses",
+    "rules/conditions",
 }
 
 # Group display order. Anything unlisted sorts alphabetically after these.
@@ -97,6 +114,10 @@ def group_sort_key(group: str):
     return (1, 0, group)
 
 
+def is_compact(group: str) -> bool:
+    return any(group == cg or group.startswith(cg + "/") for cg in COMPACT_GROUPS)
+
+
 def build() -> str:
     groups: dict[str, list[tuple[str, str]]] = {}
     for path in iter_wiki_files():
@@ -111,14 +132,25 @@ def build() -> str:
         title = title_of(slug, body)
         summary = fields.get("summary", "").strip().strip('"').strip("'")
         marker = marker_of(fields)
-        entry = f"- [[{slug}|{title}]] — {marker}{summary}".rstrip()
-        groups.setdefault(group_key(relpath), []).append((slug, entry))
+        gk = group_key(relpath)
+        if is_compact(gk):
+            entry = f"[[{slug}|{title}]]"
+            if marker:
+                entry += f" {marker.rstrip()}"
+        else:
+            entry = f"- [[{slug}|{title}]] — {marker}{summary}".rstrip()
+        groups.setdefault(gk, []).append((slug, entry))
 
     out = []
     for group in sorted(groups, key=group_sort_key):
+        compact = is_compact(group)
         out.append(f"## {group}")
-        for _slug, entry in sorted(groups[group]):
-            out.append(entry)
+        if compact:
+            entries = [e for _, e in sorted(groups[group])]
+            out.append(" | ".join(entries))
+        else:
+            for _slug, entry in sorted(groups[group]):
+                out.append(entry)
         out.append("")
     return "\n".join(out).rstrip() + "\n"
 

@@ -24,6 +24,12 @@ Metrics collected:
     hook_count          PostToolUse hooks registered
     script_test_count   test files in .claude/scripts/
     mean_file_tokens    average tokens per wiki file
+    infra_tokens        total tokens in infrastructure files (skills, CLAUDE.md, rules)
+    skill_count         number of installed skills
+    skill_tokens        total tokens across all SKILL.md files
+    claudemd_tokens     tokens in CLAUDE.md
+    scripts_tested      ratio of scripts with corresponding test_ files
+    infra_inventory     detailed breakdown of all infrastructure components
 """
 
 from __future__ import annotations
@@ -37,8 +43,12 @@ import sys
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 WIKI_DIR = os.path.join(REPO_ROOT, "wiki")
-SCRIPTS_DIR = os.path.join(REPO_ROOT, ".claude", "scripts")
-SNAPSHOT_LOG = os.path.join(REPO_ROOT, ".claude", "health-snapshots.jsonl")
+CLAUDE_DIR = os.path.join(REPO_ROOT, ".claude")
+SCRIPTS_DIR = os.path.join(CLAUDE_DIR, "scripts")
+SKILLS_DIR = os.path.join(CLAUDE_DIR, "skills")
+HOOKS_DIR = os.path.join(CLAUDE_DIR, "hooks")
+RULES_DIR = os.path.join(CLAUDE_DIR, "rules")
+SNAPSHOT_LOG = os.path.join(CLAUDE_DIR, "health-snapshots.jsonl")
 
 STUB_PATTERNS = [
     re.compile(r"^stub", re.IGNORECASE),
@@ -159,13 +169,99 @@ def count_script_tests() -> int:
     return count
 
 
+def _file_tokens(path: str) -> int:
+    try:
+        return len(open(path, encoding="utf-8").read()) // 4
+    except OSError:
+        return 0
+
+
+def inventory_infrastructure() -> dict:
+    """Build a complete inventory of wiki infrastructure components."""
+    inv = {
+        "scripts": [],
+        "scripts_without_tests": [],
+        "skills": [],
+        "hooks": [],
+        "rules": [],
+        "claudemd_tokens": 0,
+        "skill_tokens": 0,
+        "infra_tokens": 0,
+    }
+
+    # CLAUDE.md
+    claudemd = os.path.join(REPO_ROOT, "CLAUDE.md")
+    inv["claudemd_tokens"] = _file_tokens(claudemd)
+    inv["infra_tokens"] += inv["claudemd_tokens"]
+
+    # Scripts
+    test_files = set()
+    script_files = []
+    for name in sorted(os.listdir(SCRIPTS_DIR)):
+        if not name.endswith(".py"):
+            continue
+        if name.startswith("test_"):
+            test_files.add(name)
+        elif name != "__pycache__":
+            script_files.append(name)
+
+    for name in script_files:
+        tokens = _file_tokens(os.path.join(SCRIPTS_DIR, name))
+        test_name = f"test_{name}"
+        has_test = test_name in test_files
+        inv["scripts"].append({"name": name, "tokens": tokens, "has_test": has_test})
+        if not has_test and not name.startswith("wiki_common"):
+            inv["scripts_without_tests"].append(name)
+        inv["infra_tokens"] += tokens
+
+    # Skills
+    if os.path.isdir(SKILLS_DIR):
+        for name in sorted(os.listdir(SKILLS_DIR)):
+            skill_dir = os.path.join(SKILLS_DIR, name)
+            if not os.path.isdir(skill_dir):
+                continue
+            skill_md = os.path.join(skill_dir, "SKILL.md")
+            tokens = _file_tokens(skill_md)
+            ref_count = 0
+            ref_dir = os.path.join(skill_dir, "references")
+            if os.path.isdir(ref_dir):
+                ref_count = len([f for f in os.listdir(ref_dir) if f.endswith(".md")])
+            inv["skills"].append(
+                {"name": name, "tokens": tokens, "reference_files": ref_count}
+            )
+            inv["skill_tokens"] += tokens
+            inv["infra_tokens"] += tokens
+
+    # Hooks
+    if os.path.isdir(HOOKS_DIR):
+        for name in sorted(os.listdir(HOOKS_DIR)):
+            if name.endswith(".sh"):
+                tokens = _file_tokens(os.path.join(HOOKS_DIR, name))
+                inv["hooks"].append({"name": name, "tokens": tokens})
+                inv["infra_tokens"] += tokens
+
+    # Rules
+    if os.path.isdir(RULES_DIR):
+        for name in sorted(os.listdir(RULES_DIR)):
+            if name.endswith(".md"):
+                tokens = _file_tokens(os.path.join(RULES_DIR, name))
+                inv["rules"].append({"name": name, "tokens": tokens})
+                inv["infra_tokens"] += tokens
+
+    return inv
+
+
 def take_snapshot(label: str = "") -> dict:
     file_count, total_chars, stub_count = count_wiki_files()
     lint = run_lint()
     pending = count_pending_ingest()
     hooks = count_hooks()
     tests = count_script_tests()
+    infra = inventory_infrastructure()
     total_tokens = total_chars // 4
+
+    total_scripts = len(infra["scripts"])
+    scripts_with_tests = sum(1 for s in infra["scripts"] if s["has_test"])
 
     return {
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
@@ -184,6 +280,18 @@ def take_snapshot(label: str = "") -> dict:
         "pending_ingest": pending,
         "hook_count": hooks,
         "script_test_count": tests,
+        "infra_tokens": infra["infra_tokens"],
+        "skill_count": len(infra["skills"]),
+        "skill_tokens": infra["skill_tokens"],
+        "claudemd_tokens": infra["claudemd_tokens"],
+        "scripts_tested": f"{scripts_with_tests}/{total_scripts}",
+        "scripts_without_tests": infra["scripts_without_tests"],
+        "infra_inventory": {
+            "scripts": infra["scripts"],
+            "skills": infra["skills"],
+            "hooks": infra["hooks"],
+            "rules": infra["rules"],
+        },
     }
 
 
@@ -220,6 +328,10 @@ def diff_snapshots(a: dict, b: dict) -> dict:
         "pending_ingest",
         "hook_count",
         "script_test_count",
+        "infra_tokens",
+        "skill_count",
+        "skill_tokens",
+        "claudemd_tokens",
     ]
     deltas = {}
     for k in keys:
@@ -246,15 +358,19 @@ def format_diff(deltas: dict) -> str:
 def format_history(snapshots: list[dict]) -> str:
     if not snapshots:
         return "No snapshots recorded yet."
-    header = f"{'Date':<22} {'Label':<30} {'Files':>6} {'Lint':>6} {'Err':>4} {'Warn':>5} {'Orphn':>5} {'Stubs':>5}"
+    header = (
+        f"{'Date':<22} {'Label':<25} {'Files':>5} {'Lint':>5} "
+        f"{'Err':>4} {'Warn':>5} {'Orphn':>5} {'Stubs':>5} {'Infra':>6}"
+    )
     lines = [header, "-" * len(header)]
     for s in snapshots[-20:]:
         ts = s["timestamp"][:19].replace("T", " ")
-        label = (s.get("label", "") or "")[:30]
+        label = (s.get("label", "") or "")[:25]
+        infra_t = s.get("infra_tokens", 0)
         lines.append(
-            f"{ts:<22} {label:<30} {s['file_count']:>6} "
-            f"{s['lint_total']:>6} {s['lint_errors']:>4} {s['lint_warnings']:>5} "
-            f"{s['orphan_count']:>5} {s['stub_summaries']:>5}"
+            f"{ts:<22} {label:<25} {s['file_count']:>5} "
+            f"{s['lint_total']:>5} {s['lint_errors']:>4} {s['lint_warnings']:>5} "
+            f"{s['orphan_count']:>5} {s['stub_summaries']:>5} {infra_t:>6}"
         )
     return "\n".join(lines)
 

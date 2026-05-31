@@ -53,6 +53,13 @@ class TestSnapshotOutput(unittest.TestCase):
             "pending_ingest",
             "hook_count",
             "script_test_count",
+            "infra_tokens",
+            "skill_count",
+            "skill_tokens",
+            "claudemd_tokens",
+            "scripts_tested",
+            "scripts_without_tests",
+            "infra_inventory",
         ]
         for key in required:
             self.assertIn(key, data, f"Missing required key: {key}")
@@ -113,6 +120,88 @@ class TestSaveAndHistory(unittest.TestCase):
             finally:
                 if old_log:
                     mod.SNAPSHOT_LOG = old_log
+
+
+class TestInfraInventory(unittest.TestCase):
+    """Verify infrastructure inventory captures all components."""
+
+    def test_inventory_has_scripts(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        inv = data["infra_inventory"]
+        script_names = [s["name"] for s in inv["scripts"]]
+        self.assertIn("wiki_lint.py", script_names)
+        self.assertIn("wiki_health_snapshot.py", script_names)
+        self.assertIn("fix_frontmatter.py", script_names)
+
+    def test_inventory_has_skills(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        inv = data["infra_inventory"]
+        skill_names = [s["name"] for s in inv["skills"]]
+        self.assertIn("continuous-self-improvement", skill_names)
+        self.assertIn("ttrpg-wiki-lint", skill_names)
+        self.assertGreater(data["skill_count"], 10)
+
+    def test_inventory_has_hooks(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        inv = data["infra_inventory"]
+        hook_names = [h["name"] for h in inv["hooks"]]
+        self.assertIn("validate-frontmatter.sh", hook_names)
+
+    def test_infra_tokens_positive(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        self.assertGreater(data["infra_tokens"], 0)
+        self.assertGreater(data["skill_tokens"], 0)
+        self.assertGreater(data["claudemd_tokens"], 0)
+
+    def test_scripts_tested_ratio(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        self.assertRegex(data["scripts_tested"], r"^\d+/\d+$")
+
+    def test_diff_tracks_infra_tokens(self):
+        spec = importlib.util.spec_from_file_location("whs", SNAPSHOT_SCRIPT)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        a = {"infra_tokens": 5000, "skill_tokens": 3000, "claudemd_tokens": 500}
+        b = {"infra_tokens": 4800, "skill_tokens": 2800, "claudemd_tokens": 500}
+        deltas = mod.diff_snapshots(a, b)
+        self.assertEqual(deltas["infra_tokens"]["delta"], -200)
+        self.assertEqual(deltas["skill_tokens"]["delta"], -200)
+        self.assertNotIn("claudemd_tokens", deltas)
 
 
 class TestDiff(unittest.TestCase):

@@ -58,6 +58,25 @@ Record the snapshot output. You will compare against it in VERIFY.
 | `pending_ingest` | check_ingest.py | Backlog pressure |
 | `hook_count` | settings.json | Enforcement coverage |
 | `script_test_count` | filesystem | Infrastructure reliability |
+| `infra_tokens` | skills + scripts + hooks + CLAUDE.md | Total token cost of infrastructure |
+| `skill_tokens` / `skill_count` | SKILL.md files | Token efficiency of skills |
+| `claudemd_tokens` | CLAUDE.md | Cost of always-loaded instructions |
+| `scripts_tested` | filesystem | Test coverage ratio (e.g. "2/10") |
+| `scripts_without_tests` | filesystem | Which scripts lack tests |
+| `infra_inventory` | full scan | Per-file breakdown of all scripts, skills, hooks, rules |
+
+### Token efficiency as a quality signal
+
+Leaner infrastructure that achieves the same results is better — every token
+in CLAUDE.md, skills, and scripts is loaded into context and competes with
+content for the agent's attention. If a skill can be made shorter without
+losing effectiveness, that's an improvement. If a skill becomes longer but
+the agent follows it more reliably, that's also an improvement. Use
+`infra_tokens` and `skill_tokens` to track this over time.
+
+The inventory breaks down token costs per-skill and per-script, so you can
+identify bloated components. A skill with 8000 tokens should justify that
+weight; one with 500 tokens that does the same job is strictly better.
 
 ### If you can't measure it, fix that first
 
@@ -83,9 +102,10 @@ digraph priority {
   T [label="3. No test for a script\nthat runs on every edit?\n→ Add test coverage"];
   W [label="4. Highest-count lint\nwarning category?\n→ Fix or add enforcement"];
   Q [label="5. Highest-count lint\nquality category?\n→ Reduce the count"];
-  I [label="6. Token bloat?\nmean_file_tokens rising?\n→ Find and fix the cause"];
+  I [label="6. Token bloat?\ninfra_tokens or skill_tokens rising?\n→ Trim or refactor"];
+  S [label="7. Skill effectiveness?\nSame objective, fewer tokens?\n→ Tighten the skill"];
 
-  M -> E -> T -> W -> Q -> I;
+  M -> E -> T -> W -> Q -> I -> S;
 }
 ```
 

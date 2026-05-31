@@ -62,7 +62,7 @@ The wiki is in ideal state when every file satisfies all of the following:
 - No duplicate information (cross-link instead of copy)
 - No orphaned files (every file has at least one inbound link)
 - `hot.md` reflects actual current world state
-- `wiki/log.md` has a record of every structural change
+- Git log has a record of every structural change
 
 ---
 
@@ -74,7 +74,6 @@ The wiki is in ideal state when every file satisfies all of the following:
 3. Validate all `[[wikilinks]]` resolve — create stubs for any that don't
 4. Add reciprocal links where applicable
 5. Update `wiki/index.md` entry for this file
-6. Append one-line entry to `wiki/log.md`
 
 **On structural violation (correct immediately, no confirmation needed):**
 
@@ -119,5 +118,5 @@ The wiki is in ideal state when every file satisfies all of the following:
 
 ## Change Log
 
-See `wiki/log.md` for all structural changes.
+Use `git log` for structural change history.
 See `wiki/discrepancy-log.md` for all lore contradictions (created on first conflict).

@@ -146,7 +146,6 @@ Write the smallest useful set of files:
 - Use wikilinks for entities, locations, factions, sessions, situations.
 - Add reciprocal links when the relationship is durable.
 - Add stubs only for concrete referenced entities.
-- Append a one-line entry to `wiki/log.md`.
 - Update `wiki/hot.md` when current world state changes.
 
 Frontmatter and `updated` are handled by the write hook. Do not hand-edit `wiki/index.md`.

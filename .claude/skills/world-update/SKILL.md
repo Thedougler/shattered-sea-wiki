@@ -78,7 +78,7 @@ Summary:
 2. **Triage** — classify threads as HOT / WARM / COLD; present for DM confirmation
 3. **Process each thread** — propose action, roll d20 via roll.sh, interpret, write
 4. **PC arc weaving** — convergence scan, spotlight check, narrative device seeding
-5. **Close out** — update hot.md, log.md, situation lifecycle, commit
+5. **Close out** — update hot.md, situation lifecycle, commit
 
 ---
 

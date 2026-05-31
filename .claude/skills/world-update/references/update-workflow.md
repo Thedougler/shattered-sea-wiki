@@ -297,17 +297,7 @@ Refresh every section with the new world state:
   situation file using `prep-situation` format. File it in `wiki/situations/active/`
   or `wiki/situations/dormant/` based on lifecycle.
 
-### 6c. Log and Index
-
-Append to `wiki/log.md`:
-
-```markdown
-## YYYY-MM-DD
-- WORLD-UPDATE: session NN — [1-line summary of what changed]
-- UPDATE: wiki/situations/active/[slug].md — [change]
-- MOVE: wiki/situations/active/[slug].md → resolved/ — [reason]
-- CREATE: wiki/situations/active/[slug].md — [why]
-```
+### 6c. Index
 
 If new files were created:
 

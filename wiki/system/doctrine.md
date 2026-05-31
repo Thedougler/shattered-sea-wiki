@@ -162,4 +162,4 @@ Black-Jaw Run; reunited with Perrin in Calveno, has a favor to ask."
 The vault is healthy when: every file has complete frontmatter and a concrete, current
 `summary`; all wikilinks resolve; durable relationships are bidirectional; each file sits at the
 correct path with no duplication (cross-link, don't copy); no file is orphaned; `hot.md` reflects
-actual current world state; and `wiki/log.md` records every structural change.
+actual current world state.

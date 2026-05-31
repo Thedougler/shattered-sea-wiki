@@ -119,5 +119,5 @@ Commit directly to `main` — this is a solo content repo. Only branch when expl
 
 ## Change Log
 
-See `wiki/log.md` for all structural changes.
+Use `git log` for structural change history.
 See `wiki/discrepancy-log.md` for all lore contradictions (created on first conflict).

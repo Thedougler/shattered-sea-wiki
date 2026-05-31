@@ -9,10 +9,8 @@ summary: "Biggest and most readable member of the Five Blades. Cheerful Mouchero
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
   - moucheron
   - five-blades
-  - mercenary
 sources:
   - "Inbox/Five-Blades.md"
 confidence_level: confirmed

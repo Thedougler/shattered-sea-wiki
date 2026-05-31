@@ -9,11 +9,7 @@ summary: "DM mechanics for running Il Palio delle Voci as a skill challenge — 
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - situation
-  - calveno
-  - skill-challenge
-  - palio
-  - event
+  - dm-prep
 sources:
   - "Inbox/situations/islands/Il-Palio-delle-Voci.md"
 lifecycle: active

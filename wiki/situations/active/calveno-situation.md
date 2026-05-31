@@ -8,7 +8,9 @@ publish: false
 summary: "Calveno offers a Warren-routed way to disguise the HCS Surety while Tessarine debt pressure and a hidden Red Lady salvage commission are already moving through the city."
 created: 2026-05-14
 updated: 2026-05-28
-tags: [situation, thread, calveno, tessarine, salvage, warren, surety]
+tags:
+  - tessarine
+  - salvage
 sources: ["Inbox/Calveno.md"]
 lifecycle: active
 narrative_island:

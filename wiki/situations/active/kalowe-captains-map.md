@@ -9,11 +9,9 @@ summary: "A dying privateer at Grimaldi's Dispensary has half a treasure chart t
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - situation
-  - kalowe
-  - treasure
-  - exploration
-  - orak
+  - salvage
+  - maritime
+  - dravosi
 sources:
   - "Inbox/situations/islands/Kalowe-Captains-Map.md"
 lifecycle: active

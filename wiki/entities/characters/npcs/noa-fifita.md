@@ -9,9 +9,7 @@ summary: "Operator of Fifita's Slip, the informal back-channel boatyard on Kalow
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - lizardfolk
-  - minor-npc
-  - kalowe
+  - needs-detail
 sources:
   - "wiki/situations/active/kalowe-takowan.md"
   - "Inbox/Noa-Fifita.md"

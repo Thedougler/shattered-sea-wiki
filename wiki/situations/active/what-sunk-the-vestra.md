@@ -9,11 +9,9 @@ summary: "The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open
 created: 2026-04-15
 updated: 2026-05-30
 tags:
-  - situation
-  - question
-  - red-lady
-  - leviathan
   - umberlee
+  - mystery
+  - fisk-fleet
 sources:
   - "Inbox/situations/questions/What-Sunk-The-Vestra.md"
 lifecycle: active

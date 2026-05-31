@@ -7,8 +7,10 @@ audience: dm
 publish: false
 summary: "Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming."
 created: 2026-05-20
-updated: 2026-05-30
-tags: [situation, thread, grung, calveno, raid, jean-claude]
+updated: 2026-05-31
+tags:
+  - grung
+  - combat
 sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
 lifecycle: active
 narrative_island:
@@ -17,7 +19,7 @@ confidence_level: high
 
 # Calveno — Beffa Grung Raid
 
-![[Calveno-Raid-Plan.png|Cross-section diagram of Calveno's sewer network beneath the festival districts — five blackpowder magazine positions marked beneath the Mercatura, Bridge, Le Paludi yards, and harbour approach, with extraction routes traced to outer-quay egress vents and vethka positions beyond the patrol line]]
+![[wiki/assets/sessions/session-04/art/calveno-raid-plan-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Cross-section style environmental diagram of Calveno's sewer network beneath festival districts, shown as a dramatic cutaway with five blackpowder magazine positions visible beneath the Mercatura, Bridge, Le Paludi yards, and harbour approach; extraction routes lead through dark canals toward outer-quay egress vents and distant dark vethka beyond the patrol line. Use colored lantern glows and route-like architectural lines, but include no readable labels or text. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 ## Situation
 
@@ -68,7 +70,7 @@ Simone's elite handlers enter Calveno over Days 1–3 under festival trade, labo
 
 **3. Blackpowder Magazines — The Groundbreaker**
 
-![[Sewer-Blackpowder-Magazine.png|A sewer tunnel junction beneath Calveno — six sealed blackpowder barrels stacked against the wall, lashed with rope and wedged with fresh-cut timber, a green-caste Grung labourer tightening a lashing by lantern light, the vaulted stone ceiling above showing cracks where the surface is thin]]
+![[wiki/assets/sessions/session-04/art/sewer-blackpowder-magazine-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A sewer tunnel junction beneath Calveno: six sealed blackpowder barrels stacked against the wall, lashed with rope and wedged with fresh-cut timber; a green-caste Grung labourer tightens a lashing by lantern light; the vaulted stone ceiling above shows cracks where the surface is thin. Damp stone, shallow water, practical sabotage details, tense quiet before disaster. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 This is the operation's centrepiece and its most closely guarded secret. Over Days 1–4, green-caste labourers and blue-caste handlers move barrels of blackpowder into the sewer network through storm drains and maintenance hatches. The barrels are stacked at five structural points beneath the festival districts — positions chosen from the Dravosi infrastructure maps where the sewer ceiling is thinnest and the ground above carries the most festival foot traffic.
 
@@ -107,7 +109,7 @@ The Slaad should feel wrong in a way the Grung raid does not. The raid is discip
 
 ## Simone's Purple-Caste Handlers
 
-![[Purple-Handler-Disguise.png|A purple-skinned Grung warrior in a Calveno side alley, wearing a broad-brimmed hat and a fake horsehair moustache glued above an amphibian mouth, festival cloak sized for a Small creature, checking a wax message cylinder while a blue-caste handler defers to him from the shadows]]
+![[wiki/assets/sessions/session-04/art/purple-handler-disguise-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A purple-skinned Grung warrior in a Calveno side alley wears a broad-brimmed hat and a fake horsehair moustache glued above an amphibian mouth, plus a festival cloak sized for a Small creature. He checks a wax message cylinder while a blue-caste Grung handler defers to him from the shadows. Calveno festival alley, lantern light, canal damp, comic disguise with dangerous discipline underneath. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 Simone's purple-caste warriors serve as her on-the-ground coordinators during the build-up days. They enter Calveno under the thinnest cover imaginable: fake moustaches, broad-brimmed hats, festival cloaks sized for Small creatures. The disguises are not good. A moustache made of what appears to be horsehair glued above an amphibian mouth. A hat that sits on a head shaped wrong for hats. They are hiding their status as Grung and doing it badly.
 

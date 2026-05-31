@@ -9,10 +9,8 @@ summary: "Jean-Claude's younger sister — purple-caste Grung garrison soldier f
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
   - grung
-  - jean-claude
-  - secret
+  - mystery
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Jean-Claude-Tabarnack.md"

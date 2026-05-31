@@ -9,11 +9,9 @@ summary: "A crewless schooner has been drifting 4 miles north of Kalowe for two 
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - situation
-  - kalowe
-  - ghost-ship
   - undead
   - salvage
+  - maritime
 sources:
   - "Inbox/situations/islands/Kalowe-Drifting-Hulk.md"
 lifecycle: active

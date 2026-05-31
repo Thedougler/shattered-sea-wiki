@@ -7,13 +7,10 @@ audience: dm
 publish: false
 summary: "Location-keyed ambient observations for the Calveno sandbox — the handlers are already in the city. Use one or two per session day, not all at once."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
-  - island
-  - calveno
-  - raid
   - grung
-  - reference
+  - dm-prep
 sources:
   - "Inbox/Calveno-Raid-Signs.md"
 portable: false
@@ -27,7 +24,7 @@ confidence_level: high
 
 # Calveno — Raid Prep Signs
 
-![[Vethka-At-Anchor.png|Three low-profile dark-resined double-outrigged hulls sitting at anchor past the Calven Roads patrol line, no pennant, still water, the kind of vessels that do not belong in a commercial harbour and have not approached it]]
+![[wiki/assets/sessions/session-04/art/vethka-at-anchor-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Three low-profile dark-resined double-outrigged hulls sit at anchor past the Calven Roads patrol line, no pennants, in still water under a grey coastal sky. They look fast, quiet, and wrong for a commercial harbour; Calveno's lights and patrol gap are distant behind them. No people foregrounded, just ominous vessels waiting. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 The handlers are already in Calveno. These details are available whenever the party is in the right place — use one or two per session day, not all at once. None announce themselves as clues. They read as festival texture until they don't.
 
@@ -82,7 +79,7 @@ None of these are proof. All of them are dread.
 
 ## Grung-Normalizing Pranks
 
-![[Grung-Mask-Vendor.png|A Velo mask vendor's stall during La Finestra — green Grung masks with wide mouths painted in caste colours hanging from hooks, festival-goers trying them on and laughing, a small figure in a hat and oversized cloak watching from across the narrow street]]
+![[wiki/assets/sessions/session-04/art/grung-mask-vendor-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Velo mask vendor's stall during La Finestra, packed with green Grung masks with wide mouths painted in caste colours hanging from hooks; majority-human festival-goers try them on and laugh, with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs in the street. Across the narrow street, a small figure in a hat and oversized cloak watches quietly. Dense Calveno festival street, masks, awnings, canal stone, comic mood with a surveillance undertone. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 During La Finestra, several Beffa pranks incorporate Grung elements — costumes, props, themes. These are not coincidences. Shadowy figures (purple-caste handlers in bad disguises) paid Calveno locals to make Grung a part of their prank this year. The effect: by Day 3 of the festival, seeing a small green figure in the streets reads as "Beffa costume" rather than "foreign threat."
 

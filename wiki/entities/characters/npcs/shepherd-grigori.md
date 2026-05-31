@@ -9,9 +9,8 @@ summary: "A wandering holy man known for curing incurable noble afflictions. Dep
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
-  - human
-  - healer
+  - mystery
+  - undead
   - recurring
 sources:
   - "Inbox/Session-02-Recap.md"

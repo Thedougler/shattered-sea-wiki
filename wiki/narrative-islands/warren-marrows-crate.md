@@ -9,10 +9,8 @@ summary: "A dead courier's crate at Marrow's has been sitting unclaimed for thre
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - warren
-  - investigation
-  - espionage
+  - rattkin
+  - mystery
 sources:
   - "Inbox/Warren-Marrows-Crate.md"
 portable: false

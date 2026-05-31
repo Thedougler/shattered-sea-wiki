@@ -9,10 +9,8 @@ summary: "Sole known living Antheri, bound by soul-pledge to guard Antheri creat
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
   - antheri
   - drowned-maw
-  - dm-only
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/situations/reference/Auralis.md"

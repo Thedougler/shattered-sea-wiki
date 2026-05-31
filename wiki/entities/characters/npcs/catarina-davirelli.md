@@ -9,12 +9,8 @@ summary: "An artificer operating out of Calveno by referral only — the foremos
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
-  - human
-  - inventor
-  - calveno
   - antheri
-  - artificer
+  - homebrew
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Catarina-DaVirelli.md"

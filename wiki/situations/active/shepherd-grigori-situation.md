@@ -9,11 +9,7 @@ summary: "Grigori left the Uncertainty in Calveno claiming business in the city.
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - situation
-  - active
   - mystery
-  - grigori
-  - khlysty
   - undead
 sources:
   - "Inbox/Shepherd-Grigori copy.md"

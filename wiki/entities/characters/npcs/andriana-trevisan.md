@@ -9,8 +9,8 @@ summary: "Knows roughly where something in the Warren is, but won't name a conta
 created: '2026-05-28'
 updated: 2026-05-30
 tags:
-  - stub
-  - npc
+  - passage
+  - needs-detail
 sources:
   - "wiki/situations/active/warren.md"
 confidence_level: medium

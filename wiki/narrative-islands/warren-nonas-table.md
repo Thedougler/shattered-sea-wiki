@@ -9,11 +9,9 @@ summary: "The Perrin–Nona reunion at the Tangle Chambers — the Vestra reveal
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - warren
-  - perrin
   - rattkin
-  - nona
+  - passage
+  - recurring
 sources:
   - "Inbox/Warren-Nonas-Table.md"
 portable: false

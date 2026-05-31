@@ -8,7 +8,9 @@ publish: false
 summary: "Governor Aldric Voss is boxed out of his own fort by Admiralty-sealed orders and willing to trade access for Admiralty-level leverage. The sealed orders concern an operation staged at the Drowned Maw. Delmar Fisk's name still opens the gate."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [thread, port-tidefall, governor-voss, dravosi, maw]
+tags:
+  - dravosi
+  - drowned-maw
 sources: ["Inbox/Governors-Seat.md"]
 lifecycle: active
 narrative_island:

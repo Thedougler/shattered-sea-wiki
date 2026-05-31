@@ -9,11 +9,8 @@ summary: "A nervous fisherman at the Flat Water knows where the Bad Receipt stas
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - situation
-  - kalowe
-  - contraband
-  - race
-  - the-bad-receipt
+  - salvage
+  - maritime
 sources:
   - "Inbox/situations/islands/Kalowe-Bad-Receipt-Cache.md"
 lifecycle: active

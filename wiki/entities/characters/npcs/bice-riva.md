@@ -9,11 +9,8 @@ summary: "Halfling proprietor of Al Fondale in Calveno's Le Paludi; knows about 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - halfling
-  - calveno
   - passage
-  - tavern
+  - recurring
 sources:
   - Inbox/Bice-Riva.md
 confidence_level: medium

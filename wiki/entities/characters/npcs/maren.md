@@ -9,11 +9,7 @@ summary: "Water Genasi captain of the Narrow, Fisk's scout vessel — skilled sw
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - fisk-fleet
-  - dead
-  - captain
-  - water-genasi
 sources:
   - "Inbox/Fisks-Fleet.md"
   - "Inbox/Maren.md"

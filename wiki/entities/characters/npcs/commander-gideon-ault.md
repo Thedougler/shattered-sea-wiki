@@ -9,11 +9,8 @@ summary: "Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforceme
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - stub
-  - npc
   - dravosi
-  - crown
-  - enforcement
+  - needs-detail
 sources:
   - "Inbox/Surety-Missing.md"
 confidence_level: low

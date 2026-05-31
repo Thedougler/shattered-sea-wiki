@@ -9,12 +9,8 @@ summary: "Tessarine warforged compliance auditor and divination wizard. Deployed
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - tessarine
-  - construct
-  - warforged
-  - antagonist
-  - calveno
+  - homebrew
 sources:
   - "Inbox/Estratto.md"
 confidence_level: high

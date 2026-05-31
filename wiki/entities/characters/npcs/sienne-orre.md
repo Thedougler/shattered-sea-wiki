@@ -9,12 +9,7 @@ summary: "Druid and captain of the Fernen, Fisk's fourth vessel — drowned at t
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
   - fisk-fleet
-  - dead
-  - captain
-  - druid
-  - mortis
 sources:
   - "Inbox/Fisks-Fleet.md"
   - "Inbox/Sienne-Orre.md"

@@ -9,11 +9,9 @@ summary: "A sunken merchant ship 2 miles off the Kalowe reef holds a sealed stro
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - situation
-  - kalowe
-  - treasure
-  - underwater
   - combat
+  - salvage
+  - maritime
 sources:
   - "Inbox/situations/islands/Kalowe-Merrows-Prize.md"
 lifecycle: active

@@ -9,11 +9,7 @@ summary: "Captain of the *Loud Argument* and Fisk's combat specialist; died in t
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - captain
   - fisk-fleet
-  - dead
-  - mortis
 sources:
   - Inbox/Bastian-Crev.md
 confidence_level: confirmed

@@ -9,12 +9,9 @@ summary: "Commodore of the Dravosi Crown's Knight Squadron — senior fleet comm
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
-  - dm-only
   - dravosi
-  - crown
-  - threat
   - late-game
+  - recurring
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Rupert-Knighton.md"

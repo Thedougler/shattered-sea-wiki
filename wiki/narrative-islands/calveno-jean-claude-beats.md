@@ -9,10 +9,8 @@ summary: "One Jean-Claude roleplay moment for Calveno — the moustache craftsma
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - calveno
-  - jean-claude
-  - roleplay
+  - grung
+  - dm-prep
 sources:
   - "Inbox/Calveno-Jean-Claude-Beats.md"
 portable: true

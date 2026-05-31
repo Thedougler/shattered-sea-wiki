@@ -7,8 +7,10 @@ audience: dm
 publish: false
 summary: "The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks."
 created: 2026-05-14
-updated: 2026-05-30
-tags: [situation, thread, rattkin, warren, passage, perrin, calveno]
+updated: 2026-05-31
+tags:
+  - rattkin
+  - passage
 sources: ["Inbox/Warren.md"]
 lifecycle: active
 narrative_island:
@@ -109,7 +111,7 @@ Her instructions to Anzolo, if it comes up at the table:
 
 ## The Rattle
 
-![[Warren-Rattle-Response.png|The Warren under Rattle alert — a narrow stone corridor with Rattkin moving in every direction with purpose, an elder barring a door with a hidden bracket, a shop owner pulling a short blade from a flour barrel's false bottom, laundry lines suddenly blocking sight lines between buildings, all in the warm orange light of oil lamps]]
+![[wiki/assets/sessions/session-04/art/warren-rattle-response-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. The Warren under Rattle alert: a narrow stone corridor with Rattkin moving in every direction with purpose; an elder bars a door with a hidden bracket; a shop owner pulls a short blade from a flour barrel's false bottom; laundry lines suddenly block sight lines between buildings, all in warm orange oil-lamp light. Community defense, purposeful motion, no chaos, no gore. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 The Warren's community warning system — built by [[nona-black-jaw|Nona Black-Jaw]] decades ago to alert the settlement to Dravosi attempts at subjugation. A Rattkin strikes a pan in a specific rhythm. The sound carries through kitchens, vents, and stone — each household passes it on, pan to pan, until the noise fills the district in under thirty seconds. To any outsider it is cooking noise, unremarkable and legally unactionable. To Kin it is the sound of their home going to war.
 

@@ -9,11 +9,7 @@ summary: "Port Tidefall factor's daughter who can read a cargo manifest faster t
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
-  - dm-only
-  - hollowell
-  - tidefall
-  - draves
+  - dravosi
 sources:
   - "Inbox/Surety-Missing.md"
   - "Inbox/Verity-Hollowell.md"

@@ -9,12 +9,9 @@ summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - human
-  - waveservants
-  - calveno
   - umberlee
-  - divine
+  - waveservants
+  - recurring
 sources:
   - Inbox/Calveno-Sandbox-Run-Guide.md
   - Inbox/Branca.md

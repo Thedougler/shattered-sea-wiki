@@ -7,8 +7,9 @@ audience: dm
 publish: false
 summary: "Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting."
 created: 2026-05-28
-updated: 2026-05-28
-tags: [thread, grung, desertion, expansion, jean-claude]
+updated: 2026-05-30
+tags:
+  - grung
 sources: ["Inbox/Jean-Claudes-Desertion.md"]
 lifecycle: active
 narrative_island:

@@ -9,9 +9,6 @@ summary: "Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a s
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - tabaxi
-  - keth-naar
   - sunken-crown
 sources:
   - "Inbox/Elder-Anton.md"

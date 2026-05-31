@@ -9,9 +9,8 @@ summary: "Co-proprietor of Al Fondale in Le Paludi — the cook, the talker, and
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - character
-  - npc
   - recurring
+  - homebrew
 sources:
   - Homebrew
 confidence_level: medium

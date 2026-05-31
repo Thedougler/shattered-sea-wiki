@@ -9,12 +9,8 @@ summary: "Elderly white-bearded Principal of the Tessarine Concordat — the vis
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
-  - dm-only
   - tessarine
-  - dragon
   - late-game
-  - principal
 sources:
   - "Inbox/Who-Commissioned-the-Theft.md"
   - "Inbox/Cosimo-Verantio.md"

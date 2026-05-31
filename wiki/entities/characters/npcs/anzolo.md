@@ -9,9 +9,8 @@ summary: "Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card 
 created: 2026-05-02
 updated: 2026-05-30
 tags:
-  - tortle
+  - passage
   - recurring
-  - npc
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Anzolo.md"

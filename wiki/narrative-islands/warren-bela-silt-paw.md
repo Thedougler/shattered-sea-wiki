@@ -9,11 +9,8 @@ summary: "A young Rattkin scout is trapped alive in flooded drainage tunnels bel
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - warren
-  - encounter
-  - dungeon
-  - timed
+  - rattkin
+  - combat
 sources:
   - "Inbox/Warren-Bela-Silt-Paw.md"
 portable: false

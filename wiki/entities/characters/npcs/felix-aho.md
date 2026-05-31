@@ -9,11 +9,7 @@ summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - grung
-  - free-grung
-  - vaka
-  - port-tidefall
 sources:
   - "Inbox/Felix-Aho.md"
 confidence_level: medium

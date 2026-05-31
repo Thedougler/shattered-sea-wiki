@@ -9,10 +9,7 @@ summary: "Halfling manager and public face of the Nimmik Vollask — takes order
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - halfling
-  - minor-npc
-  - nimmik-vollask
-  - merchant
+  - tessarine
 sources:
   - "Inbox/Nimmik-Vollask.md"
   - "Inbox/Cotter-Foss.md"

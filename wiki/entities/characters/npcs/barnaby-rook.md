@@ -9,11 +9,8 @@ summary: "Crown privateer captain of the HCS Surety — runs the eastern inspect
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - npc
-  - human
   - dravosi
-  - captain
-  - antagonist
+  - recurring
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Barnaby-Rook.md"

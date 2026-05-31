@@ -8,7 +8,9 @@ publish: false
 summary: "Two extra companies arrived at Fort Crestwall under Admiralty-sealed orders Governor Voss was never given. Supply manifest includes reef-diving equipment and underwater charges bound for the Drowned Maw. Delmar's commission name still opens the gate. A Duty Sergeant has a Necklace of Fireballs he needs to sell before the audit."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [thread, port-tidefall, fort-crestwall, dravosi, maw]
+tags:
+  - dravosi
+  - drowned-maw
 sources: ["Inbox/Fort-Crestwall.md"]
 lifecycle: active
 narrative_island:

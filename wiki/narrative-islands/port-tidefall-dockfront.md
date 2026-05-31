@@ -9,11 +9,9 @@ summary: "Port Tidefall's dockfront offers ship leads, impound intelligence, a s
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - narrative-island
-  - port-tidefall
-  - ships
   - umberlee
   - tessarine
+  - maritime
 sources:
   - "Inbox/Port-Tidefall.md"
 portable: false

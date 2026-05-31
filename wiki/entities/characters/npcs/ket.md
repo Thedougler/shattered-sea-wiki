@@ -9,10 +9,7 @@ summary: "A feral Moucheron from Murrat, formerly held in the Surety's brig by B
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - fey
   - moucheron
-  - freed
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Ket.md"

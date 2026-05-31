@@ -9,11 +9,7 @@ summary: "Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - fisk-fleet
-  - dead
-  - captain
-  - sorcerer
 sources:
   - "Inbox/Fisks-Fleet.md"
   - "Inbox/Rael-Corven.md"

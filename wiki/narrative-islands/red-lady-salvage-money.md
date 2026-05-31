@@ -9,12 +9,9 @@ summary: "Unusual broker money is moving through Calveno toward a Maw salvage co
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - calveno
-  - red-lady
   - salvage
-  - delmar
-  - crissdalynn
+  - fisk-fleet
+  - maritime
 sources:
   - "Inbox/Red-Lady-Salvage-Money.md"
 portable: false

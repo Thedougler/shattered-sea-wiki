@@ -9,8 +9,7 @@ summary: "Stub — proprietor of Acqua Nera drydock in Calveno; referenced in [[
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - npc
-  - calveno
+  - needs-detail
 sources: []
 confidence_level: medium
 aliases:

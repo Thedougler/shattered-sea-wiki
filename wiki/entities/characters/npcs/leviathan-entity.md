@@ -9,10 +9,8 @@ summary: "Entity forced through the Drowned Maw fissure from the Elemental Plane
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - creature
-  - leviathan
   - drowned-maw
-  - dm-only
+  - late-game
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Perrin-Black-Jaw.md"

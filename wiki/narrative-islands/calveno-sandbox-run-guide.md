@@ -9,10 +9,7 @@ summary: "DM run guide for the first open Calveno sandbox: ship repair buys city
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - calveno
-  - session-prep
-  - sandbox
+  - dm-prep
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
 portable: false

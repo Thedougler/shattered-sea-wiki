@@ -9,11 +9,8 @@ summary: "Three Passage surface operations were intercepted. The common thread l
 created: 2026-05-22
 updated: 2026-05-30
 tags:
-  - island
-  - warren
-  - investigation
-  - espionage
-  - jean-claude
+  - rattkin
+  - mystery
 sources:
   - "Inbox/Warren-Ferrin-Locke.md"
 portable: false

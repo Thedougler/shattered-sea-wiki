@@ -11,8 +11,8 @@ updated: 2026-05-30
 tags:
   - dravosi
   - undead
-  - lich
-  - late_game
+  - late-game
+  - homebrew
 sources:
   - Homebrew
 confidence_level: medium

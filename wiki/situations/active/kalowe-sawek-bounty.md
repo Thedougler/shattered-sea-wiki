@@ -9,11 +9,8 @@ summary: "A Sawek has moved into the channel between Kalowe's second and third i
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - situation
-  - kalowe
-  - monster-hunt
-  - sawek
-  - bounty
+  - combat
+  - maritime
 sources:
   - "Inbox/situations/islands/Kalowe-Sawek-Bounty.md"
 lifecycle: active

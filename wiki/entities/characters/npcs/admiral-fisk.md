@@ -9,9 +9,8 @@ summary: "Delmar called him 'a friend' when speaking to Beaumont. Surname match 
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - stub
-  - npc
-  - admiral
+  - fisk-fleet
+  - needs-detail
 sources:
   - "Inbox/Session-02-Recap.md"
 confidence_level: inferred

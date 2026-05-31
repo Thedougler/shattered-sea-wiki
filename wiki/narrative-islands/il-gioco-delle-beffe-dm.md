@@ -9,10 +9,7 @@ summary: "DM mechanics for running the Beffa as a five-day skill challenge — p
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - narrative-island
-  - event
-  - calveno
-  - skill-challenge
+  - dm-prep
 sources:
   - "Inbox/Il-Gioco-delle-Beffe copy.md"
 portable: false

@@ -8,7 +8,9 @@ publish: false
 summary: "DM notes for Aruhe — Blight has claimed the interior; Death Bloom dungeon set; Nona's commission is the entry hook. No outward sign visible from sea."
 created: 2026-05-01
 updated: 2026-05-29
-tags: [blight, aruhe, midchain, dungeon, hazard]
+tags:
+  - passage
+  - dm-prep
 sources: [Inbox/Nona-Midchain-Commission.md, Inbox/Aruhe.md]
 lifecycle: active
 narrative_island:

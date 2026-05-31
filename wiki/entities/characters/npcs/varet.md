@@ -9,10 +9,8 @@ summary: "Moucheron contract speaker for the Five Blades mercenary company in Ka
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
   - moucheron
   - five-blades
-  - mercenary
 sources:
   - "Inbox/Five-Blades.md"
 confidence_level: confirmed

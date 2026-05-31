@@ -9,11 +9,9 @@ summary: "A Hierarch sorcerer-lich traveled with the party as a cooperative gues
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - narrative-island
   - undead
-  - hierarch
-  - villain
-  - late_game
+  - mystery
+  - late-game
 sources:
   - "Inbox/Shepherd-Grigori.md"
 portable: false

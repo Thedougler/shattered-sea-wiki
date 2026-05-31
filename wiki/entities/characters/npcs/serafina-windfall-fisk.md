@@ -9,9 +9,7 @@ summary: "Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to s
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
-  - aasimar
-  - fortune-teller
+  - fisk-fleet
 sources:
   - "Inbox/Serafina-Windfall-Fisk.md"
 confidence_level: medium

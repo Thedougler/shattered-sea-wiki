@@ -9,11 +9,8 @@ summary: "Five Blades medic. Moucheron mercenary with an unsentimental kit for k
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - npc
   - moucheron
   - five-blades
-  - mercenary
-  - medic
 sources:
   - "Inbox/Five-Blades.md"
 confidence_level: confirmed

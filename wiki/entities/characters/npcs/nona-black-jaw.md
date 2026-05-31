@@ -9,10 +9,9 @@ summary: "Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmot
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - rattkin
   - passage
-  - matriarch
+  - recurring
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"

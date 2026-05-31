@@ -9,11 +9,8 @@ summary: "Tortle captain of the *Saltwright*; pulled Crissdalynn and Delmar from
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
-  - tortle
-  - captain
-  - midchain
-  - ally
+  - maritime
+  - recurring
 sources:
   - Inbox/Session-01-Recap.md
   - Inbox/Beaumonts-Crew.md

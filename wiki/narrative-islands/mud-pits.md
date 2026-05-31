@@ -9,11 +9,8 @@ summary: "DM mechanics for running the Mud Pits as a party attraction at Kalowe 
 created: 2026-05-17
 updated: 2026-05-30
 tags:
-  - narrative-island
-  - encounter
-  - kalowe
   - combat
-  - midchain
+  - maritime
 sources:
   - "Inbox/situations/islands/Mud-Pits.md"
 portable: false

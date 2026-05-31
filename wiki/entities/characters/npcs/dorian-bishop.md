@@ -9,10 +9,7 @@ summary: "Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous a
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - npc
   - dravosi
-  - unrevealed
-  - captain
 sources:
   - "Inbox/Dorian-Bishop.md"
 confidence_level: high

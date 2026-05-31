@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming."
 created: 2026-05-20
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [situation, thread, grung, calveno, raid, jean-claude]
 sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
 lifecycle: active
@@ -16,6 +16,8 @@ confidence_level: high
 ---
 
 # Calveno — Beffa Grung Raid
+
+![[Calveno-Raid-Plan.png|Cross-section diagram of Calveno's sewer network beneath the festival districts — five blackpowder magazine positions marked beneath the Mercatura, Bridge, Le Paludi yards, and harbour approach, with extraction routes traced to outer-quay egress vents and vethka positions beyond the patrol line]]
 
 ## Situation
 
@@ -65,6 +67,9 @@ Before any handler enters Calveno, Simone has three things from her Dravosi sour
 Simone's elite handlers enter Calveno over Days 1–3 under festival trade, labour, and audience cover. The Beffa makes their reconnaissance invisible: strangers asking about crowd flow, boat shifts, and bridge timing read as prank preparation. Handlers map the precise sewer access points — maintenance hatches, flood overflow vents, the old tannery drain that exits below the outer quay — and time the surface-to-water transfer.
 
 **3. Blackpowder Magazines — The Groundbreaker**
+
+![[Sewer-Blackpowder-Magazine.png|A sewer tunnel junction beneath Calveno — six sealed blackpowder barrels stacked against the wall, lashed with rope and wedged with fresh-cut timber, a green-caste Grung labourer tightening a lashing by lantern light, the vaulted stone ceiling above showing cracks where the surface is thin]]
+
 This is the operation's centrepiece and its most closely guarded secret. Over Days 1–4, green-caste labourers and blue-caste handlers move barrels of blackpowder into the sewer network through storm drains and maintenance hatches. The barrels are stacked at five structural points beneath the festival districts — positions chosen from the Dravosi infrastructure maps where the sewer ceiling is thinnest and the ground above carries the most festival foot traffic.
 
 At the **primary detonation site** — a large collector chamber beneath the Mercatura — Grung pack every nook, crevice, and join in the ceiling with blackpowder, held in place by crude wooden scaffolding. This is the magazine that collapses the Mercatura plaza. A summoning circle is prepared on the floor of this chamber ([[#The Slaad|see below]]).
@@ -101,6 +106,8 @@ The Slaad should feel wrong in a way the Grung raid does not. The raid is discip
 ---
 
 ## Simone's Purple-Caste Handlers
+
+![[Purple-Handler-Disguise.png|A purple-skinned Grung warrior in a Calveno side alley, wearing a broad-brimmed hat and a fake horsehair moustache glued above an amphibian mouth, festival cloak sized for a Small creature, checking a wax message cylinder while a blue-caste handler defers to him from the shadows]]
 
 Simone's purple-caste warriors serve as her on-the-ground coordinators during the build-up days. They enter Calveno under the thinnest cover imaginable: fake moustaches, broad-brimmed hats, festival cloaks sized for Small creatures. The disguises are not good. A moustache made of what appears to be horsehair glued above an amphibian mouth. A hat that sits on a head shaped wrong for hats. They are hiding their status as Grung and doing it badly.
 

@@ -137,6 +137,8 @@ Two linked problems live in the Warren. **(a)** The *Uncertainty* still reads as
 
 ### The Rattle — Demonstration
 
+![[Warren-Rattle-Cascade.png|The Warren kitchen mid-Rattle — a Rattkin woman striking a copper pan in the doorway, the sound rippling outward through stone corridors, other hands visible in the background picking up pans and tools, a child disappearing into a wall gap no wider than a fist, Nona setting down her spoon with calm authority]]
+
 If the party is inside the Warren during the visit, Nona has a reason to show them what the community can do. A Dravosi factor's runner is spotted at the Le Paludi canal edge — not a raid, but close enough to protocol that someone triggers the drill.
 
 > [!read-aloud]
@@ -172,6 +174,8 @@ Let the party sit inside this for a moment. Then —
 ---
 
 ## First Handler Beat — Jean-Claude
+
+![[Handler-Crowd-Watch.png|A blue-caste Grung at the edge of a Velo square, standing in the one position that gives sightlines to three exits, watching a street performer's crowd with the flat assessment of someone mapping movement patterns, not enjoying the show]]
 
 *JC only. Private. One recognition beat — do not announce to the table.*
 

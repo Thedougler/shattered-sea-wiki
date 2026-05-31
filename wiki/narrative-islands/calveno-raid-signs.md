@@ -27,6 +27,8 @@ confidence_level: high
 
 # Calveno — Raid Prep Signs
 
+![[Vethka-At-Anchor.png|Three low-profile dark-resined double-outrigged hulls sitting at anchor past the Calven Roads patrol line, no pennant, still water, the kind of vessels that do not belong in a commercial harbour and have not approached it]]
+
 The handlers are already in Calveno. These details are available whenever the party is in the right place — use one or two per session day, not all at once. None announce themselves as clues. They read as festival texture until they don't.
 
 **Use these as ambient colour first.** Only give them weight if players reach for them. If no one notices, note it and move on.
@@ -79,6 +81,8 @@ None of these are proof. All of them are dread.
 ---
 
 ## Grung-Normalizing Pranks
+
+![[Grung-Mask-Vendor.png|A Velo mask vendor's stall during La Finestra — green Grung masks with wide mouths painted in caste colours hanging from hooks, festival-goers trying them on and laughing, a small figure in a hat and oversized cloak watching from across the narrow street]]
 
 During La Finestra, several Beffa pranks incorporate Grung elements — costumes, props, themes. These are not coincidences. Shadowy figures (purple-caste handlers in bad disguises) paid Calveno locals to make Grung a part of their prank this year. The effect: by Day 3 of the festival, seeing a small green figure in the streets reads as "Beffa costume" rather than "foreign threat."
 

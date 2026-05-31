@@ -15,9 +15,12 @@ sources:
   - Homebrew
 session_number: 4
 session_date: "unknown"
+updated: 2026-05-30
 ---
 
 # Session 04 — Day 5: The Raid
+
+![[Calveno-Raid-Overview.png|Aerial view of Calveno's festival districts with five detonation points marked in red — the Mercatura plaza crater largest at centre, four smaller breaches at the Bridge, two Le Paludi yards, and the harbour approach, dust plumes rising from each]]
 
 *Last day of La Finestra. Crowd peak. The ground opens. This is the session's crescendo if the table reaches it — if not, hold for Session 05. Run the [[calveno-beffa-grung-raid|raid situation file]] alongside this page.*
 
@@ -46,6 +49,8 @@ Five detonations fire within seconds of each other. The primary charge is the la
 
 ### The Primary — Mercatura Plaza
 
+![[Mercatura-Plaza-Collapse.png|The Mercatura plaza mid-collapse — cobblestones buckling inward, a festival registration desk tilting into the widening hole, festival cloth and lanterns falling into dust and darkness, crowd frozen in the moment before they understand]]
+
 > [!read-aloud]
 > The sound comes from below. Not thunder — thunder has a sky. This has stone. The Mercatura plaza shudders once, a ripple running through the cobblestones like a wave through water. Then the centre drops. Twenty feet of plaza collapses inward — stone, earth, festival cloth, registration desks, people — falling into a cloud of dust and noise that swallows everything. The crowd does not scream. They are waiting for the punchline.
 >
@@ -63,6 +68,8 @@ Hold for one breath. Then —
 
 ### The Secondary Sites — Simultaneous
 
+![[Secondary-Strike-Breach.png|A Le Paludi working yard — cobblestones cracked open, dust fountaining up, small armoured Grung figures pouring out of the breach in disciplined formation, a dockhand stumbling backward with a dropped tool roll]]
+
 At the four secondary strike points, smaller charges open holes in the ground. No collapse — a breach. Dust, debris, a gap wide enough for Grung to pour through.
 
 > [!read-aloud]
@@ -78,21 +85,29 @@ At the four secondary strike points, smaller charges open holes in the ground. N
 The session's climactic fight if the party reaches Day 5. The Slaad is at the primary breach point in the Mercatura.
 
 > [!mechanic]
-> **Red Slaad.** MM p.276. AC 14 (natural armor), HP 93 (11d10+33). Speed 30 ft.
-> STR 16 (+3) DEX 12 (+1) CON 16 (+3) INT 6 (-2) WIS 6 (-2) CHA 7 (-2).
-> **Multiattack:** 3 attacks — one Bite (2d4+3 piercing), two Claws (2d6+3 slashing). On a claw hit, target must succeed DC 14 Con save or be implanted with a Slaad egg (disease; 3 months to hatch — this is a long-term horror, not an immediate mechanic).
-> **Magic Resistance.** Advantage on saves vs. spells and magical effects.
-> **Regeneration.** Regains 10 HP at start of its turn if it has at least 1 HP.
-> **Damage Resistances:** acid, cold, fire, lightning, thunder.
+> **Custom stat block: [[calveno-slaad|Calveno Slaad — The Groundbreaker]].** CR 7. AC 15, HP 161 (17d10+68). Speed 40 ft., climb 20 ft.
+> **Multiattack:** Bite (+8, 2d8+5 piercing + DC 15 Con Slaad egg), Claw (+8, 2d6+5 slashing, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft and grappled/restrained).
+> **Entropic Regeneration:** 15 HP/round. Suppressed by fire or acid damage.
+> **Chaos Pulse (Recharge 5-6):** 20-ft radius, DC 15 Dex, 4d10 force + prone. Area becomes difficult terrain.
+> **Chaos Embodied:** Creatures starting turn within 10 ft — DC 15 Wis save or disadvantage on next attack.
+> **Unstable Form (≤80 HP):** Melee attacks deal +1d6 acid; melee attackers within 5 ft take 1d10 acid.
+> **Rubble Surge (reaction):** Hurls rubble at a creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0. Hits flyers.
+> **Magic Resistance.** Advantage on saves vs. spells/magical effects.
+> **Resistances:** cold, lightning, thunder. **Immunities:** frightened.
 
-**Environment:** Collapsed plaza. Rubble, dust, broken stone, festival cloth tangled in debris. Dim light from dust. Civilians fleeing in all directions. 10-ft-deep crater at centre where the sewer chamber was.
+**Environment:** Collapsed plaza. 20-ft-diameter crater, 10 ft deep. Rubble in 40-ft radius. Festival cloth, broken desks, dust (dim light 2-3 rounds). 2d6 civilians trapped in rubble — Slaad targets them if no PC in reach.
 
-**Tactics:** The Slaad is not intelligent. It attacks the nearest creature. It does not pursue fleeing civilians — it attacks whatever stands and fights. It uses the crater rim as high ground when it can. It will jump into and out of the sewer breach if pressed.
+**Tactics:** The Slaad is not intelligent. It attacks the nearest creature. It does not pursue strategically — it is chaos, not tactics. It uses Tongue Lash to yank ranged attackers (Jean-Claude) into melee. Chaos Pulse punishes clustering. Rubble Surge punishes repositioning and flight (Crissdalynn). It will jump into and out of the crater if pressed.
+
+**The tactical key:** fire or acid suppresses the 15 HP/round regeneration. The party does not have reliable fire damage by default. Reward creative sourcing — festival torches, chandler's oil in the rubble (DC 14 Investigation), alchemical improvisation. Without fire, the fight is a war of attrition they will lose.
 
 > [!dm]
-> **The choice the Slaad creates:** every round the party fights the Slaad is a round the extraction runs at the secondary sites. The party hears screams from other districts. They see Grung moving people underground at the edge of their vision. If they stay and fight, they save the Mercatura — the Slaad will kill civilians left in the area. If they split, each group faces a real threat alone. This is not a punishment for fighting the boss — it is a design decision that makes the raid feel like a coordinated operation, not a single encounter.
+> **The choice the Slaad creates:** every round the party fights the Slaad is a round the extraction runs at the secondary sites. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide — stay and kill, or split and save. This is not a punishment — it is a design decision that makes the raid feel like a coordinated operation.
 >
-> **Scaling:** for a Level 3 party of four, the Red Slaad is a Hard-to-Deadly encounter. The regeneration is the primary threat — they need sustained damage output to outpace 10 HP/round. If the fight drags: a Warren reinforcement (Ruk, armed, angry) arrives after 5 rounds. If the fight is too easy: the Slaad targets a cluster of trapped civilians in the rubble, forcing the party to reposition.
+> **Scaling:** this is a Deadly encounter for four Level 4 PCs. The regeneration is the primary threat.
+> **If struggling:** Ruk arrives after round 5 with a festival torch and a cleaver (2d6+4 slashing + 1d6 fire). He does not speak. He hits the thing.
+> **If dominating:** the Slaad targets trapped civilians in the rubble, forcing repositioning. Tongue Lash pulls a PC into the crater for a bad position.
+> **If the party splits early:** the Slaad pursues the nearest target for 2 rounds, then loses interest and attacks civilians.
 
 ---
 
@@ -143,6 +158,8 @@ The raid runs for approximately ten minutes, surface to extraction. Then the Gru
 
 ### The Silence After
 
+![[Calveno-Raid-Aftermath.png|The Mercatura plaza after the raid — a twenty-foot crater in the centre, festival cloth hanging from rubble like flags of surrender, dropped tools and trampled masks in canal water, a woman standing alone at the crater edge calling a name into empty air]]
+
 > [!read-aloud]
 > The dust settles. The Mercatura plaza has a hole in it twenty feet across. Festival cloth hangs in the rubble like flags of surrender. Dropped tool rolls. Masks in trampled water. A woman is calling a man's name, over and over, into a crowd that is not listening because the crowd is doing the same thing.
 >
@@ -154,6 +171,8 @@ The raid runs for approximately ten minutes, surface to extraction. Then the Gru
 ---
 
 ## Nona's Emergence
+
+![[Nona-Aftermath-Speech.png|Nona Black-Jaw standing in the dust of the ruined Mercatura, tiny and silver-furred in a flour-dusted apron, holding a ladle and a loaf of bread, Enzo in his tailored suit to her left with claws out and Ruk to her right carrying a cauldron on one shoulder, civilians sitting in rubble around them]]
 
 [[nona-black-jaw|Nona Black-Jaw]] emerges from her safehouses within the hour. Both bodyguards at her sides — [[enzo|Enzo]] in his tailored suit, jaw set, claws out; [[ruk|Ruk]] carrying a cauldron of stew on one shoulder and a cleaver on the other.
 

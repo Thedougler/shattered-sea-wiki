@@ -42,6 +42,8 @@ session_date: "unknown"
 
 ## Handler Cell — Combat
 
+![[Handler-Cell-Alley.png|A narrow Le Paludi canal alley at dusk — two blue-caste Grung in nondescript trade clothes at a Bridge pillar, one watching the crowd flow with trained stillness, two boats tied at the nearest mooring, poor light from a single festival lantern reflecting off canal water]]
+
 *Jean-Claude (primary), anyone he brings. Combat-ready encounter.*
 
 If JC has been following the handler thread — Day 2 recognition beats, Day 3 tunnel investigation — today he can confront a handler cell directly. This is the escalation point.
@@ -107,6 +109,8 @@ If Delmar has been visible in Calveno as a Maw expert — asking questions at th
 ---
 
 ## False Alarms — Crowd Conditioning
+
+![[Crowd-Conditioning.png|The Mercatura during a staged Beffa mugging — a performer in a mask and fake blood sprawled theatrically on cobblestones while the crowd claps and laughs, the mark taking a bow, a watch sergeant at the canal gate watching without moving, the city training itself not to react to screams]]
 
 *Ambient. One or two beats throughout the day.*
 

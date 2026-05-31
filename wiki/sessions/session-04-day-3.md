@@ -42,6 +42,8 @@ session_date: "unknown"
 
 ## Handler Investigation — The Tunnels
 
+![[Sewer-Investigation.png|Jean-Claude descending into the Calveno sewer collector by lantern light — limestone walls with fresh scrape marks at knee height, ankle-deep water, the tunnel branching ahead into darkness, three clean cuts in the stone at the Y-junction barely visible in the light]]
+
 *Jean-Claude (primary, only he can read it), anyone he brings. Exploration → possible combat.*
 
 Two paths into this beat: **(a)** Nona's favor — JC is sent into the old Warren tunnels that connect to the Calveno sewers, with the Warren's blessing and a rough map. **(b)** JC follows a handler from the street — a tail that leads to a sewer access hatch.
@@ -137,6 +139,8 @@ If Crissdalynn is investigating the Red Lady or Maw salvage with [[master-kyzil\
 
 ## Beffa Play — La Finestra Opens
 
+![[Beffa-False-Alarm.png|A Mercatura crowd scene — a masked figure lunging from behind a festival backdrop, the nearest spectators flinching back in genuine surprise, the second row already laughing, a gate sergeant watching from a canal railing and shaking his head]]
+
 *Optional. Background if skipped.*
 
 The execution window is live. Pranks fire throughout the day.
@@ -164,6 +168,8 @@ The execution window is live. Pranks fire throughout the day.
 ---
 
 ## Grung-Normalizing Pranks — Day 3
+
+![[Beffa-Grung-Prank.png|A Le Paludi canal scene during La Finestra — a performer in an accurate green Grung costume leaping from a canal boat with a basket of sardines, the fish stall owner's mark gaping, the crowd laughing and clapping, festival cloth and masks everywhere]]
 
 *Ambient. One or two beats. See [[calveno-raid-signs#Grung-Normalizing Pranks|Raid Signs — Grung Pranks]] for the full menu.*
 

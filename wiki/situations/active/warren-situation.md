@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks."
 created: 2026-05-14
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [situation, thread, rattkin, warren, passage, perrin, calveno]
 sources: ["Inbox/Warren.md"]
 lifecycle: active
@@ -108,6 +108,8 @@ Her instructions to Anzolo, if it comes up at the table:
 ---
 
 ## The Rattle
+
+![[Warren-Rattle-Response.png|The Warren under Rattle alert — a narrow stone corridor with Rattkin moving in every direction with purpose, an elder barring a door with a hidden bracket, a shop owner pulling a short blade from a flour barrel's false bottom, laundry lines suddenly blocking sight lines between buildings, all in the warm orange light of oil lamps]]
 
 The Warren's community warning system — built by [[nona-black-jaw|Nona Black-Jaw]] decades ago to alert the settlement to Dravosi attempts at subjugation. A Rattkin strikes a pan in a specific rhythm. The sound carries through kitchens, vents, and stone — each household passes it on, pan to pan, until the noise fills the district in under thirty seconds. To any outsider it is cooking noise, unremarkable and legally unactionable. To Kin it is the sound of their home going to war.
 

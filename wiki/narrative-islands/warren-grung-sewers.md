@@ -28,6 +28,8 @@ confidence_level: high
 
 # Warren — Grung in the Sewers
 
+![[Warren-Tunnel-Entrance.png|A Warren tunnel access hatch in Le Paludi — an iron ladder descending fifteen feet into darkness, the lantern at the top casting a cone of fish-oil light into limestone corridors, fresh scrape marks visible on the walls at knee height]]
+
 ## Island Premise
 
 Three Calveno residents have reported sighting what each described, independently, as a large green humanoid in the sewer access tunnels and canal maintenance corridors beneath Le Paludi and the Bridge district. One report is from a Warren runner who works the sub-level drainage routes — she is not given to exaggeration. The other two are from Dry residents whose descriptions match the runner's.
@@ -173,6 +175,8 @@ Each blackpowder magazine has a sentry team — two green-caste labourers and on
 ---
 
 ### The Primary Site — Shoot on Sight
+
+![[Primary-Detonation-Chamber.png|A large vaulted stone sewer chamber beneath the Mercatura — every crack and join in the ceiling packed with blackpowder held by crude wooden scaffolding, a summoning circle cut into the stone floor with symbols scored deep, shallow trenches routing water around the circle to keep it dry, four Grung sentries in the shadows with crossbows trained on the entrance]]
 
 The primary detonation chamber is a large collector nexus beneath the Mercatura — a vaulted stone room 40 ft across, 15 ft high, where four drainage channels converge. This is the smoking gun.
 

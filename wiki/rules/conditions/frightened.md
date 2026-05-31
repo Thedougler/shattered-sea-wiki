@@ -1,20 +1,17 @@
 ---
-title: Frightened
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Frightened condition — Disadvantage on ability checks and attacks while source is in line of sight; can't willingly move closer to the source.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Frightened condition — Disadvantage on ability checks and attacks while source is in line of sight; can't willingly move closer to the source.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Frightened
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Frightened

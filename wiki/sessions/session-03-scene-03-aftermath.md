@@ -11,9 +11,9 @@ updated: 2026-05-30
 tags: [session, session-03, scene, dm-prep]
 sources: ["Inbox/sessions/03/Scene-03-Aftermath.md"]
 session_number: 3
+session_date: "unknown"
 beat_number: 3
 table_status: complete
-session_date: "unknown"
 ---
 
 # Session 03 — Aftermath

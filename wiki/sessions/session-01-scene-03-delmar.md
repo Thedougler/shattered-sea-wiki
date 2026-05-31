@@ -11,9 +11,9 @@ updated: 2026-05-30
 tags: [session, session-01, scene, read-aloud, delmar-fisk]
 sources: ["Inbox/sessions/01/Scene-03-Delmar.md"]
 session_number: 1
+session_date: "unknown"
 beat_number: 3
 table_status: complete
-session_date: "unknown"
 ---
 
 # Beat 3: Delmar

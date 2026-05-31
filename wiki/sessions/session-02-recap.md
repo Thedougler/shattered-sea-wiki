@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened."
 created: 2026-05-18
-updated: 2026-05-27
+updated: 2026-05-30
 tags: [session-recap, session]
 sources: ["Inbox/Session-02-Recap.md"]
 session_number: 2

@@ -1,30 +1,22 @@
 ---
-title: "Cat's Curios"
 type: entity
 subtype: place
-category: location
-building_type: shop
-publish: true
-visibility: public
-audience: players
-summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
-aliases:
-- Kat's Curios
-- Cat's Curios
-status: active
 campaign: shattered-sea
-district: side-street workshop
+status: active
+audience: players
+publish: true
+summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 created: 2026-05-02
 updated: 2026-05-30
-tags:
-- building
-- shop
-- artificer
-- calveno
-sources:
-- Inbox/places/calveno/Cats-Curios.md
-- Inbox/Session-03-Recap.md
+tags: [building, shop, artificer, calveno]
+sources: [Inbox/places/calveno/Cats-Curios.md, Inbox/Session-03-Recap.md]
 confidence_level: medium
+title: "Cat's Curios"
+category: location
+building_type: shop
+visibility: public
+aliases: [Kat's Curios, Cat's Curios]
+district: side-street workshop
 ---
 
 # Cat's Curios

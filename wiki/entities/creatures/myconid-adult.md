@@ -1,27 +1,24 @@
 ---
-title: Myconid Adult
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1/2 fungal plant creature; communicates via spores and can merge consciousnesses in a Rapport circle.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/2 fungal plant creature; communicates via spores and can merge consciousnesses in a Rapport circle.
-tags:
-- creature
-- plant
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, plant]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Myconid Adult
-sources:
-- XMM
+title: Myconid Adult
+aliases: [Myconid Adult]
 cha: 7
 con: 12
 cr: 1/2
 creature_type: plant
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: underdark
 int: 10
@@ -29,7 +26,6 @@ page: 223
 statblock: inline
 str: 10
 wis: 13
-status: unknown
 ---
 
 # Myconid Adult

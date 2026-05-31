@@ -10,9 +10,9 @@ created: 2026-05-13
 updated: 2026-05-30
 tags: [situation, revelation, sentinels, lich, maw, late-game]
 sources: ["Inbox/situations/revelations/Soul-Incarnate.md"]
-reveal_tier: late
 lifecycle: dormant
 narrative_island: ""
+reveal_tier: late
 ---
 
 # Who Is the True Head of the Sentinels

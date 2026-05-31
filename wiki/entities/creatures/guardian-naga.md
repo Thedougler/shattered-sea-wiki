@@ -1,28 +1,24 @@
 ---
-title: Guardian Naga
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
-tags:
-- creature
-- celestial
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, celestial, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Guardian Naga
-sources:
-- XMM
+title: Guardian Naga
+aliases: [Guardian Naga]
 cha: 18
 con: 16
 cr: 10
 creature_type: celestial
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 18
 environment: desert, forest, planar, upper
 int: 16
@@ -30,7 +26,6 @@ page: 161
 statblock: inline
 str: 19
 wis: 19
-status: unknown
 ---
 
 # Guardian Naga

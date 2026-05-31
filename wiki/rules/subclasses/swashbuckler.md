@@ -1,21 +1,17 @@
 ---
-title: Swashbuckler
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Rogue subclass (XGtE 2014) — CHA-based Rogue for duelists and pirates; Fancy Footwork prevents opportunity attacks after melee strikes; Sneak Attack without an ally nearby; Delmar Fisk is a Swashbuckler.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Rogue subclass (XGtE 2014) — CHA-based Rogue for duelists and pirates; Fancy Footwork prevents opportunity attacks after melee strikes; Sneak Attack without an ally nearby; Delmar Fisk is a Swashbuckler.
-tags:
-- rules
-- subclass
-- rogue
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, rogue]
+sources: [Xanathar's Guide to Everything (2014)]
+title: Swashbuckler
 confidence_level: medium
-sources:
-- Xanathar's Guide to Everything (2014)
-status: unknown
 ---
 
 # Swashbuckler

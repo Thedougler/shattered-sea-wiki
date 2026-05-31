@@ -1,21 +1,17 @@
 ---
-title: Way of Mercy
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Monk subclass (PHB 2024) — combat medic; Hand of Harm adds necrotic damage, Hand of Healing provides action-economic healing, Hand of Ultimate Mercy resurrects at Level 17.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Monk subclass (PHB 2024) — combat medic; Hand of Harm adds necrotic damage, Hand of Healing provides action-economic healing, Hand of Ultimate Mercy resurrects at Level 17.
-tags:
-- rules
-- subclass
-- monk
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, monk]
+sources: [PHB 2024]
+title: Way of Mercy
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Way of Mercy

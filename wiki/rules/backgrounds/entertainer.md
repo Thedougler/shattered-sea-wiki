@@ -1,20 +1,17 @@
 ---
-title: Entertainer
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Entertainer background — Strength, Dexterity, Charisma; Musician feat; Acrobatics and Performance proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Entertainer background — Strength, Dexterity, Charisma; Musician feat; Acrobatics and Performance proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:entertainer]
+title: Entertainer
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:entertainer
-status: unknown
 ---
 
 # Entertainer

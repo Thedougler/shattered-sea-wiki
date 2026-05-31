@@ -1,20 +1,17 @@
 ---
-title: Grappled
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Grappled condition — Speed 0; Disadvantage on attacks against anyone other than the grappler; grappler can move you at cost of 1 extra foot per foot moved.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Grappled condition — Speed 0; Disadvantage on attacks against anyone other than the grappler; grappler can move you at cost of 1 extra foot per foot moved.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Grappled
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Grappled

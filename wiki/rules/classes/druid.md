@@ -1,20 +1,17 @@
 ---
-title: Druid
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Druid — WIS-based primal full caster with Wild Shape, nature magic, and strong control/healing options.
 created: 2026-04-21
 updated: 2026-05-30
-summary: D&D 5e 2024 Druid — WIS-based primal full caster with Wild Shape, nature magic, and strong control/healing options.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Druid
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Druid

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [narrative-island, undead, hierarch, villain, late_game]
 sources: ["Inbox/Shepherd-Grigori.md"]
 portable: false

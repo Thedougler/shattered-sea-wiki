@@ -1,20 +1,17 @@
 ---
-title: Scribe
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Scribe background — Dexterity, Intelligence, Wisdom; Skilled feat; Investigation and Perception proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Scribe background — Dexterity, Intelligence, Wisdom; Skilled feat; Investigation and Perception proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:scribe]
+title: Scribe
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:scribe
-status: unknown
 ---
 
 # Scribe

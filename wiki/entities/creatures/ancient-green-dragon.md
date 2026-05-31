@@ -1,28 +1,24 @@
 ---
-title: Ancient Green Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 22 chromatic dragon; master manipulator with devastating poison breath and a taste for long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 22 chromatic dragon; master manipulator with devastating poison breath and a taste for long schemes over direct confrontation.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Ancient Green Dragon
-sources:
-- XMM
+title: Ancient Green Dragon
+aliases: [Ancient Green Dragon]
 cha: 22
 con: 25
 cr: 22
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 12
 environment: forest
 int: 20
@@ -30,7 +26,6 @@ page: 154
 statblock: inline
 str: 27
 wis: 17
-status: unknown
 ---
 
 # Ancient Green Dragon

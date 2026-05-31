@@ -1,20 +1,17 @@
 ---
-title: Harper
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Harper background — Dexterity, Intelligence, Charisma; Harper Agent feat; Performance and Sleight of Hand proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Harper background — Dexterity, Intelligence, Charisma; Harper Agent feat; Performance and Sleight of Hand proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:harper]
+title: Harper
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:harper
-status: unknown
 ---
 
 # Harper

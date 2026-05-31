@@ -1,20 +1,17 @@
 ---
-title: Invisible
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Invisible
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Invisible

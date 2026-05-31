@@ -1,31 +1,24 @@
 ---
-title: Adult Bronze Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 15 metallic dragon; the Stormwarden of the Galewall — a shapeshifting guide that appears during the worst crossings and is gone before anyone can ask its name.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 15 metallic dragon; the Stormwarden of the Galewall — a shapeshifting guide that appears during the worst crossings and is gone before anyone can ask its name.
-tags:
-- creature
-- dragon
-- dragon-metallic
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, dragon-metallic, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Adult Bronze Dragon
-- Stormwarden
-sources:
-- XMM
-- Homebrew
+title: Adult Bronze Dragon
+aliases: [Adult Bronze Dragon, Stormwarden]
 cha: 20
 con: 23
 cr: 15
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: coastal
 int: 16
@@ -33,7 +26,6 @@ page: 59
 statblock: inline
 str: 25
 wis: 15
-status: unknown
 ---
 
 # Adult Bronze Dragon

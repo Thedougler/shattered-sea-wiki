@@ -43,6 +43,8 @@ His presence fills a room. Warm, deliberate, genuinely curious about people. He 
 
 The party found Grigori in the galley with the table already set. He had made something real out of the galley's stores. He asked what kind of pirates they were. No trafficking, no cannibalism — near enough.
 
+The crew filed out from behind a locked door after he gave the signal. [[old-faas|Old Faas]] explained why they stayed loyal to Grigori despite the fear: Rook had taken six crew ashore at [[murrat|Murrat]] to retrieve a "specimen." Four came back needing the surgeon. [[alys-kuiper|Alys]] kept them alive as long as she could. Grigori sat with them through the night. *"They pulled through because of him. I'll say that plainly."* The crew does not know what that credit means.
+
 He told them about [[capn-gorgeous|Cap'n Gorgeous]] and [[rupert-knighton|Rupert Knighton]] — specifically that Knighton would send ships in response to Gorgeous's death. His condition for the surviving crew: anyone who wants off at the next port walks free. He said he was glad [[ket|Ket]] was freed.
 
 He has business in Calveno — a young heir whose physicians have given up on them.
@@ -56,6 +58,17 @@ He mentioned "Impuni" — someone he needs to reach in Calveno in time.
 At [[la-vasca|La Vasca]] he said his goodbyes, thanked the party for the voyage, and left alone. His handshake with [[delmar-fisk|Delmar]] was icy cold — not normal warmth, like touching a dead body.
 
 He expects his Calveno business concluded in a week or two.
+
+## Table Tells
+
+Three specific details for crew-time scenes or any moment a PC pays close attention:
+
+- **Never sleeps.** If it's late and someone checks, he's awake. He does not explain this.
+- **Hands always cold.** Every handshake. Not cool — cold, like pressing flesh that has been outside too long. He does not react to it.
+- **Prays at 3am in a language that isn't Common.** If someone catches him, he finishes, folds his hands, and turns to face them. He is not rattled if asked.
+
+> [!dm]
+> Do not explain any of these. If a player asks about one, ask back: *"What do you do?"* He will give a warm, partial non-answer. Move on.
 
 ## Current State
 

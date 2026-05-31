@@ -1,28 +1,24 @@
 ---
-title: Giant Weasel
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Giant Weasel
-sources:
-- XPHB
+title: Giant Weasel
+aliases: [Giant Weasel]
 cha: 5
 con: 10
 cr: 1/8
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 17
 environment: forest, grassland, hill
 int: 4
@@ -30,7 +26,6 @@ page: 351
 statblock: inline
 str: 11
 wis: 12
-status: unknown
 ---
 
 # Giant Weasel

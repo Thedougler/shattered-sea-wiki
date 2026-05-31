@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Fifteen, enthusiastic, knows every sailing manual by heart and has sailed on almost none of them — easiest recruit aboard, stays for any destination that sounds interesting."
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [crew, recurring]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Noor.md"]
 confidence_level: observed

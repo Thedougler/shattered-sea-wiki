@@ -1,27 +1,24 @@
 ---
-title: Goblin Hexer
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 3 fey goblin spellcaster; curses and debilitates enemies with fey magic, and can negate a hit against it once per round with Jinx.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 3 fey goblin spellcaster; curses and debilitates enemies with fey magic, and can negate a hit against it once per round with Jinx.
-tags:
-- creature
-- fey
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Goblin Hexer
-sources:
-- XMM
+title: Goblin Hexer
+aliases: [Goblin Hexer]
 cha: 10
 con: 12
 cr: 3
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: forest, grassland, hill, planar, underdark
 int: 16
@@ -29,7 +26,6 @@ page: 143
 statblock: inline
 str: 8
 wis: 10
-status: unknown
 ---
 
 # Goblin Hexer

@@ -1,21 +1,17 @@
 ---
-title: Wild Magic Sorcery
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Sorcerer subclass (PHB 2024) — chaotic magic; Tides of Chaos for Advantage, Bend Luck for ally/enemy roll manipulation (2 SP), Controlled Chaos doubles surge table results; lacks a prepared spell list.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Sorcerer subclass (PHB 2024) — chaotic magic; Tides of Chaos for Advantage, Bend Luck for ally/enemy roll manipulation (2 SP), Controlled Chaos doubles surge table results; lacks a prepared spell list.
-tags:
-- rules
-- subclass
-- sorcerer
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, sorcerer]
+sources: [PHB 2024]
+title: Wild Magic Sorcery
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Wild Magic Sorcery

@@ -1,28 +1,24 @@
 ---
-title: Swarm of Ravens
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/4 beast swarm from the cliffs of Vel-Orn; a carrion flock circling over a distressed vessel is a universally understood bad sign.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/4 beast swarm from the cliffs of Vel-Orn; a carrion flock circling over a distressed vessel is a universally understood bad sign.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Ravens
-sources:
-- XMM
+title: Swarm of Ravens
+aliases: [Swarm of Ravens]
 cha: 6
 con: 12
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: hill, swamp, urban
 int: 5
@@ -30,7 +26,6 @@ page: 371
 statblock: inline
 str: 6
 wis: 12
-status: unknown
 ---
 
 # Swarm of Ravens

@@ -1,21 +1,17 @@
 ---
-title: Battle Master
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Fighter subclass (PHB 2024) — tactical combat maneuvers using Superiority Dice; the most mechanically flexible Fighter subclass; Stripes Bitemore is a Battle Master.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Fighter subclass (PHB 2024) — tactical combat maneuvers using Superiority Dice; the most mechanically flexible Fighter subclass; Stripes Bitemore is a Battle Master.
-tags:
-- rules
-- subclass
-- fighter
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, fighter]
+sources: [PHB 2024]
+title: Battle Master
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Battle Master

@@ -1,27 +1,24 @@
 ---
-title: Goblin Boss
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1 fey goblin leader; commands minions and uses Redirect Attack to force an ally to take a hit meant for it.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1 fey goblin leader; commands minions and uses Redirect Attack to force an ally to take a hit meant for it.
-tags:
-- creature
-- fey
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Goblin Boss
-sources:
-- XMM
+title: Goblin Boss
+aliases: [Goblin Boss]
 cha: 10
 con: 10
 cr: 1
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: forest, grassland, hill, planar, underdark
 int: 10
@@ -29,7 +26,6 @@ page: 143
 statblock: inline
 str: 10
 wis: 8
-status: unknown
 ---
 
 # Goblin Boss

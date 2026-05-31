@@ -11,9 +11,9 @@ updated: 2026-05-30
 tags: [session, session-01, scene, read-aloud, jean-claude-tabarnack]
 sources: ["Inbox/sessions/01/Scene-06-Jean-Claude.md"]
 session_number: 1
+session_date: "unknown"
 beat_number: 6
 table_status: complete
-session_date: "unknown"
 ---
 
 # Beat 6: Jean-Claude

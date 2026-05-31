@@ -1,32 +1,25 @@
 ---
-title: Carpenters' Slip
 type: entity
 subtype: place
+campaign: shattered-sea
+status: active
+audience: dm
+publish: false
+summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches."
+created: 2026-05-15
+updated: 2026-05-30
+tags: [building, shipyard, calveno, le-paludi]
+sources: [Inbox/places/calveno/Carpenters-Slip.md]
+confidence_level: medium
+title: Carpenters' Slip
 category: location
 building_type: shipyard
 verb: Conceal
 unstable_condition: "Three cold-approach requests for off-book work this month — Savia refused all three but logged the hulls."
 consequence: "Without re-silhouetting, the Uncertainty reads as a Crown cutter to anyone who knows hull lines. Dravosi patrols, bounty hunters, and port inspectors in Crown-friendly waters will flag the ship on sight."
 link_of_relevance: "Perrin Black-Jaw (Warren connection through Nona)"
-publish: false
-audience: dm
-summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches."
-aliases:
-- The Carpenters Slip
-- Brentino's
-status: active
-campaign: shattered-sea
+aliases: [The Carpenters Slip, Brentino's]
 district: Le Paludi
-created: 2026-05-15
-updated: 2026-05-30
-tags:
-- building
-- shipyard
-- calveno
-- le-paludi
-sources:
-- Inbox/places/calveno/Carpenters-Slip.md
-confidence_level: medium
 ---
 
 # Carpenters' Slip

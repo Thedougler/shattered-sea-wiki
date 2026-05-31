@@ -1,20 +1,17 @@
 ---
-title: Artificer
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Artificer — half caster, master of magic items and tools, Replicate Magic Item is the signature feature.
 created: 2026-04-22
 updated: 2026-05-30
-summary: D&D 5e 2024 Artificer — half caster, master of magic items and tools, Replicate Magic Item is the signature feature.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [rpgbot.net Artificer Guide]
+title: Artificer
 confidence_level: medium
-sources:
-- rpgbot.net Artificer Guide
-status: unknown
 ---
 
 # Artificer

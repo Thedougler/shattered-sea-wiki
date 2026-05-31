@@ -1,28 +1,24 @@
 ---
-title: Animated Flying Sword
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno vault that does not distinguish between intruder and rescuer.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno vault that does not distinguish between intruder and rescuer.
-tags:
-- creature
-- construct
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, construct, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Animated Flying Sword
-sources:
-- XMM
+title: Animated Flying Sword
+aliases: [Animated Flying Sword]
 cha: 1
 con: 11
 cr: 1/4
 creature_type: construct
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: urban
 int: 1
@@ -30,7 +26,6 @@ page: 17
 statblock: inline
 str: 12
 wis: 5
-status: unknown
 ---
 
 # Animated Flying Sword

@@ -1,27 +1,22 @@
 ---
-title: Acqua Nera
 type: entity
 subtype: place
-category: location
-building_type: boatyard
-publish: true
-visibility: public
-audience: players
-summary: A hull conversion and repainting yard in Calveno's outer harbour, southwest approach — specialises in prize conversions and vessel re-identification, no Canal Commission filing on quiet work.
-aliases:
-- Acqua Nera
-status: active
 campaign: shattered-sea
-district: Outer Harbour, Southwest Approach
+status: active
+audience: players
+publish: true
+summary: A hull conversion and repainting yard in Calveno's outer harbour, southwest approach — specialises in prize conversions and vessel re-identification, no Canal Commission filing on quiet work.
 created: 2026-05-15
 updated: 2026-05-30
-tags:
-- building
-- shipyard
-- calveno
-sources:
-- Inbox/places/calveno/Acqua-Nera.md
+tags: [building, shipyard, calveno]
+sources: [Inbox/places/calveno/Acqua-Nera.md]
 confidence_level: medium
+title: Acqua Nera
+category: location
+building_type: boatyard
+visibility: public
+aliases: [Acqua Nera]
+district: Outer Harbour, Southwest Approach
 ---
 
 # Acqua Nera

@@ -1,27 +1,24 @@
 ---
-title: Ochre Jelly
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 2 ooze that deals acid damage and splits into smaller jellies when struck by lightning or slashing weapons.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 2 ooze that deals acid damage and splits into smaller jellies when struck by lightning or slashing weapons.
-tags:
-- creature
-- ooze
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, ooze]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Ochre Jelly
-sources:
-- XMM
+title: Ochre Jelly
+aliases: [Ochre Jelly]
 cha: 1
 con: 14
 cr: 2
 creature_type: ooze
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 6
 environment: underdark
 int: 2
@@ -29,7 +26,6 @@ page: 230
 statblock: inline
 str: 15
 wis: 6
-status: unknown
 ---
 
 # Ochre Jelly

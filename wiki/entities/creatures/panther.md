@@ -1,28 +1,24 @@
 ---
-title: Panther
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Panther
-sources:
-- XPHB
+title: Panther
+aliases: [Panther]
 cha: 7
 con: 10
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: forest, grassland, hill
 int: 3
@@ -30,7 +26,6 @@ page: 354
 statblock: inline
 str: 14
 wis: 14
-status: unknown
 ---
 
 # Panther

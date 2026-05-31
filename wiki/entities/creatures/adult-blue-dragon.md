@@ -1,29 +1,24 @@
 ---
-title: Adult Blue Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 16 chromatic dragon; territorial lightning breather laired in the Greyteeth reef system of the Crown Islands — it taxes shipping rather than hunting it.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 16 chromatic dragon; territorial lightning breather laired in the Greyteeth reef system of the Crown Islands — it taxes shipping rather than hunting it.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Adult Blue Dragon
-sources:
-- XMM
-- Homebrew
+title: Adult Blue Dragon
+aliases: [Adult Blue Dragon]
 cha: 20
 con: 23
 cr: 16
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: coastal, desert
 int: 16
@@ -31,7 +26,6 @@ page: 49
 statblock: inline
 str: 25
 wis: 15
-status: unknown
 ---
 
 # Adult Blue Dragon

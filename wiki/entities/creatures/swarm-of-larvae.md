@@ -1,28 +1,24 @@
 ---
-title: Swarm of Larvae
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
-tags:
-- creature
-- fiend
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, fiend, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Larvae
-sources:
-- XMM
+title: Swarm of Larvae
+aliases: [Swarm of Larvae]
 cha: 2
 con: 14
 cr: 1
 creature_type: fiend
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 11
 environment: planar, lower
 int: 6
@@ -30,7 +26,6 @@ page: 193
 statblock: inline
 str: 14
 wis: 12
-status: unknown
 ---
 
 # Swarm of Larvae

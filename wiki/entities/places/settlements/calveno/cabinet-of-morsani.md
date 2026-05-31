@@ -1,29 +1,22 @@
 ---
-title: The Cabinet of Morsani
 type: entity
 subtype: place
-category: location
-building_type: shop
-publish: true
-visibility: public
-audience: players
-summary: An eccentric magical curio dealer in the Velo Quarter — lanterns at all hours, things on the shelves that don't look the same twice, and an old man who knows the previous owner of everything and will not tell you how it ended.
-aliases:
-- Morsani's
-- Cabinet of Morsani
-status: active
 campaign: shattered-sea
-district: The Velo Quarter
+status: active
+audience: players
+publish: true
+summary: An eccentric magical curio dealer in the Velo Quarter — lanterns at all hours, things on the shelves that don't look the same twice, and an old man who knows the previous owner of everything and will not tell you how it ended.
 created: 2026-05-15
 updated: 2026-05-30
-tags:
-- building
-- shop
-- arcane
-- calveno
-sources:
-- Inbox/places/calveno/Cabinet-of-Morsani.md
+tags: [building, shop, arcane, calveno]
+sources: [Inbox/places/calveno/Cabinet-of-Morsani.md]
 confidence_level: medium
+title: The Cabinet of Morsani
+category: location
+building_type: shop
+visibility: public
+aliases: [Morsani's, Cabinet of Morsani]
+district: The Velo Quarter
 ---
 
 # The Cabinet of Morsani

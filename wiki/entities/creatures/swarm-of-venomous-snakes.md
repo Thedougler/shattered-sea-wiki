@@ -1,28 +1,24 @@
 ---
-title: Swarm of Venomous Snakes
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 2 beast swarm from a disturbed nest or flooded burrow; the interior undergrowth of Orak and the Verdant Scatter harbours more than it shows.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 2 beast swarm from a disturbed nest or flooded burrow; the interior undergrowth of Orak and the Verdant Scatter harbours more than it shows.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Venomous Snakes
-sources:
-- XMM
+title: Swarm of Venomous Snakes
+aliases: [Swarm of Venomous Snakes]
 cha: 3
 con: 11
 cr: 2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 18
 environment: coastal, desert, forest, grassland, hill, swamp
 int: 1
@@ -30,7 +26,6 @@ page: 371
 statblock: inline
 str: 8
 wis: 10
-status: unknown
 ---
 
 # Swarm of Venomous Snakes

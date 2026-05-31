@@ -1,20 +1,17 @@
 ---
-title: Unconscious
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Unconscious condition — Incapacitated and Prone, Speed 0, Advantage on attacks against you, auto-fail STR/DEX saves, any hit within 5 ft is a Critical Hit, unaware of surroundings.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Unconscious condition — Incapacitated and Prone, Speed 0, Advantage on attacks against you, auto-fail STR/DEX saves, any hit within 5 ft is a Critical Hit, unaware of surroundings.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Unconscious
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Unconscious

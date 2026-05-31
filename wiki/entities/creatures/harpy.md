@@ -1,28 +1,24 @@
 ---
-title: Harpy
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 1 monstrosity nesting in the sea cliffs of the Ashwall Islands and Meth-Var; Luring Song carries further than it should and compels victims toward the nest.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1 monstrosity nesting in the sea cliffs of the Ashwall Islands and Meth-Var; Luring Song carries further than it should and compels victims toward the nest.
-tags:
-- creature
-- monstrosity
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, monstrosity, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Harpy
-sources:
-- XMM
+title: Harpy
+aliases: [Harpy]
 cha: 13
 con: 12
 cr: 1
 creature_type: monstrosity
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 13
 environment: coastal, forest, hill, mountain
 int: 7
@@ -30,7 +26,6 @@ page: 164
 statblock: inline
 str: 12
 wis: 10
-status: unknown
 ---
 
 # Harpy

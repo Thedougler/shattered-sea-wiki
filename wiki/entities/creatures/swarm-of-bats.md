@@ -1,28 +1,24 @@
 ---
-title: Swarm of Bats
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/4 beast swarm roosting in the sea-cliff overhangs of the Ashwall Islands; the evening exodus sounds like distant thunder.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/4 beast swarm roosting in the sea-cliff overhangs of the Ashwall Islands; the evening exodus sounds like distant thunder.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Bats
-sources:
-- XMM
+title: Swarm of Bats
+aliases: [Swarm of Bats]
 cha: 4
 con: 10
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: forest, mountain, underdark, urban
 int: 2
@@ -30,7 +26,6 @@ page: 370
 statblock: inline
 str: 5
 wis: 12
-status: unknown
 ---
 
 # Swarm of Bats

@@ -1,20 +1,17 @@
 ---
-title: Blinded
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Blinded condition — can't see, auto-fail sight checks, attack rolls against you have Advantage, attack rolls you make have Disadvantage.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Blinded condition — can't see, auto-fail sight checks, attack rolls against you have Advantage, attack rolls you make have Disadvantage.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Blinded
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Blinded

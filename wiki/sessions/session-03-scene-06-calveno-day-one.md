@@ -11,6 +11,7 @@ updated: 2026-05-30
 tags: [session, session-03, scene, delmar-fisk, branca, calveno, umberlee]
 sources: ["Inbox/sessions/03/Scene-06-Calveno-Day-One.md"]
 session_number: 3
+session_date: unknown
 ---
 
 # Calveno Day One

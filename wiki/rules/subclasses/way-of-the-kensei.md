@@ -1,21 +1,17 @@
 ---
-title: Way of the Kensei
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Monk subclass (XGtE 2014) — weapons as extensions of the body; Kensei weapons, Agile Parry (+2 AC), Sharpen the Blade (+1/2/3 to attacks/damage), Unerring Accuracy; Crissdalynn Khinriss uses this subclass.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Monk subclass (XGtE 2014) — weapons as extensions of the body; Kensei weapons, Agile Parry (+2 AC), Sharpen the Blade (+1/2/3 to attacks/damage), Unerring Accuracy; Crissdalynn Khinriss uses this subclass.
-tags:
-- rules
-- subclass
-- monk
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, monk]
+sources: [Xanathar's Guide to Everything (2014)]
+title: Way of the Kensei
 confidence_level: medium
-sources:
-- Xanathar's Guide to Everything (2014)
-status: unknown
 ---
 
 # Way of the Kensei

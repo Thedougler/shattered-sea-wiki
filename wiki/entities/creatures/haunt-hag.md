@@ -1,29 +1,24 @@
 ---
-title: Haunt Hag
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 created: 2026-05-15
 updated: 2026-05-30
-summary: CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
-tags:
-- creature
-- fey
-- bestiary
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey, bestiary]
+sources: [Homebrew, Pointy Hat]
 confidence_level: high
-aliases:
-- Haunt Hag
-sources:
-- Homebrew
-- Pointy Hat
+title: Haunt Hag
+aliases: [Haunt Hag]
 cha: 10
 con: 16
 cr: 5
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: forest, urban
 int: 15
@@ -31,7 +26,6 @@ page: 0
 statblock: inline
 str: 9
 wis: 18
-status: unknown
 ---
 
 # Haunt Hag

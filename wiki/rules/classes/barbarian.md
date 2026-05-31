@@ -1,20 +1,17 @@
 ---
-title: Barbarian
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Barbarian — martial class with Rage for damage resistance and bonus damage; Constitution-heavy, front-line fighter.
 created: 2026-04-22
 updated: 2026-05-30
-summary: D&D 5e 2024 Barbarian — martial class with Rage for damage resistance and bonus damage; Constitution-heavy, front-line fighter.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Barbarian
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Barbarian

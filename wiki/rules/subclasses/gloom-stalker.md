@@ -1,21 +1,17 @@
 ---
-title: Gloom Stalker
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Ranger subclass (PHB 2024) — Scout/ambush specialist; Umbral Sight grants effective invisibility in darkness; Jean-Claude Tabarnack is a Gloom Stalker.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Ranger subclass (PHB 2024) — Scout/ambush specialist; Umbral Sight grants effective invisibility in darkness; Jean-Claude Tabarnack is a Gloom Stalker.
-tags:
-- rules
-- subclass
-- ranger
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, ranger]
+sources: [PHB 2024]
+title: Gloom Stalker
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Gloom Stalker

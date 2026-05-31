@@ -1,21 +1,17 @@
 ---
-title: Scion of the Three
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Rogue subclass (PHB 2024) — extra Sneak Attack via Reaction (Bloodthirst), deity-based combat buffs (Dread Allegiance), and fear-based crowd control; focused on direct damage.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Rogue subclass (PHB 2024) — extra Sneak Attack via Reaction (Bloodthirst), deity-based combat buffs (Dread Allegiance), and fear-based crowd control; focused on direct damage.
-tags:
-- rules
-- subclass
-- rogue
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, rogue]
+sources: [PHB 2024]
+title: Scion of the Three
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Scion of the Three

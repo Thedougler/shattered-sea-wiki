@@ -26,7 +26,7 @@ Recurring NPCs with ongoing narrative presence. Private motives and GM mechanics
 
 ---
 
-**[[bastian-crev|Bastian Crev]]** *(deceased)* — Combat specialist and captain of the *Loud Argument*, Fisk's gun brig. Drowned at the [[drowned-maw|Drowned Maw]]. His soul is inside [[delmar-fisk|Delmar Fisk]].
+**[[bastian-crev|Bastian Crev]]** *(deceased)* — Combat specialist and captain of the *Loud Argument*, Fisk's gun brig. Drowned at the [[the-drowned-maw|Drowned Maw]]. His soul is inside [[delmar-fisk|Delmar Fisk]].
 
 **[[beaumont-sel|Beaumont Sel]]** — Tortle captain of the *Saltwright*. Eleven years on the [[midchain|Midchain]]. Patient, practical, and rarely without his capuchin on his shoulder.
 

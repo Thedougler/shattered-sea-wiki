@@ -1,29 +1,24 @@
 ---
-title: Gentle Hag
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 created: 2026-05-15
 updated: 2026-05-30
-summary: CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
-tags:
-- creature
-- fey
-- bestiary
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey, bestiary]
+sources: [Homebrew, Pointy Hat]
 confidence_level: high
-aliases:
-- Gentle Hag
-sources:
-- Homebrew
-- Pointy Hat
+title: Gentle Hag
+aliases: [Gentle Hag]
 cha: 19
 con: 18
 cr: 7
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: forest, urban
 int: 17
@@ -31,7 +26,6 @@ page: 0
 statblock: inline
 str: 14
 wis: 15
-status: unknown
 ---
 
 # Gentle Hag

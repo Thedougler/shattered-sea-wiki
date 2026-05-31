@@ -1,28 +1,24 @@
 ---
-title: Animated Broom
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
-tags:
-- creature
-- construct
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, construct, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Animated Broom
-sources:
-- XMM
+title: Animated Broom
+aliases: [Animated Broom]
 cha: 1
 con: 10
 cr: 1/4
 creature_type: construct
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 17
 environment: urban
 int: 1
@@ -30,7 +26,6 @@ page: 16
 statblock: inline
 str: 10
 wis: 5
-status: unknown
 ---
 
 # Animated Broom

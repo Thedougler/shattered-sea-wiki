@@ -1,27 +1,24 @@
 ---
-title: Black Pudding
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 4 ooze that dissolves metal and wood on contact; splits into smaller puddings when hit with slashing or lightning damage.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 4 ooze that dissolves metal and wood on contact; splits into smaller puddings when hit with slashing or lightning damage.
-tags:
-- creature
-- ooze
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, ooze]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Black Pudding
-sources:
-- XMM
+title: Black Pudding
+aliases: [Black Pudding]
 cha: 1
 con: 16
 cr: 4
 creature_type: ooze
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 5
 environment: underdark
 int: 1
@@ -29,7 +26,6 @@ page: 42
 statblock: inline
 str: 16
 wis: 6
-status: unknown
 ---
 
 # Black Pudding

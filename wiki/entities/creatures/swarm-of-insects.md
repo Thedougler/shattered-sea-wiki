@@ -1,28 +1,24 @@
 ---
-title: Swarm of Insects
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Insects
-sources:
-- XMM
+title: Swarm of Insects
+aliases: [Swarm of Insects]
 cha: 1
 con: 14
 cr: 1/2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 13
 environment: desert, forest, grassland, hill, swamp, underdark, urban
 int: 1
@@ -30,7 +26,6 @@ page: 370
 statblock: inline
 str: 3
 wis: 7
-status: unknown
 ---
 
 # Swarm of Insects

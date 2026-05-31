@@ -10,10 +10,10 @@ created: 2026-05-17
 updated: 2026-05-30
 tags: [narrative-island, encounter, kalowe, combat, midchain]
 sources: ["Inbox/situations/islands/Mud-Pits.md"]
-narrative_island: mud-pits
 portable: false
 entry_points: []
 contains_situations: []
+narrative_island: mud-pits
 ---
 
 # The Mud Pits — DM Notes

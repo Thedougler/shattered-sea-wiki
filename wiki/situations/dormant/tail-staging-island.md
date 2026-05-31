@@ -11,9 +11,9 @@ updated: 2026-05-30
 tags: [situation, dormant, tail, shelfworks]
 sources: ["Inbox/situations/background/Tail-Staging-Island.md"]
 lifecycle: dormant
+narrative_island: ""
 confidence_level: medium
 aliases: [Shelfworks Staging Island]
-narrative_island: ""
 ---
 
 # Tail Staging Island

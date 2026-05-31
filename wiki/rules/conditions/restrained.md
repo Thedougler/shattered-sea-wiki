@@ -1,20 +1,17 @@
 ---
-title: Restrained
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Restrained condition — Speed 0, Advantage on attacks against you, Disadvantage on your attacks and Dexterity saves.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Restrained condition — Speed 0, Advantage on attacks against you, Disadvantage on your attacks and Dexterity saves.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Restrained
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Restrained

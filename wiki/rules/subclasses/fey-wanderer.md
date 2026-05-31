@@ -1,21 +1,17 @@
 ---
-title: Fey Wanderer Ranger
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Ranger subclass (PHB 2024) — WIS-based Face and spellcasting; Dreadful Strikes adds free psychic damage per turn; Misty Wanderer grants free Misty Step uses at L11.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Ranger subclass (PHB 2024) — WIS-based Face and spellcasting; Dreadful Strikes adds free psychic damage per turn; Misty Wanderer grants free Misty Step uses at L11.
-tags:
-- rules
-- subclass
-- ranger
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, ranger]
+sources: [PHB 2024]
+title: Fey Wanderer Ranger
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Fey Wanderer

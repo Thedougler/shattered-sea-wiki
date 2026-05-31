@@ -1,27 +1,24 @@
 ---
-title: Gas Spore Fungus
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1/2 fungal plant that explodes on death, releasing spores that infect creatures and reanimate their corpses as tiny gas spore fungi.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/2 fungal plant that explodes on death, releasing spores that infect creatures and reanimate their corpses as tiny gas spore fungi.
-tags:
-- creature
-- plant
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, plant]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Gas Spore Fungus
-sources:
-- XMM
+title: Gas Spore Fungus
+aliases: [Gas Spore Fungus]
 cha: 1
 con: 3
 cr: 1/2
 creature_type: plant
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 1
 environment: underdark
 int: 1
@@ -29,7 +26,6 @@ page: 125
 statblock: inline
 str: 5
 wis: 1
-status: unknown
 ---
 
 # Gas Spore Fungus

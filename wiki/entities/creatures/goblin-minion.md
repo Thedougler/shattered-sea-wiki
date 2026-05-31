@@ -1,27 +1,24 @@
 ---
-title: Goblin Minion
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1/8 fey goblin foot soldier; drops to 0 HP from any single hit — dangerous only in numbers.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/8 fey goblin foot soldier; drops to 0 HP from any single hit — dangerous only in numbers.
-tags:
-- creature
-- fey
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Goblin Minion
-sources:
-- XMM
+title: Goblin Minion
+aliases: [Goblin Minion]
 cha: 8
 con: 10
 cr: 1/8
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: forest, grassland, hill, planar, underdark
 int: 10
@@ -29,7 +26,6 @@ page: 142
 statblock: inline
 str: 8
 wis: 8
-status: unknown
 ---
 
 # Goblin Minion

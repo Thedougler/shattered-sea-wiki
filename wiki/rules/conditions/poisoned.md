@@ -1,20 +1,17 @@
 ---
-title: Poisoned
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Poisoned condition — Disadvantage on attack rolls and ability checks.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Poisoned condition — Disadvantage on attack rolls and ability checks.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Poisoned
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Poisoned

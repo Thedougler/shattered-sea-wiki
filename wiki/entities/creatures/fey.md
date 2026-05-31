@@ -1,23 +1,18 @@
 ---
-title: Fey
-publish: true
-visibility: public
-audience: players
-summary: Player index for fey creatures of the Shattered Sea — goblins are the primary fey threat in the Scatter's interior islands.
 type: index
 subtype: creature-index
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Player index for fey creatures of the Shattered Sea — goblins are the primary fey threat in the Scatter's interior islands.
 created: 2026-05-05
 updated: 2026-05-30
-tags:
-- player-resource
-- index
-- bestiary
-- creature
-sources:
-- Inbox/beastiary/fey/index.md
+tags: [player-resource, index, bestiary, creature]
+sources: [Inbox/beastiary/fey/index.md]
 confidence_level: medium
+title: Fey
+visibility: public
 ---
 
 # Fey

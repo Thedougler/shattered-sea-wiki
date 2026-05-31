@@ -1,21 +1,17 @@
 ---
-title: Assassin Rogue
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Rogue subclass (PHB 2024) — focused on massive turn-1 damage; Assassinate rewards going first in initiative with bonus damage and guaranteed Sneak Attack.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Rogue subclass (PHB 2024) — focused on massive turn-1 damage; Assassinate rewards going first in initiative with bonus damage and guaranteed Sneak Attack.
-tags:
-- rules
-- subclass
-- rogue
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, rogue]
+sources: [PHB 2024]
+title: Assassin Rogue
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Assassin

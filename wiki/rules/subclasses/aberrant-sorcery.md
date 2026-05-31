@@ -1,21 +1,17 @@
 ---
-title: Aberrant Sorcery
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Sorcerer subclass (PHB 2024) — psionic power derived from alien influence; Psionic Spells, SP-cost casting, Revelation in Flesh, and Warping Implosion.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Sorcerer subclass (PHB 2024) — psionic power derived from alien influence; Psionic Spells, SP-cost casting, Revelation in Flesh, and Warping Implosion.
-tags:
-- rules
-- subclass
-- sorcerer
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, sorcerer]
+sources: [PHB 2024]
+title: Aberrant Sorcery
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Aberrant Sorcery

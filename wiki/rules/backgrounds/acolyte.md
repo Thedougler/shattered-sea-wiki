@@ -1,20 +1,17 @@
 ---
-title: Acolyte
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Acolyte background — Intelligence, Wisdom, Charisma; Magic Initiate (Cleric) feat; Insight and Religion proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Acolyte background — Intelligence, Wisdom, Charisma; Magic Initiate (Cleric) feat; Insight and Religion proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:acolyte]
+title: Acolyte
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:acolyte
-status: unknown
 ---
 
 # Acolyte

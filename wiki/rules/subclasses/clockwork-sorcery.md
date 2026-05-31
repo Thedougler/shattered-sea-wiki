@@ -1,21 +1,17 @@
 ---
-title: Clockwork Sorcery
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Sorcerer subclass (PHB 2024) — orderly, reroll-focused magic; Restore Balance flips advantage/disadvantage on saves; Trance of Order guarantees minimum 10 on d20s.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Sorcerer subclass (PHB 2024) — orderly, reroll-focused magic; Restore Balance flips advantage/disadvantage on saves; Trance of Order guarantees minimum 10 on d20s.
-tags:
-- rules
-- subclass
-- sorcerer
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, sorcerer]
+sources: [PHB 2024]
+title: Clockwork Sorcery
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Clockwork Sorcery

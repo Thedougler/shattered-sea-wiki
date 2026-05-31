@@ -1,21 +1,17 @@
 ---
-title: Beast Master Ranger
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Ranger subclass (PHB 2024) — commands a Primal Companion beast that scales with WIS; both Striker and Defender; bypass Hunter's Mark in multi-target encounters.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Ranger subclass (PHB 2024) — commands a Primal Companion beast that scales with WIS; both Striker and Defender; bypass Hunter's Mark in multi-target encounters.
-tags:
-- rules
-- subclass
-- ranger
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, ranger]
+sources: [PHB 2024]
+title: Beast Master Ranger
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Beast Master

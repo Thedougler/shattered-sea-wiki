@@ -1,20 +1,17 @@
 ---
-title: Ranger
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Ranger — DEX+WIS half caster with Hunter's Mark, Favored Enemy, and Expertise; Jean-Claude Tabarnack is a Gloom Stalker Ranger.
 created: 2026-04-19
 updated: 2026-05-30
-summary: D&D 5e 2024 Ranger — DEX+WIS half caster with Hunter's Mark, Favored Enemy, and Expertise; Jean-Claude Tabarnack is a Gloom Stalker Ranger.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Ranger
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Ranger

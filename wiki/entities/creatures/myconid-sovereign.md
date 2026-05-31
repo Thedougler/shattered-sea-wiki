@@ -1,27 +1,24 @@
 ---
-title: Myconid Sovereign
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 2 fungal plant leader; rules myconid colonies and projects animating spores to reanimate the dead as servants.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 2 fungal plant leader; rules myconid colonies and projects animating spores to reanimate the dead as servants.
-tags:
-- creature
-- plant
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, plant]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Myconid Sovereign
-sources:
-- XMM
+title: Myconid Sovereign
+aliases: [Myconid Sovereign]
 cha: 10
 con: 14
 cr: 2
 creature_type: plant
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: underdark
 int: 13
@@ -29,7 +26,6 @@ page: 223
 statblock: inline
 str: 12
 wis: 15
-status: unknown
 ---
 
 # Myconid Sovereign

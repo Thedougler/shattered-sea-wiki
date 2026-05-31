@@ -1,20 +1,17 @@
 ---
-title: Wizard
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Wizard — INT full caster with the largest spell list; copies spells into a spellbook and can ritual cast from it without preparing.
 created: 2026-04-19
 updated: 2026-05-30
-summary: D&D 5e 2024 Wizard — INT full caster with the largest spell list; copies spells into a spellbook and can ritual cast from it without preparing.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Wizard
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Wizard

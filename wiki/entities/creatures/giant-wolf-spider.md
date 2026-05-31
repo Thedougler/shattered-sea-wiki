@@ -1,28 +1,24 @@
 ---
-title: Giant Wolf Spider
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Wolf Spider, a CR 1/4 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Wolf Spider
-sources:
-- XMM
+title: Giant Wolf Spider
+aliases: [Giant Wolf Spider]
 cha: 4
 con: 13
 cr: 1/4
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: coastal, desert, forest, grassland, hill
 int: 3
@@ -30,7 +26,6 @@ page: 362
 statblock: inline
 str: 12
 wis: 12
-status: unknown
 ---
 
 # Giant Wolf Spider

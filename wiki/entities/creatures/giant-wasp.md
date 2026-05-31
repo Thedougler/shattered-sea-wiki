@@ -1,28 +1,24 @@
 ---
-title: Giant Wasp
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-summary: Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Wasp
-sources:
-- XMM
+title: Giant Wasp
+aliases: [Giant Wasp]
 cha: 3
 con: 10
 cr: 1/2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: forest, grassland, urban
 int: 1
@@ -30,7 +26,6 @@ page: 361
 statblock: inline
 str: 10
 wis: 10
-status: unknown
 ---
 
 # Giant Wasp

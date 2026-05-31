@@ -1,27 +1,20 @@
 ---
-title: Il Palio delle Voci Contese
-category: lore
 type: lore
 subtype: event
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: Calveno's annual open bardic competition — multiple bands playing simultaneously across the canal district for three hours while crowds move between them, judged by which stage holds the most people at the end.
 created: 2026-05-17
 updated: 2026-05-30
-summary: Calveno's annual open bardic competition — multiple bands playing simultaneously across the canal district for three hours while crowds move between them, judged by which stage holds the most people at the end.
-aliases:
-- Il Palio delle Voci
-- Il Palio
-- Battle of the Bands
-tags:
-- event
-- calveno
-- crown-islands
-campaign: shattered-sea
-audience: players
+tags: [event, calveno, crown-islands]
+sources: [Homebrew]
+title: Il Palio delle Voci Contese
+category: lore
+aliases: [Il Palio delle Voci, Il Palio, Battle of the Bands]
 timeline_position: during campaign
 confidence_level: medium
-sources:
-- Homebrew
-status: unknown
 ---
 
 # Il Palio delle Voci Contese

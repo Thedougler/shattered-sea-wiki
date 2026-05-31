@@ -1,20 +1,17 @@
 ---
-title: Cleric
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Cleric — WIS-based divine full caster with Heavy armor, Channel Divinity, and strong healing/support capability.
 created: 2026-04-22
 updated: 2026-05-30
-summary: D&D 5e 2024 Cleric — WIS-based divine full caster with Heavy armor, Channel Divinity, and strong healing/support capability.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Cleric
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Cleric

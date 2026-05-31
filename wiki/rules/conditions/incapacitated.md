@@ -1,20 +1,17 @@
 ---
-title: Incapacitated
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Incapacitated condition — can't take actions or reactions, Concentration broken, can't speak; Disadvantage on Initiative if Incapacitated when rolling.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Incapacitated condition — can't take actions or reactions, Concentration broken, can't speak; Disadvantage on Initiative if Incapacitated when rolling.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Incapacitated
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Incapacitated

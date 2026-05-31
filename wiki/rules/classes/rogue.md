@@ -1,20 +1,17 @@
 ---
-title: Rogue
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Rogue — DEX-based Sneak Attack, Expertise, and Cunning Action; Delmar Fisk is a Swashbuckler Rogue.
 created: 2026-04-19
 updated: 2026-05-30
-summary: D&D 5e 2024 Rogue — DEX-based Sneak Attack, Expertise, and Cunning Action; Delmar Fisk is a Swashbuckler Rogue.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Rogue
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Rogue

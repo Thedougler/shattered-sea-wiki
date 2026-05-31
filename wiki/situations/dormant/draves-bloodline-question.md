@@ -10,9 +10,9 @@ created: 2026-05-13
 updated: 2026-05-30
 tags: [situation, revelation, dravosi, bloodline, geoffrey-draves, mid-game]
 sources: ["Inbox/situations/revelations/The-Draves-Bloodline-Question.md"]
-reveal_tier: mid
 lifecycle: dormant
 narrative_island: ""
+reveal_tier: mid
 ---
 
 # The Draves Bloodline Question

@@ -1,21 +1,17 @@
 ---
-title: Winter Walker Ranger
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Ranger subclass (Forgotten Realms Heroes of Faerun 2024) — cold damage specialist; Polar Strikes adds WIS to cold rolls; Frozen Haunt at L11 grants cold immunity and partial incorporeality.
 created: 2026-04-21
 updated: 2026-05-30
-summary: Ranger subclass (Forgotten Realms Heroes of Faerun 2024) — cold damage specialist; Polar Strikes adds WIS to cold rolls; Frozen Haunt at L11 grants cold immunity and partial incorporeality.
-tags:
-- rules
-- subclass
-- ranger
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, ranger]
+sources: [Forgotten Realms Heroes of Faerun (2024)]
+title: Winter Walker Ranger
 confidence_level: medium
-sources:
-- Forgotten Realms Heroes of Faerun (2024)
-status: unknown
 ---
 
 # Winter Walker

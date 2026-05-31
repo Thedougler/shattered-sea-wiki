@@ -1,5 +1,4 @@
 ---
-title: Daily Update Log
 type: system
 subtype: log
 campaign: shattered-sea
@@ -11,6 +10,7 @@ created: 2026-05-30
 updated: 2026-05-30
 tags: [system, log, daily-update]
 sources: []
+title: Daily Update Log
 ---
 
 # Daily Update Log

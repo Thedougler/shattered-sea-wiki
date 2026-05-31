@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Ship's surgeon — calm, competent, doing inventory while waiting to see if the new management understands what a surgeon's post actually is."
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [crew, surgeon, recurring]
 sources: ["Inbox/Alys-Kuiper.md"]
 confidence_level: observed

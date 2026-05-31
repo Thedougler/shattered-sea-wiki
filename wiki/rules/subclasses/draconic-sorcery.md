@@ -1,21 +1,17 @@
 ---
-title: Draconic Sorcery
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Sorcerer subclass (PHB 2024) — draconic power grants AC bonus, HP boost, elemental resistance and damage bonus, Dragon Wings at 14, Dragon Companion at 18; the generalist Sorcerer.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Sorcerer subclass (PHB 2024) — draconic power grants AC bonus, HP boost, elemental resistance and damage bonus, Dragon Wings at 14, Dragon Companion at 18; the generalist Sorcerer.
-tags:
-- rules
-- subclass
-- sorcerer
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, sorcerer]
+sources: [PHB 2024]
+title: Draconic Sorcery
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Draconic Sorcery

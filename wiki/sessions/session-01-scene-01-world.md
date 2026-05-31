@@ -11,16 +11,16 @@ updated: 2026-05-30
 tags: [session, session-01, scene, read-aloud]
 sources: ["Inbox/sessions/01/Scene-01-The-World.md"]
 session_number: 1
+session_date: "unknown"
 beat_number: 1
 table_status: complete
-session_date: "unknown"
 ---
 
 # Beat 1: The World
 
 *The Shattered Sea.*
 
-*Sixty thousand square miles of reef and deep water, bounded on two sides by things that wreck ships. To the west: the [[galewall|Galewall]], a permanent storm belt the colonial homelands sit beyond. To the east: the [[drowned-maw|Drowned Maw]], a deep sea trench rumoured to be bottomless and causing compass needles to drift. Between them: two arcs of limestone and rainforest, hundreds of islands. And things that were here long before the first foreign flag went into the sand.*
+*Sixty thousand square miles of reef and deep water, bounded on two sides by things that wreck ships. To the west: the [[galewall|Galewall]], a permanent storm belt the colonial homelands sit beyond. To the east: the [[the-drowned-maw|Drowned Maw]], a deep sea trench rumoured to be bottomless and causing compass needles to drift. Between them: two arcs of limestone and rainforest, hundreds of islands. And things that were here long before the first foreign flag went into the sand.*
 
 *Two powers have spent three centuries deciding this sea belongs to them. The [[dravosi-crown|Dravosi Crown]] holds the northern arc in brass stamps and inspection seals. The [[tessarine-concordat|Tessarine Concordat]] does not conquer — it lends, and waits, and by the time a city notices, half its council is servicing Concordat debt. And beneath both, older than either, [[the-passage|the Passage]] — the [[rattkin|Rattkin]] network of routes and shelters running through every port's foundations. It does not appear on colonial charts. It does not ask permission. The Rattkin were here before the first ship arrived and have been inside every wall built since.*
 

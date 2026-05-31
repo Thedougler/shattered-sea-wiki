@@ -1,28 +1,24 @@
 ---
-title: Killer Whale
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 3 beast; hunts in pods through the cold open water of the Outer Reach — a shark is an event, a pod of killer whales is a situation that develops.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 3 beast; hunts in pods through the cold open water of the Outer Reach — a shark is an event, a pod of killer whales is a situation that develops.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Killer Whale
-sources:
-- XMM
+title: Killer Whale
+aliases: [Killer Whale]
 cha: 7
 con: 13
 cr: 3
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: underwater
 int: 3
@@ -30,7 +26,6 @@ page: 364
 statblock: inline
 str: 19
 wis: 12
-status: unknown
 ---
 
 # Killer Whale

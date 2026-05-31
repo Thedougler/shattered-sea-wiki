@@ -1,28 +1,24 @@
 ---
-title: Giant Squid
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: The Giant Squid, a CR 6 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-summary: The Giant Squid, a CR 6 beast in the Shattered Sea bestiary.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Giant Squid
-sources:
-- XMM
+title: Giant Squid
+aliases: [Giant Squid]
 cha: 4
 con: 12
 cr: 6
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: underwater
 int: 5
@@ -30,7 +26,6 @@ page: 360
 statblock: inline
 str: 23
 wis: 11
-status: unknown
 ---
 
 # Giant Squid

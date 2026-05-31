@@ -1,20 +1,17 @@
 ---
-title: Stunned
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Stunned condition — Incapacitated, auto-fail STR/DEX saves, Advantage on attacks against you.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Stunned condition — Incapacitated, auto-fail STR/DEX saves, Advantage on attacks against you.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Stunned
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Stunned

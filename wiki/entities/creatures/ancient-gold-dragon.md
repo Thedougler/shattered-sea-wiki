@@ -1,27 +1,24 @@
 ---
-title: Ancient Gold Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
 created: 2026-04-21
 updated: 2026-05-30
-summary: CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
-tags:
-- creature
-- dragon
-- dragon-metallic
-campaign: shattered-sea
-audience: dm
-subtype: monster
-confidence_level: high
-aliases:
-- Ancient Gold Dragon
+tags: [creature, dragon, dragon-metallic]
 sources: []
+confidence_level: high
+title: Ancient Gold Dragon
+aliases: [Ancient Gold Dragon]
 cha: 28
 con: 29
 cr: 24
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: coastal, grassland, underwater
 int: 18
@@ -29,7 +26,6 @@ page: 123
 statblock: inline
 str: 30
 wis: 17
-status: unknown
 ---
 
 # Ancient Gold Dragon

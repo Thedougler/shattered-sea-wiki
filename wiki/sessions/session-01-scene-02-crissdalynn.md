@@ -11,9 +11,9 @@ updated: 2026-05-30
 tags: [session, session-01, scene, read-aloud, crissdalynn-khinriss]
 sources: ["Inbox/sessions/01/Scene-02-Crissdalynn.md"]
 session_number: 1
+session_date: "unknown"
 beat_number: 2
 table_status: complete
-session_date: "unknown"
 ---
 
 # Beat 2: Crissdalynn

@@ -1,21 +1,17 @@
 ---
-title: Spellfire Sorcery
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Sorcerer subclass (Fiends of Fey & Flame 2024) — divine radiant magic; Spellfire Burst rider effects, Absorb Spells defensive tool, Greater Restoration at 11th level; support-oriented.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Sorcerer subclass (Fiends of Fey & Flame 2024) — divine radiant magic; Spellfire Burst rider effects, Absorb Spells defensive tool, Greater Restoration at 11th level; support-oriented.
-tags:
-- rules
-- subclass
-- sorcerer
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, sorcerer]
+sources: [Fiends of Fey and Flame (2024)]
+title: Spellfire Sorcery
 confidence_level: medium
-sources:
-- Fiends of Fey and Flame (2024)
-status: unknown
 ---
 
 # Spellfire Sorcery

@@ -1,29 +1,24 @@
 ---
-title: Ancient Blue Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 23 chromatic dragon laired in the Redwind Isles of the Outer Reach; it has made the islands uninhabitable and doesn't need to explain itself.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 23 chromatic dragon laired in the Redwind Isles of the Outer Reach; it has made the islands uninhabitable and doesn't need to explain itself.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Ancient Blue Dragon
-sources:
-- XMM
-- Homebrew
+title: Ancient Blue Dragon
+aliases: [Ancient Blue Dragon]
 cha: 25
 con: 27
 cr: 23
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: coastal, desert
 int: 18
@@ -31,7 +26,6 @@ page: 50
 statblock: inline
 str: 29
 wis: 17
-status: unknown
 ---
 
 # Ancient Blue Dragon

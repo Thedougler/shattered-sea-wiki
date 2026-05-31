@@ -1,20 +1,17 @@
 ---
-title: Prone
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Prone condition — only movement option is to crawl or spend half Speed to stand; Disadvantage on attacks; attacks against you have Advantage within 5 ft, Disadvantage otherwise.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Prone condition — only movement option is to crawl or spend half Speed to stand; Disadvantage on attacks; attacks against you have Advantage within 5 ft, Disadvantage otherwise.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Prone
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Prone

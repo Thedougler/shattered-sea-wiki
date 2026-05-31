@@ -1,27 +1,24 @@
 ---
-title: Myconid Spore Servant
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1 plant creature animated by myconid sovereign spores; retains no personality, only function.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1 plant creature animated by myconid sovereign spores; retains no personality, only function.
-tags:
-- creature
-- plant
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, plant]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Myconid Spore Servant
-sources:
-- XMM
+title: Myconid Spore Servant
+aliases: [Myconid Spore Servant]
 cha: 1
 con: 16
 cr: 1
 creature_type: plant
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 12
 environment: underdark
 int: 2
@@ -29,7 +26,6 @@ page: 223
 statblock: inline
 str: 16
 wis: 6
-status: unknown
 ---
 
 # Myconid Spore Servant

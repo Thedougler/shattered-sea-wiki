@@ -1,29 +1,24 @@
 ---
-title: Adult Black Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 14 chromatic dragon; amphibious acid breather that lairs in the Doldrums' mangrove shallows — a becalmed ship is close to ideal hunting.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 14 chromatic dragon; amphibious acid breather that lairs in the Doldrums' mangrove shallows — a becalmed ship is close to ideal hunting.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Adult Black Dragon
-sources:
-- XMM
-- Homebrew
+title: Adult Black Dragon
+aliases: [Adult Black Dragon]
 cha: 19
 con: 21
 cr: 14
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: swamp
 int: 14
@@ -31,7 +26,6 @@ page: 39
 statblock: inline
 str: 23
 wis: 13
-status: unknown
 ---
 
 # Adult Black Dragon

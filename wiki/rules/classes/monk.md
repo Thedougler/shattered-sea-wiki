@@ -1,20 +1,17 @@
 ---
-title: Monk
 type: rules
 subtype: class
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Monk — DEX+WIS unarmored class with Martial Arts, Focus Points, and Stunning Strike; Crissdalynn Khinriss is a Kensei Monk.
 created: 2026-04-19
 updated: 2026-05-30
-summary: D&D 5e 2024 Monk — DEX+WIS unarmored class with Martial Arts, Focus Points, and Stunning Strike; Crissdalynn Khinriss is a Kensei Monk.
-tags:
-- rules
-- class
-campaign: shattered-sea
-audience: dm
+tags: [rules, class]
+sources: [PHB 2024]
+title: Monk
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Monk

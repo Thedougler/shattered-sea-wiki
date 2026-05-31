@@ -1,21 +1,17 @@
 ---
-title: Great Old One
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Warlock subclass (PHB 2024) — alien patron grants telepathy, aberration knowledge, Entropic Ward, and eventually Devouring Blade; Perrin Black-Jaw is a Great Old One Warlock.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Warlock subclass (PHB 2024) — alien patron grants telepathy, aberration knowledge, Entropic Ward, and eventually Devouring Blade; Perrin Black-Jaw is a Great Old One Warlock.
-tags:
-- rules
-- subclass
-- warlock
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, warlock]
+sources: [PHB 2024]
+title: Great Old One
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Great Old One

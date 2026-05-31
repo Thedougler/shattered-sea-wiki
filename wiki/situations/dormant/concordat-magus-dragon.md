@@ -10,9 +10,9 @@ created: 2026-05-13
 updated: 2026-05-30
 tags: [situation, revelation, tessarine, dragon, late-game]
 sources: ["Inbox/situations/revelations/Concordat-True-Architect.md"]
-reveal_tier: late
 lifecycle: dormant
 narrative_island: ""
+reveal_tier: late
 ---
 
 # What Is the Tessarine Concordat's True Architect

@@ -1,27 +1,24 @@
 ---
-title: Goblin Warrior
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1/4 fey goblin combatant; Nimble Escape lets it disengage or hide as a bonus action, making it frustrating to pin down.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/4 fey goblin combatant; Nimble Escape lets it disengage or hide as a bonus action, making it frustrating to pin down.
-tags:
-- creature
-- fey
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, fey]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Goblin Warrior
-sources:
-- XMM
+title: Goblin Warrior
+aliases: [Goblin Warrior]
 cha: 8
 con: 10
 cr: 1/4
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: forest, grassland, hill, planar, underdark
 int: 10
@@ -29,7 +26,6 @@ page: 142
 statblock: inline
 str: 8
 wis: 8
-status: unknown
 ---
 
 # Goblin Warrior

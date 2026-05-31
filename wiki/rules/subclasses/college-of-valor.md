@@ -1,21 +1,17 @@
 ---
-title: College of Valor
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Bard subclass (PHB 2024) — martial Bard with Medium armor, Martial weapons, Combat Inspiration for offense/defense, and Extra Attack at Level 6.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Bard subclass (PHB 2024) — martial Bard with Medium armor, Martial weapons, Combat Inspiration for offense/defense, and Extra Attack at Level 6.
-tags:
-- rules
-- subclass
-- bard
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, bard]
+sources: [PHB 2024]
+title: College of Valor
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # College of Valor

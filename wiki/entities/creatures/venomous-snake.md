@@ -1,28 +1,24 @@
 ---
-title: Venomous Snake
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1/8 beast; common bite hazard of the Verdant Teeth undergrowth, small enough to go unnoticed until stepped on.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1/8 beast; common bite hazard of the Verdant Teeth undergrowth, small enough to go unnoticed until stepped on.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Venomous Snake
-sources:
-- XPHB
+title: Venomous Snake
+aliases: [Venomous Snake]
 cha: 3
 con: 11
 cr: 1/8
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: coastal, desert, forest, grassland, hill, swamp
 int: 1
@@ -30,7 +26,6 @@ page: 358
 statblock: inline
 str: 2
 wis: 10
-status: unknown
 ---
 
 # Venomous Snake

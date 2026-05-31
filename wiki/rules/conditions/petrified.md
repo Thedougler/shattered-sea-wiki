@@ -1,20 +1,17 @@
 ---
-title: Petrified
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Petrified condition — transformed into inanimate stone; Incapacitated, Speed 0, Resistance all damage, Immunity Poisoned, Advantage on attacks against you, auto-fail STR/DEX saves.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Petrified condition — transformed into inanimate stone; Incapacitated, Speed 0, Resistance all damage, Immunity Poisoned, Advantage on attacks against you, auto-fail STR/DEX saves.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Petrified
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Petrified

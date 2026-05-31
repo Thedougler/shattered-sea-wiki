@@ -1,20 +1,17 @@
 ---
-title: Guide
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Guide background — Dexterity, Constitution, Wisdom; Magic Initiate (Druid) feat; Stealth and Survival proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Guide background — Dexterity, Constitution, Wisdom; Magic Initiate (Druid) feat; Stealth and Survival proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:guide]
+title: Guide
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:guide
-status: unknown
 ---
 
 # Guide

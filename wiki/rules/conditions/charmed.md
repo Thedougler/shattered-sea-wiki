@@ -1,20 +1,17 @@
 ---
-title: Charmed
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Charmed condition — can't attack or target the charmer with harm; the charmer has Advantage on social ability checks against you.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Charmed condition — can't attack or target the charmer with harm; the charmer has Advantage on social ability checks against you.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Charmed
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Charmed

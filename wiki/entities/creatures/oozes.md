@@ -1,23 +1,18 @@
 ---
-title: Oozes
-publish: true
-visibility: public
-audience: players
-summary: Player index for oozes of the Shattered Sea — mindless dissolving predators of the underdark with no confirmed surface sightings.
 type: index
 subtype: creature-index
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Player index for oozes of the Shattered Sea — mindless dissolving predators of the underdark with no confirmed surface sightings.
 created: 2026-05-05
 updated: 2026-05-30
-tags:
-- player-resource
-- index
-- bestiary
-- creature
-sources:
-- Inbox/beastiary/ooze/index.md
+tags: [player-resource, index, bestiary, creature]
+sources: [Inbox/beastiary/ooze/index.md]
 confidence_level: medium
+title: Oozes
+visibility: public
 ---
 
 # Oozes

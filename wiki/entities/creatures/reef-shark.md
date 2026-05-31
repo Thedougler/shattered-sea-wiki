@@ -1,28 +1,24 @@
 ---
-title: Reef Shark
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Reef Shark
-sources:
-- XPHB
+title: Reef Shark
+aliases: [Reef Shark]
 cha: 4
 con: 13
 cr: 1/2
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: underwater
 int: 1
@@ -30,7 +26,6 @@ page: 356
 statblock: inline
 str: 14
 wis: 10
-status: unknown
 ---
 
 # Reef Shark

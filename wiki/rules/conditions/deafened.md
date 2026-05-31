@@ -1,20 +1,17 @@
 ---
-title: Deafened
 type: rules
 subtype: condition
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Deafened condition — can't hear, auto-fail hearing checks.
 created: 2026-04-20
 updated: 2026-05-30
-summary: Deafened condition — can't hear, auto-fail hearing checks.
-tags:
-- rules
-- condition
-campaign: shattered-sea
-audience: dm
+tags: [rules, condition]
+sources: [PHB 2024]
+title: Deafened
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Deafened

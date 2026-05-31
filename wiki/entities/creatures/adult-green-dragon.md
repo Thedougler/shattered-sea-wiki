@@ -1,28 +1,24 @@
 ---
-title: Adult Green Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Adult Green Dragon
-sources:
-- XMM
+title: Adult Green Dragon
+aliases: [Adult Green Dragon]
 cha: 18
 con: 21
 cr: 15
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 12
 environment: forest
 int: 18
@@ -30,7 +26,6 @@ page: 153
 statblock: inline
 str: 23
 wis: 15
-status: unknown
 ---
 
 # Adult Green Dragon

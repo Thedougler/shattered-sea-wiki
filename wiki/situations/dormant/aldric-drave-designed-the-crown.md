@@ -10,9 +10,9 @@ created: 2026-05-13
 updated: 2026-05-30
 tags: [situation, revelation, dravosi, lich, aldric-drave, late-game]
 sources: ["Inbox/situations/revelations/Aldric-Drave-Crown.md"]
-reveal_tier: late
 lifecycle: dormant
 narrative_island: ""
+reveal_tier: late
 ---
 
 # Who Designed the Dravosi Crown

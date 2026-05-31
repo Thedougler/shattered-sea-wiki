@@ -1,28 +1,24 @@
 ---
-title: Swarm of Piranhas
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: A CR 1 beast swarm of freshwater predators found in still interior lakes and spring-fed pools of the Midchain; the Vatumei lake margins are known to locals.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A CR 1 beast swarm of freshwater predators found in still interior lakes and spring-fed pools of the Midchain; the Vatumei lake margins are known to locals.
-tags:
-- creature
-- beast
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, beast, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Swarm of Piranhas
-sources:
-- XMM
+title: Swarm of Piranhas
+aliases: [Swarm of Piranhas]
 cha: 2
 con: 9
 cr: 1
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: underwater
 int: 1
@@ -30,7 +26,6 @@ page: 370
 statblock: inline
 str: 13
 wis: 7
-status: unknown
 ---
 
 # Swarm of Piranhas

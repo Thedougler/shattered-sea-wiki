@@ -1,14 +1,14 @@
 ---
-summary: Visual style guide for AI-generated campaign art — agents read this before every image generation task
-tags: [system, meta]
 type: system
 subtype: system-file
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
+summary: Visual style guide for AI-generated campaign art — agents read this before every image generation task
 created: 2026-05-30
 updated: 2026-05-30
+tags: [system, meta]
 sources: []
 system_role: style-guide
 token_profile: on-demand

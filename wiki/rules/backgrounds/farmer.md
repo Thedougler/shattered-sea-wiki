@@ -1,20 +1,17 @@
 ---
-title: Farmer
 type: rules
 subtype: background
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: D&D 5e 2024 Farmer background — Strength, Constitution, Wisdom; Tough feat; Animal Handling and Nature proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-summary: D&D 5e 2024 Farmer background — Strength, Constitution, Wisdom; Tough feat; Animal Handling and Nature proficiencies.
-tags:
-- rules
-- background
-campaign: shattered-sea
-audience: dm
+tags: [rules, background]
+sources: [http://dnd2024.wikidot.com/background:farmer]
+title: Farmer
 confidence_level: medium
-sources:
-- http://dnd2024.wikidot.com/background:farmer
-status: unknown
 ---
 
 # Farmer

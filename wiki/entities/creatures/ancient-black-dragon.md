@@ -1,29 +1,24 @@
 ---
-title: Ancient Black Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
-tags:
-- creature
-- dragon
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Ancient Black Dragon
-sources:
-- XMM
-- Homebrew
+title: Ancient Black Dragon
+aliases: [Ancient Black Dragon]
 cha: 22
 con: 25
 cr: 21
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: swamp
 int: 16
@@ -31,7 +26,6 @@ page: 40
 statblock: inline
 str: 27
 wis: 15
-status: unknown
 ---
 
 # Ancient Black Dragon

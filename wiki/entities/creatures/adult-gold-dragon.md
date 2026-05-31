@@ -1,27 +1,24 @@
 ---
-title: Adult Gold Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
 created: 2026-04-21
 updated: 2026-05-30
-summary: CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
-tags:
-- creature
-- dragon
-- dragon-metallic
-campaign: shattered-sea
-audience: dm
-subtype: monster
-confidence_level: high
-aliases:
-- Adult Gold Dragon
+tags: [creature, dragon, dragon-metallic]
 sources: []
+confidence_level: high
+title: Adult Gold Dragon
+aliases: [Adult Gold Dragon]
 cha: 24
 con: 25
 cr: 17
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: coastal, grassland, underwater
 int: 16
@@ -29,7 +26,6 @@ page: 122
 statblock: inline
 str: 27
 wis: 15
-status: unknown
 ---
 
 # Adult Gold Dragon

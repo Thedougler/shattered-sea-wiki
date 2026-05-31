@@ -1,21 +1,17 @@
 ---
-title: Soulknife Rogue
 type: rules
 subtype: subclass
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: Rogue subclass (PHB 2024) — psionics-based; Psionic Energy Dice pool fuels Psychic Blades, telepathy, and bonus features; reliable and satisfying — benefits even on failed rolls.
 created: 2026-04-23
 updated: 2026-05-30
-summary: Rogue subclass (PHB 2024) — psionics-based; Psionic Energy Dice pool fuels Psychic Blades, telepathy, and bonus features; reliable and satisfying — benefits even on failed rolls.
-tags:
-- rules
-- subclass
-- rogue
-campaign: shattered-sea
-audience: dm
+tags: [rules, subclass, rogue]
+sources: [PHB 2024]
+title: Soulknife Rogue
 confidence_level: medium
-sources:
-- PHB 2024
-status: unknown
 ---
 
 # Soulknife

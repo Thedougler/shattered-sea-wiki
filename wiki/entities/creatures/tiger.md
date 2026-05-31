@@ -1,27 +1,24 @@
 ---
-title: Tiger
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
-tags:
-- creature
-- beast
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, beast]
+sources: [XPHB]
 confidence_level: high
-aliases:
-- Tiger
-sources:
-- XPHB
+title: Tiger
+aliases: [Tiger]
 cha: 8
 con: 14
 cr: 1
 creature_type: beast
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 16
 environment: forest, grassland
 int: 3
@@ -29,7 +26,6 @@ page: 358
 statblock: inline
 str: 17
 wis: 12
-status: unknown
 ---
 
 # Tiger

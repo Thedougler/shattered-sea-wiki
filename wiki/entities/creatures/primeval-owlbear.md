@@ -1,28 +1,24 @@
 ---
-title: Primeval Owlbear
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: dm
 publish: false
+summary: A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 created: 2026-04-25
 updated: 2026-05-30
-summary: A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
-tags:
-- creature
-- monstrosity
-- bestiary
-campaign: shattered-sea
-audience: dm
-subtype: monster
+tags: [creature, monstrosity, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Primeval Owlbear
-sources:
-- XMM
+title: Primeval Owlbear
+aliases: [Primeval Owlbear]
 cha: 7
 con: 19
 cr: 7
 creature_type: monstrosity
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 14
 environment: forest
 int: 8
@@ -30,7 +26,6 @@ page: 234
 statblock: inline
 str: 22
 wis: 15
-status: unknown
 ---
 
 # Primeval Owlbear

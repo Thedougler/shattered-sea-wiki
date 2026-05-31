@@ -12,6 +12,7 @@ tags:
   - session
 sources:
   - "Inbox/Session-02-Recap.md"
+  - "Inbox/sessions/02/session-02-canonical-summary.md"
 session_number: 2
 session_date: 2026-05-18
 ---

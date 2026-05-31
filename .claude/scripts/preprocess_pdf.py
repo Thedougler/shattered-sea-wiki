@@ -476,6 +476,34 @@ def build_raw_markdown(text: str, pdf_filename: str) -> str:
 # ---------------------------------------------------------------------------
 
 
+def preprocess_pdf(pdf_path: str, dry_run: bool = False) -> str | None:
+    """Convert a PDF to a markdown sidecar. Returns the .md path, or None."""
+    pdf_path = os.path.abspath(pdf_path)
+    if not os.path.isfile(pdf_path):
+        return None
+
+    pdf_filename = os.path.basename(pdf_path)
+    fields = extract_fields(pdf_path)
+
+    if fields:
+        markdown = build_character_markdown(fields, pdf_filename)
+    else:
+        text = extract_raw_text(pdf_path)
+        if not text:
+            return None
+        markdown = build_raw_markdown(text, pdf_filename)
+
+    stem = os.path.splitext(pdf_path)[0]
+    out_path = stem + ".md"
+
+    if dry_run:
+        return out_path
+
+    with open(out_path, "w") as fh:
+        fh.write(markdown)
+    return out_path
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Extract D&D character sheet form fields from a PDF into markdown."

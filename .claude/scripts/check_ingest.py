@@ -532,6 +532,29 @@ def main(argv: list[str]) -> int:
                     continue
             expanded.append(path)
 
+        preprocessed: list[str] = []
+        for path in expanded:
+            if path.lower().endswith(".pdf"):
+                stem = os.path.splitext(path)[0]
+                sidecar = stem + ".md"
+                if os.path.isfile(sidecar):
+                    preprocessed.append(sidecar)
+                else:
+                    from preprocess_pdf import preprocess_pdf
+
+                    md_path = preprocess_pdf(path)
+                    if md_path:
+                        sys.stderr.write(
+                            f"check_ingest: preprocessed {display_path(path)}"
+                            f" -> {display_path(md_path)}\n"
+                        )
+                        preprocessed.append(md_path)
+                    else:
+                        preprocessed.append(path)
+            else:
+                preprocessed.append(path)
+        expanded = preprocessed
+
         expanded.sort(key=lambda p: (os.path.getsize(p), display_path(p)))
 
         batch: list[tuple[str, int]] = []

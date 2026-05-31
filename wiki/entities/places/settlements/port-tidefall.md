@@ -57,6 +57,7 @@ Every ship entering the western Strait is expected to stop, answer questions, an
 | [[fare-ia|Fare I'a]] | Stall | Grung-style fish jerky in the Dockfront market. |
 | [[tidefall-chandlery|Tidefall Chandlery]] | Shop | Naval outfitter for provisions, gear, tools, and weapons. |
 | [[shelf-instrument-dealer|Shelf Instrument Dealer]] | Shop | Navigation instruments, charts, sextants, compasses, chronometers. |
+| [[tessarine-trade-house|Tessarine Trade House]] | Office | Trade licensing, contract brokerage, and courier dispatch. |
 | [[the-governors-seat|Governor's Seat]] | Government office | Petitions, appointments, appeals, and civic Crown authority. |
 | [[hook-and-ledger|Hook & Ledger]] | Tavern | Shelf tavern for clerks, pursers, quartermasters, and quiet side deals. |
 | [[fort-crestwall|Fort Crestwall]] | Fort | Barracks, command post, and cannon battery above the harbour approach. |

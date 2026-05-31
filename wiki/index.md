@@ -647,6 +647,8 @@ sources: []
 - [[session-01|Session 01 — The Boarding of the Saltwright]] — Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.
 - [[session-01-recap|01 — The Boarding of the Saltwright]] — Player recap of Session 01 — the boarding of the Saltwright and HCS Surety through the gangplank standoff. Canon events as they happened.
 - [[session-01-scene-01-world|Beat 1: The World]] — Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night.
+- [[session-01-scene-02-crissdalynn|Beat 2: Crissdalynn]] — Session 01, Beat 2 — Crissdalynn introduction flying above the Saltwright; backstory of the Maw mapping task and fleet loss; Dravosi cutter spotted.
+- [[session-01-scene-03-delmar|Beat 3: Delmar]] — Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck; backstory of the Pearl theft and fleet loss; coin trick with Bisou.
 - [[session-01-scene-04-stripes|Beat 4: Stripes]] — Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check.
 - [[session-01-scene-05-perrin|Beat 5: Perrin]] — Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal.
 - [[session-02|Session 02 — Conflict is a Surety]] — Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up.
@@ -658,6 +660,7 @@ sources: []
 
 ## system
 - [[art-style|Art Style Guide]] — Visual style guide for AI-generated campaign art — agents read this before every image generation task
+- [[character-creation-three-pillars|Character Creation: Three Pillars]] — Pointy Hat's three-pillar framework for character identity before mechanics: Gimmick (surface), Conflict (wound), Want (engine). Use before helping create or evaluate any PC concept.
 - [[character-interview-guide|Character Interview Guide]] — A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers.
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
 - [[delmar-primer|Delmar Primer]] — Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.

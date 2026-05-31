@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags: [rule, reference, ship, upgrades]
 sources: [Homebrew]
 title: Ship Upgrades

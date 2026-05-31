@@ -48,6 +48,16 @@ session_date: 2026-05-10
 - Where is the Alchemist's bandolier? Does the party examine it?
 - Does Jean-Claude tell anyone about Simone?
 
+## XP Awards
+
+| Source | XP per PC |
+|---|---|
+| Combat (Cap'n Gorgeous + 2 Enforcers + 4 Deckhands + Alchemist ÷ 5) | 120 |
+| Session 1 lump award | 1,500 |
+| **Session 1 total** | **1,620** |
+
+Running total after Session 1: 2,520 (level 3 base 900 + 1,620 earned). Level 4 required 2,700. Party levelled at end of Session 03.
+
 ## Follow-Up Queue
 - [ ] Expand [[geoffrey-draves|Geoffrey Draves]] before next session — skills, disposition, what he wants
 - [ ] Decide Rook's fate (capture, escape, death, deal)

@@ -10,6 +10,10 @@ created: 2026-05-30
 updated: 2026-05-30
 tags: [system, session-zero, stub]
 sources: []
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # Session Zero

@@ -7,9 +7,13 @@ audience: agent
 publish: false
 summary: "A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers."
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-30
 tags: [system, session-zero, character-creation]
 sources: ["Inbox/private/system/guides/Character-Interview-Guide.md"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # Character Interview Guide

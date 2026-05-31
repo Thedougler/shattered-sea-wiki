@@ -195,4 +195,5 @@ Maren, Rael Corven, and three others are pressed into Delmar. Each has a thread 
 - [[shelfworks|Shelfworks]] — salvage context
 - [[auralis|Auralis]] — Antheri guardian
 - [[leviathan|Leviathan]] — fissure incursion
+- [[what-sunk-the-vestra|What Sunk the Vestra]] — open question linking the Leviathan's attack and fleet-sinking
 - [[branca|Branca]] — Umberlee's agent

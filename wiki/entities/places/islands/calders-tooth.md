@@ -85,4 +85,4 @@ Fog, sinkholes, mudflats, Crown inspection, cliff exposure, and interior predato
 - Interior travel between South Harbour and Port Tidefall can be interrupted by fog, sinkholes, or animal sign.
 
 > [!dm]
-> [[the-passage|The Passage]] uses limestone caves beneath the Overland Track for cargo. The Crown has not found them. See also the Cape Solitude lighthouse situation.
+> [[the-passage|The Passage]] uses limestone caves beneath the Overland Track for cargo. The Crown has not found them. See also [[cape-solitude-mystery|the Cape Solitude lighthouse situation]].

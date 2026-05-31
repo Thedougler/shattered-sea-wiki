@@ -75,3 +75,4 @@ Open-ocean exposure, heavy surf, giant crabs, harpy cliff voices, giant vultures
 
 - [[calders-tooth|Calder's Tooth]]
 - [[galewall|The Galewall]]
+- [[cape-solitude-mystery|Cape Solitude Dead Light Mystery]] — DM situation for the vanished lighthouse crews

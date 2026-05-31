@@ -104,7 +104,7 @@ The Calveno Passage broker network can produce a false home port, vessel name, a
 - Perrin asks the Warren for help disguising the *Surety*
 - Delmar investigates the *Red Lady* salvage money or appears near the wrong broker
 - The party cold-approaches Savia and becomes the fourth suspicious vessel inquiry
-- Tessarine factors note the cutter-class vessel at the outer anchorage
+- [[estratto|Estratto]] (Tessarine auditor) notes the cutter-class vessel at the outer anchorage and begins identity verification
 
 ---
 

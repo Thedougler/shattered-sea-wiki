@@ -51,7 +51,7 @@ Access past the gate requires a pass. Permits, hearings, and military business g
 
 ## Current Hooks
 
-The garrison has been running heavy for several weeks. The courtyard past the gate has more men in it than the barracks were built for. Nobody at the gate is explaining this.
+The garrison has been running heavy for several weeks. The courtyard past the gate has more men in it than the barracks were built for. Nobody at the gate is explaining this. See [[fort-crestwall-sealed-orders|the sealed orders situation]] for the DM layer.
 
 ## See Also
 

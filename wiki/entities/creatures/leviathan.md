@@ -50,3 +50,4 @@ But the *Vestra* is gone. Perrin felt the heat before the strike. Clyde's Bestia
 - [[perrin-black-jaw|Perrin Black-Jaw]]
 - [[vestra|Vestra]]
 - [[the-drowned-maw|The Drowned Maw]]
+- [[leviathan-entity|Leviathan (NPC)]] — narrative role, Maw incursion origin, and Auralis's read on the entity

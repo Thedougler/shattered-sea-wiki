@@ -72,3 +72,4 @@ Kalowe is also the normal meeting place of [[chain-council|the Chain Council]], 
 - [[midchain|The Midchain]]
 - [[chain-council|Chain Council]]
 - [[five-blades|Five Blades]]
+- [[kalowe-sawek-bounty|Sawek Bounty]] — Sawek blocking the inter-island channel; 300 gp harbour contract

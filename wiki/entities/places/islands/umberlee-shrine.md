@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - umberlee
   - sunken-crown
-  - vel-orn
 sources:
   - Homebrew
 confidence_level: medium

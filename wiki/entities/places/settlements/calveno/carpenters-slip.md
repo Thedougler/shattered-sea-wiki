@@ -8,9 +8,7 @@ publish: false
 summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches."
 created: 2026-05-15
 updated: 2026-05-31
-tags:
-  - shipyard
-  - le-paludi
+tags: []
 sources:
   - Inbox/places/calveno/Carpenters-Slip.md
 confidence_level: medium

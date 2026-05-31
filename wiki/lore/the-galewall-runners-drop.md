@@ -12,7 +12,6 @@ tags:
   - legend
   - treasure
   - pirates
-  - ashwall-islands
 sources:
   - Homebrew
 confidence_level: low

@@ -11,7 +11,6 @@ updated: 2026-05-30
 tags:
   - ruins
   - antheri
-  - ancient_civilization
   - drowned-maw
 sources:
   - Homebrew

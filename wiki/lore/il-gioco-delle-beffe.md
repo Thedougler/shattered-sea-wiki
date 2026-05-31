@@ -10,7 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - festival
-  - beffa
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Il-Gioco-delle-Beffe.md"

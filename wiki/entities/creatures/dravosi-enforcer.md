@@ -10,7 +10,6 @@ created: 2026-04-19
 updated: 2026-05-31
 tags:
   - dravosi
-  - cr1/2
 sources:
   - "Inbox/Dravosi-Enforcer.md"
 confidence_level: medium

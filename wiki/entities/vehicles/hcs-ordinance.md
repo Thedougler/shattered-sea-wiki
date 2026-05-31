@@ -10,7 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - dravosi
-  - tier-4
 sources:
   - "Homebrew"
 confidence_level: medium

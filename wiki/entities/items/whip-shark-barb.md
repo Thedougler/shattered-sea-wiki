@@ -10,7 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - weapon-component
-  - shark
 sources:
   - "Inbox/Session-03-Recap.md"
 confidence_level: observed

@@ -9,9 +9,7 @@ summary: "DM companion for the Pearl of Souls — the Seven Pearls context, its 
 created: 2026-04-12
 updated: 2026-05-31
 tags:
-  - artifact
   - umberlee
-  - pearl-of-souls
 sources:
   - "Inbox/situations/reference/Pearl-of-Souls-Item.md"
 confidence_level: medium

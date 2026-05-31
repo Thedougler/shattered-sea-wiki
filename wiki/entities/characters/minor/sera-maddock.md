@@ -9,7 +9,6 @@ summary: "Dying privateer in Grimaldi's Dispensary, Kalowe — has half a 40-yea
 created: 2026-05-30
 updated: 2026-05-31
 tags:
-  - privateer
   - treasure
 sources:
   - "Inbox/situations/islands/Kalowe-Captains-Map.md"

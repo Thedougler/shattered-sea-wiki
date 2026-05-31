@@ -9,7 +9,6 @@ summary: "Dragonborn potter, peach-and-cream scales, three generations of potter
 created: 2026-05-02
 updated: 2026-05-31
 tags:
-  - dragonborn
   - social
 sources:
   - "Inbox/Delmar-Fisk.md"

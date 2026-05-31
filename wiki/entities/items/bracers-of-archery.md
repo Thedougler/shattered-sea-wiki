@@ -8,8 +8,7 @@ publish: true
 summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - attunement
+tags: []
 sources:
   - PHB
 confidence_level: high

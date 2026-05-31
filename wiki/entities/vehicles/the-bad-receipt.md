@@ -8,8 +8,7 @@ publish: true
 summary: "A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - pirate
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

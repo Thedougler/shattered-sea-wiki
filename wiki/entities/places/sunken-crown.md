@@ -9,7 +9,6 @@ summary: "Five low islands on the rim of something drowned — the Blue Hole, an
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - outer-reach
   - umberlee
 sources:
   - "Inbox/Campaign-Timeline.md"

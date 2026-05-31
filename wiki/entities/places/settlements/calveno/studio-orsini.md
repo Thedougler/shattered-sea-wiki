@@ -10,7 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - alchemy
-  - le-paludi
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Studio-Orsini.md"

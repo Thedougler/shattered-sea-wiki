@@ -10,8 +10,6 @@ created: 2026-05-28
 updated: 2026-05-31
 tags:
   - needs-detail
-  - half-orc
-  - mercenary
 sources:
   - "Inbox/Calveno-Street-Encounters.md"
 confidence_level: low

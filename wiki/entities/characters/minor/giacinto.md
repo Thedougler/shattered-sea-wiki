@@ -10,7 +10,6 @@ created: 2026-05-28
 updated: 2026-05-31
 tags:
   - needs-detail
-  - craftsman
 sources:
   - "Inbox/Calveno-Jean-Claude-Beats.md"
 confidence_level: medium

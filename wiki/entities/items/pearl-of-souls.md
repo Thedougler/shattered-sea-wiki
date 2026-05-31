@@ -9,7 +9,6 @@ summary: "Umberlee's stolen artifact — a fist-sized black pearl that collects 
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - artifact
   - umberlee
   - souls
   - divine

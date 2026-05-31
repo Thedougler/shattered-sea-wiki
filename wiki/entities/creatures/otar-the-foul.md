@@ -8,8 +8,6 @@ publish: false
 summary: "Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs."
 created: "2026-05-30"
 tags:
-  - aberration
-  - slaad
   - named-enemy
 sources:
   - Homebrew

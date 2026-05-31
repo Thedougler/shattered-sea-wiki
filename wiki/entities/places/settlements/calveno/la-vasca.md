@@ -9,7 +9,6 @@ summary: "The Black-Jaw family's private dry dock deep in Le Paludi — a covere
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - dry-dock
   - passage
 sources:
   - "Inbox/Session-03-Recap.md"

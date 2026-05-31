@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - clockwork
   - utility
-  - kenku
   - homebrew
 sources:
   - "Homebrew"

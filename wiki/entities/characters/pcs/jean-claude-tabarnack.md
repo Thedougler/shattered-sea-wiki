@@ -10,7 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - grung
-  - gloomstalker
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Session-03-Recap.md"

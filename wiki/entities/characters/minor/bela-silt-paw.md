@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - needs-detail
   - rattkin
-  - scout
 sources:
   - "Inbox/Warren-Bela-Silt-Paw.md"
 confidence_level: confirmed

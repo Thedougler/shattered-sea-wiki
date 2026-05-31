@@ -12,7 +12,6 @@ tags:
   - legend
   - treasure
   - underwater
-  - sawek
 sources:
   - Homebrew
 confidence_level: low

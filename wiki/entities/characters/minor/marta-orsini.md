@@ -8,8 +8,7 @@ publish: true
 summary: "Proprietor of Studio Orsini in Calveno's Le Paludi district. Late forties, pale, precise. Knows exactly what her compounds will be used for and doesn't ask. Gives instructions once and expects them followed."
 created: 2026-05-17
 updated: 2026-05-31
-tags:
-  - tiefling
+tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Marta-Orsini.md"

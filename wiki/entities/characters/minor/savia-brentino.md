@@ -8,8 +8,7 @@ publish: true
 summary: "Proprietor of Carpenter's Slip in Calveno. Thirty, small, sawdust in her eyebrows. Speaks in structural assessments. Does not quote timelines she cannot keep and does not do cosmetic work."
 created: 2026-05-17
 updated: 2026-05-31
-tags:
-  - dwarf
+tags: []
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
   - "Inbox/Savia-Brentino.md"

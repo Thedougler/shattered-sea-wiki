@@ -9,7 +9,6 @@ summary: "Inky tattoo across talons and forearms — makes unarmed strikes magic
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - wondrous-item
   - military
   - sentinel
 sources:

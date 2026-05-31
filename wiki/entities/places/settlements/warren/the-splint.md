@@ -10,7 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - rattkin
-  - healer
 sources:
   - "Inbox/Warren-Nonas-Table.md"
   - "Inbox/The-Splint.md"

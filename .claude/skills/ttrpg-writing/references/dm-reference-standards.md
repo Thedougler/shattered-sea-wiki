@@ -50,14 +50,18 @@ cognitive blur at the table.
 
 ## The Bryce Lynch Standard (Interactivity)
 
-### No Boxed Text. Ever.
-Boxed text — read-aloud paragraphs embedded in DM material — removes agency, dictates
-pacing, assumes player positioning, and forces the DM to read a script. Write the DM notes
-that let the DM describe the scene in their own words, not a script they must recite.
+### Read-Aloud as Service, Not Script
+DM-facing material should never force the DM to recite a mandatory script. But pre-written
+`> [!read-aloud]` callouts embedded in DM documents are a *service* — they give the DM
+something ready to speak, adapt, or skip. The difference:
 
-Exception: a `> [!read-aloud]` callout is appropriate when the user has specifically
-requested player-facing prose be embedded in a DM document. Apply `references/player-facing-prose.md`
-to that section only.
+- Mandatory boxed text the scene depends on = **bad**. The scene should work from the DM notes alone.
+- Optional read-aloud the DM can grab when they want it = **good**. Saves the DM from
+  improvising a description under pressure.
+
+Apply `references/player-facing-prose.md` to any read-aloud section. Keep it to 4 sentences
+max. Never include conditional framing ("if the party succeeded...") — that logic belongs
+in a `> [!dm]` callout above the read-aloud.
 
 ### Evocative, Not Exhaustive
 Don't inventory every crate. Isolate the 2–3 sensory details that define the atmosphere
@@ -124,6 +128,26 @@ DM notes. Don't leave redundancy to chance.
 **Clue 2**: Rael Corven mentions "Holst's arrangement" if characters ask about shipping manifests.
 **Clue 3**: The crate inspection schedule suspiciously excludes Pier 7 — the Chain's primary berth.
 ```
+
+---
+
+## The Scanability Test
+
+After writing any DM-facing content, test it: can the DM find the answer to "what do I do
+right now?" in three seconds? If not, restructure.
+
+**Checklist:**
+- Section headers work as scan targets — a DM looking for "what does this NPC want" can find
+  it without reading the whole page
+- Bold marks threats, NPCs, and decision points — the DM's eye catches them first
+- No paragraph exceeds 3 sentences in DM-facing content — split or convert to a list
+- Field ordering is consistent across pages of the same type — the DM builds muscle memory
+  for where information lives
+- Every callout does one job — if a `[!dm]` is doing two things, split it
+
+This test is separate from the content test ("does every sentence give the DM something to
+say, do, or decide"). Both must pass. A page can have excellent content in unscannable format,
+or scannable format with useless content.
 
 ---
 

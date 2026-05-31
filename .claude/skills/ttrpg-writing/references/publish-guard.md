@@ -43,13 +43,13 @@ The public page body never references or hints at the DM companion. The DM page 
 to the public page and any related private files.
 
 **Naming convention for DM companion files:**
-- NPC: `NPC-Name-DM.md` in `content/shattered-sea/private/npcs/`
-- Location: `Location-Name-DM.md` in `content/shattered-sea/private/places/`
-- Faction: `Faction-Name-DM.md` in `content/shattered-sea/private/factions/`
-- Ship: `Ship-Name-DM.md` in `content/shattered-sea/private/ships/`
+DM companions live alongside their entity in the same directory, with a `-dm` suffix:
+- NPC: `npc-name-dm.md` in `wiki/entities/characters/npcs/`
+- Location: `location-name-dm.md` in `wiki/entities/places/`
+- Faction: `faction-name-dm.md` in `wiki/entities/factions/`
+- Ship: `ship-name-dm.md` in `wiki/entities/vehicles/`
 
-Always run `find content/shattered-sea/private/ -iname "*Name*"` before creating a companion
-— it may already exist.
+Always run `find wiki/ -iname "*name*dm*"` before creating a companion — it may already exist.
 
 ---
 
@@ -103,10 +103,10 @@ Cut anything that doesn't give the DM something to say, do, or decide.
 Signals: `publish: true` with `audience: dm`, `publish: false` with `audience: players`, or
 either field missing entirely.
 
-- Files in `content/shattered-sea/private/` or `content/shattered-sea/situations/` → default
+- Files in `wiki/situations/`, `wiki/dm/`, or `wiki/system/` → default
   `publish: false` / `audience: dm` unless clearly public content
-- Files in the main `content/` tree → default `publish: true` / `audience: players` unless
-  DM-only material
+- Files in `wiki/entities/` → default `publish: true` / `audience: players` unless
+  DM-only material (companion files with `-dm` suffix default to `publish: false`)
 - If `publish` is absent: flag as broken frontmatter and add the missing field
 
 ---
@@ -129,11 +129,11 @@ When pulling DM content out of a published file, route to the right destination:
 
 | Content type | Destination |
 |---|---|
-| Active plot thread, DM-facing scenario | `content/shattered-sea/situations/active/` |
-| Background lore, concluded event | `content/shattered-sea/situations/background/` or `concluded/` |
-| NPC secrets, DM primer | `content/shattered-sea/private/` (mirror entity directory structure) |
-| Session prep, encounter design, run notes | `content/shattered-sea/private/sessions/` |
-| System references, agent guides | `content/shattered-sea/private/system/` |
+| Active plot thread, DM-facing scenario | `wiki/situations/active/` |
+| Resolved or background lore | `wiki/situations/resolved/` or inline in entity page |
+| NPC secrets, DM primer | Companion file alongside entity (e.g., `wiki/entities/characters/npcs/npc-name-dm.md`) |
+| Session prep, encounter design, run notes | `wiki/sessions/` |
+| System references, agent guides | `wiki/system/` or `wiki/dm/` |
 
 Check whether a companion private file already exists before creating a new one.
 
@@ -186,4 +186,4 @@ Scan every file at the specified path. For each file:
 Before editing more than 3 files in a single sweep, confirm with the user — misclassifying
 content at scale can corrupt the public layer. Single-file fixes always proceed immediately.
 
-Without a path, default to `content/shattered-sea/` and note that a full scan may take time.
+Without a path, default to `wiki/` and note that a full scan may take time.

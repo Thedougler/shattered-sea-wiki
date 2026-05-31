@@ -1,16 +1,11 @@
 ---
 name: ttrpg-writing
 description: >
-  Writing standards authority for all Shattered Sea content. Loaded second in every skill
-  chain, after ttrpg-llm-wiki-init. Defines the two content modes (DM-facing reference
-  and player-facing prose), Brennan Lee Mulligan voice, anti-slop enforcement, sandbox
-  prose constraints, callout types, and publish contracts. All domain skills defer to
-  this skill for prose quality.
-
-  Load for: any prose writing, rewriting, or quality review. "Make this better", "punch
-  this up", "this feels flat", "how do I play this NPC", "write a read-aloud", "rewrite
-  this as DM reference". Also load alongside any domain skill — writing standards apply
-  universally to all Shattered Sea content.
+  Use when writing, rewriting, or reviewing any Shattered Sea wiki content. Triggers:
+  "make this better", "punch this up", "this feels flat", "write a read-aloud", "rewrite
+  this as DM reference", any prose quality review, any content creation alongside a domain
+  skill (prep-npc, prep-session, prep-location, etc.). Also use when callout types look
+  wrong, DM-facing content reads like fiction, or player-facing prose feels flat or generic.
 ---
 
 ## Writing Standards Reference
@@ -96,6 +91,13 @@ anomalous ("something feels off") instead of describing the thing.
 For full villain speech construction, combat narration templates, and tone guidance:
 `references/brennan-voice.md`.
 
+**Where voice applies vs. pure reference.** Brennan voice governs prose: read-aloud text,
+NPC descriptions, situation write-ups, DM notes that narrate or direct. It does NOT govern
+mechanical reference: stat blocks, DC tables, clock entries, frontmatter, inventory lists,
+or anything the DM reads as data rather than language. When a section is pure numbers and
+triggers, write it flat and terse per `references/dm-reference-standards.md`. Applying voice
+to a stat line wastes the DM's scan time.
+
 ---
 
 ## Anti-Slop Pass
@@ -144,11 +146,63 @@ if you need the full statements and examples.
 
 ---
 
+## Situation Standards
+
+A situation file is a live thread the DM tracks across sessions. It is not a scene, not a
+story summary, not a character study. It answers: *what is true, who knows, what happens
+next, and what happens if no one acts.*
+
+**Required structure** (in order):
+
+| Section | What goes here |
+|---|---|
+| **Opening paragraph** | What happened, stated plainly. One paragraph max. |
+| **What [Character] Knows** | Per-PC awareness, only when awareness differs between PCs. Only what that PC has seen or been told. |
+| **Pressures** | What is building, moving, or ticking. Not backstory — current forces. |
+| **Trigger Conditions** | Bulleted list: if X happens, Y is forced. These are the DM's watch-fors. |
+| **If Ignored** | What changes in the world if no PC engages this thread. Required. (See next section.) |
+
+Use `> [!dm]` callouts for direct DM instructions within any section. Never `[!secret]` —
+the DM knows everything; player visibility is controlled by `publish: false` in frontmatter,
+not by callout type.
+
+---
+
+## The If-Ignored Requirement
+
+Every situation, location hook, NPC objective, and session-prep beat must answer: **what
+happens if the party doesn't engage?** This is the single most important sandbox writing
+technique. It makes the world feel alive and the DM confident that nothing breaks when
+players wander.
+
+Write it as a concrete, observable consequence — something the DM can show at the table:
+
+```
+Good: If ignored: the commission assembles and departs; the wreck is not empty
+      when they reach it.
+Good: If ignored: Nona doesn't chase — she uses the sending stone on her own timing.
+Bad:  If ignored: tensions rise. (Unshowable. Rise how? Who notices?)
+Bad:  If ignored: things get worse. (Vague. Worse for whom? What moves?)
+```
+
+**The tick test:** if you can't describe a single visible, in-world change the DM can
+narrate or the players can stumble across, the if-ignored consequence isn't concrete enough.
+A good tick: "the chart courier wouldn't let anyone else carry the package." A bad tick:
+"tensions rise."
+
+---
+
 ## Callout Standard
+
+Four types. Nothing else. This is a hard constraint enforced on every write and every edit.
+When you touch a file and find a wrong callout type, convert it before you do anything else.
+Never preserve `[!secret]`, `[!note]`, `[!warning]`, `[!skillcheck]`, `[!appearance]`,
+`[!quote]`, or any case variant (`[!READ-ALOUD]`, `[!DM]`). The conversion table in
+`references/callout-standard.md` maps each banned type to its correct replacement.
 
 The four-type system works because it lets the DM scan a page at speed — `[!dm]` means take
 an action, `[!mechanic]` means look up a rule, `[!read-aloud]` means speak this aloud. Wrong
-types break that scanability. Auto-correct any deviation you find without asking.
+types break that scanability.
 
 | Type | Use for |
 |---|---|
@@ -181,34 +235,29 @@ For full pairing rules, audit mode, DRY enforcement, and routing: `references/pu
 
 ---
 
-## NPC Construction
+## NPC Prose Standards
 
-The Alexandrian template works because it gives the DM things to do and say at the table, not
-personality adjectives to interpret in real time. A quote and three physical quirks are
-immediately playable. A paragraph of backstory is not. Use this for any NPC that needs to be
-performed at the table.
+Structure and field definitions for NPC pages live in `prep-npc`. This skill does not own the
+template — it owns the prose quality applied to every NPC field.
 
-| Field | What goes here |
-|---|---|
-| **Name & Identity** | Clear, distinct. One line. |
-| **Quote** | One line that captures voice, cadence, and worldview. Replaces paragraphs of personality. |
-| **Background** | Strictly what impacts current sandbox state. Nothing else. |
-| **Roleplaying** | Three specific, physical, actionable behavioral quirks. Not adjectives — actions. |
-| **Proactive Objectives** | Bulleted list of what the NPC is actively trying to accomplish. NPCs pursue; they don't wait. |
+**Quote**: speakable aloud in one breath. If it could belong to any NPC, rewrite it. Test:
+does this line reveal what the character *wants* and *how they talk*? Both, or rewrite.
 
-**When playability is the goal** — add a Roleplay Prompt and Anchor:
+**Lore Sheet / Background**: dossier, not backstory. Each sentence gives the DM something
+usable at the table. Apply the Deletion Test: if removing a sentence doesn't remove a
+decision the DM might face, cut it.
 
-**Roleplay Prompt**: One sentence containing the specific, ironic, or dramatically loaded
-thing that is true about this character right now:
-- [Character] who [ironic condition]: "A harbormaster who's been waiting years to enforce this one rule"
-- [Pop culture figure] + [impossible role]: "Jennifer Coolidge, air traffic controller"
-- [Situation] escalating in a specific direction: "The more tools the surgeon asks for, the clearer it is he's winging it"
+**Voice & Delivery lines**: the DM will read these and immediately speak. Write them as
+performance notes, not personality adjectives. "Pauses mid-sentence to recalculate" is
+playable. "Calculating and precise" is not.
 
-**Anchor**: A pop culture mashup that locks in voice and delivery. Formula: [unexpected
-thing] + [pop culture character]. "Burned-out high school vice principal Voldemort."
+**Roleplay Concept**: must land in one read. If the DM has to think about what it means,
+the mashup isn't clear enough. Good: "Burned-out high school vice principal Voldemort."
+Bad: "A complex figure torn between duty and ambition."
 
-Include when: user asks "how do I play this", "give them a voice", "make this fun", or
-whenever NPC performance quality matters.
+**Proactive Objectives**: vectors, not states. "Accumulate enough to retire before the
+audit" is a vector. "Is ambitious" is a state. NPCs pursue goals — they don't wait for the
+party to arrive.
 
 ---
 
@@ -219,8 +268,8 @@ appear as plain text in Obsidian, so readers assume the page doesn't exist rathe
 the link is wrong. Before writing any wikilink, verify the actual file path exists:
 
 ```bash
-rg --files content | rg -i "name-fragment"
-rg -n "Exact Name" content/shattered-sea    # if entity may be inline in another page
+rg --files wiki | rg -i "name-fragment"
+rg -n "Exact Name" wiki/    # if entity may be inline in another page
 ```
 
 If multiple matches exist, read both to confirm which serves the link's purpose.
@@ -229,22 +278,30 @@ If multiple matches exist, read both to confirm which serves the link's purpose.
 
 ## Multi-Pass Generation (Large Content)
 
-For dungeons, hex regions, full faction networks, or any multi-node sandbox generation,
-use a sequential four-phase pipeline rather than generating everything in one pass.
+For any multi-node sandbox generation — dungeons, urban districts, hex regions, faction
+networks — use a sequential pipeline rather than generating everything in one pass.
 Single-pass generation of large structures produces shallow, contradictory output.
 
 **Phase 1 — Architecture**: Overarching conflict, major factions, macro map or node network.
 Apply the Three Clue Rule to establish redundant connections between nodes.
 
-**Phase 2 — Entities**: Iterate through required NPCs and factions using the NPC template
-in this skill. Proactive objectives mandatory. Novelistic backstory forbidden.
+**Phase 2 — Entities**: Iterate through required NPCs and factions using `prep-npc`.
+Proactive objectives mandatory. Novelistic backstory forbidden.
 
-**Phase 3 — Spatial Logic**: Map keys at high level — non-linear paths, loops, varied
-elevations. Bryce Lynch interactivity standard (multiple routes, meaningful choices).
+**Phase 3 — Structural Logic**:
+- *Dungeon/site*: Map keys at high level — non-linear paths, loops, varied elevations.
+  Bryce Lynch interactivity standard (multiple routes, meaningful choices).
+- *Urban sandbox*: District map with districts as nodes. Each district gets a mood line,
+  2-3 named NPCs with table handles, one active pressure, and a "what walks in" encounter
+  seed. Connections between districts are social and faction-based, not just geographic.
 
-**Phase 4 — Micro-Detail**: Room by room using Gavin Norman OSE format (Point-First,
-Typographic Encoding, Objective Third Person). Apply the Anti-Slop Pass last, before output.
+**Phase 4 — Micro-Detail**:
+- *Dungeon/site*: Room by room using Gavin Norman OSE format (Point-First, Typographic
+  Encoding, Objective Third Person).
+- *Urban sandbox*: Street-level encounter seeds, situation hooks per district, NPC bench
+  with one-line table handles, improv aids (names, voices, local color).
 
+Apply the Anti-Slop Pass last, before output.
 Present each phase's output to the DM for review before advancing to the next.
 Load `references/dm-reference-standards.md` at Phase 3 and keep it active through Phase 4.
 
@@ -257,7 +314,7 @@ Load `references/dm-reference-standards.md` at Phase 3 and keep it active throug
 - **Audit**: name the most consequential issues by impact, not count. Give targeted fixes.
 - No congratulatory openers, unsolicited summaries, or generic follow-up invitations.
 - No invented stakes, lore, or canonical facts — check `wiki/index.md` first.
-- After any wiki write: update `updated:` frontmatter, refresh `wiki/hot.md`, commit.
+- After any wiki write: refresh `wiki/hot.md` if world state changed, then commit. (The `updated:` field is stamped automatically by the PostToolUse hook — do not set it by hand.)
 
 ---
 

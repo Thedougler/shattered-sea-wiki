@@ -157,7 +157,8 @@ own sake. The power is in momentum and consequence.
 
 ## What to Avoid
 
-- **Em dashes**: Never use —. Use a short sentence instead to land the beat.
+- **Em dash overuse**: One em dash per read-aloud block is a pacing tool. Two or more in the
+  same block dilutes the beat — replace extras with short sentences or commas.
 - **Passive voice**: "A door can be seen" → "A door stands before you."
 - **Generic fantasy filler**: "ancient and mysterious," "filled with darkness," "of unknown origin."
 - **Player interiority**: Don't write what characters decide, feel, or fear — describe what

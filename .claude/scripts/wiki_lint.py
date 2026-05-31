@@ -572,7 +572,13 @@ def cross_file_checks(records, slug_to_paths, use_obsidian=False):
 
     # Duplicate slugs: two files sharing a basename make every [[slug]] to them
     # ambiguous — Obsidian picks one arbitrarily. Flag each colliding file.
+    # Exception: "index" is an intentional per-directory convention — every
+    # directory may have its own index.md. Links to them use path-qualified
+    # syntax ([[wiki/lore/index|...]]), not bare [[index]], so the ambiguity
+    # is never exercised in practice.
     for low, paths in lower_index.items():
+        if low == "index":
+            continue
         if len(paths) > 1:
             others = sorted(paths)
             for p in paths:
@@ -935,7 +941,36 @@ def standardize(relpath: str, data, yaml: YAML):
     changed = []
     defaults = field_defaults(relpath)
 
-    # 0. Drop an empty `relationships: []` — relationships live in the body now,
+    # 0. Strip junk fields that waste tokens with no signal for the agent.
+    #    These are safe to remove unconditionally — the information they carry
+    #    is either redundant (title is the H1 + filename) or Obsidian-only
+    #    (cssclasses is a CSS renderer hint, invisible to the agent).
+    for f in ("title", "cssclasses"):
+        if f in data:
+            del data[f]
+            changed.append(f"-{f}")
+
+    # Strip null-valued fields — null carries no information and costs tokens.
+    null_keys = [k for k, v in data.items() if v is None]
+    for k in null_keys:
+        del data[k]
+    if null_keys:
+        changed.append("-nulls")
+
+    # sources: ["Unknown"] is a --fix placeholder that adds noise once the real
+    # source is unknown or irrelevant. Replace with an empty list.
+    sources = data.get("sources")
+    if isinstance(sources, list) and list(sources) == ["Unknown"]:
+        data["sources"] = []
+        changed.append("sources(clean)")
+
+    # aliases: [] carries nothing — strip the field entirely.
+    aliases = data.get("aliases")
+    if isinstance(aliases, list) and len(aliases) == 0:
+        del data["aliases"]
+        changed.append("-aliases")
+
+    # Drop an empty `relationships: []` — relationships live in the body now,
     #    and an empty list carries nothing to migrate, so removing it is safe.
     #    Populated relationships are left untouched for the agent to weave in.
     rel = data.get("relationships")

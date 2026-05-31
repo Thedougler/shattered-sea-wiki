@@ -204,6 +204,128 @@ class TestInfraInventory(unittest.TestCase):
         self.assertNotIn("claudemd_tokens", deltas)
 
 
+class TestDailyLogParsing(unittest.TestCase):
+    """Verify daily-log.md parsing for workflow effectiveness metrics."""
+
+    def setUp(self):
+        spec = importlib.util.spec_from_file_location("whs", SNAPSHOT_SCRIPT)
+        self.mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.mod)
+        self._orig_daily_log = self.mod.DAILY_LOG
+
+    def tearDown(self):
+        self.mod.DAILY_LOG = self._orig_daily_log
+
+    def _write_log(self, tmpdir, content):
+        log_path = os.path.join(tmpdir, "daily-log.md")
+        with open(log_path, "w") as f:
+            f.write(content)
+        self.mod.DAILY_LOG = log_path
+        return log_path
+
+    def test_parses_productive_run(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            self._write_log(
+                tmpdir,
+                """---
+summary: "Log"
+---
+
+# Daily Update Log
+
+## 2026-05-30
+
+- **Ingest:** 6 sources processed
+- **Lint:** 26 files auto-fixed
+- **Cross-link:** 7 links added across 7 pages
+""",
+            )
+            result = self.mod.parse_daily_log()
+            self.assertEqual(result["daily_runs_total"], 1)
+            self.assertEqual(result["daily_runs_zero_output"], 0)
+            self.assertEqual(result["daily_ingest_total"], 6)
+            self.assertEqual(result["daily_lint_fixes_total"], 26)
+            self.assertEqual(result["daily_crosslinks_total"], 7)
+
+    def test_detects_zero_output_run(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            self._write_log(
+                tmpdir,
+                """# Daily Update Log
+
+## 2026-05-30
+
+- **Init:** OK — no work found
+""",
+            )
+            result = self.mod.parse_daily_log()
+            self.assertEqual(result["daily_runs_total"], 1)
+            self.assertEqual(result["daily_runs_zero_output"], 1)
+
+    def test_multiple_entries(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            self._write_log(
+                tmpdir,
+                """# Daily Update Log
+
+## 2026-05-31
+
+- **Ingest:** 3 sources processed
+- **Cross-link:** 2 links added
+
+## 2026-05-30
+
+- **Init:** OK — no work found
+
+## 2026-05-29
+
+- **Lint:** 10 files auto-fixed
+- **Ingest:** 4 sources processed
+""",
+            )
+            result = self.mod.parse_daily_log()
+            self.assertEqual(result["daily_runs_total"], 3)
+            self.assertEqual(result["daily_runs_zero_output"], 1)
+            self.assertEqual(result["daily_ingest_total"], 7)
+            self.assertEqual(result["daily_lint_fixes_total"], 10)
+            self.assertEqual(result["daily_crosslinks_total"], 2)
+
+    def test_missing_log_returns_zeros(self):
+        self.mod.DAILY_LOG = "/nonexistent/path/daily-log.md"
+        result = self.mod.parse_daily_log()
+        self.assertEqual(result["daily_runs_total"], 0)
+        self.assertEqual(result["daily_runs_zero_output"], 0)
+
+    def test_diff_tracks_daily_metrics(self):
+        a = {"daily_runs_total": 3, "daily_runs_zero_output": 2}
+        b = {"daily_runs_total": 5, "daily_runs_zero_output": 2}
+        deltas = self.mod.diff_snapshots(a, b)
+        self.assertEqual(deltas["daily_runs_total"]["delta"], 2)
+        self.assertNotIn("daily_runs_zero_output", deltas)
+
+
+class TestSnapshotDailyKeys(unittest.TestCase):
+    """Verify daily metrics appear in full snapshot output."""
+
+    def test_snapshot_has_daily_keys(self):
+        proc = subprocess.run(
+            [sys.executable, SNAPSHOT_SCRIPT],
+            capture_output=True,
+            text=True,
+            timeout=180,
+            cwd=REPO_ROOT,
+        )
+        data = json.loads(proc.stdout)
+        for key in [
+            "daily_runs_total",
+            "daily_runs_zero_output",
+            "daily_ingest_total",
+            "daily_lint_fixes_total",
+            "daily_crosslinks_total",
+        ]:
+            self.assertIn(key, data, f"Missing daily metric: {key}")
+
+
 class TestDiff(unittest.TestCase):
     """Verify snapshot comparison logic."""
 

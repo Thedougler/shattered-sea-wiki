@@ -437,7 +437,11 @@ sources: []
 - [[session-03-scene-05-calveno-approach|Scene 05 — Calveno Approach]] — [stub] Session 03, Scene 05 — The damaged Uncertainty approaches Calveno harbour; party must solve the Crown-cutter identification problem. Perrin's name opens La Vasca and alerts Nona.
 - [[session-03-scene-06-calveno-day-one|Calveno Day One]] — Session 03, Scene 06 — Delmar crosses the gangplank and the water notices; Branca finds him on the streets of Calveno and brings him to the Waveservant Shrine.
 - [[session-03-scene-07-calveno-day-two|Scene 07 — Calveno Day Two: Kyzil]] — [stub] Session 03, Scene 07 — Crissdalynn's reunion with Master Kyzil in Calveno: relief, Owl Obi-Wan formality, pilgrimage progress, Read the Current, and the High Eyrie weather warning.
-- [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs.
+- [[session-04-day-1|Session 04 — Day 1: Arrival Evening]] — Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskippable vigil at the Waveservant Shrine, and the party's first night in Calveno.
+- [[session-04-day-2|Session 04 — Day 2: La Scelta]] — Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires, Nona names the favor, JC gets his first handler recognition beat, and Red Lady threads surface.
+- [[session-04-day-3|Session 04 — Day 3: First Finestra]] — Day 3 — first Finestra day: handler investigation and tunnel descent via Nona's favor, Batta Zusto and the salvage commission, ship silhouette hard truth, Beffa execution window opens.
+- [[session-04-day-4|Session 04 — Day 4: Pre-Raid]] — Day 4 — second Finestra day: handler cell combat, Red Lady convergence with the Pearl demand, false alarms conditioning the crowd, and a full raid prep status check before the Day 5 strike.
+- [[session-04-run-guide|Session 04 — Run Guide]] — Master run guide for Session 04: the open Calveno week before the Grung raid. Links to day-by-day files covering the Kyzil reunion, Pearl Summons, Warren, handler investigation, Red Lady salvage, and the Beffa.
 
 ## system
 - [[art-style|Art Style Guide]] — Visual style guide for AI-generated campaign art — agents read this before every image generation task

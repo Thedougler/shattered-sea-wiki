@@ -11,25 +11,30 @@ Usage:
     python3 .claude/scripts/wiki_health_snapshot.py --history    # table of saved snapshots
 
 Metrics collected:
-    file_count          total .md files in wiki/
-    total_tokens        estimated token count across all files (chars / 4)
-    lint_errors         wiki_lint.py error count
-    lint_warnings       wiki_lint.py warning count
-    lint_quality        wiki_lint.py quality-note count
-    lint_by_category    breakdown of lint issues by category
-    orphan_count        pages with no inbound links
-    deadend_count       pages with no outbound links
-    stub_summaries      files whose summary matches stub patterns
-    pending_ingest      sources waiting in Inbox/
-    hook_count          PostToolUse hooks registered
-    script_test_count   test files in .claude/scripts/
-    mean_file_tokens    average tokens per wiki file
-    infra_tokens        total tokens in infrastructure files (skills, CLAUDE.md, rules)
-    skill_count         number of installed skills
-    skill_tokens        total tokens across all SKILL.md files
-    claudemd_tokens     tokens in CLAUDE.md
-    scripts_tested      ratio of scripts with corresponding test_ files
-    infra_inventory     detailed breakdown of all infrastructure components
+    file_count              total .md files in wiki/
+    total_tokens            estimated token count across all files (chars / 4)
+    lint_errors             wiki_lint.py error count
+    lint_warnings           wiki_lint.py warning count
+    lint_quality            wiki_lint.py quality-note count
+    lint_by_category        breakdown of lint issues by category
+    orphan_count            pages with no inbound links
+    deadend_count           pages with no outbound links
+    stub_summaries          files whose summary matches stub patterns
+    pending_ingest          sources waiting in Inbox/
+    hook_count              PostToolUse hooks registered
+    script_test_count       test files in .claude/scripts/
+    mean_file_tokens        average tokens per wiki file
+    infra_tokens            total tokens in infrastructure files (skills, CLAUDE.md, rules)
+    skill_count             number of installed skills
+    skill_tokens            total tokens across all SKILL.md files
+    claudemd_tokens         tokens in CLAUDE.md
+    scripts_tested          ratio of scripts with corresponding test_ files
+    infra_inventory         detailed breakdown of all infrastructure components
+    daily_runs_total        total daily-update entries in daily-log.md
+    daily_runs_zero_output  runs that produced no changes
+    daily_ingest_total      total sources ingested across all logged runs
+    daily_lint_fixes_total  total files auto-fixed across all logged runs
+    daily_crosslinks_total  total cross-links added across all logged runs
 """
 
 from __future__ import annotations
@@ -49,6 +54,7 @@ SKILLS_DIR = os.path.join(CLAUDE_DIR, "skills")
 HOOKS_DIR = os.path.join(CLAUDE_DIR, "hooks")
 RULES_DIR = os.path.join(CLAUDE_DIR, "rules")
 SNAPSHOT_LOG = os.path.join(CLAUDE_DIR, "health-snapshots.jsonl")
+DAILY_LOG = os.path.join(WIKI_DIR, "dm", "daily-log.md")
 
 STUB_PATTERNS = [
     re.compile(r"^stub", re.IGNORECASE),
@@ -251,6 +257,62 @@ def inventory_infrastructure() -> dict:
     return inv
 
 
+def parse_daily_log() -> dict:
+    """Extract workflow effectiveness metrics from daily-log.md."""
+    result = {
+        "daily_runs_total": 0,
+        "daily_runs_zero_output": 0,
+        "daily_ingest_total": 0,
+        "daily_lint_fixes_total": 0,
+        "daily_crosslinks_total": 0,
+    }
+    if not os.path.exists(DAILY_LOG):
+        return result
+
+    try:
+        with open(DAILY_LOG, encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return result
+
+    in_entry = False
+    entry_has_output = False
+    for line in text.splitlines():
+        if re.match(r"^## \d{4}-\d{2}-\d{2}", line):
+            if in_entry and not entry_has_output:
+                result["daily_runs_zero_output"] += 1
+            in_entry = True
+            entry_has_output = False
+            result["daily_runs_total"] += 1
+            continue
+
+        if not in_entry:
+            continue
+
+        ingest_m = re.search(r"(\d+)\s+sources?\s+processed", line)
+        if ingest_m:
+            result["daily_ingest_total"] += int(ingest_m.group(1))
+            entry_has_output = True
+
+        lint_m = re.search(r"(\d+)\s+files?\s+auto-fixed", line)
+        if lint_m:
+            result["daily_lint_fixes_total"] += int(lint_m.group(1))
+            entry_has_output = True
+
+        xlink_m = re.search(r"(\d+)\s+links?\s+added", line)
+        if xlink_m:
+            result["daily_crosslinks_total"] += int(xlink_m.group(1))
+            entry_has_output = True
+
+        if re.search(r"no work found|nothing to do|no changes", line, re.IGNORECASE):
+            pass  # entry_has_output stays False
+
+    if in_entry and not entry_has_output:
+        result["daily_runs_zero_output"] += 1
+
+    return result
+
+
 def take_snapshot(label: str = "") -> dict:
     file_count, total_chars, stub_count = count_wiki_files()
     lint = run_lint()
@@ -258,6 +320,7 @@ def take_snapshot(label: str = "") -> dict:
     hooks = count_hooks()
     tests = count_script_tests()
     infra = inventory_infrastructure()
+    daily = parse_daily_log()
     total_tokens = total_chars // 4
 
     total_scripts = len(infra["scripts"])
@@ -286,6 +349,11 @@ def take_snapshot(label: str = "") -> dict:
         "claudemd_tokens": infra["claudemd_tokens"],
         "scripts_tested": f"{scripts_with_tests}/{total_scripts}",
         "scripts_without_tests": infra["scripts_without_tests"],
+        "daily_runs_total": daily["daily_runs_total"],
+        "daily_runs_zero_output": daily["daily_runs_zero_output"],
+        "daily_ingest_total": daily["daily_ingest_total"],
+        "daily_lint_fixes_total": daily["daily_lint_fixes_total"],
+        "daily_crosslinks_total": daily["daily_crosslinks_total"],
         "infra_inventory": {
             "scripts": infra["scripts"],
             "skills": infra["skills"],
@@ -332,6 +400,11 @@ def diff_snapshots(a: dict, b: dict) -> dict:
         "skill_count",
         "skill_tokens",
         "claudemd_tokens",
+        "daily_runs_total",
+        "daily_runs_zero_output",
+        "daily_ingest_total",
+        "daily_lint_fixes_total",
+        "daily_crosslinks_total",
     ]
     deltas = {}
     for k in keys:

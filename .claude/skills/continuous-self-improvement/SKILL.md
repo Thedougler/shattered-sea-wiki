@@ -45,6 +45,8 @@ Record the snapshot output. You will compare against it in VERIFY.
 
 ### What the snapshot captures
 
+**Vault health (static):**
+
 | Metric | Source | Why it matters |
 |---|---|---|
 | `file_count` | filesystem | Vault growth tracking |
@@ -58,12 +60,33 @@ Record the snapshot output. You will compare against it in VERIFY.
 | `pending_ingest` | check_ingest.py | Backlog pressure |
 | `hook_count` | settings.json | Enforcement coverage |
 | `script_test_count` | filesystem | Infrastructure reliability |
-| `infra_tokens` | skills + scripts + hooks + CLAUDE.md | Total token cost of infrastructure |
-| `skill_tokens` / `skill_count` | SKILL.md files | Token efficiency of skills |
-| `claudemd_tokens` | CLAUDE.md | Cost of always-loaded instructions |
 | `scripts_tested` | filesystem | Test coverage ratio (e.g. "2/10") |
 | `scripts_without_tests` | filesystem | Which scripts lack tests |
 | `infra_inventory` | full scan | Per-file breakdown of all scripts, skills, hooks, rules |
+
+**Infrastructure cost (static):**
+
+| Metric | Source | Why it matters |
+|---|---|---|
+| `infra_tokens` | skills + scripts + hooks + CLAUDE.md | Total token cost of infrastructure |
+| `skill_tokens` / `skill_count` | SKILL.md files | Token efficiency of skills |
+| `claudemd_tokens` | CLAUDE.md | Cost of always-loaded instructions |
+
+**Workflow effectiveness (from daily-log):**
+
+| Metric | Source | Why it matters |
+|---|---|---|
+| `daily_runs_total` | daily-log.md | How often the daily-update runs |
+| `daily_runs_zero_output` | daily-log.md | Runs that consumed tokens but changed nothing |
+| `daily_ingest_total` | daily-log.md | Sources processed across all logged runs |
+| `daily_lint_fixes_total` | daily-log.md | Files auto-fixed across all logged runs |
+| `daily_crosslinks_total` | daily-log.md | Links added across all logged runs |
+
+The workflow metrics parse `wiki/dm/daily-log.md` to measure what autonomous
+runs actually produce. A run that loads skills, checks the vault, and changes
+nothing is a wasted run — it consumed tokens for zero output. If
+`daily_runs_zero_output` is high relative to `daily_runs_total`, the
+daily-update skill or its schedule needs adjustment.
 
 ### Token efficiency as a quality signal
 
@@ -89,29 +112,81 @@ work possible, because every future run depends on it.
 
 ## Step 2 — IDENTIFY (one problem, highest impact)
 
-Analyze the snapshot to find the single highest-impact issue. Use this priority
-stack:
+Analyze the snapshot to find the single highest-impact issue. Then mine session
+history for workflow-level problems the snapshot can't see.
+
+### 2a. Read the snapshot
+
+The snapshot numbers are the primary signal for priorities 1–5 and 7–8.
+
+### 2b. Mine session transcripts
+
+Spawn a subagent to search session transcripts for workflow waste patterns
+and user frustration signals. The subagent should query
+`mcp__ccd_session_mgmt__search_session_transcripts` with 3–5 targeted
+searches:
+
+**Frustration signals (priority 0 — always search for these first):**
+
+- ALL-CAPS user messages — search for distinctive all-caps phrases or words
+  that indicate frustration (e.g., `"STOP"`, `"WHY"`, `"WRONG"`, `"BROKEN"`)
+- Profanity or strong language from the user
+
+If the subagent finds frustration signals, it must extract the root cause:
+what was the user upset about? What agent behavior or infrastructure failure
+triggered it? That root cause becomes the issue for this run at priority 0,
+overriding everything else in the priority stack.
+
+**Workflow waste patterns:**
+
+- `"no work found"` or `"nothing to do"` — wasted autonomous runs
+- `"skill"` + a specific skill name — to check if a skill is loaded but unused
+- `"re-reading"` or `"already read"` — redundant file reads
+- Error messages or rationalizations that recur across sessions
+
+The subagent returns a short summary: which patterns appeared, how many
+sessions, one-line quotes. Frustration signals feed priority 0; waste patterns
+feed priority 6. If no transcript evidence exists, skip to snapshot-only
+identification.
+
+### 2c. Check daily-log trends
+
+Scan `wiki/dm/daily-log.md` for patterns across recent entries: zero-output
+runs, declining throughput, recurring errors. The snapshot's `daily_*` metrics
+quantify this, but reading the log entries gives context the numbers miss.
+
+### Priority stack
+
+Use this priority stack:
 
 ```dot
 digraph priority {
   rankdir=TB;
   node [shape=box];
 
+  F [label="0. User frustration in transcripts?\nALL-CAPS or profanity = something broke badly\n→ Identify root cause, fix it NOW"];
   M [label="1. Can't measure something\nthat matters?\n→ Fix measurement first"];
   E [label="2. lint_errors > 0?\n→ Fix errors (they break navigation)"];
   T [label="3. No test for a script\nthat runs on every edit?\n→ Add test coverage"];
   W [label="4. Highest-count lint\nwarning category?\n→ Fix or add enforcement"];
   Q [label="5. Highest-count lint\nquality category?\n→ Reduce the count"];
-  I [label="6. Token bloat?\ninfra_tokens or skill_tokens rising?\n→ Trim or refactor"];
-  S [label="7. Skill effectiveness?\nSame objective, fewer tokens?\n→ Tighten the skill"];
+  WF [label="6. Workflow waste?\nzero-output runs, redundant loads?\n→ Fix the workflow or skill"];
+  I [label="7. Token bloat?\ninfra_tokens or skill_tokens rising?\n→ Trim or refactor"];
+  S [label="8. Skill effectiveness?\nSame objective, fewer tokens?\n→ Tighten the skill"];
 
-  M -> E -> T -> W -> Q -> I -> S;
+  F -> M -> E -> T -> W -> Q -> WF -> I -> S;
 }
 ```
 
 **Rules for identification:**
 
 - **One problem per run.** Not two. Not "while I'm here." One.
+- **Priority 0 overrides everything.** If transcript mining finds user
+  frustration (ALL-CAPS, profanity), the root cause of that frustration is
+  your issue — full stop. Trace the transcript to find what the agent did
+  wrong, what infrastructure failed, or what skill produced bad output.
+  The user's anger is the quantification; you don't need a snapshot metric.
+  Fix the root cause, not the symptom.
 - **Pick by the numbers.** The snapshot tells you where the pain is. The
   highest-count category in `lint_by_category` is a strong default when there
   are no errors or missing tests.
@@ -152,12 +227,29 @@ stack as possible:
 | 4 | `wiki_lint.py` rule | Batch detection, cross-file checks |
 | 5 | `.claude/rules/*.md` | Path-scoped guidance (judgment calls) |
 | 6 | `CLAUDE.md` | Universal guidance (last resort) |
+| 7 | Skill edit (SKILL.md) | Workflow-level fix — see below |
 
-**A fix that only adds documentation is not a fix.** Documentation-only changes
-cannot be measured for regression. If the problem can't be enforced with code,
-you must either:
-1. Find the mechanical subset that CAN be enforced, and enforce that, or
-2. Pick a different problem that can be enforced with code.
+**A fix that only adds documentation is not a fix** — unless the documentation
+IS the machinery. CLAUDE.md notes and `.rules/` files are documentation.
+SKILL.md files are *executable workflow definitions* — they directly control
+agent behavior. Editing a SKILL.md to remove a redundant step, add a
+conditional gate, or tighten instructions is a workflow fix, not a docs change.
+
+**When a SKILL.md edit IS a valid fix (all must be true):**
+
+1. Transcript or daily-log evidence shows the current behavior is wasteful
+   (quote the evidence in the ISSUE statement)
+2. The edit changes agent behavior, not just prose (removing a step, adding
+   a condition, changing a threshold)
+3. The improvement is verifiable — either the snapshot captures the effect
+   (e.g., `daily_runs_zero_output` drops) or a before/after transcript search
+   shows the pattern stopped
+
+**When a SKILL.md edit is NOT a valid fix:**
+
+- "This reads better" — that's curation, not improvement
+- No evidence of waste — you're guessing
+- The edit can't be verified by any metric or transcript pattern
 
 ### Scope guard
 
@@ -176,6 +268,9 @@ Every fix must include a mechanism that prevents regression:
   known-bad file
 - **Hook fix** → verify the hook runs on a relevant tool use
 - **New hook** → register it in `.claude/settings.json` and test it fires
+- **Skill edit** → the snapshot's workflow metrics or a transcript search must
+  be able to detect if the old behavior returns. Document the verification
+  query in the commit message so future CSI runs can re-check.
 
 If the fix has no enforcement mechanism, it will regress. Go back to Step 3
 and add one.
@@ -210,6 +305,15 @@ a legitimate improvement if the test covers a critical script. Don't chase big
 deltas; chase real impact. If the current metrics can't capture the value of a
 valid infrastructure fix, extending the snapshot schema IS a valid improvement
 for a future run.
+
+**Workflow fixes** may not show snapshot deltas immediately — the improvement
+appears in future runs, not this one. For skill edits, acceptable verification
+includes: the snapshot's `daily_*` metrics improve over the next few runs
+(log the expected metric and check threshold in the commit message), OR the
+fix is structurally verifiable (e.g., a removed instruction can't fire because
+the line no longer exists). Don't use "structurally verifiable" to bypass
+measurement — it only applies when the edit is a pure removal of a discrete
+step, not a behavioral change that needs observation.
 
 ### If verification fails
 
@@ -259,6 +363,9 @@ Log this to the daily-log if it exists, or to stdout for the routine to capture.
 | Skip verification because "it obviously works" | Take the snapshot. Obvious is wrong often enough. |
 | Extend scope because you "found something else" | Log it. Fix it tomorrow. |
 | Fix a content problem (lore, prose, missing info) | That's not infrastructure. Use the appropriate content skill. |
+| Edit a SKILL.md "because it reads better" | That's curation. You need transcript/log evidence of waste. |
+| Skip transcript mining because "the snapshot is enough" | The snapshot is blind to workflow waste. Search transcripts. |
+| Rewrite a whole skill as your CSI fix | One surgical edit per run. Rewrites are a dedicated session. |
 
 ---
 

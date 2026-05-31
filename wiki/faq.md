@@ -1,20 +1,17 @@
 ---
-audience: players
-campaign: shattered-sea
-created: 2026-05-03
-publish: true
-sources:
-- Inbox/faq.md
-subtype: faq
-summary: Public FAQ for using the Shattered Sea campaign wiki, including where to start, how navigation-safety works, and how to use the wiki with a chatbot.
-tags:
-- reference
-- setting
-title: FAQ
 type: reference
-updated: 2026-05-30
-confidence_level: high
+subtype: faq
+campaign: shattered-sea
 status: unknown
+audience: players
+publish: true
+summary: Public FAQ for using the Shattered Sea campaign wiki, including where to start, how navigation-safety works, and how to use the wiki with a chatbot.
+created: 2026-05-03
+updated: 2026-05-30
+tags: [reference, setting]
+sources: [Inbox/faq.md]
+title: FAQ
+confidence_level: high
 ---
 
 # Frequently Asked Questions
@@ -39,13 +36,13 @@ Read these:
 2. [[mortis|Mortis]]
 3. [[ship-stats|Ship Stats]] (Optional)
 4. [[ship-bastion|Ship Bastion]] (Optional)
-5. Any homebrew species page you are considering from [[species-index|Playable Species]]
+5. Any homebrew species page you are considering from [[wiki/lore/species/index|Playable Species]]
 
 You do not need to memorize the setting. You need a character with a reason to be aboard the *Saltwright*, a reason to cross dangerous water, and a problem that could follow them into port.
 
 ## What species can I play?
 
-Standard 2024 species are available, plus the Shattered Sea options in [[species-index|Playable Species]]:
+Standard 2024 species are available, plus the Shattered Sea options in [[wiki/lore/species/index|Playable Species]]:
 
 - [[aarakocra|Aarakocra]]
 - [[grung|Grung]]

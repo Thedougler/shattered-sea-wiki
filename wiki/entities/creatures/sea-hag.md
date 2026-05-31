@@ -1,28 +1,24 @@
 ---
-title: Sea Hag
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 2 fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 2 fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor.
-tags:
-- creature
-- fey
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, fey, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Sea Hag
-sources:
-- XMM
+title: Sea Hag
+aliases: [Sea Hag]
 cha: 13
 con: 16
 cr: 2
 creature_type: fey
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 13
 environment: coastal, underwater
 int: 12
@@ -30,7 +26,6 @@ page: 271
 statblock: inline
 str: 16
 wis: 12
-status: unknown
 ---
 
 # Sea Hag
@@ -67,7 +62,7 @@ actions:
 
 ## Habitat
 
-Predator of isolated coastal caves and wreck-strewn shallows around the [[drowned-maw|Drowned Maw]]. Approaches ships in the guise of a survivor using Disguise Self; the guise holds until the hag chooses otherwise or is forced to reveal its true form.
+Predator of isolated coastal caves and wreck-strewn shallows around the [[the-drowned-maw|Drowned Maw]]. Approaches ships in the guise of a survivor using Disguise Self; the guise holds until the hag chooses otherwise or is forced to reveal its true form.
 
 ## Related
 

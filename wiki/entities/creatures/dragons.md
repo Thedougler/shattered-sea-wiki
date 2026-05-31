@@ -1,23 +1,18 @@
 ---
-title: Dragons
-publish: true
-visibility: public
-audience: players
-summary: Player index for dragons, dragon turtles, and sea serpents of the Shattered Sea — most are apex threats where encounters are survival problems, not fights.
 type: index
 subtype: creature-index
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Player index for dragons, dragon turtles, and sea serpents of the Shattered Sea — most are apex threats where encounters are survival problems, not fights.
 created: 2026-05-05
 updated: 2026-05-30
-tags:
-- player-resource
-- index
-- bestiary
-- creature
-sources:
-- Inbox/beastiary/dragons/index.md
+tags: [player-resource, index, bestiary, creature]
+sources: [Inbox/beastiary/dragons/index.md]
 confidence_level: medium
+title: Dragons
+visibility: public
 ---
 
 # Dragons
@@ -26,7 +21,7 @@ Dragons, dragon turtles, and great serpents. Most are apex threats — encounter
 
 ## Dragon Turtles
 
-- [[ancient-dragon-turtle|Ancient Dragon Turtle]] — Mythic deep-water predator known for boiling seas and scalding steam breath; found in the [[drowned-maw|Drowned Maw]] and around [[keth-naar|Keth-Naar]]
+- [[ancient-dragon-turtle|Ancient Dragon Turtle]] — Mythic deep-water predator known for boiling seas and scalding steam breath; found in the [[the-drowned-maw|Drowned Maw]] and around [[keth-naar|Keth-Naar]]
 - [[dragon-turtle|Dragon Turtle]] — Large enough to break a working boat; lurks at the edge of the [[sunken-crown|Sunken Crown]] blue hole and eastern [[outer-reach|Outer Reach]]
 - [[young-dragon-turtle|Young Dragon Turtle]] — Dangerous enough to capsize small vessels; found where reef shallows give way to deep water
 - [[dragon-turtle-wyrmling|Dragon Turtle Wyrmling]] — Still large enough to wreck a skiff; sightings cluster around the outer beaches of the [[sunken-crown|Sunken Crown]]

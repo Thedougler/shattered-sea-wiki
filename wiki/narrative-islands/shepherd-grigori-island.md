@@ -174,7 +174,7 @@ The heir's Tessarine connections make this addition particularly valuable — th
 
 ## Related Pages
 
-- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori — NPC]] *(public-facing page)*
+- [[shepherd-grigori|Shepherd Grigori — NPC]] *(public-facing page)*
 - [[khlysty|Khlysty]] — the sect he leads
 - [[tessarine-concordat|Tessarine Concordat]] — the family he targeted
 - [[uncertainty|Uncertainty]] — the ship he traveled on

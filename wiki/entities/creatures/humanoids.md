@@ -1,23 +1,18 @@
 ---
-title: Humanoids
-publish: true
-visibility: public
-audience: players
-summary: Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 type: index
 subtype: creature-index
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 created: 2026-05-05
 updated: 2026-05-30
-tags:
-- player-resource
-- index
-- bestiary
-- creature
-sources:
-- Inbox/beastiary/humanoid/index.md
+tags: [player-resource, index, bestiary, creature]
+sources: [Inbox/beastiary/humanoid/index.md]
 confidence_level: medium
+title: Humanoids
+visibility: public
 ---
 
 # Humanoids
@@ -25,7 +20,7 @@ confidence_level: medium
 Pirates and raiders. Found wherever ships go.
 
 - [[pirate-admiral|Pirate Admiral]] — Fleet commander controlling a stretch of sea; operates the [[central-strait|Central Strait]] trade lanes and the [[galewall|Galewall]] lee
-- [[pirate-captain|Pirate Captain]] — Dangerous enough to take a working vessel; operates across the [[central-strait|Central Strait]], [[shelfworks|Shelfworks]], and the approaches to the [[drowned-maw|Drowned Maw]]
+- [[pirate-captain|Pirate Captain]] — Dangerous enough to take a working vessel; operates across the [[central-strait|Central Strait]], [[shelfworks|Shelfworks]], and the approaches to the [[the-drowned-maw|Drowned Maw]]
 - [[pirate|Pirate]] — The common crew of every raiding vessel in the Scatter; found everywhere ships go
 
 ## Dravosi Crown

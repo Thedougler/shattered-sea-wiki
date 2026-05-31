@@ -3,17 +3,17 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: island
 audience: dm
 publish: false
-region: midchain
 summary: "A dying privateer at Grimaldi's Dispensary has half a treasure chart tattooed on her forearm — the other half burned. The cache is on Orak: 800gp in old Imperial coin and matched silver, buried in a tidal sea cave with a 3-hour window and a constrictor snake."
 created: 2026-05-30
 updated: 2026-05-30
 tags: [situation, kalowe, treasure, exploration, orak]
 sources: ["Inbox/situations/islands/Kalowe-Captains-Map.md"]
-confidence_level: medium
+lifecycle: active
 narrative_island: ""
+region: midchain
+confidence_level: medium
 ---
 
 # Kalowe — The Captain's Map

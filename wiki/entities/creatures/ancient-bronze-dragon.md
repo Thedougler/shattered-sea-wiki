@@ -1,30 +1,24 @@
 ---
-title: Ancient Bronze Dragon
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 22 metallic dragon; watches the Shelfworks and the Drowned Maw — it has established, via cold currents and repositioned dive lines, that certain parts of the ruins are not for salvage.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 22 metallic dragon; watches the Shelfworks and the Drowned Maw — it has established, via cold currents and repositioned dive lines, that certain parts of the ruins are not for salvage.
-tags:
-- creature
-- dragon
-- dragon-metallic
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, dragon, dragon-metallic, bestiary]
+sources: [XMM, Homebrew]
 confidence_level: medium
-aliases:
-- Ancient Bronze Dragon
-sources:
-- XMM
-- Homebrew
+title: Ancient Bronze Dragon
+aliases: [Ancient Bronze Dragon]
 cha: 25
 con: 27
 cr: 22
 creature_type: dragon
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: coastal
 int: 18
@@ -32,7 +26,6 @@ page: 60
 statblock: inline
 str: 29
 wis: 17
-status: unknown
 ---
 
 # Ancient Bronze Dragon
@@ -90,13 +83,13 @@ The [[shelfworks|Shelfworks]] have rules every experienced salvager knows. There
 
 Nobody has posted a sign. Nobody has been told directly. The rule exists because three separate crews who broke it — across different seasons, without knowing about each other — all reported the same thing: a current that wasn't there before, cold water arriving from no clear source, and their lines going taut in a direction that had nothing to do with the drift. Two of the three surfaced without the pieces they went down for. The third surfaced without two of its divers. The current behavior in those incidents matches what the ancient's Control Water ability would produce if something very large and very deliberate decided a particular area was closed. ^[inferred]
 
-The [[drowned-maw|Drowned Maw]] has been watched from above by the [[the-high-eyrie|Sentinels of the High Eyrie]] for two centuries. Their records note, without editorial comment, that a Gargantuan creature has been observed moving through the western shelf waters at irregular intervals since the records began. It does not attack vessels. It is present more often when the [[tessarine-concordat|Tessarine Concordat]] or [[dravosi-crown|Dravosi Crown]] increase extraction operations, and less often when they don't. ^[inferred]
+The [[the-drowned-maw|Drowned Maw]] has been watched from above by the [[high-eyrie|Sentinels of the High Eyrie]] for two centuries. Their records note, without editorial comment, that a Gargantuan creature has been observed moving through the western shelf waters at irregular intervals since the records began. It does not attack vessels. It is present more often when the [[tessarine-concordat|Tessarine Concordat]] or [[dravosi-crown|Dravosi Crown]] increase extraction operations, and less often when they don't. ^[inferred]
 
 An ancient bronze dragon old enough to have watched the [[antheri-ruins|Antheri Ruins]] since before the current colonial era would have opinions about how they are being used. It is Lawful Good. It has not destroyed the Shelfworks. What it has done is establish, through current and cold water and the occasional very direct repositioning of a dive line, that there are parts of the ruins it considers outside the scope of the salvage gold rush. ^[inferred]
 
 ## Related
 
-- [[the-high-eyrie|The High Eyrie]]
+- [[high-eyrie|The High Eyrie]]
 - [[shelfworks|Shelfworks]]
 - [[antheri-ruins|Antheri Ruins]]
 - [[adult-bronze-dragon|Adult Bronze Dragon]]

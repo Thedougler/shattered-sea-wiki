@@ -36,7 +36,7 @@ Fifteen, maybe. Was behind the water barrels the whole fight and has now emerged
 
 They know every sailing manual by heart. They have sailed on almost none of them. This gap between theory and experience is the thing they are most actively trying to close, and any ship going somewhere new is a better classroom than Port Tidefall.
 
-[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] referred to them obliquely as *"our guest below is useful in a galley"* — which is true. They learned from watching, which is how they learn everything.
+[[shepherd-grigori|Shepherd Grigori]] referred to them obliquely as *"our guest below is useful in a galley"* — which is true. They learned from watching, which is how they learn everything.
 
 ## Aboard Ship
 
@@ -55,4 +55,4 @@ There is no bar to clear. They are already staying if anyone asks.
 
 - [[hcs-surety|HCS Surety]]
 - [[barnaby-rook|Barnaby Rook]]
-- [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]]
+- [[shepherd-grigori|Shepherd Grigori]]

@@ -1,28 +1,24 @@
 ---
-title: Sahuagin Warrior
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
-tags:
-- creature
-- fiend
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, fiend, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Sahuagin Warrior
-sources:
-- XMM
+title: Sahuagin Warrior
+aliases: [Sahuagin Warrior]
 cha: 9
 con: 12
 cr: 1/2
 creature_type: fiend
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 11
 environment: coastal, underwater
 int: 12
@@ -30,7 +26,6 @@ page: 264
 statblock: inline
 str: 13
 wis: 13
-status: unknown
 ---
 
 # Sahuagin Warrior
@@ -71,7 +66,7 @@ bonus_actions:
 
 ## Habitat
 
-The raiding soldiers of the deep; encountered in packs along shelf walls and reef drop-offs, particularly around the [[drowned-maw|Drowned Maw]]. Blood Frenzy triggers once any combatant is bloodied — the whole pack becomes more dangerous.
+The raiding soldiers of the deep; encountered in packs along shelf walls and reef drop-offs, particularly around the [[the-drowned-maw|Drowned Maw]]. Blood Frenzy triggers once any combatant is bloodied — the whole pack becomes more dangerous.
 
 ## Related
 

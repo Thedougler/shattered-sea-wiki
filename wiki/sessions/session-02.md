@@ -21,7 +21,7 @@ session_date: 2026-05-18
 ## Durable Changes
 - [[barnaby-rook|Barnaby Rook]] — presumed dead; taken by something in the water after going in a second time.
 - Party now commands the [[hcs-surety|HCS Surety]]. The [[saltwright|Saltwright]] departed with [[beaumont-sel|Beaumont Sel]].
-- Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] (shipwright), [[alys-kuiper|Alys Kuiper]] (surgeon), [[old-faas|Old Faas]] (rigger), [[thunk|Thunk]], [[noor|Noor]]. [[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] aboard until Calveno.
+- Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] (shipwright), [[alys-kuiper|Alys Kuiper]] (surgeon), [[old-faas|Old Faas]] (rigger), [[thunk|Thunk]], [[noor|Noor]]. [[shepherd-grigori|Shepherd Grigori]] aboard until Calveno.
 - [[ket|Ket]] (Moucheron) freed from cage; flew toward [[murrat|Murrat]].
 - [[ensign-wouters|Ensign Wouters]] killed (shot by Delmar through a gun port).
 - [[perrin-black-jaw|Perrin]] received [[miras-blade|Mira's Blade]] from the cargo.

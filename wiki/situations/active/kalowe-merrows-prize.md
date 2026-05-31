@@ -3,16 +3,16 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: island
 audience: dm
 publish: false
-region: midchain
 summary: "A sunken merchant ship 2 miles off the Kalowe reef holds a sealed strongbox; the only survivor wants the party to dive for it, and a merrow has already moved in."
 created: 2026-05-15
 updated: 2026-05-30
 tags: [situation, kalowe, treasure, underwater, combat]
 sources: ["Inbox/situations/islands/Kalowe-Merrows-Prize.md"]
+lifecycle: active
 narrative_island: ""
+region: midchain
 ---
 
 # Kalowe — The Merrow's Prize

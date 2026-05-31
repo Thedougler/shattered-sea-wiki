@@ -1,25 +1,19 @@
 ---
-title: The Shattered Sea
-publish: true
-visibility: public
-audience: players
-summary: Player-facing root hub for the Shattered Sea campaign wiki, with onboarding links, rules references, character creation resources, and setting indexes.
 type: index
+subtype: unknown
 campaign: shattered-sea
-aliases:
-- The Scatter
-- Shattered Sea Campaign
-- Campaign Hub
+status: unknown
+audience: players
+publish: true
+summary: Player-facing root hub for the Shattered Sea campaign wiki, with onboarding links, rules references, character creation resources, and setting indexes.
 created: 2026-05-04
 updated: 2026-05-30
-tags:
-- player-resource
-- index
-sources:
-- Inbox/index.md
+tags: [player-resource, index]
+sources: [Inbox/index.md]
+title: The Shattered Sea
+visibility: public
+aliases: [The Scatter, Shattered Sea Campaign, Campaign Hub]
 confidence_level: high
-subtype: unknown
-status: unknown
 ---
 
 # The Shattered Sea
@@ -35,16 +29,16 @@ status: unknown
 - [[wiki/entities/characters/index|Characters]]
 - [[wiki/entities/factions/index|Factions]]
 - [[wiki/entities/items/index|Items]]
-- [[lore-index|Lore]]
+- [[wiki/lore/index|Lore]]
 - [[wiki/entities/characters/npcs/index|NPCs]]
-- [[places-index|Places]]
+- [[wiki/entities/places/index|Places]]
 - [[ships-index|Ships]]
 
 ---
 
 ## Session Recaps
 
-- [[sessions-index|Sessions]] — all published recaps
+- [[wiki/sessions/session-01-recap|Sessions]] — all published recaps
 - [[session-01-recap|Session 01 — The Saltwright]]
 
 ---

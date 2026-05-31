@@ -17,7 +17,7 @@ confidence_level: confirmed
 
 Political power that arrived in the Shattered Sea in 1210 DR, formed the Seven Houses of [[calveno|Calveno]], and began the slow arithmetic of obligation. Its principal colonial rival is the [[dravosi-crown|Dravosi Crown]]; both powers compete across the same Scatter routes. [[the-passage|The Passage]] uses Tessarine paper and commercial channels as cover infrastructure, though there is no formal arrangement.
 
-[[wiki/situations/islands/shepherd-grigori|Shepherd Grigori]] wears a Tessarine shirt under his Dravosi naval coat — the Concordat is his affiliation or nation of origin.
+[[shepherd-grigori|Shepherd Grigori]] wears a Tessarine shirt under his Dravosi naval coat — the Concordat is his affiliation or nation of origin.
 
 ## Method
 

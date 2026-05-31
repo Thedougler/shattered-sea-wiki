@@ -34,7 +34,7 @@ The fleet's final commission came through [[chain-council|the Chain Council]]: t
 | Ship | Captain | Role |
 |---|---|---|
 | [[red-lady|*Red Lady*]] *(flagship)* | [[rael-corven|Rael Corven]] | Entered the shrine with Fisk; navigated to the Pearl using Detect Magic |
-| [[narrow|*Narrow*]] | [[maren|Maren]] | Led the aquatic perimeter survey that located the sub-surface entry point |
+| [[the-narrow|*Narrow*]] | [[maren|Maren]] | Led the aquatic perimeter survey that located the sub-surface entry point |
 | [[heft|*Heft*]] | [[detto-kalash|Detto Kalash]] | Used Mold Earth to open the passage from the island's submerged base into the shrine |
 | [[fernen|*Fernen*]] | [[sienne-orre|Sienne Orre]] | Ran the second scout team alongside Maren during the perimeter survey |
 | [[loud-argument|*Loud Argument*]] | [[bastian-crev|Bastian Crev]] | Commanded the distraction team — sustained bombardment, spell suppression, trap triggering |

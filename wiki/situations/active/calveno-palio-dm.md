@@ -3,17 +3,17 @@ type: situation
 subtype: thread
 campaign: shattered-sea
 status: active
-lifecycle: island
 audience: dm
 publish: false
-region: calveno
 summary: "DM mechanics for running Il Palio delle Voci as a skill challenge — three-phase structure, rival disruptions, party roles, recruitable NPCs, and reward tiers."
 created: 2026-05-30
 updated: 2026-05-30
 tags: [situation, calveno, skill-challenge, palio, event]
 sources: ["Inbox/situations/islands/Il-Palio-delle-Voci.md"]
-confidence_level: medium
+lifecycle: active
 narrative_island: ""
+region: calveno
+confidence_level: medium
 ---
 
 # Il Palio delle Voci — DM Notes

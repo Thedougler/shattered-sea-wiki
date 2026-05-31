@@ -1,28 +1,24 @@
 ---
-title: Roc
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
-tags:
-- creature
-- monstrosity
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, monstrosity, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Roc
-sources:
-- XMM
+title: Roc
+aliases: [Roc]
 cha: 9
 con: 20
 cr: 11
 creature_type: monstrosity
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 10
 environment: arctic, coastal, desert, hill, mountain
 int: 3
@@ -30,7 +26,6 @@ page: 261
 statblock: inline
 str: 28
 wis: 10
-status: unknown
 ---
 
 # Roc
@@ -68,7 +63,7 @@ bonus_actions:
 
 ## Habitat
 
-Nests on the high basalt sea stacks near [[the-high-eyrie|the High Eyrie]] and the storm-scoured peaks above the [[galewall|Galewall]]. Large enough to carry off a longboat — a roc in the air near a nest is not a patrol encounter.
+Nests on the high basalt sea stacks near [[high-eyrie|the High Eyrie]] and the storm-scoured peaks above the [[galewall|Galewall]]. Large enough to carry off a longboat — a roc in the air near a nest is not a patrol encounter.
 
 ## Related
 

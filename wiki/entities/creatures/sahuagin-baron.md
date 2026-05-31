@@ -1,28 +1,24 @@
 ---
-title: Sahuagin Baron
 type: monster
+subtype: monster
+campaign: shattered-sea
+status: unknown
+audience: players
 publish: true
+summary: CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
 created: 2026-04-25
 updated: 2026-05-30
-summary: CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
-tags:
-- creature
-- fiend
-- bestiary
-campaign: shattered-sea
-audience: players
-subtype: monster
+tags: [creature, fiend, bestiary]
+sources: [XMM]
 confidence_level: high
-aliases:
-- Sahuagin Baron
-sources:
-- XMM
+title: Sahuagin Baron
+aliases: [Sahuagin Baron]
 cha: 17
 con: 16
 cr: 5
 creature_type: fiend
 cssclasses:
-- wiki-monster
+  - wiki-monster
 dex: 15
 environment: coastal, underwater
 int: 14
@@ -30,7 +26,6 @@ page: 265
 statblock: inline
 str: 19
 wis: 13
-status: unknown
 ---
 
 # Sahuagin Baron
@@ -75,7 +70,7 @@ reactions:
 
 ## Habitat
 
-Commands shark-rider warbands from the deep shelf of the [[drowned-maw|Drowned Maw]] and the outer reef walls of the [[sunken-crown|Sunken Crown]]. The Fiendish Blood reaction makes a baron dangerous to fight with weapons — each strike can curse an attacker.
+Commands shark-rider warbands from the deep shelf of the [[the-drowned-maw|Drowned Maw]] and the outer reef walls of the [[sunken-crown|Sunken Crown]]. The Fiendish Blood reaction makes a baron dangerous to fight with weapons — each strike can curse an attacker.
 
 ## Related
 

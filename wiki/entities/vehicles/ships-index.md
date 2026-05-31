@@ -25,7 +25,7 @@ Vessels the party sails, has sailed, or should recognise on sight.
 
 **[[red-lady|The Red Lady]]** — [[delmar-fisk|Delmar Fisk]]'s flagship. A privateer-rigged brigantine that led five ships into the [[the-drowned-maw|Drowned Maw]] and did not come back.
 
-**[[narrow|The Narrow]]** — Scout sloop, second ship of the fleet. Captained by Maren. Built to go where other ships couldn't.
+**[[the-narrow|The Narrow]]** — Scout sloop, second ship of the fleet. Captained by Maren. Built to go where other ships couldn't.
 
 **[[heft|The Heft]]** — Heavy brig, third ship of the fleet. Built to take punishment and hold position.
 
@@ -79,4 +79,4 @@ Vessels the party sails, has sailed, or should recognise on sight.
 
 ---
 
-For rules see: [[ships-cheat-sheet|Ships & Bastion Quick Reference]] · [[hcs-surety-owners-manual|Uncertainty Owner's Manual]]
+For rules see: [[ships-quick-reference|Ships & Bastion Quick Reference]] · [[hcs-surety-owners-manual|Uncertainty Owner's Manual]]

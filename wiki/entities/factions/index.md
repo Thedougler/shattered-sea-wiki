@@ -65,7 +65,7 @@ They handle storm omens and funeral rites. Questions about either cost more than
 
 ## [[sentinels-of-the-eyrie|Sentinels of the Eyrie]]
 
-Aarakocra. They watch the [[drowned-maw|Drowned Maw]] and have been watching it for longer than most nations have existed. They keep meticulous records and share them freely — what they saw, when, precise coordinates. What they won't do is tell you what it means. That's not their job, and they'll say so plainly.
+Aarakocra. They watch the [[the-drowned-maw|Drowned Maw]] and have been watching it for longer than most nations have existed. They keep meticulous records and share them freely — what they saw, when, precise coordinates. What they won't do is tell you what it means. That's not their job, and they'll say so plainly.
 
 If a Sentinel warns you off a route, they're not guessing.
 
@@ -91,4 +91,4 @@ Patrol boats from the clans don't negotiate. Not twice.
 
 ## [[fisks-fleet|Fisk's Fleet]]
 
-Five ships, privateer charter, under [[delmar-fisk|Delmar Fisk]]. All hands lost at the [[drowned-maw|Drowned Maw]]. That's the official version. Whether you believe it depends on who you ask and how much they've had to drink. Wreck claims are unresolved. Old privateer loyalties don't dissolve cleanly. And conversations have a way of going quiet when Fisk's name comes up.
+Five ships, privateer charter, under [[delmar-fisk|Delmar Fisk]]. All hands lost at the [[the-drowned-maw|Drowned Maw]]. That's the official version. Whether you believe it depends on who you ask and how much they've had to drink. Wreck claims are unresolved. Old privateer loyalties don't dissolve cleanly. And conversations have a way of going quiet when Fisk's name comes up.

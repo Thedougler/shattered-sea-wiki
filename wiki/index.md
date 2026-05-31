@@ -223,7 +223,7 @@ sources: []
 - [[taufa-fifita-and-sons|Taufa Fifita & Sons]] — The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
 
 ## entities/places/settlements/port-tidefall
-- [[waveservant-shrine|Waveservant Shrine — Port Tidefall]] — Umberlee's shrine at the Port Tidefall Dockfront — cut into the cliff base, bare stone, a seawater basin, tallow candles. Mariners pay before they sail or after they survive.
+- [[port-tidefall-waveservant-shrine|Waveservant Shrine — Port Tidefall]] — Umberlee's shrine at the Port Tidefall Dockfront — cut into the cliff base, bare stone, a seawater basin, tallow candles. Mariners pay before they sail or after they survive.
 
 ## entities/places/settlements/warren
 - [[low-lamp|The Low Lamp]] — The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.

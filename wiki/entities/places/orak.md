@@ -49,6 +49,7 @@ Giant frogs, giant constrictor snakes, giant spiders, venomous snake swarms, roo
 
 - The channel with Dreth is too shadowed and flat to read correctly until something moves.
 - The island looks less militarized than Karath, which is not the same as safer.
+- **The Captain's Map** — A 40-year-old privateer cache is buried 6 feet under a flat stone, 40 ft into a tidal sea cave on Orak's eastern face. Bearing 087° from the southeastern rock stack. Cave entrance is walkable at low tide; floods to the ceiling at high tide (3-hour window). [[kalowe-captains-map|Full situation]].
 
 ## See Also
 

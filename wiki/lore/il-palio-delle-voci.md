@@ -89,3 +89,4 @@ Past winners are commemorated on a plaque at the Mercatura committee offices. Th
 - [[calveno|Calveno]]
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]]
 - [[ponte-bassa|Ponte Bassa]]
+- [[calveno-palio-dm|DM Notes — Skill Challenge Mechanics]]

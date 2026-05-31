@@ -81,6 +81,10 @@ She is not a slaughter ship. Her captain wants cargo, letters of marque, ransoma
 > As a prize: complete mid-campaign ship bastion — useful, compromised, and immediately wanted by somebody.
 > As a contact: buys silence, sells papers, and knows which captains carry cargo they cannot report stolen.
 
+## Active Situations
+
+- [[kalowe-bad-receipt-cache|Kalowe — The Bad Receipt's Cache]] — Nine crates of prize cargo stashed on a nameless limestone rock 3 miles east of Kalowe. The pilot who knew the location is dead; Orina Fale has been trying to recover it for eight months. A fisherman named Damu knows where the rock is.
+
 ## Connections
 
 - [[kalowe|Kalowe]] — home port

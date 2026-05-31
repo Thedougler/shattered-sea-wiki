@@ -87,7 +87,7 @@ Front entrance from the third-island lane, quieter than the causeway buildings. 
 ## Current Hooks
 
 - A Takowan crew member came in two days ago with a hand wound not from working the rigging. Grimaldi dressed it and noted the ring he wore — Passage-style affiliation mark, specific design. She has said nothing to anyone yet.
-- **The Captain's Map** — a patient in the back room is dying of lung sickness and has half a privateering chart tattooed on her forearm. Grimaldi will mention the tattoo if the party buys supplies and asks the right question. The patient wants 200 gp and passage out.
+- **The Captain's Map** — [[sera-maddock|Sera Maddock]] is dying in the back room (lung sickness, ~3 days). Half a 40-year-old privateering chart is tattooed on her forearm. The cache is on [[orak|Orak]]: 800 gp in old Imperial coin + jewelry in a tidal sea cave. She wants 200 gp and passage out. Full situation: [[kalowe-captains-map|Kalowe — The Captain's Map]].
 - **Sawek survivor** — a fisherman the Sawek dragged in but didn't kill is recovering here. Grimaldi will describe the attack pattern clinically if asked.
 
 ## See Also

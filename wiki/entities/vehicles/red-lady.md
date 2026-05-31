@@ -75,9 +75,28 @@ See [[pearl-of-souls|Maw Pearl Crisis]] for the full salvage situation.
 | **Condition** | Prime (pre-wreck) |
 | **Speed (good wind)** | 90 miles/day |
 | **Speed (poor wind)** | 45 miles/day |
+| **Maneuverability** | Good |
+| **Profile** | Medium |
 | **Crew (min/full)** | 8 / 24 |
-| **Cargo** | 45 tons |
-| **Weapons** | 12 × Cannon; 2 × Swivel Gun |
+| **Cargo** | 45 tons (Armed variant — speed preserved at cost of cargo depth) |
+| **Weapons** | 12 × Cannon (7 per side); 2 × Swivel Gun (bow and stern) |
+| **Available Space** | 8 units (Tier 2 maximum; 1 special facility slot unused) |
+
+---
+
+## Facilities (Pre-Wreck)
+
+All 8 space units installed. Fleet Intelligence Room was the most operationally significant — encoded contract logs and cipher keys. Potentially recoverable from the wreck.
+
+| Facility | Bastion Type | Space | Notes |
+|---|---|---|---|
+| Captain's cabin — chart table, iron lockbox (DC 18) | Captain's Cabin | 1 | Private access to magazine key |
+| Signal station — flags, lamps, drum signals, code books | Helm and Command | 1 | Fleet coordination platform |
+| Fleet Intelligence Room — encoded logs, cipher keys, contract archive | [[chart-archive\|Chart Archive]] | 2 | Encoded contract logs and contractor correspondence; 2 units for archive depth |
+| Navigator's station with full chart library | [[navigator-chart-room\|Navigator's Chart Room]] | 1 | Midchain routes, Strait approaches, Scatter anchorages, partial Maw bathymetry |
+| Surgeon's berth | [[surgeons-berth\|Surgeon's Berth]] | 1 | Stocked for combat casualties and extended voyages |
+| Below-waterline magazine and boarding kit | [[weapons-locker\|Weapons Locker]] | 1 | Powder magazine, boarding weapons, spare shot and match |
+| Cook's galley with fresh-water cistern | Ship's Galley | 1 | Long-voyage capable; crew recovery on long rests (+1d6 HP with functional Cook) |
 
 ---
 

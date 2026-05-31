@@ -63,6 +63,118 @@ def count_tokens(path: str) -> int:
         return os.path.getsize(path) // 4
 
 
+def _count_str_tokens(text: str) -> int:
+    return len(_ENC.encode(text))
+
+
+def _extract_frontmatter(content: str) -> tuple[str, str]:
+    """Split leading YAML frontmatter from body. Returns (frontmatter, body)."""
+    if not content.startswith("---"):
+        return "", content
+    end = content.find("\n---", 3)
+    if end == -1:
+        return "", content
+    cut = end + 4
+    if cut < len(content) and content[cut] == "\n":
+        cut += 1
+    return content[:cut], content[cut:]
+
+
+def _split_by_headings(body: str) -> list[str]:
+    """Split markdown body into sections at ## headings."""
+    sections: list[str] = []
+    current: list[str] = []
+    for line in body.split("\n"):
+        if line.startswith("## ") and current:
+            sections.append("\n".join(current))
+            current = [line]
+        else:
+            current.append(line)
+    if current:
+        sections.append("\n".join(current))
+    return sections
+
+
+def chunk_oversized(path: str, budget: int, inbox_root: str) -> list[str] | None:
+    """Split an oversized markdown file into chunk files that fit the budget.
+
+    Returns a list of chunk paths, or None if the file doesn't need chunking
+    (under budget or not a text file). Chunks are written to a .chunks/
+    subdirectory next to the original, and the original is hidden by prefixing
+    its basename with a dot so it drops out of the queue.
+
+    Each chunk keeps the original frontmatter (with a chunk_of/chunk_index added)
+    and groups consecutive ## sections until the next section would exceed the
+    budget.
+    """
+    if not path.endswith((".md", ".txt")):
+        return None
+
+    try:
+        with open(path, "r", errors="replace") as fh:
+            content = fh.read()
+    except Exception:
+        return None
+
+    tokens = _count_str_tokens(content)
+    if tokens <= budget:
+        return None
+
+    frontmatter, body = _extract_frontmatter(content)
+    sections = _split_by_headings(body)
+    if len(sections) <= 1:
+        return None
+
+    fm_tokens = _count_str_tokens(frontmatter) if frontmatter else 0
+    section_budget = budget - fm_tokens
+
+    chunks: list[list[str]] = []
+    current_sections: list[str] = []
+    current_tokens = 0
+    for section in sections:
+        sec_tokens = _count_str_tokens(section)
+        if current_sections and current_tokens + sec_tokens > section_budget:
+            chunks.append(current_sections)
+            current_sections = [section]
+            current_tokens = sec_tokens
+        else:
+            current_sections.append(section)
+            current_tokens += sec_tokens
+    if current_sections:
+        chunks.append(current_sections)
+
+    if len(chunks) <= 1:
+        return None
+
+    parent = os.path.dirname(path)
+    stem = os.path.splitext(os.path.basename(path))[0]
+    ext = os.path.splitext(path)[1]
+    chunk_dir = os.path.join(parent, f".chunks-{stem}")
+    os.makedirs(chunk_dir, exist_ok=True)
+
+    chunk_paths: list[str] = []
+    for i, section_group in enumerate(chunks, 1):
+        chunk_body = "\n\n".join(section_group)
+        if frontmatter:
+            insert = f"chunk_of: {os.path.basename(path)}\nchunk_index: {i}\nchunk_total: {len(chunks)}"
+            fm_end = frontmatter.rfind("\n---")
+            chunk_fm = frontmatter[:fm_end] + "\n" + insert + frontmatter[fm_end:]
+            chunk_content = chunk_fm + chunk_body
+        else:
+            chunk_content = chunk_body
+
+        chunk_name = f"{stem}--part-{i:02d}{ext}"
+        chunk_path = os.path.join(chunk_dir, chunk_name)
+        with open(chunk_path, "w") as fh:
+            fh.write(chunk_content)
+        chunk_paths.append(chunk_path)
+
+    hidden = os.path.join(parent, f".{os.path.basename(path)}")
+    os.rename(path, hidden)
+
+    return chunk_paths
+
+
 @dataclass(frozen=True)
 class Duplicate:
     path: str
@@ -404,9 +516,27 @@ def main(argv: list[str]) -> int:
 
     if args.batch:
         budget = args.budget
+        inbox_root = resolve_path(args.inbox)
+
+        expanded: list[str] = []
+        for path in pending:
+            tokens = count_tokens(path)
+            if tokens > budget:
+                chunk_paths = chunk_oversized(path, budget, inbox_root)
+                if chunk_paths:
+                    sys.stderr.write(
+                        f"check_ingest: chunked {display_path(path)} "
+                        f"(~{tokens:,} tokens) into {len(chunk_paths)} parts\n"
+                    )
+                    expanded.extend(chunk_paths)
+                    continue
+            expanded.append(path)
+
+        expanded.sort(key=lambda p: (os.path.getsize(p), display_path(p)))
+
         batch: list[tuple[str, int]] = []
         batch_tokens = 0
-        for path in pending:
+        for path in expanded:
             tokens = count_tokens(path)
             if batch and batch_tokens + tokens > budget:
                 break
@@ -416,16 +546,15 @@ def main(argv: list[str]) -> int:
         for path, tokens in batch:
             print(display_path(path))
         if not args.quiet:
-            if not pending:
+            if not expanded:
                 sys.stderr.write("check_ingest: queue clear (0 pending)\n")
             elif not batch:
                 sys.stderr.write("check_ingest: queue clear (0 pending)\n")
             else:
-                remaining = len(pending) - len(batch)
-                method = "tiktoken"
+                remaining = len(expanded) - len(batch)
                 sys.stderr.write(
                     f"check_ingest: batch {len(batch)} file(s), "
-                    f"~{batch_tokens:,} tokens ({method}), "
+                    f"~{batch_tokens:,} tokens (tiktoken), "
                     f"budget {budget:,} | "
                     f"{remaining} remaining after this wave\n"
                 )

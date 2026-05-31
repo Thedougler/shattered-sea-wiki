@@ -63,6 +63,11 @@ The script fills a batch by token budget (default 30k tokens), walking the queue
 smallest-first and stopping when the next file would exceed the budget. It always includes
 at least one file. stderr reports the batch size, token count, and how many remain.
 
+Oversized markdown files (over the budget) are automatically chunked by `##` headings into
+parts that fit. Each chunk keeps the original frontmatter and is processed as a separate
+source. The original is hidden until all chunks are handled. Binary files (PDFs, images)
+are never chunked — they appear as a single-file batch.
+
 1. Read `wiki/hot.md` for current world state.
 2. Process each source in the batch to completion (steps below), then archive it.
 3. After all sources in the batch: regenerate index, commit once.

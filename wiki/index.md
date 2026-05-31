@@ -409,6 +409,7 @@ sources: []
 - [[session-01-scene-07-the-hold|Beat 7: The Hold]] — Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins.
 - [[session-02|Session 02 — Conflict is a Surety]] — Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up.
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
+- [[session-02-scene-05-central-strait|Central Strait Events]] — Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
 - [[session-03-recap|03 — Getting in on the Joke]] — Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened.
 - [[session-03-scene-03-aftermath|Session 03 — Aftermath]] — Session 03, Scene 3 — Post-shark aftermath: Sem's damage report, Grigori healing crew at dawn, ship departing for Calveno.

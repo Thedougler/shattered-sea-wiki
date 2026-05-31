@@ -18,7 +18,7 @@ confidence_level: confirmed
 
 # Toa
 
-Moucheron member of the [[five-blades|Five Blades]]. The biggest of the group and the most immediately readable.
+[[moucheron|Moucheron]] member of the [[five-blades|Five Blades]]. The biggest of the group and the most immediately readable.
 
 Cheerful. Genuinely curious about how a fight went wrong for whoever they were fighting. Offers opinions without prompting and is usually right.
 

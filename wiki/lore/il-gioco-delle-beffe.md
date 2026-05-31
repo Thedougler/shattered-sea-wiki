@@ -42,9 +42,9 @@ Calveno's five-day prank festival. Teams design elaborate public hoaxes, execute
 
 - Registration is tomorrow morning from the party's current Calveno state.
 - Several Legendary declarations are expected, so the prize pool should be large.
-- Giacomo Moretti has signed the Accord for twenty years and has never been successfully pranked.
-- A Tessarine factor is on the list for the first time.
-- Prospero Morsani appears on the winner plaque, but his entry has no description.
+- [[giacomo-moretti|Giacomo Moretti]] has signed the Accord for twenty years and has never been successfully pranked.
+- A [[tessarine-concordat|Tessarine]] factor is on the list for the first time.
+- [[prospero-morsani|Prospero Morsani]] appears on the winner plaque, but his entry has no description.
 - The Six-Hour Wake record has stood for forty years.
 
 ## Last Ten Winners
@@ -56,9 +56,9 @@ Calveno's five-day prank festival. Teams design elaborate public hoaxes, execute
 | 3 years ago | The Herons | Wading heron | Canal inspector Brun Cask | Two teams nested false inspection findings into each other. |
 | 4 years ago | Sable & Pepper | Salt shaker and sprig | Lucia Farro | Convinced her a famous dead sea captain had survived in Keth Naar. |
 | 5 years ago | The Blind Canal | Looped rope | Matteo Carver | Rerouted a maintenance canal so he filed four reports on the same stretch. |
-| 6 years ago | Il Velo | Half-mask | Oleandro Fuschi | Adjusted every tavern element by inches and swapped each wine for a near match. |
+| 6 years ago | Il Velo | Half-mask | [[oleandro-fuschi|Oleandro Fuschi]] | Adjusted every tavern element by inches and swapped each wine for a near match. |
 | 7 years ago | The Usual Suspects | Crossed quills | Piet Ondra | Convinced a Chain Council observer that Calveno redefined a fathom. |
-| 8 years ago | The Devout | Closed eye | Waveservant Senior Matha | Forged a tide-tithe prophecy in the shrine donation box. |
+| 8 years ago | The Devout | Closed eye | [[waveservants|Waveservant]] Senior Matha | Forged a tide-tithe prophecy in the shrine donation box. |
 | 9 years ago | The Flagmen | Three-color band | Crob | Created a fake canal-boat health flag regulation. |
 | 10 years ago | The Quiet Tide | Still waterline | Valco | Replaced inventory contents with equal-weight substitutes before audit. |
 

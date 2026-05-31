@@ -22,7 +22,7 @@ confidence_level: low
 
 ## Situation
 
-What took the three lighthouse crews at Cape Solitude is unknown and intentionally unresolved. The pre-colonial tower is older than the Crown's claim to the island. Harpies are a possible mundane explanation for the voices, but the disappearances left no tools or signs of struggle.
+What took the three lighthouse crews at Cape Solitude is unknown and intentionally unresolved. The pre-colonial tower is older than the [[dravosi-crown|Crown]]'s claim to the island. Harpies are a possible mundane explanation for the voices, but the disappearances left no tools or signs of struggle.
 
 The Dead Light is a ready adventure hook — three crews vanished, the tower still stands, nobody has investigated carefully.
 

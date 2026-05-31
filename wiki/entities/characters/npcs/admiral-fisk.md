@@ -21,4 +21,4 @@ confidence_level: inferred
 > [!dm]
 > Stub. [[delmar-fisk|Delmar]] named him as "a friend" when speaking to Beaumont at departure. Fisk shares Delmar's surname — possible family connection, but not confirmed by source. Rank is Admiral. Not yet encountered.
 
-Naval admiral, identity otherwise unknown.
+Naval admiral, identity otherwise unknown. Presumably senior in [[fisks-fleet|Fisk's Fleet]].

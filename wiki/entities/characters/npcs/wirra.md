@@ -18,6 +18,6 @@ confidence_level: confirmed
 
 # Wirra
 
-Moucheron member of the [[five-blades|Five Blades]]. The one the surgeon asks for when the job goes badly.
+[[moucheron|Moucheron]] member of the [[five-blades|Five Blades]]. The one the surgeon asks for when the job goes badly.
 
 Carries a kit that has nothing to do with the Five Blades' offensive work. Precise and unsentimental about keeping a client's crew alive after an engagement. Charges separately and states that upfront.

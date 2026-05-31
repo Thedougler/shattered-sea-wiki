@@ -54,3 +54,8 @@ There is no second-in-command. If Grigori were destroyed, the sect would lose co
 > Late-game reveal. Surface the cult in layers: miraculous healings with the same description, private correspondence using shepherd language, noble heirs deferential to Grigori without understanding why, then the phylactery network as the real shape of the threat.
 
 Play the cult as genuine. The Turning is real. The healings are real. The warmth is real. The horror is that an undead sorcerer built an unkillable afterlife out of the gratitude of dying children and desperate families, and considers this reasonable.
+
+## Related
+
+- [[shepherd-grigori-situation|Shepherd Grigori — The Cold Handshake]] — live party-facing thread; what the players can find
+- [[shepherd-grigori|Shepherd Grigori]] — the sect's shepherd and public-facing NPC

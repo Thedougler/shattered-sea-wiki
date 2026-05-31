@@ -53,3 +53,4 @@ Sea elves adapted to aquatic environments. Can breathe air and water, have cold 
 
 - [[halythion|Halythion]] — primary settlement in the Shattered Sea
 - [[elemental-plane-of-water|Elemental Plane of Water]] — ancestral connection
+- [[coralyra-dranra|Coralyra Dranra]] — sea elf sorcerer/bard; self-exiled Aoidos of Halythion

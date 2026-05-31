@@ -3,24 +3,27 @@ title: Carpenters' Slip
 type: entity
 subtype: place
 category: location
-building_type: shop
-publish: true
-visibility: public
-audience: players
-summary: A narrow independent boatyard at Calveno's Arsenal end — no fourteen-month queue, no Arsenal gate, just Savia Brentino and the work that actually needs doing.
+building_type: shipyard
+verb: Conceal
+unstable_condition: "Three cold-approach requests for off-book work this month — Savia refused all three but logged the hulls."
+consequence: "Without re-silhouetting, the Uncertainty reads as a Crown cutter to anyone who knows hull lines. Dravosi patrols, bounty hunters, and port inspectors in Crown-friendly waters will flag the ship on sight."
+link_of_relevance: "Perrin Black-Jaw (Warren connection through Nona)"
+publish: false
+audience: dm
+summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches."
 aliases:
 - The Carpenters Slip
 - Brentino's
 status: active
 campaign: shattered-sea
-district: Southwest Canal
+district: Le Paludi
 created: 2026-05-15
 updated: 2026-05-30
 tags:
 - building
-- shop
 - shipyard
 - calveno
+- le-paludi
 sources:
 - Inbox/places/calveno/Carpenters-Slip.md
 confidence_level: medium
@@ -28,55 +31,88 @@ confidence_level: medium
 
 # Carpenters' Slip
 
-![[Savia-Brentino.webp|Savia Brentino, shipwright and proprietor of Carpenters' Slip]]
+Narrow independent boatyard in [[le-paludi|Le Paludi]], squeezed between two larger buildings near the Arsenal wall. Smell of fresh timber, linseed oil, hot caulking iron. One covered slip for dry work, one canal-side berth for assessment.
 
-## Overview
+The legitimate front is real — [[savia-brentino|Savia Brentino]] does hull repair, mast work, and emergency jobs the Arsenal queue won't touch. The off-book service is re-silhouetting: changing a vessel's hull profile, rail height, transom shape, and rig geometry so it no longer reads as what it was built as.
 
-Carpenters' Slip is a narrow independent boatyard squeezed between two larger buildings at the Arsenal end of [[calveno|Calveno]]'s southwest canal district. It is not affiliated with the Arsenal and does not compete with it — [[savia-brentino|Savia Brentino]] does the jobs that won't get through the Arsenal gate and don't need a fourteen-month queue.
+---
 
-## At a Glance
+## Access Gate
 
-| Field | Detail |
-|---|---|
-| Type | Boatyard and repair yard |
-| Location | [[calveno|Calveno]], southwest canal district, Arsenal end |
-| Operated By | [[savia-brentino|Savia Brentino]] |
-| Public Access | Walk-in for assessment; work requires deposit |
-| Known For | Fast hull and mast work for vessels the Arsenal won't prioritise |
+> [!dm]
+> **Savia does not take cold approaches for discreet work.** Three ships tried this month; she refused all three and logged their hulls. A [[warren|Warren]] introduction is required — [[nona-black-jaw|Nona]] or another Tangle contact vouching in person. Without it, Savia offers only her public services and quotes standard Arsenal-adjacent rates.
 
-## Description
+Perrin has the connection through Nona. If the party approaches without a Warren introduction, Savia assesses the hull, quotes legitimate repair, and says nothing about re-silhouetting. She will not hint.
 
-A tight space that functions better than it looks. One covered slip for dry work, one narrow canal-side berth for in-water assessment. The smell is fresh timber and linseed oil and the particular sharpness of hot caulking iron.
+---
 
-## People & Operations
+## Re-Silhouette Service
 
-**Proprietor: [[savia-brentino|Savia Brentino]]** — Compact and broad-shouldered, sawdust permanently in her eyebrows. Speaks in structural assessments: "that transom's carrying too much" is hello; "she'll hold through the Strait" is as warm as she gets. Does not quote a timeline she cannot keep.
+**Cost:** 220 gp + one Tangle favour (owed to the [[warren|Warren]], terms set later)
+**Duration:** 5 days, vessel slipped the entire time
+**What changes:** Transom profile, rail height, bowsprit angle, rig geometry. The hull stops reading as a Crown cutter to anyone trained in ship identification.
+**What does not change:** Waterline length, keel, displacement. The ship still sails the same.
 
-**Sample lines:**
-- *"I'll give you the assessment in writing. In-water or slipped — your call, my recommendation."*
-- *"Priority queue. Double rate. I decide what counts as emergency."*
-- *"That transom's carrying too much. If that's all she needs, she's lucky."*
+> [!mechanic]
+> After re-silhouetting, passive recognition of the *Uncertainty* as the ex-*HCS Surety* requires DC 20 Intelligence (Investigation) by someone who has seen Crown cutter blueprints. Without the work, any sailor with Crown navy experience recognises the hull lines on a DC 10 check.
 
-## Services
+**The Tangle favour:** Unspecified at time of agreement. The Warren calls it in later, through Nona or another contact. Perrin agreed to one unconditional favour already — this is a second, owed by the party collectively. **Savia will not negotiate on this point.** The favour is not optional; it is part of the price.
+
+---
+
+## Savia Brentino (Quick Reference)
+
+**[[savia-brentino|Savia Brentino]]:** Dwarf, compact, sawdust in her eyebrows. Speaks in structural assessments — diagnosis is greeting, prognosis is farewell. Does not quote timelines she cannot keep and does not explain herself twice.
+
+**Sample lines (discreet work):**
+- *"A repaint does not make a cutter stop reading as a cutter. I do the geometry."*
+- *"Five days. She stays slipped the whole time. Your crew finds somewhere else to sleep."*
+- *"The Warren sent you, so I'll do the work. The terms are the terms."*
+
+**Sample lines (cold approach / no introduction):**
+- *"Transom's carrying too much. I can fix that. Anything else you need is at the Arsenal."*
+- *"I don't do cosmetic work."*
+
+---
+
+## Legitimate Services (Public)
 
 - Hull inspection (written assessment)
-- Hull caulking (per running foot)
-- Hull plank repair (minor to moderate; full replank by negotiation)
+- Hull caulking, plank repair (minor to moderate)
 - Mast work (stepping, splicing, repair; up to two masts)
 - Rudder repair or replacement
-- Keel inspection
-- Emergency repair (priority queue, double rate, Brentino decides)
-- Timber and fittings at chandlery rate
+- Emergency repair (double rate, Savia decides priority)
 
-## Access & Security
+Walk-in for assessment; work begins after deposit.
 
-Walk in, describe the problem, and Savia will tell you if she can help and what it costs. Work begins after deposit.
+---
+
+## If the Party Ignores the Disguise Problem
+
+> [!dm]
+> The [[hcs-surety|*Uncertainty*]] still reads as a Crown cutter. Consequences escalate by geography:
+>
+> - **Calveno and neutral ports:** Low risk. Locals don't care about Crown hull lines.
+> - **Crown-friendly waters (Dravosi patrol routes, Knighton-allied ports):** The hull gets flagged. Port inspectors board for registration check. The *Surety* is listed as missing — seized by pirates or lost. A boarding reveals the name change and triggers immediate impound or pursuit.
+> - **Open sea, Dravosi navy encounter:** **Rupert Knighton** has standing orders on the *Surety*. Recognition is automatic at close range. Engagement follows.
+>
+> Timeline: Knighton's ships are already en route to intercept (see [[dravosi-crown|Dravosi Crown]] faction clock). Every session without re-silhouetting narrows the window.
+
+---
 
 ## Current Hooks
 
-- A Dravosi vessel in Kalowe's dry dock has been asking questions on the causeways. Three separate vessels arriving in Calveno this month have quietly asked Savia about discreet work with no Canal Commission paperwork. She said no each time, but she remembers all three.
+- Three vessels refused discreet work this month for lack of a Warren introduction. Savia logged the hulls. At least one was [[dravosi-crown|Dravosi]] — a patrol cutter out of Kalowe asking questions on the causeways about independent yards.
+- The five-day slipping window overlaps with the *Uncertainty*'s existing repair at [[la-vasca|La Vasca]]. If timed together, the party loses ship access for the full duration. If done sequentially, they are shipbound in Calveno for 10 days total.
+
+---
 
 ## Related
 
 - [[calveno|Calveno]]
-- [[acqua-nera|Acqua Nera]]
+- [[le-paludi|Le Paludi]]
+- [[acqua-nera|Acqua Nera]] — hull repaint and re-identification (cosmetic, not structural)
+- [[warren|The Warren]] — introduction source
+- [[nona-black-jaw|Nona Black-Jaw]] — Perrin's contact
+- [[hcs-surety|HCS Surety / *Uncertainty*]] — the ship that needs this work
+- [[la-vasca|La Vasca]] — where the ship is currently in dry dock

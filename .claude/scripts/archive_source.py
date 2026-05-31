@@ -36,6 +36,29 @@ DEFAULT_SUBDIR = (
 )
 
 
+def find_pdf_sidecar(md_path: str) -> str | None:
+    """If md_path has a pdf_sidecar frontmatter field, return the PDF's absolute path."""
+    try:
+        with open(md_path, "r", errors="replace") as fh:
+            in_fm = False
+            for line in fh:
+                stripped = line.strip()
+                if stripped == "---" and not in_fm:
+                    in_fm = True
+                    continue
+                if stripped == "---" and in_fm:
+                    break
+                if in_fm and stripped.startswith("pdf_sidecar:"):
+                    val = stripped.split(":", 1)[1].strip().strip("\"'")
+                    if val:
+                        candidate = os.path.join(os.path.dirname(md_path), val)
+                        if os.path.isfile(candidate):
+                            return os.path.abspath(candidate)
+    except Exception:
+        pass
+    return None
+
+
 def subdir_for(type_str: str) -> str:
     t = (type_str or "").lower()
     for needle, sub in TYPE_TO_SUBDIR:
@@ -77,8 +100,17 @@ def main(argv) -> int:
         sys.stderr.write(f"archive_source: destination exists — {dest_rel}\n")
         return 1
 
+    sidecar = find_pdf_sidecar(src_abs)
+    sidecar_rel = None
+    sidecar_dest_rel = None
+    if sidecar:
+        sidecar_rel = rel(sidecar)
+        sidecar_dest_rel = f".raw/{subdir}/{os.path.basename(sidecar)}"
+
     if args.dry_run:
         print(f"would move {src_rel} -> {dest_rel} (type={type_str or 'default'})")
+        if sidecar_rel and sidecar_dest_rel:
+            print(f"would move {sidecar_rel} -> {sidecar_dest_rel} (pdf sidecar)")
         return 0
 
     os.makedirs(os.path.dirname(dest_abs), exist_ok=True)
@@ -88,6 +120,16 @@ def main(argv) -> int:
         git("add", src_rel, dest_rel, check=False)
 
     print(f"archived {src_rel} -> {dest_rel}")
+
+    if sidecar_rel and sidecar_dest_rel:
+        sidecar_dest_abs = os.path.join(REPO_ROOT, sidecar_dest_rel)
+        os.makedirs(os.path.dirname(sidecar_dest_abs), exist_ok=True)
+        r = git("mv", sidecar_rel, sidecar_dest_rel, check=False)
+        if r.returncode != 0:
+            os.rename(sidecar, sidecar_dest_abs)
+            git("add", sidecar_rel, sidecar_dest_rel, check=False)
+        print(f"archived {sidecar_rel} -> {sidecar_dest_rel} (pdf sidecar)")
+
     return 0
 
 

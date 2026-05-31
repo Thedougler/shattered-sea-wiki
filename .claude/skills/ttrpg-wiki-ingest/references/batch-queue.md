@@ -1,12 +1,14 @@
-# Batch Queue Protocol (7+ Pending Sources)
-
-When the queue has more than 6 sources, process in waves to keep context manageable.
+# Batch Queue Protocol
 
 ## The Loop
 
 ```bash
-python3 .claude/scripts/check_ingest.py --limit 6   # pull a wave
+python3 .claude/scripts/check_ingest.py --batch   # pull a token-aware wave
 ```
+
+The script fills each batch to a 30k token budget (configurable via `--budget`), walking the
+queue smallest-first and stopping when the next file would exceed the budget. stderr reports
+the batch size, token total, and remaining count.
 
 Process each source in the wave to completion, one at a time. Archive each as you finish it.
 After the wave: regenerate index, commit once, then run the script again for the next wave.
@@ -18,7 +20,7 @@ git add wiki .raw Inbox
 git commit -m "ingest: <sources> — <summary>"
 
 # next wave:
-python3 .claude/scripts/check_ingest.py --limit 6
+python3 .claude/scripts/check_ingest.py --batch
 ```
 
 The sources you just finished should be gone. If one isn't, its archive didn't land — check
@@ -43,6 +45,17 @@ transcripts, PDFs) get full context budget when they come up later.
 
 Do not re-sort or cherry-pick within a wave. The script's ordering is deterministic and
 optimized for throughput.
+
+## Adjusting the Budget
+
+The default 30k token budget works for typical wiki content. Override when needed:
+
+```bash
+python3 .claude/scripts/check_ingest.py --batch --budget 50000  # larger waves
+python3 .claude/scripts/check_ingest.py --batch --budget 15000  # conservative
+```
+
+A single file that exceeds the budget is still included (batches are always ≥1 file).
 
 ## Shared Context Efficiency
 

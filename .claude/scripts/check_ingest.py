@@ -14,10 +14,16 @@ Only exact byte-for-byte duplicates are removed. Every removal is reported, and
 tracked files are removed with `git rm` so the index stays consistent.
 
 stdout is intentionally machine-friendly: one repo-relative path per pending
-source, sorted, with no headers — safe to pipe or read line by line. A one-line
-status ("N source(s) pending" / "queue clear") goes to stderr so it shows up in a
-terminal or an agent's tool output without polluting stdout; pass --quiet to
-suppress it. Use --count to print just the number of pending sources to stdout.
+source, sorted by file size (smallest first), with no headers — safe to pipe or
+read line by line. A one-line status ("N source(s) pending" / "queue clear") goes
+to stderr so it shows up in a terminal or an agent's tool output without
+polluting stdout; pass --quiet to suppress it. Use --count to print just the
+number of pending sources to stdout.
+
+Use --batch to get a token-aware batch: the script fills a batch (default 30 000
+tokens) by walking the size-sorted queue smallest-first, stopping when the next
+file would exceed the budget. Remaining files are held for the next wave. Token
+counts use tiktoken (cl100k_base) when available, falling back to len(bytes)//4.
 """
 
 from __future__ import annotations
@@ -35,6 +41,25 @@ from wiki_common import REPO_ROOT, rel
 
 DEFAULT_INBOX = "Inbox"
 DEFAULT_RAW = ".raw"
+DEFAULT_TOKEN_BUDGET = 30_000
+
+try:
+    import tiktoken as _tiktoken
+
+    _ENC = _tiktoken.get_encoding("cl100k_base")
+
+    def count_tokens(path: str) -> int:
+        try:
+            with open(path, "r", errors="replace") as fh:
+                return len(_ENC.encode(fh.read()))
+        except Exception:
+            return os.path.getsize(path) // 4
+
+except ImportError:
+    _ENC = None
+
+    def count_tokens(path: str) -> int:  # type: ignore[misc]
+        return os.path.getsize(path) // 4
 
 
 @dataclass(frozen=True)
@@ -297,6 +322,20 @@ def main(argv: list[str]) -> int:
         "whole Inbox; only the printed list is truncated.",
     )
     parser.add_argument(
+        "--batch",
+        action="store_true",
+        help="fill a batch by token budget (default %(default)s tokens). Walks the "
+        "size-sorted queue smallest-first, stopping when the next file would exceed "
+        "the budget. Prints the batch to stdout, with token counts and total on stderr.",
+    )
+    parser.add_argument(
+        "--budget",
+        type=int,
+        default=DEFAULT_TOKEN_BUDGET,
+        metavar="TOKENS",
+        help="token budget for --batch (default: %(default)s). Ignored without --batch.",
+    )
+    parser.add_argument(
         "--quiet",
         "-q",
         action="store_true",
@@ -306,6 +345,12 @@ def main(argv: list[str]) -> int:
 
     if args.prune and args.no_dedupe:
         parser.error("--prune and --no-dedupe cannot be used together")
+
+    if args.batch and args.limit is not None:
+        parser.error("--batch and --limit cannot be used together")
+
+    if args.batch and args.count:
+        parser.error("--batch and --count cannot be used together")
 
     try:
         hashlib.new(args.algorithm)
@@ -354,6 +399,35 @@ def main(argv: list[str]) -> int:
 
     if args.count:
         print(len(pending))
+        return 0
+
+    if args.batch:
+        budget = args.budget
+        batch: list[tuple[str, int]] = []
+        batch_tokens = 0
+        for path in pending:
+            tokens = count_tokens(path)
+            if batch and batch_tokens + tokens > budget:
+                break
+            batch.append((path, tokens))
+            batch_tokens += tokens
+
+        for path, tokens in batch:
+            print(display_path(path))
+        if not args.quiet:
+            if not pending:
+                sys.stderr.write("check_ingest: queue clear (0 pending)\n")
+            elif not batch:
+                sys.stderr.write("check_ingest: queue clear (0 pending)\n")
+            else:
+                remaining = len(pending) - len(batch)
+                method = "tiktoken" if _ENC else "bytes//4"
+                sys.stderr.write(
+                    f"check_ingest: batch {len(batch)} file(s), "
+                    f"~{batch_tokens:,} tokens ({method}), "
+                    f"budget {budget:,} | "
+                    f"{remaining} remaining after this wave\n"
+                )
         return 0
 
     shown = pending if args.limit is None else pending[: args.limit]

@@ -81,12 +81,12 @@ In Calveno, he asks for the course of her pilgrimage rather than a confession. H
 
 Kyzil may invite Crissdalynn and her companions into a nonlethal four-on-one spar. His restraint is narrative: he turns edges, catches falls on the wind, drops a student cleanly instead of maiming them, and stops before harm becomes permanent.
 
-The level 4 party should not be able to beat him by trading actions. The victory condition is respect, not HP. Count clean moments: forcing Perfected Focus, making him spend Empty Wing Parry, landing a hit after baiting movement, protecting an ally from a gale line, disarming one dagger, or using terrain to deny a line. Four clean moments is extraordinary; Kyzil still ends standing.
+The level 4 party should not be able to beat him by trading actions. The victory condition is respect, not HP. Count clean moments: forcing Legendary Resistance, making him spend Empty Wing Parry, landing a hit after baiting movement, protecting an ally from a gale line, disarming one dagger, or using terrain to deny a line. Four clean moments is extraordinary; Kyzil still ends standing.
 
 > [!dm]
 > **Spar Quick Card**
 > **Opening**: "I'd like to show you something. Please try to hit me."
-> **Routine**: Multiattack (4 attacks, pulling edges) → Patient Defense → Empty Wing Parry or Crosswind Slip on each hit attempt. Round 3: Updraft Step to elevated position, full pressure.
+> **Routine**: Multiattack (4 attacks, pulling edges) → Patient Defense → Empty Wing Parry on incoming hits. Round 3: Updraft Step to elevated position, full pressure.
 > **Cutting Gale**: Use when two or more PCs stand in a line. Say "He exhales." That is the warning.
 > **Win condition**: Four clean moments. Kyzil still ends standing.
 > **Ending**: Kyzil stops, not the party. He catches a weapon or fist mid-swing, holds it one beat, says "There." Done.
@@ -97,9 +97,11 @@ The level 4 party should not be able to beat him by trading actions. The victory
 ```statblock
 layout: Basic 5e Layout
 dice: true
+columns: 2
+forceColumns: true
 name: Master Kyzil
 size: Medium
-type: entity
+type: humanoid
 subtype: aarakocra
 alignment: lawful neutral
 ac: "21 (unarmored defense)"
@@ -108,67 +110,55 @@ hit_dice: "20d8 + 100"
 speed: "55 ft., fly 90 ft."
 stats: [12, 22, 20, 14, 20, 14]
 saves:
-  - Str: +6
   - Dex: +11
   - Con: +10
-  - Int: +7
   - Wis: +10
-  - Cha: +7
 skillsaves:
   - Acrobatics: +16
-  - Athletics: +6
   - Insight: +10
   - Perception: +15
   - Stealth: +16
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks while Kyzil is flying or has moved at least 20 feet since the start of his last turn"
+damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks"
 condition_immunities: "charmed, frightened"
 senses: "passive Perception 25"
-languages: "Common, Aarakocra"
+languages: "Common, Aarakocra, Auran"
 cr: 14
 source: "Homebrew"
 traits:
   - name: Silent Owl Wings
-    desc: "Kyzil has advantage on Dexterity (Stealth) checks made while flying. If he is above a creature in bright light or sun glare, that creature has disadvantage on Perception checks to notice him until he enters normal melee range."
-  - name: Wind-Honed Reflexes
-    desc: "Kyzil can take one reaction on each creature's turn in a combat."
-  - name: Kensei of Wind and Steel
-    desc: "Kyzil's weapon attacks are magical. His daggers return to his hand immediately after each attack, hit or miss."
-  - name: Wind Screen
-    desc: "Ranged attacks against Kyzil are made with disadvantage if the attacker is more than 10 feet from him and Kyzil is not incapacitated."
-  - name: Perfected Focus (3/Day)
-    desc: "If Kyzil fails a saving throw, he can choose to succeed instead."
+    desc: "Kyzil has advantage on Dexterity (Stealth) checks made while flying."
+  - name: Ki-Empowered Strikes
+    desc: "Kyzil's unarmed strikes and weapon attacks are magical."
   - name: Evasion
-    desc: "When Kyzil is subjected to an effect allowing a Dexterity save for half damage, he takes no damage on a success and half on a failure."
+    desc: "When Kyzil is subjected to an effect that allows a Dexterity saving throw for half damage, he takes no damage on a success and half damage on a failure."
+  - name: Legendary Resistance (3/Day)
+    desc: "If Kyzil fails a saving throw, he can choose to succeed instead."
 actions:
   - name: Multiattack
-    desc: "Kyzil makes four attacks in any combination of Wind-Edge Dagger and Open Palm. He can replace one attack with Unbalancing Cut."
+    desc: "Kyzil makes four Wind-Edge Dagger attacks. He can replace up to two attacks with Open Palm strikes."
   - name: Wind-Edge Dagger
-    desc: "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/180 ft. Hit: 8 (1d4 + 6) piercing or slashing damage plus 7 (2d6) force damage."
+    desc: "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/180 ft., one target. Hit: 8 (1d4 + 6) piercing damage plus 7 (2d6) force damage. The dagger returns to Kyzil's hand immediately after a ranged attack."
   - name: Open Palm
-    desc: "Melee Weapon Attack: +11 to hit, reach 5 ft. Hit: 13 (2d6 + 6) bludgeoning damage. DC 19 Strength or Dexterity save or pushed 15 feet and knocked prone."
+    desc: "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage, and the target must succeed on a DC 19 Strength saving throw or be pushed 15 feet and knocked prone."
   - name: Cutting Gale (Recharge 5-6)
-    desc: "60-foot line, 5 feet wide. DC 19 Dex save: 36 (8d8) slashing damage and pushed 20 feet, knocked prone on failure; half on success."
+    desc: "Kyzil exhales a razor-thin line of compressed air in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 19 Dexterity saving throw. On a failed save, a creature takes 36 (8d8) slashing damage, is pushed 20 feet, and is knocked prone. On a successful save, a creature takes half as much damage."
 bonus_actions:
   - name: Patient Defense
     desc: "Kyzil takes the Dodge action."
   - name: Updraft Step
-    desc: "Kyzil flies up to half his flying speed without provoking opportunity attacks. Creatures within 5 feet of the space he left make DC 19 Strength save or be pushed 5 feet."
+    desc: "Kyzil flies up to half his flying speed without provoking opportunity attacks."
 reactions:
   - name: Empty Wing Parry
-    desc: "When an attack would hit him, Kyzil adds 5 to his AC. If the attack misses, he can move up to 15 feet without provoking opportunity attacks."
-  - name: Crosswind Slip
-    desc: "When targeted by an attack, Kyzil moves up to 15 feet without provoking opportunity attacks. If this places him outside range, the attack misses."
+    desc: "When a creature Kyzil can see hits him with an attack, Kyzil adds 5 to his AC against that attack, potentially causing it to miss. If the attack misses, Kyzil can move up to 15 feet without provoking opportunity attacks."
 legendary_actions:
   - name: ""
-    desc: "4 legendary actions. Used at the end of another creature's turn."
+    desc: "Kyzil can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Kyzil regains spent legendary actions at the start of his turn."
   - name: Silent Step
     desc: "Kyzil moves up to half his speed without provoking opportunity attacks."
   - name: Dagger Flash
     desc: "Kyzil makes one Wind-Edge Dagger attack."
-  - name: Downburst (Costs 2)
-    desc: "Each creature of his choice within 10 feet makes DC 19 Strength save or takes 9 (2d8) bludgeoning damage, is pushed 10 feet, and knocked prone."
-  - name: Cut the Weather (Costs 3)
-    desc: "Kyzil uses Cutting Gale. If expended, it immediately recharges."
+  - name: Downburst (Costs 2 Actions)
+    desc: "Each creature of Kyzil's choice within 10 feet must succeed on a DC 19 Strength saving throw or take 9 (2d8) bludgeoning damage, be pushed 10 feet, and be knocked prone."
 ```
 
 ## Session Events

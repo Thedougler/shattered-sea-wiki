@@ -49,7 +49,7 @@ def default_value(field: str, relpath: str) -> str:
         "sources": '["Unknown"]',
         "confidence_level": "medium",
         "lifecycle": "dormant",
-        "island": "null",
+        "narrative_island": "null",
         "portable": "false",
         "entry_points": "[]",
         "contains_situations": "[]",

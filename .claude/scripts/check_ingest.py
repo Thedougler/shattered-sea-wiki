@@ -329,6 +329,15 @@ def classify_inbox(inbox_path: str, raw_path: str, algorithm: str) -> Classifica
                         Duplicate(path=path, duplicate_of=keeper, kind="inbox")
                     )
 
+    pending = [
+        p
+        for p in pending
+        if not (
+            p.lower().endswith(".pdf")
+            and os.path.isfile(os.path.splitext(p)[0] + ".md")
+        )
+    ]
+
     raw_duplicates.sort(key=lambda d: display_path(d.path))
     inbox_duplicates.sort(key=lambda d: display_path(d.path))
     pending.sort(key=lambda p: (os.path.getsize(p), display_path(p)))

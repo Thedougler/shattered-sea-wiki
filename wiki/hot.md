@@ -53,6 +53,8 @@ Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vess
 5. Kyzil knows something about how Crissdalynn's original ship went down ("a foul wind from the south") that the party doesn't.
 6. Grigori's cold handshake and unknown magic type become relevant within 2–3 sessions; Khlysty truth should surface in layers, not exposition.
 7. The Beffe registration window creates an immediate Calveno toy: team name, mark, category, scale, symbol, and entry stake.
+8. The Grung raid (Day 5) uses blackpowder detonation to collapse the ground at five festival-district points. A Red Slaad erupts at the Mercatura primary site as the boss encounter. Purple-caste handlers coordinate in comically bad disguises (fake moustaches, hats). Grung-themed pranks during La Finestra desensitize the crowd to Grung presence.
+9. After the raid, Nona publicly breaks the Passage's shadow protocol — declaring alliance with Calveno's citizens and assembling a pursuit force. This changes the Passage's relationship with the Dry permanently.
 
 ## Spotlight Tracking
 

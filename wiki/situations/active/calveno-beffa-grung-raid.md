@@ -56,7 +56,7 @@ The [[tessarine-concordat|Tessarine Concord]] is caught completely off-guard. Th
 
 ## The Operational Plan
 
-Simone runs four interlocking elements.
+Simone runs five interlocking elements.
 
 **1. Dravosi Intelligence**
 Before any handler enters Calveno, Simone has three things from her Dravosi source: the patrol rotation showing the three-day naval minimum; a summary of the Canal Commission's festival-week staffing gap (half the inspectors rotate to crowd-management duty); and infrastructure maps of the sewer collector system below the Mercatura, Le Paludi, and the Bridge approaches.
@@ -64,34 +64,81 @@ Before any handler enters Calveno, Simone has three things from her Dravosi sour
 **2. Blue-Caste Handler Infiltration**
 Simone's elite handlers enter Calveno over Days 1–3 under festival trade, labour, and audience cover. The Beffa makes their reconnaissance invisible: strangers asking about crowd flow, boat shifts, and bridge timing read as prank preparation. Handlers map the precise sewer access points — maintenance hatches, flood overflow vents, the old tannery drain that exits below the outer quay — and time the surface-to-water transfer.
 
-**3. Synchronized Strikes with Slaad Distraction**
-On Day 4 of the Beffa, purple-caste raid teams execute five simultaneous snatch points across the festival districts: one in the Mercatura crowd, one near the Bridge, two in Le Paludi's working yards, and one at the harbour approach. Strikes are spaced far enough apart that initial witness accounts cannot agree on where the raid began.
+**3. Blackpowder Magazines — The Groundbreaker**
+This is the operation's centrepiece and its most closely guarded secret. Over Days 1–4, green-caste labourers and blue-caste handlers move barrels of blackpowder into the sewer network through storm drains and maintenance hatches. The barrels are stacked at five structural points beneath the festival districts — positions chosen from the Dravosi infrastructure maps where the sewer ceiling is thinnest and the ground above carries the most festival foot traffic.
 
-Simultaneously, Simone's red-caste operatives release summoned Slaad into the open Mercatura and on the Bridge approach. The Slaad are not targeting the captives; they are targeting the city's capacity to respond.
+At the **primary detonation site** — a large collector chamber beneath the Mercatura — Grung pack every nook, crevice, and join in the ceiling with blackpowder, held in place by crude wooden scaffolding. This is the magazine that collapses the Mercatura plaza. A summoning circle is prepared on the floor of this chamber ([[#The Slaad|see below]]).
 
-**4. Sewer Extraction to Outer-Water Pickup**
-Captives move underground within minutes of seizure. The sewer network runs from all five strike points to two egress vents on the outer quay. *Vethka* are waiting beyond the mouth of the Calven Roads — the position where the Dravosi naval patrol minimum leaves the water unwatched.
+The four secondary sites receive smaller charges — enough to buckle the ground and open a hole, not enough to collapse a full plaza. Each secondary site feeds into a sewer extraction lane.
+
+These positions are guarded at all times. Sentries hide at the sound of movement and let intruders pass. At the primary site, the standing order is shoot on sight — no one who sees the circle and the packed ceiling lives. The Grung there do not hide. They kill.
+
+**4. Simultaneous Strikes with Slaad Distraction**
+On the last day of La Finestra, five detonations fire simultaneously at crowd peak. The primary charge collapses the Mercatura plaza. Four secondary charges buckle ground at the Bridge, two points in Le Paludi's working yards, and the harbour approach.
+
+At each strike point, a purple-caste raid team waits below inside a pre-cast *Globe of Invulnerability* (scroll-powered, single use) that shields them from their own blast. The globe drops the instant the debris settles. Raid teams emerge through the dust and rubble into a crowd that does not yet understand what happened — the first screams are mistaken for Beffa pranks, and the hesitation the festival has trained into the city buys the Grung three to five seconds of unopposed movement.
+
+Each site runs the same sequence: emerge, push the crowd toward a **catching force** positioned at the perimeter, seize able-bodied targets (workers, sailors, dockside families), bind them, and move them underground through the open sewer breach within two minutes of detonation. The four secondary strikes are simultaneous and deliberately spread across the city to split the watch's response — no commander can cover four districts at once.
+
+**5. Sewer Extraction to Outer-Water Pickup**
+Captives move underground within minutes of seizure, carried through the sewer network to two egress vents on the outer quay. An upgraded class of ocean-capable *vethka* — larger, deeper-keeled, rigged for open water — waits beyond the mouth of the Calven Roads at the position where the Dravosi naval patrol minimum leaves the water unwatched. These are not standard reef-country raiding craft. Simone built them for this.
+
+---
+
+## The Slaad
+
+The main distraction at the primary strike point — and the session's boss encounter if the party reaches Day 5.
+
+At the moment of detonation, the summoning circle in the primary collector chamber activates. A **Red Slaad** erupts through the rubble of the collapsed Mercatura plaza into daylight, emerging from the dust and debris into a crowd already in panic. It is not controlled. It is not directed at specific targets. It is released to do what Slaadi do: destroy everything in front of it.
+
+The Slaad serves three operational purposes for Simone:
+- It fixes the city's armed response at the Mercatura — the watch, the militia, any adventurers — buying the four secondary strike teams time to complete extraction.
+- It generates mass civilian flight away from the primary site, pushing crowds toward the secondary catching forces.
+- It is expendable. Simone does not care whether it survives. Every round it fights is a round the extraction runs unopposed.
+
+The Slaad should feel wrong in a way the Grung raid does not. The raid is disciplined, efficient, purposeful. The Slaad is chaos. The dissonance is the point — the Grung have weaponized something they do not intend to survive the day, and it tells the party that whoever built this operation thinks in scales they have not seen from the Grung before.
+
+---
+
+## Simone's Purple-Caste Handlers
+
+Simone's purple-caste warriors serve as her on-the-ground coordinators during the build-up days. They enter Calveno under the thinnest cover imaginable: fake moustaches, broad-brimmed hats, festival cloaks sized for Small creatures. The disguises are not good. A moustache made of what appears to be horsehair glued above an amphibian mouth. A hat that sits on a head shaped wrong for hats. They are hiding their status as Grung and doing it badly.
+
+This is not incompetence — purple caste are warriors, not infiltrators. Simone's blue-caste handlers are invisible. The purple handlers are visible but overlooked because Calveno does not expect Grung and because the festival makes strange costumes unremarkable. During La Finestra, a small person in a bad moustache reads as a Beffa participant, not an enemy combatant.
+
+The party may encounter them:
+- Supervising blackpowder deliveries at storm-drain access points after dark
+- Taking position reports from blue-caste handlers in Velo alleyways
+- Coordinating with the catching-force teams at secondary strike perimeters
+
+Each encounter is a hint of Simone's hand. Jean-Claude recognizes purple-caste discipline — the posture, the deference hierarchy, the way they defer to a handler's route report. If he has seen Simone's operation before, the purple handlers are the moment the scale of this becomes personal.
 
 ---
 
 ## Key Facts
 
 - Hundreds of Calveno's civic population are taken if the raid lands cleanly: dock workers, sailors, yard hands, festival labourers, boatmen.
-- The Slaad are a distraction, not shock troops. They occupy defenders and distribute response capacity.
-- Sewer egress — not canal movement — is the extraction plan. Surface movement ends at the first maintenance hatch.
+- Blackpowder detonation collapses the ground above, creating breach points. The Grung emerge from below — they do not attack from the surface.
+- *Globe of Invulnerability* scrolls protect raid teams from their own blast. One per strike point, single use.
+- The Slaad is the boss-tier distraction at the primary site. It fixes armed response while extraction runs at the four secondary sites.
+- Sewer egress — not canal movement — is the extraction plan. Surface movement ends at the first breach point.
 - The Dravosi patrol minimum is a scheduled gap, not a coincidence.
+- Ocean-capable *vethka* — purpose-built for this operation — wait past the patrol line.
 - The [[tessarine-concordat|Tessarine Concord]] has no warning and no operational response prepared.
 - The first screams are plausibly mistaken for Beffa beats; the city has been conditioned to wait before reacting.
+- Purple-caste handlers coordinate on the ground in comically bad disguises — fake moustaches and hats — that pass as festival costume.
 
 ---
 
 ## Blocks — How the Party Can Disrupt This
 
 - Expose a handler cell early enough that the raid loses synchronization — one missing cell means one strike point fails, not all five.
+- **Find the blackpowder magazines** before detonation. Removing or wetting the charges at even one site prevents that breach. Finding the primary site under the Mercatura prevents the Slaad summoning entirely.
 - Identify and seal a sewer egress point before the extraction runs.
 - Warn Warren or Passage contacts who can close specific maintenance hatch accesses.
 - Pursue the *vethka* before they clear the Calven Roads.
-- Force the red-caste operatives to release the Slaad early, reducing the distraction duration.
+- Confront the purple-caste handlers during build-up days — they are visible if anyone looks, and capturing one reveals the detonation timeline.
+- Force the summoning circle to be disrupted before Day 5 — no circle, no Slaad.
 
 ---
 
@@ -122,9 +169,15 @@ One hint in Session 03, two in Session 04. Only escalate if the party leans in. 
 
 **Historic Weight.** This is the event the Shattered Sea will date from. "Before the Calveno raid" and "after it" will mean different things to different factions.
 
-**Reveal Frame.** Do not open with the city announcing a raid. Open with a festival crowd trying to decide whether the scream is part of the act. The most useful immediate image is absence after motion: a dropped tool roll, a boat left tied wrong, festival masks in trampled water, a family shouting a working man's name into a canal crowd that has already moved on.
+**Reveal Frame.** Do not open with the city announcing a raid. Open with the ground shaking. The first detonation sounds like thunder from below — a sound that has no sky. The Mercatura plaza buckles, cracks, and drops. Dust billows up through the gap. The crowd does not scream yet. They are waiting for the punchline. The festival has trained them to wait. Then something red and enormous hauls itself up through the rubble, and the punchline never comes.
 
-**The Slaad at the Table.** The Slaad are not the encounter. They are the sound of the operation already running. If the party is near a Slaad when it appears, that is a real fight, and it should feel chaotic and dangerous and wrong. Do not resolve the Slaad as a clean set-piece — they are distractions playing as monsters.
+At the secondary sites, the charges are smaller — the ground opens, not collapses. A hole appears in a working yard. Dust. Silence. Then Grung pour out of it, disciplined, fast, already moving.
+
+The most useful immediate image is absence after motion: a dropped tool roll, a boat left tied wrong, festival masks in trampled water, a family shouting a working man's name into a canal crowd that has already moved on.
+
+**The Slaad at the Table.** The Slaad is the session's boss encounter if the party reaches Day 5. It emerges from the primary collapse point in the Mercatura — dust, debris, screaming — and it is not controlled, not directed, not Grung. It is the sound of the operation already running. Run it as a real combat encounter: chaotic, dangerous, wrong. The Slaad does not know why it is here. It does not care. Every round it fights is a round the extraction at the secondary sites runs unopposed. If the party fights the Slaad, they save lives at the Mercatura and lose time at the secondary sites. If they split, each group faces a real threat. The choice is the design.
+
+**The Purple Handlers.** Simone's purple-caste coordinators are visible in the build-up days if anyone looks. Bad fake moustaches glued above amphibian mouths. Hats that sit wrong on heads shaped wrong for hats. They pass because the festival normalizes strange costumes and because Calveno does not expect Grung. Jean-Claude recognizes the purple-caste deference posture — if he sees one, the scale of the operation becomes personal. These are hints of Simone, not proof. The proof is the raid.
 
 **The Dravosi Collaboration.** The collaboration is the buried charge under the whole event. It does not explode on session five. It becomes legible later — when the party has leverage, or when the wrong person puts the pieces together first.
 

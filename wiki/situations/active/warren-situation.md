@@ -109,10 +109,18 @@ Her instructions to Anzolo, if it comes up at the table:
 
 ## The Rattle
 
-The Warren's alarm system — pan-striking that spreads through kitchens, vents, and stone until it fills the district. Legally unactionable: cooking noise. To Kin it means Dravosi are in Le Paludi; to fighters it is a call to arms. Two quick taps after silence means the threat is clear.
+The Warren's community warning system — built by [[nona-black-jaw|Nona Black-Jaw]] decades ago to alert the settlement to Dravosi attempts at subjugation. A Rattkin strikes a pan in a specific rhythm. The sound carries through kitchens, vents, and stone — each household passes it on, pan to pan, until the noise fills the district in under thirty seconds. To any outsider it is cooking noise, unremarkable and legally unactionable. To Kin it is the sound of their home going to war.
+
+**The cascade:** One pan starts it. Within five seconds every kitchen within earshot picks up the rhythm. Within fifteen seconds the sound has travelled through stone and pipe and vent duct into every corner of the Warren. Within thirty seconds every Rattkin in the district knows.
+
+**The response:** Not military formation — guerrilla resistance from every member of the community, however they can. Mothers block sight lines with laundry. Children carry messages through rat-runs too small for Dravosi. Elders bar doors that look decorative until they're barred. Fighters move to positions Nona mapped twenty years ago. Shop owners produce weapons from false bottoms in flour barrels. Everyone moves. No one waits.
+
+**Two quick taps after silence:** the threat is clear. Life resumes as if nothing happened.
+
+**Nona built this** because the Crown's raids on Le Paludi settlements were silent, fast, and relied on surprise. The Rattle removes surprise. It converts a Dravosi raid into a fight against a community that was ready before the first boot hit the cobblestones.
 
 > [!dm]
-> If the party hears the Rattle while inside the Warren, treat it as a timed pressure: Kin are moving to positions, routes are closing, and the window for civilian behavior is narrowing fast.
+> If the party hears the Rattle while inside the Warren, treat it as a timed pressure: Kin are moving to positions, routes are closing, and the window for civilian behaviour is narrowing fast. The party is not a threat, but they are inside a community that has just shifted from peacetime to wartime in under a minute. The Rattle is not an abstraction. It is the sound of two hundred people deciding simultaneously to fight.
 
 ---
 

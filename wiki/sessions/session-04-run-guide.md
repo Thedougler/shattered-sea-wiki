@@ -48,7 +48,7 @@ session_date: "2026-05-29"
 | **Day 2** | La Scelta (registration) | [[session-04-day-2\|Day 2 — La Scelta]] | Beffa registration, Pearl Summons, Warren & Nona, first handler beat, Red Lady first threads |
 | **Day 3** | La Finestra (day 1) | [[session-04-day-3\|Day 3 — First Finestra]] | Handler investigation / tunnels, Zusto & salvage money, ship silhouette, Beffa play |
 | **Day 4** | La Finestra (day 2) | [[session-04-day-4\|Day 4 — Pre-Raid]] | Handler cell combat, Red Lady convergence, false alarms, raid prep status check |
-| **Day 5** | La Finestra (day 3) | *Future session — [[calveno-beffa-grung-raid\|Raid situation file]]* | THE RAID. Five synchronized strikes, Slaad distraction, sewer extraction. |
+| **Day 5** | La Finestra (day 3) | [[session-04-day-5\|Day 5 — The Raid]] | THE RAID. Blackpowder detonations collapse the ground. Slaad boss at the Mercatura. Four secondary snatch-and-grab strikes. Nona's aftermath speech and pursuit assembly. |
 
 > [!dm]
 > Most tables cover 1–2 city days per session. Do not rush to Day 4 — the pressure builds best when the party has time to make choices that matter. If they blow through Days 1–2 fast, good. If they spend the whole session in the Warren, good. The daily files are a buffet, not a timeline.
@@ -70,7 +70,7 @@ session_date: "2026-05-29"
 
 | Thread | Current pressure | If ignored | Visible tick |
 |---|---|---|---|
-| [[calveno-beffa-grung-raid\|Grung Raid]] | Prep underway; Day 1 sewer confirmation complete; route testing on Day 2 | Day 5 raid lands; hundreds taken | Strangers timing the bridge crush; a registered team that never verified; *vethka* sitting too still offshore |
+| [[calveno-beffa-grung-raid\|Grung Raid]] | Prep underway; blackpowder magazines being loaded into sewer positions; summoning circle under construction beneath the Mercatura; purple-caste handlers coordinating in bad disguises | Day 5: blackpowder detonations collapse the ground at five points; Slaad erupts at primary site; hundreds taken via sewer extraction to ocean-capable *vethka* | Strangers timing the bridge crush; a registered team that never verified; *vethka* sitting too still offshore; Grung-themed pranks normalizing their presence; purple handlers in fake moustaches |
 | [[umberlees-message\|Pearl Summons]] | Branca waiting; font won't lie flat | Water reaches for Delmar again next time he touches deep sea | The unquiet font; thunder out of a clear sky if he refuses |
 | [[knighton-pursuit\|Knighton Pursuit]] (Crown, off-screen) | Rook gone; Knighton moving | Ships dispatched toward the party's route | A Crown-adjacent observer absent on a schedule someone knew in advance |
 | [[red-lady-salvage-money\|Red Lady Salvage]] | Commission 8–10 days from departure | It reaches the Maw first; wreck (and the **Pearl**) not empty | A lugger taking on diving gear at the outer anchorage |
@@ -113,8 +113,10 @@ When the party goes somewhere you didn't prep:
 Don't plan an ending — recognize the highest-tension stopping point if it arrives:
 
 - **Broke a handler cell:** end on what the handler reveals — *the raid is days out and they've found one of five lanes.*
+- **Found the blackpowder:** end on the packed ceiling, the summoning circle, the moment JC understands the scale. The city is sitting on a bomb.
 - **Engaged Umberlee:** end on the breath — Branca gasping back to life, the booklet open, "I hope you understand my lady Umberlee's power. And her grace." The Pearl summons hangs over every Maw decision.
 - **Entered the tunnels:** end on what JC finds underground — Grung signs, sealed hatches, extraction route markers. The raid is real.
+- **The raid fires:** end on Nona's vow — "we will bring your brothers and your sons and your fathers back" — or on the *vethka* clearing the Calven Roads with their cargo.
 - **Ignored the raid prep:** end on the first wrong sound on Day 5 — a scream the crowd laughs at, then doesn't.
 
 ## Capture For Next Time
@@ -132,6 +134,7 @@ Don't plan an ending — recognize the highest-tension stopping point if it arri
 - [[session-03-recap\|Session 03 Recap]] — last break, Day-1 events
 - [[calveno-sandbox-run-guide\|Calveno Sandbox Run Guide]] — parent island; rides, district hooks, agency guardrails
 - [[umberlees-message\|Umberlee's Message]], [[nonas-favor\|Nona's Favor]], [[pearl-of-souls\|Pearl of Souls]], [[abyss-vision\|The Abyss Vision]], [[the-canister\|The Canister]] — active situations near the party
-- [[calveno-beffa-grung-raid\|Calveno — Beffa Grung Raid]], [[calveno-raid-signs\|Calveno — Raid Prep Signs]] — raid plan + ambient signs
+- [[calveno-beffa-grung-raid\|Calveno — Beffa Grung Raid]], [[calveno-raid-signs\|Calveno — Raid Prep Signs]] — raid plan (blackpowder mechanism, Slaad boss, purple handlers) + ambient signs
+- [[session-04-day-5\|Day 5 — The Raid]] — detonation, Slaad encounter, secondary strikes, Nona's aftermath
 - [[red-lady-salvage-money\|Red Lady — Salvage Money]] — Zusto, the commission, the chart package
 - [[calveno-street-encounters\|Calveno — Street Encounters]] — Handler Cell, Wrong Mark, papers-check + drop-in combat statlines

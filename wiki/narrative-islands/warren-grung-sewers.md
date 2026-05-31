@@ -134,6 +134,73 @@ Grung do not wander this far north. Grung expansion is deliberate and directed. 
 
 ---
 
+## Deep Investigation — The Blackpowder Layer
+
+The initial investigation ([[#What the Party Finds|above]]) reveals Grung presence. This section covers what the party finds if they push deeper — past the Bridge connector, into the main collector system under the Mercatura and Le Paludi.
+
+> [!dm]
+> This layer is gated by risk. The deeper the party goes, the closer they get to the guarded blackpowder positions. Do not volunteer this content — the party has to choose to keep going past the point where the initial signs have already answered Nona's question.
+
+---
+
+### The Blackpowder Barrels
+
+Past the Bridge connector, the sewer network opens into the main collector system — larger tunnels, 8 ft high, running water, stone vaulting above. At certain junctions, the party finds something new.
+
+> [!read-aloud]
+> The tunnel widens. The air changes — dry, chemical, wrong for a sewer. Ahead, against the left wall, dark shapes. Barrels. Six of them, stacked two high and three across, lashed to the wall with rope and wedged with timber. The wood is fresh — pale, unstained, recently cut. The barrels are sealed with tar.
+
+> [!check] Investigation — Identify the Barrels
+> DC 10 (the barrels are not hidden, only guarded).
+> Fail: sealed cargo, no identification.
+> Success: blackpowder. The tar seal, the careful stacking away from water, the timber wedging to prevent shifting — this is magazine storage, not smuggling.
+> Crit success: the barrels are positioned at a structural weak point. The vaulting above this section is thinner than the surrounding tunnel — someone chose this spot because the ceiling here is load-bearing for the surface above.
+
+**What this means (JC reads automatically):** This is not a supply cache. Blackpowder stored at structural weak points in a city's sewer system during a festival has exactly one purpose.
+
+---
+
+### The Guarded Positions
+
+Each blackpowder magazine has a sentry team — two green-caste labourers and one blue-caste handler. Their standing orders: hide at the sound of movement, let intruders pass, report after. They do not engage unless the barrels are touched.
+
+> [!mechanic]
+> **Sentry Patrol (secondary sites):** 2 Grung + 1 Grung Elite Warrior. The Grung hide (Stealth +4, advantage in dim light/water). They break cover only if the party interacts with the barrels. If discovered, they attempt to flee and report. Killing them silently prevents a report to the handler network.
+
+> [!dm]
+> If the party finds one magazine, they can find others. Each magazine is at a different junction beneath the festival districts. Finding and disabling a magazine removes one of the five strike points from the Day 5 detonation. The party does not know there are five unless they capture a handler or find the primary site.
+
+---
+
+### The Primary Site — Shoot on Sight
+
+The primary detonation chamber is a large collector nexus beneath the Mercatura — a vaulted stone room 40 ft across, 15 ft high, where four drainage channels converge. This is the smoking gun.
+
+> [!read-aloud]
+> The tunnel opens into something larger. The ceiling vaults high overhead — pale stone, old, the kind of masonry that holds up a plaza. Every crack, join, and crevice in that ceiling is packed with blackpowder, held in place by crude scaffolding — timber frames lashed together and wedged between the walls, each shelf loaded with powder wrapped in oiled cloth. The amount is staggering. The air tastes of sulphur and charcoal.
+>
+> In the centre of the chamber floor, cut into the stone, a circle. Symbols scored deep. Fresh. The cuts are precise and deliberate — someone spent hours on this. The water flowing through the channels parts around it, guided by shallow trenches that keep the circle dry.
+
+> [!dm]
+> The party is now in the most dangerous position in the sewer network. The Grung guarding this chamber operate under a different standing order: **shoot on sight, remain hidden, do not let anyone who sees it live.** They are not the hide-and-report sentries at the secondary sites. They are killers.
+
+> [!mechanic]
+> **Primary Site Guard:** 4 Grung Elite Warriors + 1 Red-Caste Operative (use Grung Wildling stat block, MM p.149, CR 1). All have hand crossbows with Grung Poison bolts. They attack from concealment (surprise round likely — DC 16 Perception to detect). The red-caste operative prioritizes the summoning circle's integrity and will fight to the death to prevent its disruption.
+
+> [!check] Arcana — The Summoning Circle
+> DC 14.
+> Fail: magical, purpose unknown.
+> Success: a summoning circle for an extraplanar entity — something from the outer planes, not a fiend or celestial. The design is not Grung in origin; someone with formal arcane training built this.
+> Crit success: **Slaad.** The circle is configured to summon and release a Slaad — no binding, no control. Whatever comes through this circle will be uncontrolled and hostile to everything around it. The circle is keyed to a detonation trigger: when the blackpowder above ignites, the circle activates. The summoning and the explosion are one event.
+
+**If the party destroys the circle:** no Slaad. The primary detonation can still fire, but the boss-tier distraction is removed. The raid loses its single most effective response-fixer.
+
+**If the party removes the blackpowder:** the primary detonation fails. The Mercatura plaza does not collapse. The Slaad circle has no trigger. Four secondary sites may still fire, but the operation loses its centrepiece.
+
+**If the party is discovered and escapes:** the primary site guard reports up. Simone's handlers know the operation is compromised at the primary site. She has options: accelerate the timeline (detonate early, lose synchronization), abandon the primary site (four secondary strikes only, reduced scale), or hunt the party.
+
+---
+
 ## Optional Encounters
 
 Drop either of these if the party is moving through the tunnels and the scene needs teeth. Neither reveals anything about the Grung presence — they are sewer hazards, not plot.

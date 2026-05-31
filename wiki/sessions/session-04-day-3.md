@@ -163,6 +163,21 @@ The execution window is live. Pranks fire throughout the day.
 
 ---
 
+## Grung-Normalizing Pranks — Day 3
+
+*Ambient. One or two beats. See [[calveno-raid-signs#Grung-Normalizing Pranks|Raid Signs — Grung Pranks]] for the full menu.*
+
+The festival's prank culture is being used. Grung-themed jokes, costumes, and bits have appeared over the last two days — all paid for by small figures in hats who nobody can quite describe.
+
+**Le Paludi:** a Beffa team stages a mock "Grung raid" on a fish stall — a performer in an accurate Grung costume leaps from a canal boat, grabs a basket of sardines, and vanishes over a railing. The crowd laughs. The stall owner is the mark and takes it well. The performer's leap was real, not theatrical. If anyone asks: he was hired three days ago by a stranger who paid well and asked no questions.
+
+**The Bridge:** a street comedian is doing a bit about Grung raiders registering for the Beffa. The crowd treats it as absurdist humour. The comedian was paid 5 gp by a small figure with a moustache. He thought the moustache was part of a costume.
+
+> [!dm]
+> The desensitization is cumulative. By Day 3, seeing Grung references in the streets is festival normal. On Day 5, the first seconds of the real raid will read as another prank — and those seconds are the operational gap. If the party investigates the money trail, each paid performer traces back to a purple-caste handler in a bad disguise ([[calveno-raid-signs#Grung-Normalizing Pranks|full details]]).
+
+---
+
 ## Day Close — What Moves Overnight
 
 | Thread | Overnight movement |

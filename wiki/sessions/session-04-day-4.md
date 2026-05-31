@@ -125,6 +125,8 @@ The Beffa is doing its work. The crowd has been trained.
 
 The watch is not going to respond to screams during festival week unless someone makes them. Their intervention threshold is higher than it will be on any other week of the year. The raid planners know this.
 
+**Grung desensitization — final beat:** a Velo mask vendor is doing brisk trade in "Grung masks" — green, wide-mouthed, painted with caste colours. A group of festival-goers in Grung masks runs through the Mercatura shrieking and pretending to snatch each other. The crowd claps. Tomorrow, when real Grung emerge from the ground, the first three seconds of the crowd's response will be applause.
+
 ---
 
 ## Beffa Play — Day 4
@@ -186,15 +188,17 @@ The raid fires tomorrow (Beffa Day 4 / party Day 5). The party's actions over Da
 
 ---
 
-## Tomorrow — What the DM Needs Ready
+## Tomorrow — The Raid
 
-The raid fires on Day 5 (Beffa Day 4, the last day of La Finestra). This is likely Session 05 material. Before the next session, prep:
+The raid fires on Day 5 (Beffa Day 4, the last day of La Finestra). Full Day 5 content is ready: [[session-04-day-5|Day 5 — The Raid]].
 
-- **[[calveno-beffa-grung-raid\|Calveno — Beffa Grung Raid]]** — the full operational plan, strike points, Slaad deployment, sewer extraction
-- **Slaad encounter** — chaotic combat if the party is near a release point; these are distractions, not boss fights
-- **Strike-point encounter** — what the party sees at one of the five snatch points: captives seized, bound, moved underground in under two minutes
-- **Aftermath options** — pursue underground, pursue by water, pursue the *vethka*, rally the Warren, rally the watch, or witness and respond
-- **Raid scale** — based on tonight's status check: how many lanes are open, how many handlers are operational, whether the Warren has warning
+If the table reaches Day 5, you have:
+
+- **[[calveno-beffa-grung-raid\|Calveno — Beffa Grung Raid]]** — full operational plan: blackpowder detonation, five strike points, Slaad summoning, sewer extraction, purple-caste handlers
+- **[[session-04-day-5#The Slaad — Boss Encounter|Slaad boss encounter]]** — Red Slaad stat block, environment, tactics, scaling notes
+- **[[session-04-day-5#The Secondary Strikes — What the Party Sees|Secondary strike encounters]]** — read-aloud and stat blocks for each site
+- **[[session-04-day-5#Nona's Emergence|Nona's aftermath]]** — her speech, the Passage's public alliance with Calveno, pursuit assembly
+- **[[session-04-day-5#Raid Scale — Based on Party Actions|Raid scale]]** — based on tonight's status check
 
 ---
 

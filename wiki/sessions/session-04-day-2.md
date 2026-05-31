@@ -135,6 +135,26 @@ Two linked problems live in the Warren. **(a)** The *Uncertainty* still reads as
 > [!dm]
 > **Nona's favor (canon).** Word reached Nona that Perrin came in with a crew including a **blue Grung in a beret and moustache** ([[jean-claude-tabarnack\|Jean-Claude]]). She reads it as luck. She's had reports she'd normally dismiss as impossible this far north — **Grung moving in the old Warren tunnels that intersect the Calveno sewers** — and wants them confirmed or dismissed. Who better to hunt Grung than a Grung. **The ask:** send JC (with whoever he wants) into the tunnels to confirm. This is the door into the raid — those sewer Grung are [[calveno-beffa-grung-raid\|Simone's extraction crews]]; this and the handler thread are the same investigation from two ends.
 
+### The Rattle — Demonstration
+
+If the party is inside the Warren during the visit, Nona has a reason to show them what the community can do. A Dravosi factor's runner is spotted at the Le Paludi canal edge — not a raid, but close enough to protocol that someone triggers the drill.
+
+> [!read-aloud]
+> A pan strikes somewhere behind the kitchen wall. One beat, two, three — a rhythm, not music. Before the echo dies another pan picks it up, farther away, deeper in the stone. Then another. Within the space of a held breath the sound is everywhere — rising through vents, ringing off pipe, carried by hands you cannot see. The kitchen stops. Nona sets down her spoon.
+
+> [!read-aloud]
+> Movement. Not panic — purpose. A Rattkin woman in a flour-dusted apron crosses behind Nona and pulls a short blade from behind a cutting board. An old Rattkin by the door slides a bar into a bracket that was not visible a moment ago. A child — nine, maybe ten — darts past Perrin's ankles and vanishes into a gap in the wall no wider than a fist. From the corridor beyond, the sound of a heavy object being dragged across stone. The whole Warren is moving, and it has been moving since the first pan struck.
+
+Let the party sit inside this for a moment. Then —
+
+> [!read-aloud]
+> Two taps. Quick, sharp, final. The sound dies. The bar comes off the door. The blade goes back behind the cutting board. The child reappears from a different gap than the one he entered. Nona picks up her spoon. "Thirty seconds," she says. "We have been doing this since before your mother was born."
+
+> [!dm]
+> This is not a set-piece. This is Nona showing the party — specifically Perrin — what the Warren is and what she built. The Rattle converts surprise into readiness across the entire community in half a minute. The party should understand that this district cannot be taken by stealth. The cost of the demonstration: the party now knows the Warren's alarm system. Nona trusts Perrin enough to show him. She trusts his crew because he brought them.
+
+---
+
 ### The Ship Problem
 
 **NPC — Savia Brentino** ([[savia-brentino\|Carpenters' Slip]]): dry, unhurried, says the hard thing once and lets it sit. *Wants:* a Warren introduction before she'll deal — three ships tried cold this month and are on her list. *Reveals (flatly, at the end):* "She'll still read as a cutter to anyone who knows cutters. That's not a paint problem."

@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires, Nona names the favor, JC gets his first handler recognition beat, and Red Lady threads surface."
+summary: "Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires, Nona's sending stone names the favor, JC gets his first handler recognition beat, and Red Lady threads surface."
 created: 2026-05-30
 updated: 2026-05-30
 tags:
@@ -41,7 +41,7 @@ session_date: "unknown"
 | Situation | Hook (comes to them) | Lands on |
 |---|---|---|
 | Pearl Summons | Branca will not leave the shrine (see below) — nudge on long rest attempt | **Delmar** |
-| Warren & Nona | Cobb or a runner: "Nona wants to feed you — and there's a small thing" | **Perrin** |
+| Warren & Nona | The sending stone speaks: Nona names the favor | **Perrin** |
 | Sewer Grung | A private recognition beat: the Velo Grung watching the crowd "wrong" | **Jean-Claude** |
 | Red Lady | A chandler mention, or Kyzil names the money to Crissdalynn | **Delmar** / **Crissdalynn** |
 | Beffa | Registration desk is live; a Beffa team eyes a PC | **Any** |
@@ -117,16 +117,21 @@ Hold the silence. Then —
 
 ---
 
-## Warren & Nona's Table
+## Warren & Nona — The Favor Named
 
 *Perrin (primary, family), Delmar (ship silhouette). Social / logistics.*
 
-Two linked problems live in the Warren. **(a)** The *Uncertainty* still reads as a Crown cutter to anyone who knows cutters — paint won't fix a silhouette. [[carpenters-slip\|Carpenters' Slip]] won't take a cold approach; she needs a Warren introduction, which runs through Nona. **(b)** Nona's **favor** ([[nonas-favor\|the unconditional yes]]) and the **sending stone** are live in Perrin's pocket.
+Perrin already visited Nona in Session 03 — apologized, heard about the Vestra, agreed to the favor unconditionally, and left with the sending stone. Two linked problems remain. **(a)** The *Uncertainty* still reads as a Crown cutter to anyone who knows cutters — paint won't fix a silhouette. [[carpenters-slip\|Carpenters' Slip]] won't take a cold approach; she needs a Warren introduction, which runs through Nona. **(b)** Nona is ready to **name the favor** and use the **sending stone** to do it.
 
-### The Hook
+### The Hook — The Stone Speaks
+
+Nona uses the sending stone this morning. One sentence, flat, unhurried.
 
 > [!read-aloud]
-> [[le-paludi\|Le Paludi]] runs on quiet water and long memory. The smell of [[nona-black-jaw\|Nona]]'s kitchen reaches the canal before her door does.
+> The stone warms in Perrin's pocket. Nona's voice, close as a whisper, no greeting: "Come back. Bring the blue one."
+
+> [!dm]
+> The stone is a one-sentence channel. Nona will not explain via stone — she needs Perrin at her table. If he comes, she feeds him first, names the favor second. She already knows about the Vestra; that grief is held, not absent. Today is business.
 
 **NPC — Nona Black-Jaw** ([[nona-black-jaw\|page]]): feeds you first, names what you owe second — as accounting, not threat. She knows the [[vestra\|Vestra]] is gone (quietly grieving the men and the money while planning the response).
 
@@ -137,7 +142,7 @@ Two linked problems live in the Warren. **(a)** The *Uncertainty* still reads as
 
 ### The Rattle — Demonstration
 
-![[Warren-Rattle-Cascade.png|The Warren kitchen mid-Rattle — a Rattkin woman striking a copper pan in the doorway, the sound rippling outward through stone corridors, other hands visible in the background picking up pans and tools, a child disappearing into a wall gap no wider than a fist, Nona setting down her spoon with calm authority]]
+![[wiki/assets/sessions/session-04/warren-rattle-cascade-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Environmental storytelling in a hidden Rattkin kitchen under Calveno, warm oil-lamp light and old stone corridors. The Warren kitchen mid-Rattle: a Rattkin woman strikes a copper pan in the doorway, sound rippling outward through stone corridors; other hands in the background pick up pans and tools; a child disappears into a wall gap no wider than a fist. Nona Black-Jaw sits at the table setting down her spoon with calm authority: very small elderly Rattkin, fur almost entirely silver-white except for a dark brown-black mask along her jaw, sharp pink-rimmed eyes, calloused paws, sitting perfectly straight, flour-dusted floral apron over dark well-made cloth, garlic and fresh bread atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 If the party is inside the Warren during the visit, Nona has a reason to show them what the community can do. A Dravosi factor's runner is spotted at the Le Paludi canal edge — not a raid, but close enough to protocol that someone triggers the drill.
 
@@ -169,13 +174,13 @@ Let the party sit inside this for a moment. Then —
 > Success: she isn't hostile, she's screening; an introduction flips her.
 > Crit success: the three ships she turned away this month were all asking the wrong questions. Her refusal is professional, not personal — she knows who she can trust and is waiting for proof.
 
-**If ignored:** Nona doesn't chase — she lets the silence sit, then uses the **sending stone** on her own timing. The silhouette stays live and the [[knighton-pursuit\|Crown clock]] keeps ticking; every unpapered day is a day the ship is easier to recognize.
+**If ignored:** the Savia introduction requires a return visit to Nona. The silhouette stays live and the [[knighton-pursuit\|Crown clock]] keeps ticking; every unpapered day is a day the ship is easier to recognize.
 
 ---
 
 ## First Handler Beat — Jean-Claude
 
-![[Handler-Crowd-Watch.png|A blue-caste Grung at the edge of a Velo square, standing in the one position that gives sightlines to three exits, watching a street performer's crowd with the flat assessment of someone mapping movement patterns, not enjoying the show]]
+![[wiki/assets/sessions/session-04/handler-crowd-watch-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A blue-caste Grung handler at the edge of a crowded Velo square in Calveno, standing in the one position that gives sightlines to three exits, watching a street performer's crowd with flat professional assessment rather than enjoyment. Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs; the Grung is small, blue-skinned, amphibian, in plain nondescript trade clothes with no obvious weapons; festival masks, cloth banners, canal-stone architecture, and moving spectators fill the scene. Emphasize crowd geometry and surveillance posture. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *JC only. Private. One recognition beat — do not announce to the table.*
 
@@ -242,7 +247,7 @@ He explains that the moustache-and-beret combination reads as "performer" — wh
 |---|---|
 | **Branca** | If the Pearl Summons fired: Branca leaves the shrine, her appointment complete. If Delmar still hasn't gone: she is in the shrine at dawn, same position, for the third consecutive dawn. |
 | **Raid** | Day 2 complete. Route testing finished — handlers know the transfer times for all five sewer access points. Slaad pre-positioning continues. |
-| **Nona** | If the party visited: the favor is named; JC's tunnel job is on the table. If not: Nona waits one more day, then uses the sending stone. |
+| **Nona** | If the party answered the stone: the favor is named; JC's tunnel job is on the table. If Perrin ignored the stone: Nona waits one more day, then sends a runner directly. |
 | **Red Lady** | Commission clock: **6–8 days.** Crew contacts in two ports have been confirmed. A sealed chart package was delivered to the Bridge exchange. |
 | **Ship** | Day 2 of ~5. Port-quarter repaint underway. Sem needs a decision on the registry plate by Day 4. |
 | **Beffa** | La Scelta complete. Marks have been notified. La Finestra opens at dawn — the three-day execution window begins. |

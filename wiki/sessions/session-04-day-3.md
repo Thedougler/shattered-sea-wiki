@@ -31,18 +31,18 @@ session_date: "unknown"
 | **Beffa** | La Finestra has opened. First pranks fire this morning. Nervous marks look over their shoulders. The crowd is *enjoying* being on edge. |
 | **Raid** | Day 3 of prep. Route testing under live festival conditions. Handlers walking the five extraction paths with actual crowd flow, timing the surface-to-hatch transfer. |
 | **Pearl Summons** | If it fired yesterday: Branca is gone; the demand hangs over Delmar. If Delmar still hasn't gone: Branca is in the shrine for the third dawn. The font's breathing is visible from the canal. |
-| **Nona** | If the favor was named yesterday: JC's tunnel job is live. If not: Nona uses the **sending stone** this morning. Perrin hears her voice — flat, unhurried, one sentence: "Come eat. Bring the blue one." |
+| **Nona** | If the favor was named yesterday: JC's tunnel job is live. If Perrin ignored the Day 2 stone: Nona sends a runner to find him directly — flat, unhurried, no second chances: "She's done waiting." |
 | **Red Lady** | Commission clock: **5–7 days.** The sealed chart package has been delivered. Crew in two ports confirmed. A lugger at the outer anchorage is taking on diving gear. |
 | **Ship** | Day 3 of ~5. Sem asks about the registry plate today — keep the old Crown designation, blank it, or fabricate a new one. Each has a consequence. |
 
 > [!dm]
-> If Nona's sending stone fires, it lands on Perrin privately. One sentence. No threat, no warmth — accounting. The stone works once per day; she will not waste the second charge arguing. If he ignores it, she does not send again. She starts making arrangements.
+> If the favor still hasn't been named by Day 3, Nona escalates from the stone to a physical runner. She already used the stone on Day 2. She does not repeat herself. If Perrin ignores the runner, she starts making arrangements without him — the Warren can send its own people into the tunnels, but without JC they'll lack the Grung expertise to read what they find.
 
 ---
 
 ## Handler Investigation — The Tunnels
 
-![[Sewer-Investigation.png|Jean-Claude descending into the Calveno sewer collector by lantern light — limestone walls with fresh scrape marks at knee height, ankle-deep water, the tunnel branching ahead into darkness, three clean cuts in the stone at the Y-junction barely visible in the light]]
+![[wiki/assets/sessions/session-04/sewer-investigation-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Jean-Claude Tabarnack descends into the Calveno sewer collector by lantern light: three-foot lean humanoid poison dart frog Grung, electric-blue slick skin with large black underside patches and geometric black bands across arms, legs, shoulders, and face, visible scars, hard escaped-hunter stare, red beret, false black moustache, worn ranger harness, shortbow and quiver. Limestone sewer walls show fresh scrape marks at knee height, ankle-deep water reflects the lantern, the tunnel branches ahead into darkness, three clean cuts in the stone at the Y-junction barely visible. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Jean-Claude (primary, only he can read it), anyone he brings. Exploration → possible combat.*
 
@@ -139,7 +139,7 @@ If Crissdalynn is investigating the Red Lady or Maw salvage with [[master-kyzil\
 
 ## Beffa Play — La Finestra Opens
 
-![[Beffa-False-Alarm.png|A Mercatura crowd scene — a masked figure lunging from behind a festival backdrop, the nearest spectators flinching back in genuine surprise, the second row already laughing, a gate sergeant watching from a canal railing and shaking his head]]
+![[wiki/assets/sessions/session-04/beffa-false-alarm-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Mercatura crowd scene during Il Gioco delle Beffe: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A masked figure lunges from behind a festival backdrop, the nearest spectators flinch back in genuine surprise, the second row is already laughing, and a gate sergeant watches from a canal railing with weary amusement. Calveno's stone plaza, canal rail, hanging festival cloth, lanterns, and civic comedy atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Optional. Background if skipped.*
 
@@ -169,7 +169,7 @@ The execution window is live. Pranks fire throughout the day.
 
 ## Grung-Normalizing Pranks — Day 3
 
-![[Beffa-Grung-Prank.png|A Le Paludi canal scene during La Finestra — a performer in an accurate green Grung costume leaping from a canal boat with a basket of sardines, the fish stall owner's mark gaping, the crowd laughing and clapping, festival cloth and masks everywhere]]
+![[wiki/assets/sessions/session-04/beffa-grung-prank-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Le Paludi canal scene during La Finestra: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A performer in an accurate green Grung costume leaps from a canal boat with a basket of sardines, fish scattering in a comic arc; the fish stall owner's marked target gapes in shock while the crowd laughs and claps. Festival cloth, masks, canal boats, wet stone, busy market texture everywhere. Make it clear this is a staged prank, not combat. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Ambient. One or two beats. See [[calveno-raid-signs#Grung-Normalizing Pranks|Raid Signs — Grung Pranks]] for the full menu.*
 

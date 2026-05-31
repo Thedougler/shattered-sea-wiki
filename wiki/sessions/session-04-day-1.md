@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskippable vigil at the Waveservant Shrine, and the party's first night in Calveno."
+summary: "Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskippable vigil at the Waveservant Shrine, Cobb's check-in about the sending stone, and the party's first night in Calveno."
 created: 2026-05-30
 updated: 2026-05-30
 tags:
@@ -80,15 +80,15 @@ The party has a few hours before dark. Calveno is dressing for festival — clot
 
 ---
 
-## Cobb's Warning
+## Cobb's Check-In
 
-[[cobb\|Cobb]] finds Perrin before the evening is done — at the tavern, the dock, or wherever Perrin settles.
+[[cobb\|Cobb]] finds Perrin before the evening is done — at the tavern, the dock, or wherever Perrin settles. He knows Perrin already went to see Nona.
 
 > [!read-aloud]
-> A young Rattkin in a dockworker's coat finds Perrin with the careful expression of someone deciding how much warning counts as kindness. "Nona knows you're here. She knew before you tied up. She's got dinner tomorrow and she wants you there." He pauses. "She's not angry. She's — she's been worried. That's worse."
+> A young Rattkin in a dockworker's coat drops onto the bench beside Perrin without asking. "She was glad you came. She won't say it twice, so I'm saying it." He glances at the sending stone if it's visible. "That thing's not decorative. When she uses it, she means now, not when you get around to it."
 
 > [!dm]
-> Cobb will not hide Perrin from Nona. This is not betrayal — it is how Black-Jaw help works. He is giving Perrin the courtesy of one night before the matriarch's table. If Perrin wants to go tonight, Nona is awake and the kitchen is warm — run [[session-04-day-2#warren--nonas-table|Warren & Nona's Table]] from Day 2.
+> Cobb is bridging. Perrin already met Nona, apologized, and left with the sending stone and an unconditional favor he hasn't heard yet. Cobb's role tonight is to reinforce that the stone is live and the favor is coming — not to arrange a first meeting.
 
 ---
 
@@ -98,7 +98,7 @@ The party has a few hours before dark. Calveno is dressing for festival — clot
 |---|---|
 | **Branca** | Does not move, does not sleep. She is in the shrine at dawn exactly as she was at dusk. |
 | **Raid prep** | Day 1 complete — handlers have confirmed all sewer access points under the festival districts. Route testing begins at dawn. |
-| **Nona** | Has confirmed Perrin is in the city. Dinner is set for tomorrow. The favour is ready to name. |
+| **Nona** | Perrin visited, apologized, left with the sending stone. The favour is ready to name — she will use the stone tomorrow. |
 | **Red Lady salvage** | Commission clock: **8–10 days to departure.** Tick one day. A lugger arrived at the outer anchorage this afternoon. |
 | **Beffa** | Registration desks go up on the Mercatura bridge. La Scelta opens at dawn. |
 | **Ship repair** | Sem has assessed the hull. Day 1 of ~5. Paint stripping begins tomorrow. |

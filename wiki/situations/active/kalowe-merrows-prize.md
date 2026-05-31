@@ -12,6 +12,7 @@ created: 2026-05-15
 updated: 2026-05-30
 tags: [situation, kalowe, treasure, underwater, combat]
 sources: ["Inbox/situations/islands/Kalowe-Merrows-Prize.md"]
+narrative_island: ""
 ---
 
 # Kalowe — The Merrow's Prize

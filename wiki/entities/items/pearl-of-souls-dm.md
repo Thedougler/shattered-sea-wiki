@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM companion for the Pearl of Souls — the Seven Pearls context, its current location below the planar boundary, the Maw entanglement, and the Aldric risk that drove the Tessarine commission."
 created: 2026-04-12
-updated: 2026-05-05
+updated: 2026-05-30
 tags: [item, artifact, umberlee, dm-only, pearl-of-souls]
 sources: ["Inbox/situations/reference/Pearl-of-Souls-Item.md"]
 confidence_level: medium

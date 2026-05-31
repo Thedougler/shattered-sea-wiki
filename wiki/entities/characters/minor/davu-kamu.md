@@ -11,6 +11,7 @@ created: 2026-05-30
 updated: 2026-05-30
 tags: [npc, kalowe, midchain, hook]
 sources: ["Inbox/situations/islands/Kalowe-Merrows-Prize.md"]
+confidence_level: medium
 ---
 
 # Davu Kamu

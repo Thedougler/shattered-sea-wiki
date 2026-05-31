@@ -7,9 +7,13 @@ audience: dm
 publish: false
 summary: "Pointy Hat's Theme Park Method for city design: choose one legible theme, build attractions players can interact with (not a lore museum), adapt every element to the theme. Read before creating any city, port, or district hub."
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-05-30
 tags: [system, city-design, dm-craft, reference]
 sources: ["Inbox/private/system/guides/City-Creation-Guide.md"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # City Creation Guide (Theme Park Method)

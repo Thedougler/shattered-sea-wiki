@@ -7,9 +7,13 @@ audience: agent
 publish: false
 summary: "PC motivation map for Season 1 — dials, terminal nodes, active friction, and cross-party collision points. Read before tying prep, NPCs, or consequences to player motivations."
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-05-30
 tags: [system, player-resource, season-1, reference]
 sources: ["Inbox/private/system/players/Player-Gravity-Wells.md"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # Player Gravity Wells — Season 1

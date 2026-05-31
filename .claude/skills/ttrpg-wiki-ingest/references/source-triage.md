@@ -27,6 +27,7 @@ Answer these from the source and current wiki context:
 | `faction-source` | group agenda, membership, moves | faction page and clocks |
 | `rules-or-homebrew` | mechanics, table rulings, class options | `wiki/rules/` and relevant character links |
 | `handout-or-player-facing` | in-world text, public lore, recap | publish-safe player page |
+| `character-sheet` | PDF form fields, ability scores, class/level, equipment | PC sheet page, combat reference, entity links |
 | `asset` | image/audio/map supporting wiki content | asset source tracking and embeds |
 | `research-or-guidance` | process guidance, writing standards | system/reference page only if useful |
 

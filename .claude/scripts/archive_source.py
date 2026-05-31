@@ -29,6 +29,7 @@ TYPE_TO_SUBDIR = [
     ("deity-source", "characters"),
     ("rules-or-homebrew", "homebrew"),
     ("homebrew", "homebrew"),
+    ("character-sheet", "characters"),
     ("asset", "assets"),
 ]
 DEFAULT_SUBDIR = (

@@ -59,6 +59,7 @@ from dataclasses import asdict, dataclass
 from typing import Optional
 
 import jsonschema
+import tag_taxonomy
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
 from wiki_common import (
@@ -737,6 +738,123 @@ def check_tag_variants(records) -> list[Issue]:
     return issues
 
 
+def check_tags(records) -> list[Issue]:
+    """Validate tags against the controlled vocabulary in tag_taxonomy.py.
+
+    Every tag violation requires the agent to read the file and choose
+    appropriate canonical replacements — the fix is never mechanical.
+    Only visibility/* tags are left untouched (reserved group).
+    """
+    issues = []
+    fix_suffix = "read this file and select canonical tags from wiki/system/taxonomy.md"
+
+    for relpath, data, _body in records:
+        if os.path.basename(relpath) in SKIP_CONTENT:
+            continue
+        if not hasattr(data, "get"):
+            continue
+        tags = data.get("tags")
+        if not isinstance(tags, list):
+            continue
+
+        content_tags = []
+        for raw in tags:
+            tag = str(raw).strip()
+            if not tag:
+                continue
+            category, canonical = tag_taxonomy.classify(tag)
+
+            if category == "canonical":
+                content_tags.append(tag)
+
+            elif category == "alias":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "warning",
+                        "tag-alias",
+                        relpath,
+                        f"'{tag}' is an alias — canonical form is '{canonical}'",
+                        fix=f"replace with '{canonical}'; then {fix_suffix}",
+                    )
+                )
+
+            elif category == "deprecated-fm":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "warning",
+                        "tag-deprecated",
+                        relpath,
+                        f"'{tag}' duplicates a frontmatter field — remove it",
+                        fix=fix_suffix,
+                    )
+                )
+
+            elif category == "deprecated-entity":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "warning",
+                        "tag-deprecated",
+                        relpath,
+                        f"'{tag}' is an entity name — use a wikilink in the body instead",
+                        fix=f"add wikilink to [[{tag}]] in body; {fix_suffix}",
+                    )
+                )
+
+            elif category == "deprecated-source":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "warning",
+                        "tag-deprecated",
+                        relpath,
+                        f"'{tag}' is a source citation — move to sources: frontmatter field",
+                        fix=f"move to sources: field; {fix_suffix}",
+                    )
+                )
+
+            elif category == "deprecated-system":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "warning",
+                        "tag-deprecated",
+                        relpath,
+                        f"'{tag}' is a system/process tag — remove it",
+                        fix=fix_suffix,
+                    )
+                )
+
+            elif category == "unknown":
+                content_tags.append(tag)
+                issues.append(
+                    Issue(
+                        "quality",
+                        "tag-unknown",
+                        relpath,
+                        f"'{tag}' not in controlled vocabulary",
+                        fix=f"{fix_suffix}, or propose adding '{tag}' if it covers 5+ files across 3+ entity types",
+                    )
+                )
+
+            # "visibility" tags: silently skip, no issue raised
+
+        if len(content_tags) > tag_taxonomy.TAG_LIMIT:
+            issues.append(
+                Issue(
+                    "warning",
+                    "tag-over-limit",
+                    relpath,
+                    f"{len(content_tags)} content tags (limit {tag_taxonomy.TAG_LIMIT}): {', '.join(content_tags)}",
+                    fix=fix_suffix,
+                )
+            )
+
+    return issues
+
+
 def check_singleton_properties(records, schema_props: set[str]) -> list[Issue]:
     """Flag frontmatter properties that appear in only one file and aren't in the schema."""
     prop_counter: dict[str, int] = collections.Counter()
@@ -1129,6 +1247,10 @@ BACKLOG_HINT = {
     "orphan": "link from a natural parent",
     "summary-stale": "write a concrete summary",
     "deadend": "add wikilinks to related pages",
+    "tag-deprecated": "read the file; remove deprecated tag and choose canonical replacements",
+    "tag-alias": "read the file; replace alias with canonical form shown in the fix message",
+    "tag-unknown": "read the file; replace with canonical tags or propose adding to taxonomy",
+    "tag-over-limit": "read the file; trim to ≤5 canonical tags",
     "tag-variant": "consolidate plural/singular tag variants",
     "singleton-property": "verify not a typo, or add to schema",
     "status-drift": "use the canonical status value",
@@ -1299,6 +1421,7 @@ def main(argv) -> int:
         all_issues.extend(file_issues)
 
     # Vault-wide checks.
+    all_issues.extend(check_tags(records))
     all_issues.extend(check_tag_variants(records))
     all_issues.extend(check_singleton_properties(records, schema_props))
     all_issues.extend(check_lore_consistency(records, slug_to_paths))

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [npc, human, healer, recurring]
 sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Khlysty.md", "Inbox/Shepherd-Grigori.md"]
 confidence_level: observed

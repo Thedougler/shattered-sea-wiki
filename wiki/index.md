@@ -652,6 +652,7 @@ sources: []
 - [[session-04-run-guide|Session 04 — Run Guide]] — At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs.
 
 ## system
+- [[character-interview-guide|Character Interview Guide]] — A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers.
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
 - [[delmar-primer|Delmar Primer]] — Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.
 - [[dm-philosophy|DM Philosophy]] — A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy.
@@ -660,6 +661,10 @@ sources: []
 - [[party-combat-primer|Party Combat Primer — Shattered Sea]] — Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution.
 - [[party-crew|Party Crew]] — Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
 - [[party-session-primer|Party Session Primer — Shattered Sea]] — Stub — party not yet defined. Populate after session zero.
+- [[player-agency|Player Agency]] — Player agency is the North Star. Everything at the table exists to serve it: the rules, rulings, narrative consequences, and the world itself.
+- [[session-zero|Session Zero]] — [stub] Stub — referenced in [[player-agency]] and [[character-interview-guide]]. Pre-campaign setup session covering lines/veils, character creation, and table expectations.
+- [[situations-not-stories|Situations Not Stories]] — Core prep principle: write situations, not stories. Drop the players into something interesting and find out what they do. Whatever they do next is the story.
+- [[stripes-primer|Stripes Primer]] — Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.
 - [[task-routing|Task Routing — Shattered Sea]] — Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.
 
 ## dm

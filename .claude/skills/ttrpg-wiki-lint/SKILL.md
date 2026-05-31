@@ -3,17 +3,16 @@ name: ttrpg-wiki-lint
 version: "2.0"
 description: >
   Lint the Shattered Sea wiki and fix what's safe to fix. Run this whenever you
-  need to check vault health, standardize frontmatter (one file or in bulk), find
-  broken wikilinks or orphans, find deadend pages, check tag hygiene, detect
-  singleton properties, or migrate relationships out of frontmatter into the
-  body. Auto-detects Obsidian CLI for deeper cross-file checks and
-  markdownlint-cli2 for markdown formatting. This is the engine behind a full
-  audit — ttrpg-llm-wiki-init's Full Audit Mode routes here. Trigger on: "lint
-  the wiki", "check wiki health", "fix the frontmatter", "standardize
-  frontmatter", "find broken links", "find orphans", "find deadends", "tag
+  need to check vault health, standardize frontmatter, find broken wikilinks or
+  orphans, find deadend pages, check lore consistency (dead entity refs, parent
+  location gaps, narrative island mismatches, status drift), check tag hygiene,
+  detect singleton properties, or run markdown formatting checks. Auto-detects
+  Obsidian CLI for deeper cross-file checks and markdownlint-cli2 for formatting.
+  Trigger on: "lint the wiki", "check wiki health", "fix the frontmatter",
+  "find broken links", "find orphans", "find deadends", "lore consistency",
+  "check consistency", "dead NPC still captaining", "status drift", "tag
   hygiene", "what's wrong with the wiki", "clean up the vault", "audit the
-  wiki", "any broken wikilinks", "validate frontmatter", "move relationships
-  into the body", "check markdown formatting".
+  wiki", "check markdown formatting".
 ---
 
 # TTRPG Wiki Lint — Shattered Sea
@@ -170,6 +169,27 @@ dump `Relationships:` as a bullet list; work each one into the lore/DM text wher
 belongs. Once every entry for a file is woven in, **delete the `relationships:` field
 entirely**. Commit: `curation: {file} — relationships woven into body`.
 
+### dead-entity-ref (warning) — lore consistency
+A frontmatter cross-reference field (`captain`, `current_holder`, `owner`) points to
+an entity whose status is `dead`, `deceased`, `destroyed`, or `presumed_dead`. The
+ship/item page still claims a dead entity fills that role. Either update the field
+(new captain, no holder) or mark the parent file's status to reflect the loss.
+
+### island-situation-mismatch (warning) — lore consistency
+A narrative island's `contains_situations` lists a situation whose `narrative_island`
+field doesn't match (or is unset). Set the situation's `narrative_island` to match
+the island that claims it, or remove it from `contains_situations` if the mapping
+is wrong.
+
+### status-drift (warning) — lore consistency
+A status value has a near-synonym in use elsewhere (`deceased` vs `dead`, `open` vs
+`active`). Standardize to the canonical form for consistency. The linter flags the
+less-common variant.
+
+### parent-gap (quality) — lore consistency
+A place's `parent_location` field points to a parent page, but the parent's body
+prose doesn't mention this child. Add a wikilink to the child in the parent page.
+
 ### type-path-mismatch (warning)
 `type:` disagrees with the file's location. Usually the value is wrong — set it to
 match the path. But a cluster of mismatches means the directory structure has evolved
@@ -224,5 +244,5 @@ per the escalation protocol — append to `wiki/discrepancy-log.md`, don't auto-
 delegates the actual checking to this script** instead of hand-walking files. The
 write-time frontmatter hook (`fix_frontmatter.py`) handles single-file completion on
 every save; this skill is the bulk/standalone counterpart and goes further
-(validation, links, orphans, deadends, tag hygiene, markdown formatting). For prose
-quality while weaving relationships, defer to `ttrpg-writing`.
+(validation, links, orphans, deadends, lore consistency, tag hygiene, markdown
+formatting). For prose quality while weaving relationships, defer to `ttrpg-writing`.

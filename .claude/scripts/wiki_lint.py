@@ -519,6 +519,10 @@ def _obsidian_broken_links() -> list[Issue]:
             src_rel = (
                 src if src.startswith("wiki/") else rel(os.path.join(REPO_ROOT, src))
             )
+            if not src_rel.startswith("wiki/"):
+                continue
+            if os.path.basename(src_rel) in SKIP_AS_SOURCE:
+                continue
             issues.append(
                 Issue(
                     "error",
@@ -754,6 +758,163 @@ def check_singleton_properties(records, schema_props: set[str]) -> list[Issue]:
     return issues
 
 
+# ---------------------------------------------------------------------------
+# Lore consistency checks (cross-file)
+# ---------------------------------------------------------------------------
+
+# Frontmatter fields that hold wikilink references to other entities.
+XREF_ROLE_FIELDS = {
+    "captain": "captains",
+    "current_holder": "holds",
+    "owner": "owns",
+}
+
+DEAD_STATUSES = frozenset({"dead", "deceased", "destroyed", "presumed_dead"})
+
+STATUS_CANONICAL = {
+    "deceased": "dead",
+    "presumed_dead": "dead",
+    "open": "active",
+}
+
+
+def _extract_slug(value: str) -> Optional[str]:
+    """Extract a wikilink slug from a frontmatter value string."""
+    m = WIKILINK_RE.search(str(value))
+    if not m:
+        return None
+    target = os.path.basename(m.group(2).strip())
+    if target.endswith(".md"):
+        target = target[:-3]
+    return target.lower()
+
+
+def check_lore_consistency(records, slug_to_paths) -> list[Issue]:
+    """Cross-file lore checks: dead-entity refs, parent-location gaps,
+    narrative-island mismatches, status vocabulary drift."""
+    lower_index = {}
+    for slug, paths in slug_to_paths.items():
+        lower_index[slug.lower()] = paths
+
+    # Build data/body lookup by relpath.
+    data_by_path = {}
+    body_by_path = {}
+    for relpath, data, body in records:
+        data_by_path[relpath] = data
+        body_by_path[relpath] = body
+
+    # Build slug -> relpath lookup (first match).
+    slug_to_first = {}
+    for slug, paths in slug_to_paths.items():
+        slug_to_first[slug.lower()] = paths[0]
+
+    # Collect entity statuses.
+    entity_status = {}
+    for relpath, data, _body in records:
+        status = (
+            str(data.get("status", "")).strip().lower() if hasattr(data, "get") else ""
+        )
+        if status:
+            slug = slug_of(relpath).lower()
+            entity_status[slug] = status
+
+    issues = []
+
+    for relpath, data, body in records:
+        if not hasattr(data, "get"):
+            continue
+
+        # 1. Cross-reference fields pointing to dead entities.
+        for field, verb in XREF_ROLE_FIELDS.items():
+            val = data.get(field)
+            if not val:
+                continue
+            target_slug = _extract_slug(val)
+            if not target_slug:
+                continue
+            target_status = entity_status.get(target_slug, "")
+            if target_status in DEAD_STATUSES:
+                issues.append(
+                    Issue(
+                        "warning",
+                        "dead-entity-ref",
+                        relpath,
+                        f"{field}: [[{target_slug}]] is {target_status}",
+                        fix=f"update {field} or mark this file's status accordingly",
+                    )
+                )
+
+        # 2. parent_location bidirectionality.
+        parent_val = data.get("parent_location")
+        if parent_val:
+            parent_slug = _extract_slug(parent_val)
+            if parent_slug:
+                parent_path = slug_to_first.get(parent_slug)
+                if parent_path:
+                    parent_body = body_by_path.get(parent_path, "")
+                    child_slug = slug_of(relpath).lower()
+                    if child_slug not in parent_body.lower():
+                        issues.append(
+                            Issue(
+                                "quality",
+                                "parent-gap",
+                                relpath,
+                                f"parent_location [[{parent_slug}]] doesn't mention this page",
+                                fix=f"add a wikilink to [[{child_slug}]] in {parent_path}",
+                            )
+                        )
+
+        # 3. contains_situations ↔ narrative_island consistency.
+        cs = data.get("contains_situations")
+        if isinstance(cs, list):
+            island_slug = slug_of(relpath).lower()
+            for sit in cs:
+                sit_slug = _extract_slug(str(sit))
+                if not sit_slug:
+                    continue
+                sit_path = slug_to_first.get(sit_slug)
+                if not sit_path:
+                    continue
+                sit_data = data_by_path.get(sit_path, {})
+                sit_ni = str(sit_data.get("narrative_island", "")).strip().lower()
+                if sit_ni and sit_ni != "none" and island_slug not in sit_ni:
+                    issues.append(
+                        Issue(
+                            "warning",
+                            "island-situation-mismatch",
+                            sit_path,
+                            f"narrative_island={sit_ni!r} but listed in {relpath}",
+                            fix=f"set narrative_island to match {island_slug!r}",
+                        )
+                    )
+                elif not sit_ni or sit_ni == "none":
+                    issues.append(
+                        Issue(
+                            "warning",
+                            "island-situation-mismatch",
+                            sit_path,
+                            f"narrative_island is unset but listed in {relpath}",
+                            fix=f"set narrative_island to {island_slug!r}",
+                        )
+                    )
+
+        # 4. Status vocabulary drift.
+        status = str(data.get("status", "")).strip().lower()
+        if status in STATUS_CANONICAL:
+            canonical = STATUS_CANONICAL[status]
+            issues.append(
+                Issue(
+                    "warning",
+                    "status-drift",
+                    relpath,
+                    f"status '{status}' — use '{canonical}' for consistency",
+                    fix=f"set status to '{canonical}'",
+                )
+            )
+
+    return issues
+
+
 def _dump_node(node) -> str:
     y = make_yaml()
     buf = io.StringIO()
@@ -924,6 +1085,8 @@ DECISION_RULES = {
     "invalid-value",
     "type-path-mismatch",
     "lifecycle-folder-mismatch",
+    "dead-entity-ref",
+    "island-situation-mismatch",
 }
 BACKLOG_HINT = {
     "missing-required-field": "run `wiki_lint.py --fix`",
@@ -934,6 +1097,8 @@ BACKLOG_HINT = {
     "deadend": "add wikilinks to related pages",
     "tag-variant": "consolidate plural/singular tag variants",
     "singleton-property": "verify not a typo, or add to schema",
+    "status-drift": "use the canonical status value",
+    "parent-gap": "add wikilink in the parent page",
 }
 
 
@@ -1102,6 +1267,7 @@ def main(argv) -> int:
     # Vault-wide checks.
     all_issues.extend(check_tag_variants(records))
     all_issues.extend(check_singleton_properties(records, schema_props))
+    all_issues.extend(check_lore_consistency(records, slug_to_paths))
 
     # markdownlint pass.
     if use_markdown:

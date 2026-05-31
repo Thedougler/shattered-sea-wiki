@@ -7,9 +7,13 @@ audience: dm
 publish: false
 summary: "Brennan Lee Mulligan's prep methodology: reactive toys over predicted outcomes, narrative tentpoles that Schrödinger into position, player gravity as the essential anchor. Read before generating session prep, NPC toys, or faction structures."
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-30
 tags: [system, prep, dm-craft, reference]
 sources: ["Inbox/private/system/guides/BLM-Prep-Framework.md"]
+system_role: "unknown"
+token_profile: on-demand
+mandatory_for: []
+update_trigger: ""
 ---
 
 # BLM Prep Framework

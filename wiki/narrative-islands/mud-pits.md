@@ -7,10 +7,13 @@ audience: dm
 publish: false
 summary: "DM mechanics for running the Mud Pits as a party attraction at Kalowe — calibration table, opponent roster, betting mechanics, and crowd-as-social-resource."
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-30
 tags: [narrative-island, encounter, kalowe, combat, midchain]
 sources: ["Inbox/situations/islands/Mud-Pits.md"]
 narrative_island: mud-pits
+portable: false
+entry_points: []
+contains_situations: []
 ---
 
 # The Mud Pits — DM Notes

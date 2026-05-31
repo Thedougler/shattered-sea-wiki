@@ -44,9 +44,6 @@ Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vess
 | [[the-canister\|The Canister]] | Active — 20 vials in cargo | Jean-Claude only | Vials examined, JC speaks, or Simone appears |
 | [[knighton-pursuit\|Knighton Pursuit]] | Active — ships will be sent | Aware (Grigori warned them) | First contact unknown |
 | [[nona-and-anzolo\|Nona and Anzolo]] | Updated — attacks called off; favor outstanding | Perrin only (favors, stone) | Anzolo makes contact OR Nona calls |
-| [[hull-impacts\|Hull Impacts]] | Resolved — whip shark killed; moved to situations/resolved/ | Full | — |
-| [[the-rook-resolution\|The Rook Resolution]] | Resolved — Rook dead (presumed); moved to situations/resolved/ | Full | — |
-
 ## Predictions
 
 1. Nona's favor arrives by sending stone. Perrin agreed without terms — the favor should put him in tension with the party.

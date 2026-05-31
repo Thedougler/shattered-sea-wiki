@@ -62,6 +62,7 @@ Low stone walls, a roof of salvaged timber and layered palm, a wide terrace faci
 - A young fisherman at the corner table knows where the Bad Receipt stashed nine crates on a reef rock two seasons ago — and the Bad Receipt just anchored in the primary berth. He wants 50 gp and no involvement in what happens next.
 - The captain's room is occupied — three nights paid in advance, cash, no name given, not been seen leaving.
 - Reweti's hiring contact for the [[five-blades|Five Blades]] — she knows how to reach them.
+- [[davu-kamu|Davu Kamu]] has been at a corner table for two months — former first mate, only survivor of the *Cormorant* wreck, trying to hire anyone willing to dive for the captain's strongbox. See [[kalowe-merrows-prize|Kalowe — The Merrow's Prize]].
 
 ## See Also
 

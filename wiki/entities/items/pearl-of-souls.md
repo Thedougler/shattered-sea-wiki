@@ -10,6 +10,7 @@ created: '2026-05-29'
 updated: '2026-05-29'
 tags: [item, artifact, umberlee, souls, divine]
 sources: ["Homebrew"]
+dm_companion: "[[pearl-of-souls-dm|Pearl of Souls (DM)]]"
 confidence_level: high
 title: Pearl of Souls
 item_type: artifact

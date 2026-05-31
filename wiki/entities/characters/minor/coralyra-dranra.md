@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Season 2 PC concept — beautiful elf sorcerer/bard with a voice that stops conversation; raised in Halythion, left before being evaluated, marked by a Sawek."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags: [pc-concept, elf, sorcerer, bard, halythion, season-2]
 sources: ["Inbox/Flappers-the-Seal.md", "Inbox/Coralyra-Dranra.md"]
 confidence_level: medium

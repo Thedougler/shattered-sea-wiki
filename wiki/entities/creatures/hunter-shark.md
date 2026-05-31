@@ -8,7 +8,7 @@ publish: true
 summary: CR 2 beast; the working shark of the Scatter, following ship routes and harbour chum — common enough that experienced sailors stop flinching and start paying attention instead.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, maritime]
 sources:
   - XMM
 confidence_level: high

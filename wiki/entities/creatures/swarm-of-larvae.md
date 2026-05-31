@@ -8,7 +8,7 @@ publish: true
 summary: A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, drowned-maw, antheri]
 sources:
   - XMM
 confidence_level: high

@@ -8,7 +8,7 @@ publish: true
 summary: CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, maritime, drowned-maw]
 sources:
   - XMM
 confidence_level: high

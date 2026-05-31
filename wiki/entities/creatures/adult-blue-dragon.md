@@ -8,7 +8,7 @@ publish: true
 summary: CR 16 chromatic dragon; territorial lightning breather laired in the Greyteeth reef system of the Crown Islands — it taxes shipping rather than hunting it.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, homebrew, maritime]
 sources:
   - XMM
   - Homebrew

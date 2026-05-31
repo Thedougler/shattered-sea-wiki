@@ -8,7 +8,7 @@ publish: true
 summary: CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, maritime]
 sources:
   - XMM
 confidence_level: high

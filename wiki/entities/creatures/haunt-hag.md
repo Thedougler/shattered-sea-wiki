@@ -8,7 +8,7 @@ publish: false
 summary: CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 created: 2026-05-15
 updated: 2026-05-31
-tags: []
+tags: [combat, homebrew, mystery]
 sources:
   - Homebrew
   - Pointy Hat

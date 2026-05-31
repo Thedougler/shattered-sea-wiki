@@ -8,7 +8,7 @@ publish: true
 summary: "The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+tags: [maritime]
 sources:
   - "wiki/lore/campaign-overview.md"
   - "Inbox/Shattered-Sea.md"

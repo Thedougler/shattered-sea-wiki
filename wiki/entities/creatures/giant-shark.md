@@ -8,7 +8,7 @@ publish: true
 summary: The Giant Shark, a CR 5 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+tags: [combat, maritime]
 sources:
   - XMM
 confidence_level: high

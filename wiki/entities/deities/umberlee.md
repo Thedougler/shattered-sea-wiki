@@ -9,8 +9,6 @@ summary: "Dominant sea goddess of the Shattered Sea: feared, transactional, and 
 created: 2026-05-27
 updated: 2026-05-31
 tags:
-  - sea
-  - antagonist
   - waveservants
 sources:
   - "Inbox/Delmar-Fisk.md"

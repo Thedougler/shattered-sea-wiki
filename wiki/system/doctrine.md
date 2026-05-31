@@ -8,8 +8,7 @@ publish: false
 summary: "Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/references/. This stub redirects to the new locations."
 created: 2026-05-28
 updated: 2026-05-31
-tags:
-  - doctrine
+tags: []
 sources: []
 system_role: doctrine
 token_profile: on-demand

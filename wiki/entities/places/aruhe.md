@@ -9,7 +9,6 @@ summary: "Deserted reef island near the Verdant Teeth on the Midchain's inner ed
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - deserted
   - hazard
 sources:
   - Homebrew

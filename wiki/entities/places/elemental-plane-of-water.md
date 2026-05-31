@@ -9,9 +9,7 @@ summary: "A crack in the floor of the Drowned Maw — ragged stone edges, faint 
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - plane
   - drowned-maw
-  - cosmology
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Elemental-Plane-of-Water.md"

@@ -9,7 +9,6 @@ summary: "Martial ranged weapon. Heavy crossbow damage (1d10) in a one-handed Li
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - firearms
   - homebrew
 sources:
   - "Homebrew"

@@ -8,8 +8,7 @@ publish: false
 summary: "Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing."
 created: 2026-04-22
 updated: 2026-05-31
-tags:
-  - table-craft
+tags: []
 sources:
   - "Inbox/private/system/guides/Spotlight-Management.md"
 system_role: "unknown"

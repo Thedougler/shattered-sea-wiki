@@ -9,8 +9,6 @@ summary: "A wrist-mounted device that fires a grappling hook up to 60 feet and r
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - personal
-  - utility
   - homebrew
 sources:
   - "Homebrew"

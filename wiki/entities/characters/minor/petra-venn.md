@@ -12,7 +12,6 @@ tags:
   - needs-detail
   - dravosi
   - tessarine
-  - intelligence
 sources:
   - "Inbox/Warren-Ferrin-Locke.md"
 confidence_level: confirmed

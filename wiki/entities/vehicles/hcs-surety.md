@@ -10,8 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - dravosi
-  - cutter
-  - prize
 sources:
   - "Inbox/HCS-Surety.md"
   - "Inbox/Session-01-Recap.md"

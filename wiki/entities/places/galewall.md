@@ -9,7 +9,6 @@ summary: "The permanent western storm belt separating the Scatter from the colon
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - weather
   - maritime
 sources:
   - "Inbox/Galewall.md"

@@ -8,8 +8,7 @@ publish: false
 summary: "Pointy Hat's three-pillar framework for character identity before mechanics: Gimmick (surface), Conflict (wound), Want (engine). Use before helping create or evaluate any PC concept."
 created: 2026-04-24
 updated: 2026-05-31
-tags:
-  - character-creation
+tags: []
 sources:
   - "Inbox/private/system/guides/Character-Creation-Three-Pillars.md"
 system_role: "unknown"

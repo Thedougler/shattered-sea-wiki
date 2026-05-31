@@ -10,7 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - antheri
-  - armor
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Session-01-Recap.md"

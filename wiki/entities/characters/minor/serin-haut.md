@@ -11,8 +11,6 @@ updated: 2026-05-31
 tags:
   - needs-detail
   - dravosi
-  - intelligence
-  - threat
 sources:
   - "Inbox/Warren-Marrows-Crate.md"
 confidence_level: confirmed

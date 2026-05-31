@@ -10,7 +10,6 @@ created: 2026-05-02
 updated: 2026-05-31
 tags:
   - tessarine
-  - political
 sources:
   - "Inbox/Calveno.md"
   - "Inbox/Warren-Marrows-Crate.md"

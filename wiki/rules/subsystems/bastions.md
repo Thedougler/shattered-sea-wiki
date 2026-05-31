@@ -8,8 +8,7 @@ publish: true
 summary: "2024 rules for player-owned strongholds; characters gain a Bastion at level 5 and issue orders to its special facilities every 7 in-game days."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - subsystem
+tags: []
 sources:
   - Dungeon Master's Guide (2024)
   - "RPGBOT: DnD 5.5 Bastions Guide"

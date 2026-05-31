@@ -9,8 +9,6 @@ summary: "A small clockwork device with rows of buttons that emit tones approxim
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - clockwork
-  - utility
   - homebrew
 sources:
   - "Homebrew"

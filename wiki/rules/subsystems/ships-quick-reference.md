@@ -8,8 +8,7 @@ publish: true
 summary: "Play-table cheat sheet for ship tiers, crew roles, operations, bastion, and guns — consolidated quick reference."
 created: 2026-05-30
 updated: 2026-05-31
-tags:
-  - cheat-sheet
+tags: []
 sources:
   - "Inbox/ships-cheat-sheet.md"
 confidence_level: medium

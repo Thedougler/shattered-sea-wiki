@@ -9,7 +9,6 @@ summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned 
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - commission
   - maritime
   - homebrew
 sources:

@@ -8,8 +8,7 @@ publish: false
 summary: "A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - remnant
+tags: []
 sources:
   - "Homebrew"
 confidence_level: medium

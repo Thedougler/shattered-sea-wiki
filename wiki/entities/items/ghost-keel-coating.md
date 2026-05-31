@@ -9,7 +9,6 @@ summary: "A shipyard-applied hull coating that dampens acoustic and visual signa
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - stealth
   - homebrew
 sources:
   - "Homebrew"

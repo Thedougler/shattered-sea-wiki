@@ -10,7 +10,6 @@ created: 2026-04-24
 updated: 2026-05-31
 tags:
   - dravosi
-  - navy
 sources:
   - "Inbox/Norrington-Kingsly.md"
 confidence_level: medium

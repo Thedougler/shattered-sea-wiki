@@ -10,8 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - maritime
-  - landmark
-  - restricted
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Crissdalynn-Khinriss.md"

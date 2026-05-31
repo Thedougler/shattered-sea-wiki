@@ -8,8 +8,7 @@ publish: true
 summary: "An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - alchemy
+tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Studio-Orsini.md"

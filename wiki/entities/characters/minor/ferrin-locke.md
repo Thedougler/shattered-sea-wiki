@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - needs-detail
   - dravosi
-  - intelligence
 sources:
   - "Inbox/Warren-Ferrin-Locke.md"
 confidence_level: confirmed

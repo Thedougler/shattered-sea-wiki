@@ -9,7 +9,6 @@ summary: "5e-based rules for running a sports match as a combat encounter. Share
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - minigame
   - combat
 sources:
   - "Pointy Hat — Sports Match Rules"

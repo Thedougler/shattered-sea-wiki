@@ -9,7 +9,6 @@ summary: "A deck-mounted fog generator for concealment and disengagement maneuve
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - concealment
   - homebrew
 sources:
   - "Homebrew"

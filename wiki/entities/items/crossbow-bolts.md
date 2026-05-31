@@ -8,8 +8,7 @@ publish: true
 summary: "Iron-tipped wooden bolts for light and heavy crossbows — sold in lots of 20 at ironmongers."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - ammunition
+tags: []
 sources:
   - PHB
 confidence_level: confirmed

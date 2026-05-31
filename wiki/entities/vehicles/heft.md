@@ -9,7 +9,6 @@ summary: "Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalas
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - lost
   - fisk-fleet
 sources:
   - "Inbox/Campaign-Timeline.md"

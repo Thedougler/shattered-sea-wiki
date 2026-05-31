@@ -8,8 +8,7 @@ publish: false
 summary: "Dying privateer in Grimaldi's Dispensary, Kalowe — has half a 40-year-old treasure chart tattooed on her forearm and wants passage out in exchange for it."
 created: 2026-05-30
 updated: 2026-05-31
-tags:
-  - treasure
+tags: []
 sources:
   - "Inbox/situations/islands/Kalowe-Captains-Map.md"
 confidence_level: medium

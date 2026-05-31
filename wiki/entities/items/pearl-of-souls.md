@@ -10,8 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - umberlee
-  - souls
-  - divine
 sources:
   - "Homebrew"
 confidence_level: high

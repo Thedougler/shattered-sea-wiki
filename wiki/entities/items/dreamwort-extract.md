@@ -9,7 +9,6 @@ summary: "A colourless, tasteless sedative that induces deep sleep within 20 min
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - sedative
   - homebrew
 sources:
   - Homebrew

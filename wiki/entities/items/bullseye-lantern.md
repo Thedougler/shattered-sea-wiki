@@ -8,8 +8,7 @@ publish: true
 summary: "A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - light
+tags: []
 sources:
   - PHB
 confidence_level: medium

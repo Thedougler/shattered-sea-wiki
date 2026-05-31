@@ -10,7 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - dravosi
-  - enforcement
 sources:
   - "wiki/situations/active/surety-missing.md"
   - "wiki/entities/characters/npcs/commander-gideon-ault.md"

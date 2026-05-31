@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - undead
   - umberlee
-  - antagonist
 sources:
   - Homebrew
 confidence_level: confirmed

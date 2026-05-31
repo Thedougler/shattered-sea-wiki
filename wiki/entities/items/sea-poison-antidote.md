@@ -8,8 +8,7 @@ publish: true
 summary: "A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin."
 created: '2026-05-29'
 updated: 2026-05-31
-tags:
-  - poison
+tags: []
 sources:
   - Homebrew
 confidence_level: medium

@@ -8,8 +8,7 @@ publish: true
 summary: "Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week."
 created: 2026-05-02
 updated: 2026-05-31
-tags:
-  - social
+tags: []
 sources:
   - "Inbox/Delmar-Fisk.md"
   - "Inbox/Maggie-Porcelain-Pots.md"

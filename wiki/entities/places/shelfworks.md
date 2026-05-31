@@ -11,7 +11,6 @@ updated: 2026-05-31
 tags:
   - antheri
   - salvage
-  - ruins
   - maritime
 sources:
   - "Inbox/Campaign-Timeline.md"

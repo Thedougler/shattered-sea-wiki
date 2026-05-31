@@ -10,7 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-31
 tags:
   - drowned-maw
-  - shelfworks
 sources:
   - "Inbox/Drowned-Maw.md"
   - "Inbox/Tail.md"

@@ -10,7 +10,6 @@ created: 2026-05-27
 updated: 2026-05-31
 tags:
   - dm-prep
-  - improv
 sources:
   - Inbox/places/calveno/Calveno-Improv.md
 confidence_level: high

@@ -8,8 +8,7 @@ publish: true
 summary: "Quick-reference for Calveno — the canal city, its districts, key people, and how it works."
 created: 2026-05-29
 updated: 2026-05-31
-tags:
-  - port
+tags: []
 sources:
   - "Inbox/calven-summary.md"
 confidence_level: confirmed

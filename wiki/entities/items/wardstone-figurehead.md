@@ -9,7 +9,6 @@ summary: "A warded ship figurehead that hardens the vessel against hostile magic
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - warding
   - homebrew
 sources:
   - Homebrew

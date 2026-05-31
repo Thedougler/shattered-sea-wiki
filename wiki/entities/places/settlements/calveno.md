@@ -9,7 +9,6 @@ summary: Oldest continuous commercial centre in the Scatter — a canal city of 
 created: 2026-05-01
 updated: 2026-05-31
 tags:
-  - city
   - tessarine
   - player-resource
 sources:

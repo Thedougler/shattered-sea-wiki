@@ -10,7 +10,6 @@ created: 2026-05-28
 updated: 2026-05-31
 tags:
   - maritime
-  - inventory
 sources:
   - "Inbox/HCS-Surety-Manifest.md"
 confidence_level: medium

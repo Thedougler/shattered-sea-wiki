@@ -9,7 +9,6 @@ summary: "Helm-installed sending stones for remote ship command — one Sending 
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - communication
   - homebrew
 sources:
   - Homebrew

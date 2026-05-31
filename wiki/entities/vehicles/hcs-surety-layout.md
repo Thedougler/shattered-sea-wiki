@@ -10,7 +10,6 @@ created: 2026-05-28
 updated: 2026-05-31
 tags:
   - maritime
-  - battlemap
 sources:
   - "Inbox/HCS-Surety-Layout.md"
 confidence_level: medium

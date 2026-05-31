@@ -9,9 +9,7 @@ summary: "Two-masted brigantine and fourth ship of Fisk's Fleet — captained by
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - lost
   - fisk-fleet
-  - brigantine
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Fisks-Fleet.md"

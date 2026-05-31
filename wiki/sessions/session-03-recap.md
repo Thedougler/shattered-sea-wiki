@@ -8,8 +8,7 @@ publish: true
 summary: "Player recap of Session 03 — Perrin's vision from the abyss, the whip shark, five days at sea, and the first day in Calveno. Canon events as they happened."
 created: 2026-05-27
 updated: 2026-05-30
-tags:
-  - session-recap
+tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
 session_number: 3

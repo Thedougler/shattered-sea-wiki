@@ -10,7 +10,6 @@ created: 2026-04-19
 updated: 2026-05-31
 tags:
   - rattkin
-  - social
 sources:
   - "Inbox/Vrtek.md"
 confidence_level: medium

@@ -9,7 +9,6 @@ summary: "Five large fortified islands across the northern arc, where Dravosi au
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - archipelago
   - dravosi
 sources:
   - "Inbox/Campaign-Timeline.md"

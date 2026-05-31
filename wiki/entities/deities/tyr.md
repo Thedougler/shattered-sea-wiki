@@ -10,9 +10,6 @@ created: 2026-05-28
 updated: 2026-05-31
 tags:
   - dravosi
-  - law
-  - justice
-  - colonial
 sources:
   - "Inbox/Tyr.md"
   - "Inbox/Shattered-Sea-Pantheon.md"

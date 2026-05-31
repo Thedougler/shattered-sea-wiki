@@ -8,10 +8,7 @@ publish: false
 summary: Ranger subclass (PHB 2024) — WIS-based Face and spellcasting; Dreadful Strikes adds free psychic damage per turn; Misty Wanderer grants free Misty Step uses at L11.
 created: 2026-04-23
 updated: 2026-05-30
-tags:
-  - rules
-  - subclass
-  - ranger
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

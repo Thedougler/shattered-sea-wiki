@@ -9,7 +9,6 @@ summary: "A legendary collection of divine treasure scattered across the Sunken 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - lore
   - legend
   - umberlee
   - sunken-crown

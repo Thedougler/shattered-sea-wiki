@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Charlatan background — Dexterity, Constitution, Charisma; Skilled feat; Deception and Sleight of Hand proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-tags:
-  - rules
-  - background
+tags: []
 sources:
   - http://dnd2024.wikidot.com/background:charlatan
 confidence_level: medium

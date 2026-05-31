@@ -9,9 +9,6 @@ summary: "Purchaseable magical enhancements and installed ship gear — catalog 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
   - upgrades
 sources:
   - Homebrew

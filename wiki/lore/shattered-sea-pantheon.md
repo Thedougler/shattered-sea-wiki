@@ -9,8 +9,6 @@ summary: "The active divine landscape of the Shattered Sea: Umberlee dominates m
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - lore
-  - deity
   - pantheon
 sources:
   - "Inbox/Shattered-Sea-Pantheon.md"

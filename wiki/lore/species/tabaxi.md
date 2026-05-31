@@ -9,9 +9,6 @@ summary: "Playable feline humanoids with claws, speed, keen senses, and ancient 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - species
-  - playable
-  - tabaxi
   - sunken-crown
 sources:
   - "Inbox/Tabaxi.md"

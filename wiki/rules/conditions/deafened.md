@@ -8,9 +8,7 @@ publish: false
 summary: Deafened condition — can't hear, auto-fail hearing checks.
 created: 2026-04-20
 updated: 2026-05-30
-tags:
-  - rules
-  - condition
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "Regional demographics of the Shattered Sea: who lives where, who sails
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - lore
-  - setting
   - demographics
   - player-resource
 sources:

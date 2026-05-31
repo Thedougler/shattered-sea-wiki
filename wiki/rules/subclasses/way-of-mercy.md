@@ -8,10 +8,7 @@ publish: false
 summary: Monk subclass (PHB 2024) — combat medic; Hand of Harm adds necrotic damage, Hand of Healing provides action-economic healing, Hand of Ultimate Mercy resurrects at Level 17.
 created: 2026-04-23
 updated: 2026-05-30
-tags:
-  - rules
-  - subclass
-  - monk
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

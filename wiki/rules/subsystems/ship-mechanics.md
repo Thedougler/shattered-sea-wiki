@@ -9,9 +9,6 @@ summary: "Hub page for all Shattered Sea ship rules — tiers, crew, operations,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
   - hub
 sources:
   - Homebrew

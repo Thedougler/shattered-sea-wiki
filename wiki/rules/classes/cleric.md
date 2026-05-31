@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Cleric — WIS-based divine full caster with Heavy armor, Channel Divinity, and strong healing/support capability.
 created: 2026-04-22
 updated: 2026-05-30
-tags:
-  - rules
-  - class
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

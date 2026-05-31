@@ -8,10 +8,7 @@ publish: false
 summary: Rogue subclass (PHB 2024) — extra Sneak Attack via Reaction (Bloodthirst), deity-based combat buffs (Dread Allegiance), and fear-based crowd control; focused on direct damage.
 created: 2026-04-23
 updated: 2026-05-30
-tags:
-  - rules
-  - subclass
-  - rogue
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

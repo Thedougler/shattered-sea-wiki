@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Ranger — DEX+WIS half caster with Hunter's Mark, Favored Enemy, and Expertise; Jean-Claude Tabarnack is a Gloom Stalker Ranger.
 created: 2026-04-19
 updated: 2026-05-30
-tags:
-  - rules
-  - class
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

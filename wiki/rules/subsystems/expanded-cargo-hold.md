@@ -10,9 +10,6 @@ created: '2026-05-29'
 updated: 2026-05-30
 tags:
   - mechanics
-  - bastion
-  - facility
-  - reference
 sources:
   - "Dungeon Master's Guide (2024)"
   - "Inbox/Expanded-Cargo-Hold.md"

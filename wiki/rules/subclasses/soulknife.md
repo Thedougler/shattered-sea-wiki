@@ -8,10 +8,7 @@ publish: false
 summary: Rogue subclass (PHB 2024) — psionics-based; Psionic Energy Dice pool fuels Psychic Blades, telepathy, and bonus features; reliable and satisfying — benefits even on failed rolls.
 created: 2026-04-23
 updated: 2026-05-30
-tags:
-  - rules
-  - subclass
-  - rogue
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

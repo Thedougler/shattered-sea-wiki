@@ -8,9 +8,7 @@ publish: false
 summary: Blinded condition — can't see, auto-fail sight checks, attack rolls against you have Advantage, attack rolls you make have Disadvantage.
 created: 2026-04-20
 updated: 2026-05-30
-tags:
-  - rules
-  - condition
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

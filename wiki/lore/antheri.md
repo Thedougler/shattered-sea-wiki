@@ -9,7 +9,6 @@ summary: "Ancient aquatic civilization that built upward from the bottom of the 
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - lore
   - antheri
   - drowned-maw
 sources:

@@ -9,11 +9,9 @@ summary: "A legendary underwater sinkhole in the eastern Midchain where a centur
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - lore
   - legend
   - treasure
   - underwater
-  - midchain
   - sawek
 sources:
   - Homebrew

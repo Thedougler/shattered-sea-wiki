@@ -7,8 +7,9 @@ summary: Public index for Shattered Sea playable species references and setting-
 type: index
 campaign: shattered-sea
 created: 2026-05-04
-updated: 2026-05-30
+updated: 2026-05-31
 tags:
+  - player-resource
 - player-resource
 - index
 - playable

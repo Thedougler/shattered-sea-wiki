@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Sorcerer — CHA full caster with Sorcery Points and Metamagic; fewer spells known but exceptional flexibility via metamagic.
 created: 2026-04-20
 updated: 2026-05-30
-tags:
-  - rules
-  - class
+tags: []
 sources:
   - PHB 2024
 confidence_level: medium

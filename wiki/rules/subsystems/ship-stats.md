@@ -9,11 +9,7 @@ summary: "Ship tiers, vehicle statistics, crew roles, minimum crew requirements,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
   - tiers
-  - crew
 sources:
   - Homebrew
 confidence_level: medium

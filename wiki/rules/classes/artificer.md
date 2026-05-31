@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Artificer — half caster, master of magic items and tools, Replicate Magic Item is the signature feature.
 created: 2026-04-22
 updated: 2026-05-30
-tags:
-  - rules
-  - class
+tags: []
 sources:
   - rpgbot.net Artificer Guide
 confidence_level: medium

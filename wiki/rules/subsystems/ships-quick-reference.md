@@ -9,10 +9,6 @@ summary: "Play-table cheat sheet for ship tiers, crew roles, operations, bastion
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
-  - bastion
   - cheat-sheet
 sources:
   - "Inbox/ships-cheat-sheet.md"

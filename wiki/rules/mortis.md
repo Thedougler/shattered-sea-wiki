@@ -9,7 +9,6 @@ summary: "Session zero character option pairing a permanent mechanical drawback 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
   - homebrew
   - session-zero
 sources:

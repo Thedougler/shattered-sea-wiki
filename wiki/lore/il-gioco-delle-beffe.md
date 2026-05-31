@@ -9,8 +9,6 @@ summary: "Calveno's five-day prank festival. Teams execute elaborate public hoax
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - lore
-  - calveno
   - festival
   - beffa
 sources:

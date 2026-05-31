@@ -8,10 +8,7 @@ publish: true
 summary: "Playable winged birdfolk with sustained flight, talons, wind magic, keen sight, and a skyward view of the world. Crissdalynn Khinriss is the campaign's known aarakocra PC."
 created: 2026-05-28
 updated: 2026-05-30
-tags:
-  - species
-  - playable
-  - aarakocra
+tags: []
 sources:
   - "Inbox/Aarakocra.md"
 ---

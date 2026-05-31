@@ -9,9 +9,7 @@ summary: "Stub — populate after first combats. Empirical combat data to calibr
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - system
   - combat
-  - analytics
 sources: []
 system_role: dm-intelligence
 token_profile: quick-ref

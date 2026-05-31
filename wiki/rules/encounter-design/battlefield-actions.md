@@ -9,8 +9,6 @@ summary: "Pointy Hat's system for dynamic boss fights: the boss telegraphs a thr
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
   - combat
   - boss
   - encounter-design

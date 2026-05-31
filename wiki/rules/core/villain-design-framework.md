@@ -9,8 +9,6 @@ summary: "Pointy Hat's system-agnostic villain creation method — three princip
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
   - villain
   - design
 sources:

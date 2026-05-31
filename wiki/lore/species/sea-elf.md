@@ -9,8 +9,6 @@ summary: "Aquatic elf subtype — breathes air and water, cold resistance, can c
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - species
-  - elf
   - aquatic
 sources:
   - "Mordenkainen Presents: Monsters of the Multiverse"

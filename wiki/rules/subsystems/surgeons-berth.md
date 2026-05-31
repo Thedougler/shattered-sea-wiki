@@ -9,11 +9,6 @@ summary: "Tier 1 homebrew ship bastion facility — stabilizes downed crew, remo
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - bastion
-  - facility
-  - ship
   - homebrew
 sources:
   - Homebrew

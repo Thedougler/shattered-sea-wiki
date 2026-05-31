@@ -8,9 +8,7 @@ publish: false
 summary: D&D 5e 2024 Sailor background — Strength, Dexterity, Wisdom; Tavern Brawler feat; Acrobatics and Perception proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-tags:
-  - rules
-  - background
+tags: []
 sources:
   - http://dnd2024.wikidot.com/background:sailor
 confidence_level: medium

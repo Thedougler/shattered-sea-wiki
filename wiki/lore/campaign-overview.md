@@ -9,9 +9,7 @@ summary: "Dense reference overview of the Shattered Sea campaign — geography, 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - reference
-  - setting
-  - player-facing
+  - player-resource
 sources:
   - "Inbox/campaign-overview.md"
 ---

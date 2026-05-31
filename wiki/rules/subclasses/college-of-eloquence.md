@@ -8,10 +8,7 @@ publish: false
 summary: Bard subclass (Tasha's Cauldron 2020) — masters of rhetoric; Bardic Inspiration dice can't be wasted on low rolls; Unsettling Words imposes Disadvantage on one save; Perrin Black-Jaw uses this subclass.
 created: 2026-04-23
 updated: 2026-05-30
-tags:
-  - rules
-  - subclass
-  - bard
+tags: []
 sources:
   - Tasha's Cauldron of Everything (2020)
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "Large-scale combat overlay for armies, enormous monsters, or conflicts
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
   - siege
   - large-scale
 sources:

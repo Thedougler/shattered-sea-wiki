@@ -9,8 +9,6 @@ summary: "Playable amphibious poison frog humanoids from the Verdant Teeth. Grun
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - species
-  - playable
   - grung
   - amphibious
   - poison

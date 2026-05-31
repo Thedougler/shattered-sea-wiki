@@ -11,6 +11,7 @@ campaign: shattered-sea
 created: 2026-05-03
 updated: 2026-05-30
 tags:
+  - player-resource
 - player-resource
 - index
 - condition

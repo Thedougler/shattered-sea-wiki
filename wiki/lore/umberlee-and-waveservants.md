@@ -9,7 +9,6 @@ summary: "Public lore on Umberlee and the Waveservants: the feared sea goddess, 
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - deity
   - umberlee
   - waveservants
   - player-resource

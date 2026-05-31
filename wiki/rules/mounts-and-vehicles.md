@@ -9,8 +9,6 @@ summary: "PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
   - vehicles
   - mounts
 sources:

@@ -9,11 +9,9 @@ summary: "A legendary hidden Tessarine depository on an uncharted Midchain limes
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - lore
   - legend
   - tessarine
   - treasure
-  - midchain
 sources:
   - Homebrew
 confidence_level: low

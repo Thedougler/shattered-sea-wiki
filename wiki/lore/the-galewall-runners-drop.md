@@ -9,7 +9,6 @@ summary: "A legendary privateer treasure cache rumored to be hidden on one of th
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - lore
   - legend
   - treasure
   - pirates

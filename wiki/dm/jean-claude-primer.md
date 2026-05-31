@@ -9,9 +9,7 @@ summary: "Agent quick reference for spotlighting and fairly pressuring Jean-Clau
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - system
-  - primer
-  - jean-claude
+  - player-resource
 sources:
   - "Inbox/Jean-Claude-Primer.md"
 confidence_level: medium

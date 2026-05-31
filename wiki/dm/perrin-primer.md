@@ -9,9 +9,7 @@ summary: "Agent quick reference for spotlighting and fairly pressuring Perrin's 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - system
-  - primer
-  - perrin
+  - player-resource
 sources:
   - "Inbox/Perrin-Primer.md"
 confidence_level: medium

@@ -9,8 +9,6 @@ summary: "Playable small humanoids built for infiltration, survival, swimming, a
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - species
-  - playable
   - rattkin
   - passage
 sources:

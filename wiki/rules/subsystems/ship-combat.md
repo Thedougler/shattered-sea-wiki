@@ -9,9 +9,6 @@ summary: "Rules for ship's guns, broadsides, shot types, and multi-deck volleys 
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
   - combat
   - naval
 sources:

@@ -9,9 +9,6 @@ summary: "Travel speeds, navigation checks, upkeep costs, acquiring a ship, livi
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - rule
-  - reference
-  - ship
   - travel
   - upkeep
 sources:

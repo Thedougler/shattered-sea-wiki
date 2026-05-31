@@ -47,11 +47,13 @@ The script auto-detects two external tools and uses them when available:
 2. Auto-fix safe   python3 .claude/scripts/wiki_lint.py --fix      (then commit)
 3. Re-lint         what remains needs you
 4. Work the report by category (below), fixing + committing as you go
-5. Stop            when only DM-judgment items remain — surface those, don't guess
+5. Manual lore     check prose-level consistency on files you touched (see below)
+6. Stop            when only DM-judgment items remain — surface those, don't guess
 ```
 
 Don't read files one by one to assess health — run the script. It's the fast path
-and it won't miss things you would.
+and it won't miss things you would. The manual lore pass (step 5) is for what the
+script *can't* catch: prose contradictions, timeline drift, and entity identity.
 
 ## Where flagged decisions live
 
@@ -220,6 +222,82 @@ Markdown formatting issues detected by markdownlint-cli2. Common ones:
 `md-blanks-around-headings`, `md-blanks-around-lists`, `md-no-trailing-spaces`.
 Config at `.markdownlint-cli2.jsonc` — noisy rules (line-length, table formatting,
 multi-H1) are already disabled.
+
+---
+
+## Manual lore consistency review
+
+The script catches structural lore drift (dead-entity-ref, island-situation-mismatch,
+status-drift, parent-gap) but cannot read prose for meaning. After working the
+automated report, do a manual pass over files the script flagged or that you touched
+during fixes. This is where an LLM-wiki agent earns its keep — the compounding
+knowledge base is only as reliable as its internal coherence.
+
+### What to check
+
+**Contradicted facts across files.** When a file states a fact about another entity
+(location, allegiance, status, event), open the target entity's page and verify the
+claim matches. Common drift patterns:
+
+- An NPC page says they're in Calveno, but a situation page places them at sea
+- A session recap says an event happened during Session 02, but the NPC's page
+  describes it as Session 03
+- A faction page says NPC X is a member, but NPC X's page says they left
+- A place's body says it's governed by faction A, but faction A's page doesn't
+  list that place
+- An item page says it was found in location X, but the session where it was
+  found places the party somewhere else
+
+When you find a contradiction: check session notes (the primary source) to determine
+which version is correct. Fix the wrong one. If both could be right (ambiguous source
+material), append to `wiki/discrepancy-log.md` — don't guess.
+
+**Timeline consistency.** Session notes are the authoritative timeline. When a page
+references events, verify:
+
+- The session number cited actually contains that event
+- The order of events within a session matches the session recap
+- "Current" state claims in entity pages haven't been superseded by later sessions
+
+Use `qmd query` or `obsidian search` to find cross-references efficiently rather than
+reading files one by one.
+
+**hot.md coherence.** After any batch of fixes, scan `wiki/hot.md` for claims that
+conflict with what you just corrected. hot.md is the most-read file and the most
+likely to go stale. If it references a dead NPC as active, a resolved situation as
+live, or a ship's captain who's been killed — fix it.
+
+**Entity identity.** Two pages may describe the same entity under different names or
+from different angles (e.g. `leviathan.md` creature vs NPC — see
+`wiki/discrepancy-log.md` for the live example). When you suspect identity overlap:
+
+- Do NOT merge or resolve on your own
+- Append to `wiki/discrepancy-log.md` with both file paths, what overlaps, and
+  your recommendation
+- Leave both pages intact until the DM decides
+
+### When to do a manual pass
+
+- **After ingest** — new source material is the #1 cause of lore drift. The ingest
+  skill creates/updates entity pages from session notes, which may contradict existing
+  content written from earlier sessions or world-building.
+- **After working the automated report** — the files the script flagged are already
+  open in your context. Scan their prose while you're there.
+- **After a world-update** — faction clock advances and situation resolution can
+  invalidate claims in entity pages.
+- **When the DM asks** — "check consistency", "anything contradictory", "does this
+  all hang together" all trigger this manual pass.
+
+### What NOT to do
+
+- Don't read every file in the vault looking for contradictions. Use the script output
+  and `qmd query` / `obsidian search` to target files that reference each other.
+- Don't invent lore to resolve a gap. If two files disagree and the session notes don't
+  clarify, escalate — don't pick a side.
+- Don't silently change established facts. If an NPC's allegiance needs updating because
+  of session events, that's a legitimate correction. If two world-building files
+  disagree about geography and neither has session backing, that's a discrepancy-log
+  entry.
 
 ---
 

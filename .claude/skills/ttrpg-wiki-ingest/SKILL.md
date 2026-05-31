@@ -65,8 +65,13 @@ at least one file. stderr reports the batch size, token count, and how many rema
 
 Oversized markdown files (over the budget) are automatically chunked by `##` headings into
 parts that fit. Each chunk keeps the original frontmatter and is processed as a separate
-source. The original is hidden until all chunks are handled. Binary files (PDFs, images)
-are never chunked — they appear as a single-file batch.
+source. The original is hidden until all chunks are handled.
+
+PDF files are automatically preprocessed into agent-readable markdown before batch assembly.
+The script extracts form fields (for D&D character sheets) or page text, writes a structured
+`.md` sidecar, and queues the markdown instead of the PDF. The PDF travels alongside the
+markdown as a sidecar — it is the player-facing view; the markdown is the agent-optimized
+translation. Both are archived together via `archive_source.py`.
 
 1. Read `wiki/hot.md` for current world state.
 2. Process each source in the batch to completion (steps below), then archive it.
@@ -92,6 +97,7 @@ Load domain skills only when the source produces that content:
 | Faction page or clock | `prep-faction`, `faction-clock` |
 | Situation with lifecycle | `prep-situation`, `sandbox-narrative` |
 | Session note from transcript | `references/transcript-ingest.md` |
+| PC character sheet (PDF) | `prep-npc` (for the wiki entity page) |
 | Rules/homebrew page | `ttrpg-writing` |
 
 ---

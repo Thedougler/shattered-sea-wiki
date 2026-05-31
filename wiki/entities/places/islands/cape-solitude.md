@@ -9,7 +9,6 @@ summary: "The northernmost point of Calder's Tooth — open ocean, constant wind
 created: '2026-05-29'
 updated: 2026-05-31
 tags:
-  - hazard
   - mystery
 sources:
   - Homebrew

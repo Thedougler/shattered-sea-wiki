@@ -10,7 +10,6 @@ created: 2026-04-18
 updated: 2026-05-31
 tags:
   - player-resource
-  - season-1
 sources:
   - "Inbox/private/system/players/Player-Gravity-Wells.md"
 system_role: "unknown"

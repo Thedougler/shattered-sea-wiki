@@ -9,12 +9,9 @@ description: >
   generic CR math without party-specific context. Requires combat-data-extract to have
   run at least once before calibrating.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Then read these domain-specific sources before generating any encounter content:
+Always check `wiki/index.md` for an existing stub before creating a new page. Then read these domain-specific sources before generating any encounter content:
 1. `wiki/system/party-combat-primer.md` — party combat patterns, Avoid flags (binding)
 2. `wiki/dm/combat-analytics.md` — empirical patterns observed at this table
 
@@ -61,3 +58,5 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/CR-TABLES.md` | CR scaling tables, party balance calculations |
 | `references/5E-FIELDS.md` | Environment interactions — difficult terrain, cover, lighting, weather |
 | `references/STAT-BLOCKS.md` | Encounter enemy stat block references |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

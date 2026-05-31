@@ -8,12 +8,9 @@ description: >
   companion page. Checks wiki/index.md for stubs before creating. Also use for villain
   NPCs needing stat block integration.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
@@ -25,7 +22,7 @@ If the user message doesn't already answer these, ask all at once — not one at
 - Role or function in the story (merchant, villain, faction leader, contact, etc.)
 - Which specific PC's backstory, goal, or fear does this NPC connect to?
 
-The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
+Name the connecting PC or ask before generating.
 
 ---
 
@@ -124,3 +121,5 @@ callout types, and publish contracts apply to every NPC page.
 | File | Read when |
 |---|---|
 | `references/NPC.md` | Full NPC template, villain variant, activity log format, detailed field rules |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

@@ -7,12 +7,9 @@ description: >
   frontmatter, toy fields, read-aloud opening, lore, notable sub-locations, inhabitants.
   Applies to all location subtypes: regions, islands, settlements, buildings, dungeons, planes.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ---
 
@@ -24,7 +21,7 @@ If user message doesn't answer these, ask all at once:
 - Cultural root (who built or inhabits it)?
 - Campaign context — what is this location's current role?
 
-The PC-connection requirement is in `wiki/system/doctrine.md` — name the connecting PC or ask before generating.
+Name the connecting PC or ask before generating.
 
 ---
 
@@ -108,3 +105,5 @@ voice, and callout types all apply to location pages.
 |---|---|
 | `references/LOCATION.md` | Full location template, read-aloud examples, dungeon room key format |
 | `references/prep-city.md` | City and settlement building via Pointy Hat Theme Park Method |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

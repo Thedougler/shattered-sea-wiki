@@ -9,12 +9,9 @@ description: >
   creature entities. Reads party combat primer before finalizing any stat calibration.
   Uses Fantasy Statblocks plugin codeblock format for all statblocks.
 ---
-
-> Cross-cutting rules (reading order, sandbox constraints, PC-connection requirement, frontmatter, auto-correct) live in `wiki/system/doctrine.md`. This skill covers only what's specific to its domain.
-
 ## Prerequisites
 
-Prerequisites: see reading order in `wiki/system/doctrine.md`. Always check `wiki/index.md` for an existing stub before creating a new page.
+Always check `wiki/index.md` for an existing stub before creating a new page.
 
 Domain-specific:
 1. **Named entity or creature type?**
@@ -75,3 +72,5 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/STATBLOCK.md` | Fantasy Statblocks plugin syntax and codeblock format |
 | `references/STATBLOCK-CONFIG.md` | Statblock plugin configuration keys and layouts |
 | `references/STAT-BLOCKS.md` | Encounter enemy stat block reference tables |
+| `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
+| `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

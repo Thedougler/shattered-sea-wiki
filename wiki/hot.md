@@ -16,6 +16,7 @@ sources: []
 
 ## Recent Activity
 
+- 2026-05-31: Cross-linked 7 links across 5 pages (scheduled run); tidefall in kyzil, admiral-fisk in delmar/estratto/timeline, varet in ket.
 - 2026-05-31: Cross-linked 16 mentions across 9 pages; Moucheron species, Khlysty situation thread, Auralis/Drowned Maw in abyss-vision, festival NPCs in il-gioco-delle-beffe.
 - 2026-05-31: Tag normalization complete — 6 passes, ~900 files touched; vault now 100% canonical (26 tags). All aliases remapped, frontmatter-dupe/entity-name/granular tags removed.
 - 2026-05-31: Tag taxonomy created (`wiki/system/taxonomy.md`): 26 canonical tags across 4 groups.

@@ -9,11 +9,8 @@ summary: "Session 01, Scene 08 — The Saltwright boarding encounter: three phas
 created: 2026-04-14
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
-  - encounter
-  - boarding
+  - combat
+  - dravosi
   - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-08-Encounter.md"

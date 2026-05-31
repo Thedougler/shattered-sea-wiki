@@ -9,10 +9,8 @@ summary: "Moucheron mercenary company based out of Kalowe: four blades and a sti
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
-  - mercenary
   - moucheron
-  - midchain
+  - five-blades
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Five-Blades.md"

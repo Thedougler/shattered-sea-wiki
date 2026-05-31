@@ -8,7 +8,8 @@ publish: false
 summary: "RESOLVED — Rook went into the water a second time in Session 02 and did not come back. Presumed dead, taken by something eel-like. Standoff never resolved; made moot by the water."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [situation, resolved, conflict]
+tags:
+  - dravosi
 sources: ["Inbox/Session-01-Recap.md"]
 lifecycle: resolved
 narrative_island:

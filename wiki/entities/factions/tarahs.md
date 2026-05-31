@@ -9,8 +9,7 @@ summary: "A faction operating ships in or near Calveno; known to the Black-Jaw R
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - faction
-  - stub
+  - needs-detail
 sources:
   - "Inbox/sessions/03/Session-03-Transcript.md"
 confidence_level: inferred

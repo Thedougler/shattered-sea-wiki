@@ -9,10 +9,8 @@ summary: "Umberlee's practical clergy: collectors, witnesses, and shrine operato
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
   - umberlee
-  - sea
-  - clergy
+  - waveservants
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Umberlee.md"

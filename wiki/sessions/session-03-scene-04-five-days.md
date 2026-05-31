@@ -9,12 +9,8 @@ summary: "Session 03, Scene 4 — Five-day transit to Calveno: downtime menu, d2
 created: 2026-05-20
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
+  - maritime
   - dm-prep
-  - travel
-  - downtime
 sources:
   - "Inbox/sessions/03/Scene-04-Five-Days.md"
 session_number: 3

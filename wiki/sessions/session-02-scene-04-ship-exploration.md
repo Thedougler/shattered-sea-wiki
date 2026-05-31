@@ -9,9 +9,7 @@ summary: "Session 02, Scene 04 — The party tours the HCS Surety with Geoffrey 
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - session
-  - session-02
-  - scene
+  - maritime
   - dm-prep
 sources:
   - "Inbox/sessions/02/Scene-04-Ship-Exploration.md"

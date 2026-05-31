@@ -9,14 +9,11 @@ summary: "Session 03, Scene 07 — Crissdalynn's reunion with Master Kyzil in Ca
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
+  - drowned-maw
   - dm-prep
-  - kyzil
-  - crissdalynn
 sources: []
 session_number: 3
+session_date: "unknown"
 ---
 
 # Scene 07 — Calveno Day Two: Kyzil

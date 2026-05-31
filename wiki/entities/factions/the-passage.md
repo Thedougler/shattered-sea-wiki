@@ -9,7 +9,6 @@ summary: "Rattkin network of Runs, Holds, caches, couriers, and hidden infrastru
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
   - rattkin
   - passage
 sources:

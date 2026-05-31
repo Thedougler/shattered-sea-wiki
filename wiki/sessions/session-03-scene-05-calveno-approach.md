@@ -9,13 +9,10 @@ summary: "Session 03, Scene 05 — The damaged Uncertainty approaches Calveno ha
 created: 2026-05-30
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
   - dm-prep
-  - calveno
 sources: []
 session_number: 3
+session_date: "unknown"
 ---
 
 # Scene 05 — Calveno Approach

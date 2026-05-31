@@ -9,12 +9,8 @@ summary: "Session 03, Scene 1 — Auralis pulls Perrin into a real impression of
 created: 2026-05-18
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
+  - drowned-maw
   - dm-prep
-  - auralis
-  - perrin
 sources:
   - "Inbox/sessions/03/Scene-01-Auralis.md"
 session_number: 3

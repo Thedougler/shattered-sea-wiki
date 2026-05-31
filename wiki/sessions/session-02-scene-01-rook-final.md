@@ -9,11 +9,7 @@ summary: "Session 02, Scene 01 — Rook alone, unharmed, all crew dead or defect
 created: 2026-05-10
 updated: 2026-05-30
 tags:
-  - session
-  - session-02
-  - scene
-  - encounter
-  - boss
+  - combat
   - dm-prep
 sources:
   - "Inbox/sessions/02/Scene-01-Rook-Final.md"

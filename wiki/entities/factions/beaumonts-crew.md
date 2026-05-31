@@ -9,7 +9,6 @@ summary: "The four working hirelings crewing the Saltwright under Captain Beaumo
 created: 2026-05-03
 updated: 2026-05-30
 tags:
-  - crew
   - maritime
   - recurring
 sources:

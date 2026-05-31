@@ -9,11 +9,8 @@ summary: "Session 02 travel events for any Central Strait crossing — generic S
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - session
-  - session-02
-  - scene
-  - travel
-  - central-strait
+  - maritime
+  - dm-prep
 sources:
   - "Inbox/sessions/02/Scene-05-Central-Strait.md"
 session_number: 2

@@ -9,9 +9,7 @@ summary: "Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires
 created: 2026-05-30
 updated: 2026-05-31
 tags:
-  - session-prep
-  - run-guide
-  - session-04
+  - dm-prep
 sources:
   - Homebrew
 session_number: 4
@@ -145,7 +143,7 @@ Nona uses the sending stone this morning. One sentence, flat, unhurried.
 
 ### The Rattle — Demonstration
 
-![[wiki/assets/sessions/session-04/warren-rattle-cascade-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Environmental storytelling in a hidden Rattkin kitchen under Calveno, warm oil-lamp light and old stone corridors. The Warren kitchen mid-Rattle: a Rattkin woman strikes a copper pan in the doorway, sound rippling outward through stone corridors; other hands in the background pick up pans and tools; a child disappears into a wall gap no wider than a fist. Nona Black-Jaw sits at the table setting down her spoon with calm authority: very small elderly Rattkin, fur almost entirely silver-white except for a dark brown-black mask along her jaw, sharp pink-rimmed eyes, calloused paws, sitting perfectly straight, flour-dusted floral apron over dark well-made cloth, garlic and fresh bread atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/warren-rattle-cascade-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Environmental storytelling in a hidden Rattkin kitchen under Calveno, warm oil-lamp light and old stone corridors. The Warren kitchen mid-Rattle: a Rattkin woman strikes a copper pan in the doorway, sound rippling outward through stone corridors; other hands in the background pick up pans and tools; a child disappears into a wall gap no wider than a fist. Nona Black-Jaw sits at the table setting down her spoon with calm authority: very small elderly Rattkin, fur almost entirely silver-white except for a dark brown-black mask along her jaw, sharp pink-rimmed eyes, calloused paws, sitting perfectly straight, flour-dusted floral apron over dark well-made cloth, garlic and fresh bread atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 If the party is inside the Warren during the visit, Nona has a reason to show them what the community can do. A Dravosi factor's runner is spotted at the Le Paludi canal edge — not a raid, but close enough to protocol that someone triggers the drill.
 
@@ -183,7 +181,7 @@ Let the party sit inside this for a moment. Then —
 
 ## First Handler Beat — Jean-Claude
 
-![[wiki/assets/sessions/session-04/handler-crowd-watch-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A blue-caste Grung handler at the edge of a crowded Velo square in Calveno, standing in the one position that gives sightlines to three exits, watching a street performer's crowd with flat professional assessment rather than enjoyment. Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs; the Grung is small, blue-skinned, amphibian, in plain nondescript trade clothes with no obvious weapons; festival masks, cloth banners, canal-stone architecture, and moving spectators fill the scene. Emphasize crowd geometry and surveillance posture. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/handler-crowd-watch-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A blue-caste Grung handler at the edge of a crowded Velo square in Calveno, standing in the one position that gives sightlines to three exits, watching a street performer's crowd with flat professional assessment rather than enjoyment. Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs; the Grung is small, blue-skinned, amphibian, in plain nondescript trade clothes with no obvious weapons; festival masks, cloth banners, canal-stone architecture, and moving spectators fill the scene. Emphasize crowd geometry and surveillance posture. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *JC only. Private. One recognition beat — do not announce to the table.*
 

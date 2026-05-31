@@ -9,9 +9,6 @@ summary: "Session 03, Scene 3 — Post-shark aftermath: Sem's damage report, Gri
 created: 2026-05-20
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
   - dm-prep
 sources:
   - "Inbox/sessions/03/Scene-03-Aftermath.md"

@@ -9,12 +9,9 @@ summary: "DM companion for Fisk's Fleet — the Pearl commission, sinking mechan
 created: 2026-04-15
 updated: 2026-05-30
 tags:
-  - faction
-  - dm-only
-  - fisks-fleet
+  - fisk-fleet
   - umberlee
-  - souls
-  - pearl-of-souls
+  - mystery
 sources:
   - "Inbox/situations/reference/The-Betrayal-of-Fisks-Fleet.md"
 confidence_level: medium

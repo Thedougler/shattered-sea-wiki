@@ -9,8 +9,8 @@ summary: "Player recap of Session 01 — the boarding of the Saltwright and HCS 
 created: 2026-05-10
 updated: 2026-05-30
 tags:
-  - session-recap
-  - session
+  - dravosi
+  - maritime
 sources:
   - "Inbox/Session-01-Recap.md"
 session_number: 1

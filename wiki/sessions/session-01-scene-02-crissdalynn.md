@@ -9,11 +9,7 @@ summary: "Session 01, Beat 2 — Crissdalynn introduction flying above the Saltw
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
-  - read-aloud
-  - crissdalynn-khinriss
+  - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-02-Crissdalynn.md"
 session_number: 1

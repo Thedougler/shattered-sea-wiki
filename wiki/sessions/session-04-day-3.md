@@ -9,9 +9,7 @@ summary: "Day 3 — first Finestra day: handler investigation and tunnel descent
 created: 2026-05-30
 updated: 2026-05-31
 tags:
-  - session-prep
-  - run-guide
-  - session-04
+  - dm-prep
 sources:
   - Homebrew
 session_number: 4
@@ -42,7 +40,7 @@ session_date: "unknown"
 
 ## Handler Investigation — The Tunnels
 
-![[wiki/assets/sessions/session-04/sewer-investigation-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Jean-Claude Tabarnack descends into the Calveno sewer collector by lantern light: three-foot lean humanoid poison dart frog Grung, electric-blue slick skin with large black underside patches and geometric black bands across arms, legs, shoulders, and face, visible scars, hard escaped-hunter stare, red beret, false black moustache, worn ranger harness, shortbow and quiver. Limestone sewer walls show fresh scrape marks at knee height, ankle-deep water reflects the lantern, the tunnel branches ahead into darkness, three clean cuts in the stone at the Y-junction barely visible. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/sewer-investigation-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. Jean-Claude Tabarnack descends into the Calveno sewer collector by lantern light: three-foot lean humanoid poison dart frog Grung, electric-blue slick skin with large black underside patches and geometric black bands across arms, legs, shoulders, and face, visible scars, hard escaped-hunter stare, red beret, false black moustache, worn ranger harness, shortbow and quiver. Limestone sewer walls show fresh scrape marks at knee height, ankle-deep water reflects the lantern, the tunnel branches ahead into darkness, three clean cuts in the stone at the Y-junction barely visible. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Jean-Claude (primary, only he can read it), anyone he brings. Exploration → possible combat.*
 
@@ -52,6 +50,10 @@ Two paths into this beat: **(a)** Nona's favor — JC is sent into the old Warre
 
 > [!read-aloud]
 > The Warren tunnels start dry and narrow — old smuggling corridors under Le Paludi, stone walls black with decades of torch soot. The air turns damp after the first junction. The sound changes. Water is running somewhere ahead, and the walls show fresh scrape marks at knee height — something has been dragged through here recently.
+
+### Tactical Map — Sewer Y-Junction
+
+![[wiki/assets/sessions/session-04/maps/session-04-warren-sewer-y-junction-map.png|Use case: stylized-concept. Asset type: TTRPG top-down battlemap for a D&D sewer exploration scene, square 1:1. Primary request: Create an unlabeled top-down battlemap of the Warren-to-Calveno sewer Y-junction investigation route from Session 04. Scene/backdrop: Old smuggling tunnels under Le Paludi connecting into Calveno collector sewers. Include a ladder access hatch dropping into a main collector corridor, ankle-deep slow water, a Y-junction with one branch showing heavier disturbed silt, a narrower 4-foot Bridge connector, a far hatch with disturbed silt on both sides, scrape marks at knee height on limestone walls, and small clean incisions low on the wall. Add a few old brick supports, drainage pipes, puddles, and shadowed alcoves, but no enemies. Composition: True overhead VTT battlemap, about 30 by 30 squares, clean 5-foot square grid overlay, clear branching routes and investigation zones, readable water depth, enough space for cautious movement and a possible crocodile or fleeing Grung encounter. Style: High-quality fantasy TTRPG sewer battlemap, crisp stone and water textures, cool damp palette, practical cartographic readability. Constraints: no readable writing, no labels, no numbers, no legend, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 **What JC finds below:**
 - **Scrape marks** on tunnel walls at knee height — consistent with bound captives being moved at speed.
@@ -143,7 +145,7 @@ If Crissdalynn is investigating the Red Lady or Maw salvage with [[master-kyzil\
 
 ## Beffa Play — La Finestra Opens
 
-![[wiki/assets/sessions/session-04/beffa-false-alarm-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Mercatura crowd scene during Il Gioco delle Beffe: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A masked figure lunges from behind a festival backdrop, the nearest spectators flinch back in genuine surprise, the second row is already laughing, and a gate sergeant watches from a canal railing with weary amusement. Calveno's stone plaza, canal rail, hanging festival cloth, lanterns, and civic comedy atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/beffa-false-alarm-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Mercatura crowd scene during Il Gioco delle Beffe: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A masked figure lunges from behind a festival backdrop, the nearest spectators flinch back in genuine surprise, the second row is already laughing, and a gate sergeant watches from a canal railing with weary amusement. Calveno's stone plaza, canal rail, hanging festival cloth, lanterns, and civic comedy atmosphere. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Optional. Background if skipped.*
 
@@ -178,7 +180,7 @@ The execution window is live. Pranks fire throughout the day.
 
 ## Grung-Normalizing Pranks — Day 3
 
-![[wiki/assets/sessions/session-04/beffa-grung-prank-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Le Paludi canal scene during La Finestra: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A performer in an accurate green Grung costume leaps from a canal boat with a basket of sardines, fish scattering in a comic arc; the fish stall owner's marked target gapes in shock while the crowd laughs and claps. Festival cloth, masks, canal boats, wet stone, busy market texture everywhere. Make it clear this is a staged prank, not combat. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[wiki/assets/sessions/session-04/art/beffa-grung-prank-stylefix.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, expressive grounded faces, saturated adventure palette. Scene art, 16:9 widescreen cinematic. A Le Paludi canal scene during La Finestra: Calveno's crowd is majority human with visible minority populations of Rattkin, lizardfolk, aarakocra, elves, dwarves, and orcs. A performer in an accurate green Grung costume leaps from a canal boat with a basket of sardines, fish scattering in a comic arc; the fish stall owner's marked target gapes in shock while the crowd laughs and claps. Festival cloth, masks, canal boats, wet stone, busy market texture everywhere. Make it clear this is a staged prank, not combat. No written symbols or labels. Negative constraints: no text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 *Ambient. One or two beats. See [[calveno-raid-signs#Grung-Normalizing Pranks|Raid Signs — Grung Pranks]] for the full menu.*
 

@@ -9,11 +9,8 @@ summary: "Session 03, Scene 02 — Whip shark encounter: three phases (probing, 
 created: 2026-05-20
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
-  - encounter
-  - whip-shark
+  - combat
+  - maritime
   - dm-prep
 sources:
   - "Inbox/sessions/03/Scene-02-The-Shark.md"

@@ -9,9 +9,6 @@ summary: "Session 01, Beat 7 — Full party in the hold; Rook's inspection shake
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
   - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-07-The-Hold.md"

@@ -9,11 +9,7 @@ summary: "Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
-  - read-aloud
-  - delmar-fisk
+  - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-03-Delmar.md"
 session_number: 1

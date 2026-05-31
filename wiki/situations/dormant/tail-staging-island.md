@@ -9,10 +9,7 @@ summary: "An intentionally unnamed Tail island near the Maw's western edge — t
 created: '2026-05-30'
 updated: 2026-05-30
 tags:
-  - situation
-  - dormant
-  - tail
-  - shelfworks
+  - maritime
 sources:
   - "Inbox/situations/background/Tail-Staging-Island.md"
 lifecycle: dormant

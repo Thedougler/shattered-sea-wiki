@@ -9,10 +9,8 @@ summary: "Naval/imperial Crown power operating in the Shattered Sea. Sent Barnab
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
   - dravosi
-  - crown
-  - naval
+  - maritime
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Campaign-Timeline.md"

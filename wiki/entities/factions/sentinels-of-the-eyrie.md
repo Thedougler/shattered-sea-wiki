@@ -9,10 +9,8 @@ summary: "Aarakocra monastic observation order at High Eyrie. They watch the Dro
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
-  - monastery
-  - high-eyrie
-  - aarakocra
+  - drowned-maw
+  - recurring
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Sentinels-Of-The-Eyrie.md"

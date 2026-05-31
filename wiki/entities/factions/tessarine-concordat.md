@@ -9,10 +9,8 @@ summary: "Colonial commercial power that turns credit, contracts, insurance, rou
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
   - tessarine
-  - colonial
-  - commerce
+  - maritime
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Campaign-Timeline.md"

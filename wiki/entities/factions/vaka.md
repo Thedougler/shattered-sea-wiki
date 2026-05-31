@@ -9,10 +9,7 @@ summary: "Loose community of Grung defectors and freed former slaves finding foo
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - faction
   - grung
-  - free-grung
-  - midchain
 sources:
   - "Inbox/Felix-Aho.md"
   - "Inbox/situations/reference/Vaka.md"

@@ -9,13 +9,8 @@ summary: "Session 03, Scene 06 — Delmar crosses the gangplank and the water no
 created: 2026-05-20
 updated: 2026-05-30
 tags:
-  - session
-  - session-03
-  - scene
-  - delmar-fisk
-  - branca
-  - calveno
   - umberlee
+  - dm-prep
 sources:
   - "Inbox/sessions/03/Scene-06-Calveno-Day-One.md"
 session_number: 3

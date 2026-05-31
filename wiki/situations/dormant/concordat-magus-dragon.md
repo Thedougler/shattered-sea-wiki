@@ -9,10 +9,7 @@ summary: "The Tessarine Concordat has no human leadership. Its true architect is
 created: 2026-05-13
 updated: 2026-05-30
 tags:
-  - situation
-  - revelation
   - tessarine
-  - dragon
   - late-game
 sources:
   - "Inbox/situations/revelations/Concordat-True-Architect.md"

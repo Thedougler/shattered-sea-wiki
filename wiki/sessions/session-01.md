@@ -9,7 +9,8 @@ summary: "Party boards and seizes the Saltwright; Geoffrey Draves defects and jo
 created: 2026-05-10
 updated: 2026-05-30
 tags:
-  - session
+  - dravosi
+  - maritime
 sources:
   - "Inbox/Session-01-Recap.md"
 session_number: 1

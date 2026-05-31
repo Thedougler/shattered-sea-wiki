@@ -9,11 +9,7 @@ summary: "Session 01, Beat 6 — Jean-Claude Tabarnack introduction; fleeing the
 created: 2026-04-22
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
-  - read-aloud
-  - jean-claude-tabarnack
+  - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-06-Jean-Claude.md"
 session_number: 1

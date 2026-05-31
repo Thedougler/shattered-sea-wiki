@@ -9,11 +9,8 @@ summary: "Secret mystical flock threaded through Dravosi and Tessarine noble cou
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - faction
-  - cult
-  - dm-only
+  - mystery
   - undead
-  - grigori
 sources:
   - "Inbox/Khlysty.md"
 confidence_level: confirmed

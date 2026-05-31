@@ -9,11 +9,7 @@ summary: "Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright
 created: 2026-04-25
 updated: 2026-05-30
 tags:
-  - session
-  - session-01
-  - scene
-  - read-aloud
-  - stripes-bitemore
+  - dm-prep
 sources:
   - "Inbox/sessions/01/Scene-04-Stripes.md"
 session_number: 1

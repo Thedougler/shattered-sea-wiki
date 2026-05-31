@@ -9,10 +9,7 @@ summary: "At-table run guide for Session 0. Covers table norms, character check-
 created: 2026-05-10
 updated: 2026-05-30
 tags:
-  - session
-  - session-00
-  - prep
-  - run-guide
+  - dm-prep
 sources:
   - "Inbox/sessions/00/Session-00-Run-Guide.md"
 session_number: 0

@@ -9,10 +9,7 @@ summary: "A Tier 4 pirate man-of-war — uses terror, hostages, legal blackmail,
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - ship
-  - pirate
-  - tier-4
-  - flagship
+  - drowned-maw
   - late-game
 sources:
   - "Inbox/Drowned-Maw.md"

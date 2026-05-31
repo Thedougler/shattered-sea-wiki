@@ -9,10 +9,7 @@ summary: "Rarely assembled Midchain council convening in Kalowe when independent
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
-  - midchain
-  - council
-  - kalowe
+  - tessarine
 sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Chain-Council.md"

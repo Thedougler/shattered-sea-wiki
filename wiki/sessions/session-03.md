@@ -9,7 +9,9 @@ summary: "Whip shark killed in open water. Party arrives at Calveno, ships as Un
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - session
+  - umberlee
+  - grung
+  - passage
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/sessions/03/Session-03-Transcript.md"

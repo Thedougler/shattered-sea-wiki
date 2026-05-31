@@ -9,11 +9,8 @@ summary: "The true head of the Sentinels of the Eyrie is a Soul Incarnate — a 
 created: 2026-05-13
 updated: 2026-05-30
 tags:
-  - situation
-  - revelation
-  - sentinels
-  - lich
-  - maw
+  - drowned-maw
+  - undead
   - late-game
 sources:
   - "Inbox/situations/revelations/Soul-Incarnate.md"

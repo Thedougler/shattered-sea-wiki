@@ -9,9 +9,7 @@ summary: "Jean-Claude's caste-bound, slaveholding people in the Verdant Teeth. T
 created: 2026-05-27
 updated: 2026-05-30
 tags:
-  - faction
   - grung
-  - verdant-teeth
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Jean-Claude-Tabarnack.md"

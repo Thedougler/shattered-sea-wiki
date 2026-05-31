@@ -9,12 +9,8 @@ summary: "The Draves family name appears in Crown genealogical archives further 
 created: 2026-05-13
 updated: 2026-05-30
 tags:
-  - situation
-  - revelation
   - dravosi
-  - bloodline
-  - geoffrey-draves
-  - mid-game
+  - mystery
 sources:
   - "Inbox/situations/revelations/The-Draves-Bloodline-Question.md"
 lifecycle: dormant

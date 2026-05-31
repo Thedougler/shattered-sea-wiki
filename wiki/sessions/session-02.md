@@ -9,7 +9,8 @@ summary: "Rook dies in the water. Party takes the HCS Surety, assembles a crew, 
 created: 2026-05-18
 updated: 2026-05-30
 tags:
-  - session
+  - fisk-fleet
+  - mystery
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/sessions/02/session-02-canonical-summary.md"

@@ -9,8 +9,7 @@ summary: "Master run guide for Session 04: the open Calveno week before the Grun
 created: "2026-05-29"
 updated: 2026-05-31
 tags:
-  - session-prep
-  - run-guide
+  - dm-prep
 sources:
   - Homebrew
 session_number: 4
@@ -67,6 +66,10 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 | **Theme** | **The city that plays liar.** The Beffa is masks and staged scares — deception as civic entertainment, a prank around every canal corner. |
 | **Why it matters** | The festival trains Calveno to *wait before believing a scene is real*. That hesitation is the gap Simone's raid is built on. |
 | **City goal** | Get the *Uncertainty* off the Crown's books and out clean — re-silhouetted, papered, repaired — before [[knighton-pursuit\|Knighton's]] reach closes. Everything else is a step toward that, a complication of it, or a reason a PC can't leave yet. |
+
+## Tactical Map — Raid Overview
+
+![[wiki/assets/sessions/session-04/maps/session-04-calveno-raid-overview-map.png|Use case: stylized-concept. Asset type: TTRPG top-down tactical map for a D&D session, square 1:1 battlemap. Primary request: Create an unlabeled top-down battlemap of Calveno's festival district during the Session 04 raid, useful as a DM tactical overview. Scene/backdrop: A canal city of pale stone, narrow waterways, bridges, market plazas, and dense festival streets. Show the Mercatura plaza as the largest central site, the Bridge approach, two Le Paludi working-yard sites, and the harbour approach arranged as a connected city district with canals between them. Indicate five raid strike points only through physical features: one large central collapsed plaza/crater and four smaller cracked breach sites with dust/red-lit hazard glow. Include outer quay egress vents and a dark-water edge where the extraction route would lead, but no text or map labels. Composition: True top-down or very slight cartographic top-down, readable tactical geography, enough empty street/canal space for tokens, clear paths between sites, clean 5-foot square grid overlay that follows the map plane. Style: High-quality fantasy TTRPG battlemap, clean cartographic detail, aged parchment mixed with crisp VTT-ready stone/canal textures, dramatic but usable, no painterly blur. Constraints: no characters as focal subjects, no readable writing, no labels, no legend, no numbers, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 ---
 

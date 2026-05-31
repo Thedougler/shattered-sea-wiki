@@ -9,9 +9,8 @@ summary: "Session 02, Scene 03 — Shepherd Grigori alone in the galley with the
 created: 2026-05-15
 updated: 2026-05-30
 tags:
-  - session
-  - session-02
-  - scene
+  - mystery
+  - undead
   - dm-prep
 sources:
   - "Inbox/sessions/02/Scene-03-Grigori.md"

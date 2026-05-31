@@ -9,9 +9,7 @@ summary: "A Tier 3 armed pirate frigate — built to take protected prizes, brea
 created: '2026-05-29'
 updated: 2026-05-30
 tags:
-  - ship
-  - pirate
-  - tier-3
+  - drowned-maw
   - late-game
 sources:
   - "Inbox/Drowned-Maw.md"

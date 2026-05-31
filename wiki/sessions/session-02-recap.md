@@ -9,8 +9,8 @@ summary: "Player recap of Session 02 — the taking of the HCS Surety, the galle
 created: 2026-05-18
 updated: 2026-05-30
 tags:
-  - session-recap
-  - session
+  - fisk-fleet
+  - mystery
 sources:
   - "Inbox/Session-02-Recap.md"
 session_number: 2

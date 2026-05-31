@@ -9,9 +9,7 @@ summary: "Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskipp
 created: 2026-05-30
 updated: 2026-05-31
 tags:
-  - session-prep
-  - run-guide
-  - session-04
+  - dm-prep
 sources:
   - Homebrew
 session_number: 4
@@ -77,6 +75,10 @@ The party has a few hours before dark. Calveno is dressing for festival — clot
 | City walk | Festival cloth going up on every facade. Lanterns on canal boats. A Beffa clerk tests the bridge desk, ink on her fingers, arguing with a vendor about mask storage. | The energy of a city dressing for something it loves — and a stone shrine off the Mercatura canal where a single lamp is burning and a woman is sitting very still. |
 | Supplies | [[moretti-and-sons\|Moretti & Sons]] — [[giacomo-moretti\|Giacomo]] closes at sundown but opens for a real order. Examines JC's moustache with professional interest. | "You know, I had a buyer this morning who didn't buy anything. Three questions about my customers and left." (Raid sign — reward curiosity, don't flag it.) |
 | Privacy | La Vasca's covered basin hides the ship. The party's faces are not hidden. | Perrin is already known in the Warren — Cobb will find him before the evening is done. |
+
+### Tactical Map — La Vasca
+
+![[wiki/assets/sessions/session-04/maps/session-04-la-vasca-dry-dock-map.png|Use case: stylized-concept. Asset type: TTRPG top-down battlemap for a D&D location scene, square 1:1. Primary request: Create an unlabeled top-down battlemap of La Vasca, the Black-Jaw private dry dock in Le Paludi, for Session 04. Scene/backdrop: A covered private basin cut from old Calveno foundation stone. A narrow unmarked canal arch enters from one side into a hidden water basin. The basin opens around a dry-dock cradle holding a small patrol cutter under repair, with iron-and-timber cradle arms, hand-pump rig, tool racks sized for Rattkin along one wall, spare timber and sealed paint crocks, caulking mallets, copper tacks, pitch brushes, folded worktable with old manifests, hanging oil lamp, damp stone columns, rotted derelict-tannery upper structure hinted by broken beams, and a narrow aft passage leading toward Warren outer channels. Composition: True overhead VTT battlemap, about 35 by 35 squares, clean 5-foot square grid overlay, readable water/basin/cradle geometry, practical movement paths, cover from crates and beams, no characters. Style: High-quality fantasy TTRPG battlemap, crisp stone and dock textures, practical cartographic readability, dim oil-lamp warmth over cool canal stone. Constraints: no readable writing, no labels, no numbers, no legend, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 ---
 

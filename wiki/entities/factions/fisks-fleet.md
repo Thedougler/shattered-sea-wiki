@@ -9,9 +9,7 @@ summary: "Delmar Fisk's five-ship privateer fleet, destroyed simultaneously in t
 created: 2026-05-28
 updated: 2026-05-30
 tags:
-  - faction
-  - fleet
-  - fisk
+  - fisk-fleet
   - drowned-maw
 sources:
   - "Inbox/Fisks-Fleet.md"

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - food

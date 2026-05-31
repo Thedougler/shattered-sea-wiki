@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

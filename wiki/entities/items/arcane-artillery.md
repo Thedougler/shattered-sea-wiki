@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — referenced in [[ship-upgrades]]. No page yet."
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-05-30
 tags:
   - item
   - ship-upgrade

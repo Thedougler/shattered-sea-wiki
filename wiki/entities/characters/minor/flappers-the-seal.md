@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Coralyra Dranra's seal — her closest relationship and anchor in the world; currently out chasing mackerel."
 created: 2026-04-26
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - beast
   - companion

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - ship
   - pirate

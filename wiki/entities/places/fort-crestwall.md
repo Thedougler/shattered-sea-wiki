@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

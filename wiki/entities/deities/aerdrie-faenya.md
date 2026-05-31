@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Tertiary deity in Crissdalynn's aarakocra sky-pantheon. Marginal observance."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags:
   - stub
   - deity

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - consumable

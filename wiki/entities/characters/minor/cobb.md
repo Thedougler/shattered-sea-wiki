@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags:
   - stub
   - npc

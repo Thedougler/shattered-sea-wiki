@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - vehicle
   - ship

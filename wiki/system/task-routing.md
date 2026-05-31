@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags: []
 sources: []
 system_role: task-routing

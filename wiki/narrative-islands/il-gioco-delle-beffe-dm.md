@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - narrative-island
   - event

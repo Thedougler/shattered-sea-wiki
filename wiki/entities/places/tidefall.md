@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags:
   - stub
   - place

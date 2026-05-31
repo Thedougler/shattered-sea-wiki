@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - region

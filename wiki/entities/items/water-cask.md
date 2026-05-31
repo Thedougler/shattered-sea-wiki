@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - equipment

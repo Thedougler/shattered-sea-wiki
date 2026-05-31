@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die."
 created: 2026-05-15
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - undead

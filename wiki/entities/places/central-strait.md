@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - region

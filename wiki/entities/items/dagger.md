@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - weapon

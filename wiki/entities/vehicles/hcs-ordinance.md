@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - vehicle
   - ship

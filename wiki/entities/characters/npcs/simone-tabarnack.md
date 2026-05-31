@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Jean-Claude's younger sister — purple-caste Grung garrison soldier from Sorn, disciplined and clan-loyal, the one who told their parents about Pell."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - npc
   - grung

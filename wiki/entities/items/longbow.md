@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Martial ranged weapon. Best range of any standard bow, solid damage, but Heavy bars Small creatures and martial proficiency is required."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - weapon

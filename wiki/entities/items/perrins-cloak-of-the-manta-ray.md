@@ -2,12 +2,12 @@
 type: entity
 subtype: item
 campaign: shattered-sea
-status: active
+status: lost
 audience: players
 publish: true
-summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Swim speed 60 ft., breathe underwater, manta ray form while the hood is up. Kept Perrin alive when his ship didn't."
+summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Kept Perrin alive when the Vestra went down. No longer in his possession."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - magic-item
@@ -42,4 +42,4 @@ A Black-Jaw family heirloom. Perrin earned it through service to the [[vestra|Ve
 
 ## Current Location
 
-Carried by [[perrin-black-jaw|Perrin Black-Jaw]].
+No longer with [[perrin-black-jaw|Perrin Black-Jaw]]. Whereabouts unknown — lost at or after the Vestra sinking.

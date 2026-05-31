@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - lodging

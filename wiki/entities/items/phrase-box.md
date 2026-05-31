@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - wondrous

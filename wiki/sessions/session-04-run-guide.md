@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "At-table run guide for Session 04: the open Calveno week. Opens on the Kyzil reunion and Branca's unskippable Pearl summons; then the Warren/ship, the sewer Grung, Red Lady salvage, and the Beffa. ~4–5 hrs."
 created: "2026-05-29"
-updated: "2026-05-29"
+updated: 2026-05-30
 tags:
   - session-prep
   - run-guide

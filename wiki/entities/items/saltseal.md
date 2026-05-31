@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - consumable

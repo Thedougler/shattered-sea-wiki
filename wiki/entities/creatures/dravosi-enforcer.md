@@ -7,7 +7,7 @@ audience: dm
 publish: true
 summary: "A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence."
 created: 2026-04-19
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - humanoid

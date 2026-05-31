@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — populate after first session. Tracks what each player is engaged with to drive content depth."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags: []
 sources: []
 system_role: dm-intelligence

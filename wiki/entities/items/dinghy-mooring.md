@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Overnight lagoon-side tie-up for a small dinghy or ship's launch — ring bolts, calm water, nothing stolen."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - service

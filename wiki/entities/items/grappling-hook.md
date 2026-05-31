@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A four-prong iron hook for boarding, climbing, and securing lines to distant surfaces. 2 gp."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - equipment

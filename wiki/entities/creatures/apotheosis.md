@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die."
 created: 2026-05-15
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - undead

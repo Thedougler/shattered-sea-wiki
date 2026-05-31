@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Public player primer for the Shattered Sea campaign — setting overview, major factions, homebrew peoples, ship rules, and character creation guidance."
 created: 2026-04-29
-updated: 2026-05-03
+updated: 2026-05-30
 tags:
   - player-resource
   - setting

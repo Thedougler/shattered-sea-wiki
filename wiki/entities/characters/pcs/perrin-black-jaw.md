@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Ten-year-old fancy-rat Rattkin Bard 3 / Warlock 1. Built the Vestra to support his family; lost it to something massive from below; now carries vengeance, silence, and Nona's favor."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - pc
   - rattkin
@@ -17,6 +17,7 @@ sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Perrin-Black-Jaw.md"
+  - "Inbox/perrin-sheet.md"
   - "Inbox/Campaign-Timeline.md"
 confidence_level: confirmed
 ---
@@ -29,9 +30,9 @@ Used **Minor Illusion** to conceal the doorway in the Saltwright hold during the
 
 ## Foundation
 
-**Class:** Bard 3 / Warlock 1 | **Background:** Sailor | **Player:** Kaden
+**Class:** Bard 3 (College of Lore) / Warlock 1 (Pact of the Blade) | **Background:** Custom | **Player:** Kaden
 
-**Species:** [[rattkin|Rattkin]] (fancy rat)
+**Species:** [[rattkin|Rattkin]] (fancy rat) | **Languages:** Common, Dwarvish, Gnomish
 
 **Mortis:** "The Small" — disadvantage on Strength checks/saves; +2 Charisma. His frame makes him unsuitable for hard ship labor, so he leads by reading currents, people, exits, and leverage.
 
@@ -54,11 +55,11 @@ The Vestra was built and captained by Nona Black-Jaw's late husband, Perrin's gr
 
 Recently, something large and otherworldly spoke to him from the abyss. He was not a believer before. Now a patron-level power has decided he matters, and he does not know what that means.
 
-The timeline source says the [[leviathan|Leviathan]] destroyed the Vestra and that Perrin believes [[perrins-cloak-of-the-manta-ray|his cloak]] saved him. It was actually [[auralis|Auralis]]. Perrin forged a warlock pact in the wreck without knowing it.
+The timeline source says the [[leviathan|Leviathan]] destroyed the Vestra and that Perrin believes his old cloak saved him. It was actually [[auralis|Auralis]]. Perrin forged a warlock pact in the wreck without knowing it. The [[perrins-cloak-of-the-manta-ray|Cloak of the Manta Ray]] is no longer with him.
 
 ## What He Carries
 
-- [[perrins-cloak-of-the-manta-ray|Perrin's Cloak of the Manta Ray]] — family heirloom; origin murky; earned through service to the Vestra.
+- Cloak of Protection (attuned) — current; the Manta Ray cloak is gone
 - [[miras-blade|Mira's Blade]]
 - [[sending-stone-nona|Nona's sending stone]]
 - Longsword, bodhran drum, Clyde's Bestiary of Oceanic Creatures

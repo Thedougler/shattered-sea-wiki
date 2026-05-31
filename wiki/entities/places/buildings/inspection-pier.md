@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

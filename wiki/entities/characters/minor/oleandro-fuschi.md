@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Proprietor of Ponte Bassa, Calveno's canal-bridge tavern. Wide, soft-spoken, moves like he has all day. Keeps a mental ledger of every vessel that has moored at Calveno in twenty years and has never been caught wrong about one."
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - orc
   - minor-npc

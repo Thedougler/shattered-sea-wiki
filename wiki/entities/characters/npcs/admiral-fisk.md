@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags:
   - stub
   - npc

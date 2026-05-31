@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Water Genasi captain of the Narrow, Fisk's scout vessel — skilled swimmer and underwater scout who drowned at the Drowned Maw. Her soul is inside Delmar Fisk. It is pronounced MARE-EN."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - npc
   - fisk-fleet

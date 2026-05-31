@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - navigation

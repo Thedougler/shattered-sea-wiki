@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - stub
   - minor

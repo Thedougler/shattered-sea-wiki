@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

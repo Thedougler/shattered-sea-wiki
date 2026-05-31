@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - site

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Jean-Claude's caste-bound, slaveholding people in the Verdant Teeth. Their color hierarchy, toxin economy, and Simone's supply line are active Jean-Claude pressures."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - faction
   - grung

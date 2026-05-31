@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Essa Two-Tooth's house-brewed cider from the Warren — she calls it cider; the jury remains out."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - food

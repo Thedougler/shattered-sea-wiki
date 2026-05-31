@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - service

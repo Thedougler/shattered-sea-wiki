@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Playable amphibious poison frog humanoids from the Verdant Teeth. Grung society is caste-marked by skin color; Jean-Claude Tabarnack is a blue grung PC who fled that system."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - species
   - playable

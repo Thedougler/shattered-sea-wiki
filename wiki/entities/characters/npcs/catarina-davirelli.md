@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet."
 created: 2026-05-27
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - npc
   - human

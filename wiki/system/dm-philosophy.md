@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - system
   - reference

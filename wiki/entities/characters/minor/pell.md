@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Gnome labour slave at Sorn — the person who talked to Jean-Claude as if he were an equal, told him there were other ways of living, and whose death he could not prevent."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - npc
   - minor

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - weapon

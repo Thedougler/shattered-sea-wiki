@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - mystery

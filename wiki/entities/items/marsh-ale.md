@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - food

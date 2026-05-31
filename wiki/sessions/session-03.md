@@ -12,6 +12,7 @@ tags:
   - session
 sources:
   - "Inbox/Session-03-Recap.md"
+  - "Inbox/sessions/03/Session-03-Transcript.md"
 session_number: 3
 session_date: 2026-05-25
 ---
@@ -43,7 +44,7 @@ session_date: 2026-05-25
 11. **Jean-Claude in Calveno.** Changed color green (disguise during festival prep). Less attention. Found Casa Lupo first; shopkeeper directed him to Studio Orsini for the egg. Told Marta Orsini he fertilized the egg himself.
 12. **Umberlee servant encounter.** Older woman, blue-gray robes, white hair, slight limp, small leather book. Found Delmar specifically. Had a message from the Bitch Queen. Waiting at Waveservant Shrine; not sleeping until he came. Delmar: Deception 19 — told her Umberlee herself had required this errand first. She believed it and left. Delmar told Geoffrey: they're not going to a second location alone.
 13. **Crissdalynn scouts Calveno.** Tried from above. Too many people. Gave up. Found Delmar instead.
-14. **Nona meeting (Le Paludi).** Nona at stove, back to door. Enzo and Ruk present. Rattkin mother just finishing — crying about a son who hadn't come home. Nona and Perrin wait for her to leave. Nona asks what it means when a rat king misses check-in. Perrin tells her about the Vestra. Nona cracks her wooden spoon. Consolation for Vestra crew ordered to Enzo. Nona realizes she'd thought Perrin captured — calls off the attacks before Enzo leaves. Asks Perrin a favor (unstated). He says yes. Gives him a sending stone.
+14. **Nona meeting (Le Paludi).** Nona at stove, back to door. Enzo and Ruk present. Rattkin mother just finishing — crying about a son who hadn't come home. Nona and Perrin wait for her to leave. Nona asks what it means when a rat king misses check-in. Perrin tells her about the Vestra. Nona cracks her wooden spoon. Consolation for Vestra crew ordered to Enzo. Nona realizes she'd thought Perrin captured by the [[tarahs|Tarahs]] — Cobb had reported one of their ships coming in. Calls off the attacks before Enzo leaves. Asks Perrin a favor (unstated). He says yes. Gives him a sending stone.
 15. **Kyzil reunion (Le Paludi streets).** Dove from sun in silence, knocked Criss back 20 ft. Recognized her by smell before she could see. Had been searching Kalowe and Tidefall. "Priscilla, you're alive." Straightened up, looked at the others. "Hi, I'm Master Kyzil." Crissdalynn broke down. Perrin had been in a barrel; emerged slowly; finger-shake introduction.
 
 ## Entity Updates
@@ -87,7 +88,7 @@ session_date: 2026-05-25
 
 ## Follow-Up Queue
 
-- [ ] Create `wiki/entities/characters/npcs/master-kyzil.md`
+- [x] Create `wiki/entities/characters/npcs/master-kyzil.md`
 - [ ] Expand `wiki/entities/places/settlements/calveno/le-paludi.md` when detail known
 - [ ] `wiki/dm/player-interests.md` — update: Perrin/abyss thread is high-engagement; Delmar's water moment flagged
 - [ ] Assess Kat's Curios followup (Catalina Curio / whip shark barb appraisal)

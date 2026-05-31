@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A +1 Calveno dock-pattern shortbow that removes the within-5-ft disadvantage penalty. Purchased by Jean-Claude in the Velo Quarter during Session 04."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - weapon

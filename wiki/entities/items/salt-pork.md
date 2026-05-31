@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Barrelled salt-cured pork belly — the meat provision on every working ship, before the scurvy sets in."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - provision

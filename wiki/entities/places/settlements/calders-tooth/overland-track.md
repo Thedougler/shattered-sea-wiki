@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - road

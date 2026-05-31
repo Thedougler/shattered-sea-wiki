@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - npc
   - rattkin
@@ -91,7 +91,7 @@ Her late husband [[vincenzo-black-jaw|Vincenzo Black-Jaw]] built the *[[vestra|V
 
 ## Session Events
 
-- **Session 03:** Perrin arrived in her kitchen during an open-door session. Waited for a rattkin family to leave. Heard about the Vestra. Cracked her spoon. Ordered [[enzo|Enzo]] to console the Vestra's crew. Called off the attacks (she'd thought Perrin was captured). Asked a favor; he said yes unconditionally. Gave him a sending stone.
+- **Session 03:** Perrin arrived in her kitchen during an open-door session. Waited for a rattkin family to leave. Heard about the Vestra. Cracked her spoon. Ordered [[enzo|Enzo]] to console the Vestra's crew. Called off the attacks — she had feared Perrin was captured by the [[tarahs|Tarahs]] after Cobb reported one of their ships in port. Asked a favor; he said yes unconditionally. Gave him a sending stone.
 
 > [!dm]
 > The favor is the key question. Design it before the sending stone call comes. It should reflect what a Passage matriarch in Calveno would need from a rattkin sailor with a Crown-marked ship and a party of four.
@@ -109,3 +109,4 @@ Her late husband [[vincenzo-black-jaw|Vincenzo Black-Jaw]] built the *[[vestra|V
 - [[the-passage|The Passage]] — operates within
 - [[black-jaw-run|Black-Jaw Run]] — matriarch
 - [[warren|The Warren]] — kitchen base
+- [[tarahs|The Tarahs]] — known threat to Rattkin in the area; Nona watches for their ships

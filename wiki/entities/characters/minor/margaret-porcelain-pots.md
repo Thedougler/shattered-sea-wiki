@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week."
 created: 2026-05-02
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - dragonborn
   - social

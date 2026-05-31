@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - equipment

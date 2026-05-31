@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "A mainmast boom installation that forces favorable wind for 4 hours once per day — useless in a storm or the Doldrums."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - ship-upgrade

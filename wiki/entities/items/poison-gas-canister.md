@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - consumable

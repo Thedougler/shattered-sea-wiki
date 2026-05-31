@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation."
 created: 2026-04-24
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - dravosi
   - navy

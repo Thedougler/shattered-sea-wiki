@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - building

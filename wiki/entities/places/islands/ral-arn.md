@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The memory island of the Sunken Crown — where the oldest family records, tide accounts, and storm marks are kept carved in stone."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - island

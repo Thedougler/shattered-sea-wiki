@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — populate after first combats. Empirical combat data to calibrate encounter design."
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 tags:
   - system
   - combat

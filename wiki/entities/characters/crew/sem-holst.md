@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Lean shipwright who catalogues damage without being asked and stays if someone demonstrates they understand the difference between a caulked seam and a packed one."
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - crew
   - recurring

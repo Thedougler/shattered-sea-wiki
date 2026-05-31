@@ -244,6 +244,7 @@ sources: []
 - [[grung-clans|Grung Clans]] — Jean-Claude's caste-bound, slaveholding people in the Verdant Teeth. Their color hierarchy, toxin economy, and Simone's supply line are active Jean-Claude pressures.
 - [[khlysty|The Khlysty]] — Secret mystical flock threaded through Dravosi and Tessarine noble courts. Shepherd Grigori heals dying heirs and binds them as unwitting phylacteries.
 - [[sentinels-of-the-eyrie|Sentinels Of The Eyrie]] — Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter.
+- [[tarahs|The Tarahs]] — A faction operating ships in or near Calveno; known to the Black-Jaw Run as a group that takes Rattkin — Nona feared they had captured Perrin when he missed check-in.
 - [[tessarine-concordat|Tessarine Concordat]] — Colonial commercial power that turns credit, contracts, insurance, route underwriting, and trade dependency into political leverage. Calveno is its strongest northern foothold.
 - [[the-glass-debt|The *Glass Debt*]] — A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave.
 - [[the-passage|The Passage]] — Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.

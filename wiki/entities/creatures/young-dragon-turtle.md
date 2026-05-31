@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone."
 created: 2026-04-25
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - dragon

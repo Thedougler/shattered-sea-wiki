@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - stub
   - npc

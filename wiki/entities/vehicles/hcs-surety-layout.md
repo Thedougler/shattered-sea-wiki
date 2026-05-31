@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Full three-deck layout of the Uncertainty (ex-HCS Surety) — weather deck, gun deck, hold — with room dimensions, contents, tactical notes, and bastion slot mapping. Notes Uncertainty refit changes."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - reference
   - ship

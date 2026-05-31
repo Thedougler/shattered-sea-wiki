@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dried legumes for long-passage provisioning — cheap, filling, and they keep indefinitely when dry."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - provision

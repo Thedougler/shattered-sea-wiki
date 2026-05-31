@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A rumored deep-sea titan tied to Perrin Black-Jaw's survival of the Vestra disaster — no one who claims a clean sighting has come back, but the signs are consistent: heat rising from below, steam, and a dark shape that should not be there."
 created: 2026-05-03
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - legend

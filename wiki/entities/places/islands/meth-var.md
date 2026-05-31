@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - place
   - island

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - species
   - playable

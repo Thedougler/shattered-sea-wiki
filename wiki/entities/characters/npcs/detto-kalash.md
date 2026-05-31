@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk."
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - npc
   - fisk-fleet

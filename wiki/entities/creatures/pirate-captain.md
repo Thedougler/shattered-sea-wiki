@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "CR 6 humanoid pirate captain. Rapier and pistol multiattack, Captain's Charm, Riposte reaction."
 created: 2026-04-25
-updated: 2026-05-28
+updated: 2026-05-30
 tags:
   - creature
   - humanoid

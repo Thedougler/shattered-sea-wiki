@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - weapon

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A wrist-mounted device that fires a grappling hook up to 60 feet and retracts mechanically — three shots before a 10-minute repressurize."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags:
   - item
   - wondrous

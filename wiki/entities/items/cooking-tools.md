@@ -8,10 +8,13 @@ publish: true
 summary: "Pots, knives, fire strikers, and trivets — the basic equipment for any galley or kitchen."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool]
-sources: [Homebrew]
+tags:
+  - item
+  - equipment
+  - tool
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Cooking Tools
 item_type: tool
 rarity: common
 attunement: false

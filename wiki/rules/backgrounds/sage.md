@@ -8,9 +8,11 @@ publish: false
 summary: D&D 5e 2024 Sage background — Constitution, Intelligence, Wisdom; Magic Initiate (Wizard) feat; Arcana and History proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-tags: [rules, background]
-sources: [http://dnd2024.wikidot.com/background:sage]
-title: Sage
+tags:
+  - rules
+  - background
+sources:
+  - http://dnd2024.wikidot.com/background:sage
 confidence_level: medium
 ---
 

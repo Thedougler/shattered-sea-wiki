@@ -8,8 +8,14 @@ publish: false
 summary: "The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters."
 created: 2026-04-15
 updated: 2026-05-30
-tags: [situation, question, red-lady, leviathan, umberlee]
-sources: ["Inbox/situations/questions/What-Sunk-The-Vestra.md"]
+tags:
+  - situation
+  - question
+  - red-lady
+  - leviathan
+  - umberlee
+sources:
+  - "Inbox/situations/questions/What-Sunk-The-Vestra.md"
 lifecycle: active
 narrative_island: ""
 region: maw

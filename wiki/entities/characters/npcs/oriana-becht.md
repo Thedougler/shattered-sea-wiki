@@ -8,10 +8,11 @@ publish: false
 summary: "Stub — referenced in [[tessarine-amberreach]]. No page yet."
 created: 2026-05-29
 updated: 2026-05-29
-tags: [npc, stub]
+tags:
+  - npc
+  - stub
 sources: []
 confidence_level: low
-title: Oriana Becht
 ---
 
 # Oriana Becht

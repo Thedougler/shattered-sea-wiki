@@ -8,10 +8,14 @@ publish: true
 summary: "A hull-mounted lens for 60-foot underwater observation from below decks."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, scouting, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - ship-upgrade
+  - scouting
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Depth Eye
 item_type: ship-upgrade
 rarity: uncommon
 requires_attunement: false

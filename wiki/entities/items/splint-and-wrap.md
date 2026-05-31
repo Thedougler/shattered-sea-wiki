@@ -8,10 +8,14 @@ publish: true
 summary: "A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, medical, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - medical
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Splint and Wrap
 item_type: consumable
 rarity: common
 attunement: false

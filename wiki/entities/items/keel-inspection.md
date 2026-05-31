@@ -8,10 +8,14 @@ publish: true
 summary: "Shallow-water or slipped keel inspection with a written assessment — essential before any long passage or after a grounding."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Keel Inspection
 item_type: service
 rarity: common
 attunement: false

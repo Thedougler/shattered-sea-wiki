@@ -8,16 +8,20 @@ publish: true
 summary: "Co-proprietor of Al Fondale in Le Paludi — the cook, the talker, and the man who heard the cellar panel click at midnight two nights ago and has not told his wife."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [character, npc, recurring]
-sources: [Homebrew]
+tags:
+  - character
+  - npc
+  - recurring
+sources:
+  - Homebrew
 confidence_level: medium
-title: Aldo Riva
 species: dwarf
 pronouns: he/him
 affiliations:
   - "[[al-fondale|Al Fondale]]"
 current_location: "[[al-fondale|Al Fondale]]"
-aliases: [Aldo]
+aliases:
+  - Aldo
 ---
 
 # Aldo Riva

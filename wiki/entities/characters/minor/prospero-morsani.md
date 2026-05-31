@@ -8,8 +8,13 @@ publish: true
 summary: "Proprietor of the Cabinet of Morsani in Calveno's Velo Quarter. Sells items of uncertain provenance; knows the previous owner of everything in the shop and the story that goes with it, which always ends before the interesting part."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [gnome, minor-npc, calveno]
-sources: ["Inbox/Calveno-Sandbox-Run-Guide.md", "Inbox/Prospero-Morsani.md"]
+tags:
+  - gnome
+  - minor-npc
+  - calveno
+sources:
+  - "Inbox/Calveno-Sandbox-Run-Guide.md"
+  - "Inbox/Prospero-Morsani.md"
 confidence_level: medium
 ---
 

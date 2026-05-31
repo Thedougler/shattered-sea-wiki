@@ -8,10 +8,14 @@ publish: true
 summary: "Sealed barrel for storing fresh water aboard ship — the difference between a planned passage and a desperate one."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, provision, maritime]
-sources: [Homebrew]
+tags:
+  - item
+  - equipment
+  - provision
+  - maritime
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Water Cask
 item_type: equipment
 rarity: common
 attunement: false

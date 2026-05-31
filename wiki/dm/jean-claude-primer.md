@@ -8,9 +8,12 @@ publish: false
 summary: "Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [system, primer, jean-claude]
-sources: ["Inbox/Jean-Claude-Primer.md"]
-title: Jean-Claude Primer
+tags:
+  - system
+  - primer
+  - jean-claude
+sources:
+  - "Inbox/Jean-Claude-Primer.md"
 confidence_level: medium
 ---
 

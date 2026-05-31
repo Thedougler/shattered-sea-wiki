@@ -8,9 +8,11 @@ publish: false
 summary: Invisible condition — Advantage on attacks and Initiative; Disadvantage on attacks against you; concealed from sight-based effects.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Invisible
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

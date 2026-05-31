@@ -8,15 +8,22 @@ publish: true
 summary: "Dravosi Crown alchemical canister — shatters on impact and releases a toxic cloud in a 10-ft radius."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - dravosi
+  - weapon
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Poison Gas Canister
 item_type: consumable
 rarity: uncommon
 attunement: false
 homebrew: true
-aliases: ["Gas Canister"]
+aliases:
+  - "Gas Canister"
 ---
 
 # Poison Gas Canister

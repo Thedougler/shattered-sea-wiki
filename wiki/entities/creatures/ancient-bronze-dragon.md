@@ -8,17 +8,21 @@ publish: true
 summary: CR 22 metallic dragon; watches the Shelfworks and the Drowned Maw — it has established, via cold currents and repositioned dive lines, that certain parts of the ruins are not for salvage.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, dragon-metallic, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - dragon-metallic
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Ancient Bronze Dragon
-aliases: [Ancient Bronze Dragon]
+aliases:
+  - Ancient Bronze Dragon
 cha: 25
 con: 27
 cr: 22
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: coastal
 int: 18

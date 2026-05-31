@@ -8,8 +8,13 @@ publish: false
 summary: "At-table run guide for Session 0. Covers table norms, character check-ins, Stripes interview, Mortis setup, and party connection. Session 1 is ready to run immediately after."
 created: 2026-05-10
 updated: 2026-05-30
-tags: [session, session-00, prep, run-guide]
-sources: ["Inbox/sessions/00/Session-00-Run-Guide.md"]
+tags:
+  - session
+  - session-00
+  - prep
+  - run-guide
+sources:
+  - "Inbox/sessions/00/Session-00-Run-Guide.md"
 session_number: 0
 session_date: "unknown"
 table_status: complete

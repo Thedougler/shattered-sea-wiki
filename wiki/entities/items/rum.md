@@ -8,10 +8,14 @@ publish: true
 summary: "Distilled sugarcane spirit — ship's stores, shore trade, and the social currency of the Midchain free ports."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable, drink]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+  - drink
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Rum
 item_type: provision
 rarity: common
 attunement: false

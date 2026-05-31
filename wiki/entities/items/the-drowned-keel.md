@@ -8,10 +8,15 @@ publish: false
 summary: "A legendary Antheri salvage modification enabling controlled temporary submersion — takes the ship to 60 feet and keeps the crew breathing for two hours per day."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, antheri, legendary, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - ship-upgrade
+  - antheri
+  - legendary
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: The Drowned Keel
 item_type: ship-upgrade
 rarity: legendary
 requires_attunement: false

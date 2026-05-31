@@ -8,10 +8,14 @@ publish: true
 summary: "Ship upgrade that automatically charts the vessel's route in real time; produced charts sell for 50–200 gp each."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, navigation, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - ship-upgrade
+  - navigation
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Cartographer's Table
 item_type: ship-upgrade
 rarity: rare
 requires_attunement: false

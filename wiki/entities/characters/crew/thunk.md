@@ -8,10 +8,18 @@ publish: false
 summary: "Former Crown Shipyards blacksmith turned naval gunner — the best man at a cannon the party is likely to meet, who will not tell them that unless someone asks. Holds a master's degree in chemistry that he has never mentioned because it has not come up."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [crew, recurring, gunner, orc]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Thunk.md"]
+tags:
+  - crew
+  - recurring
+  - gunner
+  - orc
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Thunk.md"
 confidence_level: observed
-aliases: ["Mr. Thunk"]
+aliases:
+  - "Mr. Thunk"
 species: orc
 pronouns: he/him
 banner: raw/assets/banners/Thunk.webp

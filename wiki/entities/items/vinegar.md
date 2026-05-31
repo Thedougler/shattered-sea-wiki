@@ -8,10 +8,13 @@ publish: true
 summary: "Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Vinegar
 item_type: provision
 rarity: common
 attunement: false

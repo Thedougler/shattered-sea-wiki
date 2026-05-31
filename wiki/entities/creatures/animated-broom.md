@@ -8,17 +8,19 @@ publish: true
 summary: A CR 1/4 construct in domestic service; faster and more aggressive than it looks when its ward is threatened.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, construct, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - construct
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Animated Broom
-aliases: [Animated Broom]
+aliases:
+  - Animated Broom
 cha: 1
 con: 10
 cr: 1/4
 creature_type: construct
-cssclasses:
-  - wiki-monster
 dex: 17
 environment: urban
 int: 1

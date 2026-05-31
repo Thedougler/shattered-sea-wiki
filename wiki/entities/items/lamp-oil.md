@@ -8,10 +8,13 @@ publish: true
 summary: "Refined oil for lanterns and lamps — standard stock at every chandlery in the Shattered Sea. 1 sp per flask, 6 sp per gallon."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, maritime]
-sources: ["PHB"]
+tags:
+  - item
+  - consumable
+  - maritime
+sources:
+  - "PHB"
 confidence_level: medium
-title: Lamp Oil
 item_type: consumable
 rarity: common
 attunement: false

@@ -8,10 +8,14 @@ publish: true
 summary: "Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - provision
+  - consumable
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Dried Salt Fish
 item_type: provision
 rarity: common
 attunement: false

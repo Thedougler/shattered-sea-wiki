@@ -8,10 +8,15 @@ publish: true
 summary: "An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - calveno
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Tanglefoot Compound
 item_type: consumable
 rarity: uncommon
 attunement: false

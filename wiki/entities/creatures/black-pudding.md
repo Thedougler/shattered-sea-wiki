@@ -8,17 +8,18 @@ publish: false
 summary: CR 4 ooze that dissolves metal and wood on contact; splits into smaller puddings when hit with slashing or lightning damage.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, ooze]
-sources: [XMM]
+tags:
+  - creature
+  - ooze
+sources:
+  - XMM
 confidence_level: high
-title: Black Pudding
-aliases: [Black Pudding]
+aliases:
+  - Black Pudding
 cha: 1
 con: 16
 cr: 4
 creature_type: ooze
-cssclasses:
-  - wiki-monster
 dex: 5
 environment: underdark
 int: 1

@@ -8,8 +8,14 @@ publish: false
 summary: "Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [stub, minor, calveno, dravosi, intelligence]
-sources: ["Inbox/Warren-Ferrin-Locke.md"]
+tags:
+  - stub
+  - minor
+  - calveno
+  - dravosi
+  - intelligence
+sources:
+  - "Inbox/Warren-Ferrin-Locke.md"
 confidence_level: confirmed
 ---
 

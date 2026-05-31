@@ -8,10 +8,13 @@ publish: true
 summary: "Palm oil or similar clean cooking fat — essential for any galley that does more than boil things."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Cooking Oil
 item_type: provision
 rarity: common
 attunement: false

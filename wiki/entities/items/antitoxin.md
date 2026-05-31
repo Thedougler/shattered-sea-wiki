@@ -8,10 +8,12 @@ publish: true
 summary: "A vial of neutralising compound that confers advantage on saving throws against poison for one hour. 50 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable]
-sources: [PHB]
+tags:
+  - item
+  - consumable
+sources:
+  - PHB
 confidence_level: medium
-title: Antitoxin
 rarity: common
 attunement: false
 homebrew: false

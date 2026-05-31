@@ -8,13 +8,20 @@ publish: true
 summary: "Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, lost, fisk-fleet]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Loud-Argument.md"]
+tags:
+  - vehicle
+  - ship
+  - lost
+  - fisk-fleet
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Fisks-Fleet.md"
+  - "Inbox/Loud-Argument.md"
 confidence_level: confirmed
-title: The Loud Argument
 ship_class: gun brig
-cssclasses: [wiki-ship]
-aliases: ["Loud Argument", "The Loud Argument"]
+aliases:
+  - "Loud Argument"
+  - "The Loud Argument"
 captain: "[[bastian-crev|Bastian Crev]]"
 ---
 

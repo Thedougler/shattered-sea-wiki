@@ -8,13 +8,17 @@ publish: false
 summary: "A Valcoran-built remnant sloop with an iron-plated hull — highest HP and AC of any Tier 1 vessel, slowest speed, and a construction method no current shipyard can replicate."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, tier-1, remnant, iron-hull]
-sources: ["Homebrew"]
+tags:
+  - vehicle
+  - ship
+  - tier-1
+  - remnant
+  - iron-hull
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Ironmantle
 ship_class: remnant sloop (Valcoran-built)
 tier: 1
-cssclasses: [wiki-ship]
 current_location: unknown
 ---
 

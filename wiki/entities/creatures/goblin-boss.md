@@ -8,17 +8,18 @@ publish: false
 summary: CR 1 fey goblin leader; commands minions and uses Redirect Attack to force an ally to take a hit meant for it.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fey]
-sources: [XMM]
+tags:
+  - creature
+  - fey
+sources:
+  - XMM
 confidence_level: high
-title: Goblin Boss
-aliases: [Goblin Boss]
+aliases:
+  - Goblin Boss
 cha: 10
 con: 10
 cr: 1
 creature_type: fey
-cssclasses:
-  - wiki-monster
 dex: 15
 environment: forest, grassland, hill, planar, underdark
 int: 10

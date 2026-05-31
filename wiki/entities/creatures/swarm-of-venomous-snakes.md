@@ -8,17 +8,19 @@ publish: true
 summary: A CR 2 beast swarm from a disturbed nest or flooded burrow; the interior undergrowth of Orak and the Verdant Scatter harbours more than it shows.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Swarm of Venomous Snakes
-aliases: [Swarm of Venomous Snakes]
+aliases:
+  - Swarm of Venomous Snakes
 cha: 3
 con: 11
 cr: 2
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 18
 environment: coastal, desert, forest, grassland, hill, swamp
 int: 1

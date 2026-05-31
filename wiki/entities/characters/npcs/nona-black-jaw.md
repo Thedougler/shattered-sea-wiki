@@ -8,11 +8,22 @@ publish: true
 summary: "Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, rattkin, passage, matriarch]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Perrin-Black-Jaw.md", "Inbox/Black-Jaw-Run.md", "Inbox/Nona-Black-Jaw.md"]
+tags:
+  - npc
+  - rattkin
+  - passage
+  - matriarch
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Perrin-Black-Jaw.md"
+  - "Inbox/Black-Jaw-Run.md"
+  - "Inbox/Nona-Black-Jaw.md"
 confidence_level: observed
-title: Nona Black-Jaw
-aliases: ["Nona", "Black-Jaw matriarch", "The Calveno Candle"]
+aliases:
+  - "Nona"
+  - "Black-Jaw matriarch"
+  - "The Calveno Candle"
 ---
 
 # Nona Black-Jaw

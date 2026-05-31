@@ -8,12 +8,17 @@ publish: true
 summary: "The memory island of the Sunken Crown — where the oldest family records, tide accounts, and storm marks are kept carved in stone."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, island, sunken-crown, tabaxi]
-sources: ["Homebrew"]
+tags:
+  - place
+  - island
+  - sunken-crown
+  - tabaxi
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Ral-Arn
 island_type: record-island
-aliases: ["North Sentinel"]
+aliases:
+  - "North Sentinel"
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] family lines and elders"
 access: "Visited for memory work; not casual public travel"

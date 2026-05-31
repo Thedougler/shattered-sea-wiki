@@ -8,10 +8,15 @@ publish: true
 summary: "Proprietor of Casa Lupo in Calveno's Le Paludi district. Seventy-something, prices everything from memory, moves with the energy conservation of someone who has decided he's already moved enough."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [minor-npc, calveno]
-sources: ["Inbox/Calveno-Sandbox-Run-Guide.md", "Inbox/Ettore-Lupo.md"]
+tags:
+  - minor-npc
+  - calveno
+sources:
+  - "Inbox/Calveno-Sandbox-Run-Guide.md"
+  - "Inbox/Ettore-Lupo.md"
 confidence_level: medium
-aliases: [Ettore Lupo]
+aliases:
+  - Ettore Lupo
 ---
 
 # Ettore Lupo

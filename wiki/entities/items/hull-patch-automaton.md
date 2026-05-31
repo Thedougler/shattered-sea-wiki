@@ -8,10 +8,13 @@ publish: true
 summary: "A crab-sized brass mechanism that patrols the waterline interior, sealing hull breaches under 1 foot automatically and reducing combat flooding damage."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - ship-upgrade
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Hull Patch Automaton
 item_type: ship-upgrade
 rarity: uncommon
 attunement: false

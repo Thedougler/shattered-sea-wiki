@@ -8,8 +8,13 @@ publish: false
 summary: "At-table run guide for Session 02. Opens mid-combat with Rook alone; resolves into Grigori, the ship, and the sandbox opening. 4–6 hours. Destination is the party's call."
 created: 2026-05-15
 updated: 2026-05-30
-tags: [session, session-02, prep, run-guide]
-sources: ["Inbox/sessions/02/Session-02-Run-Guide.md"]
+tags:
+  - session
+  - session-02
+  - prep
+  - run-guide
+sources:
+  - "Inbox/sessions/02/Session-02-Run-Guide.md"
 session_number: 2
 session_date: "unknown"
 table_status: complete

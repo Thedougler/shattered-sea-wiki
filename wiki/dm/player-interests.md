@@ -9,7 +9,7 @@ summary: "Stub — populate after first session. Tracks what each player is enga
 created: 2026-05-27
 updated: 2026-05-27
 tags: []
-sources: [Unknown]
+sources: []
 system_role: dm-intelligence
 token_profile: quick-ref
 mandatory_for: [content-creation, session-prep]

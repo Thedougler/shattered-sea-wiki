@@ -8,10 +8,18 @@ publish: true
 summary: "A hard-used two-masted merchant brig captained by Beaumont Sel, working the Midchain cargo run — home port Kalowe."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [vehicle, ship, merchant, brig]
-sources: ["Inbox/Session-01-Recap.md", "Inbox/Beaumonts-Crew.md", "Inbox/Saltwright.md"]
+tags:
+  - vehicle
+  - ship
+  - merchant
+  - brig
+sources:
+  - "Inbox/Session-01-Recap.md"
+  - "Inbox/Beaumonts-Crew.md"
+  - "Inbox/Saltwright.md"
 confidence_level: observed
-aliases: [Saltwright]
+aliases:
+  - Saltwright
 captain: "[[beaumont-sel|Beaumont Sel]]"
 home_port: "[[kalowe|Kalowe]]"
 ---

@@ -8,10 +8,14 @@ publish: true
 summary: Player index for celestials of the Shattered Sea — divine and sacred creatures; encountering one is rarely accidental.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/celestial/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/celestial/index.md
 confidence_level: medium
-title: Celestials
 visibility: public
 ---
 

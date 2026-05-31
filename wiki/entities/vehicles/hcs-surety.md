@@ -8,16 +8,22 @@ publish: false
 summary: "Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here."
 created: 2026-05-27
 updated: 2026-05-30
-tags: [vehicle, ship, dravosi, crown, cutter, prize]
-sources: ["Inbox/HCS-Surety.md", "Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md"]
+tags:
+  - vehicle
+  - ship
+  - dravosi
+  - crown
+  - cutter
+  - prize
+sources:
+  - "Inbox/HCS-Surety.md"
+  - "Inbox/Session-01-Recap.md"
+  - "Inbox/Session-03-Recap.md"
 confidence_level: high
-title: HCS Surety
 ship_class: patrol cutter
 tier: 1
 hull_points: 120
 hull_ac: 11
-cssclasses:
-  - wiki-ship
 ---
 
 # HCS Surety

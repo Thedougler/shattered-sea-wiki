@@ -8,10 +8,13 @@ publish: true
 summary: "Fresh-caught crab, boiled plain — seasonal at the Low Lamp, when Pip brings it back from the upper channels."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, food, calveno]
-sources: [Homebrew]
+tags:
+  - item
+  - food
+  - calveno
+sources:
+  - Homebrew
 confidence_level: medium
-title: Boiled Crab
 item_type: food
 rarity: common
 attunement: false

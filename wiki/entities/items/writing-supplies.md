@@ -8,10 +8,13 @@ publish: true
 summary: "Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool]
-sources: [PHB]
+tags:
+  - item
+  - equipment
+  - tool
+sources:
+  - PHB
 confidence_level: confirmed
-title: Writing Supplies
 item_type: tool
 rarity: common
 attunement: false

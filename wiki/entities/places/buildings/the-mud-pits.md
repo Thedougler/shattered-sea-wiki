@@ -8,12 +8,20 @@ publish: true
 summary: "A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, kalowe, arena, venue]
-sources: ["Inbox/Bala-Tane.md", "Inbox/The-Mud-Pits.md"]
+tags:
+  - place
+  - building
+  - kalowe
+  - arena
+  - venue
+sources:
+  - "Inbox/Bala-Tane.md"
+  - "Inbox/The-Mud-Pits.md"
 confidence_level: medium
-title: The Mud Pits
 site_type: arena
-aliases: [Mud Pits, The Pits]
+aliases:
+  - Mud Pits
+  - The Pits
 parent_location: "[[kalowe|Kalowe]]"
 ---
 

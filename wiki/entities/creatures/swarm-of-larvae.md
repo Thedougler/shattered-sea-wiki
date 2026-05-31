@@ -8,17 +8,19 @@ publish: true
 summary: A CR 1 fiend swarm linked to planar scarring near Antheri Ruins; larval forms of the damned that swarm toward the living.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fiend, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - fiend
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Swarm of Larvae
-aliases: [Swarm of Larvae]
+aliases:
+  - Swarm of Larvae
 cha: 2
 con: 14
 cr: 1
 creature_type: fiend
-cssclasses:
-  - wiki-monster
 dex: 11
 environment: planar, lower
 int: 6

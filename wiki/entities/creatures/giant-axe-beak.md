@@ -8,17 +8,20 @@ publish: true
 summary: The Giant Axe Beak, a CR 5 monstrosity in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, monstrosity, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - monstrosity
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Giant Axe Beak
-aliases: [Giant Axe Beak]
+aliases:
+  - Giant Axe Beak
 cha: 5
 con: 19
 cr: 5
 creature_type: monstrosity
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: arctic, grassland, hill
 int: 3

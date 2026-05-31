@@ -8,10 +8,14 @@ publish: true
 summary: Player index for dragons, dragon turtles, and sea serpents of the Shattered Sea — most are apex threats where encounters are survival problems, not fights.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/dragons/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/dragons/index.md
 confidence_level: medium
-title: Dragons
 visibility: public
 ---
 

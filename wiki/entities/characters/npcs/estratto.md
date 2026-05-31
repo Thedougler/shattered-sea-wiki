@@ -8,12 +8,19 @@ publish: false
 summary: "Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, tessarine, construct, warforged, antagonist, calveno]
-sources: ["Inbox/Estratto.md"]
+tags:
+  - npc
+  - tessarine
+  - construct
+  - warforged
+  - antagonist
+  - calveno
+sources:
+  - "Inbox/Estratto.md"
 confidence_level: high
-title: Estratto
 species: warforged
-aliases: [the Auditor]
+aliases:
+  - the Auditor
 ---
 
 # Estratto

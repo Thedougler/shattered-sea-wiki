@@ -8,9 +8,12 @@ publish: false
 summary: "Agent quick reference for spotlighting and fairly pressuring Perrin's ranged play, water mobility, avoidance, and family/patron hooks."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [system, primer, perrin]
-sources: ["Inbox/Perrin-Primer.md"]
-title: Perrin Primer
+tags:
+  - system
+  - primer
+  - perrin
+sources:
+  - "Inbox/Perrin-Primer.md"
 confidence_level: medium
 ---
 

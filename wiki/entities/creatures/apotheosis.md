@@ -8,11 +8,18 @@ publish: false
 summary: "CR 20 undead lich. Cleric lich whose phylactery is a living cult — as long as members believe it to be immortal, it cannot permanently die."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [creature, undead, lich, bestiary, cr20]
-sources: ["Inbox/Apotheosis.md"]
+tags:
+  - creature
+  - undead
+  - lich
+  - bestiary
+  - cr20
+sources:
+  - "Inbox/Apotheosis.md"
 confidence_level: high
 cr: 20
-aliases: ["Apotheosis"]
+aliases:
+  - "Apotheosis"
 ---
 
 # Apotheosis

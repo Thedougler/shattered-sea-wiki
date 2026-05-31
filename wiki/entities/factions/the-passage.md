@@ -8,8 +8,18 @@ publish: false
 summary: "Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [faction, rattkin, passage]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Rattkin.md", "Inbox/Demographics.md", "Inbox/Passage.md", "Inbox/Black-Jaw-Run.md"]
+tags:
+  - faction
+  - rattkin
+  - passage
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Rattkin.md"
+  - "Inbox/Demographics.md"
+  - "Inbox/Passage.md"
+  - "Inbox/Black-Jaw-Run.md"
 confidence_level: inferred
 ---
 

@@ -8,10 +8,15 @@ publish: true
 summary: "An alchemical paste that waterproofs wood or canvas — cures in 30 minutes, holds for a full season at sea."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - calveno
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Saltseal
 item_type: consumable
 rarity: uncommon
 attunement: false

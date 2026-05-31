@@ -8,17 +8,19 @@ publish: true
 summary: CR 15 chromatic dragon; cunning forest manipulator with poison breath, favours long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Adult Green Dragon
-aliases: [Adult Green Dragon]
+aliases:
+  - Adult Green Dragon
 cha: 18
 con: 21
 cr: 15
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 12
 environment: forest
 int: 18

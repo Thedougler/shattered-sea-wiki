@@ -8,10 +8,13 @@ publish: true
 summary: "Raisins, mango strips, and tamarind — sweet provision that keeps morale marginally above minimum."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable]
-sources: ["Homebrew"]
+tags:
+  - item
+  - provision
+  - consumable
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Dried Fruit
 item_type: provision
 rarity: common
 attunement: false

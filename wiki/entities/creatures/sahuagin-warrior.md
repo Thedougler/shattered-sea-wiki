@@ -8,17 +8,19 @@ publish: true
 summary: CR 1/2 fiend; raiding soldiers of the deep encountered in packs along shelf walls and reef drop-offs.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fiend, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - fiend
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Sahuagin Warrior
-aliases: [Sahuagin Warrior]
+aliases:
+  - Sahuagin Warrior
 cha: 9
 con: 12
 cr: 1/2
 creature_type: fiend
-cssclasses:
-  - wiki-monster
 dex: 11
 environment: coastal, underwater
 int: 12

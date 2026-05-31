@@ -8,8 +8,14 @@ publish: false
 summary: "Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check."
 created: 2026-04-25
 updated: 2026-05-30
-tags: [session, session-01, scene, read-aloud, stripes-bitemore]
-sources: ["Inbox/sessions/01/Scene-04-Stripes.md"]
+tags:
+  - session
+  - session-01
+  - scene
+  - read-aloud
+  - stripes-bitemore
+sources:
+  - "Inbox/sessions/01/Scene-04-Stripes.md"
 session_number: 1
 session_date: "unknown"
 beat_number: 4

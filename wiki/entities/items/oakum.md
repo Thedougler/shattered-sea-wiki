@@ -8,10 +8,14 @@ publish: true
 summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Oakum
 item_type: equipment
 rarity: common
 attunement: false

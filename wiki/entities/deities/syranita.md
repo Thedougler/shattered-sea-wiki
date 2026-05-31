@@ -8,8 +8,12 @@ publish: false
 summary: "Secondary deity in Crissdalynn's aarakocra sky-pantheon. Marginal observance."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [stub, deity, aarakocra]
-sources: ["Inbox/Crissdalynn-Khinriss.md"]
+tags:
+  - stub
+  - deity
+  - aarakocra
+sources:
+  - "Inbox/Crissdalynn-Khinriss.md"
 confidence_level: inferred
 ---
 

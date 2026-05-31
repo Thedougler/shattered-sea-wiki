@@ -8,12 +8,18 @@ publish: true
 summary: "A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, island, tabaxi, sunken-crown]
-sources: ["Homebrew"]
+tags:
+  - place
+  - island
+  - tabaxi
+  - sunken-crown
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Keth-Naar
 settlement_type: city-island
-aliases: ["Keth Naar", "Keth-Naar Island"]
+aliases:
+  - "Keth Naar"
+  - "Keth-Naar Island"
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "Keth-Naar elders and hunting community"
 access: "Dangerous reef approach; outsiders are assessed rather than casually admitted"

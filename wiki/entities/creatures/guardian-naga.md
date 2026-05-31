@@ -8,17 +8,19 @@ publish: true
 summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, celestial, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - celestial
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Guardian Naga
-aliases: [Guardian Naga]
+aliases:
+  - Guardian Naga
 cha: 18
 con: 16
 cr: 10
 creature_type: celestial
-cssclasses:
-  - wiki-monster
 dex: 18
 environment: desert, forest, planar, upper
 int: 16

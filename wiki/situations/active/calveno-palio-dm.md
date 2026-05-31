@@ -8,8 +8,14 @@ publish: false
 summary: "DM mechanics for running Il Palio delle Voci as a skill challenge — three-phase structure, rival disruptions, party roles, recruitable NPCs, and reward tiers."
 created: 2026-05-30
 updated: 2026-05-30
-tags: [situation, calveno, skill-challenge, palio, event]
-sources: ["Inbox/situations/islands/Il-Palio-delle-Voci.md"]
+tags:
+  - situation
+  - calveno
+  - skill-challenge
+  - palio
+  - event
+sources:
+  - "Inbox/situations/islands/Il-Palio-delle-Voci.md"
 lifecycle: active
 narrative_island: ""
 region: calveno

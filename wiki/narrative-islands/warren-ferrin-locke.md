@@ -8,8 +8,14 @@ publish: false
 summary: "Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out."
 created: 2026-05-22
 updated: 2026-05-30
-tags: [island, warren, investigation, espionage, jean-claude]
-sources: ["Inbox/Warren-Ferrin-Locke.md"]
+tags:
+  - island
+  - warren
+  - investigation
+  - espionage
+  - jean-claude
+sources:
+  - "Inbox/Warren-Ferrin-Locke.md"
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

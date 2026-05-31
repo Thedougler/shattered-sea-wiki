@@ -8,12 +8,19 @@ publish: true
 summary: "The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, warren, calveno, rattkin]
-sources: ["Inbox/Warren-Nonas-Table.md", "Inbox/The-Low-Lamp.md"]
+tags:
+  - place
+  - building
+  - warren
+  - calveno
+  - rattkin
+sources:
+  - "Inbox/Warren-Nonas-Table.md"
+  - "Inbox/The-Low-Lamp.md"
 confidence_level: medium
-title: The Low Lamp
 building_type: tavern
-aliases: [Low Lamp]
+aliases:
+  - Low Lamp
 district: Warren
 parent_location: "[[warren|The Warren]]"
 ---

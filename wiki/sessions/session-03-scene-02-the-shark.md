@@ -8,8 +8,15 @@ publish: false
 summary: "Session 03, Scene 02 — Whip shark encounter: three phases (probing, hook-seated, blood interruption), crew defaults, fast solution map, and ship narration reference."
 created: 2026-05-20
 updated: 2026-05-30
-tags: [session, session-03, scene, encounter, whip-shark, dm-prep]
-sources: ["Inbox/sessions/03/Scene-02-The-Shark.md"]
+tags:
+  - session
+  - session-03
+  - scene
+  - encounter
+  - whip-shark
+  - dm-prep
+sources:
+  - "Inbox/sessions/03/Scene-02-The-Shark.md"
 session_number: 3
 session_date: "unknown"
 beat_number: 2

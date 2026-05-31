@@ -8,8 +8,15 @@ publish: false
 summary: "Session 01, Scene 08 — The Saltwright boarding encounter: three phases (Hold, Above Deck, Gangplank). Phase 3 ends mid-combat at session close; resolution continues in Session 02."
 created: 2026-04-14
 updated: 2026-05-30
-tags: [session, session-01, scene, encounter, boarding, dm-prep]
-sources: ["Inbox/sessions/01/Scene-08-Encounter.md"]
+tags:
+  - session
+  - session-01
+  - scene
+  - encounter
+  - boarding
+  - dm-prep
+sources:
+  - "Inbox/sessions/01/Scene-08-Encounter.md"
 session_number: 1
 session_date: "unknown"
 beat_number: 8

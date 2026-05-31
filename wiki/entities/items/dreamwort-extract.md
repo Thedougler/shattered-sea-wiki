@@ -8,10 +8,16 @@ publish: true
 summary: "A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, sedative, calveno, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - sedative
+  - calveno
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Dreamwort Extract
 item_type: consumable
 rarity: uncommon
 attunement: false

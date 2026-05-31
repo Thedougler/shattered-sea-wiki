@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Wasp, a CR 1/2 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Wasp
-aliases: [Giant Wasp]
+aliases:
+  - Giant Wasp
 cha: 3
 con: 10
 cr: 1/2
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: forest, grassland, urban
 int: 1

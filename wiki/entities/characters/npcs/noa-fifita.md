@@ -8,8 +8,13 @@ publish: true
 summary: "Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [lizardfolk, minor-npc, kalowe]
-sources: ["wiki/situations/active/kalowe-takowan.md", "Inbox/Noa-Fifita.md"]
+tags:
+  - lizardfolk
+  - minor-npc
+  - kalowe
+sources:
+  - "wiki/situations/active/kalowe-takowan.md"
+  - "Inbox/Noa-Fifita.md"
 confidence_level: medium
 ---
 

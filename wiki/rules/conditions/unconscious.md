@@ -8,9 +8,11 @@ publish: false
 summary: Unconscious condition — Incapacitated and Prone, Speed 0, Advantage on attacks against you, auto-fail STR/DEX saves, any hit within 5 ft is a Critical Hit, unaware of surroundings.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Unconscious
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

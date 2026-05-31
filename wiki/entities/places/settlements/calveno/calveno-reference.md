@@ -8,10 +8,15 @@ publish: true
 summary: "Quick-reference for Calveno — the canal city, its districts, key people, and how it works."
 created: 2026-05-29
 updated: 2026-05-29
-tags: [place, settlement, port, reference, players]
-sources: ["Inbox/calven-summary.md"]
+tags:
+  - place
+  - settlement
+  - port
+  - reference
+  - players
+sources:
+  - "Inbox/calven-summary.md"
 confidence_level: confirmed
-title: Calveno — Player Reference
 canonical_location: "[[calveno|Calveno]]"
 ---
 

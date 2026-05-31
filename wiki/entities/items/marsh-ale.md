@@ -8,10 +8,15 @@ publish: true
 summary: "Dark, bitter ale brewed below Calveno in the Warren — 3 cp a mug, better than it sounds."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, food, drink, warren, calveno]
-sources: ["Homebrew"]
+tags:
+  - item
+  - food
+  - drink
+  - warren
+  - calveno
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Marsh Ale
 item_type: consumable
 rarity: common
 attunement: false

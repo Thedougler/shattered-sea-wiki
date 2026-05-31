@@ -8,10 +8,14 @@ publish: true
 summary: "Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, shipwright, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - shipwright
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Emergency Repair
 item_type: service
 rarity: common
 attunement: false

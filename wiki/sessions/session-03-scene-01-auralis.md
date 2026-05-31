@@ -8,8 +8,15 @@ publish: false
 summary: "Session 03, Scene 1 — Auralis pulls Perrin into a real impression of the Drowned Maw, shows the whip shark's tail-joint weakness through embodied experience, and delivers a single word: GROW."
 created: 2026-05-18
 updated: 2026-05-30
-tags: [session, session-03, scene, dm-prep, auralis, perrin]
-sources: ["Inbox/sessions/03/Scene-01-Auralis.md"]
+tags:
+  - session
+  - session-03
+  - scene
+  - dm-prep
+  - auralis
+  - perrin
+sources:
+  - "Inbox/sessions/03/Scene-01-Auralis.md"
 session_number: 3
 session_date: "unknown"
 beat_number: 1

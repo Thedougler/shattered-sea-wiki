@@ -8,9 +8,14 @@ publish: true
 summary: "Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, ship, tiers, crew]
-sources: [Homebrew]
-title: Ship Stats — The Shattered Sea
+tags:
+  - rule
+  - reference
+  - ship
+  - tiers
+  - crew
+sources:
+  - Homebrew
 confidence_level: medium
 ---
 

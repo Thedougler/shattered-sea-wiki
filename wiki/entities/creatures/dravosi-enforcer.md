@@ -8,8 +8,14 @@ publish: true
 summary: "A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence."
 created: 2026-04-19
 updated: 2026-05-28
-tags: [creature, humanoid, bestiary, dravosi, cr1/2]
-sources: ["Inbox/Dravosi-Enforcer.md"]
+tags:
+  - creature
+  - humanoid
+  - bestiary
+  - dravosi
+  - cr1/2
+sources:
+  - "Inbox/Dravosi-Enforcer.md"
 confidence_level: medium
 cr: "1/2"
 ---

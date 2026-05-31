@@ -8,15 +8,21 @@ publish: true
 summary: "Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [ruins, antheri, ancient_civilization, drowned-maw]
-sources: [Homebrew]
+tags:
+  - ruins
+  - antheri
+  - ancient_civilization
+  - drowned-maw
+sources:
+  - Homebrew
 confidence_level: medium
-title: Antheri Ruins
 region: maw
 parent_location: "[[the-drowned-maw|The Drowned Maw]]"
 governance: "Contested by salvagers, the Tessarine Concordat, and the Dravosi Crown"
 access: "Dangerous dive site; upper tier accessible, lower depths avoided"
-aliases: [The Ruins, Antheri]
+aliases:
+  - The Ruins
+  - Antheri
 ---
 
 # Antheri Ruins

@@ -8,10 +8,14 @@ publish: true
 summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, wondrous, ranged, attunement]
-sources: [PHB]
+tags:
+  - item
+  - wondrous
+  - ranged
+  - attunement
+sources:
+  - PHB
 confidence_level: high
-title: Bracers of Archery
 item_type: wondrous-item
 rarity: uncommon
 attunement: true

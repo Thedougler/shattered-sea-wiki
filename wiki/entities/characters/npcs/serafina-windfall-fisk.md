@@ -8,12 +8,17 @@ publish: true
 summary: "Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [npc, aasimar, fortune-teller]
-sources: ["Inbox/Serafina-Windfall-Fisk.md"]
+tags:
+  - npc
+  - aasimar
+  - fortune-teller
+sources:
+  - "Inbox/Serafina-Windfall-Fisk.md"
 confidence_level: medium
-title: Serafina Windfall Fisk
 species: aasimar
-aliases: [Serafina, Windfall]
+aliases:
+  - Serafina
+  - Windfall
 ---
 
 # Serafina Windfall Fisk

@@ -8,10 +8,14 @@ publish: true
 summary: "Secure short-term storage in the Warren — 1 gp per week, three-week hard limit, no exceptions."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, warren, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - warren
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Consignment Storage
 item_type: service
 rarity: common
 attunement: false

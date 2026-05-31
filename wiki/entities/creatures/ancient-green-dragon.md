@@ -8,17 +8,19 @@ publish: true
 summary: CR 22 chromatic dragon; master manipulator with devastating poison breath and a taste for long schemes over direct confrontation.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Ancient Green Dragon
-aliases: [Ancient Green Dragon]
+aliases:
+  - Ancient Green Dragon
 cha: 22
 con: 25
 cr: 22
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 12
 environment: forest
 int: 20

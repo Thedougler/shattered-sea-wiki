@@ -8,8 +8,11 @@ publish: false
 summary: "Agent quick reference for party-wide encounter tuning — lighting asymmetry, prep levers, and fair pressure distribution."
 created: 2026-05-27
 updated: 2026-05-30
-tags: [system, primer]
-sources: ["Inbox/private/system/Party-Combat-Primer.md"]
+tags:
+  - system
+  - primer
+sources:
+  - "Inbox/private/system/Party-Combat-Primer.md"
 system_role: party-primer
 token_profile: always-read
 mandatory_for: [encounter-design]

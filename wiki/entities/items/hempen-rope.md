@@ -8,10 +8,13 @@ publish: true
 summary: "Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "PHB"
 confidence_level: medium
-title: Hempen Rope
 item_type: equipment
 rarity: common
 attunement: false

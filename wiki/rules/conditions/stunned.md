@@ -8,9 +8,11 @@ publish: false
 summary: Stunned condition — Incapacitated, auto-fail STR/DEX saves, Advantage on attacks against you.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Stunned
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

@@ -8,10 +8,16 @@ publish: true
 summary: Oldest continuous commercial centre in the Scatter — a canal city of pale stone, witnessed deals, and a thousand conversations happening at once in the open.
 created: 2026-05-01
 updated: 2026-05-30
-tags: [city, tessarine, crown-islands, player-resource]
-sources: [Inbox/places/calveno/Calveno.md, Inbox/Session-02-Recap.md, Inbox/Session-03-Recap.md]
+tags:
+  - city
+  - tessarine
+  - crown-islands
+  - player-resource
+sources:
+  - Inbox/places/calveno/Calveno.md
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
 confidence_level: medium
-title: Calveno
 category: location
 settlement_type: city
 visibility: public

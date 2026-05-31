@@ -8,8 +8,13 @@ publish: false
 summary: "Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night."
 created: 2026-04-22
 updated: 2026-05-30
-tags: [session, session-01, scene, read-aloud]
-sources: ["Inbox/sessions/01/Scene-01-The-World.md"]
+tags:
+  - session
+  - session-01
+  - scene
+  - read-aloud
+sources:
+  - "Inbox/sessions/01/Scene-01-The-World.md"
 session_number: 1
 session_date: "unknown"
 beat_number: 1

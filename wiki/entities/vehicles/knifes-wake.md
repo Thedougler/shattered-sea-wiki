@@ -8,14 +8,19 @@ publish: true
 summary: "A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, tier-1, pirate]
-sources: ["Homebrew"]
+tags:
+  - vehicle
+  - ship
+  - tier-1
+  - pirate
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: The Knife's Wake
 ship_class: pirate cutter
 tier: 1
-cssclasses: [wiki-ship]
-aliases: ["Knife's Wake", "The Knife's Wake"]
+aliases:
+  - "Knife's Wake"
+  - "The Knife's Wake"
 ---
 
 # The *Knife's Wake*

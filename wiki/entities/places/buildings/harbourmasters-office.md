@@ -8,12 +8,18 @@ publish: true
 summary: "Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, dravosi, port-tidefall]
-sources: ["Inbox/Reginald-Fenn.md", "Inbox/Harbourmasters-Office.md"]
+tags:
+  - place
+  - building
+  - dravosi
+  - port-tidefall
+sources:
+  - "Inbox/Reginald-Fenn.md"
+  - "Inbox/Harbourmasters-Office.md"
 confidence_level: medium
-title: Harbourmaster's Office
 building_type: office
-aliases: ["Tidefall Harbourmaster"]
+aliases:
+  - "Tidefall Harbourmaster"
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Dockfront
 ---

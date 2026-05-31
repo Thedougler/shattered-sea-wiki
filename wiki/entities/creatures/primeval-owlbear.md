@@ -8,17 +8,19 @@ publish: false
 summary: A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, monstrosity, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - monstrosity
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Primeval Owlbear
-aliases: [Primeval Owlbear]
+aliases:
+  - Primeval Owlbear
 cha: 7
 con: 19
 cr: 7
 creature_type: monstrosity
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: forest
 int: 8

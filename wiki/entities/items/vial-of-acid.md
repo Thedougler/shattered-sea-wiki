@@ -8,10 +8,14 @@ publish: true
 summary: "Concentrated acid in a glass vial — dissolves metal, wood, and other materials; thrown as a weapon."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, weapon]
-sources: [PHB]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - weapon
+sources:
+  - PHB
 confidence_level: confirmed
-title: Vial of Acid
 item_type: consumable
 rarity: common
 attunement: false

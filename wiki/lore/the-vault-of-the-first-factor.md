@@ -8,9 +8,14 @@ publish: false
 summary: "A legendary hidden Tessarine depository on an uncharted Midchain limestone spire — holds centuries of collateral from debtors who couldn't pay. No credentials means no return."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [lore, legend, tessarine, treasure, midchain]
-sources: [Homebrew]
-title: The Vault of the First Factor
+tags:
+  - lore
+  - legend
+  - tessarine
+  - treasure
+  - midchain
+sources:
+  - Homebrew
 confidence_level: low
 ---
 

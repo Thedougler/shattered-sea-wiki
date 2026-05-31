@@ -8,14 +8,20 @@ publish: true
 summary: "Halfling proprietor of Al Fondale in Calveno's Le Paludi; knows about the Passage's Warren entrance in her cellar and has kept it quiet for two years."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, halfling, calveno, passage, tavern]
-sources: [Inbox/Bice-Riva.md]
+tags:
+  - npc
+  - halfling
+  - calveno
+  - passage
+  - tavern
+sources:
+  - Inbox/Bice-Riva.md
 confidence_level: medium
-title: Bice Riva
 category: character
 species: halfling
 pronouns: she/her
-aliases: [Bice]
+aliases:
+  - Bice
 ---
 
 # Bice Riva

@@ -8,9 +8,14 @@ publish: true
 summary: "Ship facility (Library Tier 1) that lets a hireling research a topic over 7 days and return up to three previously unknown facts."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, bastion, facility, ship]
-sources: ["Dungeon Master's Guide (2024)"]
-title: Chart Archive
+tags:
+  - rule
+  - reference
+  - bastion
+  - facility
+  - ship
+sources:
+  - "Dungeon Master's Guide (2024)"
 confidence_level: confirmed
 ---
 

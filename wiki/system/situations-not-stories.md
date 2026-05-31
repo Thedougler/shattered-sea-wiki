@@ -8,8 +8,12 @@ publish: false
 summary: "Core prep principle: write situations, not stories. Drop the players into something interesting and find out what they do. Whatever they do next is the story."
 created: 2026-04-22
 updated: 2026-05-30
-tags: [system, dm-philosophy, prep]
-sources: ["Inbox/private/system/guides/Situations-Not-Stories.md"]
+tags:
+  - system
+  - dm-philosophy
+  - prep
+sources:
+  - "Inbox/private/system/guides/Situations-Not-Stories.md"
 system_role: "unknown"
 token_profile: on-demand
 mandatory_for: []

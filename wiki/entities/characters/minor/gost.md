@@ -8,8 +8,14 @@ publish: false
 summary: "Stub — Half-orc berserker available as a loose hiring hook in the Warren; no fixed loyalty."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [stub, minor, warren, half-orc, mercenary]
-sources: ["Inbox/Calveno-Street-Encounters.md"]
+tags:
+  - stub
+  - minor
+  - warren
+  - half-orc
+  - mercenary
+sources:
+  - "Inbox/Calveno-Street-Encounters.md"
 confidence_level: low
 ---
 

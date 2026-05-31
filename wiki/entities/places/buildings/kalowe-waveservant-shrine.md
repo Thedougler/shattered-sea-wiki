@@ -8,12 +8,18 @@ publish: true
 summary: "Umberlee's shrine on the main causeway at Kalowe — a stone niche, a basin, a single Waveservant who barely looks up. The reef gap is close enough to explain everything."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, shrine, kalowe, umberlee]
-sources: ["Homebrew"]
+tags:
+  - place
+  - building
+  - shrine
+  - kalowe
+  - umberlee
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Waveservant Shrine — Kalowe
 building_type: shrine
-aliases: ["Kalowe Waveservant Shrine"]
+aliases:
+  - "Kalowe Waveservant Shrine"
 parent_location: "[[kalowe|Kalowe]]"
 district: Main Causeway
 ---

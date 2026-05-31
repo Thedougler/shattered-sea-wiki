@@ -8,9 +8,11 @@ publish: false
 summary: Restrained condition — Speed 0, Advantage on attacks against you, Disadvantage on your attacks and Dexterity saves.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Restrained
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

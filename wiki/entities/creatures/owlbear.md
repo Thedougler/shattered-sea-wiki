@@ -8,17 +8,19 @@ publish: true
 summary: The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, monstrosity, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - monstrosity
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Owlbear
-aliases: [Owlbear]
+aliases:
+  - Owlbear
 cha: 7
 con: 17
 cr: 3
 creature_type: monstrosity
-cssclasses:
-  - wiki-monster
 dex: 12
 environment: forest
 int: 3

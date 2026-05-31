@@ -8,10 +8,14 @@ publish: true
 summary: "A forensic-grade topical compound that causes a wound to present as 2–4 days older than it is under standard medical examination."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, calveno]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - calveno
+sources:
+  - Homebrew
 confidence_level: medium
-title: Bile of the Drowned
 item_type: consumable
 rarity: rare
 attunement: false

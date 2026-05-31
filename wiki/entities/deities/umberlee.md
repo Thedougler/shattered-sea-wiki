@@ -8,8 +8,18 @@ publish: false
 summary: "Dominant sea goddess of the Shattered Sea: feared, transactional, and ordinary port infrastructure through the Waveservants. She pressed five captains' souls into Delmar Fisk and now has an active servant waiting in Calveno."
 created: 2026-05-27
 updated: 2026-05-30
-tags: [deity, sea, antagonist, waveservants]
-sources: ["Inbox/Delmar-Fisk.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Umberlee.md", "Inbox/Shattered-Sea-Pantheon.md", "Inbox/situations/reference/Umberlee-DM.md"]
+tags:
+  - deity
+  - sea
+  - antagonist
+  - waveservants
+sources:
+  - "Inbox/Delmar-Fisk.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Umberlee.md"
+  - "Inbox/Shattered-Sea-Pantheon.md"
+  - "Inbox/situations/reference/Umberlee-DM.md"
 confidence_level: confirmed
 ---
 

@@ -8,10 +8,13 @@ publish: true
 summary: "Salt-treated linen bandages and wound cloths — extends what a healer's kit can do."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, medical]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - medical
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Wound Dressing
 item_type: consumable
 rarity: common
 attunement: false

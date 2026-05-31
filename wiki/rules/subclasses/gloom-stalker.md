@@ -8,9 +8,12 @@ publish: false
 summary: Ranger subclass (PHB 2024) — Scout/ambush specialist; Umbral Sight grants effective invisibility in darkness; Jean-Claude Tabarnack is a Gloom Stalker.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, ranger]
-sources: [PHB 2024]
-title: Gloom Stalker
+tags:
+  - rules
+  - subclass
+  - ranger
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

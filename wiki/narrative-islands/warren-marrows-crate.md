@@ -8,8 +8,13 @@ publish: false
 summary: "A dead courier's crate at Marrow's has been sitting unclaimed for three weeks. The courier was murdered. A Dravosi spy is watching the canal approaches for whoever comes to collect."
 created: 2026-05-22
 updated: 2026-05-30
-tags: [island, warren, investigation, espionage]
-sources: ["Inbox/Warren-Marrows-Crate.md"]
+tags:
+  - island
+  - warren
+  - investigation
+  - espionage
+sources:
+  - "Inbox/Warren-Marrows-Crate.md"
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

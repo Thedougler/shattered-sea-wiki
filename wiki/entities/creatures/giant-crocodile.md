@@ -8,17 +8,19 @@ publish: true
 summary: The Giant Crocodile, a CR 5 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Crocodile
-aliases: [Giant Crocodile]
+aliases:
+  - Giant Crocodile
 cha: 7
 con: 17
 cr: 5
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 9
 environment: coastal, swamp
 int: 2

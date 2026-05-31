@@ -8,9 +8,12 @@ publish: false
 summary: Sorcerer subclass (Fiends of Fey & Flame 2024) — divine radiant magic; Spellfire Burst rider effects, Absorb Spells defensive tool, Greater Restoration at 11th level; support-oriented.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, sorcerer]
-sources: [Fiends of Fey and Flame (2024)]
-title: Spellfire Sorcery
+tags:
+  - rules
+  - subclass
+  - sorcerer
+sources:
+  - Fiends of Fey and Flame (2024)
 confidence_level: medium
 ---
 

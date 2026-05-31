@@ -8,12 +8,16 @@ publish: false
 summary: DM navigation reference for Calveno — district-by-district layout, key locations, and phrases for describing movement between them.
 created: 2026-05-27
 updated: 2026-05-30
-tags: [calveno, dm-reference, navigation]
-sources: [Inbox/places/calveno/Calveno-Districts.md]
+tags:
+  - calveno
+  - dm-reference
+  - navigation
+sources:
+  - Inbox/places/calveno/Calveno-Districts.md
 confidence_level: high
-title: Calveno — District Layout
 region: calveno
-aliases: [Calveno Districts]
+aliases:
+  - Calveno Districts
 ---
 
 # Calveno — District Layout

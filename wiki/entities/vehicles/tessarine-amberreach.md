@@ -8,10 +8,15 @@ publish: false
 summary: "The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, tessarine, tier-3, cargo]
-sources: [Homebrew]
+tags:
+  - vehicle
+  - ship
+  - tessarine
+  - tier-3
+  - cargo
+sources:
+  - Homebrew
 confidence_level: medium
-title: Tessarine Factor Amberreach
 ship_class: cargo galleon
 tier: 3
 captain: "[[oriana-becht|Oriana Becht]]"

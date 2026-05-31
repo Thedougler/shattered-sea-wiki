@@ -8,9 +8,14 @@ publish: false
 summary: "Pointy Hat's system for dynamic boss fights: the boss telegraphs a threat at end of its turn, players have a full round to neutralize or mitigate it before resolution."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, combat, boss, encounter-design]
-sources: ["Pointy Hat: Battlefield Actions"]
-title: Battlefield Actions
+tags:
+  - rule
+  - reference
+  - combat
+  - boss
+  - encounter-design
+sources:
+  - "Pointy Hat: Battlefield Actions"
 confidence_level: medium
 ---
 

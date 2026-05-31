@@ -8,10 +8,16 @@ publish: false
 summary: "Umberlee's shrine on the Mercatura canal front — basin fed from the channel, tribute terms facing outward. An unnamed servant is not sleeping here until Delmar arrives."
 created: 2026-05-27
 updated: 2026-05-29
-tags: [place, calveno, shrine, umberlee, dm-active]
-sources: ["Inbox/Session-03-Recap.md", "Inbox/Waveservant-Shrine.md"]
+tags:
+  - place
+  - calveno
+  - shrine
+  - umberlee
+  - dm-active
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Waveservant-Shrine.md"
 confidence_level: confirmed
-title: Waveservant Shrine — Calveno
 building_type: shrine
 district: Mercatura
 ---

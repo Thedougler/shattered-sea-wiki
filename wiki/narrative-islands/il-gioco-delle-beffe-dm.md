@@ -8,12 +8,16 @@ publish: false
 summary: "DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [narrative-island, event, calveno, skill-challenge]
-sources: ["Inbox/Il-Gioco-delle-Beffe copy.md"]
+tags:
+  - narrative-island
+  - event
+  - calveno
+  - skill-challenge
+sources:
+  - "Inbox/Il-Gioco-delle-Beffe copy.md"
 portable: false
 entry_points: []
 contains_situations: []
-title: Il Gioco delle Beffe — DM Notes
 region: calveno
 confidence_level: medium
 ---

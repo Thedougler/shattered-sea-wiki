@@ -8,10 +8,14 @@ publish: true
 summary: "Hull caulking tar — seals seams, coats rope, and keeps water where it belongs."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime, ship]
-sources: [Homebrew]
+tags:
+  - item
+  - equipment
+  - maritime
+  - ship
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Tar
 item_type: equipment
 rarity: common
 attunement: false

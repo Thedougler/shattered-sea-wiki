@@ -8,9 +8,11 @@ publish: false
 summary: Frightened condition — Disadvantage on ability checks and attacks while source is in line of sight; can't willingly move closer to the source.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Frightened
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

@@ -8,8 +8,14 @@ publish: false
 summary: "Secret mystical flock threaded through Dravosi and Tessarine noble courts. Shepherd Grigori heals dying heirs and binds them as unwitting phylacteries."
 created: 2026-05-28
 updated: 2026-05-30
-tags: [faction, cult, dm-only, undead, grigori]
-sources: ["Inbox/Khlysty.md"]
+tags:
+  - faction
+  - cult
+  - dm-only
+  - undead
+  - grigori
+sources:
+  - "Inbox/Khlysty.md"
 confidence_level: confirmed
 ---
 

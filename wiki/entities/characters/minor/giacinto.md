@@ -8,8 +8,14 @@ publish: false
 summary: "Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells beret-and-moustache kits that read as 'performer' to Calveno crowds; key to Jean-Claude blending in."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [stub, minor, calveno, gnome, craftsman]
-sources: ["Inbox/Calveno-Jean-Claude-Beats.md"]
+tags:
+  - stub
+  - minor
+  - calveno
+  - gnome
+  - craftsman
+sources:
+  - "Inbox/Calveno-Jean-Claude-Beats.md"
 confidence_level: medium
 ---
 

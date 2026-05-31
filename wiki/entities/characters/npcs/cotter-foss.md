@@ -8,10 +8,17 @@ publish: true
 summary: "Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [halfling, minor-npc, nimmik-vollask, merchant]
-sources: ["Inbox/Nimmik-Vollask.md", "Inbox/Cotter-Foss.md"]
+tags:
+  - halfling
+  - minor-npc
+  - nimmik-vollask
+  - merchant
+sources:
+  - "Inbox/Nimmik-Vollask.md"
+  - "Inbox/Cotter-Foss.md"
 confidence_level: medium
-aliases: [Cotter]
+aliases:
+  - Cotter
 ---
 
 # Cotter Foss

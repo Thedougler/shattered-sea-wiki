@@ -8,17 +8,19 @@ publish: true
 summary: CR 2 fiend; conducts blood rites at submerged shrines in the blue holes of the Drowned Maw; encountered where warbands gather before a raid.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fiend, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - fiend
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Sahuagin Priest
-aliases: [Sahuagin Priest]
+aliases:
+  - Sahuagin Priest
 cha: 13
 con: 12
 cr: 2
 creature_type: fiend
-cssclasses:
-  - wiki-monster
 dex: 11
 environment: coastal, underwater
 int: 12

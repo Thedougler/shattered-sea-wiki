@@ -8,10 +8,13 @@ publish: true
 summary: "A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Iron Cleat
 item_type: equipment
 rarity: common
 attunement: false

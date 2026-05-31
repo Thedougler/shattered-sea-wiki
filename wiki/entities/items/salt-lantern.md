@@ -8,10 +8,16 @@ publish: true
 summary: "A brass lantern that burns indefinitely without fuel — but only in salt air; it goes dark inland or in enclosed spaces within one minute."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, wondrous, arcane, morsani-stock, maritime, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - wondrous
+  - arcane
+  - morsani-stock
+  - maritime
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Salt Lantern
 item_type: wondrous
 rarity: common
 attunement: false

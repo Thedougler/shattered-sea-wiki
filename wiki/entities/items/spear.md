@@ -8,10 +8,15 @@ publish: true
 summary: "An iron-tipped wooden shaft — the most basic polearm, thrown or thrust, at home on a ship's deck."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, simple, melee, thrown]
-sources: [PHB]
+tags:
+  - item
+  - weapon
+  - simple
+  - melee
+  - thrown
+sources:
+  - PHB
 confidence_level: confirmed
-title: Spear
 item_type: weapon
 rarity: common
 attunement: false

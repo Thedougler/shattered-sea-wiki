@@ -8,10 +8,14 @@ publish: true
 summary: "Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - provision
+  - consumable
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Fresh Citrus
 item_type: provision
 rarity: common
 attunement: false

@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Vulture, a CR 1 monstrosity in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, monstrosity, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - monstrosity
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Vulture
-aliases: [Giant Vulture]
+aliases:
+  - Giant Vulture
 cha: 7
 con: 16
 cr: 1
 creature_type: monstrosity
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: desert, grassland, hill
 int: 6

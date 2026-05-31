@@ -8,12 +8,19 @@ publish: true
 summary: "The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says."
 created: '2026-05-29'
 updated: 2026-05-30
-tags: [place, building, kalowe, tavern, lodging]
-sources: ["Inbox/Five-Blades.md", "Inbox/The-Flat-Water.md"]
+tags:
+  - place
+  - building
+  - kalowe
+  - tavern
+  - lodging
+sources:
+  - "Inbox/Five-Blades.md"
+  - "Inbox/The-Flat-Water.md"
 confidence_level: medium
-title: The Flat Water
 building_type: tavern
-aliases: [Flat Water]
+aliases:
+  - Flat Water
 parent_location: "[[kalowe|Kalowe]]"
 ---
 

@@ -8,8 +8,14 @@ publish: false
 summary: "A nervous fisherman at the Flat Water knows where the Bad Receipt stashed nine crates of prize cargo on a nameless rock 3 miles east — and the Bad Receipt's captain is on the causeways today, asking the same question."
 created: 2026-05-30
 updated: 2026-05-30
-tags: [situation, kalowe, contraband, race, the-bad-receipt]
-sources: ["Inbox/situations/islands/Kalowe-Bad-Receipt-Cache.md"]
+tags:
+  - situation
+  - kalowe
+  - contraband
+  - race
+  - the-bad-receipt
+sources:
+  - "Inbox/situations/islands/Kalowe-Bad-Receipt-Cache.md"
 lifecycle: active
 narrative_island: ""
 region: midchain

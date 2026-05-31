@@ -8,10 +8,13 @@ publish: true
 summary: "A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, light]
-sources: [PHB]
+tags:
+  - item
+  - equipment
+  - light
+sources:
+  - PHB
 confidence_level: medium
-title: Bullseye Lantern
 item_type: equipment
 rarity: common
 attunement: false

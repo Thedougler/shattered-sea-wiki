@@ -8,8 +8,13 @@ publish: false
 summary: "Midchain first mate, sole survivor of the Cormorant wreck; drinking at The Flat Water in Kalowe, looking for divers to recover the captain's strongbox."
 created: 2026-05-30
 updated: 2026-05-30
-tags: [npc, kalowe, midchain, hook]
-sources: ["Inbox/situations/islands/Kalowe-Merrows-Prize.md"]
+tags:
+  - npc
+  - kalowe
+  - midchain
+  - hook
+sources:
+  - "Inbox/situations/islands/Kalowe-Merrows-Prize.md"
 confidence_level: medium
 region: midchain
 ---

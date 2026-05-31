@@ -8,10 +8,14 @@ publish: true
 summary: "Helm-installed sending stones for remote ship command — one Sending per day from the helm, allows bastion orders at range."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, communication, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - ship-upgrade
+  - communication
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Sending Stone Anchor
 item_type: ship-upgrade
 rarity: uncommon
 requires_attunement: false

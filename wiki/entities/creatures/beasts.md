@@ -8,10 +8,13 @@ publish: true
 summary: Player index for beasts, swarms, and natural predators of the Shattered Sea.
 created: '2026-05-05'
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: ["Unknown"]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources: []
 confidence_level: medium
-title: Beasts
 visibility: public
 ---
 

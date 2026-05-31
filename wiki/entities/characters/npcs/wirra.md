@@ -8,8 +8,14 @@ publish: false
 summary: "Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [npc, moucheron, five-blades, mercenary, medic]
-sources: ["Inbox/Five-Blades.md"]
+tags:
+  - npc
+  - moucheron
+  - five-blades
+  - mercenary
+  - medic
+sources:
+  - "Inbox/Five-Blades.md"
 confidence_level: confirmed
 ---
 

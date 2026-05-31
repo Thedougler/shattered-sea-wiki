@@ -8,10 +8,14 @@ publish: true
 summary: "A curtained booth off the south wall of the Low Lamp — for conversations that need to not carry. 2 sp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, lodging, warren, calveno]
-sources: ["Homebrew"]
+tags:
+  - item
+  - lodging
+  - warren
+  - calveno
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Private Alcove
 item_type: lodging
 rarity: uncommon
 attunement: false

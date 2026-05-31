@@ -8,12 +8,18 @@ publish: true
 summary: "Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, dravosi, port-tidefall, maritime]
-sources: ["Homebrew"]
+tags:
+  - place
+  - building
+  - dravosi
+  - port-tidefall
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: The Inspection Pier
 building_type: pier
-aliases: ["Inspection Pier"]
+aliases:
+  - "Inspection Pier"
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Dockfront
 ---

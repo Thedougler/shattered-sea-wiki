@@ -8,12 +8,20 @@ publish: true
 summary: "The Warren's apothecary and healer — a small, methodical Rattkin named Colla sets bones, closes wounds, and stocks the only reliable supply of healing preparations below Calveno."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, warren, calveno, rattkin, healer]
-sources: ["Inbox/Warren-Nonas-Table.md", "Inbox/The-Splint.md"]
+tags:
+  - place
+  - building
+  - warren
+  - calveno
+  - rattkin
+  - healer
+sources:
+  - "Inbox/Warren-Nonas-Table.md"
+  - "Inbox/The-Splint.md"
 confidence_level: medium
-title: The Splint
 building_type: apothecary
-aliases: [Splint]
+aliases:
+  - Splint
 district: Warren
 parent_location: "[[warren|The Warren]]"
 ---

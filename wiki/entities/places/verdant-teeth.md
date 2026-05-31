@@ -8,12 +8,20 @@ publish: true
 summary: "Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, region, grung, midchain]
-sources: ["Inbox/Jean-Claude-Tabarnack.md", "Inbox/Grung.md", "Inbox/Demographics.md", "Inbox/Verdant-Teeth.md"]
+tags:
+  - place
+  - region
+  - grung
+  - midchain
+sources:
+  - "Inbox/Jean-Claude-Tabarnack.md"
+  - "Inbox/Grung.md"
+  - "Inbox/Demographics.md"
+  - "Inbox/Verdant-Teeth.md"
 confidence_level: confirmed
-title: The Verdant Teeth
 region_type: island-cluster
-aliases: [Verdant Teeth]
+aliases:
+  - Verdant Teeth
 parent_location: "[[midchain|The Midchain]]"
 governance: "[[grung-clans|The Grung Clans]]"
 access: "restricted beach trade at Veth; interiors forbidden to outsiders"

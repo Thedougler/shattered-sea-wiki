@@ -8,10 +8,14 @@ publish: true
 summary: "A tapered steel tool for separating rope strands and working knots — essential gear for anyone who works rigging. 5 sp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+  - tool
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Marlinspike
 item_type: tool
 rarity: common
 attunement: false

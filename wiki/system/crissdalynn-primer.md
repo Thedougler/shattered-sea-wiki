@@ -8,13 +8,15 @@ publish: false
 summary: "Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [system, primer, pc]
+tags:
+  - system
+  - primer
+  - pc
 sources: []
 system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ''
-title: Crissdalynn Primer
 confidence_level: medium
 ---
 

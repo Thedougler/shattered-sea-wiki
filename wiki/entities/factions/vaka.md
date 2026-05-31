@@ -8,10 +8,15 @@ publish: false
 summary: "Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time."
 created: '2026-05-29'
 updated: 2026-05-30
-tags: [faction, grung, free-grung, midchain]
-sources: ["Inbox/Felix-Aho.md", "Inbox/situations/reference/Vaka.md"]
+tags:
+  - faction
+  - grung
+  - free-grung
+  - midchain
+sources:
+  - "Inbox/Felix-Aho.md"
+  - "Inbox/situations/reference/Vaka.md"
 confidence_level: medium
-title: Vaka
 ---
 
 # Vaka

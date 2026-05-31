@@ -8,10 +8,16 @@ publish: true
 summary: "Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, construct, antheri, calveno, homebrew]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Clockwork-Familiar.md"]
+tags:
+  - item
+  - construct
+  - antheri
+  - calveno
+  - homebrew
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Clockwork-Familiar.md"
 confidence_level: confirmed
-title: Clockwork Owl Familiar
 item_type: construct
 rarity: uncommon
 requires_attunement: true

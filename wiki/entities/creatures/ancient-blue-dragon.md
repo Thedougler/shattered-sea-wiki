@@ -8,17 +8,20 @@ publish: true
 summary: CR 23 chromatic dragon laired in the Redwind Isles of the Outer Reach; it has made the islands uninhabitable and doesn't need to explain itself.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Ancient Blue Dragon
-aliases: [Ancient Blue Dragon]
+aliases:
+  - Ancient Blue Dragon
 cha: 25
 con: 27
 cr: 23
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: coastal, desert
 int: 18

@@ -8,10 +8,12 @@ publish: true
 summary: "A heavier, sturdier lantern built for use near ironwork and on rough decks where glass-panelled models don't survive. 4 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Iron Lantern
 item_type: equipment
 rarity: common
 attunement: false

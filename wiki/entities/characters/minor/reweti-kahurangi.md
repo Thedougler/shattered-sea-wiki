@@ -8,8 +8,12 @@ publish: true
 summary: "Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [tortle, minor-npc, kalowe]
-sources: ["Inbox/Reweti-Kahurangi.md"]
+tags:
+  - tortle
+  - minor-npc
+  - kalowe
+sources:
+  - "Inbox/Reweti-Kahurangi.md"
 confidence_level: medium
 ---
 

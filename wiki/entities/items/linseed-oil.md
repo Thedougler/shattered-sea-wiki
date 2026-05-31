@@ -8,10 +8,13 @@ publish: true
 summary: "Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Linseed Oil
 item_type: consumable
 rarity: common
 attunement: false

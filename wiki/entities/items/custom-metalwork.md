@@ -8,10 +8,13 @@ publish: true
 summary: "Custom bolt patterns, deck fittings, and ironwork fabricated to specification — 1–2 day turnaround at a dry-dock ironmonger."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, kalowe]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - kalowe
+sources:
+  - Homebrew
 confidence_level: medium
-title: Custom Metalwork
 item_type: service
 rarity: common
 attunement: false

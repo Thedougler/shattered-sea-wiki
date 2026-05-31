@@ -8,17 +8,19 @@ publish: true
 summary: CR 5 fiend; sahuagin warlord commanding shark-riders from the deep shelf of the Drowned Maw — Fiendish Blood curses anyone who cuts it.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fiend, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - fiend
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Sahuagin Baron
-aliases: [Sahuagin Baron]
+aliases:
+  - Sahuagin Baron
 cha: 17
 con: 16
 cr: 5
 creature_type: fiend
-cssclasses:
-  - wiki-monster
 dex: 15
 environment: coastal, underwater
 int: 14

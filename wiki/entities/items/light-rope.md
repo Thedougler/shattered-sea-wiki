@@ -8,10 +8,12 @@ publish: true
 summary: "Lighter household rope for general use — not rigging grade, but sufficient for everything that doesn't go to sea."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Light Rope
 item_type: equipment
 rarity: common
 attunement: false

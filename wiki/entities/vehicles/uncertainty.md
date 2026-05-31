@@ -8,10 +8,17 @@ publish: false
 summary: "Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock."
 created: 2026-05-28
 updated: 2026-05-30
-tags: [vehicle, ship, tier-1, prize, active_arc]
-sources: ["Inbox/Uncertainty.md", "Inbox/Session-01-Recap.md", "Inbox/Session-03-Recap.md"]
+tags:
+  - vehicle
+  - ship
+  - tier-1
+  - prize
+  - active_arc
+sources:
+  - "Inbox/Uncertainty.md"
+  - "Inbox/Session-01-Recap.md"
+  - "Inbox/Session-03-Recap.md"
 confidence_level: high
-title: Uncertainty
 ship_class: patrol cutter (private registry)
 captain: "[[delmar-fisk|Delmar Fisk]]"
 home_port: "[[la-vasca|La Vasca]], Calveno"
@@ -19,8 +26,6 @@ current_location: "[[la-vasca|La Vasca]], Calveno — refit complete, dry dock"
 tier: 1
 hull_points: 130
 hull_ac: 11
-cssclasses:
-  - wiki-ship
 ---
 
 # Uncertainty

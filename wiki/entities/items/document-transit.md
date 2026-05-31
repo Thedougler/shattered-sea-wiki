@@ -8,10 +8,15 @@ publish: true
 summary: "Secure transit for sealed documents through the Warren's Kin network — 5 gp minimum, price reflects content weight not physical weight."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, warren, passage, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - warren
+  - passage
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Document Transit
 item_type: service
 rarity: common
 attunement: false

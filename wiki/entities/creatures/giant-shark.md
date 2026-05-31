@@ -8,17 +8,19 @@ publish: true
 summary: The Giant Shark, a CR 5 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Shark
-aliases: [Giant Shark]
+aliases:
+  - Giant Shark
 cha: 5
 con: 21
 cr: 5
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 11
 environment: underwater
 int: 1

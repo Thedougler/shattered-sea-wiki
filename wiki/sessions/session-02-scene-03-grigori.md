@@ -8,8 +8,13 @@ publish: false
 summary: "Session 02, Scene 03 — Shepherd Grigori alone in the galley with the table set; crew behind a locked door; the Question, the Condition, and the Knighton reveal."
 created: 2026-05-15
 updated: 2026-05-30
-tags: [session, session-02, scene, dm-prep]
-sources: ["Inbox/sessions/02/Scene-03-Grigori.md"]
+tags:
+  - session
+  - session-02
+  - scene
+  - dm-prep
+sources:
+  - "Inbox/sessions/02/Scene-03-Grigori.md"
 session_number: 2
 session_date: "unknown"
 beat_number: 3

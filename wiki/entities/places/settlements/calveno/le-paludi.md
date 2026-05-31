@@ -8,8 +8,13 @@ publish: false
 summary: "District or neighborhood in Calveno. Location of Nona Black-Jaw's kitchen and the Kyzil reunion. Rattkin community presence."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [stub, place, calveno, district]
-sources: ["Inbox/Session-03-Recap.md"]
+tags:
+  - stub
+  - place
+  - calveno
+  - district
+sources:
+  - "Inbox/Session-03-Recap.md"
 confidence_level: inferred
 ---
 

@@ -8,10 +8,14 @@ publish: true
 summary: "The daily communal meal of the Warren — salt fish flaked into root vegetable porridge, reliable every day without exception."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, food, warren, provision]
-sources: [Homebrew]
+tags:
+  - item
+  - food
+  - warren
+  - provision
+sources:
+  - Homebrew
 confidence_level: medium
-title: Salt Fish and Root Porridge
 item_type: food
 rarity: common
 attunement: false

@@ -8,10 +8,14 @@ publish: false
 summary: DM index for undead creature types in the Shattered Sea bestiary — Pointy Hat lich variants and related undead.
 created: 2026-05-15
 updated: 2026-05-30
-tags: [index, bestiary, creature, undead]
-sources: [Inbox/beastiary/undead/index.md]
+tags:
+  - index
+  - bestiary
+  - creature
+  - undead
+sources:
+  - Inbox/beastiary/undead/index.md
 confidence_level: high
-title: Undead
 ---
 
 # Undead

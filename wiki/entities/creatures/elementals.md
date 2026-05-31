@@ -8,10 +8,14 @@ publish: true
 summary: Player index for elemental creatures of the Shattered Sea — creatures born from or bound to elemental forces.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/elementals/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/elementals/index.md
 confidence_level: medium
-title: Elementals
 visibility: public
 ---
 

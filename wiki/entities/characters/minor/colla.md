@@ -8,8 +8,11 @@ publish: true
 summary: "Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [rattkin, minor-npc]
-sources: ["Inbox/Colla.md"]
+tags:
+  - rattkin
+  - minor-npc
+sources:
+  - "Inbox/Colla.md"
 confidence_level: medium
 ---
 

@@ -8,14 +8,19 @@ publish: true
 summary: The oldest settled island in the Crown Islands — low-lying marshland and tidal flats beneath a Tessarine-dominated commercial city, with a Rattkin population beneath it older than either colonial power.
 created: 2026-05-04
 updated: 2026-05-30
-tags: [island, crown-islands, tessarine]
-sources: [Inbox/places/calven/index.md]
+tags:
+  - island
+  - crown-islands
+  - tessarine
+sources:
+  - Inbox/places/calven/index.md
 confidence_level: medium
-title: Calven
 category: location
 island_type: city-island
 visibility: public
-aliases: [Calven Island, Isle of Calven]
+aliases:
+  - Calven Island
+  - Isle of Calven
 region: crown-islands
 ---
 

@@ -8,9 +8,12 @@ publish: false
 summary: Warlock subclass (PHB 2024) — alien patron grants telepathy, aberration knowledge, Entropic Ward, and eventually Devouring Blade; Perrin Black-Jaw is a Great Old One Warlock.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, warlock]
-sources: [PHB 2024]
-title: Great Old One
+tags:
+  - rules
+  - subclass
+  - warlock
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

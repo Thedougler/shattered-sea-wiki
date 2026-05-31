@@ -8,10 +8,13 @@ publish: true
 summary: "Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, food, drink]
-sources: ["Homebrew"]
+tags:
+  - item
+  - food
+  - drink
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: House Spirits
 item_type: food
 rarity: common
 attunement: false

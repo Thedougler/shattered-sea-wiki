@@ -8,10 +8,14 @@ publish: true
 summary: "Very low-alcohol fermented grain drink — safer than untreated water on long passages, without the intoxicating effects of real ale."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable, drink]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+  - drink
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Small Beer
 item_type: provision
 rarity: common
 attunement: false

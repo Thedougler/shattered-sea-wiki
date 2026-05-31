@@ -8,10 +8,15 @@ publish: true
 summary: "A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, crew, construct, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - ship-upgrade
+  - crew
+  - construct
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Clockwork Deck Crew
 item_type: ship-upgrade
 rarity: uncommon
 requires_attunement: false

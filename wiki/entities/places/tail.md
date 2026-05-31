@@ -8,12 +8,19 @@ publish: true
 summary: "The eastern end of the Verdant Scatter — high cliffs, cold upwelling, hard pilots, longline grounds, morning fog, and Shelfworks salvage staging."
 created: '2026-05-29'
 updated: 2026-05-30
-tags: [place, region, navigation, drowned-maw, shelfworks]
-sources: ["Inbox/Drowned-Maw.md", "Inbox/Tail.md"]
+tags:
+  - place
+  - region
+  - navigation
+  - drowned-maw
+  - shelfworks
+sources:
+  - "Inbox/Drowned-Maw.md"
+  - "Inbox/Tail.md"
 confidence_level: medium
-title: The Tail
 region_type: navigation-region
-aliases: [Tail]
+aliases:
+  - Tail
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "local pilots, fishing communities, salvage staging crews, and contested route pressure"
 access: "pilot recommended; fog, current, and Maw-adjacent navigation hazards"

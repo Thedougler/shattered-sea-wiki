@@ -8,10 +8,14 @@ publish: true
 summary: Player index for human raiders, pirates, and other humanoid threats of the Shattered Sea.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/humanoid/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/humanoid/index.md
 confidence_level: medium
-title: Humanoids
 visibility: public
 ---
 

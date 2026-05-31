@@ -8,12 +8,19 @@ publish: true
 summary: "The main island chain of the Shattered Sea: two east-west arcs between the Galewall and the Drowned Maw, with the Crown Islands to the north and the Midchain to the south."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, region, archipelago, shattered-sea]
-sources: ["Inbox/Drowned-Maw.md", "Inbox/Verdant-Scatter.md"]
+tags:
+  - place
+  - region
+  - archipelago
+  - shattered-sea
+sources:
+  - "Inbox/Drowned-Maw.md"
+  - "Inbox/Verdant-Scatter.md"
 confidence_level: medium
-title: The Verdant Scatter
 region_type: archipelago
-aliases: [Verdant Scatter, The Scatter]
+aliases:
+  - Verdant Scatter
+  - The Scatter
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "contested between Dravosi Crown, island councils, free ports, pilot families, and local powers"
 access: "charted routes with local exceptions; pilots recommended"

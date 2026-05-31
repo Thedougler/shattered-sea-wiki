@@ -8,17 +8,19 @@ publish: true
 summary: CR 2 fey predator of isolated coastal caves and wreck-strewn shallows; approaches ships in the guise of a survivor.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fey, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - fey
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Sea Hag
-aliases: [Sea Hag]
+aliases:
+  - Sea Hag
 cha: 13
 con: 16
 cr: 2
 creature_type: fey
-cssclasses:
-  - wiki-monster
 dex: 13
 environment: coastal, underwater
 int: 12

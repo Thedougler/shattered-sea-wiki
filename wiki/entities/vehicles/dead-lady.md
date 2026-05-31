@@ -8,10 +8,16 @@ publish: false
 summary: "The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, undead, umberlee, antagonist, tier-2]
-sources: [Homebrew]
+tags:
+  - vehicle
+  - ship
+  - undead
+  - umberlee
+  - antagonist
+  - tier-2
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: The Dead Lady
 ship_class: brigantine
 tier: 2
 captain: "[[umberlee|Umberlee]]"

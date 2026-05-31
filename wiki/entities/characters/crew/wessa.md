@@ -8,8 +8,12 @@ publish: false
 summary: "Cook aboard the Saltwright under Beaumont Sel. Stocky, grey-haired, terse, and better at provisions than the provisions deserve."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [crew, saltwright, cook]
-sources: ["Inbox/Beaumonts-Crew.md"]
+tags:
+  - crew
+  - saltwright
+  - cook
+sources:
+  - "Inbox/Beaumonts-Crew.md"
 confidence_level: confirmed
 ---
 

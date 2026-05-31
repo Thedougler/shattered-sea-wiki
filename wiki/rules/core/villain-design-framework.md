@@ -8,9 +8,13 @@ publish: false
 summary: "Pointy Hat's system-agnostic villain creation method — three principles: Active (has agency), Present (has visibility), Personal (has stakes)."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, villain, design]
-sources: ["Pointy Hat — How to Make a Villain (YouTube)"]
-title: Villain Design Framework
+tags:
+  - rule
+  - reference
+  - villain
+  - design
+sources:
+  - "Pointy Hat — How to Make a Villain (YouTube)"
 confidence_level: medium
 ---
 

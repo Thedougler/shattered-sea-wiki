@@ -8,15 +8,20 @@ publish: true
 summary: "A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, mystery, calveno]
-sources: ["Homebrew"]
+tags:
+  - item
+  - mystery
+  - calveno
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Preserved Specimen, Unknown
 item_type: other
 rarity: common
 attunement: false
 homebrew: false
-aliases: ["Orsini Specimen", "Unknown Specimen"]
+aliases:
+  - "Orsini Specimen"
+  - "Unknown Specimen"
 ---
 
 # Preserved Specimen, Unknown

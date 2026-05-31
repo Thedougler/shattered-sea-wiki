@@ -8,10 +8,13 @@ publish: true
 summary: "A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "PHB"
 confidence_level: medium
-title: Hooded Lantern
 item_type: equipment
 rarity: common
 attunement: false

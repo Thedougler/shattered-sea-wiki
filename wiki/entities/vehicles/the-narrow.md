@@ -8,13 +8,20 @@ publish: true
 summary: "Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, lost, fisk-fleet]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Fisks-Fleet.md", "Inbox/Narrow.md"]
+tags:
+  - vehicle
+  - ship
+  - lost
+  - fisk-fleet
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Fisks-Fleet.md"
+  - "Inbox/Narrow.md"
 confidence_level: confirmed
-title: The Narrow
 ship_class: scout sloop
-cssclasses: [wiki-ship]
-aliases: ["Narrow", "The Narrow"]
+aliases:
+  - "Narrow"
+  - "The Narrow"
 banner: "raw/assets/banners/Maren.webp"
 captain: "[[maren|Maren]]"
 ---

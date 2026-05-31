@@ -8,8 +8,13 @@ publish: false
 summary: "DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party."
 created: 2026-05-22
 updated: 2026-05-30
-tags: [island, calveno, session-prep, sandbox]
-sources: ["Inbox/Calveno-Sandbox-Run-Guide.md"]
+tags:
+  - island
+  - calveno
+  - session-prep
+  - sandbox
+sources:
+  - "Inbox/Calveno-Sandbox-Run-Guide.md"
 portable: false
 entry_points:
   - "La Vasca — ship enters dry dock after Session 03 Calveno approach"

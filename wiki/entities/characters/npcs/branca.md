@@ -8,10 +8,17 @@ publish: false
 summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, human, waveservants, calveno, umberlee, divine]
-sources: [Inbox/Calveno-Sandbox-Run-Guide.md, Inbox/Branca.md]
+tags:
+  - npc
+  - human
+  - waveservants
+  - calveno
+  - umberlee
+  - divine
+sources:
+  - Inbox/Calveno-Sandbox-Run-Guide.md
+  - Inbox/Branca.md
 confidence_level: observed
-title: Branca
 category: character
 species: human
 role: "Senior Waveservant / Umberlee's appointment-keeper"

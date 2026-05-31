@@ -8,11 +8,21 @@ publish: true
 summary: "An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [npc, human, inventor, calveno, antheri, artificer]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Catarina-DaVirelli.md"]
+tags:
+  - npc
+  - human
+  - inventor
+  - calveno
+  - antheri
+  - artificer
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Catarina-DaVirelli.md"
 confidence_level: confirmed
 species: human
-aliases: [Da'Virelli, Catarina]
+aliases:
+  - Da'Virelli
+  - Catarina
 roleplay_prompt: "Tony Stark without the charm, with better NDAs"
 ---
 

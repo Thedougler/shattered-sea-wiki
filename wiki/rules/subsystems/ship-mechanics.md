@@ -8,9 +8,13 @@ publish: true
 summary: "Hub page for all Shattered Sea ship rules — tiers, crew, operations, bastion, upgrades, and combat."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, ship, hub]
-sources: [Homebrew]
-title: Ship Mechanics
+tags:
+  - rule
+  - reference
+  - ship
+  - hub
+sources:
+  - Homebrew
 confidence_level: medium
 ---
 

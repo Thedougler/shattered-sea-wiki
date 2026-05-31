@@ -8,10 +8,16 @@ publish: true
 summary: "Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli to cover the cannonball breach in his shell — +2 AC and disadvantage on ranged attacks against him."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [item, antheri, armor, wondrous]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Session-01-Recap.md", "Inbox/Salvaged-Antheri-Plate.md"]
+tags:
+  - item
+  - antheri
+  - armor
+  - wondrous
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Session-01-Recap.md"
+  - "Inbox/Salvaged-Antheri-Plate.md"
 confidence_level: confirmed
-title: Salvaged Antheri Plate
 item_type: wondrous
 rarity: uncommon
 requires_attunement: true

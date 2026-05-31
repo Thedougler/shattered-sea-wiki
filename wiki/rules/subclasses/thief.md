@@ -8,9 +8,12 @@ publish: false
 summary: Rogue subclass (PHB 2024) — iconic Scout Rogue; Fast Hands grants Bonus Action use of magic items; High Jump and Reliable Talent round out a skill-focused build.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, rogue]
-sources: [PHB 2024]
-title: Thief Rogue
+tags:
+  - rules
+  - subclass
+  - rogue
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

@@ -8,10 +8,14 @@ publish: true
 summary: "Simple ranged weapon — compact, light, no proficiency barrier, the default ranged option for rangers, rogues, and anyone who needs reach without martial training."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, ranged, simple]
-sources: ["D&D 2024 PHB"]
+tags:
+  - item
+  - weapon
+  - ranged
+  - simple
+sources:
+  - "D&D 2024 PHB"
 confidence_level: high
-title: Shortbow
 item_type: weapon
 rarity: common
 attunement: false

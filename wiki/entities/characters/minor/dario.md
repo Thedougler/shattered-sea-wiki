@@ -8,10 +8,17 @@ publish: true
 summary: "Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [tortle, minor-npc, calveno]
-sources: ["Inbox/Calveno-Sandbox-Run-Guide.md", "Inbox/Dario-Vanni.md"]
+tags:
+  - tortle
+  - minor-npc
+  - calveno
+sources:
+  - "Inbox/Calveno-Sandbox-Run-Guide.md"
+  - "Inbox/Dario-Vanni.md"
 confidence_level: medium
-aliases: [Dario Vanni, Dario]
+aliases:
+  - Dario Vanni
+  - Dario
 ---
 
 # Dario Vanni

@@ -8,10 +8,13 @@ publish: true
 summary: "Imported table wine — average quality, primarily useful for variety and because it keeps better than water at sea."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Common Wine
 item_type: provision
 rarity: common
 attunement: false

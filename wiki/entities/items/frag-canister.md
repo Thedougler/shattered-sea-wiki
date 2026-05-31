@@ -8,15 +8,23 @@ publish: true
 summary: "Dravosi Crown alchemical canister — detonates on impact, spraying shrapnel in a 10-ft radius."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - dravosi
+  - weapon
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Frag Canister
 item_type: consumable
 rarity: uncommon
 attunement: false
 homebrew: true
-aliases: [Fragmentation Canister, Frag]
+aliases:
+  - Fragmentation Canister
+  - Frag
 ---
 
 # Frag Canister

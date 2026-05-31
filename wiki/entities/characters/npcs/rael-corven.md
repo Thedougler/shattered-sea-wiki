@@ -8,11 +8,18 @@ publish: true
 summary: "Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, fisk-fleet, dead, captain, sorcerer]
-sources: ["Inbox/Fisks-Fleet.md", "Inbox/Rael-Corven.md"]
+tags:
+  - npc
+  - fisk-fleet
+  - dead
+  - captain
+  - sorcerer
+sources:
+  - "Inbox/Fisks-Fleet.md"
+  - "Inbox/Rael-Corven.md"
 confidence_level: confirmed
-title: Rael Corven
-aliases: ["Rael"]
+aliases:
+  - "Rael"
 banner: "raw/assets/banners/Rael-Corven.webp"
 roleplay_prompt: "Ron Swanson as a pirate captain, who is absolutely furious that he keeps caring about this new crew."
 ---

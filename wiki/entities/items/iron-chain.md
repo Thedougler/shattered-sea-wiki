@@ -8,10 +8,13 @@ publish: true
 summary: "Drop-forged iron chain sold by the foot — rigging, mooring, securing cargo, and improvised restraint. 5 sp per foot."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "PHB"
 confidence_level: medium
-title: Iron Chain
 item_type: equipment
 rarity: common
 attunement: false

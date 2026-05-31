@@ -8,8 +8,14 @@ publish: false
 summary: "Veteran bosun, rated rigger, constitutionally unkillable. Returns from Calveno shore leave with two peg legs and three contradictory stories about how he lost them. Somehow faster on the rigging than before."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [crew, recurring, rigger]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Old-Faas.md"]
+tags:
+  - crew
+  - recurring
+  - rigger
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Old-Faas.md"
 confidence_level: observed
 species: human
 pronouns: he/him

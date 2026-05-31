@@ -8,10 +8,15 @@ publish: true
 summary: "A wrist-mounted device that fires a grappling hook up to 60 feet and retracts mechanically — three shots before a 10-minute repressurize."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, wondrous, personal, utility, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - wondrous
+  - personal
+  - utility
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Pneumatic Grapple
 item_type: wondrous
 rarity: uncommon
 attunement: false

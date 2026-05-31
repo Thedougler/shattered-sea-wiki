@@ -8,11 +8,17 @@ publish: false
 summary: "CR 9 undead. Not a lich — an undead born from slain humanoids that pursues its prey indefinitely across planes by draining their sleep and vitality."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [creature, undead, bestiary, cr9]
-sources: ["Inbox/Restless.md"]
+tags:
+  - creature
+  - undead
+  - bestiary
+  - cr9
+sources:
+  - "Inbox/Restless.md"
 confidence_level: high
 cr: 9
-aliases: ["Restless"]
+aliases:
+  - "Restless"
 ---
 
 # Restless

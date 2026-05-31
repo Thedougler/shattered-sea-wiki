@@ -8,15 +8,21 @@ publish: true
 summary: "One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory."
 created: '2026-05-29'
 updated: 2026-05-30
-tags: [place, island, grung, verdant-teeth, hostile]
-sources: ["Inbox/Dreth.md"]
+tags:
+  - place
+  - island
+  - grung
+  - verdant-teeth
+  - hostile
+sources:
+  - "Inbox/Dreth.md"
 confidence_level: medium
-title: Dreth
 island_type: hostile-island
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
 access: "No sanctioned outside access; channel approach is dangerous"
-aliases: [Dreth Island]
+aliases:
+  - Dreth Island
 ---
 
 # Dreth

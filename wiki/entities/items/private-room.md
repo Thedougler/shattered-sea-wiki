@@ -8,10 +8,12 @@ publish: true
 summary: "A room with a door that latches — more expensive than a hammock, less exposed than the shared floor. 5 sp per night."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, lodging]
-sources: ["Homebrew"]
+tags:
+  - item
+  - lodging
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Private Room
 item_type: lodging
 rarity: common
 attunement: false

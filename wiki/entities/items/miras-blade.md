@@ -8,10 +8,15 @@ publish: true
 summary: "A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, magic-item, mystery]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Miras-Blade.md"]
+tags:
+  - item
+  - weapon
+  - magic-item
+  - mystery
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Miras-Blade.md"
 confidence_level: observed
-title: Mira's Blade
 item_type: weapon
 rarity: uncommon
 attunement: true

@@ -8,10 +8,14 @@ publish: true
 summary: "A herbal compress preparation for reducing fever — three applications per pack."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, medical, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - medical
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Fever Poultice
 item_type: consumable
 rarity: common
 attunement: false

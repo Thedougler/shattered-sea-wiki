@@ -8,10 +8,13 @@ publish: true
 summary: "Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable]
-sources: ["Homebrew"]
+tags:
+  - item
+  - provision
+  - consumable
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Ground Coffee
 item_type: provision
 rarity: common
 attunement: false

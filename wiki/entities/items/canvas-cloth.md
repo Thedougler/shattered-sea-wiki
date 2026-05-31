@@ -8,10 +8,14 @@ publish: true
 summary: "Bolts of canvas and heavy cloth for sewing, patching, and general fabrication."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime, craft]
-sources: [Homebrew]
+tags:
+  - item
+  - equipment
+  - maritime
+  - craft
+sources:
+  - Homebrew
 confidence_level: medium
-title: Canvas Cloth
 item_type: equipment
 rarity: common
 attunement: false

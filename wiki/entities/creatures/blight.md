@@ -8,10 +8,17 @@ publish: false
 summary: "Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [creature, undead, lich, bestiary]
-sources: ["Inbox/Blight.md"]
+tags:
+  - creature
+  - undead
+  - lich
+  - bestiary
+sources:
+  - "Inbox/Blight.md"
 confidence_level: high
-aliases: ["Blight", "Druid Lich"]
+aliases:
+  - "Blight"
+  - "Druid Lich"
 ---
 
 # Blight

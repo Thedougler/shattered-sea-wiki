@@ -8,8 +8,15 @@ publish: false
 summary: "Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [stub, minor, calveno, dravosi, tessarine, intelligence]
-sources: ["Inbox/Warren-Ferrin-Locke.md"]
+tags:
+  - stub
+  - minor
+  - calveno
+  - dravosi
+  - tessarine
+  - intelligence
+sources:
+  - "Inbox/Warren-Ferrin-Locke.md"
 confidence_level: confirmed
 ---
 

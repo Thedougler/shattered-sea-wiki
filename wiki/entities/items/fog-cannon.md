@@ -8,10 +8,14 @@ publish: true
 summary: "A deck-mounted fog generator for concealment and disengagement maneuvers — drops a 60-foot fog bank on demand, recharges in 24 hours."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, ship-upgrade, concealment, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - ship-upgrade
+  - concealment
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Fog Cannon
 item_type: ship-upgrade
 rarity: uncommon
 attunement: false

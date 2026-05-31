@@ -8,17 +8,19 @@ publish: true
 summary: CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XPHB]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XPHB
 confidence_level: high
-title: Reef Shark
-aliases: [Reef Shark]
+aliases:
+  - Reef Shark
 cha: 4
 con: 13
 cr: 1/2
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 15
 environment: underwater
 int: 1

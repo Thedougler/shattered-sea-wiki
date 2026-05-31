@@ -8,10 +8,14 @@ publish: true
 summary: "Barrelled salt-cured pork belly — the meat provision on every working ship, before the scurvy sets in."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, provision, consumable, food]
-sources: [Homebrew]
+tags:
+  - item
+  - provision
+  - consumable
+  - food
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Salt Pork
 item_type: provision
 rarity: common
 attunement: false

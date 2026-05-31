@@ -8,8 +8,14 @@ publish: false
 summary: "Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [creature, leviathan, drowned-maw, dm-only]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Perrin-Black-Jaw.md"]
+tags:
+  - creature
+  - leviathan
+  - drowned-maw
+  - dm-only
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Perrin-Black-Jaw.md"
 confidence_level: confirmed
 ---
 

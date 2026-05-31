@@ -8,14 +8,20 @@ publish: true
 summary: "A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, stall, grung, port-tidefall]
-sources: ["Inbox/Fare-Ia.md"]
+tags:
+  - place
+  - building
+  - stall
+  - grung
+  - port-tidefall
+sources:
+  - "Inbox/Fare-Ia.md"
 confidence_level: medium
-title: Fare I'a
 building_type: stall
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Dockfront
-aliases: [Fare Ia]
+aliases:
+  - Fare Ia
 ---
 
 # Fare I'a

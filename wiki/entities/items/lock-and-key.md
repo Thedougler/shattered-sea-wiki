@@ -8,10 +8,12 @@ publish: true
 summary: "A keyed door lock in common patterns — installation extra; the proprietor keeps records of who bought what pattern."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+sources:
+  - "PHB"
 confidence_level: medium
-title: Lock and Key
 item_type: equipment
 rarity: common
 attunement: false

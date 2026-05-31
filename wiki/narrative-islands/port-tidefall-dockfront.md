@@ -8,12 +8,17 @@ publish: false
 summary: "Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [narrative-island, port-tidefall, ships, umberlee, tessarine]
-sources: ["Inbox/Port-Tidefall.md"]
+tags:
+  - narrative-island
+  - port-tidefall
+  - ships
+  - umberlee
+  - tessarine
+sources:
+  - "Inbox/Port-Tidefall.md"
 portable: false
 entry_points: []
 contains_situations: []
-title: Port Tidefall — Dockfront Opportunities
 region: crown-islands
 confidence_level: high
 ---

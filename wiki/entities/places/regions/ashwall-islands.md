@@ -8,16 +8,22 @@ publish: true
 summary: "Cold volcanic spire-chain near the Galewall; the last solid ground on the outbound run and the first proof of survival on the return."
 created: '2026-05-29'
 updated: 2026-05-30
-tags: [region, volcanic, galewall, storm-edge]
-sources: [Homebrew]
+tags:
+  - region
+  - volcanic
+  - galewall
+  - storm-edge
+sources:
+  - Homebrew
 confidence_level: medium
-title: Ashwall Islands
 category: location
 region_type: island-chain
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "Ashwall pilot families and repair crews; no formal destination authority"
 access: "Dangerous storm-edge approach; repair lee and volcanic spires"
-aliases: [The Ashwalls, Ashwalls]
+aliases:
+  - The Ashwalls
+  - Ashwalls
 ---
 
 # Ashwall Islands

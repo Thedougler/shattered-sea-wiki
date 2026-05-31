@@ -8,17 +8,20 @@ publish: true
 summary: CR 14 chromatic dragon; amphibious acid breather that lairs in the Doldrums' mangrove shallows — a becalmed ship is close to ideal hunting.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Adult Black Dragon
-aliases: [Adult Black Dragon]
+aliases:
+  - Adult Black Dragon
 cha: 19
 con: 21
 cr: 14
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: swamp
 int: 14

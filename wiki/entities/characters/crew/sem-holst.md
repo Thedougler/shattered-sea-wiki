@@ -8,8 +8,14 @@ publish: false
 summary: "Lean shipwright who catalogues damage without being asked and stays if someone demonstrates they understand the difference between a caulked seam and a packed one."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [crew, recurring, shipwright]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md", "Inbox/Sem-Holst.md"]
+tags:
+  - crew
+  - recurring
+  - shipwright
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Sem-Holst.md"
 confidence_level: observed
 species: human
 pronouns: he/him

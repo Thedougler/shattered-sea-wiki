@@ -8,17 +8,20 @@ publish: false
 summary: CR 7 fey hag that builds persistent charm networks — once a victim has been charmed for 24 hours, they can never resist her again without magical intervention.
 created: 2026-05-15
 updated: 2026-05-30
-tags: [creature, fey, bestiary]
-sources: [Homebrew, Pointy Hat]
+tags:
+  - creature
+  - fey
+  - bestiary
+sources:
+  - Homebrew
+  - Pointy Hat
 confidence_level: high
-title: Gentle Hag
-aliases: [Gentle Hag]
+aliases:
+  - Gentle Hag
 cha: 19
 con: 18
 cr: 7
 creature_type: fey
-cssclasses:
-  - wiki-monster
 dex: 16
 environment: forest, urban
 int: 17

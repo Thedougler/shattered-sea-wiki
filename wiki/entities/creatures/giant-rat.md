@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Rat, a CR 1/8 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Rat
-aliases: [Giant Rat]
+aliases:
+  - Giant Rat
 cha: 4
 con: 11
 cr: 1/8
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 16
 environment: forest, swamp, underdark, urban
 int: 2

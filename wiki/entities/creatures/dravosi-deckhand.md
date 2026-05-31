@@ -8,8 +8,14 @@ publish: true
 summary: "A young Dravosi patrol sailor trained for inspections, boarding duties, alarms, and buying time for heavier Crown response."
 created: 2026-04-19
 updated: 2026-05-28
-tags: [creature, humanoid, bestiary, dravosi, cr1/8]
-sources: ["Inbox/Dravosi-Deckhand.md"]
+tags:
+  - creature
+  - humanoid
+  - bestiary
+  - dravosi
+  - cr1/8
+sources:
+  - "Inbox/Dravosi-Deckhand.md"
 confidence_level: medium
 cr: "1/8"
 ---

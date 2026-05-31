@@ -8,15 +8,26 @@ publish: true
 summary: "A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, region, maritime, navigation, landmark, restricted]
-sources: ["Inbox/Session-03-Recap.md", "Inbox/Crissdalynn-Khinriss.md", "Inbox/Campaign-Timeline.md", "Inbox/Drowned-Maw.md"]
+tags:
+  - place
+  - region
+  - maritime
+  - navigation
+  - landmark
+  - restricted
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Crissdalynn-Khinriss.md"
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Drowned-Maw.md"
 confidence_level: confirmed
-title: The Drowned Maw
 region_type: navigation-region
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "watched by the Sentinels, avoided by sailors, contested around salvage traffic"
 access: "star navigation; no anchoring; compass drift within five miles"
-aliases: [Drowned Maw, Maw]
+aliases:
+  - Drowned Maw
+  - Maw
 ---
 
 # The Drowned Maw

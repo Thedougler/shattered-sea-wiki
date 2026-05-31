@@ -8,8 +8,14 @@ publish: false
 summary: "Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [faction, monastery, high-eyrie, aarakocra]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Sentinels-Of-The-Eyrie.md"]
+tags:
+  - faction
+  - monastery
+  - high-eyrie
+  - aarakocra
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Sentinels-Of-The-Eyrie.md"
 confidence_level: confirmed
 ---
 

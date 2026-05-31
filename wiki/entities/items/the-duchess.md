@@ -8,10 +8,16 @@ publish: true
 summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, ranged, firearm, homebrew]
-sources: ["D&D 2024 PHB", Homebrew]
+tags:
+  - item
+  - weapon
+  - ranged
+  - firearm
+  - homebrew
+sources:
+  - "D&D 2024 PHB"
+  - Homebrew
 confidence_level: high
-title: The Duchess
 item_type: weapon
 rarity: common
 requires_attunement: false

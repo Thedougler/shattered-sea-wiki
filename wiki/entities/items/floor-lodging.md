@@ -8,10 +8,14 @@ publish: true
 summary: "A spot on the communal floor of the Warren's Low Lamp — warm, safe, and watched."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, lodging, warren, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - lodging
+  - warren
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Floor Lodging
 item_type: service
 rarity: common
 attunement: false

@@ -8,8 +8,14 @@ publish: false
 summary: "Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg."
 created: 2026-05-15
 updated: 2026-05-30
-tags: [session, session-02, scene, travel, central-strait]
-sources: ["Inbox/sessions/02/Scene-05-Central-Strait.md"]
+tags:
+  - session
+  - session-02
+  - scene
+  - travel
+  - central-strait
+sources:
+  - "Inbox/sessions/02/Scene-05-Central-Strait.md"
 session_number: 2
 session_date: "unknown"
 ---

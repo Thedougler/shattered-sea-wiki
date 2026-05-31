@@ -8,8 +8,14 @@ publish: false
 summary: "The Perrin–Nona reunion at the Tangle Chambers — the Vestra reveal, what Nona asks in return for Tangle help, and how far family credit extends when the ship she gave him is gone."
 created: 2026-05-22
 updated: 2026-05-30
-tags: [island, warren, perrin, rattkin, nona]
-sources: ["Inbox/Warren-Nonas-Table.md"]
+tags:
+  - island
+  - warren
+  - perrin
+  - rattkin
+  - nona
+sources:
+  - "Inbox/Warren-Nonas-Table.md"
 portable: false
 entry_points:
   - Perrin enters the Warren under any circumstances

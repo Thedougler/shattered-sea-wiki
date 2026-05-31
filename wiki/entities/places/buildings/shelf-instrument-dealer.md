@@ -8,13 +8,20 @@ publish: true
 summary: "Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [location, building, port-tidefall, instruments, navigation]
-sources: ["Inbox/Oswald-Crench.md", "Inbox/Shelf-Instrument-Dealer.md"]
+tags:
+  - location
+  - building
+  - port-tidefall
+  - instruments
+  - navigation
+sources:
+  - "Inbox/Oswald-Crench.md"
+  - "Inbox/Shelf-Instrument-Dealer.md"
 confidence_level: medium
-title: The Shelf Instrument Dealer
 building_type: shop
 district: The Shelf
-aliases: [Shelf Instrument Dealer]
+aliases:
+  - Shelf Instrument Dealer
 ---
 
 # The Shelf Instrument Dealer

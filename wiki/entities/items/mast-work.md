@@ -8,10 +8,14 @@ publish: true
 summary: "Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Mast Work
 item_type: service
 rarity: common
 attunement: false

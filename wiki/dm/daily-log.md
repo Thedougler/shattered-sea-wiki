@@ -8,9 +8,11 @@ publish: false
 summary: "Log of autonomous daily wiki maintenance runs."
 created: 2026-05-30
 updated: 2026-05-30
-tags: [system, log, daily-update]
+tags:
+  - system
+  - log
+  - daily-update
 sources: []
-title: Daily Update Log
 ---
 
 # Daily Update Log

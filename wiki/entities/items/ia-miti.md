@@ -8,10 +8,14 @@ publish: true
 summary: "Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, food, grung]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - food
+  - grung
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: I'a Miti
 item_type: consumable
 rarity: common
 attunement: false

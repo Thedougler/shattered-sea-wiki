@@ -8,8 +8,15 @@ publish: false
 summary: "Young Dravosi deckhand recruited by Delmar mid-fight — a sailor by his father's command, a dancer by his own heart, vowed to earn enough to marry the woman he danced with once and then lost."
 created: 2026-05-10
 updated: 2026-05-28
-tags: [crew, npc, human, dravosi, recurring]
-sources: ["Inbox/Session-01-Recap.md", "Inbox/Geoffrey-Draves.md"]
+tags:
+  - crew
+  - npc
+  - human
+  - dravosi
+  - recurring
+sources:
+  - "Inbox/Session-01-Recap.md"
+  - "Inbox/Geoffrey-Draves.md"
 confidence_level: observed
 species: human
 pronouns: he/him

@@ -8,8 +8,14 @@ publish: false
 summary: "Rattkin Run anchored at the Warren beneath Calveno, led by Nona Black-Jaw. Smugglers, forgers, fugitive shelters, message-runners, community defense, and underground bank."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [faction, rattkin, passage, black-jaw]
-sources: ["Inbox/Black-Jaw-Run.md", "Inbox/Session-03-Recap.md"]
+tags:
+  - faction
+  - rattkin
+  - passage
+  - black-jaw
+sources:
+  - "Inbox/Black-Jaw-Run.md"
+  - "Inbox/Session-03-Recap.md"
 confidence_level: confirmed
 ---
 

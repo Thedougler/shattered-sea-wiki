@@ -8,11 +8,18 @@ publish: false
 summary: "CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [creature, undead, lich, bestiary, cr16]
-sources: ["Inbox/Soul-Incarnate.md"]
+tags:
+  - creature
+  - undead
+  - lich
+  - bestiary
+  - cr16
+sources:
+  - "Inbox/Soul-Incarnate.md"
 confidence_level: high
 cr: 16
-aliases: ["Soul Incarnate"]
+aliases:
+  - "Soul Incarnate"
 ---
 
 # Soul Incarnate

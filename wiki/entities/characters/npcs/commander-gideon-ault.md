@@ -8,8 +8,14 @@ publish: false
 summary: "Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [stub, npc, dravosi, crown, enforcement]
-sources: ["Inbox/Surety-Missing.md"]
+tags:
+  - stub
+  - npc
+  - dravosi
+  - crown
+  - enforcement
+sources:
+  - "Inbox/Surety-Missing.md"
 confidence_level: low
 ---
 

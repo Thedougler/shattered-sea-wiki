@@ -8,10 +8,14 @@ publish: true
 summary: "Sealing open or failing hull seams with oakum and tar — the basic maintenance that keeps a working vessel watertight."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Hull Caulking
 item_type: service
 rarity: common
 attunement: false

@@ -8,10 +8,14 @@ publish: true
 summary: "An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, calveno]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - calveno
+sources:
+  - Homebrew
 confidence_level: medium
-title: Bioluminescent Paint
 item_type: consumable
 rarity: uncommon
 attunement: false

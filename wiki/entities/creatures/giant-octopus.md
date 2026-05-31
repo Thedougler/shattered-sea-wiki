@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Octopus, a CR 1 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Octopus
-aliases: [Giant Octopus]
+aliases:
+  - Giant Octopus
 cha: 4
 con: 13
 cr: 1
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 13
 environment: underwater
 int: 5

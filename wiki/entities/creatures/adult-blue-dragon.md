@@ -8,17 +8,20 @@ publish: true
 summary: CR 16 chromatic dragon; territorial lightning breather laired in the Greyteeth reef system of the Crown Islands — it taxes shipping rather than hunting it.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Adult Blue Dragon
-aliases: [Adult Blue Dragon]
+aliases:
+  - Adult Blue Dragon
 cha: 20
 con: 23
 cr: 16
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: coastal, desert
 int: 16

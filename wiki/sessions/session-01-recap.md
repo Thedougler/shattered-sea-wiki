@@ -8,8 +8,11 @@ publish: true
 summary: "Player recap of Session 01 — the boarding of the Saltwright and HCS Surety through the gangplank standoff. Canon events as they happened."
 created: 2026-05-10
 updated: 2026-05-27
-tags: [session-recap, session]
-sources: ["Inbox/Session-01-Recap.md"]
+tags:
+  - session-recap
+  - session
+sources:
+  - "Inbox/Session-01-Recap.md"
 session_number: 1
 session_date: 2026-05-10
 ---

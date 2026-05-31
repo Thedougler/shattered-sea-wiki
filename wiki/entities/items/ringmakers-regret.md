@@ -8,16 +8,22 @@ publish: true
 summary: "A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, wondrous, mystery, morsani-stock, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - wondrous
+  - mystery
+  - morsani-stock
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Ringmaker's Regret
 item_type: wondrous
 rarity: uncommon
 attunement: false
 homebrew: true
 asking_price: "250"
-aliases: [For Lisca]
+aliases:
+  - For Lisca
 ---
 
 # Ringmaker's Regret

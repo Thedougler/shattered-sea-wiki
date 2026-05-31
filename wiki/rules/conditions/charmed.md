@@ -8,9 +8,11 @@ publish: false
 summary: Charmed condition — can't attack or target the charmer with harm; the charmer has Advantage on social ability checks against you.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Charmed
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

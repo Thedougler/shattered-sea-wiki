@@ -8,8 +8,13 @@ publish: true
 summary: "Regional demographics of the Shattered Sea: who lives where, who sails through, and why the population mix changes farther east."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [lore, setting, demographics, player-resource]
-sources: ["Inbox/Demographics.md"]
+tags:
+  - lore
+  - setting
+  - demographics
+  - player-resource
+sources:
+  - "Inbox/Demographics.md"
 ---
 
 # Peoples of the Shattered Sea

@@ -8,8 +8,14 @@ publish: true
 summary: "Playable small humanoids built for infiltration, survival, swimming, and impossible spaces. Rattkin are the oldest continuous presence in every major Shattered Sea port."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [species, playable, rattkin, passage]
-sources: ["Inbox/Rattkin.md", "Inbox/Perrin-Black-Jaw.md"]
+tags:
+  - species
+  - playable
+  - rattkin
+  - passage
+sources:
+  - "Inbox/Rattkin.md"
+  - "Inbox/Perrin-Black-Jaw.md"
 ---
 
 # Rattkin

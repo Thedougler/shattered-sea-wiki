@@ -8,9 +8,11 @@ publish: false
 summary: Petrified condition — transformed into inanimate stone; Incapacitated, Speed 0, Resistance all damage, Immunity Poisoned, Advantage on attacks against you, auto-fail STR/DEX saves.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Petrified
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

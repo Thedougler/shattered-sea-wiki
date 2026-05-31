@@ -8,8 +8,13 @@ publish: false
 summary: "Pointy Hat's mystery-building method: define culprit, motive, and method first; then place at least 3 clues per core question. Use before creating any investigation, clue set, or mystery arc."
 created: 2026-04-24
 updated: 2026-05-30
-tags: [system, mystery, dm-craft, reference]
-sources: ["Inbox/private/system/guides/Mystery-Making-Framework.md"]
+tags:
+  - system
+  - mystery
+  - dm-craft
+  - reference
+sources:
+  - "Inbox/private/system/guides/Mystery-Making-Framework.md"
 system_role: "unknown"
 token_profile: on-demand
 mandatory_for: []

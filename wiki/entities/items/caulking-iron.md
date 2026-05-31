@@ -8,10 +8,13 @@ publish: true
 summary: "A flat-edged iron tool for driving oakum into hull seams — dry-dock grade, built to take mallet strikes without deforming."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool]
-sources: [Homebrew]
+tags:
+  - item
+  - equipment
+  - tool
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Caulking Iron
 item_type: tool
 rarity: common
 attunement: false

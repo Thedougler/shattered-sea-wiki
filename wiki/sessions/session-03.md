@@ -8,8 +8,10 @@ publish: false
 summary: "Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations."
 created: 2026-05-27
 updated: 2026-05-30
-tags: [session]
-sources: ["Inbox/Session-03-Recap.md"]
+tags:
+  - session
+sources:
+  - "Inbox/Session-03-Recap.md"
 session_number: 3
 session_date: 2026-05-25
 ---

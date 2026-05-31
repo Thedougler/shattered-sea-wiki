@@ -8,13 +8,19 @@ publish: false
 summary: "Captain of the *Loud Argument* and Fisk's combat specialist; died in the Drowned Maw when Umberlee closed the water over the fleet, his soul pressed into Delmar."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, captain, fisk-fleet, dead, mortis]
-sources: [Inbox/Bastian-Crev.md]
+tags:
+  - npc
+  - captain
+  - fisk-fleet
+  - dead
+  - mortis
+sources:
+  - Inbox/Bastian-Crev.md
 confidence_level: confirmed
-title: Bastian Crev
 category: character
 species: human
-aliases: [Bastian]
+aliases:
+  - Bastian
 mortis:
   trigger_forced: "Enemy Deception/Persuasion succeeds against Delmar, or he witnesses powerless person coerced"
   trigger_env: "Black jackdaw — surfaces fast, warm, generous, expansive; may reach for the bird"

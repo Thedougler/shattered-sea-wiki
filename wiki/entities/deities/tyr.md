@@ -8,8 +8,15 @@ publish: false
 summary: "Lawful Good god of law, justice, civic order, and Dravosi state legitimacy. His clergy witness oaths, commissions, and courts martial."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [deity, dravosi, law, justice, colonial]
-sources: ["Inbox/Tyr.md", "Inbox/Shattered-Sea-Pantheon.md"]
+tags:
+  - deity
+  - dravosi
+  - law
+  - justice
+  - colonial
+sources:
+  - "Inbox/Tyr.md"
+  - "Inbox/Shattered-Sea-Pantheon.md"
 confidence_level: confirmed
 ---
 

@@ -8,10 +8,13 @@ publish: true
 summary: "Pouches, mortars, and dried plants for characters proficient in herbalism — required for crafting herbal preparations. 5 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - tool
+sources:
+  - "PHB"
 confidence_level: medium
-title: Herbalism Kit
 item_type: tool
 rarity: common
 attunement: false

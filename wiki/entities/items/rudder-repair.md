@@ -8,10 +8,13 @@ publish: true
 summary: "Rudder repair or full replacement — standard sizes kept in stock at independent boatyards; priced by condition assessment."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, shipwright]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - shipwright
+sources:
+  - Homebrew
 confidence_level: medium
-title: Rudder Repair
 item_type: service
 rarity: common
 attunement: false

@@ -8,10 +8,15 @@ publish: false
 summary: "A +1 Calveno dock-pattern shortbow that removes the within-5-ft disadvantage penalty. Purchased by Jean-Claude in the Velo Quarter during Session 04."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, ranged, calveno, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - weapon
+  - ranged
+  - calveno
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: confirmed
-title: Corto di Velo
 item_type: weapon
 rarity: uncommon
 attunement: false

@@ -8,10 +8,14 @@ publish: true
 summary: Player index for fiends and fiendish raiders of the Shattered Sea — sahuagin warbands are the primary fiendish threat, raiding from the deep shelf.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/fiend/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/fiend/index.md
 confidence_level: medium
-title: Fiends
 visibility: public
 ---
 

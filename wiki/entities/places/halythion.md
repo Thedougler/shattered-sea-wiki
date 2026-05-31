@@ -8,12 +8,18 @@ publish: false
 summary: "Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, city, sea-elf, midchain, hidden]
-sources: ["Inbox/Halythion.md"]
+tags:
+  - place
+  - city
+  - sea-elf
+  - midchain
+  - hidden
+sources:
+  - "Inbox/Halythion.md"
 confidence_level: medium
-title: Halythion
 settlement_type: underwater-city
-aliases: ["The Sunken City"]
+aliases:
+  - "The Sunken City"
 parent_location: "[[midchain|The Midchain]]"
 governance: "The Aoide and living oral law"
 access: "Hidden underwater passage; authorized sea elf access only"

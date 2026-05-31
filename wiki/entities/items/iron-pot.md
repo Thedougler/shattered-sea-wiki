@@ -8,10 +8,13 @@ publish: true
 summary: "A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "PHB"
 confidence_level: medium
-title: Iron Pot
 item_type: equipment
 rarity: common
 attunement: false

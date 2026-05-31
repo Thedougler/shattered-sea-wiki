@@ -8,9 +8,11 @@ publish: false
 summary: D&D 5e 2024 Rogue — DEX-based Sneak Attack, Expertise, and Cunning Action; Delmar Fisk is a Swashbuckler Rogue.
 created: 2026-04-19
 updated: 2026-05-30
-tags: [rules, class]
-sources: [PHB 2024]
-title: Rogue
+tags:
+  - rules
+  - class
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

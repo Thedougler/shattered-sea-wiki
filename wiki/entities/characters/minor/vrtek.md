@@ -8,8 +8,12 @@ publish: false
 summary: "Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships."
 created: 2026-04-19
 updated: 2026-05-28
-tags: [rattkin, social, minor-npc]
-sources: ["Inbox/Vrtek.md"]
+tags:
+  - rattkin
+  - social
+  - minor-npc
+sources:
+  - "Inbox/Vrtek.md"
 confidence_level: medium
 roleplay_prompt: "Pocket archaeologist — everything gets classified: useful, pretty, mysterious, food"
 ---

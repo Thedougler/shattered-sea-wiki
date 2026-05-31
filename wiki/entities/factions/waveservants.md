@@ -8,8 +8,15 @@ publish: false
 summary: "Umberlee's practical clergy: collectors, witnesses, and shrine operators whose neutrality lets them collect tribute from every side of a harbor."
 created: 2026-05-27
 updated: 2026-05-28
-tags: [faction, umberlee, sea, clergy]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Umberlee.md", "Inbox/Waveservants.md"]
+tags:
+  - faction
+  - umberlee
+  - sea
+  - clergy
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Umberlee.md"
+  - "Inbox/Waveservants.md"
 confidence_level: confirmed
 ---
 

@@ -8,12 +8,18 @@ publish: true
 summary: Public index for Shattered Sea creature and monster references — every sailor working the Scatter has a story.
 created: 2026-05-03
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/index.md
 confidence_level: medium
-title: Bestiary
 visibility: public
-aliases: [Bestiary, Shattered Sea Bestiary]
+aliases:
+  - Bestiary
+  - Shattered Sea Bestiary
 ---
 
 # Bestiary

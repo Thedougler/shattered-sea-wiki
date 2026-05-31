@@ -8,10 +8,15 @@ publish: true
 summary: "An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, calveno, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - calveno
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Deepwater Ink
 item_type: consumable
 rarity: uncommon
 attunement: false

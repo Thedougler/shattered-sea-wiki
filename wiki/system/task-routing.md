@@ -9,7 +9,7 @@ summary: "Read second after hot.md. Maps every task type to its required pre-rea
 created: 2026-05-27
 updated: 2026-05-27
 tags: []
-sources: [Unknown]
+sources: []
 system_role: task-routing
 token_profile: map
 mandatory_for: []

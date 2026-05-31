@@ -8,9 +8,11 @@ publish: false
 summary: D&D 5e 2024 Bard — full CHA caster with Bardic Inspiration, Expertise, and Jack of All Trades; Perrin Black-Jaw is Bard/Warlock.
 created: 2026-04-19
 updated: 2026-05-30
-tags: [rules, class]
-sources: [PHB 2024]
-title: Bard
+tags:
+  - rules
+  - class
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

@@ -8,8 +8,16 @@ publish: false
 summary: "Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [npc, dm-only, tessarine, dragon, late-game, principal]
-sources: ["Inbox/Who-Commissioned-the-Theft.md", "Inbox/Cosimo-Verantio.md"]
+tags:
+  - npc
+  - dm-only
+  - tessarine
+  - dragon
+  - late-game
+  - principal
+sources:
+  - "Inbox/Who-Commissioned-the-Theft.md"
+  - "Inbox/Cosimo-Verantio.md"
 confidence_level: confirmed
 species: human (apparent)
 roleplay_prompt: "The most dangerous man in the room who has not moved in twenty minutes."

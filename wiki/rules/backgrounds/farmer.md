@@ -8,9 +8,11 @@ publish: false
 summary: D&D 5e 2024 Farmer background — Strength, Constitution, Wisdom; Tough feat; Animal Handling and Nature proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-tags: [rules, background]
-sources: [http://dnd2024.wikidot.com/background:farmer]
-title: Farmer
+tags:
+  - rules
+  - background
+sources:
+  - http://dnd2024.wikidot.com/background:farmer
 confidence_level: medium
 ---
 

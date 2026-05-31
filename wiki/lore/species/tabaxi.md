@@ -8,8 +8,14 @@ publish: true
 summary: "Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community."
 created: 2026-05-28
 updated: 2026-05-28
-tags: [species, playable, tabaxi, sunken-crown]
-sources: ["Inbox/Tabaxi.md", "Inbox/Campaign-Timeline.md"]
+tags:
+  - species
+  - playable
+  - tabaxi
+  - sunken-crown
+sources:
+  - "Inbox/Tabaxi.md"
+  - "Inbox/Campaign-Timeline.md"
 ---
 
 # Tabaxi

@@ -8,10 +8,13 @@ publish: true
 summary: "A straight iron pry bar — invaluable for shifting stuck hatches, breaking seals, and moving cargo that doesn't want to move."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, tool]
-sources: [PHB]
+tags:
+  - item
+  - equipment
+  - tool
+sources:
+  - PHB
 confidence_level: confirmed
-title: Crowbar
 item_type: tool
 rarity: common
 attunement: false

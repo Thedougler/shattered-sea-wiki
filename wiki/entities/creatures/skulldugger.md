@@ -8,11 +8,18 @@ publish: false
 summary: "CR 21 undead lich. Rogue lich that achieves undeath by stealing another lich's ritual — parasitizes spirit jars from other liches. Hated by all undead as a natural predator."
 created: 2026-05-15
 updated: 2026-05-28
-tags: [creature, undead, lich, bestiary, cr21]
-sources: ["Inbox/Skulldugger.md"]
+tags:
+  - creature
+  - undead
+  - lich
+  - bestiary
+  - cr21
+sources:
+  - "Inbox/Skulldugger.md"
 confidence_level: high
 cr: 21
-aliases: ["Skulldugger"]
+aliases:
+  - "Skulldugger"
 ---
 
 # Skulldugger

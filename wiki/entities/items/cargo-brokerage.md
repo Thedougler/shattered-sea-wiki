@@ -8,10 +8,14 @@ publish: true
 summary: "Transit and routing for small cargo that cannot move through official channels — 10gp plus 5% of stated value, three-week hold."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, warren, contraband]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - warren
+  - contraband
+sources:
+  - Homebrew
 confidence_level: medium
-title: Cargo Brokerage
 item_type: service
 rarity: common
 attunement: false

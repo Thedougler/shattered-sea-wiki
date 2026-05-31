@@ -8,9 +8,12 @@ publish: false
 summary: Warlock subclass (XGtE 2014) — CHA-based weapon attacks, Medium armor, Hexblade's Curse for bonus damage and self-healing; strong melee Warlock foundation.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, warlock]
-sources: [Xanathar's Guide to Everything (2014)]
-title: Hexblade
+tags:
+  - rules
+  - subclass
+  - warlock
+sources:
+  - Xanathar's Guide to Everything (2014)
 confidence_level: medium
 ---
 

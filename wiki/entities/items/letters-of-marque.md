@@ -8,8 +8,12 @@ publish: false
 summary: "Letters of marque found in Barnaby Rook's cabin aboard the HCS Surety. Currently in party possession."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [item, document, dravosi-crown]
-sources: ["Inbox/Session-02-Recap.md"]
+tags:
+  - item
+  - document
+  - dravosi-crown
+sources:
+  - "Inbox/Session-02-Recap.md"
 confidence_level: observed
 ---
 

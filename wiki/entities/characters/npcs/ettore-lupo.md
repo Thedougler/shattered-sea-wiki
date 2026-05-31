@@ -8,10 +8,13 @@ publish: false
 summary: "Stub — elderly proprietor of Casa Lupo in Calveno; referenced in [[casa-lupo]]."
 created: 2026-05-30
 updated: 2026-05-30
-tags: [npc, calveno]
-sources: [Unknown]
+tags:
+  - npc
+  - calveno
+sources: []
 confidence_level: medium
-aliases: [Ettore Lupo]
+aliases:
+  - Ettore Lupo
 ---
 
 # Ettore Lupo

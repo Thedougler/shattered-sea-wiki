@@ -8,13 +8,22 @@ publish: true
 summary: "Tortle captain of the *Saltwright*; pulled Crissdalynn and Delmar from the water after the fleet went down and carried them west along the Midchain."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, tortle, captain, midchain, ally]
-sources: [Inbox/Session-01-Recap.md, Inbox/Beaumonts-Crew.md, Inbox/Beaumont-Sel.md]
+tags:
+  - npc
+  - tortle
+  - captain
+  - midchain
+  - ally
+sources:
+  - Inbox/Session-01-Recap.md
+  - Inbox/Beaumonts-Crew.md
+  - Inbox/Beaumont-Sel.md
 confidence_level: observed
-title: Beaumont Sel
 category: character
 species: tortle
-aliases: [Beau, Captain Sel]
+aliases:
+  - Beau
+  - Captain Sel
 ---
 
 # Beaumont Sel

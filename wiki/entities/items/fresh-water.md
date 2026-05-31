@@ -8,10 +8,14 @@ publish: true
 summary: "A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, drink, consumable, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - drink
+  - consumable
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Fresh Water
 item_type: consumable
 rarity: common
 attunement: false

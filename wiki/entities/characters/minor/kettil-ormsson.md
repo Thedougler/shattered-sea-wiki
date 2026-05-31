@@ -8,8 +8,12 @@ publish: true
 summary: "Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [dwarf, minor-npc, kalowe]
-sources: ["Inbox/Kettil-Ormsson.md"]
+tags:
+  - dwarf
+  - minor-npc
+  - kalowe
+sources:
+  - "Inbox/Kettil-Ormsson.md"
 confidence_level: medium
 ---
 

@@ -8,8 +8,12 @@ publish: false
 summary: "Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [stub, npc, admiral]
-sources: ["Inbox/Session-02-Recap.md"]
+tags:
+  - stub
+  - npc
+  - admiral
+sources:
+  - "Inbox/Session-02-Recap.md"
 confidence_level: inferred
 ---
 

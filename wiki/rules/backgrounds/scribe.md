@@ -8,9 +8,11 @@ publish: false
 summary: D&D 5e 2024 Scribe background — Dexterity, Intelligence, Wisdom; Skilled feat; Investigation and Perception proficiencies.
 created: 2026-04-24
 updated: 2026-05-30
-tags: [rules, background]
-sources: [http://dnd2024.wikidot.com/background:scribe]
-title: Scribe
+tags:
+  - rules
+  - background
+sources:
+  - http://dnd2024.wikidot.com/background:scribe
 confidence_level: medium
 ---
 

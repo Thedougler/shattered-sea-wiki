@@ -8,12 +8,20 @@ publish: true
 summary: "A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, warren, calveno, rattkin]
-sources: ["Inbox/Warren-Marrows-Crate.md", "Inbox/Marrows.md"]
+tags:
+  - place
+  - building
+  - warren
+  - calveno
+  - rattkin
+sources:
+  - "Inbox/Warren-Marrows-Crate.md"
+  - "Inbox/Marrows.md"
 confidence_level: medium
-title: Marrow's
 building_type: shop
-aliases: ["Marrow's", "Marrow"]
+aliases:
+  - "Marrow's"
+  - "Marrow"
 parent_location: "[[warren|The Warren]]"
 district: north channel corridor
 ---

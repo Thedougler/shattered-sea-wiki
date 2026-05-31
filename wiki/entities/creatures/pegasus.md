@@ -8,17 +8,19 @@ publish: true
 summary: The Pegasus, a CR 2 celestial rumoured above the High Eyrie; sightings treated as a private matter by the Sentinels.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, celestial, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - celestial
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Pegasus
-aliases: [Pegasus]
+aliases:
+  - Pegasus
 cha: 13
 con: 16
 cr: 2
 creature_type: celestial
-cssclasses:
-  - wiki-monster
 dex: 15
 environment: forest, grassland, hill, planar, upper
 int: 10

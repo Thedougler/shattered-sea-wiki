@@ -8,10 +8,13 @@ publish: true
 summary: "Lighter and stronger than hemp, sold in small quantities at premium chandleries."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, rope]
-sources: [PHB]
+tags:
+  - item
+  - equipment
+  - rope
+sources:
+  - PHB
 confidence_level: confirmed
-title: Silk Rope
 item_type: equipment
 rarity: common
 attunement: false

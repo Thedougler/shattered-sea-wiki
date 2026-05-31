@@ -8,10 +8,13 @@ publish: true
 summary: "Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, maritime]
-sources: ["Homebrew"]
+tags:
+  - item
+  - equipment
+  - maritime
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Oilskin Canvas
 item_type: equipment
 rarity: common
 attunement: false

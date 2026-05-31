@@ -8,10 +8,14 @@ publish: true
 summary: "Flat-bottomed canal boats available for half- or full-day hire at the Ponte Bassa — no questions about destination."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, calveno, transport]
-sources: [Homebrew]
+tags:
+  - item
+  - service
+  - calveno
+  - transport
+sources:
+  - Homebrew
 confidence_level: medium
-title: Canal Boat Hire
 item_type: service
 rarity: common
 attunement: false

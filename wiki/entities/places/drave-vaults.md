@@ -8,10 +8,16 @@ publish: true
 summary: "Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, site, dungeon, dravosi, fort-crestwall]
-sources: ["Inbox/Drave-Vaults.md", "raw/caldurs-tooth.md"]
+tags:
+  - place
+  - site
+  - dungeon
+  - dravosi
+  - fort-crestwall
+sources:
+  - "Inbox/Drave-Vaults.md"
+  - "raw/caldurs-tooth.md"
 confidence_level: low
-title: Drave Vaults
 site_type: dungeon
 parent_location: "[[fort-crestwall|Fort Crestwall]]"
 governance: "[[dravosi-crown|The Dravosi Crown]]"

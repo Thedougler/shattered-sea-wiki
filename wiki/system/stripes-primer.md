@@ -8,8 +8,13 @@ publish: false
 summary: "Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown."
 created: 2026-04-23
 updated: 2026-05-30
-tags: [system, primer, pc, tabaxi]
-sources: ["Inbox/private/system/players/Stripes-Primer.md"]
+tags:
+  - system
+  - primer
+  - pc
+  - tabaxi
+sources:
+  - "Inbox/private/system/players/Stripes-Primer.md"
 system_role: "unknown"
 token_profile: on-demand
 mandatory_for: []

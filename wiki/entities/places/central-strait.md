@@ -8,12 +8,18 @@ publish: true
 summary: "The main east-west shipping corridor between the Crown Islands and the Midchain — open passage with Dravosi inspection at the western gate and deepening Drowned Maw influence at the eastern end."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, region, maritime, strait]
-sources: ["Inbox/Central-Strait.md"]
+tags:
+  - place
+  - region
+  - maritime
+  - strait
+sources:
+  - "Inbox/Central-Strait.md"
 confidence_level: medium
-title: The Central Strait
 region_type: strait
-aliases: [Central Strait, The Strait]
+aliases:
+  - Central Strait
+  - The Strait
 parent_location: "[[shattered-sea|The Shattered Sea]]"
 governance: "[[dravosi-crown|The Dravosi Crown]] nominal authority; pilots, smugglers, and local ports shape practical passage"
 access: "open shipping corridor; inspection at Tidefall Gate; pilots recommended eastward"

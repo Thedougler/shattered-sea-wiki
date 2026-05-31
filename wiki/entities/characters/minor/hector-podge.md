@@ -8,8 +8,11 @@ publish: true
 summary: "Proprietor of the Hook & Ledger in Port Tidefall — heavyset, grey, and so thoroughly embedded in the Shelf that Crown officers stop asking his name and start asking which table is free."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [minor-npc, port-tidefall]
-sources: ["Inbox/Hector-Podge.md"]
+tags:
+  - minor-npc
+  - port-tidefall
+sources:
+  - "Inbox/Hector-Podge.md"
 confidence_level: medium
 ---
 

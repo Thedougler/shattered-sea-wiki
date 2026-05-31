@@ -8,8 +8,12 @@ publish: false
 summary: "CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack."
 created: 2026-04-25
 updated: 2026-05-28
-tags: [creature, humanoid, cr4]
-sources: ["Inbox/guard-captain.md"]
+tags:
+  - creature
+  - humanoid
+  - cr4
+sources:
+  - "Inbox/guard-captain.md"
 confidence_level: high
 cr: 4
 ---

@@ -8,15 +8,21 @@ publish: true
 summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, book, reference, naturalist]
-sources: ["Inbox/Algernon-Reginald-Clyde.md", "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"]
+tags:
+  - item
+  - book
+  - reference
+  - naturalist
+sources:
+  - "Inbox/Algernon-Reginald-Clyde.md"
+  - "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"
 confidence_level: confirmed
-title: Clyde's Bestiary of Oceanic Creatures
 item_type: book
 rarity: common
 requires_attunement: false
 current_holder: "[[perrin-black-jaw|Perrin Black-Jaw]]"
-aliases: [Clyde's Bestiary]
+aliases:
+  - Clyde's Bestiary
 ---
 
 # Clyde's Bestiary of Oceanic Creatures

@@ -8,15 +8,22 @@ publish: false
 summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, antheri, wondrous, homebrew]
-sources: ["Inbox/Catarina-DaVirelli.md", "Inbox/The-Snap.md"]
+tags:
+  - item
+  - antheri
+  - wondrous
+  - homebrew
+sources:
+  - "Inbox/Catarina-DaVirelli.md"
+  - "Inbox/The-Snap.md"
 confidence_level: medium
-title: The Snap
 item_type: wondrous
 rarity: rare
 attunement: false
 homebrew: true
-aliases: [Catarina's Fan, The Brace]
+aliases:
+  - Catarina's Fan
+  - The Brace
 ---
 
 # The Snap

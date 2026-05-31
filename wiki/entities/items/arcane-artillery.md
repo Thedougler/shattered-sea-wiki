@@ -8,10 +8,12 @@ publish: false
 summary: "Stub — referenced in [[ship-upgrades]]. No page yet."
 created: 2026-05-29
 updated: 2026-05-29
-tags: [item, ship-upgrade, stub]
+tags:
+  - item
+  - ship-upgrade
+  - stub
 sources: []
 confidence_level: low
-title: Arcane Artillery
 item_type: ship-upgrade
 ---
 

@@ -8,14 +8,20 @@ publish: true
 summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, dravosi, tier-4]
-sources: ["Homebrew"]
+tags:
+  - vehicle
+  - ship
+  - dravosi
+  - tier-4
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: HCS Ordinance
 ship_class: Ship of the Line
 tier: 4
-cssclasses: [wiki-ship]
-aliases: [Ordinance, "HCS Ordinance", "The Ordinance"]
+aliases:
+  - Ordinance
+  - "HCS Ordinance"
+  - "The Ordinance"
 ---
 
 # HCS *Ordinance*

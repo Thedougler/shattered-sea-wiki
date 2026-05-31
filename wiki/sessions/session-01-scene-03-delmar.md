@@ -8,8 +8,14 @@ publish: false
 summary: "Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck; backstory of the Pearl theft and fleet loss; coin trick with Bisou."
 created: 2026-04-22
 updated: 2026-05-30
-tags: [session, session-01, scene, read-aloud, delmar-fisk]
-sources: ["Inbox/sessions/01/Scene-03-Delmar.md"]
+tags:
+  - session
+  - session-01
+  - scene
+  - read-aloud
+  - delmar-fisk
+sources:
+  - "Inbox/sessions/01/Scene-03-Delmar.md"
 session_number: 1
 session_date: "unknown"
 beat_number: 3

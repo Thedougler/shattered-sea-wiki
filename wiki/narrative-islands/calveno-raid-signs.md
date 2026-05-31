@@ -8,8 +8,14 @@ publish: false
 summary: "Location-keyed ambient observations for the Calveno sandbox — the handlers are already in the city. Use one or two per session day, not all at once."
 created: 2026-05-27
 updated: 2026-05-30
-tags: [island, calveno, raid, grung, reference]
-sources: ["Inbox/Calveno-Raid-Signs.md"]
+tags:
+  - island
+  - calveno
+  - raid
+  - grung
+  - reference
+sources:
+  - "Inbox/Calveno-Raid-Signs.md"
 portable: false
 entry_points:
   - Ambient — one or two per session day

@@ -8,11 +8,16 @@ publish: true
 summary: Player-facing root hub for the Shattered Sea campaign wiki, with onboarding links, rules references, character creation resources, and setting indexes.
 created: 2026-05-04
 updated: 2026-05-30
-tags: [player-resource, index]
-sources: [Inbox/index.md]
-title: The Shattered Sea
+tags:
+  - player-resource
+  - index
+sources:
+  - Inbox/index.md
 visibility: public
-aliases: [The Scatter, Shattered Sea Campaign, Campaign Hub]
+aliases:
+  - The Scatter
+  - Shattered Sea Campaign
+  - Campaign Hub
 confidence_level: high
 ---
 

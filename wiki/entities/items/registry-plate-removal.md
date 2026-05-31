@@ -8,10 +8,14 @@ publish: true
 summary: "Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Registry Plate Removal
 item_type: service
 rarity: uncommon
 attunement: false

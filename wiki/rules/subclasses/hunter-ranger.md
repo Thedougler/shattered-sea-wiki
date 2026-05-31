@@ -8,9 +8,12 @@ publish: false
 summary: Ranger subclass (PHB 2024) — the iconic Ranger; mostly passive features with Hunter's Lore, Hunter's Prey options, and Superior Hunter's Defense. Accessible but low ceiling.
 created: 2026-04-23
 updated: 2026-05-30
-tags: [rules, subclass, ranger]
-sources: [PHB 2024]
-title: Hunter Ranger
+tags:
+  - rules
+  - subclass
+  - ranger
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

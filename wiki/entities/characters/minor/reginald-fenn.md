@@ -8,8 +8,13 @@ publish: true
 summary: "Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience."
 created: 2026-05-17
 updated: 2026-05-28
-tags: [elf, dravosi, minor-npc, port-tidefall]
-sources: ["Inbox/Reginald-Fenn.md"]
+tags:
+  - elf
+  - dravosi
+  - minor-npc
+  - port-tidefall
+sources:
+  - "Inbox/Reginald-Fenn.md"
 confidence_level: medium
 ---
 

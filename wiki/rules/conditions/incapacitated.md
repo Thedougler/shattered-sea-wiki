@@ -8,9 +8,11 @@ publish: false
 summary: Incapacitated condition — can't take actions or reactions, Concentration broken, can't speak; Disadvantage on Initiative if Incapacitated when rolling.
 created: 2026-04-20
 updated: 2026-05-30
-tags: [rules, condition]
-sources: [PHB 2024]
-title: Incapacitated
+tags:
+  - rules
+  - condition
+sources:
+  - PHB 2024
 confidence_level: medium
 ---
 

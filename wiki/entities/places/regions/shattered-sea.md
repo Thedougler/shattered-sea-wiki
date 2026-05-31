@@ -8,12 +8,19 @@ publish: true
 summary: "The campaign's main region: sixty thousand square miles of reef, deep water, island chains, colonial claims, old ruins, sea tribute, dangerous routes, and ports where every chart has an agenda."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, region, setting]
-sources: ["wiki/lore/campaign-overview.md", "Inbox/Shattered-Sea.md"]
+tags:
+  - place
+  - region
+  - setting
+sources:
+  - "wiki/lore/campaign-overview.md"
+  - "Inbox/Shattered-Sea.md"
 confidence_level: medium
-title: The Shattered Sea
 region_type: ocean-region
-aliases: [Shattered Sea, The Scatter, Scatter]
+aliases:
+  - Shattered Sea
+  - The Scatter
+  - Scatter
 governance: "contested between colonial powers, island councils, free ports, shrine authority, pilots, smugglers, and local bosses"
 access: "charted but politically and navigationally unreliable; pilots recommended"
 ---

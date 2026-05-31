@@ -8,15 +8,22 @@ publish: true
 summary: "Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, consumable, alchemical, dravosi, weapon, homebrew]
-sources: ["Homebrew"]
+tags:
+  - item
+  - consumable
+  - alchemical
+  - dravosi
+  - weapon
+  - homebrew
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Incendiary Flask
 item_type: consumable
 rarity: uncommon
 attunement: false
 homebrew: true
-aliases: ["Incendiary"]
+aliases:
+  - "Incendiary"
 ---
 
 # Incendiary Flask

@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Scorpion, a CR 3 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Scorpion
-aliases: [Giant Scorpion]
+aliases:
+  - Giant Scorpion
 cha: 3
 con: 15
 cr: 3
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 13
 environment: desert
 int: 1

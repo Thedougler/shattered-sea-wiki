@@ -8,12 +8,20 @@ publish: true
 summary: "An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, calveno, shop, alchemy, le-paludi]
-sources: ["Inbox/Session-03-Recap.md", "Inbox/Studio-Orsini.md"]
+tags:
+  - place
+  - building
+  - calveno
+  - shop
+  - alchemy
+  - le-paludi
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/Studio-Orsini.md"
 confidence_level: medium
-title: Studio Orsini
 building_type: shop
-aliases: [Orsini's]
+aliases:
+  - Orsini's
 district: Le Paludi
 parent_location: "[[calveno|Calveno]]"
 ---

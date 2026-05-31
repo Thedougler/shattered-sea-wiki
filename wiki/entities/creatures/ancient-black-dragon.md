@@ -8,17 +8,20 @@ publish: true
 summary: CR 21 chromatic dragon; the reason Aruhe is avoided — its acid drainage shapes the island's geology, and the Grung don't go there either.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Ancient Black Dragon
-aliases: [Ancient Black Dragon]
+aliases:
+  - Ancient Black Dragon
 cha: 22
 con: 25
 cr: 21
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: swamp
 int: 16

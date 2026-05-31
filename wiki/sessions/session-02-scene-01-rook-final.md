@@ -8,12 +8,19 @@ publish: false
 summary: "Session 02, Scene 01 — Rook alone, unharmed, all crew dead or defected. Opens mid-combat. Three lair actions: Arm the Guns, Fire the Guns, Call to Arms. Grigori's voice came from below."
 created: 2026-05-10
 updated: 2026-05-30
-tags: [session, session-02, scene, encounter, boss, dm-prep]
-sources: ["Inbox/sessions/02/Scene-01-Rook-Final.md"]
+tags:
+  - session
+  - session-02
+  - scene
+  - encounter
+  - boss
+  - dm-prep
+sources:
+  - "Inbox/sessions/02/Scene-01-Rook-Final.md"
 session_number: 2
+session_date: "unknown"
 beat_number: 1
 table_status: complete
-session_date: "unknown"
 ---
 
 # The Rook Resolution

@@ -8,8 +8,14 @@ publish: false
 summary: "A crewless schooner has been drifting 4 miles north of Kalowe for two nights — first boarding party claims salvage rights; something killed the crew and is still aboard."
 created: 2026-05-15
 updated: 2026-05-30
-tags: [situation, kalowe, ghost-ship, undead, salvage]
-sources: ["Inbox/situations/islands/Kalowe-Drifting-Hulk.md"]
+tags:
+  - situation
+  - kalowe
+  - ghost-ship
+  - undead
+  - salvage
+sources:
+  - "Inbox/situations/islands/Kalowe-Drifting-Hulk.md"
 lifecycle: active
 narrative_island: ""
 region: midchain

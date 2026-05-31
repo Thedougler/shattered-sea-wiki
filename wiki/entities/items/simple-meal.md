@@ -8,10 +8,13 @@ publish: true
 summary: "Salt fish, hard bread, and pickled greens — the baseline meal at most Shattered Sea port taverns."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, food, provision]
-sources: [Homebrew]
+tags:
+  - item
+  - food
+  - provision
+sources:
+  - Homebrew
 confidence_level: medium
-title: Simple Meal
 item_type: food
 rarity: common
 attunement: false

@@ -8,17 +8,19 @@ publish: true
 summary: A CR 1/4 construct guard-blade; a triggered ward in a sealed Calveno vault that does not distinguish between intruder and rescuer.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, construct, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - construct
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Animated Flying Sword
-aliases: [Animated Flying Sword]
+aliases:
+  - Animated Flying Sword
 cha: 1
 con: 11
 cr: 1/4
 creature_type: construct
-cssclasses:
-  - wiki-monster
 dex: 15
 environment: urban
 int: 1

@@ -3,17 +3,16 @@ name: ttrpg-wiki-lint
 version: "2.0"
 description: >
   Lint the Shattered Sea wiki and fix what's safe to fix. Run this whenever you
-  need to check vault health, standardize frontmatter (one file or in bulk), find
-  broken wikilinks or orphans, find deadend pages, check tag hygiene, detect
-  singleton properties, or migrate relationships out of frontmatter into the
-  body. Auto-detects Obsidian CLI for deeper cross-file checks and
-  markdownlint-cli2 for markdown formatting. This is the engine behind a full
-  audit — ttrpg-llm-wiki-init's Full Audit Mode routes here. Trigger on: "lint
-  the wiki", "check wiki health", "fix the frontmatter", "standardize
-  frontmatter", "find broken links", "find orphans", "find deadends", "tag
+  need to check vault health, standardize frontmatter, find broken wikilinks or
+  orphans, find deadend pages, check lore consistency (dead entity refs, parent
+  location gaps, narrative island mismatches, status drift), check tag hygiene,
+  detect singleton properties, or run markdown formatting checks. Auto-detects
+  Obsidian CLI for deeper cross-file checks and markdownlint-cli2 for formatting.
+  Trigger on: "lint the wiki", "check wiki health", "fix the frontmatter",
+  "find broken links", "find orphans", "find deadends", "lore consistency",
+  "check consistency", "dead NPC still captaining", "status drift", "tag
   hygiene", "what's wrong with the wiki", "clean up the vault", "audit the
-  wiki", "any broken wikilinks", "validate frontmatter", "move relationships
-  into the body", "check markdown formatting".
+  wiki", "check markdown formatting".
 ---
 
 # TTRPG Wiki Lint — Shattered Sea
@@ -48,11 +47,13 @@ The script auto-detects two external tools and uses them when available:
 2. Auto-fix safe   python3 .claude/scripts/wiki_lint.py --fix      (then commit)
 3. Re-lint         what remains needs you
 4. Work the report by category (below), fixing + committing as you go
-5. Stop            when only DM-judgment items remain — surface those, don't guess
+5. Manual lore     check prose-level consistency on files you touched (see below)
+6. Stop            when only DM-judgment items remain — surface those, don't guess
 ```
 
 Don't read files one by one to assess health — run the script. It's the fast path
-and it won't miss things you would.
+and it won't miss things you would. The manual lore pass (step 5) is for what the
+script *can't* catch: prose contradictions, timeline drift, and entity identity.
 
 ## Where flagged decisions live
 
@@ -118,8 +119,9 @@ Warnings and quality notes don't fail.
 It standardizes the frontmatter block and nothing else — the body is preserved
 byte-for-byte. Specifically: adds any missing required field with a path-inferred
 default, drops an empty `relationships: []`, coerces `publish`/`portable` to real
-booleans, renders `tags`/`sources`/`aliases` in flow style (`[a, b]`), and reorders
-fields into canonical order. Run it freely; it converges in one pass.
+booleans, renders `tags`/`sources`/`aliases` in block style (Obsidian's preferred
+list format), and reorders fields into canonical order. Run it freely; it converges
+in one pass.
 
 Because `--fix` writes files directly (not through the editor), the frontmatter hook
 doesn't re-fire on it — that's fine, the script applies the same completion the hook
@@ -170,6 +172,27 @@ dump `Relationships:` as a bullet list; work each one into the lore/DM text wher
 belongs. Once every entry for a file is woven in, **delete the `relationships:` field
 entirely**. Commit: `curation: {file} — relationships woven into body`.
 
+### dead-entity-ref (warning) — lore consistency
+A frontmatter cross-reference field (`captain`, `current_holder`, `owner`) points to
+an entity whose status is `dead`, `deceased`, `destroyed`, or `presumed_dead`. The
+ship/item page still claims a dead entity fills that role. Either update the field
+(new captain, no holder) or mark the parent file's status to reflect the loss.
+
+### island-situation-mismatch (warning) — lore consistency
+A narrative island's `contains_situations` lists a situation whose `narrative_island`
+field doesn't match (or is unset). Set the situation's `narrative_island` to match
+the island that claims it, or remove it from `contains_situations` if the mapping
+is wrong.
+
+### status-drift (warning) — lore consistency
+A status value has a near-synonym in use elsewhere (`deceased` vs `dead`, `open` vs
+`active`). Standardize to the canonical form for consistency. The linter flags the
+less-common variant.
+
+### parent-gap (quality) — lore consistency
+A place's `parent_location` field points to a parent page, but the parent's body
+prose doesn't mention this child. Add a wikilink to the child in the parent page.
+
 ### type-path-mismatch (warning)
 `type:` disagrees with the file's location. Usually the value is wrong — set it to
 match the path. But a cluster of mismatches means the directory structure has evolved
@@ -203,6 +226,216 @@ multi-H1) are already disabled.
 
 ---
 
+## Manual lore consistency review
+
+The script catches structural lore drift (dead-entity-ref, island-situation-mismatch,
+status-drift, parent-gap) but cannot read prose for meaning. After working the
+automated report, do a manual pass over files the script flagged or that you touched
+during fixes. This is where an LLM-wiki agent earns its keep — the compounding
+knowledge base is only as reliable as its internal coherence.
+
+### What to check
+
+**Contradicted facts across files.** When a file states a fact about another entity
+(location, allegiance, status, event), open the target entity's page and verify the
+claim matches. Common drift patterns:
+
+- An NPC page says they're in Calveno, but a situation page places them at sea
+- A session recap says an event happened during Session 02, but the NPC's page
+  describes it as Session 03
+- A faction page says NPC X is a member, but NPC X's page says they left
+- A place's body says it's governed by faction A, but faction A's page doesn't
+  list that place
+- An item page says it was found in location X, but the session where it was
+  found places the party somewhere else
+
+When you find a contradiction: check session notes (the primary source) to determine
+which version is correct. Fix the wrong one. If both could be right (ambiguous source
+material), append to `wiki/discrepancy-log.md` — don't guess.
+
+**Timeline consistency.** Session notes are the authoritative timeline. When a page
+references events, verify:
+
+- The session number cited actually contains that event
+- The order of events within a session matches the session recap
+- "Current" state claims in entity pages haven't been superseded by later sessions
+
+Use `qmd query` or `obsidian search` to find cross-references efficiently rather than
+reading files one by one.
+
+**hot.md coherence.** After any batch of fixes, scan `wiki/hot.md` for claims that
+conflict with what you just corrected. hot.md is the most-read file and the most
+likely to go stale. If it references a dead NPC as active, a resolved situation as
+live, or a ship's captain who's been killed — fix it.
+
+**Entity identity.** Two pages may describe the same entity under different names or
+from different angles (e.g. `leviathan.md` creature vs NPC — see
+`wiki/discrepancy-log.md` for the live example). When you suspect identity overlap:
+
+- Do NOT merge or resolve on your own
+- Append to `wiki/discrepancy-log.md` with both file paths, what overlaps, and
+  your recommendation
+- Leave both pages intact until the DM decides
+
+### When to do a manual pass
+
+- **After ingest** — new source material is the #1 cause of lore drift. The ingest
+  skill creates/updates entity pages from session notes, which may contradict existing
+  content written from earlier sessions or world-building.
+- **After working the automated report** — the files the script flagged are already
+  open in your context. Scan their prose while you're there.
+- **After a world-update** — faction clock advances and situation resolution can
+  invalidate claims in entity pages.
+- **When the DM asks** — "check consistency", "anything contradictory", "does this
+  all hang together" all trigger this manual pass.
+
+### What NOT to do
+
+- Don't read every file in the vault looking for contradictions. Use the script output
+  and `qmd query` / `obsidian search` to target files that reference each other.
+- Don't invent lore to resolve a gap. If two files disagree and the session notes don't
+  clarify, escalate — don't pick a side.
+- Don't silently change established facts. If an NPC's allegiance needs updating because
+  of session events, that's a legitimate correction. If two world-building files
+  disagree about geography and neither has session backing, that's a discrepancy-log
+  entry.
+
+---
+
+## LLM-wiki file standards
+
+Every file in this vault is optimized for two audiences: Obsidian (visual browsing)
+and Claude Code (agent context). Linting is the process of transforming files safely
+toward that dual-purpose ideal. The script handles the mechanical enforcement; the
+agent handles judgment calls the script can't make.
+
+### Frontmatter standards
+
+The `--fix` pass enforces these mechanically. When writing or editing manually,
+follow the same conventions so `--fix` is a no-op:
+
+**Field ordering.** Universal fields first in canonical order (`type`, `subtype`,
+`campaign`, `status`, `audience`, `publish`, `summary`, `created`, `updated`, `tags`,
+`sources`), then type-specific extras, then domain fields. The script reorders on
+`--fix`.
+
+**Block-style lists.** `tags`, `sources`, and `aliases` use block style per
+Obsidian's preferred format:
+```yaml
+tags:
+  - npc
+  - shattered-sea
+```
+Not flow style (`tags: [npc, shattered-sea]`). The `--fix` script enforces this.
+Running `--fix` will convert existing flow-style lists to block style.
+
+**No junk fields.** These waste tokens on every Read and carry no signal:
+
+| Field | Action |
+|---|---|
+| `title` | Strip — the H1 heading and the filename carry the title. 558 files have this; it's ~2k tokens of pure noise across the vault. |
+| `cssclasses` | Strip — only matters to Obsidian's CSS renderer, invisible to the agent. 93 files (`wiki-monster`, `wiki-ship`). |
+| `null` values (`field: null`) | Strip or set to a real default. 23 files have `narrative_island: null`. |
+| `sources: [Unknown]` | Replace with `sources: []` — "Unknown" is not a source. |
+| `aliases: []` | Strip empty alias lists — adds nothing. |
+
+These are safe to remove in `--fix` bulk passes (the script currently handles
+`relationships: []` stripping; the others are candidates for future `--fix` scope).
+Until then, remove by hand when touching a file.
+
+**Concrete summaries.** Every summary must state a fact the agent can use for
+routing. "Stub — no summary yet." fails this. A summary like "Tavern in the Warren
+district of Calveno, run by Nona" lets the agent decide whether to read the file
+without opening it. Write summaries as if the agent is scanning 500+ of them in
+an index.
+
+### Markdown standards
+
+**Aliased wikilinks.** Always alias: `[[bastian-crev|Bastian Crev]]`, not
+`[[bastian-crev]]`. Bare links render as slugs in agent context — the alias is how
+the entity name reaches the agent without it opening the target file.
+
+**One H1 per file.** The H1 is the page title. Use H2+ for sections. (markdownlint
+rule MD025 is disabled because some legacy files violate this, but new content should
+comply.)
+
+**Blank lines around headings and lists.** markdownlint enforces this (MD022, MD032).
+Missing blank lines cause Obsidian to sometimes merge content into the heading or
+misparse list items.
+
+**No trailing whitespace.** Invisible bytes that inflate diffs and token counts.
+
+**Image embeds are for Obsidian, not the agent.** `![[portrait.webp]]` renders
+visually in Obsidian but is a dead token for the agent. Keep them for visual
+reference but don't rely on them to convey information — the body text must stand
+alone.
+
+**Thematic breaks (`---`) in body.** Use sparingly between major sections. They're
+three tokens each and 190 files have them. Not wrong, but don't add them reflexively.
+
+### Token efficiency and context engineering
+
+The vault exists so the agent can answer questions and generate content without
+reading everything. Every file should be optimized for **selective loading**:
+
+**Frontmatter is the routing layer.** The agent reads frontmatter (via the index,
+via `qmd`, via direct file reads) to decide what to load fully. `summary`, `type`,
+`status`, `tags`, and `audience` are the fields that drive routing. If these are
+wrong or vague, the agent either loads the wrong files or misses the right ones.
+
+**`token_profile`** (system files only) signals how aggressively a file should be
+loaded:
+
+| Value | Meaning |
+|---|---|
+| `always-read` | Load every session (hot.md, doctrine) |
+| `quick-ref` | Load the summary; read fully only when task matches |
+| `on-demand` | Read only when explicitly needed |
+| `map` | Index/generated file — scan, don't read deeply |
+
+**`audience`** gates what the agent surfaces to players:
+
+| Value | Meaning |
+|---|---|
+| `dm` | DM-only content; never show to players |
+| `players` | Safe to surface in player-facing contexts |
+| `agent` | System/infrastructure; not campaign content |
+
+**Body density.** Prefer concrete facts over atmospheric prose in DM-reference
+pages. A 200-word page with 10 actionable facts is more useful to the agent than a
+1000-word page with 2 facts buried in flavor. Save the prose for `read-aloud`
+callouts and player-facing content. See `ttrpg-writing` for the two content modes.
+
+**Cross-reference over duplication.** If fact X lives on Entity A's page, don't
+restate it on Entity B's page — link to it. Duplication means two places to update
+and two places that can drift. Use wikilinks and section embeds (`![[A#Section]]`).
+
+### Agent-driven fixes (what the script can't catch)
+
+When touching files during a lint pass, also check for these by judgment:
+
+**Vague summaries.** The script flags `"Stub — no summary yet."` but can't judge
+whether `"An NPC in the campaign"` is useful. It isn't. Rewrite to include the
+entity's distinguishing fact: role, location, relationship to a PC, or reason
+they matter.
+
+**Redundant body content.** If the frontmatter already carries a field (`captain`,
+`parent_location`, `species`) and the body restates the same fact in prose with no
+additional context, the prose version wastes tokens. Either enrich the prose version
+(add context the field can't carry) or cut it.
+
+**Orphaned callouts.** A `> [!secret]` or `> [!mechanic]` callout whose content
+has been revealed in play or superseded by later sessions. These should be converted
+to plain text or removed. The script can't know what's been revealed — you can, by
+checking session notes.
+
+**Dead content blocks.** Sections like "## Hooks" or "## Rumors" that are empty or
+contain only placeholder text like "TBD" or "None yet". Either populate them with
+real content or remove the heading entirely. Empty sections waste tokens and mislead
+the agent into thinking there's structure where there's none.
+
+---
+
 ## When the rules are wrong, not the files
 
 The linter encodes the vault's conventions in three places: the path→type/subtype
@@ -224,5 +457,6 @@ per the escalation protocol — append to `wiki/discrepancy-log.md`, don't auto-
 delegates the actual checking to this script** instead of hand-walking files. The
 write-time frontmatter hook (`fix_frontmatter.py`) handles single-file completion on
 every save; this skill is the bulk/standalone counterpart and goes further
-(validation, links, orphans, deadends, tag hygiene, markdown formatting). For prose
-quality while weaving relationships, defer to `ttrpg-writing`.
+(validation, links, orphans, deadends, lore consistency, tag hygiene, token
+optimization, markdown formatting). For prose quality while weaving relationships,
+defer to `ttrpg-writing`.

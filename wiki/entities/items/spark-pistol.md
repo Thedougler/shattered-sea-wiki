@@ -8,10 +8,15 @@ publish: true
 summary: "A single-shot lightning pistol that fires 2d8 damage with no powder and no wet-weather misfire — prototype; Catarina has not decided what went wrong with it."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, prototype, antheri-adjacent, homebrew]
-sources: [Homebrew]
+tags:
+  - item
+  - weapon
+  - prototype
+  - antheri-adjacent
+  - homebrew
+sources:
+  - Homebrew
 confidence_level: medium
-title: Spark Pistol
 item_type: weapon
 rarity: rare
 requires_attunement: false

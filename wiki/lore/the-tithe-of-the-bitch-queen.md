@@ -8,9 +8,14 @@ publish: false
 summary: "A legendary collection of divine treasure scattered across the Sunken Crown seafloor — taking a single coin invites Umberlee's direct, personal spite. The sea follows you home."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [lore, legend, umberlee, sunken-crown, treasure]
-sources: [Homebrew]
-title: The Tithe of the Bitch Queen
+tags:
+  - lore
+  - legend
+  - umberlee
+  - sunken-crown
+  - treasure
+sources:
+  - Homebrew
 confidence_level: low
 ---
 

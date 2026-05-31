@@ -8,8 +8,14 @@ publish: true
 summary: "CR 24 dragon (mythic). Gargantuan amphibious; Blessing of the Sea resets to 350 HP and activates mythic actions. Hunts the Drowned Maw and Outer Reach."
 created: 2026-04-25
 updated: 2026-05-28
-tags: [creature, dragon, bestiary, cr24, mythic]
-sources: ["Inbox/ancient-dragon-turtle.md"]
+tags:
+  - creature
+  - dragon
+  - bestiary
+  - cr24
+  - mythic
+sources:
+  - "Inbox/ancient-dragon-turtle.md"
 confidence_level: medium
 cr: 24
 ---

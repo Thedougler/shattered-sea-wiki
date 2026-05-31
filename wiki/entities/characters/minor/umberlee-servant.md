@@ -8,8 +8,13 @@ publish: false
 summary: "Unnamed older woman in blue-gray robes carrying a message from Umberlee's Bitch Queen for Delmar. Waiting at the Waveservant Shrine in Calveno; not sleeping until he comes."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [stub, npc, umberlee, calveno]
-sources: ["Inbox/Session-03-Recap.md"]
+tags:
+  - stub
+  - npc
+  - umberlee
+  - calveno
+sources:
+  - "Inbox/Session-03-Recap.md"
 confidence_level: observed
 ---
 

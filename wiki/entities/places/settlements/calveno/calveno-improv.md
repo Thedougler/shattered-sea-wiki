@@ -8,10 +8,13 @@ publish: false
 summary: At-table improv tools for Calveno — name banks by culture, NPC quick-build, location naming, district texture, and how Calvenans talk.
 created: 2026-05-27
 updated: 2026-05-30
-tags: [calveno, dm-reference, improv]
-sources: [Inbox/places/calveno/Calveno-Improv.md]
+tags:
+  - calveno
+  - dm-reference
+  - improv
+sources:
+  - Inbox/places/calveno/Calveno-Improv.md
 confidence_level: high
-title: Calveno — Improv Reference
 region: calveno
 ---
 

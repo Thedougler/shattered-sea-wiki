@@ -8,17 +8,19 @@ publish: true
 summary: Public statblock reference for Giant Venomous Snake, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-30
-tags: [creature, beast, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - beast
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Giant Venomous Snake
-aliases: [Giant Venomous Snake]
+aliases:
+  - Giant Venomous Snake
 cha: 3
 con: 13
 cr: 1/4
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 18
 environment: coastal, desert, forest, grassland, hill, swamp
 int: 2

@@ -8,13 +8,20 @@ publish: true
 summary: "The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, island, crown-islands, dravosi, drowned-maw]
-sources: [Homebrew]
+tags:
+  - place
+  - island
+  - crown-islands
+  - dravosi
+  - drowned-maw
+sources:
+  - Homebrew
 confidence_level: medium
-title: Stenmark
 island_type: watch-island
 region_type: island
-aliases: [Stenmark Island, Isle of Stenmark]
+aliases:
+  - Stenmark Island
+  - Isle of Stenmark
 parent_location: "[[crown-islands|The Crown Islands]]"
 governance: "Stenmark settlement and [[dravosi-crown|The Dravosi Crown]] signal station"
 access: "Dangerous eastern shelf; western harbour with costly local pilots"

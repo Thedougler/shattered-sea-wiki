@@ -8,12 +8,18 @@ publish: true
 summary: "A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, island, grung, verdant-teeth]
-sources: ["Inbox/Dreth.md", "Inbox/Karath.md"]
+tags:
+  - place
+  - island
+  - grung
+  - verdant-teeth
+sources:
+  - "Inbox/Dreth.md"
+  - "Inbox/Karath.md"
 confidence_level: medium
-title: Karath
 island_type: hostile-island
-aliases: ["Karath Island"]
+aliases:
+  - "Karath Island"
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
 access: "Hostile reef approach; outsiders met with dart fire"

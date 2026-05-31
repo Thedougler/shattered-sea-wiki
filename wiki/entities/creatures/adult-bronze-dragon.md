@@ -8,17 +8,22 @@ publish: true
 summary: CR 15 metallic dragon; the Stormwarden of the Galewall — a shapeshifting guide that appears during the worst crossings and is gone before anyone can ask its name.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, dragon, dragon-metallic, bestiary]
-sources: [XMM, Homebrew]
+tags:
+  - creature
+  - dragon
+  - dragon-metallic
+  - bestiary
+sources:
+  - XMM
+  - Homebrew
 confidence_level: medium
-title: Adult Bronze Dragon
-aliases: [Adult Bronze Dragon, Stormwarden]
+aliases:
+  - Adult Bronze Dragon
+  - Stormwarden
 cha: 20
 con: 23
 cr: 15
 creature_type: dragon
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: coastal
 int: 16

@@ -8,10 +8,14 @@ publish: true
 summary: Player index for sea creatures, ocean predators, and nautical horrors of the Shattered Sea.
 created: 2026-05-05
 updated: 2026-05-30
-tags: [player-resource, index, bestiary, creature]
-sources: [Inbox/beastiary/sea-life/index.md]
+tags:
+  - player-resource
+  - index
+  - bestiary
+  - creature
+sources:
+  - Inbox/beastiary/sea-life/index.md
 confidence_level: medium
-title: Sea Life
 visibility: public
 ---
 

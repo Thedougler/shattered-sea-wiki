@@ -8,17 +8,18 @@ publish: false
 summary: CR 3 fey goblin spellcaster; curses and debilitates enemies with fey magic, and can negate a hit against it once per round with Jinx.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, fey]
-sources: [XMM]
+tags:
+  - creature
+  - fey
+sources:
+  - XMM
 confidence_level: high
-title: Goblin Hexer
-aliases: [Goblin Hexer]
+aliases:
+  - Goblin Hexer
 cha: 10
 con: 12
 cr: 3
 creature_type: fey
-cssclasses:
-  - wiki-monster
 dex: 16
 environment: forest, grassland, hill, planar, underdark
 int: 16

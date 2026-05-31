@@ -8,17 +8,19 @@ publish: true
 summary: CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, monstrosity, bestiary]
-sources: [XMM]
+tags:
+  - creature
+  - monstrosity
+  - bestiary
+sources:
+  - XMM
 confidence_level: high
-title: Roc
-aliases: [Roc]
+aliases:
+  - Roc
 cha: 9
 con: 20
 cr: 11
 creature_type: monstrosity
-cssclasses:
-  - wiki-monster
 dex: 10
 environment: arctic, coastal, desert, hill, mountain
 int: 3

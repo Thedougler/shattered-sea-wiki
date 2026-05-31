@@ -8,9 +8,12 @@ publish: false
 summary: Ranger subclass (Forgotten Realms Heroes of Faerun 2024) — cold damage specialist; Polar Strikes adds WIS to cold rolls; Frozen Haunt at L11 grants cold immunity and partial incorporeality.
 created: 2026-04-21
 updated: 2026-05-30
-tags: [rules, subclass, ranger]
-sources: [Forgotten Realms Heroes of Faerun (2024)]
-title: Winter Walker Ranger
+tags:
+  - rules
+  - subclass
+  - ranger
+sources:
+  - Forgotten Realms Heroes of Faerun (2024)
 confidence_level: medium
 ---
 

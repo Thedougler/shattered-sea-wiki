@@ -8,12 +8,20 @@ publish: true
 summary: "A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, island, midchain, fey, moucheron]
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Murrat.md"]
+tags:
+  - place
+  - island
+  - midchain
+  - fey
+  - moucheron
+sources:
+  - "Inbox/Session-02-Recap.md"
+  - "Inbox/Murrat.md"
 confidence_level: high
-title: Murrat
 island_type: inhabited-island
-aliases: ["The Murrat Cluster", "Murrat Island"]
+aliases:
+  - "The Murrat Cluster"
+  - "Murrat Island"
 parent_location: "[[midchain|The Midchain]]"
 governance: "Moucheron villages; no external authority, no negotiation"
 access: "Avoided; no safe approach; pilots refuse the route"

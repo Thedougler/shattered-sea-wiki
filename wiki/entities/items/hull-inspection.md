@@ -8,10 +8,14 @@ publish: true
 summary: "A professional inspection of hull condition, seams, and keel — an assessment report included with any job at reputable yards."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, service, maritime, ship-maintenance]
-sources: ["Homebrew"]
+tags:
+  - item
+  - service
+  - maritime
+  - ship-maintenance
+sources:
+  - "Homebrew"
 confidence_level: medium
-title: Hull Inspection
 item_type: service
 rarity: common
 attunement: false

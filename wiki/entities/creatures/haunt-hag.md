@@ -8,17 +8,20 @@ publish: false
 summary: CR 5 fey hag of fear and illusion; reads victims' deepest terrors and physically manifests as those fears — she runs encounters like a horror director.
 created: 2026-05-15
 updated: 2026-05-30
-tags: [creature, fey, bestiary]
-sources: [Homebrew, Pointy Hat]
+tags:
+  - creature
+  - fey
+  - bestiary
+sources:
+  - Homebrew
+  - Pointy Hat
 confidence_level: high
-title: Haunt Hag
-aliases: [Haunt Hag]
+aliases:
+  - Haunt Hag
 cha: 10
 con: 16
 cr: 5
 creature_type: fey
-cssclasses:
-  - wiki-monster
 dex: 14
 environment: forest, urban
 int: 15

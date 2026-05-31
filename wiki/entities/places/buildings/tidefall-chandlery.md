@@ -8,12 +8,19 @@ publish: true
 summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, port-tidefall, dravosi, chandlery]
-sources: ["Inbox/Nigel-Strutt.md", "Inbox/Tidefall-Chandlery.md"]
+tags:
+  - place
+  - building
+  - port-tidefall
+  - dravosi
+  - chandlery
+sources:
+  - "Inbox/Nigel-Strutt.md"
+  - "Inbox/Tidefall-Chandlery.md"
 confidence_level: medium
-title: Tidefall Chandlery
 building_type: chandlery
-aliases: [The Tidefall Chandlery]
+aliases:
+  - The Tidefall Chandlery
 district: The Shelf
 parent_location: "[[port-tidefall|Port Tidefall]]"
 ---

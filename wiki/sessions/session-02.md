@@ -8,8 +8,10 @@ publish: false
 summary: "Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up."
 created: 2026-05-18
 updated: 2026-05-30
-tags: [session]
-sources: ["Inbox/Session-02-Recap.md"]
+tags:
+  - session
+sources:
+  - "Inbox/Session-02-Recap.md"
 session_number: 2
 session_date: 2026-05-18
 ---

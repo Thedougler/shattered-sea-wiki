@@ -8,13 +8,20 @@ publish: true
 summary: "Open-water Antheri salvage field on the western shelf of the Drowned Maw, where clear shallow ruins promise impossible materials before the seabed drops into black water."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, antheri, salvage, ruins, maritime]
-sources: ["Inbox/Campaign-Timeline.md", "Inbox/Shelfworks.md"]
+tags:
+  - place
+  - antheri
+  - salvage
+  - ruins
+  - maritime
+sources:
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/Shelfworks.md"
 confidence_level: medium
-title: The Shelfworks
 site_type: salvage-site
 region_type: open-water-site
-aliases: [Shelfworks]
+aliases:
+  - Shelfworks
 parent_location: "[[the-drowned-maw|The Drowned Maw]]"
 governance: "contested by independent crews, Tessarine Concordat, Dravosi Crown, and pirate pressure"
 access: "open-water dive site; crew, pumps, rope discipline, and weather window required"

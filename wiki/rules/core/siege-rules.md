@@ -8,9 +8,13 @@ publish: false
 summary: "Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [rule, reference, siege, large-scale]
-sources: ["Pointy Hat — Storm Rising Adventure"]
-title: Siege Rules
+tags:
+  - rule
+  - reference
+  - siege
+  - large-scale
+sources:
+  - "Pointy Hat — Storm Rising Adventure"
 confidence_level: high
 ---
 

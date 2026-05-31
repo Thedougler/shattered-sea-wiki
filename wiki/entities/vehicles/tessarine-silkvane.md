@@ -8,10 +8,15 @@ publish: false
 summary: "A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [vehicle, ship, tessarine, tier-1, dispatch]
-sources: [Homebrew]
+tags:
+  - vehicle
+  - ship
+  - tessarine
+  - tier-1
+  - dispatch
+sources:
+  - Homebrew
 confidence_level: medium
-title: Tessarine Courier Silkvane
 ship_class: dispatch sloop
 tier: 1
 home_port: "[[port-tidefall|Port Tidefall]]"

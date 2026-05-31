@@ -8,17 +8,18 @@ publish: false
 summary: CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, beast]
-sources: [XPHB]
+tags:
+  - creature
+  - beast
+sources:
+  - XPHB
 confidence_level: high
-title: Tiger
-aliases: [Tiger]
+aliases:
+  - Tiger
 cha: 8
 con: 14
 cr: 1
 creature_type: beast
-cssclasses:
-  - wiki-monster
 dex: 16
 environment: forest, grassland
 int: 3

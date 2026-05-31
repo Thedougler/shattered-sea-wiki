@@ -8,10 +8,17 @@ publish: false
 summary: "The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, calveno, dry-dock, passage, black-jaw]
-sources: ["Inbox/Session-03-Recap.md", "Inbox/La-Vasca.md"]
+tags:
+  - place
+  - building
+  - calveno
+  - dry-dock
+  - passage
+  - black-jaw
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "Inbox/La-Vasca.md"
 confidence_level: high
-title: La Vasca
 building_type: private-drydock
 parent_location: "[[calveno|Calveno]]"
 district: "Le Paludi"

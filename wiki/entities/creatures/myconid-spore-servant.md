@@ -8,17 +8,18 @@ publish: false
 summary: CR 1 plant creature animated by myconid sovereign spores; retains no personality, only function.
 created: 2026-04-25
 updated: 2026-05-30
-tags: [creature, plant]
-sources: [XMM]
+tags:
+  - creature
+  - plant
+sources:
+  - XMM
 confidence_level: high
-title: Myconid Spore Servant
-aliases: [Myconid Spore Servant]
+aliases:
+  - Myconid Spore Servant
 cha: 1
 con: 16
 cr: 1
 creature_type: plant
-cssclasses:
-  - wiki-monster
 dex: 12
 environment: underdark
 int: 2

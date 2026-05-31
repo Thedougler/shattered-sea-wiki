@@ -8,12 +8,20 @@ publish: true
 summary: "Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, monastery, aarakocra, crown-islands]
-sources: ["Inbox/Crissdalynn-Khinriss.md", "Inbox/Campaign-Timeline.md", "Inbox/High-Eyrie.md"]
+tags:
+  - place
+  - building
+  - monastery
+  - aarakocra
+  - crown-islands
+sources:
+  - "Inbox/Crissdalynn-Khinriss.md"
+  - "Inbox/Campaign-Timeline.md"
+  - "Inbox/High-Eyrie.md"
 confidence_level: medium
-title: The High Eyrie
 building_type: monastery
-aliases: ["High Eyrie"]
+aliases:
+  - "High Eyrie"
 parent_location: "[[crown-islands|The Crown Islands]]"
 district: northeastern sea stack
 ---

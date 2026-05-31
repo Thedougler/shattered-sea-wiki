@@ -8,8 +8,12 @@ publish: false
 summary: "Canonical chronology for Shattered Sea pre-campaign history and early sessions. Anchors the Antheri, Drowned Maw, Fisk fleet disaster, Perrin's shipwreck, and Session 01 sequence."
 created: 2026-05-27
 updated: 2026-05-27
-tags: [timeline, lore, chronology]
-sources: ["Inbox/Campaign-Timeline.md"]
+tags:
+  - timeline
+  - lore
+  - chronology
+sources:
+  - "Inbox/Campaign-Timeline.md"
 ---
 
 # Campaign Timeline

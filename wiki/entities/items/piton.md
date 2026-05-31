@@ -8,10 +8,13 @@ publish: true
 summary: "A small iron spike driven into stone or wood to anchor a rope — standard climbing and boarding hardware. 5 sp per 10."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, equipment, climbing]
-sources: ["PHB"]
+tags:
+  - item
+  - equipment
+  - climbing
+sources:
+  - "PHB"
 confidence_level: medium
-title: Piton
 item_type: equipment
 rarity: common
 attunement: false

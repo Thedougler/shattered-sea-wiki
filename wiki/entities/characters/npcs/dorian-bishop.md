@@ -8,10 +8,14 @@ publish: false
 summary: "Dravosi Crown Captain commanding the HCS Tangent. Twice as dangerous as Rook in single combat. Known for lateral, unpredictable approaches. The next escalation after Rook."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [npc, dravosi, unrevealed, captain]
-sources: ["Inbox/Dorian-Bishop.md"]
+tags:
+  - npc
+  - dravosi
+  - unrevealed
+  - captain
+sources:
+  - "Inbox/Dorian-Bishop.md"
 confidence_level: high
-title: Captain Dorian Bishop
 reveal_status: unrevealed
 ---
 

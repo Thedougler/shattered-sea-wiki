@@ -8,10 +8,14 @@ publish: true
 summary: "A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [item, weapon, melee, simple]
-sources: ["PHB"]
+tags:
+  - item
+  - weapon
+  - melee
+  - simple
+sources:
+  - "PHB"
 confidence_level: medium
-title: Handaxe
 item_type: weapon
 rarity: common
 attunement: false

@@ -8,10 +8,15 @@ publish: true
 summary: "The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should."
 created: '2026-05-29'
 updated: '2026-05-29'
-tags: [place, building, fort, dravosi, port-tidefall]
-sources: ["Inbox/Fort-Crestwall.md"]
+tags:
+  - place
+  - building
+  - fort
+  - dravosi
+  - port-tidefall
+sources:
+  - "Inbox/Fort-Crestwall.md"
 confidence_level: medium
-title: Fort Crestwall
 building_type: fort
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Crestwall cliff

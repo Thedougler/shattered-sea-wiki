@@ -204,6 +204,49 @@ If JC took the tunnel job, the Warren provides a rough map and a Le Paludi entry
 
 → Full tactical map and Day 3 detail: [[session-04-day-3#Handler Investigation — The Tunnels|Day 3]]
 
+#### Storm Drain Ambush — The Pickup Point
+
+*Combat. The party followed the extraction route to its end.*
+
+The sewer narrows to a storm drain that opens into [[la-vasca|La Paludi]] harbour at the waterline. Two blue-caste handlers are stationed here — not expecting pursuit today, but trained and positioned at the choke point. They are security for the extraction route, confirming the drain is clear and timing the tidal window for the *vethka* pickup.
+
+**Surprise.** The handlers hear the party coming through the drain — stone carries sound. They flatten against the harbour-side walls flanking the drain mouth, waist-deep in seawater, and wait. Passive Perception 13 to notice them. If no one beats it, the handlers get a surprise round.
+
+> [!read-aloud]
+> The tunnel slopes down and the water rises — ankle, shin, knee. Salt, not canal. Daylight leaks in ahead, a ragged rectangle of grey harbour sky. The drain grate has been removed and stacked against the wall. Beyond the opening: harbour water, open air, the creak of mooring lines, and the slap of low waves against the quay stones. You can smell the sea.
+
+**Terrain:**
+
+- **The drain mouth** is 5 ft wide. Only one Medium creature can exit abreast. Small creatures (JC, Perrin) can squeeze two-wide.
+- **Water depth** — knee-deep inside the drain, waist-deep (difficult terrain) outside in the harbour shallows. The Grung ignore this (amphibious, Standing Leap).
+- **Quay wall** — rough-cut stone, 8 ft up to the harbour walk. DC 12 Athletics to climb; the Grung can Standing Leap it in one move.
+- **Cover** — two rotting skiffs pulled up on the shallows to the left. A barnacle-crusted piling 10 ft right. The drain mouth itself is full cover from the harbour side.
+- **Visibility** — bright daylight outside. Anyone in the drain has darkvision or is silhouetted. The handlers are wet and pressed flat against harbour stone; they do not silhouette.
+
+**Blue-Caste Handler x 2.** Scout (MM p.349). AC 13, HP 16. Shortbow +4, 1d8+3 piercing + **Grung Poison** (DC 11 Con save or Poisoned 1 min). Standing Leap 20 ft as part of movement. Skin contact forces DC 12 Con save or Poisoned. **Breaks and runs at half HP.**
+
+**Tactics:** The ambush fires at the drain mouth — the first PC to step into daylight takes two shortbow shots from flanking positions. After the opening volley, the handlers split: one kites along the shallows using Standing Leap to maintain range, the other scrambles up the quay wall to get elevation and a clean escape line. They fight to delay, not to kill. At half HP, they dive and swim — amphibious, fast, gone in two rounds.
+
+> [!dm]
+> **The critical reveal is what the party sees from here.** When a PC exits the drain and looks seaward, read this:
+
+> [!read-aloud]
+> Past the harbour shallows, past the mooring buoys, past the patrol line — three dark hulls sit at anchor. Low, double-outrigged, no pennant, no flag, no movement on deck. They sit on the water like they were made for it. Jean-Claude knows what they are before he finishes looking. *Vethka.* Grung ocean-capable transport. Each one holds forty.
+
+> [!dm]
+> This is the first time the party physically sees the extraction fleet from shore level. Three *vethka*, each holding forty captives. The sewer pipeline ends here; the ocean pipeline begins. Let that math land — five strike points, hundreds of targets, three ships that can carry a hundred and twenty. Don't say any of this. Let the party do the arithmetic.
+
+**Three outcomes:**
+
+| Outcome | Consequence |
+|---|---|
+| **Capture alive** | The handler knows the tidal pickup window (two hours after midnight on raid night), confirms all five extraction lanes, and knows the *vethka* signal — a lantern sequence from the drain mouth. This is full operational intelligence. |
+| **Kill both** | One extraction point goes dark. The *vethka* crew notes no signal from this drain on raid night and repositions to the remaining four. Simone does not learn the lane was compromised. |
+| **Let them escape** | Both handlers report. Simone knows the party has found the pickup point. She can reroute this lane or — worse — accelerate the timeline. JC's face is now a priority in the handler network. |
+
+> [!mechanic]
+> **Pursuit in water.** A handler who dives has a swim speed of 30 ft. PCs without a swim speed move at half speed (difficult terrain). JC is amphibious and matches their speed. Perrin can swim but at half. Delmar and Crissdalynn are in armour — DC 10 Athletics each round to stay afloat, half speed. The handlers know this and will dive if pressed.
+
 ---
 
 ### Red Lady — First Threads

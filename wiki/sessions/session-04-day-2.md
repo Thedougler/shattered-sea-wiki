@@ -15,6 +15,7 @@ tags:
 sources:
   - Homebrew
 session_number: 4
+session_date: "unknown"
 ---
 
 # Session 04 — Day 2: La Scelta

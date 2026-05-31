@@ -21,6 +21,9 @@ cr: 7
 aliases:
   - "The Mercatura Slaad"
   - "Simone's Slaad"
+updated: 2026-05-30
+statblock: inline
+name: "Calveno Slaad"
 ---
 
 # Calveno Slaad — The Groundbreaker
@@ -33,13 +36,21 @@ This is not a standard Red Slaad. Simone's red-caste operatives bound this creat
 
 The party trivialized Barnaby Rook via environmental repositioning (gusts, thrown objects) and the whip shark through concentrated damage output. This Slaad is built to punish both patterns:
 
-- **Chaos Pulse** punishes clustering and concentration, forcing the party to spread.
-- **Entropic Regeneration** (15 HP/round, suppressed only by fire or acid) demands sustained pressure — they cannot burst it in two rounds and move on.
+- **Entropic Regeneration** (10 HP/round, suppressed only by fire or acid) demands sustained pressure — they cannot burst it in two rounds and move on.
 - **Tongue Lash** (30 ft. grapple + pull) counters ranged kiting, specifically threatening Jean-Claude's preferred distance.
+- **Chaos Pulse** punishes clustering and concentration, forcing the party to spread.
 - **Rubble Surge** uses the collapsed-plaza environment as a weapon, countering flight and repositioning.
-- **No legendary actions.** The Slaad is chaotic, not tactical. It doesn't respond to player turns — it acts on its own terms. The lair actions represent the unstable environment, not the Slaad's intelligence.
+- **Lair actions** represent the unstable plaza — aftershocks, dust, collapsing masonry. They create terrain problems the Slaad isn't smart enough to exploit intentionally.
+- **No legendary actions.** The Slaad is chaotic, not tactical. It doesn't respond to player turns — it acts on its own terms.
 
 The fight should feel like containing a disaster, not outmaneuvering a commander. Every round the party spends on the Slaad is a round the extraction at the four secondary sites runs unopposed. The real boss is the clock.
+
+## Behavioral Profile
+
+- **Opening move:** Emerges from crater. Tongue Lash the nearest visible creature, pull into melee range, then close. If 3+ creatures cluster within 20 feet, opens with Chaos Pulse instead.
+- **Escalation (68 HP):** Unstable Form activates — skin splits, melee attacks gain acid, attackers take acid splash. The Slaad becomes more erratic, moving toward the largest cluster of creatures it can see.
+- **Morale:** None. Does not retreat, surrender, or reason. Fights until dead.
+- **Role:** Brute / hazard. Tactical personality: Chaotic — rolls or DM-chooses targets randomly. An obstacle, not an opponent.
 
 ```statblock
 layout: Basic 5e Layout
@@ -49,8 +60,8 @@ type: aberration
 alignment: "chaotic neutral"
 ac: 15
 ac_class: "natural armor"
-hp: 161
-hit_dice: "17d10 + 68"
+hp: 136
+hit_dice: "14d10 + 56"
 speed: "40 ft., climb 20 ft."
 stats: [20, 12, 18, 5, 8, 6]
 saves:
@@ -60,21 +71,18 @@ skillsaves:
   - athletics: 8
   - perception: 2
 damage_resistances: "cold, lightning, thunder"
-damage_immunities: "none"
-condition_immunities: "frightened"
+condition_immunities: "charmed, frightened"
 senses: "darkvision 60 ft., passive Perception 12"
 languages: "Slaad (does not communicate)"
 cr: 7
 source: "Homebrew — Shattered Sea"
 traits:
   - name: Entropic Regeneration
-    desc: "The Slaad regains 15 hit points at the start of its turn if it has at least 1 hit point. If the Slaad takes fire or acid damage, this trait doesn't function at the start of the Slaad's next turn."
+    desc: "The Slaad regains 10 hit points at the start of its turn if it has at least 1 hit point. If the Slaad takes fire or acid damage, this trait doesn't function at the start of the Slaad's next turn."
   - name: Magic Resistance
     desc: "The Slaad has advantage on saving throws against spells and other magical effects."
-  - name: Chaos Embodied
-    desc: "The Slaad cannot be charmed, and any creature that starts its turn within 10 feet of the Slaad must succeed on a DC 15 Wisdom saving throw or have disadvantage on its next attack roll. Creatures immune to the frightened condition are immune to this effect."
   - name: Unstable Form
-    desc: "When the Slaad is reduced to half its hit points (80 HP) or fewer, its skin splits and weeps iridescent fluid. Its melee attacks deal an additional 1d6 acid damage, and any creature that hits it with a melee attack within 5 feet takes 5 (1d10) acid damage."
+    desc: "When the Slaad is reduced to half its hit points (68 HP) or fewer, its skin splits and weeps iridescent fluid. Its melee attacks deal an additional 1d6 acid damage, and any creature that hits it with a melee attack within 5 feet takes 5 (1d10) acid damage."
 actions:
   - name: Multiattack
     desc: "The Slaad makes three attacks: one Bite, one Claw, and one Tongue Lash. It can replace the Tongue Lash with a second Claw attack."
@@ -83,13 +91,21 @@ actions:
   - name: Claw
     desc: "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
   - name: Tongue Lash
-    desc: "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be pulled up to 25 feet toward the Slaad and grappled (escape DC 16). While grappled, the target is restrained. The Slaad can grapple one creature this way at a time."
+    desc: "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be pulled up to 25 feet toward the Slaad and grappled (escape DC 16). The Slaad can grapple one creature this way at a time."
   - name: "Chaos Pulse (Recharge 5-6)"
     desc: "The Slaad slams both fists into the ground. Each creature within 20 feet must make a DC 15 Dexterity saving throw. On a failure, a creature takes 22 (4d10) force damage and is knocked prone. On a success, a creature takes half damage and isn't knocked prone. Rubble and debris in the area become difficult terrain."
 reactions:
   - name: Rubble Surge
     desc: "When a creature the Slaad can see moves more than 15 feet in a single turn while within 30 feet of the Slaad, the Slaad can use its reaction to hurl a chunk of plaza rubble. The target must succeed on a DC 15 Dexterity saving throw or take 11 (2d10) bludgeoning damage and have its speed reduced to 0 until the end of its current turn. This reaction can target flying creatures."
 ```
+
+## Lair Actions — The Shattered Plaza
+
+The summoning circle's detonation left the Mercatura plaza structurally unsound. These effects are not controlled by the Slaad — they happen because the ground is falling apart. On initiative count 20 (losing ties), one of the following effects occurs. The same effect can't occur two rounds in a row.
+
+- **Aftershock.** The crater groans and shifts. Each creature on the ground within 15 feet of the crater edge must succeed on a DC 13 Dexterity saving throw or fall prone.
+- **Choking Dust.** A plume of pulverized stone erupts from the rubble. A 15-foot-radius sphere centered on a point within the plaza becomes heavily obscured until initiative count 20 of the next round.
+- **Masonry Collapse.** A section of wall or archway gives way. One creature within 40 feet of the crater (DM's choice) must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) bludgeoning damage and be restrained by rubble (escape DC 13, or another creature can use an action to free them).
 
 ## Encounter Notes
 
@@ -99,14 +115,16 @@ reactions:
 
 **The Clock:** Every round of combat at the Mercatura is a round the extraction runs at the four secondary sites. After round 3, a PC who succeeds on a DC 12 Perception check hears screams from the Bridge district — a second strike point is active. After round 5, smoke is visible from Le Paludi. The party must decide: stay and kill the Slaad, or split and save people.
 
-**Weakness — Fire/Acid:** Suppressing the regeneration is the tactical key. Jean-Claude's ranger toolkit does not include fire by default. The party needs to find it — a festival torch, a lantern, Perrin's spells if he has any fire options, or an alchemical solution from the rubble (DC 14 Investigation to find a chandler's oil stock scattered by the blast — improvised fire damage 1d6, bonus action to ignite). Reward creative fire use.
+**Lair Actions:** Run one lair action per round on initiative 20. Don't repeat the same effect two rounds in a row. Choking Dust is the most tactically interesting — it blocks Jean-Claude's sight lines and can obscure civilians the party is trying to rescue. Aftershock punishes melee PCs near the crater. Masonry Collapse creates rescue-or-fight tension (a restrained PC needs help). All three are mild enough to run without slowing the fight.
+
+**Weakness — Fire/Acid:** Suppressing the regeneration is the tactical key. The party has no innate fire or acid damage. They need to find it — a festival torch, a lantern, Perrin's spells if he has any fire options, or an alchemical solution from the rubble (DC 14 Investigation to find a chandler's oil stock scattered by the blast — improvised fire damage 1d6, bonus action to ignite). Reward creative fire use. With fire, the fight takes 4–5 rounds. Without it, 6–7.
 
 **Scaling:**
 - **If the fight is too hard:** Ruk arrives after round 5 with a festival torch and a cleaver, dealing 2d6+4 slashing + 1d6 fire per round. He does not speak. He hits the thing.
 - **If the fight is too easy:** the Slaad targets a cluster of trapped civilians in the rubble, forcing the party to reposition rather than focus-fire. It also uses Tongue Lash to pull a PC into the crater, creating a bad position.
 - **If the party splits early:** the Slaad pursues the nearest target for 2 rounds, then loses interest and attacks civilians. It does not chase strategically — it is chaos, not tactics.
 
-**Death:** When the Slaad dies, it does not dissolve or vanish. It falls. It bleeds iridescent fluid into the rubble. The body is real, heavy, and wrong — something from outside the planes, dead in the middle of a Tessarine commercial plaza. The summoning circle beneath the rubble is still faintly visible. Someone brought this here on purpose.
+**Death:** When the Slaad dies, the lair actions cease. It does not dissolve or vanish. It falls. It bleeds iridescent fluid into the rubble. The body is real, heavy, and wrong — something from outside the planes, dead in the middle of a Tessarine commercial plaza. The summoning circle beneath the rubble is still faintly visible. Someone brought this here on purpose.
 
 ## Connections
 

@@ -7,11 +7,12 @@ audience: dm
 publish: false
 summary: "The Draves family name appears in Crown genealogical archives further back than their standing explains — and Aldric Drave's heir-selection process reads those same records. Whether Geoffrey is a functioning phylactery remains deliberately open."
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-30
 tags: [situation, revelation, dravosi, bloodline, geoffrey-draves, mid-game]
 sources: ["Inbox/situations/revelations/The-Draves-Bloodline-Question.md"]
 reveal_tier: mid
 lifecycle: dormant
+narrative_island: ""
 ---
 
 # The Draves Bloodline Question

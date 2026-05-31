@@ -467,6 +467,7 @@ sources: []
 - [[nimmik-vollask|Nimmik Vollask]] — Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 - [[red-lady|The *Red Lady*]] — Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 - [[saltwright|The Saltwright]] — A hard-used two-masted merchant brig captained by Beaumont Sel, working the Midchain cargo run — home port Kalowe.
+- [[ships-index|Ships]] — Player-facing index of known ships — vessels the party sails, has sailed, or should recognise on sight.
 - [[tessarine-amberreach|Tessarine Factor *Amberreach*]] — The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry.
 - [[tessarine-silkvane|Tessarine Courier *Silkvane*]] — A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels.
 - [[the-bad-receipt|The *Bad Receipt*]] — A Tier 2 armed pirate schooner out of Kalowe, built to pass as a disputed courier, forge just enough paperwork to survive inspection, then vanish into Midchain reef channels after taking high-value cargo.
@@ -655,6 +656,7 @@ sources: []
 - [[session-01-scene-03-delmar|Beat 3: Delmar]] — Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck; backstory of the Pearl theft and fleet loss; coin trick with Bisou.
 - [[session-01-scene-04-stripes|Beat 4: Stripes]] — Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check.
 - [[session-01-scene-05-perrin|Beat 5: Perrin]] — Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal.
+- [[session-01-scene-07-the-hold|Beat 7: The Hold]] — Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins.
 - [[session-02|Session 02 — Conflict is a Surety]] — Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up.
 - [[session-02-recap|02 — Conflict is a Surety]] — Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
 - [[session-03|Session 03 — Getting in on the Joke]] — Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations.
@@ -664,6 +666,7 @@ sources: []
 
 ## system
 - [[art-style|Art Style Guide]] — Visual style guide for AI-generated campaign art — agents read this before every image generation task
+- [[blm-prep-framework|BLM Prep Framework]] — Brennan Lee Mulligan's prep methodology: reactive toys over predicted outcomes, narrative tentpoles that Schrödinger into position, player gravity as the essential anchor. Read before generating session prep, NPC toys, or faction structures.
 - [[character-creation-three-pillars|Character Creation: Three Pillars]] — Pointy Hat's three-pillar framework for character identity before mechanics: Gimmick (surface), Conflict (wound), Want (engine). Use before helping create or evaluate any PC concept.
 - [[character-interview-guide|Character Interview Guide]] — A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers.
 - [[crissdalynn-primer|Crissdalynn Primer]] — Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
@@ -832,6 +835,7 @@ sources: []
 - [[calveno-sandbox-run-guide|Calveno Sandbox Run Guide]] — DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party.
 - [[calveno-street-encounters|Calveno — Street Encounters]] — Optional drop-in encounters for Calveno and Le Paludi — muggings, canal incidents, festival escalations, Dravosi gate checks, and a man in the water. Includes Jean-Claude Arc combat escalations: Handler Cell, Serin Haut at Bay, Le Paludi Hired Muscle.
 - [[il-gioco-delle-beffe-dm|Il Gioco delle Beffe — DM Notes]] — DM mechanics for running the Beffa as a five-day skill challenge — phase structure, team symbol system, mark selection, rival teams, prize table, and running notes. Beffe registration opens tomorrow morning at the Mercatura bridge.
+- [[mud-pits|The Mud Pits — DM Notes]] — DM mechanics for running the Mud Pits as a party attraction at Kalowe — calibration table, opponent roster, betting mechanics, and crowd-as-social-resource.
 - [[port-tidefall-dockfront|Port Tidefall — Dockfront Opportunities]] — Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors.
 - [[red-lady-salvage-money|Red Lady — Salvage Money]] — Unusual broker money is moving through Calveno toward a Maw salvage commission targeting the Red Lady. Batta Zusto on the Bridge is the accessible thread. The funder is not yet known.
 - [[shepherd-grigori-island|Shepherd Grigori — Narrative Island]] — A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Perrin Black-Jaw's family brig — built by his grandfather Vincenzo Black-Jaw, destroyed before the campaign begins by something massive from below."
 created: '2026-05-29'
-updated: '2026-05-29'
+updated: 2026-05-30
 tags: [vehicle, ship, rattkin, black-jaw, lost]
 sources: ["Inbox/Perrin-Black-Jaw.md", "Inbox/Session-03-Recap.md", "Inbox/Campaign-Timeline.md", "Inbox/Vestra.md"]
 confidence_level: confirmed

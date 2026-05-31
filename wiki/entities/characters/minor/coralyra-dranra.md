@@ -21,7 +21,7 @@ species: elf
 | | |
 |---|---|
 | **Species / Class** | Elf Sorcerer/Bard 5 |
-| **Background** | Acolyte |
+| **Background** | Incomplete Aoidos *(ah-OY-dos)* of Halythion; self-exiled |
 | **Age** | 87 (young for an elf; teenage in elf terms) |
 | **Home** | [[halythion|Halythion]] |
 
@@ -42,11 +42,18 @@ Raised to follow Deep Sashelas. Admires Umberlee for her absolute control and au
 
 Sorcerer/Bard multiclass. Innate magical gift weaponized through training. Produces music and magical effects beyond what her voice alone could explain (the full scope of this is a secret). Trident salvaged from a downed ship (origin unknown to her).
 
+## Active Situations
+
+- **Self-exile from Halythion** — left before the evaluation could force a conclusion; a Council hearing presumably still waits. She has not gone back.
+- **Incomplete Aoidos title** — the title and its obligations are unresolved; carries it by default
+- **The hermit crab** — she owes it a good shell; still looking
+- **Flappers** — out chasing mackerel; does not know where Coralyra is
+
 ## What She's Carrying
 
-- A trident of unknown origin
+- A trident salvaged from a downed ship she never knew the name of (magical, origin unknown to her)
 - Her voice (the weapon and the wound)
-- A debt to a hermit crab (still needs a good shell)
+- The hermit crab debt
 
 ## Backstory
 

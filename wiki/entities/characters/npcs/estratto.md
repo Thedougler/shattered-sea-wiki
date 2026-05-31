@@ -195,5 +195,5 @@ reactions:
 - [[tessarine-concordat|Tessarine Concordat]] — agent of
 - [[uncertainty|Uncertainty]] — target of the debt-recovery writ
 - [[hcs-surety|HCS Surety]] — the vessel Rook's salvage agreement covered
-- [[delmar-fisk|Delmar Fisk]] — first identity target; Admiral Fisk persona is a compliance error
+- [[delmar-fisk|Delmar Fisk]] — first identity target; [[admiral-fisk|Admiral Fisk]] persona is a compliance error
 - [[calveno|Calveno]] / [[la-vasca|La Vasca]] — current deployment location

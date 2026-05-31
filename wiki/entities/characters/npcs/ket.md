@@ -57,7 +57,7 @@ The party chose release. Ensign Wouters' body was placed on deck as a lure; Mage
 
 - Owes the party, in the way a freed prisoner owes people — complicated, not guaranteed.
 - Why was he this far from Murrat? What does he know about the [[five-blades|Five Blades]] connection Rook was interested in?
-- If the party reaches Murrat, Varet will recognize him as Murrat-born immediately.
+- If the party reaches Murrat, [[varet|Varet]] will recognize him as Murrat-born immediately.
 
 ## See Also
 

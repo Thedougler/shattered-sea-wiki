@@ -40,7 +40,7 @@ He dove from the sun in silence onto [[crissdalynn-khinriss|Crissdalynn]] in the
 
 Master Kyzil is a senior master of the [[sentinels-of-the-eyrie|Sentinels of the Eyrie]], the aarakocra observation order at [[high-eyrie|The High Eyrie]]. He assigned [[crissdalynn-khinriss|Crissdalynn]] her pilgrimage — map the Drowned Maw from inside a storm — and staked his own reputation on her readiness when he did it.
 
-He tracked her by current and weather patterns after the *Red Lady* went down, deduced where she would wash ashore, and came to Port Tidefall to find her. When she never arrived, he learned the ship had sunk and searched east into the Midchain first — reasonable model, wrong answer. A maritime contact who had seen an aarakocra monk aboard a captured Crown patrol cutter sent him back west.
+He tracked her by current and weather patterns after the *Red Lady* went down, deduced where she would wash ashore, and came to [[tidefall|Port Tidefall]] to find her. When she never arrived, he learned the ship had sunk and searched east into the Midchain first — reasonable model, wrong answer. A maritime contact who had seen an aarakocra monk aboard a captured Crown patrol cutter sent him back west.
 
 ## Appearance & Manner
 
@@ -161,7 +161,7 @@ legendary_actions:
 
 ## Session Events
 
-- **Session 03:** Reunited with [[crissdalynn-khinriss|Crissdalynn]] in Le Paludi streets. Had searched [[kalowe|Kalowe]] and Tidefall. Said "a foul wind from the south." Party currently unaware of his broader context.
+- **Session 03:** Reunited with [[crissdalynn-khinriss|Crissdalynn]] in Le Paludi streets. Had searched [[kalowe|Kalowe]] and [[tidefall|Tidefall]]. Said "a foul wind from the south." Party currently unaware of his broader context.
 
 ## Connections
 

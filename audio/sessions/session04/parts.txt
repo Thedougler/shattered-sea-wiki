@@ -2,3 +2,8 @@ session04-part00.m4a.csv
 session04-part01.m4a.csv
 session04-part02.m4a.csv
 session04-part03.m4a.csv
+session04-part04.m4a.csv
+session04-part05.m4a.csv
+session04-part06.m4a.csv
+session04-part07.m4a.csv
+session04-part08.m4a.csv

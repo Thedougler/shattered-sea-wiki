@@ -19,6 +19,25 @@ boundaries. Downstream consumers: `transcript-ingest.md`, `session-recap`,
 
 ---
 
+## Entry Point
+
+Every invocation starts the same way:
+
+```bash
+python3 .claude/scripts/assemble_transcript.py status {NN}
+```
+
+This reports parts available, checkpoint state, and staleness. Then route:
+
+| Status says | Do |
+|---|---|
+| Pass 1 stale or missing | Run `assemble {NN}` → continue to Pass 2 |
+| Pass 2 not started | Read `references/speaker-resolution.md` → resolve speakers |
+| Pass 2 done, resolved.csv missing | Run `resolve {NN}` → continue to Pass 3 |
+| Pass 3 not started | Read `references/extraction-targets.md` → extract |
+| Pass 3 done, flags unresolved | Present flags to DM → wait |
+| All passes complete | Report status, nothing to do |
+
 ## Required Skill Chain
 
 Run `ttrpg-llm-wiki-init` once at session start. Load `ttrpg-writing` when writing
@@ -47,9 +66,10 @@ All intermediate files live here. These are checkpoints — resume from the late
 | `assembled.csv` | Pass 1 (script) | Dictionary-corrected, concatenated, continuous timestamps |
 | `parts.txt` | Pass 1 (script) | Manifest of which parts were assembled |
 | `speaker-map.md` | Pass 2 | Speaker resolution decisions with evidence |
-| `resolved.csv` | Pass 2 | Speaker-corrected transcript |
-| `extracts.md` | Pass 3 | Tagged canon extracts organized by scene |
-| `flags.md` | Pass 3 | Unresolved ambiguities for DM review |
+| `resolved.csv` | Pass 2 (script) | Speaker-corrected transcript |
+| `extracts.md` | Pass 3 (cumulative) | Tagged canon extracts organized by scene |
+| `flags.md` | Pass 3 (cumulative) | Unresolved ambiguities for DM review |
+| `progress.txt` | Pass 3 (per chunk) | Which line ranges have been processed |
 
 ---
 
@@ -64,13 +84,13 @@ digraph passes {
 
   "Raw CSVs" -> "Pass 1\nAssemble";
   "Pass 1\nAssemble" -> "Pass 2\nResolve Speakers";
-  "Pass 2\nResolve Speakers" -> "Pass 3\nExtract";
-  "Pass 3\nExtract" -> "Pass 4\nWiki Integration";
-  "Pass 4\nWiki Integration" -> "wiki/";
+  "Pass 2\nResolve Speakers" -> "Pass 3\nChunk Loop";
+  "Pass 3\nChunk Loop" -> "wiki/";
 }
 ```
 
 If a checkpoint file exists and its source data hasn't changed, skip that pass.
+Use `status` to detect staleness before starting work.
 
 ---
 
@@ -79,16 +99,17 @@ If a checkpoint file exists and its source data hasn't changed, skip that pass.
 **Scripted — no agent judgment needed.**
 
 ```bash
-python3 .claude/scripts/assemble_transcript.py {NN}
+python3 .claude/scripts/assemble_transcript.py assemble {NN}
 ```
 
 This finds all parts, applies dictionary corrections to text, concatenates with
-continuous IDs and cumulative timestamps, and writes `assembled.csv`. It also
-reports speaker distribution and flags unresolved speaker labels.
+continuous IDs and cumulative timestamps (all `H:MM:SS`), and writes
+`assembled.csv`. It also reports speaker distribution and flags unresolved labels.
 
 Re-run when new parts arrive — it overwrites from source CSVs.
 
 **Checkpoint:** `assembled.csv` exists. `parts.txt` lists all available parts.
+Run `status` to check for staleness (new parts since last assembly).
 
 ---
 
@@ -102,9 +123,19 @@ Output: `resolved.csv` + `speaker-map.md`
 Goal: every "Speaker 1", "Speaker N", and "Unknown" label resolved to a known
 speaker with evidence and confidence rating.
 
-**Subagent strategy for large transcripts (2000+ lines):** Chunk into 500-line
-windows with 50-line overlap. Each subagent resolves speakers in its chunk. A
-coordinating agent merges speaker maps (majority vote on conflicts).
+**Subagent strategy for large transcripts (3000+ lines):** Chunk into ~1500-line
+windows with 100-line overlap (aim for 5–7 subagents total). Each subagent
+resolves speakers in its chunk. Coordinating agent merges speaker maps (majority
+vote on conflicts).
+
+After the speaker map is written, produce `resolved.csv` mechanically:
+
+```bash
+python3 .claude/scripts/assemble_transcript.py resolve {NN}
+```
+
+This reads the speaker map table and applies label replacements to `assembled.csv`.
+Low-confidence resolutions get a `?` prefix (e.g., `?Perrin`).
 
 **Checkpoint:** `resolved.csv` exists and `speaker-map.md` has no `unknown`
 confidence entries.
@@ -116,14 +147,24 @@ fix: resolve speakers for session {NN} transcript
 
 ---
 
-### Pass 3: Scene Segmentation & Canon Extraction
+### Pass 3: Extract & Integrate (Sequential Chunk Loop)
 
 **Requires agent judgment + wiki context.** Read `references/extraction-targets.md`.
+Load `ttrpg-wiki-ingest` and read its `references/transcript-ingest.md`.
 
 Input: `resolved.csv` + `wiki/hot.md` + relevant entity summaries
-Output: `extracts.md` + `flags.md`
+Output: `extracts.md` + `flags.md` + wiki file changes
 
-Steps:
+This pass processes `resolved.csv` in sequential ~800-line chunks. Each chunk is
+fully processed — extraction through wiki writes — before the next one begins.
+This keeps context manageable and creates natural handoff points where an agent
+can stop and a new one can resume.
+
+#### Per-Chunk Work
+
+For each chunk of ~800 lines (use scene boundaries when visible, line count
+otherwise; keep ~20 lines of trailing context from the previous chunk for
+continuity):
 
 1. **Classify lines** as IC (in-character), OOC (out-of-character), or META
    (rules talk, dice rolls). A Florida food tangent is OOC even when spoken by
@@ -138,63 +179,66 @@ Steps:
    participants.
 
 4. **Extract canon per scene.** Use the tag types in `extraction-targets.md`.
-   Every extract cites source line range.
+   Every extract cites source line range from `resolved.csv`.
 
 5. **Flag uncertainties.** Ambiguous canon, possible transcription errors with
-   lore significance, speaker-dependent meaning → `flags.md` for DM review.
+   lore significance, speaker-dependent meaning → append to `flags.md`.
 
-**Subagent strategy:** Split `resolved.csv` into chunks by scene boundary (if
-scenes already identified) or by ~400-line blocks with 20-line overlap. Each
-subagent processes its chunk and returns scene segments + extracts. Coordinating
-agent merges, deduplicates, and ensures scene continuity.
+6. **Write to wiki.** For extracts in this chunk:
+   - Append to session note (`wiki/sessions/session-{NN}.md`)
+   - Create or update entity pages for NPCs, locations, items
+   - Update `wiki/dm/combat-analytics.md` from `[COMBAT]` blocks
+   - Update `wiki/dm/player-interests.md` from `[SIGNAL]` blocks
+   - Update situation and faction files as needed
 
-**Checkpoint:** `extracts.md` exists with at least one scene. Commit:
-```
-ingest: extract canon from session {NN} transcript
-```
+7. **Append to `extracts.md`** — the running extract log for this session.
 
----
+8. **Record progress** — append the chunk's line range to `progress.txt`:
+   ```
+   chunk-1: lines 1-800 (2026-05-31)
+   chunk-2: lines 781-1600 (2026-05-31)
+   ```
 
-### Pass 4: Wiki Integration
+9. **Commit:**
+   ```
+   ingest: session {NN} transcript chunk {N} (lines {start}–{end})
+   ```
 
-**Uses existing pipeline.** Load `ttrpg-wiki-ingest` and read its
-`references/transcript-ingest.md`.
+#### Resuming After Handoff
 
-Input: `extracts.md` + `flags.md` (resolved)
-Output: Wiki file changes
+When a new agent picks up, check `progress.txt` to see which chunks are done.
+Start the next chunk from the line after the last completed range (minus overlap).
+Read the tail of `extracts.md` for context continuity.
 
-Before starting: verify `flags.md` has no unresolved items that would block canon.
-If it does, present flags to the DM and wait.
+#### Final Chunk
 
-This pass produces:
-- Session note: `wiki/sessions/session-{NN}.md`
-- Entity pages: new or updated
-- `wiki/dm/combat-analytics.md`: from `[COMBAT]` blocks
-- `wiki/dm/player-interests.md`: from `[SIGNAL]` blocks
-- Situation and faction updates
-- `wiki/hot.md` refresh
+After the last chunk, do a final pass:
+- Update `wiki/hot.md` to reflect end-of-session world state
+- Verify `extracts.md` covers the full transcript timeline
+- Review `flags.md` — present any unresolved items to the DM
+- Commit:
+  ```
+  ingest: complete session {NN} transcript extraction
+  ```
 
-The existing `transcript-ingest.md` reference has the full protocol. The key
-difference: your input is `extracts.md` (structured, tagged, scene-organized) rather
-than a raw transcript. Skip the cleaning steps — they were Passes 1–3.
-
-**Checkpoint:** Session note exists and `hot.md` updated date matches.
+**Checkpoint files:** `extracts.md` (cumulative), `flags.md`, `progress.txt`.
 
 ---
 
 ## Incremental Processing
 
-Audio parts arrive as transcription completes. Handle each case:
+Audio parts arrive as transcription completes. Run `status` to detect what changed:
 
-| State | Action |
+| Status says | Action |
 |---|---|
-| New parts, no previous work | Run all passes |
-| New parts, Pass 1 done | Re-run Pass 1 (script detects new parts), resume Pass 2 |
-| New parts, Pass 2+ done | Re-run Pass 1, diff assembled.csv, extend speaker map for new lines, re-run Pass 3 for new content |
-| All parts present, all passes done | Nothing to do — report status |
+| New parts, no previous work | Run all passes from scratch |
+| New parts, Pass 1 done | Re-run `assemble` (script detects new parts via `parts.txt`), then resume Pass 2 |
+| New parts, Pass 2 done | Re-run `assemble`, re-run `resolve` (speaker map still applies), resume Pass 3 from the first unprocessed chunk per `progress.txt` |
+| New parts, Pass 3 partially done | Re-run `assemble` + `resolve`, continue Pass 3 from next unprocessed chunk — earlier chunks' wiki writes are already committed and don't need redoing |
+| All parts present, all passes done | Report status, nothing to do |
 
-The `parts.txt` manifest tracks which parts were assembled. When new parts appear,
-the script output changes, which invalidates downstream checkpoints.
+The sequential chunk architecture makes incremental processing straightforward:
+earlier chunks are fully committed, so new parts only add new chunks at the end.
 
 ---
 
@@ -221,19 +265,28 @@ the script output changes, which invalidates downstream checkpoints.
 | Jean Claude | Jean-Claude Tabarnack's player | |
 | Crissdalyn | Crissdalynn Khinriss's player | Label spelling ≠ character spelling |
 | Speaker 1 | Usually Crissdalyn (mic drift) | Verify per session via speaker-resolution.md |
+| Speaker 5/6/7 | Varies — cross-talk, external audio | Low line counts; often DM or non-game audio |
 | Speaker N | Unknown | Always resolve before Pass 3 |
 
 ---
 
 ## Quality Gates
 
-Before Pass 4 (wiki integration):
+Before starting Pass 3 (chunk loop):
 - All Speaker N labels resolved (medium+ confidence)
-- No unreviewed flags in `flags.md`
-- `extracts.md` scenes cover the full transcript timeline
-- Combat encounters have round counts and per-PC action summaries
+
+Per chunk (before committing):
+- Extracts cite source line ranges from `resolved.csv`
 - No `[CANON]` block contradicts existing wiki without a flag
+- Wiki writes use wikilinks for all named entities
+
+After final chunk:
+- `extracts.md` scenes cover the full transcript timeline with no gaps
+- `progress.txt` line ranges span the entire `resolved.csv`
+- Combat encounters have round counts and per-PC action summaries
 - `[SIGNAL]` blocks present if players showed clear engagement/disengagement
+- All unresolved items in `flags.md` presented to DM
+- `wiki/hot.md` reflects end-of-session world state
 
 ---
 

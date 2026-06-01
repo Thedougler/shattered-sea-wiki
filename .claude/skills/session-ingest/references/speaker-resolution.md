@@ -42,7 +42,8 @@ topic, same scene) or a different PC in the same scene.
 Count known speakers in the transcript. If 4 PCs + DM should be present but
 only 3 PCs are identified, the unresolved speaker is likely the missing PC.
 
-Check line counts: if Crissdalyn has 275 lines and Speaker 1 has 262, that's
+Check line counts: if Crissdalyn and Speaker 1 together account for roughly
+one player's share of the conversation (~13–15% of total lines), that's
 suspiciously complementary — the tool is splitting one speaker into two profiles.
 
 ### 3. Speech Pattern Matching
@@ -123,16 +124,17 @@ Record every resolution in `speaker-map.md`:
 
 | Label | Resolved To | Confidence | Evidence |
 |---|---|---|---|
-| Speaker 1 | Crissdalyn | high | Mic drift — complementary line counts (275+262), temporal clustering matches gaps in Crissdalyn lines, responds to Kyzil context at 05:10 |
-| Speaker 6 | DM | medium | 5 lines, all short interjections during NPC dialogue, no other speaker absent |
-| Speaker 7 | Perrin | low | 6 lines, topic matches Perrin's scene but could be cross-talk |
+| Speaker 1 | Crissdalyn | high | Mic drift — complementary line counts, same-second interleaving, responds to Kyzil context |
+| Speaker 6 | DM | medium | Short interjections during meta/NPC dialogue, no other speaker absent |
+| Speaker 7 | Phone (external) | low | Non-game audio picked up from player's phone call |
 
 ### Evidence Notes
 
 Speaker 1 → Crissdalyn:
-- Lines 34-103 (part 00): Speaker 1 active during egg merchant scene while Crissdalyn silent
-- Lines 140-157 (part 02): Speaker 1 responds to "Kyzil is done" context — only Crissdalyn's player would track Kyzil's turn
-- Line count complementarity: Crissdalyn 275 + Speaker 1 262 = 537, reasonable for a full session
+- Complementary line counts: Crissdalyn + Speaker 1 together = ~13% of total, a normal single-player share
+- Same-second interleaving: voice profile oscillates between labels within seconds
+- Responds to Kyzil context — only Crissdalyn's player would track Kyzil's turn
+- Speaker 1 appears in every part, correlating with gaps in Crissdalyn's lines
 ```
 
 ### Confidence Levels
@@ -159,9 +161,9 @@ the CSV (e.g., `?Perrin`) so Pass 3 knows to treat those lines as uncertain.
 
 ## Subagent Chunking
 
-For transcripts over 2000 lines:
+For transcripts over 3000 lines:
 
-1. Split `assembled.csv` into 500-line chunks with 50-line overlap
+1. Split `assembled.csv` into ~1500-line chunks with 100-line overlap (aim for 5–7 subagents)
 2. Each subagent processes one chunk:
    - Identify all Speaker N lines in the chunk
    - Analyze context per the method above

@@ -34,8 +34,8 @@ This reports parts available, checkpoint state, and staleness. Then route:
 | Pass 1 stale or missing | Run `assemble {NN}` → continue to Pass 2 |
 | Pass 2 not started | Read `references/speaker-resolution.md` → resolve speakers |
 | Pass 2 done, resolved.csv missing | Run `resolve {NN}` → continue to Pass 3 |
-| Pass 3 not started | Read `references/extraction-targets.md` → extract + recap |
-| Pass 3 partial | Check `progress.txt`, resume next chunk |
+| Pass 3 not started | Read `references/extraction-targets.md` → process first chunk |
+| Pass 3 partial | Read `handoff.md` → process next chunk |
 | Pass 3 done, flags unresolved | Present flags to DM → wait |
 | Pass 3 done, Pass 4 not started | Load `ttrpg-wiki-ingest` → wiki integration from recap |
 | All passes complete | Report status, nothing to do |
@@ -52,10 +52,10 @@ prose for wiki pages. Sandbox rules are in CLAUDE.md (always loaded).
 | File | Format | Location |
 |---|---|---|
 | Transcript parts | CSV: `ID,Start,End,Speaker,Text` | `audio/sessions/session{NN}-part{PP}.m4a.csv` |
-| Dictionary | CSV: `Source,Target,Case Sensitive,Enabled` | `audio/sessions/shattered-sea-dictionary.csv` |
 
-Parts arrive incrementally as audio transcribes. Process whatever is available —
-the architecture handles additions.
+The transcription tool applies the custom dictionary (`shattered-sea-dictionary.csv`)
+automatically — the CSVs already have corrected spellings. Parts arrive
+incrementally as audio transcribes. Process whatever is available.
 
 ## Working Directory
 
@@ -65,7 +65,7 @@ All intermediate files live here. These are checkpoints — resume from the late
 
 | File | Produced By | Purpose |
 |---|---|---|
-| `assembled.csv` | Pass 1 (script) | Dictionary-corrected, concatenated, continuous timestamps |
+| `assembled.csv` | Pass 1 (script) | Concatenated parts with continuous timestamps |
 | `parts.txt` | Pass 1 (script) | Manifest of which parts were assembled |
 | `speaker-map.md` | Pass 2 | Speaker resolution decisions with evidence |
 | `resolved.csv` | Pass 2 (script) | Speaker-corrected transcript |
@@ -73,6 +73,7 @@ All intermediate files live here. These are checkpoints — resume from the late
 | `extracts.md` | Pass 3 (cumulative) | Tagged canon extracts organized by scene |
 | `flags.md` | Pass 3 (cumulative) | Unresolved ambiguities for DM review |
 | `progress.txt` | Pass 3 (per chunk) | Which line ranges have been processed |
+| `handoff.md` | Pass 3 (per chunk) | Self-contained prompt for the next agent |
 
 ---
 
@@ -106,9 +107,10 @@ Use `status` to detect staleness before starting work.
 python3 .claude/scripts/assemble_transcript.py assemble {NN}
 ```
 
-This finds all parts, applies dictionary corrections to text, concatenates with
-continuous IDs and cumulative timestamps (all `H:MM:SS`), and writes
-`assembled.csv`. It also reports speaker distribution and flags unresolved labels.
+This concatenates all parts with continuous IDs and cumulative timestamps (all
+`H:MM:SS`) and writes `assembled.csv`. Dictionary corrections are already applied
+by the transcription tool. The script reports speaker distribution and flags
+unresolved labels.
 
 Re-run when new parts arrive — it overwrites from source CSVs.
 
@@ -151,57 +153,60 @@ fix: resolve speakers for session {NN} transcript
 
 ---
 
-### Pass 3: Extract & Recap (Sequential Chunk Loop)
+### Pass 3: Extract & Recap (One Chunk Per Agent)
 
 **Requires agent judgment.** Read `references/extraction-targets.md`.
 
 Input: `resolved.csv` + `wiki/hot.md` (for context, not for writing)
 Output: `extracts.md` + `recap.md` + `flags.md`
 
-This pass processes `resolved.csv` in sequential ~800-line chunks. Each chunk is
-fully processed before the next begins, creating natural handoff points where an
-agent can stop and a new one can resume. **No wiki writes happen here** — the
-recap and extracts are the deliverables. Wiki integration is a separate pass so
-the DM can review the recap first.
+This pass processes `resolved.csv` one ~800-line chunk at a time. **Each agent
+processes exactly one chunk, commits, writes a handoff prompt, and stops.** The
+next agent (or the same user in a new conversation) picks up the handoff. No wiki
+writes happen here — the recap and extracts are the deliverables.
 
-#### Per-Chunk Work
+#### Processing One Chunk
 
-For each chunk of ~800 lines (use scene boundaries when visible, line count
-otherwise; keep ~20 lines of trailing context from the previous chunk for
-continuity):
+1. **Determine your chunk.** Check `progress.txt` — if it exists, read the last
+   entry to find where the previous agent stopped. Your chunk starts from the next
+   line (minus ~20 lines of overlap for context). If `progress.txt` doesn't exist,
+   start at line 1. Read ~800 lines (prefer breaking at a scene boundary).
 
-1. **Classify lines** as IC (in-character), OOC (out-of-character), or META
+2. **Classify lines** as IC (in-character), OOC (out-of-character), or META
    (rules talk, dice rolls). A Florida food tangent is OOC even when spoken by
    "Delmar" — use surrounding context, not just speaker labels.
 
-2. **Merge fragments.** Consecutive lines from the same speaker within 3 seconds
+3. **Merge fragments.** Consecutive lines from the same speaker within 3 seconds
    with no intervening speaker → single utterance. The transcription tool produces
    many 1-second clips that are one sentence when merged.
 
-3. **Identify scenes.** Scene breaks on: location change, significant time skip,
+4. **Identify scenes.** Scene breaks on: location change, significant time skip,
    major topic shift, new NPC entrance. Label each scene with location and
    participants.
 
-4. **Extract canon per scene.** Use the tag types in `extraction-targets.md`.
+5. **Extract canon per scene.** Use the tag types in `extraction-targets.md`.
    Every extract cites source line range from `resolved.csv`.
 
-5. **Flag uncertainties.** Ambiguous canon, possible transcription errors with
+6. **Flag uncertainties.** Ambiguous canon, possible transcription errors with
    lore significance, speaker-dependent meaning → append to `flags.md`.
 
-6. **Append to `recap.md`** — condensed IC-only scene summaries (see format below).
+7. **Append to `recap.md`** — condensed IC-only scene summaries (see format below).
 
-7. **Append to `extracts.md`** — tagged extracts with full detail and line citations.
+8. **Append to `extracts.md`** — tagged extracts with full detail and line citations.
 
-8. **Record progress** — append the chunk's line range to `progress.txt`:
+9. **Record progress** — append the chunk's line range to `progress.txt`:
    ```
    chunk-1: lines 1-800 (2026-06-01)
-   chunk-2: lines 781-1600 (2026-06-01)
    ```
 
-9. **Commit:**
-   ```
-   ingest: session {NN} transcript chunk {N} (lines {start}–{end})
-   ```
+10. **Commit:**
+    ```
+    ingest: session {NN} transcript chunk {N} (lines {start}–{end})
+    ```
+
+11. **Write handoff prompt and stop.** Write `handoff.md` with a self-contained
+    prompt for the next agent (see format below). Then **stop — do not process
+    the next chunk.**
 
 #### Recap Format
 
@@ -226,10 +231,7 @@ revealed.}
 
 ---
 
-## Scene 2: {Location} — {Brief label}
-*{H:MM:SS}–{H:MM:SS} | {Participants}*
-
-{...}
+## Scene 2: ...
 ```
 
 The recap should read like a concise event log — someone skimming it should know
@@ -237,25 +239,51 @@ every consequential thing that happened in-game without wading through OOC chatt
 or mechanical details. Combat gets a sentence or two on outcome and consequences,
 not blow-by-blow.
 
-#### Resuming After Handoff
+#### Handoff Prompt Format
 
-When a new agent picks up, check `progress.txt` to see which chunks are done.
-Start the next chunk from the line after the last completed range (minus overlap).
-Read the tail of `recap.md` for scene continuity.
+After committing, write `handoff.md` with a prompt the next agent can use
+verbatim. This file is overwritten each chunk — it always reflects the current
+state.
+
+```markdown
+# Session Ingest Handoff — Session {NN}
+
+## Status
+- Chunks completed: {N} of ~{total estimated}
+- Lines processed: 1–{end_line} of {total_lines}
+- Last scene in recap: "{scene label}"
+
+## Next Action
+Process the next chunk of session {NN} transcript using the `session-ingest`
+skill. Start from line {next_start_line} of `audio/sessions/session{NN}/resolved.csv`.
+
+## Context
+{2–3 sentences: what was happening at the end of this chunk — the active scene,
+who was talking, any thread that was mid-conversation when the chunk boundary
+hit. Enough for the next agent to maintain continuity.}
+
+## Files to Read First
+- `audio/sessions/session{NN}/progress.txt` — chunk history
+- Tail of `audio/sessions/session{NN}/recap.md` — last scene for continuity
+- `audio/sessions/session{NN}/flags.md` — any open flags
+```
 
 #### Final Chunk
 
-After the last chunk:
+When the chunk reaches the end of `resolved.csv`, instead of writing a
+continuation handoff, do a final pass:
 - Verify `recap.md` covers the full session timeline with no gaps
 - Verify `extracts.md` has tagged entries for every scene
 - Review `flags.md` — present any unresolved items to the DM
+- Write `handoff.md` indicating Pass 3 is complete and Pass 4 (wiki integration)
+  is next
 - Commit:
   ```
   ingest: complete session {NN} transcript extraction and recap
   ```
 
 **Checkpoint files:** `recap.md` (cumulative), `extracts.md` (cumulative),
-`flags.md`, `progress.txt`.
+`flags.md`, `progress.txt`, `handoff.md`.
 
 ---
 

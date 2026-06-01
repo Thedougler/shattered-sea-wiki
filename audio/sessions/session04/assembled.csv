@@ -27,7 +27,7 @@ ID,Start,End,Speaker,Text,Source
 26,0:00:18,0:00:18,Jean Claude,Yeah.,session04-part00.m4a.csv
 27,0:00:18,0:00:19,Jean Claude,"And I'll say,",session04-part00.m4a.csv
 28,0:00:19,0:00:20,Jean Claude,do you know exactly what this is?,session04-part00.m4a.csv
-29,0:00:21,0:00:23,DM,That appears to be a whip shark egg.,session04-part00.m4a.csv
+29,0:00:21,0:00:23,DM,That appears to be a whipshock egg.,session04-part00.m4a.csv
 30,0:00:23,0:00:23,DM,"Yes,",session04-part00.m4a.csv
 31,0:00:23,0:00:26,DM,those are very difficult to get a hold of.,session04-part00.m4a.csv
 32,0:00:26,0:00:28,DM,How did you acquire such one?,session04-part00.m4a.csv
@@ -177,7 +177,7 @@ ID,Start,End,Speaker,Text,Source
 176,0:05:33,0:05:33,Perrin,I can't remember.,session04-part00.m4a.csv
 177,0:05:33,0:05:34,Perrin,"So,",session04-part00.m4a.csv
 178,0:05:34,0:05:34,DM,"yeah,",session04-part00.m4a.csv
-179,0:05:34,0:05:36,DM,"you head back to Casa Lupo,",session04-part00.m4a.csv
+179,0:05:34,0:05:36,DM,"you head back to Castle Lupa,",session04-part00.m4a.csv
 180,0:05:36,0:05:38,DM,the old man still behind the camera.,session04-part00.m4a.csv
 181,0:05:38,0:05:38,DM,"Oh,",session04-part00.m4a.csv
 182,0:05:38,0:05:39,DM,my a blue friend.,session04-part00.m4a.csv
@@ -326,7 +326,7 @@ ID,Start,End,Speaker,Text,Source
 325,0:09:39,0:09:40,Speaker 1,excuse me.,session04-part00.m4a.csv
 326,0:09:40,0:09:41,DM,"Um,",session04-part00.m4a.csv
 327,0:09:41,0:09:42,DM,what's that here?,session04-part00.m4a.csv
-328,0:09:42,0:09:43,DM,In Casa Lupo?,session04-part00.m4a.csv
+328,0:09:42,0:09:43,DM,In Casa de Lupa?,session04-part00.m4a.csv
 329,0:09:44,0:09:46,Crissdalyn,I wonder if the dictation picks up your burp.,session04-part00.m4a.csv
 330,0:09:47,0:09:48,Speaker 1,Probably does.,session04-part00.m4a.csv
 331,0:09:49,0:09:52,Jean Claude,And they'll probably understand the burp more than my accent.,session04-part00.m4a.csv
@@ -407,7 +407,7 @@ ID,Start,End,Speaker,Text,Source
 406,0:12:01,0:12:31,Jean Claude,so note those down yeah so we're getting two hours for every 12 hours so it's effectively four hours every long run okay can I just write that down it's easier to keep track of yeah okay and well and that's it I thank him for I just thank him And then I leave and I go searching for my compatriots.,session04-part00.m4a.csv
 407,0:12:31,0:12:33,DM,It doesn't take you long to find them.,session04-part00.m4a.csv
 408,0:12:34,0:12:35,Speaker 1,"I mean,",session04-part00.m4a.csv
-409,0:12:36,0:12:39,DM,the four of you haven't left Le Le Paludi.,session04-part00.m4a.csv
+409,0:12:36,0:12:39,DM,the four of you haven't left La Paluda.,session04-part00.m4a.csv
 410,0:12:39,0:12:42,DM,You're still in the downtown district of Calveno.,session04-part00.m4a.csv
 411,0:12:43,0:12:43,Jean Claude,"Hello,",session04-part00.m4a.csv
 412,0:12:44,0:12:46,Jean Claude,"I am looking for a bird,",session04-part00.m4a.csv
@@ -422,7 +422,7 @@ ID,Start,End,Speaker,Text,Source
 421,0:12:59,0:13:00,DM,Yep.,session04-part00.m4a.csv
 422,0:13:00,0:13:01,DM,"So we're going to,",session04-part00.m4a.csv
 423,0:13:01,0:13:01,DM,"yeah,",session04-part00.m4a.csv
-424,0:13:02,0:13:06,DM,we're going to just transition back to you three meeting up with Master Kyzil.,session04-part00.m4a.csv
+424,0:13:02,0:13:06,DM,we're going to just transition back to you three meeting up with Master Kaizel.,session04-part00.m4a.csv
 425,0:13:07,0:13:08,DM,"As you notice,",session04-part00.m4a.csv
 426,0:13:08,0:13:09,DM,"Jean-Claude in the distance,",session04-part00.m4a.csv
 427,0:13:09,0:13:10,DM,"walking up,",session04-part00.m4a.csv
@@ -447,7 +447,7 @@ ID,Start,End,Speaker,Text,Source
 446,0:13:40,0:13:44,DM,we'll transition back to now all four of you.,session04-part00.m4a.csv
 447,0:13:45,0:13:45,Speaker 1,Excuse me.,session04-part00.m4a.csv
 448,0:13:50,0:13:51,DM,"Yeah,",session04-part00.m4a.csv
-449,0:13:51,0:13:51,DM,Kyzil.,session04-part00.m4a.csv
+449,0:13:51,0:13:51,DM,Kaizel.,session04-part00.m4a.csv
 450,0:13:52,0:13:55,DM,Is there somewhere we can catch up?,session04-part00.m4a.csv
 451,0:13:55,0:13:58,DM,I would love to very much like to hear about your pilgrimage.,session04-part00.m4a.csv
 452,0:13:58,0:13:59,DM,"Is there,",session04-part00.m4a.csv
@@ -491,18 +491,18 @@ ID,Start,End,Speaker,Text,Source
 490,0:14:50,0:14:50,Crissdalyn,"Okay,",session04-part00.m4a.csv
 491,0:14:50,0:14:51,Crissdalyn,I'm kind of scared.,session04-part00.m4a.csv
 492,0:14:51,0:14:52,DM,"And Jean-Claude,",session04-part00.m4a.csv
-493,0:14:53,0:14:55,DM,"how do you react to Master Kyzil,",session04-part00.m4a.csv
+493,0:14:53,0:14:55,DM,"how do you react to Master Kaizel,",session04-part00.m4a.csv
 494,0:14:56,0:14:58,DM,this about seven foot tall barn owl?,session04-part00.m4a.csv
 495,0:15:01,0:15:01,DM,"Wait,",session04-part00.m4a.csv
 496,0:15:01,0:15:02,DM,"he shopped,",session04-part00.m4a.csv
 497,0:15:02,0:15:03,DM,"then met up with us,",session04-part00.m4a.csv
-498,0:15:03,0:15:03,DM,and then Kyzil happened?,session04-part00.m4a.csv
+498,0:15:03,0:15:03,DM,and then Kaizel happened?,session04-part00.m4a.csv
 499,0:15:04,0:15:04,DM,"No,",session04-part00.m4a.csv
 500,0:15:04,0:15:04,DM,"no,",session04-part00.m4a.csv
 501,0:15:04,0:15:04,DM,no.,session04-part00.m4a.csv
-502,0:15:04,0:15:05,DM,"Kyzil happened,",session04-part00.m4a.csv
+502,0:15:04,0:15:05,DM,"Kaizel happened,",session04-part00.m4a.csv
 503,0:15:05,0:15:07,DM,"he shopped,",session04-part00.m4a.csv
-504,0:15:07,0:15:08,DM,"and Kyzil's still here,",session04-part00.m4a.csv
+504,0:15:07,0:15:08,DM,"and Kaizel's still here,",session04-part00.m4a.csv
 505,0:15:08,0:15:09,DM,and now he's gone.,session04-part00.m4a.csv
 506,0:15:09,0:15:09,Jean Claude,"Oh,",session04-part00.m4a.csv
 507,0:15:09,0:15:09,Jean Claude,okay.,session04-part00.m4a.csv
@@ -591,7 +591,7 @@ ID,Start,End,Speaker,Text,Source
 590,0:16:58,0:16:59,Perrin,Do we have a place to stay?,session04-part00.m4a.csv
 591,0:16:59,0:17:02,DM,You guys actually have not nailed down exactly where you're going to stay.,session04-part00.m4a.csv
 592,0:17:02,0:17:04,DM,"There are plenty of taverns,",session04-part00.m4a.csv
-593,0:17:04,0:17:08,DM,plenty of stuff nearby in Calveno and Le Le Paludi.,session04-part00.m4a.csv
+593,0:17:04,0:17:08,DM,plenty of stuff nearby in Calveno and La Pluta.,session04-part00.m4a.csv
 594,0:17:09,0:17:10,DM,"There's also Nona's Safe Houses,",session04-part00.m4a.csv
 595,0:17:11,0:17:13,DM,"which she would probably be able to convince,",session04-part00.m4a.csv
 596,0:17:14,0:17:16,DM,be able to be convinced to let you use?,session04-part00.m4a.csv
@@ -644,7 +644,7 @@ ID,Start,End,Speaker,Text,Source
 643,0:18:30,0:18:31,DM,no.,session04-part00.m4a.csv
 644,0:18:31,0:18:32,DM,I don't know.,session04-part00.m4a.csv
 645,0:18:32,0:18:33,DM,"Um,",session04-part00.m4a.csv
-646,0:18:33,0:18:35,DM,but you are aware of the Ponte Bassa?,session04-part00.m4a.csv
+646,0:18:33,0:18:35,DM,but you are aware of the plant bassa?,session04-part00.m4a.csv
 647,0:18:36,0:18:37,DM,I didn't say they were an enlopment.,session04-part00.m4a.csv
 648,0:18:37,0:18:39,Delmar,I'm saying they're pretty amicable with each other.,session04-part00.m4a.csv
 649,0:18:42,0:18:43,Speaker 1,"I kind of,",session04-part00.m4a.csv
@@ -677,7 +677,7 @@ ID,Start,End,Speaker,Text,Source
 676,0:19:17,0:19:19,Perrin,You two at meals is going to be hilarious.,session04-part00.m4a.csv
 677,0:19:19,0:19:20,Perrin,Yeah.,session04-part00.m4a.csv
 678,0:19:20,0:19:22,Perrin,"So we're fighting each other for carrion,",session04-part00.m4a.csv
-679,0:19:22,0:19:25,Perrin,whereas I'm just afraid Kyzil is just going to kill me to eat me.,session04-part00.m4a.csv
+679,0:19:22,0:19:25,Perrin,whereas I'm just afraid Kaisel is just going to kill me to eat me.,session04-part00.m4a.csv
 680,0:19:25,0:19:26,Delmar,That's a fucking IPA.,session04-part00.m4a.csv
 681,0:19:27,0:19:30,Jean Claude,So is luggage really a cause for violence?,session04-part00.m4a.csv
 682,0:19:32,0:19:33,Jean Claude,Because you're fighting over the carrion?,session04-part00.m4a.csv
@@ -702,7 +702,7 @@ ID,Start,End,Speaker,Text,Source
 701,0:20:01,0:20:02,DM,"Yeah,",session04-part00.m4a.csv
 702,0:20:02,0:20:03,DM,so you are aware of a tavern.,session04-part00.m4a.csv
 703,0:20:04,0:20:08,DM,"It's fairly close to actually where you guys have your shit moored,",session04-part00.m4a.csv
-704,0:20:08,0:20:09,DM,called the Ponte Bassa.,session04-part00.m4a.csv
+704,0:20:08,0:20:09,DM,called the Pomp Vassa.,session04-part00.m4a.csv
 705,0:20:10,0:20:14,DM,It's a cheap dive bar of a tavern.,session04-part00.m4a.csv
 706,0:20:15,0:20:16,DM,"Cheap beer,",session04-part00.m4a.csv
 707,0:20:16,0:20:17,DM,"fried food,",session04-part00.m4a.csv
@@ -728,32 +728,32 @@ ID,Start,End,Speaker,Text,Source
 727,0:20:45,0:20:46,DM,"Sticky floors,",session04-part00.m4a.csv
 728,0:20:46,0:20:47,DM,but it's a good bar.,session04-part00.m4a.csv
 729,0:20:48,0:20:50,DM,I think Perrin will feel right at home.,session04-part00.m4a.csv
-730,0:20:50,0:20:51,Speaker 1,Ponte Bassa.,session04-part00.m4a.csv
-731,0:20:51,0:20:52,Delmar,Ponte Bassa.,session04-part00.m4a.csv
+730,0:20:50,0:20:51,Speaker 1,Point Basa.,session04-part00.m4a.csv
+731,0:20:51,0:20:52,Delmar,Point Basa.,session04-part00.m4a.csv
 732,0:20:52,0:20:52,Delmar,All right.,session04-part00.m4a.csv
 733,0:20:52,0:20:52,Delmar,Yeah.,session04-part00.m4a.csv
 734,0:20:53,0:20:55,Delmar,"So like an anchor or something like that,",session04-part00.m4a.csv
 735,0:20:55,0:20:56,Delmar,"probably for an icon,",session04-part00.m4a.csv
-736,0:20:56,0:20:57,Delmar,or is it just Ponte Bassa?,session04-part00.m4a.csv
+736,0:20:56,0:20:57,Delmar,or is it just Point Basa?,session04-part00.m4a.csv
 737,0:20:58,0:21:00,DM,"For like the logo,",session04-part00.m4a.csv
 738,0:21:00,0:21:00,DM,or?,session04-part00.m4a.csv
-739,0:21:05,0:21:36,Delmar,okay okay good i just i wasn't even had a sip of beer i i chose the ones i chose knowing the possibilities i'm reading now to see if that's come up actually because i forgot about that and i'm just making sure because uh all right uh okay yeah um so as you guys are walking there it's only about a five ten minute walk uh and walking and talk uh uh please Crissdalynn tell Tell me about the pilgrimage and tell me about the wrecking.,session04-part00.m4a.csv
+739,0:21:05,0:21:36,Delmar,okay okay good i just i wasn't even had a sip of beer i i chose the ones i chose knowing the possibilities i'm reading now to see if that's come up actually because i forgot about that and i'm just making sure because uh all right uh okay yeah um so as you guys are walking there it's only about a five ten minute walk uh and walking and talk uh uh please crystalline tell Tell me about the pilgrimage and tell me about the wrecking.,session04-part00.m4a.csv
 740,0:21:36,0:21:38,DM,I'm so glad you're alive.,session04-part00.m4a.csv
 741,0:21:39,0:21:40,DM,"After I heard about the wreck,",session04-part00.m4a.csv
 742,0:21:40,0:21:42,DM,I thought I'd sent my apprentice to the death.,session04-part00.m4a.csv
 743,0:21:43,0:21:43,Crissdalyn,"I mean,",session04-part00.m4a.csv
 744,0:21:43,0:21:44,Crissdalyn,"it was pretty close,",session04-part00.m4a.csv
 745,0:21:44,0:21:45,Crissdalyn,"not going to lie,",session04-part00.m4a.csv
-746,0:21:45,0:21:46,Crissdalyn,Master Kyzil.,session04-part00.m4a.csv
+746,0:21:45,0:21:46,Crissdalyn,Master Kaizel.,session04-part00.m4a.csv
 747,0:21:47,0:21:48,Speaker 1,I'm sorry.,session04-part00.m4a.csv
 748,0:21:50,0:21:51,Crissdalyn,"But we survived,",session04-part00.m4a.csv
 749,0:21:52,0:21:53,Crissdalyn,and I pulled this one out of the water.,session04-part00.m4a.csv
 750,0:21:54,0:21:56,DM,It is why I gave you that pilgrimage.,session04-part00.m4a.csv
 751,0:21:57,0:21:59,DM,To pull him out of the water?,session04-part00.m4a.csv
 752,0:21:59,0:21:59,Speaker 1,No.,session04-part00.m4a.csv
-753,0:22:00,0:22:05,DM,But I knew that the hardest pilgrimage in the Eyrie history could be done by you.,session04-part00.m4a.csv
+753,0:22:00,0:22:05,DM,But I knew that the hardest pilgrimage in the eerie history could be done by you.,session04-part00.m4a.csv
 754,0:22:05,0:22:05,DM,Mr.,session04-part00.m4a.csv
-755,0:22:06,0:22:06,Delmar,"Tabarnack,",session04-part00.m4a.csv
+755,0:22:06,0:22:06,Delmar,"Tabernak,",session04-part00.m4a.csv
 756,0:22:06,0:22:07,Delmar,they don't know.,session04-part00.m4a.csv
 757,0:22:07,0:22:08,Delmar,That was an understatement.,session04-part00.m4a.csv
 758,0:22:08,0:22:10,Delmar,You've yet to talk about that.,session04-part00.m4a.csv
@@ -763,7 +763,7 @@ ID,Start,End,Speaker,Text,Source
 762,0:22:14,0:22:15,Crissdalyn,It's still on the boat.,session04-part00.m4a.csv
 763,0:22:15,0:22:17,Crissdalyn,But I got most of them back.,session04-part00.m4a.csv
 764,0:22:18,0:22:20,Crissdalyn,I forgot my backpack wasn't on me.,session04-part00.m4a.csv
-765,0:22:22,0:22:23,Crissdalyn,This is very Crissdalynn.,session04-part00.m4a.csv
+765,0:22:22,0:22:23,Crissdalyn,This is very crystalline.,session04-part00.m4a.csv
 766,0:22:23,0:22:23,Crissdalyn,"Yeah,",session04-part00.m4a.csv
 767,0:22:23,0:22:24,Crissdalyn,of course.,session04-part00.m4a.csv
 768,0:22:24,0:22:24,Crissdalyn,"Oh,",session04-part00.m4a.csv
@@ -848,7 +848,7 @@ ID,Start,End,Speaker,Text,Source
 847,0:25:28,0:25:28,DM,"that's,",session04-part00.m4a.csv
 848,0:25:28,0:25:29,DM,I've never.,session04-part00.m4a.csv
 849,0:25:29,0:25:30,DM,"I would look to,",session04-part00.m4a.csv
-850,0:25:30,0:25:32,Delmar,I would look to Kyzil and.,session04-part00.m4a.csv
+850,0:25:30,0:25:32,Delmar,I would look to Kaisel and.,session04-part00.m4a.csv
 851,0:25:33,0:25:33,Delmar,"Sure,",session04-part00.m4a.csv
 852,0:25:33,0:25:33,Delmar,"sure,",session04-part00.m4a.csv
 853,0:25:34,0:25:34,Delmar,absolutely.,session04-part00.m4a.csv
@@ -886,7 +886,7 @@ ID,Start,End,Speaker,Text,Source
 885,0:26:12,0:26:13,Delmar,I'll go hard.,session04-part00.m4a.csv
 886,0:26:15,0:26:16,Delmar,Shakuri platter of cheese.,session04-part00.m4a.csv
 887,0:26:19,0:26:21,Delmar,Cheese is the meat.,session04-part00.m4a.csv
-888,0:26:24,0:26:49,Jean Claude,"maybe some some dried fish in there i would check with uh mr Tabarnack uh about instead of making the assumption mistake that i just made um about what you would like to eat and then honestly we haven't really um established like we talked talked a little bit about it but well like i imagine like throughout the day i fucking i'm eating bugs yeah yeah yeah okay but they don't really fill me up it's just like,",session04-part00.m4a.csv
+888,0:26:24,0:26:49,Jean Claude,"maybe some some dried fish in there i would check with uh mr tabernak uh about instead of making the assumption mistake that i just made um about what you would like to eat and then honestly we haven't really um established like we talked talked a little bit about it but well like i imagine like throughout the day i fucking i'm eating bugs yeah yeah yeah okay but they don't really fill me up it's just like,",session04-part00.m4a.csv
 889,0:26:49,0:26:50,Jean Claude,"you know,",session04-part00.m4a.csv
 890,0:26:50,0:26:51,Jean Claude,they're little guys.,session04-part00.m4a.csv
 891,0:26:51,0:26:51,Speaker 1,That's our goal.,session04-part00.m4a.csv
@@ -1288,7 +1288,7 @@ ID,Start,End,Speaker,Text,Source
 1287,0:37:25,0:37:26,DM,Horrible.,session04-part01.m4a.csv
 1288,0:37:26,0:37:26,DM,What did I say?,session04-part01.m4a.csv
 1289,0:37:28,0:37:30,DM,Got the weirdest burner right now.,session04-part01.m4a.csv
-1290,0:37:30,0:37:39,DM,So Master Kyzil walks out to the far side of the rooftop and throws off his robe and just kind of rolls his sleeves up.,session04-part01.m4a.csv
+1290,0:37:30,0:37:39,DM,So Master Kaizel walks out to the far side of the rooftop and throws off his robe and just kind of rolls his sleeves up.,session04-part01.m4a.csv
 1291,0:37:40,0:37:43,DM,This has been probably too long since we've spied on a princess.,session04-part01.m4a.csv
 1292,0:37:44,0:37:45,Speaker 1,"And,",session04-part01.m4a.csv
 1293,0:37:45,0:37:46,Speaker 1,um...,session04-part01.m4a.csv
@@ -1326,7 +1326,7 @@ ID,Start,End,Speaker,Text,Source
 1325,0:39:01,0:39:02,DM,he rolled well on initiative.,session04-part01.m4a.csv
 1326,0:39:03,0:39:03,DM,"Frederick,",session04-part01.m4a.csv
 1327,0:39:03,0:39:04,DM,do you want to pick a look here?,session04-part01.m4a.csv
-1328,0:39:10,0:39:33,Jean Claude,first nat 20 the game ladies and gentlemen first nat 20 the game oh but can't get fair wrong the nat 20 was on the wrong side of the dm screen what'd you get 14 14 okay yeah Kyzil is gonna be uh going first here oh with a 26 initiative.,session04-part01.m4a.csv
+1328,0:39:10,0:39:33,Jean Claude,first nat 20 the game ladies and gentlemen first nat 20 the game oh but can't get fair wrong the nat 20 was on the wrong side of the dm screen what'd you get 14 14 okay yeah kaizel is gonna be uh going first here oh with a 26 initiative.,session04-part01.m4a.csv
 1329,0:39:34,0:39:34,DM,Send it to me.,session04-part01.m4a.csv
 1330,0:39:36,0:39:40,DM,Who else is going to be in this sparring match?,session04-part01.m4a.csv
 1331,0:39:42,0:39:43,DM,Shock no.,session04-part01.m4a.csv
@@ -1358,13 +1358,13 @@ ID,Start,End,Speaker,Text,Source
 1357,0:40:29,0:40:31,Delmar,You must have grown quite strong in these three years.,session04-part01.m4a.csv
 1358,0:40:33,0:40:34,Delmar,"I can assure you,",session04-part01.m4a.csv
 1359,0:40:34,0:40:35,Delmar,Master...,session04-part01.m4a.csv
-1360,0:40:37,0:40:37,Delmar,Kyzil.,session04-part01.m4a.csv
-1361,0:40:37,0:40:37,Delmar,"Kyzil,",session04-part01.m4a.csv
+1360,0:40:37,0:40:37,Delmar,Kaizel.,session04-part01.m4a.csv
+1361,0:40:37,0:40:37,Delmar,"Kaizel,",session04-part01.m4a.csv
 1362,0:40:38,0:40:38,Delmar,thank you.,session04-part01.m4a.csv
 1363,0:40:39,0:40:40,Delmar,I don't know why I blanked his name.,session04-part01.m4a.csv
 1364,0:40:40,0:40:40,Delmar,Sorry about that.,session04-part01.m4a.csv
 1365,0:40:41,0:40:42,Delmar,"I can assure you,",session04-part01.m4a.csv
-1366,0:40:42,0:40:42,Delmar,"Master Kyzil,",session04-part01.m4a.csv
+1366,0:40:42,0:40:42,Delmar,"Master Kaizel,",session04-part01.m4a.csv
 1367,0:40:43,0:40:44,Delmar,she has...,session04-part01.m4a.csv
 1368,0:40:45,0:40:46,Speaker 1,She has grown.,session04-part01.m4a.csv
 1369,0:40:47,0:40:48,DM,I can tell.,session04-part01.m4a.csv
@@ -1390,11 +1390,11 @@ ID,Start,End,Speaker,Text,Source
 1389,0:41:26,0:41:27,DM,sure.,session04-part01.m4a.csv
 1390,0:41:27,0:41:27,DM,Yeah.,session04-part01.m4a.csv
 1391,0:41:28,0:41:28,DM,That's easy.,session04-part01.m4a.csv
-1392,0:41:29,0:41:30,DM,And then I need someone for Kyzil.,session04-part01.m4a.csv
+1392,0:41:29,0:41:30,DM,And then I need someone for Kaizel.,session04-part01.m4a.csv
 1393,0:41:31,0:41:32,DM,Excuse me.,session04-part01.m4a.csv
 1394,0:41:32,0:41:34,DM,This is...,session04-part01.m4a.csv
 1395,0:41:35,0:41:35,Speaker 1,"Well,",session04-part01.m4a.csv
-1396,0:41:35,0:41:37,Speaker 1,this could be Kyzil for now.,session04-part01.m4a.csv
+1396,0:41:35,0:41:37,Speaker 1,this could be Kaizel for now.,session04-part01.m4a.csv
 1397,0:41:38,0:41:39,Perrin,"I mean,",session04-part01.m4a.csv
 1398,0:41:39,0:41:39,Perrin,"he could be this guy too,",session04-part01.m4a.csv
 1399,0:41:40,0:41:40,Perrin,but...,session04-part01.m4a.csv
@@ -1413,7 +1413,7 @@ ID,Start,End,Speaker,Text,Source
 1412,0:42:11,0:42:11,Speaker 1,Second attack.,session04-part01.m4a.csv
 1413,0:42:13,0:42:16,DM,"And you anticipate the second attack as well,",session04-part01.m4a.csv
 1414,0:42:16,0:42:18,DM,as he follows up with his usual counter attack.,session04-part01.m4a.csv
-1415,0:42:19,0:42:21,DM,"You know how Kyzil fights,",session04-part01.m4a.csv
+1415,0:42:19,0:42:21,DM,"You know how Kaizel fights,",session04-part01.m4a.csv
 1416,0:42:21,0:42:23,DM,and you're ready for it.,session04-part01.m4a.csv
 1417,0:42:25,0:42:27,DM,You dodged that one too.,session04-part01.m4a.csv
 1418,0:42:29,0:42:30,Crissdalyn,Three attacks.,session04-part01.m4a.csv
@@ -1935,7 +1935,7 @@ ID,Start,End,Speaker,Text,Source
 1934,0:56:11,0:56:12,DM,So top of the round.,session04-part01.m4a.csv
 1935,0:56:12,0:56:15,DM,And then Delmar is on deck.,session04-part01.m4a.csv
 1936,0:56:15,0:56:16,DM,And then Crystal and Nick.,session04-part01.m4a.csv
-1937,0:56:18,0:56:19,DM,"So Kyzil,",session04-part01.m4a.csv
+1937,0:56:18,0:56:19,DM,"So Kaizel,",session04-part01.m4a.csv
 1938,0:56:19,0:56:19,DM,yeah.,session04-part01.m4a.csv
 1939,0:56:19,0:56:21,DM,He has zero movement speed.,session04-part01.m4a.csv
 1940,0:56:22,0:56:23,Crissdalyn,How does Grapple work?,session04-part01.m4a.csv
@@ -2190,7 +2190,7 @@ ID,Start,End,Speaker,Text,Source
 2189,1:05:06,1:05:06,Speaker 1,"And,",session04-part02.m4a.csv
 2190,1:05:07,1:05:07,Speaker 1,"um,",session04-part02.m4a.csv
 2191,1:05:07,1:05:08,Speaker 1,yes.,session04-part02.m4a.csv
-2192,1:05:09,1:05:10,DM,"So Kyzil,",session04-part02.m4a.csv
+2192,1:05:09,1:05:10,DM,"So Kaizel,",session04-part02.m4a.csv
 2193,1:05:10,1:05:12,DM,I completely lost track of where we were.,session04-part02.m4a.csv
 2194,1:05:13,1:05:14,Delmar,He just chucked it at me.,session04-part02.m4a.csv
 2195,1:05:15,1:05:15,Delmar,"Yeah,",session04-part02.m4a.csv
@@ -2204,7 +2204,7 @@ ID,Start,End,Speaker,Text,Source
 2203,1:05:23,1:05:24,Delmar,"oh,",session04-part02.m4a.csv
 2204,1:05:24,1:05:25,Delmar,it's now me?,session04-part02.m4a.csv
 2205,1:05:25,1:05:25,Speaker 1,Yeah.,session04-part02.m4a.csv
-2206,1:05:26,1:05:27,DM,Kyzil is done.,session04-part02.m4a.csv
+2206,1:05:26,1:05:27,DM,Kaizel is done.,session04-part02.m4a.csv
 2207,1:05:27,1:05:27,DM,"Ooh,",session04-part02.m4a.csv
 2208,1:05:27,1:05:28,DM,the sun's coming out.,session04-part02.m4a.csv
 2209,1:05:28,1:05:30,DM,He made his dagger throw.,session04-part02.m4a.csv
@@ -2254,7 +2254,7 @@ ID,Start,End,Speaker,Text,Source
 2253,1:07:31,1:07:31,Delmar,Yeah.,session04-part02.m4a.csv
 2254,1:07:32,1:07:32,Delmar,Alright.,session04-part02.m4a.csv
 2255,1:07:42,1:08:03,Delmar,Damn Wasn't meant to be Alright Okay I go in and I go in to strike him and He's still grappled So I go in and I stab And let's just say I think I know where his body is and I whiff I hit feathers.,session04-part02.m4a.csv
-2256,1:08:04,1:08:07,DM,"You're worried about getting Crissdalynn as well,",session04-part02.m4a.csv
+2256,1:08:04,1:08:07,DM,"You're worried about getting crystalline as well,",session04-part02.m4a.csv
 2257,1:08:07,1:08:12,DM,so it's very difficult to stab through someone being held in a full Nelson kind of position.,session04-part02.m4a.csv
 2258,1:08:13,1:08:13,DM,"Alright,",session04-part02.m4a.csv
 2259,1:08:13,1:08:14,DM,and then I will disengage.,session04-part02.m4a.csv
@@ -2342,7 +2342,7 @@ ID,Start,End,Speaker,Text,Source
 2341,1:10:18,1:10:20,DM,Is that it for your turn?,session04-part02.m4a.csv
 2342,1:10:20,1:10:20,DM,Yes.,session04-part02.m4a.csv
 2343,1:10:21,1:10:23,DM,He's going to use a legendary action after your turn.,session04-part02.m4a.csv
-2344,1:10:25,1:10:30,DM,"Each creeper with Kyzil's choice within 10 feet must succeed on DC 19 strength,",session04-part02.m4a.csv
+2344,1:10:25,1:10:30,DM,"Each creeper with Kaizel's choice within 10 feet must succeed on DC 19 strength,",session04-part02.m4a.csv
 2345,1:10:31,1:10:31,DM,"save and throw,",session04-part02.m4a.csv
 2346,1:10:31,1:10:33,DM,"or take 2d8 bludgeon damage,",session04-part02.m4a.csv
 2347,1:10:34,1:10:34,DM,"be pushed 10 feet,",session04-part02.m4a.csv
@@ -2582,7 +2582,7 @@ ID,Start,End,Speaker,Text,Source
 2581,1:16:50,1:16:50,DM,"Yeah,",session04-part02.m4a.csv
 2582,1:16:50,1:16:51,DM,anyway.,session04-part02.m4a.csv
 2583,1:16:52,1:16:52,DM,Top of the round.,session04-part02.m4a.csv
-2584,1:16:53,1:16:53,DM,That's Kyzil.,session04-part02.m4a.csv
+2584,1:16:53,1:16:53,DM,That's Kaizel.,session04-part02.m4a.csv
 2585,1:16:54,1:16:55,DM,I'm sorry.,session04-part02.m4a.csv
 2586,1:16:56,1:16:59,Perrin,I love being this annoying little song player person.,session04-part02.m4a.csv
 2587,1:16:59,1:17:00,Perrin,It's pretty funny.,session04-part02.m4a.csv

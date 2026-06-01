@@ -20,7 +20,7 @@ Answer these from the source and current wiki context:
 | Type | Signs | Primary Output |
 |---|---|---|
 | `session` | session number, chronology, player decisions | `wiki/sessions/`, hot updates, entity activity logs |
-| `transcript` | speaker turns, timestamps, raw audio text | reviewed transcript workflow |
+| `transcript` | `.csv` with ID, Start, End, Speaker, Text columns | reviewed transcript workflow |
 | `entity-source` | named NPC/item/vehicle/deity details | entity pages and reciprocal links |
 | `situation-source` | pressure, deadline, unresolved conflict | active/dormant situation file |
 | `location-source` | place, settlement, room keys, travel site | location page or island |

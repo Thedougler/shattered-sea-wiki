@@ -20,13 +20,14 @@ Answer these from the source and current wiki context:
 | Type | Signs | Primary Output |
 |---|---|---|
 | `session` | session number, chronology, player decisions | `wiki/sessions/`, hot updates, entity activity logs |
-| `transcript` | speaker turns, timestamps, raw audio text | reviewed transcript workflow |
+| `transcript` | `.csv` with ID, Start, End, Speaker, Text columns | reviewed transcript workflow |
 | `entity-source` | named NPC/item/vehicle/deity details | entity pages and reciprocal links |
 | `situation-source` | pressure, deadline, unresolved conflict | active/dormant situation file |
 | `location-source` | place, settlement, room keys, travel site | location page or island |
 | `faction-source` | group agenda, membership, moves | faction page and clocks |
 | `rules-or-homebrew` | mechanics, table rulings, class options | `wiki/rules/` and relevant character links |
 | `handout-or-player-facing` | in-world text, public lore, recap | publish-safe player page |
+| `character-sheet` | PDF form fields, ability scores, class/level, equipment | PC sheet page, combat reference, entity links |
 | `asset` | image/audio/map supporting wiki content | asset source tracking and embeds |
 | `research-or-guidance` | process guidance, writing standards | system/reference page only if useful |
 

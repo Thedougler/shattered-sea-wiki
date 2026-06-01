@@ -136,3 +136,75 @@ IC/OOC split: ~50/50
   Source: lines 628–694
 - Delmar's player drove the ordering scene and social dynamics at the tavern — high engagement with slice-of-life roleplay
   Source: lines 792–837
+
+---
+
+## Scene 5: Ponte Bassa Rooftop — Boots of Flying & Sparring Setup
+Lines 1059–1390 | Duration: 0:31:00–0:41:00
+Participants: All PCs, DM (Kyzil)
+IC/OOC split: ~50/50
+
+### [CANON]
+- Jean-Claude gifted the boots of flying to Perrin and Delmar; they rolled to decide — Perrin won
+  Source: lines 1219–1275
+- Kyzil expressed concern that Crissdalynn hasn't been practicing her martial training
+  Source: lines 1087–1106
+- Kyzil challenged Crissdalynn to spar on the Ponte Bassa rooftop; he invited others to join
+  Source: lines 1290–1296
+- DM confirmed Kyzil was built to take on all four PCs at once and survive
+  Source: lines 3336–3337
+
+### [ITEM]
+- Perrin: received boots of flying from Jean-Claude (uncommon, attunement, 4hr flight)
+  Source: lines 1219–1275
+
+### [NPC]
+- Master Kyzil (combat profile): fights with two sharp daggers and open palm strikes, uses patient defense, has flying movement (bonus action half speed), at least 4 attacks per turn. Initiative modifier very high (rolled 26). AC 21+ (dirty 20 misses, patient defense raises further). Has reaction to boost AC by 5 (wing slap). Has returning daggers (disappear into smoke, reappear in hand). DC 19 Strength save on open palm strikes (pushback 15ft + prone). Built to take on all four PCs at once.
+  Source: lines 1290–3400
+  Status: existing (wiki/entities/npcs/master-kyzil.md)
+
+### [SIGNAL]
+- Crissdalynn's player was eager for the sparring match — high engagement with martial identity and master-apprentice dynamic
+  Source: lines 1087–1320
+- Delmar's player jumped into the spar uninvited with improvised weapons (chair, then rapier) — high engagement with combat as social bonding
+  Source: lines 1724–1890
+
+---
+
+## Scene 6: Ponte Bassa Rooftop — Kyzil Sparring Match (Rounds 1–2)
+Lines 1390–1650 | Duration: 0:41:00–0:49:30
+Participants: Crissdalynn, Delmar, Perrin, DM (Kyzil)
+IC/OOC split: ~40/60 (heavy mechanics discussion)
+
+### [COMBAT]
+- Encounter: Kyzil sparring match (non-lethal, rooftop of Ponte Bassa, twilight)
+- Participants: Crissdalynn vs Kyzil (primary), Delmar joins round 1, Perrin supporting
+- Initiative order: Kyzil 26, Delmar 22, Crissdalynn 14, Perrin 5
+- **Round 1:**
+  - Kyzil: 4 attacks (open palm strikes) vs Crissdalynn — all miss. Bonus action: patient defense
+  - Crissdalynn: Attack (dirty 20) — miss. Activated tattoo (15ft reach, +1d6 bludgeoning). Bonus action hit (25 to hit, 18+7) — 13 damage + grapple (Kyzil rolled nat 1 on contested check)
+  - Delmar: Surprise entry — threw chair at Kyzil (21 to hit via steady aim + advantage), hit for 4 bludgeoning (1d4, Tavern Brawler). Hit Crissdalynn instead initially (18 vs her AC 17)
+  - Perrin: Watched, gave bardic inspiration (d6) to Crissdalynn retroactively (she rolled 1)
+- **Round 2:**
+  - Kyzil (grappled, 0 movement): Open palm strike miss (13). Second hit (27) for 9 bludgeoning — Crissdalynn deflected all 9 (rolled 17 deflect), spent focus point to redirect (DC 13 Dex save — Kyzil passed with 17). Third hit (17) for 9 bludgeoning + DC 19 Str save — Crissdalynn failed (rolled 16), pushed 15ft and knocked prone. Bonus action: tried to move (blocked by grapple). Returned dagger throw at Delmar (29 to hit) for 19 damage (Delmar at 12 HP). Second dagger throw — Delmar burned luck point forcing disadvantage, Kyzil rolled nat 1, miss (dagger pinned Delmar's coat to wall)
+  - Delmar: Drew the Red Lady (rapier). Moved in with sneak attack (flanking). Attack with rapier — miss (9+7=16, needed 21+). Burned last luck point — still missed. Free disengage (Swashbuckler), bonus action dash away
+  - Crissdalynn: Stood from prone (half movement). Attacked with advantage (grapple) — hit for 14 damage. Flurry of blows — second hit (nat 19, 25 to hit) for additional damage
+  - Perrin: Started playing drum. Healing word on Delmar. Gave bardic inspiration
+- **Kyzil AC notes:** 21 base (dirty 20 misses; 25 hits). With reaction wing slap: +5 = 26 temporarily
+- **Crissdalynn AC:** 17
+- **DCs revealed:** Kyzil open palm DC 19 Strength save; Crissdalynn deflect redirect DC 13 Dex save
+  Source: lines 1390–1650
+
+### [RULING]
+- Grappled condition: zero movement speed, no disadvantage on attacks. Grappler feat gives advantage on attacks against grappled target.
+  Source: lines 1697–1703, 1940–1944
+- Crissdalynn's deflect attacks: if damage reduced to zero, can spend 1 focus point to redirect — target makes DC 13 Dex save or takes 2d6+4 damage
+  Source: lines 1984–1991
+- Tavern Brawler: proficiency with improvised weapons, enhanced unarmed strike deals 1d4 + Str modifier
+  Source: lines 1832–1863
+- Bardic inspiration can be given retroactively as a reaction during sparring (DM allowed it)
+  Source: lines 1547–1558
+- Swashbuckler: free disengage after melee attack (no opportunity attacks), bonus action dash for double movement
+  Source: lines 2260–2282
+- Kyzil's returning daggers: disappear into smoke on impact, reappear in his hand
+  Source: lines 2037–2044

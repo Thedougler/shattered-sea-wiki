@@ -1,16 +1,16 @@
 # Session Ingest Handoff — Session 04
 
 ## Status
-- Parts completed: 00–05 (00–02 via legacy chunks, 03–05 via new format)
-- Parts remaining: 06, 07, 08
-- Last scene in recap: "Nona's Safe House — Grung in the Sewers"
+- Parts completed: 00–06 (00–02 via legacy chunks, 03–06 via new format)
+- Parts remaining: 07, 08
+- Last scene in recap: "Calveno Sewers — Tracking the Grung"
 - Open flags: 6 unresolved
 
 ## Next Action
-Process part06 of session 04 transcript using the `session-ingest` skill.
+Process part07 of session 04 transcript using the `session-ingest` skill.
 
 ## Context for Next Part
-The party is at Nona's safe house after learning about Grung sightings in the Calveno sewers. Jean-Claude has taken the lead on investigating — he has a map with 3 sighting locations, several underground. A purple Grung (bigger, cloaked, mustache/bandana) was seen crawling out of a market district sewer grate. The Grung are moving things and running, not fighting. Jean-Claude confirmed no Grung has ever crossed the Central Strait. The acidic smell the witness reported didn't match Jean-Claude's Grung grenade. Part05 ended with Jean-Claude about to communicate findings to the party. Expect the party to accept Nona's job and head into the sewers, or further discussion before departure.
+The party is at the exit of a sewer storm drain opening into the ocean in Le Paludi. Jean-Claude heard someone hiding around the corner to the left. Perrin is invisible and about to swim/climb along the seawall to scout. The rest of the party is holding position inside the tunnel. They've been tracking Grung through the sewers — found fresh markings, triggered a trap, and followed the trail 500 meters to this exit. Party has Hero's Feast buffs active (immune to frightened/poison, wisdom advantage, +2d10 temp HP). Expect Perrin's scouting report and likely a confrontation or discovery related to the Grung.
 
 ## Files to Read First
 - `audio/sessions/session04/progress.txt` — part history

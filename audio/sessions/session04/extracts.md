@@ -470,3 +470,77 @@ IC/OOC split: ~65/35
   Source: part05 lines 175–224
 - Delmar's player showed strong character work in the Nona meeting — navigating the Dravosi prejudice with charm and establishing Delmar's Midchain roots
   Source: part05 lines 149–161
+
+---
+
+## Scene 10 (continued): Nona's Safe House — Job Details & Hero's Feast
+Part 06 lines 1–36
+Participants: All PCs, DM (Nona)
+IC/OOC split: ~50/50
+
+### [CANON]
+- Jean-Claude framed the Grung investigation as personal: "This is something that I not only want, but need to investigate and pursue"
+  Source: part06 line 1
+- Nona offered to pay the party for the job and warned it's dangerous
+  Source: part06 line 2
+- Nona's cooking provided Hero's Feast effects: cured of diseases/poison, immune to poison and frightened, wisdom saves with advantage, +2d10 max HP for 24 hours
+  Source: part06 lines 2–22
+- HP gains from Hero's Feast: one PC got 14, Delmar got 16, Perrin got 10
+  Source: part06 lines 17–24
+- The sightings are very fresh — within the past 12 hours, the most recent only 1–2 hours old
+  Source: part06 lines 34–36
+
+### [RULING]
+- Hero's Feast (from Nona's cooking): requires 1 hour eating. Effects last 24 hours. Max HP increase is temporary — you can be healed up to the increased maximum during those 24 hours
+  Source: part06 lines 2–22
+
+---
+
+## Scene 11: Calveno Sewers — Tracking the Grung
+Part 06 lines 32–234
+Participants: Jean-Claude (point), Perrin (invisible), Delmar (traps), Crissdalynn (rear)
+IC/OOC split: ~40/60
+
+### [CANON]
+- Party entered first sewer location through a manhole cover. Tunnels: 5 feet wide, 10 feet tall, pitch dark
+  Source: part06 lines 45, 79–81
+- Jean-Claude scouted ahead on the ceiling/walls using frog climbing ability and Gloom Stalker invisibility to darkvision
+  Source: part06 lines 69–70, 104–107
+- Perrin went invisible and moved alongside Jean-Claude using Rattkin keen senses (5-foot presence detection)
+  Source: part06 lines 73–77
+- Perrin's nose detected black powder scent, getting stronger
+  Source: part06 lines 51, 131
+- Jean-Claude found fresh Grung markings on the sewer walls — directional road signs reading essentially "500 meters" with an arrow
+  Source: part06 lines 52–54
+- They triggered a Grung trap: tripwire → underwater crossbow. Poor quality and underwater firing caused it to miss
+  Source: part06 lines 93–98
+- After 500 meters, they exited a storm drain into the ocean in a secluded area of Le Paludi
+  Source: part06 line 131
+- Jean-Claude heard movement outside — someone hiding to the left around the corner (perception 24)
+  Source: part06 lines 138–139
+- Perrin (invisible) prepared to swim/climb around the seawall to scout while the rest waited in the tunnel
+  Source: part06 lines 227–234
+
+### [LORE]
+- Grung use scratched wall markings as directional road signs in tunnels — simple distance + direction markers
+  Source: part06 lines 52–54
+- Grung set simple traps quickly: tripwire-activated underwater crossbows. Designed for speed, not sophistication
+  Source: part06 lines 93–98
+- Jean-Claude's Gloom Stalker ability: invisible to any creature using darkvision in complete darkness
+  Source: part06 lines 69–70
+- Rattkin keen senses: detect presence up to 5 feet. Better at hearing and whisker-based detection than smell (smell is more food-oriented)
+  Source: part06 lines 40–42, 73–74
+- Black powder scent in the sewers — possibly related to Grung activity
+  Source: part06 lines 51, 131
+
+### [RULING]
+- Assist action on survival tracking: Jean-Claude rolls survival with advantage from Perrin's assist (Perrin uses scent to help track)
+  Source: part06 lines 37–51
+- Gloom Stalker: effectively invisible in complete darkness to creatures relying on darkvision — confirmed by DM
+  Source: part06 lines 69–70
+- Frog climbing: Jean-Claude can climb on sewer ceilings and walls — functions like spider climb for scouting
+  Source: part06 lines 104–107
+
+### [SIGNAL]
+- Jean-Claude's player drove the entire sewer exploration with tactical precision — directing marching order, identifying Grung signs, testing for traps. Very high engagement with this plotline as a personal-stakes mission
+  Source: part06 lines 37–147

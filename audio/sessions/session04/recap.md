@@ -97,6 +97,19 @@ Nona explained the job: multiple Passage members — six separate reports — ha
 
 Nona brought out the key witness, a young Rattkin woman, who described seeing a purple Grung crawling out of a sewer grate in the market district. It wore a heavy cloak, had something covering the lower face (bandana or mustache), and she smelled something acidic. Jean-Claude tested the smell against his Grung grenade — the witness said it was different. Jean-Claude obtained a map with three sighting locations, several of them underground in the sewers.
 
+Nona's cooking gave the party the effects of Hero's Feast: cured of diseases and poison, immune to poison and frightened, wisdom saves with advantage, and 2d10 temporary max HP for 24 hours. The sightings were very fresh — within the past 12 hours, the most recent only an hour or two old. Nona urged them to investigate quickly, especially with the festival starting.
+
+---
+
+## Scene 11: Calveno Sewers — Tracking the Grung
+*Part 06 | Jean-Claude (point), Perrin (invisible scout), Delmar (trap-finder), Crissdalynn*
+
+The party entered the first sewer location through a manhole cover. The tunnels were narrow — five feet wide, ten feet tall, pitch dark. Jean-Claude scouted ahead using his Gloom Stalker invisibility to darkvision and his frog ability to climb along the ceiling and walls. Perrin went invisible and moved alongside him using Rattkin keen senses (5-foot detection). Delmar followed with a hooded lantern, scanning for traps. Crissdalynn brought up the rear. Perrin's keen nose picked up the scent of black powder getting stronger. Jean-Claude found Grung markings scratched on the sewer walls — road-sign-style directional markers indicating "500 meters" with an arrow. The scratches were fresh.
+
+They triggered a trap at some point: a tripwire connected to a crossbow hidden underwater. The crossbow was poor quality and firing from underwater threw off the accuracy — the bolts sailed over Jean-Claude's head. He confirmed it as a Grung trap.
+
+After 500 meters, they emerged from a storm drain opening into the ocean in a secluded area of Le Paludi. Jean-Claude heard movement — someone hiding just around the corner to the left. The party held position in the tunnel while Perrin, still invisible, prepared to swim and climb along the seawall to scout around the corner.
+
 ---
 
 ## Scene 8: Calveno Harbor Shrine — Umberlee Speaks Through Branca

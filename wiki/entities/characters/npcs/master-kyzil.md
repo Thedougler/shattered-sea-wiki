@@ -165,6 +165,10 @@ legendary_actions:
 - **Session 03:** Reunited with [[crissdalynn-khinriss|Crissdalynn]] in Le Paludi streets. Had searched [[kalowe|Kalowe]] and [[tidefall|Tidefall]]. Said "a foul wind from the south." Party currently unaware of his broader context.
 - **Session 04:** Told Crissdalynn he gave her the hardest pilgrimage in Eyrie history because he knew she could do it. Maw has been unruly and dangerous since the wreck; weather odd; sentinels saw the wreck. Senses something foul from the south. Challenged party to spar on the [[ponte-bassa|Ponte Bassa]] rooftop — non-lethal four-on-one, 3 rounds. Crissdalynn grappled him R1 (he rolled nat 1). Used Downburst legendary action twice to break free — first saved by bardic inspiration, second knocked Crissdalynn off the roof. Panicked and flew down to catch her. Pinned [[jean-claude-tabarnack|Jean-Claude]]'s shirt to a chair with a returning dagger as a dominance display — JC was not participating. Delmar landed a sneak attack through Empty Wing Parry via bardic inspiration for 17 damage. Stat block held as designed for 3 rounds. Staying in Calveno through the festival.
 
+## Post-Session 04 State
+
+Kyzil investigated his "foul wind" instinct between the spar and the next morning — heard fragments about small cloaked figures near storm drains and acidic smells underground. Festival noise blocks specificity, but his instinct is confirmed: something is moving beneath Calveno. He is primed to snap into tactical assessment the moment the party shares their intel.
+
 ## Connections
 
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — student/mentee (calls her Priscilla)

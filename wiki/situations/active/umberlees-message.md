@@ -55,9 +55,13 @@ Delmar went to the Calveno harbor shrine at night. Branca was kneeling in a pool
 
 **Party awareness:** Delmar told Crissdalynn the next morning. She leg-swept him for going without her. Perrin was invisible during the shrine scene (two steps behind Delmar). Jean-Claude was present.
 
+### World Update — Session 04
+**Roll:** 20 — Full Success
+Branca returned to the Church of Umberlee and reported everything: a man carrying stolen souls was at the shrine, Umberlee herself possessed Branca, terms were given, the man tried to lie to a god. This is the most significant divine communion the Calveno Waveservants have witnessed in living memory. The report did not stay in the church. Waveservant clergy in the harbor district are now watching for Delmar — the man in the distinctive coat who came to the shrine at night. Word is travelling through the maritime religious network: sailors pray to Umberlee, and the Waveservants have ties to that community. Within a day, harbor gossip carries the shape of it — "someone who stole from Umberlee is in the city." Not Delmar's name yet, but "a Dravosi-looking man" or "the one in the scarlet coat" is enough for someone paying attention to connect dots. Delmar's Umberlee debt is no longer a private secret between him and the party — it is entering Calveno's maritime grapevine.
+
 ## Open Questions
 
 - Does Delmar actively pursue the Pearl retrieval, or does the Grung crisis consume the party's attention?
 - What happens when Umberlee realizes Delmar is stalling on the retrieval?
 - Who commissioned the Pearl theft — and will Delmar's counter-offer bear fruit?
-- The church of Umberlee: does Branca report the encounter to other Waveservants?
+- How far does the harbor gossip spread before the party leaves Calveno? Does someone connect "the scarlet admiral" to "the man who owes Umberlee"?

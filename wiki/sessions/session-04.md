@@ -96,7 +96,7 @@ session_date: 2026-05-31
 - Will Jean-Claude pursue the defector angle through Felix?
 - Does Kyzil's "something foul from the south" connect to the Grung operation?
 - What did the Chain Council know about the Pearl when they commissioned the theft?
-- Has Branca told anyone at Upper Lake about the Umberlee encounter?
+- Has Branca told anyone at Umberlee about the Umberlee encounter?
 
 ## Follow-Up Queue
 

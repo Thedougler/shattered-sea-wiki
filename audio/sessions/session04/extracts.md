@@ -360,7 +360,7 @@ IC/OOC split: ~55/45
   Source: part04 lines 154–156
 - Umberlee read Delmar's mind freely: "Your mind is as clear to me as any book. I know that you did not know what you stole, but you stole nonetheless." Final terms: "Bring me the pearl. We will talk then."
   Source: part04 lines 156
-- Branca returned to normal, visibly shaken and injured (rubbing her neck), headed to the church of Upper Lake
+- Branca returned to normal, visibly shaken and injured (rubbing her neck), headed to the church of Umberlee
   Source: part04 lines 159–163
 
 ### [LORE]
@@ -368,13 +368,13 @@ IC/OOC split: ~55/45
   Source: part04 lines 131–153
 - Umberlee can read minds freely when given permission ("Search my mind, search my soul, I give it freely")
   Source: part04 lines 154–156
-- The church/clergy of Upper Lake is Umberlee's local base in Calveno
+- The church/clergy of Umberlee is Umberlee's local base in Calveno
   Source: part04 lines 162–163
 - Umberlee's initial demand was death in exchange for returning the pearl; she reduced this to only claiming the souls within the pearl after Delmar's defiance
   Source: part04 lines 133, 153–154
 
 ### [NPC]
-- Branca: Umberlee cultist/priestess in Calveno. Serves as Umberlee's vessel — possessed during rituals. Physically damaged by the possession (neck snapped, killed and resurrected). Genuinely devout. Stays with the clergy at the church of Upper Lake. Had been awake and waiting for Delmar since their earlier encounter
+- Branca: Umberlee cultist/priestess in Calveno. Serves as Umberlee's vessel — possessed during rituals. Physically damaged by the possession (neck snapped, killed and resurrected). Genuinely devout. Stays with the clergy at the church of Umberlee. Had been awake and waiting for Delmar since their earlier encounter
   Source: part04 lines 43–163
   Status: new (needs entity page)
 

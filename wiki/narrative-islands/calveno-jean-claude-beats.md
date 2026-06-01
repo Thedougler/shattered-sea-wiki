@@ -7,18 +7,18 @@ audience: dm
 publish: false
 summary: "One Jean-Claude roleplay moment for Calveno — the moustache craftsman in the Velo Quarter — plus combat menu pointer to Street Encounters."
 created: 2026-05-22
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - grung
   - dm-prep
 sources:
   - "Inbox/Calveno-Jean-Claude-Beats.md"
-narrative_island: calveno-sandbox-run-guide
 portable: true
 entry_points:
   - Jean-Claude moves through the Velo Quarter for any reason
   - Party needs a roleplay beat without plot setup
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 

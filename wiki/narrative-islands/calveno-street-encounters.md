@@ -7,19 +7,19 @@ audience: dm
 publish: false
 summary: "Optional drop-in encounters for Calveno and Le Paludi — muggings, canal incidents, festival escalations, Dravosi gate checks, and a man in the water. Includes Jean-Claude Arc combat escalations: Handler Cell, Serin Haut at Bay, Le Paludi Hired Muscle."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - combat
   - dm-prep
 sources:
   - "Inbox/Calveno-Street-Encounters.md"
-narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Party moves through city districts
   - Festival escalation
   - Jean-Claude acts on handlers — see Handler Cell entry
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 

@@ -7,18 +7,18 @@ audience: dm
 publish: false
 summary: "A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left."
 created: 2026-05-22
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - rattkin
   - combat
 sources:
   - "Inbox/Warren-Bela-Silt-Paw.md"
-narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene
   - The Tangle mentions the shard has gone quiet (urgency escalation)
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 
@@ -52,7 +52,7 @@ Give the party a beat to look around: the torch, the kit bag, the water depth (k
 
 ## Site
 
-```
+```text
 [Approach tunnel] — 5ft wide, low ceiling
      ↓
 [Entry shelf] — 3ft water, 8ft ceiling, 6ft × 8ft flat shelf

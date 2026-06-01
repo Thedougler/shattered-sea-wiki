@@ -51,3 +51,7 @@ The factor building anchors the harbor end of the Mercatura: pale stone, Tessari
 ## Shelfworks Interest
 
 The Concordat wants [[shelfworks|the Shelfworks]] because Antheri salvage can create new dependency. Purchase orders exist for intact Antheri pieces; factors maintain upper shelf layout records, salvage manifests, and lists of crews willing to work dangerous depths.
+
+## True Architect
+
+See [[concordat-magus-dragon|What Is the Tessarine Concordat's True Architect]] — the Concordat is a hoard, not an institution. Its factors do not know this.

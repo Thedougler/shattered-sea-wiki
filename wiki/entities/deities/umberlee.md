@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Dominant sea goddess of the Shattered Sea: feared, transactional, and ordinary port infrastructure through the Waveservants. She pressed five captains' souls into Delmar Fisk and now has an active servant waiting in Calveno."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - waveservants
 sources:

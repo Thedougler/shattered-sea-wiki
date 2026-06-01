@@ -1,7 +1,6 @@
 # Session 04 Extracts
 
-Source: audio/sessions/session04/resolved.csv
-Parts assembled: session04-part00.m4a.csv, session04-part01.m4a.csv, session04-part02.m4a.csv, session04-part03.m4a.csv, session04-part04.m4a.csv, session04-part05.m4a.csv, session04-part06.m4a.csv, session04-part07.m4a.csv, session04-part08.m4a.csv
+Source: audio/sessions/session04-part*.m4a.csv
 Extraction date: 2026-06-01
 
 ---
@@ -238,3 +237,43 @@ IC/OOC split: ~15/85 (extremely heavy mechanics discussion)
 - Master Kyzil (additional combat details): CR 14. Has legendary actions (downburst: DC 19 Str, 2d8 bludgeoning + push 10ft + prone, breaks grapple). Returning daggers range 60/180. Reaction: wing slap to boost AC by +5. DM confirmed "I built him to take on all four of you at once and survive."
   Source: lines 2343–2350, 2709, 2762, 3336–3337
   Status: existing (wiki/entities/npcs/master-kyzil.md)
+
+---
+
+## Scene 6 (continued): Ponte Bassa Rooftop — Kyzil Sparring Match (Round 3)
+Part 03 lines 1–98
+Participants: Crissdalynn, Delmar, Perrin, Jean-Claude, DM (Kyzil)
+IC/OOC split: ~30/70 (heavy mechanics + table break + phone call)
+
+### [COMBAT]
+- **Round 3:**
+  - Perrin: Bonus action healing word on Crissdalynn (8 HP). Action cure wounds on Delmar (13 HP, Delmar from 5→18 HP). Movement: retreated behind cover, continued drumming. Attempted cutting words on Kyzil's attack vs Perrin (d6, rolled 3 — insufficient vs 21 to hit)
+  - Kyzil: Used movement to fly down and rescue Crissdalynn from falling off roof (panicked reaction to his own downburst), pulled her back up. Four attacks in sequence: (1) Returning dagger vs Delmar — hit (28 to hit), 7 piercing + 9 force = 16 damage (Delmar to 2 HP). (2) Returning dagger vs Perrin — 21 to hit (cutting words failed), 6 piercing + 6 force = 12 damage. (3) Dagger vs Crissdalynn — 23 to hit, 10 piercing (deflected 9, took 1) + 5 force = 6 damage total. (4) Dagger pinned Jean-Claude's shirt to his seat — not an attack, a display of dominance
+  - Delmar: Drew Red Lady (rapier). Attacked Kyzil — 25 to hit. Kyzil used reaction wing slap (+5 AC to 26). Delmar added bardic inspiration (d6, enough to reach 28). Hit for 17 damage (1d8+5=10, 2d6 sneak attack=7). Free disengage (Swashbuckler), bonus action dash
+  - Crissdalynn: Stayed at 15ft reach (tattoo). First attack: miss. Bonus action flurry of blows: miss
+- **Spar concluded after Round 3.** DM confirmed 3 rounds total. Stat block held as designed.
+- Kyzil returning daggers confirmed to deal force damage in addition to piercing (consistent across all observed hits)
+  Source: part03 lines 1–98
+
+### [CANON]
+- Kyzil panicked when he realized his downburst pushed Crissdalynn off the roof — flew down to catch her and pull her back up. Showed genuine care despite the sparring context
+  Source: part03 line 21
+- Jean-Claude refused to participate in the spar. When Kyzil pinned his shirt with a dagger, Jean-Claude pulled it free, killed his cigarette in one drag, and stared Kyzil down — establishing a cold tension between them
+  Source: part03 lines 37–38
+- Kyzil's dagger pin was a deliberate display of dismissal toward Jean-Claude, reinforcing his earlier "I know you are no threat to me" comment. Jean-Claude's player noted this bothered the character
+  Source: part03 lines 37, 99–108
+
+### [LORE]
+- Kyzil's returning daggers deal both piercing and force damage on every hit (force component is separate from the piercing, ranges from 5–9 force per hit)
+  Source: part03 lines 23–34
+
+### [NPC]
+- Master Kyzil (character detail): showed genuine panic and protective instinct when Crissdalynn fell off the roof — flew down immediately to rescue her. Despite being a combat monster, his bond with his apprentice overrides the spar. Also displays playful dominance and provocation (pinning Jean-Claude's shirt, manic grin during combat)
+  Source: part03 lines 21, 37, 39
+  Status: existing (wiki/entities/npcs/master-kyzil.md)
+
+### [SIGNAL]
+- Jean-Claude's player expressed genuine character investment in Kyzil's dismissal — the dagger pin and "no threat" comments are landing as real interpersonal tension, not just banter. Player discussed it OOC as something that affects Jean-Claude's feelings
+  Source: part03 lines 99–108
+- Delmar's player showed strong engagement with the sneak attack mechanics — "I see why you guys like rogues" and expressed enthusiasm for monks too
+  Source: part03 line 63

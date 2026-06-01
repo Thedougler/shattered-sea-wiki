@@ -1,6 +1,6 @@
 # Session 04 Recap
 
-Source: audio/sessions/session04/resolved.csv
+Source: audio/sessions/session04-part*.m4a.csv
 Extraction date: 2026-06-01
 
 ---
@@ -56,3 +56,16 @@ Kyzil moved to the far side of the rooftop, threw off his robe, rolled up his sl
 **Round 2:** With Kyzil grappled (zero movement), he attacked Crissdalynn — first strike missed (13), second hit (27) for 13 bludgeoning. Crissdalynn deflected all 13 damage and spent a focus point to redirect it back; Kyzil made the DC 13 Dex save (rolled 17). Kyzil then threw a returning dagger at Delmar — it hit (29) for 19 total damage, leaving Delmar at 12 HP. The dagger disappeared into smoke and reappeared in Kyzil's hand. He threw again; Delmar burned a luck point, forcing disadvantage — Kyzil rolled a nat 1 and the dagger went wide, pinning Delmar's coat to the wall. Perrin started drumming and used healing word on Delmar (7 HP restored, tipsy and slurring the incantation). Delmar drew the Red Lady (his rapier), attacked Kyzil with sneak attack from flanking — missed even after burning his last luck point. He disengaged for free (Swashbuckler) and bonus-action dashed away. Crissdalynn attacked with advantage from grapple, hitting for 14 damage, then used flurry of blows for a second hit (nat 19).
 
 Between rounds, Kyzil used a legendary action — a downburst attempting to launch himself airborne to break the grapple (DC 19 Strength save, 2d8 bludgeoning, push 10ft + prone). Crissdalynn rolled a 15, failing — but Perrin's bardic inspiration (d6) brought her total to 20, passing the save. The grapple held. Kyzil acknowledged "that drum is troubling" and threatened to stop it; Perrin taunted back, "you'll have to catch me, see?" while dancing around behind cover.
+
+Kyzil used a second legendary action downburst — this time Crissdalynn failed the save. She took 10 bludgeoning damage and was pushed 10 feet off the roof. She used slow fall to land safely. Kyzil freed himself from the grapple.
+
+---
+
+## Scene 6 (continued): Ponte Bassa Rooftop — Kyzil Sparring Match (Round 3)
+*Part 03 | Crissdalynn, Delmar, Perrin, Jean-Claude, DM (Kyzil)*
+
+Perrin healed Crissdalynn with healing word (8 HP, bonus action) and Delmar with cure wounds (13 HP, action), then retreated behind cover while playing his drum. Kyzil, seeing he'd knocked Crissdalynn off the roof, panicked and flew down to catch her, pulling her back up onto the rooftop. He then attacked all four party members in sequence: a returning dagger hit Delmar for 16 total damage (7 piercing + 9 force), dropping him to 2 HP; a second dagger struck Perrin for 12 damage (6 piercing + 6 force) despite Perrin's attempted cutting words; a third attack hit Crissdalynn for 6 damage after she deflected 9 of the 10 piercing but took 5 force; and he pinned Jean-Claude's shirt to a chair with a dagger as a show of dominance — Jean-Claude was not participating in the fight. Jean-Claude pulled the dagger free (it vanished into smoke), killed his cigarette in one drag, and stared Kyzil down.
+
+Delmar rushed Kyzil with his rapier. Kyzil used his wing slap reaction to boost AC by 5 (to 26), but Delmar added bardic inspiration to push his 25 to 28, landing a hit with sneak attack for 17 damage (1d8+5 + 2d6). He disengaged as a Swashbuckler and dashed away. Crissdalynn attacked from 15-foot range (tattoo reach) but missed both attempts without the grapple advantage.
+
+The DM confirmed the spar lasted exactly three rounds. He noted the stat block was built to take on all four PCs at once and survive, and was satisfied it held up for three rounds before the party would have trivialized it.

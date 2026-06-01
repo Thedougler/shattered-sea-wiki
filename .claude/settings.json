@@ -62,6 +62,10 @@
           {
             "type": "command",
             "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/lint-python.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/check-wikilinks.sh"
           }
         ]
       }

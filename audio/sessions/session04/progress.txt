@@ -5,3 +5,4 @@ chunk-3: lines 1630-2450 (2026-06-01)
 # new format:
 part03: 125 lines (2026-06-01)
 part04: 163 lines (2026-06-01)
+part05: 225 lines (2026-06-01)

@@ -389,3 +389,84 @@ IC/OOC split: ~55/45
   Source: part04 lines 133–156
 - Delmar's player showed compassion for Branca as a person separate from Umberlee — offered her his flask, helped her walk away, asked if she had a place to stay
   Source: part04 lines 140–162
+
+---
+
+## Scene 9: Ponte Bassa Morning — Crissdalynn's Reaction & Nona's Message
+Part 05 lines 1–84
+Participants: All PCs, DM
+IC/OOC split: ~45/55
+
+### [CANON]
+- Crissdalynn leg-swept Delmar for meeting with Umberlee without her: "My burden was to carry you out of that stupid water"
+  Source: part05 lines 25–32
+- Nona sent a Sending Stone message to Perrin: "I need some work done. Come speak to me at the safe house. Bring your friends, especially the blue one, and anyone who can fight." (23 words)
+  Source: part05 lines 34–45
+- The Calveno practical joke festival registration opened — annual event, whole town pranks each other for about a week. Party registered
+  Source: part05 lines 61–71
+- Delmar encouraged the party to sign up; Jean-Claude agreed to experience the culture
+  Source: part05 lines 70–72
+- Kyzil is staying in Calveno at least through the whole festival
+  Source: part05 lines 85–89
+- Delmar retrieved his Scarlet Admiral coat from the ship and reversed it to hide insignia before visiting Nona
+  Source: part05 lines 117–134
+
+### [LORE]
+- The Calveno festival is an annual practical joke festival lasting about a week. The whole town participates
+  Source: part05 lines 61–69
+- The Calveno city layout from above (~100 feet): Le Paludi is the downtown older slum district; the main merchant area is where festival activity congregates
+  Source: part05 lines 102–106
+
+### [SIGNAL]
+- Jean-Claude's player on the festival: "I can poison someone and then go, ha ha ha. Isn't that funny?" — character misunderstanding of practical jokes played for comedy
+  Source: part05 line 72
+
+---
+
+## Scene 10: Nona's Safe House — Grung in the Sewers
+Part 05 lines 111–225
+Participants: All PCs, DM (Nona Blackshaw, Enzo, Ruck, Rattkin witness)
+IC/OOC split: ~65/35
+
+### [CANON]
+- Party arrived at Nona's safe house. Enzo (enforcer) growled at them; Ruck (big lizard-folk) physically pushed Perrin into a seat
+  Source: part05 lines 140–162
+- Nona was uneasy about Delmar's Dravosi appearance. Delmar defused it: his mother was from the Midchain islands; he's "happily emptied a Dravosi ship or two." Nona accepted him because the Dravosi know her by a particular nickname Delmar didn't recognize
+  Source: part05 lines 153–161
+- Nona reported 6 separate sightings of Grung in the old Warren tunnels and Calveno sewers. Grung are moving things and running from encounters, not fighting
+  Source: part05 lines 173–180
+- Jean-Claude confirmed: as far as he knows, no Grung has ever crossed the Central Strait. This would be unprecedented
+  Source: part05 lines 174–177
+- A young Rattkin witness saw a purple Grung crawling out of a sewer grate in the market district. It wore a heavy cloak, had lower face covered (bandana or mustache), and she smelled something acidic
+  Source: part05 lines 195–199
+- Jean-Claude tested the acidic smell against his Grung grenade — the witness said it was different
+  Source: part05 lines 208–216
+- Jean-Claude obtained a hand-drawn map with 3 sighting locations, several underground in the sewers
+  Source: part05 lines 218–220
+- Most reported Grung were blue or green; one was purple — and bigger
+  Source: part05 lines 186–195
+
+### [LORE]
+- Grung have never crossed the Central Strait as far as anyone knows — their presence in Calveno's sewers is unprecedented
+  Source: part05 lines 174–177
+- Grung come in different colors: blue, green, purple. Purple ones are bigger
+  Source: part05 lines 186–195
+- The old Warren tunnels connect to the Calveno sewers — used by the Passage as infrastructure
+  Source: part05 lines 173–180
+
+### [NPC]
+- Nona Blackshaw: Leader of the Passage (or senior figure). Cooking breakfast in her safe house. Has Enzo (enforcer) and Ruck (lizard-folk) as associates. Uneasy around Dravosi but fair — accepts Perrin's vouching. Known by a particular nickname among the Dravosi. Treats Perrin as family (he calls her "Ma")
+  Source: part05 lines 148–180
+  Status: existing (wiki/entities/npcs/)
+- Enzo: Passage enforcer at Nona's safe house. Growls at strangers, lets them in on Nona's authority
+  Source: part05 line 140
+  Status: new (minor)
+- Ruck: Big lizard-folk at Nona's safe house. Physically affectionate/rough with Perrin — claps him on the shoulder and pushes him into a seat
+  Source: part05 lines 161–162
+  Status: new (minor)
+
+### [SIGNAL]
+- Jean-Claude's player took full investigative lead on the Grung situation — asking detailed tactical questions, testing the witness with physical evidence (grenade smell test), requesting maps and locations. Very high engagement with this personal-stakes plotline
+  Source: part05 lines 175–224
+- Delmar's player showed strong character work in the Nona meeting — navigating the Dravosi prejudice with charm and establishing Delmar's Midchain roots
+  Source: part05 lines 149–161

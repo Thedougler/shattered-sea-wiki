@@ -79,6 +79,26 @@ After the spar, Delmar asked Jean-Claude for a cigarette and began a walking con
 
 ---
 
+## Scene 9: Ponte Bassa Morning — Crissdalynn's Reaction & Nona's Message
+*Part 05 | All PCs, DM*
+
+The party returned to the Ponte Bassa and got a long rest. The next morning, Delmar told Crissdalynn about the Umberlee encounter. She immediately leg-swept him to the floor for doing it without her — "My burden was to carry you out of that stupid water." Perrin received a Sending Stone message from Nona: "I need some work done. Come speak to me at the safe house. Bring your friends, especially the blue one, and anyone who can fight." Perrin responded that he'd come as soon as he could.
+
+The Calveno practical joke festival registration opened that morning — an annual event where the whole town pranks each other for about a week. Delmar encouraged the party to sign up to lighten the mood. Jean-Claude agreed, wanting to experience the culture. The party signed up for the festival, then headed to Nona's safe house. Delmar retrieved his Scarlet Admiral coat from the ship (left there earlier) and reversed it to hide the insignia. Crissdalynn flew up ~100 feet over Calveno to look for Kyzil but couldn't spot him. Kyzil is staying in town at least through the whole festival.
+
+---
+
+## Scene 10: Nona's Safe House — Grung in the Sewers
+*Part 05 | All PCs, DM (Nona, Enzo, Ruck, Rattkin witness)*
+
+The party arrived at Nona's safe house. Enzo, a large enforcer, opened the door and growled at them before letting them in. Ruck, a big lizard-folk, pushed Perrin into a seat. Nona Blackshaw was cooking breakfast. She was visibly uneasy around Delmar due to his Dravosi appearance. Delmar disarmed her by revealing his mother was from the Midchain islands and that he's "happily emptied a Dravosi ship or two." Nona accepted him on Perrin's vouching and the fact that the Dravosi know her by a particular nickname — which Delmar did not.
+
+Nona explained the job: multiple Passage members — six separate reports — have spotted Grung in the old Warren tunnels and Calveno sewers. Most reports described blue or green Grung, but one witness saw a purple Grung. As far as Jean-Claude knows, no Grung has ever crossed the Central Strait — this would be unprecedented. The Grung have been moving things in the tunnels and running from encounters rather than fighting.
+
+Nona brought out the key witness, a young Rattkin woman, who described seeing a purple Grung crawling out of a sewer grate in the market district. It wore a heavy cloak, had something covering the lower face (bandana or mustache), and she smelled something acidic. Jean-Claude tested the smell against his Grung grenade — the witness said it was different. Jean-Claude obtained a map with three sighting locations, several of them underground in the sewers.
+
+---
+
 ## Scene 8: Calveno Harbor Shrine — Umberlee Speaks Through Branca
 *Part 04 | Delmar, Perrin (invisible), DM (Branca/Umberlee), Jean-Claude*
 

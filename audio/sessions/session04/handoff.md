@@ -1,16 +1,16 @@
 # Session Ingest Handoff — Session 04
 
 ## Status
-- Parts completed: 00–04 (00–02 via legacy chunks, 03–04 via new format)
-- Parts remaining: 05, 06, 07, 08
-- Last scene in recap: "Calveno Harbor Shrine — Umberlee Speaks Through Branca"
+- Parts completed: 00–05 (00–02 via legacy chunks, 03–05 via new format)
+- Parts remaining: 06, 07, 08
+- Last scene in recap: "Nona's Safe House — Grung in the Sewers"
 - Open flags: 6 unresolved
 
 ## Next Action
-Process part05 of session 04 transcript using the `session-ingest` skill.
+Process part06 of session 04 transcript using the `session-ingest` skill.
 
 ## Context for Next Part
-The Umberlee encounter just concluded. Branca has been sent home to the church of Upper Lake, visibly shaken. The deal stands: Delmar will retrieve the Pearl of Souls from the wreck in the Maw, and Umberlee will claim only the souls within it (not Delmar's life). Delmar also offered to deliver those who commissioned the theft. The party is at the Calveno harbor district past midnight. Part05 likely continues with the party processing what just happened — expect discussion of the Umberlee encounter, the Pearl, and potentially the Branca situation. Delmar's earlier mention of the water reaching for him is established canon.
+The party is at Nona's safe house after learning about Grung sightings in the Calveno sewers. Jean-Claude has taken the lead on investigating — he has a map with 3 sighting locations, several underground. A purple Grung (bigger, cloaked, mustache/bandana) was seen crawling out of a market district sewer grate. The Grung are moving things and running, not fighting. Jean-Claude confirmed no Grung has ever crossed the Central Strait. The acidic smell the witness reported didn't match Jean-Claude's Grung grenade. Part05 ended with Jean-Claude about to communicate findings to the party. Expect the party to accept Nona's job and head into the sewers, or further discussion before departure.
 
 ## Files to Read First
 - `audio/sessions/session04/progress.txt` — part history

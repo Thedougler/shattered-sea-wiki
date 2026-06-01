@@ -1,0 +1,172 @@
+# Speaker Resolution
+
+How to resolve "Speaker 1", "Speaker N", and "Unknown" labels in assembled
+transcript CSVs. This is Pass 2 of the session-ingest skill.
+
+---
+
+## The Problem
+
+The transcription tool assigns speaker labels based on voice profiles. When a
+speaker's mic signal drifts (volume change, position shift, background noise),
+the tool may assign a generic "Speaker N" label instead of the correct profile.
+
+In Shattered Sea transcripts:
+- "Speaker 1" is most often Crissdalyn's player with mic drift
+- "Speaker 6/7" are typically short cross-talk artifacts
+- All Speaker N labels must be resolved before canon extraction
+
+---
+
+## Resolution Method
+
+For each unresolved speaker label, analyze in order:
+
+### 1. Conversational Context (highest signal)
+
+Look at the 5 lines before and after. Who is the unresolved speaker talking to?
+Who responds to them?
+
+```
+DM: "Is it just the one you have?"
+Speaker 1: "I may have more."        ← Speaker 1 is answering the DM
+Jean Claude: "It depends on the price" ← JC continues the same negotiation
+```
+
+If Speaker 1 is in a conversation with the DM about whip shark eggs and Jean
+Claude is also in that conversation, Speaker 1 is likely Jean Claude (same
+topic, same scene) or a different PC in the same scene.
+
+### 2. Process of Elimination
+
+Count known speakers in the transcript. If 4 PCs + DM should be present but
+only 3 PCs are identified, the unresolved speaker is likely the missing PC.
+
+Check line counts: if Crissdalyn has 275 lines and Speaker 1 has 262, that's
+suspiciously complementary — the tool is splitting one speaker into two profiles.
+
+### 3. Speech Pattern Matching
+
+Each player has verbal habits:
+- Short affirmative responses ("Yeah", "Okay", "Yes") — common for all, low signal
+- Specific vocabulary or phrases — high signal
+- Response length patterns — moderate signal
+- Topic engagement — a speaker who only talks during combat vs. shopping
+
+### 4. Temporal Clustering
+
+If Speaker 1 appears in bursts (50 lines, then absent for 200, then 30 lines),
+check whether the identified speaker disappears during those same windows. Mic
+drift tends to be persistent within a segment, not random.
+
+**Same-second interleaving** is the strongest mic-drift signal: when the identified
+speaker and the unknown speaker alternate within seconds (e.g., Crissdalyn at 53:18,
+Speaker 1 at 53:22, Crissdalyn at 53:25), this is voice-profile oscillation from
+the same physical mic — near-certain evidence they're the same person.
+
+### 5. Mechanical Context
+
+During combat:
+- "DC 19? DC 19 strength." → a player asking about a save
+- "Bardic, yeah." → a player with bardic inspiration (Perrin has a bodhran)
+- "I'm at 12 HP." → specific PC context
+
+During roleplay:
+- Responding to NPC dialogue directed at a specific PC
+- Using character-specific knowledge
+
+---
+
+## DM as NPC Voice
+
+The DM label covers both narrator voice and NPC dialogue. You do NOT need to
+split these — the DM label is correct for both. However, during extraction
+(Pass 3), note when the DM is voicing a specific NPC so the canon extract
+attributes the statement properly.
+
+Signals that the DM is voicing an NPC:
+- Dialogue within a conversation with PCs
+- First/third person shift ("I would be happy to buy them" vs "He offers to buy")
+- Named NPC was just introduced in narrator voice
+
+## Player Voicing NPC
+
+Players sometimes voice their companion NPCs (e.g., Crissdalyn's player voices
+Kyzil). The speaker label is still correct — it's that player's voice — but the
+content is IC dialogue from a different character. Flag these moments in Pass 3
+extraction so the canon is attributed to the NPC, not the PC.
+
+## External Audio Artifacts
+
+Not all unresolved speakers are game participants. The table mic may pick up:
+- Phone calls (the other end of a player's real-life call)
+- TV/music in the background
+- People in another room
+
+Signals: conversation that makes no game sense, names not in the campaign,
+real-world logistics ("can you have her call me"), different audio quality.
+
+Resolution: label as "Phone (external)" or "Background" with low confidence.
+These lines should be excluded entirely from canon extraction — add a note in
+`flags.md` that they're non-game audio, not ambiguous game content.
+
+---
+
+## Speaker Map Format
+
+Record every resolution in `speaker-map.md`:
+
+```markdown
+## Speaker Map — Session {NN}
+
+### Resolved
+
+| Label | Resolved To | Confidence | Evidence |
+|---|---|---|---|
+| Speaker 1 | Crissdalyn | high | Mic drift — complementary line counts (275+262), temporal clustering matches gaps in Crissdalyn lines, responds to Kyzil context at 05:10 |
+| Speaker 6 | DM | medium | 5 lines, all short interjections during NPC dialogue, no other speaker absent |
+| Speaker 7 | Perrin | low | 6 lines, topic matches Perrin's scene but could be cross-talk |
+
+### Evidence Notes
+
+Speaker 1 → Crissdalyn:
+- Lines 34-103 (part 00): Speaker 1 active during egg merchant scene while Crissdalyn silent
+- Lines 140-157 (part 02): Speaker 1 responds to "Kyzil is done" context — only Crissdalyn's player would track Kyzil's turn
+- Line count complementarity: Crissdalyn 275 + Speaker 1 262 = 537, reasonable for a full session
+```
+
+### Confidence Levels
+
+| Level | Meaning | Proceed? |
+|---|---|---|
+| **high** | Multiple evidence types converge | Yes |
+| **medium** | One strong signal, no contradicting evidence | Yes, but note in flags.md |
+| **low** | Best guess, limited evidence | Flag for DM review before Pass 3 |
+| **unknown** | Cannot determine | Block Pass 3, escalate to DM |
+
+---
+
+## Applying Resolutions
+
+After building the speaker map, create `resolved.csv` by copying `assembled.csv`
+and replacing Speaker labels per the map. Keep all original data — only the Speaker
+column changes.
+
+For `low` confidence resolutions, prefix the resolved speaker name with `?` in
+the CSV (e.g., `?Perrin`) so Pass 3 knows to treat those lines as uncertain.
+
+---
+
+## Subagent Chunking
+
+For transcripts over 2000 lines:
+
+1. Split `assembled.csv` into 500-line chunks with 50-line overlap
+2. Each subagent processes one chunk:
+   - Identify all Speaker N lines in the chunk
+   - Analyze context per the method above
+   - Return: list of `(line_range, speaker_label, resolved_to, confidence, evidence)`
+3. Coordinating agent merges:
+   - Same Speaker N → same resolution across chunks: accept
+   - Same Speaker N → different resolutions: majority vote, flag conflict
+   - Build unified speaker map

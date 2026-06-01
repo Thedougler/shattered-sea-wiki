@@ -12,33 +12,52 @@ description: >
 
 # Session Ingest
 
-Multi-pass data mining of raw session transcription CSVs. Each pass produces a
-checkpoint file so work survives context limits, partial transcriptions, and session
-boundaries. Downstream consumers: `transcript-ingest.md`, `session-recap`,
-`world-update`, `combat-analytics.md`, `player-interests.md`.
+Multi-pass data mining of raw session transcription CSVs. Each part file is one
+chunk — process them sequentially, one per agent turn. Checkpoints after every
+part so work survives context limits and session boundaries.
+
+Downstream consumers: `transcript-ingest.md`, `session-recap`, `world-update`,
+`combat-analytics.md`, `player-interests.md`.
 
 ---
 
 ## Entry Point
 
-Every invocation starts the same way:
+```dot
+digraph entry {
+  rankdir=TB;
+  node [shape=diamond];
+  start [label="List parts\naudio/sessions/session{NN}-part*.m4a.csv" shape=box];
+  has_work [label="session{NN}/\ndirectory exists?"];
+  has_handoff [label="handoff.md\nexists?"];
+  has_speakermap [label="speaker-map.md\nexists?"];
+  has_unknown [label="Unresolved\nSpeaker N in parts?"];
 
-```bash
-python3 .claude/scripts/assemble_transcript.py status {NN}
+  node [shape=box];
+  fresh [label="Start fresh:\nPass 1 → speaker resolution"];
+  resume [label="Read handoff.md\nresume from there"];
+  start_extract [label="Pass 2 → extract first part"];
+  resolve [label="Pass 1 → speaker resolution"];
+
+  start -> has_work;
+  has_work -> has_handoff [label="yes"];
+  has_work -> has_unknown [label="no"];
+  has_handoff -> resume [label="yes"];
+  has_handoff -> has_speakermap [label="no"];
+  has_speakermap -> start_extract [label="yes"];
+  has_speakermap -> has_unknown [label="no"];
+  has_unknown -> resolve [label="yes"];
+  has_unknown -> start_extract [label="no\n(all known speakers)"];
+}
 ```
 
-This reports parts available, checkpoint state, and staleness. Then route:
+Every invocation:
 
-| Status says | Do |
-|---|---|
-| Pass 1 stale or missing | Run `assemble {NN}` → continue to Pass 2 |
-| Pass 2 not started | Read `references/speaker-resolution.md` → resolve speakers |
-| Pass 2 done, resolved.csv missing | Run `resolve {NN}` → continue to Pass 3 |
-| Pass 3 not started | Read `references/extraction-targets.md` → process first chunk |
-| Pass 3 partial | Read `handoff.md` → process next chunk |
-| Pass 3 done, flags unresolved | Present flags to DM → wait |
-| Pass 3 done, Pass 4 not started | Load `ttrpg-wiki-ingest` → wiki integration from recap |
-| All passes complete | Report status, nothing to do |
+1. List available parts: `ls audio/sessions/session{NN}-part*.m4a.csv`
+2. Check for working directory: `audio/sessions/session{NN}/`
+3. If `handoff.md` exists → read it and resume where it says
+4. If `speaker-map.md` exists but no handoff → start Pass 2 (extraction)
+5. If neither exists → check parts for Speaker N labels → Pass 1 if needed, else straight to Pass 2
 
 ## Required Skill Chain
 
@@ -51,29 +70,29 @@ prose for wiki pages. Sandbox rules are in CLAUDE.md (always loaded).
 
 | File | Format | Location |
 |---|---|---|
-| Transcript parts | CSV: `ID,Start,End,Speaker,Text` | `audio/sessions/session{NN}-part{PP}.m4a.csv` |
+| Transcript parts | CSV: `ID,Speaker,Text` | `audio/sessions/session{NN}-part{PP}.m4a.csv` |
 
-The transcription tool applies the custom dictionary (`shattered-sea-dictionary.csv`)
-automatically — the CSVs already have corrected spellings. Parts arrive
-incrementally as audio transcribes. Process whatever is available.
+Each part is one audio segment (~250–1000 lines). The transcription tool applies
+the custom dictionary automatically — CSVs already have corrected spellings.
+Parts arrive incrementally. Process whatever is available.
+
+**Each part file is one chunk.** Do not combine parts into a single file. Process
+them in order: part00, part01, part02, etc.
 
 ## Working Directory
 
 Each session: `audio/sessions/session{NN}/`
 
-All intermediate files live here. These are checkpoints — resume from the latest one.
+All intermediate files live here. These are checkpoints — resume from the latest.
 
 | File | Produced By | Purpose |
 |---|---|---|
-| `assembled.csv` | Pass 1 (script) | Concatenated parts with continuous timestamps |
-| `parts.txt` | Pass 1 (script) | Manifest of which parts were assembled |
-| `speaker-map.md` | Pass 2 | Speaker resolution decisions with evidence |
-| `resolved.csv` | Pass 2 (script) | Speaker-corrected transcript |
-| `recap.md` | Pass 3 (cumulative) | Condensed IC-only scene summaries |
-| `extracts.md` | Pass 3 (cumulative) | Tagged canon extracts organized by scene |
-| `flags.md` | Pass 3 (cumulative) | Unresolved ambiguities for DM review |
-| `progress.txt` | Pass 3 (per chunk) | Which line ranges have been processed |
-| `handoff.md` | Pass 3 (per chunk) | Self-contained prompt for the next agent |
+| `speaker-map.md` | Pass 1 | Speaker resolution decisions with evidence |
+| `recap.md` | Pass 2 (cumulative) | Condensed IC-only scene summaries |
+| `extracts.md` | Pass 2 (cumulative) | Tagged canon extracts organized by scene |
+| `flags.md` | Pass 2 (cumulative) | Unresolved ambiguities for DM review |
+| `progress.txt` | Pass 2 (per part) | Which parts have been processed |
+| `handoff.md` | Pass 2 (per part) | Self-contained prompt for the next agent |
 
 ---
 
@@ -83,147 +102,152 @@ All intermediate files live here. These are checkpoints — resume from the late
 digraph passes {
   rankdir=LR;
   node [shape=box];
-  "Raw CSVs" [shape=folder];
+  "Part CSVs" [shape=folder];
   "wiki/" [shape=folder];
 
-  "Raw CSVs" -> "Pass 1\nAssemble";
-  "Pass 1\nAssemble" -> "Pass 2\nResolve Speakers";
-  "Pass 2\nResolve Speakers" -> "Pass 3\nExtract & Recap";
-  "Pass 3\nExtract & Recap" -> "Pass 4\nWiki Integration";
-  "Pass 4\nWiki Integration" -> "wiki/";
+  "Part CSVs" -> "Pass 1\nResolve Speakers";
+  "Pass 1\nResolve Speakers" -> "Pass 2\nExtract & Recap\n(per part)";
+  "Pass 2\nExtract & Recap\n(per part)" -> "Pass 3\nWiki Integration";
+  "Pass 3\nWiki Integration" -> "wiki/";
 }
 ```
 
-If a checkpoint file exists and its source data hasn't changed, skip that pass.
-Use `status` to detect staleness before starting work.
+Three passes, not four. Parts are processed directly — no assembly step.
 
 ---
 
-### Pass 1: Assemble
-
-**Scripted — no agent judgment needed.**
-
-```bash
-python3 .claude/scripts/assemble_transcript.py assemble {NN}
-```
-
-This concatenates all parts with continuous IDs and cumulative timestamps (all
-`H:MM:SS`) and writes `assembled.csv`. Dictionary corrections are already applied
-by the transcription tool. The script reports speaker distribution and flags
-unresolved labels.
-
-Re-run when new parts arrive — it overwrites from source CSVs.
-
-**Checkpoint:** `assembled.csv` exists. `parts.txt` lists all available parts.
-Run `status` to check for staleness (new parts since last assembly).
-
----
-
-### Pass 2: Resolve Speakers
+### Pass 1: Resolve Speakers
 
 **Requires agent judgment.** Read `references/speaker-resolution.md`.
 
-Input: `assembled.csv`
-Output: `resolved.csv` + `speaker-map.md`
+Input: all `session{NN}-part*.m4a.csv` files
+Output: `speaker-map.md`
 
-Goal: every "Speaker 1", "Speaker N", and "Unknown" label resolved to a known
-speaker with evidence and confidence rating.
+Goal: every "Speaker 1", "Speaker N", and "Unknown" label mapped to a known
+identity with evidence and confidence.
 
-**Subagent strategy for large transcripts (3000+ lines):** Chunk into ~1500-line
-windows with 100-line overlap (aim for 5–7 subagents total). Each subagent
-resolves speakers in its chunk. Coordinating agent merges speaker maps (majority
-vote on conflicts).
+#### Procedure
 
-After the speaker map is written, produce `resolved.csv` mechanically:
+1. **Quick scan** — grep each part for non-standard speaker labels:
+   ```bash
+   grep -h 'Speaker' audio/sessions/session{NN}-part*.m4a.csv | \
+     cut -d',' -f2 | sort | uniq -c | sort -rn
+   ```
+   If no Speaker N labels exist (only DM, Delmar, Perrin, Jean Claude,
+   Crissdalyn), skip this pass entirely.
 
-```bash
-python3 .claude/scripts/assemble_transcript.py resolve {NN}
-```
+2. **Sample context windows** — for each unknown label, read 10–15 lines of
+   surrounding context from the raw CSVs. Use conversational flow, process of
+   elimination, temporal clustering, and speech patterns per the reference doc.
 
-This reads the speaker map table and applies label replacements to `assembled.csv`.
-Low-confidence resolutions get a `?` prefix (e.g., `?Perrin`).
+3. **Build speaker map** — write `speaker-map.md` with the standard table format
+   (see reference). Every resolution needs a confidence level and evidence.
 
-**Checkpoint:** `resolved.csv` exists and `speaker-map.md` has no `unknown`
-confidence entries.
+4. **Commit:**
+   ```
+   fix: resolve speakers for session {NN} transcript
+   ```
 
-**Commit after this pass** — speaker resolution is durable work worth preserving:
-```
-fix: resolve speakers for session {NN} transcript
-```
+**Skip condition:** If all speaker labels are known identities, no speaker map
+needed. Note this in `progress.txt` line 1: `speakers: all known (no map needed)`
+
+**Checkpoint:** `speaker-map.md` exists with no `unknown` confidence entries
+(or skip noted in progress.txt).
 
 ---
 
-### Pass 3: Extract & Recap (One Chunk Per Agent)
+### Pass 2: Extract & Recap (One Part Per Agent)
 
 **Requires agent judgment.** Read `references/extraction-targets.md`.
 
-Input: `resolved.csv` + `wiki/hot.md` (for context, not for writing)
-Output: `extracts.md` + `recap.md` + `flags.md`
+Input: raw part CSV + `speaker-map.md` (if exists) + `wiki/hot.md` (for context)
+Output: `recap.md` + `extracts.md` + `flags.md` (all cumulative)
 
-This pass processes `resolved.csv` one ~800-line chunk at a time. **Each agent
-processes exactly one chunk, commits, writes a handoff prompt, and stops.** The
-next agent (or the same user in a new conversation) picks up the handoff. No wiki
-writes happen here — the recap and extracts are the deliverables.
+**Each agent processes exactly one part file, commits, writes a handoff, and
+stops.** The next agent picks up from the handoff. No wiki writes happen here.
 
-#### Processing One Chunk
+#### Before Your First Line of Work
 
-1. **Determine your chunk.** Check `progress.txt` — if it exists, read the last
-   entry to find where the previous agent stopped. Your chunk starts from the next
-   line (minus ~20 lines of overlap for context). If `progress.txt` doesn't exist,
-   start at line 1. Read ~800 lines (prefer breaking at a scene boundary).
+Read these files (skip any that don't exist yet):
+- `progress.txt` — which parts are done
+- Tail of `recap.md` — last 2 scenes for continuity
+- `flags.md` — any open flags
+- `speaker-map.md` — speaker resolutions to apply
 
-2. **Classify lines** as IC (in-character), OOC (out-of-character), or META
-   (rules talk, dice rolls). A Florida food tangent is OOC even when spoken by
-   "Delmar" — use surrounding context, not just speaker labels.
+#### Processing One Part
 
-3. **Merge fragments.** Consecutive lines from the same speaker within 3 seconds
-   with no intervening speaker → single utterance. The transcription tool produces
-   many 1-second clips that are one sentence when merged.
+1. **Identify your part.** Check `progress.txt` — the last entry names the last
+   completed part. Your part is the next one numerically. If `progress.txt`
+   doesn't exist, start with part00.
 
-4. **Identify scenes.** Scene breaks on: location change, significant time skip,
-   major topic shift, new NPC entrance. Label each scene with location and
-   participants.
+2. **Read the part CSV.** Read the full file — parts are sized for one agent's
+   context window. Also read the last ~20 lines of the previous part for
+   continuity (if not part00).
 
-5. **Extract canon per scene.** Use the tag types in `extraction-targets.md`.
-   Every extract cites source line range from `resolved.csv`.
+3. **Apply speaker map.** As you read, mentally replace Speaker N labels per
+   `speaker-map.md`. Prefix uncertain resolutions with `?` in your extracts.
 
-6. **Flag uncertainties.** Ambiguous canon, possible transcription errors with
-   lore significance, speaker-dependent meaning → append to `flags.md`.
+4. **Classify lines** — IC (in-character), OOC (out-of-character), or META
+   (rules talk, dice rolls). Use surrounding context, not just speaker labels.
+   A real-world tangent is OOC even when spoken by a character-labeled speaker.
 
-7. **Append to `recap.md`** — condensed IC-only scene summaries (see format below).
+5. **Merge fragments.** Consecutive lines from the same speaker with no
+   intervening speaker → single utterance. The transcription tool splits
+   sentences across many 1-second lines.
 
-8. **Append to `extracts.md`** — tagged extracts with full detail and line citations.
+6. **Identify scenes.** Scene breaks: location change, significant time skip,
+   major topic shift, new NPC entrance. Label each with location and
+   participants. A scene started in a previous part may continue into this one —
+   check the recap tail for the active scene.
 
-9. **Record progress** — append the chunk's line range to `progress.txt`:
-   ```
-   chunk-1: lines 1-800 (2026-06-01)
-   ```
+7. **Extract canon per scene.** Use the tag types in `extraction-targets.md`.
+   Every extract cites the part number and original CSV line IDs:
+   `Source: part{PP} lines {start}–{end}`
 
-10. **Commit:**
+8. **Flag uncertainties.** Ambiguous canon, transcription errors with lore
+   significance, speaker-dependent meaning → append to `flags.md`.
+
+9. **Append to `recap.md`** — condensed IC-only scene summaries.
+
+10. **Append to `extracts.md`** — tagged extracts with citations.
+
+11. **Record progress:**
     ```
-    ingest: session {NN} transcript chunk {N} (lines {start}–{end})
+    part{PP}: {line_count} lines ({YYYY-MM-DD})
     ```
 
-11. **Write handoff prompt and stop.** Write `handoff.md` with a self-contained
-    prompt for the next agent (see format below). Then **stop — do not process
-    the next chunk.**
+12. **Commit:**
+    ```
+    ingest: session {NN} transcript chunk {N} (part{PP})
+    ```
+
+13. **Write handoff and stop.** Overwrite `handoff.md` with current state, then
+    **stop — do not process the next part.**
+
+#### Scene Continuity Across Parts
+
+A scene often spans multiple parts. When the previous recap's last scene is still
+active at the start of your part:
+- Do NOT create a new scene heading — append to the existing scene
+- In `recap.md`, note the continuation: update the scene's participant list and
+  extend the summary
+- In `extracts.md`, add new extracts under the same scene heading
+
+When the scene does end mid-part, close it and start a new scene heading as
+normal.
 
 #### Recap Format
-
-`recap.md` is a condensed, DM-facing record of in-game events only. No OOC, no
-meta, no rules discussion, no table banter. Each scene gets a short paragraph
-covering what happened in the fiction — who did what, what was said, what changed.
 
 ```markdown
 # Session {NN} Recap
 
-Source: audio/sessions/session{NN}/resolved.csv
+Source: audio/sessions/session{NN}-part*.m4a.csv
 Extraction date: {YYYY-MM-DD}
 
 ---
 
 ## Scene 1: {Location} — {Brief label}
-*{H:MM:SS}–{H:MM:SS} | {Participants}*
+*Part {PP} | {Participants}*
 
 {1–3 sentences of what happened in-game. Factual, not narrative. Name NPCs
 and PCs on first mention. Note items exchanged, decisions made, information
@@ -234,60 +258,55 @@ revealed.}
 ## Scene 2: ...
 ```
 
-The recap should read like a concise event log — someone skimming it should know
-every consequential thing that happened in-game without wading through OOC chatter
-or mechanical details. Combat gets a sentence or two on outcome and consequences,
-not blow-by-blow.
+The recap reads like a concise event log — every consequential in-game event
+without OOC or mechanical details. Combat gets outcome and consequences, not
+blow-by-blow.
 
-#### Handoff Prompt Format
+#### Handoff Format
 
-After committing, write `handoff.md` with a prompt the next agent can use
-verbatim. This file is overwritten each chunk — it always reflects the current
-state.
+Overwrite `handoff.md` after every part. The next agent reads ONLY this file
+to orient — make it self-contained.
 
 ```markdown
 # Session Ingest Handoff — Session {NN}
 
 ## Status
-- Chunks completed: {N} of ~{total estimated}
-- Lines processed: 1–{end_line} of {total_lines}
+- Parts completed: {list, e.g. 00–05}
+- Parts remaining: {list, e.g. 06, 07, 08}
 - Last scene in recap: "{scene label}"
+- Open flags: {count}
 
 ## Next Action
-Process the next chunk of session {NN} transcript using the `session-ingest`
-skill. Start from line {next_start_line} of `audio/sessions/session{NN}/resolved.csv`.
+Process part{PP} of session {NN} transcript using the `session-ingest` skill.
 
-## Context
-{2–3 sentences: what was happening at the end of this chunk — the active scene,
-who was talking, any thread that was mid-conversation when the chunk boundary
-hit. Enough for the next agent to maintain continuity.}
+## Context for Next Part
+{3–5 sentences: what was happening at the end of this part — the active scene,
+who was talking, any thread mid-conversation. If something important is about
+to happen in the next part (you can tell from trailing context), mention it.
+Enough for the next agent to maintain perfect continuity.}
 
 ## Files to Read First
-- `audio/sessions/session{NN}/progress.txt` — chunk history
-- Tail of `audio/sessions/session{NN}/recap.md` — last scene for continuity
-- `audio/sessions/session{NN}/flags.md` — any open flags
+- `audio/sessions/session{NN}/progress.txt` — part history
+- Tail of `audio/sessions/session{NN}/recap.md` — last 2 scenes for continuity
+- `audio/sessions/session{NN}/flags.md` — open flags
+- `audio/sessions/session{NN}/speaker-map.md` — speaker resolutions
 ```
 
-#### Final Chunk
+#### Final Part
 
-When the chunk reaches the end of `resolved.csv`, instead of writing a
-continuation handoff, do a final pass:
-- Verify `recap.md` covers the full session timeline with no gaps
-- Verify `extracts.md` has tagged entries for every scene
-- Review `flags.md` — present any unresolved items to the DM
-- Write `handoff.md` indicating Pass 3 is complete and Pass 4 (wiki integration)
-  is next
+When you finish the last available part:
+- Verify `recap.md` covers the full session with no gaps between parts
+- Verify `extracts.md` has tagged entries for every recap scene
+- Review `flags.md` — present unresolved items to the DM
+- Write `handoff.md` indicating Pass 2 is complete and Pass 3 (wiki) is next
 - Commit:
   ```
   ingest: complete session {NN} transcript extraction and recap
   ```
 
-**Checkpoint files:** `recap.md` (cumulative), `extracts.md` (cumulative),
-`flags.md`, `progress.txt`, `handoff.md`.
-
 ---
 
-### Pass 4: Wiki Integration
+### Pass 3: Wiki Integration
 
 **Uses existing pipeline.** Load `ttrpg-wiki-ingest` and read its
 `references/transcript-ingest.md`. Load `ttrpg-writing` for prose standards.
@@ -297,10 +316,6 @@ Output: Wiki file changes
 
 Before starting: verify `flags.md` has no unresolved items that would block
 canon. If it does, present flags to the DM and wait.
-
-The recap is the primary source for narrative content (session note, entity
-updates). The extracts provide structured data for mechanical files (combat
-analytics, player interests). Use both:
 
 | Wiki Target | Primary Source |
 |---|---|
@@ -322,19 +337,18 @@ ingest: wiki integration from session {NN} transcript
 
 ## Incremental Processing
 
-Audio parts arrive as transcription completes. Run `status` to detect what changed:
+Parts arrive as audio transcribes. The part-per-chunk architecture handles
+this naturally:
 
-| Status says | Action |
+| State | Action |
 |---|---|
-| New parts, no previous work | Run all passes from scratch |
-| New parts, Pass 1 done | Re-run `assemble` (script detects new parts via `parts.txt`), then resume Pass 2 |
-| New parts, Pass 2 done | Re-run `assemble`, re-run `resolve` (speaker map still applies), resume Pass 3 from the first unprocessed chunk per `progress.txt` |
-| New parts, Pass 3 partially done | Re-run `assemble` + `resolve`, continue Pass 3 from next unprocessed chunk — earlier chunks' recap entries are already committed |
-| Pass 3 done, Pass 4 not started | Start wiki integration from the completed recap + extracts |
-| All parts present, all passes done | Report status, nothing to do |
+| New parts, no previous work | Pass 1 (if needed) → Pass 2 starting at part00 |
+| New parts, extraction in progress | Continue from next unprocessed part per `progress.txt` — earlier parts are committed |
+| All parts done, wiki not started | Pass 3 |
+| All passes done, new parts appear | Process only the new parts (append to recap/extracts) |
 
-The sequential chunk architecture makes incremental processing straightforward:
-earlier chunks are fully committed, so new parts only add new chunks at the end.
+Earlier parts' extractions are fully committed and immutable. New parts only
+add new work at the end.
 
 ---
 
@@ -342,11 +356,11 @@ earlier chunks are fully committed, so new parts only add new chunks at the end.
 
 | Mode | Trigger | Action |
 |---|---|---|
-| `status` | "transcript status", "what's available" | List sessions with CSVs, report pass completion |
+| `status` | "transcript status", "what's available" | List sessions with CSVs, report progress |
 | `process` | "process session N transcript" | Run all passes for session N |
-| `resume` | "continue session N" | Find latest checkpoint, resume |
-| `speakers` | "fix speakers", "who is Speaker 1" | Run Pass 2 only |
-| `extract` | "what happened in session N" | Run through Pass 3, report |
+| `resume` | "continue session N" | Read `handoff.md` → process next part |
+| `speakers` | "fix speakers", "who is Speaker 1" | Run Pass 1 only |
+| `extract` | "what happened in session N" | Run through Pass 2, report |
 | `combat` | "combat stats from session N" | Extract `[COMBAT]` blocks only |
 
 ---
@@ -359,34 +373,61 @@ earlier chunks are fully committed, so new parts only add new chunks at the end.
 | Delmar | Delmar Fisk's player | |
 | Perrin | Perrin Black-Jaw's player | |
 | Jean Claude | Jean-Claude Tabarnack's player | |
-| Crissdalyn | Crissdalynn Khinriss's player | Label spelling ≠ character spelling |
+| Crissdalyn | Crissdalynn Khinriss's player | Label spelling != character spelling |
 | Speaker 1 | Usually Crissdalyn (mic drift) | Verify per session via speaker-resolution.md |
 | Speaker 5/6/7 | Varies — cross-talk, external audio | Low line counts; often DM or non-game audio |
-| Speaker N | Unknown | Always resolve before Pass 3 |
+| Speaker N | Unknown | Always resolve before Pass 2 |
 
 ---
 
 ## Quality Gates
 
-Before starting Pass 3 (chunk loop):
-- All Speaker N labels resolved (medium+ confidence)
+Before starting Pass 2:
+- All Speaker N labels resolved (medium+ confidence) or confirmed absent
 
-Per chunk (before committing):
-- Extracts cite source line ranges from `resolved.csv`
-- Recap paragraph covers only in-game events (no OOC, no meta)
+Per part (before committing):
+- Extracts cite part number and source line IDs
+- Recap covers only in-game events (no OOC, no meta)
 - No `[CANON]` block contradicts existing wiki without a flag
+- Scene continuity maintained from previous part's recap
 
-After Pass 3 (before Pass 4):
-- `recap.md` covers the full session timeline with no scene gaps
+After all parts (before Pass 3):
+- `recap.md` covers full session timeline with no scene gaps between parts
 - `extracts.md` has tagged entries for every scene in the recap
-- `progress.txt` line ranges span the entire `resolved.csv`
+- `progress.txt` lists every part
 - Combat encounters have round counts and per-PC action summaries
 - `[SIGNAL]` blocks present if players showed clear engagement/disengagement
 - All unresolved items in `flags.md` presented to DM
 
-After Pass 4:
+After Pass 3:
 - Session note exists with wikilinks for all named entities
 - `wiki/hot.md` reflects end-of-session world state
+
+---
+
+## Migrating In-Progress Sessions
+
+Sessions started under the old skill version may have `assembled.csv`,
+`resolved.csv`, and line-range-based `progress.txt` entries (e.g.
+`chunk-3: lines 1630–2450`). To continue these:
+
+1. Ignore `assembled.csv`, `resolved.csv`, and `parts.txt` — these are
+   legacy intermediates. Read raw part CSVs instead.
+2. Find where you left off by content, not line arithmetic: read the last
+   scene in `recap.md` (or the handoff's context block), then scan the
+   first ~10 lines of each part CSV to find which part starts after the
+   last recap content. Part IDs restart at 1 per file and do not match
+   `assembled.csv` line numbers.
+3. Start processing from that part file onward.
+4. Switch `progress.txt` to the new format going forward:
+   ```
+   # legacy (old format):
+   chunk-3: lines 1630–2450 (2026-06-01)
+   # new format:
+   part04: 779 lines (2026-06-01)
+   ```
+5. The handoff may reference `resolved.csv` — ignore that, read raw parts +
+   speaker-map.md instead.
 
 ---
 
@@ -394,5 +435,5 @@ After Pass 4:
 
 | File | When |
 |---|---|
-| `references/speaker-resolution.md` | Pass 2 — resolving unknown speakers |
-| `references/extraction-targets.md` | Pass 3 — what to extract and how to tag it |
+| `references/speaker-resolution.md` | Pass 1 — resolving unknown speakers |
+| `references/extraction-targets.md` | Pass 2 — what to extract and how to tag it |

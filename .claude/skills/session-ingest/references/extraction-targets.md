@@ -1,7 +1,7 @@
 # Extraction Targets
 
-What to extract from session transcripts in Pass 3, how to tag it, and what to
-skip. Each extract cites source line range from `resolved.csv`.
+What to extract from session transcripts in Pass 2, how to tag it, and what to
+skip. Each extract cites part number and source line IDs from the raw CSV.
 
 ---
 
@@ -164,14 +164,13 @@ Organize extracts by scene in `extracts.md`:
 ```markdown
 # Session {NN} Extracts
 
-Source: audio/sessions/session{NN}/resolved.csv
-Parts assembled: {list from parts.txt}
+Source: audio/sessions/session{NN}-part*.m4a.csv
 Extraction date: {YYYY-MM-DD}
 
 ---
 
 ## Scene 1: {Location} — {Brief description}
-Lines {start}–{end} | Duration: {MM:SS}–{MM:SS}
+Part {PP} lines {start}–{end}
 Participants: {speakers present}
 IC/OOC split: {approximate percentage}
 

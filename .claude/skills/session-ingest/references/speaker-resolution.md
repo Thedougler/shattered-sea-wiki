@@ -1,7 +1,7 @@
 # Speaker Resolution
 
-How to resolve "Speaker 1", "Speaker N", and "Unknown" labels in assembled
-transcript CSVs. This is Pass 2 of the session-ingest skill.
+How to resolve "Speaker 1", "Speaker N", and "Unknown" labels in raw
+transcript part CSVs. This is Pass 1 of the session-ingest skill.
 
 ---
 
@@ -82,7 +82,7 @@ During roleplay:
 
 The DM label covers both narrator voice and NPC dialogue. You do NOT need to
 split these — the DM label is correct for both. However, during extraction
-(Pass 3), note when the DM is voicing a specific NPC so the canon extract
+(Pass 2), note when the DM is voicing a specific NPC so the canon extract
 attributes the statement properly.
 
 Signals that the DM is voicing an NPC:
@@ -94,7 +94,7 @@ Signals that the DM is voicing an NPC:
 
 Players sometimes voice their companion NPCs (e.g., Crissdalyn's player voices
 Kyzil). The speaker label is still correct — it's that player's voice — but the
-content is IC dialogue from a different character. Flag these moments in Pass 3
+content is IC dialogue from a different character. Flag these moments in Pass 2
 extraction so the canon is attributed to the NPC, not the PC.
 
 ## External Audio Artifacts
@@ -143,32 +143,33 @@ Speaker 1 → Crissdalyn:
 |---|---|---|
 | **high** | Multiple evidence types converge | Yes |
 | **medium** | One strong signal, no contradicting evidence | Yes, but note in flags.md |
-| **low** | Best guess, limited evidence | Flag for DM review before Pass 3 |
-| **unknown** | Cannot determine | Block Pass 3, escalate to DM |
+| **low** | Best guess, limited evidence | Flag for DM review before Pass 2 |
+| **unknown** | Cannot determine | Block Pass 2, escalate to DM |
 
 ---
 
 ## Applying Resolutions
 
-After building the speaker map, create `resolved.csv` by copying `assembled.csv`
-and replacing Speaker labels per the map. Keep all original data — only the Speaker
-column changes.
+The speaker map is applied inline during Pass 2 (extraction). The extracting
+agent reads raw part CSVs and mentally replaces Speaker N labels per the map
+while processing. No intermediate resolved CSV is produced.
 
-For `low` confidence resolutions, prefix the resolved speaker name with `?` in
-the CSV (e.g., `?Perrin`) so Pass 3 knows to treat those lines as uncertain.
+For `low` confidence resolutions, prefix the resolved name with `?` in extracts
+and recap (e.g., `?Perrin`) so downstream consumers know those attributions are
+uncertain.
 
 ---
 
-## Subagent Chunking
+## Scanning Across Parts
 
-For transcripts over 3000 lines:
+Speaker resolution reads all available part CSVs (`session{NN}-part*.m4a.csv`)
+to build a unified map. Useful approaches:
 
-1. Split `assembled.csv` into ~1500-line chunks with 100-line overlap (aim for 5–7 subagents)
-2. Each subagent processes one chunk:
-   - Identify all Speaker N lines in the chunk
-   - Analyze context per the method above
-   - Return: list of `(line_range, speaker_label, resolved_to, confidence, evidence)`
-3. Coordinating agent merges:
-   - Same Speaker N → same resolution across chunks: accept
-   - Same Speaker N → different resolutions: majority vote, flag conflict
-   - Build unified speaker map
+1. **Quick grep** — find all Speaker N lines across parts:
+   ```bash
+   grep -hn 'Speaker' audio/sessions/session{NN}-part*.m4a.csv
+   ```
+2. **Sample windows** — for each unknown label, read 10–15 surrounding lines
+   from the part where it appears most frequently
+3. **Cross-part patterns** — check whether the unknown label appears in every
+   part (persistent mic drift) or only a few (isolated event)

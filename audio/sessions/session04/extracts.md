@@ -606,3 +606,74 @@ IC/OOC split: ~55/45
   Source: part07 lines 123–167
 - Perrin's player showed humor in the interrogation — invisible slap, spitting, suggesting torture next time. Lighter counterbalance to Jean-Claude's grimness
   Source: part07 lines 182–204
+
+---
+
+## Scene 13: Sewer Exit — Interrogating Felix Aho
+Part 08 lines 1–113
+Participants: Jean-Claude (lead), Delmar, Perrin, Crissdalynn, DM (Felix Aho)
+IC/OOC split: ~55/45
+
+### [CANON]
+- The second Grung from the patrol was alive — Crissdalynn had knocked it out, not killed it. A green Grung named Felix Aho
+  Source: part08 lines 9–21
+- Felix revealed the Grung operation: coordinated bombing of Calveno from the sewers. Six ships total have ferried black powder. Workers build scaffolding to hold barrels against the sewer ceiling (underside of city streets). Four separate attack points. Must be completed in the next two days
+  Source: part08 lines 23–36, 82–97
+- Each attack point has at least two dozen guards, including purple garrisons and red leaders (a command hierarchy). Red Grung are top-level — they don't speak to regular workers
+  Source: part08 lines 34, 88–89
+- The Grung were told to kill anyone who sees their staging areas
+  Source: part08 line 89
+- There are Grung defectors — those who have left Simone's faction. Kill-on-sight policy among the Grung. Jean-Claude is considered a defector. Jean-Claude did not know defectors existed as a recognized group
+  Source: part08 lines 38–54
+- Felix offered full cooperation in exchange for one month of protection
+  Source: part08 line 38
+- Felix was hired as a laborer, transported across the ocean (terrified of the crossing), not ideologically committed
+  Source: part08 lines 77–82
+- Perrin sent Sending Stone message to Nona about the operation. Nona responded: will send Enzo and reinforcements, wants to speak in person, this is unprecedented
+  Source: part08 lines 104–114
+- Jean-Claude wants to keep Felix as a prisoner to learn more about the defectors
+  Source: part08 line 101
+
+### [LORE]
+- Grung military hierarchy by color: green/blue are laborers and basic soldiers; purple are garrison commanders; red are top leaders who don't speak to lower ranks
+  Source: part08 lines 34, 88–89
+- Grung defectors are a recognized category — kill-on-sight policy. The fact that defectors exist means there is internal dissent within Simone's faction
+  Source: part08 lines 38–44
+- The Grung operation involves at least 6 ships crossing the Central Strait — a massive logistical feat for a species that hates the ocean ("I hate the ocean. Just up and down constantly. For weeks.")
+  Source: part08 lines 35, 77–78
+- The bombing is timed: scaffolding holds black powder against the ceiling (ground above), four attack points, two-day deadline. This is a coordinated demolition/terrorism plan targeting Calveno's infrastructure during the festival
+  Source: part08 lines 25, 34, 82–97
+- Nona calls the situation "unprecedented" — first confirmed Grung presence in Calveno and north of the Central Strait
+  Source: part08 lines 109–111
+
+### [NPC]
+- Felix Aho: Green Grung laborer, hired (not ideological), terrified of the ocean. Cooperative prisoner in exchange for protection. Knows operational details but not strategic planning. On sixth ship. Aware of defector concept. Now in Passage custody at Nona's safe house
+  Source: part08 lines 21–101
+  Status: new (needs entity page — active prisoner/informant)
+
+### [SIGNAL]
+- Delmar's player showed strong tactical thinking — suggested sending intel to Nona via Sending Stone, considered Felix's future (defector status), and managed the interrogation diplomatically alongside Jean-Claude's more ruthless approach
+  Source: part08 lines 37, 88, 98–101
+- Jean-Claude's player showed deep investment in the defector revelation — genuinely surprised and intrigued. This connects directly to his character's secret about Simone and opens a new personal plotline
+  Source: part08 lines 39–54, 101
+
+---
+
+## Scene 14: Return to Nona's Safe House — Session End
+Part 08 lines 124–140
+Participants: All PCs, DM (Nona, Ruck, Felix)
+IC/OOC split: ~60/40
+
+### [CANON]
+- Felix brought to Nona's safe house as prisoner. Ruck guards him
+  Source: part08 lines 135–136
+- The festival provided cover — a tied-up Grung didn't stand out among people in Grung costumes and festival pranks
+  Source: part08 lines 128–131
+- Nona: "I knew I chose the right people for the job." She's never met a Grung who wasn't a dissident, besides Jean-Claude
+  Source: part08 lines 137, 140
+
+### [LORE]
+- Nona uses the word "dissident" for Grung who've left their homeland — same concept as "defector" from the Grung perspective
+  Source: part08 line 140
+- The Calveno festival involves people wearing costumes (including Grung costumes), dumping shrimp on passersby, pantsing government officials, and general chaos
+  Source: part08 lines 128–135

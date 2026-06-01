@@ -125,6 +125,26 @@ Crissdalynn delivered the captive to the party. The purple Grung immediately cal
 
 ---
 
+## Scene 13: Sewer Exit — Interrogating Felix Aho
+*Part 08 | Jean-Claude (lead), Delmar, Perrin, Crissdalynn, DM (Felix Aho)*
+
+The party realized the second blue Grung — the one Crissdalynn had clotheslined — was still alive, just unconscious. They tied him up and interrogated him. He was a green Grung named Felix Aho, a hired laborer, not a soldier. Felix was terrified and cooperative once he saw the purple Grung's blood on Jean-Claude's blade.
+
+Felix revealed the operation: Grung forces are staging a coordinated bombing of Calveno from underground. Six ships have been ferrying barrels of black powder across the ocean (this was the sixth). Workers are building scaffolding in the sewers to hold the barrels against the ceiling — which is the underside of the city streets. There are four separate attack points. Each has at least two dozen guards, including purple garrisons and red leaders (a command hierarchy). The operation must be completed in the next two days — timed to coincide with the festival.
+
+Felix also revealed that there are Grung defectors — those who have left Simone's faction. They are kill-on-sight among the Grung. Jean-Claude, who left his people, is apparently considered a defector — explaining why the purple Grung called him a traitor. Jean-Claude did not know defectors existed as a recognized category. Felix offered full cooperation in exchange for protection: "I'll tell you whatever the fuck you want if you guys don't kill me and just keep me safe for a month."
+
+Perrin sent an urgent Sending Stone message to Nona about the Grung operation and the black powder. Nona responded immediately: "Oh, it's real. No shit. I will send Enzo and more to you. Are you safe? This is unprecedented. I should speak to you in person."
+
+---
+
+## Scene 14: Return to Nona's Safe House — Session End
+*Part 08 | All PCs, DM (Nona, Ruck, Felix)*
+
+The party marched Felix through Calveno in broad daylight. Thanks to the festival, a tied-up Grung didn't stand out — there were people in Grung costumes pranking each other, a lizard-folk in a bad Grung outfit poking people with a spear, and someone dumping shrimp on passersby from a bridge. They brought Felix to Nona's safe house. Ruck pinned him to a chair. Nona expressed satisfaction: "I knew I chose the right people for the job." She noted she'd never met a Grung who wasn't a dissident — besides Jean-Claude. The session ended with the party safe at Nona's, Felix in custody, and the Grung bombing plot exposed but not yet stopped — four attack points remain active with two days until detonation.
+
+---
+
 ## Scene 8: Calveno Harbor Shrine — Umberlee Speaks Through Branca
 *Part 04 | Delmar, Perrin (invisible), DM (Branca/Umberlee), Jean-Claude*
 

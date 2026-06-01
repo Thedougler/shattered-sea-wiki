@@ -220,7 +220,7 @@ Is it how the GAME works (mechanics, not world)?
     Encounter tools → rules/encounter-design/
 
 Is it a session record?
-  Raw transcript → .raw/sessions/sNNN/
+  Raw transcript → audio/sessions/ (CSV per part)
   Agent-facing summary → wiki/sessions/sNNN-summary.md
   Player-facing recap → wiki/sessions/sNNN-recap.md
 

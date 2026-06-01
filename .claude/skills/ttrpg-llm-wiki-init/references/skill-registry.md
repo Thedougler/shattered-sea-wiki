@@ -34,7 +34,7 @@ fragments from the same speaker. Normalize speaker names against the canonical s
 Apply the inline tagging system: `[OOC]` `[IC]` `[TABLE]` `[RULING]` `[ROLL]` `[LORE]`
 `[CANON]` `[UNCLEAR-SPEAKER]`. Segment into scenes. Generate the flags file for DM review.
 **Trigger:** "clean the transcript", "process session audio", any raw transcript file
-arriving in `.raw/sessions/`. Also triggered automatically after a new `.raw` file is detected.
+arriving in `audio/sessions/`. Also triggered automatically after a new transcript CSV is detected.
 **Critical behaviors:** Never edits the raw file — all work goes to `-clean.md` sibling.
 Never guesses attribution — creates a flag entry instead. Never invents words for
 unintelligible audio. Flag file is generated in parallel with the clean file, not after.

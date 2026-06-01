@@ -23,7 +23,7 @@ For each missing directory: create it, log the creation.
 ```
 [ ] VAULT_ROOT/Inbox/ exists
 [ ] VAULT_ROOT/.raw/ exists
-[ ] .raw/sessions/ exists
+[ ] audio/sessions/ exists
 [ ] .raw/characters/interviews/ exists
 [ ] .raw/characters/sheets/ exists
 [ ] .raw/homebrew/ exists

@@ -21,10 +21,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Raw audio files — too large for GitHub (>100MB)
-.raw/assets/audio/*.m4a
-.raw/assets/audio/*.mp3
-.raw/assets/audio/*.wav
-.raw/assets/*.m4a
+audio/sessions/*.m4a
+audio/sessions/*.mp3
+audio/sessions/*.wav
 
 # live-co-dm capture scratch (audio + provisional transcript). The canonical
 # finalized transcript is committed separately as wiki/sessions/session-NN-transcript.md.

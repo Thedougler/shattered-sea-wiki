@@ -140,7 +140,7 @@ and log it.
 ## Archive
 
 When complete, archive the clean transcript with `archive_source.py --type transcript` so it
-moves into `.raw/sessions/` and drops off the `check_ingest.py` queue, then commit. If a raw
+moves into `audio/sessions/` and drops off the `check_ingest.py` queue, then commit. If a raw
 transcript of the same session also sits in `Inbox/`, the clean one supersedes it for ingest —
-archive the clean version, and archive the raw one too (it becomes retained evidence in `.raw/`,
-not a second thing to ingest).
+archive the clean version, and archive the raw one too (it becomes retained evidence, not a
+second thing to ingest).

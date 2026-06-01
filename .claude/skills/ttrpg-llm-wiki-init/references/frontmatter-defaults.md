@@ -99,7 +99,7 @@ When a required field is missing, add it with the default below and log the addi
 | `system/players/` (sheet) | `pc-sheet` |
 | `system/` | `system-file` |
 | `dm/` | `dm-file` |
-| `.raw/sessions/` | `raw-session` |
+| `audio/sessions/` | `raw-session` |
 | `.raw/characters/` | `raw-character` |
 | `.raw/homebrew/` | `raw-homebrew` |
 

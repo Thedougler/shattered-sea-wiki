@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - grung
 sources: ["Inbox/Jean-Claudes-Desertion.md"]
@@ -153,6 +153,7 @@ Death fact: Pell died in a cell beneath Sorn after 31 days of torture for names.
 | Session 02 | Beaumont used a Truth Stone on Jean-Claude. Jean-Claude truthfully said former kinsmen hunted him and he was not there on anyone's behalf. Beaumont did not ask about Simone; Jean-Claude did not mention her. |
 | World Tick 2026-05-19 | Rook was Simone's toxin buyer. With Rook silent, Simone sent a blue-caste operative to check his last route. The operative asked wrong-shaped questions in Tidefall and exposed the supply channel at one end. |
 | World Update — Session 03 (Cold) | **Roll:** 20 — Full Success. A vethka crew under trade cover raided a western Midchain fishing settlement — closer to the Central Strait than Grung have operated in a generation. Fourteen captives, zero crew casualties, no witnesses who can identify them as Grung. Slave-soldier pipeline replenished. The scout circuit now operates at a range where Calveno-bound shipping routes intersect their patrol area. **Hook strength:** Ripple — fishing communities in the western Midchain are now reporting unusual raiders; Felix Aho's stall in Calveno may hear about it through trade contacts. |
+| Session 04 | Jean-Claude led the Grung sewer investigation. Executed a purple Grung handler who called him "traitor" and "dissident" and confirmed [[simone-tabarnack|Simone]]'s involvement. Captured [[felix-aho|Felix Aho]] (green laborer) who revealed the full [[calveno-beffa-grung-raid|bombing operation]]. **Critical new intel:** Grung defectors exist as a recognized category — kill-on-sight policy. Jean-Claude is considered a defector. He did not know this classification existed. He wants to keep Felix alive specifically to learn about defectors. This opens a new personal arc: Jean-Claude is not alone in having left, and there may be others who could be allies. |
 
 ---
 

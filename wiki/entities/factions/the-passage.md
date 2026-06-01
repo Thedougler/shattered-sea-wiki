@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - rattkin
   - passage
@@ -44,12 +44,13 @@ The Passage moves people, cargo, and information across routes that do not appea
 
 The Passage does not move people in bondage. Cargo can be hidden, messages carried, and people smuggled to freedom. Enslaved people are not a trade good the Passage will handle. The [[grung-clans|Grung Clans]]' coastal raiding and bondage practices are treated as a hard line; the Passage does not operate where Grung hold routes.
 
-## Session 03 Update
+## Session Events
 
-Nona called off the attacks on Perrin when he arrived in her kitchen — she'd believed he was captured. [[anzolo|Anzolo]] was already in motion before the directive reached him; his status is unconfirmed. Perrin owes Nona a favor (terms unstated).
+- **Session 03:** Nona called off the attacks on Perrin when he arrived in her kitchen — she'd believed he was captured. [[anzolo|Anzolo]] was already in motion before the directive reached him; his status is unconfirmed. Perrin owes Nona a favor (terms unstated).
+- **Session 04:** Nona called in the favor — sent the party to investigate Grung sightings in the Warren tunnels and sewers. Provided Hero's Feast, a map with 3 sighting locations, and a Rattkin eyewitness. Party exposed a coordinated [[calveno-beffa-grung-raid|Grung bombing plot]]: 4 attack points, black powder scaffolded against sewer ceilings, 2-day deadline timed to the festival. One ship destroyed, one purple handler killed, [[felix-aho|Felix Aho]] captured as informant. Nona received the prisoner and intel at her safe house. Sent [[enzo|Enzo]] with reinforcements after the sending stone report. The Passage now holds actionable intelligence on an unprecedented foreign military operation inside Calveno.
 
 > [!dm]
-> The organizational structure — how many cells, what geographic reach, who sits above Nona — is not established. Expand before the network becomes plot-relevant.
+> The Passage faces a defining decision: handle the Grung threat through shadow channels (preserve operational secrecy) or break protocol to warn Calveno openly (permanently change the Passage's relationship with the city). Nona's response to the bombing intel will shape this faction's trajectory. The organizational structure — how many cells, what geographic reach, who sits above Nona — is not established. Expand before the network becomes plot-relevant.
 
 ## DM Notes — Calder's Tooth Infrastructure
 

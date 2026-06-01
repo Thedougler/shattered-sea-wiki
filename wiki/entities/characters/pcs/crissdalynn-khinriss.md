@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the Red Lady with Delmar Fisk; was mapping the Drowned Maw when it sank. Kyzil's student; cast out of the High Eyrie at 14 — the monastery banishment is the wound that makes everything else matter."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags: []
 sources:
   - "Inbox/Session-01-Recap.md"
@@ -90,3 +90,4 @@ No exact numbers, full statblocks, secret identity, hidden lore, or motives. Rep
 - **Session 01** — Dragged Cap'n Gorgeous through Perrin's Minor Illusion to conceal the engagement; breached the weather deck when Delmar launched her through the hatch; redirected Grung toxin gas with Gust.
 - **Session 02** — Deflected Rook's flintlock shot; blocked Perrin before he killed Ket; let Ket feed on Rook's men.
 - **Session 03** — Caught Perrin and JC in their rigging fall from the crow's nest. Flew out over the water and lifted a 60-ft whip shark clean out of the sea (contested strength; shark nat 1). Dug through Rook's chart archive — found he broke Imperial rules about the [[the-drowned-maw|Drowned Maw]] twice and kept no record of what he found. Tried to scout Calveno from above; too many people, gave up. Reunited with [[master-kyzil|Master Kyzil]] in Le Paludi streets — he dove from the sun. Broke down.
+- **Session 04** — Sparred [[master-kyzil|Kyzil]] on the [[ponte-bassa|Ponte Bassa]] rooftop. Grappled him R1 (Kyzil rolled nat 1 on contested check); Kyzil acknowledged her growth. Activated tattoo for 15ft reach. Deflected 13 damage and redirected it (Kyzil saved). Fell off the roof from Kyzil's Downburst — Kyzil panicked and flew down to catch her. Vouched for [[jean-claude-tabarnack|Jean-Claude]] to Kyzil. Kyzil told her the pilgrimage was the hardest in Eyrie history. Clotheslined the second patrol Grung in the sewers. Kingfishered the fleeing purple Grung at 45ft fly speed — dove from altitude, grappled with talons, shrugged off the spear hit and poison (Hero's Feast immunity). Delivered the captive to the party. Leg-swept [[delmar-fisk|Delmar]] the next morning for going to [[umberlee|Umberlee]] without her: "My burden was to carry you out of that stupid water." Flew ~100ft over Calveno looking for Kyzil — couldn't spot him.

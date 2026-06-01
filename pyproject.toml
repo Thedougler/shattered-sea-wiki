@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+testpaths = [".claude/scripts"]
+pythonpath = [".claude/scripts"]
+
+[tool.coverage.run]
+# Measure all custom script code — test files excluded via omit
+source = [".claude/scripts"]
+omit = [".claude/scripts/test_*.py"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+skip_empty = true

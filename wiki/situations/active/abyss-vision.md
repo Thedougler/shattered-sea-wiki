@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Something in the abyss communicated with Perrin during the storm watch, at considerable cost. One word: 'Grow.' Perrin also inhabited a whip shark's body and witnessed something larger than two ships below."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - mystery
   - drowned-maw

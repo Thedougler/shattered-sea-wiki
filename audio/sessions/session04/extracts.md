@@ -277,3 +277,115 @@ IC/OOC split: ~30/70 (heavy mechanics + table break + phone call)
   Source: part03 lines 99–108
 - Delmar's player showed strong engagement with the sneak attack mechanics — "I see why you guys like rogues" and expressed enthusiasm for monks too
   Source: part03 line 63
+
+---
+
+## Scene 7: Walking to Calveno Harbor — Delmar's Confession
+Part 04 lines 1–59
+Participants: Delmar, Perrin, Jean-Claude, Crissdalynn (silent)
+IC/OOC split: ~60/40
+
+### [CANON]
+- Delmar revealed he was a real admiral commanding Fisk's fleet — five ships manned by diverse humanoids and creatures
+  Source: part04 lines 17–19
+- Fisk's fleet were privateers sponsored by the Chain Council, operating with an ethical code: raided slave ships, freed slaves, took dangerous missions, never did slavery runs
+  Source: part04 lines 36–42
+- Delmar's last job: infiltrated a cave shrine in Vafnar (the Sunken Crown) and stole the Pearl of Souls, a treasure of Umberlee. Six other crews had failed to breach the shrine's traps and defenses. The commissioner lied about what they were stealing — they only learned the truth after the fact
+  Source: part04 lines 50–53
+- Hours after stealing the Pearl, the Maw appeared before the fleet. Fog descended so dense you couldn't see water from the deck. The ocean opened into an 80-foot valley of water that consumed all five ships
+  Source: part04 lines 53–56
+- Crissdalynn spotted the disaster first, flew down, grabbed Delmar, and pulled him free as the fleet was destroyed
+  Source: part04 lines 56–57
+- Something intense and indescribable happened with the Pearl — Delmar fell unconscious and the Pearl fell from his grip into the Maw with the wreckage
+  Source: part04 lines 57–58
+- Water has been reaching for Delmar when he transitions from boat to land — the sea appears to be tracking him
+  Source: part04 lines 75–79
+- Perrin shared a silent, knowing look with Delmar — "I know your pain" — hinting at his own undisclosed loss
+  Source: part04 lines 23–25
+
+### [LORE]
+- The Pearl of Souls is a treasure of Umberlee, extremely well guarded in a private shrine in Vafnar in the Sunken Crown, very far from Calveno across the Drowned Maw
+  Source: part04 lines 51–52
+- The Chain Council sponsored Fisk's fleet as privateers
+  Source: part04 lines 38–39
+- Sailors pay tithes to Umberlee's cult for safe passage — this is common knowledge for anyone who has sailed
+  Source: part04 lines 60–64
+- Jean-Claude respects Umberlee because she is merciless to everyone equally — appealing to someone from a caste society
+  Source: part04 line 67
+
+### [ITEM]
+- Pearl of Souls: Umberlee's treasure, currently at the bottom of the Maw with the wreckage of Fisk's fleet. Contains souls. Delmar held it briefly before losing consciousness. Its exact powers are unknown to the party
+  Source: part04 lines 51–58
+
+### [NPC]
+- Delmar Fisk (backstory revealed): Former admiral of a 5-ship privateer fleet sponsored by the Chain Council. Started with 6 people, built to 5 ships. Operated with ethical code. Lost everything stealing the Pearl of Souls on a commissioned job. The commissioner lied about the object. Fleet destroyed by the Maw hours after the theft. Only survived because Crissdalynn flew him out
+  Source: part04 lines 17–58
+  Status: existing (wiki/entities/pcs/)
+
+### [SIGNAL]
+- Delmar's player drove the entire confession scene with long-form in-character monologue — extremely high engagement with character vulnerability and backstory reveal
+  Source: part04 lines 6–58
+- Perrin's player showed restraint and emotional investment — the "I know your pain" moment was deliberately understated, hinting at Perrin's own undisclosed trauma
+  Source: part04 lines 23–25
+
+---
+
+## Scene 8: Calveno Harbor Shrine — Umberlee Speaks Through Branca
+Part 04 lines 43–163
+Participants: Delmar, Perrin (invisible), DM (Branca/Umberlee), Jean-Claude
+IC/OOC split: ~55/45
+
+### [CANON]
+- Branca found kneeling in a shrine pool at the Calveno harbor, surrounded by hurricane-like turbulent water that wasn't touching her
+  Source: part04 lines 43–46
+- Party approached stealthily — all passed collective stealth check
+  Source: part04 lines 72–87
+- Perrin cast invisibility and followed two steps behind Delmar
+  Source: part04 lines 95–107
+- Umberlee possessed Branca (eyes rolled back, joints cracked like contortionist, chanting in Latin-sounding language) and spoke directly to Delmar
+  Source: part04 lines 131–133
+- Umberlee's demand: "You carry what is mine. Go down to the wreck. Bring me the pearl. Return to my shrine and I'll grant you the one mercy you have earned. A swift death. The souls you stole must be brought home to me. This is my grace. Accept it."
+  Source: part04 line 133
+- Delmar paid a gold tithe to Umberlee (dropped into the shrine water with Branca's hands)
+  Source: part04 lines 134
+- Delmar attempted to deceive about accepting the task (intends to get the pearl but not die). Umberlee saw through it immediately
+  Source: part04 lines 145–147
+- Umberlee's wrath: thunder cracked, lightning struck, "How dare you lie to a god?" — then killed Branca (neck snapped, collapsed dead) and resurrected her with ocean mist as a demonstration of power
+  Source: part04 lines 147–153
+- Delmar argued back: if Umberlee wanted the pearl she'd have it — she clearly needs him
+  Source: part04 lines 149–151
+- Umberlee's revised deal: "Bring me the pearl and I will only claim the souls within it. You may live."
+  Source: part04 lines 153–154
+- Delmar counter-offered: retrieve the pearl AND deliver those who commissioned the theft as revenge for Umberlee
+  Source: part04 lines 154–156
+- Umberlee read Delmar's mind freely: "Your mind is as clear to me as any book. I know that you did not know what you stole, but you stole nonetheless." Final terms: "Bring me the pearl. We will talk then."
+  Source: part04 lines 156
+- Branca returned to normal, visibly shaken and injured (rubbing her neck), headed to the church of Upper Lake
+  Source: part04 lines 159–163
+
+### [LORE]
+- Umberlee can possess her followers (eyes roll back, joints contort, full vocal control), kill and resurrect them at will
+  Source: part04 lines 131–153
+- Umberlee can read minds freely when given permission ("Search my mind, search my soul, I give it freely")
+  Source: part04 lines 154–156
+- The church/clergy of Upper Lake is Umberlee's local base in Calveno
+  Source: part04 lines 162–163
+- Umberlee's initial demand was death in exchange for returning the pearl; she reduced this to only claiming the souls within the pearl after Delmar's defiance
+  Source: part04 lines 133, 153–154
+
+### [NPC]
+- Branca: Umberlee cultist/priestess in Calveno. Serves as Umberlee's vessel — possessed during rituals. Physically damaged by the possession (neck snapped, killed and resurrected). Genuinely devout. Stays with the clergy at the church of Upper Lake. Had been awake and waiting for Delmar since their earlier encounter
+  Source: part04 lines 43–163
+  Status: new (needs entity page)
+
+### [RULING]
+- Collective stealth: if anyone fails, the group is detected. All party members rolled individually
+  Source: part04 lines 84–87
+- Deception vs persuasion: DM asked Delmar's player to clarify intent — accepting the task sincerely (persuasion) vs hiding true intent (deception). Umberlee's divine insight trumped the deception regardless of roll
+  Source: part04 lines 144–147
+
+### [SIGNAL]
+- Delmar's player showed exceptional engagement throughout the Umberlee scene — drove the negotiation, stood his ground against a god, and made strategic counter-offers. High investment in the Pearl of Souls plotline
+  Source: part04 lines 133–156
+- Delmar's player showed compassion for Branca as a person separate from Umberlee — offered her his flask, helped her walk away, asked if she had a place to stay
+  Source: part04 lines 140–162

@@ -1,16 +1,16 @@
 # Session Ingest Handoff — Session 04
 
 ## Status
-- Parts completed: 00–03 (00–02 via legacy chunks, 03 via new format)
-- Parts remaining: 04, 05, 06, 07, 08
-- Last scene in recap: "Ponte Bassa Rooftop — Kyzil Sparring Match (Round 3)"
+- Parts completed: 00–04 (00–02 via legacy chunks, 03–04 via new format)
+- Parts remaining: 05, 06, 07, 08
+- Last scene in recap: "Calveno Harbor Shrine — Umberlee Speaks Through Branca"
 - Open flags: 6 unresolved
 
 ## Next Action
-Process part04 of session 04 transcript using the `session-ingest` skill.
+Process part05 of session 04 transcript using the `session-ingest` skill.
 
 ## Context for Next Part
-The Kyzil sparring match concluded after 3 rounds. Part03 ended with extensive OOC table talk — equipment overheating break, phone call, discussion about Kyzil's design and bird anatomy. Part04 opens with Delmar asking Jean-Claude for a cigarette, which transitions into Delmar's confession to the party — he reveals he was a real admiral (Fisk's fleet, 5 ships) and lost everything. This is a major character revelation scene. The Branca/Umberlee discussion follows.
+The Umberlee encounter just concluded. Branca has been sent home to the church of Upper Lake, visibly shaken. The deal stands: Delmar will retrieve the Pearl of Souls from the wreck in the Maw, and Umberlee will claim only the souls within it (not Delmar's life). Delmar also offered to deliver those who commissioned the theft. The party is at the Calveno harbor district past midnight. Part05 likely continues with the party processing what just happened — expect discussion of the Umberlee encounter, the Pearl, and potentially the Branca situation. Delmar's earlier mention of the water reaching for him is established canon.
 
 ## Files to Read First
 - `audio/sessions/session04/progress.txt` — part history

@@ -26,7 +26,7 @@ confidence_level: high
 
 ## Island Premise
 
-Bela Silt-Paw, 22, took her first solo deep-route assignment fourteen days ago and has not come back. A Water Weird has claimed the flooded central chamber on the survey route. Bela is alive in a dry shelf beyond it — broken forearm, message shard, emergency rations — but she cannot pass the Weird and the Warren does not have anyone else who can go in. The Tangle knows she is probably still alive. The clock is 2-3 days.
+[[bela-silt-paw|Bela Silt-Paw]], 22, took her first solo deep-route assignment fourteen days ago and has not come back. A Water Weird has claimed the flooded central chamber on the survey route. Bela is alive in a dry shelf beyond it — broken forearm, message shard, emergency rations — but she cannot pass the Weird and the Warren does not have anyone else who can go in. The Tangle knows she is probably still alive. The clock is 2-3 days.
 
 ---
 

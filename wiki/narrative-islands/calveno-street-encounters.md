@@ -165,7 +165,7 @@ Festival context: these are set during or just after [[il-gioco-delle-beffe|Il G
 **If he fights:** Reckless Attack, no Danger Sense (too drunk). First two rounds he is at disadvantage on saves; after that the adrenaline is burning the alcohol.
 
 > [!dm]
-> Gost is looking for work. If the party handled this without bloodshed and without the watch, he finds them the next morning and offers his sword at going rate (4–6 gp/week). If they never follow up, he disappears into the festival. He is a loose hiring hook, not a required NPC.
+> [[gost|Gost]] is looking for work. If the party handled this without bloodshed and without the watch, he finds them the next morning and offers his sword at going rate (4–6 gp/week). If they never follow up, he disappears into the festival. He is a loose hiring hook, not a required NPC.
 
 ---
 

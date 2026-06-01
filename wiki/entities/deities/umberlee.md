@@ -39,7 +39,7 @@ Umberlee never appears directly — she acts through storms, through her clergy,
 ## Legendary Assets
 
 - **[[dead-lady|The Dead Lady]]** — Umberlee's instrument for the Fisk retrieval; the shape her approach takes when the Waveservants aren't enough
-- **The Tithe of the Bitch Queen** — the accumulated collection of beautiful things Umberlee claimed from mortal ships over centuries; scattered across the Sunken Crown seafloor; any item taken brings localised squalls until the sea reclaims it
+- **[[the-tithe-of-the-bitch-queen|The Tithe of the Bitch Queen]]** — the accumulated collection of beautiful things Umberlee claimed from mortal ships over centuries; scattered across the Sunken Crown seafloor; any item taken brings localised squalls until the sea reclaims it
 
 ## Theological Tensions
 

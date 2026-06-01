@@ -64,3 +64,7 @@ Calveno's five-day prank festival. Teams design elaborate public hoaxes, execute
 
 > [!dm]
 > This is a live Calveno toy. Use buildings, contracts, symbols, public witnesses, and recovery problems rather than extra festival exposition.
+
+## Related
+
+- [[il-gioco-delle-beffe-dm|Il Gioco delle Beffe — DM Notes]] — phase structure, team symbol system, rival teams, prize table, and running mechanics

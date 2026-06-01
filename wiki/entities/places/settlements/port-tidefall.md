@@ -46,7 +46,7 @@ Every ship entering the western Strait is expected to stop, answer questions, an
 
 ## Districts
 
-**The Dockfront** — At the waterline, where arrival becomes procedure. The [[inspection-pier|Inspection Pier]] catches ships before the docks proper; the [[harbourmasters-office|Harbourmaster's Office]] converts the delay into ratings, fees, and official charts.
+**[[port-tidefall-dockfront|The Dockfront]]** — At the waterline, where arrival becomes procedure. The [[inspection-pier|Inspection Pier]] catches ships before the docks proper; the [[harbourmasters-office|Harbourmaster's Office]] converts the delay into ratings, fees, and official charts.
 
 **The Shelf** — Mid-cliff commercial district. Trade licensing, navigational instruments, Crown petitions, officer business, and side deals all pass through here.
 

@@ -62,7 +62,7 @@ Connection: [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] | [[calven
 
 ### Voice & Delivery
 
-Giacinto is a gnome, late sixties, reading glasses pushed up on his forehead, permanently smelling of spirit gum. He does not look up immediately. When he does, his eyes go straight to the moustache, not the face. He points.
+[[giacinto|Giacinto]] is a gnome, late sixties, reading glasses pushed up on his forehead, permanently smelling of spirit gum. He does not look up immediately. When he does, his eyes go straight to the moustache, not the face. He points.
 
 > *"That's one of mine. The cut on the inner edge, right corner — I do that by hand. Nobody else does that. Who are you wearing it for?"*
 

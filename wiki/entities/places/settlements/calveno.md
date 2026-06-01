@@ -95,3 +95,4 @@ Each of these lands immediately on arrival — no investigation required.
 - [[tessarine-concordat|The Tessarine Concordat]]
 - [[warren|The Warren]]
 - [[crown-islands|Crown Islands]]
+- [[calveno-reference|Calveno — Player Reference]] — districts, key people, and how the city works at a glance

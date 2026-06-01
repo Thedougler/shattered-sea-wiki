@@ -16,6 +16,7 @@ sources: []
 
 ## Recent Activity
 
+- 2026-06-01: Cross-link pass — 13 files updated, 12 orphan/dead-end pages connected (bela-silt-paw, giacinto, gost, il-gioco-delle-beffe-dm, mud-pits DM notes, port-tidefall-dockfront, calveno-reference, the-tithe-of-the-bitch-queen, the-vault-of-the-first-factor, the-galewall-runners-drop, the-grandfather-hole, calveno-reference).
 - 2026-06-01: World update complete — 10 threads processed (4 HOT, 4 WARM, 2 COLD). Key results: Grung timeline shortened ~half day; Umberlee gossip entering harbor (nat 20); Anzolo within a day's sail; whale in Calveno harbor; Verity actively searching by hull profile.
 - 2026-06-01: Session 04 wiki integration complete. Session note, 5 NPC updates, 4 situation updates, combat analytics and player interests populated, Nona's Favor moved to resolved. Felix Aho identity discrepancy logged.
 - 2026-05-31: Cross-linked 8 links across 7 pages (scheduled run); connected 5 orphan situations.

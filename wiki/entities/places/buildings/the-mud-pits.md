@@ -59,3 +59,4 @@ Prize money is drawn from the betting pool — 2:1 base on entry fee for a stand
 
 - [[kalowe|Kalowe]]
 - [[the-flat-water|The Flat Water]]
+- [[mud-pits|Mud Pits — DM Notes]] — calibration table, opponent roster, and encounter mechanics

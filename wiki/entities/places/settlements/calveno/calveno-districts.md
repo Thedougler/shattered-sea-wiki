@@ -111,7 +111,7 @@ A separate island attached by two low canal bridges. Lanterns at all hours. Musi
 | Location | Notes |
 |---|---|
 | [[cabinet-of-morsani|Cabinet of Morsani]] | Prospero's curio shop. Magical items; he knows the previous owner of everything. |
-| Giacinto's theatrical booth | Wigs, prosthetics, ornamental beards, stage paint. |
+| [[giacinto|Giacinto]]'s theatrical booth | Wigs, prosthetics, ornamental beards, stage paint. |
 | [[kats-curios|Cat's Curios]] | Referral only. No sign. Best artificer work in the Scatter. |
 | Festival performance squares | Multiple stages active during the Beffa. |
 

@@ -36,7 +36,7 @@ The Concordat's factors are the dragon's Circle, but they do not know they are a
 
 Where other Magus Dragons accumulate scholars, this one accumulates obligation. Destroying gold would not hurt this dragon — invalidating debt, freeing councils from obligation, or making Tessarine paper unreliable would.
 
-The Vault of the First Factor — a hidden depository beneath Concordat territory — holds collateral from the region's earliest debtors. This is the nearest equivalent to a physical hoard.
+[[the-vault-of-the-first-factor|The Vault of the First Factor]] — a hidden depository beneath Concordat territory — holds collateral from the region's earliest debtors. This is the nearest equivalent to a physical hoard.
 
 ## Current Threads
 

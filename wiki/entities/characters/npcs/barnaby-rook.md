@@ -2,7 +2,7 @@
 type: entity
 subtype: npc
 campaign: shattered-sea
-status: presumed_dead
+status: dead
 audience: dm
 publish: false
 summary: "Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names."

@@ -1,0 +1,36 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.4
+    hooks:
+      - id: ruff
+        args: [--fix]
+        types_or: [python, pyi]
+      - id: ruff-format
+        types_or: [python, pyi]
+
+  - repo: local
+    hooks:
+      # Fix frontmatter on staged wiki files (mirrors the PostToolUse hook for commits)
+      # DISABLED: stash/restore cycle deletes files when iCloud duplicates are present
+      # - id: fix-frontmatter
+      #   name: fix wiki frontmatter
+      #   language: system
+      #   entry: python3 .claude/scripts/fix_frontmatter.py
+      #   files: ^wiki/.*\.md$
+      #   types: [markdown]
+
+      # Coverage target: 80% across all .claude/scripts custom code.
+      # Commits will fail until coverage is earned — run the tests to see what's missing.
+      # player-view has its own venv; test separately: cd player-view && .venv/bin/pytest --cov
+      - id: pytest-scripts
+        name: pytest + coverage (.claude/scripts)
+        language: system
+        entry: python3 -m pytest
+        args:
+          - .claude/scripts
+          - --cov=.claude/scripts
+          - --cov-report=term-missing
+          - --cov-fail-under=80
+          - -q
+        pass_filenames: false
+        files: ^\.claude/scripts/.*\.py$

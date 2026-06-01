@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - umberlee
   - waveservants
@@ -66,7 +66,7 @@ Senior Waveservant assigned to Fisk at Port Tidefall. Umberlee has used her as a
 
 ## Session Events
 
-*(Append after each appearance.)*
+- **Session 04:** Found kneeling in a shrine pool at the Calveno harbor, surrounded by hurricane-like turbulent water. Umberlee possessed her — eyes rolled back, joints cracked, chanting in a Latin-sounding language. Umberlee demanded through Branca that [[delmar-fisk|Delmar]] retrieve the [[pearl-of-souls|Pearl]] and accept death. Delmar lied about accepting; Umberlee saw through it immediately. Thunder cracked, lightning struck, Umberlee raged: "How dare you lie to a god?" Branca's neck snapped — she collapsed dead. Ocean mist gathered and pulled her back together. Umberlee revised the deal through Branca: bring the Pearl, keep your life, souls stay with Umberlee. Delmar counter-offered to deliver the commissioners. Umberlee read his mind freely: "Your mind is as clear to me as any book." Deferred: "Bring me the pearl. We will talk then." Branca returned to normal, visibly shaken, rubbing her neck. Headed back to the church of Umberlee. Delmar showed compassion — offered his flask, helped her walk away, asked if she had a place to stay.
 
 ## See Also
 

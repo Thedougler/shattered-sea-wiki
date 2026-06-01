@@ -7,66 +7,65 @@ audience: agent
 publish: false
 summary: "Current world state, open threads, faction clocks, and predictions. Read first, always."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags: [dm-prep]
 sources: []
 ---
 
-# hot.md — Updated Post-Session 03
+# hot.md — Updated Post-Session 04
 
 ## Recent Activity
 
-- 2026-05-31: Cross-linked 8 links across 7 pages (scheduled run); connected 5 orphan situations: cape-solitude-mystery, fort-crestwall-sealed-orders, what-sunk-the-vestra, kalowe-sawek-bounty, estratto.
-- 2026-05-31: Cross-linked 7 links across 5 pages (scheduled run); tidefall in kyzil, admiral-fisk in delmar/estratto/timeline, varet in ket.
-- 2026-05-31: Cross-linked 16 mentions across 9 pages; Moucheron species, Khlysty situation thread, Auralis/Drowned Maw in abyss-vision, festival NPCs in il-gioco-delle-beffe.
-- 2026-05-31: Tag normalization complete — 6 passes, ~900 files touched; vault now 100% canonical (26 tags). All aliases remapped, frontmatter-dupe/entity-name/granular tags removed.
-- 2026-05-31: Tag taxonomy created (`wiki/system/taxonomy.md`): 26 canonical tags across 4 groups.
+- 2026-06-01: Session 04 wiki integration complete. Session note, 5 NPC updates, 4 situation updates, combat analytics and player interests populated, Nona's Favor moved to resolved. Felix Aho identity discrepancy logged.
+- 2026-05-31: Cross-linked 8 links across 7 pages (scheduled run); connected 5 orphan situations.
+- 2026-05-31: Tag normalization complete — 6 passes, ~900 files touched; vault now 100% canonical (26 tags).
 
 ## Current Arc
 
-Party commands the *Uncertainty* (ex-[[hcs-surety|HCS Surety]]) — private vessel, HCS prefix dropped, Crown colours not flying. In dry dock at [[la-vasca|La Vasca]], [[calveno|Calveno]], for a 5-day repair. Party has approximately one week of shore leave in a city already in [[il-gioco-delle-beffe|Il Gioco delle Beffe]] motion; Beffe registration opens tomorrow morning at the Mercatura bridge.
+Party at [[nona-black-jaw|Nona]]'s safe house in [[le-paludi|Le Paludi]], [[calveno|Calveno]]. [[felix-aho|Felix Aho]] (green Grung laborer) in custody — full intel on the [[calveno-beffa-grung-raid|Grung bombing plot]]: 4 underground attack points with black powder scaffolded against sewer ceilings, purple garrisons and red leaders at each, 2-day deadline timed to [[il-gioco-delle-beffe|Il Gioco delle Beffe]]. One of six ships destroyed. Party has initiative.
 
-[[shepherd-grigori|Shepherd Grigori]] completed his Calveno business (healed a Tessarine heir) and has departed the city. Location unknown. Thread dormant — let it sleep.
+*Uncertainty* still in dry dock at [[la-vasca|La Vasca]]. Festival underway — party registered. [[master-kyzil|Kyzil]] staying through the festival.
 
 ## Open PC Threads
 
-- **[[perrin-black-jaw|Perrin Black-Jaw]]:** Heard one word from the abyss: *"Grow."* — first conscious contact with his warlock patron [[auralis|Auralis]], who holds the Maw fissure in active containment. Nona met — attacks called off, favor promised (terms unknown to Perrin), sending stone received. Nona has confirmed the Grung tunnel sightings and is ready to call in the favor at the table. Rook's chart archive has Drowned Maw breach records; Crissdalynn found them.
-- **[[delmar-fisk|Delmar Fisk]]:** Water reached up for him at the Calveno dock and said his name. [[branca|Branca]] (Umberlee's appointment-keeper) found him at the Mercatura — he deflected with Deception 19, and she believed him. She rescheduled his communion and is waiting patiently at the [[waveservant-shrine|Waveservant Shrine]]. No escalation this cycle. Red coat locked in the captain's chest. Admiral Fisk form has duration limits.
-- **[[jean-claude-tabarnack|Jean-Claude Tabarnack]]:** Has 3 fertilized whip shark eggs; directed to [[studio-orsini|Studio Orsini]] / Marta Orsini. Still hasn't told the party about the 20 Simone vials in cargo. See [[the-canister|The Canister]]. Nona's favor will send him into the tunnels where his sister's operation is running — he doesn't know.
-- **[[crissdalynn-khinriss|Crissdalynn Khinriss]]:** Reunited with [[master-kyzil|Master Kyzil]] in Le Paludi. Kyzil is ready for tomorrow's meeting — missing Sentinels, possible spar, possible "Read the Current" technique. He arrives preoccupied by an unease he can't name (the Grung raid preparations moving beneath the festival). The Drowned Maw may be her thread or Perrin's or both.
+- **[[perrin-black-jaw|Perrin Black-Jaw]]:** Nona's favor completed — sent the party into the sewers, Grung plot exposed. Sending stone active with Nona. The "Grow" thread from [[auralis|Auralis]] has not advanced since Session 03. Bardic inspiration was the party's force multiplier in both the spar and the sewer fight.
+- **[[delmar-fisk|Delmar Fisk]]:** Confessed to the party: real admiral, five-ship fleet, [[pearl-of-souls|Pearl of Souls]] theft, Maw destroyed everything. Negotiated with [[umberlee|Umberlee]] through [[branca|Branca]] — revised deal: bring the Pearl, keep your life. Counter-offered to deliver the commissioners. Umberlee deferred. Boots of flying received from Jean-Claude. Abstaining from alcohol. Water still tracking him. Scarlet Admiral coat reversed to hide insignia.
+- **[[jean-claude-tabarnack|Jean-Claude Tabarnack]]:** Led the Grung sewer investigation. Executed the purple Grung captive after it called him a traitor and confirmed [[simone-tabarnack|Simone]]'s involvement. Learned that Grung defectors exist as a recognized kill-on-sight category — he is one. Wants to keep Felix alive to learn about defectors. Silent +1 shortbow acquired. Kyzil dismissed him as "no threat" — tension established.
+- **[[crissdalynn-khinriss|Crissdalynn Khinriss]]:** Sparred [[master-kyzil|Kyzil]] — grappled him R1 (nat 1), fell off roof from Downburst, Kyzil rescued her. Kingfishered the purple Grung at 45ft fly speed. Leg-swept Delmar for going to Umberlee without her. Kyzil told her the pilgrimage was the hardest in Eyrie history. Missing Sentinels not yet discussed.
 
 ## Faction Clocks
 
 | Faction | Clock | If Ignored | Next Trigger |
 |---|---|---|---|
-| [[dravosi-crown|Dravosi Crown]] | One Knight diverted west in the Central Strait, searching on wrong description (Beaumont's post-repaint testimony) | Knight drifts closer to Calveno waters; Phase 2 courtesy-stop notices in ~2 weeks | Knight picks up a correcting witness or Phase 2 notices circulate |
-| [[the-passage|The Passage]] | Nona met; favor ready to call in; Anzolo's call-off failed — he's at sea with a Tessarine tail | Anzolo leads Tessarine back to Calveno and Nona | Nona uses sending stone (at table); Anzolo arrives |
+| [[dravosi-crown|Dravosi Crown]] | One Knight diverted west in the Central Strait, searching on wrong description | Knight drifts closer to Calveno waters; Phase 2 courtesy-stop notices in ~2 weeks | Knight picks up a correcting witness or Phase 2 notices circulate |
+| [[the-passage|The Passage]] | Nona's favor executed. Grung bombing intel received. Nona mobilizing — sent Enzo with reinforcements. Anzolo still at sea with Tessarine tail | Nona acts on the intel alone; Passage breaks shadow protocol to warn Calveno | Party returns with a plan, or Nona acts on her own timeline |
+| [[grung|Grung / Simone]] | Operation partially compromised. 1 of 6 ships destroyed, 1 purple handler killed, 1 laborer captured. 4 attack points remain. 2-day deadline | Remaining 4 attack points detonate on schedule. Slaad emerges at Mercatura. Hundreds taken | Party hits another attack point, or detonation day arrives |
 
 ## Live Situations
 
 | Situation | Status | Party Awareness | Next Beat |
 |---|---|---|---|
-| [[abyss-vision\|Abyss Vision — "Grow"]] | Active — Auralis in active containment at the Maw; fissure holding but reserves burning | Perrin only | First context that illuminates "Grow"; next deep-water contact |
-| [[umberlees-message\|Umberlee's Message]] | Stalled — Branca believed Delmar's deception and rescheduled | Delmar + Crissdalynn | Branca realizes the "prior errand" was a lie, or Delmar goes voluntarily |
-| [[nonas-favor\|Nona's Favor]] | Ready — Nona confirmed Grung sightings, mapped two entry points, favor designed | Perrin only | Nona uses the sending stone (at table) |
+| [[calveno-beffa-grung-raid\|Grung Bombing Plot]] | Active — 4 attack points remain, 2-day deadline, party has intel and initiative | Full (all PCs) | Party plans response with Nona; hits attack points or warns the city |
+| [[umberlees-message\|Umberlee's Deal]] | Active — deal negotiated: Pearl for Delmar's life. Umberlee deferred final terms | Delmar, Crissdalynn, Perrin (invisible), Jean-Claude | Delmar pursues Pearl retrieval or Umberlee loses patience |
+| [[crissdalynns-pilgrimage\|Crissdalynn's Pilgrimage]] | Active — spar completed, missing Sentinels not yet discussed | Crissdalynn only | Kyzil shares missing Sentinels info; "Read the Current" technique available |
+| [[abyss-vision\|Abyss Vision — "Grow"]] | Active — Auralis in containment at the Maw; no advancement Session 04 | Perrin only | Next deep-water contact or context that illuminates "Grow" |
 | [[the-canister\|The Canister]] | Inert — JC collecting evidence | Jean-Claude only | JC speaks or someone finds the vials |
 | [[knighton-pursuit\|Knighton Pursuit]] | Active — one Knight in western Central Strait on wrong description | Aware (Grigori warned them) | Knight gets correcting intel or Phase 2 notices |
-| [[nona-and-anzolo\|Nona and Anzolo]] | Degraded — call-off failed; Anzolo at sea hunting Perrin; Tessarine tail | Perrin only | Anzolo arrives in Calveno (possibly with Tessarine following) |
-| [[crissdalynns-pilgrimage\|Crissdalynn's Pilgrimage]] | Active — Kyzil meeting tomorrow; weather unease growing | Crissdalynn only | The meeting: missing Sentinels, spar, technique |
+| [[nona-and-anzolo\|Nona and Anzolo]] | Degraded — Anzolo at sea with Tessarine tail | Perrin only | Anzolo arrives in Calveno |
+| [[jean-claudes-desertion\|Jean-Claude's Desertion]] | Advanced — JC now knows defectors exist; kill-on-sight policy; he is considered one | Jean-Claude only | JC pursues defector angle through Felix |
 
 ## Predictions
 
-1. Nona's favor arrives at the table via sending stone. The ask: send JC into the Warren tunnels to confirm Grung sightings. This is the door into the raid content — the tunnels contain Simone's extraction crews.
-2. Branca's patience has a shelf life. She rescheduled because she believed Delmar's lie, but she will eventually check on that "prior errand." When she does, Umberlee's next instrument may not be the soft one.
-3. Anzolo is at sea, still hunting, with a Tessarine tail he doesn't know about. When he arrives in Calveno, he may bring the Tessarine with him — directly to Nona.
-4. Kyzil's meeting with Crissdalynn tomorrow: missing Sentinels change the scope of the pilgrimage. The spar is available. His unease about something wrong in Calveno may surface as a question Crissdalynn can't answer yet.
-5. Three PCs (Perrin, Delmar, Crissdalynn) have independent threads pointing at the Drowned Maw. Auralis holds the fissure; Umberlee wants the Pearl; the Sentinels are missing near the Maw. Slow-burn convergence — not ready to fire yet, but approaching critical mass.
-6. Simone's western scout circuit (nat 20) now operates at a range overlapping Calveno-bound shipping. Felix Aho's stall may hear about it through trade contacts. JC doesn't know how close his sister's reach has come.
-7. Grigori thread dormant. Seed miraculous recoveries into noble courts the party visits. Do not force. The horror compounds with time.
-8. The Beffe registration window creates an immediate Calveno toy: team name, mark, category, scale, symbol, and entry stake.
-9. The Grung raid (Day 5) uses blackpowder detonation to collapse the ground at five festival-district points. A Red Slaad erupts at the Mercatura primary site as the boss encounter. Purple-caste handlers coordinate in comically bad disguises (fake moustaches, hats). Grung-themed pranks during La Finestra desensitize the crowd to Grung presence.
-10. After the raid, Nona publicly breaks the Passage's shadow protocol — declaring alliance with Calveno's citizens and assembling a pursuit force. This changes the Passage's relationship with the Dry permanently.
+1. **The Grung plot dominates the next session.** Party has 2 days and 4 attack points. Nona is mobilizing. The choice: systematic dismantlement (hit each point) vs. warning the city (breaks the Passage's shadow protocol). Jean-Claude is best positioned to lead — he reads Grung operations.
+2. **Umberlee's patience is finite.** Delmar negotiated a deal but hasn't started retrieval. The Grung crisis will consume party attention. When Umberlee checks in next, Delmar will have nothing to show. The water-tracking may intensify.
+3. **Felix Aho is a goldmine.** He knows operational details, the defector concept, and Grung command hierarchy. Jean-Claude wants him alive specifically for defector intel — this is a new personal arc.
+4. **Kyzil's "something foul from the south" is the Grung operation.** His instinct is correct but he can't name it yet. If the party tells him what they found, his tactical assessment could be valuable.
+5. **The missing Sentinels thread is on hold.** Kyzil hasn't shared it yet. The spar consumed the session time. This fires when the Grung crisis allows breathing room.
+6. **Anzolo is still at sea with a Tessarine tail.** When he arrives in Calveno, he may bring the Tessarine directly to Nona — into the middle of the bombing crisis.
+7. **The festival provides both cover and countdown.** Grung-themed pranks desensitize the crowd; the bombing is timed to La Finestra. The party's festival registration creates social cover for their own movements.
+8. **Delmar's abstinence is character texture worth tracking.** Something shifted in him between the confession and the Umberlee encounter. Watch for what triggers him to drink again.
+9. **Grigori thread dormant.** Seed miraculous recoveries into noble courts the party visits. Do not force.
 
 ## Spotlight Tracking
 
-All four PCs had strong moments in Session 03 (0 sessions since). Next session: JC is best positioned — Nona's favor pulls him into active content, and the raid is his sister's operation. Watch for Delmar falling behind now that Branca's thread is stalled.
+Session 04 spotlight was well-distributed: JC drove investigation + shopping, Delmar drove confession + Umberlee negotiation, Crissdalynn dominated combat (grapple + kingfisher), Perrin played force-multiplier support. **Next session:** JC is best positioned again — the Grung plot is his sister's operation, and he has Felix. Watch for Perrin falling behind (his threads haven't advanced in 2 sessions). Crissdalynn needs a combat-forward beat in the next encounter to stay engaged.

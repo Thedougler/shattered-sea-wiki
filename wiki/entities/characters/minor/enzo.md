@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak."
 created: 2026-05-20
-updated: 2026-05-31
+updated: 2026-06-01
 tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
@@ -42,9 +42,10 @@ At the table, he reads guests faster than [[ruk|Ruk]] does and communicates his 
 
 He is comfortable with people. He is more comfortable with violence.
 
-## Session 03
+## Session Events
 
-Present in Nona's kitchen in Le Paludi when Perrin arrived. Leaned against the far wall. After Nona met with the party, she sent Enzo to arrange consolation for the Vestra's surviving crew and to call off the attacks she'd set in motion against [[perrin-black-jaw|Perrin]].
+- **Session 03:** Present in Nona's kitchen in Le Paludi when Perrin arrived. Leaned against the far wall. After Nona met with the party, she sent Enzo to arrange consolation for the Vestra's surviving crew and to call off the attacks she'd set in motion against [[perrin-black-jaw|Perrin]].
+- **Session 04:** Opened the door at Nona's safe house, growled at the party before letting them in. Nona dispatched him with reinforcements after receiving the Grung bombing intel via sending stone.
 
 ## Statblock
 

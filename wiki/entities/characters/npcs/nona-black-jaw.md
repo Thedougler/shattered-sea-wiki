@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - rattkin
   - passage
@@ -86,17 +86,17 @@ Her late husband [[vincenzo-black-jaw|Vincenzo Black-Jaw]] built the *[[vestra|V
 
 ## Proactive Objectives
 
-- The favor from Perrin — unstated; he said yes unconditionally.
+- ~~The favor from Perrin~~ — **called in (Session 04)**: sent the party to investigate Grung sightings in the sewers.
+- Respond to the Grung bombing intelligence Felix provided — unprecedented threat to Calveno.
 - [[anzolo|Anzolo]]: was sent to find Perrin before attacks called off; now recalled.
 
 ## Session Events
 
 - **Session 03:** Perrin arrived in her kitchen during an open-door session. Waited for a rattkin family to leave. Heard about the Vestra. Cracked her spoon. Ordered [[enzo|Enzo]] to console the Vestra's crew. Called off the attacks — she had feared Perrin was captured by the [[tarahs|Tarahs]] after Cobb reported one of their ships in port. Asked a favor; he said yes unconditionally. Gave him a sending stone.
+- **Session 04:** Called in the favor via sending stone: "I need some work done. Come speak to me at the safe house. Bring your friends, especially the blue one, and anyone who can fight." Briefed party on 6 Grung sightings in Warren tunnels and sewers — unprecedented this far north. Uneasy around [[delmar-fisk|Delmar]]'s Dravosi appearance until he revealed his mother was Midchain and he'd "happily emptied a Dravosi ship or two." Accepted him because the Dravosi know her by a nickname Delmar didn't recognize. Provided Hero's Feast through her cooking. Received [[felix-aho|Felix Aho]] as prisoner with full bombing intel. "I knew I chose the right people for the job." Noted she's never met a Grung who wasn't a dissident besides [[jean-claude-tabarnack|Jean-Claude]]. Sent urgent response via sending stone when Perrin reported the black powder: "Oh, it's real. No shit. I will send Enzo and more to you."
 
 > [!dm]
-> The favor is the key question. Design it before the sending stone call comes. It should reflect what a Passage matriarch in Calveno would need from a rattkin sailor with a Crown-marked ship and a party of four.
->
-> A Dead Lady manifested in a Warren-adjacent canal before dawn and said "Fisk" to two Passage runners before being driven off. Cobb reported to Nona. She knows the name. She does not yet know that Fisk is one of Perrin's crew.
+> Nona now has actionable intelligence on a coordinated Grung bombing of Calveno — 4 attack points, 2-day deadline, festival timing. Her response will define the Passage's role in the next session. She may break shadow protocol to warn the city, or she may try to handle it through Passage channels alone.
 
 ## Connections
 

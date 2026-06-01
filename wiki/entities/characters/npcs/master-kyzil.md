@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - drowned-maw
   - recurring
@@ -163,6 +163,7 @@ legendary_actions:
 ## Session Events
 
 - **Session 03:** Reunited with [[crissdalynn-khinriss|Crissdalynn]] in Le Paludi streets. Had searched [[kalowe|Kalowe]] and [[tidefall|Tidefall]]. Said "a foul wind from the south." Party currently unaware of his broader context.
+- **Session 04:** Told Crissdalynn he gave her the hardest pilgrimage in Eyrie history because he knew she could do it. Maw has been unruly and dangerous since the wreck; weather odd; sentinels saw the wreck. Senses something foul from the south. Challenged party to spar on the [[ponte-bassa|Ponte Bassa]] rooftop — non-lethal four-on-one, 3 rounds. Crissdalynn grappled him R1 (he rolled nat 1). Used Downburst legendary action twice to break free — first saved by bardic inspiration, second knocked Crissdalynn off the roof. Panicked and flew down to catch her. Pinned [[jean-claude-tabarnack|Jean-Claude]]'s shirt to a chair with a returning dagger as a dominance display — JC was not participating. Delmar landed a sneak attack through Empty Wing Parry via bardic inspiration for 17 damage. Stat block held as designed for 3 rounds. Staying in Calveno through the festival.
 
 ## Connections
 
@@ -171,3 +172,7 @@ legendary_actions:
 - [[high-eyrie|The High Eyrie]]
 - [[crissdalynns-pilgrimage|Crissdalynn's Pilgrimage]]
 - [[calveno|Calveno]] — present location
+- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — dismissed as "no threat"; tension established
+- [[delmar-fisk|Delmar Fisk]] — bear-hugged Kyzil on meeting; joined spar uninvited
+- [[perrin-black-jaw|Perrin Black-Jaw]] — drum identified as tactical threat during spar
+- [[ponte-bassa|Ponte Bassa]] — spar location

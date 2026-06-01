@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings."
 created: 2026-05-20
-updated: 2026-05-31
+updated: 2026-06-01
 tags: []
 sources:
   - "Inbox/Session-03-Recap.md"
@@ -46,9 +46,10 @@ At the table, [[enzo|Enzo]] manages social reads; Ruk manages physical ones. Ruk
 
 If combat starts, he moves to put himself between Nona and whatever is moving toward her.
 
-## Session 03
+## Session Events
 
-Stood near the door in Nona's kitchen in [[le-paludi|Le Paludi]] when Perrin arrived. Told the crying rattkin mother: *"Don't worry. Nona will take care of it."*
+- **Session 03:** Stood near the door in Nona's kitchen in [[le-paludi|Le Paludi]] when Perrin arrived. Told the crying rattkin mother: *"Don't worry. Nona will take care of it."*
+- **Session 04:** Pushed [[perrin-black-jaw|Perrin]] into a seat when the party arrived at Nona's safe house. Now guarding [[felix-aho|Felix Aho]] (captured Grung prisoner) at the safe house.
 
 ## Statblock
 

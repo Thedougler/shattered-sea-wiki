@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - grung
 sources:
@@ -87,7 +87,8 @@ Has spent eight years building the [[vaka|Vaka]] — a loose community of Grung 
 
 ## Session Events
 
-*(Not yet encountered.)*
+> [!dm]
+> **Identity discrepancy (Session 04).** A green Grung named Felix Aho was captured in the Calveno sewers during the Grung bombing investigation. That Felix is a hired laborer, not a Vaka elder — terrified, cooperative, transported across the Central Strait on the sixth ship. The profiles are incompatible. See `wiki/discrepancy-log.md` for full details. Session canon takes precedence for wiki state, but the prep version of this page is preserved until the DM resolves which Felix is which.
 
 ## Relationships
 

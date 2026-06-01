@@ -5,13 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "An Umberlee servant found Delmar specifically in Calveno and is waiting at the Waveservant Shrine — not sleeping — until he comes. The message is from the Bitch Queen herself."
+summary: "Umberlee spoke through Branca directly to Delmar. Deal negotiated: retrieve the Pearl of Souls, keep your life, souls return to Umberlee. Delmar counter-offered to deliver the commissioners. Umberlee deferred — 'Bring me the pearl. We will talk then.'"
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - umberlee
   - waveservants
-sources: ["Inbox/Session-03-Recap.md"]
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "audio/sessions/session04/recap.md"
 lifecycle: active
 narrative_island:
 ---
@@ -47,8 +49,15 @@ It is a death sentence dressed as grace. Delmar refuses — by design.
 **Roll:** 5 — Setback
 Branca believed Delmar's Deception 19 completely. She interpreted his deflection — "Umberlee herself required this errand first" — as genuine divine priority and rescheduled his communion to a later slot. She returned to the shrine, noted "engaged on prior divine business" in her tide-table booklet, and settled in to wait for him to finish that errand before presenting. The soft instrument was too trusting; Umberlee's agenda stalls because her own appointment-keeper accepted the target's lie. No escalation this cycle. The shrine scene still waits, but the next harder instrument doesn't activate yet.
 
+### Session 04 — Communion Occurred
+
+Delmar went to the Calveno harbor shrine at night. Branca was kneeling in a pool surrounded by hurricane-force water. Umberlee possessed her directly — eyes rolled back, joints cracked, chanting. Initial demand: retrieve the Pearl, accept death. Delmar paid a gold tithe and attempted deception about accepting — Umberlee saw through it immediately. Demonstration of power: Branca's neck snapped, she died, ocean mist resurrected her. Revised deal: bring the Pearl, keep your life, Umberlee claims only the souls within it. Delmar counter-offered: retrieve the Pearl AND deliver those who commissioned the theft. Umberlee read his mind freely ("Your mind is as clear to me as any book") and confirmed he didn't know what he was stealing. Final terms deferred: "Bring me the pearl. We will talk then." Branca returned to normal, visibly shaken, headed to the church of Umberlee.
+
+**Party awareness:** Delmar told Crissdalynn the next morning. She leg-swept him for going without her. Perrin was invisible during the shrine scene (two steps behind Delmar). Jean-Claude was present.
+
 ## Open Questions
 
-- How much of "the souls you stole" does the party piece together?
-- Does Delmar pursue the Pearl, refuse, or stall — and at what cost?
-- Branca is patient but not infinite. How long before she checks on that "prior errand" and realizes it was a lie?
+- Does Delmar actively pursue the Pearl retrieval, or does the Grung crisis consume the party's attention?
+- What happens when Umberlee realizes Delmar is stalling on the retrieval?
+- Who commissioned the Pearl theft — and will Delmar's counter-offer bear fruit?
+- The church of Umberlee: does Branca report the encounter to other Waveservants?

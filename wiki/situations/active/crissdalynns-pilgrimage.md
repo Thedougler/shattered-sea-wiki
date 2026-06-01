@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Crissdalynn was given a pilgrimage task — map the Drowned Maw from inside a storm — that she has not formally completed. Master Kyzil found her in Calveno, delivered the High Eyrie weather warning, confirmed surviving counts, and asked to meet again tomorrow. The missing Sentinels have not been asked about yet."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - drowned-maw
   - mystery
@@ -95,6 +95,7 @@ Info earned through attention, not access. A visitor expects answers; receives a
 | World Tick 2026-05-19 | Kyzil left Tidefall, initially headed east. Found a sighting — aarakocra monk aboard a captured Crown patrol cutter, heading west. Corrected course toward the Central Strait. Days behind. |
 | World Tick 2026-05-26 | Kyzil found Crissdalynn in Calveno. Formal debrief: heard the Maw account, delivered the weather warning. Confirmed surviving counts. Stopped himself before asking about missing Sentinels — wants anomaly records first. Asked to meet again tomorrow. |
 | World Update — Session 03 | **Roll:** 15 — Partial. Kyzil prepared for tomorrow's meeting — found a roost with sightlines, reviewed what he knows about the anomaly, ready to share the missing Sentinels and offer the spar. But his unease — "a foul wind from the south" — is getting worse, not better. Something in Calveno's Beffe preparations reads wrong to him: activity patterns in the streets he can't place, a gut sense tuned by decades of observation that something is moving beneath the festival noise. He can't name it. He arrives at the meeting tomorrow preoccupied — split between his student and an instinct he can't articulate. |
+| Session 04 | Kyzil told Crissdalynn he gave her the hardest pilgrimage in Eyrie history because he knew she could do it. Confirmed the Maw has been unruly and dangerous since the wreck; weather odd; some sentinels saw the wreck. Senses something foul from the south. Sparred the party on the Ponte Bassa rooftop — 3-round non-lethal four-on-one. Crissdalynn grappled him R1 (nat 1 contest); he used Downburst to break free R2. Panicked and flew to rescue her when his own Downburst pushed her off the roof. Stat block held. **Missing Sentinels not yet discussed.** "Read the Current" technique not yet offered. Staying in Calveno through the festival. |
 
 ---
 

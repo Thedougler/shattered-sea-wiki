@@ -2,17 +2,19 @@
 type: situation
 subtype: obligation
 campaign: shattered-sea
-status: active
+status: resolved
 audience: dm
 publish: false
-summary: "Perrin said yes to Nona's favor before hearing what it was. She gave him a sending stone. The favor has not yet been named."
+summary: "Nona's favor was to investigate Grung sightings in the sewers. Party completed it in Session 04 — exposed a coordinated bombing plot, captured Felix Aho, returned with full intel."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags:
   - passage
   - rattkin
-sources: ["Inbox/Session-03-Recap.md"]
-lifecycle: active
+sources:
+  - "Inbox/Session-03-Recap.md"
+  - "audio/sessions/session04/recap.md"
+lifecycle: resolved
 narrative_island:
 ---
 
@@ -46,5 +48,8 @@ Word reached Nona that Perrin came into Calveno with a crew including a face nob
 **Roll:** 14 — Partial
 Nona received Cobb's report that Perrin's crew includes a blue Grung in a beret and moustache. She sent Warren runners deeper into the tunnel network to confirm the Grung sighting reports and map entry points before calling in the favor. Runners confirmed the sightings are real — movement in old maintenance corridors beneath Le Paludi and the Bridge district, concentrated near canal intersections. Two reliable entry points identified. Nona has good intel and confirmation — she's ready to call in the favor.
 
-> [!dm]
-> The favor is designed and Nona is ready to use the sending stone. The call happens at the table, not offscreen. When she contacts Perrin, she can brief him on the confirmed sightings and two entry points.
+### Session 04 — Favor Executed
+
+Nona used the sending stone: "I need some work done. Come speak to me at the safe house. Bring your friends, especially the blue one, and anyone who can fight." The favor: investigate Grung sightings in the Calveno sewers. Nona provided a map with 3 sighting locations, a Rattkin eyewitness, and Hero's Feast from her cooking. The party entered the sewers, discovered Grung tunneling and black powder staging, destroyed one of six ships, killed a purple handler, and captured [[felix-aho|Felix Aho]] (green Grung laborer) who revealed the full bombing operation — 4 attack points, scaffolding with black powder against sewer ceilings, 2-day deadline timed to the festival. Nona received Felix as prisoner and declared: "I knew I chose the right people for the job."
+
+**Resolution:** the favor is complete. The sending stone relationship continues — Nona and Perrin now operate as active allies against the bombing threat. The obligation thread feeds directly into [[calveno-beffa-grung-raid|Calveno Beffa Grung Raid]].

@@ -22,18 +22,15 @@ An LLM-assisted D&D 5e (2024) campaign wiki ("Shattered Sea") that is both an **
 | Delmar Fisk | Scarlet admiral coat; musket; party face |
 
 **Home base:** *Uncertainty* (ex-HCS Surety) — `wiki/entities/vehicles/hcs-surety.md`
-**Current arc:** Party in Calveno after Session 03; ship in dry dock at La Vasca (5-day repair); three new active situations (abyss vision, Umberlee's message, Nona's favor); Kyzil reunited with Crissdalynn.
+**Current arc:** Post-Session 04. Party at Nona's safe house in Le Paludi, Calveno — Grung bombing plot is the active crisis (4 known sites, 1 hidden primary with Slaad). Ship still in dry dock at La Vasca. Anzolo inbound, Umberlee gossip in the harbor, whale in the approach. 9 live situations tracked in `wiki/hot.md`.
 
 ---
 
 ## Active Factions (Clock Status)
 
-Update this block after every session or faction-clock run.
-
-| Faction | Clock | Next Trigger |
-|---|---|---|
-| Dravosi Crown | Moving — Rupert Knighton will send ships for Cap'n Gorgeous | Knighton's ships intercept or party enters Crown territory |
-| The Passage | Nona met; attacks called off; favor owed (Perrin, unconditional); Anzolo status unknown | Nona uses sending stone; Anzolo surfaces |
+Canonical faction clocks live in `wiki/hot.md` (Faction Clocks table). The world-update
+skill and faction-clock skill keep that table current. Four factions have active clocks
+post-Session 04: Dravosi Crown, The Passage, Grung/Simone, Umberlee/Waveservants.
 
 ---
 
@@ -72,9 +69,10 @@ resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects 
 
 ## Automatic Behaviors
 
-PostToolUse hooks enforce: frontmatter completeness (`fix_frontmatter.py`), search index
-updates (`qmd-reindex.sh`), Python linting (`lint-python.sh`). `index.md` is regenerated
-via `regen_index.py`, not hand-edited.
+A PreToolUse hook (`block-env-edits.sh`) prevents edits to `.env` files. PostToolUse hooks
+enforce: frontmatter completeness (`validate-frontmatter.sh`), search index updates
+(`qmd-reindex.sh`), Python formatting (`format-python.sh`), and Python linting
+(`lint-python.sh`). `index.md` is regenerated via `regen_index.py`, not hand-edited.
 
 Read order: `wiki/hot.md` first → `wiki/system/task-routing.md` → entity/situation files
 the task needs. Never read the full vault before generating content.
@@ -96,6 +94,11 @@ python3 .claude/scripts/check_ingest.py           # list source material still p
 python3 .claude/scripts/fix_frontmatter.py <file> # add missing frontmatter fields to a single file
 python3 .claude/scripts/archive_source.py <file>   # git-mv ingested source from Inbox/ to .raw/
 python3 .claude/scripts/ingest_packet.py <dir>     # compile context packet for subagent ingest
+python3 .claude/scripts/assemble_transcript.py     # assemble transcript chunks into a single file
+python3 .claude/scripts/preprocess_pdf.py <file>   # extract text from PDF source material
+python3 .claude/scripts/sync_skills.py             # sync .claude/skills/ to mirror directories
+python3 .claude/scripts/tag_taxonomy.py            # validate/report on tag usage across the vault
+python3 .claude/scripts/wiki_health_snapshot.py    # capture vault health metrics (--save to persist)
 markdownlint-cli2 "wiki/**/*.md"                  # markdown formatting (config: .markdownlint-cli2.jsonc)
 ```
 
@@ -113,7 +116,7 @@ python3.11 -m venv .venv && .venv/bin/pip install -e ".[dev]"  # first-time setu
 cd player-view && .venv/bin/pytest tests/   # unit tests (no ML stack needed)
 ```
 
-No test suite exists for the wiki scripts — they're validated by the hooks on every edit.
+Script tests live in `.claude/scripts/test_*.py` — run with `python3 .claude/scripts/test_<name>.py -v`.
 
 ---
 

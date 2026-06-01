@@ -8,9 +8,10 @@
 - [ ] Line 50: Long merged line contains both IC and OOC content jumbled together — transcription quality issue, not reliable for canon.
 - [ ] Line 87: "I will not per clean" — transcription garble, unclear what the merchant actually said.
 - [ ] Lines 129-131: Jean-Claude says he will "start using currency to crap poisons and shit" — "crap" likely "craft". Establishes intent to craft poisons going forward.
-- [ ] Lines 1219-1275: Boots of flying gifted by Jean-Claude — the recipient is unclear from transcript. Perrin argued Delmar should take them (small creature/bard support benefits), Delmar argued he doesn't need to fly (can swim). Rolled dice to decide — appears Perrin won (evens) but speaker labels during the exchange are inconsistent. Need DM confirmation of who received the boots.
-- [ ] Lines 1810-1813: Delmar threw a chair that hit Kyzil (AC 21+ with reaction), scored 21 — but earlier the same throw with 18 was described as missing Kyzil. Some confusion about whether the chair hit Crissdalynn (AC 17) instead. The DM said "that chair hits you" — possibly directed at Crissdalynn, not Kyzil.
+- [x] Lines 1219-1275, retcon at 2430-2466: Boots of flying gifted by Jean-Claude. Perrin won the roll but retconned — he doesn't wear shoes canonically ("I have little rat feet"). Delmar received the boots instead. Resolved via in-session retcon.
+- [x] Lines 1810-1813: Delmar's chair throw — the 18 missed Kyzil (AC 21+), but DM ruled it hit Crissdalynn (AC 17) who was grappling Kyzil: "that chair hits you" directed at Crissdalynn. Delmar then used bonus action steady aim for advantage, rerolled and got 21, which hit Kyzil for 4 bludgeoning (1d4 Tavern Brawler). Resolved from transcript context (lines 1779-1870).
 
-## Resolved (DM reviewed)
+## Resolved (transcript evidence)
 
-(none yet)
+- [x] Lines 1219-1275, retcon at 2430-2466: Boots of flying → Delmar (Perrin doesn't wear shoes). In-session retcon.
+- [x] Lines 1810-1813: Chair throw hit Crissdalynn first (18 vs AC 17), then Delmar rerolled with steady aim (21) to hit Kyzil.

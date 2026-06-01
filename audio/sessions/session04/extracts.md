@@ -155,8 +155,8 @@ IC/OOC split: ~50/50
   Source: lines 3336–3337
 
 ### [ITEM]
-- Perrin: received boots of flying from Jean-Claude (uncommon, attunement, 4hr flight)
-  Source: lines 1219–1275
+- Delmar: received boots of flying from Jean-Claude via Perrin (Perrin won the roll but doesn't wear shoes; retconned at line 2454). Uncommon, attunement, 4hr flight.
+  Source: lines 1219–1275, retcon at lines 2430–2466
 
 ### [NPC]
 - Master Kyzil (combat profile): fights with two sharp daggers and open palm strikes, uses patient defense, has flying movement (bonus action half speed), at least 4 attacks per turn. Initiative modifier very high (rolled 26). AC 21+ (dirty 20 misses, patient defense raises further). Has reaction to boost AC by 5 (wing slap). Has returning daggers (disappear into smoke, reappear in hand). DC 19 Strength save on open palm strikes (pushback 15ft + prone). Built to take on all four PCs at once.
@@ -208,3 +208,33 @@ IC/OOC split: ~40/60 (heavy mechanics discussion)
   Source: lines 2260–2282
 - Kyzil's returning daggers: disappear into smoke on impact, reappear in his hand
   Source: lines 2037–2044
+
+---
+
+## Scene 6 (continued): Ponte Bassa Rooftop — Kyzil Sparring Match (Between Rounds 2–3)
+Lines 2296–2450 | Duration: 1:09:00–1:12:52
+Participants: Crissdalynn, Delmar, Perrin, DM (Kyzil)
+IC/OOC split: ~15/85 (extremely heavy mechanics discussion)
+
+### [COMBAT]
+- Kyzil legendary action: Downburst — DC 19 Strength save, 2d8 bludgeoning, push 10ft + prone, breaks grapple. Crissdalynn rolled 15 (fail), added bardic inspiration (d6) for total 20–21 — pass. Grapple maintained.
+  Source: lines 2343–2388
+- Perrin's Round 2 turn: Moved 30ft, played drum, healing word on Delmar as bonus action (1d4+4, rolled poorly — 7 HP restored). Hid behind barrels/cover. Initiative 5 (last in order).
+  Source: lines 2428–2565
+- Kyzil acknowledged Perrin's drum as a tactical threat: "that drum is troubling... I'm going to have to stop that."
+  Source: lines 2422–2425
+
+### [CANON]
+- **RETCON:** Boots of flying recipient changed from Perrin to Delmar. Perrin won the roll but realized he doesn't wear shoes — canonically, Rattkin go barefoot ("I have little rat feet and I need to feel the ground"). He passed them to Delmar.
+  Source: lines 2430–2466
+
+### [LORE]
+- Rattkin (Perrin's species) canonically do not wear shoes — they go barefoot with exposed rat feet and prefer ground contact
+  Source: lines 2448–2454
+- Kyzil's returning daggers have range 60/180 (far beyond normal dagger range of 20/60)
+  Source: lines 2709–2710
+
+### [NPC]
+- Master Kyzil (additional combat details): CR 14. Has legendary actions (downburst: DC 19 Str, 2d8 bludgeoning + push 10ft + prone, breaks grapple). Returning daggers range 60/180. Reaction: wing slap to boost AC by +5. DM confirmed "I built him to take on all four of you at once and survive."
+  Source: lines 2343–2350, 2709, 2762, 3336–3337
+  Status: existing (wiki/entities/npcs/master-kyzil.md)

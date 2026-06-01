@@ -56,7 +56,7 @@ table_status: complete
 
 ---
 
-### If Jean-Claude Stays Outside — The Reef Shark
+## If Jean-Claude Stays Outside — The Reef Shark
 
 [If the player decides to stay on the outside, he's got the hull grip or the trailing rope. Let him take either.]
 
@@ -82,7 +82,7 @@ table_status: complete
 
 ---
 
-### In the Hold
+## In the Hold
 
 [When he takes the gap:]
 

@@ -33,7 +33,7 @@ A Valcoran-built remnant sloop, single-masted, its hull plated with iron below t
 
 ## Stat Block
 
-```
+```text
 IRONMANTLE
 Type:            Remnant Sloop (Valcoran-built)
 Tier:            1

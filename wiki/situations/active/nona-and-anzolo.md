@@ -40,6 +40,7 @@ Nona knows where Perrin is. The Passage knows.
 Nona's call-off directive went out through Enzo, but Anzolo was already at sea — methodically working Passage contacts eastward, hunting for a rattkin named Black-Jaw on a ship. The message is still in transit through the lantern and courier chain. Worse: Anzolo's inquiries at an eastern port reached a Tessarine informant. He's wanted by the Concordat, and now a Tessarine patrol knows a tortle matching his description was recently asking about Black-Jaw crew movements and heading west. Anzolo doesn't know he has a tail, and he doesn't know the search is over.
 
 ### World Update — Session 04
+
 **Roll:** 15 — Partial
 The Passage lantern chain carried Nona's call-off to the last port Anzolo visited — but he had already moved on. He is now within a day's sail of Calveno, still hunting for Perrin, unaware the search is over. The Tessarine tail closed distance as well — tracking his wake, one stop behind. Both are converging on Calveno. When Anzolo arrives, he brings the Tessarine directly to Passage home territory at exactly the worst moment: Nona's attention is consumed by the Grung bombing crisis. A Tessarine patrol discovering the Passage's Calveno safe house while Nona is running a counter-operation through it would be catastrophic.
 

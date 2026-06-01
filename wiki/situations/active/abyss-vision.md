@@ -54,6 +54,7 @@ narrative_island:
 [[auralis|Auralis]] holds the [[the-drowned-maw|Maw fissure]] in active containment, but the wards are burning through reserves the Antheri machine wasn't designed to sustain at this intensity indefinitely. The fissure doesn't widen further — but it doesn't close. A stalemate that favors whatever is pressing from the other side. The bioluminescent whale remains in deep water near Calveno's approach channels, but Perrin is ashore and the connection is dormant. "Grow" sits unanswered.
 
 ### World Update — Session 04
+
 **Roll:** 17 — Full Success
 Auralis's containment holds — the wards find a sustainable burn rate this cycle. The fissure doesn't widen. But the entity that sent "Grow" advances through a different channel entirely. The bioluminescent whale moves closer to Calveno's harbor approach. Two separate fishing boats report a pale shape under the hull on the same night — enormous, unhurried, not aggressive. It is not pressing through the Maw fissure. It is going around Auralis, through the connection to Perrin that already exists. The whale's proximity is the physical anchor. When the party next takes a boat, Perrin will see it. "Grow" remains unanswered, but the messenger is now in Calveno's waters, waiting.
 

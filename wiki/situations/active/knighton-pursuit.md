@@ -40,6 +40,7 @@ narrative_island:
 The Knight deployed in the Central Strait followed a merchant report matching Beaumont's wrong description westward. Investigated a different vessel — wasted time, but diverted closer to Calveno's waters in the process. Still searching on the wrong description. No actionable intelligence. See [[surety-missing|Surety Missing]] for the full search state.
 
 ### World Update — Session 04
+
 **Roll:** 9 — Partial
 The Knight picked up a fragmented report from a port contact — "a cutter that looked Crown-built" heading west into the Calven Roads, crew composition and markings unconfirmed. Not enough to identify the Uncertainty, but enough to adjust the search pattern toward Calveno's approaches. The Knight is drifting into the right area for the wrong reasons: still searching on Beaumont's wrong description, but now patrolling waters the party will need to cross when they leave. The geographic net tightens while the identification remains wrong.
 

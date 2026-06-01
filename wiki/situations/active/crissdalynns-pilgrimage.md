@@ -98,6 +98,7 @@ Info earned through attention, not access. A visitor expects answers; receives a
 | Session 04 | Kyzil told Crissdalynn he gave her the hardest pilgrimage in Eyrie history because he knew she could do it. Confirmed the Maw has been unruly and dangerous since the wreck; weather odd; some sentinels saw the wreck. Senses something foul from the south. Sparred the party on the Ponte Bassa rooftop — 3-round non-lethal four-on-one. Crissdalynn grappled him R1 (nat 1 contest); he used Downburst to break free R2. Panicked and flew to rescue her when his own Downburst pushed her off the roof. Stat block held. **Missing Sentinels not yet discussed.** "Read the Current" technique not yet offered. Staying in Calveno through the festival. |
 
 ### World Update — Session 04
+
 **Roll:** 14 — Partial
 Between the spar and the next morning, Kyzil asked questions around the Ponte Bassa and the harbor district. A fishmonger mentioned "small cloaked folk" near a storm drain after dark. A boatman smelled something acidic in a tunnel he shelters in. The fragments confirm his instinct — something is moving underground — but the festival camouflage blocks specificity. Calveno is full of strange costumes and odd smells right now. He has the direction but not the target. When the party shares what they found in the sewers, his tactical assessment will snap into focus immediately — he has been primed by his own investigation. The missing Sentinels conversation and "Read the Current" technique are both ready to fire at the next meeting with Crissdalynn.
 

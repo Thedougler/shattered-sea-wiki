@@ -36,7 +36,7 @@ A Tier 1 patrol cutter, same class as [[hcs-surety|HCS Surety]] but more heavily
 
 ## Stat Block
 
-```
+```text
 HCS RELENTLESS
 Type:            Patrol Cutter (Crown-issue)
 Tier:            1

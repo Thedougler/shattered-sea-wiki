@@ -152,6 +152,7 @@ Her ledger problem: Hollowell paperwork moved bonded cargo through Tidefall with
 | World Update — Session 03 | **Roll:** 8 — Partial. The Knight in the Central Strait picked up a merchant report matching Beaumont's (wrong) description heading west. Investigated a different vessel — time wasted, but the Knight diverted further west toward Calveno's waters. Closer to the party's general area now, but searching for the wrong ship on the wrong description. No actionable intelligence gained. |
 
 ### World Update — Session 04 (Cold)
+
 **Roll:** 15 — Partial
 Verity moved from watching to searching. She sent a discreet inquiry through Hollowell secondary accounts to a Midchain factor contact — asking not about Beaumont's wrong description, but about the actual cutter silhouette: Crown-built patrol hull profile, 80-foot class, recently seen in Midchain or Central Strait ports. She knows what a Surety-class cutter looks like regardless of paint. The inquiry competed with routine Hollowell trade correspondence and didn't get priority routing — it's in the factor network, moving slowly, reaching Midchain contacts within the next week. The repaint buys nothing against someone searching for hull profile, not color.
 **Hook strength:** Ripple — a Hollowell factor in a port the party visits might ask about "a Crown-built cutter" in conversation that sounds commercial, not investigative.

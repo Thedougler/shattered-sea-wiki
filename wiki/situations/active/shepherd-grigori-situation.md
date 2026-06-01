@@ -106,6 +106,7 @@ The thread goes dormant. It resurfaces naturally when the party meets a noble he
 **Post-Session 03:** Cure completed off-screen. Tessarine heir recovered. Grigori departed Calveno. Location unknown.
 
 ### World Update — Session 04 (Cold)
+
 **Roll:** 17 — Full Success
 Grigori reached another noble court — a Dravosi merchant-lord's daughter, consumption that wouldn't respond to divine healing. Twenty minutes behind a closed door, singing under his breath. The girl is recovering. The family is grateful and not asking questions. The Khlysty network expanded by one. Two miraculous recoveries now exist in different factions' noble courts: a Tessarine heir in Calveno, a Dravosi merchant-lord's daughter elsewhere. Same story, same healer, same singing. Servants talk.
 **Hook strength:** Ripple — two data points in the noble gossip circuit. Noticeable to an attentive party if they encounter Tessarine or Dravosi noble contacts who compare notes.

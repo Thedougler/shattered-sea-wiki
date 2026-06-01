@@ -139,7 +139,7 @@ sources: []
 - FIX: universal frontmatter — added missing `status`, `tags`, and `sources` to `wiki/index.md` and `wiki/ingest-registry.md`; added frontmatter to `wiki/log.md`
 - UPDATE: `wiki/hot.md` — Beffe registration is tomorrow morning; added immediate Calveno toy to predictions
 
-## 2026-05-28
+## 2026-05-28 (continued)
 
 - INGEST: `Inbox/Beaumonts-Crew.md` — status ingested — outputs: `wiki/entities/characters/crew/lenne-vor.md`, `wiki/entities/characters/crew/drav-holke.md`, `wiki/entities/characters/crew/wessa.md`, `wiki/entities/characters/crew/fen.md`, `wiki/entities/characters/npcs/beaumont-sel.md`, `wiki/entities/vehicles/saltwright.md`
 - INGEST: `Inbox/Black-Jaw-Run.md` — status ingested — outputs: `wiki/entities/factions/black-jaw-run.md`, `wiki/entities/factions/the-passage.md`, `wiki/entities/characters/npcs/nona-black-jaw.md`, `wiki/entities/places/warren.md`

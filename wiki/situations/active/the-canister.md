@@ -41,6 +41,7 @@ The cargo crate also contained flintlocks and [[miras-blade|Mira's Blade]]. The 
 Twenty vials is not a curiosity. It is a supply contract. The evidence is now in the party's hands whether or not Jean-Claude explains it.
 
 ### World Update — Session 04
+
 **Roll:** 4 — Setback
 Nona's people catalogued the sewer loot. Ruck handled the 6 new vials with caution but classified them as standard Grung poison — unremarkable to a non-Grung. Nobody compared them to the 20 Surety cargo vials. The pattern (Dravosi Alchemist's canister → Surety supply crate → Calveno sewer Grung) remains invisible to everyone except Jean-Claude. His secret holds. But the evidence is all sitting in the same inventory now — Surety vials and sewer vials, side by side, waiting for someone who knows what they're looking at.
 

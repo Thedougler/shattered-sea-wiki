@@ -65,6 +65,7 @@ prisoner in exchange for protection. He is not a leader, not an elder, and shows
 the prep character's background.
 
 **Source paths:**
+
 - Prep: `Inbox/Felix-Aho.md`
 - Session: `audio/sessions/session04/recap.md` (Scene 13), `audio/sessions/session04/extracts.md` (Scene 13)
 
@@ -74,6 +75,7 @@ defector who destroyed raiding groups; the session Felix Aho works for Simone's 
 roles.
 
 **Possible resolutions:**
+
 1. DM reused the name for a different character — rename session captive or prep NPC.
 2. DM adapted the character for a different role — session canon overrides prep.
 3. Same person, captured and forced into labor — but session Felix says "hired," not coerced.

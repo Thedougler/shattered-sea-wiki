@@ -14,6 +14,8 @@ sources:
   - "Inbox/player-primer.md"
 ---
 
+# Player Primer
+
 ![[The-Shattered-Sea.webp|Aerial view of the Shattered Sea island chain with turquoise reefs and scattered green islands]]
 
 The **[[shattered-sea|Shattered Sea]]**, 1495 DR: sixty thousand square miles of reef, deep channel, cliff port, free harbour, lost ruin, colonial ledger, old god, hungry storm, and ships with too many secrets in the hold. Magic here is part of the infrastructure — enchanted instruments, divine tribute systems, ruins still running on power no one has claimed, and magic treated the same way everything else is treated out here: as leverage.

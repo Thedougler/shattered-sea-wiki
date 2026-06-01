@@ -61,6 +61,8 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## The City Frame
 
+![[wiki/assets/sessions/session-04/art/calveno-beffa-evening.png|Calveno at twilight during Il Gioco delle Beffe — masked figures crowd the bridges and balconies, lanterns strung across the canals]]
+
 | | |
 |---|---|
 | **Theme** | **The city that plays liar.** The Beffa is masks and staged scares — deception as civic entertainment, a prank around every canal corner. |
@@ -90,6 +92,8 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## NPC Bench
 
+![[wiki/assets/sessions/session-04/art/nona-briefing.png|Nona Black-Jaw briefs the party at her safe house — food first, then the map, then the favor]]
+
 | Face | Grab when | Table handle | First line | Wants now |
 |---|---|---|---|---|
 | [[branca\|Branca]] | Delmar goes to the shrine | Bubbly cult-EA. "So!" / "Does that work for you?" A vessel Umberlee speaks, kills, and revives through. | "So. You came. Good. We have an appointment." | Delmar at his appointment; no escalation |
@@ -105,6 +109,8 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Threads & Clocks
 
+![[wiki/assets/sessions/session-04/art/sewer-powder-discovery.png|Jean-Claude clings to the sewer ceiling as a Gloom Stalker, shortbow drawn, above Grung directional markers and stacked black powder barrels]]
+
 | Thread | Current pressure | If ignored | Visible tick |
 |---|---|---|---|
 | [[calveno-beffa-grung-raid\|Grung Raid]] | Prep underway; blackpowder magazines being loaded into sewer positions; summoning circle under construction beneath the Mercatura; purple-caste handlers coordinating in bad disguises | Day 5: blackpowder detonations collapse the ground at five points; Slaad erupts at primary site; hundreds taken via sewer extraction to ocean-capable *vethka* | Strangers timing the bridge crush; a registered team that never verified; *vethka* sitting too still offshore; Grung-themed pranks normalizing their presence; purple handlers in fake moustaches |
@@ -116,6 +122,8 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 ---
 
 ## Spotlight
+
+![[wiki/assets/sessions/session-04/art/kyzil-rooftop-spar.png|The Ponte Bassa rooftop spar — Crissdalynn grapples Master Kyzil while Delmar hoists a chair and Perrin beats the bodhran]]
 
 | Day | Richest threads available for | Watch for falling behind |
 |---|---|---|
@@ -132,6 +140,8 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 ---
 
 ## Secrets & Clues
+
+![[wiki/assets/sessions/session-04/art/umberlee-speaks-through-branca.png|Umberlee speaks through Branca at the harbor shrine — the font erupts, Branca's eyes glow sea-green, Delmar stands defiant]]
 
 Keep these **unassigned** — give each to the first action that earns it, never bound to one roll or one scene.
 

@@ -13,12 +13,12 @@ tags:
   - mystery
 sources:
   - "Inbox/Warren-Marrows-Crate.md"
-narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene
   - The party asks about the dead courier through any Calveno canal contact
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 

@@ -14,13 +14,13 @@ tags:
   - recurring
 sources:
   - "Inbox/Warren-Nonas-Table.md"
-narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Perrin enters the Warren under any circumstances
   - Perrin contacts any Passage node in Calveno (word reaches Nona within hours)
   - Cobb reports the party's arrival from La Vasca
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 

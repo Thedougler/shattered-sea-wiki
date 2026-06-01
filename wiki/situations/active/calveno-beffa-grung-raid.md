@@ -11,7 +11,8 @@ updated: 2026-06-01
 tags:
   - grung
   - combat
-sources: ["Inbox/Calveno-Beffa-Grung-Raid.md"]
+sources:
+  - "Inbox/Calveno-Beffa-Grung-Raid.md"
 lifecycle: active
 narrative_island: calveno-raid-signs
 confidence_level: high

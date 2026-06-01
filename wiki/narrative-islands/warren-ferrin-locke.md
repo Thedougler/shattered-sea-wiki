@@ -13,12 +13,12 @@ tags:
   - mystery
 sources:
   - "Inbox/Warren-Ferrin-Locke.md"
-narrative_island: calveno-sandbox-run-guide
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene
   - The party finds Ferrin's cooperation agreement in Haut's or Venn's room (fast path)
 contains_situations: []
+narrative_island: calveno-sandbox-run-guide
 confidence_level: high
 ---
 

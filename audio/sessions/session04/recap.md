@@ -112,6 +112,19 @@ After 500 meters, they emerged from a storm drain opening into the ocean in a se
 
 ---
 
+## Scene 12: Le Paludi Coast — Grung Ambush & Ship Explosion
+*Part 07 | All PCs, DM (Grung)*
+
+Perrin swam underwater to the boat and surfaced just enough to see three Grung aboard — one blue, one green, one purple — along with eight full-size barrels of black powder. He returned with intel. Meanwhile, Delmar heard wet footsteps approaching from behind in the tunnel — two blue Grung walking single-file toward the exit. Jean-Claude went back into the darkness, invisible to their darkvision via Gloom Stalker, and ambushed the first from the ceiling with a poisoned arrow through the base of the neck — killing it instantly (24 damage: 13 piercing + 11 psychic from Dread Strike). The arrow passed through into the second Grung (9 piercing). As the wounded Grung ran toward the exit, Crissdalynn took it down silently in the dark.
+
+The party heard voices from the boat — "they should have been back by now" — and a splash as one Grung dove in to investigate. Jean-Claude crafted a fire arrow using rope soaked in Crissdalynn's oil, stepped out, and fired it at the barrels of black powder. The entire ship exploded. Everyone made CON or DEX saves against the blast — all passed (Crissdalynn saved via bardic inspiration). The ship was reduced to splinters and shrapnel.
+
+The purple Grung had escaped into the water. Jean-Claude and Crissdalynn spotted it surfacing briefly far ahead, swimming away at speed. Crissdalynn, immune to Grung poison thanks to the Hero's Feast, dove at 45-foot fly speed and kingfishered the purple Grung — grappling it with her talons. It was larger than Jean-Claude, wearing a heavy cloak and a fake handlebar mustache. It struck Crissdalynn with a spear (18 piercing, she deflected 14) but the poison had no effect. It failed to break the grapple.
+
+Crissdalynn delivered the captive to the party. The purple Grung immediately called Jean-Claude a traitor and a dissident. Jean-Claude asked if it worked with Simone — the Grung said only "that's all you need to know" and refused to speak further: "You might as well kill me. I will not say a thing." Jean-Claude solemnly slit its throat with visible pity: "I wish you could see the error of your ways." The Grung's final words: "I've done what's right for me and my family. I will die happy and I will die hating traitors like you." Jean-Claude took the fake mustache and added it to his collection. The party looted a spear, six vials of unknown poison, and basic medium armor.
+
+---
+
 ## Scene 8: Calveno Harbor Shrine — Umberlee Speaks Through Branca
 *Part 04 | Delmar, Perrin (invisible), DM (Branca/Umberlee), Jean-Claude*
 

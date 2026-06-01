@@ -544,3 +544,65 @@ IC/OOC split: ~40/60
 ### [SIGNAL]
 - Jean-Claude's player drove the entire sewer exploration with tactical precision — directing marching order, identifying Grung signs, testing for traps. Very high engagement with this plotline as a personal-stakes mission
   Source: part06 lines 37–147
+
+---
+
+## Scene 12: Le Paludi Coast — Grung Ambush & Ship Explosion
+Part 07 lines 1–218
+Participants: All PCs, DM (Grung — 2 blue, 1 green, 1 purple)
+IC/OOC split: ~55/45
+
+### [COMBAT]
+- Encounter: Grung sewer ambush + ship destruction
+- Participants: All 4 PCs vs 2 blue Grung (patrol), 1 blue + 1 green + 1 purple Grung (boat crew), 8 barrels of black powder
+- **Ambush phase:** Jean-Claude (Gloom Stalker, invisible in darkness) ambushed from the ceiling. Arrow through first blue Grung: 13 piercing + 11 psychic (Dread Strike) = 24 damage — instant kill. Arrow passed through to second: 9 piercing + vexed condition. Second Grung fled toward exit — Crissdalynn took it down silently (14+7=21 to hit)
+- **Ship explosion:** Jean-Claude fired oil-soaked fire arrow at black powder barrels (24 to hit). Massive explosion destroyed the ship. CON/DEX save required — Crissdalynn initially failed (16) but used bardic inspiration to pass. All others passed
+- **Pursuit phase:** Purple Grung escaped underwater. Spotted by Jean-Claude (perception) + Crissdalynn from air (22 — beat DC). Crissdalynn dove at 45ft fly speed, attacked with talons (21 to hit), grappled. Purple Grung hit with spear (26 to hit, 18 piercing — Crissdalynn deflected 14, took 4). Poison ineffective (Hero's Feast immunity). Grapple break attempt: 9 — failed
+- **Interrogation:** Purple Grung refused to talk. Jean-Claude executed it
+- Grung swim speed: 25. Crissdalynn fly speed: 45 — pursuit was not close
+  Source: part07 lines 1–200
+
+### [CANON]
+- Three Grung confirmed on a shallow-draft catamaran-like boat near the sewer exit: 1 blue, 1 green, 1 purple. Eight full-size barrels of black powder aboard
+  Source: part07 lines 52–54
+- The purple Grung called Jean-Claude a "traitor" and a "dissident" — recognized his kind and used those terms specifically. Said "I've done what's right for me and my family"
+  Source: part07 lines 179, 194–200
+- Jean-Claude asked the purple Grung if it works with Simone — the Grung acknowledged knowing the name but refused to elaborate: "that's all you need to know"
+  Source: part07 line 194
+- Jean-Claude executed the purple Grung captive by slitting its throat. Done with visible solemnity and pity, not cruelty. "I wish you could see the error of your ways"
+  Source: part07 lines 196–202
+- The purple Grung was wearing a fake handlebar mustache (Hulk Hogan style) — a disguise, different from the one the Rattkin witness described
+  Source: part07 lines 156–157
+- Jean-Claude took the fake mustache and added it to his collection
+  Source: part07 lines 206–207
+- Grung are arboreal (tree frogs) — their swim speed is only 25ft, same as climb speed. Not natural swimmers
+  Source: part07 line 129
+
+### [ITEM]
+- Party looted from purple Grung: spear, 6 vials of unknown poison ("gray poison" — different from basic poison), basic medium armor (breastplate)
+  Source: part07 lines 210–216
+- Jean-Claude: acquired fake handlebar mustache from purple Grung
+  Source: part07 line 206
+
+### [LORE]
+- Grung crossing the Central Strait is unprecedented — Jean-Claude confirmed no Grung has ever done it as far as he knows. Their presence in Calveno is deeply significant
+  Source: part05 lines 174–177, confirmed by part07 combat
+- The Grung operation in Calveno involves black powder (8 barrels on their boat), a shallow-draft vessel for sewer access, directional markings in the tunnels, and traps — this is organized military/tactical activity, not random migration
+  Source: part07 lines 52–54, part06 lines 52–98
+- Purple Grung are larger than typical Grung (bigger than Jean-Claude). The purple one had tactical gear (cloak, fake mustache disguise, spear, poison vials)
+  Source: part07 lines 156–157
+- The name "Simone" carries weight among the Grung — the purple captive reacted to it and called Jean-Claude a traitor for apparently being connected to Simone (or for leaving)
+  Source: part07 line 194
+
+### [NPC]
+- Purple Grung (unnamed, killed): Larger than typical Grung. Wore a fake handlebar mustache and heavy cloak as disguise. Carried spear, 6 vials of unknown poison, medium armor. Called Jean-Claude a traitor and dissident. Refused to give information. Died defiant. Connected to Simone's faction
+  Source: part07 lines 156–200
+  Status: dead
+
+### [SIGNAL]
+- Jean-Claude's player showed complex emotional engagement with the execution — killed the captive quickly and pragmatically but expressed genuine regret and pity. The character conflict between Jean-Claude's Grung identity and his opposition to Simone's faction is deeply felt
+  Source: part07 lines 196–202
+- Crissdalynn's "kingfisher" dive was a peak moment — the entire table celebrated her character's capability. DM acknowledged "this fucking character" and Perrin's player compared her to Goku
+  Source: part07 lines 123–167
+- Perrin's player showed humor in the interrogation — invisible slap, spitting, suggesting torture next time. Lighter counterbalance to Jean-Claude's grimness
+  Source: part07 lines 182–204

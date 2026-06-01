@@ -34,8 +34,10 @@ This reports parts available, checkpoint state, and staleness. Then route:
 | Pass 1 stale or missing | Run `assemble {NN}` → continue to Pass 2 |
 | Pass 2 not started | Read `references/speaker-resolution.md` → resolve speakers |
 | Pass 2 done, resolved.csv missing | Run `resolve {NN}` → continue to Pass 3 |
-| Pass 3 not started | Read `references/extraction-targets.md` → extract |
+| Pass 3 not started | Read `references/extraction-targets.md` → extract + recap |
+| Pass 3 partial | Check `progress.txt`, resume next chunk |
 | Pass 3 done, flags unresolved | Present flags to DM → wait |
+| Pass 3 done, Pass 4 not started | Load `ttrpg-wiki-ingest` → wiki integration from recap |
 | All passes complete | Report status, nothing to do |
 
 ## Required Skill Chain
@@ -67,6 +69,7 @@ All intermediate files live here. These are checkpoints — resume from the late
 | `parts.txt` | Pass 1 (script) | Manifest of which parts were assembled |
 | `speaker-map.md` | Pass 2 | Speaker resolution decisions with evidence |
 | `resolved.csv` | Pass 2 (script) | Speaker-corrected transcript |
+| `recap.md` | Pass 3 (cumulative) | Condensed IC-only scene summaries |
 | `extracts.md` | Pass 3 (cumulative) | Tagged canon extracts organized by scene |
 | `flags.md` | Pass 3 (cumulative) | Unresolved ambiguities for DM review |
 | `progress.txt` | Pass 3 (per chunk) | Which line ranges have been processed |
@@ -84,8 +87,9 @@ digraph passes {
 
   "Raw CSVs" -> "Pass 1\nAssemble";
   "Pass 1\nAssemble" -> "Pass 2\nResolve Speakers";
-  "Pass 2\nResolve Speakers" -> "Pass 3\nChunk Loop";
-  "Pass 3\nChunk Loop" -> "wiki/";
+  "Pass 2\nResolve Speakers" -> "Pass 3\nExtract & Recap";
+  "Pass 3\nExtract & Recap" -> "Pass 4\nWiki Integration";
+  "Pass 4\nWiki Integration" -> "wiki/";
 }
 ```
 
@@ -147,18 +151,18 @@ fix: resolve speakers for session {NN} transcript
 
 ---
 
-### Pass 3: Extract & Integrate (Sequential Chunk Loop)
+### Pass 3: Extract & Recap (Sequential Chunk Loop)
 
-**Requires agent judgment + wiki context.** Read `references/extraction-targets.md`.
-Load `ttrpg-wiki-ingest` and read its `references/transcript-ingest.md`.
+**Requires agent judgment.** Read `references/extraction-targets.md`.
 
-Input: `resolved.csv` + `wiki/hot.md` + relevant entity summaries
-Output: `extracts.md` + `flags.md` + wiki file changes
+Input: `resolved.csv` + `wiki/hot.md` (for context, not for writing)
+Output: `extracts.md` + `recap.md` + `flags.md`
 
 This pass processes `resolved.csv` in sequential ~800-line chunks. Each chunk is
-fully processed — extraction through wiki writes — before the next one begins.
-This keeps context manageable and creates natural handoff points where an agent
-can stop and a new one can resume.
+fully processed before the next begins, creating natural handoff points where an
+agent can stop and a new one can resume. **No wiki writes happen here** — the
+recap and extracts are the deliverables. Wiki integration is a separate pass so
+the DM can review the recap first.
 
 #### Per-Chunk Work
 
@@ -184,19 +188,14 @@ continuity):
 5. **Flag uncertainties.** Ambiguous canon, possible transcription errors with
    lore significance, speaker-dependent meaning → append to `flags.md`.
 
-6. **Write to wiki.** For extracts in this chunk:
-   - Append to session note (`wiki/sessions/session-{NN}.md`)
-   - Create or update entity pages for NPCs, locations, items
-   - Update `wiki/dm/combat-analytics.md` from `[COMBAT]` blocks
-   - Update `wiki/dm/player-interests.md` from `[SIGNAL]` blocks
-   - Update situation and faction files as needed
+6. **Append to `recap.md`** — condensed IC-only scene summaries (see format below).
 
-7. **Append to `extracts.md`** — the running extract log for this session.
+7. **Append to `extracts.md`** — tagged extracts with full detail and line citations.
 
 8. **Record progress** — append the chunk's line range to `progress.txt`:
    ```
-   chunk-1: lines 1-800 (2026-05-31)
-   chunk-2: lines 781-1600 (2026-05-31)
+   chunk-1: lines 1-800 (2026-06-01)
+   chunk-2: lines 781-1600 (2026-06-01)
    ```
 
 9. **Commit:**
@@ -204,24 +203,92 @@ continuity):
    ingest: session {NN} transcript chunk {N} (lines {start}–{end})
    ```
 
+#### Recap Format
+
+`recap.md` is a condensed, DM-facing record of in-game events only. No OOC, no
+meta, no rules discussion, no table banter. Each scene gets a short paragraph
+covering what happened in the fiction — who did what, what was said, what changed.
+
+```markdown
+# Session {NN} Recap
+
+Source: audio/sessions/session{NN}/resolved.csv
+Extraction date: {YYYY-MM-DD}
+
+---
+
+## Scene 1: {Location} — {Brief label}
+*{H:MM:SS}–{H:MM:SS} | {Participants}*
+
+{1–3 sentences of what happened in-game. Factual, not narrative. Name NPCs
+and PCs on first mention. Note items exchanged, decisions made, information
+revealed.}
+
+---
+
+## Scene 2: {Location} — {Brief label}
+*{H:MM:SS}–{H:MM:SS} | {Participants}*
+
+{...}
+```
+
+The recap should read like a concise event log — someone skimming it should know
+every consequential thing that happened in-game without wading through OOC chatter
+or mechanical details. Combat gets a sentence or two on outcome and consequences,
+not blow-by-blow.
+
 #### Resuming After Handoff
 
 When a new agent picks up, check `progress.txt` to see which chunks are done.
 Start the next chunk from the line after the last completed range (minus overlap).
-Read the tail of `extracts.md` for context continuity.
+Read the tail of `recap.md` for scene continuity.
 
 #### Final Chunk
 
-After the last chunk, do a final pass:
-- Update `wiki/hot.md` to reflect end-of-session world state
-- Verify `extracts.md` covers the full transcript timeline
+After the last chunk:
+- Verify `recap.md` covers the full session timeline with no gaps
+- Verify `extracts.md` has tagged entries for every scene
 - Review `flags.md` — present any unresolved items to the DM
 - Commit:
   ```
-  ingest: complete session {NN} transcript extraction
+  ingest: complete session {NN} transcript extraction and recap
   ```
 
-**Checkpoint files:** `extracts.md` (cumulative), `flags.md`, `progress.txt`.
+**Checkpoint files:** `recap.md` (cumulative), `extracts.md` (cumulative),
+`flags.md`, `progress.txt`.
+
+---
+
+### Pass 4: Wiki Integration
+
+**Uses existing pipeline.** Load `ttrpg-wiki-ingest` and read its
+`references/transcript-ingest.md`. Load `ttrpg-writing` for prose standards.
+
+Input: `recap.md` + `extracts.md` + `flags.md` (resolved)
+Output: Wiki file changes
+
+Before starting: verify `flags.md` has no unresolved items that would block
+canon. If it does, present flags to the DM and wait.
+
+The recap is the primary source for narrative content (session note, entity
+updates). The extracts provide structured data for mechanical files (combat
+analytics, player interests). Use both:
+
+| Wiki Target | Primary Source |
+|---|---|
+| Session note (`wiki/sessions/session-{NN}.md`) | `recap.md` scenes |
+| Entity pages (NPCs, locations, items) | `recap.md` + `[NPC]`/`[ITEM]` extracts |
+| `wiki/dm/combat-analytics.md` | `[COMBAT]` extracts |
+| `wiki/dm/player-interests.md` | `[SIGNAL]` extracts |
+| Situation and faction files | `[CANON]` extracts + `recap.md` |
+| `wiki/hot.md` | `recap.md` end state |
+
+Commit:
+```
+ingest: wiki integration from session {NN} transcript
+```
+
+**Checkpoint:** Session note exists and `hot.md` updated date matches.
 
 ---
 
@@ -234,7 +301,8 @@ Audio parts arrive as transcription completes. Run `status` to detect what chang
 | New parts, no previous work | Run all passes from scratch |
 | New parts, Pass 1 done | Re-run `assemble` (script detects new parts via `parts.txt`), then resume Pass 2 |
 | New parts, Pass 2 done | Re-run `assemble`, re-run `resolve` (speaker map still applies), resume Pass 3 from the first unprocessed chunk per `progress.txt` |
-| New parts, Pass 3 partially done | Re-run `assemble` + `resolve`, continue Pass 3 from next unprocessed chunk — earlier chunks' wiki writes are already committed and don't need redoing |
+| New parts, Pass 3 partially done | Re-run `assemble` + `resolve`, continue Pass 3 from next unprocessed chunk — earlier chunks' recap entries are already committed |
+| Pass 3 done, Pass 4 not started | Start wiki integration from the completed recap + extracts |
 | All parts present, all passes done | Report status, nothing to do |
 
 The sequential chunk architecture makes incremental processing straightforward:
@@ -277,15 +345,19 @@ Before starting Pass 3 (chunk loop):
 
 Per chunk (before committing):
 - Extracts cite source line ranges from `resolved.csv`
+- Recap paragraph covers only in-game events (no OOC, no meta)
 - No `[CANON]` block contradicts existing wiki without a flag
-- Wiki writes use wikilinks for all named entities
 
-After final chunk:
-- `extracts.md` scenes cover the full transcript timeline with no gaps
+After Pass 3 (before Pass 4):
+- `recap.md` covers the full session timeline with no scene gaps
+- `extracts.md` has tagged entries for every scene in the recap
 - `progress.txt` line ranges span the entire `resolved.csv`
 - Combat encounters have round counts and per-PC action summaries
 - `[SIGNAL]` blocks present if players showed clear engagement/disengagement
 - All unresolved items in `flags.md` presented to DM
+
+After Pass 4:
+- Session note exists with wikilinks for all named entities
 - `wiki/hot.md` reflects end-of-session world state
 
 ---

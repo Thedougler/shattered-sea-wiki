@@ -208,18 +208,22 @@ def cmd_status(session: str):
 
     # Pass 3
     progress = out_dir / "progress.txt"
-    if extracts.exists():
+    recap = out_dir / "recap.md"
+    if extracts.exists() or recap.exists():
         if progress.exists():
             chunks_done = len(
                 [ln for ln in progress.read_text().strip().splitlines() if ln.strip()]
             )
-            print(f"    Pass 3 (extracts.md): {chunks_done} chunk(s) processed")
+            print(f"    Pass 3 (extract & recap): {chunks_done} chunk(s) processed")
             last_line = (
                 progress.read_text().strip().splitlines()[-1] if chunks_done else ""
             )
             print(f"      Last: {last_line}")
         else:
-            print("    Pass 3 (extracts.md): present (no progress.txt)")
+            print("    Pass 3 (extract & recap): files present (no progress.txt)")
+        has_recap = "yes" if recap.exists() else "no"
+        has_extracts = "yes" if extracts.exists() else "no"
+        print(f"      recap.md: {has_recap} | extracts.md: {has_extracts}")
         if flags.exists():
             flag_text = flags.read_text()
             unresolved_count = flag_text.count("- [ ]")
@@ -231,9 +235,18 @@ def cmd_status(session: str):
         chunks_done = len(
             [ln for ln in progress.read_text().strip().splitlines() if ln.strip()]
         )
-        print(f"    Pass 3: {chunks_done} chunk(s) in progress.txt but no extracts.md")
+        print(f"    Pass 3: {chunks_done} chunk(s) in progress.txt but no output files")
     else:
-        print("    Pass 3 (extraction): not started")
+        print("    Pass 3 (extract & recap): not started")
+
+    # Pass 4
+    session_note = REPO_ROOT / "wiki" / "sessions" / f"session-{session}.md"
+    if session_note.exists():
+        print("    Pass 4 (wiki integration): session note exists")
+    elif recap.exists() and extracts.exists():
+        print("    Pass 4 (wiki integration): ready (recap + extracts available)")
+    else:
+        print("    Pass 4 (wiki integration): blocked (needs Pass 3 completion)")
 
 
 def parse_speaker_map(map_path: Path) -> dict:

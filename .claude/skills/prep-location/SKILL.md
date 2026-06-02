@@ -11,6 +11,12 @@ description: >
 
 Always check `wiki/index.md` for an existing stub before creating a new page.
 
+**Dungeon routing:** If the location is a multi-room dungeon, lair, ruin, or adventure
+site that players will explore room-by-room, route to `prep-dungeon` instead. That skill
+handles phased generation, room keying, spatial topology, and encounter calibration.
+Use this skill for dungeon pages only when creating a brief stub or overview — not a
+full keyed site.
+
 ---
 
 ## Interview

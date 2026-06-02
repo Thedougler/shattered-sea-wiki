@@ -76,6 +76,16 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 
 See `.claude/skills/live-co-dm/SKILL.md`.
 
+### Task: `dungeon-design`
+
+| # | File | Depth | Why |
+|---|---|---|---|
+| 1 | `wiki/system/party-combat-primer.md` | `[FULL]` | Party capabilities and Avoid flags |
+| 2 | `wiki/hot.md` | `[FULL]` | Active faction clocks, current campaign state |
+| 3 | `wiki/dm/combat-analytics.md` | `[SECTION: Design Adjustments]` | Encounter calibration |
+
+See `.claude/skills/prep-dungeon/SKILL.md`.
+
 ---
 
 ## System File Index

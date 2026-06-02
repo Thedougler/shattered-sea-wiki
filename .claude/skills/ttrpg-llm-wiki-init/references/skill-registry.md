@@ -275,11 +275,15 @@ lore (`wiki/lore/creatures/`) and a named creature entity (`wiki/entities/`).
 **Coordinates with:** `prep-encounter`, `lore-generation`
 
 ### `prep-dungeon`
-**Purpose:** Design a keyed dungeon or exploration site. Generate room keys, connection
-map, encounter density, treasure placement, faction occupancy. Apply LLM-wiki keyed format:
-concise room descriptions optimized for agent recall, not human prose.
-**Trigger:** "Design a dungeon", "key out [location]", "I need a keyed site for [place]."
-**Coordinates with:** `prep-location`, `prep-encounter`
+**Purpose:** Design a dungeon, lair, ruin, or adventure site using the four-phase pipeline
+(architecture → entities → spatial logic → micro-detail) with DM review between phases.
+Enforces OSE point-first format, Bryce Lynch interactivity, Three Clue Rule, chokepoint
+testing, and anti-slop pass. Files to `wiki/entities/places/dungeons/`.
+**Trigger:** "Design a dungeon", "prep an adventure site", "build a lair for [creature]",
+"I need a dungeon for this session", "key out [location]", "map out [underground site]."
+**Coordinates with:** `prep-location` (dungeon is a location subtype), `prep-encounter`
+(encounter calibration), `prep-npc` (inhabitant generation), `ttrpg-writing` (prose
+standards, anti-slop), `sandbox-narrative` (Three Clue Rule, pipeline reference)
 
 ### `prep-deity`
 **Purpose:** Create or expand a deity entry. Generate divine portfolio, alignment,

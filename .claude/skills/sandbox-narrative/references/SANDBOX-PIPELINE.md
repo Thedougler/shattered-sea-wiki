@@ -2,6 +2,10 @@
 
 Use this reference when the user wants to build a large sandbox from scratch: a dungeon, a region, a hex map, a city district, or any multi-node structure that doesn't yet exist in the vault.
 
+**Dungeon routing:** For keyed dungeons and adventure sites, use `prep-dungeon` instead
+of this generic pipeline. That skill specializes the four phases below for room-by-room
+site generation with topology testing, OSE formatting, and encounter calibration.
+
 Multi-pass generation prevents context collapse and slop re-emergence. Never attempt a full sandbox in one pass — each phase constrains what the next phase can invent.
 
 ---

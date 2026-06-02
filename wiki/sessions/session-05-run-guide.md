@@ -197,6 +197,7 @@ DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 > The shaft opens into a junction where the collector splits. Water pools ankle-deep. To the right, the tunnel narrows into shadow. To the left, the silt is churned — prints and drag marks disappearing around the bend. Low on the left wall, three cuts in the limestone. Small, clean, deliberate.
 
 **Key features:**
+
 - **Silt disturbance:** DC 10 Survival — multiple individuals, multiple passes, last 48 hours. DC 15 Nature — non-human prints.
 - **Trail markers:** Three cuts, knee-height, left wall (green/blue directional). Plus a separate set — older, deeper — pointing right toward the Mercatura. **JC reads automatically:** the three are green/blue-caste directional. The older set is **red-caste priority notation** — a different authority level, pointing a different direction. **This is Three Clue #3 for the primary site.**
 
@@ -226,6 +227,7 @@ Sentry team as above. Drainage overflow pipe (4-ft diameter) connects to Room 6 
 > This chamber mirrors the last, but the work is unfinished. Scaffolding climbs one wall — half-built, one support beam unsecured. Barrels sit on the floor, not yet stacked. A hand drill and coils of rope lie beside a wooden bowl of cold rice. Someone was eating here recently.
 
 **Key features:**
+
 - **Incomplete scaffolding:** DC 12 Athletics to collapse it, dumping barrels into standing water. Powder soaks — magazine neutralized without detonation risk. Loud.
 - **Builder's notation:** Scratched into the unsecured beam in Grung shorthand. DC 15 Investigation to notice. **JC reads automatically:** "anchor south of M — tie to main." DC 12 INT to parse "M" as a Mercatura reference. **This is Three Clue #1 for the primary site.**
 - **Builder's tools:** Chisels, rope, hand drill. Usable for disarming other magazines (grants advantage on DC 12 Sleight of Hand).
@@ -243,6 +245,7 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 > **Ruma — Social Encounter.** Does not want to fight. Surrenders if disarmed and outnumbered. Values survival over operational security. **Triggers:** naming Felix Aho (same rotation — she reacts); JC speaking Grung in handler-register (freezes — profoundly wrong to her). **What she knows:** four secondary sites and status; accelerated timeline ("detonation was two days — now less"); a fifth site exists under red-caste authority ("the circle site"); sentry compositions; egress vent positions. **What she doesn't know:** primary site location, circle purpose, Solange's identity, Simone's identity. **Warning:** if Ruma doesn't check in, the handler network knows within 2 hours. Clock starts.
 
 **Key features:**
+
 - **Waxed route map:** Shows **5 positions, not 4.** Four in green-caste notation. The fifth marked with a red-caste authority symbol. DC 12 Investigation. Ruma refers to it as "the circle site" but doesn't know where it is. **This is Three Clue #2 for the primary site.**
 - ***Globe of Invulnerability* scroll (×1):** Waxed tube under desk. Single-use, 6th-level abjuration. DC 16 Arcana to activate (caster level below spell level). 10-ft radius barrier blocking spells of 5th level or lower. Intended as raid extraction shielding — useful if the party needs to survive their own detonation.
 - **Hidden passage:** Behind stacked barrels along the south wall. DC 16 Investigation. Ruma does not know it exists — built by Solange's team. Leads directly to Room 8 (the primary chamber) from the direction the garrison is not watching. **This is the party's best tactical advantage for the climax encounter.**
@@ -301,6 +304,7 @@ The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 
 **Hidden passage approach (Route C from Room 6):** The garrison's passive Perception is 12 vs. this direction. **The party gains surprise.** This reverses the encounter from ambush-into to ambush-from.
 
 **Terrain:**
+
 - **Blackpowder ceiling:** Fire or thunder damage anywhere in the room — **8d6 fire, 40-ft radius (entire room), DC 16 DEX half. Total ceiling collapse: 4d6 bludgeoning, buried, DC 16 STR.** This collapses the Mercatura plaza above. Nuclear option.
 - **Summoning circle:** 10-ft diameter. Bright light 10-ft radius, dim light 10 ft beyond. **JC's Umbral Sight does not function in the bright zone.** DC 14 Arcana: extraplanar summoning circle. DC 20 or critical: configured for a Slaad, unbound, keyed to detonation. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line.
 - **Scaffolding:** 8 ft. Elevated positions: +2 AC vs. melee from below. DC 10 Athletics to climb. Destroying a section: DC 12 Athletics or 10 HP — collapses, 1d6 bludgeoning, difficult terrain.
@@ -411,6 +415,7 @@ No Slaad. The primary detonation can still fire (if the blackpowder remains), bu
 > The screaming starts.
 
 **Otar the Foul (CR 8).** AC 15. HP 152. Speed 40 ft, climb 20 ft. Legendary Resistance (1/Day). Magic Resistance.
+
 - **Multiattack:** Bite (+8, 2d8+5 + DC 15 Con Slaad egg), Claw (+8, 2d6+5, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft + grappled).
 - **Foul Miasma:** 10-ft radius, lightly obscured, 1d6 poison/turn.
 - **Entropic Regeneration:** 10 HP/round. **Suppressed by fire or acid.**

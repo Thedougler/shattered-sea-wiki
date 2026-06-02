@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura."
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - grung
   - combat
@@ -112,6 +112,7 @@ Room 8 (Primary Detonation Chamber)
 > The ladder is iron, bolted into limestone. Each rung is slick. Fifteen feet down, your boots find standing water and flat stone. The lantern from above casts a cone that reaches the first junction and stops. The walls are close. Scrape marks run along the stone at knee height, recent enough that the dust hasn't settled back into them.
 
 **Features:**
+
 - **Iron ladder**: Corroded rungs. (DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.)
 - **Scrape marks**: Knee-height gouges in the limestone. Equipment was carried down this shaft recently — barrels, timber. (DC 12 Investigation: the marks are consistent with barrel staves dragged against the wall.)
 - **Maintenance hatch**: Can be wedged open or sealed. If sealed behind the party, no one follows — but no one leaves this way either.
@@ -129,6 +130,7 @@ Room 8 (Primary Detonation Chamber)
 > The shaft opens into a junction where the collector splits. Water pools ankle-deep across worn stone, dark and still. To the right, the tunnel narrows into shadow. To the left, the silt is churned — prints and drag marks disappearing around the bend. Low on the left wall, three cuts in the limestone. Small, clean, deliberate.
 
 **Features:**
+
 - **Standing water**: Ankle-deep throughout. Difficult terrain for creatures without swim speed. (2 Crocodiles submerged here — optional encounter, see below.)
 - **Silt disturbance**: Left branch has heavier foot traffic. (DC 10 Survival: multiple individuals, multiple passes, within the last 48 hours. DC 15 Nature: prints are wrong — weight distribution and toe shape are non-human.)
 - **Trail markers**: Three cuts in the limestone, knee-height, left wall. Plus a separate set — older, deeper — pointing down the right branch toward the Mercatura. (Jean-Claude identifies automatically: the three cuts are green/blue-caste directional markers. The older set uses red-caste priority notation — a different authority level, pointing a different direction. **Three Clue #3.**)
@@ -150,6 +152,7 @@ Room 8 (Primary Detonation Chamber)
 > The ceiling drops. You crouch, then crouch lower. The tunnel is four feet high here, the stone pressing close, your breathing loud against the walls. Silt crunches underfoot. Ahead, the passage runs straight for sixty feet toward a pale square of light — the far hatch.
 
 **Features:**
+
 - **Low ceiling**: 4 ft after the first 30 ft. Medium creatures move at half speed (crouching). Disadvantage on melee attacks with two-handed or heavy weapons. Small creatures move normally.
 - **Silt floor**: Loose stone and packed silt. (DC 12 Acrobatics to move at full speed while crouched. Failure: stumble, noise audible in Rooms 2 and 7.)
 - **Far hatch**: Bridge district access. Silt disturbed on both sides — used from below. (Opens into a Bridge district maintenance alcove, street level.)
@@ -173,6 +176,7 @@ Room 8 (Primary Detonation Chamber)
 > The tunnel opens into a wider section where a side chamber branches left. The air changes — dry, chemical, sharp enough to taste. Against the far wall: barrels. Six of them, stacked two high and three across, lashed with rope and wedged tight with fresh-cut timber. The wood is pale and unstained. The barrels are sealed with tar.
 
 **Features:**
+
 - **Blackpowder barrels (×6)**: Tar-sealed, timber-wedged at a structural weak point in the ceiling. (DC 10 Investigation: blackpowder. DC 18 on a critical: positioned where the sewer ceiling is thinnest — someone chose this spot because the surface above carries foot traffic. Fire or thunder damage within 10 ft: **4d6 fire, 20-ft radius, DC 14 DEX half. Ceiling collapse: 2d6 bludgeoning, buried, DC 14 STR to free.**)
 - **Timber wedges**: Hold the barrel stack in place. (Removing: 1 minute careful work, or DC 12 Sleight of Hand as an action. Barrels roll free — magazine neutralized, but the noise alerts sentries in adjacent rooms.)
 - **Drainage overflow pipe**: 4-ft-diameter pipe in the floor, leads to Room 6. (Medium creatures must crawl: half speed, prone, disadvantage on attacks. Small creatures walk normally. Jean-Claude: climb speed applies, no penalty.)
@@ -194,6 +198,7 @@ Room 8 (Primary Detonation Chamber)
 > This chamber mirrors the last, but the work is unfinished. Scaffolding climbs one wall — half-built, one support beam braced against the ceiling, another leaning unsecured. Barrels sit on the floor, not yet stacked. A hand drill and coils of rope lie beside a wooden bowl of cold rice. Someone was eating here recently.
 
 **Features:**
+
 - **Incomplete scaffolding**: One support beam is unsecured. (DC 12 Athletics as an action: collapse the scaffolding, dumping barrels into the standing water. Powder soaks — magazine neutralized without detonation risk. The collapse is loud — audible in Rooms 6 and adjacent corridors.)
 - **Blackpowder barrels (×6)**: Same as Room 4, but on the floor, not stacked. Same detonation risk if fire/thunder applied.
 - **Builder's notation**: Scratched into the unsecured beam in Grung shorthand. Reads: "anchor south of M — tie to main." (DC 15 Investigation to notice. DC 12 Intelligence to parse "M" as a Mercatura reference. Jean-Claude reads the Grung shorthand automatically — "anchor to the primary, south of the Mercatura collector." **Three Clue #1.**)
@@ -217,6 +222,7 @@ Room 8 (Primary Detonation Chamber)
 > The passage opens into a dry alcove. Swept stone, no standing water. An oil lamp burns low on a plank desk balanced across two barrels. Waxed papers are pinned to the wall beside it — routes, numbers, tide markings in a hand too small for human fingers. A small red-skinned figure sits at the desk with her back to the entrance, cross-referencing one chart against another. She has not heard you yet.
 
 **Features:**
+
 - **Ruma Delacroix**: Blue-caste handler, quartermaster for the secondary magazine network. Use [[grung-elite-warrior|Grung Elite Warrior]] stats (CR 2, HP 49). Carries a hand crossbow (shortbow stats) and a signal whistle. (If she blows the whistle: all sentry teams go to active defense — no more hide-and-report. Reaching for the whistle costs her action. If the party acts before she whistles, she can be talked to.)
 - **Waxed route map**: Pinned to the wall. Shows 5 positions, not 4. Four marked with green-caste notation. The fifth marked with a red-caste authority symbol — a different command level. (**Three Clue #2.** DC 12 Investigation to examine the map. The fifth position is not labelled with a location — only the authority marker. Ruma refers to it as "the circle site" but does not know where it is.)
 - *Globe of Invulnerability Scroll (×1)*: In a waxed tube under the desk. (Single-use. 6th-level abjuration. Requires DC 16 Arcana check to use — the caster's level is below the spell's level. Creates a 10-ft-radius barrier that blocks spells of 5th level or lower. Thematic: raid equipment intended to shield extraction teams from their own detonation blast.)
@@ -240,6 +246,7 @@ Room 8 (Primary Detonation Chamber)
 > The ceiling rises. The tunnel widens. Running water fills a central channel, the sound echoing off vaulted stone eight feet overhead. Raised walkways line both sides, five feet wide, dark with spray. The air carries deep stone and tidal salt. Ahead, the tunnel curves left toward amber light, and the sound of the water changes — something larger is moving down there.
 
 **Features:**
+
 - **Central water channel**: 5 ft wide, 2 ft deep, flowing. Difficult terrain. Swim DC 10 to cross without being pushed 5 ft downstream. (Small creatures are fully submerged if they enter — swim or drown.)
 - **Stone pier supports**: Every 20 ft along the walkways. (Half cover.)
 - **Trail markers**: Knee-height on the right walkway wall. Green and blue directional marks point back toward the secondary sites. One set of red-caste priority marks points forward — toward the Mercatura. (Jean-Claude reads automatically: the red marks are command-level, same notation as the Y-junction set. They converge here, pointing deeper. This is the third confirmation of the primary site's direction.)
@@ -262,6 +269,7 @@ Room 8 (Primary Detonation Chamber)
 > In the centre of the floor, cut into the stone, a circle. Symbols scored deep and precise. Water flows through four channels from the edges of the room, parting around the circle in shallow trenches that keep the stone dry. The circle is bone-white against wet grey. Something about it hums at the edge of hearing.
 
 **Features:**
+
 - **Blackpowder-packed ceiling**: Every crack, join, and crevice. Catastrophic scale. (Fire or thunder damage anywhere in the chamber: **8d6 fire, 40-ft radius (entire room), DC 16 DEX half. Total ceiling collapse: 4d6 bludgeoning, buried, DC 16 STR to free.** This collapses the Mercatura plaza above. Using fire in this room is a last resort.)
 - **Summoning circle**: 10-ft diameter, cut into stone, kept dry by water-routing trenches. Sheds bright light in a 10-ft radius and dim light for 10 ft beyond that. Jean-Claude's Umbral Sight does not function in the bright zone. (DC 14 Arcana: summoning circle for an extraplanar entity, not fiend or celestial, outer planes. DC 20 Arcana or critical: configured for a **Slaad**, unbound, uncontrolled. Keyed to activate on detonation — the explosion and the summoning are one event. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line. Prevents summoning even if detonation fires.)
 - **Scaffolding**: Timber frames along all walls, rising to 8 ft. (Elevated positions: +2 AC vs. melee from below, no cover vs. ranged. Two [[grung-elite-warrior|Elite Warriors]] fire from here. Climbing the scaffolding: DC 10 Athletics. Destroying a scaffold section: DC 12 Athletics or 10 HP damage — collapses that section, dealing 1d6 bludgeoning to anyone on it and creating difficult terrain.)
@@ -289,11 +297,13 @@ Room 8 (Primary Detonation Chamber)
 Two additional secondary magazines exist at the Bridge district (T1, reached from Room 3) and the harbour approach (T2, reached from Room 7). Use Room 4's layout and sentry composition for both, with these variations:
 
 **Magazine Gamma (Bridge District — T1):**
+
 - Ceiling 5 ft (tight — Bridge district infrastructure is older and lower)
 - 4 barrels instead of 6 (smaller charge — buckle ground, not full breach)
 - Sentry team identical to Room 4. Access via side passage from Room 3
 
 **Magazine Delta (Harbour Approach — T2):**
+
 - Near an egress vent to the outer quay. The vent is 3 ft wide and leads to open air above the waterline
 - 6 barrels. Sentry team identical to Room 4
 - The egress vent is part of the extraction route — after detonation, captives would be moved through this vent to waiting [[calveno-beffa-grung-raid|vethka]] beyond the patrol line
@@ -357,6 +367,7 @@ The dungeon has three natural acts:
 ### If Loud
 
 The party fights through the sentry teams and makes noise. Each combat alert propagates:
+
 - Room 2 combat alerts Rooms 3 and 4 (DC 14 Stealth to fight quietly)
 - Room 4 combat alerts Room 6 (Ruma reaches for the whistle)
 - Room 6 whistle alerts all secondary sites and the primary garrison
@@ -366,6 +377,7 @@ If the entire network is alerted, the primary chamber garrison has time to prepa
 ### If Stealthy
 
 The party moves through the network without triggering alerts. Stealth DCs are listed per room. If no alert propagates, the sentry teams are in their default posture (hide-and-report at secondary sites, working at the primary). The party can:
+
 - Bypass secondary sites entirely and go straight to Room 8
 - Neutralize sites silently (kill sentries before they flee, soak powder without noise)
 - Use Room 6's hidden passage to approach Room 8 from the unguarded direction
@@ -375,6 +387,7 @@ Stealth through the entire network is possible but demanding — 4+ group Stealt
 ### If Negotiate
 
 Ruma Delacroix (Room 6) is the negotiation path. She values her life over the operation. If the party captures her without raising an alarm, she gives them:
+
 - Secondary site locations (confirms Felix's intel)
 - The accelerated timeline
 - Existence of "the circle site" (fifth position, red-caste authority)
@@ -396,6 +409,7 @@ The Room 8 encounter is Extremely Deadly by the numbers (5000 adjusted XP vs. a 
 ### Solange's Escape
 
 If Solange escapes (Misty Step + Dimension Door), she reports to [[simone-tabarnack|Simone]]:
+
 - The primary site is compromised
 - A Grung defector (Jean-Claude) identified caste notation and operated against the clan
 - The party includes at least four individuals with military-grade coordination
@@ -434,11 +448,13 @@ Rewards party strengths if they prepare:
 | 20 | Identify circle as Slaad-configured (Arcana), identify ritual techniques as non-Grung-developed |
 
 **Shenanigan offers:**
+
 - Deliberately detonate the powder. Nuclear option — everything in the room dies, the Mercatura collapses. The party achieves Simone's objective for her.
 - Use the *Globe of Invulnerability* scroll (if found in Room 6) to shield from deliberate detonation. DC 16 Arcana to activate (caster level below spell level). Party survives their own explosion.
 - Turn Otar's Bile Spray (acid) against his own regeneration — he's too dumb to avoid hitting adjacent PCs, and the splash suppresses his regen. Reward creative positioning.
 
 **Box of Doom flags:**
+
 - Slaad egg infection from Otar's bite (DC 15 CON — 3-month time bomb, curable by Lesser Restoration)
 - Solange's Dimension Door escape — if she gets away, Simone learns everything about Jean-Claude
 - Civilian deaths at secondary sites while the party fights here — tracked per round after round 3

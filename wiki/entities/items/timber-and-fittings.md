@@ -8,7 +8,7 @@ publish: true
 summary: "Spare planks, bolts, canvas, and rope sold at chandlery rate from working boatyards — stock varies, but a good yard always has the basics."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: confirmed
@@ -16,6 +16,9 @@ item_type: material
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
+  - maritime
 ---
 
 # Timber and Fittings

@@ -8,7 +8,7 @@ publish: true
 summary: The Giant Ape, a CR 7 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
   - Homebrew
@@ -26,6 +26,9 @@ page: 354
 statblock: inline
 str: 23
 wis: 12
+tags:
+  - combat
+  - homebrew
 ---
 
 # Giant Ape

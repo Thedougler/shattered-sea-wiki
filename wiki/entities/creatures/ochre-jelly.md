@@ -8,7 +8,7 @@ publish: false
 summary: CR 2 ooze that deals acid damage and splits into smaller jellies when struck by lightning or slashing weapons.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 230
 statblock: inline
 str: 15
 wis: 6
+tags:
+  - combat
 ---
 
 # Ochre Jelly

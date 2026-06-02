@@ -8,13 +8,15 @@ publish: false
 summary: "Black jaguar tabaxi bodyguard for Nona Black-Jaw. Impeccable suit, polished claws, lit cigar. The most dangerous person in the room who will not be the first one to speak."
 created: 2026-05-20
 updated: 2026-06-01
-tags: []
+
 sources:
   - "Inbox/Session-03-Recap.md"
   - "Inbox/Enzo.md"
 confidence_level: medium
 aliases:
   - Enzo
+tags:
+  - passage
 ---
 
 # Enzo

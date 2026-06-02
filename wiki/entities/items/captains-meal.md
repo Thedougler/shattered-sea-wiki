@@ -8,7 +8,7 @@ publish: true
 summary: "A premium tavern meal — cooked rice, pork, roast plantain, fresh fish, lime, and spiced rice; the best the house offers."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: food
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
 ---
 
 # Captain's Meal

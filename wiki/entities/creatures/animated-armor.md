@@ -8,11 +8,13 @@ publish: true
 summary: "CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks."
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/animated-armor.md"
 confidence_level: high
 cr: 1
+tags:
+  - combat
 ---
 
 # Animated Armor

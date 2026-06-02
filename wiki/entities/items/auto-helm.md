@@ -8,13 +8,16 @@ publish: true
 summary: "A clockwork mechanism fitted to the ship's tiller or wheel — holds a set heading for up to 8 hours without a crew member at the helm. 1,400 gp."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: medium
 rarity: uncommon
 attunement: false
 homebrew: true
+tags:
+  - homebrew
+  - maritime
 ---
 
 # Auto Helm

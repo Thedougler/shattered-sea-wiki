@@ -8,11 +8,13 @@ publish: true
 summary: "CR 2 construct. Grapples and suffocates one Medium or smaller creature; halves damage taken while grappling."
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/animated-rug-of-smothering.md"
 confidence_level: high
 cr: 2
+tags:
+  - combat
 ---
 
 # Animated Rug of Smothering

@@ -8,7 +8,7 @@ publish: true
 summary: Calveno's annual open bardic competition — multiple bands playing simultaneously across the canal district for three hours while crowds move between them, judged by which stage holds the most people at the end.
 created: 2026-05-17
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 category: lore
@@ -18,6 +18,8 @@ aliases:
   - Battle of the Bands
 timeline_position: during campaign
 confidence_level: medium
+tags:
+  - tessarine
 ---
 
 # Il Palio delle Voci Contese

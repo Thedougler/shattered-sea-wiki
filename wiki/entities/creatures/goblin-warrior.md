@@ -8,7 +8,7 @@ publish: false
 summary: CR 1/4 fey goblin combatant; Nimble Escape lets it disengage or hide as a bonus action, making it frustrating to pin down.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 142
 statblock: inline
 str: 8
 wis: 8
+tags:
+  - combat
 ---
 
 # Goblin Warrior

@@ -8,7 +8,7 @@ publish: true
 summary: Public statblock reference for Giant Eagle, a CR 1 celestial in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 356
 statblock: inline
 str: 16
 wis: 14
+tags:
+  - combat
 ---
 
 # Giant Eagle

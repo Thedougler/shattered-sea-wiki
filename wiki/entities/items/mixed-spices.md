@@ -8,7 +8,7 @@ publish: true
 summary: "Pepper, clove, and ginger from the Verdant Teeth trade — makes salt provisions edible at sea. 1 gp per lb."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: provision
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
 ---
 
 # Mixed Spices

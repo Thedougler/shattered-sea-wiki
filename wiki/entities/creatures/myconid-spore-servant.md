@@ -8,7 +8,7 @@ publish: false
 summary: CR 1 plant creature animated by myconid sovereign spores; retains no personality, only function.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 223
 statblock: inline
 str: 16
 wis: 6
+tags:
+  - combat
 ---
 
 # Myconid Spore Servant

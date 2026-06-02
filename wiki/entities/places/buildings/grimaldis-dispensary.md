@@ -8,7 +8,7 @@ publish: true
 summary: "A small apothecary on Kalowe's third island — Ilaria Grimaldi stocks healer's supplies, antitoxins, and one or two things she doesn't put on the board, and she has been here long enough not to be surprised by what anyone needs."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Ilaria-Grimaldi.md"
   - "Inbox/Grimaldis-Dispensary.md"
@@ -18,6 +18,8 @@ aliases:
   - "Grimaldi's"
 parent_location: "[[kalowe|Kalowe]]"
 district: Third Island
+tags:
+  - passage
 ---
 
 # Grimaldi's Dispensary

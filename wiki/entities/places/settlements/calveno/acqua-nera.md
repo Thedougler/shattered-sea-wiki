@@ -8,7 +8,7 @@ publish: true
 summary: A hull conversion and repainting yard in Calveno's outer harbour, southwest approach — specialises in prize conversions and vessel re-identification, no Canal Commission filing on quiet work.
 created: 2026-05-15
 updated: 2026-05-31
-tags: []
+
 sources:
   - Inbox/places/calveno/Acqua-Nera.md
 confidence_level: medium
@@ -18,6 +18,8 @@ visibility: public
 aliases:
   - Acqua Nera
 district: Outer Harbour, Southwest Approach
+tags:
+  - maritime
 ---
 
 # Acqua Nera

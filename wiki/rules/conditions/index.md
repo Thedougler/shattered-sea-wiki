@@ -10,13 +10,12 @@ status: active
 campaign: shattered-sea
 created: 2026-05-03
 updated: 2026-05-31
-tags:
-  - player-resource
-  - condition
-  - rule
+
 sources:
 - PHB 2024
 confidence_level: high
+tags:
+  - player-resource
 ---
 
 # Conditions

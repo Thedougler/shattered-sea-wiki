@@ -8,10 +8,12 @@ publish: false
 summary: "Bosun aboard the Saltwright under Beaumont Sel. Short, broad, practical, and exacting about correct ship work."
 created: 2026-05-28
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Beaumonts-Crew.md"
 confidence_level: confirmed
+tags:
+  - maritime
 ---
 
 # Drav Holke

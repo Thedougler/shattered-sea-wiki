@@ -8,7 +8,7 @@ publish: true
 summary: "The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Chain-Council.md"
   - "Inbox/The-Quorum.md"
@@ -19,6 +19,8 @@ aliases:
   - Quorum
 captain: "[[chain-council|Chain Council]]"
 home_port: "[[kalowe|Kalowe]]"
+tags:
+  - maritime
 ---
 
 # The *Quorum*

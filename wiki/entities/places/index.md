@@ -8,14 +8,14 @@ summary: Index of the regions within the Shattered Sea.
 campaign: shattered-sea
 created: 2026-05-04
 updated: 2026-05-31
-tags:
-  - player-resource
-  - location
+
 sources:
 - Inbox/places/index.md
 subtype: place
 status: unknown
 confidence_level: medium
+tags:
+  - player-resource
 ---
 
 # Places in the Shattered Sea

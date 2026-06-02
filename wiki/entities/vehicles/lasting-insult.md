@@ -8,7 +8,7 @@ publish: false
 summary: "A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -17,6 +17,9 @@ tier: 1
 banner: "raw/assets/banners/Lasting-Insult.webp"
 current_location: "South Harbour Impound, Port Tidefall"
 home_port: "[[port-tidefall|Port Tidefall]]"
+tags:
+  - maritime
+  - dravosi
 ---
 
 # Lasting Insult

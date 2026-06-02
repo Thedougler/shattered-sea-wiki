@@ -8,7 +8,7 @@ publish: true
 summary: CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XPHB
 confidence_level: high
@@ -25,6 +25,9 @@ page: 356
 statblock: inline
 str: 14
 wis: 10
+tags:
+  - combat
+  - maritime
 ---
 
 # Reef Shark

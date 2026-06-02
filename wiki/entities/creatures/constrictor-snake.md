@@ -8,7 +8,7 @@ publish: true
 summary: Public statblock reference for Constrictor Snake, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-31
-tags: []
+
 sources:
   - XPHB
 confidence_level: high
@@ -25,6 +25,8 @@ page: 348
 statblock: inline
 str: 15
 wis: 10
+tags:
+  - combat
 ---
 
 # Constrictor Snake

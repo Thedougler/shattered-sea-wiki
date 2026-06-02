@@ -8,10 +8,12 @@ publish: false
 summary: "Navigator aboard the Saltwright under Beaumont Sel. Middle-aged chart worker with twenty years of ink-darkened precision."
 created: 2026-05-28
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Beaumonts-Crew.md"
 confidence_level: confirmed
+tags:
+  - maritime
 ---
 
 # Lenne Vor

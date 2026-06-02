@@ -8,7 +8,7 @@ publish: false
 summary: "CR 6 juvenile elemental kraken from the Elemental Plane of Water — eyeless, flat-black, eight-armed surface hunter. Designed as a challenging but winnable solo encounter for a CR 5 party with a tier 1 ship."
 created: 2026-05-17
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Krakling.md"
 confidence_level: high
@@ -16,6 +16,10 @@ cr: 6
 aliases:
   - "Krakling"
   - "Young Kraken"
+tags:
+  - combat
+  - maritime
+  - homebrew
 ---
 
 # Krakling

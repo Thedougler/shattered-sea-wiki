@@ -8,10 +8,12 @@ publish: false
 summary: "PHB rules for mounts, barding, saddles, drawn vehicles, and waterborne/airborne ships — including speed, crew, cargo, HP, AC, and damage threshold."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Player's Handbook (2024)"
 confidence_level: medium
+tags:
+  - maritime
 ---
 
 # Mounts and Vehicles

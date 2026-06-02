@@ -8,7 +8,7 @@ publish: false
 summary: CR 1/2 fungal plant that explodes on death, releasing spores that infect creatures and reanimate their corpses as tiny gas spore fungi.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 125
 statblock: inline
 str: 5
 wis: 1
+tags:
+  - combat
 ---
 
 # Gas Spore Fungus

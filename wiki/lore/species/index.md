@@ -8,14 +8,14 @@ type: index
 campaign: shattered-sea
 created: 2026-05-04
 updated: 2026-05-31
-tags:
-  - player-resource
-  - playable
+
 sources:
 - Inbox/lore/species/index.md
 confidence_level: high
 subtype: species
 status: unknown
+tags:
+  - player-resource
 ---
 
 # Playable Species

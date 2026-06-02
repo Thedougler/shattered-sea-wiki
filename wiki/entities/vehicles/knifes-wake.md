@@ -8,7 +8,7 @@ publish: true
 summary: "A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -17,6 +17,9 @@ tier: 1
 aliases:
   - "Knife's Wake"
   - "The Knife's Wake"
+tags:
+  - maritime
+  - dravosi
 ---
 
 # The *Knife's Wake*

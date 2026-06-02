@@ -8,10 +8,14 @@ publish: true
 summary: "Travel speeds, navigation checks, upkeep costs, acquiring a ship, living quarters, and ship reputation for Shattered Sea play."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: medium
+tags:
+  - maritime
+  - homebrew
+  - player-resource
 ---
 
 # Ship Operations

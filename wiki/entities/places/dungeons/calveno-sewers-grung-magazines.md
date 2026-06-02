@@ -8,10 +8,7 @@ publish: false
 summary: "Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura."
 created: 2026-06-01
 updated: 2026-06-01
-tags:
-  - grung
-  - combat
-  - dungeon
+
 sources:
   - Homebrew
 verb: Conceal
@@ -23,6 +20,9 @@ cr_range: "1/4–3"
 topology: hub-loop
 confidence_level: high
 region: calveno
+tags:
+  - grung
+  - combat
 ---
 
 # Calveno Sewer Magazines — Grung Raid Infrastructure

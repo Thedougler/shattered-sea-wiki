@@ -8,7 +8,7 @@ publish: false
 summary: A massive prehistoric owlbear variant, CR 7 monstrosity with exceptional strength and constitution; significantly more dangerous than its common cousin.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 234
 statblock: inline
 str: 22
 wis: 15
+tags:
+  - combat
 ---
 
 # Primeval Owlbear

@@ -8,7 +8,7 @@ publish: false
 summary: CR 1 beast; forest and grassland predator, fast and rarely seen before the first strike.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XPHB
 confidence_level: high
@@ -25,6 +25,8 @@ page: 358
 statblock: inline
 str: 17
 wis: 12
+tags:
+  - combat
 ---
 
 # Tiger

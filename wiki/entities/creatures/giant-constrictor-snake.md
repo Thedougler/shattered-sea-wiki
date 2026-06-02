@@ -8,7 +8,7 @@ publish: true
 summary: The Giant Constrictor Snake, a CR 2 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
   - Homebrew
@@ -26,6 +26,9 @@ page: 355
 statblock: inline
 str: 19
 wis: 10
+tags:
+  - combat
+  - homebrew
 ---
 
 # Giant Constrictor Snake

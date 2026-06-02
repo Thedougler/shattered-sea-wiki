@@ -8,7 +8,7 @@ publish: true
 summary: "A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Hector-Podge.md"
   - "Inbox/Hook-and-Ledger.md"
@@ -20,6 +20,9 @@ aliases:
   - "Hook and Ledger"
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: The Shelf
+tags:
+  - dravosi
+  - maritime
 ---
 
 # The Hook & Ledger

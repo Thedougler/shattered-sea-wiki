@@ -8,7 +8,7 @@ publish: true
 summary: Public statblock reference for Panther, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-05-31
-tags: []
+
 sources:
   - XPHB
 confidence_level: high
@@ -25,6 +25,8 @@ page: 354
 statblock: inline
 str: 14
 wis: 14
+tags:
+  - combat
 ---
 
 # Panther

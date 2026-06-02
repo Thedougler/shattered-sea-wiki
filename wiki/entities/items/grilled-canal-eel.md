@@ -8,7 +8,7 @@ publish: true
 summary: "The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,6 +16,9 @@ item_type: food
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
+  - maritime
 ---
 
 # Grilled Canal Eel

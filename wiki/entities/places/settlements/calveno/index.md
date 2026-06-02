@@ -11,14 +11,13 @@ status: active
 campaign: shattered-sea
 created: 2026-05-01
 updated: 2026-05-31
-tags:
-  - location
-  - city
-  - tessarine
-  - player-resource
+
 sources:
 - Inbox/places/calveno/index.md
 confidence_level: medium
+tags:
+  - tessarine
+  - player-resource
 ---
 
 # Calveno — Index

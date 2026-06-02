@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Append-only structural and ingest change log for the Shattered Sea wiki."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 tags: []
 sources: []
 ---

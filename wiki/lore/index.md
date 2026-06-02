@@ -8,14 +8,14 @@ type: index
 campaign: shattered-sea
 created: 2026-05-04
 updated: 2026-05-31
-tags:
-  - player-resource
-  - setting
+
 sources:
 - Inbox/lore/index.md
 confidence_level: high
 subtype: lore-page
 status: unknown
+tags:
+  - player-resource
 ---
 
 # Lore Index

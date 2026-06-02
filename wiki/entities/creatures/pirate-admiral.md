@@ -8,11 +8,14 @@ publish: true
 summary: "CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction."
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/pirate-admiral.md"
 confidence_level: high
 cr: 12
+tags:
+  - combat
+  - maritime
 ---
 
 # Pirate Admiral

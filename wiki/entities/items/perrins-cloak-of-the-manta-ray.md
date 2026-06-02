@@ -8,7 +8,7 @@ publish: true
 summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Kept Perrin alive when the Vestra went down. No longer in his possession."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Perrin-Black-Jaw.md"
   - "Inbox/Perrins-Cloak-of-the-Manta-Ray.md"
@@ -17,6 +17,8 @@ item_type: magic-item
 rarity: uncommon
 attunement: true
 homebrew: false
+tags:
+  - maritime
 ---
 
 # Perrin's Cloak of the Manta Ray

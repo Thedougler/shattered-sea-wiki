@@ -8,14 +8,14 @@ type: index
 campaign: shattered-sea
 created: 2026-04-29
 updated: 2026-05-31
-tags:
-  - player-resource
-  - rule
+
 sources:
 - Inbox/lore/rules/index.md
 confidence_level: high
 subtype: rule
 status: unknown
+tags:
+  - player-resource
 ---
 
 # Public Rules

@@ -8,7 +8,7 @@ publish: true
 summary: "Rice, pork, and roast plantain — the evening hot meal at the Flat Water, available while it lasts."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: food
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
 ---
 
 # Cooked Meal

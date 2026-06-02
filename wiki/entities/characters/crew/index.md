@@ -8,14 +8,14 @@ updated: 2026-05-31
 publish: false
 audience: dm
 summary: Index for major recurring hired crew and shipboard character pages.
-tags:
-  - player-resource
-  - crew
+
 sources:
 - Inbox/characters/crew/index.md
 confidence_level: high
 subtype: crew
 status: unknown
+tags:
+  - player-resource
 ---
 
 # Hireable Crew Characters

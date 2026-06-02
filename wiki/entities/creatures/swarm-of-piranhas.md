@@ -8,7 +8,7 @@ publish: true
 summary: A CR 1 beast swarm of freshwater predators found in still interior lakes and spring-fed pools of the Midchain; the Vatumei lake margins are known to locals.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,9 @@ page: 370
 statblock: inline
 str: 13
 wis: 7
+tags:
+  - combat
+  - maritime
 ---
 
 # Swarm of Piranhas

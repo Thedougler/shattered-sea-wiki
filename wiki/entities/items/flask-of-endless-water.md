@@ -8,7 +8,7 @@ publish: true
 summary: "A ceramic flask that produces unlimited fresh water on command — stream, fountain, or geyser. Jean-Claude's. Origin unestablished."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Session-01-Recap.md"
   - "Inbox/Flask-of-Endless-Water.md"
@@ -17,6 +17,8 @@ item_type: wondrous-item
 rarity: uncommon
 attunement: false
 homebrew: false
+tags:
+  - maritime
 ---
 
 # Flask of Endless Water

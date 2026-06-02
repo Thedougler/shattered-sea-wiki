@@ -8,11 +8,14 @@ publish: true
 summary: "CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone."
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/young-dragon-turtle.md"
 confidence_level: high
 cr: 10
+tags:
+  - combat
+  - maritime
 ---
 
 # Young Dragon Turtle

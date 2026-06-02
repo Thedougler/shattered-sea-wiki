@@ -8,7 +8,7 @@ publish: true
 summary: "A bowl of hot fish stock with bread — the most reliable meal at a canal-side tavern and the one that always comes."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: consumable
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
 ---
 
 # Fish Broth

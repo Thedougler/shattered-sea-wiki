@@ -8,7 +8,7 @@ publish: true
 summary: "A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -18,6 +18,8 @@ aliases:
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "Local fishing families"
 access: "Vertical cliff settlement; no beach and no docks"
+tags:
+  - maritime
 ---
 
 # High Line

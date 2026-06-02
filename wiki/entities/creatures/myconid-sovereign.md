@@ -8,7 +8,7 @@ publish: false
 summary: CR 2 fungal plant leader; rules myconid colonies and projects animating spores to reanimate the dead as servants.
 created: 2026-04-25
 updated: 2026-05-31
-tags: []
+
 sources:
   - XMM
 confidence_level: high
@@ -25,6 +25,8 @@ page: 223
 statblock: inline
 str: 12
 wis: 15
+tags:
+  - combat
 ---
 
 # Myconid Sovereign

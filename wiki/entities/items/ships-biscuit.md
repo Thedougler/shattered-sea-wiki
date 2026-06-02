@@ -8,7 +8,7 @@ publish: true
 summary: "Hard, dry, long-lasting sea bread — the staple provision of every working vessel in the Shattered Sea."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - Homebrew
 confidence_level: confirmed
@@ -16,6 +16,9 @@ item_type: provision
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - homebrew
+  - maritime
 ---
 
 # Ship's Biscuit

@@ -39,7 +39,7 @@ current resource state (depleted, reinforced, desperate).
 ## Output Structure
 
 1. **Encounter Brief** — one sentence: who, where, why now
-2. **Enemy Roster** — names, stat block refs, role (controller / bruiser / skirmisher / artillery)
+2. **Enemy Roster** — names, stat block refs, role (controller / bruiser / skirmisher / artillery); for homebrew creatures, load `prep-creature` first
 3. **Terrain** — 2–3 features with mechanical effects
 4. **Tactical Notes** — how enemies open, how they escalate, morale/retreat threshold
 5. **Stakes** — what changes in the world based on outcome (specific consequences, not generic)

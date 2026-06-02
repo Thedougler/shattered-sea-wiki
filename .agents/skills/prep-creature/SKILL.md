@@ -5,20 +5,31 @@ description: >
   for: "create stats for [creature]", "I need a [monster] for the encounter", "expand
   the entry for [creature type]", "make a homebrew monster", "design a [creature]",
   "statblock for [enemy]", "bestiary entry for [creature]", "named villain statblock",
-  "make me a [monster]". Distinguishes between creature-type lore pages and named
-  creature entities. Reads party combat primer before finalizing any stat calibration.
-  Uses Fantasy Statblocks plugin codeblock format for all statblocks.
+  "make me a [monster]".
 ---
 ## Prerequisites
 
 Always check `wiki/index.md` for an existing stub before creating a new page.
 
-Domain-specific:
-1. **Named entity or creature type?**
-   - Named creature (specific individual): `wiki/entities/characters/npcs/{slug}.md` + statblock
-   - Creature type/species lore: `wiki/lore/creatures/{slug}.md`
-2. Read `wiki/system/party-combat-primer.md` before finalizing any stat calibration.
-   Party primer Avoid flags apply to creature design.
+**Named entity or creature type?**
+- Named creature (specific individual): `wiki/entities/characters/npcs/{slug}.md` + statblock
+- Creature type/species lore: `wiki/lore/creatures/{slug}.md`
+
+Read `wiki/system/party-combat-primer.md` before finalizing any stat calibration.
+Party primer Avoid flags apply to creature design.
+
+---
+
+## Interview
+
+If the user message doesn't already answer these, ask all at once:
+- CR target or party level
+- Role (controller / bruiser / skirmisher / artillery / lurker / solo boss)
+- One-sentence concept — origin and defining trait
+- Named individual or creature type/species lore?
+- Which PC thread connects to this creature, and how?
+
+Name the connecting PC or ask before generating.
 
 ---
 
@@ -48,7 +59,30 @@ Every creature needs a behavioral profile for encounter use, distinct from lore:
 Read `references/NAMED-ENEMIES.md` for named antagonist stat citation patterns and
 villain design.
 
-Load `ttrpg-writing` for all prose and formatting standards.
+---
+
+## Cross-Skill Coordination
+
+- **Named creature:** Run `prep-npc` workflow first to generate the NPC page, then append the statblock here.
+- **Encounter calibration:** If this creature anchors a specific combat encounter, load `prep-encounter` after completing this skill for full calibration against the party's empirical patterns.
+- **Dungeon inhabitant:** If placing this creature in a dungeon or lair, `prep-dungeon` Phase 2 routes here — deliver the statblock and behavioral profile, then return to that skill.
+
+---
+
+## Frontmatter
+
+Universal and entity fields are auto-completed by the write hook. You must author:
+
+- Lore entries (`wiki/lore/creatures/`): `type: lore`, `subtype: creature`
+- Named entities: handled by `prep-npc` frontmatter; append statblock to the body only
+
+---
+
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate a creature illustration. Category: **Portraits**
+(3:4 vertical) for named creatures, or **Scene art** (16:9) showing the creature in
+its habitat for lore entries. Skip for generic stat blocks embedded in encounter files.
 
 ---
 
@@ -58,6 +92,11 @@ Load `ttrpg-writing` for all prose and formatting standards.
 - Named entity: `wiki/entities/characters/npcs/{slug}.md`
 - Add to `wiki/index.md` in appropriate section
 - Add reciprocal links to all referenced entities
+- Commit: `feat: creature — {slug} — {one-line summary}`
+
+---
+
+Load `ttrpg-writing` for all prose and formatting standards.
 
 ---
 

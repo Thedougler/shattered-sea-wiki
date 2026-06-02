@@ -92,7 +92,7 @@ For each NPC:
 - Which room they occupy and why
 
 For each creature encounter:
-- Stat block reference (look up, never invent)
+- Stat block reference (look up, never invent; for homebrew creatures, load `prep-creature`)
 - Tactical behavior (how they open, escalate, retreat)
 - Morale threshold (when they break — specific HP or condition)
 

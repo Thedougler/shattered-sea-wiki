@@ -3,153 +3,105 @@ name: cross-linker
 description: >
   Use when the wiki needs more cross-references between pages. Trigger on:
   "link my pages", "find missing links", "cross-reference", "connect my wiki",
-  "weave this into the graph", "improve discoverability", orphan pages reported
-  by wiki-lint, or after any ingest or writing run — new pages are almost always
-  under-connected. Also trigger on "my wiki feels disconnected" or "pages aren't
-  linked well".
+  "weave this into the graph", orphan/deadend pages reported by wiki-lint, or
+  after any ingest or writing run — new pages are almost always under-connected.
 ---
 
-# Cross-Linker — Automated Wiki Cross-Referencing
+# Cross-Linker
 
-Weave the wiki's knowledge graph tighter by finding and inserting missing `[[wikilinks]]` between pages that should reference each other but don't. Orphans and dead-ends are the primary symptom.
+Add missing `[[wikilinks]]` between wiki pages that reference each other but aren't linked. Orphans (no inbound links) and deadends (no outbound links) are the primary targets.
 
-Link conventions are defined in `.claude/skills/ttrpg-llm-wiki-init/references/wikilink-standards.md` — always alias (`[[slug|Display Name]]`), first mention only per section, create stubs for missing targets, bidirectional for durable relationships.
+Link conventions: always alias (`[[slug|Display Name]]`), first mention only per section, bidirectional for durable relationships. Full rules in `.claude/skills/ttrpg-llm-wiki-init/references/wikilink-standards.md`.
 
-## Before You Start
+## Triage — Start Here
 
-1. Read `wiki/index.md` to get the full entity catalog.
-2. Check recent activity:
+A full-vault pass is impractical in one session. Every run targets a batch.
+
+1. Get the target list from wiki-lint:
    ```bash
-   git log --oneline -5
-   ```
-3. Run wiki-lint to identify orphans and dead-ends — these are priority targets:
-   ```bash
-   python3 .claude/scripts/wiki_lint.py --json 2>/dev/null | python3 -c "
-   import json,sys
-   for issue in json.load(sys.stdin):
-       if issue['rule'] in ('orphan','deadend'):
-           print(f\"{issue['rule']:8s} {issue['path']}\")
-   "
+   python3 .claude/scripts/wiki_lint.py 2>&1 | grep -E "orphan|deadend" | grep -v "wiki/assets/"
    ```
 
-## Step 1: Build the Page Registry
+2. Pick a batch of **15–25 targets** per run. Prioritize:
+   - **Orphans** over deadends (orphans are invisible to the graph)
+   - **Entity pages** (NPCs, factions, ships, places) over generic items
+   - **Recently created/ingested pages** — check `git log --oneline -10`
+   - Skip: junk files (`" 2.md"` duplicates), asset files, stat-block-only creature pages (these are reference data, not narrative — link them only if a narrative page references the creature)
 
-Scan all `.md` files in `wiki/` (excluding `wiki/system/`, `wiki/dm/`, `wiki/sessions/`, and system files like `index.md`, `hot.md`, `log.md`). For each page, extract from frontmatter only — read no bodies yet:
+3. Read `wiki/index.md` — this is the entity catalog with slugs, display names, and summaries. Use it as your lookup for finding link targets. Do NOT build a separate registry.
 
-- **Slug** (filename without `.md`) — the wikilink target
-- **Title**, **aliases**, **tags**, **category** from frontmatter
-- **Summary** field
+## Orphan Fix (no inbound links)
 
-Build a lookup: `slug → { path, title, aliases, tags, summary }`
+The page exists but nothing links to it. Find pages that *should* link to it.
 
-Use `find` + frontmatter reads or `mcp__obsidian-vault__obsidian_list_files_in_dir` to enumerate pages. For bulk frontmatter extraction, `mcp__obsidian-vault__obsidian_batch_get_file_contents` is efficient.
-
-## Step 2: Find Unlinked Mentions
-
-Work entity-by-entity, not page-by-page. Skip names under 4 characters (too many false positives).
-
-For each entity `E` in the registry:
-
-1. **Find existing inbound links** — grep for `[[slug` across `wiki/`:
+For each orphan:
+1. **Read the orphan's frontmatter + first few lines** to get its display name, aliases, and what it is.
+2. **Search for text mentions** of the entity across the vault:
    ```bash
-   grep -rl "\[\[${slug}" wiki/ --include="*.md" | grep -v "index.md"
+   grep -rli "entity name" wiki/ --include="*.md" | grep -v index.md
    ```
-
-2. **Find existing outbound links from E** — read the file and extract `[[...]]` targets.
-
-3. **Find text mentions of E** — search for the entity's title and aliases:
-   ```bash
-   grep -rl "${entity_title}" wiki/ --include="*.md"
+   Use `-i` for case-insensitive matching. Search both the display name and the slug form. For accented names (e.g. Anzolo), search both accented and stripped forms.
+3. **Read each candidate page** and wrap the first natural mention in a wikilink:
    ```
-   Or use `mcp__obsidian-vault__obsidian_simple_search` for broader text matching.
+   Before: Nona sent Anzolo to handle it.
+   After:  Nona sent [[anzolo|Anzolo]] to handle it.
+   ```
+4. If no text mention exists but a **semantic parent** is obvious (e.g. an item belongs to an NPC, a building is in a settlement), read the parent page and add the link to its relevant section or a `## Related` block.
+5. **Duplicate check:** If grep finds mentions that already link to a *different file* with a similar name (e.g. `minor/dario.md` vs `npcs/dario-vanni.md`), the files may be duplicates of the same entity. Flag these for the DM rather than adding a second link.
 
-4. **Candidates = text mentions − existing inbound links − E itself**
-   These pages mention E but don't link to it. Score +4 (exact name match).
+## Deadend Fix (no outbound links)
 
-5. **Augment with tag/directory overlap** from registry data (no reads):
-   - Pages sharing 2+ tags with E but no link → score +2
-   - Pages in the same directory as E but no link → score +2
+The page has inbound links but links to nothing else. It needs outbound links added.
 
-### Matching Considerations
+For each deadend:
+1. **Read the page body.** Look for entity names mentioned in prose that aren't wikilinked.
+2. **Check each name against `wiki/index.md`** — if a matching slug exists, wrap the first mention.
+3. For **generic items** (weapons, ship repairs, supplies): link to the NPC or vehicle that uses/owns them, or the place they're found. If no natural prose mention exists, add a short `## Related` entry.
+4. **Stat-block-only pages** (`entities/creatures/`): these have YAML stat blocks and no prose. Use the `## Related` fallback to link to the encounter, dungeon, or situation that features them.
 
-**Diacritics**: Search both accented (`Anzolò`) and stripped (`Anzolo`) forms.
+## Applying Links
 
-**Shortest unambiguous path**: Use `[[slug|Display Name]]` when the slug is unique. Only path-qualify when needed to disambiguate.
-
-**Link placement**: Only link the first natural mention per section. Never inside code blocks, frontmatter, or callouts.
-
-## Step 3: Score and Rank
-
-| Signal | Points |
-|---|---|
-| **Exact name match in text** | +4 |
-| **Shared tags (2+)** | +2 |
-| **Same directory, no link** | +2 |
-| **Cross-category connection** | +2 |
-| **Peripheral→hub reach** (≤2 links → ≥8 links) | +2 |
-| **Partial name match** | +1 |
-
-| Score | Label | Action |
-|---|---|---|
-| ≥ 6 | **EXTRACTED** | Certain — apply inline |
-| 3–5 | **INFERRED** | Reasonable — apply inline or as Related |
-| 1–2 | **AMBIGUOUS** | Skip |
-
-## Step 4: Apply Links
-
-Read each page that needs links. Use the Read tool or `mcp__obsidian-vault__obsidian_get_file_contents`, then Edit to apply changes.
-
-### 4a: Inline (preferred)
-
-Wrap the first natural mention in a wikilink with alias:
-
+**Inline (preferred):** Wrap the first natural mention per section. Never inside frontmatter, code blocks, or callouts.
 ```markdown
 Before: The Sable Company hired Beaumont Sel to investigate.
 After:  The Sable Company hired [[beaumont-sel|Beaumont Sel]] to investigate.
 ```
 
-### 4b: Related section (fallback)
-
-When pages are semantically related but the entity isn't mentioned in prose, append a `## Related` section (or add to the existing one):
-
+**Related section (fallback):** When pages are semantically connected but don't mention each other in prose:
 ```markdown
 ## Related
 
 - [[sable-company|Sable Company]] — Beaumont's employer during the Antheri investigation
 ```
+Add to an existing `## Related` section if one exists. Respect curated sections like `## Key Concepts` — add there instead of creating a duplicate.
 
-Use `mcp__obsidian-vault__obsidian_patch_content` to append to an existing heading, or Edit to add a new section.
+**Bidirectional rule:** If A links B as a durable relationship (not a passing mention), B should link back to A.
 
-## Step 5: Report
+## Exclusions
 
-```markdown
-## Cross-Link Report
+Do not add cross-links to or from:
+- `wiki/system/`, `wiki/dm/`, `wiki/sessions/`, `wiki/rules/`
+- System files: `index.md`, `hot.md`, `log.md`, `discrepancy-log.md`, `hub.md`, `work-queue.md`, `faq.md`, `player-primer.md`
+- Duplicate/broken files (filenames with spaces, `" 2.md"` suffixes)
 
-### Links Added: N across M pages
+Do not link to `index.md` or `hot.md` from content pages — they are agent-facing, not content entities.
 
-| Page | Links Added | Confidence | Type |
-|---|---|---|---|
-| `wiki/entities/characters/npcs/beaumont-sel.md` | 3 | EXTRACTED | 2 inline, 1 related |
+## Commit and Report
 
-### Orphans Remaining: K
-- `wiki/lore/fae-crossroad.md` — no connections found
-
-### Skipped
-- System files (`index.md`, `hot.md`, etc.)
-```
-
-## Step 6: Commit and Update
+After applying links:
 
 ```bash
-git add wiki/ && git commit -m "cross-link: add N links across M pages"
+git add wiki/
+git commit -m "cross-link: add N links across M pages"
 ```
 
-Update `wiki/hot.md` — add a one-line summary to Recent Activity.
+Update `wiki/hot.md` — add a one-line entry to Recent Activity listing what was connected.
 
-## Tips
-
-- Run after every ingest. New pages are almost always under-connected.
-- One link per concept per page. More is clutter.
-- Respect existing structure — if a page has a curated `## Key Concepts`, add to it rather than creating `## Related`.
-- Entity pages (NPCs, factions, ships) are link magnets — prioritize them.
-- System files (`wiki/system/`, `index.md`, `hot.md`) are not content entities. Don't link to them.
+Report to the user:
+```
+## Cross-Link Summary
+- Links added: N across M pages
+- Orphans resolved: K (list which ones)
+- Deadends resolved: J
+- Remaining: X orphans, Y deadends still unlinked (next run)
+```

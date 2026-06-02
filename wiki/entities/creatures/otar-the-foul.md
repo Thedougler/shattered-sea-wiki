@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs."
 created: "2026-05-30"
-updated: 2026-05-31
+updated: 2026-06-01
 tags: []
 sources:
   - Homebrew
@@ -56,6 +56,8 @@ The fight should feel like containing a disaster, not outmaneuvering a commander
 - **Legendary actions:** Not tactical choices. Otar lashes reflexively at motion (Lash), thrashes when surrounded (Thrash), and vomits when pressured (Bile Spray). The DM picks whichever feels most chaotic.
 - **Morale:** None. Does not retreat, surrender, or reason. Fights until dead.
 - **Role:** Brute / hazard. Tactical personality: Chaotic — an obstacle, not an opponent.
+
+![[wiki/assets/combat/otar-the-foul/otar-action.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting, poster-composition staging, saturated adventure palette. Full body action shot, widescreen cinematic composition. A massive red Slaad mid-rampage in a collapsed Mediterranean-style plaza — full body visible, toad-like hulking form, cracked hide perpetually mid-molt with iridescent fluid weeping from deep fissures. Its impossibly long tongue lashes out toward a fleeing figure in the distance. Sickly green toxic miasma billows from splits in its skin, pooling at its feet. Broken cobblestones, splintered festival stalls, and dust clouds surround it. One clawed foot planted on a crushed registration desk. The creature is ancient, rotting, and unstoppable — chaos incarnate, not intelligent. Dramatic low-angle perspective emphasizing its bulk. No text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 ```statblock
 layout: Basic 5e Layout

@@ -76,3 +76,4 @@ To the Dravosi, the Rattle is maddening. No one is brandishing a weapon. No one 
 
 - The Warren usually knows what is moving through Calveno before the people moving it do.
 - Do not mark a suspected entrance, boast about being invited, or mistake a rumour for permission.
+- The collector tunnels below the Warren now host Grung [[calveno-sewers-grung-magazines|blackpowder magazines]] — Nona suspects something is building but does not know the full scope.

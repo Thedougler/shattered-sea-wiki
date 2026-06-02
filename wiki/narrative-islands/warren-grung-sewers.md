@@ -261,6 +261,7 @@ The handlers work at night and are gone before dawn. If the party enters at an a
 - [[jean-claude-tabarnack|Jean-Claude]] — the reason Nona can trust the identification
 - [[perrin-black-jaw|Perrin Black-Jaw]] — the conduit
 - [[warren-nonas-table|Warren — Nona's Table]] — where the assignment is made
+- [[calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — keyed dungeon for the full sewer network
 
 ---
 

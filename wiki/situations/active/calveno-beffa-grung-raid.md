@@ -214,6 +214,8 @@ The most useful immediate image is absence after motion: a dropped tool roll, a 
 - [[il-gioco-delle-beffe|Il Gioco delle Beffe]]
 - [[calveno-raid-signs|Calveno — Raid Prep Signs]]
 - [[warren-grung-sewers|Warren — Grung in the Sewers]]
+- [[calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — keyed dungeon for the sewer network
+- [[solange-barret|Solange Barret]] — red-caste warlock operating the summoning circle
 - [[tessarine-concordat|Tessarine Concordat]]
 
 ---

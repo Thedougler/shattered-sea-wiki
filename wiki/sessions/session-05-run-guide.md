@@ -9,7 +9,7 @@ session_number: 5
 session_date: "2026-06-07"
 summary: "At-table run guide for Session 05: Grung counter-operation through the sewer magazine network, primary chamber climax with Solange Barret, Perrin's whale contact, Anzolo's arrival, and the detonation endgame if the clock runs out. ~4 hrs."
 created: "2026-06-01"
-updated: "2026-06-01"
+updated: 2026-06-01
 tags:
   - session-prep
   - run-guide

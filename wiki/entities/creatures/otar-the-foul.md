@@ -66,8 +66,8 @@ size: Large
 type: aberration
 alignment: "chaotic neutral"
 ac: 15
-ac_class: "natural armor"
-hp: 150
+ac_note: "natural armor"
+hp: 152
 hit_dice: "16d10 + 64"
 speed: "40 ft., climb 20 ft."
 stats: [20, 12, 18, 5, 8, 6]

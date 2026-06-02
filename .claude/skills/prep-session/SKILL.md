@@ -52,8 +52,8 @@ Wikilinks are for depth the DM chooses to chase between sessions, never for info
 2. **Name what is already in motion** before inventing anything: where the party is, the last hard break, what they promised/broke/ignored, which situations and factions have reason to act now, which PC hooks are hot.
 3. **Spotlight check.** Read the Spotlight Tracking table in `hot.md`. Find the PC who has gone longest without a meaningful moment and make sure at least one scene gives them one — attached to a real pressure, never manufactured.
 4. **Pick threads and shape pacing.** Use `references/PACING.md` to choose the 2–3 threads worth advancing and to vary register so the session has rhythm.
-5. **Write the guide** using `references/session-run-guide.md` — its template, inline-first conventions, and module formatting craft.
-6. **Run the quality gate** at the end of that reference before finalizing.
+5. **Write the guide.** Load `prep-run-guide` — it owns the template, inline-first conventions, three-zone architecture, and quality gate. This skill's grounding (steps 1–4) and voice guidance still apply.
+6. **Run the quality gate** in `prep-run-guide/references/run-guide-spec.md` before finalizing.
 
 Ground every claim in a page you read this session. If a fact isn't in the wiki, mark it a **proposal** and say so — don't quietly canonize it. If two pages conflict, surface a `> [!contradiction]` with both sources rather than silently picking one.
 

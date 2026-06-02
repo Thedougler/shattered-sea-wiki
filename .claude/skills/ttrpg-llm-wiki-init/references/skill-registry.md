@@ -216,16 +216,27 @@ The party primer's Avoid section is binding — if the encounter would violate i
 Calibrate to empirical patterns, not theoretical class features.
 **Coordinates with:** `combat-data-extract`, `prep-session`, `sandbox-narrative`
 
+### `prep-run-guide`
+**Purpose:** Build a session run guide — the at-the-table operating document for one session
+of play. Three-zone architecture (dashboard/scenes/reference), thread-organized scene cards,
+inline-first contract, visual aids via `ttrpg-visual-aids` + `openrouter-image-gen`.
+**Trigger:** "/run-guide [N]", "build a run guide", "help me run tonight."
+**Critical behaviors:** One file, one session — never split into day files or scene files.
+Max 5–7 scene cards, max 3 in-game days. Scenes organized by thread, not by day.
+Dashboard (snapshot, threads, NPCs) has no images; scene cards get one image each.
+**Coordinates with:** `prep-session` (grounding + pacing), `ttrpg-visual-aids`,
+`openrouter-image-gen`, `ttrpg-writing`, `sandbox-narrative`
+
 ### `prep-session`
-**Purpose:** Generate a full session run guide — strong start, scene menu, faction
-pressures, NPC beats, contingencies. Read party session primer, player interests, active
-situations, and last session summary before generating.
+**Purpose:** Session prep orchestrator — grounds in current state, picks threads, checks
+spotlight, shapes pacing. Delegates run guide construction to `prep-run-guide`. Also handles
+`/strong-start`, `/thread-review`, `/spotlight`, and `/faction-clock` modes directly.
 **Trigger:** "Prep for next session", "give me a session plan", "what do I run Saturday?"
 **Critical behaviors:** Identify which PC hasn't had a meaningful moment recently (from
 spotlight tracking in `hot.md`) — build at least one scene that serves that player.
 Prep should present options, not a plot. Player agency must have real consequences.
-**Coordinates with:** `prep-strong-start`, `prep-encounter`, `player-interest-tracker`,
-`sandbox-narrative`
+**Coordinates with:** `prep-run-guide`, `prep-strong-start`, `prep-encounter`,
+`player-interest-tracker`, `sandbox-narrative`
 
 ### `prep-strong-start`
 **Purpose:** Write the opening scene for the next session — already in motion, no preamble,

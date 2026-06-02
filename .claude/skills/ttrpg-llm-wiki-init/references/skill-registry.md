@@ -285,6 +285,16 @@ testing, and anti-slop pass. Files to `wiki/entities/places/dungeons/`.
 (encounter calibration), `prep-npc` (inhabitant generation), `ttrpg-writing` (prose
 standards, anti-slop), `sandbox-narrative` (Three Clue Rule, pipeline reference)
 
+### `prep-hb-item`
+**Purpose:** Design a homebrewed D&D 5e item for the Shattered Sea campaign. Enforces the
+one-thing constraint, rarity-before-mechanics power budget, attunement decision rules,
+prohibition on class-feature mechanics (Sneak Attack, Ki, Rage, etc.), mandatory RAW
+benchmark citation, and a DM review gate before any wiki commit.
+**Trigger:** "Homebrew an item for [PC]", "design a [item concept]", "make a custom [item]",
+"I want an item that does [effect]", "create a magic item for [PC]."
+**Coordinates with:** `prep-npc` (NPC vendor), `prep-location` (where item is found),
+`ttrpg-writing` (prose and formatting), `ttrpg-visual-aids` (prop art after approval)
+
 ### `prep-deity`
 **Purpose:** Create or expand a deity entry. Generate divine portfolio, alignment,
 worshippers, divine manifestations, relationship to religious factions and lore.

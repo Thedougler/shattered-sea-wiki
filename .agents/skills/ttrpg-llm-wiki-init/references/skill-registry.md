@@ -34,7 +34,7 @@ fragments from the same speaker. Normalize speaker names against the canonical s
 Apply the inline tagging system: `[OOC]` `[IC]` `[TABLE]` `[RULING]` `[ROLL]` `[LORE]`
 `[CANON]` `[UNCLEAR-SPEAKER]`. Segment into scenes. Generate the flags file for DM review.
 **Trigger:** "clean the transcript", "process session audio", any raw transcript file
-arriving in `.raw/sessions/`. Also triggered automatically after a new `.raw` file is detected.
+arriving in `audio/sessions/`. Also triggered automatically after a new transcript CSV is detected.
 **Critical behaviors:** Never edits the raw file — all work goes to `-clean.md` sibling.
 Never guesses attribution — creates a flag entry instead. Never invents words for
 unintelligible audio. Flag file is generated in parallel with the clean file, not after.
@@ -216,16 +216,27 @@ The party primer's Avoid section is binding — if the encounter would violate i
 Calibrate to empirical patterns, not theoretical class features.
 **Coordinates with:** `combat-data-extract`, `prep-session`, `sandbox-narrative`
 
+### `prep-run-guide`
+**Purpose:** Build a session run guide — the at-the-table operating document for one session
+of play. Three-zone architecture (dashboard/scenes/reference), thread-organized scene cards,
+inline-first contract, visual aids via `ttrpg-visual-aids` + `openrouter-image-gen`.
+**Trigger:** "/run-guide [N]", "build a run guide", "help me run tonight."
+**Critical behaviors:** One file, one session — never split into day files or scene files.
+Max 5–7 scene cards, max 3 in-game days. Scenes organized by thread, not by day.
+Dashboard (snapshot, threads, NPCs) has no images; scene cards get one image each.
+**Coordinates with:** `prep-session` (grounding + pacing), `ttrpg-visual-aids`,
+`openrouter-image-gen`, `ttrpg-writing`, `sandbox-narrative`
+
 ### `prep-session`
-**Purpose:** Generate a full session run guide — strong start, scene menu, faction
-pressures, NPC beats, contingencies. Read party session primer, player interests, active
-situations, and last session summary before generating.
+**Purpose:** Session prep orchestrator — grounds in current state, picks threads, checks
+spotlight, shapes pacing. Delegates run guide construction to `prep-run-guide`. Also handles
+`/strong-start`, `/thread-review`, `/spotlight`, and `/faction-clock` modes directly.
 **Trigger:** "Prep for next session", "give me a session plan", "what do I run Saturday?"
 **Critical behaviors:** Identify which PC hasn't had a meaningful moment recently (from
 spotlight tracking in `hot.md`) — build at least one scene that serves that player.
 Prep should present options, not a plot. Player agency must have real consequences.
-**Coordinates with:** `prep-strong-start`, `prep-encounter`, `player-interest-tracker`,
-`sandbox-narrative`
+**Coordinates with:** `prep-run-guide`, `prep-strong-start`, `prep-encounter`,
+`player-interest-tracker`, `sandbox-narrative`
 
 ### `prep-strong-start`
 **Purpose:** Write the opening scene for the next session — already in motion, no preamble,
@@ -264,11 +275,25 @@ lore (`wiki/lore/creatures/`) and a named creature entity (`wiki/entities/`).
 **Coordinates with:** `prep-encounter`, `lore-generation`
 
 ### `prep-dungeon`
-**Purpose:** Design a keyed dungeon or exploration site. Generate room keys, connection
-map, encounter density, treasure placement, faction occupancy. Apply LLM-wiki keyed format:
-concise room descriptions optimized for agent recall, not human prose.
-**Trigger:** "Design a dungeon", "key out [location]", "I need a keyed site for [place]."
-**Coordinates with:** `prep-location`, `prep-encounter`
+**Purpose:** Design a dungeon, lair, ruin, or adventure site using the four-phase pipeline
+(architecture → entities → spatial logic → micro-detail) with DM review between phases.
+Enforces OSE point-first format, Bryce Lynch interactivity, Three Clue Rule, chokepoint
+testing, and anti-slop pass. Files to `wiki/entities/places/dungeons/`.
+**Trigger:** "Design a dungeon", "prep an adventure site", "build a lair for [creature]",
+"I need a dungeon for this session", "key out [location]", "map out [underground site]."
+**Coordinates with:** `prep-location` (dungeon is a location subtype), `prep-encounter`
+(encounter calibration), `prep-npc` (inhabitant generation), `ttrpg-writing` (prose
+standards, anti-slop), `sandbox-narrative` (Three Clue Rule, pipeline reference)
+
+### `prep-hb-item`
+**Purpose:** Design a homebrewed D&D 5e item for the Shattered Sea campaign. Enforces the
+one-thing constraint, rarity-before-mechanics power budget, attunement decision rules,
+prohibition on class-feature mechanics (Sneak Attack, Ki, Rage, etc.), mandatory RAW
+benchmark citation, and a DM review gate before any wiki commit.
+**Trigger:** "Homebrew an item for [PC]", "design a [item concept]", "make a custom [item]",
+"I want an item that does [effect]", "create a magic item for [PC]."
+**Coordinates with:** `prep-npc` (NPC vendor), `prep-location` (where item is found),
+`ttrpg-writing` (prose and formatting), `ttrpg-visual-aids` (prop art after approval)
 
 ### `prep-deity`
 **Purpose:** Create or expand a deity entry. Generate divine portfolio, alignment,

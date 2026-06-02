@@ -1,6 +1,6 @@
 # Wiki DnD — Encounter Prep
 
-> **Prerequisite:** `../PREP.md` loaded (philosophy, universal rules, PC gravity, roleplay method).
+> **Prerequisite:** Party combat primer and combat analytics loaded (see SKILL.md Prerequisites).
 
 ---
 
@@ -21,7 +21,7 @@
 
 First 6 fields go in frontmatter. Last 4 stay in the page body.
 
-Load `references/STAT-BLOCKS.md` when citing enemy stat blocks. Load `references/NAMED-ENEMIES.md` when the encounter features a unique named antagonist.
+Load `../prep-creature/references/STAT-BLOCKS.md` when citing enemy stat blocks. Load `../prep-creature/references/NAMED-ENEMIES.md` when the encounter features a unique named antagonist.
 
 ---
 
@@ -48,4 +48,4 @@ Load `references/STAT-BLOCKS.md` when citing enemy stat blocks. Load `references
 
 ## Filing
 
-Read `templates/event.md` before generating page content (encounter subtype) — the template defines required frontmatter and section structure. Directory: `content/shattered-sea/situations/` (see `templates/CLAUDE.md`). Run vault filing sequence from `../PREP.md` § Vault Filing after writing.
+Standalone encounters file to `wiki/situations/active/{slug}.md`. Session-specific encounters go inline in run guides. Dungeon encounters go inline in dungeon pages. See SKILL.md Filing section.

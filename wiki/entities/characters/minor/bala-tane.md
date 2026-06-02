@@ -8,10 +8,12 @@ publish: true
 summary: "Pit boss of the Mud Pits on Kalowe's third island — orc woman, mid-forties, has run the fights for fifteen years. Announces each match like a royal proclamation and then goes completely still for the duration."
 created: 2026-05-17
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Bala-Tane.md"
 confidence_level: medium
+tags:
+  - maritime
 ---
 
 # Bala Tane

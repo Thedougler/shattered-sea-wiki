@@ -8,10 +8,12 @@ publish: true
 summary: "Proprietor of Grimaldi's Dispensary on Kalowe's third island. Exact, economical, has been here fifteen years and has seen every kind of trouble arrive at a port. Listens to how someone asks before deciding what to tell them."
 created: 2026-05-17
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Ilaria-Grimaldi.md"
 confidence_level: medium
+tags:
+  - maritime
 ---
 
 # Ilaria Grimaldi

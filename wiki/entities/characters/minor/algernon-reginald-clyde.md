@@ -8,7 +8,7 @@ publish: true
 summary: "Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying."
 created: 2026-05-02
 updated: 2026-05-31
-tags: []
+
 sources:
   - "Inbox/Algernon-Reginald-Clyde.md"
 confidence_level: medium
@@ -16,6 +16,8 @@ aliases:
   - A.R. Clyde
   - Clyde
 roleplay_prompt: "Werner Herzog doing the job of David Attenborough — rigorous, meticulous, accurate; his contempt is the fuel, not the product."
+tags:
+  - maritime
 ---
 
 # Algernon Reginald Clyde

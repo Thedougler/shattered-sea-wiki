@@ -8,12 +8,14 @@ publish: false
 summary: Visual style guide for AI-generated campaign art — agents read this before every image generation task
 created: 2026-05-30
 updated: 2026-05-31
-tags: []
+
 sources: []
 system_role: style-guide
 token_profile: on-demand
 mandatory_for: [ttrpg-visual-aids]
 update_trigger: "when the DM changes art style preferences"
+tags:
+  - dm-prep
 ---
 
 # Art Style Guide

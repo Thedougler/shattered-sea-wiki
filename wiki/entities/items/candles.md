@@ -8,7 +8,7 @@ publish: true
 summary: "Tallow or beeswax candles for general illumination — cheaper than lamp oil, dimmer, and prone to salt-air extinction."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - PHB
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: consumable
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Candles

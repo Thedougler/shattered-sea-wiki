@@ -8,7 +8,7 @@ publish: true
 summary: "Lighter and stronger than hemp, sold in small quantities at premium chandleries."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - PHB
 confidence_level: confirmed
@@ -16,6 +16,8 @@ item_type: equipment
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Silk Rope

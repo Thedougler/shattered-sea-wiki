@@ -8,7 +8,7 @@ publish: true
 summary: "Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - PHB
 confidence_level: confirmed
@@ -16,6 +16,8 @@ item_type: tool
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Tinderbox

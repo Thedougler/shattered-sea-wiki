@@ -8,7 +8,7 @@ publish: true
 summary: "Winged boots granting up to 4 hours of flight, recharging 2 hours per 12 hours not in use. Carried by Delmar Fisk."
 created: 2026-06-01
 updated: 2026-06-01
-tags: []
+
 sources:
   - "audio/sessions/session04/extracts.md"
 confidence_level: confirmed
@@ -17,6 +17,8 @@ rarity: uncommon
 attunement: true
 homebrew: false
 current_holder: "[[delmar-fisk|Delmar Fisk]]"
+tags:
+  - player-resource
 ---
 
 # Boots of Flying

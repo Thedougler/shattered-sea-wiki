@@ -8,7 +8,7 @@ publish: true
 summary: "Martial melee weapon. Finesse makes it the go-to for Dexterity-based fighters who want a d8 damage die without committing to Strength."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "D&D 2024 PHB"
 confidence_level: high
@@ -16,6 +16,8 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Rapier

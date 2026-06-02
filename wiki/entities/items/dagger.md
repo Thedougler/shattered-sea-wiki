@@ -8,7 +8,7 @@ publish: true
 summary: "A short stabbing blade — the most versatile and most commonly carried weapon in the Shattered Sea."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - PHB
 confidence_level: confirmed
@@ -16,6 +16,8 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Dagger

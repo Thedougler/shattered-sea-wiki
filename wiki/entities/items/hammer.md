@@ -8,7 +8,7 @@ publish: true
 summary: "A general-purpose iron hammer — drives spikes, sets caulking, and works anything that needs persuading."
 created: '2026-05-29'
 updated: 2026-05-31
-tags: []
+
 sources:
   - "PHB"
 confidence_level: medium
@@ -16,6 +16,8 @@ item_type: tool
 rarity: common
 attunement: false
 homebrew: false
+tags:
+  - player-resource
 ---
 
 # Hammer

@@ -1,21 +1,19 @@
 ---
-title: Species
-publish: true
-visibility: public
-audience: players
-summary: Public index for Shattered Sea playable species references and setting-specific social context.
 type: index
+subtype: species
 campaign: shattered-sea
+status: unknown
+audience: players
+publish: true
+summary: Public index for Shattered Sea playable species references and setting-specific social context.
 created: 2026-05-04
 updated: 2026-06-01
-
-sources:
-- Inbox/lore/species/index.md
-confidence_level: high
-subtype: species
-status: unknown
 tags:
   - player-resource
+sources:
+  - Inbox/lore/species/index.md
+visibility: public
+confidence_level: high
 ---
 
 # Playable Species

@@ -8,7 +8,9 @@ publish: true
 summary: "Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
+  - maritime
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,9 +18,6 @@ item_type: tool
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
-  - maritime
 ---
 
 # Nautical Chart

@@ -8,7 +8,8 @@ publish: true
 summary: "The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - passage
 sources:
   - "Inbox/Taufa-Fifita.md"
   - "Inbox/Taufa-Fifita-and-Sons.md"
@@ -19,8 +20,6 @@ aliases:
   - Fifita Chandlery
 district: Second Island, main causeway
 parent_location: "[[kalowe|Kalowe]]"
-tags:
-  - passage
 ---
 
 # Taufa Fifita & Sons

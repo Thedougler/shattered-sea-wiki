@@ -8,13 +8,12 @@ publish: false
 summary: "Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno."
 created: 2026-05-27
 updated: 2026-06-01
-
-sources:
-  - "Inbox/Session-03-Recap.md"
-confidence_level: observed
 tags:
   - maritime
   - homebrew
+sources:
+  - "Inbox/Session-03-Recap.md"
+confidence_level: observed
 ---
 
 # Whip Shark Eggs (×3, fertilized)

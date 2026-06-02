@@ -8,13 +8,12 @@ publish: true
 summary: "Proprietor of Moretti and Sons on Calveno's Mercatura canal. Mid-sixties, grey stubble, can quote bulk chandlery prices without looking anything up. Remembers every captain who has moored at Calveno and gives them a discount."
 created: 2026-05-17
 updated: 2026-06-01
-
+tags:
+  - waveservants
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
   - "Inbox/Giacomo-Moretti.md"
 confidence_level: medium
-tags:
-  - waveservants
 ---
 
 # Giacomo Moretti

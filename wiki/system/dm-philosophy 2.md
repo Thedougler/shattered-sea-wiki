@@ -8,7 +8,8 @@ publish: false
 summary: "A compiled philosophy for running tabletop RPG campaigns — core hierarchy, prep approach, table craft, and death policy."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources:
   - Homebrew
 system_role: unknown
@@ -16,8 +17,6 @@ token_profile: on-demand
 mandatory_for: []
 update_trigger: ''
 confidence_level: medium
-tags:
-  - dm-prep
 ---
 
 # DM Philosophy

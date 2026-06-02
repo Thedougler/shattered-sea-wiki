@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Heavy iron spikes for deck and hull fastening — sold in lots of 10 at ironmongers. 1 gp per lot."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "PHB"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: equipment
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Iron Spike

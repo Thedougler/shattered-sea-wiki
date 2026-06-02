@@ -8,7 +8,8 @@ publish: true
 summary: Public statblock reference for Giant Owl, a CR 1/4 celestial in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 358
 statblock: inline
 str: 13
 wis: 14
-tags:
-  - combat
 ---
 
 # Giant Owl

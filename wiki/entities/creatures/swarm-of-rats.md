@@ -8,7 +8,8 @@ publish: true
 summary: A CR 1/4 beast swarm; a hull-rot hazard of Kalowe's waterfront that infests badly-kept stowage and spreads between vessels in harbour.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 370
 statblock: inline
 str: 9
 wis: 10
-tags:
-  - combat
 ---
 
 # Swarm of Rats

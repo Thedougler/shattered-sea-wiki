@@ -8,9 +8,12 @@ publish: false
 summary: "Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura."
 created: 2026-06-01
 updated: 2026-06-01
-
+tags:
+  - grung
+  - combat
 sources:
   - Homebrew
+confidence_level: high
 verb: Conceal
 unstable_condition: "The Le Paludi compromise accelerated the timeline — handlers are rushing final powder-packing with tighter sentry rotations, and one secondary site's scaffolding is incomplete."
 consequence: "All five detonations fire at crowd peak. The Mercatura plaza collapses. Otar the Foul emerges into festival crowds. Extraction teams seize dozens of captives through the chaos."
@@ -18,11 +21,7 @@ link_of_relevance: "Jean-Claude — his sister Simone built this operation; he i
 rooms: 8
 cr_range: "1/4–3"
 topology: hub-loop
-confidence_level: high
 region: calveno
-tags:
-  - grung
-  - combat
 ---
 
 # Calveno Sewer Magazines — Grung Raid Infrastructure
@@ -450,7 +449,7 @@ Rewards party strengths if they prepare:
 
 The detonation fires on the shortened timeline (~1.5 days from current state). The Mercatura plaza collapses. [[otar-the-foul|Otar the Foul]] erupts through the rubble into festival crowds. Four secondary breaches open simultaneously across Le Paludi, the Bridge, and the harbour approach. Grung extraction teams seize dozens of captives. The party's intel gap means the primary site hits unopposed.
 
-See [[calveno-beffa-grung-raid]] for full consequences. See [[otar-the-foul]] for the city-level encounter.
+See [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] for full consequences. See [[otar-the-foul|Otar the Foul]] for the city-level encounter.
 
 ---
 

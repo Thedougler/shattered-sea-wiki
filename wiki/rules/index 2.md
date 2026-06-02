@@ -1,21 +1,19 @@
 ---
-title: Rules
-publish: true
-visibility: public
-audience: players
-summary: Public index for Shattered Sea campaign rules references, especially ship play, bastions, and campaign-specific consequences.
 type: index
+subtype: rule
 campaign: shattered-sea
+status: unknown
+audience: players
+publish: true
+summary: Public index for Shattered Sea campaign rules references, especially ship play, bastions, and campaign-specific consequences.
 created: 2026-04-29
 updated: 2026-06-01
-
-sources:
-- Inbox/lore/rules/index.md
-confidence_level: high
-subtype: rule
-status: unknown
 tags:
   - player-resource
+sources:
+  - Inbox/lore/rules/index.md
+visibility: public
+confidence_level: high
 ---
 
 # Public Rules

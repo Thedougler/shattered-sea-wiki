@@ -7,16 +7,15 @@ audience: players
 publish: true
 summary: "A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - PHB
 confidence_level: medium
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Basic Poison

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himself (Mortis). Carries guilt for a gnome's death and for the slave raids he ran before his conscience woke. Simone is his sister and she betrayed him."
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - grung
 sources:

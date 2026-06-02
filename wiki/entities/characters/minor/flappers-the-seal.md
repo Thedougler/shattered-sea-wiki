@@ -7,13 +7,12 @@ audience: players
 publish: true
 summary: "Coralyra Dranra's seal — her closest relationship and anchor in the world; currently out chasing mackerel."
 created: 2026-04-26
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - maritime
 sources:
   - "Inbox/Flappers-the-Seal.md"
 confidence_level: medium
-tags:
-  - maritime
 ---
 
 # Flappers the Seal

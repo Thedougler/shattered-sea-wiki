@@ -8,7 +8,9 @@ publish: true
 summary: "Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
+  - maritime
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,9 +18,6 @@ item_type: food
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
-  - maritime
 ---
 
 # Preserved Eel

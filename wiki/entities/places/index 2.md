@@ -1,21 +1,19 @@
 ---
-title: Places
 type: index
-publish: true
-visibility: public
-audience: players
-summary: Index of the regions within the Shattered Sea.
+subtype: place
 campaign: shattered-sea
+status: unknown
+audience: players
+publish: true
+summary: Index of the regions within the Shattered Sea.
 created: 2026-05-04
 updated: 2026-06-01
-
-sources:
-- Inbox/places/index.md
-subtype: place
-status: unknown
-confidence_level: medium
 tags:
   - player-resource
+sources:
+  - Inbox/places/index.md
+confidence_level: medium
+visibility: public
 ---
 
 # Places in the Shattered Sea

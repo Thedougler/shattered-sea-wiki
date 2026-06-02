@@ -8,7 +8,10 @@ publish: true
 summary: "Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - dravosi
+  - waveservants
+  - maritime
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Session-03-Recap.md"
@@ -22,10 +25,6 @@ aliases:
 parent_location: "[[midchain|The Midchain]]"
 governance: "Island Council, harbour bosses, and money-backed non-interference"
 access: "Open free port behind a reef gap; papers matter less than payment"
-tags:
-  - dravosi
-  - waveservants
-  - maritime
 ---
 
 # Kalowe

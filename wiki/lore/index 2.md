@@ -1,21 +1,19 @@
 ---
-title: Lore
-publish: true
-visibility: public
-audience: players
-summary: Public index for Shattered Sea lore — character options, rules references, and world religion.
 type: index
+subtype: lore-page
 campaign: shattered-sea
+status: unknown
+audience: players
+publish: true
+summary: Public index for Shattered Sea lore — character options, rules references, and world religion.
 created: 2026-05-04
 updated: 2026-06-01
-
-sources:
-- Inbox/lore/index.md
-confidence_level: high
-subtype: lore-page
-status: unknown
 tags:
   - player-resource
+sources:
+  - Inbox/lore/index.md
+visibility: public
+confidence_level: high
 ---
 
 # Lore Index

@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "PHB"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: equipment
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Padlock

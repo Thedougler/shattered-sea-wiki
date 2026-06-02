@@ -17,7 +17,6 @@ item_type: consumable
 rarity: common
 attunement: false
 homebrew: true
-acquired_from: "[[fare-ia|Fare Ia]]"
 ---
 
 # I'a Miti

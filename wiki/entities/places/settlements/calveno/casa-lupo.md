@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: A general goods shop in Le Paludi's lower canal zone — low ceiling, oil lamps, uneven floors, and an old proprietor who prices everything from memory and hasn't been wrong yet.
 created: 2026-05-15
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - maritime
 sources:
   - Inbox/places/calveno/Casa-Lupo.md
   - Inbox/Session-03-Recap.md
@@ -19,8 +20,6 @@ visibility: public
 aliases:
   - Lupo's
 district: Le Paludi
-tags:
-  - maritime
 ---
 
 # Casa Lupo

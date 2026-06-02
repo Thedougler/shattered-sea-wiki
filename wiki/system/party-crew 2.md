@@ -8,7 +8,9 @@ publish: false
 summary: "Roster of crew hired by the party — update after each session with new hires, departures, and role changes."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - maritime
+  - player-resource
 sources:
   - Homebrew
 system_role: unknown
@@ -16,9 +18,6 @@ token_profile: on-demand
 mandatory_for: []
 update_trigger: ''
 confidence_level: medium
-tags:
-  - maritime
-  - player-resource
 ---
 
 # Party Crew

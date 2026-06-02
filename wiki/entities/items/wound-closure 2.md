@@ -8,7 +8,8 @@ publish: true
 summary: "Professional cleaning and suturing of open wounds — 2 sp at an apothecary."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - Homebrew
 confidence_level: confirmed
@@ -16,8 +17,6 @@ item_type: service
 rarity: common
 attunement: false
 homebrew: true
-tags:
-  - homebrew
 ---
 
 # Wound Closure

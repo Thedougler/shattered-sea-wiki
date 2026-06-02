@@ -7,13 +7,12 @@ audience: players
 publish: true
 summary: "Proprietor of The Flat Water in Kalowe. Ex-deckhand, runs the bar alone, knows more than she says and volunteers it exactly once."
 created: 2026-05-17
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - maritime
 sources:
   - "Inbox/Reweti-Kahurangi.md"
 confidence_level: medium
-tags:
-  - maritime
 ---
 
 # Reweti Kahurangi

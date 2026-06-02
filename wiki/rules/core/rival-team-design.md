@@ -8,12 +8,11 @@ publish: false
 summary: "Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources:
   - "Pointy Hat — Creating a Rival Team for Your Players (YouTube)"
 confidence_level: medium
-tags:
-  - dm-prep
 ---
 
 # Rival Team Design

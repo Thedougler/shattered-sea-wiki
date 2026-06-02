@@ -8,7 +8,10 @@ publish: true
 summary: "A stilt-platform fishing village over the southeastern mudflats of Calder's Tooth — mud-crab trappers, rope-and-plank bridges that shift with the tide, and no solid road in or out."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - dravosi
+  - passage
+  - maritime
 sources:
   - "wiki/entities/factions/the-passage.md"
   - "Inbox/Oshas-Slip.md"
@@ -19,10 +22,6 @@ aliases:
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "Local fishing families; Crown authority is largely theoretical"
 access: "Tide-dependent stilt village with no solid road in or out"
-tags:
-  - dravosi
-  - passage
-  - maritime
 ---
 
 # Osha's Slip

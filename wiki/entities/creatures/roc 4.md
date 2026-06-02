@@ -8,7 +8,8 @@ publish: true
 summary: CR 11 monstrosity nesting on the high basalt sea stacks near the High Eyrie; large enough to carry off a longboat.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 261
 statblock: inline
 str: 28
 wis: 10
-tags:
-  - combat
 ---
 
 # Roc

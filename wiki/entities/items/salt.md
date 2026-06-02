@@ -8,7 +8,8 @@ publish: true
 summary: "Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - Homebrew
 confidence_level: confirmed
@@ -16,8 +17,6 @@ item_type: provision
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
 ---
 
 # Salt

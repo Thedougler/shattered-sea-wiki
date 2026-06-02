@@ -7,12 +7,11 @@ audience: players
 publish: true
 summary: "Playable reptilian humanoids with natural armor, bite attacks, and a pragmatic cognition that processes the world in terms of utility and survival. Lizardfolk in the Shattered Sea are hull-workers, salvagers, and tidal-zone settlers."
 created: 2026-05-31
-updated: 2026-05-31
-
-sources: []
-confidence_level: high
+updated: 2026-06-01
 tags:
   - player-resource
+sources: []
+confidence_level: high
 ---
 
 # Lizardfolk

@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - PHB
 confidence_level: confirmed
@@ -16,8 +17,6 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Shortsword

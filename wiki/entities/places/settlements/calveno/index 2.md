@@ -1,23 +1,21 @@
 ---
-title: Calveno — Index
 type: entity
 subtype: place
-category: location-index
-publish: true
-visibility: public
-audience: players
-summary: Index for Calveno — the canal city of pale stone, witnessed deals, and Tessarine commercial power.
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: Index for Calveno — the canal city of pale stone, witnessed deals, and Tessarine commercial power.
 created: 2026-05-01
 updated: 2026-06-01
-
-sources:
-- Inbox/places/calveno/index.md
-confidence_level: medium
 tags:
   - tessarine
   - player-resource
+sources:
+  - Inbox/places/calveno/index.md
+confidence_level: medium
+category: location-index
+visibility: public
 ---
 
 # Calveno — Index

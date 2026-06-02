@@ -8,7 +8,8 @@ publish: true
 summary: "Ship's victualler on Kalowe's first island — Suryo Wibowo sells crew rations, water casks, rum, and fresh produce. Bring a list and a crew count."
 created: 2026-05-28
 updated: 2026-06-01
-
+tags:
+  - passage
 sources:
   - "Inbox/Suryo-Wibowo.md"
   - "Inbox/Wibowos-Provisions.md"
@@ -16,8 +17,6 @@ confidence_level: confirmed
 building_type: shop
 region: midchain
 district: First Island, harbour-side
-tags:
-  - passage
 ---
 
 # Wibowo's Provisions

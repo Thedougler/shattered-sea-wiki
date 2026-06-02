@@ -8,7 +8,8 @@ publish: true
 summary: CR 2 shapechanger monstrosity; disguises itself as mundane objects and grapples prey with adhesive pseudopods.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 212
 statblock: inline
 str: 17
 wis: 13
-tags:
-  - combat
 ---
 
 # Mimic

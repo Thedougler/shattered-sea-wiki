@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "D&D 2024 PHB"
 confidence_level: high
@@ -16,8 +17,6 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Heavy Crossbow

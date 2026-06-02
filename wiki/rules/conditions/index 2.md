@@ -1,21 +1,19 @@
 ---
-title: Conditions
-publish: true
-visibility: public
-audience: players
-summary: D&D 5e conditions reference for the Shattered Sea campaign.
 type: index
 subtype: conditions-index
-status: active
 campaign: shattered-sea
+status: active
+audience: players
+publish: true
+summary: D&D 5e conditions reference for the Shattered Sea campaign.
 created: 2026-05-03
 updated: 2026-06-01
-
-sources:
-- PHB 2024
-confidence_level: high
 tags:
   - player-resource
+sources:
+  - PHB 2024
+visibility: public
+confidence_level: high
 ---
 
 # Conditions

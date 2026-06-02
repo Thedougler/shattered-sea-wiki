@@ -17,8 +17,6 @@ sources:
   - Homebrew
 confidence_level: medium
 species: undead (appears human)
-faction: "[[dravosi-crown|Dravosi Crown]]"
-location: "[[port-tidefall|Port Tidefall]]"
 ---
 
 # Aldric Drave

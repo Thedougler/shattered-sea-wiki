@@ -8,7 +8,8 @@ publish: true
 summary: Public statblock reference for Boar, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XPHB
 confidence_level: high
@@ -25,8 +26,6 @@ page: 347
 statblock: inline
 str: 13
 wis: 9
-tags:
-  - combat
 ---
 
 # Boar

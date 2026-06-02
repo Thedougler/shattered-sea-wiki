@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-02
 tags:
   - maritime
   - mystery

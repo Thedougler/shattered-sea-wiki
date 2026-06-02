@@ -8,7 +8,8 @@ publish: true
 summary: A CR 1/8 beast; common bite hazard of the Verdant Teeth undergrowth, small enough to go unnoticed until stepped on.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XPHB
 confidence_level: high
@@ -25,8 +26,6 @@ page: 358
 statblock: inline
 str: 2
 wis: 10
-tags:
-  - combat
 ---
 
 # Venomous Snake

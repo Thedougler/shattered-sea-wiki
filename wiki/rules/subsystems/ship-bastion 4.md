@@ -8,13 +8,12 @@ publish: true
 summary: "Shared mobile bastion rules for the party ship — pooled facilities, weekly turns, defenders, upkeep, and ship space limits."
 created: '2026-05-29'
 updated: 2026-06-01
-
-sources:
-  - "Dungeon Master's Guide (2024)"
-confidence_level: medium
 tags:
   - maritime
   - player-resource
+sources:
+  - "Dungeon Master's Guide (2024)"
+confidence_level: medium
 ---
 
 # Ship Bastion — The Shattered Sea

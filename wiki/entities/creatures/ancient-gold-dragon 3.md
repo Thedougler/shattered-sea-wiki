@@ -8,7 +8,9 @@ publish: false
 summary: CR 24 lawful good metallic dragon; one of the most powerful creatures in the world, legendary fire breather and shapechanger.
 created: 2026-04-21
 updated: 2026-06-01
-
+tags:
+  - combat
+  - homebrew
 sources: []
 confidence_level: high
 aliases:
@@ -24,9 +26,6 @@ page: 123
 statblock: inline
 str: 30
 wis: 17
-tags:
-  - combat
-  - homebrew
 ---
 
 # Ancient Gold Dragon

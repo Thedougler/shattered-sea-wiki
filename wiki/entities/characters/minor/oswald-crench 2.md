@@ -8,12 +8,11 @@ publish: true
 summary: "Dwarf proprietor of the Shelf Instrument Dealer in Port Tidefall — has been calibrating Crown navigation equipment since before most current officers were posted east, and considers every customer a mild interruption to the cataloguing."
 created: 2026-05-17
 updated: 2026-06-01
-
+tags:
+  - dravosi
 sources:
   - "Inbox/Oswald-Crench.md"
 confidence_level: medium
-tags:
-  - dravosi
 ---
 
 # Oswald Crench

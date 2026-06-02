@@ -8,14 +8,13 @@ publish: false
 summary: "DM-facing operational guide for running the Uncertainty (ex-HCS Surety) — navigation failures, chase complications, crew casualties, bastion events, defence mechanics, and the Crown recognition clock (now active)."
 created: 2026-05-28
 updated: 2026-06-01
-
-sources:
-  - "Inbox/HCS-Surety-DM-Guide.md"
-confidence_level: medium
 tags:
   - dravosi
   - maritime
   - dm-prep
+sources:
+  - "Inbox/HCS-Surety-DM-Guide.md"
+confidence_level: medium
 ---
 
 # Uncertainty — DM Guide

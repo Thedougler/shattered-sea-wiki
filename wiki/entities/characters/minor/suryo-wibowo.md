@@ -7,13 +7,12 @@ audience: players
 publish: true
 summary: "Proprietor of Wibowo's Provisions on Kalowe's first island. Broad, efficient, talks at the same speed he works. Will tell a captain who is under-ordering exactly why, in terms that are not unkind but are precise."
 created: 2026-05-17
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - maritime
 sources:
   - "Inbox/Suryo-Wibowo.md"
 confidence_level: medium
-tags:
-  - maritime
 ---
 
 # Suryo Wibowo

@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "D&D 2024 PHB"
 confidence_level: high
@@ -16,8 +17,6 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Hand Crossbow

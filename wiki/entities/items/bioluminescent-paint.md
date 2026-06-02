@@ -8,7 +8,9 @@ publish: true
 summary: "An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
+  - maritime
 sources:
   - Homebrew
 confidence_level: medium
@@ -16,9 +18,6 @@ item_type: consumable
 rarity: uncommon
 attunement: false
 homebrew: true
-tags:
-  - homebrew
-  - maritime
 ---
 
 # Bioluminescent Paint

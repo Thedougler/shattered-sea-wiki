@@ -8,14 +8,13 @@ publish: true
 summary: "CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache."
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
+  - maritime
 sources:
   - "Inbox/pirate.md"
 confidence_level: high
 cr: 1
-tags:
-  - combat
-  - maritime
 ---
 
 # Pirate

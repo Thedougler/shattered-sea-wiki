@@ -8,14 +8,13 @@ publish: false
 summary: "CR 4 humanoid military officer. Leads soldiers and guards; skilled melee combatant with Javelin and Longsword multiattack."
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
+  - homebrew
 sources:
   - "Inbox/guard-captain.md"
 confidence_level: high
 cr: 4
-tags:
-  - combat
-  - homebrew
 ---
 
 # Guard Captain

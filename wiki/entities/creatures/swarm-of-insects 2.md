@@ -8,7 +8,8 @@ publish: true
 summary: A CR 1/2 beast swarm; biting clouds of the Verdant Teeth jungle floor that can force a camp to relocate in under an hour.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 370
 statblock: inline
 str: 3
 wis: 7
-tags:
-  - combat
 ---
 
 # Swarm of Insects

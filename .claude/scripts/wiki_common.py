@@ -76,6 +76,7 @@ def rel(path: str) -> str:
 
 def infer_type(relpath: str) -> str:
     table = [
+        ("wiki/entities/creatures/", "monster"),
         ("wiki/entities/", "entity"),
         ("wiki/situations/", "situation"),
         # A "narrative island" is a portable plot-device / scenario cluster — NOT a

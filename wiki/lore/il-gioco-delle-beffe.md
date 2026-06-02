@@ -8,12 +8,11 @@ publish: false
 summary: "Calveno's five-day prank festival. Teams execute elaborate public hoaxes on willing marks during a three-day window, then reveal authorship with a registered team symbol."
 created: 2026-05-27
 updated: 2026-06-01
-
+tags:
+  - tessarine
 sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Il-Gioco-delle-Beffe.md"
-tags:
-  - tessarine
 ---
 
 # Il Gioco delle Beffe

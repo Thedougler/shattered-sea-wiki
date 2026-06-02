@@ -8,7 +8,8 @@ publish: true
 summary: "An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - maritime
 sources:
   - "Inbox/Kettil-Ormsson.md"
   - "Inbox/Ormssons-Fittings.md"
@@ -18,8 +19,6 @@ aliases:
   - "Ormsson's"
 parent_location: "[[kalowe|Kalowe]]"
 district: First Island, dry-dock quarter
-tags:
-  - maritime
 ---
 
 # Ormsson's Fittings

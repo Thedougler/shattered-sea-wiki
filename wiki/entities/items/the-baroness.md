@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Delmar Fisk's rapier — named, primary, and the weapon he reaches for first when words stop working. Carried at his hip."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "D&D 2024 PHB"
 confidence_level: high
@@ -16,8 +17,6 @@ item_type: weapon
 rarity: common
 requires_attunement: false
 current_holder: "[[delmar-fisk|Delmar Fisk]]"
-tags:
-  - player-resource
 ---
 
 # The Baroness

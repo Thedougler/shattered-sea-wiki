@@ -8,7 +8,8 @@ publish: false
 summary: CR 1 fey goblin leader; commands minions and uses Redirect Attack to force an ally to take a hit meant for it.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 143
 statblock: inline
 str: 10
 wis: 8
-tags:
-  - combat
 ---
 
 # Goblin Boss

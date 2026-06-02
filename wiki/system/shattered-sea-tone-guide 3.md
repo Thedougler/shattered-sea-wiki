@@ -8,15 +8,14 @@ publish: false
 summary: "Core tone equation for all Shattered Sea content: high competence trapped inside low emotional maturity. Scenes need real danger, petty internal friction, and stylish presentation."
 created: 2026-04-20
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources:
   - "Inbox/private/system/guides/Shattered-Sea-Tone-Guide.md"
 system_role: "unknown"
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""
-tags:
-  - dm-prep
 ---
 
 # Shattered Sea — Tone Guide

@@ -8,7 +8,8 @@ publish: true
 summary: "Dried legumes for long-passage provisioning — cheap, filling, and they keep indefinitely when dry."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: provision
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
 ---
 
 # Dried Beans

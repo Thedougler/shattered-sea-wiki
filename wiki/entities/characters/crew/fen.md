@@ -8,12 +8,11 @@ publish: false
 summary: "Ordinary sailor aboard the Saltwright under Beaumont Sel. Young, earnest, and treating eight months at sea as deeply formative."
 created: 2026-05-28
 updated: 2026-06-01
-
+tags:
+  - maritime
 sources:
   - "Inbox/Beaumonts-Crew.md"
 confidence_level: confirmed
-tags:
-  - maritime
 ---
 
 # Fen

@@ -8,7 +8,9 @@ publish: true
 summary: "Calveno's main ship chandlery on the Mercatura canal — practical stock, canal-side loading, and a proprietor who can quote oakum prices without looking anything up."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - tessarine
+  - waveservants
 sources:
   - "Inbox/Calveno-Sandbox-Run-Guide.md"
   - "Inbox/Moretti-and-Sons.md"
@@ -19,9 +21,6 @@ aliases:
   - "Moretti's"
 parent_location: "[[calveno|Calveno]]"
 district: Mercatura
-tags:
-  - tessarine
-  - waveservants
 ---
 
 # Moretti & Sons Chandlery

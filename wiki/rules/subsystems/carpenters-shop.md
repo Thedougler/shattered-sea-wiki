@@ -8,13 +8,12 @@ publish: true
 summary: "Ship facility (Smithy Tier 1) that lets hirelings craft from Smith's Tools or commission magic armaments at level 9+."
 created: '2026-05-29'
 updated: 2026-06-01
-
-sources:
-  - "Dungeon Master's Guide (2024)"
-confidence_level: confirmed
 tags:
   - maritime
   - player-resource
+sources:
+  - "Dungeon Master's Guide (2024)"
+confidence_level: confirmed
 ---
 
 # Carpenter's Shop

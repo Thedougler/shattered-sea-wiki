@@ -8,7 +8,8 @@ publish: true
 summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 161
 statblock: inline
 str: 19
 wis: 19
-tags:
-  - combat
 ---
 
 # Guardian Naga

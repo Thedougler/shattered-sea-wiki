@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "PHB"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: weapon
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Light Crossbow

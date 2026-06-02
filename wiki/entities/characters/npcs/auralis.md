@@ -16,7 +16,6 @@ sources:
   - "Inbox/situations/reference/Auralis.md"
 confidence_level: confirmed
 role: demigod guardian of the Drowned Maw
-affiliation: none — independent, bound to the Maw
 ---
 
 # Auralis

@@ -8,14 +8,13 @@ publish: true
 summary: "CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach."
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
+  - maritime
 sources:
   - "Inbox/young-sea-serpent.md"
 confidence_level: high
 cr: 8
-tags:
-  - combat
-  - maritime
 ---
 
 # Young Sea Serpent

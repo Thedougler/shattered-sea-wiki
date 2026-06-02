@@ -8,14 +8,13 @@ publish: false
 summary: "Stub — party not yet defined. Populate after session zero."
 created: 2026-05-27
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources: []
 system_role: party-primer
 token_profile: always-read
 mandatory_for: [session-prep]
 update_trigger: "After each session; when party circumstances change significantly"
-tags:
-  - dm-prep
 ---
 
 # Party Session Primer — Shattered Sea

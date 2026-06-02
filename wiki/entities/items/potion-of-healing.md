@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "A red restorative draught — restores 2d4+2 hit points when drunk. The most commonly sought magical consumable in the Shattered Sea."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "DMG"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: consumable
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Potion of Healing

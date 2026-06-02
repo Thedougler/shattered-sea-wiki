@@ -8,7 +8,10 @@ publish: true
 summary: "A forensic-grade topical compound that causes a wound to present as 2–4 days older than it is under standard medical examination."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
+  - maritime
+  - drowned-maw
 sources:
   - Homebrew
 confidence_level: medium
@@ -16,10 +19,6 @@ item_type: consumable
 rarity: rare
 attunement: false
 homebrew: true
-tags:
-  - homebrew
-  - maritime
-  - drowned-maw
 ---
 
 # Bile of the Drowned

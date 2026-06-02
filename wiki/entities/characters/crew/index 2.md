@@ -1,21 +1,19 @@
 ---
-title: Hireable Crew
-category: index
 type: index
+subtype: crew
 campaign: shattered-sea
+status: unknown
+audience: dm
+publish: false
+summary: Index for major recurring hired crew and shipboard character pages.
 created: 2026-05-16
 updated: 2026-06-01
-publish: false
-audience: dm
-summary: Index for major recurring hired crew and shipboard character pages.
-
-sources:
-- Inbox/characters/crew/index.md
-confidence_level: high
-subtype: crew
-status: unknown
 tags:
   - player-resource
+sources:
+  - Inbox/characters/crew/index.md
+confidence_level: high
+category: index
 ---
 
 # Hireable Crew Characters

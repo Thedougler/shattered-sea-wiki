@@ -8,13 +8,12 @@ publish: false
 summary: "2024 system for combining multiple spellcasters to empower a single spell via Augment, Distribute, Expand, or Prolong options; no resource cost beyond spell slots and actions."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources:
   - "Heroes of Faerun (2024)"
   - "rpgbot.net — 2024 Circle Spells Guide"
 confidence_level: medium
-tags:
-  - dm-prep
 ---
 
 # Circle Magic

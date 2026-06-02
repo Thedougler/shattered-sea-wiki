@@ -8,13 +8,12 @@ publish: true
 summary: "Tier 1 bastion facility — Sanctuary adapted for the ship. Grants a weekly Healing Word charm and supports crafting of holy symbols or druidic focuses."
 created: '2026-05-30'
 updated: 2026-06-01
-
-sources:
-  - "Dungeon Master's Guide (2024)"
-confidence_level: medium
 tags:
   - waveservants
   - player-resource
+sources:
+  - "Dungeon Master's Guide (2024)"
+confidence_level: medium
 ---
 
 # Waveservant Shrine (Facility)

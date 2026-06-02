@@ -8,7 +8,8 @@ publish: true
 summary: "High-proof alcohol for wound cleaning and sterilisation — also consumed, which is its secondary purpose and its primary one at sea. 3 sp per bottle."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - "Homebrew"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: consumable
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
 ---
 
 # Medicinal Spirits

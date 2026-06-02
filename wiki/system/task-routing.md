@@ -8,14 +8,13 @@ publish: false
 summary: "Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads."
 created: 2026-05-27
 updated: 2026-06-01
-
+tags:
+  - dm-prep
 sources: []
 system_role: task-routing
 token_profile: map
 mandatory_for: []
 update_trigger: "New system file added; task type added; mandatory read list changes"
-tags:
-  - dm-prep
 ---
 
 # Task Routing — Shattered Sea

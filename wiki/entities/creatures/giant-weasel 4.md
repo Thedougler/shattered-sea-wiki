@@ -8,7 +8,8 @@ publish: true
 summary: Public statblock reference for Giant Weasel, a CR 1/8 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XPHB
 confidence_level: high
@@ -25,8 +26,6 @@ page: 351
 statblock: inline
 str: 11
 wis: 12
-tags:
-  - combat
 ---
 
 # Giant Weasel

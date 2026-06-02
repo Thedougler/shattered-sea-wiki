@@ -7,8 +7,10 @@ audience: players
 publish: true
 summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 created: 2026-05-02
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - tessarine
+  - maritime
 sources:
   - Inbox/places/calveno/Cats-Curios.md
   - Inbox/Session-03-Recap.md
@@ -20,9 +22,6 @@ aliases:
   - Kat's Curios
   - Cat's Curios
 district: side-street workshop
-tags:
-  - tessarine
-  - maritime
 ---
 
 # Cat's Curios

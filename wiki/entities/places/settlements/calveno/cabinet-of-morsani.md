@@ -7,8 +7,10 @@ audience: players
 publish: true
 summary: An eccentric magical curio dealer in the Velo Quarter — lanterns at all hours, things on the shelves that don't look the same twice, and an old man who knows the previous owner of everything and will not tell you how it ended.
 created: 2026-05-15
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - tessarine
+  - maritime
 sources:
   - Inbox/places/calveno/Cabinet-of-Morsani.md
 confidence_level: medium
@@ -19,9 +21,6 @@ aliases:
   - Morsani's
   - Cabinet of Morsani
 district: The Velo Quarter
-tags:
-  - tessarine
-  - maritime
 ---
 
 # The Cabinet of Morsani

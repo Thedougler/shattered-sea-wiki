@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "Inbox/Crissdalynn-Khinriss-Interview.md"
   - "Inbox/Sentinels-Of-The-Eyrie.md"
@@ -17,8 +18,6 @@ item_type: wondrous-item
 rarity: uncommon
 attunement: true
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Eldritch Claw Tattoo

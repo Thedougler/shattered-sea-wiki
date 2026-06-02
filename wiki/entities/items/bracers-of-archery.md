@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - PHB
 confidence_level: high
@@ -17,8 +18,6 @@ rarity: uncommon
 attunement: true
 homebrew: false
 current_holder: "[[stripes-bitemore|Stripes Bitemore]]"
-tags:
-  - player-resource
 ---
 
 # Bracers of Archery

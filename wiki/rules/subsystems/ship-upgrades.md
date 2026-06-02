@@ -8,14 +8,13 @@ publish: true
 summary: "Purchaseable magical enhancements and installed ship gear — catalog by rarity and availability."
 created: '2026-05-29'
 updated: 2026-06-01
-
-sources:
-  - Homebrew
-confidence_level: medium
 tags:
   - maritime
   - homebrew
   - player-resource
+sources:
+  - Homebrew
+confidence_level: medium
 ---
 
 # Ship Upgrades — The Shattered Sea

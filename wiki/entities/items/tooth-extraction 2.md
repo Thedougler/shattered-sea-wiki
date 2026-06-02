@@ -8,7 +8,8 @@ publish: true
 summary: "Professional tooth extraction — 1 sp, and the apothecary is fast about it."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - Homebrew
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: service
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
 ---
 
 # Tooth Extraction

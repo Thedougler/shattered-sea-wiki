@@ -8,13 +8,12 @@ publish: false
 summary: "A legendary underwater sinkhole in the eastern Midchain where a century of shipwrecks lie at the bottom — guarded by an ancient Sawek and animated crews."
 created: '2026-05-29'
 updated: 2026-06-01
-
-sources:
-  - Homebrew
-confidence_level: low
 tags:
   - drowned-maw
   - mystery
+sources:
+  - Homebrew
+confidence_level: low
 ---
 
 # The Grandfather Hole

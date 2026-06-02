@@ -8,7 +8,8 @@ publish: true
 summary: "Acidic preservative for cask cleaning, food preservation, and wound treatment when nothing better is available."
 created: '2026-05-29'
 updated: 2026-06-01
-
+tags:
+  - homebrew
 sources:
   - Homebrew
 confidence_level: confirmed
@@ -16,8 +17,6 @@ item_type: provision
 rarity: common
 attunement: false
 homebrew: false
-tags:
-  - homebrew
 ---
 
 # Vinegar

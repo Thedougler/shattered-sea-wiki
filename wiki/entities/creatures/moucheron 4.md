@@ -8,16 +8,15 @@ publish: false
 summary: "CR 8 fey mercenary from the Plane of Faerie that feeds exclusively on blood. Pays negotiated in bloodletting. Highly social when fed, vicious when starved. Active on Murrat; hires out of Kalowe."
 created: 2026-05-15
 updated: 2026-06-01
-
+tags:
+  - combat
+  - moucheron
 sources:
   - "Inbox/Moucheron.md"
 confidence_level: high
 cr: 8
 aliases:
   - "Moucheron"
-tags:
-  - combat
-  - moucheron
 ---
 
 # Moucheron

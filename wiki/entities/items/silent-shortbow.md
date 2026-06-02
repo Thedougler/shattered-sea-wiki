@@ -8,7 +8,9 @@ publish: false
 summary: "A +1 yew shortbow with a completely silent release — does not reveal the shooter's position when firing from hidden. Carried by Jean-Claude Tabarnack."
 created: 2026-06-01
 updated: 2026-06-01
-
+tags:
+  - homebrew
+  - player-resource
 sources:
   - "audio/sessions/session04/extracts.md"
 confidence_level: confirmed
@@ -17,9 +19,6 @@ rarity: uncommon
 attunement: false
 homebrew: true
 current_holder: "[[jean-claude-tabarnack|Jean-Claude Tabarnack]]"
-tags:
-  - homebrew
-  - player-resource
 ---
 
 # Silent Shortbow

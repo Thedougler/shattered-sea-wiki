@@ -8,7 +8,8 @@ publish: true
 summary: The Giant Crocodile, a CR 5 beast in the Shattered Sea bestiary.
 created: 2026-04-25
 updated: 2026-06-01
-
+tags:
+  - combat
 sources:
   - XMM
 confidence_level: high
@@ -25,8 +26,6 @@ page: 356
 statblock: inline
 str: 21
 wis: 10
-tags:
-  - combat
 ---
 
 # Giant Crocodile

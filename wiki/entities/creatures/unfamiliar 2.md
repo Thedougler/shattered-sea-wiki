@@ -8,16 +8,15 @@ publish: false
 summary: "CR 5 monstrosity. Designed to hunt familiars and their summoners — its attacks trigger random uncontrolled spell effects, and it instinctively targets anyone who has ever bonded with a familiar."
 created: 2026-05-15
 updated: 2026-06-01
-
+tags:
+  - combat
+  - homebrew
 sources:
   - "Inbox/Unfamiliar.md"
 confidence_level: high
 cr: 5
 aliases:
   - "Unfamiliar"
-tags:
-  - combat
-  - homebrew
 ---
 
 # Unfamiliar

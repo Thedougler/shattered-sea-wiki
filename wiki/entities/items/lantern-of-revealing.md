@@ -7,8 +7,9 @@ audience: players
 publish: true
 summary: "A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone."
 created: '2026-05-29'
-updated: 2026-05-31
-
+updated: 2026-06-01
+tags:
+  - player-resource
 sources:
   - "DMG"
 confidence_level: medium
@@ -16,8 +17,6 @@ item_type: magic-item
 rarity: uncommon
 attunement: false
 homebrew: false
-tags:
-  - player-resource
 ---
 
 # Lantern of Revealing

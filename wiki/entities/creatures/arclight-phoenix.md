@@ -57,6 +57,6 @@ actions:
 
 ## In The Shattered Sea
 
-Arclight phoenixes belong to the western edge where volcanic stone meets permanent weather: the black spires of the Ashwall Islands and the Galewall that begins just past them. They are born inside Ashwall volcanoes — the sign is lateral lightning inside the ash plume. An eruption with lateral lightning in the ash is a hatching, and the bird that emerges will be in the storm within hours.
+Arclight phoenixes belong to the western edge where volcanic stone meets permanent weather: the black spires of the [[ashwall-islands|Ashwall Islands]] and the [[galewall|Galewall]] that begins just past them. They are born inside Ashwall volcanoes — the sign is lateral lightning inside the ash plume. An eruption with lateral lightning in the ash is a hatching, and the bird that emerges will be in the storm within hours.
 
 Ashwall crews hold a belief the colonial weather-offices dismiss: that the Galewall is not the environment the arclight phoenix inhabits — it is what the arclight phoenix makes. The permanent weather belt may be the accumulated output of something alive.

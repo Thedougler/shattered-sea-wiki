@@ -45,3 +45,8 @@ actions:
   - name: "Enthralling Panache"
     desc: "DC 12 Wisdom save, one creature within 30 feet. On a failed save, the target has the Charmed condition until the start of the pirate's next turn."
 ```
+
+## Related
+
+- [[the-velvet-noose|The Velvet Noose]] — the most organized pirate fleet in the Shattered Sea; uses this stat block for crew
+- [[galewall|The Galewall]] — recovery-lane piracy targets ships damaged by the crossing

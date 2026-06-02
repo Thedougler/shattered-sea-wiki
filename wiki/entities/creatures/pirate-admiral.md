@@ -57,3 +57,8 @@ reactions:
   - name: "Defensive Stance"
     desc: "When the pirate is hit by a melee attack roll while holding a weapon, the pirate adds 4 to its AC against melee attack rolls (including the triggering attack) until the start of its next turn."
 ```
+
+## Related
+
+- [[the-velvet-noose|The Velvet Noose]] — flagship command; the Velvet Noose flagship warrants this stat block
+- [[galewall|The Galewall]] — the right template for a Velvet Noose recovery-lane encounter

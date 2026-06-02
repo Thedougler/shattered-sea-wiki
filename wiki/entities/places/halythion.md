@@ -27,7 +27,7 @@ access: "Hidden underwater passage; authorized sea elf access only"
 
 ## Overview
 
-An ancient sea elf city built into the Teikhinos Reef — invisible from the surface, impassable by ship, older than any colonial record. It measures civilization by what it remembers. Here, memory is law, and law is sung.
+An ancient [[sea-elf|sea elf]] city built into the Teikhinos Reef — invisible from the surface, impassable by ship, older than any colonial record. It measures civilization by what it remembers. Here, memory is law, and law is sung.
 
 **Location:** Eastern Midchain — the Shearwall Reef, approximately 20 miles across
 

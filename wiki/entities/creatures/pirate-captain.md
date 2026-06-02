@@ -56,3 +56,8 @@ reactions:
   - name: "Riposte"
     desc: "When the pirate is hit by a melee attack roll while holding a weapon, the pirate adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the pirate makes one Rapier attack against the triggering creature if within range."
 ```
+
+## Related
+
+- [[the-velvet-noose|The Velvet Noose]] — flagship-level command; a Velvet Noose captain commands a deep-water warship
+- [[galewall|The Galewall]] — recovery-lane piracy: a disciplined captain can make a rescue look like a boarding action

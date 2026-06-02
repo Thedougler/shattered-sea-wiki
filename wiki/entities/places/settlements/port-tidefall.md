@@ -65,6 +65,7 @@ Every ship entering the western Strait is expected to stop, answer questions, an
 | [[the-governors-seat|Governor's Seat]] | Government office | Petitions, appointments, appeals, and civic Crown authority. |
 | [[hook-and-ledger|Hook & Ledger]] | Tavern | Shelf tavern for clerks, pursers, quartermasters, and quiet side deals. |
 | [[anchor-and-line|Anchor & Line]] | Tavern | Dockfront working tavern — cheap rum, long benches, canvas-screened back section for the Rattkin population. |
+| [[port-tidefall-waveservant-shrine|Waveservant Shrine]] | Shrine | [[umberlee|Umberlee]]'s Dockfront shrine — tallow candles, seawater basin, survival tithes. |
 | [[fort-crestwall|Fort Crestwall]] | Fort | Barracks, command post, and cannon battery above the harbour approach. |
 
 ## Current Hooks

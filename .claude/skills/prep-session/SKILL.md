@@ -65,7 +65,9 @@ The DM reading this is busy and about to perform for hours. Respect their bandwi
 - **Be direct and devoid of mystery.** State what is true, what the NPC wants, what the roll reveals. The DM should never have to decode your prep — you are their co-DM, not a puzzle.
 - **Encourage by removing fear, not by adding pep talk.** A sandbox DM's anxiety is "what if they don't do what I prepped?" Answer it *in the guide*: mark ignored content as resurfacing rather than wasted, give a Surprise procedure, and remind them the menu is theirs to react to, not drive. Confidence comes from "you have what you need and nothing breaks if they wander," delivered in as few words as possible. Encouragement that costs the DM reading time is not encouragement.
 
-Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative` for an anti-railroading pass on the finished guide.
+Load `ttrpg-writing` before writing prose. **DM-facing reference** for DM notes and NPC
+handles. **Player-facing prose** for `[!read-aloud]` sections. Load `sandbox-narrative`
+for an anti-railroading pass on the finished guide.
 
 ## Reference Files
 
@@ -73,5 +75,8 @@ Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative
 |---|---|
 | `references/STRONG-START.md` | Writing the opening — the five strong-start types, failure modes, and anti-patterns. |
 | `references/PACING.md` | Choosing which threads to advance and shaping session rhythm, register variation, and off-screen faction action. |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing DM-facing session prose, NPC handles |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` sections |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement |
 
 **For run guides:** the `prep-run-guide` skill owns the template, inline-first contract, and quality gate. Load it when `/run-guide` is invoked.

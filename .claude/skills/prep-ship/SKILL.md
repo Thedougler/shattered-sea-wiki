@@ -43,7 +43,8 @@ wiki/entities/vehicles/{slug}/
   dm-guide.md        — DM-facing secrets, hooks, encounter notes
 ```
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** throughout —
+ship pages are DM-only operational reference.
 
 ---
 
@@ -71,5 +72,8 @@ unless the DM requests art.
 | `references/SHIP-GENERATE.md` | Ship generation, fleet design, naming conventions, stat generation |
 | `references/SHIP-RULES.md` | Naval rules, maritime mechanics, sea encounter structure |
 | `references/TRAVEL.md` | Travel encounters and sea events |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing ship profile, history, status |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a ship — linguistic roots and conventions |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

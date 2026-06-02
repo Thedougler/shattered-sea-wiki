@@ -77,7 +77,9 @@ The guide is an operating document read under pressure with four players waiting
 
 **Decompose before drafting.** Write sections one at a time. A single-pass draft produces thin, inconsistent scene cards.
 
-Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative` for an anti-railroading pass on the finished guide.
+Load `ttrpg-writing` before writing prose. **DM-facing reference** for scene cards and
+NPC handles. **Player-facing prose** for `[!read-aloud]` callouts. Load `sandbox-narrative`
+for an anti-railroading pass on the finished guide.
 
 ## Voice
 
@@ -88,6 +90,9 @@ Concise, direct, and quietly encouraging. Cut every word that doesn't help run a
 | File | Read when |
 |---|---|
 | `references/run-guide-spec.md` | Building or revising a run guide — the inline-first contract, scene card template, section specs with examples, file template, and quality gate. |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing DM-facing scene cards, NPC handles |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` callouts |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement |
 
 Cross-reference from `prep-session`:
 

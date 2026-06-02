@@ -190,7 +190,8 @@ After writing a standalone file:
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for tactical
+notes, stakes, and if-ignored. **Player-facing prose** for `[!read-aloud]` callouts.
 
 ---
 
@@ -203,5 +204,8 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/5E-FIELDS.md` | Environment interactions — difficult terrain, cover, lighting, weather |
 | `../prep-creature/references/STAT-BLOCKS.md` | Encounter enemy stat block references |
 | `../prep-creature/references/NAMED-ENEMIES.md` | Named antagonist stat citation patterns |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing tactical notes, enemy roster, stakes |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` encounter text |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

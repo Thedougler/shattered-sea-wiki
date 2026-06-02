@@ -109,8 +109,8 @@ After writing: add to `wiki/index.md`, add reciprocal links, commit.
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards — mode selector, Brennan
-voice, and callout types all apply to location pages.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for lore and DM
+notes. **Player-facing prose** for `[!read-aloud]` opening and sub-location impressions.
 
 ---
 
@@ -120,5 +120,9 @@ voice, and callout types all apply to location pages.
 |---|---|
 | `references/LOCATION.md` | Full location template, read-aloud examples, dungeon room key format |
 | `references/prep-city.md` | City and settlement building via Pointy Hat Theme Park Method |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing lore, DM notes, notable locations |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` opening and sub-location impressions |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a new location — linguistic roots by culture |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

@@ -165,7 +165,9 @@ After DM approval:
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for DM callout,
+history, and limitations. **Player-facing prose** for flavor description (read-aloud
+quality — a player could read this before picking up the item).
 
 ---
 
@@ -174,5 +176,8 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | File | Read when |
 |---|---|
 | `references/RARITY-BUDGET.md` | Setting rarity and checking power against RAW benchmarks |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing DM callout, history, limitations |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing flavor description |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

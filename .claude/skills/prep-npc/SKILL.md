@@ -119,8 +119,9 @@ After writing the page:
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards — Brennan voice, anti-slop,
-callout types, and publish contracts apply to every NPC page.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for lore sheet,
+toy fields, voice notes, and DM companion. **Player-facing prose** for `[!read-aloud]`
+callouts. Anti-slop, Brennan voice, callout types, and publish contracts all apply.
 
 ---
 
@@ -129,5 +130,9 @@ callout types, and publish contracts apply to every NPC page.
 | File | Read when |
 |---|---|
 | `references/NPC.md` | Full NPC template, villain variant, activity log format, detailed field rules |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing lore sheet, toy fields, voice notes, DM companion |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` appearance callout |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a new NPC — linguistic roots by race |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

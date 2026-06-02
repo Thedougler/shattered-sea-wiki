@@ -11,8 +11,7 @@ summary: "At-table run guide for Session 05: Grung counter-operation through the
 created: "2026-06-01"
 updated: 2026-06-01
 tags:
-  - session-prep
-  - run-guide
+  - dm-prep
   - grung
   - combat
 sources:

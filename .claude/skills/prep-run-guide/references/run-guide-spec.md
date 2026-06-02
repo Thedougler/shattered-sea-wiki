@@ -122,6 +122,8 @@ Self-contained scene cards. Each is a beat the party can pull on. Organized by t
 *Pull: [PC(s)] · Register: [social/combat/revelation/exploratory]*
 *Available: [any time / Day 2+ / when the party does X]*
 
+![[wiki/assets/sessions/session-NN/scene-slug.webp|Full generation prompt as alt text]]
+
 > [!read-aloud]
 > [Sensory opener if the scene has a clear entry moment. Present tense, second person, 2–4 sentences.]
 
@@ -143,6 +145,8 @@ Self-contained scene cards. Each is a beat the party can pull on. Organized by t
 ### The Shrine — Pearl Summons *(Umberlee)*
 *Pull: Delmar · Register: revelation*
 *Available: any time Delmar approaches the shrine*
+
+![[wiki/assets/sessions/session-05/shrine-pearl-summons.webp|Archer-style adult animated illustration, clean vector-like linework, strong ink contours, cel-shaded lighting. Scene art, 16:9 widescreen cinematic. The Waveservant Shrine — a low tide-stained stone vault off a Mercatura canal, seawater font breathing on its own, Branca sitting upright with tide-table booklet, salt-white hair pulled back hard, bright unsettling warmth in her expression. No text, no watermarks, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 > [!read-aloud]
 > The Waveservant Shrine is a low, tide-stained vault off a Mercatura canal. The font holds a hand's depth of seawater that will not lie flat — it rises and falls like something breathing under it. Branca is exactly where she sat down: upright, awake, booklet on her knee. "So," she says, bright and clipped. "You came. Good. We have an appointment."
@@ -290,7 +294,7 @@ Obsidian-flavoured markdown throughout. `ttrpg-writing` is the authority for pro
 
 **Wikilinks** — always aliased: `[[slug|Display Name]]`. First mention in a section links; later mentions don't. Verify the path exists before linking.
 
-**Images** — no atmospheric art in the guide body. Art is for prep, not for the operating document. If images help the DM prepare, put them in a collapsed `> [!art]` callout at the end or in situation files. Exception: a **tactical map** the DM genuinely needs to run combat or spatial play may be inlined at the scene card where it's used — but only if the DM would otherwise have to open another file for it. Atmospheric art (NPC portraits, mood scenes, cityscapes) is never inline.
+**Images** — one image per scene card, max. Place it at the top of the card, before the read-aloud, with a blank line above and below. Scene art (the shrine at dawn, a handler in the crowd) and tactical maps (raid overview, sewer layout) both belong inline at the scene where the DM uses them. The dashboard zone has no images — it's pure text and tables for fast scanning. Load `ttrpg-visual-aids` for prompt construction, placement rules, storage paths, and embedding syntax. Load `openrouter-image-gen` to generate. If generation fails, leave a `> [!visual-aid]` callout with the full prompt.
 
 ---
 
@@ -363,6 +367,8 @@ sources: [Homebrew]
 ### [Scene Name] *(Thread)*
 *Pull: [PC(s)] · Register: [register]*
 
+![[wiki/assets/sessions/session-NN/scene-slug.webp|Full prompt as alt text]]
+
 > [!read-aloud]
 > ...
 
@@ -417,7 +423,7 @@ Before finalizing:
 - [ ] **No scene depends on a prior player choice** — only on established canon.
 - [ ] **Every clock tick is observable.** If the DM can't show it, it isn't a tick.
 - [ ] **NPC bench is 3 columns** (name, grab-when, handle). Full detail lives in scene cards.
-- [ ] **No atmospheric art in guide body.** Tactical maps at the scene card where needed are fine; mood art goes in a collapsed callout at end or in situation files.
+- [ ] **Images placed correctly.** Max 1 per scene card, at the top before read-aloud. No images in the dashboard zone. Generated via `ttrpg-visual-aids` + `openrouter-image-gen`, or `[!visual-aid]` fallback.
 - [ ] **Spotlight attached to an existing pressure,** never manufactured.
 - [ ] **Critical clues have multiple discovery vectors.**
 - [ ] **DM-only truth in `[!secret]`.**

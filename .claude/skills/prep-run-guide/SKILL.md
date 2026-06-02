@@ -47,11 +47,19 @@ Every run guide has three visual zones. The DM's eye moves through them predicta
 
 **Reference for lookup.** Secrets, stall hooks, and the surprise procedure live at the bottom. The DM reaches for them by need (Ctrl+F), not by scrolling position.
 
+## Visual aids
+
+Scene art helps the DM set the tone and gives players something to look at during narration. Load `ttrpg-visual-aids` and `openrouter-image-gen` to generate images for the guide.
+
+- **One image per scene card, max.** Place it at the top of the card, before the read-aloud. Follow `ttrpg-visual-aids` placement rules: blank line above and below, never inside callouts.
+- **Dashboard has no images.** The dashboard is pure text and tables — the DM scans it every 10 minutes and images slow that down.
+- **Scene art and tactical maps go inline.** A scene-setting image (Nona's kitchen, the shrine at dawn, a Grung handler in the crowd) anchors the DM in the beat. A tactical map (raid strike points, sewer layout) is operational. Both belong at the scene card where they're used.
+- **Generate during prep, not at the table.** Run the generation workflow from `ttrpg-visual-aids` while writing the guide. If generation fails, leave a `[!visual-aid]` callout with the full prompt for later fulfillment.
+
 ## Formatting for speed
 
 The guide is an operating document read under pressure with four players waiting:
 
-- **No atmospheric art in the guide body.** Art is for prep. Keep it in situation files or a collapsed callout at the end. Exception: a **tactical map** the DM genuinely needs to run combat or spatial play (e.g., a raid overview with strike points) may be inlined at the scene card where it's used — but only if the DM would otherwise have to open another file for it.
 - **Tables for scanning, prose for running.** Dashboard = all tables. Scene cards = callouts and tight bullets.
 - **One-line NPC handles in the bench.** Full NPC detail (first line, wants, reveals) lives in the scene card where they appear. The bench is a 3-column quick-ref: name, grab-when, handle.
 - **Thread tags on scene cards.** Parenthetical `*(Thread Name)*` after the scene title. Searchable.

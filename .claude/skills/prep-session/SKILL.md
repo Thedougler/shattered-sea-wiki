@@ -38,7 +38,7 @@ Wikilinks are for depth the DM chooses to chase between sessions, never for info
 
 | Mode | Produces |
 |---|---|
-| `/run-guide [N]` | Full session run guide for session N. Read `references/session-run-guide.md` and follow its workflow. |
+| `/run-guide [N]` | **Delegates to `prep-run-guide`.** Load that skill and follow its workflow and spec. This skill's grounding steps and voice guidance still apply. |
 | `/strong-start` | Just the opening: one in-medias-res scene, one image, one pressure, no recap. Read `references/STRONG-START.md`. |
 | `/thread-review` | Active threads grouped *immediate / simmering / dormant / gap-or-contradiction*. Read-only — do not write unless asked. |
 | `/spotlight` | Spotlight targets, each attached to an existing pressure. Never a scene whose only job is "give X a moment." |
@@ -71,6 +71,7 @@ Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative
 
 | File | Read when |
 |---|---|
-| `references/session-run-guide.md` | Building or revising a run guide — the inline-first template, assembly workflow, module formatting craft, and quality gate. |
 | `references/STRONG-START.md` | Writing the opening — the five strong-start types, failure modes, and anti-patterns. |
 | `references/PACING.md` | Choosing which threads to advance and shaping session rhythm, register variation, and off-screen faction action. |
+
+**For run guides:** the `prep-run-guide` skill owns the template, inline-first contract, and quality gate. Load it when `/run-guide` is invoked.

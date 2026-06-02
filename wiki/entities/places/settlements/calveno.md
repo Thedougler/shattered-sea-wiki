@@ -69,7 +69,6 @@ That openness is the point. The city runs on witnessed transactions — deals st
 | [[kats-curios|Cat's Curios]] | Artificer | Referral-only; no sign, no walk-ins. |
 | [[warren|The Warren]] | Hidden settlement | Fixed [[rattkin|Rattkin]] settlement beneath Le Paludi, anchor of [[the-passage|the Passage]]. |
 | [[acqua-nera|Acqua Nera]] | Boatyard | Outer harbour hull conversion yard; re-identification work, double rate. |
-| [[drowned-reliquary|The Drowned Reliquary]] | Submerged shrine | Pre-Umberlee shrine beneath the harbour district; current Velvet Noose dead drop. |
 | [[il-gioco-delle-beffe|Il Gioco delle Beffe]] | Annual festival | The city's prank competition. |
 | [[il-palio-delle-voci|Il Palio delle Voci Contese]] | Annual festival | Open bardic competition across the canal district. |
 

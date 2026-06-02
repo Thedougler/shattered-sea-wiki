@@ -12,25 +12,10 @@ An LLM-assisted D&D 5e (2024) campaign wiki ("Shattered Sea") that is both an **
 
 ---
 
-## Party
+## Campaign State
 
-| PC | Notes |
-|---|---|
-| Crissdalynn Khinriss | Crow aarakocra monk |
-| Perrin Black-Jaw | Rattkin sailor; bodhran, Minor Illusion |
-| Jean-Claude Tabarnack | Poison dart frog ranger; holds secret about Simone |
-| Delmar Fisk | Scarlet admiral coat; musket; party face |
-
-**Home base:** *Uncertainty* (ex-HCS Surety) — `wiki/entities/vehicles/hcs-surety.md`
-**Current arc:** Post-Session 04. Party at Nona's safe house in Le Paludi, Calveno — Grung bombing plot is the active crisis (4 known sites, 1 hidden primary with Slaad). Ship still in dry dock at La Vasca. Anzolo inbound, Umberlee gossip in the harbor, whale in the approach. 9 live situations tracked in `wiki/hot.md`.
-
----
-
-## Active Factions (Clock Status)
-
-Canonical faction clocks live in `wiki/hot.md` (Faction Clocks table). The world-update
-skill and faction-clock skill keep that table current. Four factions have active clocks
-post-Session 04: Dravosi Crown, The Passage, Grung/Simone, Umberlee/Waveservants.
+Party roster, current arc, faction clocks, and live situations are all in `wiki/hot.md`.
+Read that file — do not rely on summaries here.
 
 ---
 
@@ -120,15 +105,58 @@ Script tests live in `.claude/scripts/test_*.py` — run with `python3 .claude/s
 
 ---
 
-## Commit Conventions
+## Git Discipline
 
-Commit messages follow these prefixes:
-- `fix:` — structural corrections
-- `ingest:` — source material processed into wiki
-- `curation:` — content quality improvements
-- `feat:` / `refactor:` — for player-view and script code changes
+This is a solo content repo. Commit directly to `main`. Only branch when explicitly asked.
 
-Commit directly to `main` — this is a solo content repo. Only branch when explicitly asked.
+**Commit by default.** When you finish a coherent unit of work, commit it without being
+asked. Group related changes into one logical commit with a clear, conventional message.
+Skills that define their own commit cadence (e.g. ingest commits per-source) take precedence.
+
+**Stage specific paths.** Use `git add <path>…`, not `git add -A` or `git add .`.
+Path-scoped staging of the directories you changed is fine (e.g., `git add wiki/`).
+
+**Never** amend published commits, skip hooks (`--no-verify`), or force-push to main.
+
+### Commit Prefixes
+
+| Prefix | Use for |
+|---|---|
+| `fix:` | Structural corrections (broken links, wrong frontmatter) |
+| `ingest:` | Source material processed into wiki |
+| `curation:` | Content quality improvements |
+| `prep:` | Prep-skill outputs (encounters, NPCs, locations, items, etc.) |
+| `feat:` | New features in player-view or scripts |
+| `refactor:` | Code restructuring in player-view or scripts |
+
+---
+
+## Self-Healing Writes
+
+PostToolUse hooks run automatically on every Write/Edit to wiki files. They enforce
+correctness that the agent must not duplicate manually — but agents **must act on their
+output**.
+
+### What the hooks do
+
+| Hook | Action | Agent responsibility |
+|---|---|---|
+| `validate-frontmatter.sh` | Adds missing fields, stamps `updated:` | If it prints `FLAG: summary is default`, write a real summary before committing |
+| `check-wikilinks.sh` | Warns on unresolved `[[wikilinks]]` | Fix the link target or create a stub file before committing |
+| `qmd-reindex.sh` | Rebuilds search index (background) | None — fully automatic |
+| `format-python.sh` | Runs ruff format on Python edits | None — fully automatic |
+| `lint-python.sh` | Runs ruff check on Python edits | Fix any lint errors it surfaces |
+
+### The protocol
+
+1. **Write the file.** Hooks fire automatically.
+2. **Read hook output.** If a hook prints a `FLAG:` or `Unresolved wikilinks` warning, fix
+   the issue in a follow-up edit before moving to the next file.
+3. **Commit only clean files.** Do not commit a file with unresolved hook warnings. A file
+   is clean when a re-edit produces no warnings.
+
+This makes every wiki write self-healing: hooks catch mechanical errors, and the agent
+closes the loop on anything that requires judgment.
 
 ---
 

@@ -69,3 +69,13 @@ Source lives in `src/player_view/`. Entry point is `main.py` which wires up serv
 ## Testing Notes
 
 Tests mock all ML services — no GPU or model downloads needed. The `conftest.py` provides `tmp_profile_dir` and `profile_store` fixtures. Test files cover: voice profiles, speaker scoring, session transcription, spatial analysis, audio multichannel, and service wiring.
+
+## Git
+
+Follow the root `CLAUDE.md` git discipline. Key points for this subdirectory:
+
+- **Prefixes:** `feat:` for new features, `refactor:` for restructuring, `fix:` for bugs.
+- **Staging:** `git add player-view/…` — never `git add .` or `git add -A`.
+- **Commit by default** after completing a coherent unit of work.
+- **PostToolUse hooks** (ruff format/lint) run automatically on Python edits — fix any
+  lint errors they surface before committing.

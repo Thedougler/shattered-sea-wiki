@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads."
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-06-01
 tags: []
 sources: []
 system_role: task-routing
@@ -75,6 +75,14 @@ update_trigger: "New system file added; task type added; mandatory read list cha
 | 2 | any single entity page | `[ON-DEMAND]` | Only via `ttrpg-wiki-query` for one specific fact |
 
 See `.claude/skills/live-co-dm/SKILL.md`.
+
+### Task: `item-design`
+
+| # | File | Depth | Why |
+|---|---|---|---|
+| 1 | `wiki/system/players/[pc]-sheet.md` (connected PC) | `[FAST-READ]` | Current attunement slots, mechanical gaps |
+
+See `.claude/skills/prep-hb-item/SKILL.md`.
 
 ### Task: `dungeon-design`
 

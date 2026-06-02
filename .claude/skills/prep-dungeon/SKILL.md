@@ -199,7 +199,9 @@ incomplete. Add access points before finalizing.
 7. `## Room 1 — [Name]` through `## Room N` — keyed rooms (from Phase 4)
 8. `## Three Clue Audit` — if applicable
 9. `## Clues & Threads` — summary table: clue, location, what it connects to
-10. `## Treasure Summary` — table: item, value, location
+10. `## Treasure Summary` — table: item, value, location. For any homebrew items in the
+    treasure, route through `prep-hb-item` (with DM review gate) before placing in this
+    table — do not invent homebrew mechanics inline.
 11. `## Running This Dungeon` — pacing notes, if-loud / if-stealthy / if-negotiate variants
 12. `## If Ignored` — what happens to this site when the party doesn't come (from Phase 1)
 13. `## Connections` — wikilinks to related entities, factions, situations

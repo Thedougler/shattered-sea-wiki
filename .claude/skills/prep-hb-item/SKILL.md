@@ -82,6 +82,23 @@ or not items at all.
 
 ---
 
+## Cross-Skill Coordination
+
+- **NPC vendor:** If the item is sold by a named NPC, run `prep-npc` for that NPC first
+  (or confirm the NPC page exists), then wikilink the item to their page and add a reciprocal
+  link on the NPC's Connections section.
+- **Location context:** If the item is tied to a specific location (dungeon treasure, shop
+  inventory, wreck salvage), ensure that location page exists and add a reciprocal wikilink.
+- **Called from `prep-dungeon`:** If this skill is invoked mid-dungeon to fill a treasure
+  slot, deliver the complete item wiki page, then return to `prep-dungeon` and place the
+  item reference in the relevant room's Features block using *italic* typographic encoding.
+  The DM review gate still applies — present the item before the dungeon Phase 4 output.
+- **Session prep:** If `prep-session` is requesting an item as a session prop or reward,
+  complete the DM review gate before the session plan is finalized. An unapproved homebrew
+  item in a session plan is a forward commitment to balance.
+
+---
+
 ## Output Structure
 
 **Flavor description** — two to four sentences. Appearance, provenance, feel in hand. No

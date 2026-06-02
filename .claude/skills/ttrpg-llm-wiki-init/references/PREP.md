@@ -18,6 +18,7 @@ Build volatile situations players can't help but mess with. Never write stories 
 | Travel events / session prep | `references/TRAVEL.md` |
 | Condition, class, or rule reference page | `references/REFERENCE.md` |
 | Ship | `templates/ship.md` + `references/SHIP-GENERATE.md` |
+| Homebrew item | `prep-hb-item` skill |
 
 ---
 

@@ -60,8 +60,9 @@ python3 .claude/skills/openrouter-image-gen/generate-image.py \
 
 1. Craft a detailed prompt (see references/prompting-best-practices.md)
 2. Run the script — it saves the image and prints the path
-3. Use the Read tool on the output path to view/verify the image
-4. Any text the model returns alongside the image is logged to stderr
+3. Send the image to the user with `SendUserFile` so they can see it in chat
+4. Use the Read tool on the output path to verify the result yourself
+5. Any text the model returns alongside the image is logged to stderr
 
 ## Writing Good Prompts
 

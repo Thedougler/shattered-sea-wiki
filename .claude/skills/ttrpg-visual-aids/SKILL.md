@@ -121,9 +121,10 @@ python3 .claude/skills/openrouter-image-gen/generate-image.py \
   --output wiki/assets/sessions/session-04/kyzil-reunion.webp
 ```
 
-4. Use the Read tool on the output path to verify the result matches intent
-5. If the result is poor, refine the prompt and regenerate
-6. Embed per the Embedding in Markdown rules above
+4. Send the image to the user with `SendUserFile` so they can see it in chat
+5. Use the Read tool on the output path to verify the result yourself
+6. If the result is poor, refine the prompt and regenerate
+7. Embed per the Embedding in Markdown rules above
 
 For Gemini models (the default), write prompts as natural-language scene descriptions
 rather than keyword lists. See `openrouter-image-gen/references/prompting-best-practices.md`

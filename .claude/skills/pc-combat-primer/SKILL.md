@@ -28,7 +28,12 @@ The party combat profile is what `prep-encounter` reads. The PC profiles feed it
 ## Prerequisites
 
 Before any primer work, read:
-1. The PC's character sheet: `wiki/system/players/{pc}-sheet.md`
+1. The PC's character sheet: `wiki/system/players/{pc-slug}-sheet.md`
+   - **If this file doesn't exist:** check for a PDF in `.raw/characters/` or
+     `wiki/entities/characters/pcs/`. If a PDF exists, convert it first using
+     `references/CHARACTER-SHEET-CONVERSION.md`. The markdown sheet is the canonical
+     mechanical source for all downstream calculations.
+   - **If no PDF exists either:** ask the user to provide the character sheet.
 2. Existing primer (if updating): `wiki/system/{pc}-primer.md` or `wiki/dm/{pc}-primer.md`
 3. `wiki/dm/combat-analytics.md` — current empirical observations
 4. `wiki/system/party-combat-primer.md` — current party-level intelligence
@@ -36,6 +41,22 @@ Before any primer work, read:
 If updating after a session, also read the session's combat scenes
 (e.g., `wiki/sessions/session-{NN}-scene-*-encounter.md` or relevant scenes with
 combat tag).
+
+---
+
+## Character Sheet Conversion
+
+When a character sheet PDF is available but no agent-readable markdown exists at
+`wiki/system/players/{pc-slug}-sheet.md`:
+
+1. Read the PDF using the Read tool (supports PDF natively)
+2. Convert to structured markdown following `references/CHARACTER-SHEET-CONVERSION.md`
+3. Write to `wiki/system/players/{pc-slug}-sheet.md`
+4. Keep the original PDF in place — it remains the player's reference copy
+5. Proceed with combat profile work using the new markdown as source
+
+**Update cadence:** When a player provides an updated PDF (level-up, new gear),
+re-convert and bump the `last_synced` date. Flag downstream combat profiles as stale.
 
 ---
 
@@ -59,9 +80,11 @@ digraph primer_workflow {
   node [shape=box];
 
   start [label="Trigger received" shape=doublecircle];
+  sheet_check [label="Agent-readable sheet\nexists?" shape=diamond];
+  convert [label="Convert PDF → markdown\n(CHARACTER-SHEET-CONVERSION.md)"];
   classify [label="Classify trigger" shape=diamond];
 
-  level_up [label="Level-up path:\n1. Read sheet\n2. Recalculate theoreticals\n3. Update power spikes\n4. Flag party profile stale"];
+  level_up [label="Level-up path:\n1. Re-convert sheet from updated PDF\n2. Recalculate theoreticals\n3. Update power spikes\n4. Flag party profile stale"];
   session_data [label="Session-data path:\n1. Extract combat data\n2. Append to session log\n3. Recalculate observed averages\n4. Update calibration notes\n5. Flag party profile stale"];
   full_build [label="Full-build path:\n1. Read sheet\n2. Calculate all theoreticals\n3. Build defensive profile\n4. Map resource economy\n5. Initialize session log"];
   party_compile [label="Party compilation:\n1. Read all PC profiles\n2. Calculate combined metrics\n3. Model synergies\n4. Map weaknesses\n5. Derive effective CR band"];
@@ -69,7 +92,11 @@ digraph primer_workflow {
   check_party [label="Party profile\nflagged stale?" shape=diamond];
   done [label="Commit" shape=doublecircle];
 
-  start -> classify;
+  start -> sheet_check;
+  sheet_check -> convert [label="no"];
+  sheet_check -> classify [label="yes"];
+  convert -> classify;
+
   classify -> level_up [label="level-up"];
   classify -> session_data [label="session data"];
   classify -> full_build [label="new / rebuild"];
@@ -236,6 +263,8 @@ mature enough (3+ sessions of data).
 
 | Output | Path | Commit prefix |
 |---|---|---|
+| Character sheet (converted) | `wiki/system/players/{pc-slug}-sheet.md` | `prep:` |
+| Character sheet (re-synced) | same | `curation:` |
 | PC combat profile (new) | `wiki/dm/{pc-slug}-combat-profile.md` | `prep:` |
 | PC combat profile (update) | same | `curation:` |
 | Party combat profile (new) | `wiki/dm/party-combat-profile.md` | `prep:` |
@@ -266,5 +295,6 @@ After writing:
 | `references/PC-COMBAT-PROFILE.md` | Creating or updating any PC combat profile |
 | `references/PARTY-COMBAT-PROFILE.md` | Compiling or updating the party combat profile |
 | `references/DATA-EXTRACTION.md` | Processing session combat data into profile updates |
+| `references/CHARACTER-SHEET-CONVERSION.md` | Converting a PDF character sheet to agent-readable markdown |
 | `../prep-encounter/references/ENCOUNTER.md` | Understanding how encounter design consumes this data |
 | `../prep-encounter/references/CR-TABLES.md` | Baseline CR math for effective CR band derivation |

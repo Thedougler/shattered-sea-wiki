@@ -94,7 +94,7 @@ The party's concentration-dependent controller ([[perrin-black-jaw|Perrin]]) is 
 
 ## Related
 
-- [[grung|Grung]]
+- [[grung-npc|Grung (Green-Caste NPC)]]
 - [[grung-wildling|Grung Wildling]]
 - [[grung-clans|Grung Clans (Faction)]]
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]

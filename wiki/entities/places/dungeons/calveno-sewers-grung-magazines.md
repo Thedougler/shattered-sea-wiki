@@ -186,7 +186,7 @@ Room 8 (Primary Detonation Chamber)
 > First magazine encounter. Teaches the party how the sentry teams work and what the blackpowder means. The overflow pipe to Room 6 rewards exploration — it bypasses the main corridors entirely.
 
 > [!mechanic]
-> **Sentry Team.** 2 [[grung|Grung]] (CR 1/4, HP 11 each) + 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2, HP 49). Standing orders: hide (Stealth +4/+5, advantage in dim light near water), let intruders pass, report after. Break cover only if the party touches the barrels. On discovery: handler signals laborers to flee through the drainage pipe (Small — they fit, Medium PCs do not). Handler covers retreat with shortbow from behind barrels (three-quarters cover), then attempts escape. Mesmerizing Chirr (DC 12 WIS, stun 1 round) if 2+ PCs cluster within 15 ft. **Green-caste flee immediately if the handler dies. Handler breaks at half HP.** Killing all three silently prevents a report. **Difficulty: Hard (1100 adj. XP).**
+> **Sentry Team.** 2 [[grung-npc|Grung]] (CR 1/4, HP 11 each) + 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2, HP 49). Standing orders: hide (Stealth +4/+5, advantage in dim light near water), let intruders pass, report after. Break cover only if the party touches the barrels. On discovery: handler signals laborers to flee through the drainage pipe (Small — they fit, Medium PCs do not). Handler covers retreat with shortbow from behind barrels (three-quarters cover), then attempts escape. Mesmerizing Chirr (DC 12 WIS, stun 1 round) if 2+ PCs cluster within 15 ft. **Green-caste flee immediately if the handler dies. Handler breaks at half HP.** Killing all three silently prevents a report. **Difficulty: Hard (1100 adj. XP).**
 
 ---
 
@@ -483,4 +483,4 @@ See [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] for full consequen
 - [[calveno|Calveno]] — the city above
 - [[warren|The Warren]] — the Rattkin settlement sharing this tunnel system
 - [[master-kyzil|Master Kyzil]] — potential CR 14 ally if briefed
-- [[grung|Grung]], [[grung-elite-warrior|Grung Elite Warrior]], [[grung-wildling|Grung Wildling]] — creature stat blocks
+- [[grung-npc|Grung (Green-Caste NPC)]], [[grung-elite-warrior|Grung Elite Warrior]], [[grung-wildling|Grung Wildling]] — creature stat blocks

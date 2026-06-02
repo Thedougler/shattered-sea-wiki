@@ -91,7 +91,7 @@ Poison Spray (cantrip) is a DC 12 Constitution save for 2d12 poison damage at 10
 
 ## Related
 
-- [[grung|Grung]]
+- [[grung-npc|Grung (Green-Caste NPC)]]
 - [[grung-elite-warrior|Grung Elite Warrior]]
 - [[grung-clans|Grung Clans (Faction)]]
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]]

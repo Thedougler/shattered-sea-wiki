@@ -44,6 +44,12 @@ Create `wiki/sessions/session-{NN}-recap.md` following the established pattern:
 - Load `ttrpg-writing` for prose standards
 - Wikilink every named entity on first mention
 
+### 2b. Generate scene art
+
+Load `ttrpg-visual-aids` to generate session art for each major narrative beat.
+Category: **Session art** (16:9 widescreen). Place between narrative sections at
+the scene break each image illustrates. One image per major beat, max.
+
 ### 3. Update hot.md
 
 Update each section of `wiki/hot.md`:

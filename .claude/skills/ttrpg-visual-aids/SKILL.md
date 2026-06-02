@@ -104,9 +104,39 @@ Long embed lines are expected and intentional — do not truncate or summarize t
 - The page already has appropriate art for that element
 - The entity is minor and won't appear at the table
 
-## Capability Fallback
+## Image Generation
 
-If you cannot generate images (no image generation tool available), write the full
+**REQUIRED SUB-SKILL:** Invoke `openrouter-image-gen` to generate images.
+
+After constructing the prompt per the Prompt Construction rules above:
+
+1. Determine the output path from the Storage Paths table and naming rules
+2. Determine the aspect ratio from the Category Overrides in `art-style.md` (e.g. `3:4` for portraits, `16:9` for scenes, `3:1` for banners)
+3. Run the generation script:
+
+```bash
+python3 .claude/skills/openrouter-image-gen/generate-image.py \
+  "your constructed prompt here" \
+  --aspect 16:9 \
+  --output wiki/assets/sessions/session-04/kyzil-reunion.webp
+```
+
+4. Use the Read tool on the output path to verify the result matches intent
+5. If the result is poor, refine the prompt and regenerate
+6. Embed per the Embedding in Markdown rules above
+
+For Gemini models (the default), write prompts as natural-language scene descriptions
+rather than keyword lists. See `openrouter-image-gen/references/prompting-best-practices.md`
+for model-specific guidance.
+
+### Fulfilling `[!visual-aid]` Callouts
+
+When you encounter an existing `[!visual-aid]` callout, use its prompt text to generate
+the image via the workflow above, then replace the callout with a standard embed.
+
+### Fallback
+
+If generation fails (no API key, API error, insufficient credits), write the full
 prompt as a `> [!visual-aid]` callout where the image would go:
 
 ```markdown
@@ -116,10 +146,6 @@ prompt as a `> [!visual-aid]` callout where the image would go:
 ```
 
 A capable agent or the DM replaces this callout with an embed later.
-
-When you encounter an existing `[!visual-aid]` callout and you **can** generate images,
-use its prompt text to generate the image, save per the storage conventions above, and
-replace the callout with a standard embed.
 
 ## Legacy Assets
 

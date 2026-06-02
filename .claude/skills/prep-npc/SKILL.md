@@ -102,6 +102,14 @@ Universal and entity fields are auto-completed by the write hook. You must autho
 
 ---
 
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate a portrait after writing the page. Category:
+**Portraits** (3:4 vertical, chest-up). Place after the Quote, before the Lore Sheet.
+Skip for minor NPCs who won't appear at the table.
+
+---
+
 ## Filing
 
 After writing the page:

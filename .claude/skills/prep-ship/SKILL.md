@@ -47,6 +47,14 @@ Load `ttrpg-writing` for all prose and formatting standards.
 
 ---
 
+## Visual Aid
+
+For Tier 2+ ships, load `ttrpg-visual-aids` to generate ship art. Category:
+**Scene art** (16:9) — the vessel at sea or in port. Skip for Tier 0–1 vessels
+unless the DM requests art.
+
+---
+
 ## Filing
 
 - Tier 1–2: `wiki/entities/vehicles/{slug}.md`

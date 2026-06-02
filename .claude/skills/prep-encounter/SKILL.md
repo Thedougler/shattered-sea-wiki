@@ -50,6 +50,14 @@ Load `ttrpg-writing` for all prose and formatting standards.
 
 ---
 
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate combat art for the encounter. Category:
+**Combat art** (16:9 widescreen). Emphasize spatial relationships, terrain features,
+and tactical layout. Place at top, before tactical details.
+
+---
+
 ## Reference Files
 
 | File | Read when |

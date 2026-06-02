@@ -80,6 +80,15 @@ Universal and entity fields are auto-completed by the write hook. You must autho
 
 ---
 
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate art after writing the page. Category:
+**Banners** (3:1 panoramic) for page headers, or **Scene art** (16:9) for immersive
+establishing shots. Place after the `[!read-aloud]` callout. Skip for sub-locations
+that are part of a larger page.
+
+---
+
 ## Filing
 
 Path by subtype:

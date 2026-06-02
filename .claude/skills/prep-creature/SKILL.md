@@ -52,6 +52,14 @@ Load `ttrpg-writing` for all prose and formatting standards.
 
 ---
 
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate a creature illustration. Category: **Portraits**
+(3:4 vertical) for named creatures, or **Scene art** (16:9) showing the creature in
+its habitat for lore entries. Skip for generic stat blocks embedded in encounter files.
+
+---
+
 ## Filing
 
 - Lore entry: `wiki/lore/creatures/{slug}.md`

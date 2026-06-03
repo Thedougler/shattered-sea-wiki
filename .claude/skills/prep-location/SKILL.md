@@ -7,10 +7,8 @@ description: >
   frontmatter, toy fields, read-aloud opening, lore, notable sub-locations, inhabitants.
   Applies to all location subtypes: regions, islands, settlements, buildings, dungeons, planes.
 ---
-## Prerequisites
 
-Always check `wiki/index.md` for an existing stub before creating a new page.
-
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 **Dungeon routing:** If the location is a multi-room dungeon, lair, ruin, or adventure
 site that players will explore room-by-room, route to `prep-dungeon` instead. That skill
 handles phased generation, room keying, spatial topology, and encounter calibration.

@@ -9,12 +9,8 @@ description: >
   Determines whether the faction warrants a clock in hot.md. Always checks index.md
   for existing stubs before creating a new page.
 ---
-## Prerequisites
 
-Always check `wiki/index.md` for an existing stub before creating a new page.
-
----
-
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 ## Faction Page Structure
 
 **Frontmatter:** universal/entity fields auto-fill. Author the domain values: `status` (`active | dormant | dissolved`) and a `summary` of 2 sentences (what they want + how they operate).

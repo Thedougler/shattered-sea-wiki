@@ -122,7 +122,7 @@ For each pressure:
 - If a clock advances, cite the session action or inaction that justifies it.
 - If a new situation emerges, create a situation file before adding it to `hot.md`.
 - If a situation appears resolved or dormant based on session events, move it to the correct folder immediately — update `lifecycle` and `status` frontmatter, update all inbound links, log the move. No DM confirmation needed.
-- If a faction acts off-screen, coordinate with `faction-clock` or apply its clock citation rule.
+- If a faction acts off-screen, coordinate with `world-update` or apply its clock citation rule.
 
 ## System File Updates
 

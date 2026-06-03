@@ -9,9 +9,7 @@ description: >
   prep-dungeon (Phase 2) and prep-session when encounter calibration is needed.
 ---
 
-## Prerequisites
-
-Always check `wiki/index.md` for an existing stub before creating a new page.
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 
 Read these before generating any encounter content:
 1. `wiki/system/party-combat-primer.md` — party combat patterns, Avoid flags (binding)
@@ -147,9 +145,9 @@ Load `sandbox-narrative` for an anti-railroading pass on encounters tied to larg
 - **`prep-npc`** — If the encounter features a named antagonist who may recur, route through `prep-npc` for a full NPC page. Don't create throwaway NPC pages for nameless enemies.
 - **`prep-location`** — If the encounter location doesn't have a wiki page and is significant enough to revisit, create one via `prep-location` (or `prep-dungeon` for multi-room sites).
 - **`prep-dungeon`** — If called from prep-dungeon Phase 2, deliver the enemy roster, tactical behavior, and calibration data, then return to that skill.
-- **`prep-session`** / **`prep-run-guide`** — Encounters designed for a specific session should be inlined in the run guide per that skill's inline-first conventions. File a standalone page only when the encounter is reusable or complex enough to warrant its own entry.
+- **`prep-session`** — Encounters designed for a specific session should be inlined in the run guide per that skill's inline-first conventions. File a standalone page only when the encounter is reusable or complex enough to warrant its own entry.
 - **`prep-hb-item`** — If the encounter involves notable loot (named items, faction cargo, quest objects), route through `prep-hb-item` for any homebrew items with DM review. Don't invent homebrew item mechanics inline.
-- **`faction-clock`** — If the encounter outcome would advance or set back a faction clock in `wiki/hot.md`, note which clock and by how many segments. Do not write the clock update — flag it for DM review.
+- **`world-update`** — If the encounter outcome would advance or set back a faction clock in `wiki/hot.md`, note which clock and by how many segments. Do not write the clock update — flag it for DM review.
 
 ---
 

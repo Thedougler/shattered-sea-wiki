@@ -254,7 +254,7 @@ mature enough (3+ sessions of data).
   The party combat profile is mandatory pre-read for encounter design.
 - **`prep-creature`** — When designing a creature to challenge a specific PC, read
   that PC's combat profile for counter-profile and defensive thresholds.
-- **`prep-session`** / **`prep-run-guide`** — Reference party combat profile when
+- **`prep-session`** — Reference party combat profile when
   calibrating session encounter density and rest pacing.
 
 ---

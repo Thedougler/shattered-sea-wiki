@@ -48,7 +48,7 @@ whole file every turn.
 `hot.md` carries the live faction clocks. When a clock is relevant, offer its advance as
 a *choice* with stakes ("Knighton's ships could crest the horizon now — pressure, or save
 it?"). Never fire a triggered event without flagging it first. (This mirrors the
-`faction-clock` skill's discipline.)
+`world-update` skill's discipline.)
 
 ## What you never do mid-session
 

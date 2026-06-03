@@ -1,6 +1,6 @@
 # Faction And Thread Simulation Reference
 
-Use this reference for `/faction-clock`, thread review, run-guide clock prep, and any request to determine what factions, NPCs, or active situations do offscreen.
+Use this reference for `world-update`, thread review, run-guide clock prep, and any request to determine what factions, NPCs, or active situations do offscreen.
 
 ## Contents
 

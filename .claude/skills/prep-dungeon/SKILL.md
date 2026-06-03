@@ -10,9 +10,7 @@ description: >
   with prep-encounter for combat calibration and prep-npc for inhabitants.
 ---
 
-## Prerequisites
-
-Always check `wiki/index.md` for an existing stub before creating a new page.
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 
 Read these before generating any dungeon content:
 1. `wiki/hot.md` — current campaign state, active faction clocks

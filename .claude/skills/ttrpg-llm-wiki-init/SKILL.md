@@ -225,7 +225,7 @@ When a routed skill's required reads include a primer or intelligence file (e.g.
 ### World Intelligence
 | User Intent | Route To |
 |---|---|
-| Advance faction clocks | `faction-clock` |
+| Advance faction clocks | `world-update` |
 | Simulate world / NPC activity off-screen | `world-simulator` |
 | Update player interests | `player-interest-tracker` |
 | Targeted update to hot.md from a specific event | `hot-update` |

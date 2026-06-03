@@ -94,7 +94,7 @@ Load domain skills only when the source produces that content:
 |---|---|
 | NPC or crew page | `prep-npc` |
 | Location page | `prep-location` |
-| Faction page or clock | `prep-faction`, `faction-clock` |
+| Faction page or clock | `prep-faction`, `world-update` |
 | Situation with lifecycle | `prep-situation`, `sandbox-narrative` |
 | Session note from transcript | `references/transcript-ingest.md` |
 | PC character sheet (PDF) | `prep-npc` (for the wiki entity page) |

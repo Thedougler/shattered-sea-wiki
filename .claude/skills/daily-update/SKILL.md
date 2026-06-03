@@ -181,6 +181,6 @@ Non-negotiable for autonomous runs:
 
 - Full audit (use `ttrpg-llm-wiki-init` Full Audit Mode)
 - Manual curation (broken links, orphans, tag cleanup — request explicitly)
-- Faction clock advancement (use `faction-clock`)
+- Faction clock advancement (use `world-update`)
 - Session prep (use `prep-session`)
 - Content writing or rewriting (use `ttrpg-writing`)

@@ -52,7 +52,7 @@ if `flags_resolved < flags_total` in the flags file. Generates "System File Upda
 section for DM review — does not apply updates directly. Creates stubs for every new
 entity before updating any existing file. Flags lore contradictions to `discrepancy-log.md`
 immediately — never resolves them unilaterally.
-**Coordinates with:** `wiki-categorize`, `faction-clock`, `player-interest-tracker`,
+**Coordinates with:** `wiki-categorize`, `world-update`, `player-interest-tracker`,
 `combat-data-extract`, `session-summary-write`
 
 ### `session-flags-review`
@@ -83,13 +83,13 @@ degrade with queue depth — archiving and committing each before the next; neve
 Preserve the narrower `transcript-ingest` guidance by loading the reference files bundled inside
 this skill. Never invent missing canon to make a source fit.
 **Coordinates with:** `ttrpg-llm-wiki-init`, `ttrpg-writing`, `wiki-categorize`,
-`transcript-ingest`, `faction-clock`, `hot-update`, all `prep-*` skills.
+`transcript-ingest`, `world-update`, `hot-update`, all `prep-*` skills.
 
 ---
 
 ## Layer 2 — World Intelligence
 
-### `faction-clock`
+### `world-update`
 **Purpose:** Simulate what factions do between sessions. Read `hot.md` faction clocks and
 active situation files. Determine what each faction does given what the party did (or
 didn't do). Advance clocks accordingly. Identify triggered events. Produce "world while
@@ -111,7 +111,7 @@ know, what decisions they've made. Answer "what is [NPC] doing right now?" or "w
 **Critical behaviors:** Output feeds situation files and `hot.md` — always write results
 somewhere, don't just answer in chat. Never simulate events that contradict established
 canon without flagging the contradiction.
-**Coordinates with:** `faction-clock`, `sandbox-narrative`
+**Coordinates with:** `world-update`, `sandbox-narrative`
 
 ### `player-interest-tracker`
 **Purpose:** Extract player engagement signals from session summaries and transcripts.
@@ -143,7 +143,7 @@ Read the event, identify which sections are affected, rewrite only those section
 full session ingestion. Faction clock advanced manually. Situation resolved mid-session.
 **Critical behaviors:** Surgical — only rewrite sections that are affected. Always update
 the `updated` date. Always log the change.
-**Coordinates with:** `faction-clock`, `transcript-ingest`
+**Coordinates with:** `world-update`, `transcript-ingest`
 
 ---
 
@@ -174,7 +174,7 @@ membership structure, agenda, clocks, relationships to other factions, public vs
 face. Determine whether the faction warrants a clock in `hot.md`.
 **Trigger:** Creating any new faction; expanding a faction stub; "detail [faction]";
 "who runs [organization]?"
-**Coordinates with:** `faction-clock`, `wiki-categorize`
+**Coordinates with:** `world-update`, `wiki-categorize`
 
 ### `prep-situation`
 **Purpose:** Create or expand a situation file. Generate frontmatter with `lifecycle` and
@@ -183,7 +183,7 @@ and DM notes. Place correctly in `active/` or `dormant/` based on whether the cl
 currently running.
 **Trigger:** Creating any new situation; tracking a new world event with a clock;
 "create a situation for [conflict]"; filing something that has a lifecycle.
-**Coordinates with:** `wiki-categorize`, `faction-clock`
+**Coordinates with:** `wiki-categorize`, `world-update`
 
 ### `prep-island`
 **Purpose:** Create or expand a narrative island — a self-contained, portable cluster of
@@ -216,27 +216,22 @@ The party primer's Avoid section is binding — if the encounter would violate i
 Calibrate to empirical patterns, not theoretical class features.
 **Coordinates with:** `combat-data-extract`, `prep-session`, `sandbox-narrative`
 
-### `prep-run-guide`
-**Purpose:** Build a session run guide — the at-the-table operating document for one session
-of play. Three-zone architecture (dashboard/scenes/reference), thread-organized scene cards,
-inline-first contract, visual aids via `ttrpg-visual-aids` + `openrouter-image-gen`.
-**Trigger:** "/run-guide [N]", "build a run guide", "help me run tonight."
-**Critical behaviors:** One file, one session — never split into day files or scene files.
-Max 5–7 scene cards, max 3 in-game days. Scenes organized by thread, not by day.
-Dashboard (snapshot, threads, NPCs) has no images; scene cards get one image each.
-**Coordinates with:** `prep-session` (grounding + pacing), `ttrpg-visual-aids`,
-`openrouter-image-gen`, `ttrpg-writing`, `sandbox-narrative`
-
 ### `prep-session`
-**Purpose:** Session prep orchestrator — grounds in current state, picks threads, checks
-spotlight, shapes pacing. Delegates run guide construction to `prep-run-guide`. Also handles
-`/strong-start`, `/thread-review`, `/spotlight`, and `/faction-clock` modes directly.
-**Trigger:** "Prep for next session", "give me a session plan", "what do I run Saturday?"
-**Critical behaviors:** Identify which PC hasn't had a meaningful moment recently (from
-spotlight tracking in `hot.md`) — build at least one scene that serves that player.
-Prep should present options, not a plot. Player agency must have real consequences.
-**Coordinates with:** `prep-run-guide`, `prep-strong-start`, `prep-encounter`,
-`player-interest-tracker`, `sandbox-narrative`
+**Purpose:** Build a session run guide — the single at-the-table operating document for one
+session of play. Grounds in current state, picks threads, checks spotlight, shapes pacing,
+then constructs the guide: three-zone architecture (dashboard/scenes/reference),
+thread-organized scene cards, inline-first contract, visual aids via `ttrpg-visual-aids` +
+`openrouter-image-gen`. Modes: `/run-guide`, `/strong-start`, `/thread-review`, `/spotlight`.
+**Trigger:** "/run-guide [N]", "build a run guide", "help me run tonight", "prep for next
+session", "give me a session plan", "what do I run Saturday?"
+**Critical behaviors:** One file, one session — never split into day files or scene files.
+Max 5–7 scene cards, max 3 in-game days. Scenes organized by thread, not by day. Dashboard
+has no images; scene cards get one each. Identify the PC who hasn't had a meaningful moment
+recently (spotlight tracking in `hot.md`) and serve them. Present options, not a plot.
+Pending faction pressure shown in a guide is non-canon; canon clock writes belong to
+`world-update`.
+**Coordinates with:** `ttrpg-visual-aids`, `openrouter-image-gen`, `ttrpg-writing`,
+`sandbox-narrative`, `prep-encounter`, `world-update`
 
 ### `prep-strong-start`
 **Purpose:** Write the opening scene for the next session — already in motion, no preamble,
@@ -316,7 +311,7 @@ partially true, and false rumors calibrated to what the party could realisticall
 from common sources. Weight rumors toward active situations and player interests.
 **Trigger:** "Generate rumors for [location]", "what do people say about [entity]?",
 "give me a rumor table."
-**Coordinates with:** `player-interest-tracker`, `faction-clock`
+**Coordinates with:** `player-interest-tracker`, `world-update`
 
 ---
 

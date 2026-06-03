@@ -7,10 +7,8 @@ description: >
   "statblock for [enemy]", "bestiary entry for [creature]", "named villain statblock",
   "make me a [monster]".
 ---
-## Prerequisites
 
-Always check `wiki/index.md` for an existing stub before creating a new page.
-
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 **Named entity or creature type?**
 - Named creature (specific individual): `wiki/entities/characters/npcs/{slug}.md` + statblock
 - Creature type/species lore: `wiki/lore/creatures/{slug}.md`

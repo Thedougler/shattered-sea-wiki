@@ -9,10 +9,8 @@ description: >
   applicable), and DM notes. Places correctly in wiki/situations/active/ or
   wiki/situations/dormant/ per lifecycle state.
 ---
-## Prerequisites
 
-Always check `wiki/index.md` for an existing stub before creating a new page.
-
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 Domain-specific: determine whether this situation has a hidden conclusion (mystery, secret faction, hidden cause) — if yes, the Three Clue Rule applies (below).
 
 ---
@@ -153,7 +151,7 @@ enforcement apply to every situation page.
 
 ---
 
-**Coordinates with:** `wiki-categorize`, `faction-clock`, `sandbox-narrative`
+**Coordinates with:** `wiki-categorize`, `world-update`, `sandbox-narrative`
 
 ---
 

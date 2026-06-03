@@ -11,10 +11,8 @@ description: >
   islands contain situations — if the content is a single condition with a clock, use
   prep-situation instead. Always loads sandbox-narrative for anti-railroading review.
 ---
-## Prerequisites
 
-Always check `wiki/index.md` for an existing stub before creating a new page.
-
+> **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
 Domain-specific: **Is this actually a narrative island?** Two things this is NOT, because the word "island" is overloaded:
 
 - **A geographic island** (an actual landmass in the world — Calder's Tooth, Aldenmere) is a *place*. Use `prep-location`; it files under `wiki/entities/places/islands/` as `type: entity`. A narrative island is a *plot device*, not a place — it can sit on a ship, in a city quarter, anywhere.

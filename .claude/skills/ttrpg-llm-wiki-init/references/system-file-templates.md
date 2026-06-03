@@ -37,7 +37,7 @@ Leave placeholders as-is if information is not yet available — they signal wha
 
 ## Active Factions (Clock Status)
 
-Update this block after every session or faction-clock run.
+Update this block after every session or world-update run.
 
 | Faction | Clock | Next Trigger |
 |---|---|---|

@@ -55,7 +55,7 @@ the scene break each image illustrates. One image per major beat, max.
 Update each section of `wiki/hot.md`:
 - **Current Arc** — where the party is now, what changed
 - **Open PC Threads** — add new threads, update existing ones, close resolved ones
-- **Faction Clocks** — note any advances (defer canon clock writes to `/faction-clock`)
+- **Faction Clocks** — note any advances (defer canon clock writes to `world-update`)
 - **Live Situations** — update status, party awareness, next beat for each
 - **Predictions** — revise: which came true, which are stale, what's new
 - **Spotlight Tracking** — reset "Sessions Since" for PCs who had moments, increment others

@@ -63,6 +63,7 @@ import tag_taxonomy
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
 from wiki_common import (
+    ALLOWED_TYPES_BY_PATH,
     REPO_ROOT,
     TYPE_EXTRA_FIELDS,
     UNIVERSAL_FIELDS,
@@ -394,11 +395,21 @@ def check_file(relpath: str, data, body: str, yaml: YAML, validator):
     # type matches the path it lives at.
     expected_type = infer_type(relpath)
     actual_type = str(data.get("type", "")).strip()
-    if (
-        expected_type not in ("unknown", "governance")
-        and actual_type
-        and actual_type != expected_type
-    ):
+    allowed_types = next(
+        (
+            types
+            for prefix, types in ALLOWED_TYPES_BY_PATH
+            if relpath.startswith(prefix)
+        ),
+        None,
+    )
+    type_ok = (
+        not actual_type
+        or expected_type in ("unknown", "governance")
+        or (allowed_types is not None and actual_type in allowed_types)
+        or (allowed_types is None and actual_type == expected_type)
+    )
+    if not type_ok:
         issues.append(
             Issue(
                 "warning",

@@ -74,9 +74,21 @@ def rel(path: str) -> str:
     return os.path.relpath(os.path.abspath(path), REPO_ROOT).replace(os.sep, "/")
 
 
+# Paths where multiple type values are valid. The linter accepts any of these
+# without raising type-path-mismatch. The first value is the canonical default.
+ALLOWED_TYPES_BY_PATH: list[tuple[str, set[str]]] = [
+    # creatures/ holds both homebrew entities (type: entity) and SRD stat blocks (type: monster)
+    # as well as category index files (type: index).
+    ("wiki/entities/creatures/", {"entity", "monster", "index"}),
+    # vehicles/ holds ship entries (type: entity) and the ships index (type: index).
+    ("wiki/entities/vehicles/", {"entity", "index"}),
+    # dm/ holds dm-intelligence files but also system-infrastructure files like daily-log.
+    ("wiki/dm/", {"dm-intelligence", "system"}),
+]
+
+
 def infer_type(relpath: str) -> str:
     table = [
-        ("wiki/entities/creatures/", "monster"),
         ("wiki/entities/", "entity"),
         ("wiki/situations/", "situation"),
         # A "narrative island" is a portable plot-device / scenario cluster — NOT a

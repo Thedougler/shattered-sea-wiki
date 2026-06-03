@@ -401,8 +401,19 @@ On Solange's next turn after the detonation, she completes the ritual.
 >
 > Two seconds. Maybe three. Solange Barret is gone. What stands in the circle is red, enormous, and breathing in a way that sounds like stone grinding against stone. It opens a mouth wider than a mouth should open, and it looks at you the way a fire looks at a building.
 
+Above the crater, the crowd has not caught up. The explosion read as spectacle — festival week, the Beffa still running. Dust settles. People edge closer. One woman leans over the broken lip of the plaza, squinting down through the haze at the shape standing in the rubble.
+
+> [!read-aloud]
+> "It looks so real!" she says.
+>
+> The tongue moves faster than the eye can follow. Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls. She is off the edge and in the air and gone before the word "real" has finished echoing off the canal walls. The mouth opens. It closes. The scream of surprise is cut short by a sound that is not a sound anyone in that crowd will ever forget — a wet, heavy crunch, like a boot through thin ice.
+>
+> Silence. One heartbeat. Two.
+>
+> Then the screaming starts.
+
 > [!dm]
-> Let the table sit with the transformation before rolling initiative for Phase 3. This is the moment they understand what the operation was for. Solange was never the boss. She was the delivery system.
+> This is the moment the Beffa conditioning breaks. Three days of false alarms trained this crowd to laugh first. Now a woman is dead and the thing in the crater is chewing. Let the table sit with it before rolling initiative for Phase 3. Solange was never the boss. She was the delivery system.
 >
 > Otar does not know where he is. He does not care. He is hungry and confused and enormous and standing in a crater full of injured people. He acts on instinct — the nearest moving thing gets his attention first. The transformation cannot be reversed. Solange is consumed.
 

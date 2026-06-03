@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en" class="dark"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Task Routing | Shattered Sea</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/_astro/Sidebar.L1n77kET.css"></head> <body class="min-h-screen" style="background: var(--color-bg-primary)"> <!-- Mobile header --> <header class="lg:hidden sticky top-0 z-40 flex items-center justify-between px-4 py-3 border-b" style="background: var(--color-bg-secondary); border-color: var(--color-border)"> <a href="/" class="text-sm font-bold" style="color: var(--color-accent-gold)">Shattered Sea</a> <nav class="flex items-center gap-3"> <a href="/characters/" class="text-xs" style="color: var(--color-text-secondary)">Browse</a> <button id="mobile-search-trigger" class="text-xs px-2 py-1 rounded border" style="border-color: var(--color-border); color: var(--color-text-muted)">Search</button> </nav> </header> <div class="flex min-h-screen"> <aside class="hidden lg:flex flex-col w-60 shrink-0 border-r h-screen sticky top-0 overflow-y-auto" style="background: var(--color-bg-secondary); border-color: var(--color-border)"> <div class="p-5 border-b" style="border-color: var(--color-border)"> <a href="/" class="block"> <h1 class="text-lg font-bold" style="color: var(--color-accent-gold)">
+Shattered Sea
+</h1> <p class="text-xs mt-0.5" style="color: var(--color-text-muted)">Campaign Wiki</p> </a> </div> <nav class="flex-1 py-3 px-3"> <ul class="space-y-0.5"> <li> <a href="/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Dashboard </a> </li><li> <a href="/characters/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Characters </a> </li><li> <a href="/places/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Places </a> </li><li> <a href="/factions/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Factions </a> </li><li> <a href="/items/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Items </a> </li><li> <a href="/creatures/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Creatures </a> </li><li> <a href="/sessions/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Sessions </a> </li><li> <a href="/situations/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Situations </a> </li><li> <a href="/lore/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Lore </a> </li><li> <a href="/rules/" class="block px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-secondary)"> Rules </a> </li> </ul> </nav> <div class="p-4 border-t" style="border-color: var(--color-border)"> <a href="/search/" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]" style="color: var(--color-text-muted)"> <span>Search</span> <kbd class="ml-auto text-xs px-1.5 py-0.5 rounded border" style="border-color: var(--color-border); color: var(--color-text-muted)">
+⌘K
+</kbd> </a> </div> </aside> <main class="flex-1 min-w-0">    <div class="px-6 py-6 lg:px-10 lg:py-8 max-w-4xl"> <nav class="flex items-center gap-1.5 text-xs" style="color: var(--color-text-muted)">  <a href="#" class="hover:underline">System</a> <span>/</span>   <span style="color: var(--color-text-secondary)">Task Routing</span> </nav> <div class="mt-4">  <article class="wiki-prose" data-pagefind-body data-pagefind-meta="title:Task Routing"> <h1 id="task-routing--shattered-sea">Task Routing — Shattered Sea<a aria-hidden="true" tabindex="-1" href="#task-routing--shattered-sea"><span class="icon icon-link"></span></a></h1>
+<blockquote>
+<p>Read this immediately after <code>wiki/hot.md</code>. Find your task type below.
+Read every listed file at the specified depth before generating any content.
+Required reads are not optional.</p>
+</blockquote>
+<hr>
+<h2 id="read-depth-notation">Read Depth Notation<a aria-hidden="true" tabindex="-1" href="#read-depth-notation"><span class="icon icon-link"></span></a></h2>
+<ul>
+<li><code>[FULL]</code> — read the complete file</li>
+<li><code>[FAST-READ]</code> — read the summary/Fast Read section only; expand if insufficient</li>
+<li><code>[SECTION: X]</code> — read only the named section</li>
+<li><code>[SUMMARY-ONLY]</code> — read the frontmatter summary field only</li>
+<li><code>[ON-DEMAND]</code> — read only if this specific entity is directly involved</li>
+</ul>
+<hr>
+<h2 id="routing-table">Routing Table<a aria-hidden="true" tabindex="-1" href="#routing-table"><span class="icon icon-link"></span></a></h2>
+<h3 id="task-encounter-design">Task: <code>encounter-design</code><a aria-hidden="true" tabindex="-1" href="#task-encounter-design"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/system/party-combat-primer.md</code></td><td><code>[FULL]</code></td><td>Party capabilities and design rules</td></tr><tr><td>2</td><td><code>wiki/dm/combat-analytics.md</code></td><td><code>[SECTION: Design Adjustments]</code></td><td>Active design flags</td></tr><tr><td>3</td><td><code>wiki/system/players/[pc]-sheet.md</code> (all PCs)</td><td><code>[FAST-READ]</code></td><td>Current resource state</td></tr></tbody></table>
+<h3 id="task-session-prep">Task: <code>session-prep</code><a aria-hidden="true" tabindex="-1" href="#task-session-prep"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/system/party-session-primer.md</code></td><td><code>[FULL]</code></td><td>Party context for this session</td></tr><tr><td>2</td><td><code>wiki/dm/player-interests.md</code></td><td><code>[SECTION: Content Priority Queue]</code></td><td>What to emphasize</td></tr><tr><td>3</td><td><code>wiki/situations/active/[relevant]</code></td><td><code>[FAST-READ]</code></td><td>Active threads</td></tr></tbody></table>
+<h3 id="task-transcript-ingestion">Task: <code>transcript-ingestion</code><a aria-hidden="true" tabindex="-1" href="#task-transcript-ingestion"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/system/players/[all-pcs]-sheet.md</code></td><td><code>[FULL]</code></td><td>Current mechanical state</td></tr><tr><td>2</td><td><code>wiki/hot.md</code></td><td><code>[FULL]</code></td><td>World state at session start</td></tr></tbody></table>
+<h3 id="task-wiki-audit">Task: <code>wiki-audit</code><a aria-hidden="true" tabindex="-1" href="#task-wiki-audit"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/index.md</code></td><td><code>[FULL]</code></td><td>Master catalog</td></tr><tr><td>2</td><td><code>CLAUDE.md</code></td><td><code>[SECTION: Ideal State]</code></td><td>Correction rules</td></tr></tbody></table>
+<h3 id="task-live-co-dm">Task: <code>live-co-dm</code><a aria-hidden="true" tabindex="-1" href="#task-live-co-dm"><span class="icon icon-link"></span></a></h3>
+<blockquote>
+<p>Mid-session, real-time. Latency beats completeness. SKIP init/lint/audit/index/frontmatter.
+| # | File | Depth | Why |
+|---|---|---|---|
+| 1 | <code>latest_session_context.py</code> output | <code>[FULL]</code> | Live transcript tail + hot.md, one fast bundle |
+| 2 | any single entity page | <code>[ON-DEMAND]</code> | Only via <code>ttrpg-wiki-query</code> for one specific fact |</p>
+</blockquote>
+<p>See <code>.claude/skills/live-co-dm/SKILL.md</code>.</p>
+<h3 id="task-item-design">Task: <code>item-design</code><a aria-hidden="true" tabindex="-1" href="#task-item-design"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/system/players/[pc]-sheet.md</code> (connected PC)</td><td><code>[FAST-READ]</code></td><td>Current attunement slots, mechanical gaps</td></tr></tbody></table>
+<p>See <code>.claude/skills/prep-hb-item/SKILL.md</code>.</p>
+<h3 id="task-dungeon-design">Task: <code>dungeon-design</code><a aria-hidden="true" tabindex="-1" href="#task-dungeon-design"><span class="icon icon-link"></span></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>File</th><th>Depth</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td><code>wiki/system/party-combat-primer.md</code></td><td><code>[FULL]</code></td><td>Party capabilities and Avoid flags</td></tr><tr><td>2</td><td><code>wiki/hot.md</code></td><td><code>[FULL]</code></td><td>Active faction clocks, current campaign state</td></tr><tr><td>3</td><td><code>wiki/dm/combat-analytics.md</code></td><td><code>[SECTION: Design Adjustments]</code></td><td>Encounter calibration</td></tr></tbody></table>
+<p>See <code>.claude/skills/prep-dungeon/SKILL.md</code>.</p>
+<hr>
+<h2 id="system-file-index">System File Index<a aria-hidden="true" tabindex="-1" href="#system-file-index"><span class="icon icon-link"></span></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>File</th><th>system_role</th><th>mandatory_for</th><th>token_profile</th></tr></thead><tbody><tr><td><code>wiki/system/task-routing.md</code></td><td>task-routing</td><td>all tasks</td><td>map</td></tr><tr><td><code>wiki/system/party-combat-primer.md</code></td><td>party-primer</td><td>encounter-design</td><td>always-read</td></tr><tr><td><code>wiki/system/party-session-primer.md</code></td><td>party-primer</td><td>session-prep</td><td>always-read</td></tr><tr><td><code>wiki/dm/player-interests.md</code></td><td>dm-intelligence</td><td>content-creation, session-prep</td><td>quick-ref</td></tr><tr><td><code>wiki/dm/combat-analytics.md</code></td><td>dm-intelligence</td><td>encounter-design</td><td>quick-ref</td></tr></tbody></table> </article>    </div> <div class="mt-10 xl:hidden border-t pt-6" style="border-color: var(--color-border)">  <div class="mb-6">  <p class="text-sm mb-4 leading-relaxed" style="color: var(--color-text-secondary)"> Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads. </p> <dl class="space-y-2"> <div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Type</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> system </dd> </div><div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Subtype</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> task-routing </dd> </div><div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Audience</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> agent </dd> </div> </dl> <div class="mt-4 flex flex-wrap gap-1.5"> <span class="tag-pill">dm-prep</span> </div> </div>   </div> </div>  </main> <div class="hidden xl:block w-70 shrink-0 border-l h-screen sticky top-0 overflow-y-auto p-5" style="background: var(--color-bg-secondary); border-color: var(--color-border)">  <div class="mb-6">  <p class="text-sm mb-4 leading-relaxed" style="color: var(--color-text-secondary)"> Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads. </p> <dl class="space-y-2"> <div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Type</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> system </dd> </div><div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Subtype</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> task-routing </dd> </div><div class="flex items-baseline gap-2"> <dt class="text-xs font-medium shrink-0" style="color: var(--color-text-muted)">Audience</dt> <dd class="text-sm" style="color: var(--color-text-secondary)"> agent </dd> </div> </dl> <div class="mt-4 flex flex-wrap gap-1.5"> <span class="tag-pill">dm-prep</span> </div> </div> <div class="mb-6"><h3 class="text-xs font-semibold uppercase tracking-wide mb-3" style="color: var(--color-text-muted)">
+On This Page
+</h3><ul class="space-y-1"><li><a href="#read-depth-notation" class="block text-sm transition-colors hover:underline" style="color: var(--color-text-secondary)">Read Depth Notation</a></li><li><a href="#routing-table" class="block text-sm transition-colors hover:underline" style="color: var(--color-text-secondary)">Routing Table</a></li><li><a href="#task-encounter-design" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: encounter-design</a></li><li><a href="#task-session-prep" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: session-prep</a></li><li><a href="#task-transcript-ingestion" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: transcript-ingestion</a></li><li><a href="#task-wiki-audit" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: wiki-audit</a></li><li><a href="#task-live-co-dm" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: live-co-dm</a></li><li><a href="#task-item-design" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: item-design</a></li><li><a href="#task-dungeon-design" class="block text-sm transition-colors hover:underline pl-3" style="color: var(--color-text-secondary)">Task: dungeon-design</a></li><li><a href="#system-file-index" class="block text-sm transition-colors hover:underline" style="color: var(--color-text-secondary)">System File Index</a></li></ul></div>   </div> </div> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(c,s,d)=>s in c?g(c,s,{enumerable:!0,configurable:!0,writable:!0,value:d}):c[s]=d;var l=(c,s,d)=>w(c,typeof s!="symbol"?s+"":s,d);var E=new Set(["__proto__","constructor","prototype"]);{let c={0:t=>y(t),1:t=>d(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(d(t)),5:t=>new Set(d(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in c?c[p](e):void 0},d=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let n=this.querySelectorAll("astro-slot"),r={},i=this.querySelectorAll("template[data-astro-template]");for(let o of i){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of n){let a=o.closest(this.tagName);a!=null&&a.isSameNode(this)&&(r[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let a=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(a+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${a}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,r,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),n.disconnect(),this.childrenConnectedCallback()},n=new MutationObserver(()=>{var r;((r=this.lastChild)==null?void 0:r.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});n.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let n=new URL(e,document.baseURI),r=`astro-retry=${Date.now()}`,i=n.hash.replace(/^#/,"");return n.hash=i?`${i}&${r}`:r,n.toString()}async importWithRetry(e){try{return await import(e)}catch(n){return await new Promise(r=>setTimeout(r,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let n=this.getAttribute("component-url"),r=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:n}});this.dispatchEvent(r)&&console.error(`[astro-island] Error hydrating ${n}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),n=this.getAttribute("client");if(Astro[n]===void 0){window.addEventListener(`astro:${n}`,()=>this.start(),{once:!0});return}try{await Astro[n](async()=>{let r=this.getAttribute("renderer-url");try{let[i,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),r?this.importWithRetry(r):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=i;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=i[h]}return this.hydrator=u,this.hydrate}catch(i){return this.handleHydrationError(i),()=>{}}},e,this)}catch(r){this.handleHydrationError(r)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="1difs9" data-preact-island-id="1" component-url="/_astro/SearchDialog.HJicK5AS.js" component-export="default" renderer-url="/_astro/client.CQkWOiKA.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;SearchDialog&quot;,&quot;value&quot;:true}"></astro-island> <script type="module">document.getElementById("mobile-search-trigger")?.addEventListener("click",()=>{document.dispatchEvent(new KeyboardEvent("keydown",{key:"k",metaKey:!0}))});</script> </body> </html>

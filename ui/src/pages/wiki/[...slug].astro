@@ -25,7 +25,7 @@ const pageBacklinks = allBacklinks.get(slug) || [];
 ---
 
 <WikiLayout title={pageTitle} type={entry.data.type} subtype={entry.data.subtype}>
-  <article class="wiki-prose" data-pagefind-body>
+  <article class="wiki-prose" data-pagefind-body data-pagefind-meta={`title:${pageTitle}`}>
     <Content />
   </article>
 

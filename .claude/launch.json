@@ -12,6 +12,12 @@
       "runtimeExecutable": "pnpm",
       "runtimeArgs": ["--dir", "ui", "dev"],
       "port": 4321
+    },
+    {
+      "name": "wiki-ui-preview",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--dir", "ui", "preview"],
+      "port": 4321
     }
   ]
 }

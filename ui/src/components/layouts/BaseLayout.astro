@@ -1,5 +1,6 @@
 ---
 import '../../styles/global.css';
+import SearchDialog from '../search/SearchDialog.tsx';
 
 interface Props {
   title: string;
@@ -16,6 +17,22 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body class="min-h-screen" style={`background: var(--color-bg-primary)`}>
+    <!-- Mobile header -->
+    <header
+      class="lg:hidden sticky top-0 z-40 flex items-center justify-between px-4 py-3 border-b"
+      style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+    >
+      <a href="/" class="text-sm font-bold" style={`color: var(--color-accent-gold)`}>Shattered Sea</a>
+      <nav class="flex items-center gap-3">
+        <a href="/characters/" class="text-xs" style={`color: var(--color-text-secondary)`}>Browse</a>
+        <button
+          id="mobile-search-trigger"
+          class="text-xs px-2 py-1 rounded border"
+          style={`border-color: var(--color-border); color: var(--color-text-muted)`}
+        >Search</button>
+      </nav>
+    </header>
+
     <div class="flex min-h-screen">
       <slot name="sidebar" />
       <main class="flex-1 min-w-0">
@@ -23,5 +40,13 @@ const { title } = Astro.props;
       </main>
       <slot name="sidebar-right" />
     </div>
+
+    <SearchDialog client:load />
+
+    <script>
+      document.getElementById('mobile-search-trigger')?.addEventListener('click', () => {
+        document.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', metaKey: true }));
+      });
+    </script>
   </body>
 </html>

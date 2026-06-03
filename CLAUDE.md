@@ -29,6 +29,9 @@ Read that file — do not rely on summaries here.
 | `wiki/situations/active/` | Live threads. `resolved/` for closed ones. |
 | `.claude/skills/` | Claude Code skills (prep, ingest, lint, live co-DM). |
 | `.claude/scripts/` | Pure-stdlib maintenance scripts (no venv needed). |
+| `packages/lib/` | `@shattered-sea/lib` — shared TS library (vault, frontmatter, schema, wikilinks, taxonomy). |
+| `packages/cli/` | `@shattered-sea/cli` — `sea` CLI (fix, index, taxonomy). Thin wrappers around lib. |
+| `tools/audio/` | `shattered-audio` — Python tool for session transcription + diarization (separate venv). |
 | `player-view/` | NiceGUI web app — voice profiling, live transcription, OBS overlays. Has its own `CLAUDE.md`. |
 | `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
 
@@ -77,6 +80,14 @@ lifecycle decisions (e.g. moving a situation active → resolved).
 
 Script catalog and commands: `.claude/scripts/README.md`. player-view setup: `player-view/CLAUDE.md`.
 
+### Monorepo (pnpm workspace)
+
+- `pnpm -r build` — build all TS packages. `pnpm --filter @shattered-sea/lib test` for lib tests.
+- `pnpm --filter shattered-sea-wiki-ui build` — build UI (filter name is the package.json `name`, not the directory).
+- `node packages/cli/dist/cli.js <command>` — run sea CLI (or `npx sea` if linked).
+- UI imports `@shattered-sea/lib` — delete nothing from `packages/lib/src/` without checking UI builds.
+- The lib uses standalone `zod`, not `astro/zod`. Astro content validation works but JSON schema generation warns.
+
 ---
 
 ## Git Discipline
@@ -95,8 +106,8 @@ live in `~/.claude/CLAUDE.md` and apply here. Project-specific deltas only:
 | `ingest:` | Source material processed into wiki |
 | `curation:` | Content quality improvements |
 | `prep:` | Prep-skill outputs (encounters, NPCs, locations, items, etc.) |
-| `feat:` | New features in player-view or scripts |
-| `refactor:` | Code restructuring in player-view or scripts |
+| `feat:` | New features in packages, player-view, or scripts |
+| `refactor:` | Code restructuring in packages, player-view, or scripts |
 
 ---
 
@@ -110,7 +121,7 @@ output**.
 
 | Hook | Action | Agent responsibility |
 |---|---|---|
-| `validate-frontmatter.sh` | Adds missing fields, stamps `updated:` | If it prints `FLAG: summary is default`, write a real summary before committing |
+| `validate-frontmatter.sh` | Adds missing fields, stamps `updated:` (TS CLI preferred, Python fallback) | If it prints `FLAG: summary is default`, write a real summary before committing |
 | `check-wikilinks.sh` | Warns on unresolved `[[wikilinks]]` | Fix the link target or create a stub file before committing |
 | `qmd-reindex.sh` | Rebuilds search index (background) | None — fully automatic |
 | `format-python.sh` | Runs ruff format on Python edits | None — fully automatic |

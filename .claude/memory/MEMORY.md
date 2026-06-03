@@ -20,3 +20,8 @@ sources: []
 
 ## Structural Decisions
 <!-- Vault organization choices, frontmatter convention rulings, one-off DM decisions. -->
+
+- **Narrative islands are plot devices, not geography.** A "narrative island"
+  (`wiki/narrative-islands/`) is a portable cluster of situations/NPCs/locations organized
+  around a premise — NOT a geographic landmass. For an actual island place (e.g. Calder's
+  Tooth) use `prep-location`. See `prep-island` vs `prep-location` skill boundaries.

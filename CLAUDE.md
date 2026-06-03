@@ -56,8 +56,9 @@ resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects 
 
 A PreToolUse hook (`block-env-edits.sh`) prevents edits to `.env` files. PostToolUse hooks
 enforce: frontmatter completeness (`validate-frontmatter.sh`), search index updates
-(`qmd-reindex.sh`), Python formatting (`format-python.sh`), and Python linting
-(`lint-python.sh`). `index.md` is regenerated via `regen_index.py`, not hand-edited.
+(`qmd-reindex.sh`), `wiki/index.md` regeneration (`regen-index.sh`, debounced + backgrounded —
+never hand-edit `index.md`), Python formatting (`format-python.sh`), and Python linting
+(`lint-python.sh`).
 
 Read order: `wiki/hot.md` first → `wiki/system/task-routing.md` → entity/situation files
 the task needs. Never read the full vault before generating content.
@@ -65,58 +66,26 @@ the task needs. Never read the full vault before generating content.
 Operational references (auto-correct, wikilinks, frontmatter defaults) live in
 `.claude/skills/ttrpg-llm-wiki-init/references/`.
 
+Hooks auto-fix mechanical issues and *flag* the rest — they do not silently move, rename, or
+restructure content. Escalate to the DM only for: genuine lore contradictions between two
+established facts; ambiguous entity identity (two pages may describe the same entity); and
+lifecycle decisions (e.g. moving a situation active → resolved).
+
 ---
 
 ## Scripts & Commands
 
-### Wiki maintenance (pure stdlib, no venv)
-
-```bash
-python3 .claude/scripts/regen_index.py --write   # regenerate wiki/index.md
-python3 .claude/scripts/wiki_lint.py              # lint vault (auto-detects Obsidian CLI + markdownlint)
-python3 .claude/scripts/wiki_lint.py --obsidian on  # force Obsidian CLI for deeper cross-file checks
-python3 .claude/scripts/check_ingest.py           # list source material still pending ingest
-python3 .claude/scripts/fix_frontmatter.py <file> # add missing frontmatter fields to a single file
-python3 .claude/scripts/archive_source.py <file>   # git-mv ingested source from Inbox/ to .raw/
-python3 .claude/scripts/ingest_packet.py <dir>     # compile context packet for subagent ingest
-python3 .claude/scripts/assemble_transcript.py     # assemble transcript chunks into a single file
-python3 .claude/scripts/preprocess_pdf.py <file>   # extract text from PDF source material
-python3 .claude/scripts/sync_skills.py             # sync .claude/skills/ to mirror directories
-python3 .claude/scripts/tag_taxonomy.py            # validate/report on tag usage across the vault
-python3 .claude/scripts/wiki_health_snapshot.py    # capture vault health metrics (--save to persist)
-markdownlint-cli2 "wiki/**/*.md"                  # markdown formatting (config: .markdownlint-cli2.jsonc)
-```
-
-### player-view app (requires venv)
-
-```bash
-cd player-view
-python3.11 -m venv .venv && .venv/bin/pip install -e ".[dev]"  # first-time setup
-.venv/bin/python -m player_view.main                            # serves on localhost:8080
-```
-
-### Tests
-
-```bash
-cd player-view && .venv/bin/pytest tests/   # unit tests (no ML stack needed)
-```
-
-Script tests live in `.claude/scripts/test_*.py` — run with `python3 .claude/scripts/test_<name>.py -v`.
+Script catalog and commands: `.claude/scripts/README.md`. player-view setup: `player-view/CLAUDE.md`.
 
 ---
 
 ## Git Discipline
 
-This is a solo content repo. Commit directly to `main`. Only branch when explicitly asked.
+Global git rules (commit by default, stage specific paths, never amend/force-push/skip hooks)
+live in `~/.claude/CLAUDE.md` and apply here. Project-specific deltas only:
 
-**Commit by default.** When you finish a coherent unit of work, commit it without being
-asked. Group related changes into one logical commit with a clear, conventional message.
-Skills that define their own commit cadence (e.g. ingest commits per-source) take precedence.
-
-**Stage specific paths.** Use `git add <path>…`, not `git add -A` or `git add .`.
-Path-scoped staging of the directories you changed is fine (e.g., `git add wiki/`).
-
-**Never** amend published commits, skip hooks (`--no-verify`), or force-push to main.
+- This is a solo content repo — commit directly to `main`. Only branch when explicitly asked.
+- Use the commit-prefix table below.
 
 ### Commit Prefixes
 
@@ -156,7 +125,8 @@ output**.
    is clean when a re-edit produces no warnings.
 
 This makes every wiki write self-healing: hooks catch mechanical errors, and the agent
-closes the loop on anything that requires judgment.
+closes the loop on anything that requires judgment. Never suppress, ignore, or work around
+hook output — the hooks are the source of truth for mechanical correctness.
 
 ---
 

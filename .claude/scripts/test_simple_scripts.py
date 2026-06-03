@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tests for tag_taxonomy, sync_skills, regen_index, archive_source, wiki_common."""
+"""Tests for tag_taxonomy, regen_index, archive_source, wiki_common."""
 
 from __future__ import annotations
 
@@ -12,7 +12,6 @@ from unittest.mock import MagicMock, patch
 
 import archive_source
 import regen_index
-import sync_skills
 import tag_taxonomy
 import wiki_common
 
@@ -112,136 +111,6 @@ class TagTaxonomyClassifyTests(unittest.TestCase):
 
     def test_deprecated_system_frozenset(self):
         self.assertIn("lint", tag_taxonomy.DEPRECATED_SYSTEM)
-
-
-# ---------------------------------------------------------------------------
-# sync_skills
-# ---------------------------------------------------------------------------
-
-
-class SyncSkillsDriftTests(unittest.TestCase):
-    def test_no_drift_when_identical(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "src")
-            dst = os.path.join(tmp, "dst")
-            os.makedirs(src)
-            os.makedirs(dst)
-            for name in ("a.md", "b.md"):
-                content = f"content-{name}"
-                open(os.path.join(src, name), "w").write(content)
-                open(os.path.join(dst, name), "w").write(content)
-            diffs = list(sync_skills.drift(src, dst))
-            self.assertEqual(diffs, [])
-
-    def test_detects_missing_in_agents(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "src")
-            dst = os.path.join(tmp, "dst")
-            os.makedirs(src)
-            os.makedirs(dst)
-            open(os.path.join(src, "new.md"), "w").write("new")
-            diffs = list(sync_skills.drift(src, dst))
-            self.assertTrue(any("missing in .agents" in d for d in diffs))
-
-    def test_detects_stale_in_agents(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "src")
-            dst = os.path.join(tmp, "dst")
-            os.makedirs(src)
-            os.makedirs(dst)
-            open(os.path.join(dst, "stale.md"), "w").write("stale")
-            diffs = list(sync_skills.drift(src, dst))
-            self.assertTrue(any("stale in .agents" in d for d in diffs))
-
-    def test_detects_differs(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "src")
-            dst = os.path.join(tmp, "dst")
-            os.makedirs(src)
-            os.makedirs(dst)
-            open(os.path.join(src, "skill.md"), "w").write("v2")
-            open(os.path.join(dst, "skill.md"), "w").write("v1")
-            diffs = list(sync_skills.drift(src, dst))
-            self.assertTrue(any("differs" in d for d in diffs))
-
-    def test_recurses_into_subdirs(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "src")
-            dst = os.path.join(tmp, "dst")
-            os.makedirs(os.path.join(src, "subdir"))
-            os.makedirs(os.path.join(dst, "subdir"))
-            open(os.path.join(src, "subdir", "deep.md"), "w").write("deep")
-            diffs = list(sync_skills.drift(src, dst))
-            self.assertTrue(any("deep.md" in d for d in diffs))
-
-
-class SyncSkillsMainTests(unittest.TestCase):
-    def test_main_reports_in_sync(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, ".claude", "skills")
-            dst = os.path.join(tmp, ".agents", "skills")
-            os.makedirs(src)
-            os.makedirs(dst)
-            open(os.path.join(src, "x.md"), "w").write("x")
-            open(os.path.join(dst, "x.md"), "w").write("x")
-            with patch("sync_skills.SRC", src), patch("sync_skills.DST", dst):
-                out = io.StringIO()
-                with contextlib.redirect_stdout(out):
-                    code = sync_skills.main([])
-            self.assertEqual(code, 0)
-            self.assertIn("in sync", out.getvalue())
-
-    def test_main_reports_differences(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, ".claude", "skills")
-            dst = os.path.join(tmp, ".agents", "skills")
-            os.makedirs(src)
-            os.makedirs(dst)
-            open(os.path.join(src, "new.md"), "w").write("new")
-            with patch("sync_skills.SRC", src), patch("sync_skills.DST", dst):
-                out = io.StringIO()
-                with contextlib.redirect_stdout(out):
-                    code = sync_skills.main([])
-            self.assertEqual(code, 0)
-            self.assertIn("difference", out.getvalue())
-            self.assertIn("--apply", out.getvalue())
-
-    def test_main_apply_regenerates_dst(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, ".claude", "skills")
-            dst = os.path.join(tmp, ".agents", "skills")
-            os.makedirs(src)
-            open(os.path.join(src, "skill.md"), "w").write("content")
-            with patch("sync_skills.SRC", src), patch("sync_skills.DST", dst):
-                out = io.StringIO()
-                with contextlib.redirect_stdout(out):
-                    code = sync_skills.main(["--apply"])
-            self.assertEqual(code, 0)
-            self.assertTrue(os.path.exists(os.path.join(dst, "skill.md")))
-            self.assertIn("regenerated", out.getvalue())
-
-    def test_main_missing_src(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, "nonexistent")
-            dst = os.path.join(tmp, "dst")
-            with patch("sync_skills.SRC", src), patch("sync_skills.DST", dst):
-                err = io.StringIO()
-                with contextlib.redirect_stderr(err):
-                    code = sync_skills.main([])
-            self.assertEqual(code, 1)
-
-    def test_main_absent_dst_reported(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            src = os.path.join(tmp, ".claude", "skills")
-            dst = os.path.join(tmp, ".agents", "skills")
-            os.makedirs(src)
-            open(os.path.join(src, "x.md"), "w").write("x")
-            with patch("sync_skills.SRC", src), patch("sync_skills.DST", dst):
-                out = io.StringIO()
-                with contextlib.redirect_stdout(out):
-                    code = sync_skills.main([])
-            self.assertEqual(code, 0)
-            self.assertIn("absent", out.getvalue())
 
 
 # ---------------------------------------------------------------------------

@@ -47,7 +47,6 @@ If this skill package was edited, also run:
 
 ```bash
 python3 .claude/skills/skill-creator/scripts/quick_validate.py .claude/skills/ttrpg-wiki-ingest
-diff -qr .claude/skills/ttrpg-wiki-ingest .agents/skills/ttrpg-wiki-ingest
 ```
 
 If `quick_validate.py` is unavailable or incompatible, validate manually:

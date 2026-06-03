@@ -8,8 +8,6 @@
       "Bash(git diff*)",
       "Bash(git add wiki/*)",
       "Bash(git add .claude/*)",
-      "Bash(git add .agents/*)",
-      "Bash(git add .codex/*)",
       "Bash(git add Inbox/*)",
       "Bash(git add .raw/*)",
       "Bash(git add .gitignore)",
@@ -53,6 +51,10 @@
           {
             "type": "command",
             "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/qmd-reindex.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/regen-index.sh"
           },
           {
             "type": "command",

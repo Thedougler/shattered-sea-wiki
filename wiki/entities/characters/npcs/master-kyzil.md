@@ -17,7 +17,7 @@ sources:
 confidence_level: confirmed
 aliases:
   - "Kyzil"
-banner: "raw/assets/banners/Master-Kyzil.webp"
+banner: "banners/Master-Kyzil.webp"
 roleplay_prompt: "Javier Bardem doing Kenobi — composed enough to be unnerving, cracked exactly once, covering the crack immediately with a question. He says 'I corrected course three times' when he means 'I was scared.' He just hugged someone in public and is still recovering."
 ---
 

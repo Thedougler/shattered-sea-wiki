@@ -61,7 +61,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## The City Frame
 
-![[wiki/assets/sessions/session-04/art/calveno-beffa-evening.png|Calveno at twilight during Il Gioco delle Beffe — masked figures crowd the bridges and balconies, lanterns strung across the canals]]
+![[calveno-beffa-evening.png|Calveno at twilight during Il Gioco delle Beffe — masked figures crowd the bridges and balconies, lanterns strung across the canals]]
 
 | | |
 |---|---|
@@ -71,7 +71,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Tactical Map — Raid Overview
 
-![[wiki/assets/sessions/session-04/maps/session-04-calveno-raid-overview-map.png|Use case: stylized-concept. Asset type: TTRPG top-down tactical map for a D&D session, square 1:1 battlemap. Primary request: Create an unlabeled top-down battlemap of Calveno's festival district during the Session 04 raid, useful as a DM tactical overview. Scene/backdrop: A canal city of pale stone, narrow waterways, bridges, market plazas, and dense festival streets. Show the Mercatura plaza as the largest central site, the Bridge approach, two Le Paludi working-yard sites, and the harbour approach arranged as a connected city district with canals between them. Indicate five raid strike points only through physical features: one large central collapsed plaza/crater and four smaller cracked breach sites with dust/red-lit hazard glow. Include outer quay egress vents and a dark-water edge where the extraction route would lead, but no text or map labels. Composition: True top-down or very slight cartographic top-down, readable tactical geography, enough empty street/canal space for tokens, clear paths between sites, clean 5-foot square grid overlay that follows the map plane. Style: High-quality fantasy TTRPG battlemap, clean cartographic detail, aged parchment mixed with crisp VTT-ready stone/canal textures, dramatic but usable, no painterly blur. Constraints: no characters as focal subjects, no readable writing, no labels, no legend, no numbers, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
+![[session-04-calveno-raid-overview-map.png|Use case: stylized-concept. Asset type: TTRPG top-down tactical map for a D&D session, square 1:1 battlemap. Primary request: Create an unlabeled top-down battlemap of Calveno's festival district during the Session 04 raid, useful as a DM tactical overview. Scene/backdrop: A canal city of pale stone, narrow waterways, bridges, market plazas, and dense festival streets. Show the Mercatura plaza as the largest central site, the Bridge approach, two Le Paludi working-yard sites, and the harbour approach arranged as a connected city district with canals between them. Indicate five raid strike points only through physical features: one large central collapsed plaza/crater and four smaller cracked breach sites with dust/red-lit hazard glow. Include outer quay egress vents and a dark-water edge where the extraction route would lead, but no text or map labels. Composition: True top-down or very slight cartographic top-down, readable tactical geography, enough empty street/canal space for tokens, clear paths between sites, clean 5-foot square grid overlay that follows the map plane. Style: High-quality fantasy TTRPG battlemap, clean cartographic detail, aged parchment mixed with crisp VTT-ready stone/canal textures, dramatic but usable, no painterly blur. Constraints: no characters as focal subjects, no readable writing, no labels, no legend, no numbers, no watermark, no logos, no gore, no photorealism, no anime/chibi, no pixel art, no stock-photo aesthetic.]]
 
 ---
 
@@ -92,7 +92,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## NPC Bench
 
-![[wiki/assets/sessions/session-04/art/nona-briefing.png|Nona Black-Jaw briefs the party at her safe house — food first, then the map, then the favor]]
+![[nona-briefing.png|Nona Black-Jaw briefs the party at her safe house — food first, then the map, then the favor]]
 
 | Face | Grab when | Table handle | First line | Wants now |
 |---|---|---|---|---|
@@ -109,7 +109,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Threads & Clocks
 
-![[wiki/assets/sessions/session-04/art/sewer-powder-discovery.png|Jean-Claude clings to the sewer ceiling as a Gloom Stalker, shortbow drawn, above Grung directional markers and stacked black powder barrels]]
+![[sewer-powder-discovery.png|Jean-Claude clings to the sewer ceiling as a Gloom Stalker, shortbow drawn, above Grung directional markers and stacked black powder barrels]]
 
 | Thread | Current pressure | If ignored | Visible tick |
 |---|---|---|---|
@@ -123,7 +123,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Spotlight
 
-![[wiki/assets/sessions/session-04/art/kyzil-rooftop-spar.png|The Ponte Bassa rooftop spar — Crissdalynn grapples Master Kyzil while Delmar hoists a chair and Perrin beats the bodhran]]
+![[kyzil-rooftop-spar.png|The Ponte Bassa rooftop spar — Crissdalynn grapples Master Kyzil while Delmar hoists a chair and Perrin beats the bodhran]]
 
 | Day | Richest threads available for | Watch for falling behind |
 |---|---|---|
@@ -141,7 +141,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Secrets & Clues
 
-![[wiki/assets/sessions/session-04/art/umberlee-speaks-through-branca.png|Umberlee speaks through Branca at the harbor shrine — the font erupts, Branca's eyes glow sea-green, Delmar stands defiant]]
+![[umberlee-speaks-through-branca.png|Umberlee speaks through Branca at the harbor shrine — the font erupts, Branca's eyes glow sea-green, Delmar stands defiant]]
 
 Keep these **unassigned** — give each to the first action that earns it, never bound to one roll or one scene.
 

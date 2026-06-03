@@ -25,7 +25,7 @@ session_date: unknown
 
 ## Beat 1 — The Gangplank
 
-![[raw/assets/session-art/session-03-06-gangplank-water.png|The basin water rises toward Delmar's boot as he steps from the Surety onto La Vasca's stone quay]]
+![[sessions/session-art/session-03-06-gangplank-water.png|The basin water rises toward Delmar's boot as he steps from the Surety onto La Vasca's stone quay]]
 
 The party is crossing from ship to dock at [[la-vasca|La Vasca]]. Grigori has already walked off into the city without looking back. Sem is at the breach. Cobb is hovering.
 
@@ -74,7 +74,7 @@ Route any PC intent through [[calveno-sandbox-run-guide|Calveno Sandbox Run Guid
 
 ## The Invitation
 
-![[raw/assets/session-art/session-03-06-shrine-communion.png|Branca stands knee-deep in the Waveservant Shrine basin while Delmar watches the canal water listen]]
+![[sessions/session-art/session-03-06-shrine-communion.png|Branca stands knee-deep in the Waveservant Shrine basin while Delmar watches the canal water listen]]
 
 [[branca|Branca]] wants him to accompany her to the Waveservant Shrine — Calveno for her communion with Umberlee. Today, if possible. She checks the booklet: *"I've gone ahead and blocked the third tide — does that work, or should I find something that fits your schedule a little better?"*
 

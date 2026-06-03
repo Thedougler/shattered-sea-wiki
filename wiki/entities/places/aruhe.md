@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Deserted reef island near the Verdant Teeth on the Midchain's inner edge; the Grung patrol its reefs but refuse to land, and the drainage runs faintly acid from something old dissolving below the terraces."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - grung
   - mystery

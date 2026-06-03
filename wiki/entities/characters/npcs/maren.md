@@ -16,7 +16,7 @@ sources:
 confidence_level: confirmed
 aliases:
   - "Maren"
-banner: "raw/assets/banners/Maren.webp"
+banner: "banners/Maren.webp"
 roleplay_prompt: "Regina Hall as a pirate captain — warm, loud, and absolutely not the one to mispronounce her name in front of."
 ---
 

@@ -16,7 +16,7 @@ sources:
 confidence_level: medium
 plane_type: elemental-plane
 access: "breach through the Drowned Maw fissure"
-banner: raw/assets/banners/Elemental-Plane-of-Water.webp
+banner: banners/Elemental-Plane-of-Water.webp
 ---
 
 # Elemental Plane of Water

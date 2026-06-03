@@ -15,7 +15,7 @@ sources:
   - "Inbox/Fisks-Fleet.md"
   - "Inbox/Fernen.md"
 confidence_level: confirmed
-banner: raw/assets/banners/Fernen.webp
+banner: banners/Fernen.webp
 ship_class: Two-masted brigantine
 aliases:
   - Fernen

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The eastern end of the Verdant Scatter — high cliffs, cold upwelling, hard pilots, longline grounds, morning fog, and Shelfworks salvage staging."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - drowned-maw
 sources:

@@ -15,8 +15,8 @@ sources:
 confidence_level: observed
 species: human
 pronouns: she/her
-banner: raw/assets/banners/Alys-Kuiper.webp
-portrait: raw/assets/portraits/Alys-Kuiper.webp
+banner: banners/Alys-Kuiper.webp
+portrait: portraits/Alys-Kuiper.webp
 roleplay: "The medical professional who discusses clinical supply, triage, and recovery with the same warmth others use for the weather, and genuinely cannot tell why that's unsettling."
 ---
 

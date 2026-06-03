@@ -193,7 +193,7 @@ You begin at **Level 3** aboard the *[[saltwright|Saltwright]]*.
 
 A hard-used two-masted merchant brig captained by **[[beaumont-sel|Beaumont Sel]]**, who offered you passage to [[port-tidefall|Port Tidefall]]
 
-![[raw/assets/portraits/Beaumont-Sel.webp|Beaumont Sel, a weathered sailor gripping a ship's wheel by lantern light]]
+![[portraits/Beaumont-Sel.webp|Beaumont Sel, a weathered sailor gripping a ship's wheel by lantern light]]
 
 You might be a paying passenger, a working hand, a shipwrecked survivor, a stowaway, a fugitive, a pilgrim, a hired blade, a scholar with bad funding, etc. Whatever brought you aboard, the *[[saltwright|Saltwright]]* is where your stories collide.
 

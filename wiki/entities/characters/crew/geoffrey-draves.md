@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Young Dravosi deckhand recruited by Delmar mid-fight — a sailor by his father's command, a dancer by his own heart, vowed to earn enough to marry the woman he danced with once and then lost."
 created: 2026-05-10
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - dravosi
   - recurring
@@ -17,13 +17,13 @@ sources:
 confidence_level: observed
 species: human
 pronouns: he/him
-portrait: raw/assets/portraits/Geoffrey-Draves.webp
+portrait: portraits/Geoffrey-Draves.webp
 roleplay: "Zuko, the sailor and secret fire dancer — competent, controlled, and quietly tanking his entire future over a woman he danced with once."
 ---
 
 # Geoffrey Draves
 
-![[raw/assets/portraits/Geoffrey-Draves.webp|Geoffrey Draves, a nineteen-year-old lean Dravosi deckhand and ship's carpenter]]
+![[portraits/Geoffrey-Draves.webp|Geoffrey Draves, a nineteen-year-old lean Dravosi deckhand and ship's carpenter]]
 
 | | |
 |---|---|

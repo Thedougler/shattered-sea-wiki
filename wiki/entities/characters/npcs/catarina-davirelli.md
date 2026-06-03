@@ -24,7 +24,7 @@ roleplay_prompt: "Tony Stark without the charm, with better NDAs"
 
 # Catarina Da'Virelli
 
-![[raw/assets/portraits/Catarina-DaVirelli.webp|Catarina DaVirelli in her workshop, holding tools among benches of mechanisms and ship fittings]]
+![[portraits/Catarina-DaVirelli.webp|Catarina DaVirelli in her workshop, holding tools among benches of mechanisms and ship fittings]]
 
 ---
 

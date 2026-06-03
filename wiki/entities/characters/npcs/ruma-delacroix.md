@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Blue-caste Grung handler and quartermaster running the relay desk in the sewer magazine network beneath Calveno. Values survival over operational security — the party's best intelligence source if they reach her alive."
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - grung
   - combat

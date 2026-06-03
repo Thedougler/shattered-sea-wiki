@@ -14,7 +14,7 @@ sources:
   - "Inbox/Session-02-Recap.md"
   - "Inbox/Ket.md"
 confidence_level: high
-banner: "raw/assets/banners/Ket.webp"
+banner: "banners/Ket.webp"
 ---
 
 # Ket

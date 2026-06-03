@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura."
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - grung
   - combat
@@ -29,7 +29,7 @@ region: calveno
 > [!read-aloud]
 > The maintenance hatch is iron, set flush with the cobblestones in a Le Paludi side street. The runner's charcoal mark is still visible on the frame. Below, an iron ladder drops fifteen feet into darkness. Fish-oil lantern light from the street catches the sheen of standing water at the bottom. The smell rises to meet you before you reach the first rung — wet vegetation, something mineral, something that is not canal and not rat.
 
-![[wiki/assets/dungeons/calveno-sewers/network-overview-map.png|Dungeon network overview — hub-and-spoke sewer collector system with magazine rooms, central junction, and primary ritual chamber.]]
+![[network-overview-map.png|Dungeon network overview — hub-and-spoke sewer collector system with magazine rooms, central junction, and primary ritual chamber.]]
 
 ## Overview
 
@@ -104,7 +104,7 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 1 — Le Paludi Access Shaft
 
-![[wiki/assets/dungeons/calveno-sewers/sewer-entrance.png|Sewer access shaft — iron ladder descending into darkness, fish-oil lantern light, wet limestone, standing water below.]]
+![[sewer-entrance.png|Sewer access shaft — iron ladder descending into darkness, fish-oil lantern light, wet limestone, standing water below.]]
 
 **Dimensions:** 5 × 5 ft shaft, 15 ft deep. Hatch at street level, standing water at bottom.
 
@@ -168,7 +168,7 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 4 — Magazine Alpha (Le Paludi Yards)
 
-![[wiki/assets/dungeons/calveno-sewers/blackpowder-magazine.png|Secondary blackpowder magazine — tar-sealed barrels lashed to a sewer wall with crude scaffolding, green-caste sentry in shadow.]]
+![[blackpowder-magazine.png|Secondary blackpowder magazine — tar-sealed barrels lashed to a sewer wall with crude scaffolding, green-caste sentry in shadow.]]
 
 **Dimensions:** 20 × 15 ft side chamber off the left branch. Ceiling 6 ft. Exits: back to Room 2, drainage overflow pipe to Room 6.
 
@@ -214,7 +214,7 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 6 — Handler Relay
 
-![[wiki/assets/dungeons/calveno-sewers/handler-relay.png|Ruma Delacroix at her desk — route maps and tide charts pinned to the wall, oil lamp, barrels, dry stone alcove.]]
+![[handler-relay.png|Ruma Delacroix at her desk — route maps and tide charts pinned to the wall, oil lamp, barrels, dry stone alcove.]]
 
 **Dimensions:** 15 × 10 ft dry alcove off the main service corridor. Ceiling 6 ft. Exits: overflow pipe to Room 4, mortared breach to Room 5, service corridor to Room 7, hidden passage to Room 8.
 
@@ -259,7 +259,7 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 8 — Primary Detonation Chamber (Mercatura)
 
-![[wiki/assets/dungeons/calveno-sewers/primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
+![[primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
 
 **Dimensions:** 40 × 40 ft vaulted chamber. Ceiling 15 ft. Four drainage channels (3 ft deep, 5 ft wide) converge from cardinal directions. Central dry stone platform (10 ft diameter) with summoning circle. Scaffolding along all walls to 8 ft height. Exits: ascending passage to Room 7 (north), hidden passage to Room 6 (south, behind scaffolding).
 

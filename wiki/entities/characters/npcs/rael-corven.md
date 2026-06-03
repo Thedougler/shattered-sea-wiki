@@ -16,7 +16,7 @@ sources:
 confidence_level: confirmed
 aliases:
   - "Rael"
-banner: "raw/assets/banners/Rael-Corven.webp"
+banner: "banners/Rael-Corven.webp"
 roleplay_prompt: "Ron Swanson as a pirate captain, who is absolutely furious that he keeps caring about this new crew."
 ---
 

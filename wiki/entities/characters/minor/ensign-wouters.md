@@ -16,8 +16,8 @@ sources:
 confidence_level: observed
 species: human
 pronouns: he/him
-banner: raw/assets/banners/Ensign-Wouters.webp
-portrait: raw/assets/portraits/Ensign-Wouters.webp
+banner: banners/Ensign-Wouters.webp
+portrait: portraits/Ensign-Wouters.webp
 roleplay: "The eager junior officer who organizes things before anyone asks him to and then gets embarrassed when someone notices."
 ---
 

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-03
 tags:
   - umberlee
   - waveservants

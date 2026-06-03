@@ -19,7 +19,7 @@ ship_class: Heavy brig
 aliases:
   - Heft
   - "The Heft"
-banner: "raw/assets/banners/Detto-Kalash.webp"
+banner: "banners/Detto-Kalash.webp"
 ---
 
 # The *Heft*

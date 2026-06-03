@@ -25,7 +25,7 @@ aliases:
 
 # Beaumont Sel
 
-![[raw/assets/portraits/Beaumont-Sel.webp|Beaumont Sel, a tough old alligator-snapping tortle captain with a leather eye cover, pipe, Bisou on his shoulder, and mirror-bright Antheri plate on his shell]]
+![[portraits/Beaumont-Sel.webp|Beaumont Sel, a tough old alligator-snapping tortle captain with a leather eye cover, pipe, Bisou on his shoulder, and mirror-bright Antheri plate on his shell]]
 
 **Quote:** *"Boy, I shit out harder things than you every mornin'."*
 

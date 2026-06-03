@@ -19,7 +19,7 @@ ship_class: scout sloop
 aliases:
   - "Narrow"
   - "The Narrow"
-banner: "raw/assets/banners/Maren.webp"
+banner: "banners/Maren.webp"
 ---
 
 # The *Narrow*

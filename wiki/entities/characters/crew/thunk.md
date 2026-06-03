@@ -19,8 +19,8 @@ aliases:
   - "Mr. Thunk"
 species: orc
 pronouns: he/him
-banner: raw/assets/banners/Thunk.webp
-portrait: raw/assets/portraits/Thunk.webp
+banner: banners/Thunk.webp
+portrait: portraits/Thunk.webp
 roleplay: "Arnold Schwarzenegger as a pirate demolitions expert — reads as gimmicky until he casually drops a surprisingly thorough knowledge of black powder chemistry or cannon physics. The depth is real; the delivery never changes. He just talks like that. Everyone from home talks like that."
 ---
 

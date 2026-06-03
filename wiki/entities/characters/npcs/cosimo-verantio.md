@@ -21,7 +21,7 @@ roleplay_prompt: "The most dangerous man in the room who has not moved in twenty
 
 # Cosimo Verantio
 
-![[raw/assets/portraits/Cosimo-Verantio.webp]]
+![[portraits/Cosimo-Verantio.webp]]
 
 | | |
 |---|---|

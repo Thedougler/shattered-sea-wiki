@@ -16,7 +16,7 @@ sources:
 confidence_level: medium
 ship_class: sloop (courier-rigged)
 tier: 1
-banner: "raw/assets/banners/Lasting-Insult.webp"
+banner: "banners/Lasting-Insult.webp"
 current_location: "South Harbour Impound, Port Tidefall"
 home_port: "[[port-tidefall|Port Tidefall]]"
 ---

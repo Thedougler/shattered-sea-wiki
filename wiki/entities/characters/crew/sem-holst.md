@@ -17,8 +17,8 @@ sources:
 confidence_level: observed
 species: human
 pronouns: he/him
-banner: raw/assets/banners/Sem-Holst.webp
-portrait: raw/assets/portraits/Sem-Holst.webp
+banner: banners/Sem-Holst.webp
+portrait: portraits/Sem-Holst.webp
 roleplay: "The shipwright who sees hull damage the way a doctor sees symptoms — as information, not drama — and whose professional opinions are always correct and sometimes annoying."
 ---
 

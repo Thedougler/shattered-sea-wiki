@@ -323,7 +323,7 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 
 The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 40 ft, 15-ft ceiling, four drainage channels converging on a central summoning circle. Every crack in the ceiling is packed with blackpowder. This is the smoking gun.
 
-![[wiki/assets/dungeons/calveno-sewers/primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
+![[primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
 
 > [!read-aloud]
 > The passage opens into a vaulted chamber. The ceiling soars fifteen feet overhead — pale stone, old masonry, the kind that holds up a plaza. Every crack and join in that ceiling is packed with dark powder, held by crude timber scaffolding climbing the walls on all sides. The sheer quantity stops you cold.

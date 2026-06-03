@@ -13,7 +13,7 @@ tags:
 sources:
   - "Inbox/Essa-Two-Tooth.md"
 confidence_level: medium
-banner: raw/assets/banners/Essa-Two-Tooth.webp
+banner: banners/Essa-Two-Tooth.webp
 species: Rattkin
 pronouns: she/her
 current_location: "[[low-lamp|The Low Lamp]]"

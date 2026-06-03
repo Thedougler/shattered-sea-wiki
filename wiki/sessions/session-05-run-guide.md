@@ -26,26 +26,33 @@ session_date: "2026-06-07"
 
 | | |
 |---|---|
-| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. Felix in custody (Ruk guarding). Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). |
-| **Last break** | [[session-04|Session 04]] ended at the safe house after Felix's interrogation. One Grung ship destroyed, one purple handler killed, Felix captured. Party has intel on 4 secondary attack points but not the Mercatura primary. |
-| **Hottest pressure** | The Grung accelerated — the party thinks they have 2 days, they have ~1.5. The detonation fires tomorrow at crowd peak unless the party finds and stops the magazines. The Mercatura primary (Slaad + packed ceiling) is invisible to their current intel. |
+| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. [[felix-aho\|Felix Aho]] in custody ([[ruk\|Ruk]] guarding) — not yet interrogated. Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). |
+| **Last break** | [[session-04\|Session 04]] ended at the safe house. One Grung ship destroyed, one purple handler killed, Felix captured. The party knows Felix worked the operation but has not extracted his intel yet. |
+| **Hottest pressure** | The Grung accelerated — the party doesn't know their timeline. The detonation fires tomorrow at crowd peak. Felix has intel on the secondary sites but the Mercatura primary (Slaad + packed ceiling) is above his clearance. The session opens with the interrogation. |
 | **Table time** | ~4 hrs. The sewer dungeon is the session's spine. Plan 7 scenes, 1 optional. |
 
 ---
 
 ## What They Know
 
-Quick-reference for information management. Calibrate reveals against this.
+Quick-reference for information management. **Left column is what they walk in with.** Felix's intel moves to the right column as the interrogation earns it — then the DM can cross items off in real time.
 
-| They know | They don't know |
+| They know (session start) | They don't know (until Felix / dungeon) |
 |---|---|
-| 4 underground attack points (Felix's intel) | The 5th primary site beneath the Mercatura |
-| ~2-day deadline (Felix's estimate — **wrong**) | Accelerated timeline (~1.5 days, not 2) |
-| Festival timing for the strike | The summoning circle / Slaad |
-| Felix cooperative, in custody with [[ruk\|Ruk]] | [[solange-barret\|Solange Barret]]'s existence or role |
-| Sewer entry points (3 routes via Nona) | [[simone-tabarnack\|Simone]]'s direct involvement |
-| Grung organized operation, purple-caste command | The hidden passage from Room 6 to the primary |
-| Hero's Feast buffs active (poison immune, Wis adv, +2d10 max HP) | That Ruma's 2-hour check-in starts a clock |
+| Felix is a green-caste Grung labourer who worked the operation | 4 underground attack points (Felix — free) |
+| One Grung ship destroyed, one purple handler killed | Sentry composition: "two greens and a blue" per site (Felix — free) |
+| Grung organized operation, purple-caste command structure | ~2-day deadline (Felix — free; estimate is **wrong**) |
+| Hero's Feast buffs active (poison immune, Wis adv, +2d10 max HP) | The convoy had more purple-only boats than a 4-site job needs (Felix — DC 10) |
+| Festival timing makes the city vulnerable | More blackpowder was transported than unloaded — a 5th site exists (Felix — DC 12) |
+| [[nona-black-jaw\|Nona]] has sewer maps and Warren tunnel knowledge | "The circle site" — Felix was rotated out, heard screaming (Felix — DC 10 Insight) |
+| | Accelerated timeline (~1.5 days, not 2) |
+| | The 5th primary site beneath the Mercatura |
+| | The summoning circle / Slaad |
+| | [[solange-barret\|Solange Barret]]'s existence or role |
+| | [[simone-tabarnack\|Simone]]'s direct involvement |
+| | The hidden passage from Room 6 to the primary |
+| | Sewer entry points — 3 routes (Nona reveals during planning) |
+| | That Ruma's 2-hour check-in starts a clock |
 
 ---
 
@@ -65,14 +72,14 @@ Use one or two of these as ambient texture before the party goes underground —
 ## Strong Start
 
 > [!read-aloud]
-> Nona's kitchen smells like fish stock and charcoal. She has not slept. The table is cleared — no food, no plates, just a map of Calveno's sewer system drawn in chalk on oiled cloth, four X marks in charcoal where Felix said the charges are. She is sitting with one hand around a cup she has not drunk from, looking at the map the way she looks at people who owe her something.
+> Nona's kitchen smells like fish stock and charcoal. She has not slept. The table is cleared — no food, no plates, just an oiled cloth spread flat with a chalk grid of Calveno's sewer system. No marks on it yet. From the next room, muffled: a small voice saying something, then stopping. Then starting again. Then stopping.
 >
-> She does not look up when you come in. She says: "He says four. I think there are more."
+> Nona does not look up when you come in. She says: "He'll talk. He wants to. But every time he starts, something in him locks up. I need someone who knows what that is." She is looking at Jean-Claude.
 
-Then stop. Let the party react to the map, to Nona's assessment, to the timeline. Do not narrate what they plan.
+Then stop. Let the party react. Do not narrate what they decide about the interrogation.
 
 > [!dm]
-> Nona is right — there are five. She does not know this; she is reading the pattern. Four secondary sites is a distraction structure, not a primary operation. She says it once and lets it sit. If the party asks how she knows: "Because I would." This is the inciting moment — the party has to go underground today.
+> Felix has been trying to cooperate since they brought him in. The problem is not hostility — it is conditioning. Green-caste Grung are trained from birth to defer to higher castes and never share operational details with outsiders. Felix's conscious mind wants to help. His conditioning clamps down every time he reaches for specifics. Nona recognized the pattern (she has seen conditioning in ex-slaves before) but does not have the Grung-specific knowledge to break through it. JC does — he broke the same conditioning in himself.
 
 ---
 
@@ -92,8 +99,9 @@ Then stop. Let the party react to the map, to Nona's assessment, to the timeline
 
 | Name | Grab when | Handle | First line |
 |---|---|---|---|
-| [[nona-black-jaw\|Nona]] | War council, any safe house scene | Feeds you first, names what you owe second. Has not slept. The map is hers. | "He says four. I think there are more." |
-| [[felix-aho\|Felix Aho]] | Party asks about the operation | Cooperative prisoner. Scared. Knows the four secondaries but not the primary. | "They don't tell greens where the circle is." |
+| [[nona-black-jaw\|Nona]] | War council, any safe house scene | Feeds you first, names what you owe second. Has not slept. Recognized Felix's conditioning but can't break through it herself. | "He'll talk. He wants to. But every time he starts, something in him locks up." |
+| [[felix-aho\|Felix Aho]] | Session opens with his interrogation | Conditioned green-caste. Wants to help but conditioning clamps down on operational details. Needs gentle pressure, not force. JC lowers his defenses. | "I... yes. Four. There are four places I carried powder to. Four." *(stops, waits for permission to continue)* |
+| [[enzo\|Enzo]] | Nona offers resources after interrogation | Black jaguar tabaxi. Nona's bodyguard. Does not raise his voice; does not hurry. Comfortable with violence. | *(tap of cigar, shift of weight, glance at Nona)* |
 | [[master-kyzil\|Kyzil]] | Crissdalynn, or anyone briefs him on Grung | Owl Obi-Wan — monastic discipline cracks when he hears "Slaad." Becomes a general. | "I know why you are here. Something is under this city." |
 | [[ruk\|Ruk]] | Safe house logistics, combat muscle | Doesn't speak. Nods once. Carries a cleaver the size of a cutting board. | *(nods once)* |
 | [[ruma-delacroix\|Ruma Delacroix]] | Handler relay in the sewers (Room 6) | Blue-caste quartermaster. Values her life over the operation. Flat voice, no hesitation when negotiating. | *(does not hear you yet)* |
@@ -121,29 +129,87 @@ Then stop. Let the party react to the map, to Nona's assessment, to the timeline
 ### Nona's War Table *(Grung Raid)*
 
 *Pull: All PCs. Register: social.*
-*Available: session opens here.*
+*Available: session opens here. Two beats: the interrogation, then the planning.*
 
-**What's true:** [[nona-black-jaw|Nona]] has [[felix-aho|Felix]]'s intel mapped on oiled cloth — four X marks under the festival districts. Felix is in the next room with [[ruk|Ruk]]. The party needs to decide: who goes underground, who stays topside, who talks to [[master-kyzil|Kyzil]], and how they approach the sewer network. The timeline is shorter than they think.
+**What's true:** [[felix-aho|Felix Aho]] is in the next room with [[ruk|Ruk]]. He has been trying to talk since they brought him in, but his green-caste conditioning locks him up every time he reaches for operational specifics. [[nona-black-jaw|Nona]] has a blank sewer map on oiled cloth, waiting for intel to mark. The party — specifically [[jean-claude-tabarnack|JC]] — needs to break through Felix's conditioning to get the picture. The timeline is shorter than anyone in this room knows.
 
-**NPC — [[nona-black-jaw|Nona]]:** Has not slept. The map is her work — she cross-referenced Felix's descriptions with [[warren|Warren]] knowledge of the tunnel system. *Wants:* the party underground today. JC leads — he can read the signs. *Reveals:* three entry points into the collector system ([[le-paludi|Le Paludi]] hatch, Bridge far hatch, [[la-vasca|La Vasca]] tidal passage). The Warren can seal maintenance hatches behind the party to prevent Grung reinforcements — but only if Nona knows which hatches.
+---
 
-**NPC — [[felix-aho|Felix Aho]]:** Cooperative but frightened. He'll answer questions about the four secondary sites — locations, sentry composition ("two greens and a blue at each one"), powder quantities, scaffolding. *Wants:* to stay alive; one month of protection. *Reveals under pressure:* "There's something they don't tell greens. The purples call it 'the circle site.' I don't know where it is. I don't know what it does. They rotate us out before we get close." (DC 10 Insight: he is telling the truth. He is also more afraid of the circle site than of anything else.)
+#### Beat 1 — The Interrogation
+
+**NPC — [[felix-aho|Felix Aho]]:** Green-caste labourer. Not hostile. Not withholding. Conditioned. He defaults to deference, stops mid-sentence when he realizes he's sharing operational details, and physically flinches when he contradicts caste hierarchy. He wants to help — his conscious mind is ahead of his reflexes, and the gap between the two is the scene.
+
+**Roleplay handle:** Kermit the Frog being questioned by the FBI. Earnest, overwhelmed, perpetually apologetic. Keeps saying "I'm sorry, I don't know more" and meaning it. When pressed gently, he gives more than he thought he knew. He counts on his fingers. He draws in the air with a shaking hand. He is not a spy — he is a labourer who loaded barrels and counted them because counting is what he does.
+
+> [!mechanic]
+> **Felix's Conditioning — Social Encounter.** Felix volunteers baseline intel freely. Deeper details require DC 10–12 Persuasion or Insight checks — not because he is lying, but because his conditioning clamps down reflexively when he nears operational specifics. **JC speaking Grung or demonstrating defector knowledge lowers all DCs by 2** (Felix recognizes someone who broke the same conditioning). Intimidation works but shuts him down for 1d4 minutes afterward — the conditioning reads aggression as caste authority and he goes silent.
+
+**Intel reveals (in order of accessibility):**
+
+**Free — Felix volunteers without prompting:**
+- Four underground sites where he carried blackpowder barrels. Locations relative to surface landmarks ("under the yards," "near the bridge drain," "the one by the low hatch," "close to the harbour wall").
+- Sentry pattern at each: "Two greens and a blue. The blue carries a whistle. The greens carry the barrels."
+- Timeline: "Two days. They said two days from when the boats came in." (This estimate is **wrong** — the acceleration after Le Paludi shortened it to ~1.5 days, but Felix doesn't know that.)
+- Festival timing: "The purple said the noise would cover everything."
+
+**DC 10 Persuasion — the purple boats:**
+- Felix hesitates. Conditioning flicker — he is about to describe purple-caste operations, which greens are not supposed to notice. He noticed because greens load the boats and he counted.
+- "There were... a lot of boats. More than four sites need. And most of them were purple-only. No greens, no blues on those ones. Just purple." He pauses. "Purple-only boats means combat crews. That's not cargo work. That's a raid."
+- **What this tells the party:** The operational footprint is larger than four detonation sites. Purple-only vessels are combat-rated. The scale hints at mass extraction, not sabotage.
+
+**DC 12 Persuasion (or Felix volunteers if the party is patient and gentle):**
+- Felix has been doing arithmetic in his head since they captured him. The numbers bother him more than anything else.
+- "I counted barrels. I carried them. Thirty-two barrels through the tunnels, over three days. Six to the first site, six to the second, six to the third, four to the fourth. That's twenty-two." He holds up his fingers. "Where did the other ten go?"
+- He does not know where the extra powder went. He thinks it went somewhere he was not allowed to go. "They rotate greens out before you see too much. I never went past the junction where the old marks are."
+- **What this tells the party:** A 5th site exists. Felix can't locate it, but the surplus blackpowder went somewhere underground that green-caste labourers are excluded from.
+
+**DC 10 Insight (after the above, or JC asks about "the circle site" directly):**
+- Felix trembles. The conditioning breaks — not because someone pushed through it, but because the fear underneath is stronger.
+- "The purples call it 'the circle site.' I don't know where it is. I don't know what it does. They rotate us out before we get close." He stops. Swallows. "I heard screaming from that direction once. Not pain screaming. Something else."
+- DC 10 Insight: he is telling the truth. He is more afraid of the circle site than of anything else, and the fear is specific — not generalized anxiety but a memory of a sound that should not have come from underground.
 
 > [!dm]
-> Felix's "circle site" is the first hint of the primary chamber. He cannot locate it — the primary is compartmentalized above green-caste clearance. But the name gives JC something to look for: a fifth position on any map, any trail marker using red-caste notation instead of green/blue. Plant this early. It pays off in Rooms 2, 5, and 6.
+> Felix's "circle site" is the first hint of the primary chamber. He cannot locate it — the primary is compartmentalized above green-caste clearance. But the name gives JC something to look for underground: a fifth position on any map, trail markers using red-caste notation instead of green/blue. Plant it early. It pays off in Rooms 2, 5, and 6.
+>
+> Felix's barrel count (32 transported, 22 accounted for) is the concrete version of Nona's instinct that "four isn't enough." If the party does the math, they have independent confirmation of a hidden site before they enter the tunnels.
 
-**Planning options the party might raise:**
+**Felix's ask:** one month of protection. Somewhere the purple-caste cannot find him. He will not go back underground. He will draw everything he remembers on the map if they give him chalk. *(He draws with his left hand, shaking. The marks are precise.)*
+
+---
+
+#### Beat 2 — Nona's War Table
+
+Once Felix has talked, Nona marks the map. She works fast — cross-referencing Felix's landmarks with [[warren|Warren]] knowledge of the tunnel system. Four X marks in charcoal. A question mark where Felix's surplus powder points.
+
+**NPC — [[nona-black-jaw|Nona]]:** Has not slept. She processed Felix's barrel count before the party did. "Ten barrels unaccounted for. Four sites is a distraction pattern, not a primary operation. There is a fifth." If the party asks how she knows: "Because I would."
+
+*Wants:* the party underground today. JC leads — he reads the signs. *Reveals:* three entry points into the collector system ([[le-paludi|Le Paludi]] hatch, Bridge far hatch, [[la-vasca|La Vasca]] tidal passage). The Warren can seal maintenance hatches behind the party to prevent Grung reinforcements — but only if Nona knows which hatches.
+
+**Nona's resources — what she offers:**
+
+> [!dm]
+> Nona lays this out after the intel is on the map. This is a resource allocation beat — the party decides what support they take and what trade-offs they accept. Let them discuss. Do not push them toward a choice.
+
+| Resource | What it provides | Trade-off |
+|---|---|---|
+| [[enzo\|Enzo]] | CR 5 operative. Quiet, lethal, follows orders. Bodyguard-quality fighter in the tunnels. Reads threats before they materialize | Pulls Nona's personal security — she is exposed at the safehouse during the counter-operation |
+| Black-Jaw muscle (2–3 Warren fighters) | Extra bodies for covering secondary sites or holding a cleared position. Loyal, know the tunnels, not soldiers | Splits the party's force; Warren fighters break if outnumbered and cannot match purple-caste discipline |
+| Warren tunnel knowledge | Nona's people know the collector system — shortcut navigation, hatch locations, fallback routes, which tunnels flood at high tide | Baseline — available regardless. The chalk map is the delivery mechanism |
+| Seal hatches (Warren runners) | Tell Nona which hatches to close behind the party. Prevents Grung reinforcements from entering; each sealed hatch also blocks one extraction lane | Hatches seal both ways — the party cannot retreat through a sealed hatch without Warren help reopening it |
+| [[master-kyzil\|Kyzil]] (Nona suggests if the party doesn't) | "There is a monk at the Ponte Bassa who has been watching the storm drains for two days. He is not one of mine. But he is not one of theirs." | The party must brief Kyzil themselves — Nona will not approach a Sentinel of the Eyrie directly. Costs time before the descent |
+
+**Planning options:**
 
 | Plan | What it requires | What it gains |
 |---|---|---|
 | Hit the magazines directly | JC leads; party enters the sewer network | Each neutralized magazine removes one detonation site |
-| Brief Kyzil first | Someone goes to the [[ponte-bassa\|Ponte Bassa]] | CR 14 ally — accompanies underground or creates surface diversion |
+| Brief Kyzil first | Someone goes to the [[ponte-bassa\|Ponte Bassa]] (Scene 2) | CR 14 ally — accompanies underground or creates surface diversion |
 | Warn the watch / Canal Commission | Someone goes to a magistrate or gate sergeant | The watch raises alert — but their intervention threshold is high during festival week. They may not believe it |
 | Split the party | Half underground, half topside | Covers more ground; each group is weaker |
-| Seal hatches via Nona's Warren contacts | Tell Nona which hatches to close | Prevents Grung reinforcements from entering behind the party; each sealed hatch also blocks one extraction lane |
+| Take Enzo into the tunnels | Nona agrees, pulls Enzo from her side | CR 5 melee fighter with Interpose reaction — strong in tight corridors. Nona is unguarded |
 
-**If engaged:** The party has a plan. They know the entry points, the sentry pattern, and that a fifth site exists somewhere. The dungeon begins.
-**If ignored:** Nona does not ask twice. She sends Warren runners into the tunnels — but without JC's Grung expertise, they will miss the trail markers, trigger sentries, and die in the dark. The clock keeps ticking.
+**If engaged:** The party has a plan, resources, and Felix's map. They know the entry points, the sentry pattern, and that a fifth site exists somewhere. The dungeon begins.
+**If ignored:** Nona does not ask twice. She sends Warren runners into the tunnels — but without JC's Grung expertise, they miss the trail markers, trigger sentries, and die in the dark. The clock keeps ticking.
 **Hook out:** Kyzil briefing (Scene 2) or straight into the sewers (Scene 3).
 
 ---
@@ -587,7 +653,9 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 
 Keep these **unassigned** — give each to the first action that earns it.
 
-- Felix trembles when asked about "the big one" or "the circle site" — he was rotated out before he saw it, but the fear is real. He heard screaming from that direction once.
+- Felix's barrel count doesn't add up — 32 transported, 22 placed at four sites. The missing 10 barrels point to a fifth location he was never allowed to see — via **DC 12 Persuasion during interrogation** or **Felix volunteers under patient questioning**.
+- The convoy included far more purple-only boats than a four-site job requires. Purple-only means combat-rated crews — this is a mass raid, not sabotage — via **DC 10 Persuasion during interrogation**.
+- Felix trembles when asked about "the circle site" — he was rotated out before he saw it, but he heard screaming from that direction once. Not pain. Something else — via **DC 10 Insight during interrogation** or **JC asks directly**.
 - The incomplete magazine (Room 5) has builder's notation in Grung shorthand referencing a primary site south of the Mercatura — via **Room 5 beam**, **Room 6 route map**, or **Room 2 trail markers** (JC automatic).
 - [[ruma-delacroix\|Ruma]]'s route map shows 5 positions, not 4 — the fifth marked with red-caste authority, not green/blue. She calls it "the circle site" but cannot locate it.
 - The summoning circle uses techniques the Grung did not develop — via **DC 20 Arcana in Room 8** or **examining Solange's ritual components** after the fight.

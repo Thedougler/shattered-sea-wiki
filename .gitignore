@@ -35,3 +35,7 @@ voice-transcription/.venv/
 .agents/
 
 player-view/.venv/
+
+# Astro UI build output
+ui/dist/
+ui/.astro/

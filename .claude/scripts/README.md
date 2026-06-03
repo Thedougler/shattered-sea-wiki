@@ -16,6 +16,7 @@ python3 .claude/scripts/ingest_packet.py <dir>    # compile context packet for s
 python3 .claude/scripts/assemble_transcript.py    # assemble transcript chunks into a single file
 python3 .claude/scripts/preprocess_pdf.py <file>  # extract text/form fields from PDF source material
 python3 .claude/scripts/tag_taxonomy.py           # controlled tag vocabulary (data module; consumed by wiki_lint)
+python3 .claude/scripts/check_taxonomy_sync.py    # verify tag_taxonomy.py ↔ wiki/system/taxonomy.md stay in sync
 python3 .claude/scripts/wiki_health_snapshot.py   # capture vault health metrics (--save to persist)
 markdownlint-cli2 "wiki/**/*.md"                  # markdown formatting (config: .markdownlint-cli2.jsonc)
 ```

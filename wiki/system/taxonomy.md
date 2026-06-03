@@ -176,3 +176,6 @@ Before adding, verify no existing tag covers the concept. If genuinely new:
 1. It must appear or be needed on 5+ files across 3+ entity types.
 2. Add it to the appropriate section above with a one-line description.
 3. Add any aliases to the alias map.
+4. Mirror the change in `.claude/scripts/tag_taxonomy.py` (the machine-readable source of
+   truth), then run `python3 .claude/scripts/check_taxonomy_sync.py` to confirm the two stay
+   in sync.

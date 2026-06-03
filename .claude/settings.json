@@ -12,7 +12,6 @@
       "Bash(git add .codex/*)",
       "Bash(git add Inbox/*)",
       "Bash(git add .raw/*)",
-      "Bash(git add player-view/*)",
       "Bash(git add .gitignore)",
       "Bash(git mv*)",
       "Bash(git rm*)",

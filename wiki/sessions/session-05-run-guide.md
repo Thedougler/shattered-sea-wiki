@@ -196,7 +196,7 @@ Once Felix has talked, Nona marks the map. She works fast — cross-referencing 
 | Black-Jaw muscle (2–3 Warren fighters) | Extra bodies for covering secondary sites or holding a cleared position. Loyal, know the tunnels, not soldiers | Splits the party's force; Warren fighters break if outnumbered and cannot match purple-caste discipline |
 | Warren tunnel knowledge | Nona's people know the collector system — shortcut navigation, hatch locations, fallback routes, which tunnels flood at high tide | Baseline — available regardless. The chalk map is the delivery mechanism |
 | Seal hatches (Warren runners) | Tell Nona which hatches to close behind the party. Prevents Grung reinforcements from entering; each sealed hatch also blocks one extraction lane | Hatches seal both ways — the party cannot retreat through a sealed hatch without Warren help reopening it |
-| [[master-kyzil\|Kyzil]] (Nona suggests if the party doesn't) | "There is a monk at the Ponte Bassa who has been watching the storm drains for two days. He is not one of mine. But he is not one of theirs." | The party must brief Kyzil themselves — Nona will not approach a Sentinel of the Eyrie directly. Costs time before the descent |
+| [[master-kyzil\|Kyzil]] (party's own idea — Nona doesn't know him) | Crissdalynn sparred him yesterday; any PC who remembers he's at the [[ponte-bassa\|Ponte Bassa]] can suggest seeking him out. CR 14 monk, already suspicious of underground activity | Costs time before the descent. Nona has no opinion — he is outside her network |
 
 **Planning options:**
 

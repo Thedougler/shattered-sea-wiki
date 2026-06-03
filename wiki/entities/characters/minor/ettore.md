@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Proprietor of Casa Lupo in Calveno's Le Paludi district. Seventy-something, prices everything from memory, moves with the energy conservation of someone who has decided he's already moved enough."
 created: 2026-05-17
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - maritime
 sources:

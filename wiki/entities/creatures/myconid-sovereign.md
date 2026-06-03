@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 2 fungal plant leader; rules myconid colonies and projects animating spores to reanimate the dead as servants.
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

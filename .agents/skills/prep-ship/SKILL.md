@@ -43,7 +43,16 @@ wiki/entities/vehicles/{slug}/
   dm-guide.md        — DM-facing secrets, hooks, encounter notes
 ```
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** throughout —
+ship pages are DM-only operational reference.
+
+---
+
+## Visual Aid
+
+For Tier 2+ ships, load `ttrpg-visual-aids` to generate ship art. Category:
+**Scene art** (16:9) — the vessel at sea or in port. Skip for Tier 0–1 vessels
+unless the DM requests art.
 
 ---
 
@@ -63,5 +72,8 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/SHIP-GENERATE.md` | Ship generation, fleet design, naming conventions, stat generation |
 | `references/SHIP-RULES.md` | Naval rules, maritime mechanics, sea encounter structure |
 | `references/TRAVEL.md` | Travel encounters and sea events |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing ship profile, history, status |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a ship — linguistic roots and conventions |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

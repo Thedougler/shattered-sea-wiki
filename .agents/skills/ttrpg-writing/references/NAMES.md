@@ -28,6 +28,8 @@ Infer from race/culture if not specified:
 | Tabaxi | Nahuatl / Maya | |
 | Kenku | Japanese, Chinese | |
 | Goliath | Greek, Proto-Indo-European | |
+| Minotaur | Greek, Minoan | Strong consonants, open vowels, -os/-as/-is endings. Sea-going minotaurs adopt local names |
+| Lizardfolk | Malay, Austronesian (for place-names); use-names borrowed from host culture | True-names are descriptive compounds (Holds-Still, Bites-Twice); use-names for outsiders |
 | Firbolg | Old Irish, Scottish Gaelic | |
 | Aasimar | Latin (elevated) | |
 | Human — Sword Coast | English, French | |

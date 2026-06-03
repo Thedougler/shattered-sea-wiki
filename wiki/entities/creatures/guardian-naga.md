@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A CR 10 celestial; ancient guardian of a jungle shrine in the Midchain interior — locals know which temples are not visited twice.
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

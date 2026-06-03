@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A bowl of hot fish stock with bread — the most reliable meal at a canal-side tavern and the one that always comes."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - homebrew
 sources:

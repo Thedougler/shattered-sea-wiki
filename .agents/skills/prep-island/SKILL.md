@@ -59,7 +59,8 @@ regardless of campaign context), the hook that doesn't depend on specific prior 
 **Run Guide** — how to present at the table: NPC interplay, natural scene progression
 hints, exit points that lead somewhere interesting.
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for run guide and
+DM notes. **Player-facing prose** for strong start and scene spine read-aloud.
 Load `sandbox-narrative` for anti-railroading review of all content.
 
 ---
@@ -77,5 +78,8 @@ Load `sandbox-narrative` for anti-railroading review of all content.
 | File | Read when |
 |---|---|
 | `references/ISLAND-TEMPLATE.md` | Full island template, quality criteria, failure modes |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing run guide, DM notes, toy fields |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing strong start and scene read-aloud |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

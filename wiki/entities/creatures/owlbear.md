@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The Owlbear, a CR 3 monstrosity in the Shattered Sea bestiary.
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

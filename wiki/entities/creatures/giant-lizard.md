@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Public statblock reference for Giant Lizard, a CR 1/4 beast in the Shattered Sea bestiary.
 created: '2026-04-25'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

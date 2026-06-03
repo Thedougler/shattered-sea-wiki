@@ -29,6 +29,9 @@ When a required field is missing, add it with the default below and log the addi
 | `portable` | `false` | For island files |
 | `entry_points` | `[]` | For island files |
 | `contains_situations` | `[]` | For island files |
+| `rooms` | `0` | For dungeon files — integer room count |
+| `cr_range` | `""` | For dungeon files — e.g. `"1/2–3"` |
+| `topology` | `""` | For dungeon files — `linear \| branching \| hub \| loop` |
 | `detail_tier` | `1` | For vehicle files |
 | `session_number` | `0` | For session files; DM corrects |
 | `session_date` | `"unknown"` | For session files |
@@ -99,7 +102,7 @@ When a required field is missing, add it with the default below and log the addi
 | `system/players/` (sheet) | `pc-sheet` |
 | `system/` | `system-file` |
 | `dm/` | `dm-file` |
-| `.raw/sessions/` | `raw-session` |
+| `audio/sessions/` | `raw-session` |
 | `.raw/characters/` | `raw-character` |
 | `.raw/homebrew/` | `raw-homebrew` |
 

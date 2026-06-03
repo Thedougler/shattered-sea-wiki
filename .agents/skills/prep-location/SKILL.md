@@ -11,6 +11,12 @@ description: >
 
 Always check `wiki/index.md` for an existing stub before creating a new page.
 
+**Dungeon routing:** If the location is a multi-room dungeon, lair, ruin, or adventure
+site that players will explore room-by-room, route to `prep-dungeon` instead. That skill
+handles phased generation, room keying, spatial topology, and encounter calibration.
+Use this skill for dungeon pages only when creating a brief stub or overview — not a
+full keyed site.
+
 ---
 
 ## Interview
@@ -80,6 +86,15 @@ Universal and entity fields are auto-completed by the write hook. You must autho
 
 ---
 
+## Visual Aid
+
+Load `ttrpg-visual-aids` to generate art after writing the page. Category:
+**Banners** (3:1 panoramic) for page headers, or **Scene art** (16:9) for immersive
+establishing shots. Place after the `[!read-aloud]` callout. Skip for sub-locations
+that are part of a larger page.
+
+---
+
 ## Filing
 
 Path by subtype:
@@ -94,8 +109,8 @@ After writing: add to `wiki/index.md`, add reciprocal links, commit.
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards — mode selector, Brennan
-voice, and callout types all apply to location pages.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for lore and DM
+notes. **Player-facing prose** for `[!read-aloud]` opening and sub-location impressions.
 
 ---
 
@@ -105,5 +120,9 @@ voice, and callout types all apply to location pages.
 |---|---|
 | `references/LOCATION.md` | Full location template, read-aloud examples, dungeon room key format |
 | `references/prep-city.md` | City and settlement building via Pointy Hat Theme Park Method |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing lore, DM notes, notable locations |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` opening and sub-location impressions |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a new location — linguistic roots by culture |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

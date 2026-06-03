@@ -121,7 +121,9 @@ Warnings and quality notes don't fail.
 ## What `--fix` does (and only this)
 
 It standardizes the frontmatter block and nothing else — the body is preserved
-byte-for-byte. Specifically: adds any missing required field with a path-inferred
+byte-for-byte. **Tag content is never auto-fixed** — choosing the right canonical
+tags requires reading the file and understanding what it's about. Tag issues always
+appear in the report for the agent to resolve manually. Specifically: adds any missing required field with a path-inferred
 default, drops an empty `relationships: []`, coerces `publish`/`portable` to real
 booleans, renders `tags`/`sources`/`aliases` in block style (Obsidian's preferred
 list format), and reorders fields into canonical order. Run it freely; it converges
@@ -210,6 +212,39 @@ entries are legitimately standalone.
 ### orphan (quality)
 No other page links here (links from the generated `index.md` don't count; links from
 hand-curated `hot.md` do). Link it from a natural parent.
+
+### tag-deprecated (warning)
+
+A tag in the deprecated list from `wiki/system/taxonomy.md`. Three sub-types, identified in the detail:
+
+- **Frontmatter duplicate** — the tag restates what `type`, `subtype`, `status`, or `audience` already says. Remove it.
+- **Entity name** — the tag names an NPC, place, ship, or PC. Add a wikilink to that entity in the body, then remove the tag.
+- **Source citation / system tag** — move to `sources:` field or remove.
+
+**Fixing:** Read the file first. Once you know what the page is actually about, choose up to 5 canonical replacements from `wiki/system/taxonomy.md`. Don't just delete the old tag — the page may now have zero tags and deserve real ones.
+
+### tag-alias (warning)
+
+A tag is a known alias for a canonical form (e.g. `maw` → `drowned-maw`, `prep` → `dm-prep`). The fix message names the canonical replacement.
+
+**Fixing:** Read the file. Replace the alias with its canonical form — but also check whether the canonical tag actually applies to this page's content. An alias might have been a lazy tag for something not really covered by the canonical concept.
+
+### tag-unknown (quality)
+
+A tag that isn't in the controlled vocabulary and isn't a known alias or deprecated tag. These are ad-hoc labels accumulated before the taxonomy existed.
+
+**Fixing:** Read the file. Either:
+1. Replace with the closest canonical tag from `wiki/system/taxonomy.md` if one fits.
+2. If the page doesn't need the tag at all, remove it.
+3. If the tag genuinely deserves to be canonical (appears or is needed on 5+ files across 3+ entity types), propose adding it to the taxonomy before applying it.
+
+Never add an unknown tag to more files — only canonicalize or remove.
+
+### tag-over-limit (warning)
+
+More than 5 content tags (visibility tags don't count toward the limit).
+
+**Fixing:** Read the file. Keep the 3–5 tags that are most cross-cutting and useful for DM prep. Prefer faction and theme/domain tags over workflow tags when space is tight. The limit is strict — trim to ≤5.
 
 ### tag-variant (quality)
 A tag looks like a plural/singular variant of another tag (e.g. `#ship` vs `#ships`).

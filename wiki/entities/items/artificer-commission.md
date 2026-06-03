@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - homebrew
 sources:

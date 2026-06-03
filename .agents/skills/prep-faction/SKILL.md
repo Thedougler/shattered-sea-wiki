@@ -40,7 +40,8 @@ party, it gets a clock in `hot.md`. Add it there after writing the page.
 - If faction gets a clock: add entry to `wiki/hot.md` faction clocks block
 - Add reciprocal links to all referenced entities
 
-Load `ttrpg-writing` for prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** throughout — all
+faction content is DM-only operational reference.
 
 ---
 
@@ -50,5 +51,8 @@ Load `ttrpg-writing` for prose and formatting standards.
 |---|---|
 | `references/FACTION.md` | Full faction page template, clock format, quality bar |
 | `references/faction-simulation.md` | Faction off-screen behavior and simulation heuristics |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing all faction prose — agenda, methods, membership |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
+| `../ttrpg-writing/references/NAMES.md` | Naming a new faction — linguistic roots by culture |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

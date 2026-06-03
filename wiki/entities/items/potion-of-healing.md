@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A red restorative draught — restores 2d4+2 hit points when drunk. The most commonly sought magical consumable in the Shattered Sea."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - player-resource
 sources:

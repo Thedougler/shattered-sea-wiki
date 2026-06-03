@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A general goods shop in Le Paludi's lower canal zone — low ceiling, oil lamps, uneven floors, and an old proprietor who prices everything from memory and hasn't been wrong yet.
 created: 2026-05-15
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - maritime
 sources:

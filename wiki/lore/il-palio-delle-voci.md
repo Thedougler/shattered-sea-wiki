@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Calveno's annual open bardic competition — multiple bands playing simultaneously across the canal district for three hours while crowds move between them, judged by which stage holds the most people at the end.
 created: 2026-05-17
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - tessarine
 sources:

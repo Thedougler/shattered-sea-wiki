@@ -147,8 +147,9 @@ After writing the page:
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards — DM-facing reference mode,
-anti-slop constraints, and callout types apply to every situation page.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** throughout — all
+situation content is DM-only operational reference. Anti-slop pass and callout type
+enforcement apply to every situation page.
 
 ---
 
@@ -160,5 +161,7 @@ anti-slop constraints, and callout types apply to every situation page.
 
 | File | Read when |
 |---|---|
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing all situation prose — summary, pressures, outcomes |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

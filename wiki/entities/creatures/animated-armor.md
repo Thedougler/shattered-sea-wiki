@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks."
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

@@ -7,7 +7,7 @@ summary: Public index for Shattered Sea lore — character options, rules refere
 type: index
 campaign: shattered-sea
 created: 2026-05-04
-updated: 2026-06-01
+updated: 2026-06-02
 
 sources:
 - Inbox/lore/index.md

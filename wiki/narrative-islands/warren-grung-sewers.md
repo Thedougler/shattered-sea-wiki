@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building."
 created: 2026-05-26
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - grung
   - passage

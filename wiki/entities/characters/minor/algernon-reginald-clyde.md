@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying."
 created: 2026-05-02
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - maritime
 sources:

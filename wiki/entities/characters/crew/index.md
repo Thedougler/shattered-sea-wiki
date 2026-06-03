@@ -4,7 +4,7 @@ category: index
 type: index
 campaign: shattered-sea
 created: 2026-05-16
-updated: 2026-06-01
+updated: 2026-06-02
 publish: false
 audience: dm
 summary: Index for major recurring hired crew and shipboard character pages.

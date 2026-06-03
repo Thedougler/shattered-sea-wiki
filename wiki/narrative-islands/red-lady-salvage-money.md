@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Unusual broker money is moving through Calveno toward a Maw salvage commission targeting the Red Lady. Batta Zusto on the Bridge is the accessible thread. The funder is not yet known."
 created: 2026-05-22
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - salvage
   - fisk-fleet

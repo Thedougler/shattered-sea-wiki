@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings."
 created: 2026-05-20
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - passage
   - rattkin

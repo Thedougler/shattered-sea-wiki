@@ -38,7 +38,7 @@ Wikilinks are for depth the DM chooses to chase between sessions, never for info
 
 | Mode | Produces |
 |---|---|
-| `/run-guide [N]` | Full session run guide for session N. Read `references/session-run-guide.md` and follow its workflow. |
+| `/run-guide [N]` | **Delegates to `prep-run-guide`.** Load that skill and follow its workflow and spec. This skill's grounding steps and voice guidance still apply. |
 | `/strong-start` | Just the opening: one in-medias-res scene, one image, one pressure, no recap. Read `references/STRONG-START.md`. |
 | `/thread-review` | Active threads grouped *immediate / simmering / dormant / gap-or-contradiction*. Read-only — do not write unless asked. |
 | `/spotlight` | Spotlight targets, each attached to an existing pressure. Never a scene whose only job is "give X a moment." |
@@ -52,8 +52,8 @@ Wikilinks are for depth the DM chooses to chase between sessions, never for info
 2. **Name what is already in motion** before inventing anything: where the party is, the last hard break, what they promised/broke/ignored, which situations and factions have reason to act now, which PC hooks are hot.
 3. **Spotlight check.** Read the Spotlight Tracking table in `hot.md`. Find the PC who has gone longest without a meaningful moment and make sure at least one scene gives them one — attached to a real pressure, never manufactured.
 4. **Pick threads and shape pacing.** Use `references/PACING.md` to choose the 2–3 threads worth advancing and to vary register so the session has rhythm.
-5. **Write the guide** using `references/session-run-guide.md` — its template, inline-first conventions, and module formatting craft.
-6. **Run the quality gate** at the end of that reference before finalizing.
+5. **Write the guide.** Load `prep-run-guide` — it owns the template, inline-first conventions, three-zone architecture, and quality gate. This skill's grounding (steps 1–4) and voice guidance still apply.
+6. **Run the quality gate** in `prep-run-guide/references/run-guide-spec.md` before finalizing.
 
 Ground every claim in a page you read this session. If a fact isn't in the wiki, mark it a **proposal** and say so — don't quietly canonize it. If two pages conflict, surface a `> [!contradiction]` with both sources rather than silently picking one.
 
@@ -65,12 +65,18 @@ The DM reading this is busy and about to perform for hours. Respect their bandwi
 - **Be direct and devoid of mystery.** State what is true, what the NPC wants, what the roll reveals. The DM should never have to decode your prep — you are their co-DM, not a puzzle.
 - **Encourage by removing fear, not by adding pep talk.** A sandbox DM's anxiety is "what if they don't do what I prepped?" Answer it *in the guide*: mark ignored content as resurfacing rather than wasted, give a Surprise procedure, and remind them the menu is theirs to react to, not drive. Confidence comes from "you have what you need and nothing breaks if they wander," delivered in as few words as possible. Encouragement that costs the DM reading time is not encouragement.
 
-Load `ttrpg-writing` for prose and read-aloud standards. Load `sandbox-narrative` for an anti-railroading pass on the finished guide.
+Load `ttrpg-writing` before writing prose. **DM-facing reference** for DM notes and NPC
+handles. **Player-facing prose** for `[!read-aloud]` sections. Load `sandbox-narrative`
+for an anti-railroading pass on the finished guide.
 
 ## Reference Files
 
 | File | Read when |
 |---|---|
-| `references/session-run-guide.md` | Building or revising a run guide — the inline-first template, assembly workflow, module formatting craft, and quality gate. |
 | `references/STRONG-START.md` | Writing the opening — the five strong-start types, failure modes, and anti-patterns. |
 | `references/PACING.md` | Choosing which threads to advance and shaping session rhythm, register variation, and off-screen faction action. |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing DM-facing session prose, NPC handles |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` sections |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement |
+
+**For run guides:** the `prep-run-guide` skill owns the template, inline-first contract, and quality gate. Load it when `/run-guide` is invoked.

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Flint, steel, and tinder cloth in a small metal case — reliable fire-starting even in damp conditions."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - player-resource
 sources:

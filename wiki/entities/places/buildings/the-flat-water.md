@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - maritime
 sources:

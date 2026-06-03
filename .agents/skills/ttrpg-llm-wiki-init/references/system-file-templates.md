@@ -55,7 +55,7 @@ Read in this order. Stop when you have enough context for the task.
    If summary answers the question, do not read the full file.
 4. Situation files for active threads — `wiki/situations/active/`
 5. Session notes — `wiki/sessions/` — only when continuity or sequence matters.
-6. Raw transcripts — `.raw/sessions/` — only when the compiled note is insufficient.
+6. Raw transcripts — `audio/sessions/` — only when the compiled note is insufficient.
 
 **Never read the full vault before generating content.**
 

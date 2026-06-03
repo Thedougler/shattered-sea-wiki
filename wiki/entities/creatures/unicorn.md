@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A CR 5 celestial; unconfirmed in the Shattered Sea — a single interior expedition account from the Midchain describes a white-maned creature that vanished before corroboration.
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

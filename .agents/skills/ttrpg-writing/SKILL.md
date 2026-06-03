@@ -281,6 +281,11 @@ For any multi-node sandbox generation — dungeons, urban districts, hex regions
 networks — use a sequential pipeline rather than generating everything in one pass.
 Single-pass generation of large structures produces shallow, contradictory output.
 
+**Dungeon routing:** For keyed dungeons and adventure sites, use `prep-dungeon` — it
+implements the full four-phase pipeline with dungeon-specific standards (topology testing,
+room keying format, encounter calibration). The phases below are the generic version;
+`prep-dungeon` specializes them for room-by-room site generation.
+
 **Phase 1 — Architecture**: Overarching conflict, major factions, macro map or node network.
 Apply the Three Clue Rule to establish redundant connections between nodes.
 

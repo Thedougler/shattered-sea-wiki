@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Martial melee weapon. Finesse makes it the go-to for Dexterity-based fighters who want a d8 damage die without committing to Strength."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - player-resource
 sources:

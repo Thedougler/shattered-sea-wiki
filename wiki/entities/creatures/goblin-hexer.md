@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 3 fey goblin spellcaster; curses and debilitates enemies with fey magic, and can negate a hit against it once per round with Jinx.
 created: 2026-04-25
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - combat
 sources:

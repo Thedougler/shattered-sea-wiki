@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Sending stone given to Perrin by Nona Black-Jaw after he promised a favor without hearing the terms. Paired stone held by Nona."
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - mystery
 sources:

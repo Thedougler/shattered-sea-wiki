@@ -243,6 +243,7 @@ When a routed skill's required reads include a primer or intelligence file (e.g.
 | Create or expand an island | `prep-island` |
 | Create or expand a ship or vehicle | `prep-ship` |
 | Create or expand a creature or monster | `prep-creature` |
+| Homebrew a magic item or custom item | `prep-hb-item` |
 | Large sandbox generation (dungeon, region, hex map) | `sandbox-narrative` |
 | Write lore or world content | `lore-generation` |
 

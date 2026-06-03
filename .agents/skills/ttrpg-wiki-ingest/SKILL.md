@@ -36,18 +36,16 @@ ingest loop is expensive.
 
 ---
 
-## Route by Queue Depth
+## Route by Count
 
 ```dot
 digraph route {
-  "count = 0" [shape=box, label="Queue clear → report and stop"];
-  "count 1–6" [shape=box, label="Single pass → process all, one commit"];
-  "count 7+" [shape=box, label="Batch loop → read references/batch-queue.md"];
+  "0" [shape=box, label="Queue clear → report and stop"];
+  "1+" [shape=box, label="Pull a batch → process → commit → repeat"];
   "Run check_ingest.py --count" [shape=diamond];
 
-  "Run check_ingest.py --count" -> "count = 0" [label="0"];
-  "Run check_ingest.py --count" -> "count 1–6" [label="1–6"];
-  "Run check_ingest.py --count" -> "count 7+" [label="7+"];
+  "Run check_ingest.py --count" -> "0" [label="0"];
+  "Run check_ingest.py --count" -> "1+" [label="1+"];
 }
 ```
 
@@ -55,21 +53,33 @@ digraph route {
 
 Report "queue clear" and stop. Nothing else to do.
 
-### 1–6 pending (single pass)
+### 1+ pending — pull a batch
 
-This is the fast path for routine use. No batching, no re-running the script between sources.
+```bash
+python3 .claude/scripts/check_ingest.py --batch
+```
+
+The script fills a batch by token budget (default 30k tokens), walking the queue
+smallest-first and stopping when the next file would exceed the budget. It always includes
+at least one file. stderr reports the batch size, token count, and how many remain.
+
+Oversized markdown files (over the budget) are automatically chunked by `##` headings into
+parts that fit. Each chunk keeps the original frontmatter and is processed as a separate
+source. The original is hidden until all chunks are handled.
+
+PDF files are automatically preprocessed into agent-readable markdown before batch assembly.
+The script extracts form fields (for D&D character sheets) or page text, writes a structured
+`.md` sidecar, and queues the markdown instead of the PDF. The PDF travels alongside the
+markdown as a sidecar — it is the player-facing view; the markdown is the agent-optimized
+translation. Both are archived together via `archive_source.py`.
 
 1. Read `wiki/hot.md` for current world state.
-2. Run `python3 .claude/scripts/check_ingest.py` to get all pending paths (ordered smallest
-   first by the script — process them in the order listed).
-3. Process each source to completion (steps below), then archive it.
-4. After all sources: regenerate index, commit once.
+2. Process each source in the batch to completion (steps below), then archive it.
+3. After all sources in the batch: regenerate index, commit once.
+4. Run `--batch` again. If output is empty, you're done. Otherwise, repeat from step 2.
 
-### 7+ pending (batch loop)
-
-Read `references/batch-queue.md` for the full batch orchestration protocol. The short
-version: pull 6 at a time with `--limit 6`, process one source at a time within each batch,
-archive + commit per batch, re-run the script, repeat until empty.
+For a small queue (1–3 files) this typically finishes in one pass. For a large queue,
+read `references/batch-queue.md` for the full orchestration protocol.
 
 ---
 
@@ -87,6 +97,7 @@ Load domain skills only when the source produces that content:
 | Faction page or clock | `prep-faction`, `faction-clock` |
 | Situation with lifecycle | `prep-situation`, `sandbox-narrative` |
 | Session note from transcript | `references/transcript-ingest.md` |
+| PC character sheet (PDF) | `prep-npc` (for the wiki entity page) |
 | Rules/homebrew page | `ttrpg-writing` |
 
 ---

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's method for creating rival parties as foils to player characters. Requires PCs to be finalized first."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - dm-prep
 sources:

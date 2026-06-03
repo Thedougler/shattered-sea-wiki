@@ -10,7 +10,7 @@ summary: Index for Calveno — the canal city of pale stone, witnessed deals, an
 status: active
 campaign: shattered-sea
 created: 2026-05-01
-updated: 2026-06-01
+updated: 2026-06-02
 
 sources:
 - Inbox/places/calveno/index.md

@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Player agency is the North Star. Everything at the table exists to serve it: the rules, rulings, narrative consequences, and the world itself."
 created: 2026-04-22
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - player-resource
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Professional tooth extraction — 1 sp, and the apothecary is fast about it."
 created: '2026-05-29'
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - homebrew
 sources:

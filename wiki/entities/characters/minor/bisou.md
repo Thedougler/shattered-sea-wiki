@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth."
 created: 2026-05-02
-updated: 2026-06-01
+updated: 2026-06-02
 tags:
   - dravosi
 sources:

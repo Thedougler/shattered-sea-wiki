@@ -96,7 +96,9 @@ its habitat for lore entries. Skip for generic stat blocks embedded in encounter
 
 ---
 
-Load `ttrpg-writing` for all prose and formatting standards.
+Load `ttrpg-writing` before writing any prose. **DM-facing reference** for lore entries,
+behavioral profiles, and stat integration. **Player-facing prose** for `[!read-aloud]`
+descriptions.
 
 ---
 
@@ -111,5 +113,8 @@ Load `ttrpg-writing` for all prose and formatting standards.
 | `references/STATBLOCK.md` | Fantasy Statblocks plugin syntax and codeblock format |
 | `references/STATBLOCK-CONFIG.md` | Statblock plugin configuration keys and layouts |
 | `references/STAT-BLOCKS.md` | Encounter enemy stat block reference tables |
+| `../ttrpg-writing/references/dm-reference-standards.md` | Writing lore entries, behavioral profiles |
+| `../ttrpg-writing/references/player-facing-prose.md` | Writing `[!read-aloud]` creature descriptions |
+| `../ttrpg-writing/references/callout-standard.md` | Callout type enforcement and conversion |
 | `../ttrpg-llm-wiki-init/references/auto-correct.md` | Fixing structural issues during or after content creation |
 | `../ttrpg-llm-wiki-init/references/wikilink-standards.md` | Creating or fixing wikilinks |

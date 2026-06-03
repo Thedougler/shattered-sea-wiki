@@ -1,6 +1,7 @@
 ---
 name: ttrpg-llm-wiki-init
-version: "2.0"
+metadata:
+  version: "2.0"
 description: >
   Foundation skill for all TTRPG LLM-wiki operations. Run this skill first, every
   session, before any other skill or content task — even if the task seems simple.

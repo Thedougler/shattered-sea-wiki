@@ -10,7 +10,6 @@ description: >
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
-Always check `wiki/index.md` for an existing stub before creating a new page.
 
 ## Tier Model
 

@@ -1,6 +1,7 @@
 ---
 name: ttrpg-wiki-query
-version: "1.0"
+metadata:
+  version: "1.0"
 description: >
   The mandatory default method for finding anything in the Shattered Sea wiki. Use
   this ANY time you need in-world information — whether the user explicitly asks you

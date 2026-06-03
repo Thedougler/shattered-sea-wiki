@@ -1,6 +1,13 @@
 ---
 name: obsidian-cli
-description: Interact with a running Obsidian vault from the command line — read, create, search, and manage notes, tasks, and properties — and develop/debug Obsidian plugins and themes (reload plugins, run JavaScript, capture errors, screenshot, inspect the DOM). Triggers on: "obsidian cli", "open this note in Obsidian", "run obsidian command", "search my vault", "create a note via cli", "set a property on", "reload my plugin", "run js in obsidian", "obsidian screenshot", "inspect the dom", "debug my obsidian plugin/theme". Use when interacting with the live Obsidian app (not just editing .md files on disk).
+description: >
+  Interact with a running Obsidian vault from the command line — read, create, search, and
+  manage notes, tasks, and properties — and develop/debug Obsidian plugins and themes (reload
+  plugins, run JavaScript, capture errors, screenshot, inspect the DOM). Triggers on "obsidian
+  cli", "open this note in Obsidian", "run obsidian command", "search my vault", "create a note
+  via cli", "set a property on", "reload my plugin", "run js in obsidian", "obsidian screenshot",
+  "inspect the dom", "debug my obsidian plugin/theme". Use when interacting with the live
+  Obsidian app (not just editing .md files on disk).
 ---
 
 # Obsidian CLI

@@ -26,10 +26,10 @@ session_date: "2026-06-07"
 
 | | |
 |---|---|
-| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. [[felix-aho\|Felix Aho]] in custody ([[ruk\|Ruk]] guarding) — not yet interrogated. Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). |
+| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. [[felix-aho\|Felix Aho]] in custody ([[ruk\|Ruk]] guarding) — not yet interrogated. Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). The 24-hour clock is ticking — do not mention this to the players. |
 | **Last break** | [[session-04\|Session 04]] ended at the safe house. One Grung ship destroyed, one purple handler killed, Felix captured. The party knows Felix worked the operation but has not extracted his intel yet. |
-| **Hottest pressure** | The Grung accelerated — the party doesn't know their timeline. The detonation fires tomorrow at crowd peak. Felix has intel on the secondary sites but the Mercatura primary (Slaad + packed ceiling) is above his clearance. The session opens with the interrogation. |
-| **Table time** | ~4 hrs. The sewer dungeon is the session's spine. Plan 7 scenes, 1 optional. |
+| **Hottest pressure** | The Grung accelerated — the party doesn't know their timeline. The detonation fires tomorrow at crowd peak on [[il-gioco-delle-beffe\|La Finestra]]'s final day. Felix has intel on the secondary sites but the Mercatura primary (Slaad + packed ceiling) is above his clearance. The session opens with the interrogation. |
+| **Table time** | ~4–5 hrs. The sewer dungeon is the session's spine, with a designed long rest at Room 6 that strips Heroes' Feast before the climax. Plan 7 scenes, 1 optional. |
 
 ---
 
@@ -359,7 +359,9 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 - **Hidden passage:** Behind stacked barrels along the south wall. DC 16 Investigation. [[ruma-delacroix|Ruma]] does not know it exists — built by [[solange-barret|Solange]]'s team. Leads directly to Room 8 (the primary chamber) from the direction the garrison is not watching. **This is the party's best tactical advantage for the climax encounter.**
 
 > [!dm]
-> Room 6 is the natural short rest location — dry, defensible, no patrols. It is also the decision point: the party now knows a fifth site exists and has the tools (route map, trail markers, hidden passage) to find it. If they have two of the three clues, the trail converges toward the Mercatura collector. If JC is present, the red-caste markers from Room 2 + the route map here make the direction clear.
+> Room 6 is the long rest location — dry, defensible, no patrols. Sell the rest hard. The party has fought two Hard encounters back-to-back (Rooms 4–5) and is resource-depleted. Describe the dry stone, the oil lamp warmth, the defensible chokepoints. This room is where they sleep.
+>
+> It is also the decision point: the party now knows a fifth site exists and has the tools (route map, trail markers, hidden passage) to find it. If they have two of the three clues, the trail converges toward the Mercatura collector. If JC is present, the red-caste markers from Room 2 + the route map here make the direction clear.
 
 ---
 
@@ -376,9 +378,37 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 > [!dm]
 > Any two clues are enough to find the primary. The trail markers (Room 2) + the commission sign in the main collector ("MERCATURA NEXUS 200 PAS") give JC a direction. The route map (Room 6) confirms the target. All three clues are available without combat.
 
-**If engaged:** the party follows the clues to the primary chamber (Scene 4).
+**If engaged:** the party rests in Room 6, then follows the clues to the primary chamber.
 **If ignored:** the primary site remains operational. The Slaad summons at detonation.
-**Hook out:** Room 7 (Main Collector — 80-ft vaulted tunnel, 8-ft ceiling, running water, trail markers converging) is the transition to the primary. Commission sign on the wall: "MERCATURA NEXUS 200 PAS."
+**Hook out:** the rest, then Room 7 (Main Collector — 80-ft vaulted tunnel, 8-ft ceiling, running water, trail markers converging). Commission sign on the wall: "MERCATURA NEXUS 200 PAS."
+
+---
+
+### The Rest *(Grung Raid)*
+
+*Pull: all PCs. Register: downtime.*
+*Available: after Room 6 is cleared and the party has intel on the primary site.*
+
+The party is beaten up from two Hard encounters and the social encounter with [[ruma-delacroix|Ruma]]. Room 6 is dry, swept, defensible. The drainage pipe and mortared breach are narrow chokepoints a single watchkeeper can cover. [[ruma-delacroix|Ruma]]'s desk makes a barricade. The party should feel safe here.
+
+> [!dm]
+> **Push the rest.** Make it feel obvious, safe, and smart. Describe the dry stone, the warmth of the oil lamp, the silence after hours of wet tunnels and combat. If the party hesitates, have a PC notice how quiet it is — no patrols, no water, no movement. The festival above is a muffled hum through stone.
+>
+> A Warren runner's voice echoes through a maintenance pipe during the first hour — [[nona-black-jaw|Nona]] confirming that Warren fighters are handling the secondary sites the party flagged. The runner also reports: "Nona says rest. She says you'll need it." This gives the party explicit permission to stop and sleep.
+>
+> **Heroes' Feast.** The party ate the feast the previous evening at [[nona-black-jaw|Nona]]'s safe house. The 24-hour duration expires during this 8-hour rest. **Do not mention this.** Do not hint at it. Do not volunteer the math. If a player asks when they ate the feast, answer honestly — the calculation is theirs to make, not yours to telegraph. The moment of realization comes when Foul Miasma deals poison damage to someone and they discover they are not immune.
+
+**Watch beats (narrate briefly — none are genuine threats):**
+
+- **First watch:** Distant sounds from deeper in the collector — stone settling, water shifting. The festival is muffled through stone overhead. A Warren runner's voice through the maintenance pipe: Nona's confirmation. Nothing approaches.
+- **Second watch:** A canal crocodile investigates the drainage pipe. Two amber eyes in the lamplight. It sniffs and withdraws. Atmosphere only.
+- **Third watch:** Silence. The standing water in adjacent tunnels stops flowing for several minutes — a tidal shift. Then it resumes. The air carries something faintly wrong from the deeper tunnels. Mineral, organic, not quite nameable.
+
+**On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, ready. Do not mention the feast.
+
+**If engaged:** the party pushes into the Main Collector and the primary chamber.
+**If ignored (party refuses to rest):** they enter the primary chamber with depleted resources but active Heroes' Feast buffs. The fight is still hard — they are low on HP and slots. The feast provides the safety margin the Rattle would otherwise provide. Both paths produce a dangerous fight.
+**Hook out:** Room 7, then the primary chamber.
 
 ---
 
@@ -499,12 +529,40 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 - **Choking Dust.** 15-ft sphere, heavily obscured until initiative 20 next round.
 - **Masonry Collapse.** One creature within 40 ft, DC 13 DEX or 2d6 bludgeoning + restrained (escape DC 13).
 
-**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from Moretti & Sons (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation). [[ruk|Ruk]] arrives after round 5 with a lit torch and a cleaver if the party is struggling.
+**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from Moretti & Sons (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation).
 
 > [!dm]
 > **The clock still runs.** Every round of the Otar fight is a round the extraction runs at any secondary site the party didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save.
 >
-> **The fight is brutal by design.** The party took heavy damage from the detonation and now faces a CR 8 boss. Hero's Feast buffs (poison immunity, Wis advantage, +2d10 max HP) are the designed safety margin. Without them, this is a near-certain TPK. With them, it is a bloody victory. If the party is below half HP aggregate after Phase 2, [[ruk|Ruk]] arrives after round 3 instead of round 5.
+> **The fight is brutal by design.** The party is rested (full HP, full slots) but Heroes' Feast expired during the long rest in Room 6. Foul Miasma now deals 1d6 poison per turn in melee range. Elite Warrior poison arrows connect (2d4 + DC 12 poisoned). Mesmerizing Chirr has no Wisdom advantage to resist. The +2d10 max HP buffer is gone. The party has resource depth instead of defensive buffs — a different kind of hard. If the fight tilts toward a TPK, the Rattle fires (see Safety Valve below).
+
+#### Safety Valve — The Rattle
+
+The detonation collapsed the Mercatura plaza. The sound carries into [[le-paludi|Le Paludi]]. The [[warren|Warren]] feels the ground shake. Someone strikes a pan.
+
+**Trigger:** Two PCs unconscious simultaneously, OR party aggregate HP drops below 25% of maximum, OR the DM reads the table and sees a TPK forming.
+
+> [!mechanic]
+> **The Rattle at the Mercatura.** On the round after the trigger fires (initiative 20), the party hears it — metal on metal, cascading through stone, the same rhythm they heard as a drill in Session 04.
+
+> [!read-aloud]
+> Metal on metal. Faint, through the rubble, through the stone — a pan, struck in a rhythm you know. Another answers. Then another. The sound climbs through vents and pipes and broken masonry until it seems to come from everywhere at once. You have heard this before. In a kitchen. In a place that smelled like garlic and bread. It was thirty seconds then. It is thirty seconds now.
+
+> [!mechanic]
+> **Next round (initiative 20):** [[warren|Warren]] community emerges from alleys, canal access points, and festival crowd edges. Not soldiers. The community:
+>
+> - **[[colla|Colla]] (The Splint):** Arrives with 1–2 [[potion-of-healing|potions of healing]] (2d4+2 HP). Tosses them to downed or wounded PCs. He is not brave — he gets close enough to throw and no closer. A healer doing the only thing he knows how.
+> - **[[essa-two-tooth|Essa Two-Tooth]]:** Directs people. Not fighting — pointing, organizing. "You — water from the fountain. You — planks from the chandler's cart." [[nona-black-jaw|Nona]] in miniature.
+> - **Fire bearers (2–3 Warren residents):** Festival torches, a lamp oil jug from a canal-side kitchen, a brazier dragged from a food stall. They bring fire. Suppresses Otar's Entropic Regeneration (improvised fire damage, 1d6, bonus action to ignite a weapon or hurl a torch). The one resource the party was missing — delivered by the community.
+> - **Distraction mob (4–6 civilians):** Rattkin and non-Rattkin. Rocks, pans, festival debris. Each round on initiative 20: Otar makes a DC 10 WIS save or uses one legendary action on a civilian instead of a PC. Civilians scatter when targeted — they know the Rattle drill. They come back.
+> - **[[ruk|Ruk]]:** Arrives with a lit brazier in one hand and his cleaver in the other. Does not speak. Hits the thing. (2d6+4 slashing + 1d6 improvised fire per round. AC 15, HP 68.)
+>
+> **Net effect:** Healing, fire (regen suppression), and breathing room. Otar wastes legendary actions on civilians. The Rattle does not kill Otar — it buys the party space to regroup and finish the fight.
+
+> [!dm]
+> **[[perrin-black-jaw|Perrin]]'s moment.** He hears the Rattle and knows what it means. The thing his grandmother built — not a military, not a militia, but a community that decided simultaneously to fight. The same sound he heard as a drill in a kitchen that smelled like garlic. Now it is real, and it is saving his life. This is the emotional payoff for two sessions of family-thread setup. Let it land before you return to initiative.
+>
+> **Two quick taps after silence** — when Otar falls. The Rattle stops. The pans go back behind the cutting boards. But this time, life does not resume as if nothing happened. A Slaad is dead in the Mercatura. The Warren showed its face to Calveno. Nothing goes back.
 
 #### Tactical Summary
 
@@ -516,13 +574,16 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 
 #### Party Advantages
 
+The party enters the primary chamber rested (full HP, slots, inspiration) but without Heroes' Feast. Their advantage is resource depth, not defensive buffs:
+
+- **Full resources:** The long rest means every spell slot, every Bardic Inspiration die, every Ki/Focus point. The party is at peak capacity. This is the tradeoff for losing the feast.
 - **Hidden passage:** Reverses surprise. May let a PC reach Solange before elites react.
 - **Circle disruption (DC 18 Arcana):** If disrupted before Phase 2, the summoning fails. Solange still detonates and escapes via Misty Step + Dimension Door. Plaza collapses, no Otar. This is the "clean" win — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
 - **Globe of Invulnerability scroll:** DC 16 Arcana to activate before detonation — shields a 10-ft radius from the blast. Reward for carrying Room 6 loot into the fight.
 - **Vertical terrain:** 15-ft ceilings (Phase 1) and open sky (Phase 3) reward [[crissdalynn-khinriss\|Crissdalynn]]'s flight and [[delmar-fisk\|Delmar]]'s [[boots-of-flying\|boots]].
-- **Bardic inspiration:** [[perrin-black-jaw\|Perrin]]'s d8 makes DC 12 Chirr saves trivial and turns AC 13 misses into hits. Protecting him is the tactical key.
+- **Bardic inspiration:** [[perrin-black-jaw\|Perrin]]'s d8 makes DC 12 Chirr saves manageable and turns AC 13 misses into hits. Without the feast's Wisdom save advantage, Perrin's inspiration is the PRIMARY defense against Chirr stuns. Protecting him is the tactical key.
 - **Kyzil (if present):** Survives the detonation. Becomes the anchor for Phase 3.
-- **Hero's Feast buffs:** Poison immunity negates Foul Miasma AND Elite Warrior poison arrows. +2d10 max HP is the survival buffer for Phase 2. This is the designed safety margin.
+- **The Rattle:** If the fight goes badly, the [[warren|Warren]] responds. See "Safety Valve — The Rattle" below.
 
 #### If the Circle Is Disrupted Before Phase 2
 

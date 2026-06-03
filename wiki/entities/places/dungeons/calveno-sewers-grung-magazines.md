@@ -248,10 +248,30 @@ Room 8 (Primary Detonation Chamber)
 - *Handler's purse*: 15 gp mixed Calven and Tessarine coin. Tide charts. A personal tally of secondary site powder weights.
 
 > [!dm]
-> Social encounter and intelligence hub. Ruma is the pivot of this dungeon — she carries the route map (Three Clue #2), guards the Globe scroll, and can be interrogated for network-wide intel. The hidden passage behind the barrels is the party's best tactical advantage for Room 8 — it lets them approach from the direction the garrison is not watching. This room is also the natural short rest location (dry, defensible, no patrols).
+> Social encounter and intelligence hub. Ruma is the pivot of this dungeon — she carries the route map (Three Clue #2), guards the Globe scroll, and can be interrogated for network-wide intel. The hidden passage behind the barrels is the party's best tactical advantage for Room 8 — it lets them approach from the direction the garrison is not watching. This room is the natural long rest location — dry, defensible, no patrols, chokepoints a single watchkeeper can cover.
 
 > [!mechanic]
 > **Ruma Delacroix — Social Encounter.** Ruma does not want to fight. Surrenders if disarmed and outnumbered. Negotiates for her life — values survival over operational security. **Triggers:** If the party names [[felix-aho|Felix Aho]], she reacts (same rotation). If Jean-Claude speaks Grung in handler-register, she freezes — a defector using that register is profoundly wrong to her. **What she knows:** four secondary site locations and status; accelerated timeline ("detonation was two days — now less — they moved it after Le Paludi"); that a fifth site exists under red-caste authority ("the circle site"); sentry compositions; egress vent positions. **What she does not know:** primary site location, summoning circle purpose, [[solange-barret|Solange]]'s identity, [[simone-tabarnack|Simone]]'s identity. **Warning:** if Ruma does not check in, the handler network knows within 2 hours. Clock starts.
+
+### Long Rest — Room 6
+
+The party has fought two Hard encounters back-to-back (Rooms 4 and 5) with no short rest between, plus whatever fired in Rooms 2 and 3. By the time they reach Room 6 and neutralize Ruma, they are resource-depleted: spell slots burned, inspiration spent, HP pools low. Room 6 is dry stone, swept clean, defensible from two chokepoints (the drainage pipe and the mortared breach), and silent. Sell it.
+
+> [!dm]
+> **Make the rest feel obvious.** Describe the dry stone, the oil lamp warmth, the quiet. Mention that the drainage pipe and mortared breach are narrow enough for one watchkeeper to cover both. If the party hesitates, have a PC notice how still the air is — no patrols pass through here. Ruma's desk makes a serviceable barricade.
+>
+> The party ate [[nona-black-jaw|Nona]]'s Heroes' Feast the previous evening. If they rest here for 8 hours, the 24-hour duration expires during the rest. **Do not mention this.** Do not hint at it. Do not volunteer the math. If a player asks when they ate the feast, answer honestly — the calculation is theirs to make, not yours to telegraph. The realization should come at the table when Foul Miasma hits and they are not immune.
+
+> [!mechanic]
+> **Watchful Long Rest (8 Hours).** The party can maintain watch rotations. Three watches, each with an ambient beat — none are genuine threats.
+>
+> **First watch:** Distant grinding from deeper in the collector system — stone settling, water shifting in the channels. The festival is muffled through stone overhead. Nothing approaches. A Warren runner's voice echoes faintly through a maintenance pipe — [[nona-black-jaw|Nona]] confirming that Warren fighters are handling the secondary sites the party marked. The party has permission to focus forward.
+>
+> **Second watch:** A canal crocodile investigates the drainage pipe from the Room 4 side. Its eyes catch the lamplight — two amber points in the dark. It sniffs, tastes the air, and withdraws. The watchkeeper can roll Stealth for flavor. The crocodile is not a threat. It is atmosphere.
+>
+> **Third watch:** Silence. Complete silence. The standing water in the adjacent tunnels stops flowing for several minutes. Then it resumes — a tidal shift somewhere in the system, nothing more. The air is still. The oil lamp burns steady.
+>
+> **On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, focused, ready. The air from the deeper tunnels carries something faintly wrong — mineral, organic, not quite identifiable. The trail markers converge ahead. The primary site is waiting.
 
 ---
 
@@ -381,11 +401,12 @@ Two additional secondary magazines exist at the Bridge district (T1, reached fro
 
 ### Pacing
 
-The dungeon has three natural acts:
+The dungeon has four natural acts:
 
-1. **Discovery (Rooms 1–3):** The party enters the network and encounters the first signs of Grung presence. Optional encounters (crocodiles, fleeing handler) set the tone. Stealth and investigation dominate. One short rest available after.
-2. **Disruption (Rooms 4–6):** The party finds and disarms secondary magazines. The handler relay is the intelligence pivot — what the party learns from Ruma (or the route map) determines whether they discover the primary site. Short rest available in Room 6.
-3. **Confrontation (Rooms 7–8):** The party enters the main collector system and approaches the primary chamber. This is the climax. The hidden passage from Room 6 is the party's best tactical advantage.
+1. **Discovery (Rooms 1–3):** The party enters the network and encounters the first signs of Grung presence. Optional encounters (crocodiles, fleeing handler) set the tone. Stealth and investigation dominate.
+2. **Disruption (Rooms 4–6):** The party finds and disarms secondary magazines. Two Hard encounters (sentry teams) back-to-back drain resources. The handler relay is the intelligence pivot — what the party learns from Ruma (or the route map) determines whether they discover the primary site.
+3. **The Rest (Room 6):** The party has burned spell slots, inspiration, and HP through Acts 1–2. Room 6 is dry, defensible, and quiet — the obvious long rest point. See "Long Rest — Room 6" in the Room 6 key. The rest gives the party a full resource reset before the climax, but Heroes' Feast (consumed the previous evening) expires during the 8-hour rest. The party enters the primary chamber fresh but without poison immunity, Wisdom save advantage, or the max HP buffer.
+4. **Confrontation (Rooms 7–8):** The party enters the main collector system and approaches the primary chamber. This is the climax. The hidden passage from Room 6 is the party's best tactical advantage.
 
 ### If Loud
 
@@ -436,23 +457,49 @@ Solange escapes only if the circle is disrupted before Phase 2 triggers. She det
 
 ### Pressure Valve (Primary Chamber)
 
-Targets three party weaknesses from the combat primer:
+Targets party weaknesses — amplified by the expired Heroes' Feast:
 
-- **No AoE damage.** Four Elite Warriors spread across the four drainage channel entrances (40-ft spread). The party must engage each individually while Solange channels behind the line.
-- **Concentration dependence.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration. Stagger Chirr: first warrior fires round 1, hold the rest for rounds when Perrin is drumming.
+- **Foul Miasma bites.** Without poison immunity, 1d6 poison per turn for standing near Otar. Elite Warrior poison arrows (2d4 + DC 12 poisoned condition) now connect. Melee range is genuinely costly.
+- **No Wisdom advantage.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration without the feast's save advantage. Stagger Chirr: first warrior fires round 1, hold the rest for rounds when Perrin is drumming.
+- **No HP buffer.** The +2d10 max HP from the feast is gone. The party is at their natural HP pools against Phase 2's detonation (8d6 fire + 4d6 bludgeoning). Characters who took damage in Phase 1 may go down.
 - **The dead-man switch.** The party's success at clearing the garrison IS the trigger for the detonation. Killing the 2nd Elite collapses the ceiling. The more effectively the party fights Phase 1, the sooner Phase 2 devastates them. This inversion — winning is what triggers the catastrophe — is the encounter's core tension.
 - **Bright light zone.** The summoning circle's bright light (expanding at round 3) neutralizes Jean-Claude's Umbral Sight. He must choose: snipe from the dim edges or approach the circle where he's visible.
 - **No fire or acid (Phase 3).** After the detonation, Otar's Entropic Regeneration demands fire or acid to suppress. The party's fire sources are in the rubble above (DC 12–14 Investigation) or Otar's own Bile Spray (he's too dumb to avoid self-suppression).
 
+### Safety Valve — The Rattle
+
+The fight is brutal by design. If it tilts toward a TPK, the [[warren|Warren]] responds.
+
+**Trigger:** Two PCs unconscious simultaneously, OR party aggregate HP drops below 25% of maximum, OR the DM reads the table and sees a TPK forming.
+
+**The detonation collapsed the Mercatura plaza.** The sound carries into [[le-paludi|Le Paludi]]. The Warren feels the ground shake. Someone strikes a pan.
+
+> [!mechanic]
+> **The Rattle at the Mercatura.** On the round after the trigger fires (initiative 20), the party hears it through the rubble — metal on metal, cascading, the same rhythm they heard as a drill in Session 04. Now it is real.
+>
+> **Next round:** [[warren|Warren]] community emerges from alleys, canal access points, and festival crowd edges. Not soldiers. The community, doing what the community does:
+>
+> - **[[colla|Colla]] (The Splint):** Arrives with 1–2 [[potion-of-healing|potions of healing]] (2d4+2 HP). Tosses them to downed or wounded PCs. He is not brave — he gets close enough to throw and no closer. He is a healer doing the only thing he knows how to do.
+> - **[[essa-two-tooth|Essa Two-Tooth]]:** Directs people. Old, not fighting, but pointing: "You — water from the fountain. You — planks from the chandler's cart." She is [[nona-black-jaw|Nona]] in miniature — organizing chaos into purpose.
+> - **Fire bearers (2–3 Warren residents):** Festival torches, a lamp oil jug from a canal-side kitchen, a brazier dragged from a food stall. They bring fire — the one resource the party needs. Suppresses Otar's Entropic Regeneration when applied (improvised fire damage, 1d6, bonus action to ignite a weapon or hurl a torch).
+> - **Distraction mob (4–6 civilians):** Rattkin and non-Rattkin community members. Rocks, pans, festival debris. Each round on initiative 20: Otar makes a DC 10 WIS save or uses one legendary action on a civilian instead of a PC. Civilians scatter when targeted — they know the drill from the Rattle. They come back.
+> - **[[ruk|Ruk]]:** Arrives with a lit brazier in one hand and his cleaver in the other. Does not speak. Hits the thing. (2d6+4 slashing + 1d6 improvised fire per round. AC 15, HP 68.)
+>
+> **Net effect:** The party gets healing, fire (regen suppression), and breathing room. Otar wastes legendary actions on civilians. The Rattle does not kill Otar — it buys the party space to regroup and finish the fight.
+>
+> **Two quick taps after silence** — when Otar falls. The Rattle stops. Life does not resume as if nothing happened.
+
 ### Advantage Window (Primary Chamber)
 
-Rewards party strengths if they prepare:
+Rewards party strengths if they prepare. The party is rested (full HP, slots, inspiration) — their advantage is resource depth, not feast buffs:
 
 - **Hidden passage (Room 6 → 8):** Reverses surprise — the party's strongest observed pattern pays off here.
+- **Full resources.** The long rest means full spell slots, full Bardic Inspiration, full Ki/Focus. Perrin has every slot and every inspiration die. This is the tradeoff for losing the feast — they enter the fight at peak capacity.
 - **Vertical terrain.** 15-ft ceilings and 8-ft scaffolding reward Crissdalynn's flight and Delmar's boots. A flier above scaffolding has advantage on melee vs. prone warriors and partial cover from ground-level ranged.
-- **Bardic inspiration.** Perrin's d8 makes DC 12 Chirr saves trivial and turns AC 13 misses into hits. Protecting him is the tactical key — Kyzil identified this.
+- **Bardic inspiration.** Perrin's d8 makes DC 12 Chirr saves manageable and turns AC 13 misses into hits. Without the feast's Wisdom advantage, his inspiration is now the PRIMARY defense against Chirr stuns. Protecting him is the tactical key — Kyzil identified this.
 - **Circle disruption.** If disrupted before Phase 2 triggers, the summoning fails. Solange detonates and escapes — no Otar, but Simone learns about JC.
 - **Allies.** If the party briefed [[master-kyzil|Kyzil]] (CR 14), he can accompany or create a surface diversion. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
+- **The Rattle.** If the fight goes badly, the Warren responds. See "Safety Valve — The Rattle" above.
 
 ### Drama Suite (Primary Chamber)
 

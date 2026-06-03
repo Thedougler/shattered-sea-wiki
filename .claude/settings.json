@@ -19,13 +19,13 @@
       "Bash(git checkout -b*)",
       "Bash(git push*)",
       "Bash(git commit -m *)",
-      "Bash(python3 /Users/nick/Documents/shattered-sea/.claude/scripts/*)",
-      "Bash(find /Users/nick/Documents/shattered-sea/wiki -type f*)",
-      "Bash(find /Users/nick/Documents/shattered-sea/.claude -type f*)",
+      "Bash(python3 /Users/nick/ai-os/shattered-sea/.claude/scripts/*)",
+      "Bash(find /Users/nick/ai-os/shattered-sea/wiki -type f*)",
+      "Bash(find /Users/nick/ai-os/shattered-sea/.claude -type f*)",
       "Bash(find /Users/nick/.claude/skills -type f 2>/dev/null | sort)",
-      "Bash(grep -r * /Users/nick/Documents/shattered-sea/wiki)",
-      "Bash(mkdir -p /Users/nick/Documents/shattered-sea/*)",
-      "Bash(bash /Users/nick/Documents/shattered-sea/.claude/hooks/*)",
+      "Bash(grep -r * /Users/nick/ai-os/shattered-sea/wiki)",
+      "Bash(mkdir -p /Users/nick/ai-os/shattered-sea/*)",
+      "Bash(bash /Users/nick/ai-os/shattered-sea/.claude/hooks/*)",
       "Bash(qmd:*)",
       "Bash(obsidian *)",
       "Bash(markdownlint-cli2 *)"
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/block-env-edits.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/block-env-edits.sh"
           }
         ]
       }
@@ -49,23 +49,23 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/validate-frontmatter.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/validate-frontmatter.sh"
           },
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/qmd-reindex.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/qmd-reindex.sh"
           },
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/format-python.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/format-python.sh"
           },
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/lint-python.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/lint-python.sh"
           },
           {
             "type": "command",
-            "command": "bash /Users/nick/Documents/shattered-sea/.claude/hooks/check-wikilinks.sh"
+            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/check-wikilinks.sh"
           }
         ]
       }

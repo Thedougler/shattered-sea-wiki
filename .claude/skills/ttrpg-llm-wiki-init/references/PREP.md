@@ -162,7 +162,7 @@ obsidian property:set name="status" value="active" path="content/shattered-sea/n
 
 After writing:
 ```bash
-cd /Users/nick/Documents/shattered-sea && git add wiki/ && git commit -m "new-<type>: <Name>"
+cd /Users/nick/ai-os/shattered-sea && git add wiki/ && git commit -m "new-<type>: <Name>"
 ```
 
 `wiki/index.md` is updated by the init skill on every write.

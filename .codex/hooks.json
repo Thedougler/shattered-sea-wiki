@@ -6,15 +6,15 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash '/Users/nick/Documents/shattered-sea/.claude/hooks/validate-frontmatter.sh'"
+            "command": "bash '/Users/nick/ai-os/shattered-sea/.claude/hooks/validate-frontmatter.sh'"
           },
           {
             "type": "command",
-            "command": "bash '/Users/nick/Documents/shattered-sea/.claude/hooks/qmd-reindex.sh'"
+            "command": "bash '/Users/nick/ai-os/shattered-sea/.claude/hooks/qmd-reindex.sh'"
           },
           {
             "type": "command",
-            "command": "bash '/Users/nick/Documents/shattered-sea/.claude/hooks/lint-python.sh'"
+            "command": "bash '/Users/nick/ai-os/shattered-sea/.claude/hooks/lint-python.sh'"
           }
         ]
       }

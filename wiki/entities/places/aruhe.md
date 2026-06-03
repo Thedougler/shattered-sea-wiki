@@ -91,3 +91,6 @@ Acid-tainted drainage, giant frogs, giant venomous snakes, giant scorpions, gian
 - [[verdant-teeth|Verdant Teeth]]
 - [[midchain|The Midchain]]
 - [[sorn|Sorn]]
+
+> [!dm]
+> [[aruhe-dm-notes|Aruhe — DM Notes]] — blight interior structure, Death Bloom dungeon, Nona's commission brief.

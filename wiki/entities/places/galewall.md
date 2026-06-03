@@ -73,3 +73,6 @@ Storm systems, one-in-three crossing losses, white-fire events, wreck-fed predat
 - [[crown-islands|The Crown Islands]]
 - [[arclight-phoenix|Arclight Phoenix]]
 - [[the-galewall-runners-drop|The Galewall Runner's Drop]] — legendary colonial-era privateer cache on the Ashwall Islands
+
+> [!dm]
+> [[galewall-dm|The Galewall — DM Notes]] — phoenix causality, stormwarden ambiguity, crossing pressure design.

@@ -78,3 +78,4 @@ Kalowe is also the normal meeting place of [[chain-council|the Chain Council]], 
 - [[five-blades|Five Blades]]
 - [[kalowe-sawek-bounty|Sawek Bounty]] — Sawek blocking the inter-island channel; 300 gp harbour contract
 - [[the-grandfather-hole|The Grandfather Hole]] — legendary sinkhole in the eastern Midchain; reef divers mark its quadrant but refuse to dive it
+- [[kalowe-drifting-hulk|The Drifting Hulk]] — crewless schooner drifting north of Kalowe; undead crew, salvage window closing

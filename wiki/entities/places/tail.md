@@ -56,7 +56,7 @@ Morning fog hangs late in the eastern channels before burning off. Compass varia
 ## Current Hooks
 
 - Tight weather windows and compressed routing create ambush geometry for patient pirates.
-- Salvage crews staging for the [[shelfworks|Shelfworks]] move through here — most contracts route through the Tail.
+- Salvage crews staging for the [[shelfworks|Shelfworks]] move through here — most contracts route through the [[tail-staging-island|Tail Staging Island]] near the Maw's western edge.
 - The [[the-glass-debt|Glass Debt]] has been sighted in the eastern channels within the last fortnight.
 
 ## See Also

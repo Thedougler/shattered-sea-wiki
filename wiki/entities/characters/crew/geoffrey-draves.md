@@ -119,3 +119,4 @@ actions:
 - [[cedric-hollowell|Cedric Hollowell]]
 - [[rupert-knighton|Rupert Knighton]]
 - [[aldric-drave|Aldric Drave]]
+- [[draves-bloodline-question|The Draves Bloodline Question]] — Crown genealogical record anomaly; Geoffrey does not know about it

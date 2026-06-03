@@ -35,4 +35,4 @@ Small Rattkin dockhand, coat with more pockets than any coat has a right to. Cur
 Vrtek is leaving port tomorrow unless something interesting happens.
 
 > [!dm]
-> The note's contents and cache mechanics are in the relevant Port Tidefall situation files. The note is Detto Kalash's buried cache directions.
+> The note's contents and cache mechanics are in the relevant Port Tidefall situation files. The note is [[detto-kalash|Detto Kalash]]'s buried cache directions.

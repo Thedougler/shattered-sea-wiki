@@ -16,6 +16,7 @@ sources: []
 
 ## Recent Activity
 
+- 2026-06-03: Cross-link pass — 8 links across 7 pages; resolved orphans: galewall-dm, aruhe-dm-notes, kalowe-drifting-hulk, draves-bloodline-question, sentinels-true-head, tail-staging-island; detto-kalash linked from vrtek. dario.md flagged as duplicate of dario-vanni.md.
 - 2026-06-02: Cross-link pass — 14 links across 8 pages; resolved orphans: sea-elf, port-tidefall-waveservant-shrine, boots-of-flying, silent-shortbow; connected arclight-phoenix → ashwall-islands/galewall; pirate stat blocks linked to velvet-noose.
 - 2026-06-01: Tag taxonomy pass — normalized tags on 12 files (deprecated removed), tagged ~220 previously untagged files across creatures, items, rules, characters, places, vehicles, and lore. Standard reference files (PHB classes/conditions, minor NPCs with no faction footprint) left untagged by design.
 - 2026-06-01: Cross-link pass — 13 files updated, 12 orphan/dead-end pages connected (bela-silt-paw, giacinto, gost, il-gioco-delle-beffe-dm, mud-pits DM notes, port-tidefall-dockfront, calveno-reference, the-tithe-of-the-bitch-queen, the-vault-of-the-first-factor, the-galewall-runners-drop, the-grandfather-hole, calveno-reference).

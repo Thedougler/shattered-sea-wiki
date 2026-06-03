@@ -50,3 +50,5 @@ At the close of formal training, a master presents the student with a tattoo nee
 
 > [!dm]
 > Ask a Sentinel what was recorded, not what it means. Refusal to interpret is doctrine, not evasion.
+>
+> [[sentinels-true-head|Who Is the True Head of the Sentinels]] — late-game revelation: the 200-year record is kept by a Soul Incarnate sealed beneath High Eyrie.

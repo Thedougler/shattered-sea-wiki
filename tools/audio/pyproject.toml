@@ -1,0 +1,32 @@
+[project]
+name = "shattered-audio"
+version = "0.1.0"
+description = "Session audio transcription, diarization, and wiki formatting for the Shattered Sea campaign"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx-whisper>=0.4.0",
+    "pydub>=0.25.1",
+    "pyyaml>=6.0",
+    "typer>=0.15.0",
+    "rich>=14.0.0",
+]
+
+[project.optional-dependencies]
+diarize = [
+    "pyannote.audio>=3.3",
+    "torch>=2.0",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.11.0",
+]
+
+[project.scripts]
+shattered-audio = "shattered_audio.cli:app"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100

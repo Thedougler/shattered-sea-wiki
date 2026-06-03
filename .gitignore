@@ -43,3 +43,4 @@ player-view/.venv/
 # Astro UI build output
 ui/dist/
 ui/.astro/
+*.egg-info

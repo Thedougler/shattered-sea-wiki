@@ -1,0 +1,189 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { firstH1, parseFields, splitFrontmatter } from './frontmatter.js';
+import { relPath } from './vault.js';
+
+const SKIP_BASENAMES = new Set([
+  'index.md',
+  'log.md',
+  'work-queue.md',
+  'discrepancy-log.md',
+  'review-queue.md',
+]);
+
+const COMPACT_GROUPS = new Set([
+  'entities/items',
+  'entities/creatures',
+  'entities/species',
+  'rules/backgrounds',
+  'rules/classes',
+  'rules/subclasses',
+  'rules/conditions',
+]);
+
+const GROUP_PRIORITY = [
+  'entities/characters/pcs',
+  'entities/characters/npcs',
+  'entities/characters/crew',
+  'entities/characters/minor',
+  'entities/places',
+  'entities/factions',
+  'entities/deities',
+  'entities/items',
+  'entities/vehicles',
+  'situations/active',
+  'situations/dormant',
+  'situations/resolved',
+  'islands',
+  'lore',
+  'rules',
+  'sessions',
+  'system',
+  'dm',
+];
+
+function slugOf(filePath: string): string {
+  return path.basename(filePath, '.md');
+}
+
+function titleOf(slug: string, body: string): string {
+  const h1 = firstH1(body);
+  if (h1) return h1;
+  return slug
+    .split('-')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+function markerOf(fields: Record<string, string>): string {
+  const status = (fields.status ?? '').trim();
+  const subtype = (fields.subtype ?? '').trim();
+  const tags = fields.tags ?? '';
+  const isStub = status === 'stub';
+  const dmOnly =
+    subtype === 'secret' || tags.includes('dm-only') || tags.includes('dm-secret');
+  if (dmOnly && isStub) return '[DM-only stub] ';
+  if (dmOnly) return '[DM-only] ';
+  if (isStub) return '[stub] ';
+  return '';
+}
+
+function groupKey(relpath: string): string {
+  const withoutWiki = relpath.startsWith('wiki/')
+    ? relpath.slice('wiki/'.length)
+    : relpath;
+  const dir = path.dirname(withoutWiki);
+  return dir === '.' ? '(root)' : dir;
+}
+
+function groupSortKey(group: string): [number, number, string] {
+  for (let i = 0; i < GROUP_PRIORITY.length; i++) {
+    const prefix = GROUP_PRIORITY[i];
+    if (group === prefix || group.startsWith(prefix + '/')) {
+      return [0, i, group];
+    }
+  }
+  return [1, 0, group];
+}
+
+function isCompact(group: string): boolean {
+  return [...COMPACT_GROUPS].some(
+    (cg) => group === cg || group.startsWith(cg + '/'),
+  );
+}
+
+function iterWikiFilesSync(vaultDir: string): string[] {
+  const results: string[] = [];
+  function walk(dir: string) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries.sort((a, b) => a.name.localeCompare(b.name))) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith('.md')) results.push(full);
+    }
+  }
+  walk(vaultDir);
+  return results;
+}
+
+export function generateIndex(
+  vaultDir: string,
+  repoRoot: string,
+): string {
+  const groups = new Map<string, Array<[string, string]>>();
+
+  for (const filePath of iterWikiFilesSync(vaultDir)) {
+    if (SKIP_BASENAMES.has(path.basename(filePath))) continue;
+    const rp = relPath(filePath, repoRoot);
+    const text = fs.readFileSync(filePath, 'utf-8');
+    const { frontmatterLines, body } = splitFrontmatter(text);
+    const fields = parseFields(frontmatterLines);
+    const slug = slugOf(filePath);
+    const title = titleOf(slug, body);
+    const summary = (fields.summary ?? '').replace(/^["']|["']$/g, '');
+    const marker = markerOf(fields);
+    const gk = groupKey(rp);
+
+    let entry: string;
+    if (isCompact(gk)) {
+      entry = `[[${slug}|${title}]]`;
+      if (marker) entry += ` ${marker.trimEnd()}`;
+    } else {
+      entry = `- [[${slug}|${title}]] — ${marker}${summary}`.trimEnd();
+    }
+
+    if (!groups.has(gk)) groups.set(gk, []);
+    groups.get(gk)!.push([slug, entry]);
+  }
+
+  const sortedGroups = [...groups.keys()].sort((a, b) => {
+    const ka = groupSortKey(a);
+    const kb = groupSortKey(b);
+    if (ka[0] !== kb[0]) return ka[0] - kb[0];
+    if (ka[1] !== kb[1]) return ka[1] - kb[1];
+    return ka[2].localeCompare(kb[2]);
+  });
+
+  const lines: string[] = [];
+  for (const group of sortedGroups) {
+    const entries = groups.get(group)!;
+    entries.sort((a, b) => a[0].localeCompare(b[0]));
+    lines.push(`## ${group}`);
+    if (isCompact(group)) {
+      lines.push(entries.map(([, e]) => e).join(' | '));
+    } else {
+      for (const [, entry] of entries) {
+        lines.push(entry);
+      }
+    }
+    lines.push('');
+  }
+
+  return lines.join('\n').trimEnd() + '\n';
+}
+
+export function generateIndexFile(
+  vaultDir: string,
+  repoRoot: string,
+  today: string,
+): string {
+  const body = generateIndex(vaultDir, repoRoot);
+  const header = `---
+type: system
+subtype: index
+campaign: shattered-sea
+status: active
+audience: agent
+publish: false
+summary: "Master catalog of all wiki files. Grouped by path. Auto-generated by regen_index.py — do not hand-edit."
+created: 2026-05-27
+updated: ${today}
+tags: [system, index]
+sources: []
+---
+
+# Wiki Index — Shattered Sea
+
+`;
+  return header + body;
+}

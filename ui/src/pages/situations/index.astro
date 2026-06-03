@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import IndexLayout from '../../components/layouts/IndexLayout.astro';
 import WikiCard from '../../components/wiki/WikiCard.astro';
-import { deriveSlug, titleCase } from '../../lib/slug-utils';
+import { deriveSlug, titleCase } from '@shattered-sea/lib';
 
 const entries = await getCollection('wiki', (e) => e.data.type === 'situation');
 const sorted = entries.sort((a, b) => {

@@ -7,12 +7,15 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { remarkObsidianCallouts } from './src/plugins/remark-obsidian-callouts';
 import { remarkObsidianEmbeds } from './src/plugins/remark-obsidian-embeds';
 import { remarkWikiLinks } from './src/plugins/remark-wiki-links';
-import { buildAssetMap } from './src/lib/asset-map';
-import { buildSlugSet } from './src/lib/wiki-graph';
+import path from 'node:path';
+import { buildAssetMap, buildSlugSet } from '@shattered-sea/lib';
+
+const wikiDir = path.resolve(import.meta.dirname, '../wiki');
+const assetsDir = path.join(wikiDir, 'assets');
 
 const [assetMap, slugSet] = await Promise.all([
-  buildAssetMap(),
-  buildSlugSet(),
+  buildAssetMap(assetsDir),
+  buildSlugSet(wikiDir),
 ]);
 
 export default defineConfig({

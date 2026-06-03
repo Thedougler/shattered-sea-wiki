@@ -4,8 +4,10 @@ import WikiLayout from '../../components/layouts/WikiLayout.astro';
 import FrontmatterPanel from '../../components/wiki/FrontmatterPanel.astro';
 import BacklinksPanel from '../../components/wiki/BacklinksPanel.astro';
 import TableOfContents from '../../components/nav/TableOfContents.astro';
-import { deriveSlug, titleCase } from '../../lib/slug-utils';
-import { buildBacklinks } from '../../lib/wiki-graph';
+import path from 'node:path';
+import { deriveSlug, titleCase, buildBacklinks } from '@shattered-sea/lib';
+
+const wikiDir = path.resolve(import.meta.dirname, '../../../wiki');
 
 export async function getStaticPaths() {
   const entries = await getCollection('wiki');
@@ -20,7 +22,7 @@ const { Content, headings } = await render(entry);
 const slug = deriveSlug(entry.id);
 const pageTitle = entry.data.title || titleCase(slug);
 
-const allBacklinks = await buildBacklinks();
+const allBacklinks = await buildBacklinks(wikiDir);
 const pageBacklinks = allBacklinks.get(slug) || [];
 ---
 

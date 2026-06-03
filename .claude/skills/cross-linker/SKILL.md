@@ -80,9 +80,11 @@ Add to an existing `## Related` section if one exists. Respect curated sections 
 ## Exclusions
 
 Do not add cross-links to or from:
-- `wiki/system/`, `wiki/dm/`, `wiki/sessions/`, `wiki/rules/`
+- `wiki/system/`, `wiki/dm/`, `wiki/rules/`
 - System files: `index.md`, `hot.md`, `log.md`, `discrepancy-log.md`, `hub.md`, `work-queue.md`, `faq.md`, `player-primer.md`
 - Duplicate/broken files (filenames with spaces, `" 2.md"` suffixes)
+
+`wiki/sessions/` files (run guides, recaps) are valid cross-link targets — they reference entities heavily and benefit from wikilinks. Apply the same inline-first, first-mention-per-section rules as entity pages.
 
 Do not link to `index.md` or `hot.md` from content pages — they are agent-facing, not content entities.
 

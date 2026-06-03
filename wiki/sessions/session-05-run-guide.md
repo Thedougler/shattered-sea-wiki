@@ -60,7 +60,7 @@ Quick-reference for information management. **Left column is what they walk in w
 
 The [[il-gioco-delle-beffe|Beffa]] has been running for days. This is the dramatic irony engine — the city has trained itself not to believe what it sees.
 
-- **Crowd conditioning:** Three days of false alarms have taught Calveno to laugh first, look second. The first seconds of any real crisis will read as another prank.
+- **Crowd conditioning:** Three days of false alarms have taught [[calveno|Calveno]] to laugh first, look second. The first seconds of any real crisis will read as another prank.
 - **Grung normalization:** Grung-themed jokes, costumes, and bits have been seeded by paid performers. Seeing Grung in the streets is festival normal. See [[calveno-raid-signs|Raid Prep Signs]] for specific beats.
 - **Watch threshold:** The gate sergeants will not respond to screams during festival week unless someone makes them. Their intervention threshold is the highest it will be all year.
 - **The gap:** The crowd's hesitation buys the raid 3–5 seconds at each strike point. Those seconds are the operational window.
@@ -79,7 +79,7 @@ Use one or two of these as ambient texture before the party goes underground —
 Then stop. Let the party react. Do not narrate what they decide about the interrogation.
 
 > [!dm]
-> Felix has been trying to cooperate since they brought him in. The problem is not hostility — it is conditioning. Green-caste Grung are trained from birth to defer to higher castes and never share operational details with outsiders. Felix's conscious mind wants to help. His conditioning clamps down every time he reaches for specifics. Nona recognized the pattern (she has seen conditioning in ex-slaves before) but does not have the Grung-specific knowledge to break through it. JC does — he broke the same conditioning in himself.
+> [[felix-aho|Felix]] has been trying to cooperate since they brought him in. The problem is not hostility — it is conditioning. Green-caste Grung are trained from birth to defer to higher castes and never share operational details with outsiders. Felix's conscious mind wants to help. His conditioning clamps down every time he reaches for specifics. [[nona-black-jaw|Nona]] recognized the pattern (she has seen conditioning in ex-slaves before) but does not have the Grung-specific knowledge to break through it. [[jean-claude-tabarnack|JC]] does — he broke the same conditioning in himself.
 
 ---
 
@@ -142,7 +142,7 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 **Roleplay handle:** Kermit the Frog being questioned by the FBI. Earnest, overwhelmed, perpetually apologetic. Keeps saying "I'm sorry, I don't know more" and meaning it. When pressed gently, he gives more than he thought he knew. He counts on his fingers. He draws in the air with a shaking hand. He is not a spy — he is a labourer who loaded barrels and counted them because counting is what he does.
 
 > [!mechanic]
-> **Felix's Conditioning — Social Encounter.** Felix volunteers baseline intel freely. Deeper details require DC 10–12 Persuasion or Insight checks — not because he is lying, but because his conditioning clamps down reflexively when he nears operational specifics. **JC speaking Grung or demonstrating defector knowledge lowers all DCs by 2** (Felix recognizes someone who broke the same conditioning). Intimidation works but shuts him down for 1d4 minutes afterward — the conditioning reads aggression as caste authority and he goes silent.
+> **Felix's Conditioning — Social Encounter.** Felix volunteers baseline intel freely. Deeper details require DC 10–12 Persuasion or Insight checks — not because he is lying, but because his conditioning clamps down reflexively when he nears operational specifics. **[[jean-claude-tabarnack|JC]] speaking Grung or demonstrating defector knowledge lowers all DCs by 2** (Felix recognizes someone who broke the same conditioning). Intimidation works but shuts him down for 1d4 minutes afterward — the conditioning reads aggression as caste authority and he goes silent.
 
 **Intel reveals (in order of accessibility):**
 
@@ -169,7 +169,7 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 - DC 10 Insight: he is telling the truth. He is more afraid of the circle site than of anything else, and the fear is specific — not generalized anxiety but a memory of a sound that should not have come from underground.
 
 > [!dm]
-> Felix's "circle site" is the first hint of the primary chamber. He cannot locate it — the primary is compartmentalized above green-caste clearance. But the name gives JC something to look for underground: a fifth position on any map, trail markers using red-caste notation instead of green/blue. Plant it early. It pays off in Rooms 2, 5, and 6.
+> [[felix-aho|Felix]]'s "circle site" is the first hint of the primary chamber. He cannot locate it — the primary is compartmentalized above green-caste clearance. But the name gives JC something to look for underground: a fifth position on any map, trail markers using red-caste notation instead of green/blue. Plant it early. It pays off in Rooms 2, 5, and 6.
 >
 > Felix's barrel count (32 transported, 22 accounted for) is the concrete version of Nona's instinct that "four isn't enough." If the party does the math, they have independent confirmation of a hidden site before they enter the tunnels.
 
@@ -179,11 +179,11 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 
 #### Beat 2 — Nona's War Table
 
-Once Felix has talked, Nona marks the map. She works fast — cross-referencing Felix's landmarks with [[warren|Warren]] knowledge of the tunnel system. Four X marks in charcoal. A question mark where Felix's surplus powder points.
+Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She works fast — cross-referencing Felix's landmarks with [[warren|Warren]] knowledge of the tunnel system. Four X marks in charcoal. A question mark where Felix's surplus powder points.
 
 **NPC — [[nona-black-jaw|Nona]]:** Has not slept. She processed Felix's barrel count before the party did. "Ten barrels unaccounted for. Four sites is a distraction pattern, not a primary operation. There is a fifth." If the party asks how she knows: "Because I would."
 
-*Wants:* the party underground today. JC leads — he reads the signs. *Reveals:* three entry points into the collector system ([[le-paludi|Le Paludi]] hatch, Bridge far hatch, [[la-vasca|La Vasca]] tidal passage). The Warren can seal maintenance hatches behind the party to prevent Grung reinforcements — but only if Nona knows which hatches.
+*Wants:* the party underground today. [[jean-claude-tabarnack|JC]] leads — he reads the signs. *Reveals:* three entry points into the collector system ([[le-paludi|Le Paludi]] hatch, Bridge far hatch, [[la-vasca|La Vasca]] tidal passage). The Warren can seal maintenance hatches behind the party to prevent Grung reinforcements — but only if Nona knows which hatches.
 
 **Nona's resources — what she offers:**
 
@@ -224,7 +224,7 @@ Once Felix has talked, Nona marks the map. She works fast — cross-referencing 
 
 **What's true:** Kyzil has been independently investigating his "foul wind" instinct — underground vibrations, unusual foot traffic patterns at storm drains, fragments that didn't coalesce into a picture. He was one or two days from acting alone. The party's intel completes his picture instantly.
 
-**NPC — Kyzil:** Monastic discipline cracks when he processes the scale. The spar was play. This is not. *Wants:* to protect Calveno and Crissdalynn. *Reveals:* (a) his tactical assessment of the party — "The drum is your fulcrum. Protect the bard." (b) if Crissdalynn pushes: the Missing Sentinels. "Three of us were sent to chart the southern currents. None returned. The Eyrie does not speak of them. I have carried their names for eleven years."
+**NPC — Kyzil:** Monastic discipline cracks when he processes the scale. The spar was play. This is not. *Wants:* to protect Calveno and Crissdalynn. *Reveals:* (a) his tactical assessment of the party — "The drum is your fulcrum. Protect the bard." (b) if Crissdalynn pushes: the Missing Sentinels. "Three of us were sent to chart the southern currents. None returned. [[sentinels-of-the-eyrie|The Eyrie]] does not speak of them. I have carried their names for eleven years."
 
 > [!dm]
 > **Crissdalynn's spotlight beat.** The Missing Sentinels conversation is the non-combat moment she's owed. It develops her pilgrimage arc and deepens the Kyzil relationship. Let it breathe before the tactical discussion takes over. If the session is running long, the Sentinels can fire after the dungeon — Kyzil will still be here.
@@ -238,7 +238,7 @@ Once Felix has talked, Nona marks the map. She works fast — cross-referencing 
 | **Stays in reserve** | Monitors the Ponte Bassa and intervenes if the situation deteriorates | Safety net. Arrives after round 5 of any surface combat the party is losing |
 
 > [!dm]
-> Kyzil accompanying the party trivializes the sentry encounters. In the primary chamber, he accelerates Phase 1 (the garrison falls faster, triggering Phase 2 sooner) and is likely the only one standing after the detonation — he becomes the anchor for the Otar fight. If Kyzil reaches the circle and disrupts it before Phase 2, the Slaad is prevented but Solange detonates and escapes. Trade-off: certainty of preventing Otar vs. Simone learning about JC.
+> Kyzil accompanying the party trivializes the sentry encounters. In the primary chamber, he accelerates Phase 1 (the garrison falls faster, triggering Phase 2 sooner) and is likely the only one standing after the detonation — he becomes the anchor for the Otar fight. If Kyzil reaches the circle and disrupts it before Phase 2, the Slaad is prevented but [[solange-barret|Solange]] detonates and escapes. Trade-off: certainty of preventing [[otar-the-foul|Otar]] vs. [[simone-tabarnack|Simone]] learning about [[jean-claude-tabarnack|JC]].
 
 **If engaged:** Kyzil is an ally. The party chooses his deployment.
 **If ignored:** Kyzil acts alone within 24 hours. He enters the tunnels, finds the secondary sites, and triggers the alert network — making the primary garrison go to maximum readiness.
@@ -497,7 +497,7 @@ On Solange's next turn after the detonation, she completes the ritual.
 >
 > Two seconds. Maybe three. Solange Barret is gone. What stands in the circle is red, enormous, and breathing in a way that sounds like stone grinding against stone. It opens a mouth wider than a mouth should open, and it looks at you the way a fire looks at a building.
 
-Above the crater, the crowd has not caught up. The explosion read as spectacle — festival week, the Beffa still running. Dust settles. People edge closer. One woman leans over the broken lip of the plaza, squinting down through the haze at the shape standing in the rubble.
+Above the crater, the crowd has not caught up. The explosion read as spectacle — festival week, the [[il-gioco-delle-beffe|Beffa]] still running. Dust settles. People edge closer. One woman leans over the broken lip of the plaza, squinting down through the haze at the shape standing in the rubble.
 
 > [!read-aloud]
 > "It looks so real!" she says.
@@ -529,7 +529,7 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 - **Choking Dust.** 15-ft sphere, heavily obscured until initiative 20 next round.
 - **Masonry Collapse.** One creature within 40 ft, DC 13 DEX or 2d6 bludgeoning + restrained (escape DC 13).
 
-**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from Moretti & Sons (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation).
+**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation).
 
 > [!dm]
 > **The clock still runs.** Every round of the Otar fight is a round the extraction runs at any secondary site the party didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save.
@@ -612,7 +612,7 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 > A pale shape passes beneath the hull — bioluminescent, enormous, slow. It is not a fish. It is not a whale. It is something that wants to be seen. And it is looking up.
 
 > [!dm]
-> **Perrin's spotlight.** He has gone two sessions without personal thread advancement. This is his moment. The whale — the "Grow" entity from the Abyss Vision — is making second contact. It does not attack. It does not communicate in words. It presses a feeling: recognition, patience, hunger that is not hostile. The other PCs see the shape under the water. Only Perrin feels the hum.
+> **Perrin's spotlight.** He has gone two sessions without personal thread advancement. This is his moment. The whale — the "Grow" entity from the [[abyss-vision|Abyss Vision]] — is making second contact. It does not attack. It does not communicate in words. It presses a feeling: recognition, patience, hunger that is not hostile. The other PCs see the shape under the water. Only Perrin feels the hum.
 >
 > Let the player decide what Perrin does. If he reaches toward the water, the light beneath intensifies — then fades. Contact made. No answers given. The entity is patient. It will come again.
 
@@ -637,7 +637,7 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 > [!read-aloud]
 > The Warren runner is young and out of breath. She finds Nona — or whoever is at the safe house — and speaks fast: "There's a tortle at the outer quay. Old. Big. Asking for you by name, Nona. And asking for someone called Black-Jaw. He's been to three ports looking."
 
-**What's true:** [[anzolo|Anzolo]] has arrived in Calveno. He has been hunting for Perrin through the Passage network for weeks. He does not know the search is over — Nona's call-off never reached him. Behind him, one stop: a Tessarine patrol that followed his wake. The patrol will dock in Calveno within hours.
+**What's true:** [[anzolo|Anzolo]] has arrived in [[calveno|Calveno]]. He has been hunting for Perrin through the [[the-passage|Passage]] network for weeks. He does not know the search is over — Nona's call-off never reached him. Behind him, one stop: a [[tessarine-concordat|Tessarine]] patrol that followed his wake. The patrol will dock in Calveno within hours.
 
 **NPC — Anzolo:** Old tortle. Nona's enforcer-turned-searcher. Traveled weeks through dangerous waters. He is tired, relieved, and confused — the safe house is running a military operation and nobody told him why. *Wants:* to see Perrin; to report to Nona. *Reveals:* "I've been followed. I didn't see them until the last strait. Small patrol ship. Tessarine colors." (He does not know they're still behind him.)
 
@@ -682,7 +682,7 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 - **Legendary Actions (2/round):** Lash (Tongue Lash), Thrash (5-ft DC 16 Str push + prone), Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
 - **Rubble Surge (reaction):** Hurls rubble at creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0.
 
-**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from Moretti & Sons (DC 14 Investigation). Alchemist's cart — 2 flasks of alchemist's fire (DC 14 Investigation). Ruk arrives after round 5 with a lit torch and a cleaver if the party is struggling.
+**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart — 2 flasks of alchemist's fire (DC 14 Investigation). [[ruk|Ruk]] arrives after round 5 with a lit torch and a cleaver if the party is struggling.
 
 > [!dm]
 > Every round the party fights Otar is a round the extraction runs at any secondary site they didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save. A fully intact raid takes 200–300 captives. Each lane the party closed reduces the count.
@@ -694,7 +694,7 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 | **Fully intact** (0 sites neutralized) | 200–300 | Summoned, fights at Mercatura | Watershed — the Shattered Sea dates from this |
 | **Partially disrupted** (1–2 sites) | 100–200 | Summoned if primary intact | Unprecedented. Smaller scale, same proof of concept |
 | **Heavily disrupted** (3+ sites, primary found) | 30–60 | Not summoned | The attempt is the story. Calveno knows what almost happened |
-| **Broken** (primary destroyed, network compromised) | 0–20 | Not summoned | The Grung came, were stopped, and the Dravosi gap is a public question |
+| **Broken** (primary destroyed, network compromised) | 0–20 | Not summoned | The Grung came, were stopped, and the [[dravosi-crown|Dravosi]] gap is a public question |
 
 **[[nona-black-jaw\|Nona]]'s emergence (aftermath):** Within the hour, Nona walks into the dust of the Mercatura with a ladle and a loaf of bread. [[enzo\|Enzo]] in his suit, [[ruk\|Ruk]] with a cauldron. She feeds the injured. Then she speaks:
 
@@ -714,14 +714,14 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 
 Keep these **unassigned** — give each to the first action that earns it.
 
-- Felix's barrel count doesn't add up — 32 transported, 22 placed at four sites. The missing 10 barrels point to a fifth location he was never allowed to see — via **DC 12 Persuasion during interrogation** or **Felix volunteers under patient questioning**.
+- [[felix-aho|Felix]]'s barrel count doesn't add up — 32 transported, 22 placed at four sites. The missing 10 barrels point to a fifth location he was never allowed to see — via **DC 12 Persuasion during interrogation** or **Felix volunteers under patient questioning**.
 - The convoy included far more purple-only boats than a four-site job requires. Purple-only means combat-rated crews — this is a mass raid, not sabotage — via **DC 10 Persuasion during interrogation**.
 - Felix trembles when asked about "the circle site" — he was rotated out before he saw it, but he heard screaming from that direction once. Not pain. Something else — via **DC 10 Insight during interrogation** or **JC asks directly**.
 - The incomplete magazine (Room 5) has builder's notation in Grung shorthand referencing a primary site south of the Mercatura — via **Room 5 beam**, **Room 6 route map**, or **Room 2 trail markers** (JC automatic).
 - [[ruma-delacroix\|Ruma]]'s route map shows 5 positions, not 4 — the fifth marked with red-caste authority, not green/blue. She calls it "the circle site" but cannot locate it.
 - The summoning circle uses techniques the Grung did not develop — via **DC 20 Arcana in Room 8** or **examining Solange's ritual components** after the fight.
 - A dockhand at the outer quay mentions "a tortle, big one, asking after Rattkin" — via **any PC at the harbor** or **a Warren runner**.
-- Umberlee's gossip has reached the Ponte Bassa — "the man who owes the sea goddess" is a drinking story now. Delmar's reversed coat is becoming a description — via **tavern gossip** or **a dockhand who eyes Delmar too long**.
+- [[umberlee|Umberlee]]'s gossip has reached the [[ponte-bassa|Ponte Bassa]] — "the man who owes the sea goddess" is a drinking story now. [[delmar-fisk|Delmar]]'s reversed coat is becoming a description — via **tavern gossip** or **a dockhand who eyes Delmar too long**.
 
 **Raid-adjacent — use only if the party looks:**
 
@@ -734,10 +734,10 @@ Keep these **unassigned** — give each to the first action that earns it.
 
 | Hook | Comes to | Pulls toward |
 |---|---|---|
-| [[felix-aho\|Felix]] whimpers in the next room. [[ruk\|Ruk]] shifts his weight. Something Felix remembered, or something he's afraid to say | JC / Perrin | War table / the circle site hint |
-| [[master-kyzil\|Kyzil]] appears at the safe house door. "I am done waiting. Show me the map." | Crissdalynn | Kyzil alliance / the dungeon |
+| [[felix-aho\|Felix]] whimpers in the next room. [[ruk\|Ruk]] shifts his weight. Something Felix remembered, or something he's afraid to say | [[jean-claude-tabarnack\|JC]] / [[perrin-black-jaw\|Perrin]] | War table / the circle site hint |
+| [[master-kyzil\|Kyzil]] appears at the safe house door. "I am done waiting. Show me the map." | [[crissdalynn-khinriss\|Crissdalynn]] | Kyzil alliance / the dungeon |
 | A fisherman at the [[le-paludi\|Le Paludi]] dock crosses himself. "Something under the boats this morning. Big. Glowing." | Perrin | [[abyss-vision\|The whale]] |
-| Sem's voice from the street: "Ship's done. I need a name or she goes out blank." | Perrin / Delmar | Ship decision (untouched from [[session-04\|Session 04]]) |
+| [[sem-holst\|Sem]]'s voice from the street: "Ship's done. I need a name or she goes out blank." | [[perrin-black-jaw\|Perrin]] / [[delmar-fisk\|Delmar]] | Ship decision (untouched from [[session-04\|Session 04]]) |
 | A Warren runner, breathless: "Old tortle at the outer quay. Asking for Nona." | Perrin | [[nona-and-anzolo\|Anzolo's arrival]] |
 
 ---
@@ -756,7 +756,7 @@ For drop-in combat encounters: [[calveno-street-encounters|Street Encounters]].
 ## Possible Cliffhanger
 
 - **Found the primary chamber:** end on the read-aloud — the packed ceiling, the circle, the hum. [[jean-claude-tabarnack|JC]] understands the scale. The city is sitting on a bomb.
-- **The transformation:** end on Solange's body cracking and reforming — two seconds, three, and she is gone. What stands in the circle is red and enormous.
+- **The transformation:** end on [[solange-barret|Solange]]'s body cracking and reforming — two seconds, three, and she is gone. What stands in the circle is red and enormous.
 - **The detonation fires:** end on the first wrong sound — a scream the crowd laughs at, then doesn't. Save the [[otar-the-foul|Slaad]] fight for Session 06.
 - **[[anzolo|Anzolo]] at the door:** end on the Warren runner's message — "Old tortle at the outer quay. Asking for Black-Jaw." [[perrin-black-jaw|Perrin]]'s family and the crisis collide.
 - **[[nona-black-jaw|Nona]]'s vow:** end on "we will bring your brothers and your sons and your fathers back." The pursuit is next session.
@@ -767,7 +767,7 @@ For drop-in combat encounters: [[calveno-street-encounters|Street Encounters]].
 
 - Which magazines were neutralized, which remain. Was the primary found? Was the circle disrupted before the detonation? Was Otar summoned?
 - **Raid scale:** use the outcome table above to determine captive count and world impact.
-- **Solange's fate:** if the circle was disrupted before Phase 2, Solange escaped and [[simone-tabarnack|Simone]] knows about JC. If the ritual completed, Solange was consumed — Simone does not learn about JC from this source. Flag in [[hot|hot.md]].
+- **[[solange-barret|Solange]]'s fate:** if the circle was disrupted before Phase 2, Solange escaped and [[simone-tabarnack|Simone]] knows about [[jean-claude-tabarnack|JC]]. If the ritual completed, Solange was consumed — Simone does not learn about JC from this source. Flag in [[hot|hot.md]].
 - **[[master-kyzil|Kyzil]] deployment:** did he go underground, stay in reserve, or act alone?
 - **[[anzolo|Anzolo]]:** did [[perrin-black-jaw|Perrin]] meet him? Is the Tessarine patrol in [[calveno|Calveno]]?
 - **[[abyss-vision|The whale]]:** did Perrin make contact? How did he react?

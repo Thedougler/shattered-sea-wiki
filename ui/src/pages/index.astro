@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../components/layouts/BaseLayout.astro';
+import Sidebar from '../components/nav/Sidebar.astro';
+import { deriveSlug, titleCase } from '../lib/slug-utils';
+
+const entries = await getCollection('wiki');
+
+const categories = [
+  { label: 'Characters', href: '/characters/', filter: (e: any) => e.data.type === 'entity' && ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype) },
+  { label: 'Places', href: '/places/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'place' },
+  { label: 'Factions', href: '/factions/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'faction' },
+  { label: 'Items', href: '/items/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'item' },
+  { label: 'Creatures', href: '/creatures/', filter: (e: any) => ['monster', 'beast', 'dragon'].includes(e.data.type) || (e.data.type === 'entity' && e.data.subtype === 'creature') },
+  { label: 'Sessions', href: '/sessions/', filter: (e: any) => e.data.type === 'session' },
+  { label: 'Situations', href: '/situations/', filter: (e: any) => e.data.type === 'situation' },
+  { label: 'Lore', href: '/lore/', filter: (e: any) => e.data.type === 'lore' },
+  { label: 'Rules', href: '/rules/', filter: (e: any) => e.data.type === 'rules' },
+];
+
+const recentUpdates = entries
+  .filter((e) => e.data.updated)
+  .sort((a, b) => new Date(b.data.updated!).getTime() - new Date(a.data.updated!).getTime())
+  .slice(0, 12);
+
+const activeSituations = entries
+  .filter((e) => e.data.type === 'situation' && (e.data.lifecycle === 'active' || e.data.status === 'active'))
+  .sort((a, b) => (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id)));
+---
+
+<BaseLayout title="Dashboard">
+  <Sidebar slot="sidebar" />
+
+  <div class="px-6 py-8 lg:px-10 max-w-6xl">
+    <h1 class="text-3xl font-bold mb-2" style={`color: var(--color-accent-gold)`}>
+      Shattered Sea
+    </h1>
+    <p class="text-sm mb-10" style={`color: var(--color-text-muted)`}>Campaign Wiki Dashboard</p>
+
+    <!-- Category Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mb-12">
+      {categories.map(({ label, href, filter }) => {
+        const count = entries.filter(filter).length;
+        return (
+          <a
+            href={href}
+            class="block p-4 rounded-lg border transition-all hover:border-[var(--color-border-highlight)] hover:bg-[var(--color-bg-tertiary)]"
+            style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+          >
+            <div class="text-sm font-semibold" style={`color: var(--color-text-primary)`}>{label}</div>
+            <div class="text-2xl font-bold mt-1" style={`color: var(--color-accent-gold)`}>{count}</div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- Two columns: Recent + Situations -->
+    <div class="grid lg:grid-cols-2 gap-8">
+      <!-- Recent Updates -->
+      <section>
+        <h2 class="text-lg font-semibold mb-4" style={`color: var(--color-text-primary)`}>Recent Updates</h2>
+        <div class="space-y-1">
+          {recentUpdates.map((entry) => {
+            const slug = deriveSlug(entry.id);
+            const name = entry.data.title || titleCase(slug);
+            const date = entry.data.updated ? new Date(entry.data.updated).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+            return (
+              <a
+                href={`/wiki/${slug}`}
+                class="flex items-center justify-between px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]"
+              >
+                <span style={`color: var(--color-text-primary)`}>{name}</span>
+                <span class="text-xs shrink-0 ml-3" style={`color: var(--color-text-muted)`}>{date}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      <!-- Active Situations -->
+      <section>
+        <h2 class="text-lg font-semibold mb-4" style={`color: var(--color-text-primary)`}>Active Situations</h2>
+        <div class="space-y-2">
+          {activeSituations.map((entry) => {
+            const slug = deriveSlug(entry.id);
+            const name = entry.data.title || titleCase(slug);
+            return (
+              <a
+                href={`/wiki/${slug}`}
+                class="block p-3 rounded-lg border transition-all hover:border-[var(--color-border-highlight)]"
+                style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+              >
+                <div class="text-sm font-medium" style={`color: var(--color-text-primary)`}>{name}</div>
+                {entry.data.summary && (
+                  <p class="text-xs mt-1 line-clamp-2" style={`color: var(--color-text-muted)`}>{entry.data.summary}</p>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

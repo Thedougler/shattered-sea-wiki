@@ -1,0 +1,54 @@
+---
+interface Props {
+  type?: string;
+  subtype?: string;
+  title: string;
+}
+
+const { type, subtype, title } = Astro.props;
+
+const typeLabels: Record<string, { label: string; href: string }> = {
+  entity: { label: 'Entities', href: '#' },
+  session: { label: 'Sessions', href: '/sessions/' },
+  situation: { label: 'Situations', href: '/situations/' },
+  lore: { label: 'Lore', href: '/lore/' },
+  rules: { label: 'Rules', href: '/rules/' },
+  system: { label: 'System', href: '#' },
+  monster: { label: 'Creatures', href: '/creatures/' },
+  beast: { label: 'Creatures', href: '/creatures/' },
+  dragon: { label: 'Creatures', href: '/creatures/' },
+};
+
+const subtypeLabels: Record<string, { label: string; href: string }> = {
+  pc: { label: 'Characters', href: '/characters/' },
+  npc: { label: 'Characters', href: '/characters/' },
+  crew: { label: 'Characters', href: '/characters/' },
+  minor: { label: 'Characters', href: '/characters/' },
+  place: { label: 'Places', href: '/places/' },
+  faction: { label: 'Factions', href: '/factions/' },
+  item: { label: 'Items', href: '/items/' },
+  creature: { label: 'Creatures', href: '/creatures/' },
+  vehicle: { label: 'Vehicles', href: '#' },
+  species: { label: 'Species', href: '#' },
+  deity: { label: 'Deities', href: '#' },
+};
+
+const typeInfo = type ? typeLabels[type] : undefined;
+const subtypeInfo = subtype ? subtypeLabels[subtype] : undefined;
+---
+
+<nav class="flex items-center gap-1.5 text-xs" style={`color: var(--color-text-muted)`}>
+  {typeInfo && (
+    <>
+      <a href={typeInfo.href} class="hover:underline">{typeInfo.label}</a>
+      <span>/</span>
+    </>
+  )}
+  {subtypeInfo && subtypeInfo.label !== typeInfo?.label && (
+    <>
+      <a href={subtypeInfo.href} class="hover:underline">{subtypeInfo.label}</a>
+      <span>/</span>
+    </>
+  )}
+  <span style={`color: var(--color-text-secondary)`}>{title}</span>
+</nav>

@@ -6,6 +6,12 @@
       "runtimeExecutable": "player-view/.venv/bin/python",
       "runtimeArgs": ["-m", "player_view.main"],
       "port": 8080
+    },
+    {
+      "name": "wiki-ui",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--dir", "ui", "dev"],
+      "port": 4321
     }
   ]
 }

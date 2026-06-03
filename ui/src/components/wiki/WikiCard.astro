@@ -1,0 +1,47 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+  summary?: string;
+  status?: string;
+  subtype?: string;
+  tags?: string[];
+}
+
+const { slug, title, summary, status, subtype, tags } = Astro.props;
+
+const statusClass: Record<string, string> = {
+  active: 'badge-active',
+  dead: 'badge-dead',
+  resolved: 'badge-resolved',
+  dormant: 'badge-dormant',
+  stub: 'badge-stub',
+  complete: 'badge-complete',
+};
+---
+
+<a
+  href={`/wiki/${slug}`}
+  class="block p-4 rounded-lg border transition-all hover:border-[var(--color-border-highlight)] hover:bg-[var(--color-bg-tertiary)]"
+  style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+>
+  <div class="flex items-center gap-2 mb-1">
+    <h3 class="text-sm font-semibold truncate" style={`color: var(--color-text-primary)`}>{title}</h3>
+    {status && status !== 'unknown' && (
+      <span class:list={['badge shrink-0', statusClass[status] || 'badge-stub']}>{status}</span>
+    )}
+  </div>
+  {subtype && (
+    <div class="text-xs mb-1" style={`color: var(--color-text-muted)`}>{subtype}</div>
+  )}
+  {summary && (
+    <p class="text-xs line-clamp-2 mt-1" style={`color: var(--color-text-secondary)`}>{summary}</p>
+  )}
+  {tags && tags.length > 0 && (
+    <div class="flex flex-wrap gap-1 mt-2">
+      {tags.slice(0, 3).map((tag) => (
+        <span class="tag-pill">{tag}</span>
+      ))}
+    </div>
+  )}
+</a>

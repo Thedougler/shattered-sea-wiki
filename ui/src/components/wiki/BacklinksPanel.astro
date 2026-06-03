@@ -1,0 +1,32 @@
+---
+interface BacklinkEntry {
+  slug: string;
+  title: string;
+}
+
+interface Props {
+  links: BacklinkEntry[];
+}
+
+const { links } = Astro.props;
+---
+
+{links.length > 0 && (
+  <div class="mt-6">
+    <h3 class="text-xs font-semibold uppercase tracking-wide mb-3" style={`color: var(--color-text-muted)`}>
+      Linked From
+    </h3>
+    <ul class="space-y-1">
+      {links.sort((a, b) => a.title.localeCompare(b.title)).map(({ slug, title }) => (
+        <li>
+          <a
+            href={`/wiki/${slug}`}
+            class="block text-sm transition-colors wiki-link"
+          >
+            {title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

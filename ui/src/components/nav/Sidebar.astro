@@ -1,0 +1,70 @@
+---
+const links = [
+  { href: '/', label: 'Dashboard' },
+  { href: '/characters/', label: 'Characters' },
+  { href: '/places/', label: 'Places' },
+  { href: '/factions/', label: 'Factions' },
+  { href: '/items/', label: 'Items' },
+  { href: '/creatures/', label: 'Creatures' },
+  { href: '/sessions/', label: 'Sessions' },
+  { href: '/situations/', label: 'Situations' },
+  { href: '/lore/', label: 'Lore' },
+  { href: '/rules/', label: 'Rules' },
+];
+
+const current = Astro.url.pathname;
+---
+
+<aside
+  class="hidden lg:flex flex-col w-60 shrink-0 border-r h-screen sticky top-0 overflow-y-auto"
+  style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+>
+  <div class="p-5 border-b" style={`border-color: var(--color-border)`}>
+    <a href="/" class="block">
+      <h1 class="text-lg font-bold" style={`color: var(--color-accent-gold)`}>
+        Shattered Sea
+      </h1>
+      <p class="text-xs mt-0.5" style={`color: var(--color-text-muted)`}>Campaign Wiki</p>
+    </a>
+  </div>
+
+  <nav class="flex-1 py-3 px-3">
+    <ul class="space-y-0.5">
+      {links.map(({ href, label }) => {
+        const isActive = current === href || (href !== '/' && current.startsWith(href));
+        return (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                'block px-3 py-2 rounded-md text-sm transition-colors',
+                isActive
+                  ? 'font-semibold'
+                  : 'hover:bg-[var(--color-bg-tertiary)]',
+              ]}
+              style={isActive
+                ? `background: var(--color-bg-tertiary); color: var(--color-accent-gold)`
+                : `color: var(--color-text-secondary)`
+              }
+            >
+              {label}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </nav>
+
+  <div class="p-4 border-t" style={`border-color: var(--color-border)`}>
+    <a
+      href="/search/"
+      class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors hover:bg-[var(--color-bg-tertiary)]"
+      style={`color: var(--color-text-muted)`}
+    >
+      <span>Search</span>
+      <kbd class="ml-auto text-xs px-1.5 py-0.5 rounded border" style={`border-color: var(--color-border); color: var(--color-text-muted)`}>
+        ⌘K
+      </kbd>
+    </a>
+  </div>
+</aside>

@@ -1,0 +1,69 @@
+---
+interface Props {
+  data: Record<string, any>;
+}
+
+const { data } = Astro.props;
+
+const statusClass: Record<string, string> = {
+  active: 'badge-active',
+  dead: 'badge-dead',
+  resolved: 'badge-resolved',
+  dormant: 'badge-dormant',
+  stub: 'badge-stub',
+  complete: 'badge-complete',
+};
+
+const fields: { label: string; key: string; format?: (v: any) => string }[] = [
+  { label: 'Type', key: 'type' },
+  { label: 'Subtype', key: 'subtype' },
+  { label: 'Species', key: 'species' },
+  { label: 'CR', key: 'cr' },
+  { label: 'Rarity', key: 'rarity' },
+  { label: 'Item Type', key: 'item_type' },
+  { label: 'Attunement', key: 'attunement', format: (v) => v ? 'Yes' : 'No' },
+  { label: 'Homebrew', key: 'homebrew', format: (v) => v ? 'Yes' : 'No' },
+  { label: 'Lifecycle', key: 'lifecycle' },
+  { label: 'Session', key: 'session_number', format: (v) => `#${v}` },
+  { label: 'Audience', key: 'audience' },
+  { label: 'Confidence', key: 'confidence_level' },
+];
+---
+
+<div class="mb-6">
+  {data.status && data.status !== 'unknown' && (
+    <div class="mb-3">
+      <span class:list={['badge', statusClass[data.status] || 'badge-stub']}>
+        {data.status}
+      </span>
+    </div>
+  )}
+
+  {data.summary && (
+    <p class="text-sm mb-4 leading-relaxed" style={`color: var(--color-text-secondary)`}>
+      {data.summary}
+    </p>
+  )}
+
+  <dl class="space-y-2">
+    {fields
+      .filter(({ key }) => data[key] !== undefined && data[key] !== null && data[key] !== '')
+      .map(({ label, key, format }) => (
+        <div class="flex items-baseline gap-2">
+          <dt class="text-xs font-medium shrink-0" style={`color: var(--color-text-muted)`}>{label}</dt>
+          <dd class="text-sm" style={`color: var(--color-text-secondary)`}>
+            {format ? format(data[key]) : String(data[key])}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+
+  {data.tags?.length > 0 && (
+    <div class="mt-4 flex flex-wrap gap-1.5">
+      {data.tags.map((tag: string) => (
+        <span class="tag-pill">{tag}</span>
+      ))}
+    </div>
+  )}
+</div>

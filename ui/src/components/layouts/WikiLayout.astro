@@ -1,0 +1,37 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Sidebar from '../nav/Sidebar.astro';
+import Breadcrumbs from '../nav/Breadcrumbs.astro';
+
+interface Props {
+  title: string;
+  type?: string;
+  subtype?: string;
+}
+
+const { title, type, subtype } = Astro.props;
+---
+
+<BaseLayout title={title}>
+  <Sidebar slot="sidebar" />
+
+  <div
+    slot="sidebar-right"
+    class="hidden xl:block w-70 shrink-0 border-l h-screen sticky top-0 overflow-y-auto p-5"
+    style={`background: var(--color-bg-secondary); border-color: var(--color-border)`}
+  >
+    <slot name="sidebar-right" />
+  </div>
+
+  <div class="px-6 py-6 lg:px-10 lg:py-8 max-w-4xl">
+    <Breadcrumbs type={type} subtype={subtype} title={title} />
+
+    <div class="mt-4">
+      <slot />
+    </div>
+
+    <div class="mt-10 xl:hidden border-t pt-6" style={`border-color: var(--color-border)`}>
+      <slot name="sidebar-right-mobile" />
+    </div>
+  </div>
+</BaseLayout>

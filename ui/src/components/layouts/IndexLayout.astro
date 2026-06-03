@@ -1,0 +1,36 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Sidebar from '../nav/Sidebar.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  count?: number;
+}
+
+const { title, description, count } = Astro.props;
+---
+
+<BaseLayout title={title}>
+  <Sidebar slot="sidebar" />
+
+  <div class="px-6 py-8 lg:px-10 max-w-6xl">
+    <div class="mb-8">
+      <div class="flex items-baseline gap-3">
+        <h1 class="text-2xl font-bold" style={`color: var(--color-text-primary)`}>{title}</h1>
+        {count !== undefined && (
+          <span class="text-lg font-semibold" style={`color: var(--color-accent-gold)`}>{count}</span>
+        )}
+      </div>
+      {description && (
+        <p class="text-sm mt-1" style={`color: var(--color-text-muted)`}>{description}</p>
+      )}
+    </div>
+
+    <slot name="filters" />
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import IndexLayout from '../../components/layouts/IndexLayout.astro';
+import WikiCard from '../../components/wiki/WikiCard.astro';
+import { deriveSlug, titleCase } from '../../lib/slug-utils';
+
+const entries = await getCollection('wiki', (e) =>
+  e.data.type === 'entity' && ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype)
+);
+
+const sorted = entries.sort((a, b) => {
+  const subtypeOrder = { pc: 0, npc: 1, crew: 2, minor: 3 };
+  const aOrder = subtypeOrder[a.data.subtype as keyof typeof subtypeOrder] ?? 4;
+  const bOrder = subtypeOrder[b.data.subtype as keyof typeof subtypeOrder] ?? 4;
+  if (aOrder !== bOrder) return aOrder - bOrder;
+  return (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id));
+});
+---
+
+<IndexLayout title="Characters" description="Player characters, NPCs, crew, and minor characters" count={sorted.length}>
+  {sorted.map((entry) => {
+    const slug = deriveSlug(entry.id);
+    return (
+      <WikiCard
+        slug={slug}
+        title={entry.data.title || titleCase(slug)}
+        summary={entry.data.summary}
+        status={entry.data.status}
+        subtype={entry.data.subtype}
+        tags={entry.data.tags}
+      />
+    );
+  })}
+</IndexLayout>

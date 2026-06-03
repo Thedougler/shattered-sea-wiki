@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "campaign": {
+      "default": "shattered-sea",
+      "type": "string"
+    },
+    "status": {
+      "default": "unknown",
+      "type": "string"
+    },
+    "audience": {
+      "default": "dm",
+      "type": "string"
+    },
+    "publish": {
+      "default": false,
+      "type": "boolean"
+    },
+    "summary": {
+      "default": "",
+      "type": "string"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_level": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "aliases": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "species": {
+      "type": "string"
+    },
+    "pronouns": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "string"
+    },
+    "portrait": {
+      "type": "string"
+    },
+    "item_type": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "string"
+    },
+    "attunement": {
+      "type": "boolean"
+    },
+    "homebrew": {
+      "type": "boolean"
+    },
+    "current_holder": {
+      "type": "string"
+    },
+    "cr": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "creature_type": {
+      "type": "string"
+    },
+    "session_number": {
+      "type": "number"
+    },
+    "session_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "beat_number": {
+      "type": "number"
+    },
+    "lifecycle": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "narrative_island": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "contains_situations": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "parent_location": {
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "type"
+  ],
+  "additionalProperties": {}
+}

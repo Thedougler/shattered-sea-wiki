@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import WikiLayout from '../../components/layouts/WikiLayout.astro';
+import FrontmatterPanel from '../../components/wiki/FrontmatterPanel.astro';
+import BacklinksPanel from '../../components/wiki/BacklinksPanel.astro';
+import TableOfContents from '../../components/nav/TableOfContents.astro';
+import { deriveSlug, titleCase } from '../../lib/slug-utils';
+import { buildBacklinks } from '../../lib/wiki-graph';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('wiki');
+  return entries.map((entry) => ({
+    params: { slug: deriveSlug(entry.id) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const slug = deriveSlug(entry.id);
+const pageTitle = entry.data.title || titleCase(slug);
+
+const allBacklinks = await buildBacklinks();
+const pageBacklinks = allBacklinks.get(slug) || [];
+---
+
+<WikiLayout title={pageTitle} type={entry.data.type} subtype={entry.data.subtype}>
+  <article class="wiki-prose" data-pagefind-body>
+    <Content />
+  </article>
+
+  <Fragment slot="sidebar-right">
+    <FrontmatterPanel data={entry.data} />
+    <TableOfContents headings={headings} />
+    <BacklinksPanel links={pageBacklinks} />
+  </Fragment>
+
+  <Fragment slot="sidebar-right-mobile">
+    <FrontmatterPanel data={entry.data} />
+    <BacklinksPanel links={pageBacklinks} />
+  </Fragment>
+</WikiLayout>

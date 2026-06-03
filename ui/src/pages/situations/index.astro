@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import IndexLayout from '../../components/layouts/IndexLayout.astro';
+import WikiCard from '../../components/wiki/WikiCard.astro';
+import { deriveSlug, titleCase } from '../../lib/slug-utils';
+
+const entries = await getCollection('wiki', (e) => e.data.type === 'situation');
+const sorted = entries.sort((a, b) => {
+  const order = { active: 0, dormant: 1, resolved: 2 };
+  const aOrder = order[(a.data.lifecycle || a.data.status) as keyof typeof order] ?? 3;
+  const bOrder = order[(b.data.lifecycle || b.data.status) as keyof typeof order] ?? 3;
+  if (aOrder !== bOrder) return aOrder - bOrder;
+  return (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id));
+});
+---
+
+<IndexLayout title="Situations" description="Active threads, dormant hooks, and resolved arcs" count={sorted.length}>
+  {sorted.map((entry) => {
+    const slug = deriveSlug(entry.id);
+    return (
+      <WikiCard
+        slug={slug}
+        title={entry.data.title || titleCase(slug)}
+        summary={entry.data.summary}
+        status={entry.data.lifecycle || entry.data.status}
+        tags={entry.data.tags}
+      />
+    );
+  })}
+</IndexLayout>

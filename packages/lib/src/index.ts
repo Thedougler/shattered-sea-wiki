@@ -14,7 +14,7 @@ export {
   firstH1,
   type SplitResult,
 } from './frontmatter.js';
-export { wikiEntrySchema } from './schema.js';
+export { wikiEntrySchema, buildWikiEntrySchema } from './schema.js';
 export {
   parseWikilinks,
   resolveWikilink,

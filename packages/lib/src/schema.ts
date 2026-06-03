@@ -45,3 +45,52 @@ export const wikiEntrySchema = z.object({
   region: z.string().optional(),
   parent_location: z.string().optional(),
 }).passthrough();
+
+/**
+ * Build the wiki entry schema using a caller-provided Zod instance.
+ * Astro's content collections require schemas built from `astro/zod`
+ * for JSON schema generation. Call this with `z` from `astro/zod`.
+ */
+export function buildWikiEntrySchema(zod: typeof z) {
+  return zod.object({
+    type: zod.string(),
+    subtype: zod.string().optional(),
+    campaign: zod.string().default('shattered-sea'),
+    status: zod.string().default('unknown'),
+    audience: zod.string().default('dm'),
+    publish: zod.boolean().default(false),
+    summary: zod.string().default(''),
+    created: zod.coerce.date().optional(),
+    updated: zod.coerce.date().optional(),
+    tags: zod.array(zod.string()).default([]),
+    sources: zod.array(zod.string()).default([]),
+    confidence_level: zod.string().optional(),
+    title: zod.string().optional(),
+
+    aliases: zod.array(zod.string()).default([]),
+    species: zod.string().optional(),
+    pronouns: zod.string().optional(),
+    banner: zod.string().optional(),
+    portrait: zod.string().optional(),
+    item_type: zod.string().optional(),
+    rarity: zod.string().optional(),
+    attunement: zod.boolean().optional(),
+    homebrew: zod.boolean().optional(),
+    current_holder: zod.string().optional(),
+    cr: zod.union([zod.number(), zod.string()]).optional(),
+    creature_type: zod.string().optional(),
+
+    session_number: zod.number().optional(),
+    session_date: zod.coerce.date().or(zod.string()).optional(),
+    beat_number: zod.number().optional(),
+
+    lifecycle: zod.string().nullable().optional(),
+    narrative_island: zod.string().nullable().optional(),
+    contains_situations: zod.array(zod.string()).default([]),
+
+    category: zod.string().optional(),
+    visibility: zod.string().optional(),
+    region: zod.string().optional(),
+    parent_location: zod.string().optional(),
+  }).passthrough();
+}

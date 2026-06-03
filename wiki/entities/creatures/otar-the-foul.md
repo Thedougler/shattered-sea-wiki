@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs."
 created: "2026-05-30"
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - combat
   - homebrew
@@ -36,7 +36,13 @@ Not a nameless Red Slaad pulled from Limbo at random. Simone's summoning circle 
 
 Otar is a red slaad whose caste transformation stalled centuries ago. The progression — red to blue to green to grey — never completed. He stayed red, and he rotted. The foulness is literal: a miasma of toxic gas, the byproduct of a metamorphosis that started and never finished. His skin is cracked and perpetually mid-molt. His blood runs thicker and more corrosive than any standard red slaad's.
 
-No control gem, no binding, no leash. Released into a collapsing plaza full of panicking civilians. The circle's construction used techniques the Grung did not develop themselves; the contractor who built it knew exactly what they were summoning. That contractor is an open question.
+No control gem, no binding, no leash. The circle's construction used techniques the Grung did not develop themselves; the contractor who built it knew exactly what they were summoning. That contractor is an open question.
+
+## Manifestation
+
+Otar does not emerge from a portal. He manifests through [[solange-barret|Solange Barret]]'s body. The summoning circle channels the entity directly into the caster — a shadow pools at Solange's feet, forms into jaws that close around her, then coats her red skin as a thick black ichor that hisses and sizzles on contact. Her body transforms violently: bones crack and lengthen, spine arches past anatomical limits, skin splits along the shoulders and only partly heals. The process takes two to three seconds. Solange is consumed — not killed, not possessed, consumed. What stands in the circle afterward is Otar the Foul, wearing flesh that was hers and is now his. The transformation cannot be reversed.
+
+From inside the primary chamber, the party witnesses the full body horror. From the surface (if the party never reached Room 8), civilians see the Mercatura plaza collapse and something red and enormous haul itself out of the crater. They do not see the transformation. They see the result.
 
 ## Design Intent
 
@@ -53,7 +59,7 @@ The fight should feel like containing a disaster, not outmaneuvering a commander
 
 ## Behavioral Profile
 
-- **Opening move:** Emerges from crater. Tongue Lash the nearest visible creature, pull into melee range, then close. If 3+ creatures cluster within 20 feet, opens with Chaos Pulse instead.
+- **Opening move:** Stands where Solange was — disoriented, newly embodied, in a crater full of dust and injured people. Tongue Lash the nearest visible creature, pull into melee range, then close. If 3+ creatures cluster within 20 feet, opens with Chaos Pulse instead.
 - **Escalation (75 HP):** Unstable Form activates — skin splits, melee attacks gain acid, attackers take acid splash. Combined with Foul Miasma, melee range now costs ~9 damage per round passively. Otar becomes more erratic, moving toward the largest cluster of creatures.
 - **Legendary actions:** Not tactical choices. Otar lashes reflexively at motion (Lash), thrashes when surrounded (Thrash), and vomits when pressured (Bile Spray). The DM picks whichever feels most chaotic.
 - **Morale:** None. Does not retreat, surrender, or reason. Fights until dead.

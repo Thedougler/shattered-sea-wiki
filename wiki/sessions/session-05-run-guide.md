@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "At-table run guide for Session 05: Grung counter-operation through the sewer magazine network, primary chamber climax with Solange Barret, Perrin's whale contact, Anzolo's arrival, and the detonation endgame if the clock runs out. ~4 hrs."
 created: "2026-06-01"
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - dm-prep
   - grung
@@ -172,7 +172,7 @@ Then stop. Let the party react to the map, to Nona's assessment, to the timeline
 | **Stays in reserve** | Monitors the Ponte Bassa and intervenes if the situation deteriorates | Safety net. Arrives after round 5 of any surface combat the party is losing |
 
 > [!dm]
-> Kyzil accompanying the party trivializes the sentry encounters and makes the Solange fight significantly easier. That is not a problem — the party earned a CR 14 ally through 2 sessions of relationship building. But Kyzil in the primary chamber changes the dramatic stakes: he will prioritize the circle over the garrison, and Solange will Dimension Door immediately rather than fight a losing battle. If Kyzil destroys the circle, the Slaad is prevented but Solange escapes and reports to Simone. Trade-off: certainty of success vs. Simone learning about JC.
+> Kyzil accompanying the party trivializes the sentry encounters. In the primary chamber, he accelerates Phase 1 (the garrison falls faster, triggering Phase 2 sooner) and is likely the only one standing after the detonation — he becomes the anchor for the Otar fight. If Kyzil reaches the circle and disrupts it before Phase 2, the Slaad is prevented but Solange detonates and escapes. Trade-off: certainty of preventing Otar vs. Simone learning about JC.
 
 **If engaged:** Kyzil is an ally. The party chooses his deployment.
 **If ignored:** Kyzil acts alone within 24 hours. He enters the tunnels, finds the secondary sites, and triggers the alert network — making the primary garrison go to maximum readiness.
@@ -321,7 +321,7 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 *Pull: [[jean-claude-tabarnack\|Jean-Claude]], [[crissdalynn-khinriss\|Crissdalynn]]. Register: combat.*
 *Available: when the party follows the clues past the main collector.*
 
-The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 40 ft, 15-ft ceiling, four drainage channels converging on a central summoning circle. Every crack in the ceiling is packed with blackpowder. This is the smoking gun.
+The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 40 ft, 15-ft ceiling, four drainage channels converging on a central summoning circle. Every crack in the ceiling is packed with blackpowder. [[solange-barret|Solange Barret]] is mid-ritual and will not stop. The fight has three phases: **Garrison** (the party fights four purple-caste elites while Solange channels), **Detonation** (Solange collapses the ceiling when the garrison falters), and **Manifestation** ([[otar-the-foul|Otar the Foul]] erupts through Solange's body into the rubble).
 
 ![[primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
 
@@ -329,59 +329,137 @@ The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 
 > The passage opens into a vaulted chamber. The ceiling soars fifteen feet overhead — pale stone, old masonry, the kind that holds up a plaza. Every crack and join in that ceiling is packed with dark powder, held by crude timber scaffolding climbing the walls on all sides. The sheer quantity stops you cold.
 >
 > In the centre of the floor, cut into the stone, a circle. Symbols scored deep and precise. Water flows through four channels from the edges of the room, parting around the circle in shallow trenches that keep the stone dry. The circle is bone-white against wet grey. Something about it hums at the edge of hearing.
+>
+> A red-skinned Grung kneels at the circle's edge, one hand flat against the stone, the other tracing a final arc with powdered chalk. She does not look up. She does not stop. Four purple-caste warriors hold positions at the drainage channels, weapons drawn, facing outward. They saw you first.
 
-**What's true:** [[solange-barret|Solange Barret]] is at the circle, completing final inscriptions. Mirror Image already active (3 duplicates). Four purple-caste [[grung-elite-warrior|Elite Warriors]] are concealed at the four drainage channel entrances (DC 16 Perception to detect). Standing order: **shoot on sight.** The hidden passage from Room 6 emerges behind the south scaffolding — the garrison is not watching this direction.
+**What's true:** [[solange-barret|Solange Barret]] is channeling the summoning ritual. She uses her action each turn to sustain it — she cannot attack, cast offensive spells, or move more than 5 ft from the circle. Mirror Image already active (3 duplicates). Her reaction is reserved for one thing: detonating the ceiling. Four purple-caste [[grung-elite-warrior|Elite Warriors]] hold the drainage channel entrances. Standing order: **shoot on sight.** The hidden passage from Room 6 emerges behind the south scaffolding — the garrison is not watching this direction.
 
 #### The Garrison
 
 > [!mechanic]
-> **[[solange-barret|Solange Barret]] (CR 3).** AC 13 (15 within 10 ft of circle). HP 66. Mirror Image active (3 duplicates). Eldritch Blast: +5, 2 beams, 1d10+3 force each. Hex (concentration): +1d6 necrotic + disadvantage on one ability. Hold Person: DC 13 WIS. Counterspell: expends Pact Magic slot, auto-counters 3rd or lower. Misty Step + Dimension Door for escape. **Poisonous Skin:** DC 12 CON or poisoned on contact. **Circle Ward:** within 10 ft of circle, AC 15, advantage on concentration saves. **Morale:** retreats via Misty Step → Dimension Door when fight is clearly lost. Does not surrender.
+> **[[solange-barret|Solange Barret]] (CR 3).** AC 15 (Circle Ward). HP 66. Mirror Image active (3 duplicates). **Channeling:** uses her action each turn to sustain the summoning ritual. Cannot attack or cast offensive spells. Can use her reaction for Counterspell OR Detonate (see Phase 2). **Poisonous Skin:** DC 12 CON or poisoned on contact. **Circle Ward:** within 10 ft of circle, AC 15, advantage on concentration saves. The summoning circle deflects the detonation blast — Solange takes no damage from the ceiling collapse.
 >
-> **4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each).** AC 13, HP 49. Multiattack: 2 × shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned). Standing Leap 25 ft. Mesmerizing Chirr: DC 12 WIS, stun 1 round. One per drainage channel entrance — 40-ft spread forces individual engagement. **Break and retreat underground if reduced to one fighter.**
+> **4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each).** AC 13, HP 49. Multiattack: 2 × shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned). Standing Leap 25 ft. Mesmerizing Chirr: DC 12 WIS, stun 1 round. One per drainage channel entrance — 40-ft spread forces individual engagement. **They are expendable. Solange does not protect them.**
 >
 > **Difficulty: Extremely Deadly (5000 adj. XP).** Rewards stealth, planning, and environmental creativity over direct assault.
 
-#### Tactical Situation
+#### Phase 1 — The Ritual Guard
 
-**Hidden passage approach (Route C from Room 6):** The garrison's passive Perception is 12 vs. this direction. **The party gains surprise.** This reverses the encounter from ambush-into to ambush-from.
+Solange does not fight. She channels. The four Elite Warriors are the encounter — they protect Solange and the circle using spread-and-Chirr tactics from the standard garrison.
 
-**Terrain:**
+**Hidden passage approach (Route C from Room 6):** The garrison's passive Perception is 12 vs. this direction. **The party gains surprise.** May let a PC reach Solange before the elites react.
 
-- **Blackpowder ceiling:** Fire or thunder damage anywhere in the room — **8d6 fire, 40-ft radius (entire room), DC 16 DEX half. Total ceiling collapse: 4d6 bludgeoning, buried, DC 16 STR.** This collapses the Mercatura plaza above. Nuclear option.
-- **Summoning circle:** 10-ft diameter. Bright light 10-ft radius, dim light 10 ft beyond. **JC's Umbral Sight does not function in the bright zone.** DC 14 Arcana: extraplanar summoning circle. DC 20 or critical: configured for a Slaad, unbound, keyed to detonation. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line.
+**Terrain (Phase 1):**
+
+- **Summoning circle:** 10-ft diameter. Bright light 10-ft radius, dim light 10 ft beyond. **JC's Umbral Sight does not function in the bright zone.** DC 14 Arcana: extraplanar summoning. DC 20 or critical: configured for a Slaad, unbound. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line.
 - **Scaffolding:** 8 ft. Elevated positions: +2 AC vs. melee from below. DC 10 Athletics to climb. Destroying a section: DC 12 Athletics or 10 HP — collapses, 1d6 bludgeoning, difficult terrain.
 - **Drainage channels (×4):** 3 ft deep, 5 ft wide. Difficult terrain. Half cover for prone creatures.
+- **Blackpowder ceiling:** Fire or thunder damage anywhere in the room triggers the full detonation (see Phase 2). The party should understand this risk before anyone lights a torch.
 
-**Terrain shift (round 3):** If the circle is not disrupted, bright light expands to 20-ft radius (most of the chamber — JC's Umbral Sight ceases to function anywhere). Water in channels reverses, rising to 4 ft deep (Medium creatures: half speed, disadvantage on melee). After round 5, Arcana alone cannot sever the circle — only physical destruction (10 minutes or stone-shaping magic).
+> [!dm]
+> Solange's channeling is visible and legible. She is kneeling, one hand on stone, drawing with the other. DC 12 Arcana: sustaining a ritual that requires unbroken concentration. DC 15 Arcana: close to completion — minutes, not hours. The hum grows louder each round. This telegraphs that she is the objective, not the elites.
+>
+> Solange can still use her reaction. If a spellcaster targets the circle or casts a control spell threatening her concentration, she Counterspells (auto-counters 3rd level or lower, +5 check for higher). She has two Pact Magic slots — each Counterspell burns half her resources and costs her the detonation trigger for that round. Force her to choose: protect the ritual or save the dead-man switch.
 
-#### Solange's Tactics
+**Terrain shift (round 3):** If the circle is not disrupted, bright light expands to 20-ft radius (most of the chamber — JC's Umbral Sight ceases to function anywhere). Water in channels reverses, rising to 4 ft deep (Medium creatures: half speed, disadvantage on melee).
 
-**Opening:** Hex on Crissdalynn (STR disadvantage shuts down grapple). Eldritch Blast from behind the Elite Warrior line. Stays within Circle Ward range.
-**Escalation:** Counterspells party control magic. Force her to choose: maintain Hex or counter.
-**Crisis:** Misty Step to break line of sight, Dimension Door next turn. She will not die for the circle.
+#### Phase 2 — The Ceiling Falls
+
+**Trigger:** the second Elite Warrior drops to 0 HP.
+
+> [!mechanic]
+> **Detonate (Reaction).** Solange uses her reaction the instant the second Elite Warrior falls. This cannot be counterspelled — it is not a spell. It is a command word keyed to alchemical fuses in the scaffolding.
+>
+> **8d6 fire damage, 40-ft radius (entire chamber), DC 16 DEX half. Ceiling collapse: 4d6 bludgeoning, DC 16 STR or buried** (restrained, DC 16 STR to escape as an action).
+>
+> **Solange takes no damage.** The summoning circle is a closed ward — it deflects the blast in a 10-ft radius. Anyone outside the circle takes the full detonation. The surviving Elite Warriors are not protected. They are spent.
+>
+> **The Mercatura plaza collapses.** A 30-ft section of ceiling — and the plaza floor above — drops into the chamber. Daylight and dust flood in. The room is now a crater open to the sky.
+
+> [!read-aloud]
+> One word. She says one word, and the ceiling becomes light.
+>
+> The blast hits your chest before you hear it. Stone and fire and a pressure wave that throws you off your feet. Timber splinters. Masonry falls in slabs. The world is dust and heat and the ringing silence after a sound too loud to process. Above — where the ceiling was — sky. Broken cobblestones and festival cloth hang from the edges of a hole thirty feet wide. Daylight cuts through the dust in pale shafts. The Mercatura plaza is open above you, and people up there are screaming.
+>
+> She is still kneeling at the circle. Untouched. Dust settles around her in a perfect ring, as if the explosion parted around the inscriptions and kept going. Her hand has not left the stone.
+
+> [!dm]
+> The party is damaged, possibly buried, possibly prone. Solange is untouched and still channeling. They have one round — maybe two — before Phase 3. The *Globe of Invulnerability* scroll from Room 6 would block the blast if activated before the detonation (the scroll was designed for surviving self-inflicted detonation — rule it works). DC 16 Arcana to activate. If a PC anticipated this and pre-cast the scroll, they are shielded. If [[master-kyzil|Kyzil]] is present, he has the HP and saves to survive — he is likely the only one still standing.
+
+#### Phase 3 — Otar the Foul
+
+On Solange's next turn after the detonation, she completes the ritual.
+
+> [!read-aloud]
+> She finishes the last line. The chalk hits the stone and the circle ignites — not fire, not light. Darkness. A shadow pools at her feet, thick and fast, spreading outward from the inscriptions like spilled ink. It reaches her knees and stops.
+>
+> Then it moves upward. The shadow gathers against her body, climbing her skin like something alive. It forms a shape at her feet — a jaw, wide and blunt, too large for the thing casting it. The jaw opens. It closes around her.
+>
+> Black ichor. That is what the shadow becomes — a thick black fluid that coats her red skin, hissing where it touches, sizzling like fat on a hot pan. She does not scream. Her mouth opens but the sound that comes out is not hers. It is lower. Older. Wrong.
+>
+> Her body changes. Not slowly. The bones in her arms crack and lengthen. Her spine arches and keeps arching past where a spine should stop. Skin splits along her shoulders and only partly heals — red tissue visible beneath, already hardening into something that is not skin anymore. Her hands hit the stone and they are not hands. She grows. The circle cracks beneath the weight. She grows more.
+>
+> Two seconds. Maybe three. Solange Barret is gone. What stands in the circle is red, enormous, and breathing in a way that sounds like stone grinding against stone. It opens a mouth wider than a mouth should open, and it looks at you the way a fire looks at a building.
+
+> [!dm]
+> Let the table sit with the transformation before rolling initiative for Phase 3. This is the moment they understand what the operation was for. Solange was never the boss. She was the delivery system.
+>
+> Otar does not know where he is. He does not care. He is hungry and confused and enormous and standing in a crater full of injured people. He acts on instinct — the nearest moving thing gets his attention first. The transformation cannot be reversed. Solange is consumed.
+
+**[[otar-the-foul|Otar the Foul]] (CR 8).** AC 15. HP 152. Speed 40 ft, climb 20 ft. Legendary Resistance (1/Day). Magic Resistance. Full stat block: [[otar-the-foul|Otar the Foul]].
+
+- **Multiattack:** Bite (+8, 2d8+5 + DC 15 Con Slaad egg), Claw (+8, 2d6+5, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft + grappled).
+- **Foul Miasma:** 10-ft radius, lightly obscured, 1d6 poison/turn.
+- **Entropic Regeneration:** 10 HP/round. **Suppressed by fire or acid.**
+- **Chaos Pulse (Recharge 5–6):** 20-ft radius, DC 15 Dex, 4d10 force + prone.
+- **Unstable Form (≤75 HP):** Melee attacks +1d6 acid; melee attackers within 5 ft take 1d10 acid.
+- **Legendary Actions (2/round):** Lash (Tongue Lash), Thrash (5-ft DC 16 Str push + prone), Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
+- **Rubble Surge (reaction):** Hurls rubble at creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0.
+
+**Lair Actions — The Shattered Chamber.** The detonation left the chamber structurally unsound and open to the sky. On initiative count 20 (losing ties), one effect fires. Same effect cannot repeat two rounds in a row:
+
+- **Aftershock.** 15-ft radius around crater edge, DC 13 DEX or prone.
+- **Choking Dust.** 15-ft sphere, heavily obscured until initiative 20 next round.
+- **Masonry Collapse.** One creature within 40 ft, DC 13 DEX or 2d6 bludgeoning + restrained (escape DC 13).
+
+**Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from Moretti & Sons (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation). [[ruk|Ruk]] arrives after round 5 with a lit torch and a cleaver if the party is struggling.
+
+> [!dm]
+> **The clock still runs.** Every round of the Otar fight is a round the extraction runs at any secondary site the party didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save.
+>
+> **The fight is brutal by design.** The party took heavy damage from the detonation and now faces a CR 8 boss. Hero's Feast buffs (poison immunity, Wis advantage, +2d10 max HP) are the designed safety margin. Without them, this is a near-certain TPK. With them, it is a bloody victory. If the party is below half HP aggregate after Phase 2, [[ruk|Ruk]] arrives after round 3 instead of round 5.
+
+#### Tactical Summary
+
+| Phase | Trigger | Party Goal | Danger |
+|---|---|---|---|
+| **1 — Garrison** | Combat starts | Reach Solange or disrupt the circle | Elite Warriors stun + poison; Solange Counterspells |
+| **2 — Detonation** | 2nd Elite Warrior drops | Survive | 8d6 fire + 4d6 bludgeoning; buried; plaza collapse |
+| **3 — Manifestation** | Solange's next turn | Kill Otar | CR 8 boss vs. damaged party; secondary-site clock |
 
 #### Party Advantages
 
-- **Hidden passage:** Reverses surprise.
-- **Vertical terrain:** 15-ft ceilings + scaffolding reward [[crissdalynn-khinriss\|Crissdalynn]]'s flight and [[delmar-fisk\|Delmar]]'s [[boots-of-flying\|boots]]. A flier above scaffolding has advantage vs. prone warriors.
+- **Hidden passage:** Reverses surprise. May let a PC reach Solange before elites react.
+- **Circle disruption (DC 18 Arcana):** If disrupted before Phase 2, the summoning fails. Solange still detonates and escapes via Misty Step + Dimension Door. Plaza collapses, no Otar. This is the "clean" win — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
+- **Globe of Invulnerability scroll:** DC 16 Arcana to activate before detonation — shields a 10-ft radius from the blast. Reward for carrying Room 6 loot into the fight.
+- **Vertical terrain:** 15-ft ceilings (Phase 1) and open sky (Phase 3) reward [[crissdalynn-khinriss\|Crissdalynn]]'s flight and [[delmar-fisk\|Delmar]]'s [[boots-of-flying\|boots]].
 - **Bardic inspiration:** [[perrin-black-jaw\|Perrin]]'s d8 makes DC 12 Chirr saves trivial and turns AC 13 misses into hits. Protecting him is the tactical key.
-- **Circle disruption:** One PC attempts DC 18 Arcana while others hold the garrison. Non-combat victory path.
-- **Kyzil (if present):** Solves the encounter but triggers Solange's immediate escape.
+- **Kyzil (if present):** Survives the detonation. Becomes the anchor for Phase 3.
+- **Hero's Feast buffs:** Poison immunity negates Foul Miasma AND Elite Warrior poison arrows. +2d10 max HP is the survival buffer for Phase 2. This is the designed safety margin.
 
-> [!dm]
-> **The choice the fight creates:** every round here is a round the secondary extraction could be running (if any secondary sites remain). After round 3: DC 12 Perception hears screams from above if the party did not neutralize all four secondaries. This is not a punishment — it is a design decision that makes the raid feel coordinated. The party must decide: finish the fight, or split and save.
+#### If the Circle Is Disrupted Before Phase 2
 
-#### If Solange Escapes
+The summoning fails. Solange uses Misty Step to escape the blast zone, detonates the ceiling, then Dimension Doors to the surface. She reports to [[simone-tabarnack|Simone]]: the primary is compromised, a Grung defector identified caste notation. **Simone now knows JC is alive and active.** No Otar. The plaza still collapses. The party survives a building collapse but the boss fight does not happen.
 
-She reports to [[simone-tabarnack|Simone]]: the primary site is compromised; a Grung defector ([[jean-claude-tabarnack|Jean-Claude]]) identified caste notation; the party includes four individuals with military-grade coordination. **Simone now knows JC is alive, active, and working against her.** The sibling confrontation becomes inevitable.
+#### Aftermath
 
-#### If the Circle Is Destroyed
+**Otar killed:** The body falls. Bleeds iridescent fluid into the rubble. A thirty-foot crater in the Mercatura — festival cloth hanging from broken edges, dust settling, civilians screaming. The summoning circle is cracked and dark beneath the corpse. Solange is consumed. She will not report to [[simone-tabarnack|Simone]].
 
-No Slaad. The primary detonation can still fire (if the blackpowder remains), but the boss-tier distraction is removed. If the party also removes or soaks the powder, the Mercatura does not collapse. The raid loses its centrepiece.
+**Party defeated:** Otar rampages through the crater into the Mercatura crowds. The city's armed response arrives within minutes but Otar fixes them while the extraction runs. Worst outcome. Use the Raid Scale table (Scene 7) for consequences.
 
 **If engaged:** the party has stopped the worst of the raid. What remains depends on how many secondary sites they neutralized.
-**If ignored:** the primary fires tomorrow. Otar emerges into the Mercatura. Scene 7.
-**Hook out:** aftermath and pursuit — or the detonation (Scene 7) if the clock runs out.
+**If ignored:** the primary fires tomorrow on the shortened timeline. Scene 7.
+**Hook out:** aftermath and recovery — or the secondary detonations (Scene 7) if the clock is running.
 
 ---
 
@@ -442,7 +520,7 @@ No Slaad. The primary detonation can still fire (if the blackpowder remains), bu
 *Available: if the party fails to stop the primary site, or if you end the session on the raid itself.*
 
 > [!dm]
-> **This scene fires only if:** (a) the party did not find or destroy the primary chamber, (b) the timeline runs out (detonation fires tomorrow morning at crowd peak), or (c) the party chose to focus on secondary sites and let the primary go. It can also serve as a cliffhanger — end the session on the first detonation sound and save the combat for Session 06.
+> **This scene fires only if the party did not reach the primary chamber.** If they fought in Room 8, the detonation and Otar manifestation already happened during Scene 4 — use only the secondary-strike and aftermath portions of this scene. If the party focused on secondary sites and never found the primary, or the timeline runs out, this scene covers the surface-level consequences: Solange completes the ritual underground, transforms into Otar's host (consumed in the process), and Otar claws out of the rubble into the Mercatura. It can also serve as a cliffhanger — end on the first detonation sound and save the combat for Session 06.
 
 **The moment:**
 
@@ -507,7 +585,7 @@ Keep these **unassigned** — give each to the first action that earns it.
 
 **Raid-adjacent — use only if the party looks:**
 
-> [!secret]
+> [!dm]
 > The Dravosi patrol schedule has a three-day minimum gap starting today. Any harbour factor can quote the dates. Three dark-hulled *vethka* sit at anchor past the patrol line — double-outrigger, no pennant. Anyone with Grung/Midchain maritime knowledge identifies them as extraction vessels.
 
 ---
@@ -538,7 +616,7 @@ For drop-in combat encounters: [[calveno-street-encounters|Street Encounters]].
 ## Possible Cliffhanger
 
 - **Found the primary chamber:** end on the read-aloud — the packed ceiling, the circle, the hum. [[jean-claude-tabarnack|JC]] understands the scale. The city is sitting on a bomb.
-- **[[solange-barret|Solange]] escapes:** end on the Dimension Door — she is gone, and the party knows someone will tell [[simone-tabarnack|Simone]] about JC.
+- **The transformation:** end on Solange's body cracking and reforming — two seconds, three, and she is gone. What stands in the circle is red and enormous.
 - **The detonation fires:** end on the first wrong sound — a scream the crowd laughs at, then doesn't. Save the [[otar-the-foul|Slaad]] fight for Session 06.
 - **[[anzolo|Anzolo]] at the door:** end on the Warren runner's message — "Old tortle at the outer quay. Asking for Black-Jaw." [[perrin-black-jaw|Perrin]]'s family and the crisis collide.
 - **[[nona-black-jaw|Nona]]'s vow:** end on "we will bring your brothers and your sons and your fathers back." The pursuit is next session.
@@ -547,9 +625,9 @@ For drop-in combat encounters: [[calveno-street-encounters|Street Encounters]].
 
 ## Capture For Next Time
 
-- Which magazines were neutralized, which remain. Was the primary found? Was the circle destroyed? Did [[solange-barret|Solange]] escape?
+- Which magazines were neutralized, which remain. Was the primary found? Was the circle disrupted before the detonation? Was Otar summoned?
 - **Raid scale:** use the outcome table above to determine captive count and world impact.
-- **Solange's escape status:** if she escaped, [[simone-tabarnack|Simone]] knows about JC. Flag in [[hot|hot.md]].
+- **Solange's fate:** if the circle was disrupted before Phase 2, Solange escaped and [[simone-tabarnack|Simone]] knows about JC. If the ritual completed, Solange was consumed — Simone does not learn about JC from this source. Flag in [[hot|hot.md]].
 - **[[master-kyzil|Kyzil]] deployment:** did he go underground, stay in reserve, or act alone?
 - **[[anzolo|Anzolo]]:** did [[perrin-black-jaw|Perrin]] meet him? Is the Tessarine patrol in [[calveno|Calveno]]?
 - **[[abyss-vision|The whale]]:** did Perrin make contact? How did he react?

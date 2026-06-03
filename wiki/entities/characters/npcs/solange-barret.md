@@ -49,7 +49,7 @@ Seminary dropout meets demolitions engineer. She has real arcane training in a s
 
 ## Proactive Objective
 
-When the party encounters Solange, she is working. Final inscriptions on the summoning circle — calibrating the resonance channels that key the activation to the blackpowder detonation above. She has been at this for hours. She is close to finished. Her attention is split between the circle and the four [[grung-elite-warrior|Elite Warriors]] guarding the chamber. She does not expect intruders at the primary site — it is compartmentalized above green-caste clearance, and the secondary sites should absorb any interference.
+When the party encounters Solange, she is finishing the summoning ritual. One hand on the stone, the other tracing the final resonance arc. She has been at this for hours and is minutes from completion. She does not fight. She channels — using her action every turn to sustain the ritual, unable to attack or cast offensive spells. The four [[grung-elite-warrior|Elite Warriors]] are her shield, and they are expendable. When half of them fall, she detonates the blackpowder ceiling as a reaction — a command word keyed to alchemical fuses, not a spell, not counterspellable. The summoning circle deflects the blast. Everyone outside the circle takes the full detonation. She finishes the ritual in the settling dust, and Otar manifests through her body. The transformation consumes her.
 
 ## Combat
 
@@ -102,17 +102,21 @@ reactions:
 
 ## Tactical Behavior
 
-**Opening:** Mirror Image is already active (pre-cast, 3 duplicates — soaks 3 attacks before real damage lands). Hex on Crissdalynn (disadvantage on STR checks — shuts down grapple dominance, the party's strongest opener). Eldritch Blast from behind the Elite Warrior line. Stays within 10 ft of the circle (Circle Ward: AC 15, advantage on concentration saves). The circle sheds bright light in a 10-ft radius — Jean-Claude's Umbral Sight does not function here.
+**Channeling:** Mirror Image is already active (pre-cast, 3 duplicates — soaks 3 attacks before real damage lands). Solange uses her action every turn to sustain the summoning ritual. She cannot attack or cast offensive spells while channeling. Stays within 10 ft of the circle (Circle Ward: AC 15, advantage on concentration saves). The circle sheds bright light in a 10-ft radius — Jean-Claude's Umbral Sight does not function here.
 
-**Escalation:** If a spellcaster attempts to disrupt the circle or target the Elite Warriors with control spells, Solange Counterspells. She has two 3rd-level slots — one Counterspell burns half her resources. Force her to choose between maintaining Hex and countering party magic. If Crissdalynn breaks Hex through damage or distance, Solange re-Hexes on the next grapple threat.
+**Reaction — Counterspell or Detonate:** If a spellcaster targets the circle or casts a control spell threatening her concentration, Solange Counterspells (auto-counters 3rd level or lower, +5 check for higher). She has two 3rd-level slots — each Counterspell burns half her resources and costs her the detonation trigger for that round. **Detonate:** the instant the second Elite Warrior falls, Solange uses her reaction to speak a command word that ignites alchemical fuses in the ceiling scaffolding. This is not a spell — it cannot be counterspelled. The summoning circle deflects the blast in a 10-ft radius; everyone outside takes 8d6 fire + 4d6 bludgeoning (DC 16 DEX/STR).
 
-**Crisis:** If the chamber is clearly lost (3+ Elite Warriors dead, circle being physically disrupted), Solange uses Misty Step to break line of sight, then Dimension Door on her next turn to escape entirely. She will not die for the circle — she is too important to Simone's future operations.
+**Manifestation:** On her next turn after the detonation, Solange completes the ritual. [[otar-the-foul|Otar the Foul]] manifests through her body — shadow, ichor, violent transformation. Solange is consumed. The transformation cannot be reversed.
 
-**Morale:** Retreats when the fight is clearly lost. Does not surrender. If captured, she says nothing about Simone. She gives her name and caste. That is all.
+**If the circle is disrupted before detonation:** Solange loses the summoning but still detonates as a diversion. She escapes via Misty Step (break line of sight) → Dimension Door (to the surface). She will not die for a failed ritual.
+
+**Morale:** If the circle is intact, Solange does not retreat — she is the delivery system and knows it. If the circle is disrupted, she escapes. Does not surrender. If captured before either trigger, she gives her name and caste. That is all.
 
 ## If She Escapes
 
-Solange reports to Simone: the primary site is compromised, the party includes a Grung defector who identified caste notation (Jean-Claude), and the operation's centrepiece is lost. This confirmation — that Jean-Claude is actively working against the clan — is a major escalation of Simone's awareness. It is also the first intelligence Simone receives about exactly who is interfering.
+Solange escapes only if the circle is disrupted before the detonation trigger (2 of 4 Elite Warriors down). In that case, she detonates the ceiling as a diversion and Dimension Doors to the surface. She reports to Simone: the primary is compromised, a Grung defector identified caste notation (Jean-Claude), and the summoning failed. This is a major escalation of Simone's awareness — the first intelligence she receives about exactly who is interfering.
+
+If the ritual completes, Solange does not escape. She is consumed by the manifestation. Otar the Foul stands where she was. Simone does not learn about Jean-Claude from this source.
 
 ## Connections
 

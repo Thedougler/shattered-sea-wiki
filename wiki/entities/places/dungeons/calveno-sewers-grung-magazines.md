@@ -31,6 +31,11 @@ region: calveno
 
 ![[network-overview-map.png|Dungeon network overview — hub-and-spoke sewer collector system with magazine rooms, central junction, and primary ritual chamber.]]
 
+![[wiki/assets/sessions/session-05/maps/session-05-calveno-sewer-magazines-overview-battlemap.png|Session 05 connected dungeon overview battlemap — all sewer magazine rooms connected through the keyed topology with a 5-foot tactical grid.]]
+
+> [!dm]
+> **Battlemap note:** Session 05 map PNGs use one grid square as 5 feet and are saved at 150 DPI, so printing at actual size produces 1-inch tactical squares. Dark padding is non-playable. Short corridor, pipe, and hatch stubs show keyed exits; they are not additional rooms. Room 1's battlemap includes token-placement space around the 5-ft shaft because the keyed shaft itself is only one square.
+
 ## Overview
 
 [[simone-tabarnack|Simone Tabarnack]]'s Grung operatives have converted five structural weak points in Calveno's sewer collector system into blackpowder magazines, timed to detonate simultaneously during the final day of [[il-gioco-delle-beffe|La Finestra]]. Four secondary sites will buckle the ground and open extraction breaches. The primary site beneath the [[calveno|Mercatura]] will collapse the plaza and summon [[otar-the-foul|Otar the Foul]] through the rubble. The party knows about the four secondary sites from [[felix-aho|Felix Aho]]'s interrogation. The primary site is compartmentalized above his clearance.
@@ -104,6 +109,8 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 1 — Le Paludi Access Shaft
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-01-le-paludi-access-shaft-battlemap.png|Room 1 battlemap — Le Paludi Access Shaft with iron ladder, wet limestone, standing water, and 5-foot tactical grid.]]
+
 ![[sewer-entrance.png|Sewer access shaft — iron ladder descending into darkness, fish-oil lantern light, wet limestone, standing water below.]]
 
 **Dimensions:** 5 × 5 ft shaft, 15 ft deep. Hatch at street level, standing water at bottom.
@@ -123,6 +130,8 @@ Room 8 (Primary Detonation Chamber)
 ---
 
 ## Room 2 — Y-Junction
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-02-y-junction-battlemap.png|Room 2 battlemap — Y-Junction with three exits, standing water, collapsed masonry, trail marks, and 5-foot tactical grid.]]
 
 **Dimensions:** 15 × 20 ft. Ceiling 6 ft. Three exits: shaft up to Room 1, right branch to Room 3, left branch to Room 4. Standing water throughout.
 
@@ -146,6 +155,8 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 3 — Bridge Connector
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-03-bridge-connector-battlemap.png|Room 3 battlemap — Bridge Connector with low ceiling, narrowed chokepoint, far hatch, side passage, and 5-foot tactical grid.]]
+
 **Dimensions:** 60 × 10 ft corridor, narrowing to 5 ft wide. Ceiling drops from 6 ft to 4 ft after 30 ft. Far hatch at the Bridge end.
 
 > [!read-aloud]
@@ -167,6 +178,8 @@ Room 8 (Primary Detonation Chamber)
 ---
 
 ## Room 4 — Magazine Alpha (Le Paludi Yards)
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-04-magazine-alpha-battlemap.png|Room 4 battlemap — Magazine Alpha with stacked blackpowder barrels, timber wedges, drainage pipe, cover, and 5-foot tactical grid.]]
 
 ![[blackpowder-magazine.png|Secondary blackpowder magazine — tar-sealed barrels lashed to a sewer wall with crude scaffolding, green-caste sentry in shadow.]]
 
@@ -192,6 +205,8 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 5 — Magazine Beta (Working Yards)
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap.png|Room 5 battlemap — Magazine Beta with unfinished scaffolding, loose barrels, mortared breach, tools, and 5-foot tactical grid.]]
+
 **Dimensions:** 20 × 15 ft chamber. Ceiling 6 ft. Exit: mortared breach to Room 6.
 
 > [!read-aloud]
@@ -213,6 +228,8 @@ Room 8 (Primary Detonation Chamber)
 ---
 
 ## Room 6 — Handler Relay
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-06-handler-relay-battlemap.png|Room 6 battlemap — Handler Relay with dry alcove, desk, route papers, stacked barrels, hidden passage, and 5-foot tactical grid.]]
 
 ![[handler-relay.png|Ruma Delacroix at her desk — route maps and tide charts pinned to the wall, oil lamp, barrels, dry stone alcove.]]
 
@@ -240,6 +257,8 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 7 — Main Collector
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-07-main-collector-battlemap.png|Room 7 battlemap — Main Collector with central water channel, raised walkways, service exits, overflow vent, and 5-foot tactical grid.]]
+
 **Dimensions:** 80 × 15 ft vaulted tunnel. Ceiling 8 ft. Central water channel (5 ft wide, 2 ft deep). Raised stone walkways (5 ft wide) on either side. Exits: archway to Room 3, service corridor to Room 6, descending passage to Room 8, overflow vent to T2.
 
 > [!read-aloud]
@@ -259,6 +278,8 @@ Room 8 (Primary Detonation Chamber)
 
 ## Room 8 — Primary Detonation Chamber (Mercatura)
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap.png|Room 8 battlemap — Primary Detonation Chamber with converging drainage channels, central summoning circle, scaffolding, powder storage, and 5-foot tactical grid.]]
+
 ![[primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
 
 **Dimensions:** 40 × 40 ft vaulted chamber. Ceiling 15 ft. Four drainage channels (3 ft deep, 5 ft wide) converge from cardinal directions. Central dry stone platform (10 ft diameter) with summoning circle. Scaffolding along all walls to 8 ft height. Exits: ascending passage to Room 7 (north), hidden passage to Room 6 (south, behind scaffolding).
@@ -274,19 +295,21 @@ Room 8 (Primary Detonation Chamber)
 - **Summoning circle**: 10-ft diameter, cut into stone, kept dry by water-routing trenches. Sheds bright light in a 10-ft radius and dim light for 10 ft beyond that. Jean-Claude's Umbral Sight does not function in the bright zone. (DC 14 Arcana: summoning circle for an extraplanar entity, not fiend or celestial, outer planes. DC 20 Arcana or critical: configured for a **Slaad**, unbound, uncontrolled. Keyed to activate on detonation — the explosion and the summoning are one event. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line. Prevents summoning even if detonation fires.)
 - **Scaffolding**: Timber frames along all walls, rising to 8 ft. (Elevated positions: +2 AC vs. melee from below, no cover vs. ranged. Two [[grung-elite-warrior|Elite Warriors]] fire from here. Climbing the scaffolding: DC 10 Athletics. Destroying a scaffold section: DC 12 Athletics or 10 HP damage — collapses that section, dealing 1d6 bludgeoning to anyone on it and creating difficult terrain.)
 - **Drainage channels (×4)**: 3 ft deep, 5 ft wide, flowing water. (Difficult terrain. Half cover for a prone creature inside a channel. Small creatures are chest-deep — move at half speed, disadvantage on melee attacks.)
-- **[[solange-barret|Solange Barret]]**: Red-caste warlock, at the circle. Completing final inscriptions. Mirror Image active (3 duplicates). (See stat block. Stays within 10 ft of the circle: AC 15, advantage on concentration saves. Hex targets Crissdalynn first — disadvantage on STR shuts down grapple. Counterspells party magic using Pact Magic slots. Escapes via Misty Step + Dimension Door if the fight is lost.)
+- **[[solange-barret|Solange Barret]]**: Red-caste warlock, channeling the summoning ritual. Uses her action each turn to sustain it — cannot attack or cast offensive spells. Mirror Image active (3 duplicates). (AC 15 within circle, advantage on concentration saves. Reaction reserved for Counterspell OR Detonate: when the 2nd Elite Warrior drops, speaks a command word igniting alchemical fuses in the ceiling — not a spell, not counterspellable. Circle deflects the blast; everyone outside takes full detonation. Completes the ritual on her next turn — [[otar-the-foul|Otar]] manifests through her body, consuming her.)
 - **4 [[grung-elite-warrior|Grung Elite Warriors]]**: Purple-caste. Concealed at the four drainage channel entrances. (DC 16 Perception to detect before surprise round. Shortbow from concealment, then melee + Mesmerizing Chirr.)
 - *Solange's ritual components*: Chalk, powdered limestone, an iridescent pigment that does not wash off. (50 gp to an arcane collector. Also: evidence of formal arcane training — the techniques in this circle are not Grung-developed. Connects to the open question of who designed it.)
 
 > [!dm]
-> Climax encounter. The garrison gets surprise unless the party beats DC 16 Perception. The hidden passage from Room 6 reverses this — it emerges behind the south scaffolding, letting the party surprise the garrison instead. The tactical key is whether the party can reach the circle before Solange finishes, without triggering the blackpowder. Every choice in this room has stakes: fight near the powder and risk catastrophe, or fight carefully and give Solange time to escape.
+> Climax encounter — three phases. **Phase 1 (Garrison):** Solange channels; Elite Warriors defend. **Phase 2 (Detonation):** triggers as Solange's reaction when the 2nd Elite drops — 8d6 fire + 4d6 bludgeoning, plaza collapses into the chamber. **Phase 3 (Manifestation):** Solange completes the ritual; Otar manifests through her body. The hidden passage from Room 6 reverses surprise and may let a PC reach Solange before Phase 2 triggers.
 
 > [!mechanic]
-> **Primary Site Garrison.** 4 Grung Elite Warriors (CR 2 each, HP 49, AC 13) + [[solange-barret|Solange Barret]] (CR 3, HP 66, AC 13/15, Mirror Image active). **Standing order: shoot on sight.** One Elite Warrior per drainage channel entrance — 40-ft spread forces the party to engage individually (exploits the party's AoE gap). Solange behind the line, in the circle's bright-light zone.
+> **Primary Site Garrison — Three Phases.** 4 Grung Elite Warriors (CR 2 each, HP 49, AC 13) + [[solange-barret|Solange Barret]] (CR 3, HP 66, AC 15, channeling, Mirror Image active). **Standing order: shoot on sight.** One Elite Warrior per drainage channel entrance — 40-ft spread forces individual engagement. Solange behind the line, channeling, in the circle's bright-light zone.
 >
-> **Hidden passage approach:** if the party enters from Room 6's hidden passage, they emerge behind the south scaffolding. The garrison's Perception is passive (12) against the party's approach from this direction — the party gains surprise.
+> **Phase 2 trigger:** 2nd Elite Warrior drops → Solange uses reaction to Detonate (command word, not a spell, not counterspellable). 8d6 fire, 40-ft radius, DC 16 DEX half. Ceiling collapse: 4d6 bludgeoning, DC 16 STR or buried. Circle deflects blast (Solange unharmed). Plaza above collapses into the chamber. **Phase 3:** Solange's next turn — completes ritual. [[otar-the-foul|Otar the Foul]] (CR 8) manifests through her body, consuming her.
 >
-> **Terrain shift (round 3):** If the circle has not been disrupted, it completes its resonance lock. Bright light expands to 20-ft radius (fills most of the chamber — Jean-Claude's Umbral Sight ceases to function anywhere in the room). Water in drainage channels reverses flow toward the circle, rising to 4 ft deep (Medium creatures in channels: half speed, disadvantage on melee attacks). The party's disruption window narrows — after round 5, Arcana alone cannot sever the circle; only physical destruction (10 minutes of work or stone-shaping magic) stops the summoning.
+> **Hidden passage approach:** party enters from Room 6's hidden passage behind the south scaffolding. Garrison's passive Perception is 12 — the party gains surprise.
+>
+> **Terrain shift (round 3):** If the circle has not been disrupted, bright light expands to 20-ft radius (Jean-Claude's Umbral Sight ceases to function anywhere). Water in channels reverses, rising to 4 ft deep (Medium creatures: half speed, disadvantage on melee).
 >
 > **Difficulty: Extremely Deadly (5000 adj. XP).** This encounter rewards stealth, planning, and environmental creativity over direct assault. See Running This Dungeon.
 
@@ -372,7 +395,7 @@ The party fights through the sentry teams and makes noise. Each combat alert pro
 - Room 4 combat alerts Room 6 (Ruma reaches for the whistle)
 - Room 6 whistle alerts all secondary sites and the primary garrison
 
-If the entire network is alerted, the primary chamber garrison has time to prepare: Solange finishes the circle, the Elite Warriors set ambush positions, and the party loses any chance of surprise. The encounter in Room 8 becomes a fortified position rather than a working site caught mid-task.
+If the entire network is alerted, the primary chamber garrison has time to prepare: the Elite Warriors set ambush positions and the party loses any chance of surprise. Solange continues channeling regardless — the ritual does not accelerate, but the garrison is ready. The encounter in Room 8 becomes a fortified position rather than a working site caught mid-task.
 
 ### If Stealthy
 
@@ -398,32 +421,28 @@ She cannot give them the primary site's location (she does not know it). But the
 
 ### The Primary Chamber — Tactical Options
 
-The Room 8 encounter is Extremely Deadly by the numbers (5000 adjusted XP vs. a 2000 threshold). It is not designed for a head-on fight. The party has several advantages if they prepare:
+The Room 8 encounter is Extremely Deadly by the numbers (5000 adjusted XP vs. a 2000 threshold) — and that is before Phase 2 detonates the ceiling and Phase 3 drops a CR 8 Slaad on a wounded party. The fight rewards preparation:
 
-- **Hidden passage (Room 6 → 8):** Reverses surprise. The party enters behind the garrison, gaining a surprise round instead of the garrison.
-- **Environmental weapons:** Collapsing scaffolding (DC 12) drops sentries from elevated positions. Water channels provide half cover for prone characters. The blackpowder is a nuclear option — detonation kills everything in the room but collapses the Mercatura plaza above.
-- **Circle disruption:** The party's primary objective is the circle, not the garrison. One PC can attempt DC 18 Arcana to sever the circle while the others hold the garrison. If the circle is disrupted, the detonation cannot summon Otar — the operation loses its centrepiece even if the explosion still fires.
-- **Allies:** If the party briefed [[master-kyzil|Kyzil]] (CR 14 monk), he can accompany them or create a surface-level diversion. If the party informed [[nona-black-jaw|Nona]], Warren runners can seal maintenance hatches behind the party, preventing Grung reinforcements.
-- **Split approach:** Two PCs through the main passage (Room 7), two through the hidden passage. The garrison cannot watch both directions. Solange must choose which approach to Counterspell.
+- **Hidden passage (Room 6 → 8):** Reverses surprise. The party enters behind the garrison — may let a PC reach Solange before elites react.
+- **Circle disruption (DC 18 Arcana):** If the circle is disrupted before the 2nd Elite falls, Solange cannot complete the summoning. She detonates and escapes (Misty Step + Dimension Door). No Otar — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]]. This is the "clean" win.
+- **Globe of Invulnerability scroll (Room 6):** DC 16 Arcana to activate before Phase 2. Shields a 10-ft radius from the detonation blast. The scroll was designed for this — reward the party for carrying it.
+- **Environmental weapons:** Collapsing scaffolding (DC 12) drops sentries from elevated positions. Water channels provide half cover for prone characters.
+- **Allies:** If the party briefed [[master-kyzil|Kyzil]] (CR 14 monk), he accelerates Phase 1 and survives Phase 2 — becomes the anchor for the Otar fight. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
+- **Split approach:** Two PCs through the main passage (Room 7), two through the hidden passage. The garrison cannot watch both directions.
 
-### Solange's Escape
+### If Solange Escapes
 
-If Solange escapes (Misty Step + Dimension Door), she reports to [[simone-tabarnack|Simone]]:
-
-- The primary site is compromised
-- A Grung defector (Jean-Claude) identified caste notation and operated against the clan
-- The party includes at least four individuals with military-grade coordination
-
-This is a major escalation. Simone now knows Jean-Claude is alive, active, and working against her. The confrontation between siblings becomes inevitable rather than possible.
+Solange escapes only if the circle is disrupted before Phase 2 triggers. She detonates the ceiling as a diversion and Dimension Doors to the surface. She reports to [[simone-tabarnack|Simone]]: the primary is compromised, a Grung defector identified caste notation. **Simone now knows JC is alive and active.** If the ritual completes, Solange is consumed by the manifestation — she does not escape and Simone does not learn about JC from this source.
 
 ### Pressure Valve (Primary Chamber)
 
 Targets three party weaknesses from the combat primer:
 
-- **No AoE damage.** Four Elite Warriors spread across the four drainage channel entrances (40-ft spread). The party must engage each individually while Solange operates freely behind the line.
-- **Concentration dependence.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration. If he loses a control spell, the tactical landscape shifts. Stagger Chirr: first warrior fires round 1, hold the rest for rounds when Perrin is drumming.
-- **No fire or acid.** The blackpowder ceiling makes fire damage suicidal in this room. If the detonation later fires and Otar emerges topside, suppressing his regeneration requires finding the chandler's oil stock in the plaza rubble (DC 14 Investigation) or exploiting Otar's own Bile Spray.
-- **Bright light zone.** The summoning circle's bright light (expanding at round 3) neutralizes Jean-Claude's Umbral Sight — the party's most lethal ambush tool. He must choose: snipe from the dim edges (away from the objective) or approach the circle where he's visible.
+- **No AoE damage.** Four Elite Warriors spread across the four drainage channel entrances (40-ft spread). The party must engage each individually while Solange channels behind the line.
+- **Concentration dependence.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration. Stagger Chirr: first warrior fires round 1, hold the rest for rounds when Perrin is drumming.
+- **The dead-man switch.** The party's success at clearing the garrison IS the trigger for the detonation. Killing the 2nd Elite collapses the ceiling. The more effectively the party fights Phase 1, the sooner Phase 2 devastates them. This inversion — winning is what triggers the catastrophe — is the encounter's core tension.
+- **Bright light zone.** The summoning circle's bright light (expanding at round 3) neutralizes Jean-Claude's Umbral Sight. He must choose: snipe from the dim edges or approach the circle where he's visible.
+- **No fire or acid (Phase 3).** After the detonation, Otar's Entropic Regeneration demands fire or acid to suppress. The party's fire sources are in the rubble above (DC 12–14 Investigation) or Otar's own Bile Spray (he's too dumb to avoid self-suppression).
 
 ### Advantage Window (Primary Chamber)
 
@@ -432,7 +451,7 @@ Rewards party strengths if they prepare:
 - **Hidden passage (Room 6 → 8):** Reverses surprise — the party's strongest observed pattern pays off here.
 - **Vertical terrain.** 15-ft ceilings and 8-ft scaffolding reward Crissdalynn's flight and Delmar's boots. A flier above scaffolding has advantage on melee vs. prone warriors and partial cover from ground-level ranged.
 - **Bardic inspiration.** Perrin's d8 makes DC 12 Chirr saves trivial and turns AC 13 misses into hits. Protecting him is the tactical key — Kyzil identified this.
-- **Circle disruption.** A non-combat victory path: one PC attempts DC 18 Arcana while others hold the garrison. If the circle is disrupted, the detonation cannot summon Otar.
+- **Circle disruption.** If disrupted before Phase 2 triggers, the summoning fails. Solange detonates and escapes — no Otar, but Simone learns about JC.
 - **Allies.** If the party briefed [[master-kyzil|Kyzil]] (CR 14), he can accompany or create a surface diversion. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
 
 ### Drama Suite (Primary Chamber)
@@ -441,7 +460,7 @@ Rewards party strengths if they prepare:
 |---|---|
 | 10 | Identify blackpowder, climb scaffolding, cross a drainage channel |
 | 12 | Resist Mesmerizing Chirr (WIS), resist Poisonous Skin (CON) |
-| 13 | Resist Hold Person (WIS), resist Solange's spell save |
+| 13 | Resist Solange's spell save (Counterspell check) |
 | 15 | Detect Elite Warriors before surprise (Perception), identify circle as extraplanar (Arcana) |
 | 16 | Detect hidden passage from Room 6 (Investigation), resist Tongue Lash grapple (STR, Otar) |
 | 18 | Sever a circle resonance line (Arcana, action) |
@@ -449,15 +468,15 @@ Rewards party strengths if they prepare:
 
 **Shenanigan offers:**
 
-- Deliberately detonate the powder. Nuclear option — everything in the room dies, the Mercatura collapses. The party achieves Simone's objective for her.
-- Use the *Globe of Invulnerability* scroll (if found in Room 6) to shield from deliberate detonation. DC 16 Arcana to activate (caster level below spell level). Party survives their own explosion.
+- Use the *Globe of Invulnerability* scroll (Room 6) before Phase 2 triggers. DC 16 Arcana. Shields a 10-ft radius from the detonation — the scroll was designed for this exact use.
+- Incapacitate Solange before Phase 2 (break her concentration, grapple, Silence). Prevents both detonation and summoning. Extremely hard given Circle Ward and Mirror Image.
 - Turn Otar's Bile Spray (acid) against his own regeneration — he's too dumb to avoid hitting adjacent PCs, and the splash suppresses his regen. Reward creative positioning.
 
 **Box of Doom flags:**
 
 - Slaad egg infection from Otar's bite (DC 15 CON — 3-month time bomb, curable by Lesser Restoration)
-- Solange's Dimension Door escape — if she gets away, Simone learns everything about Jean-Claude
-- Civilian deaths at secondary sites while the party fights here — tracked per round after round 3
+- The detonation itself — 8d6 fire + 4d6 bludgeoning is a potential PC death if they're already wounded from Phase 1
+- Civilian deaths at secondary sites while the party fights Otar — tracked per round after round 3
 
 ---
 

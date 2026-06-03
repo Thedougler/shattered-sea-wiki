@@ -40,7 +40,12 @@ fi
   trap 'rm -f "$LOCK"' EXIT
   sleep 3
   cd "$REPO_ROOT"
-  python3 .claude/scripts/regen_index.py --write >>"$LOG" 2>&1 || true
+  SEA="$REPO_ROOT/packages/cli/dist/cli.js"
+  if [[ -f "$SEA" ]]; then
+    node "$SEA" index --write --vault "$REPO_ROOT/wiki" >>"$LOG" 2>&1 || true
+  else
+    python3 .claude/scripts/regen_index.py --write >>"$LOG" 2>&1 || true
+  fi
 ) >/dev/null 2>&1 &
 
 disown 2>/dev/null || true

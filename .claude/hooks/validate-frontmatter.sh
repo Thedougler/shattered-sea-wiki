@@ -25,5 +25,10 @@ except Exception:
 [[ "$FILE" == */wiki/* ]] || exit 0
 [[ -f "$FILE" ]] || exit 0
 
-python3 "$REPO_ROOT/.claude/scripts/fix_frontmatter.py" "$FILE" || true
+SEA="$REPO_ROOT/packages/cli/dist/cli.js"
+if [[ -f "$SEA" ]]; then
+  node "$SEA" fix "$FILE" --vault "$REPO_ROOT/wiki" || true
+else
+  python3 "$REPO_ROOT/.claude/scripts/fix_frontmatter.py" "$FILE" || true
+fi
 exit 0

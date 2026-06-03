@@ -56,7 +56,7 @@ Unless noted otherwise in a room key, these apply throughout:
 
 ## Map Key
 
-```
+```text
 Room 1 (Le Paludi Access Shaft)
   → Room 2: iron ladder, 15 ft descent, vertical shaft
 

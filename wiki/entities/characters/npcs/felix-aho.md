@@ -16,7 +16,6 @@ confidence_level: medium
 banner: raw/assets/banners/Felix-Aho.webp
 portrait: raw/assets/portraits/Felix-Aho.webp
 species: grung
-disposition: friendly
 ---
 
 # Félix Aho

@@ -13,8 +13,6 @@ tags:
   - combat
 sources:
   - Homebrew
-location: "[[calveno-sewers-grung-magazines|Calveno Sewer Magazines]], Room 6"
-faction: "[[grung|Grung / Simone's Faction]]"
 confidence_level: high
 ---
 

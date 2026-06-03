@@ -14,7 +14,6 @@ sources:
   - "Inbox/Elder-Anton.md"
 confidence_level: medium
 species: tabaxi
-variant: tiger
 ---
 
 # Elder Anton

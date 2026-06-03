@@ -20,7 +20,6 @@ category: character
 species: human
 role: "Senior Waveservant / Umberlee's appointment-keeper"
 roleplay_prompt: "Corporate Cult Executive Assistant"
-deployment_note: "Place at the Waveservant Shrine of whichever major port the party visits first. Her role and manner are identical at each shrine."
 ---
 
 # Branca

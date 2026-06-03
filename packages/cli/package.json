@@ -1,0 +1,20 @@
+{
+  "name": "@shattered-sea/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "sea": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@shattered-sea/lib": "workspace:*",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}

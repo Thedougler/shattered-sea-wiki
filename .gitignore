@@ -32,7 +32,11 @@ wiki/sessions/.live/
 
 # voice-transcription tool virtualenv
 voice-transcription/.venv/
+tools/audio/.venv/
 .agents/
+
+# Package build output
+packages/*/dist/
 
 player-view/.venv/
 

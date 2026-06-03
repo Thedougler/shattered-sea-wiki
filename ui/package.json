@@ -8,6 +8,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@shattered-sea/lib": "workspace:*",
     "@astrojs/markdown-remark": "^7.2.0",
     "@astrojs/preact": "^5.1.5",
     "@tailwindcss/vite": "^4.3.0",

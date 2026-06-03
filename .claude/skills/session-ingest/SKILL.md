@@ -91,6 +91,7 @@ All intermediate files live here. These are checkpoints — resume from the late
 | `recap.md` | Pass 2 (cumulative) | Condensed IC-only scene summaries |
 | `extracts.md` | Pass 2 (cumulative) | Tagged canon extracts organized by scene |
 | `flags.md` | Pass 2 (cumulative) | Unresolved ambiguities for DM review |
+| `combat-summary.md` | Pass 2 (after final part) | Structured per-PC combat data for primer updates |
 | `progress.txt` | Pass 2 (per part) | Which parts have been processed |
 | `handoff.md` | Pass 2 (per part) | Self-contained prompt for the next agent |
 
@@ -297,12 +298,39 @@ Enough for the next agent to maintain perfect continuity.}
 When you finish the last available part:
 - Verify `recap.md` covers the full session with no gaps between parts
 - Verify `extracts.md` has tagged entries for every recap scene
+- If any `[COMBAT]` blocks exist in `extracts.md`, compile them into
+  `combat-summary.md` (see format below)
 - Review `flags.md` — present unresolved items to the DM
 - Write `handoff.md` indicating Pass 2 is complete and Pass 3 (wiki) is next
+- If combat data was extracted, add to handoff:
+  `Combat data available — run pc-combat-primer to update affected profiles.`
 - Commit:
   ```
   ingest: complete session {NN} transcript extraction and recap
   ```
+
+#### combat-summary.md Format
+
+Compile all `[COMBAT]` blocks from `extracts.md` into a single file optimized
+for `pc-combat-primer` consumption. This file is the bridge between ingest and
+primer workflows — it saves the primer skill from re-reading raw transcripts.
+
+```markdown
+# Session {NN} Combat Summary
+
+Source: audio/sessions/session{NN}/extracts.md
+Compiled: {YYYY-MM-DD}
+Encounters: {count}
+
+---
+
+## Encounter 1: {name}
+{Full [COMBAT] block from extracts.md — header, per-PC table, party state}
+
+---
+
+## Encounter 2: ...
+```
 
 ---
 
@@ -322,6 +350,7 @@ canon. If it does, present flags to the DM and wait.
 | Session note (`wiki/sessions/session-{NN}.md`) | `recap.md` scenes |
 | Entity pages (NPCs, locations, items) | `recap.md` + `[NPC]`/`[ITEM]` extracts |
 | `wiki/dm/combat-analytics.md` | `[COMBAT]` extracts |
+| PC combat profiles (`wiki/dm/{pc}-combat-profile.md`) | `combat-summary.md` (via `pc-combat-primer`) |
 | `wiki/dm/player-interests.md` | `[SIGNAL]` extracts |
 | Situation and faction files | `[CANON]` extracts + `recap.md` |
 | `wiki/hot.md` | `recap.md` end state |
@@ -361,7 +390,7 @@ add new work at the end.
 | `resume` | "continue session N" | Read `handoff.md` → process next part |
 | `speakers` | "fix speakers", "who is Speaker 1" | Run Pass 1 only |
 | `extract` | "what happened in session N" | Run through Pass 2, report |
-| `combat` | "combat stats from session N" | Extract `[COMBAT]` blocks only |
+| `combat` | "combat stats from session N" | Extract `[COMBAT]` blocks with structured per-PC tables; produce `combat-summary.md` |
 
 ---
 
@@ -395,7 +424,8 @@ After all parts (before Pass 3):
 - `recap.md` covers full session timeline with no scene gaps between parts
 - `extracts.md` has tagged entries for every scene in the recap
 - `progress.txt` lists every part
-- Combat encounters have round counts and per-PC action summaries
+- Every `[COMBAT]` block uses the structured format: encounter header + per-PC table + party state (see `extraction-targets.md`)
+- If any combat occurred: `combat-summary.md` exists with all encounters compiled
 - `[SIGNAL]` blocks present if players showed clear engagement/disengagement
 - All unresolved items in `flags.md` presented to DM
 

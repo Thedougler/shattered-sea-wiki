@@ -43,25 +43,58 @@ Facts about the world that were established or confirmed, not events.
 
 ### [COMBAT] — Encounter Data
 
-Mechanical combat information for `combat-analytics.md`.
+Structured combat data for `pc-combat-primer` profiles and `combat-analytics.md`.
+Use the two-part format below: an encounter header followed by a per-PC table.
+This format feeds directly into combat profile session logs — capture it at
+extraction time so downstream skills don't re-process transcripts.
 
-- Encounter name/description and participants
-- Round count (if discernible from turn flow)
-- Per-PC actions: what each PC did on their turns
-- Damage dealt/taken (when stated or inferable)
-- Conditions, saves, DCs mentioned
+#### Encounter Header (one per encounter)
+
+- Encounter name/description
+- Participants: PCs present and enemy types with count
+- Round count (if discernible from turn flow; estimate with `~` if not)
+- Estimated CR/difficulty (from prep notes, DM commentary, or post-hoc)
+- Outcome: victory / retreat / social resolution / interrupted
+- Downs, death saves, healing administered
 - Tactical observations: what worked, what didn't
-- Downs, healing, death saves
+
+#### Per-PC Combat Table (mandatory for each participating PC)
+
+| PC | Rounds | Damage Dealt | Damage Taken | Hits/Attacks | Saves (Pass/Fail) | Resources Spent | Key Moment |
+|---|---|---|---|---|---|---|---|
+
+Column rules:
+- **Damage Dealt/Taken**: exact when stated, `~` prefix for estimates, `[unknown]` if not discernible
+- **Hits/Attacks**: e.g. `2/3` — use `[unknown]` for either half if not discernible
+- **Saves**: saves forced on the PC, e.g. `1/1` (1 passed of 1 forced) — omit if none
+- **Resources Spent**: abilities, spell slots, class features, items consumed
+- **Key Moment**: 1 notable tactical action, synergy, or failure
+
+A PC who was present but dealt 0 damage or was incapacitated still gets a row.
+Negative data feeds the counter profile.
+
+#### Party State (append after the table)
+
+- HP status per PC at encounter end (exact if stated, `low`/`healthy` if described)
+- Rest before next encounter (short/long/none/unknown)
+- Concentration spells still active
 
 ```markdown
 ### [COMBAT]
-- Encounter: Kyzil sparring match
-- Participants: Crissdalynn vs Kyzil
-- Rounds: ~4 (estimated from turn flow)
-- Notable: Kyzil landed a heavy hit (Crissdalynn at 12 HP), Perrin used healing word
-- DCs mentioned: DC 19 Strength save
-- Bardic inspiration used
-  Source: lines 1840–2150
+**Encounter:** Kyzil sparring match (non-lethal 4v1)
+**Enemies:** Kyzil (1) | Est. CR: ~14
+**Rounds:** 3 | **Outcome:** loss (Kyzil won)
+**Healing:** Perrin cast Healing Word on Crissdalynn
+
+| PC | Rounds | Damage Dealt | Damage Taken | Hits/Attacks | Saves (Pass/Fail) | Resources Spent | Key Moment |
+|---|---|---|---|---|---|---|---|
+| Delmar | 3 | 17 | ~29 | 1/[unknown] | — | — | SA through Empty Wing via inspiration; dropped to 2 HP |
+| Crissdalynn | 3 | ~12 | [unknown] | [unknown] | — | 1 focus point (Stunning Strike) | Grappled R1 (nat 1 contest); stunning strike failed |
+| Perrin | 3 | [unknown] | [unknown] | [unknown] | — | 1 Bardic Inspiration, 1 spell slot (Healing Word) | Inspiration enabled Delmar's SA |
+| Jean-Claude | 3 | [unknown] | [unknown] | [unknown] | — | — | [no notable moment recorded] |
+
+**Party state:** Delmar 2 HP, Crissdalynn ~12 HP, others healthy. No rest before next scene.
+Source: part03 lines 1840–2150
 ```
 
 ### [RULING] — Mechanical Decisions

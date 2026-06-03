@@ -16,12 +16,19 @@ losing fidelity or introducing assumptions.
 
 When extracting combat data, prefer sources in this order:
 
-1. **Session scene files** (`wiki/sessions/session-{NN}-scene-*`) — most structured
-2. **Session transcripts** (if available in `.raw/` or `Inbox/`) — most detailed
-3. **Session recaps** (`wiki/sessions/session-{NN}-recap.md`) — least granular
+1. **Session-ingest combat summary** (`audio/sessions/session{NN}/combat-summary.md`)
+   — already structured with per-PC tables and encounter headers. If this exists,
+   it is the primary source — skip re-processing transcripts.
+2. **Session-ingest extracts** (`audio/sessions/session{NN}/extracts.md`, `[COMBAT]` blocks)
+   — same data, interleaved with other tags. Use if combat-summary.md doesn't exist yet.
+3. **Session scene files** (`wiki/sessions/session-{NN}-scene-*`) — structured but
+   may lack per-PC granularity.
+4. **Session recaps** (`wiki/sessions/session-{NN}-recap.md`) — least granular,
+   last resort.
 
-Scene files with `## What Happened (Played)` sections are ideal — they often contain
-specific dice rolls, damage numbers, and round-by-round action.
+The `session-ingest` skill produces combat data in the structured format this
+protocol expects (encounter header + per-PC table + party state). When that
+output exists, extraction is a mapping exercise, not a re-read of transcripts.
 
 ---
 
@@ -95,12 +102,14 @@ If Perrin's Bardic Inspiration turned Delmar's miss into a hit:
 
 ## Extraction Procedure
 
-### Step 1: Identify Combat Scenes
+### Step 1: Identify Combat Data
 
-Scan the session's scene files for:
-- `tags: [combat]` in frontmatter
-- `## What Happened (Played)` sections
-- Initiative descriptions, attack rolls, damage numbers
+Check sources in priority order (see Source Priority above):
+- If `audio/sessions/session{NN}/combat-summary.md` exists → use it directly,
+  skip to Step 3
+- If `extracts.md` exists with `[COMBAT]` blocks → compile them, skip to Step 3
+- Otherwise scan scene files for `tags: [combat]`, `## What Happened (Played)`,
+  initiative descriptions, attack rolls, damage numbers
 
 ### Step 2: Build Round-by-Round if Possible
 
@@ -202,11 +211,30 @@ Relevant transcript data:
 ## Integration with Session Ingest
 
 When `session-ingest` processes a session with combat:
-1. Session-ingest creates scene files with `## What Happened` sections
-2. This skill's extraction protocol runs against those scenes
-3. PC profiles are updated with new session log entries
-4. If 2+ new encounters are logged, recalculate averages
-5. Flag party profile as stale
 
-The ingest skill should note in its output: "Combat data available for primer update"
-when it processes combat scenes.
+1. Session-ingest extracts `[COMBAT]` blocks with per-PC tables during Pass 2
+2. After the final part, session-ingest compiles all `[COMBAT]` blocks into
+   `audio/sessions/session{NN}/combat-summary.md`
+3. The handoff notes: "Combat data available — run pc-combat-primer to update
+   affected profiles."
+4. This skill reads `combat-summary.md` and maps each per-PC table row directly
+   to a session combat log entry (the columns are 1:1)
+5. PC profiles are updated with new session log entries
+6. If 2+ new encounters are logged, recalculate observed averages
+7. Flag party profile as stale
+
+### Field Mapping: combat-summary.md → Session Combat Log
+
+| combat-summary column | Profile log column | Notes |
+|---|---|---|
+| PC | (row identity) | Match to `{pc-slug}` |
+| Rounds | Rounds | Direct |
+| Damage Dealt | Damage dealt | Direct |
+| Damage Taken | Damage taken | Direct |
+| Hits/Attacks | Hits/attacks | Direct |
+| Saves (Pass/Fail) | — | Record in calibration notes if notable |
+| Resources Spent | — | Record in resource economy observations |
+| Key Moment | Key moments | Direct |
+
+Encounter-level fields (enemy types, CR, outcome) go in the log entry's
+encounter name and the calibration notes section.

@@ -27,6 +27,13 @@ class Config:
     chunk_silence_gap: float = 2.0
     inbox_path: Path = Path("Inbox")
 
+    # v2 persona identification
+    actor_threshold: float = 0.7
+    persona_threshold: float = 0.6
+    persona_margin: float = 0.05
+    prosody_weight: float = 0.3
+    max_exemplars: int = 8
+
     @classmethod
     def load(cls, path: Path | None = None) -> Config:
         candidates = [
@@ -38,6 +45,11 @@ class Config:
             if candidate and candidate.exists():
                 with open(candidate) as f:
                     data = yaml.safe_load(f) or {}
+
+                # actor_threshold falls back to speaker_threshold for compat
+                speaker_thresh = data.get("speaker_threshold", cls.speaker_threshold)
+                actor_thresh = data.get("actor_threshold", speaker_thresh)
+
                 return cls(
                     vault_path=Path(data.get("vault_path", ".")),
                     whisper_model=data.get("whisper_model", cls.whisper_model),
@@ -47,10 +59,15 @@ class Config:
                     mic_names=data.get("mic_names", []),
                     channel_priors=data.get("channel_priors", {}),
                     channel_boost=data.get("channel_boost", cls.channel_boost),
-                    speaker_threshold=data.get("speaker_threshold", cls.speaker_threshold),
+                    speaker_threshold=speaker_thresh,
                     profiles_dir=Path(data.get("profiles_dir", cls.profiles_dir)),
                     chunk_target_minutes=data.get("chunk_target_minutes", cls.chunk_target_minutes),
                     chunk_silence_gap=data.get("chunk_silence_gap", cls.chunk_silence_gap),
                     inbox_path=Path(data.get("inbox_path", cls.inbox_path)),
+                    actor_threshold=actor_thresh,
+                    persona_threshold=data.get("persona_threshold", cls.persona_threshold),
+                    persona_margin=data.get("persona_margin", cls.persona_margin),
+                    prosody_weight=data.get("prosody_weight", cls.prosody_weight),
+                    max_exemplars=data.get("max_exemplars", cls.max_exemplars),
                 )
         return cls()

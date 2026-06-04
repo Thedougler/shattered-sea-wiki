@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 
 from .chunker import Chunk
-from .profiles import VoiceProfile, identify_speaker
+from .profiles import ActorProfile, VoiceProfile, identify_speaker, identify_speaker_v2
 
 logger = logging.getLogger(__name__)
 
@@ -27,18 +27,28 @@ class ColdPass:
         session_number: int,
         model: str = "mlx-community/whisper-large-v3-mlx",
         profiles: dict[str, VoiceProfile] | None = None,
+        actors: dict[str, ActorProfile] | None = None,
         channel_priors: dict[str, str] | None = None,
         channel_boost: float = 0.15,
         speaker_threshold: float = 0.7,
+        actor_threshold: float = 0.7,
+        persona_threshold: float = 0.6,
+        persona_margin: float = 0.05,
+        prosody_weight: float = 0.3,
         skip_diarize: bool = False,
     ):
         self.output_dir = output_dir
         self.session_number = session_number
         self.model = model
         self.profiles = profiles or {}
+        self.actors = actors or {}
         self.channel_priors = channel_priors
         self.channel_boost = channel_boost
         self.speaker_threshold = speaker_threshold
+        self.actor_threshold = actor_threshold
+        self.persona_threshold = persona_threshold
+        self.persona_margin = persona_margin
+        self.prosody_weight = prosody_weight
         self.skip_diarize = skip_diarize
 
     async def process_chunk(self, chunk: Chunk) -> Path:
@@ -68,16 +78,14 @@ class ColdPass:
             except Exception as e:
                 logger.warning("Diarization unavailable: %s", e)
 
-        # Speaker identification: voice profiles take precedence, diarization fills gaps
+        # Speaker identification: v2 actors > v1 profiles > diarization
         speaker_confidences: dict[str, list[float]] = {}
+        speaker_actors_map: dict[str, str] = {}
 
         for seg in segments:
-            # Try voice profile match first using the audio from the utterance
-            # that best overlaps this segment
             best_utterance = None
             best_overlap = 0.0
             for utt in chunk.utterances:
-                # Adjust utterance times relative to chunk start
                 utt_start_rel = utt.start - chunk.start_time
                 utt_end_rel = utt.end - chunk.start_time
                 overlap = min(seg.end, utt_end_rel) - max(seg.start, utt_start_rel)
@@ -85,7 +93,27 @@ class ColdPass:
                     best_overlap = overlap
                     best_utterance = utt
 
-            if best_utterance and self.profiles:
+            if best_utterance and self.actors:
+                match = identify_speaker_v2(
+                    best_utterance.audio,
+                    self.actors,
+                    source_mic=best_utterance.source_mic_id,
+                    channel_priors=self.channel_priors,
+                    channel_boost=self.channel_boost,
+                    actor_threshold=self.actor_threshold,
+                    persona_threshold=self.persona_threshold,
+                    persona_margin=self.persona_margin,
+                    prosody_weight=self.prosody_weight,
+                    use_prosody=True,
+                )
+                if match:
+                    seg.speaker = match.name
+                    if match.name not in speaker_confidences:
+                        speaker_confidences[match.name] = []
+                    speaker_confidences[match.name].append(match.confidence)
+                    if match.persona and match.actor:
+                        speaker_actors_map[match.persona] = match.actor
+            elif best_utterance and self.profiles:
                 match = identify_speaker(
                     best_utterance.audio,
                     self.profiles,
@@ -100,7 +128,6 @@ class ColdPass:
                         speaker_confidences[match.name] = []
                     speaker_confidences[match.name].append(match.confidence)
 
-            # Fall back to diarization label if no profile match
             if not seg.speaker and diar_segments:
                 best_diar = None
                 best_diar_overlap = 0.0
@@ -112,13 +139,11 @@ class ColdPass:
                 if best_diar:
                     seg.speaker = best_diar
 
-        # Compute average confidence per speaker
         avg_confidence = {
             name: round(sum(scores) / len(scores), 2)
             for name, scores in speaker_confidences.items()
         }
 
-        # Format output
         speakers_detected = sorted(set(s.speaker for s in segments if s.speaker))
         time_range_str = f"{format_timestamp(chunk.start_time)}-{format_timestamp(chunk.end_time)}"
 
@@ -138,6 +163,9 @@ class ColdPass:
 
         if avg_confidence:
             lines.append(f"speaker_confidence: {avg_confidence}")
+
+        if speaker_actors_map:
+            lines.append(f"speaker_actors: {speaker_actors_map}")
 
         lines.append(f'model: "{self.model}"')
 

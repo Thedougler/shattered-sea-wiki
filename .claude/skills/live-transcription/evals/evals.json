@@ -17,12 +17,12 @@
     {
       "id": 2,
       "prompt": "I ran a live session last night and a lot of the speaker labels came back as UNKNOWN. How do I fix the existing transcript and improve future accuracy?",
-      "expected_output": "Should cover: manual correction of speaker labels in chunk markdown, shattered-audio retrain command, adjusting speaker_threshold, re-enrolling with longer samples, checking speaker_confidence scores in frontmatter.",
+      "expected_output": "Should cover: manual correction of speaker labels in chunk markdown, shattered-audio retrain command, adjusting actor_threshold, re-enrolling with longer samples, checking speaker_confidence scores in frontmatter.",
       "files": [],
       "assertions": [
         {"text": "Explains how to manually correct speaker labels in chunk markdown files"},
         {"text": "Mentions the shattered-audio retrain command for updating profiles from corrections"},
-        {"text": "Mentions adjusting speaker_threshold as a tuning lever"},
+        {"text": "Mentions adjusting actor_threshold as a tuning lever"},
         {"text": "Notes that short utterances (<2s) are a known cause of UNKNOWN labels"},
         {"text": "Suggests re-enrolling with longer audio samples to improve profile quality"},
         {"text": "Mentions checking speaker_confidence in chunk frontmatter for diagnostics"}
@@ -39,6 +39,33 @@
         {"text": "Directs user to accept the model license at the HuggingFace model page"},
         {"text": "Explains why hot pass works (uses whisper, no pyannote) while cold pass fails (uses pyannote diarization)"},
         {"text": "Mentions that cold pass can still work without diarization (graceful fallback)"}
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I'm the DM and I do voices for several NPCs — Thunk has a deep growly voice and Grigori speaks with a higher-pitched accent. How do I set up the transcription to tell these characters apart from my normal voice?",
+      "expected_output": "Should explain the actor/persona system: first enroll as actor with --dm flag, then enroll each character voice as a persona under the actor using --actor flag. Mention exemplar embeddings and prosody features.",
+      "files": [],
+      "assertions": [
+        {"text": "Mentions enrolling the DM as an actor first with the --dm flag"},
+        {"text": "Shows the --actor flag for enrolling character voices (personas) under the actor"},
+        {"text": "Suggests enrolling each character voice separately with distinctive samples"},
+        {"text": "Mentions that re-enrolling adds more exemplar embeddings for accuracy"},
+        {"text": "Explains that distinctive pitch/energy differences help persona separation via prosody"},
+        {"text": "Notes graceful degradation: if persona can't be distinguished, falls back to actor name"}
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "The transcription correctly identifies me (Nick) but it never picks up when I'm doing Thunk's voice — it just labels everything as Nick. How do I improve persona detection?",
+      "expected_output": "Should cover persona debugging: check persona_threshold, persona_margin, prosody_weight settings, re-enroll Thunk with more exaggerated samples, use shattered-audio profiles to check prosody stats, consider that very similar voices may not separate.",
+      "files": [],
+      "assertions": [
+        {"text": "Suggests checking and lowering persona_threshold for more aggressive detection"},
+        {"text": "Recommends re-enrolling the persona with more distinctive voice samples"},
+        {"text": "Mentions shattered-audio profiles command to view prosody stats"},
+        {"text": "Suggests increasing prosody_weight if the character differs mainly in pitch/rate"},
+        {"text": "Explains that d-vectors encode vocal tract identity — persona separation relies on prosodic differences"}
       ]
     }
   ]

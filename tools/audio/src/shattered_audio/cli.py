@@ -160,13 +160,23 @@ def live(
     console.print(f"  Fast model: {cfg.whisper_model_fast}")
     console.print(f"  Accurate model: {cfg.whisper_model}")
 
-    from .profiles import load_profiles
+    from .profiles import load_actor_profiles, load_profiles
 
-    profiles = load_profiles(cfg.profiles_dir)
-    if profiles:
-        console.print(f"  Voice profiles: {', '.join(p.name for p in profiles.values())}")
+    actors = load_actor_profiles(cfg.profiles_dir)
+    if actors:
+        for slug, actor in actors.items():
+            personas = [p.name for p in actor.personas.values()]
+            dm_tag = " (DM)" if actor.is_dm else ""
+            if personas:
+                console.print(f"  Voice: {actor.name}{dm_tag} + personas: {', '.join(personas)}")
+            else:
+                console.print(f"  Voice: {actor.name}{dm_tag}")
     else:
-        console.print("  [yellow]No voice profiles loaded[/yellow]")
+        profiles = load_profiles(cfg.profiles_dir)
+        if profiles:
+            console.print(f"  Voice profiles: {', '.join(p.name for p in profiles.values())}")
+        else:
+            console.print("  [yellow]No voice profiles loaded[/yellow]")
 
     console.print("\n[dim]Press Ctrl+C to stop recording[/dim]\n")
 
@@ -185,50 +195,19 @@ def live(
 
 
 @app.command()
-def retrain(
-    transcript: Path = typer.Argument(..., help="Path to corrected transcript markdown"),
-    audio_dir: Optional[Path] = typer.Option(
-        None, "--audio-dir", help="Directory containing chunk WAV files"
-    ),
-    blend: float = typer.Option(
-        0.7, "--blend", help="Weight for new data (0-1, higher = more new)"
-    ),
-    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
-) -> None:
-    """Retrain voice profiles from a corrected transcript."""
-    cfg = Config.load(config_path)
-
-    if not transcript.exists():
-        console.print(f"[red]Transcript not found: {transcript}[/red]")
-        raise typer.Exit(1)
-
-    wav_dir = audio_dir or transcript.parent
-
-    from .profiles import retrain_from_transcript
-
-    console.print(f"[bold]Retraining profiles from {transcript}[/bold]")
-    console.print(f"  Audio dir: {wav_dir}")
-    console.print(f"  Blend: {1 - blend:.0%} old + {blend:.0%} new")
-
-    updated = retrain_from_transcript(transcript, wav_dir, cfg.profiles_dir, blend_old=1 - blend)
-
-    for slug, profile in updated.items():
-        console.print(f"  [green]{profile.name}[/green]: {profile.sample_count} samples")
-
-    if not updated:
-        console.print("[yellow]No profiles updated (no labeled speakers found)[/yellow]")
-
-
-@app.command()
 def enroll(
-    name: str = typer.Argument(..., help="Speaker name"),
+    name: str = typer.Argument(..., help="Speaker or character name"),
     audio_file: Optional[Path] = typer.Argument(None, help="Audio file for enrollment"),
     record: Optional[int] = typer.Option(
         None, "--record", "-r", help="Record N seconds from default mic instead of using a file"
     ),
+    actor: Optional[str] = typer.Option(
+        None, "--actor", "-a", help="Enroll as a character voice (persona) under this actor"
+    ),
+    dm: bool = typer.Option(False, "--dm", help="Mark this actor as the DM"),
     config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
 ) -> None:
-    """Enroll a speaker voice profile for identification."""
+    """Enroll a voice profile — actor (default) or character persona (--actor)."""
     cfg = Config.load(config_path)
 
     if record:
@@ -243,24 +222,164 @@ def enroll(
         )
         sd.wait()
         samples = audio[:, 0]
-
-        from .profiles import enroll_from_audio
-
-        profile = enroll_from_audio(name, samples, cfg.profiles_dir)
     elif audio_file:
         if not audio_file.exists():
             console.print(f"[red]File not found: {audio_file}[/red]")
             raise typer.Exit(1)
 
-        from .profiles import enroll_from_file
+        from pydub import AudioSegment
 
-        console.print(f"[bold]Enrolling '{name}' from {audio_file}[/bold]")
-        profile = enroll_from_file(name, audio_file, cfg.profiles_dir)
+        seg = AudioSegment.from_file(str(audio_file))
+        seg = seg.set_channels(1).set_frame_rate(16000).set_sample_width(2)
+        import numpy as np
+
+        samples = np.array(seg.get_array_of_samples(), dtype=np.float32) / 32768.0
     else:
         console.print("[red]Provide an audio file or use --record N[/red]")
         raise typer.Exit(1)
 
-    console.print(f"[green]Enrolled '{profile.name}' ({profile.sample_count} sample(s))[/green]")
+    if actor:
+        from .profiles import enroll_persona
+
+        console.print(f"[bold]Enrolling persona '{name}' under actor '{actor}'[/bold]")
+        try:
+            result = enroll_persona(
+                name, actor, samples, cfg.profiles_dir, max_exemplars=cfg.max_exemplars
+            )
+        except ValueError as e:
+            console.print(f"[red]{e}[/red]")
+            raise typer.Exit(1)
+        persona = result.personas.get(name.lower().replace(" ", "-"))
+        count = persona.sample_count if persona else 1
+        console.print(
+            f"[green]Enrolled persona '{name}' under '{actor}' ({count} sample(s))[/green]"
+        )
+    else:
+        from .profiles import enroll_actor
+
+        console.print(f"[bold]Enrolling actor '{name}'[/bold]")
+        result = enroll_actor(name, samples, cfg.profiles_dir, is_dm=dm)
+        dm_tag = " (DM)" if result.is_dm else ""
+        console.print(
+            f"[green]Enrolled '{result.name}'{dm_tag} ({result.sample_count} sample(s))[/green]"
+        )
+
+
+@app.command()
+def profiles(
+    actor_name: Optional[str] = typer.Argument(None, help="Show detail for a specific actor"),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """List all voice profiles — actors and their character personas."""
+    cfg = Config.load(config_path)
+
+    from .profiles import load_actor_profiles
+
+    actors = load_actor_profiles(cfg.profiles_dir)
+
+    if not actors:
+        console.print("[yellow]No voice profiles found[/yellow]")
+        console.print(f"[dim]Profiles dir: {cfg.profiles_dir}[/dim]")
+        raise typer.Exit(0)
+
+    if actor_name:
+        slug = actor_name.lower().replace(" ", "-")
+        if slug not in actors:
+            console.print(f"[red]Actor '{actor_name}' not found[/red]")
+            raise typer.Exit(1)
+        actor = actors[slug]
+        dm_tag = " (DM)" if actor.is_dm else ""
+        mic_info = f", mics: {actor.associated_mics}" if actor.associated_mics else ""
+        console.print(f"[bold]{actor.name}{dm_tag}[/bold] — {actor.sample_count} samples{mic_info}")
+        if actor.prosody:
+            p = actor.prosody
+            console.print(
+                f"  Prosody: pitch={p.pitch_mean:.0f}Hz (std={p.pitch_std:.0f}), "
+                f"range={p.pitch_range:.0f}Hz, rate={p.speaking_rate:.1f}/s"
+            )
+        if actor.personas:
+            for p_slug, persona in actor.personas.items():
+                exemplar_count = (
+                    len(persona.exemplar_embeddings) if persona.exemplar_embeddings else 0
+                )
+                console.print(
+                    f"  [cyan]{persona.name}[/cyan] — {persona.sample_count} samples, "
+                    f"{exemplar_count} exemplars"
+                )
+                if persona.prosody:
+                    pp = persona.prosody
+                    console.print(
+                        f"    Prosody: pitch={pp.pitch_mean:.0f}Hz (std={pp.pitch_std:.0f}), "
+                        f"range={pp.pitch_range:.0f}Hz, rate={pp.speaking_rate:.1f}/s"
+                    )
+        else:
+            console.print("  [dim](no character voices)[/dim]")
+        return
+
+    console.print("[bold]Voice Profiles[/bold]\n")
+    for slug, actor in sorted(actors.items()):
+        dm_tag = " (DM)" if actor.is_dm else ""
+        mic_info = f", mic: {', '.join(actor.associated_mics)}" if actor.associated_mics else ""
+        console.print(
+            f"  [bold]{actor.name}{dm_tag}[/bold] — {actor.sample_count} samples{mic_info}"
+        )
+        if actor.personas:
+            items = list(actor.personas.items())
+            for i, (p_slug, persona) in enumerate(items):
+                prefix = "└──" if i == len(items) - 1 else "├──"
+                console.print(
+                    f"    {prefix} [cyan]{persona.name}[/cyan] — {persona.sample_count} samples"
+                )
+        else:
+            console.print("    [dim](no character voices)[/dim]")
+
+
+@app.command()
+def retrain(
+    transcript: Path = typer.Argument(..., help="Path to corrected transcript markdown"),
+    audio_dir: Optional[Path] = typer.Option(
+        None, "--audio-dir", help="Directory containing chunk WAV files"
+    ),
+    blend: float = typer.Option(
+        0.7, "--blend", help="Weight for new data (0-1, higher = more new)"
+    ),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+    legacy: bool = typer.Option(False, "--legacy", help="Use v1 flat profile retraining"),
+) -> None:
+    """Retrain voice profiles from a corrected transcript."""
+    cfg = Config.load(config_path)
+
+    if not transcript.exists():
+        console.print(f"[red]Transcript not found: {transcript}[/red]")
+        raise typer.Exit(1)
+
+    wav_dir = audio_dir or transcript.parent
+
+    console.print(f"[bold]Retraining profiles from {transcript}[/bold]")
+    console.print(f"  Audio dir: {wav_dir}")
+    console.print(f"  Blend: {1 - blend:.0%} old + {blend:.0%} new")
+
+    if legacy:
+        from .profiles import retrain_from_transcript
+
+        updated = retrain_from_transcript(
+            transcript, wav_dir, cfg.profiles_dir, blend_old=1 - blend
+        )
+        for slug, profile in updated.items():
+            console.print(f"  [green]{profile.name}[/green]: {profile.sample_count} samples")
+    else:
+        from .profiles import retrain_from_transcript_v2
+
+        updated = retrain_from_transcript_v2(
+            transcript, wav_dir, cfg.profiles_dir, blend_old=1 - blend
+        )
+        for slug, actor in updated.items():
+            console.print(f"  [green]{actor.name}[/green]: {actor.sample_count} samples")
+            for p_slug, persona in actor.personas.items():
+                console.print(f"    [cyan]{persona.name}[/cyan]: {persona.sample_count} samples")
+
+    if not updated:
+        console.print("[yellow]No profiles updated (no labeled speakers found)[/yellow]")
 
 
 @app.command()

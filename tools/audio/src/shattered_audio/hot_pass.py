@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 
 from .capture import SAMPLE_RATE
-from .profiles import VoiceProfile, identify_speaker
+from .profiles import ActorProfile, VoiceProfile, identify_speaker, identify_speaker_v2
 from .vad import Utterance
 
 logger = logging.getLogger(__name__)
@@ -39,18 +39,28 @@ class HotPass:
         session_number: int,
         model: str = "mlx-community/whisper-medium-mlx",
         profiles: dict[str, VoiceProfile] | None = None,
+        actors: dict[str, ActorProfile] | None = None,
         channel_priors: dict[str, str] | None = None,
         channel_boost: float = 0.15,
         speaker_threshold: float = 0.7,
+        actor_threshold: float = 0.7,
+        persona_threshold: float = 0.6,
+        persona_margin: float = 0.05,
+        prosody_weight: float = 0.3,
         mic_names: dict[str, str] | None = None,
     ):
         self.output_path = output_path
         self.session_number = session_number
         self.model = model
         self.profiles = profiles or {}
+        self.actors = actors or {}
         self.channel_priors = channel_priors
         self.channel_boost = channel_boost
         self.speaker_threshold = speaker_threshold
+        self.actor_threshold = actor_threshold
+        self.persona_threshold = persona_threshold
+        self.persona_margin = persona_margin
+        self.prosody_weight = prosody_weight
         self.mic_names = mic_names or {}
         self._line_count = 0
         self._initialized = False
@@ -110,15 +120,30 @@ class HotPass:
         if not text:
             return None
 
-        # Identify speaker
-        match = identify_speaker(
-            utterance.audio,
-            self.profiles,
-            source_mic=utterance.source_mic_id,
-            channel_priors=self.channel_priors,
-            channel_boost=self.channel_boost,
-            threshold=self.speaker_threshold,
-        )
+        # Identify speaker — prefer v2 actors, fall back to v1 profiles
+        match = None
+        if self.actors:
+            match = identify_speaker_v2(
+                utterance.audio,
+                self.actors,
+                source_mic=utterance.source_mic_id,
+                channel_priors=self.channel_priors,
+                channel_boost=self.channel_boost,
+                actor_threshold=self.actor_threshold,
+                persona_threshold=self.persona_threshold,
+                persona_margin=self.persona_margin,
+                prosody_weight=self.prosody_weight,
+                use_prosody=True,
+            )
+        elif self.profiles:
+            match = identify_speaker(
+                utterance.audio,
+                self.profiles,
+                source_mic=utterance.source_mic_id,
+                channel_priors=self.channel_priors,
+                channel_boost=self.channel_boost,
+                threshold=self.speaker_threshold,
+            )
 
         speaker = match.name if match else _next_unknown()
         ts = format_timestamp(utterance.start)

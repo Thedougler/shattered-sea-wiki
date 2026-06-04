@@ -11,7 +11,7 @@ from .chunker import Chunk, ChunkManager
 from .cold_pass import ColdPass
 from .config import Config
 from .hot_pass import HotPass
-from .profiles import VoiceProfile, load_profiles
+from .profiles import ActorProfile, VoiceProfile, load_actor_profiles, load_profiles
 from .vad import Utterance, VoiceActivityDetector
 
 logger = logging.getLogger(__name__)
@@ -33,10 +33,15 @@ class LiveSession:
         self._utterance_count = 0
         self._chunk_count = 0
 
-        # Load voice profiles
-        self.profiles: dict[str, VoiceProfile] = load_profiles(config.profiles_dir)
-        if self.profiles:
-            logger.info("Loaded %d voice profiles", len(self.profiles))
+        # Load voice profiles — prefer v2 actor profiles, keep v1 as fallback
+        self.actors: dict[str, ActorProfile] = load_actor_profiles(config.profiles_dir)
+        self.profiles: dict[str, VoiceProfile] = {}
+        if self.actors:
+            logger.info("Loaded %d actor profiles", len(self.actors))
+        else:
+            self.profiles = load_profiles(config.profiles_dir)
+            if self.profiles:
+                logger.info("Loaded %d legacy voice profiles", len(self.profiles))
 
         # Build channel priors from config
         self.channel_priors = config.channel_priors
@@ -78,9 +83,14 @@ class LiveSession:
             session_number=self.session_number,
             model=self.config.whisper_model_fast,
             profiles=self.profiles,
+            actors=self.actors,
             channel_priors=self.channel_priors,
             channel_boost=self.config.channel_boost,
             speaker_threshold=self.config.speaker_threshold,
+            actor_threshold=self.config.actor_threshold,
+            persona_threshold=self.config.persona_threshold,
+            persona_margin=self.config.persona_margin,
+            prosody_weight=self.config.prosody_weight,
             mic_names=self._capture.mic_names,
         )
         self._hot_pass.init_if_needed(active_mics)
@@ -91,9 +101,14 @@ class LiveSession:
             session_number=self.session_number,
             model=self.config.whisper_model,
             profiles=self.profiles,
+            actors=self.actors,
             channel_priors=self.channel_priors,
             channel_boost=self.config.channel_boost,
             speaker_threshold=self.config.speaker_threshold,
+            actor_threshold=self.config.actor_threshold,
+            persona_threshold=self.config.persona_threshold,
+            persona_margin=self.config.persona_margin,
+            prosody_weight=self.config.prosody_weight,
         )
 
         # Chunker

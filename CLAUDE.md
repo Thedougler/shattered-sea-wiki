@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repo Is
 
-An LLM-assisted D&D 5e (2024) campaign wiki ("Shattered Sea") that is both an **Obsidian vault** (`wiki/`) and a **Claude Code agent workspace** (`.claude/`). A companion **player-view** NiceGUI app (`player-view/`) handles live voice profiling, transcription, and OBS-ready overlays.
+An LLM-assisted D&D 5e (2024) campaign wiki ("Shattered Sea") that is both an **Obsidian vault** (`wiki/`) and a **Claude Code agent workspace** (`.claude/`).
 
 **System:** D&D 5e 2024 | **Style:** Sandbox | **Status:** Active
 
@@ -110,8 +110,8 @@ live in `~/.claude/CLAUDE.md` and apply here. Project-specific deltas only:
 | `ingest:` | Source material processed into wiki |
 | `curation:` | Content quality improvements |
 | `prep:` | Prep-skill outputs (encounters, NPCs, locations, items, etc.) |
-| `feat:` | New features in packages, player-view, or scripts |
-| `refactor:` | Code restructuring in packages, player-view, or scripts |
+| `feat:` | New features in packages or scripts |
+| `refactor:` | Code restructuring in packages or scripts |
 
 ---
 

@@ -14,7 +14,6 @@ const SKIP_BASENAMES = new Set([
 const COMPACT_GROUPS = new Set([
   'entities/items',
   'entities/creatures',
-  'entities/species',
   'rules/backgrounds',
   'rules/classes',
   'rules/subclasses',

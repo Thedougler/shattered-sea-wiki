@@ -45,7 +45,6 @@ SKIP_BASENAMES = {
 COMPACT_GROUPS = {
     "entities/items",
     "entities/creatures",
-    "entities/species",
     "rules/backgrounds",
     "rules/classes",
     "rules/subclasses",

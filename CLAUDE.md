@@ -32,7 +32,6 @@ Read that file — do not rely on summaries here.
 | `packages/lib/` | `@shattered-sea/lib` — shared TS library (vault, frontmatter, schema, wikilinks, taxonomy). |
 | `packages/cli/` | `@shattered-sea/cli` — `sea` CLI (fix, index, taxonomy). Thin wrappers around lib. |
 | `tools/audio/` | `shattered-audio` — Python tool for session transcription + diarization (separate venv). |
-| `player-view/` | NiceGUI web app — voice profiling, live transcription, OBS overlays. Has its own `CLAUDE.md`. |
 | `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
 
 ---
@@ -78,12 +77,17 @@ lifecycle decisions (e.g. moving a situation active → resolved).
 
 ## Scripts & Commands
 
-Script catalog and commands: `.claude/scripts/README.md`. player-view setup: `player-view/CLAUDE.md`.
+Script catalog and commands: `.claude/scripts/README.md`.
 
 ### Monorepo (pnpm workspace)
 
-- `pnpm -r build` — build all TS packages. `pnpm --filter @shattered-sea/lib test` for lib tests.
-- `pnpm --filter shattered-sea-wiki-ui build` — build UI (filter name is the package.json `name`, not the directory).
+- `pnpm build` — build all TS packages. `pnpm build:lib`, `build:cli`, `build:ui` for individual packages.
+- `pnpm dev` — start UI dev server (`:4321`). `pnpm dev:lib` for lib watch mode.
+- `pnpm test` / `pnpm test:lib` — run tests. `pnpm test:watch` for interactive Vitest.
+- `pnpm typecheck` — fast `tsc --noEmit` across lib + cli.
+- `pnpm lint` / `pnpm lint:fix` — Biome lint + format check (or auto-fix).
+- `pnpm check` — typecheck + lint in one command.
+- `pnpm clean` — remove all dist/build artifacts.
 - `node packages/cli/dist/cli.js <command>` — run sea CLI (or `npx sea` if linked).
 - UI imports `@shattered-sea/lib` — delete nothing from `packages/lib/src/` without checking UI builds.
 - The lib uses standalone `zod`, not `astro/zod`. Astro content validation works but JSON schema generation warns.

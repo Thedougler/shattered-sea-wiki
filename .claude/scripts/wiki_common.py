@@ -120,6 +120,7 @@ def infer_subtype(relpath: str) -> str:
         ("wiki/entities/places/settlements/", "settlement"),
         ("wiki/entities/places/buildings/", "building"),
         ("wiki/entities/places/dungeons/", "dungeon"),
+        ("wiki/entities/places/sites/", "site"),
         ("wiki/entities/places/planes/", "plane"),
         ("wiki/entities/places/", "place"),
         ("wiki/entities/factions/", "faction"),

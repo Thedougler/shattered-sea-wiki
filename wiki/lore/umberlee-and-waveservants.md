@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Public lore on Umberlee and the Waveservants: the feared sea goddess, her practical clergy, and the tribute customs sailors treat as port infrastructure."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-04
 tags:
   - umberlee
   - waveservants

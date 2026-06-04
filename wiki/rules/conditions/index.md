@@ -9,7 +9,7 @@ subtype: conditions-index
 status: active
 campaign: shattered-sea
 created: 2026-05-03
-updated: 2026-06-02
+updated: 2026-06-04
 
 sources:
 - PHB 2024

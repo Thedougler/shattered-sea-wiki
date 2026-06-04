@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The Crown's primary naval base in the Shattered Sea — home of the Harwick Naval Yard, the regional fleet anchorage, and the Admiralty that administers Crown military operations across the Scatter."
 created: '2026-05-29'
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - dravosi
 sources:

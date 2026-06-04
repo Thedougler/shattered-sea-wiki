@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Umberlee's shrine at the Port Tidefall Dockfront — cut into the cliff base, bare stone, a seawater basin, tallow candles. Mariners pay before they sail or after they survive.
 created: 2026-05-05
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - umberlee
 sources:

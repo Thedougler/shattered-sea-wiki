@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A standard household oil lantern — clear glass, iron frame, reliable in any weather that isn't actually outdoor weather."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - player-resource
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Very low-alcohol fermented grain drink — safer than untreated water on long passages, without the intoxicating effects of real ale."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - homebrew
 sources:

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Sole known living Antheri, bound by soul-pledge to guard Antheri creations. Woke when the Leviathan forced through the Drowned Maw fissure."
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - antheri
   - drowned-maw

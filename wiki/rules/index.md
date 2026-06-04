@@ -7,7 +7,7 @@ summary: Public index for Shattered Sea campaign rules references, especially sh
 type: index
 campaign: shattered-sea
 created: 2026-04-29
-updated: 2026-06-02
+updated: 2026-06-04
 
 sources:
 - Inbox/lore/rules/index.md

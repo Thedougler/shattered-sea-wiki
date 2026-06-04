@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items."
 created: '2026-05-29'
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - dravosi
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Open-water Antheri salvage field on the western shelf of the Drowned Maw, where clear shallow ruins promise impossible materials before the seabed drops into black water."
 created: '2026-05-29'
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - antheri
   - salvage

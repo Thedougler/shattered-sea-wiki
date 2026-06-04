@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Index for Calveno — the canal city of pale stone, witnessed deals, and Tessarine commercial power.
 created: 2026-05-01
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - tessarine
   - player-resource

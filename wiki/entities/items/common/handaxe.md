@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - player-resource
 sources:

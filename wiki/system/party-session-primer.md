@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Stub — party not yet defined. Populate after session zero."
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - dm-prep
 sources: []

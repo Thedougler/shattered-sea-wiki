@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Salted pork, olives, and hard cheese — for eating slowly over a long conversation."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - homebrew
 sources:

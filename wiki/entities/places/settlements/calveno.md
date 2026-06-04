@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Oldest continuous commercial centre in the Scatter — a canal city of pale stone, witnessed deals, and a thousand conversations happening at once in the open.
 created: 2026-05-01
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - tessarine
   - player-resource

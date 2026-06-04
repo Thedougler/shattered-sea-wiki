@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 created: 2026-05-02
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - tessarine
   - maritime

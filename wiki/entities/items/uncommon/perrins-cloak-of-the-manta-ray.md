@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A Black-Jaw family heirloom — mottled grey-green travel cloak, slightly stiff and smelling faintly of mildew. Kept Perrin alive when the Vestra went down. No longer in his possession."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - maritime
 sources:

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Founder of the Dravosi Crown — a Hierarch lich who seeded his bloodline into every noble family and has been running the Crown from underneath for three hundred years."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - dravosi
   - undead

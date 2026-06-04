@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 2 ooze that deals acid damage and splits into smaller jellies when struck by lightning or slashing weapons.
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 23 monstrosity; titanic deep-sea predator capable of destroying ships, rumoured in the Outer Reach and beyond the Drowned Maw.
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
   - maritime

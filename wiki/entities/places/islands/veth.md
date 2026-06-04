@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions."
 created: '2026-05-29'
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - grung
 sources:

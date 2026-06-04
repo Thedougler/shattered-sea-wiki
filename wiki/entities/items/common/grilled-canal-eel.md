@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The house specialty at the Ponte Bassa — an acquired taste that most Calveno locals claim to have acquired."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - homebrew
   - maritime

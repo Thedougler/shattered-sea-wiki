@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The Giant Boar, a CR 2 beast in the Shattered Sea bestiary.
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
 sources:

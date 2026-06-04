@@ -117,6 +117,8 @@ def process(path: str) -> bool:
     else:
         new_text = rebuilt + ("\n" + text if text.strip() else "")
 
+    if not new_text.endswith("\n"):
+        new_text += "\n"
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(new_text)
 

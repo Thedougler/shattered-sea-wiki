@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A magic hooded lantern that reveals invisible creatures and objects within its light — invisible things become visible while in its 30-ft cone."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - player-resource
 sources:

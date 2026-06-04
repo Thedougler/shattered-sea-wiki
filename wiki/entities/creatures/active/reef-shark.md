@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 1/2 beast; common in shallow reef channels of the Central Strait and the Sunken Crown — Pack Tactics makes groups dangerous out of proportion to individual size.
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
   - maritime

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Unnamed pale yellow spirits served in a clay cup — no questions, no label, and it works."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - homebrew
 sources:

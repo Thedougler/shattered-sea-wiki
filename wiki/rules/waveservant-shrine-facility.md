@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Tier 1 bastion facility — Sanctuary adapted for the ship. Grants a weekly Healing Word charm and supports crafting of holy symbols or druidic focuses."
 created: '2026-05-30'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - waveservants
   - player-resource

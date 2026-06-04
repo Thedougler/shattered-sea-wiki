@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The eastern working harbour of Calder's Tooth — fishing fleets, independent shipwrights, and the island's black-market breathing room."
 created: '2026-05-29'
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - dravosi
 sources:

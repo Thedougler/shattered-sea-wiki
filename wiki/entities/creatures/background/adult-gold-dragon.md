@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 17 lawful good metallic dragon; immensely powerful guardian with fire breath and weakening breath.
 created: 2026-04-21
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
   - homebrew

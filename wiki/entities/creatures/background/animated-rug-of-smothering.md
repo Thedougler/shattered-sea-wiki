@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "CR 2 construct. Grapples and suffocates one Medium or smaller creature; halves damage taken while grappling."
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - combat
 sources:

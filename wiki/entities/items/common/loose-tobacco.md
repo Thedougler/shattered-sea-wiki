@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Cured leaf tobacco, sold by the pound — rolled, piped, or chewed according to preference. 6 sp per lb."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-04
 tags:
   - homebrew
 sources:

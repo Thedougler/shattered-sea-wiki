@@ -1,9 +1,7 @@
-import fg from 'fast-glob';
 import path from 'node:path';
+import fg from 'fast-glob';
 
-export async function buildAssetMap(
-  assetsDir: string,
-): Promise<Map<string, string>> {
+export async function buildAssetMap(assetsDir: string): Promise<Map<string, string>> {
   const files = await fg('**/*.{png,jpg,jpeg,webp,gif,svg}', {
     cwd: assetsDir,
   });

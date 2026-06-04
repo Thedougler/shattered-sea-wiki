@@ -1,7 +1,7 @@
-import { Command } from 'commander';
 import fs from 'node:fs';
 import path from 'node:path';
 import { generateIndexFile, resolveVaultRoot } from '@shattered-sea/lib';
+import { Command } from 'commander';
 
 export const indexCommand = new Command('index')
   .description('Regenerate wiki/index.md from vault frontmatter')

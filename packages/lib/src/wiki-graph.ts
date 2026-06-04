@@ -1,7 +1,7 @@
-import fg from 'fast-glob';
-import matter from 'gray-matter';
 import fs from 'node:fs';
 import path from 'node:path';
+import fg from 'fast-glob';
+import matter from 'gray-matter';
 import { deriveSlug, slugify, titleCase } from './slug.js';
 
 export async function buildSlugSet(vaultDir: string): Promise<Set<string>> {
@@ -31,9 +31,7 @@ export interface BacklinkEntry {
   title: string;
 }
 
-export async function buildBacklinks(
-  vaultDir: string,
-): Promise<Map<string, BacklinkEntry[]>> {
+export async function buildBacklinks(vaultDir: string): Promise<Map<string, BacklinkEntry[]>> {
   const files = await fg('**/*.md', { cwd: vaultDir });
   const backlinks = new Map<string, BacklinkEntry[]>();
   const linkRegex = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
@@ -45,7 +43,7 @@ export async function buildBacklinks(
     try {
       const raw = fs.readFileSync(path.join(vaultDir, file), 'utf-8');
       const body = raw.replace(/^---[\s\S]*?---/, '');
-      let match;
+      let match: RegExpExecArray | null;
 
       while ((match = linkRegex.exec(body)) !== null) {
         const targetSlug = match[1].toLowerCase().replace(/\s+/g, '-');

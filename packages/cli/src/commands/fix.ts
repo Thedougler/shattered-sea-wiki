@@ -1,6 +1,6 @@
-import { Command } from 'commander';
 import path from 'node:path';
 import { fixFrontmatter, resolveVaultRoot } from '@shattered-sea/lib';
+import { Command } from 'commander';
 
 export const fixCommand = new Command('fix')
   .description('Complete missing frontmatter fields on wiki files')
@@ -14,17 +14,13 @@ export const fixCommand = new Command('fix')
       try {
         const result = fixFrontmatter(path.resolve(file), repoRoot);
         if (result.changed.length) {
-          process.stderr.write(
-            `fixed: [${result.changed.join(', ')}] — ${file}\n`,
-          );
+          process.stderr.write(`fixed: [${result.changed.join(', ')}] — ${file}\n`);
         }
         if (result.summaryStale) {
           process.stderr.write(`FLAG: summary-stale — ${file}\n`);
         }
       } catch (err) {
-        process.stderr.write(
-          `fix_frontmatter error on ${file}: ${err}\n`,
-        );
+        process.stderr.write(`fix_frontmatter error on ${file}: ${err}\n`);
       }
     }
   });

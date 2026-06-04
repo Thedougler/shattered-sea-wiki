@@ -1,5 +1,5 @@
-import { visit } from 'unist-util-visit';
 import type { Plugin } from 'unified';
+import { visit } from 'unist-util-visit';
 
 const CALLOUT_LABELS: Record<string, string> = {
   dm: 'DM Note',
@@ -72,5 +72,9 @@ function titleCase(s: string): string {
 }
 
 function escapeHtml(s: string): string {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }

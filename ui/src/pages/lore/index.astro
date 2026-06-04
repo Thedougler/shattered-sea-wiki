@@ -1,12 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
+import { deriveSlug, titleCase } from '@shattered-sea/lib';
 import IndexLayout from '../../components/layouts/IndexLayout.astro';
 import WikiCard from '../../components/wiki/WikiCard.astro';
-import { deriveSlug, titleCase } from '@shattered-sea/lib';
 
 const entries = await getCollection('wiki', (e) => e.data.type === 'lore');
 const sorted = entries.sort((a, b) =>
-  (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id))
+  (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id)),
 );
 ---
 

@@ -20,10 +20,7 @@ export function parseWikilinks(markdown: string): Wikilink[] {
   return results;
 }
 
-export function resolveWikilink(
-  slug: string,
-  slugSet: ReadonlySet<string>,
-): boolean {
+export function resolveWikilink(slug: string, slugSet: ReadonlySet<string>): boolean {
   return slugSet.has(slug);
 }
 

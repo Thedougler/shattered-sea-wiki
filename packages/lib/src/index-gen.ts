@@ -60,8 +60,7 @@ function markerOf(fields: Record<string, string>): string {
   const subtype = (fields.subtype ?? '').trim();
   const tags = fields.tags ?? '';
   const isStub = status === 'stub';
-  const dmOnly =
-    subtype === 'secret' || tags.includes('dm-only') || tags.includes('dm-secret');
+  const dmOnly = subtype === 'secret' || tags.includes('dm-only') || tags.includes('dm-secret');
   if (dmOnly && isStub) return '[DM-only stub] ';
   if (dmOnly) return '[DM-only] ';
   if (isStub) return '[stub] ';
@@ -69,9 +68,7 @@ function markerOf(fields: Record<string, string>): string {
 }
 
 function groupKey(relpath: string): string {
-  const withoutWiki = relpath.startsWith('wiki/')
-    ? relpath.slice('wiki/'.length)
-    : relpath;
+  const withoutWiki = relpath.startsWith('wiki/') ? relpath.slice('wiki/'.length) : relpath;
   const dir = path.dirname(withoutWiki);
   return dir === '.' ? '(root)' : dir;
 }
@@ -87,9 +84,7 @@ function groupSortKey(group: string): [number, number, string] {
 }
 
 function isCompact(group: string): boolean {
-  return [...COMPACT_GROUPS].some(
-    (cg) => group === cg || group.startsWith(cg + '/'),
-  );
+  return [...COMPACT_GROUPS].some((cg) => group === cg || group.startsWith(cg + '/'));
 }
 
 function iterWikiFilesSync(vaultDir: string): string[] {
@@ -106,10 +101,7 @@ function iterWikiFilesSync(vaultDir: string): string[] {
   return results;
 }
 
-export function generateIndex(
-  vaultDir: string,
-  repoRoot: string,
-): string {
+export function generateIndex(vaultDir: string, repoRoot: string): string {
   const groups = new Map<string, Array<[string, string]>>();
 
   for (const filePath of iterWikiFilesSync(vaultDir)) {
@@ -162,11 +154,7 @@ export function generateIndex(
   return lines.join('\n').trimEnd() + '\n';
 }
 
-export function generateIndexFile(
-  vaultDir: string,
-  repoRoot: string,
-  today: string,
-): string {
+export function generateIndexFile(vaultDir: string, repoRoot: string, today: string): string {
   const body = generateIndex(vaultDir, repoRoot);
   const header = `---
 type: system

@@ -1,7 +1,7 @@
-import { Command } from 'commander';
 import fs from 'node:fs';
 import path from 'node:path';
-import { CANONICAL, ALIASES, resolveVaultRoot } from '@shattered-sea/lib';
+import { ALIASES, CANONICAL, resolveVaultRoot } from '@shattered-sea/lib';
+import { Command } from 'commander';
 
 export const taxonomyCommand = new Command('taxonomy')
   .description('Check taxonomy sync between TS module and wiki/system/taxonomy.md')

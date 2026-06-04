@@ -6,10 +6,7 @@ import { taxonomyCommand } from './commands/taxonomy.js';
 
 const program = new Command();
 
-program
-  .name('sea')
-  .description('Shattered Sea wiki CLI')
-  .version('0.1.0');
+program.name('sea').description('Shattered Sea wiki CLI').version('0.1.0');
 
 program.addCommand(fixCommand);
 program.addCommand(indexCommand);

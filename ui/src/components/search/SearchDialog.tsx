@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 
 interface SearchResult {
   url: string;
@@ -54,9 +54,7 @@ export default function SearchDialog() {
     const timer = setTimeout(async () => {
       try {
         const search = await pagefindRef.current.search(query);
-        const items = await Promise.all(
-          search.results.slice(0, 12).map((r: any) => r.data())
-        );
+        const items = await Promise.all(search.results.slice(0, 12).map((r: any) => r.data()));
         setResults(items);
         setSelected(0);
       } catch {
@@ -88,16 +86,24 @@ export default function SearchDialog() {
         if (e.target === e.currentTarget) setOpen(false);
       }}
     >
-      <div
-        class="fixed inset-0"
-        style="background: rgba(0,0,0,0.6); backdrop-filter: blur(4px)"
-      />
+      <div class="fixed inset-0" style="background: rgba(0,0,0,0.6); backdrop-filter: blur(4px)" />
       <div
         class="relative w-full max-w-xl rounded-xl border shadow-2xl overflow-hidden"
         style="background: var(--color-bg-secondary); border-color: var(--color-border-highlight)"
       >
-        <div class="flex items-center gap-3 px-4 py-3 border-b" style="border-color: var(--color-border)">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--color-text-muted); flex-shrink: 0">
+        <div
+          class="flex items-center gap-3 px-4 py-3 border-b"
+          style="border-color: var(--color-border)"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            style="color: var(--color-text-muted); flex-shrink: 0"
+          >
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.3-4.3" />
           </svg>

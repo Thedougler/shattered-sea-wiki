@@ -3,7 +3,23 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r build",
+    "build:lib": "pnpm --filter @shattered-sea/lib build",
+    "build:cli": "pnpm --filter @shattered-sea/cli build",
+    "build:ui": "pnpm --filter shattered-sea-wiki-ui build",
+    "dev": "pnpm --filter shattered-sea-wiki-ui dev",
+    "dev:lib": "pnpm --filter @shattered-sea/lib dev",
     "test": "pnpm -r test",
-    "dev": "pnpm --filter ui dev"
+    "test:lib": "pnpm --filter @shattered-sea/lib test",
+    "test:watch": "pnpm --filter @shattered-sea/lib exec vitest",
+    "typecheck": "pnpm --filter @shattered-sea/lib exec tsc --noEmit && pnpm --filter @shattered-sea/cli exec tsc --noEmit",
+    "lint": "biome check",
+    "lint:fix": "biome check --fix",
+    "format": "biome format --write",
+    "format:check": "biome format",
+    "check": "pnpm typecheck && pnpm lint",
+    "clean": "rm -rf packages/lib/dist packages/cli/dist ui/dist ui/.astro"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16"
   }
 }

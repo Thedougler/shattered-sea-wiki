@@ -1,17 +1,40 @@
 ---
 import { getCollection } from 'astro:content';
+import { deriveSlug, titleCase } from '@shattered-sea/lib';
 import BaseLayout from '../components/layouts/BaseLayout.astro';
 import Sidebar from '../components/nav/Sidebar.astro';
-import { deriveSlug, titleCase } from '@shattered-sea/lib';
 
 const entries = await getCollection('wiki');
 
 const categories = [
-  { label: 'Characters', href: '/characters/', filter: (e: any) => e.data.type === 'entity' && ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype) },
-  { label: 'Places', href: '/places/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'place' },
-  { label: 'Factions', href: '/factions/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'faction' },
-  { label: 'Items', href: '/items/', filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'item' },
-  { label: 'Creatures', href: '/creatures/', filter: (e: any) => ['monster', 'beast', 'dragon'].includes(e.data.type) || (e.data.type === 'entity' && e.data.subtype === 'creature') },
+  {
+    label: 'Characters',
+    href: '/characters/',
+    filter: (e: any) =>
+      e.data.type === 'entity' && ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype),
+  },
+  {
+    label: 'Places',
+    href: '/places/',
+    filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'place',
+  },
+  {
+    label: 'Factions',
+    href: '/factions/',
+    filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'faction',
+  },
+  {
+    label: 'Items',
+    href: '/items/',
+    filter: (e: any) => e.data.type === 'entity' && e.data.subtype === 'item',
+  },
+  {
+    label: 'Creatures',
+    href: '/creatures/',
+    filter: (e: any) =>
+      ['monster', 'beast', 'dragon'].includes(e.data.type) ||
+      (e.data.type === 'entity' && e.data.subtype === 'creature'),
+  },
   { label: 'Sessions', href: '/sessions/', filter: (e: any) => e.data.type === 'session' },
   { label: 'Situations', href: '/situations/', filter: (e: any) => e.data.type === 'situation' },
   { label: 'Lore', href: '/lore/', filter: (e: any) => e.data.type === 'lore' },
@@ -24,8 +47,13 @@ const recentUpdates = entries
   .slice(0, 12);
 
 const activeSituations = entries
-  .filter((e) => e.data.type === 'situation' && (e.data.lifecycle === 'active' || e.data.status === 'active'))
-  .sort((a, b) => (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id)));
+  .filter(
+    (e) =>
+      e.data.type === 'situation' && (e.data.lifecycle === 'active' || e.data.status === 'active'),
+  )
+  .sort((a, b) =>
+    (a.data.title || deriveSlug(a.id)).localeCompare(b.data.title || deriveSlug(b.id)),
+  );
 ---
 
 <BaseLayout title="Dashboard">

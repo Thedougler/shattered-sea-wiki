@@ -1,15 +1,6 @@
 import fs from 'node:fs';
-import {
-  parseFields,
-  splitFrontmatter,
-  type SplitResult,
-} from './frontmatter.js';
-import {
-  inferType,
-  inferSubtype,
-  UNIVERSAL_FIELDS,
-  TYPE_EXTRA_FIELDS,
-} from './path-inference.js';
+import { parseFields, type SplitResult, splitFrontmatter } from './frontmatter.js';
+import { inferSubtype, inferType, TYPE_EXTRA_FIELDS, UNIVERSAL_FIELDS } from './path-inference.js';
 import { relPath } from './vault.js';
 
 const STUB_SUMMARY = 'Stub — no summary yet.';
@@ -60,14 +51,10 @@ export interface FixResult {
   summaryStale: boolean;
 }
 
-export function fixFrontmatter(
-  filePath: string,
-  repoRoot: string,
-): FixResult {
+export function fixFrontmatter(filePath: string, repoRoot: string): FixResult {
   const rp = relPath(filePath, repoRoot);
   const text = fs.readFileSync(filePath, 'utf-8');
-  const { frontmatterLines, body, hadFrontmatter }: SplitResult =
-    splitFrontmatter(text);
+  const { frontmatterLines, body, hadFrontmatter }: SplitResult = splitFrontmatter(text);
 
   const fields = hadFrontmatter ? parseFields(frontmatterLines) : {};
   const newLines = [...frontmatterLines];

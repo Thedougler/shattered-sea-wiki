@@ -9,9 +9,7 @@ export function deriveSlug(id: string): string {
 }
 
 export function titleCase(slug: string): string {
-  return slug
-    .replace(/-/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 export function slugify(text: string): string {

@@ -1,6 +1,15 @@
 export { buildAssetMap } from './asset-map.js';
 export { type FixResult, fixFrontmatter } from './fix-frontmatter.js';
 export {
+  detectDrift,
+  type DriftEntry,
+  getField,
+  getFields,
+  setField,
+  type SetFieldResult,
+  syncField,
+} from './frontmatter-ops.js';
+export {
   firstH1,
   getSummary,
   parseFields,

@@ -1,51 +1,30 @@
 ---
 name: vault-health
-description: Run full pre-session vault health check — typecheck, Biome lint, wiki lint, taxonomy sync. Use before sessions or before committing a large batch of changes.
+description: Use when preparing for a session, after a large batch of wiki or code edits, or when diagnosing unexplained build or content errors. Skip for single-file changes.
 ---
 
-Run the following checks in order from the workspace root. Stop at the first failure and report what to fix before continuing.
+# Vault Health
 
-## 1. TypeScript
+Run from `/Users/nick/ai-os/shattered-sea`. **Stop at the first failure — report what to fix before continuing.**
 
-```bash
-pnpm check
-```
+## Checks (in order)
 
-Reports type errors and Biome lint violations. Must be clean before proceeding.
+| # | Command | Pass condition |
+|---|---------|----------------|
+| 1 | `pnpm check` | No type errors or Biome violations |
+| 2 | `python3 .claude/scripts/wiki_lint.py` | Zero errors (warnings non-blocking) |
+| 3 | `python3 .claude/scripts/check_taxonomy_sync.py --check` | Exits 0 |
+| 4 | `python3 .claude/scripts/wiki_health_snapshot.py` | Print summary metrics only |
 
-## 2. Wiki Lint
+## Output
 
-```bash
-python3 .claude/scripts/wiki_lint.py
-```
-
-Report only the summary counts (errors, warnings, orphans). Do not list every individual issue unless the error count is non-zero.
-
-## 3. Taxonomy Sync
-
-```bash
-python3 .claude/scripts/check_taxonomy_sync.py --check
-```
-
-Exit 1 = drift between the TS module and `wiki/system/taxonomy.md`. Report which tags are out of sync.
-
-## 4. Vault Health Snapshot
-
-```bash
-python3 .claude/scripts/wiki_health_snapshot.py
-```
-
-Print the summary section only (total files, files with default summaries, unresolved wikilinks count).
-
-## Output Format
-
-Present results as a compact status table:
+One status table:
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| TypeScript | ✓ / ✗ | error summary if failed |
-| Wiki lint | ✓ / ✗ | counts if non-zero |
-| Taxonomy | ✓ / ✗ | drifted tags if any |
-| Vault snapshot | ✓ | key metrics |
+| TypeScript | ✓/✗ | error detail if failed |
+| Wiki lint | ✓/✗ | counts if non-zero |
+| Taxonomy | ✓/✗ | drifted tags if any |
+| Vault snapshot | info | files, default-summaries, unresolved links |
 
-If everything is clean, say so in one line. If anything failed, list what needs fixing before the session.
+All clean → one-line summary. Any failure → list what to fix before proceeding.

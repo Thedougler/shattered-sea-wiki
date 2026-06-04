@@ -253,7 +253,8 @@ When a routed skill's required reads include a primer or intelligence file (e.g.
 |---|---|
 | Update character sheets or primers | `system-file-update` |
 | File content in Inbox/ | `wiki-categorize` |
-| Audit or fix wiki structure | Stay in this skill → Full Audit Mode |
+| Audit wiki content (frontmatter, links, lore) | Stay in this skill → Full Audit Mode |
+| Reorganize wiki files/folders, fix misplaced files | `ttrpg-wiki-organize` |
 
 If the task is not in this table:
 1. Check `wiki/system/task-routing.md` — the campaign may define custom task types.

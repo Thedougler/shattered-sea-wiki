@@ -1,0 +1,45 @@
+{
+  "skill_name": "live-transcription",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "A new player is joining the table next session. Their name is Jordan. Walk me through getting their voice profile set up so the transcription system can identify them.",
+      "expected_output": "Should reference shattered-audio enroll command, suggest recording 30+ seconds, mention config.yaml channel_priors if they'll sit near a specific mic, and suggest a test session to verify.",
+      "files": [],
+      "assertions": [
+        {"text": "Mentions the shattered-audio enroll command with correct syntax"},
+        {"text": "Recommends recording at least 30 seconds of speech for profile quality"},
+        {"text": "Mentions config.yaml channel_priors for mic-to-speaker mapping"},
+        {"text": "Suggests a verification step (test session or short recording)"},
+        {"text": "Mentions the profile storage location (~/.config/shattered-audio/profiles/)"}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I ran a live session last night and a lot of the speaker labels came back as UNKNOWN. How do I fix the existing transcript and improve future accuracy?",
+      "expected_output": "Should cover: manual correction of speaker labels in chunk markdown, shattered-audio retrain command, adjusting speaker_threshold, re-enrolling with longer samples, checking speaker_confidence scores in frontmatter.",
+      "files": [],
+      "assertions": [
+        {"text": "Explains how to manually correct speaker labels in chunk markdown files"},
+        {"text": "Mentions the shattered-audio retrain command for updating profiles from corrections"},
+        {"text": "Mentions adjusting speaker_threshold as a tuning lever"},
+        {"text": "Notes that short utterances (<2s) are a known cause of UNKNOWN labels"},
+        {"text": "Suggests re-enrolling with longer audio samples to improve profile quality"},
+        {"text": "Mentions checking speaker_confidence in chunk frontmatter for diagnostics"}
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "The cold pass keeps failing with a 403 error from HuggingFace. The hot pass works fine. What's going on?",
+      "expected_output": "Should identify this as the pyannote gated model issue, explain the HF_TOKEN requirement + model license acceptance at the HuggingFace page, mention that cold pass falls back gracefully if diarization is unavailable.",
+      "files": [],
+      "assertions": [
+        {"text": "Correctly identifies this as a pyannote gated model access issue"},
+        {"text": "Mentions the HF_TOKEN environment variable requirement"},
+        {"text": "Directs user to accept the model license at the HuggingFace model page"},
+        {"text": "Explains why hot pass works (uses whisper, no pyannote) while cold pass fails (uses pyannote diarization)"},
+        {"text": "Mentions that cold pass can still work without diarization (graceful fallback)"}
+      ]
+    }
+  ]
+}

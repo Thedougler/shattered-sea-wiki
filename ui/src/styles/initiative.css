@@ -112,10 +112,6 @@
   width: 5rem;
 }
 
-.it-input-hp {
-  width: 5rem;
-}
-
 /* number input arrows */
 .it-input[type='number']::-webkit-inner-spin-button,
 .it-input[type='number']::-webkit-outer-spin-button {
@@ -254,10 +250,6 @@
   border-color: var(--color-border-highlight);
 }
 
-.it-dead {
-  opacity: 0.45;
-}
-
 /* Turn indicator */
 .it-turn-indicator {
   width: 1rem;
@@ -336,11 +328,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.it-name-dead {
-  text-decoration: line-through;
-  color: var(--color-text-muted);
 }
 
 .it-label-current {
@@ -426,48 +413,6 @@
 
 .it-current .it-init-value {
   color: var(--color-accent-gold);
-}
-
-/* HP column */
-.it-hp-col {
-  flex-shrink: 0;
-  width: 4.5rem;
-  text-align: center;
-}
-
-.it-hp-display {
-  background: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  padding: 0.25rem 0.4rem;
-  font-size: 0.85rem;
-  font-weight: 700;
-  cursor: pointer;
-  font-variant-numeric: tabular-nums;
-  transition: border-color 0.15s;
-  width: 100%;
-}
-
-.it-hp-display:hover {
-  border-color: var(--color-border-highlight);
-  background: var(--color-bg-tertiary);
-}
-
-.it-hp-edit {
-  width: 100%;
-}
-
-.it-hp-delta {
-  width: 100%;
-  padding: 0.25rem 0.4rem;
-  border-radius: 4px;
-  border: 1px solid var(--color-accent-gold);
-  background: var(--color-bg-tertiary);
-  color: var(--color-text-primary);
-  font-size: 0.85rem;
-  text-align: center;
-  outline: none;
-  box-sizing: border-box;
 }
 
 /* Action buttons */

@@ -11,8 +11,6 @@ interface Combatant {
   name: string;
   initiative: number;
   portrait: string | null;
-  hp: number | null;
-  maxHp: number | null;
   conditions: string[];
   isNpc: boolean;
 }
@@ -60,15 +58,10 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
   // Add form state
   const [addName, setAddName] = useState('');
   const [addInit, setAddInit] = useState('');
-  const [addHp, setAddHp] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedSuggestion, setSelectedSuggestion] = useState(0);
   const nameInputRef = useRef<HTMLInputElement>(null);
   const initInputRef = useRef<HTMLInputElement>(null);
-
-  // HP edit state
-  const [editingHp, setEditingHp] = useState<string | null>(null);
-  const [hpDelta, setHpDelta] = useState('');
 
   // Condition popover
   const [conditionTarget, setConditionTarget] = useState<string | null>(null);
@@ -91,7 +84,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
   }, [addName, knownCharacters, combatants]);
 
   const addCombatant = useCallback(
-    (name: string, init: number, portrait: string | null, hp: number | null, isNpc: boolean) => {
+    (name: string, init: number, portrait: string | null, isNpc: boolean) => {
       setCombatants((prev) => [
         ...prev,
         {
@@ -99,8 +92,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
           name,
           initiative: init,
           portrait,
-          hp,
-          maxHp: hp,
           conditions: [],
           isNpc,
         },
@@ -112,7 +103,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
   const handleAdd = useCallback(() => {
     const name = addName.trim();
     const init = parseInt(addInit) || 0;
-    const hp = addHp.trim() ? parseInt(addHp) || null : null;
     if (!name) return;
 
     const known = knownCharacters.find((c) => c.name.toLowerCase() === name.toLowerCase());
@@ -120,15 +110,13 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
       known?.name ?? name,
       init,
       known?.portrait ?? null,
-      hp,
       known?.subtype !== 'pc',
     );
     setAddName('');
     setAddInit('');
-    setAddHp('');
     setShowSuggestions(false);
     nameInputRef.current?.focus();
-  }, [addName, addInit, addHp, knownCharacters, addCombatant]);
+  }, [addName, addInit, knownCharacters, addCombatant]);
 
   const selectSuggestion = useCallback(
     (char: KnownCharacter) => {
@@ -194,27 +182,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
     resetCombat();
   }, [resetCombat]);
 
-  const applyHpDelta = useCallback(
-    (id: string) => {
-      const val = parseInt(hpDelta);
-      if (isNaN(val)) {
-        setEditingHp(null);
-        setHpDelta('');
-        return;
-      }
-      setCombatants((prev) =>
-        prev.map((c) => {
-          if (c.id !== id || c.hp === null) return c;
-          const newHp = Math.max(0, c.hp + val);
-          return { ...c, hp: c.maxHp !== null ? Math.min(newHp, c.maxHp) : newHp };
-        }),
-      );
-      setEditingHp(null);
-      setHpDelta('');
-    },
-    [hpDelta],
-  );
-
   const toggleCondition = useCallback((id: string, condition: string) => {
     setCombatants((prev) =>
       prev.map((c) => {
@@ -253,11 +220,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
   }, [nextTurn, prevTurn]);
-
-  const currentCombatant = inCombat ? sorted[currentIndex] : null;
-  const onDeckCombatant = inCombat
-    ? sorted[(currentIndex + 1) % sorted.length]
-    : null;
 
   return (
     <div class="initiative-tracker">
@@ -349,16 +311,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
           }}
           class="it-input it-input-init"
         />
-        <input
-          type="number"
-          placeholder="HP"
-          value={addHp}
-          onInput={(e) => setAddHp((e.target as HTMLInputElement).value)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') handleAdd();
-          }}
-          class="it-input it-input-hp"
-        />
         <button class="it-btn it-btn-add" onClick={handleAdd}>
           Add
         </button>
@@ -385,8 +337,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
         {sorted.map((c, i) => {
           const isCurrent = inCombat && i === currentIndex;
           const isOnDeck = inCombat && i === (currentIndex + 1) % sorted.length && sorted.length > 1;
-          const isDead = c.hp !== null && c.hp <= 0;
-
           return (
             <div
               key={c.id}
@@ -394,7 +344,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                 'it-combatant',
                 isCurrent && 'it-current',
                 isOnDeck && 'it-on-deck',
-                isDead && 'it-dead',
               ]
                 .filter(Boolean)
                 .join(' ')}
@@ -419,7 +368,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
               {/* Info */}
               <div class="it-info">
                 <div class="it-name-row">
-                  <span class={`it-name ${isDead ? 'it-name-dead' : ''}`}>{c.name}</span>
+                  <span class="it-name">{c.name}</span>
                   {isCurrent && <span class="it-label-current">CURRENT</span>}
                   {isOnDeck && <span class="it-label-deck">ON DECK</span>}
                 </div>
@@ -454,55 +403,6 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                   title="Initiative"
                 />
               </div>
-
-              {/* HP */}
-              {c.hp !== null && (
-                <div class="it-hp-col">
-                  {editingHp === c.id ? (
-                    <div class="it-hp-edit">
-                      <input
-                        type="text"
-                        class="it-hp-delta"
-                        placeholder="+5 / -3"
-                        value={hpDelta}
-                        autoFocus
-                        onInput={(e) => setHpDelta((e.target as HTMLInputElement).value)}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter') applyHpDelta(c.id);
-                          if (e.key === 'Escape') {
-                            setEditingHp(null);
-                            setHpDelta('');
-                          }
-                        }}
-                        onBlur={() => {
-                          setEditingHp(null);
-                          setHpDelta('');
-                        }}
-                      />
-                    </div>
-                  ) : (
-                    <button
-                      class="it-hp-display"
-                      onClick={() => {
-                        setEditingHp(c.id);
-                        setHpDelta('');
-                      }}
-                      style={{
-                        color:
-                          c.hp <= 0
-                            ? 'var(--color-accent-red)'
-                            : c.maxHp && c.hp <= c.maxHp * 0.25
-                              ? 'var(--color-accent-red)'
-                              : c.maxHp && c.hp <= c.maxHp * 0.5
-                                ? '#f59e0b'
-                                : 'var(--color-accent-green)',
-                      }}
-                    >
-                      {c.hp}/{c.maxHp}
-                    </button>
-                  )}
-                </div>
-              )}
 
               {/* Actions */}
               <div class="it-actions">

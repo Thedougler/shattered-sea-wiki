@@ -17,6 +17,7 @@ sources:
   - "Inbox/Campaign-Timeline.md"
   - "Inbox/Fisks-Fleet.md"
 confidence_level: confirmed
+portrait: portraits/Delmar-Fisk.webp
 ---
 
 # Delmar Atticus Fisk

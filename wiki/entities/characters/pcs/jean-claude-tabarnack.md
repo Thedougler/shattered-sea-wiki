@@ -1,6 +1,7 @@
 ---
 type: entity
 subtype: pc
+title: "Jean-Claude Tabarnack"
 campaign: shattered-sea
 status: active
 audience: dm
@@ -16,6 +17,7 @@ sources:
   - "Inbox/Jean-Claude-Tabarnack.md"
   - "Inbox/Campaign-Timeline.md"
 confidence_level: confirmed
+portrait: portraits/Jean-Claude-Tabarnack.webp
 ---
 
 # Jean-Claude Tabarnack

@@ -17,6 +17,7 @@ sources:
   - "Inbox/Crissdalynn-Khinriss.md"
   - "Inbox/Campaign-Timeline.md"
 confidence_level: confirmed
+portrait: portraits/Crissdalynn-Khinriss.webp
 ---
 
 # Crissdalynn Khinriss

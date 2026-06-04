@@ -1,6 +1,7 @@
 ---
 type: entity
 subtype: pc
+title: "Perrin Black-Jaw"
 campaign: shattered-sea
 status: active
 audience: dm
@@ -17,6 +18,7 @@ sources:
   - "Inbox/perrin-sheet.md"
   - "Inbox/Campaign-Timeline.md"
 confidence_level: confirmed
+portrait: portraits/Perrin-Black-Jaw.webp
 ---
 
 # Perrin Black-Jaw

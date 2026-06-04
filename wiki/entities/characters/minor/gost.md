@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Half-orc berserker available as a loose hiring hook in the Warren; no fixed loyalty."
 created: 2026-05-28
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - needs-detail
 sources:

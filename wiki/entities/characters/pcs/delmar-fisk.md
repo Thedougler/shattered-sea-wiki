@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone."
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - fisk-fleet
 sources:
@@ -45,7 +45,7 @@ The five captains were [[rael-corven|Rael Corven]], [[maren|Maren]], [[detto-kal
 
 ## Mechanics
 
-**Species:** [[human|Human]] | **Class:** Swashbuckler Rogue 4 | **Background:** Sailor
+**Species:** [[human|Human]] | **Class:** [[swashbuckler|Swashbuckler]] [[rogue|Rogue]] 4 | **Background:** [[sailor|Sailor]]
 
 **Mortis:** Five captains as personalities. Each brings skill proficiencies and borrowed mastery. Duration limited — running too long causes drift (hair, cadence, names). See Session 03: called Crissdalynn "Crystalline."
 

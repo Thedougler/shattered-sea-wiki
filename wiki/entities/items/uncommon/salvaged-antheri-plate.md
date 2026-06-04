@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Fitted Antheri plate Beaumont Sel commissioned from Catarina DaVirelli to cover the cannonball breach in his shell — +2 AC and disadvantage on ranged attacks against him."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-04
 tags:
   - antheri
 sources:

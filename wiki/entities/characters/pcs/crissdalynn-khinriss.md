@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the Red Lady with Delmar Fisk; was mapping the Drowned Maw when it sank. Kyzil's student; cast out of the High Eyrie at 14 — the monastery banishment is the wound that makes everything else matter."
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - waveservants
   - fisk-fleet
@@ -53,7 +53,7 @@ The mapping is incomplete. She knows it.
 
 ## Mechanics
 
-**Class:** Monk (Kensei) 4 | **Background:** Acolyte / Cartographer
+**Class:** [[monk|Monk]] ([[way-of-the-kensei|Kensei]]) 4 | **Background:** [[acolyte|Acolyte]] / Cartographer
 
 **Species:** [[aarakocra|Aarakocra]]
 

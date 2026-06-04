@@ -128,6 +128,11 @@ No dedicated healer. Perrin has Cure Wounds (Bard) but it competes with control 
 - **If dominating:** split objectives, pressure concentration with AoE, add ranged enemies that force repositioning, introduce a clock (civilians, collapsing structure, reinforcements), or target Perrin to cut off the force multiplier.
 - **Grapple pressure:** effective but use sparingly — Perrin has disadvantage on Strength and Crissdalynn/Jean-Claude are lightweight. One grappler per encounter is fair; two is oppressive. Note: Crissdalynn is the grappler now — enemies need Freedom of Movement or high contested Athletics to resist her.
 
+## See Also
+
+- [[battlefield-actions|Battlefield Actions]] — Pointy Hat's dynamic boss framework (Tell + Resolution phases)
+- [[sports-match-rules|Sports Match Rules]] — competitive contest adjudication framework
+
 ## Avoid
 
 - Stacking multiple hard shutdowns on the same PC.

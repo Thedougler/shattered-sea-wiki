@@ -147,23 +147,27 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 **Intel reveals (in order of accessibility):**
 
 **Free — Felix volunteers without prompting:**
+
 - Four underground sites where he carried blackpowder barrels. Locations relative to surface landmarks ("under the yards," "near the bridge drain," "the one by the low hatch," "close to the harbour wall").
 - Sentry pattern at each: "Two greens and a blue. The blue carries a whistle. The greens carry the barrels."
 - Timeline: "Two days. They said two days from when the boats came in." (This estimate is **wrong** — the acceleration after Le Paludi shortened it to ~1.5 days, but Felix doesn't know that.)
 - Festival timing: "The purple said the noise would cover everything."
 
 **DC 10 Persuasion — the purple boats:**
+
 - Felix hesitates. Conditioning flicker — he is about to describe purple-caste operations, which greens are not supposed to notice. He noticed because greens load the boats and he counted.
 - "There were... a lot of boats. More than four sites need. And most of them were purple-only. No greens, no blues on those ones. Just purple." He pauses. "Purple-only boats means combat crews. That's not cargo work. That's a raid."
 - **What this tells the party:** The operational footprint is larger than four detonation sites. Purple-only vessels are combat-rated. The scale hints at mass extraction, not sabotage.
 
 **DC 12 Persuasion (or Felix volunteers if the party is patient and gentle):**
+
 - Felix has been doing arithmetic in his head since they captured him. The numbers bother him more than anything else.
 - "I counted barrels. I carried them. Thirty-two barrels through the tunnels, over three days. Six to the first site, six to the second, six to the third, four to the fourth. That's twenty-two." He holds up his fingers. "Where did the other ten go?"
 - He does not know where the extra powder went. He thinks it went somewhere he was not allowed to go. "They rotate greens out before you see too much. I never went past the junction where the old marks are."
 - **What this tells the party:** A 5th site exists. Felix can't locate it, but the surplus blackpowder went somewhere underground that green-caste labourers are excluded from.
 
 **DC 10 Insight (after the above, or JC asks about "the circle site" directly):**
+
 - Felix trembles. The conditioning breaks — not because someone pushed through it, but because the fear underneath is stronger.
 - "The purples call it 'the circle site.' I don't know where it is. I don't know what it does. They rotate us out before we get close." He stops. Swallows. "I heard screaming from that direction once. Not pain screaming. Something else."
 - DC 10 Insight: he is telling the truth. He is more afraid of the circle site than of anything else, and the fear is specific — not generalized anxiety but a memory of a sound that should not have come from underground.

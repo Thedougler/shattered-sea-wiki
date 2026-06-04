@@ -57,9 +57,9 @@ A low stone building against the outer harbour wall with a single wide slip open
 
 *Discreet rate: double standard pricing. No Canal Commission filing. No record kept of the vessel's previous appearance.*
 
-- Hull repaint, full colour
+- [[hull-repaint|Hull repaint]], full colour
 - Registry plate removal and replacement
-- Nameboard replacement (carved and fitted)
+- [[nameboard-replacement|Nameboard replacement]] (carved and fitted)
 - Hull caulking and copper work
 
 ## Access & Security

@@ -1,14 +1,13 @@
 ---
 type: entity
 subtype: pc
-title: "Jean-Claude Tabarnack"
 campaign: shattered-sea
 status: active
 audience: dm
 publish: false
 summary: "12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himself (Mortis). Carries guilt for a gnome's death and for the slave raids he ran before his conscience woke. Simone is his sister and she betrayed him."
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - grung
 sources:
@@ -53,7 +52,7 @@ After Pell's death and the slave escape, he fled east through the [[midchain|Mid
 
 ## Mechanics
 
-**Class:** Gloomstalker Ranger 4 | **Background:** Hermit
+**Class:** [[gloom-stalker|Gloomstalker]] [[ranger|Ranger]] 4 | **Background:** [[hermit|Hermit]]
 
 **Species:** [[grung|Grung]] (blue caste) | **Clan:** Botukuri *(BOH-too-KOO-ree)*
 

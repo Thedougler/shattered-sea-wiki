@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet."
 created: 2026-05-17
-updated: 2026-06-03
+updated: 2026-06-04
 tags:
   - tessarine
 sources:

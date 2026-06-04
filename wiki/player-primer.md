@@ -233,3 +233,5 @@ Once you have a concept, schedule a short character interview with the DM. The g
 - [[campaign-timeline|Campaign Timeline]]
 - [[campaign-overview|Campaign Overview]]
 - [[faq|Frequently Asked Questions]]
+- [[mounts-and-vehicles|Mounts & Vehicles]] — 2024 PHB rules for mounts, vehicles, and overland travel
+- [[optimization-meta-2024|Optimization Meta (2024)]] — current state of 2024 build optimization

@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Current world state, open threads, faction clocks, and predictions. Read first, always."
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-04
 tags: [dm-prep]
 sources: []
 ---
@@ -77,3 +77,7 @@ Party at [[nona-black-jaw|Nona]]'s safe house in [[le-paludi|Le Paludi]], [[calv
 ## Spotlight Tracking
 
 Session 04: well-distributed. JC (investigation/shopping), Delmar (confession/Umberlee), Crissdalynn (combat), Perrin (support). **Next session:** JC best positioned again (Grung operations = Simone's work, Felix interrogation). **Perrin falling behind** — 2 sessions without personal thread advancement. The whale in the harbor is the natural beat: when the party takes a boat, Perrin gets a moment. **Crissdalynn** needs the Kyzil missing Sentinels conversation — a non-combat spotlight beat that develops her pilgrimage arc. If the Grung crisis allows breathing room, that fires.
+
+## Navigation
+
+- [[hub|Campaign Hub]] — player-facing root wiki index

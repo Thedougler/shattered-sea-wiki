@@ -61,4 +61,5 @@ Payment is not always coin. Rope, fish bones, brass buttons, broken compass need
 - [[umberlee|Umberlee]]
 - [[waveservants|Waveservants]]
 - [[waveservant-shrine|Waveservant Shrine]]
+- [[waveservant-shrine-facility|Waveservant Shrine (Facility)]] — Tier 1 bastion rules for the ship shrine
 - [[shattered-sea-pantheon|Shattered Sea Pantheon]]

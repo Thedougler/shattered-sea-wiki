@@ -76,11 +76,12 @@ Perrin has the connection through Nona. If the party approaches without a Warren
 
 ## Legitimate Services (Public)
 
-- Hull inspection (written assessment)
-- Hull caulking, plank repair (minor to moderate)
-- Mast work (stepping, splicing, repair; up to two masts)
-- Rudder repair or replacement
-- Emergency repair (double rate, Savia decides priority)
+- [[hull-inspection|Hull inspection]] (written assessment)
+- [[keel-inspection|Keel inspection]] (slipped or shallow-water, written report)
+- Hull caulking, [[hull-plank-repair|plank repair]] (minor to moderate)
+- [[mast-work|Mast work]] (stepping, splicing, repair; up to two masts)
+- [[rudder-repair|Rudder repair]] or replacement
+- [[emergency-repair|Emergency repair]] (double rate, Savia decides priority)
 
 Walk-in for assessment; work begins after deposit.
 

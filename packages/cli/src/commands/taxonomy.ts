@@ -1,7 +1,7 @@
 import { Command } from 'commander';
 import fs from 'node:fs';
 import path from 'node:path';
-import { CANONICAL, resolveVaultRoot } from '@shattered-sea/lib';
+import { CANONICAL, ALIASES, resolveVaultRoot } from '@shattered-sea/lib';
 
 export const taxonomyCommand = new Command('taxonomy')
   .description('Check taxonomy sync between TS module and wiki/system/taxonomy.md')
@@ -24,7 +24,7 @@ export const taxonomyCommand = new Command('taxonomy')
 
     const inTsOnly = [...CANONICAL].filter((t) => !mdTags.has(t));
     const inMdOnly = [...mdTags].filter(
-      (t) => !CANONICAL.has(t) && t.match(/^[a-z0-9-]+$/),
+      (t) => !CANONICAL.has(t) && !ALIASES.has(t) && t.match(/^[a-z0-9-]+$/),
     );
 
     if (inTsOnly.length === 0 && inMdOnly.length === 0) {

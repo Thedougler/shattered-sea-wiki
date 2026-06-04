@@ -30,9 +30,16 @@ Read that file — do not rely on summaries here.
 | `.claude/skills/` | Claude Code skills (prep, ingest, lint, live co-DM). |
 | `.claude/scripts/` | Pure-stdlib maintenance scripts (no venv needed). |
 | `packages/lib/` | `@shattered-sea/lib` — shared TS library (vault, frontmatter, schema, wikilinks, taxonomy). |
-| `packages/cli/` | `@shattered-sea/cli` — `sea` CLI (fix, index, taxonomy). Thin wrappers around lib. |
+| `packages/cli/` | `@shattered-sea/cli` — `sea` CLI (fix, fm, index, taxonomy). Thin wrappers around lib. |
 | `tools/audio/` | `shattered-audio` — Python tool for session transcription + diarization (separate venv). |
 | `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
+
+### Wiki Structure Notes
+
+- `entities/places/` root is empty (index only). Every place goes in a typed subfolder: `regions/`, `islands/`, `settlements/`, `buildings/`, `dungeons/`, `sites/`, `planes/`.
+- `entities/items/` is subdivided by rarity: `common/`, `uncommon/`, `rare/`, `legendary/`, `artifact/`. Items without rarity stay at root.
+- `entities/creatures/` is subdivided by usage: `active/` (used in session), `planned/` (in prep/situations), `background/` (unused stat blocks).
+- Subtypes must match path inference. Run `sea fm drift --subtype` to check, `sea fm sync --subtype` to fix.
 
 ---
 
@@ -91,6 +98,13 @@ Script catalog and commands: `.claude/scripts/README.md`.
 - `node packages/cli/dist/cli.js <command>` — run sea CLI (or `npx sea` if linked).
 - UI imports `@shattered-sea/lib` — delete nothing from `packages/lib/src/` without checking UI builds.
 - The lib uses standalone `zod`, not `astro/zod`. Astro content validation works but JSON schema generation warns.
+
+### sea CLI — frontmatter operations
+
+- `sea fm get <field> [--dir <path>] [--filter field=value]` — read field values across files.
+- `sea fm set <field> <value> [files...] [--dir <path>] [--filter field=value] [--dry-run]` — idempotent field update.
+- `sea fm drift [--type] [--subtype] [--dir <path>]` — report type/subtype mismatches vs path inference.
+- `sea fm sync [--type] [--subtype] [--dir <path>] [--dry-run]` — bulk-fix type/subtype to match path inference.
 
 ---
 

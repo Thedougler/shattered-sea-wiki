@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import { deriveSlug, titleCase } from '@shattered-sea/lib';
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import Sidebar from '../../components/nav/Sidebar.astro';
+import InitiativeTracker from '../../components/tools/InitiativeTracker.tsx';
+import '../../styles/initiative.css';
+
+const entries = await getCollection('wiki');
+
+const knownCharacters = entries
+  .filter(
+    (e) =>
+      e.data.type === 'entity' &&
+      ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype ?? ''),
+  )
+  .map((e) => {
+    const slug = deriveSlug(e.id);
+    return {
+      name: e.data.title || titleCase(slug),
+      portrait: e.data.portrait ? `/assets/${e.data.portrait}` : null,
+      subtype: e.data.subtype as string,
+    };
+  })
+  .sort((a, b) => {
+    const order = ['pc', 'npc', 'crew', 'minor'];
+    return order.indexOf(a.subtype) - order.indexOf(b.subtype);
+  });
+---
+
+<BaseLayout title="Initiative Tracker">
+  <Sidebar slot="sidebar" />
+  <InitiativeTracker client:load knownCharacters={knownCharacters} />
+</BaseLayout>

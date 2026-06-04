@@ -141,5 +141,144 @@ def assemble(
         console.print(f"\n[yellow]{total} lines need speaker resolution[/yellow]")
 
 
+@app.command()
+def live(
+    session: int = typer.Option(..., "--session", "-s", help="Session number"),
+    speakers: Optional[str] = typer.Option(
+        None, "--speakers", help="Comma-separated speaker names"
+    ),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Start a live recording and transcription session."""
+    import asyncio
+
+    cfg = Config.load(config_path)
+    speaker_list = [s.strip() for s in speakers.split(",")] if speakers else None
+
+    console.print(f"[bold]Starting live session {session}[/bold]")
+    console.print(f"  Output: {cfg.inbox_path}/")
+    console.print(f"  Fast model: {cfg.whisper_model_fast}")
+    console.print(f"  Accurate model: {cfg.whisper_model}")
+
+    from .profiles import load_profiles
+
+    profiles = load_profiles(cfg.profiles_dir)
+    if profiles:
+        console.print(f"  Voice profiles: {', '.join(p.name for p in profiles.values())}")
+    else:
+        console.print("  [yellow]No voice profiles loaded[/yellow]")
+
+    console.print("\n[dim]Press Ctrl+C to stop recording[/dim]\n")
+
+    import logging
+
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s")
+
+    from .live_session import run_live_session
+
+    try:
+        asyncio.run(run_live_session(session, cfg, speaker_list))
+    except KeyboardInterrupt:
+        pass
+
+    console.print("\n[green]Session stopped[/green]")
+
+
+@app.command()
+def retrain(
+    transcript: Path = typer.Argument(..., help="Path to corrected transcript markdown"),
+    audio_dir: Optional[Path] = typer.Option(
+        None, "--audio-dir", help="Directory containing chunk WAV files"
+    ),
+    blend: float = typer.Option(
+        0.7, "--blend", help="Weight for new data (0-1, higher = more new)"
+    ),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Retrain voice profiles from a corrected transcript."""
+    cfg = Config.load(config_path)
+
+    if not transcript.exists():
+        console.print(f"[red]Transcript not found: {transcript}[/red]")
+        raise typer.Exit(1)
+
+    wav_dir = audio_dir or transcript.parent
+
+    from .profiles import retrain_from_transcript
+
+    console.print(f"[bold]Retraining profiles from {transcript}[/bold]")
+    console.print(f"  Audio dir: {wav_dir}")
+    console.print(f"  Blend: {1 - blend:.0%} old + {blend:.0%} new")
+
+    updated = retrain_from_transcript(transcript, wav_dir, cfg.profiles_dir, blend_old=1 - blend)
+
+    for slug, profile in updated.items():
+        console.print(f"  [green]{profile.name}[/green]: {profile.sample_count} samples")
+
+    if not updated:
+        console.print("[yellow]No profiles updated (no labeled speakers found)[/yellow]")
+
+
+@app.command()
+def enroll(
+    name: str = typer.Argument(..., help="Speaker name"),
+    audio_file: Optional[Path] = typer.Argument(None, help="Audio file for enrollment"),
+    record: Optional[int] = typer.Option(
+        None, "--record", "-r", help="Record N seconds from default mic instead of using a file"
+    ),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Enroll a speaker voice profile for identification."""
+    cfg = Config.load(config_path)
+
+    if record:
+        import sounddevice as sd
+
+        console.print(f"[bold]Recording {record}s for '{name}'...[/bold]")
+        audio = sd.rec(
+            int(record * 16000),
+            samplerate=16000,
+            channels=1,
+            dtype="float32",
+        )
+        sd.wait()
+        samples = audio[:, 0]
+
+        from .profiles import enroll_from_audio
+
+        profile = enroll_from_audio(name, samples, cfg.profiles_dir)
+    elif audio_file:
+        if not audio_file.exists():
+            console.print(f"[red]File not found: {audio_file}[/red]")
+            raise typer.Exit(1)
+
+        from .profiles import enroll_from_file
+
+        console.print(f"[bold]Enrolling '{name}' from {audio_file}[/bold]")
+        profile = enroll_from_file(name, audio_file, cfg.profiles_dir)
+    else:
+        console.print("[red]Provide an audio file or use --record N[/red]")
+        raise typer.Exit(1)
+
+    console.print(f"[green]Enrolled '{profile.name}' ({profile.sample_count} sample(s))[/green]")
+
+
+@app.command()
+def devices() -> None:
+    """List available audio input devices."""
+    from .capture import list_devices
+
+    devs = list_devices()
+    if not devs:
+        console.print("[yellow]No audio input devices found[/yellow]")
+        raise typer.Exit(1)
+
+    console.print("[bold]Audio Input Devices[/bold]\n")
+    for dev in devs:
+        default = " [green](default)[/green]" if dev["is_default"] else ""
+        console.print(f"  [{dev['id']}] {dev['name']}{default}")
+        console.print(f"      Channels: {dev['channels']}  Sample rate: {dev['sample_rate']}")
+
+
 if __name__ == "__main__":
     app()

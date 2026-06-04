@@ -72,6 +72,7 @@ When a required field is missing, add it with the default below and log the addi
 | `entities/places/settlements/` | `settlement` |
 | `entities/places/buildings/` | `building` |
 | `entities/places/dungeons/` | `dungeon` |
+| `entities/places/sites/` | `site` |
 | `entities/places/planes/` | `plane` |
 | `entities/factions/` | `faction` |
 | `entities/deities/` | `deity` |

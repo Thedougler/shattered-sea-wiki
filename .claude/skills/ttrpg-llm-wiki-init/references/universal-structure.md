@@ -103,11 +103,23 @@ VAULT_ROOT/
     │   │   ├── settlements/                     ← cities, towns, ports
     │   │   ├── buildings/                       ← specific buildings, shops, rooms
     │   │   ├── dungeons/                        ← keyed exploration sites
+    │   │   ├── sites/                           ← standalone landmarks, ruins, salvage fields
     │   │   └── planes/                          ← extraplanar locations
     │   │
     │   ├── factions/                            ← groups with shared identity and agenda
     │   ├── deities/                             ← gods/divine entities with wants and agency
-    │   ├── items/                               ← named objects with history or mechanical significance
+    │   ├── items/                               ← named objects; subdivided by rarity
+    │   │   ├── common/
+    │   │   ├── uncommon/
+    │   │   ├── rare/
+    │   │   ├── legendary/
+    │   │   └── artifact/
+    │   │
+    │   ├── creatures/                           ← stat blocks; subdivided by usage
+    │   │   ├── active/                          ← used in a session
+    │   │   ├── planned/                         ← in prep/run guides
+    │   │   └── background/                      ← not yet utilized
+    │   │
     │   └── vehicles/                            ← named vessels/vehicles (ships, wagons, etc.)
     │       └── {vehicle-name}/                  ← subfolder for detail_tier 3 vehicles
     │
@@ -186,6 +198,7 @@ Is it a named place, space, or region?
     City, town, port → settlements/
     Specific building, shop → buildings/
     Keyed exploration site → dungeons/
+    Standalone landmark, ruins, salvage field → sites/
     Extraplanar location → planes/
 
 Is it a group, organization, movement, or crew?
@@ -203,7 +216,8 @@ Is it a named vessel or vehicle?
     detail_tier 3: subfolder vehicles/{name}/
 
 Is it a named object with history or mechanical significance?
-  YES → wiki/entities/items/
+  YES → wiki/entities/items/{rarity}/
+    common/uncommon/rare/legendary/artifact by rarity field
 
 Is it abstract world knowledge (true of the world, not a specific entity)?
   YES → wiki/lore/

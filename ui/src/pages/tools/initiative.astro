@@ -12,18 +12,19 @@ const knownCharacters = entries
   .filter(
     (e) =>
       e.data.type === 'entity' &&
-      ['pc', 'npc', 'crew', 'minor'].includes(e.data.subtype ?? ''),
+      ['pc', 'npc', 'crew', 'minor', 'creature'].includes(e.data.subtype ?? ''),
   )
   .map((e) => {
     const slug = deriveSlug(e.id);
     return {
       name: e.data.title || titleCase(slug),
+      slug,
       portrait: e.data.portrait ? `/assets/${e.data.portrait}` : null,
       subtype: e.data.subtype as string,
     };
   })
   .sort((a, b) => {
-    const order = ['pc', 'npc', 'crew', 'minor'];
+    const order = ['pc', 'npc', 'crew', 'minor', 'creature'];
     return order.indexOf(a.subtype) - order.indexOf(b.subtype);
   });
 ---

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'preact/hooks'
 
 interface KnownCharacter {
   name: string;
+  slug: string;
   portrait: string | null;
   subtype: string;
 }
@@ -11,6 +12,7 @@ interface Combatant {
   name: string;
   initiative: number;
   portrait: string | null;
+  slug: string | null;
   conditions: string[];
   isNpc: boolean;
 }
@@ -84,7 +86,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
   }, [addName, knownCharacters, combatants]);
 
   const addCombatant = useCallback(
-    (name: string, init: number, portrait: string | null, isNpc: boolean) => {
+    (name: string, init: number, portrait: string | null, slug: string | null, isNpc: boolean) => {
       setCombatants((prev) => [
         ...prev,
         {
@@ -92,6 +94,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
           name,
           initiative: init,
           portrait,
+          slug,
           conditions: [],
           isNpc,
         },
@@ -110,6 +113,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
       known?.name ?? name,
       init,
       known?.portrait ?? null,
+      known?.slug ?? null,
       known?.subtype !== 'pc',
     );
     setAddName('');
@@ -354,24 +358,31 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                 {isOnDeck && <span class="it-arrow it-arrow-deck" />}
               </div>
 
-              {/* Portrait */}
-              <div class="it-portrait-wrap">
-                {c.portrait ? (
-                  <img src={c.portrait} alt={c.name} class="it-portrait" />
-                ) : (
-                  <div class="it-portrait-fallback" style={{ background: hashColor(c.name) }}>
-                    {initials(c.name)}
-                  </div>
-                )}
-              </div>
-
-              {/* Info */}
-              <div class="it-info">
-                <div class="it-name-row">
-                  <span class="it-name">{c.name}</span>
-                  {isCurrent && <span class="it-label-current">CURRENT</span>}
-                  {isOnDeck && <span class="it-label-deck">ON DECK</span>}
+              {/* Portrait + Name — click opens wiki page in new tab */}
+              <a
+                class="it-identity"
+                href={c.slug ? `/wiki/${c.slug}` : undefined}
+                target="_blank"
+                rel="noopener"
+                onClick={(e) => {
+                  if (!c.slug) e.preventDefault();
+                }}
+              >
+                <div class="it-portrait-wrap">
+                  {c.portrait ? (
+                    <img src={c.portrait} alt={c.name} class="it-portrait" />
+                  ) : (
+                    <div class="it-portrait-fallback" style={{ background: hashColor(c.name) }}>
+                      {initials(c.name)}
+                    </div>
+                  )}
                 </div>
+                <div class="it-info">
+                  <div class="it-name-row">
+                    <span class="it-name">{c.name}</span>
+                    {isCurrent && <span class="it-label-current">CURRENT</span>}
+                    {isOnDeck && <span class="it-label-deck">ON DECK</span>}
+                  </div>
 
                 {/* Conditions */}
                 {c.conditions.length > 0 && (
@@ -380,7 +391,11 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                       <span
                         key={cond}
                         class="it-condition"
-                        onClick={() => toggleCondition(c.id, cond)}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          toggleCondition(c.id, cond);
+                        }}
                         title="Click to remove"
                       >
                         {cond}
@@ -388,7 +403,8 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                     ))}
                   </div>
                 )}
-              </div>
+                </div>
+              </a>
 
               {/* Initiative value */}
               <div class="it-init-col">

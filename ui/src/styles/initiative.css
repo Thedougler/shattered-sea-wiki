@@ -250,6 +250,39 @@
   border-color: var(--color-border-highlight);
 }
 
+/* Identity link (portrait + name) */
+.it-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
+
+.it-identity[href] {
+  cursor: pointer;
+}
+
+.it-identity[href]:hover .it-name {
+  color: var(--color-accent-blue);
+}
+
+.it-identity[href]:hover .it-portrait {
+  border-color: var(--color-accent-blue);
+}
+
+.it-identity[href]:hover .it-portrait-fallback {
+  border-color: var(--color-accent-blue);
+}
+
+.it-current .it-identity[href]:hover .it-portrait,
+.it-current .it-identity[href]:hover .it-portrait-fallback {
+  border-color: var(--color-accent-blue);
+}
+
 /* Turn indicator */
 .it-turn-indicator {
   width: 1rem;

@@ -1,7 +1,7 @@
 ---
 title: Calveno — Index
 type: entity
-subtype: place
+subtype: settlement
 category: location-index
 publish: true
 visibility: public

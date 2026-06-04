@@ -1,6 +1,6 @@
 ---
 type: entity
-subtype: minor-npc
+subtype: npc
 campaign: shattered-sea
 status: active
 audience: players

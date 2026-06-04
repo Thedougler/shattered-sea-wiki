@@ -1,6 +1,6 @@
 ---
 type: entity
-subtype: place
+subtype: settlement
 campaign: shattered-sea
 status: reference
 audience: dm

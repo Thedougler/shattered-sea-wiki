@@ -1,6 +1,6 @@
 ---
 type: entity
-subtype: character
+subtype: minor-npc
 campaign: shattered-sea
 status: stub
 audience: dm

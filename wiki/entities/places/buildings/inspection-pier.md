@@ -1,6 +1,6 @@
 ---
 type: entity
-subtype: place
+subtype: building
 campaign: shattered-sea
 status: active
 audience: players

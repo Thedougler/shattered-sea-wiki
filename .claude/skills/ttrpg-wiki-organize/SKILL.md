@@ -13,13 +13,16 @@ description: >
 
 # TTRPG Wiki Organize
 
-Proactive, dynamic organizer for the LLM-wiki file and folder structure.
-Analyzes the actual content to determine what structure serves agents best,
-proposes and executes changes, and ensures every change is tracked in git.
+Proactive, autonomous organizer for the LLM-wiki file and folder structure.
+Analyzes content to determine what structure serves agents best, executes
+obvious improvements directly, and defers hard judgment calls to the DM.
 
 There is no single "correct" structure. The optimal layout evolves as the
 wiki grows. This skill reasons from first principles about what makes a
 folder tree navigable, not from a static canonical template.
+
+**Default mode is autonomous.** Execute what's clear, defer what's not,
+report everything.
 
 ---
 
@@ -114,73 +117,93 @@ python3 .claude/scripts/wiki_lint.py 2>&1 | grep -i "type-path-mismatch"
 
 ### Produce a findings table
 
-| Finding | Principle | Severity | Proposed action |
+Mark each finding ACT (execute now) or DEFER (needs DM).
+
+| Finding | Principle | Act/Defer | Action |
 |---|---|---|---|
-| `entities/places/` has 30 root files | P1 — can't predict path | high | Sort into subfolders |
-| `entities/species/` has 1 file | P5 — folder doesn't earn existence | low | Merge into `lore/species/` |
-| `settlements/calveno/` has 15 files | P4 — depth matches engagement | none | Keep as-is |
+| `entities/species/` has 1 file | P5 | ACT | Merge `human.md` into `lore/species/`, delete dir |
+| `entities/places/calven.md` at root, is an island | P1 | ACT | `git mv` → `places/islands/` |
+| `entities/places/the-drowned-maw.md` — region or dungeon? | P1 | DEFER | Could be either; DM decides |
+| `entities/items/` has 191 flat files | P5 | DEFER | Needs new subcategory design — DM decision |
+| `settlements/calveno/` has 15 files | P4 | — | Keep as-is, engagement justifies depth |
 
 ---
 
-## Step 2 — Propose Improvements
+## Step 2 — Act or Defer
 
-For each finding, design a structural change. This is where you reason about
-what's best for the content — not what a template says.
+For each finding, decide: can you execute this autonomously, or does the DM
+need to weigh in?
 
-### Questions to ask for each proposed change
+### ACT autonomously when ALL of these are true
 
-1. **Does this improve path prediction?** After the change, can an agent
-   predict where a file lives from its type alone?
-2. **Does it reduce or increase depth?** Prefer flatter unless subdivision
-   adds real navigability.
-3. **Does it match how agents actually use these files?** Files accessed
-   together should live near each other.
-4. **Is the grouping stable?** Will new content naturally sort into the same
-   buckets, or will the categories break as the wiki grows?
-5. **What's the blast radius?** How many wikilinks, scripts, and skills
-   reference the current paths?
+1. **The target location is unambiguous.** There is exactly one correct
+   subfolder, determined by what the file IS (read it, don't guess from the
+   filename).
+2. **The subfolder already exists**, or creating it groups 5+ files that
+   clearly belong together.
+3. **No scripts, skills, or code reference the current path.** Check:
+   ```bash
+   grep -r "current/path/slug" .claude/ packages/ --include="*.md" --include="*.ts" --include="*.py" | grep -v node_modules
+   ```
+   If zero hits, the move has near-zero blast radius.
+4. **The change doesn't rename or merge entity categories.** Moving a file
+   into an existing bucket is autonomous. Redefining what the buckets ARE
+   (e.g., merging `minor/` into `npcs/`, splitting `items/` into subtypes)
+   is a DM decision.
 
-### Propose, don't just execute
+Autonomous actions to execute directly:
 
-Present the findings table and proposed changes to the DM before executing.
-Include the reasoning — which principle drives each change, what the
-tradeoff is, and what you're uncertain about.
+| Action | Example | Principle |
+|---|---|---|
+| File → obvious existing subfolder | `entities/places/calven.md` → `islands/` (it's an island) | P1 |
+| Singleton directory → merge into parent | `entities/species/human.md` → `lore/species/` | P5 |
+| Empty directory → delete | `rmdir` after all files moved out | P5 |
+| Frontmatter type/subtype → match new path | Update after every move | P1 |
+| `-dm.md` file → follow its counterpart | `galewall-dm.md` moves with `galewall.md` | colocation |
 
-The DM may:
-- Approve all proposals
-- Approve some and reject others
-- Suggest a different structure entirely
-- Defer until later
+### DEFER to the DM when ANY of these are true
 
-Only execute what's approved.
+- **The file could reasonably go in two places** and you can't resolve it
+  by reading the content
+- **The change redefines categories** (new subfolder taxonomy, merging
+  directories, splitting a large directory into new buckets)
+- **Scripts or skills hardcode the current path** — the DM decides whether
+  the refactor is worth the blast radius
+- **40+ files would move** — that's a structural project, not a quick fix
+- **You're uncertain** — an unsorted file at a directory root is honest;
+  a file in the wrong subfolder is a lie
 
-### When to act without approval
+For deferred items, log them clearly:
 
-Small, unambiguous fixes that clearly improve P1 and have near-zero blast
-radius can be executed directly:
+```
+DEFERRED: {finding} — {options} — {why it needs DM input}
+```
 
-- Moving a single file from a directory root to an obvious existing subfolder
-- Creating a subfolder when 10+ files at a root share an obvious grouping
-  and no scripts/skills reference the current path
-- Merging a 1-file directory into its parent
+Continue executing autonomous actions. Don't block on deferred items.
 
-For anything else — propose first.
+### Design questions for deferred proposals
+
+When proposing a structural change to the DM, answer these:
+
+1. Does it improve path prediction?
+2. Is the grouping stable as the wiki grows?
+3. What's the blast radius (scripts, skills, code)?
+4. What's the alternative (including doing nothing)?
 
 ---
 
-## Step 3 — Plan the Moves
+## Step 3 — Plan and Execute ACT Items
 
-Group approved moves into batches by target directory. Each batch is one
-commit.
+Group all ACT items into batches by target directory. Each batch is one
+commit. Skip DEFER items — they're logged for the DM.
 
 For each batch, list:
 - Files to move
 - Target directory (create if missing)
 - Frontmatter fields to update (`subtype`, possibly `type`)
-- Blast radius: scripts, skills, or code referencing the current path
 
-**If more than 10 files need moving: create a `wiki/work-queue.md` entry
-BEFORE touching any files.**
+**If more than 10 ACT files: create a `wiki/work-queue.md` entry BEFORE
+touching any files.**
 
 ---
 
@@ -253,14 +276,32 @@ Reverts all unstaged changes. Reassess before retrying.
 
 ---
 
-## Step 6 — Commit and Close
+## Step 6 — Commit, Report, and Defer
 
 One commit per batch. Prefix: `fix:` for structural corrections.
 
-After all batches:
+After all ACT batches are committed:
 1. Close the work-queue entry if one exists
 2. Run `python3 .claude/scripts/wiki_lint.py --summary`
-3. Report what changed and what's left
+3. Report to the DM:
+
+```
+## Executed (autonomous)
+- Moved N files across M batches
+- Directories created: K
+- Directories removed: J
+- Frontmatter updated: N files
+
+## Deferred (needs your input)
+- {finding} — {options} — {why}
+- {finding} — {options} — {why}
+
+## Lint: {summary line}
+```
+
+The deferred section is the DM's action queue. If the DM approves any
+deferred items in the same session, execute them immediately using the
+same batch protocol.
 
 ---
 
@@ -285,13 +326,15 @@ longer serves navigability, propose the change with reasoning.
 ## Red Flags — STOP and Reassess
 
 - **Moving 10+ files without a work queue** — create the queue first
-- **Guessing where an ambiguous file goes** — propose to DM, don't guess
+- **File could go in two places** — DEFER, don't guess
+- **Redefining category boundaries** (merging dirs, new taxonomy) — DEFER
+- **40+ files would move in one structural change** — DEFER
+- **Scripts or skills hardcode the path** — DEFER
 - **Skipping validation after a batch** — run the linter
 - **Using `mv` instead of `git mv`** — undo, use `git mv`
 - **Committing with lint errors** — fix first
 - **Editing file content during an organize pass** — organize is structural;
   content changes are a separate commit
-- **Restructuring a 100+ file directory unilaterally** — that's a project,
   not a quick fix; propose to DM
 
 ---
@@ -303,10 +346,12 @@ longer serves navigability, propose the change with reasoning.
 | "This is obvious, no queue needed" | 10+ files = queue. Obvious moves still break things. |
 | "I'll fix frontmatter later" | Frontmatter must match path immediately. Stale frontmatter compounds. |
 | "Wikilinks resolve by slug, moves are safe" | Code paths, scripts, and skills may use explicit paths. Check. |
-| "This file could go either way, I'll just pick" | Propose to DM. A wrong placement is worse than an unsorted file. |
+| "This file could go either way, I'll just pick" | DEFER. A wrong placement is worse than an unsorted file. |
 | "I'll validate at the end" | Validate per batch. Cascading errors across batches are exponentially harder. |
 | "I should fix the content while I'm in the file" | Organize is structural. Content is a separate task. |
 | "The canonical structure says X" | The canonical structure is a starting point, not law. Evaluate against the principles. |
+| "I need DM approval for everything" | No — clear, unambiguous, zero-blast-radius moves are autonomous. Don't block on the obvious. |
+| "I'll just restructure this whole directory" | Redefining categories is a DEFER. Moving files into existing categories is an ACT. |
 
 ---
 

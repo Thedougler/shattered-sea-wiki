@@ -340,6 +340,9 @@ def retrain(
     audio_dir: Optional[Path] = typer.Option(
         None, "--audio-dir", help="Directory containing chunk WAV files"
     ),
+    speaker_map_path: Optional[Path] = typer.Option(
+        None, "--speaker-map", help="speaker-map.md from session-ingest (remaps UNKNOWN labels)"
+    ),
     blend: float = typer.Option(
         0.7, "--blend", help="Weight for new data (0-1, higher = more new)"
     ),
@@ -355,11 +358,25 @@ def retrain(
 
     wav_dir = audio_dir or transcript.parent
 
+    label_map = None
+    if speaker_map_path:
+        if not speaker_map_path.exists():
+            console.print(f"[red]Speaker map not found: {speaker_map_path}[/red]")
+            raise typer.Exit(1)
+        from .profiles import parse_speaker_map
+
+        label_map = parse_speaker_map(speaker_map_path)
+        console.print(f"  Speaker map: {len(label_map)} resolutions from {speaker_map_path}")
+        for orig, resolved in label_map.items():
+            console.print(f"    {orig} → {resolved}")
+
     console.print(f"[bold]Retraining profiles from {transcript}[/bold]")
     console.print(f"  Audio dir: {wav_dir}")
     console.print(f"  Blend: {1 - blend:.0%} old + {blend:.0%} new")
 
     if legacy:
+        if label_map:
+            console.print("[yellow]--speaker-map is ignored with --legacy[/yellow]")
         from .profiles import retrain_from_transcript
 
         updated = retrain_from_transcript(
@@ -371,7 +388,11 @@ def retrain(
         from .profiles import retrain_from_transcript_v2
 
         updated = retrain_from_transcript_v2(
-            transcript, wav_dir, cfg.profiles_dir, blend_old=1 - blend
+            transcript,
+            wav_dir,
+            cfg.profiles_dir,
+            blend_old=1 - blend,
+            speaker_map=label_map,
         )
         for slug, actor in updated.items():
             console.print(f"  [green]{actor.name}[/green]: {actor.sample_count} samples")

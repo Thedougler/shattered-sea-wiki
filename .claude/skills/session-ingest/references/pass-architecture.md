@@ -63,6 +63,83 @@ needed. Note this in `progress.txt` line 1: `speakers: all known (no map needed)
 
 ---
 
+## Pass 1b: Retrain Voice Profiles
+
+**Automatic — runs after Pass 1 when cold-pass chunks exist.**
+
+Input: `speaker-map.md` + `Inbox/sNN-chunk-*.md` + corresponding WAVs
+Output: Updated voice profiles in `~/.config/shattered-audio/profiles/`
+
+Speaker corrections from Pass 1 are wasted if they don't improve future
+sessions. This step feeds them back into the voice profile system so the
+live transcription produces fewer UNKNOWN labels next time.
+
+### Prerequisite Check
+
+Cold-pass chunks must exist in `Inbox/` from the same session. Check:
+
+```bash
+ls Inbox/s{NN}-chunk-*.md Inbox/s{NN}-chunk-*.wav 2>/dev/null
+```
+
+If no chunks exist (session was transcribed offline only, not via live
+capture), skip this step — there's no timestamped audio to retrain from.
+
+### Procedure
+
+1. **Build the label map.** The speaker-map.md from Pass 1 resolves CSV
+   labels (`Speaker 1`, `Speaker N`). The cold-pass chunks use a different
+   label space (`UNKNOWN_1`, `UNKNOWN_N`). Check which UNKNOWN labels in the
+   chunks correspond to the same speakers resolved in the speaker-map.
+   Add any additional UNKNOWN→identity mappings to the speaker-map's
+   resolution table under a `### Cold-Pass Labels` section:
+
+   ```markdown
+   ### Cold-Pass Labels
+
+   | Label | Resolved To | Confidence | Evidence |
+   |---|---|---|---|
+   | UNKNOWN_1 | Crissdalyn | high | Same speaker as CSV "Speaker 1" — temporal overlap, complementary gaps |
+   | UNKNOWN_3 | Perrin | medium | Process of elimination — only unaccounted player |
+   ```
+
+2. **Run retrain with the speaker-map.** For each chunk that had UNKNOWN
+   labels:
+
+   ```bash
+   shattered-audio retrain Inbox/s{NN}-chunk-001.md \
+     --speaker-map audio/sessions/session{NN}/speaker-map.md \
+     --audio-dir Inbox/ --blend 0.7
+   ```
+
+   The `--speaker-map` flag reads the resolution table and remaps UNKNOWN
+   labels during parsing — no manual find-replace needed.
+
+3. **Verify profile updates.**
+
+   ```bash
+   shattered-audio profiles
+   ```
+
+   Confirm updated sample counts for the resolved speakers.
+
+4. **Commit:**
+   ```
+   fix: retrain voice profiles from session {NN} speaker corrections
+   ```
+
+### Skip Conditions
+
+- No cold-pass chunks in `Inbox/` for this session
+- Pass 1 was skipped (all speakers already known — profiles are already good)
+- All UNKNOWN labels in chunks were short utterances (<2s) with no
+  reliable audio to train from
+
+**Checkpoint:** `shattered-audio profiles` shows updated sample counts, or
+skip reason noted in `progress.txt`.
+
+---
+
 ## Pass 2: Extract & Recap (One Part Per Agent)
 
 **Requires agent judgment.** Read `references/extraction-targets.md`.

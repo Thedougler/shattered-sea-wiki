@@ -583,6 +583,30 @@ def enroll_persona(
 
 
 # ---------------------------------------------------------------------------
+# Speaker map parsing (bridges session-ingest → retrain)
+# ---------------------------------------------------------------------------
+
+_SPEAKER_MAP_ROW = re.compile(r"\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(high|medium|low|unknown)\s*\|")
+
+
+def parse_speaker_map(path: Path) -> dict[str, str]:
+    """Read a session-ingest speaker-map.md and return {label: resolved_name}.
+
+    Only includes high and medium confidence resolutions.
+    Keys are case-preserved original labels (e.g. "UNKNOWN_3", "Speaker 1").
+    """
+    label_map: dict[str, str] = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        m = _SPEAKER_MAP_ROW.match(line.strip())
+        if not m:
+            continue
+        label, resolved, confidence = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
+        if confidence in ("high", "medium") and label.lower() not in ("label", "---"):
+            label_map[label] = resolved
+    return label_map
+
+
+# ---------------------------------------------------------------------------
 # v2 retraining
 # ---------------------------------------------------------------------------
 
@@ -592,12 +616,17 @@ def retrain_from_transcript_v2(
     audio_dir: Path,
     profiles_dir: Path,
     blend_old: float = 0.3,
+    speaker_map: dict[str, str] | None = None,
 ) -> dict[str, ActorProfile]:
     """Retrain actor+persona profiles from a corrected transcript.
 
     Handles both actor labels ("Nick") and persona labels ("Thunk").
     Persona labels are resolved via the actor registry.
     Also parses "Name (as Persona)" format.
+
+    If speaker_map is provided, remaps labels before processing — e.g.
+    {"UNKNOWN_3": "Perrin", "Speaker 1": "Crissdalyn"} turns UNKNOWN lines
+    into usable training data.
     """
     from pydub import AudioSegment
 
@@ -655,6 +684,8 @@ def retrain_from_transcript_v2(
             continue
 
         speaker_raw = speaker_raw.strip()
+        if speaker_map:
+            speaker_raw = speaker_map.get(speaker_raw, speaker_raw)
         if speaker_raw.startswith("UNKNOWN"):
             continue
 

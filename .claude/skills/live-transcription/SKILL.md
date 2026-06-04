@@ -161,6 +161,24 @@ shattered-audio retrain transcript.md --legacy    # v1 flat profiles only
 Transcript labels supported: `**Thunk:**` (resolved to Nick's persona),
 `**Nick (as Thunk):**` (explicit), `**Nick:**` (actor base voice).
 
+#### `--speaker-map` (session-ingest integration)
+
+Accepts a `speaker-map.md` from the session-ingest skill and remaps UNKNOWN
+labels during parsing — no manual find-replace needed:
+
+```
+shattered-audio retrain Inbox/s12-chunk-001.md \
+  --speaker-map audio/sessions/session12/speaker-map.md \
+  --audio-dir Inbox/ --blend 0.7
+```
+
+The speaker-map is a markdown table with `| Label | Resolved To | Confidence |`
+columns. Only high and medium confidence resolutions are applied. This turns
+UNKNOWN lines into usable training data, so every session's speaker corrections
+improve future accuracy.
+
+See `session-ingest` skill, Pass 1b for the full workflow.
+
 ### `shattered-audio devices`
 
 List available audio input devices with channel count and sample rate.
@@ -233,9 +251,22 @@ If unavailable, cold pass still runs — just without diarization labels.
 
 ### Improving accuracy after a session
 
+**Manual correction (quick):**
+
 1. Review `Inbox/sNN-chunk-NNN.md` — fix any wrong speaker/character labels
 2. `shattered-audio retrain Inbox/sNN-chunk-NNN.md --audio-dir Inbox/`
 3. Profiles update in-place with weighted blending
+
+**Via session-ingest (automatic, preferred):**
+
+When session-ingest runs Pass 1 (speaker resolution), it produces a
+`speaker-map.md` with high-confidence corrections. Pass 1b feeds those
+corrections directly into retrain via `--speaker-map` — no manual editing
+of chunk files needed. This is the recommended path because session-ingest
+uses conversational context and process of elimination, which catches
+errors that manual review might miss.
+
+See `session-ingest` skill, Pass 1b for details.
 
 ### Adding a new microphone
 

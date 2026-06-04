@@ -105,21 +105,24 @@ digraph passes {
   node [shape=box];
   "Part CSVs" [shape=folder];
   "wiki/" [shape=folder];
+  "Voice\nProfiles" [shape=cylinder];
 
   "Part CSVs" -> "Pass 1\nResolve Speakers";
+  "Pass 1\nResolve Speakers" -> "Pass 1b\nRetrain Profiles";
+  "Pass 1b\nRetrain Profiles" -> "Voice\nProfiles";
   "Pass 1\nResolve Speakers" -> "Pass 2\nExtract & Recap\n(per part)";
   "Pass 2\nExtract & Recap\n(per part)" -> "Pass 3\nWiki Integration";
   "Pass 3\nWiki Integration" -> "wiki/";
 }
 ```
 
-Three passes, not four. Parts are processed directly — no assembly step.
 Full per-pass procedures, file formats, and the final-part wrap-up live in
 `references/pass-architecture.md` — read it before running any pass.
 
 | Pass | Goal | Input → Output | Judgment ref |
 |---|---|---|---|
 | **1: Resolve Speakers** | Map every `Speaker N`/`Unknown` to a known identity with evidence + confidence. Skip entirely if all labels are known. | all part CSVs → `speaker-map.md` | `references/speaker-resolution.md` |
+| **1b: Retrain Profiles** | Feed speaker corrections back to voice profiles so future sessions have fewer unknowns. Runs automatically after Pass 1 if cold-pass chunks + WAVs exist in `Inbox/`. | `speaker-map.md` + `Inbox/sNN-chunk-*.md` + WAVs → updated voice profiles | `references/pass-architecture.md` |
 | **2: Extract & Recap** | One part per agent: classify IC/OOC/META, merge fragments, split scenes, extract tagged canon, then commit + handoff + **stop**. No wiki writes. | part CSV + `speaker-map.md` + `hot.md` → `recap.md` + `extracts.md` + `flags.md` (cumulative); `combat-summary.md` after final part | `references/extraction-targets.md` |
 | **3: Wiki Integration** | Fold recap + extracts into the wiki via the existing ingest pipeline once `flags.md` is clear. | `recap.md` + `extracts.md` + `flags.md` → wiki files | load `ttrpg-wiki-ingest` (`references/transcript-ingest.md`) + `ttrpg-writing` |
 

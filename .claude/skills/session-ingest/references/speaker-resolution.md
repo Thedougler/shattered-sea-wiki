@@ -128,6 +128,20 @@ Record every resolution in `speaker-map.md`:
 | Speaker 6 | DM | medium | Short interjections during meta/NPC dialogue, no other speaker absent |
 | Speaker 7 | Phone (external) | low | Non-game audio picked up from player's phone call |
 
+### Cold-Pass Labels
+
+If cold-pass chunks exist in `Inbox/` from the same session, also resolve
+UNKNOWN labels from those files. These use a different label space
+(`UNKNOWN_1`, `UNKNOWN_N`) but represent the same speakers.
+
+| Label | Resolved To | Confidence | Evidence |
+|---|---|---|---|
+| UNKNOWN_1 | Crissdalyn | high | Same speaker as CSV "Speaker 1" — temporal overlap, complementary gaps |
+| UNKNOWN_3 | Perrin | medium | Process of elimination — only unaccounted player |
+
+To check which UNKNOWN labels exist in the chunks:
+`grep -h 'UNKNOWN' Inbox/s{NN}-chunk-*.md | sort | uniq -c | sort -rn`
+
 ### Evidence Notes
 
 Speaker 1 → Crissdalyn:
@@ -150,13 +164,20 @@ Speaker 1 → Crissdalyn:
 
 ## Applying Resolutions
 
-The speaker map is applied inline during Pass 2 (extraction). The extracting
-agent reads raw part CSVs and mentally replaces Speaker N labels per the map
-while processing. No intermediate resolved CSV is produced.
+The speaker map has two downstream consumers:
+
+1. **Pass 2 (extraction):** The extracting agent reads raw part CSVs and
+   mentally replaces Speaker N labels per the map. No intermediate resolved
+   CSV is produced.
+
+2. **Pass 1b (voice profile retraining):** The `--speaker-map` flag on
+   `shattered-audio retrain` reads the resolution table (including the
+   Cold-Pass Labels section) and remaps UNKNOWN labels in the chunk
+   markdown during parsing. Only high/medium confidence entries are used.
 
 For `low` confidence resolutions, prefix the resolved name with `?` in extracts
 and recap (e.g., `?Perrin`) so downstream consumers know those attributions are
-uncertain.
+uncertain. Low-confidence entries are excluded from retrain automatically.
 
 ---
 

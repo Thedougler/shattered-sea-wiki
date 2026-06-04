@@ -67,6 +67,32 @@
         {"text": "Suggests increasing prosody_weight if the character differs mainly in pitch/rate"},
         {"text": "Explains that d-vectors encode vocal tract identity — persona separation relies on prosodic differences"}
       ]
+    },
+    {
+      "id": 6,
+      "prompt": "I just finished session-ingest Pass 1 for session 12 and resolved UNKNOWN_3 to Perrin. The cold-pass chunks and WAVs are still in Inbox/. How do I use these corrections to improve voice profiles?",
+      "expected_output": "Should reference the --speaker-map flag on shattered-audio retrain, explain that it reads the speaker-map.md resolution table and remaps UNKNOWN labels during parsing, mention Pass 1b from session-ingest, and note that no manual editing of chunk files is needed.",
+      "files": [],
+      "assertions": [
+        {"text": "Mentions the --speaker-map flag on shattered-audio retrain"},
+        {"text": "Shows the correct command syntax with --speaker-map pointing to speaker-map.md"},
+        {"text": "States that no manual find-replace or editing of chunk markdown files is needed"},
+        {"text": "Mentions that only high and medium confidence resolutions are applied"},
+        {"text": "References Pass 1b or the session-ingest integration workflow"}
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "I want every session's speaker corrections to automatically improve my voice profiles. What's the workflow?",
+      "expected_output": "Should explain the end-to-end loop: session-ingest Pass 1 resolves speakers, Pass 1b feeds corrections into retrain via --speaker-map, profiles improve, next session has fewer UNKNOWNs. Mention keeping WAVs in Inbox/ until Pass 1b runs.",
+      "files": [],
+      "assertions": [
+        {"text": "Describes the feedback loop: Pass 1 corrections → Pass 1b retrain → better future sessions"},
+        {"text": "Mentions Pass 1b runs automatically after Pass 1 when cold-pass chunks exist"},
+        {"text": "Notes the requirement to keep WAV files in Inbox/ until retrain completes"},
+        {"text": "Recommends session-ingest path over manual correction for accuracy"},
+        {"text": "Mentions --speaker-map flag as the bridge between the two systems"}
+      ]
     }
   ]
 }

@@ -42,7 +42,7 @@ The Crown Islands are the oldest colonial foothold in the Scatter. The majority 
 
 | Species | Presence | Notes |
 |---|---|---|
-| Human | Dominant | Dravosi colonial stock; also Tessarine merchants and independent families. |
+| [[human|Human]] | Dominant | Dravosi colonial stock; also Tessarine merchants and independent families. |
 | Halfling | Common | Chandlers, bookkeepers, small merchants. |
 | Dwarf | Common | Naval engineering, fortification work, armaments manufacture. |
 | [[rattkin|Rattkin]] | Common | Port infrastructure, message networks, The Passage. Officially discouraged; practically irreplaceable. |

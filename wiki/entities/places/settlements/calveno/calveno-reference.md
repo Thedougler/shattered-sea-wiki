@@ -57,3 +57,7 @@ The oldest commercial centre in the Scatter. Pale stone buildings rise four and 
 Being seen with the right person here carries the same weight as whatever you said to them. Privacy exists — it's just expensive, and someone is always selling it.
 
 Beneath Le Paludi's drainage network sits [[warren|The Warren]], the only fixed Rattkin settlement in the Scatter. The city above has no idea what's down there. The [[the-passage|Passage]] runs its anchor point through it, and the Tangle monitors money flows and canal traffic both — which means they usually know what's moving through this city before the people moving it do.
+
+## See Also
+
+- [[calveno-locations|Calveno — Index]] — full index of locations, shops, and key NPCs in Calveno

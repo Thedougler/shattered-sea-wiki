@@ -49,3 +49,4 @@ Deflected Barnaby Rook's shot in Session 01.
 - [[catarina-davirelli|Catarina DaVirelli]] — maker
 - [[antheri-ruins|Antheri Ruins]] — origin material
 - [[shelfworks|Shelfworks]] — salvage source
+- [[lantern-of-revealing|Lantern of Revealing]] — associated item recovered from the same Antheri source

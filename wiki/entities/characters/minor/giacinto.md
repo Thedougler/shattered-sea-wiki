@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Gnome moustache craftsman, late 60s, Velo Quarter; sells beret-and-moustache kits that read as 'performer' to Calveno crowds; key to Jean-Claude blending in."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - needs-detail
 sources:

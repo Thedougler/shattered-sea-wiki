@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - needs-detail
   - dravosi

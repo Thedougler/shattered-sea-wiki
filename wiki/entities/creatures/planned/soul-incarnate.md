@@ -87,3 +87,8 @@ actions:
 A monk who achieved lichdom through years of meditation, then ritual desiccation — drinking a mummifying preparation while sealed underground in perfect stillness until the boundary between life and death dissolved. The physical body mummifies and becomes the phylactery; the consciousness rises as a ki-form: a hovering figure traced in glowing meridian lines, incorporeal and unbounded by normal physical limits.
 
 *Source: Pointy Hat*
+
+## Related
+
+- [[sentinels-true-head|Who Is the True Head of the Sentinels]] — the situation in which this creature is revealed as the Sentinels' true leader
+- [[sentinels-of-the-eyrie|Sentinels of the Eyrie]] — the order secretly guided by the Soul Incarnate for two centuries

@@ -65,7 +65,7 @@ class ColdPass:
 
                 diar_segments = diarize(chunk.wav_path)
                 diarization_model = "pyannote/speaker-diarization-3.1"
-            except (ImportError, RuntimeError) as e:
+            except Exception as e:
                 logger.warning("Diarization unavailable: %s", e)
 
         # Speaker identification: voice profiles take precedence, diarization fills gaps

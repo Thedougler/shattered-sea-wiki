@@ -521,6 +521,53 @@
   accent-color: var(--color-accent-gold);
 }
 
+/* Lair action row */
+.it-lair-action {
+  background: color-mix(in srgb, #8b6fc0 8%, var(--color-bg-secondary));
+  border-color: color-mix(in srgb, #8b6fc0 40%, transparent);
+}
+
+.it-lair-action:hover {
+  background: color-mix(in srgb, #8b6fc0 12%, var(--color-bg-secondary));
+}
+
+.it-current.it-lair-action {
+  background: color-mix(in srgb, #8b6fc0 15%, var(--color-bg-secondary));
+  border-color: #8b6fc0;
+  box-shadow: 0 0 20px rgba(139, 111, 192, 0.15);
+}
+
+.it-current.it-lair-action .it-init-value {
+  color: #8b6fc0;
+}
+
+.it-current.it-lair-action .it-portrait,
+.it-current.it-lair-action .it-portrait-fallback {
+  border-color: #8b6fc0;
+}
+
+.it-current.it-lair-action .it-arrow-current {
+  border-left-color: #8b6fc0;
+}
+
+.it-lair-icon {
+  background: color-mix(in srgb, #8b6fc0 25%, transparent) !important;
+  color: #8b6fc0;
+}
+
+.it-label-lair {
+  color: #8b6fc0 !important;
+  background: color-mix(in srgb, #8b6fc0 15%, transparent) !important;
+}
+
+.it-init-static {
+  font-variant-numeric: tabular-nums;
+}
+
+.it-btn-lair-active {
+  color: #8b6fc0 !important;
+}
+
 /* Empty state */
 .it-empty {
   text-align: center;

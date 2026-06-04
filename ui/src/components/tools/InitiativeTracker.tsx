@@ -15,7 +15,10 @@ interface Combatant {
   slug: string | null;
   conditions: string[];
   isNpc: boolean;
+  hasLairActions: boolean;
 }
+
+type DisplayEntry = Combatant & { isLairAction?: boolean };
 
 interface Props {
   knownCharacters: KnownCharacter[];
@@ -73,6 +76,27 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
     [combatants],
   );
 
+  const displayList: DisplayEntry[] = useMemo(() => {
+    const lairOwners = sorted.filter((c) => c.hasLairActions);
+    const list: DisplayEntry[] = sorted.map((c) => ({ ...c }));
+    if (lairOwners.length > 0) {
+      let insertIdx = list.findIndex((c) => c.initiative < 20);
+      if (insertIdx === -1) insertIdx = list.length;
+      list.splice(insertIdx, 0, {
+        id: 'lair-action',
+        name: lairOwners.length === 1 ? `Lair — ${lairOwners[0].name}` : 'Lair Actions',
+        initiative: 20,
+        portrait: lairOwners.length === 1 ? lairOwners[0].portrait : null,
+        slug: lairOwners.length === 1 ? lairOwners[0].slug : null,
+        conditions: [],
+        isNpc: true,
+        hasLairActions: false,
+        isLairAction: true,
+      });
+    }
+    return list;
+  }, [sorted]);
+
   const suggestions = useMemo(() => {
     if (!addName.trim()) return [];
     const q = addName.toLowerCase();
@@ -97,6 +121,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
           slug,
           conditions: [],
           isNpc,
+          hasLairActions: false,
         },
       ]);
     },
@@ -136,8 +161,9 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
       setCombatants((prev) => {
         const next = prev.filter((c) => c.id !== id);
         setCurrentIndex((ci) => {
-          const newSorted = [...next].sort((a, b) => b.initiative - a.initiative);
-          if (ci >= newSorted.length) return 0;
+          const hasLair = next.some((c) => c.hasLairActions);
+          const len = next.length + (hasLair ? 1 : 0);
+          if (ci >= len) return 0;
           return ci;
         });
         return next;
@@ -147,7 +173,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
   );
 
   const nextTurn = useCallback(() => {
-    if (sorted.length === 0) return;
+    if (displayList.length === 0) return;
     if (!inCombat) {
       setInCombat(true);
       setCurrentIndex(0);
@@ -156,24 +182,24 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
     }
     setCurrentIndex((prev) => {
       const next = prev + 1;
-      if (next >= sorted.length) {
+      if (next >= displayList.length) {
         setRound((r) => r + 1);
         return 0;
       }
       return next;
     });
-  }, [sorted.length, inCombat]);
+  }, [displayList.length, inCombat]);
 
   const prevTurn = useCallback(() => {
-    if (sorted.length === 0 || !inCombat) return;
+    if (displayList.length === 0 || !inCombat) return;
     setCurrentIndex((prev) => {
       if (prev === 0) {
         setRound((r) => Math.max(1, r - 1));
-        return sorted.length - 1;
+        return displayList.length - 1;
       }
       return prev - 1;
     });
-  }, [sorted.length, inCombat]);
+  }, [displayList.length, inCombat]);
 
   const resetCombat = useCallback(() => {
     setInCombat(false);
@@ -203,6 +229,12 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
 
   const updateInitiative = useCallback((id: string, newInit: number) => {
     setCombatants((prev) => prev.map((c) => (c.id === id ? { ...c, initiative: newInit } : c)));
+  }, []);
+
+  const toggleLairActions = useCallback((id: string) => {
+    setCombatants((prev) =>
+      prev.map((c) => (c.id === id ? { ...c, hasLairActions: !c.hasLairActions } : c)),
+    );
   }, []);
 
   // Keyboard shortcuts
@@ -321,7 +353,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
       </div>
 
       {/* Turn controls */}
-      {sorted.length > 0 && (
+      {displayList.length > 0 && (
         <div class="it-controls">
           <button
             class="it-btn it-btn-turn it-btn-prev"
@@ -338,9 +370,9 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
 
       {/* Initiative list */}
       <div class="it-list">
-        {sorted.map((c, i) => {
+        {displayList.map((c, i) => {
           const isCurrent = inCombat && i === currentIndex;
-          const isOnDeck = inCombat && i === (currentIndex + 1) % sorted.length && sorted.length > 1;
+          const isOnDeck = inCombat && i === (currentIndex + 1) % displayList.length && displayList.length > 1;
           return (
             <div
               key={c.id}
@@ -348,6 +380,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                 'it-combatant',
                 isCurrent && 'it-current',
                 isOnDeck && 'it-on-deck',
+                c.isLairAction && 'it-lair-action',
               ]
                 .filter(Boolean)
                 .join(' ')}
@@ -372,15 +405,24 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
                   {c.portrait ? (
                     <img src={c.portrait} alt={c.name} class="it-portrait" />
                   ) : (
-                    <div class="it-portrait-fallback" style={{ background: hashColor(c.name) }}>
-                      {initials(c.name)}
+                    <div
+                      class={`it-portrait-fallback${c.isLairAction ? ' it-lair-icon' : ''}`}
+                      style={{ background: c.isLairAction ? undefined : hashColor(c.name) }}
+                    >
+                      {c.isLairAction ? (
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                          <path d="M12 2l8 10-8 10-8-10z" />
+                        </svg>
+                      ) : (
+                        initials(c.name)
+                      )}
                     </div>
                   )}
                 </div>
                 <div class="it-info">
                   <div class="it-name-row">
                     <span class="it-name">{c.name}</span>
-                    {isCurrent && <span class="it-label-current">CURRENT</span>}
+                    {isCurrent && <span class={`it-label-current${c.isLairAction ? ' it-label-lair' : ''}`}>CURRENT</span>}
                     {isOnDeck && <span class="it-label-deck">ON DECK</span>}
                   </div>
 
@@ -408,42 +450,57 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
 
               {/* Initiative value */}
               <div class="it-init-col">
-                <input
-                  type="number"
-                  value={c.initiative}
-                  class="it-init-value"
-                  onInput={(e) => {
-                    const val = parseInt((e.target as HTMLInputElement).value);
-                    if (!isNaN(val)) updateInitiative(c.id, val);
-                  }}
-                  title="Initiative"
-                />
+                {c.isLairAction ? (
+                  <span class="it-init-value it-init-static">20</span>
+                ) : (
+                  <input
+                    type="number"
+                    value={c.initiative}
+                    class="it-init-value"
+                    onInput={(e) => {
+                      const val = parseInt((e.target as HTMLInputElement).value);
+                      if (!isNaN(val)) updateInitiative(c.id, val);
+                    }}
+                    title="Initiative"
+                  />
+                )}
               </div>
 
               {/* Actions */}
-              <div class="it-actions">
-                <button
-                  class="it-btn-icon"
-                  title="Conditions"
-                  onClick={() =>
-                    setConditionTarget(conditionTarget === c.id ? null : c.id)
-                  }
-                >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 8v4M12 16h.01" />
-                  </svg>
-                </button>
-                <button
-                  class="it-btn-icon it-btn-remove"
-                  title="Remove"
-                  onClick={() => removeCombatant(c.id)}
-                >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 6L6 18M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
+              {!c.isLairAction && (
+                <div class="it-actions">
+                  <button
+                    class={`it-btn-icon${c.hasLairActions ? ' it-btn-lair-active' : ''}`}
+                    title="Lair Actions"
+                    onClick={() => toggleLairActions(c.id)}
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill={c.hasLairActions ? 'currentColor' : 'none'} stroke="currentColor" stroke-width="2">
+                      <path d="M12 2l8 10-8 10-8-10z" />
+                    </svg>
+                  </button>
+                  <button
+                    class="it-btn-icon"
+                    title="Conditions"
+                    onClick={() =>
+                      setConditionTarget(conditionTarget === c.id ? null : c.id)
+                    }
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M12 8v4M12 16h.01" />
+                    </svg>
+                  </button>
+                  <button
+                    class="it-btn-icon it-btn-remove"
+                    title="Remove"
+                    onClick={() => removeCombatant(c.id)}
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 6L6 18M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              )}
 
               {/* Condition popover */}
               {conditionTarget === c.id && (
@@ -464,7 +521,7 @@ export default function InitiativeTracker({ knownCharacters }: Props) {
           );
         })}
 
-        {sorted.length === 0 && (
+        {displayList.length === 0 && (
           <div class="it-empty">
             Add combatants above to begin tracking initiative.
           </div>

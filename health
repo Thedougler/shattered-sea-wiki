@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+exec python3 .claude/scripts/wiki_health_snapshot.py "$@"

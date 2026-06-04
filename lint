@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+echo "=== Wiki lint ==="
+python3 .claude/scripts/wiki_lint.py "$@"
+echo ""
+echo "=== Biome ==="
+pnpm lint

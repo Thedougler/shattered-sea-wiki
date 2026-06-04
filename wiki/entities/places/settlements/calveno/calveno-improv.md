@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: At-table improv tools for Calveno — name banks by culture, NPC quick-build, location naming, district texture, and how Calvenans talk.
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - dm-prep
 sources:

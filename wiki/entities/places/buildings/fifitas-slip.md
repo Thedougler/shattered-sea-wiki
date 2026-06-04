@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Unofficial boatyard on Kalowe's lagoon side — does not appear in the harbour books; run by Noa Fifita."
 created: 2026-05-28
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - maritime
   - passage

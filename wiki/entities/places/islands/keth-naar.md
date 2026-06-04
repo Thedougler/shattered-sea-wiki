@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "A tabaxi city of twelve black basalt promontories at the edge of the Blue Hole — hunters, current-readers, and people who know which deep shadow to leave alone."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - sunken-crown
 sources:

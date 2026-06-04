@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The oldest settled island in the Crown Islands — low-lying marshland and tidal flats beneath a Tessarine-dominated commercial city, with a Rattkin population beneath it older than either colonial power.
 created: 2026-05-04
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - tessarine
 sources:

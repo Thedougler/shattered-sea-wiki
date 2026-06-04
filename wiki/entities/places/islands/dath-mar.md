@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - sunken-crown
 sources:

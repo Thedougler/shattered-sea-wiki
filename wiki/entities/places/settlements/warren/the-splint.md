@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "The Warren's apothecary and healer — a small, methodical Rattkin named Colla sets bones, closes wounds, and stocks the only reliable supply of healing preparations below Calveno."
 created: '2026-05-29'
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - rattkin
 sources:

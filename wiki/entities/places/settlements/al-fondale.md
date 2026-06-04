@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A cozy Le Paludi tavern in the oldest canal zone of Calveno — good food, cheap wine, four rooms above, run by an old couple who have been here long enough to stop advertising.
 created: 2026-05-25
-updated: 2026-05-31
+updated: 2026-06-03
 tags:
   - passage
 sources:

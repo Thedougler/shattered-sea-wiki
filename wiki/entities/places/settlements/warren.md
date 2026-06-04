@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "The fixed Rattkin city beneath Calveno's Le Paludi drainage network — low old channels, hidden holds, oil lamps, rope bridges, and the deepest anchor of the Passage."
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - rattkin
   - passage

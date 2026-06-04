@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years."
 created: '2026-05-29'
-updated: 2026-06-02
+updated: 2026-06-03
 tags:
   - waveservants
 sources:

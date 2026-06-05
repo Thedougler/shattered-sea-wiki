@@ -558,6 +558,8 @@ def _obsidian_deadends() -> list[Issue]:
     for path in lines:
         if not path.startswith("wiki/"):
             continue
+        if not path.endswith(".md"):
+            continue
         if os.path.basename(path) in SKIP_CONTENT:
             continue
         if path.startswith(ORPHAN_EXEMPT_PREFIXES):
@@ -866,6 +868,50 @@ def check_tags(records) -> list[Issue]:
     return issues
 
 
+SINGLETON_WHITELIST = {
+    "cr",
+    "aliases",
+    "region",
+    "species",
+    "pronouns",
+    "portrait",
+    "ship_class",
+    "hull_points",
+    "crew_capacity",
+    "speed",
+    "captain",
+    "current_holder",
+    "parent_location",
+    "narrative_island",
+    "session_number",
+    "session_date",
+    "alignment",
+    "ac",
+    "hp",
+    "size",
+    "challenge_rating",
+    "damage_resistances",
+    "damage_immunities",
+    "condition_immunities",
+    "senses",
+    "languages",
+    "environment",
+    "rarity",
+    "attunement",
+    "item_type",
+    "weight",
+    "cost",
+    "faction",
+    "domain",
+    "pantheon",
+    "population",
+    "government",
+    "defenses",
+    "trade_goods",
+    "climate",
+}
+
+
 def check_singleton_properties(records, schema_props: set[str]) -> list[Issue]:
     """Flag frontmatter properties that appear in only one file and aren't in the schema."""
     prop_counter: dict[str, int] = collections.Counter()
@@ -878,9 +924,10 @@ def check_singleton_properties(records, schema_props: set[str]) -> list[Issue]:
             prop_counter[k] += 1
             prop_files[k] = relpath
 
+    known = schema_props | SINGLETON_WHITELIST
     issues = []
     for prop, count in prop_counter.items():
-        if count == 1 and prop not in schema_props:
+        if count == 1 and prop not in known:
             issues.append(
                 Issue(
                     "quality",
@@ -1071,41 +1118,59 @@ def standardize(relpath: str, data, yaml: YAML):
     defaults = field_defaults(relpath)
 
     # 0. Strip junk fields that waste tokens with no signal for the agent.
-    #    These are safe to remove unconditionally — the information they carry
-    #    is either redundant (title is the H1 + filename) or Obsidian-only
-    #    (cssclasses is a CSS renderer hint, invisible to the agent).
     for f in ("title", "cssclasses"):
         if f in data:
             del data[f]
             changed.append(f"-{f}")
 
-    # Strip null-valued fields — null carries no information and costs tokens.
+    # Strip null-valued fields.
     null_keys = [k for k, v in data.items() if v is None]
     for k in null_keys:
         del data[k]
     if null_keys:
         changed.append("-nulls")
 
-    # sources: ["Unknown"] is a --fix placeholder that adds noise once the real
-    # source is unknown or irrelevant. Replace with an empty list.
+    # sources: ["Unknown"] -> []
     sources = data.get("sources")
     if isinstance(sources, list) and list(sources) == ["Unknown"]:
         data["sources"] = []
         changed.append("sources(clean)")
 
-    # aliases: [] carries nothing — strip the field entirely.
+    # aliases: [] -> strip
     aliases = data.get("aliases")
     if isinstance(aliases, list) and len(aliases) == 0:
         del data["aliases"]
         changed.append("-aliases")
 
-    # Drop an empty `relationships: []` — relationships live in the body now,
-    #    and an empty list carries nothing to migrate, so removing it is safe.
-    #    Populated relationships are left untouched for the agent to weave in.
+    # Drop empty relationships: []
     rel = data.get("relationships")
     if isinstance(rel, list) and len(rel) == 0:
         del data["relationships"]
         changed.append("-relationships")
+
+    # 0b. Status-drift: mechanical synonym replacement. The canonical forms
+    #     are unambiguous rewrites ("deceased" is always "dead"), so this is
+    #     safe to auto-fix without reading the file for context.
+    status = data.get("status")
+    if isinstance(status, str) and status.strip().lower() in STATUS_CANONICAL:
+        data["status"] = STATUS_CANONICAL[status.strip().lower()]
+        changed.append("status")
+
+    # 0c. Lifecycle-folder sync: when a situation file lives in active/,
+    #     dormant/, or resolved/ and lifecycle disagrees, the folder is the
+    #     source of truth (the user moved the file there intentionally).
+    if relpath.startswith("wiki/situations/"):
+        parts = relpath.split("/")
+        if len(parts) > 3:
+            folder = parts[2]
+            lifecycle = str(data.get("lifecycle", "")).strip()
+            if (
+                folder in ("active", "dormant", "resolved")
+                and lifecycle
+                and lifecycle != folder
+            ):
+                data["lifecycle"] = folder
+                changed.append("lifecycle")
 
     # 1. Add missing required fields.
     for field in required_fields(relpath):
@@ -1121,9 +1186,7 @@ def standardize(relpath: str, data, yaml: YAML):
                 data[field] = v == "true"
                 changed.append(field)
 
-    # 3. Render list fields in block style (- item) per Obsidian convention.
-    #    Rebuild as a block CommentedSeq so the result is identical whether the
-    #    field arrived as flow [a, b] or block — idempotent after one pass.
+    # 3. Render list fields in block style per Obsidian convention.
     for field in BLOCK_LIST_FIELDS:
         node = data.get(field)
         if isinstance(node, list):
@@ -1131,8 +1194,7 @@ def standardize(relpath: str, data, yaml: YAML):
             seq.fa.set_block_style()
             data[field] = seq
 
-    # 4. Canonical key order: required first (in canonical order), then the rest
-    #    in their existing order.
+    # 4. Canonical key order.
     order = [f for f in required_fields(relpath) if f in data]
     order += [k for k in data if k not in order]
     if list(data.keys()) != order:
@@ -1141,6 +1203,56 @@ def standardize(relpath: str, data, yaml: YAML):
     for k in order:
         new[k] = data[k]
     return new, changed
+
+
+def fix_safe_tags(data) -> list[str]:
+    """Auto-fix tag issues that are purely mechanical (no file-reading needed).
+
+    - Aliases: replace with canonical form (e.g. 'maw' -> 'drowned-maw')
+    - Deprecated-fm: remove tags that duplicate a frontmatter field
+    - Deprecated-system: remove system/process tags
+
+    Returns list of changes made. Tags requiring judgment (deprecated-entity,
+    deprecated-source, unknown) are left for the report.
+    """
+    tags = data.get("tags")
+    if not isinstance(tags, list):
+        return []
+
+    new_tags = []
+    changes = []
+    seen = set()
+    for raw in tags:
+        tag = str(raw).strip()
+        if not tag:
+            continue
+        category, canonical = tag_taxonomy.classify(tag)
+
+        if category == "alias" and canonical:
+            if canonical.lower() not in seen:
+                new_tags.append(canonical)
+                seen.add(canonical.lower())
+                if canonical != tag:
+                    changes.append(f"tag:{tag}->{canonical}")
+            else:
+                changes.append(f"tag:-{tag}(dup)")
+        elif category in ("deprecated-fm", "deprecated-system"):
+            changes.append(f"tag:-{tag}")
+        elif category == "canonical":
+            if tag.lower() not in seen:
+                new_tags.append(tag)
+                seen.add(tag.lower())
+        else:
+            if tag.lower() not in seen:
+                new_tags.append(tag)
+                seen.add(tag.lower())
+
+    if changes:
+        seq = CommentedSeq(new_tags)
+        seq.fa.set_block_style()
+        data["tags"] = seq
+
+    return changes
 
 
 def dump_frontmatter(data, yaml: YAML) -> str:
@@ -1152,13 +1264,16 @@ def dump_frontmatter(data, yaml: YAML) -> str:
 FM_BLOCK_RE = re.compile(r"^---[ \t]*\n(.*?\n)---[ \t]*\n?", re.DOTALL)
 
 
-def apply_fix(path: str, relpath: str, yaml: YAML):
+def apply_fix(path: str, relpath: str, yaml: YAML, fix_tags: bool = False):
     """Standardize frontmatter in place, preserving the body byte-for-byte.
 
     Only the frontmatter block is rewritten; everything after the closing fence
     (including the exact trailing newline) is spliced back untouched. Returns the
     list of changed fields, or [] when the file is already canonical (a true
-    no-op — nothing is written)."""
+    no-op — nothing is written).
+
+    When fix_tags is True, also applies safe tag fixes (alias replacement,
+    deprecated-fm removal) in addition to standard frontmatter cleanup."""
     with open(path, "r", encoding="utf-8") as fh:
         text = fh.read()
     m = FM_BLOCK_RE.match(text)
@@ -1171,6 +1286,8 @@ def apply_fix(path: str, relpath: str, yaml: YAML):
 
     data = load_frontmatter(yaml, fm_text)
     new_data, changed = standardize(relpath, data, yaml)
+    if fix_tags:
+        changed.extend(fix_safe_tags(new_data))
     new_fm = dump_frontmatter(new_data, yaml)
     rebuilt = f"---\n{new_fm}\n---\n" + body
 
@@ -1234,6 +1351,54 @@ def resolve_scope(paths):
         ap = os.path.abspath(p)
         out.append(rel(ap))
     return out
+
+
+def files_changed_since(ref: str) -> list[str]:
+    """Return wiki/ file relpaths changed since a git ref or date.
+
+    Accepts a commit SHA, branch name, tag, or a date string like '3 days ago'
+    or '2026-06-01'. Date strings are converted to a git commit via rev-list.
+    Includes both modified and untracked files.
+    """
+    # Try as a date first — if git rev-parse fails, interpret as --since date.
+    try:
+        subprocess.run(
+            ["git", "rev-parse", "--verify", ref],
+            capture_output=True,
+            text=True,
+            cwd=REPO_ROOT,
+            check=True,
+        )
+        git_ref = ref
+    except subprocess.CalledProcessError:
+        # Treat as a date: find the earliest commit after that date.
+        r = subprocess.run(
+            ["git", "rev-list", "-1", f"--before={ref}", "HEAD"],
+            capture_output=True,
+            text=True,
+            cwd=REPO_ROOT,
+        )
+        git_ref = r.stdout.strip() or "HEAD~50"
+
+    # Changed tracked files.
+    r = subprocess.run(
+        ["git", "diff", "--name-only", git_ref, "--", "wiki/"],
+        capture_output=True,
+        text=True,
+        cwd=REPO_ROOT,
+    )
+    changed = {line.strip() for line in r.stdout.splitlines() if line.strip()}
+
+    # Untracked files in wiki/.
+    r = subprocess.run(
+        ["git", "ls-files", "--others", "--exclude-standard", "wiki/"],
+        capture_output=True,
+        text=True,
+        cwd=REPO_ROOT,
+    )
+    changed.update(line.strip() for line in r.stdout.splitlines() if line.strip())
+
+    return sorted(f for f in changed if f.endswith(".md"))
 
 
 # Rules a human must decide on (rewrite the graph, resolve identity, pick a value)
@@ -1334,6 +1499,149 @@ def write_report(issues, counts):
     return rel(report_path)
 
 
+# ---------------------------------------------------------------------------
+# Batch grouping and priority ordering
+# ---------------------------------------------------------------------------
+
+RULE_PRIORITY = {
+    "broken-wikilink": 1,
+    "missing-frontmatter": 1,
+    "unparseable-frontmatter": 1,
+    "naming-convention": 2,
+    "invalid-value": 2,
+    "duplicate-slug": 2,
+    "type-path-mismatch": 3,
+    "lifecycle-folder-mismatch": 3,
+    "dead-entity-ref": 4,
+    "island-situation-mismatch": 4,
+    "status-drift": 4,
+    "missing-required-field": 5,
+    "relationships-in-frontmatter": 6,
+    "tag-deprecated": 7,
+    "tag-alias": 7,
+    "tag-unknown": 8,
+    "tag-over-limit": 7,
+    "tag-variant": 8,
+    "summary-stale": 9,
+    "orphan": 10,
+    "deadend": 10,
+    "bare-wikilink": 11,
+    "parent-gap": 9,
+    "singleton-property": 12,
+}
+
+
+def _batch_key(i: "Issue") -> tuple:
+    return (i.rule, i.fix or "")
+
+
+def batch_issues(issues: list["Issue"]) -> list[dict]:
+    """Group issues that share the same rule + fix into batches."""
+    groups = collections.defaultdict(list)
+    for i in issues:
+        groups[_batch_key(i)].append(i)
+
+    batches = []
+    for (rule, fix), items in groups.items():
+        sev = min(items, key=lambda i: SEVERITIES.index(i.severity)).severity
+        files = sorted({i.path for i in items})
+        priority = RULE_PRIORITY.get(rule, 50)
+        batches.append(
+            {
+                "rule": rule,
+                "severity": sev,
+                "fix": fix,
+                "count": len(items),
+                "files": files,
+                "detail": items[0].detail
+                if len(items) == 1
+                else f"{len(items)} instances",
+                "priority": priority,
+            }
+        )
+    batches.sort(key=lambda b: (b["priority"], -b["count"]))
+    return batches
+
+
+def format_top_actions(issues: list["Issue"], n: int) -> str:
+    """Format the top N highest-leverage batched actions."""
+    batches = batch_issues(issues)
+    lines = [
+        f"TOP {min(n, len(batches))} ACTIONS (of {len(batches)} distinct issue types)"
+    ]
+    for i, b in enumerate(batches[:n], 1):
+        fix_part = f"  →  {b['fix']}" if b["fix"] else ""
+        if b["count"] == 1:
+            lines.append(
+                f"  {i}. [{b['severity']}] {b['rule']}  "
+                f"{b['files'][0]}  {b['detail']}{fix_part}"
+            )
+        else:
+            sample = ", ".join(b["files"][:3])
+            more = f" +{b['count'] - 3} more" if b["count"] > 3 else ""
+            lines.append(
+                f"  {i}. [{b['severity']}] {b['rule']} × {b['count']}  "
+                f"({sample}{more}){fix_part}"
+            )
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# Diff against previous snapshot
+# ---------------------------------------------------------------------------
+
+
+def diff_snapshots(current_issues: list["Issue"], prev_path: str) -> str:
+    """Compare current issues against a previous --json snapshot."""
+    with open(prev_path, "r", encoding="utf-8") as fh:
+        prev = json.load(fh)
+
+    prev_counts = prev.get("summary", {})
+    cur_counts = {
+        s: sum(1 for i in current_issues if i.severity == s) for s in SEVERITIES
+    }
+
+    prev_by_rule = collections.Counter(i["rule"] for i in prev.get("issues", []))
+    cur_by_rule = collections.Counter(i.rule for i in current_issues)
+
+    all_rules = sorted(set(prev_by_rule) | set(cur_by_rule))
+
+    lines = ["DIFF vs previous snapshot:"]
+
+    for sev in SEVERITIES:
+        p = prev_counts.get(sev, 0)
+        c = cur_counts.get(sev, 0)
+        delta = c - p
+        arrow = "→" if delta == 0 else ("↑" if delta > 0 else "↓")
+        lines.append(f"  {sev}: {p} {arrow} {c} ({delta:+d})")
+
+    changed_rules = []
+    for rule in all_rules:
+        p = prev_by_rule.get(rule, 0)
+        c = cur_by_rule.get(rule, 0)
+        if p != c:
+            changed_rules.append((rule, p, c))
+
+    if changed_rules:
+        lines.append("")
+        lines.append("  Changed rules:")
+        for rule, p, c in sorted(changed_rules, key=lambda x: x[1] - x[2]):
+            delta = c - p
+            marker = "IMPROVED" if delta < 0 else "REGRESSED"
+            lines.append(f"    {rule}: {p} → {c} ({delta:+d}) {marker}")
+
+    prev_files = {i["path"] for i in prev.get("issues", [])}
+    new_files = sorted({i.path for i in current_issues} - prev_files)
+    if new_files:
+        lines.append(f"\n  New files with issues: {len(new_files)}")
+        for f in new_files[:5]:
+            lines.append(f"    {f}")
+        if len(new_files) > 5:
+            lines.append(f"    ... +{len(new_files) - 5} more")
+
+    return "\n".join(lines)
+
+
 def main(argv) -> int:
     ap = argparse.ArgumentParser(description="Lint the Shattered Sea wiki.")
     ap.add_argument(
@@ -1341,6 +1649,16 @@ def main(argv) -> int:
     )
     ap.add_argument(
         "--fix", action="store_true", help="standardize frontmatter in place"
+    )
+    ap.add_argument(
+        "--fix-tags",
+        action="store_true",
+        help="also fix safe tag issues (aliases, deprecated-fm/system tags)",
+    )
+    ap.add_argument(
+        "--since",
+        metavar="REF",
+        help="only lint files changed since this git ref or date (e.g. HEAD~5, 2026-06-01, '3 days ago')",
     )
     ap.add_argument(
         "--report",
@@ -1355,6 +1673,17 @@ def main(argv) -> int:
         help="suppress issues below this severity (default: quality = show all)",
     )
     ap.add_argument("--json", action="store_true", help="emit issues as JSON to stdout")
+    ap.add_argument(
+        "--top",
+        type=int,
+        metavar="N",
+        help="show the top N highest-leverage actions (batches identical issues)",
+    )
+    ap.add_argument(
+        "--diff",
+        metavar="SNAPSHOT",
+        help="compare against a previous --json snapshot file and show deltas",
+    )
     ap.add_argument(
         "--obsidian",
         choices=["auto", "on", "off"],
@@ -1393,6 +1722,21 @@ def main(argv) -> int:
     schema_props = set(schema.get("properties", {}).keys())
 
     scope = resolve_scope(args.paths)
+    if args.since:
+        since_files = files_changed_since(args.since)
+        if scope:
+            since_set = set(since_files)
+            scope = [s for s in scope if s in since_set]
+        else:
+            scope = since_files
+        if not scope:
+            sys.stderr.write("wiki_lint: no wiki files changed since that ref\n")
+            return 0
+        sys.stderr.write(f"wiki_lint: --since {args.since} → {len(scope)} files\n")
+
+    # --fix-tags implies --fix (tag fixes require frontmatter standardization).
+    if args.fix_tags:
+        args.fix = True
 
     # Auto-fix pass first (so the subsequent report reflects the fixed state).
     fixed = []
@@ -1404,7 +1748,7 @@ def main(argv) -> int:
             if os.path.basename(relpath) in SKIP_CONTENT:
                 continue
             try:
-                changed = apply_fix(path, relpath, yaml)
+                changed = apply_fix(path, relpath, yaml, fix_tags=args.fix_tags)
             except Exception as exc:
                 sys.stderr.write(f"wiki_lint: fix error on {relpath}: {exc}\n")
                 continue
@@ -1460,11 +1804,14 @@ def main(argv) -> int:
         + (f" · {len(fixed)} files standardized" if args.fix else "")
     )
 
+    # JSON output includes per-rule breakdown for snapshot diffing.
+    by_rule = collections.Counter(i.rule for i in issues)
     if args.json:
         print(
             json.dumps(
                 {
                     "summary": counts,
+                    "by_rule": dict(by_rule.most_common()),
                     "fixed": fixed,
                     "issues": [asdict(i) for i in issues],
                 },
@@ -1481,7 +1828,15 @@ def main(argv) -> int:
     if report_path:
         sys.stderr.write(f"wrote {report_path}\n")
 
-    if not args.summary:
+    # --diff: compare against a previous snapshot.
+    if args.diff:
+        print(diff_snapshots(issues, args.diff))
+        print()
+
+    # --top N: priority-ordered batched action list.
+    if args.top:
+        print(format_top_actions(issues, args.top))
+    elif not args.summary:
         for sev in SEVERITIES:
             sev_issues = [i for i in issues if i.severity == sev]
             if not sev_issues:

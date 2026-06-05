@@ -576,6 +576,21 @@ class CrossFileChecksTests(unittest.TestCase):
         rules = [i.rule for i in issues]
         self.assertIn("deadend", rules)
 
+    def test_obsidian_deadends_skips_non_markdown(self):
+        with patch(
+            "wiki_lint._obsidian_lines",
+            return_value=[
+                "wiki/assets/banners/image.webp",
+                "wiki/assets/portraits/npc.png",
+                "wiki/entities/characters/npcs/real-page.md",
+            ],
+        ):
+            issues = wiki_lint._obsidian_deadends()
+        paths = [i.path for i in issues]
+        self.assertNotIn("wiki/assets/banners/image.webp", paths)
+        self.assertNotIn("wiki/assets/portraits/npc.png", paths)
+        self.assertIn("wiki/entities/characters/npcs/real-page.md", paths)
+
     def test_orphan_exempt_for_system_files(self):
         records = self._make_records(
             [

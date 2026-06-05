@@ -34,6 +34,15 @@
       "enum": ["on-demand", "always-read", "quick-ref", "map"]
     },
     "mandatory_for": { "type": "array" },
-    "update_trigger": { "type": "string" }
+    "update_trigger": { "type": "string" },
+    "mortis": { "type": "object" },
+    "reveal_status": { "type": "string" },
+    "rooms": { "type": "integer" },
+    "cr_range": { "type": "string" },
+    "topology": { "type": "string" },
+    "plane_type": { "type": "string" },
+    "canonical_location": { "type": "string" },
+    "owner": { "type": "string" },
+    "timeline_position": { "type": "string" }
   }
 }

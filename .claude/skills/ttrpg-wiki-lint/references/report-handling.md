@@ -63,8 +63,8 @@ is wrong.
 ## status-drift (warning) — lore consistency
 
 A status value has a near-synonym in use elsewhere (`deceased` vs `dead`, `open` vs
-`active`). Standardize to the canonical form for consistency. The linter flags the
-less-common variant.
+`active`). Now **auto-fixed by `--fix`** — synonyms are replaced with the canonical
+form. If this still appears in the report, run `--fix` first.
 
 ## parent-gap (quality) — lore consistency
 
@@ -90,19 +90,28 @@ hand-curated `hot.md` do). Link it from a natural parent.
 
 ## tag-deprecated (warning)
 
-A tag in the deprecated list from `wiki/system/taxonomy.md`. Three sub-types, identified in the detail:
+A tag in the deprecated list from `wiki/system/taxonomy.md`. Sub-types identified in
+the detail:
 
-- **Frontmatter duplicate** — the tag restates what `type`, `subtype`, `status`, or `audience` already says. Remove it.
-- **Entity name** — the tag names an NPC, place, ship, or PC. Add a wikilink to that entity in the body, then remove the tag.
-- **Source citation / system tag** — move to `sources:` field or remove.
+- **Frontmatter duplicate** — restates `type`/`subtype`/`status`/`audience`. **Auto-fixed
+  by `--fix-tags`** (removed automatically).
+- **System tag** — system/process tag like `lint`, `review`. **Auto-fixed by `--fix-tags`.**
+- **Entity name** — names an NPC, place, ship, or PC. Requires judgment: add a wikilink
+  to that entity in the body, then remove the tag.
+- **Source citation** — belongs in `sources:` field. Requires judgment: move it there.
 
-**Fixing:** Read the file first. Once you know what the page is actually about, choose up to 5 canonical replacements from `wiki/system/taxonomy.md`. Don't just delete the old tag — the page may now have zero tags and deserve real ones.
+**Fixing (entity/source — not auto-fixed):** Read the file first. Once you know what
+the page is about, choose up to 5 canonical replacements from `wiki/system/taxonomy.md`.
+Don't just delete the old tag — the page may now have zero tags and deserve real ones.
 
 ## tag-alias (warning)
 
-A tag is a known alias for a canonical form (e.g. `maw` → `drowned-maw`, `prep` → `dm-prep`). The fix message names the canonical replacement.
+A tag is a known alias for a canonical form (e.g. `maw` → `drowned-maw`, `prep` → `dm-prep`).
+Now **auto-fixed by `--fix-tags`** — aliases are replaced with their canonical form.
+If this still appears after running `--fix-tags`, the alias map may need updating.
 
-**Fixing:** Read the file. Replace the alias with its canonical form — but also check whether the canonical tag actually applies to this page's content. An alias might have been a lazy tag for something not really covered by the canonical concept.
+**Manual fixing (if not using --fix-tags):** Read the file. Replace the alias with
+its canonical form — but also check whether the canonical tag actually applies.
 
 ## tag-unknown (quality)
 

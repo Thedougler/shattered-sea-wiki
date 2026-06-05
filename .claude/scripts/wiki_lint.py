@@ -246,7 +246,7 @@ def field_defaults(relpath: str) -> dict:
         "confidence_level": "medium",
         "relationships": [],
         "lifecycle": "dormant",
-        "island": None,
+        "narrative_island": "none",
         "portable": False,
         "entry_points": [],
         "contains_situations": [],

@@ -1,5 +1,5 @@
 ---
-type: index
+type: entity
 subtype: ship-index
 campaign: shattered-sea
 status: active

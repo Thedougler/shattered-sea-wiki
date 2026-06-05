@@ -2,7 +2,9 @@
 import { Command } from 'commander';
 import { fixCommand } from './commands/fix.js';
 import { frontmatterCommand } from './commands/frontmatter.js';
+import { healthCommand } from './commands/health.js';
 import { indexCommand } from './commands/index-regen.js';
+import { lintCommand } from './commands/lint.js';
 import { taxonomyCommand } from './commands/taxonomy.js';
 
 const program = new Command();
@@ -11,7 +13,9 @@ program.name('sea').description('Shattered Sea wiki CLI').version('0.1.0');
 
 program.addCommand(fixCommand);
 program.addCommand(frontmatterCommand);
+program.addCommand(healthCommand);
 program.addCommand(indexCommand);
+program.addCommand(lintCommand);
 program.addCommand(taxonomyCommand);
 
 program.parse();

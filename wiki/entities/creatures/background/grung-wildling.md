@@ -1,5 +1,5 @@
 ---
-type: entity
+type: monster
 subtype: monster
 campaign: shattered-sea
 status: active

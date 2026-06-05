@@ -1,5 +1,5 @@
 ---
-type: entity
+type: index
 subtype: creature-index
 campaign: shattered-sea
 status: active

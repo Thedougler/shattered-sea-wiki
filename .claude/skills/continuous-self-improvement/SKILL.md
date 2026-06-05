@@ -29,7 +29,7 @@ A fix without enforcement will regress.
 
 | # | Step | In one line |
 |---|---|---|
-| 1 | **MEASURE** | Take a `wiki_health_snapshot.py` baseline before touching anything. If you can't measure it, building the measurement IS this run's fix. |
+| 1 | **MEASURE** | Take a `sea health` baseline before touching anything. If you can't measure it, building the measurement IS this run's fix. |
 | 2 | **IDENTIFY** | Pick the single highest-impact issue from the snapshot + transcript mining, ranked by the priority stack (P0 user frustration → P8 skill bloat). One problem per run. |
 | 3 | **FIX** | TDD a surgical fix (≤3 files) pushed as far down the enforcement stack as it goes — deny rule > hook > lint rule > skill edit. Docs alone are not a fix. |
 | 4 | **ENFORCE** | Add the mechanism that prevents regression: a test, a lint rule that fires on known-bad input, a registered hook. No enforcement → it regresses. |
@@ -90,7 +90,7 @@ On early runs, the measurement infrastructure itself may be incomplete. The
 priority stack handles this: "Can't measure something that matters?" is priority
 #1. Expected early-run targets:
 
-1. Build `wiki_health_snapshot.py` (if missing)
+1. Ensure `sea health` works (if CLI not built)
 2. Add tests for existing scripts that lack them
 3. Extend the snapshot with metrics the current lint doesn't capture
 4. Add lint rules for the largest uncovered issue categories

@@ -35,7 +35,7 @@ Run these three commands to assess the wiki's state before deciding what to work
 
 ```bash
 python3 .claude/scripts/check_ingest.py --count
-python3 .claude/scripts/wiki_lint.py --summary
+sea lint --summary
 bash .claude/skills/cross-linker/scripts/check-tools.sh
 ```
 
@@ -95,14 +95,14 @@ with the next. Commit per the ingest skill's cadence.
 Always run the mechanical auto-fix pass:
 
 ```bash
-python3 .claude/scripts/wiki_lint.py --fix
+sea lint --fix
 git add wiki/ && git diff --cached --quiet || git commit -m "curation: daily lint --fix"
 ```
 
 Then assess what remains:
 
 ```bash
-python3 .claude/scripts/wiki_lint.py --summary
+sea lint --summary
 ```
 
 **If this tier has the remaining budget** (ingest was 0 or light): run `--report`
@@ -110,7 +110,7 @@ to write `wiki/dm/review-queue.md`, then commit it. This surfaces judgment items
 for the DM without acting on them.
 
 ```bash
-python3 .claude/scripts/wiki_lint.py --report
+sea lint --report
 git add wiki/dm/review-queue.md && git diff --cached --quiet || git commit -m "curation: update review queue"
 ```
 

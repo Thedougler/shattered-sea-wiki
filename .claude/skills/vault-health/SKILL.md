@@ -12,9 +12,9 @@ Run from `/Users/nick/ai-os/shattered-sea`. **Stop at the first failure — repo
 | # | Command | Pass condition |
 |---|---------|----------------|
 | 1 | `pnpm check` | No type errors or Biome violations |
-| 2 | `python3 .claude/scripts/wiki_lint.py` | Zero errors (warnings non-blocking) |
+| 2 | `sea lint` | Zero errors (warnings non-blocking) |
 | 3 | `python3 .claude/scripts/check_taxonomy_sync.py --check` | Exits 0 |
-| 4 | `python3 .claude/scripts/wiki_health_snapshot.py` | Print summary metrics only |
+| 4 | `sea health` | Print summary metrics only |
 
 ## Output
 

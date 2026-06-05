@@ -16,7 +16,7 @@ or VERIFY — invalidates the run.
 Take an objective health snapshot before doing anything else:
 
 ```bash
-python3 .claude/scripts/wiki_health_snapshot.py --save --label "before: CSI run"
+sea health --save --label "before: CSI run"
 ```
 
 If this script doesn't exist or fails, **that is your issue for this run.**
@@ -33,11 +33,11 @@ Record the snapshot output. You will compare against it in VERIFY.
 |---|---|---|
 | `file_count` | filesystem | Vault growth tracking |
 | `total_tokens` / `mean_file_tokens` | char count / 4 | Context budget pressure |
-| `lint_errors` | wiki_lint.py | Broken navigation, invalid values |
-| `lint_warnings` | wiki_lint.py | Standards drift |
-| `lint_quality` | wiki_lint.py | Improvement opportunities |
-| `lint_by_category` | wiki_lint.py | Where the pain concentrates |
-| `orphan_count` / `deadend_count` | wiki_lint.py | Graph connectivity |
+| `lint_errors` | sea lint | Broken navigation, invalid values |
+| `lint_warnings` | sea lint | Standards drift |
+| `lint_quality` | sea lint | Improvement opportunities |
+| `lint_by_category` | sea lint | Where the pain concentrates |
+| `orphan_count` / `deadend_count` | sea lint | Graph connectivity |
 | `stub_summaries` | frontmatter scan | Routing quality (vague summaries = bad routing) |
 | `pending_ingest` | check_ingest.py | Backlog pressure |
 | `hook_count` | settings.json | Enforcement coverage |
@@ -210,7 +210,7 @@ stack as possible:
 | 1 | `permissions.deny` | Block a tool pattern outright |
 | 2 | PreToolUse hook | Custom blocking logic |
 | 3 | PostToolUse hook | Auto-fix after every write |
-| 4 | `wiki_lint.py` rule | Batch detection, cross-file checks |
+| 4 | `sea lint` rule | Batch detection, cross-file checks |
 | 5 | `.claude/rules/*.md` | Path-scoped guidance (judgment calls) |
 | 6 | `CLAUDE.md` | Universal guidance (last resort) |
 | 7 | Skill edit (SKILL.md) | Workflow-level fix — see below |
@@ -268,8 +268,8 @@ and add one.
 Take a second snapshot and diff against the baseline:
 
 ```bash
-python3 .claude/scripts/wiki_health_snapshot.py --save --label "after: {one-line description of fix}"
-python3 .claude/scripts/wiki_health_snapshot.py --diff
+sea health --save --label "after: {one-line description of fix}"
+sea health --diff
 ```
 
 The diff must show measurable improvement in at least one metric. Acceptable

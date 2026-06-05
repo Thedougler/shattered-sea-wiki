@@ -75,7 +75,7 @@ prose doesn't mention this child. Add a wikilink to the child in the parent page
 
 `type:` disagrees with the file's location. Usually the value is wrong — set it to
 match the path. But a cluster of mismatches means the directory structure has evolved
-past what `wiki_common.py`'s inference tables know — see below.
+past what `packages/lib/src/path-inference.ts`'s inference tables know — see below.
 
 ## deadend (quality)
 

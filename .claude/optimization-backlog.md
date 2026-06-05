@@ -29,17 +29,18 @@ Each has a reason it's parked rather than done.
   --resume`, `csi_loop.py`). *Deferred — design-only.* These orchestrate LLM-judgment workflows
   (interpretation, canon writes, cross-linking) that a deterministic script can't perform; a
   script could only sequence steps and roll dice. The deterministic chunks are already one-liners
-  over existing scripts (`wiki_lint.py`, `regen_index.py`, `wiki_health_snapshot.py`,
+  over existing tools (`sea lint`, `regen_index.py`, `sea health`,
   `check_ingest.py`). Build one only when a *concrete, repeated* bookkeeping pain appears that a
   harness would remove — and budget for ≥80% test coverage of the subprocess orchestration.
 - **Judgment-heavy hooks** (auto-create stubs for unresolved wikilinks; auto-add reciprocal
   backlinks). *Deferred — needs design.* Auto-stubbing risks spawning pages from typos;
   auto-backlinking risks rewriting prose at the wrong insertion point. The current warn-and-let-
   the-agent-fix behavior is safer. Worth doing only with a careful, idempotent, well-tested design.
-- **Test-file consolidation** (`test_wiki_health_snapshot.py`→`_ext`,
-  `test_check_ingest.py`→`_ext`). *Deferred — low value.* Tests aren't loaded into agent context,
+- **Test-file consolidation** (`test_check_ingest.py`→`_ext`).
+  *Deferred — low value.* Tests aren't loaded into agent context,
   so this doesn't serve the context-budget goal; merging risks dropping a unique case and
-  perturbing the coverage number for no functional gain.
+  perturbing the coverage number for no functional gain. (`test_wiki_health_snapshot*.py` removed
+  — health snapshot migrated to TS CLI as `sea health`.)
 - **Permission tightening** (replace the blanket `Bash(python3 .../scripts/*)` allow with an
   explicit per-script allowlist; narrow directory-level `git add`). *Deferred — friction > benefit.*
   In a solo content repo these are the agent's own stdlib tools; an allowlist would prompt on every

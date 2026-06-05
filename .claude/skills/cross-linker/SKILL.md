@@ -19,7 +19,7 @@ A full-vault pass is impractical in one session. Every run targets a batch.
 
 1. Get the target list from wiki-lint:
    ```bash
-   python3 .claude/scripts/wiki_lint.py 2>&1 | grep -E "orphan|deadend" | grep -v "wiki/assets/"
+   sea lint 2>&1 | grep -E "orphan|deadend" | grep -v "wiki/assets/"
    ```
 
 2. Pick a batch of **15–25 targets** per run. Prioritize:

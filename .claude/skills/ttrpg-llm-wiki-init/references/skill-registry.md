@@ -34,7 +34,7 @@ MEASURE → IDENTIFY → FIX → ENFORCE → VERIFY → LOG, one problem per run
 **Trigger:** "improve the wiki", "optimize the wiki", "self-improve", "kaizen",
 "continuous improvement", scheduled routine invocations targeting infrastructure quality.
 **Critical behaviors:** Must complete all six loop steps — skipping MEASURE or VERIFY
-invalidates the run. Take a `wiki_health_snapshot.py` before and after. Enforce every fix
+invalidates the run. Take a `sea health` snapshot before and after. Enforce every fix
 in code so it can't regress.
 **Coordinates with:** `enforced-in-code`, `ttrpg-wiki-lint`, `skill-creator`
 
@@ -307,10 +307,10 @@ filenames, stale stubs, tag variants, singleton properties, and lore/temporal co
 issues.
 **Trigger:** "lint the wiki", "check wiki health", "fix the frontmatter", "find broken
 links", "find orphans", "find deadends", "lore consistency", "tag hygiene", "timeline
-issues", "check markdown formatting".
-**Critical behaviors:** One script (`wiki_lint.py`) does the heavy lifting. Auto-detects
-Obsidian CLI and markdownlint-cli2 for deeper checks. `--fix` is idempotent and never
-invents canon.
+issues".
+**Critical behaviors:** The `sea lint` CLI (`packages/cli/`) does the heavy lifting.
+`--fix` is idempotent and never invents canon. `sea health` captures snapshots for
+trend tracking.
 **Coordinates with:** `cross-linker`, `tag-taxonomy`, `daily-update`
 
 ### `cross-linker`

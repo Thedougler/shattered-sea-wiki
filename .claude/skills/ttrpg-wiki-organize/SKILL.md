@@ -112,7 +112,7 @@ the structure has a navigability problem.
 ### Type/path alignment
 
 ```bash
-python3 .claude/scripts/wiki_lint.py 2>&1 | grep -i "type-path-mismatch"
+sea lint 2>&1 | grep -i "type-path-mismatch"
 ```
 
 ### Produce a findings table
@@ -252,13 +252,13 @@ Run validation BEFORE committing:
 
 ```bash
 # New errors introduced by the move?
-python3 .claude/scripts/wiki_lint.py --min-severity error 2>&1 | head -30
+sea lint --min-severity error 2>&1 | head -30
 
 # Broken wikilinks?
-python3 .claude/scripts/wiki_lint.py 2>&1 | grep "broken-wikilink"
+sea lint 2>&1 | grep "broken-wikilink"
 
 # Type/path mismatches fixed or introduced?
-python3 .claude/scripts/wiki_lint.py 2>&1 | grep "type-path-mismatch"
+sea lint 2>&1 | grep "type-path-mismatch"
 ```
 
 **A batch is clean when the linter reports zero new errors.** Fix issues
@@ -282,7 +282,7 @@ One commit per batch. Prefix: `fix:` for structural corrections.
 
 After all ACT batches are committed:
 1. Close the work-queue entry if one exists
-2. Run `python3 .claude/scripts/wiki_lint.py --summary`
+2. Run `sea lint --summary`
 3. Report to the DM:
 
 ```

@@ -33,7 +33,7 @@ confidence_level: medium
 | 6 | Roving (+10 ft speed, Climb/Swim speed = Speed) |
 | 9 | Expertise (2 more skills) |
 | 13 | Relentless Hunter (Concentration on Hunter's Mark not broken by damage) |
-| 14 | Nature's Veil (Invisible until end of next turn, WIS mod times/LR) |
+| 14 | Nature's Veil ([[invisible\|Invisible]] until end of next turn, WIS mod times/LR) |
 | 17 | Precise Hunter (Advantage on attacks vs Hunter's Mark target) |
 | 18 | Feral Senses (Blindsight 30 ft) |
 
@@ -41,7 +41,7 @@ confidence_level: medium
 
 ## Subclasses
 
-Beast Master, Fey Wanderer, Gloom Stalker, Hunter *(PHB 2024)*
+[[beast-master|Beast Master]], [[fey-wanderer|Fey Wanderer]], [[gloom-stalker|Gloom Stalker]], [[hunter-ranger|Hunter]] *(PHB 2024)* · [[winter-walker|Winter Walker]] *(Heroes of Faerun 2024)*
 
 ---
 

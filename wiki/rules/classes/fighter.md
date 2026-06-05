@@ -44,7 +44,7 @@ confidence_level: medium
 
 ## Subclasses
 
-Battle Master, Champion, Eldritch Knight, Psi Warrior *(PHB 2024)*
+[[battle-master|Battle Master]], Champion, Eldritch Knight, Psi Warrior *(PHB 2024)*
 
 ---
 

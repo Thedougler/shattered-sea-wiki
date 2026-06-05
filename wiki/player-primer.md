@@ -209,6 +209,14 @@ You might be a paying passenger, a working hand, a shipwrecked survivor, a stowa
 - Powerful, strange, optimized, comedic, or highly specific builds are welcome. The one hard requirement: make a character with some reason to work with the party.
 - Character death is possible. The DM will not aim to kill you, but the sea, the dice, and your decisions will not be padded. Death will be treated with narrative weight, and resurrection or a new same-level character are both on the table.
 
+### Class References
+
+[[artificer|Artificer]] · [[barbarian|Barbarian]] · [[bard|Bard]] · [[cleric|Cleric]] · [[druid|Druid]] · [[fighter|Fighter]] · [[monk|Monk]] · [[paladin|Paladin]] · [[ranger|Ranger]] · [[rogue|Rogue]] · [[sorcerer|Sorcerer]] · [[warlock|Warlock]] · [[wizard|Wizard]]
+
+### Background References
+
+[[carouser|Carouser]] · [[charlatan|Charlatan]] · [[criminal|Criminal]] · [[entertainer|Entertainer]] · [[farmer|Farmer]] · [[guard|Guard]] · [[guide|Guide]] · [[harper|Harper]] · [[merchant|Merchant]] · [[noble|Noble]] · [[sage|Sage]] · [[soldier|Soldier]]
+
 ### Optional: [[mortis|The Mortis System]]
 
 A Mortis is a Session Zero option that pairs a permanent mechanical drawback with a targeted mechanical benefit. It is not a curse and not a punishment. It is a fact about your character expressed through mechanics: the same truth that limits them also makes them exceptional.

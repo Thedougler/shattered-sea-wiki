@@ -31,7 +31,7 @@ roleplay_prompt: "Tony Stark without the charm, with better NDAs"
 | | |
 |---|---|
 | **Species** | Human |
-| **Role** | Artificer, Cat's Curios |
+| **Role** | [[artificer\|Artificer]], Cat's Curios |
 | **Location** | [[calveno|Calveno]], by referral only |
 | **Status** | Not yet encountered |
 

@@ -54,7 +54,7 @@ Short-rest recharging spell slots — all slots are the same level.
 
 ## Subclasses
 
-Archfey Patron, Celestial Patron, Fiend Patron, Great Old One Patron *(PHB 2024)*
+Archfey Patron, Celestial Patron, Fiend Patron, [[great-old-one|Great Old One Patron]] *(PHB 2024)* · [[hexblade|Hexblade]] *(XGtE 2014)*
 
 ---
 

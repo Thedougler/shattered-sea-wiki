@@ -46,7 +46,7 @@ Full rules: [[ship-mechanics|Ship Mechanics Hub]]
 | **3** | Warship / Galley | 15 | 500 | 25–40 ft. |
 | **4** | Custom (first-rate) | 15 | 700 | 20 ft. |
 
-All wooden vessels: **Damage Immunities** poison, psychic. **Condition Immunities** blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, prone, stunned, unconscious.
+All wooden vessels: **Damage Immunities** poison, psychic. **Condition Immunities** [[blinded|blinded]], [[charmed|charmed]], [[deafened|deafened]], [[exhaustion|exhaustion]], [[frightened|frightened]], incapacitated, [[paralyzed|paralyzed]], [[petrified|petrified]], poisoned, prone, [[stunned|stunned]], [[unconscious|unconscious]].
 
 - **Condition** — Pristine / Worn / Damaged / Wrecked. Tracked narratively; mechanical penalties apply when relevant.
 - **Repairs at sea** — Carpenter role required. Short rest: DC 15 Dexterity (Carpenter's Tools); success restores 2d8 + proficiency bonus HP. In port: 1 gp per HP, 1 workday per 25 HP.

@@ -58,7 +58,7 @@ Focus Points = Monk level (starting L2). Speed bonus: +10 ft at L2, scaling to +
 
 ## Subclasses
 
-Warrior of Mercy, Warrior of Shadow, Warrior of the Elements, Warrior of the Open Hand *(PHB 2024)*
+[[way-of-mercy|Warrior of Mercy]], [[way-of-shadow|Warrior of Shadow]], [[way-of-the-elements|Warrior of the Elements]], [[way-of-the-open-hand|Warrior of the Open Hand]] *(PHB 2024)*
 
 ---
 

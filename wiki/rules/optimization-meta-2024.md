@@ -29,7 +29,7 @@ DM-facing reference for 2024 5e balance and build optimization. Based on RPGBOT'
 
 **Circle Casting.** See [[circle-magic|Circle Magic]]. Broken. Limit by keeping NPC spellcasters rare.
 
-**Grappling.** Changed in 2024 — Grapple uses STR/DEX Athletics vs. STR/DEX Save. No longer imposes Restrained; just reduces speed to 0. Combined with Weapon Mastery (Push/Topple) to trigger Prone, then attack with Advantage.
+**Grappling.** Changed in 2024 — Grapple uses STR/DEX Athletics vs. STR/DEX Save. No longer imposes [[restrained|Restrained]]; just reduces speed to 0. The [[grappled|Grappled]] condition itself is weaker than in 2014. Combined with Weapon Mastery (Push/Topple) to trigger Prone, then attack with Advantage.
 
 ---
 
@@ -37,16 +37,16 @@ DM-facing reference for 2024 5e balance and build optimization. Based on RPGBOT'
 
 | Category | Best Pick | Reason |
 |---|---|---|
-| Background | **Scribe** | Skilled feat; Investigation + Perception covers most non-combat needs |
-| Class | **Wizard** (or Cleric) | Full spellcasters dominate; all top 5 are full casters |
+| Background | **[[scribe\|Scribe]]** | Skilled feat; Investigation + Perception covers most non-combat needs |
+| Class | **[[wizard\|Wizard]]** (or [[cleric\|Cleric]]) | Full spellcasters dominate; all top 5 are full casters |
 | Origin Feat | **Musician** | Heroic Inspiration for 2–6 party members; whole-party force multiplier |
 | Epic Boon | **Boon of Fate** | +/- 2d4 on any D20 Test; offensive or defensive |
-| Multiclass Dip | **Cleric / Fighter / Paladin** | Each grants Con saves, heavy armor, or both |
+| Multiclass Dip | **[[cleric\|Cleric]] / [[fighter\|Fighter]] / [[paladin\|Paladin]]** | Each grants Con saves, heavy armor, or both |
 
 ## Worst of the Meta
 
 | Category | Worst Pick | Reason |
 |---|---|---|
-| Background | **Artisan** | Narrow spread; Persuasion useless to most builds; Crafter feat is weak |
+| Background | **[[artisan\|Artisan]]** | Narrow spread; Persuasion useless to most builds; Crafter feat is weak |
 | Class | **Ranger** | Locked into Hunter's Mark; limits build diversity |
 | Origin Feat | **Crafter** | 20% discount on nonmagical items; gold rarely matters after early levels |

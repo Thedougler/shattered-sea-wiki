@@ -56,4 +56,4 @@ Start with 2 at Level 2; gain 1 per level (max = Sorcerer level). Fully recharge
 
 ## Subclasses
 
-Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Wild Magic Sorcery *(PHB 2024)*
+[[aberrant-sorcery|Aberrant Sorcery]], [[clockwork-sorcery|Clockwork Sorcery]], [[draconic-sorcery|Draconic Sorcery]], [[wild-magic-sorcery|Wild Magic Sorcery]] *(PHB 2024)* · [[spellfire-sorcery|Spellfire Sorcery]] *(FoF&F 2024)*

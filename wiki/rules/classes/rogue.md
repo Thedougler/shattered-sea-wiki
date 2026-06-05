@@ -48,7 +48,7 @@ Condition: Advantage on attack roll, OR ally within 5 ft of target (no Disadvant
 
 ## Subclasses
 
-Arcane Trickster, Assassin, Soulknife, Swashbuckler, Thief *(PHB 2024)*
+[[arcane-trickster|Arcane Trickster]], [[assassin|Assassin]], [[soulknife|Soulknife]], [[swashbuckler|Swashbuckler]], [[thief|Thief]] *(PHB 2024)* · [[scion-of-the-three|Scion of the Three]] *(PHB 2024)*
 
 ---
 

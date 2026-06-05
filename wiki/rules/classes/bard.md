@@ -50,7 +50,7 @@ Creature within 60 ft uses as bonus to a d20 Test within 1 hour.
 
 ## Subclasses
 
-College of Dance, College of Glamour, College of Lore, College of Valor *(PHB 2024)*
+College of Dance, College of Glamour, College of Lore, [[college-of-valor|College of Valor]] *(PHB 2024)* · [[college-of-eloquence|College of Eloquence]] *(TCoE 2020)*
 
 ---
 

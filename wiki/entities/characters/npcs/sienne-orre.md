@@ -27,7 +27,7 @@ roleplay_prompt: "Velma as a pirate captain, who had every piece of the picture 
 | **Role** | Captain, [[fernen|The Fernen]]; [[fisks-fleet|Fisk's Fleet]] |
 | **Status** | Deceased — soul inside [[delmar-fisk|Delmar Fisk]] |
 
-Sienne captained the *[[fernen|Fernen]]*, the fleet's fourth vessel. Druid, capable of wildshaping into aquatic forms. She ran the second underwater scout team alongside [[maren|Maren]] during the perimeter survey of Umberlee's shrine island. She was outside the cave when the fleet sank.
+Sienne captained the *[[fernen|Fernen]]*, the fleet's fourth vessel. [[druid|Druid]], capable of wildshaping into aquatic forms. She ran the second underwater scout team alongside [[maren|Maren]] during the perimeter survey of Umberlee's shrine island. She was outside the cave when the fleet sank.
 
 Her soul was pressed into [[delmar-fisk|Delmar]] at the moment of sinking, along with the other four captains.
 

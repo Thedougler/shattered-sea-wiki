@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import { unified } from '@astrojs/markdown-remark';
 import tailwindcss from '@tailwindcss/vite';
 import preact from '@astrojs/preact';
+import node from '@astrojs/node';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { remarkObsidianCallouts } from './src/plugins/remark-obsidian-callouts';
@@ -20,9 +21,11 @@ const [assetMap, slugSet] = await Promise.all([
 
 export default defineConfig({
   site: 'http://localhost:4321',
+  adapter: node({ mode: 'standalone' }),
   integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
+    envDir: path.resolve(import.meta.dirname, '..'),
   },
   markdown: {
     processor: unified({

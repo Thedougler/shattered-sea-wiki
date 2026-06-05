@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import { deriveSlug, titleCase } from '@shattered-sea/lib';
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import Sidebar from '../../components/nav/Sidebar.astro';
+import VoiceBooth from '../../components/tools/VoiceBooth.tsx';
+import '../../styles/voice-booth.css';
+
+const entries = await getCollection('wiki');
+
+const pcs = entries
+  .filter(
+    (e) =>
+      e.data.type === 'entity' &&
+      e.data.subtype === 'pc' &&
+      e.data.status === 'active',
+  )
+  .map((e) => {
+    const slug = deriveSlug(e.id);
+    return {
+      name: e.data.title || titleCase(slug),
+      slug,
+      portrait: e.data.portrait ? `/assets/${e.data.portrait}` : null,
+      summary: e.data.summary || '',
+      subtype: 'pc' as const,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const npcs = entries
+  .filter(
+    (e) =>
+      e.data.type === 'entity' &&
+      e.data.subtype === 'npc',
+  )
+  .map((e) => {
+    const slug = deriveSlug(e.id);
+    return {
+      name: e.data.title || titleCase(slug),
+      slug,
+      portrait: e.data.portrait ? `/assets/${e.data.portrait}` : null,
+      summary: e.data.summary || '',
+      subtype: 'npc' as const,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<BaseLayout title="Voice Booth">
+  <Sidebar slot="sidebar" />
+  <VoiceBooth client:load pcs={pcs} npcs={npcs} />
+</BaseLayout>

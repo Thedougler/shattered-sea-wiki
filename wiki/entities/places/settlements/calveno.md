@@ -66,6 +66,7 @@ That openness is the point. The city runs on witnessed transactions — deals st
 | [[studio-orsini|Studio Orsini]] | Alchemist | Le Paludi side canal; Marta Orsini does not ask what the compounds are for. |
 | [[cabinet-of-morsani|The Cabinet of Morsani]] | Curio / magic | Velo Quarter eccentric dealer; Prospero Morsani knows the previous owner of everything. |
 | [[waveservant-shrine|Waveservant Shrine]] | Shrine | Umberlee's canal-front shrine; tribute paid in full view. |
+| [[la-cenere|La Cenere]] | Grey market dealer | Le Paludi dead-end spur; discounted magical items, no-questions buying. |
 | [[kats-curios|Cat's Curios]] | Artificer | Referral-only; no sign, no walk-ins. |
 | [[warren|The Warren]] | Hidden settlement | Fixed [[rattkin|Rattkin]] settlement beneath Le Paludi, anchor of [[the-passage|the Passage]]. |
 | [[acqua-nera|Acqua Nera]] | Boatyard | Outer harbour hull conversion yard; re-identification work, double rate. |

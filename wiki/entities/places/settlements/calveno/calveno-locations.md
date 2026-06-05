@@ -39,6 +39,7 @@ See [[calveno|Calveno]] for city overview.
 - [[studio-orsini|Studio Orsini]] — alchemist on a Le Paludi side canal; Marta Orsini does not ask what the compounds are for.
 - [[cabinet-of-morsani|The Cabinet of Morsani]] — Velo Quarter curio and magic item dealer; Morsani knows the previous owner of everything.
 - [[waveservant-shrine|Waveservant Shrine]] — Umberlee's canal-front shrine on the Mercatura; tribute paid in full view of passing boats.
+- [[la-cenere|La Cenere]] — Le Paludi grey market magical item dealer; discounted goods with undisclosed histories, no-questions buying.
 - [[kats-curios|Cat's Curios]] — referral-only artificer workshop; no sign, no walk-ins.
 
 ### Hidden & Notable
@@ -52,6 +53,7 @@ See [[calveno|Calveno]] for city overview.
 - [[nona-black-jaw|Nona Black-Jaw]] — Rattkin matriarch, senior elder of the Tangle, Perrin's grandmother.
 - [[catarina-davirelli|Catarina Da'Virelli]] — artificer by referral only; foremost living practitioner in the Scatter.
 - [[cosimo-verantio|Cosimo Verantio]] — elderly Tessarine merchant; plain cloth that costs more than it looks.
+- [[lavinia-sordi|Lavinia Sordi]] — proprietor of La Cenere; grey market dealer, buys and sells without questions.
 - [[bice-riva|Bice Riva]] — co-proprietor of Al Fondale; Passage-adjacent.
 - [[aldo-riva|Aldo Riva]] — co-proprietor of Al Fondale; thirty years of Le Paludi history.
 

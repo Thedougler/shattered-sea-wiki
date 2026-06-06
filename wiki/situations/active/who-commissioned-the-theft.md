@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Chain Council unknowingly hired Fisk's Fleet to steal the Pearl of Souls, manipulated by Tessarine operative Cosimo Verantio. The evidence sits in the Red Lady's Intelligence Room and can turn the Council from employer into witness.
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - tessarine
   - mystery
@@ -27,7 +27,7 @@ Four months before the campaign opens, a proposal reached the [[chain-council|Ch
 
 The Council believed it was buying protection. It was giving the Tessarine Concordat's hidden operative a local mandate, a privateer fleet, and plausible deniability.
 
-The commission documents identify an unnamed third party as "the Principal" and use a Council representative as the visible authorizing hand. The Principal's real brief was not simply "steal the Pearl." It was "keep the Pearl away from [[aldric-drave|Aldric Drave]]." Tessarine intelligence believes Aldric could use the [[pearl-of-souls|Pearl of Souls]] to push his Hierarch abilities beyond his own bloodline, turning a bloodline-bound survival engine into something that can draw on souls gathered outside the Dravosi genealogy. The Council never heard that part.
+The commission documents identify an unnamed third party as "the Principal" and use a Council representative as the visible authorizing hand. The Principal's real brief was not simply "steal the Pearl." It was "keep the Pearl away from [[aldric-drave|Aldric Drave]]." Tessarine intelligence believes Aldric could use the [[pearl-of-souls|Pearl of Souls]] to push his [[hierarch|Hierarch]] abilities beyond his own bloodline, turning a bloodline-bound survival engine into something that can draw on souls gathered outside the Dravosi genealogy. The Council never heard that part.
 
 The result was the theft of the Pearl of Souls, Umberlee's retaliation against Fisk's Fleet, and the opening crisis now spreading through the Sunken Crown and Drowned Maw.
 

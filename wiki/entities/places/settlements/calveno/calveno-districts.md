@@ -75,7 +75,7 @@ The oldest part of the city. Buildings shorter, foundations settled unevenly. Th
 | [[al-fondale|Al Fondale]] | Side-canal tavern. Good food, cheap wine, keeper asks nothing. Warren cellar access. |
 | [[casa-lupo|Casa Lupo]] | General goods. Ettore prices from memory; has not been wrong. |
 | [[studio-orsini|Studio Orsini]] | Off the mapped path. Marta does not ask what the compounds are for. |
-| [[la-cenere|La Cenere]] | Dead-end canal spur past Casa Lupo. Lavinia Sordi; grey market magical items at steep discount. |
+| [[la-cenere|La Cenere]] | Dead-end canal spur past [[casa-lupo|Casa Lupo]]. [[lavinia-sordi|Lavinia Sordi]]; grey market magical items at steep discount. |
 | [[warren|Warren]] entry | Beneath Le Paludi. Access via Tangle routes; surface-visible only to those who know. |
 
 **From The Bridge:** Ten minutes on foot through the narrowing canal network. Five minutes by boat.

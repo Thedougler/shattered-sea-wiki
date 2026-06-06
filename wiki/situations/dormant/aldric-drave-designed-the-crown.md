@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries.
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
   - undead
@@ -21,7 +21,7 @@ reveal_tier: late
 
 # Who Designed the Dravosi Crown
 
-The Dravosi Crown was not built by colonists. It was designed by [[aldric-drave|Aldric Drave]] — a Hierarch who seeded his bloodline into every Dravosi noble family before the colonial project began, then built the Crown's administrative apparatus to track his own phylacteries across centuries. The Crown does not know it is operating inside a dead man's hoard.
+The Dravosi Crown was not built by colonists. It was designed by [[aldric-drave|Aldric Drave]] — a [[hierarch|Hierarch]] who seeded his bloodline into every Dravosi noble family before the colonial project began, then built the Crown's administrative apparatus to track his own phylacteries across centuries. The Crown does not know it is operating inside a dead man's hoard.
 
 ## Key Actors
 

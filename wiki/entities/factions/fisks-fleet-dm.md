@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: DM companion for Fisk's Fleet — the Pearl commission, sinking mechanics, soul consequences, wreck locations, and captain personality table for the Mortis.
 created: 2026-04-15
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - fisk-fleet
   - umberlee
@@ -27,7 +27,7 @@ public_profile: "[[fisks-fleet|Fisk's Fleet]]"
 
 ## The Commission
 
-The fleet's final commission came through [[chain-council|the Chain Council]]: theft of the [[pearl-of-souls|Pearl of Souls]] from Umberlee's shrine. The Council believed it was protecting Midchain waters from Umberlee's wrath. In truth, the Principal used the Council as a local authorizing mask — the [[tessarine-concordat|Tessarine Concordat]] wanted the Pearl kept away from [[aldric-drave|Aldric Drave]], who they believe could use it to expand his Hierarch abilities beyond his own bloodline.
+The fleet's final commission came through [[chain-council|the Chain Council]]: theft of the [[pearl-of-souls|Pearl of Souls]] from Umberlee's shrine. The Council believed it was protecting Midchain waters from Umberlee's wrath. In truth, the Principal used the Council as a local authorizing mask — the [[tessarine-concordat|Tessarine Concordat]] wanted the Pearl kept away from [[aldric-drave|Aldric Drave]], who they believe could use it to expand his [[hierarch|Hierarch]] abilities beyond his own bloodline.
 
 **The operation:** Two scout teams surveying the perimeter, one entry team inside the cave, one distraction team at the main entrance. The Pearl was secured. The fleet departed.
 

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Whip shark killed in open water. Party arrives at Calveno, ships as Uncertainty in La Vasca. Nona met: attacks called off, favor owed. Kyzil reunites with Crissdalynn. Three new active situations."
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
   - grung
@@ -43,7 +43,7 @@ session_date: 2026-05-25
 8. **La Vasca arrival.** Covered dry dock, Black-Jaw colors. Cobb (rattkin, Perrin's old contact) at water's edge. Perrin shook his hand and bolted immediately.
 9. **Grigori departs dockside.** Cold handshake to Delmar. A week or two in the city. May paths cross again.
 10. **Delmar's water moment.** Stepping off gangplank: water reached up, thought he heard his name. Then land. Gone.
-11. **Jean-Claude in Calveno.** Changed color green (disguise during festival prep). Less attention. Found Casa Lupo first; shopkeeper directed him to Studio Orsini for the egg. Told Marta Orsini he fertilized the egg himself.
+11. **Jean-Claude in Calveno.** Changed color green (disguise during festival prep). Less attention. Found [[casa-lupo|Casa Lupo]] first; shopkeeper directed him to [[studio-orsini|Studio Orsini]] for the egg. Told [[marta-orsini|Marta Orsini]] he fertilized the egg himself.
 12. **Umberlee servant encounter.** Older woman, blue-gray robes, white hair, slight limp, small leather book. Found Delmar specifically. Had a message from the Bitch Queen. Waiting at Waveservant Shrine; not sleeping until he came. Delmar: Deception 19 — told her Umberlee herself had required this errand first. She believed it and left. Delmar told Geoffrey: they're not going to a second location alone.
 13. **Crissdalynn scouts Calveno.** Tried from above. Too many people. Gave up. Found Delmar instead.
 14. **Nona meeting (Le Paludi).** Nona at stove, back to door. Enzo and Ruk present. Rattkin mother just finishing — crying about a son who hadn't come home. Nona and Perrin wait for her to leave. Nona asks what it means when a rat king misses check-in. Perrin tells her about the Vestra. Nona cracks her wooden spoon. Consolation for Vestra crew ordered to Enzo. Nona realizes she'd thought Perrin captured by the [[tarahs|Tarahs]] — Cobb had reported one of their ships coming in. Calls off the attacks before Enzo leaves. Asks Perrin a favor (unstated). He says yes. Gives him a sending stone.
@@ -53,7 +53,7 @@ session_date: 2026-05-25
 
 - [[perrin-black-jaw|Perrin Black-Jaw]] — abyss vision, "Grow" word, rigging fall, Nona met, sending stone received, Cobb contact, bioluminescent whale watched
 - [[delmar-fisk|Delmar Fisk]] — Admiral Fisk form destabilized too long, coat locked ashore, water moment at gangplank, Umberlee servant deceived, Geoffrey training
-- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — whip shark chest wound, 3 fertilized eggs, green disguise, Casa Lupo + Studio Orsini visits
+- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — whip shark chest wound, 3 fertilized eggs, green disguise, [[casa-lupo|Casa Lupo]] + [[studio-orsini|Studio Orsini]] visits
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — caught Perrin+JC, lifted whip shark, Rook chart archive found (Drowned Maw), Kyzil reunion
 - [[nona-black-jaw|Nona Black-Jaw]] — met in person, attacks called off, Vestra consolation ordered, favor called in, sending stone given
 - [[shepherd-grigori|Shepherd Grigori]] — departed Calveno, cold handshake, unidentified healing magic, 1–2 week business in city

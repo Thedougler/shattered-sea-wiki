@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Founder of the Dravosi Crown — a Hierarch lich who seeded his bloodline into every noble family and has been running the Crown from underneath for three hundred years.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dravosi
   - undead
@@ -62,7 +62,7 @@ Formal, clipped Dravosi register — old-fashioned phrasing that sounds like doc
 
 ## Deep Records
 
-Aldric Drave was the founder of the colonial project that became the Dravosi Crown — a sorcerer who achieved Hierarch lichdom before the first Dravosi ship entered the Scatter, then seeded his bloodline deliberately into every noble family the Crown would later produce. He designed the administrative apparatus — the ledgers, the genealogical records, the documentation theology — because he needed a system that would track every living phylactery across three centuries of colonial expansion.
+Aldric Drave was the founder of the colonial project that became the Dravosi Crown — a sorcerer who achieved [[hierarch|Hierarch]] lichdom before the first Dravosi ship entered the Scatter, then seeded his bloodline deliberately into every noble family the Crown would later produce. He designed the administrative apparatus — the ledgers, the genealogical records, the documentation theology — because he needed a system that would track every living phylactery across three centuries of colonial expansion.
 
 It worked. For two hundred years the Dravosi Crown was, without knowing it, a self-maintaining map of his bloodline.
 

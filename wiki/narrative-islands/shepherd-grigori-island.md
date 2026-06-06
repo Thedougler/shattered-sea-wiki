@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A Hierarch sorcerer-lich traveled with the party as a cooperative guest — warm, genuinely helpful, and racing to cure a hemophiliac Tessarine heir who is now another living anchor in his phylactery network. He has departed Calveno. The cure happened.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - undead
   - mystery
@@ -25,7 +25,7 @@ confidence_level: high
 
 ## Island Premise
 
-The party unknowingly shared a ship with a Hierarch sorcerer-lich whose phylactery is not an object — it is a living network of noble heirs whose incurable conditions he cured. As long as any of them live, he cannot be permanently destroyed. He was not hiding. He passed his own test and decided the party met his threshold. He was genuinely helpful. He was also counting down to a Calveno visit to a hemophiliac Tessarine heir.
+The party unknowingly shared a ship with a [[hierarch|Hierarch]] sorcerer-lich whose phylactery is not an object — it is a living network of noble heirs whose incurable conditions he cured. As long as any of them live, he cannot be permanently destroyed. He was not hiding. He passed his own test and decided the party met his threshold. He was genuinely helpful. He was also counting down to a Calveno visit to a hemophiliac Tessarine heir.
 
 **The cure happened.** He arrived at the Tessarine household, managed an acute bleed episode first, and completed the binding procedure. The heir is now sitting up and asking for food. Grigori has departed Calveno. The network expanded by one.
 
@@ -33,7 +33,7 @@ The party unknowingly shared a ship with a Hierarch sorcerer-lich whose phylacte
 
 ## True Nature
 
-**Shepherd Grigori is a [[khlysty|Khlysty]] Hierarch sorcerer-lich.**
+**Shepherd Grigori is a [[khlysty|Khlysty]] [[hierarch|Hierarch]] sorcerer-lich.**
 
 His phylactery is a living network: noble heirs across the Shattered Sea whose incurable illnesses he cured. Each living heir is an anchor for his continued existence. He reforms from death more slowly or quickly depending on how many anchors remain. He is always expanding the network.
 

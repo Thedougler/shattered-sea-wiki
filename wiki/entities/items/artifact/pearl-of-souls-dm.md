@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: DM companion for the Pearl of Souls — the Seven Pearls context, its current location below the planar boundary, the Maw entanglement, and the Aldric risk that drove the Tessarine commission.
 created: 2026-04-12
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
 sources:
@@ -50,7 +50,7 @@ The Pearl's soul-collection signal crosses the planar boundary and is detectable
 
 ## The Aldric Risk
 
-The [[tessarine-concordat|Tessarine Concordat]] believes [[aldric-drave|Aldric Drave]] could use the Pearl to expand his Hierarch abilities beyond his own bloodline. The artifact's ability to gather and hold drowned souls could let him stabilise himself with external souls, create non-bloodline anchors, or convert mass drowning into a phylactery resource.
+The [[tessarine-concordat|Tessarine Concordat]] believes [[aldric-drave|Aldric Drave]] could use the Pearl to expand his [[hierarch|Hierarch]] abilities beyond his own bloodline. The artifact's ability to gather and hold drowned souls could let him stabilise himself with external souls, create non-bloodline anchors, or convert mass drowning into a phylactery resource.
 
 This is why the Concordat moved through [[chain-council|the Chain Council]] to have Fisk's Fleet steal the Pearl. The stated rationale was protection from Umberlee's wrath. The hidden Tessarine rationale was containment: remove the Pearl from the shrine before Aldric could take it, then divert it into Concordat custody.
 

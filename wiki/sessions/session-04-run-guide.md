@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Master run guide for Session 04: the open Calveno week before the Grung raid. Links to day-by-day files covering the Kyzil reunion, Pearl Summons, Warren, handler investigation, Red Lady salvage, and the Beffa."
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

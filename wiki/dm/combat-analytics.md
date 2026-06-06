@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Empirical combat data from sessions 03–04. Party punches above weight through coordination — bardic inspiration is the force multiplier.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - combat
 sources:

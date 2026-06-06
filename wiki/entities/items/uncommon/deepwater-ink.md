@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: An alchemical ink that adheres to wet surfaces and cures fully underwater — for marking hulls and underwater structures.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

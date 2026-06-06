@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The northernmost point of Calder's Tooth — open ocean, constant wind, a ruined pre-colonial tower, and a Crown lighthouse project abandoned after three successive crews vanished.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - mystery
 sources:

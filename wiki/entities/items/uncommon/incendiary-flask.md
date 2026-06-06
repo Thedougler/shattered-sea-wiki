@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Dravosi Crown alchemical flask — ignites on impact in a 5-ft radius, burning targets until extinguished.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
   - homebrew

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Commodore of the Dravosi Crown's Knight Squadron — senior fleet commander, Geoffrey Draves's uncle, and the institutional consequence that arrives after Bishop. Not yet in play.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
   - late-game

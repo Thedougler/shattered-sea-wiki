@@ -7,7 +7,7 @@ audience: dm
 publish: true
 summary: A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
 created: 2026-04-19
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

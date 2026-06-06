@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

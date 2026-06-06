@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Entity forced through the Drowned Maw fissure from the Elemental Plane of Water after the Pearl of Souls shifted the breach. Destroyed the Vestra and triggered Perrin's hidden pact with Auralis.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - drowned-maw
   - late-game

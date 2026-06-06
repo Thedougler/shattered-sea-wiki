@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The quietest of the Crown Islands — farms, fishing fleets, and a small harbour organized around a broad inland tidal lake.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

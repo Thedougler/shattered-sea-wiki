@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

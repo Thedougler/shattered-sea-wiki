@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Pit boss of the Mud Pits on Kalowe's third island — orc woman, mid-forties, has run the fights for fifteen years. Announces each match like a royal proclamation and then goes completely still for the duration.
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

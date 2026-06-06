@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A Sawek has moved into the channel between Kalowe's second and third islands, wrecking fishing boats. The harbour bosses are paying 300gp for the ridge-plate; the lair holds its own loot.
 created: 2026-05-15
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - combat
   - maritime

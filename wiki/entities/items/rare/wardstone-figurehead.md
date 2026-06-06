@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A warded ship figurehead that hardens the vessel against hostile magic and defeats most hostile divination.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

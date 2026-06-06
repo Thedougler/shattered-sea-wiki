@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Stub — Dravosi handler operating in Calveno under Tessarine merchant cover; runs Ferrin Locke as an intelligence asset; 9-day check-in clock.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - needs-detail
   - dravosi

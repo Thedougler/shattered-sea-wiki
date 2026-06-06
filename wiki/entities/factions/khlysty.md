@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Secret mystical flock threaded through Dravosi and Tessarine noble courts. Shepherd Grigori heals dying heirs and binds them as unwitting phylacteries.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - mystery
   - undead

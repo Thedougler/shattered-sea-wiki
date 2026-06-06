@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

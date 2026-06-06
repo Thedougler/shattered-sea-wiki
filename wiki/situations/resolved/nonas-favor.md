@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Nona's favor was to investigate Grung sightings in the sewers. Party completed it in Session 04 — exposed a coordinated bombing plot, captured Felix Aho, returned with full intel.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - passage
   - rattkin

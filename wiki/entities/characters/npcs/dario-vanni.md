@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

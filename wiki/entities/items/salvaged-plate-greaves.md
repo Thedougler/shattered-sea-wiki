@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A pair of heavy steel greaves pulled from a wreck and sold at La Cenere for 75 gp — good steel with no matching set.
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources: []

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Nona has located Aruhe — a deserted cliff island near the Verdant Teeth — from old Passage route notes and wants Perrin to survey it as a clandestine Rattkin shipyard site. She is aware the Grung avoid it; she does not know why. The Blight is already inside.
 created: 2026-05-26
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
   - passage

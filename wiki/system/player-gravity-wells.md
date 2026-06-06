@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: PC motivation map for Season 1 — dials, terminal nodes, active friction, and cross-party collision points. Read before tying prep, NPCs, or consequences to player motivations.
 created: 2026-04-18
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

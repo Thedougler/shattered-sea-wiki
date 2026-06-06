@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: RESOLVED Session 03 — whip shark (60+ ft) killed in open water by the party. Hull patched with scales during the 5-day transit to Calveno.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
   - combat

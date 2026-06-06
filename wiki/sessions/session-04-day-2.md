@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 2 — La Scelta: Beffa registration opens, the Pearl Summons fires, Nona's sending stone names the favor, JC gets his first handler recognition beat, and Red Lady threads surface."
 created: 2026-05-30
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

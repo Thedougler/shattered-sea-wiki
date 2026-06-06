@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Primary deity of Crissdalynn Khinriss. Aarakocra sky-pantheon. She prays from habit, not theology.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - needs-detail
 sources:

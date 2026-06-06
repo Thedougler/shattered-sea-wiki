@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Martial ranged weapon. One-handed and Light — the only ranged weapon that pairs with a melee weapon. Short range and Loading limit action economy without Crossbow Expert.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

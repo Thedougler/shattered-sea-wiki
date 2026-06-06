@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: An introduction to someone who can produce passage papers — not the papers themselves, and only to strangers Fifita has read.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - passage
 sources:

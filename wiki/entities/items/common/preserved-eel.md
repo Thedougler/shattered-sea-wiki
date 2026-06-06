@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
   - maritime

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A Grung Tier 1 war proa — a double-outrigger raiding vessel built from Verdant Teeth ironpillar hardwood, designed to beach on any shore and disembark a raiding party faster than the target can respond.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
 sources:

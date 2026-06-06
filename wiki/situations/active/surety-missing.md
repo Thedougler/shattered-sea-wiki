@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Crown knows the HCS Surety is missing while Rupert Knighton and Verity Hollowell pursue faster personal searches through different networks. Beaumont's testimony has already gone out — carrying an already-wrong (repainted) description.
 created: 2026-05-15
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
   - maritime

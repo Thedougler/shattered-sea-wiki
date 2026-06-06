@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Crown chandlery clerk at the Tidefall Chandlery — young, conscientious, and genuinely distressed when a customer's paperwork is not in the right order.
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

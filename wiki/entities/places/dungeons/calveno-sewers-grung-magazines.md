@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura.
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
   - combat

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

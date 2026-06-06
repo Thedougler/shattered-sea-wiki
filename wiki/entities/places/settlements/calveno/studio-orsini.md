@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Dravosi gatekeeper island at the western mouth of the Central Strait — Port Tidefall on the western cliff, South Harbour on the calmer eastern side, and overland crossings riddled with Crown checkpoints and fog.
 created: 2026-05-01
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
   - player-resource

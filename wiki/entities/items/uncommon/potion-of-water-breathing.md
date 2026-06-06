@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

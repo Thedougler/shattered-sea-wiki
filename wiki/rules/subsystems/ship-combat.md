@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Rules for ship's guns, broadsides, shot types, and multi-deck volleys — expands the 2024 DMG vehicle rules.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - combat
 sources:

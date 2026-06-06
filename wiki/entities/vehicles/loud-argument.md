@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
 sources:

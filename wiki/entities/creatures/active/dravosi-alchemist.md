@@ -7,7 +7,7 @@ audience: dm
 publish: true
 summary: A Dravosi Crown support officer who turns shipboard supplies, medicinals, and weaponized compounds into tactical leverage.
 created: 2026-04-19
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

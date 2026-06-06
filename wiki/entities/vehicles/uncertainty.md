@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
   - recurring

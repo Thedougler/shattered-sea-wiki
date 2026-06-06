@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A deck fitting for belaying lines — bolted through deck planking, holds a mooring or sheet under load. 8 sp.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

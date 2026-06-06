@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player-facing index of known ships — vessels the party sails, has sailed, or should recognise on sight.
 created: 2026-05-04
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

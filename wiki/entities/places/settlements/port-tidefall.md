@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Dravosi fortress-port carved into the cliff of Calder's Tooth in three tiers: Dockfront at the waterline, the Shelf mid-cliff, and Fort Crestwall at the crown."
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

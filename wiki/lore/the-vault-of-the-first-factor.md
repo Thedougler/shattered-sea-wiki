@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A legendary hidden Tessarine depository on an uncharted Midchain limestone spire — holds centuries of collateral from debtors who couldn't pay. No credentials means no return.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - tessarine
 sources:

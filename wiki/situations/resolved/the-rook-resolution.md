@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: RESOLVED — Rook went into the water a second time in Session 02 and did not come back. Presumed dead, taken by something eel-like. Standoff never resolved; made moot by the water.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

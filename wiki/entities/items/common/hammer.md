@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A general-purpose iron hammer — drives spikes, sets caulking, and works anything that needs persuading.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

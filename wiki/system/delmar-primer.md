@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Agent quick reference for spotlighting and fairly pressuring Delmar's precision damage, crew loyalty, and low-magic rogue profile.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources: []

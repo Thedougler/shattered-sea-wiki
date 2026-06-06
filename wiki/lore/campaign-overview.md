@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Dense reference overview of the Shattered Sea campaign — geography, powers, religion, starting situation, and the edges of the map. Player-facing.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

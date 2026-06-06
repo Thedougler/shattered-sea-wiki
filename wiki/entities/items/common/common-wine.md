@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Imported table wine — average quality, primarily useful for variety and because it keeps better than water at sea.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

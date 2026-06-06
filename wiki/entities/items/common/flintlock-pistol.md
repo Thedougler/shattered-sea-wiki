@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Martial ranged weapon. Heavy crossbow damage (1d10) in a one-handed Light package — the only way to get that damage tier without two hands. Trades range and reliability for that flexibility.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

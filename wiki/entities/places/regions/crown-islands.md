@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Five large fortified islands across the northern arc, where Dravosi authority is strongest — deep harbours, Greyteeth reefs, and a dragon using the reef's reputation as cover.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

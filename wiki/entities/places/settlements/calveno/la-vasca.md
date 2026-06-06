@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "The Black-Jaw family's private dry dock deep in Le Paludi — a covered basin cut from old foundation stone, used for vessels the family needs kept out of sight. Officially a derelict tanning facility. Password: garden."
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - passage
 sources:

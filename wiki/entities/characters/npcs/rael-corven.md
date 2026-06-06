@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
 sources:

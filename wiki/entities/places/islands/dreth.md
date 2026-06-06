@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
 sources:

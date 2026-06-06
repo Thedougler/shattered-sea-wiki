@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 2 humanoid; blue-caste handlers and purple-caste warriors. Multiattack, poison, Mesmerizing Chirr stun. The operational backbone of Simone's raid infrastructure.
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
   - combat

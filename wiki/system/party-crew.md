@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
   - player-resource

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Umberlee's shrine on the Mercatura canal front — basin fed from the channel, tribute terms facing outward. An unnamed servant is not sleeping here until Delmar arrives.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - umberlee
 sources:

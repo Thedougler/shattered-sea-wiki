@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A lean Tier 1 reef runner sloop currently for sale in Port Tidefall — fast, shallow-drafted, and built for reef channels where patrol cutters can't follow.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
   - tessarine

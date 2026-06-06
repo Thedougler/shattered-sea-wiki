@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
 sources:

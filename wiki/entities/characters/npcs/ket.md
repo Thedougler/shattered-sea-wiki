@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - moucheron
 sources:

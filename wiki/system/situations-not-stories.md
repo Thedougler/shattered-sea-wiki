@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Core prep principle: write situations, not stories. Drop the players into something interesting and find out what they do. Whatever they do next is the story."
 created: 2026-04-22
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

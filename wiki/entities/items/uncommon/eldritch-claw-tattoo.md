@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

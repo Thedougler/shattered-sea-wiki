@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

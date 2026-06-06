@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.
 created: 2026-04-23
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

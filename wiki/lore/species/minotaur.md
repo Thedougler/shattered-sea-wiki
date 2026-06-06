@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Playable large-framed humanoids with horns, labyrinthine spatial memory, and a cultural identity built around passages. Minotaur navigators are the most sought-after pilots in the Shattered Sea.
 created: 2026-05-31
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources: []

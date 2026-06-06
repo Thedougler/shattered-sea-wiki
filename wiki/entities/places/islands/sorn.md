@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A reef-fringed Grung island in the Verdant Teeth — known from the water as green wall, pale sand, and danger. Agricultural interior; trade beach only.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
 sources:

@@ -7,7 +7,7 @@ audience: dm
 publish: true
 summary: Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
 sources:

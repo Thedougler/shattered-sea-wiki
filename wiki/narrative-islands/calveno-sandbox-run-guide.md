@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DM run guide for the first open Calveno sandbox: ship repair buys city days while family pressure, festival play, Red Lady salvage money, and PC arrivals move around the party."
 created: 2026-05-22
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

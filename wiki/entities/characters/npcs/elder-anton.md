@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Tabaxi elder and memory-keeper of the Keth-Naar tribe — managing a slow crisis while waiting on Stripes to return from the Midchain.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - sunken-crown
 sources:

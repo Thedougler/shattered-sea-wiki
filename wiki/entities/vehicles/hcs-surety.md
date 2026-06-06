@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Dravosi Crown patrol cutter CS-1147, commanded by Barnaby Rook. Taken as a prize by the party in Session 01. Renamed Uncertainty after Session 03 whip shark damage and refitted at La Vasca. Full prior-identity record retained here.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dravosi
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - passage
 sources:

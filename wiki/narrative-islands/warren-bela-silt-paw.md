@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left.
 created: 2026-05-22
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
   - combat

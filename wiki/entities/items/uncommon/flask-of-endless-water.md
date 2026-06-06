@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A ceramic flask that produces unlimited fresh water on command — stream, fountain, or geyser. Jean-Claude's. Origin unestablished.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

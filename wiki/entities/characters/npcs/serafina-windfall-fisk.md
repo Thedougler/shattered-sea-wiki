@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Aasimar fortune-teller and wanderer, Delmar Fisk's wife — drawn to specific places by precognitive pull, currently somewhere in the Scatter.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
 sources:

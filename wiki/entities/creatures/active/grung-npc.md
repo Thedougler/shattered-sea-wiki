@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 1/4 humanoid; green-caste laborers and scouts. Poison skin, standing leap, amphibious. The expendable workforce of Grung operations.
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
   - combat

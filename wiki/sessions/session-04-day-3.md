@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 3 — first Finestra day: handler investigation and tunnel descent via Nona's favor, Batta Zusto and the salvage commission, ship silhouette hard truth, Beffa execution window opens."
 created: 2026-05-30
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

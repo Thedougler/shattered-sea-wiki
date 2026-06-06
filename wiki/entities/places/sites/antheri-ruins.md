@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Submerged pre-collapse ruins built into the western wall of the Drowned Maw — dark-alloy fittings, architecture built for beings that didn't need floors, and a deeper containment crisis below the visible site.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - antheri
   - drowned-maw

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships.
 created: 2026-04-19
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Secure short-term storage in the Warren — 1 gp per week, three-week hard limit, no exceptions.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

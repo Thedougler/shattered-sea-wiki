@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Ship facility (Barrack Tier 1) that adds up to 4 Bastion Defenders per Recruit order.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
   - player-resource

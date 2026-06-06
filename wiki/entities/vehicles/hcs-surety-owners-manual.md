@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player-facing reference for owning and operating the Uncertainty (ex-HCS Surety) — crew roles, upkeep, travel, ship combat, guns, bastion facilities, and the Ram and Shallow Draft modifications. Stands alone; no rulebook required.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - player-resource
 sources:

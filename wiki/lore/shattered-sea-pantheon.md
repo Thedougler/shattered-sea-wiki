@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "The active divine landscape of the Shattered Sea: Umberlee dominates maritime practice, with Valkur and Tyr acting as important counterweights."
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - waveservants
   - umberlee

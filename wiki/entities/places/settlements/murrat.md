@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A limestone reef island between Kalowe and the Verdant Teeth, inhabited by Moucheron villages — any non-Moucheron who lands is attacked on sight.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - moucheron
 sources:

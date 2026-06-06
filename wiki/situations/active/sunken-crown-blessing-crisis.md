@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Umberlee's blessing has withdrawn from the Sunken Crown since the Pearl of Souls theft, destabilizing Keth-Naar — food security, weather protection, and shrine authority all degrading. Stripes Bitemore was sent to find why the sea turned.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - umberlee
   - sunken-crown

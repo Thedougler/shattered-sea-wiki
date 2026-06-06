@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out.
 created: 2026-05-22
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
   - mystery

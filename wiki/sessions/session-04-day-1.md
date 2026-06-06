@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 1 evening: Kyzil reunion on the Le Paludi street, Branca's unskippable vigil at the Waveservant Shrine, Cobb's check-in about the sending stone, and the party's first night in Calveno."
 created: 2026-05-30
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - dm-prep
 sources:

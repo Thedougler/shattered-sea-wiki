@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Moucheron mercenary company based out of Kalowe: four blades and a stinger, hired through the Flat Water or factors who know to ask."
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - moucheron
   - five-blades

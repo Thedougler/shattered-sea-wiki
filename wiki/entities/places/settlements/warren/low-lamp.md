@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
 sources:

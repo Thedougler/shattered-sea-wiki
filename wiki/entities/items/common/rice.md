@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Staple grain provision — padded against damp in waxed cloth, reliable on any passage. 5 sp per 10 lb.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

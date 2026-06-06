@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night.
 created: 2026-04-22
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - read-aloud
   - maritime

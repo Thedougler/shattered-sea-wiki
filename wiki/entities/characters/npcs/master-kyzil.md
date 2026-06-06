@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - drowned-maw
   - recurring

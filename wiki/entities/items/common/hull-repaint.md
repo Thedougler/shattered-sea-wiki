@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Full hull colour strip and repaint — changes what a vessel looks like from the waterline up.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

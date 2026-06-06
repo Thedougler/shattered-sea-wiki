@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Rattkin network of Runs, Holds, caches, couriers, and hidden infrastructure beneath and between Shattered Sea ports. Nona Black-Jaw's Black-Jaw Run anchors the Calveno Warren.
 created: 2026-05-27
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
   - passage

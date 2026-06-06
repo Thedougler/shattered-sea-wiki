@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Pre-ground coffee for shipboard use — a small luxury that keeps the night watch functional. 6 sp per lb.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A compact alchemical device that produces a 10-foot sphere of dense smoke lasting one minute.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

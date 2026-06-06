@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Cargo broker operating from an alcove in the Warren's Marrow's. Gives no other name and is not asked for one. Has been in the same spot for fifteen years. Accepts Kin by default; Dry need a Kin introduction and his own read of the situation.
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - rattkin
 sources:

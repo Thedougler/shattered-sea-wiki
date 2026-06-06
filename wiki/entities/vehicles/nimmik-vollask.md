@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Tier 2 cargo brig crewed entirely by gnomes and managed by Cotter Foss — a bright orange, alarmingly unstable floating supply depot that pulls alongside, takes your order and your gold, serves complimentary coffee and gnomish meatballs, and heaves the bundle into your hold.
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

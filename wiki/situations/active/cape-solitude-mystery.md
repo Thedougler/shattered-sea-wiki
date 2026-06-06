@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - mystery
 sources:

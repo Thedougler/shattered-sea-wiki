@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A nervous fisherman at the Flat Water knows where the Bad Receipt stashed nine crates of prize cargo on a nameless rock 3 miles east — and the Bad Receipt's captain is on the causeways today, asking the same question.
 created: 2026-05-30
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - salvage
   - maritime

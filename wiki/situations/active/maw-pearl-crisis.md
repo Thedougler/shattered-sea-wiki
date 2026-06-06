@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Pearl of Souls is broadcasting across the Maw fissure, turning a geological planar leak into a directed attractor that Auralis is containing and Umberlee needs Fisk to retrieve. Delmar carries the five captains' souls and the secret of why the fleet sank.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - umberlee
   - drowned-maw

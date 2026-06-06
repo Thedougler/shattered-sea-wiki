@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 5 — the raid fires: blackpowder detonations collapse the ground, a Slaad erupts from the Mercatura breach, four secondary snatch teams hit simultaneously, and Nona emerges in the aftermath to rally pursuit."
 created: 2026-05-30
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - grung
   - combat

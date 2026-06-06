@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

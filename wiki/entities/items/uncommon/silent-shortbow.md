@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A +1 yew shortbow with a completely silent release — does not reveal the shooter's position when firing from hidden. Carried by Jean-Claude Tabarnack.
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
   - player-resource

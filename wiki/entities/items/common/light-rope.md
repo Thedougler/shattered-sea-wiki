@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Lighter household rope for general use — not rigging grade, but sufficient for everything that doesn't go to sea.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - homebrew
 sources:

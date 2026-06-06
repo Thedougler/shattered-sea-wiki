@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A formal introduction into the Passage's Kin-network for Dry (non-Rattkin) seeking operational access — Marrow decides eligibility. 15 gp minimum.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - passage
 sources:

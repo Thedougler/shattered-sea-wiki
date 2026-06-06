@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Druid and captain of the Fernen, Fisk's fourth vessel — drowned at the Drowned Maw when Umberlee sank the fleet. Her soul is inside Delmar Fisk.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A new carved and fitted nameboard for a vessel — includes lettering at legitimate yards, plain board only at discreet ones.
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - maritime
 sources:

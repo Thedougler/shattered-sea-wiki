@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Delmar Fisk's five-ship privateer fleet, destroyed simultaneously in the Drowned Maw after the Pearl of Souls theft. Fisk and Crissdalynn are the only known survivors.
 created: 2026-05-28
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - fisk-fleet
   - drowned-maw

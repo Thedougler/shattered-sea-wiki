@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Former Crown Shipyards blacksmith turned naval gunner — the best man at a cannon the party is likely to meet, who will not tell them that unless someone asks. Holds a master's degree in chemistry that he has never mentioned because it has not come up.
 created: 2026-05-15
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - recurring
 sources:

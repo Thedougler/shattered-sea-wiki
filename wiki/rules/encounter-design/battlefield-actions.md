@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's system for dynamic boss fights: the boss telegraphs a threat at end of its turn, players have a full round to neutralize or mitigate it before resolution."
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - combat
 sources:
@@ -87,7 +87,7 @@ Damage type is determined by the monster's identity. Never leave damage type amb
 
 **Neutralization:** Break the boss's Concentration as normal, or use *Silence*.
 
-**Resolution:** The creature with the lowest Wisdom score that can hear the song gains the Charmed condition until the song ends. It may repeat the save at the end of each of its turns.
+**Resolution:** The creature with the lowest Wisdom score that can hear the song gains the [[charmed|Charmed]] condition until the song ends. It may repeat the save at the end of each of its turns.
 
 ---
 
@@ -97,7 +97,7 @@ Damage type is determined by the monster's identity. Never leave damage type amb
 
 **Neutralization:** Players must not be visible to the boss when Resolution triggers. Options: use the environment to block line of sight, take the Hide action, cast *Darkness*.
 
-**Resolution:** All creatures the boss can see gain the Frightened condition. They may make a Wisdom save at the end of each of their turns to end the effect.
+**Resolution:** All creatures the boss can see gain the [[frightened|Frightened]] condition. They may make a Wisdom save at the end of each of their turns to end the effect.
 
 ---
 

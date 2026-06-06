@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Optional drop-in encounters for Calveno and Le Paludi — muggings, canal incidents, festival escalations, Dravosi gate checks, and a man in the water. Includes Jean-Claude Arc combat escalations: Handler Cell, Serin Haut at Bay, Le Paludi Hired Muscle."
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - combat
   - dm-prep
@@ -189,7 +189,7 @@ He is the only one in the party who recognises it.
 **Location:** Le Paludi — narrow canal, 5 ft alleys, two boats tied at the nearest mooring. Poor light. Festival crowd two streets over.
 
 > [!mechanic]
-> **Blue-Caste Handler × 2.** HP 16, AC 13. Scout (MM p.349). Shortbow +4, 1d8+3 piercing + Grung Poison (DC 11 Con or Poisoned 1 min). Standing Leap 20 ft as part of movement. Breaks and runs at half HP.
+> **Blue-Caste Handler × 2.** HP 16, AC 13. Scout (MM p.349). Shortbow +4, 1d8+3 piercing + Grung Poison (DC 11 Con or [[poisoned|Poisoned]] 1 min). Standing Leap 20 ft as part of movement. Breaks and runs at half HP.
 
 > [!dm]
 > One handler carries binding rope and a sealed wax message cylinder — blank on inspection, but the wax is pressed with a mark Jean-Claude recognises from Botukuri shipping labels. Stakes: capture alive = handler knows arrival timing and the extraction canal route, telling the Warren closes one extraction lane. Kill both = Simone does not learn the cell was made, one lane goes dark without explanation. Let them go = Simone learns the party is in Calveno; Jean-Claude's face is now a report.

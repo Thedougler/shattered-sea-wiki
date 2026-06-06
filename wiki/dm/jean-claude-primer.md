@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Agent quick reference for spotlighting and fairly pressuring Jean-Claude's darkness kit, Grung mobility, concentration, and moral triggers.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - player-resource
 sources:
@@ -24,7 +24,7 @@ confidence_level: medium
 - **Table role:** stealthy ranged controller who spikes in dim light/darkness.
 - **Spotlight with:** dim light, water, vertical terrain, tight spaces, clustered enemies.
 - **Pressure with:** bright magical light, blindsight/tremorsense, poison immunity, concentration breaks.
-- **Avoid:** Restrained + bright light at the same time.
+- **Avoid:** [[restrained|Restrained]] + bright light at the same time.
 
 ## Encounter Levers
 

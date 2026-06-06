@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Agent quick reference for spotlighting and fairly pressuring Perrin's ranged play, water mobility, avoidance, and family/patron hooks.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - player-resource
 sources:
@@ -24,7 +24,7 @@ confidence_level: medium
 - **Table role:** evasive ranged caster with water mobility and avoidance instincts.
 - **Spotlight with:** ranged lanes, water, tight spaces, social trickery, and escape routes.
 - **Pressure with:** one STR grapple threat, concentration disruption, divided damage, strong WIS saves.
-- **Avoid:** Frightened + Restrained stacks.
+- **Avoid:** [[frightened|Frightened]] + [[restrained|Restrained]] stacks.
 
 ## Encounter Levers
 

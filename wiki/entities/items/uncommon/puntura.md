@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
   - homebrew
@@ -36,7 +36,7 @@ The name is [[catarina-davirelli|Catarina's]]. Calveno dialect: *puntura* — a 
 
 **[HB]** +1 bonus to attack and damage rolls.
 
-**[HB] Venom Trace (1/day).** As a bonus action, draw on the barb's residual venom. Until the start of your next turn, the first creature hit with this weapon takes an additional **1d4 poison damage** and must succeed on a **DC 13 Constitution saving throw** or be **Poisoned** until the end of its next turn.
+**[HB] Venom Trace (1/day).** As a bonus action, draw on the barb's residual venom. Until the start of your next turn, the first creature hit with this weapon takes an additional **1d4 poison damage** and must succeed on a **DC 13 Constitution saving throw** or be **[[poisoned|Poisoned]]** until the end of its next turn.
 
 > [!mechanic]
 > DC 15 Persuasion: bring the commission down to 120 gp — Catarina accepts the fraction without comment; she was keeping the grinding byproduct regardless. Offer to let her examine the remaining whip shark eggs before the party sells them: 100 gp, eggs returned undamaged within two hours.

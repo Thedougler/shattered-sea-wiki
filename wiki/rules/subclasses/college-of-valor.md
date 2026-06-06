@@ -16,7 +16,7 @@ confidence_level: medium
 
 # College of Valor
 
-*Bard subclass — Player's Handbook (2024)*
+*[[bard|Bard]] subclass — Player's Handbook (2024)*
 
 Bards who train in the College of Valor fight alongside warriors, inspiring allies through martial deeds as well as music.
 

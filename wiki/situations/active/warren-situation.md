@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Warren is the fixed Rattkin/Passage hub under Calveno — Perrin's family search, the secret Below project, three live Calveno route problems, and Nona who has been looking for him for weeks.
 created: 2026-05-14
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - rattkin
   - passage
@@ -28,7 +28,7 @@ The Warren is the only fixed Rattkin settlement in the Shattered Sea: 200–250 
 
 ## Current State
 
-The Tangle has reasons to engage Perrin if he returns: Nona and Anzolo are already searching for him, the secret Below project makes Perrin's silence a liability, they can route the *Surety* disguise work, and they have three Calveno problems suited to capable outsiders. The party should experience the Warren as useful, wary, and transactional without becoming cold. Its trust starts dry-but-watched.
+The Tangle has reasons to engage Perrin if he returns: Nona and [[anzolo|Anzolo]] are already searching for him, the secret Below project makes Perrin's silence a liability, they can route the *Surety* disguise work, and they have three Calveno problems suited to capable outsiders. The party should experience the Warren as useful, wary, and transactional without becoming cold. Its trust starts dry-but-watched.
 
 ---
 
@@ -105,9 +105,9 @@ Her instructions to Anzolo, if it comes up at the table:
 
 ## Nona's Inner Circle
 
-**Enzo** — black jaguar tabaxi, obsidian-furred with rosettes visible in the light and a pale scar along the left side of his jaw. Tailored suit, immaculate shoes. Rarely speaks. Communicates through a lit cigar, a held door, and the slow unsheathing of one claw. His sentence is *"Nona asked you a question."*
+**[[enzo|Enzo]]** — black jaguar tabaxi, obsidian-furred with rosettes visible in the light and a pale scar along the left side of his jaw. Tailored suit, immaculate shoes. Rarely speaks. Communicates through a lit cigar, a held door, and the slow unsheathing of one claw. His sentence is *"Nona asked you a question."*
 
-**Ruk** — massive scarred lizardfolk. Heavy muscle and occasional sous-chef. Literal, observant, terrible at pretending not to notice things. Useful as a barometer — if Ruk has gone quiet and is watching someone specifically, that is not a good sign for them.
+**[[ruk|Ruk]]** — massive scarred lizardfolk. Heavy muscle and occasional sous-chef. Literal, observant, terrible at pretending not to notice things. Useful as a barometer — if Ruk has gone quiet and is watching someone specifically, that is not a good sign for them.
 
 ---
 

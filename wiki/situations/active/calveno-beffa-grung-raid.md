@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Simone's gold-marked operation takes hundreds of Calveno's civic population during Il Gioco delle Beffe — a coordinated strike using Dravosi insider intelligence, sewer extraction, and summoned Slaad as a distraction. The Tessarine Concord does not see it coming.
 created: 2026-05-20
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - grung
   - combat
@@ -24,7 +24,7 @@ confidence_level: high
 
 ## Situation
 
-[[jean-claude-tabarnack|Jean-Claude Tabarnack]]'s sister Simone Tabarnack's western expansion culminates in an operation that will be remembered as a watershed: a mass slave raid on [[calveno|Calveno]] during [[il-gioco-delle-beffe|Il Gioco delle Beffe]] that takes hundreds of the city's civic population — workers, sailors, dockside families, festival labourers — in a single coordinated strike.
+[[jean-claude-tabarnack|Jean-Claude Tabarnack]]'s sister [[simone-tabarnack|Simone Tabarnack]]'s western expansion culminates in an operation that will be remembered as a watershed: a mass slave raid on [[calveno|Calveno]] during [[il-gioco-delle-beffe|Il Gioco delle Beffe]] that takes hundreds of the city's civic population — workers, sailors, dockside families, festival labourers — in a single coordinated strike.
 
 This is not an ambitious coastal raid scaled up. It is a purpose-built urban operation, years of expansion converted into one proof-of-concept: the Grung can take people from the heart of a Central Strait commercial city in broad daylight, and the powers who were supposed to stop it either could not or chose not to.
 

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting.
 created: 2026-05-28
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - grung
 sources:
@@ -30,7 +30,7 @@ region: midchain
 
 Blue-caste scouts have reached outer Midchain waters under trade cover, farther than the Grung have operated in years. One raid hit a small coastal settlement; a second overextended and failed. Rumour of unusually distant Grung raids is moving through fishing communities.
 
-Simone does not know Jean-Claude's location. She knows he is alive and outside the Verdant Teeth. Rook was her buyer for Grung hunting toxin into the Central Strait; with Rook gone silent, her operative asked the wrong questions in Tidefall and **exposed the supply channel at one end.** [[verity-hollowell|Verity Hollowell]] is positioned to hear the wrong-shaped inquiry.
+Simone does not know Jean-Claude's location. She knows he is alive and outside the Verdant Teeth. [[barnaby-rook|Rook]] was her buyer for Grung hunting toxin into the Central Strait; with Rook gone silent, her operative asked the wrong questions in Tidefall and **exposed the supply channel at one end.** [[verity-hollowell|Verity Hollowell]] is positioned to hear the wrong-shaped inquiry.
 
 ---
 
@@ -39,9 +39,9 @@ Simone does not know Jean-Claude's location. She knows he is alive and outside t
 | Field | Value |
 |---|---|
 | Verb | Hunts. Simone expands territory and searches for the deserter who understands the system's failure points. |
-| Unstable Condition | The slave-soldier program is tactically useful but breaking down faster than Karath can replace captives. The Calveno raid is the operation that fills the gap — and proves Simone can reach anywhere. |
+| Unstable Condition | The slave-soldier program is tactically useful but breaking down faster than [[karath|Karath]] can replace captives. The Calveno raid is the operation that fills the gap — and proves Simone can reach anywhere. |
 | Consequence | Grung raids push closer, Tidefall suspicion rises, and Jean-Claude's past becomes an active operational liability. After Calveno, it becomes a personal indictment: he understands everything that was done, and he was in the city when it happened. |
-| Link of Relevance | Jean-Claude's terminal node is Sorn: Simone, Pell, the Botukuri household, and the slave system concentrate there. Calveno is the moment the distance between him and that node collapses. |
+| Link of Relevance | Jean-Claude's terminal node is Sorn: Simone, [[pell|Pell]], the Botukuri household, and the slave system concentrate there. Calveno is the moment the distance between him and that node collapses. |
 
 ---
 

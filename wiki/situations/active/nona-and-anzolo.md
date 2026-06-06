@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Nona met in Calveno — attacks on Perrin called off, favor promised. Anzolo's status: was in motion before the calls-off; may still be at sea. The Passage knows where Perrin is."
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - rattkin
   - passage
@@ -31,14 +31,14 @@ Perrin received this message. He has not responded to it publicly. Later that se
 
 ## Session 03 Update
 
-Perrin arrived at Nona's Le Paludi kitchen. She heard about the Vestra; called off the attacks she'd set in motion (she'd believed Perrin was captured). Ordered Enzo to console the Vestra's crew. Then asked a favor; Perrin said yes unconditionally. Gave him a sending stone.
+Perrin arrived at Nona's [[le-paludi|Le Paludi]] kitchen. She heard about the Vestra; called off the attacks she'd set in motion (she'd believed Perrin was captured). Ordered [[enzo|Enzo]] to console the Vestra's crew. Then asked a favor; Perrin said yes unconditionally. Gave him a sending stone.
 
 Nona knows where Perrin is. The Passage knows.
 
 ### World Update — Session 03
 
 **Roll:** 3 — Setback
-Nona's call-off directive went out through Enzo, but Anzolo was already at sea — methodically working Passage contacts eastward, hunting for a rattkin named Black-Jaw on a ship. The message is still in transit through the lantern and courier chain. Worse: Anzolo's inquiries at an eastern port reached a Tessarine informant. He's wanted by the Concordat, and now a Tessarine patrol knows a tortle matching his description was recently asking about Black-Jaw crew movements and heading west. Anzolo doesn't know he has a tail, and he doesn't know the search is over.
+Nona's call-off directive went out through [[enzo|Enzo]], but Anzolo was already at sea — methodically working Passage contacts eastward, hunting for a rattkin named Black-Jaw on a ship. The message is still in transit through the lantern and courier chain. Worse: Anzolo's inquiries at an eastern port reached a Tessarine informant. He's wanted by the Concordat, and now a Tessarine patrol knows a tortle matching his description was recently asking about Black-Jaw crew movements and heading west. Anzolo doesn't know he has a tail, and he doesn't know the search is over.
 
 ### World Update — Session 04
 

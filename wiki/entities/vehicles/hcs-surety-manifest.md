@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

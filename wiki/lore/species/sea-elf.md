@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Aquatic elf subtype — breathes air and water, cold resistance, can communicate simple ideas to beasts with swimming speed. Sea elves in the Shattered Sea are centered at Halythion.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
   - player-resource

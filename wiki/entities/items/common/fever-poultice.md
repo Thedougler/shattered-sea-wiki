@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A herbal compress preparation for reducing fever — three applications per pack.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

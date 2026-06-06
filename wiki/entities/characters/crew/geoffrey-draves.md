@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Young Dravosi deckhand recruited by Delmar mid-fight — a sailor by his father's command, a dancer by his own heart, vowed to earn enough to marry the woman he danced with once and then lost.
 created: 2026-05-10
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dravosi
   - recurring

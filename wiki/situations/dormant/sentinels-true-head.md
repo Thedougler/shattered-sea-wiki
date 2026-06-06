@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The true head of the Sentinels of the Eyrie is a Soul Incarnate — a neutral lich whose mummified body-phylactery is sealed beneath High Eyrie, and who has personally maintained the 200-year Maw observation record.
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - drowned-maw
   - undead

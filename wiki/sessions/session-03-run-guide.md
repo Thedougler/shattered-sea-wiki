@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: At-table run guide for Session 03. Perrin-only Auralis dream, whip shark crisis, Calveno approach, La Vasca arrival, then open Calveno play.
 created: 2026-05-20
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

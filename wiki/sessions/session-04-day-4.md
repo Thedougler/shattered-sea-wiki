@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Day 4 — second Finestra day: handler cell combat, Red Lady convergence with the Pearl demand, false alarms conditioning the crowd, and a full raid prep status check before the Day 5 strike."
 created: 2026-05-30
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

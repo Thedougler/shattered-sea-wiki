@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "DaVirelli's shop; source of the Brass Cat's arcane artillery. Note: aliased as both 'Cat's Curios' and 'Kat's Curios' in source — confirm the canonical spelling."
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - needs-detail
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Overproof rum and hunter shark blood from the gap — only available when the dock crew has cleaned a shark recently.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
 sources:

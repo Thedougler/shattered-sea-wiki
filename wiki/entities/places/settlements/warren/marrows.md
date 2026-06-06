@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - rattkin
 sources:

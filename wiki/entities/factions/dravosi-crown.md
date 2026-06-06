@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Naval/imperial Crown power operating in the Shattered Sea. Sent Barnaby Rook and a boarding crew against the Saltwright in Session 01. Receiving Grung-made toxin supply from an unknown source.
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
   - maritime

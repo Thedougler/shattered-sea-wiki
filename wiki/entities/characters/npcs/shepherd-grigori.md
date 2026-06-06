@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A wandering holy man known for curing incurable noble afflictions. Departed Calveno docks with a cold handshake. His healing magic is wordless and somatic-free — Perrin's Arcana 18 couldn't identify it. Back in 1–2 weeks.
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - mystery
   - undead

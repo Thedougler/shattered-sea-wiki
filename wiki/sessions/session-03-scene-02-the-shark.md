@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 03, Scene 02 — Whip shark encounter: three phases (probing, hook-seated, blood interruption), crew defaults, fast solution map, and ship narration reference."
 created: 2026-05-20
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - combat
   - maritime

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A professional inspection of hull condition, seams, and keel — an assessment report included with any job at reputable yards.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

@@ -1,0 +1,10 @@
+{
+  "languages": {
+    "typescript": {
+      "extensions": ["ts", "tsx"],
+      "command": "typescript-language-server",
+      "args": ["--stdio"],
+      "initializationOptions": {}
+    }
+  }
+}

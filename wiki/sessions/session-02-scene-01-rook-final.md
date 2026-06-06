@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Session 02, Scene 01 — Rook alone, unharmed, all crew dead or defected. Opens mid-combat. Three lair actions: Arm the Guns, Fire the Guns, Call to Arms. Grigori's voice came from below."
 created: 2026-05-10
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - combat
   - dm-prep

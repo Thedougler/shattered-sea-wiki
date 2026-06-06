@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters.
 created: 2026-04-15
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
   - mystery

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's 7-step modular one-shot framework (MMOS): two paths, one key, modular encounters, one non-modular showdown, two endings. Core principle: most encounters must be skippable without breaking the session."
 created: 2026-04-24
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

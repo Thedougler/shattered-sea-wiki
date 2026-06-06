@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Stub — referenced in [[hcs-warrant]] and [[ships-index]]. Dravosi Crown Tier 1 patrol cutter; more heavily armed than HCS Surety. No page yet.
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-05
 tags:
   - dravosi
 sources: []

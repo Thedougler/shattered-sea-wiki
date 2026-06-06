@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins.
 created: 2026-04-22
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

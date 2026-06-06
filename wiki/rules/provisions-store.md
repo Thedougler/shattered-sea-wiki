@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Tier 1 bastion facility — garden adapted for the ship. Each Harvest order produces food rations, healer's kits, a Potion of Healing, or antitoxin/poison depending on the store type.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
   - player-resource

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - tessarine
 sources:

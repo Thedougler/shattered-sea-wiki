@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

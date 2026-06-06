@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 created: 2026-05-02
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - passage
   - recurring

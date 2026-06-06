@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Stub — referenced in [[player-agency]] and [[character-interview-guide]]. Pre-campaign setup session covering lines/veils, character creation, and table expectations.
 created: 2026-05-30
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - needs-detail
 sources: []

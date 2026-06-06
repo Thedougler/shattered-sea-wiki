@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Standard naval rope sold by the foot at Shattered Sea chandleries — rigging, mooring, boarding, and everything else. 1 gp per 50 ft.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

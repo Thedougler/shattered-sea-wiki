@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - fisk-fleet
 sources:

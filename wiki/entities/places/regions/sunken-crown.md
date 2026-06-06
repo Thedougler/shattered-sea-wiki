@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Five low islands on the rim of something drowned — the Blue Hole, and the Tabaxi who have kept watch here longer than any outside record.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
 sources:

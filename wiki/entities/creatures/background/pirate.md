@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
 created: 2026-04-25
-updated: 2026-06-02
+updated: 2026-06-05
 tags:
   - combat
   - maritime

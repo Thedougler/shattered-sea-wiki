@@ -1,0 +1,27 @@
+{
+  "eval_id": 3,
+  "eval_name": "cold-pass-403",
+  "prompt": "The cold pass keeps failing with a 403 error from HuggingFace. The hot pass works fine. What's going on?",
+  "assertions": [
+    {
+      "text": "Correctly identifies this as a pyannote gated model access issue",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions the HF_TOKEN environment variable requirement",
+      "type": "content_check"
+    },
+    {
+      "text": "Directs user to accept the model license at the HuggingFace model page",
+      "type": "content_check"
+    },
+    {
+      "text": "Explains why hot pass works (uses whisper, no pyannote) while cold pass fails (uses pyannote diarization)",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions that cold pass can still work without diarization (graceful fallback)",
+      "type": "content_check"
+    }
+  ]
+}

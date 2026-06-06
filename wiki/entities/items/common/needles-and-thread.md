@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Sewing needles in sail weight and clothing weight, with appropriate thread — for repairs to fabric, canvas, and sails.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

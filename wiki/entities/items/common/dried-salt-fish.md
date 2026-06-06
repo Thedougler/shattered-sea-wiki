@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

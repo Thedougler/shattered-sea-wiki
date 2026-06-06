@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Core tone equation for all Shattered Sea content: high competence trapped inside low emotional maturity. Scenes need real danger, petty internal friction, and stylish presentation."
 created: 2026-04-20
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Umberlee spoke through Branca directly to Delmar. Deal negotiated: retrieve the Pearl of Souls, keep your life, souls return to Umberlee. Delmar counter-offered to deliver the commissioners. Umberlee deferred — 'Bring me the pearl. We will talk then.'"
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - umberlee
   - waveservants

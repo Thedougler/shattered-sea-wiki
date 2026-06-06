@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's system for dynamic boss fights: the boss telegraphs a threat at end of its turn, players have a full round to neutralize or mitigate it before resolution."
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 tags:
   - combat
 sources:

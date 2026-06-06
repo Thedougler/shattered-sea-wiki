@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Dravosi intelligence ship Takowan is mapping Passage contacts at Kalowe while the Uncertainty needs Kalowe's hidden slip to change its affiliation markers. Noa Fifita won't work while the Takowan is in port.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
   - passage

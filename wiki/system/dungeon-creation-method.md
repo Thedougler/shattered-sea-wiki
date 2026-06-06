@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Pointy Hat's 5-step dungeon framework: one-word theme → mechanics that express it → goal → varied encounters → climax that synthesizes all. Use before generating any dungeon, ruin, or enclosed site."
 created: 2026-04-24
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

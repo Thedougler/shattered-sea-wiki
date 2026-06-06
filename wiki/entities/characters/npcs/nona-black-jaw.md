@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Matriarch of the Black-Jaw Run, senior Tangle elder, Perrin's grandmother. Reunited with Perrin in Calveno — he told her about the Vestra; she has a favor to ask.
 created: 2026-05-29
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - rattkin
   - passage

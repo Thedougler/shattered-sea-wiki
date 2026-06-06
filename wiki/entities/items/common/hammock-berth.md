@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A canvas hammock on the upper floor — shared space, close quarters, and at least you're off the ground. 1 sp per night.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
   - maritime

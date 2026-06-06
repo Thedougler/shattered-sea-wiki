@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - player-resource
 sources: []

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Port Tidefall factor's daughter who can read a cargo manifest faster than most Crown inspectors — searching records for Geoffrey Draves, sitting on a ledger anomaly that implicates her family's license.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

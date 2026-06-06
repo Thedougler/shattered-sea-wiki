@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Hull caulking tar — seals seams, coats rope, and keeps water where it belongs.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

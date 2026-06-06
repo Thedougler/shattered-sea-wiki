@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - grung
 sources:

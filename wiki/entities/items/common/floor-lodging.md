@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A spot on the communal floor of the Warren's Low Lamp — warm, safe, and watched.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

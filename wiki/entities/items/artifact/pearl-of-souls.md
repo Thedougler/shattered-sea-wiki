@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
 sources:

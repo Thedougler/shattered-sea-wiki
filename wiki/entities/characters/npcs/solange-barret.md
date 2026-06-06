@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Red-caste Grung warlock and Simone's ritual specialist — operates the Otar summoning circle beneath the Mercatura. Pact-bound chaos caster with Counterspell and Hold Person.
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - grung
   - combat

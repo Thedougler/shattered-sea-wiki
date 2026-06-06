@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A standard mug of fermented grain ale — dark and slightly sour at the Flat Water, and reliable. 4 cp.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

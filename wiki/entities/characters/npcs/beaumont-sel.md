@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Tortle captain of the *Saltwright*; pulled Crissdalynn and Delmar from the water after the fleet went down and carried them west along the Midchain.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
   - recurring

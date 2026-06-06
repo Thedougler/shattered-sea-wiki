@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player index for beasts, swarms, and natural predators of the Shattered Sea.
 created: 2026-05-05
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - player-resource
 sources: []

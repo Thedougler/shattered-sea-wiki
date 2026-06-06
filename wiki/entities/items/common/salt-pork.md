@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Barrelled salt-cured pork belly — the meat provision on every working ship, before the scurvy sets in.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

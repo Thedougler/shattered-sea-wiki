@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Captain of the *Loud Argument* and Fisk's combat specialist; died in the Drowned Maw when Umberlee closed the water over the fleet, his soul pressed into Delmar.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - fisk-fleet
 sources:

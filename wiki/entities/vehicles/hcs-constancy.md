@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A Dravosi Crown heavy frigate — the standard Tier 3 patrol vessel of the Crown fleet, built to inspect, board, and enforce across the Central Strait and Crown Islands waters.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

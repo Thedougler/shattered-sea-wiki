@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

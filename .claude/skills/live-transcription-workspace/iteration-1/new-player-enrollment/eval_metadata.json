@@ -1,0 +1,27 @@
+{
+  "eval_id": 1,
+  "eval_name": "new-player-enrollment",
+  "prompt": "A new player is joining the table next session. Their name is Jordan. Walk me through getting their voice profile set up so the transcription system can identify them.",
+  "assertions": [
+    {
+      "text": "Mentions the shattered-audio enroll command with correct syntax",
+      "type": "content_check"
+    },
+    {
+      "text": "Recommends recording at least 30 seconds of speech for profile quality",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions config.yaml channel_priors for mic-to-speaker mapping",
+      "type": "content_check"
+    },
+    {
+      "text": "Suggests a verification step (test session or short recording)",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions the profile storage location (~/.config/shattered-audio/profiles/)",
+      "type": "content_check"
+    }
+  ]
+}

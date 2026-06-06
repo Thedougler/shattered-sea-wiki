@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Ship tiers, vehicle statistics, crew roles, minimum crew requirements, and upkeep for Shattered Sea play.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
   - homebrew

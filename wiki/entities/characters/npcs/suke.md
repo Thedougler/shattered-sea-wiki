@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Newest Moucheron member of the Five Blades. Quiet, watchful, and still adjusting from Murrat to Kalowe contract work.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - moucheron
   - five-blades

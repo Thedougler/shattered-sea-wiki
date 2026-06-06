@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The four working hirelings crewing the Saltwright under Captain Beaumont Sel — navigator, bosun, cook, and ordinary sailor.
 created: 2026-05-03
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
   - recurring

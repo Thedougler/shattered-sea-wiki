@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Sealing open or failing hull seams with oakum and tar — the basic maintenance that keeps a working vessel watertight.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

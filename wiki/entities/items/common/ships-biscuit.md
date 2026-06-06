@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Hard, dry, long-lasting sea bread — the staple provision of every working vessel in the Shattered Sea.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
   - maritime

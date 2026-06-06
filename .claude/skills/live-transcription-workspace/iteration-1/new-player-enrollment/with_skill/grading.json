@@ -1,0 +1,32 @@
+{
+  "eval_id": 1,
+  "run_type": "with_skill",
+  "expectations": [
+    {
+      "text": "Mentions the shattered-audio enroll command with correct syntax",
+      "passed": true,
+      "evidence": "Shows 'shattered-audio enroll \"Jordan\" --record 30' and file-based variant"
+    },
+    {
+      "text": "Recommends recording at least 30 seconds of speech for profile quality",
+      "passed": true,
+      "evidence": "\"30 seconds is the practical minimum. Shorter samples degrade cosine similarity matching\""
+    },
+    {
+      "text": "Mentions config.yaml channel_priors for mic-to-speaker mapping",
+      "passed": true,
+      "evidence": "Full YAML example with channel_priors section and explanation of +0.15 boost"
+    },
+    {
+      "text": "Suggests a verification step (test session or short recording)",
+      "passed": true,
+      "evidence": "Section 3: 'shattered-audio live --session 99' with troubleshooting guidance"
+    },
+    {
+      "text": "Mentions the profile storage location (~/.config/shattered-audio/profiles/)",
+      "passed": true,
+      "evidence": "Explicitly lists jordan.npy and jordan_meta.yaml paths"
+    }
+  ],
+  "pass_rate": 1.0
+}

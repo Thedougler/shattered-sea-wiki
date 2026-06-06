@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Session 03, Scene 06 — Delmar crosses the gangplank and the water notices; Branca finds him on the streets of Calveno and brings him to the Waveservant Shrine.
 created: 2026-05-20
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
   - dm-prep

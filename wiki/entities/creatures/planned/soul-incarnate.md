@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 16 undead lich. Monk lich achieved through meditation and ritual desiccation — the body becomes the phylactery while the consciousness manifests as a ki-form of glowing meridians. DM only — planned late-campaign reveal.
 created: 2026-05-15
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - undead
 sources:

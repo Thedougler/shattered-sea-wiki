@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: CR 1 humanoid; red-caste operatives with druidic spellcasting. Spike Growth in tight corridors, Cure Wounds for self-sustain. The ritual specialist of Grung operations.
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - grung
   - combat

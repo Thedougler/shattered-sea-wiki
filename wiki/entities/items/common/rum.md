@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Distilled sugarcane spirit — ship's stores, shore trade, and the social currency of the Midchain free ports.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

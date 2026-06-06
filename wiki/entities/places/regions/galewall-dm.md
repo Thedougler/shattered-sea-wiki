@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

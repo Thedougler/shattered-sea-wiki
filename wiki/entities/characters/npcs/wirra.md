@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - moucheron
   - five-blades

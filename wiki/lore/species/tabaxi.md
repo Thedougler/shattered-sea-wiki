@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Playable feline humanoids with claws, speed, keen senses, and ancient ties to the Sunken Crown islands. Keth Naar is the campaign's known tabaxi community.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - sunken-crown
 sources:

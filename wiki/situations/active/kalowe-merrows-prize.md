@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A sunken merchant ship 2 miles off the Kalowe reef holds a sealed strongbox; the only survivor wants the party to dive for it, and a merrow has already moved in.
 created: 2026-05-15
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - combat
   - salvage

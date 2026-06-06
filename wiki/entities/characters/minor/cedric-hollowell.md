@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Crown-licensed import factor in Port Tidefall and Verity's father — set the financial terms that sent Geoffrey away, has a ledger problem he may or may not know about, and keeps making introductions his daughter keeps not concluding.
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

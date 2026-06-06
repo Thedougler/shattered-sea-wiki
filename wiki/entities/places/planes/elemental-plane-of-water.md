@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - drowned-maw
 sources:

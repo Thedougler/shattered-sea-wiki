@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Operator of Fifita's Slip, the informal back-channel boatyard on Kalowe's lagoon side. Prices a job by looking at the hull. Only talks when money is the subject.
 created: 2026-05-17
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - needs-detail
 sources:

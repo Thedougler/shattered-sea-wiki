@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A Tier 4 pirate man-of-war — uses terror, hostages, legal blackmail, and overwhelming cannon weight to make ports and convoys surrender before battle.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - drowned-maw
   - late-game

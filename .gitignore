@@ -14,6 +14,8 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .coverage
+.mypy_cache/
+.ruff_cache/
 
 # Node/package artifacts
 node_modules/
@@ -21,8 +23,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Raw audio files — too large for GitHub (>100MB)
-audio/sessions/*.m4a
+# Raw uncut session recordings (>100MB) — use git-lfs or store externally
+# Chunked session audio (<10MB each) is tracked normally
 audio/sessions/*.mp3
 audio/sessions/*.wav
 

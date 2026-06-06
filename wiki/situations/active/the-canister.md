@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Jean-Claude identified Simone Tabarnack's Grung toxin compound in the Dravosi Alchemist's bandolier during the Saltwright boarding. He said nothing. The party does not know.
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - dravosi
   - grung

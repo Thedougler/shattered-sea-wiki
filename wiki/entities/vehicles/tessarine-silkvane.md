@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A Tessarine Concordat dispatch sloop — single-masted, built for speed over capacity, carries correspondence and personnel who need to move without using common passenger vessels.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - tessarine
 sources:

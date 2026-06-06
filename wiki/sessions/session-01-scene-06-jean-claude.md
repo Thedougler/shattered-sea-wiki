@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Session 01, Beat 6 — Jean-Claude Tabarnack introduction; fleeing the Verdant Teeth; boarding the Saltwright hull; reef shark escalation; meeting Perrin in the hold.
 created: 2026-04-22
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

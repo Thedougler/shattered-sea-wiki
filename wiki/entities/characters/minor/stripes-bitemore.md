@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Tiger tabaxi fighter sent west by Keth-Naar elders to find why the sea is angry — took passage on the Saltwright, was involved in the Session 01 boarding action, currently absent from the active party.
 created: 2026-05-27
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - passage
 sources:

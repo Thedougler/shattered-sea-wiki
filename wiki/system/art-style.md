@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Visual style guide for AI-generated campaign art — agents read this before every image generation task
 created: 2026-05-30
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dm-prep
 sources: []

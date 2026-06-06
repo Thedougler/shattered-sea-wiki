@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - tessarine
   - homebrew

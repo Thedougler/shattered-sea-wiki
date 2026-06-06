@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Rook dies in the water. Party takes the HCS Surety, assembles a crew, and frees Ket the Moucheron. Three new active situations: hull impacts, Knighton pursuit, and Nona/Anzolo. Party levelled up."
 created: 2026-05-18
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - fisk-fleet
   - mystery

@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Bard subclass (PHB 2024) — martial Bard with Medium armor, Martial weapons, Combat Inspiration for offense/defense, and Extra Attack at Level 6.
 created: 2026-04-23
-updated: 2026-05-31
+updated: 2026-06-06
 tags: []
 sources:
   - PHB 2024

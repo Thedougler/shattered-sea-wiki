@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: The Draves family name appears in Crown genealogical archives further back than their standing explains — and Aldric Drave's heir-selection process reads those same records. Whether Geoffrey is a functioning phylactery remains deliberately open.
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
   - mystery

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A commissioned herbal or medicinal preparation — 1–3 days, ingredients and availability dependent.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

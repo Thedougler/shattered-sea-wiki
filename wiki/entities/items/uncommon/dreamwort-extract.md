@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

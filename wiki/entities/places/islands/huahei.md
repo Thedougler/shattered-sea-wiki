@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A small overgrown marshy island in the Midchain, notable for an odd fey presence.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
 sources:

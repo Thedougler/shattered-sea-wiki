@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Custom bolt patterns, deck fittings, and ironwork fabricated to specification — 1–2 day turnaround at a dry-dock ironmonger.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

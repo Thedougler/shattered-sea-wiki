@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price.
 created: 2026-05-17
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Common dried kitchen and medicinal herbs — cooking flavour and basic medicinal use, sold at general goods stores.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A brass compass that points toward the nearest shipwreck within 10 miles rather than magnetic north — useful, unsettling, and currently in Morsani's cabinet.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

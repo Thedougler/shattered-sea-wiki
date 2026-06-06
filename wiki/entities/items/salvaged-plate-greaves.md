@@ -12,7 +12,6 @@ tags:
   - maritime
 sources: []
 confidence_level: medium
-rarity:
 attunement: false
 homebrew: false
 ---

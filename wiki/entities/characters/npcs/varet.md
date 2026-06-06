@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Moucheron contract speaker for the Five Blades mercenary company in Kalowe. Quotes rate and feeding clause before ink touches paper.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - moucheron
   - five-blades

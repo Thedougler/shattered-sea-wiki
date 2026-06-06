@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A set of four brass constructs counting as sailors for minimum crew — standing orders only, cannot fight, require daily winding.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

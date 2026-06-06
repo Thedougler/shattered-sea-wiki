@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dravosi
 sources:

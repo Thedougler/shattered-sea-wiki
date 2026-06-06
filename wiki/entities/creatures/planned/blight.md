@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 created: 2026-05-15
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - undead
 sources:

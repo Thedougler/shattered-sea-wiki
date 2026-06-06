@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: A wood-and-linen splinting kit for immobilising bone fractures — the apothecary will show you how to apply it.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - homebrew
 sources:

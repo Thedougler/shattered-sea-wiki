@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Port Tidefall's dockfront offers ship leads, impound intelligence, a salvage contract, Waveservant pressure, and several PC-specific hooks. Currently overfull, resentful, and full of small useful doors.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - umberlee
   - tessarine

@@ -1,0 +1,31 @@
+{
+  "eval_id": 2,
+  "eval_name": "unknown-speakers-fix",
+  "prompt": "I ran a live session last night and a lot of the speaker labels came back as UNKNOWN. How do I fix the existing transcript and improve future accuracy?",
+  "assertions": [
+    {
+      "text": "Explains how to manually correct speaker labels in chunk markdown files",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions the shattered-audio retrain command for updating profiles from corrections",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions adjusting speaker_threshold as a tuning lever",
+      "type": "content_check"
+    },
+    {
+      "text": "Notes that short utterances (<2s) are a known cause of UNKNOWN labels",
+      "type": "content_check"
+    },
+    {
+      "text": "Suggests re-enrolling with longer audio samples to improve profile quality",
+      "type": "content_check"
+    },
+    {
+      "text": "Mentions checking speaker_confidence in chunk frontmatter for diagnostics",
+      "type": "content_check"
+    }
+  ]
+}

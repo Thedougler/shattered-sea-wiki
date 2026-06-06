@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Quick-reference for Calveno — the canal city, its districts, key people, and how it works.
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - tessarine
   - passage

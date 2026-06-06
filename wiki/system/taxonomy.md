@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Controlled tag vocabulary for the Shattered Sea wiki. Read this before assigning tags to any page.
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources: []

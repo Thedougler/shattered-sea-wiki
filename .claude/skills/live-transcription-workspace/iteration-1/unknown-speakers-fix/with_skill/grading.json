@@ -1,0 +1,37 @@
+{
+  "eval_id": 2,
+  "run_type": "with_skill",
+  "expectations": [
+    {
+      "text": "Explains how to manually correct speaker labels in chunk markdown files",
+      "passed": true,
+      "evidence": "Step 1 shows before/after example replacing UNKNOWN with correct name in chunk md"
+    },
+    {
+      "text": "Mentions the shattered-audio retrain command for updating profiles from corrections",
+      "passed": true,
+      "evidence": "Full retrain command: 'shattered-audio retrain Inbox/s12-chunk-001.md --audio-dir Inbox/ --blend 0.7'"
+    },
+    {
+      "text": "Mentions adjusting speaker_threshold as a tuning lever",
+      "passed": true,
+      "evidence": "Dedicated section 'Lower the speaker threshold' with config example showing 0.60"
+    },
+    {
+      "text": "Notes that short utterances (<2s) are a known cause of UNKNOWN labels",
+      "passed": true,
+      "evidence": "\"Utterances under about 2 seconds produce unreliable embeddings\""
+    },
+    {
+      "text": "Suggests re-enrolling with longer audio samples to improve profile quality",
+      "passed": true,
+      "evidence": "Section 'Re-enroll with longer samples': 'shattered-audio enroll \"Nick\" --record 30'"
+    },
+    {
+      "text": "Mentions checking speaker_confidence in chunk frontmatter for diagnostics",
+      "passed": false,
+      "evidence": "Mentions checking _meta.yaml sample_count but does NOT mention speaker_confidence in chunk frontmatter"
+    }
+  ],
+  "pass_rate": 0.83
+}

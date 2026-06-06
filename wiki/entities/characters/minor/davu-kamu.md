@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Midchain first mate, sole survivor of the Cormorant wreck; drinking at The Flat Water in Kalowe, looking for divers to recover the captain's strongbox.
 created: 2026-05-30
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - maritime
 sources:

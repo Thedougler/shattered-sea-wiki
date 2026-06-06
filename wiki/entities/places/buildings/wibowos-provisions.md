@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Ship's victualler on Kalowe's first island — Suryo Wibowo sells crew rations, water casks, rum, and fresh produce. Bring a list and a crew count.
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - passage
 sources:

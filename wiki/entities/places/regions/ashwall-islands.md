@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Cold volcanic spire-chain near the Galewall; the last solid ground on the outbound run and the first proof of survival on the return.
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - maritime
 sources:

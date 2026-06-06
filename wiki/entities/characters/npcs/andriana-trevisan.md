@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Knows roughly where something in the Warren is, but won't name a contact or lead anyone there.
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - passage
   - needs-detail

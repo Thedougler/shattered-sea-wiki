@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Session 01, Beat 2 — Crissdalynn introduction flying above the Saltwright; backstory of the Maw mapping task and fleet loss; Dravosi cutter spotted.
 created: 2026-04-22
-updated: 2026-05-31
+updated: 2026-06-05
 tags:
   - dm-prep
 sources:

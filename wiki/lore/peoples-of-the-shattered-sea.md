@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: "Regional demographics of the Shattered Sea: who lives where, who sails through, and why the population mix changes farther east."
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-06-05
 tags:
   - player-resource
 sources:

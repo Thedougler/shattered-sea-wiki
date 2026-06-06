@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port."
-created: '2026-05-29'
+summary: Tarred hemp fiber used to seal hull seams — the smell of caulking work at every working port.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: equipment
 rarity: common

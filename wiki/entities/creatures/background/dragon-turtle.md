@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown."
+summary: CR 17 dragon. Gargantuan, amphibious, three Bite attacks plus Tail, Steam Breath 60-ft cone. Found east of the Drowned Maw and around the Sunken Crown.
 created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/dragon-turtle.md"
+  - Inbox/dragon-turtle.md
 confidence_level: medium
 cr: 17
 ---

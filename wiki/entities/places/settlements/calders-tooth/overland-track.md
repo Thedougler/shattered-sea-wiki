@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls."
-created: '2026-05-29'
+summary: The muddy southern switchback road crossing Calder's Tooth between South Harbour and Port Tidefall — slow enough to break wagons and official enough to collect tolls.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 site_type: road
 aliases:
-  - "Overland Track"
-  - "The Overland Track"
+  - Overland Track
+  - The Overland Track
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "[[dravosi-crown|The Dravosi Crown]] toll authority"
-access: "Open toll road; slow, muddy, and hazardous after weather"
+access: Open toll road; slow, muddy, and hazardous after weather
 ---
 
 # The Overland Track

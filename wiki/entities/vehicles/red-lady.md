@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: lost
 audience: dm
 publish: true
-summary: "Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard."
+summary: Delmar Fisk's flagship — a privateer-rigged brigantine that led five ships into the Drowned Maw and did not come back. Wreck sits at the Shelfworks eastern edge with the Pearl of Souls still aboard.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Red-Lady.md"
-  - "Inbox/Crissdalynn-Khinriss.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
+  - Inbox/Red-Lady.md
+  - Inbox/Crissdalynn-Khinriss.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
 confidence_level: confirmed
 ship_class: Brigantine (privateer-rigged)
 tier: 2

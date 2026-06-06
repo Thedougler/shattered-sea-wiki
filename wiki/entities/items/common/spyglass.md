@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it."
-created: '2026-05-29'
+summary: A single-draw brass telescope for shipboard observation — the difference between identifying a sail and guessing at it.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime

@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: deprecated
 audience: agent
 publish: false
-summary: "Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/references/. This stub redirects to the new locations."
+summary: Deprecated — rules distributed to CLAUDE.md and ttrpg-llm-wiki-init/references/. This stub redirects to the new locations.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
@@ -14,7 +14,7 @@ sources: []
 system_role: doctrine
 token_profile: on-demand
 mandatory_for: []
-update_trigger: "When a cross-cutting rule changes that more than one skill depends on."
+update_trigger: When a cross-cutting rule changes that more than one skill depends on.
 ---
 
 # Wiki Doctrine — Shattered Sea (Deprecated)

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A keyed door lock in common patterns — installation extra; the proprietor keeps records of who bought what pattern."
-created: '2026-05-29'
+summary: A keyed door lock in common patterns — installation extra; the proprietor keeps records of who bought what pattern.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: equipment
 rarity: common

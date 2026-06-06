@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stub — elderly proprietor of Casa Lupo in Calveno; referenced in [[casa-lupo]]."
+summary: Stub — elderly proprietor of Casa Lupo in Calveno; referenced in [[casa-lupo]].
 created: 2026-05-30
 updated: 2026-05-31
 tags:

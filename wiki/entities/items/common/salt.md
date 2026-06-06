@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea."
-created: '2026-05-29'
+summary: Sea salt for preservation and cooking — available at every provisioning port in the Shattered Sea.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

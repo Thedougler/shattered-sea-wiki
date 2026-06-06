@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for."
-created: '2026-05-29'
+summary: An alchemist's studio down a Le Paludi side canal — the smell arrives before the door does, and Marta Orsini does not ask what the compounds are for.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Studio-Orsini.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/Studio-Orsini.md
 confidence_level: medium
 building_type: shop
 aliases:

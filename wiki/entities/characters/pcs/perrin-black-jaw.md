@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Ten-year-old fancy-rat Rattkin Bard 3 / Warlock 1. Built the Vestra to support his family; lost it to something massive from below; now carries vengeance, silence, and Nona's favor."
+summary: Ten-year-old fancy-rat Rattkin Bard 3 / Warlock 1. Built the Vestra to support his family; lost it to something massive from below; now carries vengeance, silence, and Nona's favor.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - rattkin
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Perrin-Black-Jaw.md"
-  - "Inbox/perrin-sheet.md"
-  - "Inbox/Campaign-Timeline.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Perrin-Black-Jaw.md
+  - Inbox/perrin-sheet.md
+  - Inbox/Campaign-Timeline.md
 confidence_level: confirmed
 portrait: portraits/Perrin-Black-Jaw.webp
 ---

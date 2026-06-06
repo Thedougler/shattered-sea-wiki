@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Delmar confessed to the fleet's destruction and negotiated with Umberlee through Branca. Party sparred Kyzil on the Ponte Bassa rooftop. Grung bombing plot discovered in the sewers — four attack points, two-day deadline, festival timing. Felix Aho captured."
+summary: Delmar confessed to the fleet's destruction and negotiated with Umberlee through Branca. Party sparred Kyzil on the Ponte Bassa rooftop. Grung bombing plot discovered in the sewers — four attack points, two-day deadline, festival timing. Felix Aho captured.
 created: 2026-06-01
 updated: 2026-06-01
 tags:
@@ -13,8 +13,8 @@ tags:
   - grung
   - combat
 sources:
-  - "audio/sessions/session04/recap.md"
-  - "audio/sessions/session04/extracts.md"
+  - audio/sessions/session04/recap.md
+  - audio/sessions/session04/extracts.md
 session_number: 4
 session_date: 2026-05-31
 ---

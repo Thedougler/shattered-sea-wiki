@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial."
-created: '2026-05-29'
+summary: A standard contact/injury poison — applied to a blade, poisons the target on a failed Con save. 110 gp per vial.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

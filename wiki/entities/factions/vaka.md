@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time."
-created: '2026-05-29'
+summary: Loose community of Grung defectors and freed former slaves finding footing outside the Verdant Teeth — built over eight years by Félix Aho, one contact and conversation at a time.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - grung
 sources:
-  - "Inbox/Felix-Aho.md"
-  - "Inbox/situations/reference/Vaka.md"
+  - Inbox/Felix-Aho.md
+  - Inbox/situations/reference/Vaka.md
 confidence_level: medium
 ---
 

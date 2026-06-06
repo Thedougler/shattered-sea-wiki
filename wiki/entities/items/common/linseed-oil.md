@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart."
-created: '2026-05-29'
+summary: Pressed flaxseed oil for treating wood and canvas against moisture — seals and slows rot. 4 sp per quart.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: consumable
 rarity: common

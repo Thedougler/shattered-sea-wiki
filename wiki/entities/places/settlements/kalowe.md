@@ -5,26 +5,26 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms."
-created: '2026-05-29'
+summary: Largest Midchain free port — the only Tier 2 dry dock outside colonial administration, where unregistered vessels, hired crews, and people working hard to be difficult to locate move through on non-interference terms.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
   - waveservants
   - maritime
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Chain-Council.md"
-  - "Inbox/Five-Blades.md"
-  - "Inbox/Kalowe.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Chain-Council.md
+  - Inbox/Five-Blades.md
+  - Inbox/Kalowe.md
 confidence_level: medium
 settlement_type: free-port
 aliases:
-  - "Kalowe Free Port"
+  - Kalowe Free Port
 parent_location: "[[midchain|The Midchain]]"
-governance: "Island Council, harbour bosses, and money-backed non-interference"
-access: "Open free port behind a reef gap; papers matter less than payment"
+governance: Island Council, harbour bosses, and money-backed non-interference
+access: Open free port behind a reef gap; papers matter less than payment
 ---
 
 # Kalowe

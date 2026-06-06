@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren."
+summary: Tortle fixer and enforcer for the Black-Jaw Run — Nona's first card when she needs something found or handled outside the Warren.
 created: 2026-05-02
 updated: 2026-05-31
 tags:
   - passage
   - recurring
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Anzolo.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Anzolo.md
 confidence_level: medium
 aliases:
   - Anzolo
-roleplay_prompt: "Teenage Mutant Ninja Tortle — warmth and violence coexist without irony"
+roleplay_prompt: Teenage Mutant Ninja Tortle — warmth and violence coexist without irony
 ---
 
 # Anzolo

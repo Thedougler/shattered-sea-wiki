@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: lost
 audience: players
 publish: true
-summary: "Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw."
-created: '2026-05-29'
+summary: Two-masted brigantine and fourth ship of Fisk's Fleet — captained by Sienne Orre, lost at the Drowned Maw.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Fernen.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Fernen.md
 confidence_level: confirmed
 banner: banners/Fernen.webp
 ship_class: Two-masted brigantine

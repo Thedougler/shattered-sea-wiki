@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing."
+summary: Spotlight isn't distributed automatically. The DM must actively watch the table and engineer opportunities for players who are disappearing.
 created: 2026-04-22
 updated: 2026-06-04
 tags:
   - dm-prep
 sources:
-  - "Inbox/private/system/guides/Spotlight-Management.md"
-system_role: "unknown"
+  - Inbox/private/system/guides/Spotlight-Management.md
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

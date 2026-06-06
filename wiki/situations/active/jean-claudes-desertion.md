@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting."
+summary: Simone Tabarnack is expanding Grung operations into the Midchain while searching for Jean-Claude as an operational loose end. The Calveno raid is her defining western escalation. Jean-Claude understands the slave system's failure points because he ran it before deserting.
 created: 2026-05-28
 updated: 2026-06-01
 tags:
   - grung
-sources: ["Inbox/Jean-Claudes-Desertion.md"]
+sources:
+  - Inbox/Jean-Claudes-Desertion.md
 lifecycle: active
-narrative_island:
-title: Jean-Claude — Grung Expansion
+narrative_island: none
 confidence_level: high
 region: midchain
 ---

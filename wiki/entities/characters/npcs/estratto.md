@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave."
-created: '2026-05-29'
+summary: Tessarine warforged compliance auditor and divination wizard. Deployed to enforce maritime debt recovery and identity verification in Calveno. Does not fight first. Does not leave.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - tessarine
   - homebrew
 sources:
-  - "Inbox/Estratto.md"
+  - Inbox/Estratto.md
 confidence_level: high
 species: warforged
 aliases:

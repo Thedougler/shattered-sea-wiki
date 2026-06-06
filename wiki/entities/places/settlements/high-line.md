@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face."
-created: '2026-05-29'
+summary: A cliff-face fishing hamlet on the northeastern edge of Calder's Tooth — no beach, no docks, just counterweighted winches dropping nets into cold upwellings and hauling yellowtail up the sheer face.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 settlement_type: hamlet
 aliases:
-  - "High-Line"
+  - High-Line
 parent_location: "[[calders-tooth|Calder's Tooth]]"
-governance: "Local fishing families"
-access: "Vertical cliff settlement; no beach and no docks"
+governance: Local fishing families
+access: Vertical cliff settlement; no beach and no docks
 ---
 
 # High Line

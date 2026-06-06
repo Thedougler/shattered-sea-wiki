@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "DM companion for Fisk's Fleet — the Pearl commission, sinking mechanics, soul consequences, wreck locations, and captain personality table for the Mortis."
+summary: DM companion for Fisk's Fleet — the Pearl commission, sinking mechanics, soul consequences, wreck locations, and captain personality table for the Mortis.
 created: 2026-04-15
 updated: 2026-05-31
 tags:
@@ -13,7 +13,7 @@ tags:
   - umberlee
   - mystery
 sources:
-  - "Inbox/situations/reference/The-Betrayal-of-Fisks-Fleet.md"
+  - Inbox/situations/reference/The-Betrayal-of-Fisks-Fleet.md
 confidence_level: medium
 dm_companion: true
 public_profile: "[[fisks-fleet|Fisk's Fleet]]"

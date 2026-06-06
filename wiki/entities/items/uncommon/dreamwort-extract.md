@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours."
-created: '2026-05-29'
+summary: A colourless, tasteless sedative that induces deep sleep within 20 minutes and metabolises completely in 6 hours.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

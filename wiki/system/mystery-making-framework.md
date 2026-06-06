@@ -12,8 +12,8 @@ tags:
   - mystery
   - dm-prep
 sources:
-  - "Inbox/private/system/guides/Mystery-Making-Framework.md"
-system_role: "unknown"
+  - Inbox/private/system/guides/Mystery-Making-Framework.md
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

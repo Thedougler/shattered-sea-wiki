@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: dead
 audience: players
 publish: true
-summary: "Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair."
+summary: Dravosi enforcer aboard the HCS Surety, killed in the first round of the Saltwright boarding. Never got to act. His crewmates called him Cap'n Gorgeous, and honestly, fair.
 created: 2026-05-11
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Capn-Gorgeous.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-02-Recap.md
+  - Inbox/Capn-Gorgeous.md
 confidence_level: medium
 ---
 

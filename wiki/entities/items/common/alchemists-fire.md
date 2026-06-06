@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: unknown
 audience: players
 publish: true
-summary: "A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp."
-created: '2026-05-29'
+summary: A sticky incendiary compound in a glass flask — clings to surfaces and burns intensely until smothered or beaten out. 52 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

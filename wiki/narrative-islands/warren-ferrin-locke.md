@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out."
+summary: Three Passage surface operations were intercepted. The common thread leads to Ferrin Locke — a Dry canal broker coerced into feeding route timing to Dravosi intelligence. He wants out.
 created: 2026-05-22
 updated: 2026-06-01
 tags:
   - rattkin
   - mystery
 sources:
-  - "Inbox/Warren-Ferrin-Locke.md"
+  - Inbox/Warren-Ferrin-Locke.md
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is."
-created: '2026-05-29'
+summary: A sealed glass jar containing a creature in brine — it has features of several different fish, none of which should combine this way. No divination magic has confirmed what it is.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - mystery
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: other
 rarity: common
 attunement: false
 homebrew: false
 aliases:
-  - "Orsini Specimen"
-  - "Unknown Specimen"
+  - Orsini Specimen
+  - Unknown Specimen
 ---
 
 # Preserved Specimen, Unknown

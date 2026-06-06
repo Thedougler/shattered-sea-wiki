@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A roped-off section of the South Harbour east pier — chain, hand-lettered Crown notice, a clerk's hut with a lamp in it, and several vessels sitting in their berths going nowhere."
-created: '2026-05-29'
+summary: A roped-off section of the South Harbour east pier — chain, hand-lettered Crown notice, a clerk's hut with a lamp in it, and several vessels sitting in their berths going nowhere.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports."
-created: '2026-05-29'
+summary: A Tier 1 Waveservant shrine sloop used to move clergy, tribute records, ritual supplies, and small sealed offerings between Shattered Sea ports.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - waveservants

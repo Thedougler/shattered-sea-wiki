@@ -5,23 +5,23 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries."
-created: '2026-05-29'
+summary: Five reef-fringed Grung-held islands south of Kalowe — dense rainforest interiors, strict trade protocols, and a reputation for lethal boundaries.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - grung
 sources:
-  - "Inbox/Jean-Claude-Tabarnack.md"
-  - "Inbox/Grung.md"
-  - "Inbox/Demographics.md"
-  - "Inbox/Verdant-Teeth.md"
+  - Inbox/Jean-Claude-Tabarnack.md
+  - Inbox/Grung.md
+  - Inbox/Demographics.md
+  - Inbox/Verdant-Teeth.md
 confidence_level: confirmed
 region_type: island-cluster
 aliases:
   - Verdant Teeth
 parent_location: "[[midchain|The Midchain]]"
 governance: "[[grung-clans|The Grung Clans]]"
-access: "restricted beach trade at Veth; interiors forbidden to outsiders"
+access: restricted beach trade at Veth; interiors forbidden to outsiders
 ---
 
 # The Verdant Teeth

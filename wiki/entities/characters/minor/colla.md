@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile."
+summary: Apothecary who runs The Splint in the Warren. Late twenties, trained by his aunt Tetta over ten years. Does not explain his reasoning during a procedure but will write it down if asked. His silences are not hostile.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - rattkin
 sources:
-  - "Inbox/Colla.md"
+  - Inbox/Colla.md
 confidence_level: medium
 ---
 

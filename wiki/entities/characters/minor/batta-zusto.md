@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage."
+summary: Stub — Bridge-tier broker in Calveno; the accessible link in the Red Lady salvage commission; will trade the commissioner's name for a confirmed cut of the actual salvage.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - needs-detail
 sources:
-  - "Inbox/Calveno-Sandbox-Run-Guide.md"
+  - Inbox/Calveno-Sandbox-Run-Guide.md
 confidence_level: observed
 ---
 

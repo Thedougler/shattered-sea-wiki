@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Cold volcanic spire-chain near the Galewall; the last solid ground on the outbound run and the first proof of survival on the return."
-created: '2026-05-29'
+summary: Cold volcanic spire-chain near the Galewall; the last solid ground on the outbound run and the first proof of survival on the return.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
@@ -16,8 +16,8 @@ confidence_level: medium
 category: location
 region_type: island-chain
 parent_location: "[[shattered-sea|The Shattered Sea]]"
-governance: "Ashwall pilot families and repair crews; no formal destination authority"
-access: "Dangerous storm-edge approach; repair lee and volcanic spires"
+governance: Ashwall pilot families and repair crews; no formal destination authority
+access: Dangerous storm-edge approach; repair lee and volcanic spires
 aliases:
   - The Ashwalls
   - Ashwalls

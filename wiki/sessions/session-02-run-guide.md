@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "At-table run guide for Session 02. Opens mid-combat with Rook alone; resolves into Grigori, the ship, and the sandbox opening. 4–6 hours. Destination is the party's call."
+summary: At-table run guide for Session 02. Opens mid-combat with Rook alone; resolves into Grigori, the ship, and the sandbox opening. 4–6 hours. Destination is the party's call.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/02/Session-02-Run-Guide.md"
+  - Inbox/sessions/02/Session-02-Run-Guide.md
 session_number: 2
-session_date: "unknown"
+session_date: unknown
 table_status: complete
 ---
 

@@ -12,13 +12,13 @@ tags:
   - combat
   - homebrew
 sources:
-  - "Inbox/Ridgeback.md"
+  - Inbox/Ridgeback.md
 confidence_level: high
 cr: 8
 aliases:
-  - "The Ridgeback"
-  - "The Roller"
-  - "The Hump"
+  - The Ridgeback
+  - The Roller
+  - The Hump
 ---
 
 # Ridgeback

@@ -13,7 +13,7 @@ tags:
   - maritime
   - dravosi
 sources:
-  - "Inbox/situations/islands/Kalowe-Captains-Map.md"
+  - Inbox/situations/islands/Kalowe-Captains-Map.md
 lifecycle: active
 narrative_island: ""
 region: midchain

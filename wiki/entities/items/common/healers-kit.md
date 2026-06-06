@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp."
-created: '2026-05-29'
+summary: A pouch of bandages, salves, and instruments for stabilising and treating wounds — 10 uses per kit. 5 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: tool
 rarity: common

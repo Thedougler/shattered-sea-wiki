@@ -5,22 +5,22 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete."
-created: '2026-05-29'
+summary: Ancient sea elf city built into the Teikhinos Reef — invisible from the surface, governed by oral law, older than any colonial record. Coralyra's home; her Aoidos training is incomplete.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - mystery
   - sunken-crown
 sources:
-  - "Inbox/Halythion.md"
+  - Inbox/Halythion.md
 confidence_level: medium
 settlement_type: underwater-city
 aliases:
-  - "The Sunken City"
+  - The Sunken City
 parent_location: "[[midchain|The Midchain]]"
-governance: "The Aoide and living oral law"
-access: "Hidden underwater passage; authorized sea elf access only"
+governance: The Aoide and living oral law
+access: Hidden underwater passage; authorized sea elf access only
 ---
 
 # Halythion

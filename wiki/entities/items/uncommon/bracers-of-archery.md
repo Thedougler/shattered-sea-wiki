@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore."
-created: '2026-05-29'
+summary: Leather bracers that grant proficiency with longbow and shortbow, and a +2 bonus to damage rolls with those weapons while worn. Carried by Stripes Bitemore.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

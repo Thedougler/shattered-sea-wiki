@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Jean-Claude's younger sister — purple-caste Grung garrison soldier from Sorn, disciplined and clan-loyal, the one who told their parents about Pell."
+summary: Jean-Claude's younger sister — purple-caste Grung garrison soldier from Sorn, disciplined and clan-loyal, the one who told their parents about Pell.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - grung
   - mystery
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Jean-Claude-Tabarnack.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Simone-Tabarnack.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Jean-Claude-Tabarnack.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Simone-Tabarnack.md
 confidence_level: confirmed
 species: grung
 aliases:

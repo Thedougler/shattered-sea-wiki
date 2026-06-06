@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held."
-created: '2026-05-29'
+summary: The deep, dry governing chambers of the Warren — where the seven Tangle elders meet, where Nona Black-Jaw keeps her apartments, and where the Passage's oldest routing memory is held.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - rattkin
   - passage
 sources:
-  - "Inbox/Warren-Nonas-Table.md"
-  - "Inbox/Warren-Grung-Sewers.md"
-  - "Inbox/Tangle-Chambers.md"
+  - Inbox/Warren-Nonas-Table.md
+  - Inbox/Warren-Grung-Sewers.md
+  - Inbox/Tangle-Chambers.md
 confidence_level: medium
 building_type: chambers
 aliases:

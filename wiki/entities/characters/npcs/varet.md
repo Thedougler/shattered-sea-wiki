@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Moucheron contract speaker for the Five Blades mercenary company in Kalowe. Quotes rate and feeding clause before ink touches paper."
+summary: Moucheron contract speaker for the Five Blades mercenary company in Kalowe. Quotes rate and feeding clause before ink touches paper.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - moucheron
   - five-blades
 sources:
-  - "Inbox/Five-Blades.md"
+  - Inbox/Five-Blades.md
 confidence_level: confirmed
 ---
 

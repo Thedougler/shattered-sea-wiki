@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp."
-created: '2026-05-29'
+summary: A grooved iron-strapped pulley in an oak shell — the basic component of any block-and-tackle rigging system. 1 gp 5 sp.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: equipment
 rarity: common

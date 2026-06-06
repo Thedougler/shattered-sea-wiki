@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A crewless schooner has been drifting 4 miles north of Kalowe for two nights — first boarding party claims salvage rights; something killed the crew and is still aboard."
+summary: A crewless schooner has been drifting 4 miles north of Kalowe for two nights — first boarding party claims salvage rights; something killed the crew and is still aboard.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
@@ -13,7 +13,7 @@ tags:
   - salvage
   - maritime
 sources:
-  - "Inbox/situations/islands/Kalowe-Drifting-Hulk.md"
+  - Inbox/situations/islands/Kalowe-Drifting-Hulk.md
 lifecycle: active
 narrative_island: ""
 region: midchain

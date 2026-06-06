@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly."
+summary: Five Blades medic. Moucheron mercenary with an unsentimental kit for keeping client crews alive after jobs go badly.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - moucheron
   - five-blades
 sources:
-  - "Inbox/Five-Blades.md"
+  - Inbox/Five-Blades.md
 confidence_level: confirmed
 ---
 

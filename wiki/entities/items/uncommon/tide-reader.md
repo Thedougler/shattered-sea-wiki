@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters."
-created: '2026-05-29'
+summary: A hull-mounted hydrographic instrument — reads current speed and direction, predicts tides within 200 miles, and grants advantage on navigation checks in reef waters.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

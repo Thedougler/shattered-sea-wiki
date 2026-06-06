@@ -11,7 +11,7 @@ updated: 2026-05-31
 tags:
   - dm-prep
 sources: []
-system_role: "unknown"
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

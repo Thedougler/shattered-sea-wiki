@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Delmar Fisk's family heirloom — 60 ft. swim speed, underwater breath, and manta form while the hood is up. Kept him alive when his ship didn't."
-created: '2026-05-29'
+summary: Delmar Fisk's family heirloom — 60 ft. swim speed, underwater breath, and manta form while the hood is up. Kept him alive when his ship didn't.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

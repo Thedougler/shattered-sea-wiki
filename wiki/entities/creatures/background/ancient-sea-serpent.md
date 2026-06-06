@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes."
+summary: CR 14 dragon. Gargantuan sea serpent; Bite, Constrict, Tail multiattack, Rime Breath 60-ft cone. Hunts the Outer Reach cold current lanes.
 created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/ancient-sea-serpent.md"
+  - Inbox/ancient-sea-serpent.md
 confidence_level: medium
 cr: 14
 ---

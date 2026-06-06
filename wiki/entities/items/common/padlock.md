@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp."
-created: '2026-05-29'
+summary: A keyed iron padlock — standard security for hatches, storage, and cargo that needs to stay where it was put. 5 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: equipment
 rarity: common

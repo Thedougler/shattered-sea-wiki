@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Secondary deity in Crissdalynn's aarakocra sky-pantheon. Marginal observance."
+summary: Secondary deity in Crissdalynn's aarakocra sky-pantheon. Marginal observance.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - needs-detail
 sources:
-  - "Inbox/Crissdalynn-Khinriss.md"
+  - Inbox/Crissdalynn-Khinriss.md
 confidence_level: inferred
 ---
 

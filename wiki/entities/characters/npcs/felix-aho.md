@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture."
-created: '2026-05-29'
+summary: Free grung fish vendor and Vaka elder in Port Tidefall — amber eyes, an overstuffed satchel, and knowledge of how the Gold castes fracture.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Inbox/Felix-Aho.md"
+  - Inbox/Felix-Aho.md
 confidence_level: medium
 banner: banners/Felix-Aho.webp
 portrait: portraits/Felix-Aho.webp

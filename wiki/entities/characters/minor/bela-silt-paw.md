@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren."
+summary: Stub — Rattkin scout, 22 years old, first solo assignment; trapped by the Water Weird in the flooded sub-chamber beneath the Warren.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - needs-detail
   - rattkin
 sources:
-  - "Inbox/Warren-Bela-Silt-Paw.md"
+  - Inbox/Warren-Bela-Silt-Paw.md
 confidence_level: confirmed
 ---
 

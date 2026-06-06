@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through."
-created: '2026-05-29'
+summary: A crack in the floor of the Drowned Maw — ragged stone edges, faint light from below, and water that behaves differently on the far side of it. The Leviathan, Ridgeback, and Krakling have all come through.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - drowned-maw
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Elemental-Plane-of-Water.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Elemental-Plane-of-Water.md
 confidence_level: medium
 plane_type: elemental-plane
-access: "breach through the Drowned Maw fissure"
+access: breach through the Drowned Maw fissure
 banner: banners/Elemental-Plane-of-Water.webp
 ---
 

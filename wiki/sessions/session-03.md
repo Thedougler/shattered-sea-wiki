@@ -13,8 +13,8 @@ tags:
   - grung
   - passage
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/sessions/03/Session-03-Transcript.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/sessions/03/Session-03-Transcript.md
 session_number: 3
 session_date: 2026-05-25
 ---

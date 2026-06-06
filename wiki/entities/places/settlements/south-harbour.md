@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The eastern working harbour of Calder's Tooth — fishing fleets, independent shipwrights, and the island's black-market breathing room."
-created: '2026-05-29'
+summary: The eastern working harbour of Calder's Tooth — fishing fleets, independent shipwrights, and the island's black-market breathing room.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
@@ -16,7 +16,7 @@ confidence_level: medium
 settlement_type: harbour
 parent_location: "[[calders-tooth|Calder's Tooth]]"
 governance: "[[dravosi-crown|The Dravosi Crown]], intermittent in practice"
-access: "Open working harbour; mudflat and tide conditions complicate inspection"
+access: Open working harbour; mudflat and tide conditions complicate inspection
 ---
 
 # South Harbour

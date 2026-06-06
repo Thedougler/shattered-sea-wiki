@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level."
-created: '2026-05-29'
+summary: Tier 1 bastion facility. Storehouse adapted for the ship — buy or sell nonmagical trade goods up to a value ceiling that scales with level, with a profit margin on sales that also increases with level.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - player-resource
 sources:
-  - "Dungeon Master's Guide (2024)"
-  - "Inbox/Expanded-Cargo-Hold.md"
+  - Dungeon Master's Guide (2024)
+  - Inbox/Expanded-Cargo-Hold.md
 ---
 
 # Expanded Cargo Hold

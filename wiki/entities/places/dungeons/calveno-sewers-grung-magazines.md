@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura."
+summary: Grung blackpowder magazines and summoning circle in the sewer collectors beneath Calveno's festival districts — five detonation sites, accelerated timeline, hidden primary beneath the Mercatura.
 created: 2026-06-01
 updated: 2026-06-03
 tags:
@@ -15,11 +15,11 @@ sources:
   - Homebrew
 confidence_level: high
 verb: Conceal
-unstable_condition: "The Le Paludi compromise accelerated the timeline — handlers are rushing final powder-packing with tighter sentry rotations, and one secondary site's scaffolding is incomplete."
-consequence: "All five detonations fire at crowd peak. The Mercatura plaza collapses. Otar the Foul emerges into festival crowds. Extraction teams seize dozens of captives through the chaos."
-link_of_relevance: "Jean-Claude — his sister Simone built this operation; he is the only party member who can read Grung trail notation and identify caste discipline at work."
+unstable_condition: The Le Paludi compromise accelerated the timeline — handlers are rushing final powder-packing with tighter sentry rotations, and one secondary site's scaffolding is incomplete.
+consequence: All five detonations fire at crowd peak. The Mercatura plaza collapses. Otar the Foul emerges into festival crowds. Extraction teams seize dozens of captives through the chaos.
+link_of_relevance: Jean-Claude — his sister Simone built this operation; he is the only party member who can read Grung trail notation and identify caste discipline at work.
 rooms: 8
-cr_range: "1/4–3"
+cr_range: 1/4–3
 topology: hub-loop
 region: calveno
 ---

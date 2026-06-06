@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory."
-created: '2026-05-29'
+summary: One of the eastern Verdant Teeth, paired close to Orak — low coastal profile, dense rainforest, and less visible military presence than Karath. Still Grung territory.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Inbox/Dreth.md"
+  - Inbox/Dreth.md
 confidence_level: medium
 island_type: hostile-island
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
-access: "No sanctioned outside access; channel approach is dangerous"
+access: No sanctioned outside access; channel approach is dangerous
 aliases:
   - Dreth Island
 ---

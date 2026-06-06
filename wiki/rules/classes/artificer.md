@@ -49,3 +49,7 @@ confidence_level: medium
 ## Subclasses
 
 Alchemist, Armorer, Artillerist, Battle Smith *(PHB 2024)*
+
+## Campaign
+
+- [[catarina-davirelli|Catarina Da'Virelli]] — foremost Antheri materials expert in Calveno; operates by referral only

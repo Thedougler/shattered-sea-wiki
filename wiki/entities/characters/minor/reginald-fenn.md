@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience."
+summary: Elven chart clerk at Port Tidefall's Harbourmaster's Office — has been mapping these waters since before most current officers were born, works from Crown charts he once helped draft, and communicates all disappointing facts with infinite patience.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Reginald-Fenn.md"
+  - Inbox/Reginald-Fenn.md
 confidence_level: medium
 ---
 

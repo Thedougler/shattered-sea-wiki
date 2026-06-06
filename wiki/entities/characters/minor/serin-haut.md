@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11."
+summary: Stub — Dravosi intelligence attaché in Calveno; killed courier Dren; watching the canal approaches; Spy stat block +1 Deception, carries 3 doses of contact poison DC 11.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - needs-detail
   - dravosi
 sources:
-  - "Inbox/Warren-Marrows-Crate.md"
+  - Inbox/Warren-Marrows-Crate.md
 confidence_level: confirmed
 ---
 

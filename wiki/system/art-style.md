@@ -13,8 +13,9 @@ tags:
 sources: []
 system_role: style-guide
 token_profile: on-demand
-mandatory_for: [ttrpg-visual-aids]
-update_trigger: "when the DM changes art style preferences"
+mandatory_for:
+  - ttrpg-visual-aids
+update_trigger: when the DM changes art style preferences
 ---
 
 # Art Style Guide

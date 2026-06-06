@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free."
-created: '2026-05-29'
+summary: A brass bracer housing an Antheri-fabric buckler in clockwork origami — unfurls into a forearm-mounted shield on a bonus action, leaving both hands completely free.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - antheri
   - homebrew
 sources:
-  - "Inbox/Catarina-DaVirelli.md"
-  - "Inbox/The-Snap.md"
+  - Inbox/Catarina-DaVirelli.md
+  - Inbox/The-Snap.md
 confidence_level: medium
 item_type: wondrous
 rarity: rare

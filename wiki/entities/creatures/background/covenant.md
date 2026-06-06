@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "CR 20 undead lich. Warlock lich whose phylacteries are signed pact contracts — it reforms as long as any pact-holder still lives."
+summary: CR 20 undead lich. Warlock lich whose phylacteries are signed pact contracts — it reforms as long as any pact-holder still lives.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - undead
 sources:
-  - "Inbox/Covenant.md"
+  - Inbox/Covenant.md
 confidence_level: high
 cr: 20
 aliases:
-  - "Covenant"
+  - Covenant
 ---
 
 # Covenant

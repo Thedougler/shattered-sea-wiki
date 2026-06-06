@@ -5,16 +5,18 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Per-player engagement tracking from sessions 03–04. Jean-Claude and Delmar drove Session 04; Crissdalynn peaked in combat; Perrin played steady support."
+summary: Per-player engagement tracking from sessions 03–04. Jean-Claude and Delmar drove Session 04; Crissdalynn peaked in combat; Perrin played steady support.
 created: 2026-05-27
 updated: 2026-06-01
 tags: []
 sources:
-  - "audio/sessions/session04/extracts.md"
+  - audio/sessions/session04/extracts.md
 system_role: dm-intelligence
 token_profile: quick-ref
-mandatory_for: [content-creation, session-prep]
-update_trigger: "After each session; after player feedback; when engagement patterns shift"
+mandatory_for:
+  - content-creation
+  - session-prep
+update_trigger: After each session; after player feedback; when engagement patterns shift
 ---
 
 # Player Interests — Shattered Sea

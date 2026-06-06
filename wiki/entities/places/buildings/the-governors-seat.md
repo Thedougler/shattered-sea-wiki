@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday."
-created: '2026-05-29'
+summary: The Dravosi Crown's administrative building on the Shelf — colonial stonework, iron shutters, the largest flag in the city, and a placard that says formal petitions are on Tuesday.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Governors-Seat.md"
+  - Inbox/Governors-Seat.md
 confidence_level: medium
 building_type: government office
 parent_location: "[[port-tidefall|Port Tidefall]]"

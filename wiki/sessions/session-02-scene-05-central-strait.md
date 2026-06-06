@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg."
+summary: Session 02 travel events for any Central Strait crossing — generic Strait encounters plus one PC-specific hook each. Fire 2–3 per travel leg.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - maritime
   - dm-prep
 sources:
-  - "Inbox/sessions/02/Scene-05-Central-Strait.md"
+  - Inbox/sessions/02/Scene-05-Central-Strait.md
 session_number: 2
-session_date: "unknown"
+session_date: unknown
 ---
 
 # Central Strait Events

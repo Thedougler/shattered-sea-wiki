@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A faction operating ships in or near Calveno; known to the Black-Jaw Run as a group that takes Rattkin — Nona feared they had captured Perrin when he missed check-in."
+summary: A faction operating ships in or near Calveno; known to the Black-Jaw Run as a group that takes Rattkin — Nona feared they had captured Perrin when he missed check-in.
 created: 2026-05-30
 updated: 2026-05-31
 tags:
   - needs-detail
 sources:
-  - "Inbox/sessions/03/Session-03-Transcript.md"
+  - Inbox/sessions/03/Session-03-Transcript.md
 confidence_level: inferred
 ---
 

@@ -5,16 +5,18 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Jean-Claude identified Simone Tabarnack's Grung toxin compound in the Dravosi Alchemist's bandolier during the Saltwright boarding. He said nothing. The party does not know."
+summary: Jean-Claude identified Simone Tabarnack's Grung toxin compound in the Dravosi Alchemist's bandolier during the Saltwright boarding. He said nothing. The party does not know.
 created: 2026-05-27
 updated: 2026-06-01
 tags:
   - dravosi
   - grung
   - mystery
-sources: ["Inbox/Session-01-Recap.md", "Inbox/Jean-Claude-Tabarnack.md"]
+sources:
+  - Inbox/Session-01-Recap.md
+  - Inbox/Jean-Claude-Tabarnack.md
 lifecycle: active
-narrative_island:
+narrative_island: none
 ---
 
 # The Canister

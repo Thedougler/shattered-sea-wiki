@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early."
-created: '2026-05-29'
+summary: A narrow Shelf tavern in Port Tidefall where clerks, quartermasters, pursers, and captains drink close enough to the harbour paperwork to hear tomorrow's trouble early.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
   - maritime
 sources:
-  - "Inbox/Hector-Podge.md"
-  - "Inbox/Hook-and-Ledger.md"
+  - Inbox/Hector-Podge.md
+  - Inbox/Hook-and-Ledger.md
 confidence_level: medium
 building_type: tavern
 aliases:
-  - "Hook & Ledger"
-  - "The Hook and Ledger"
-  - "Hook and Ledger"
+  - Hook & Ledger
+  - The Hook and Ledger
+  - Hook and Ledger
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: The Shelf
 ---

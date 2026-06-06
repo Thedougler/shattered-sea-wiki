@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Naval/imperial Crown power operating in the Shattered Sea. Sent Barnaby Rook and a boarding crew against the Saltwright in Session 01. Receiving Grung-made toxin supply from an unknown source."
+summary: Naval/imperial Crown power operating in the Shattered Sea. Sent Barnaby Rook and a boarding crew against the Saltwright in Session 01. Receiving Grung-made toxin supply from an unknown source.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - dravosi
   - maritime
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Dravosi-Crown.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Dravosi-Crown.md
 confidence_level: inferred
 ---
 

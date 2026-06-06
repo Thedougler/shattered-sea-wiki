@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated."
+summary: Stocky brown rattkin at La Vasca dry dock in Calveno. Perrin's contact; knew him before the campaign. Black-Jaw affiliated.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
@@ -13,7 +13,7 @@ tags:
   - rattkin
   - passage
 sources:
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Session-03-Recap.md
 confidence_level: inferred
 ---
 

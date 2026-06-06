@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A forensic-grade topical compound that causes a wound to present as 2–4 days older than it is under standard medical examination."
-created: '2026-05-29'
+summary: A forensic-grade topical compound that causes a wound to present as 2–4 days older than it is under standard medical examination.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair."
+summary: CR 5 monstrosity. Shark head, octopus rear — ambush predator in blue holes. Kalowe divers call it the Blue Devil. Grapples two targets simultaneously, drags them into its lair.
 created: 2026-04-12
 updated: 2026-06-04
 tags:
@@ -13,12 +13,12 @@ tags:
   - maritime
   - homebrew
 sources:
-  - "Inbox/Sawek.md"
+  - Inbox/Sawek.md
 confidence_level: medium
 cr: 5
 aliases:
-  - "Sawek"
-  - "Blue Devil"
+  - Sawek
+  - Blue Devil
 ---
 
 # Sawek (Blue Devil)

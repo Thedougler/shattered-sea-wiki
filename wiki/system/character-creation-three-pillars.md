@@ -11,8 +11,8 @@ updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "Inbox/private/system/guides/Character-Creation-Three-Pillars.md"
-system_role: "unknown"
+  - Inbox/private/system/guides/Character-Creation-Three-Pillars.md
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

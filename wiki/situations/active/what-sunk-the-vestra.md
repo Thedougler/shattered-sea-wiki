@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters."
+summary: The Leviathan sank the Vestra and Umberlee sank Fisk's fleet; the open question is whether the Pearl theft contractor positioned both disasters.
 created: 2026-04-15
 updated: 2026-05-31
 tags:
@@ -13,7 +13,7 @@ tags:
   - mystery
   - fisk-fleet
 sources:
-  - "Inbox/situations/questions/What-Sunk-The-Vestra.md"
+  - Inbox/situations/questions/What-Sunk-The-Vestra.md
 lifecycle: active
 narrative_island: ""
 region: maw

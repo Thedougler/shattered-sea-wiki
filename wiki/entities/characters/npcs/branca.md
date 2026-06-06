@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do."
-created: '2026-05-29'
+summary: Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - umberlee
@@ -18,8 +18,8 @@ sources:
 confidence_level: observed
 category: character
 species: human
-role: "Senior Waveservant / Umberlee's appointment-keeper"
-roleplay_prompt: "Corporate Cult Executive Assistant"
+role: Senior Waveservant / Umberlee's appointment-keeper
+roleplay_prompt: Corporate Cult Executive Assistant
 ---
 
 # Branca

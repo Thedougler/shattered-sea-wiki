@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong."
-created: '2026-05-29'
+summary: Rattkin elder who runs the Low Lamp in the Warren. Old enough to have known Nona's late husband by name. Keeps no written accounts — everything she is owed she carries in her head, and she has not yet been wrong.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - rattkin
 sources:
-  - "Inbox/Essa-Two-Tooth.md"
+  - Inbox/Essa-Two-Tooth.md
 confidence_level: medium
 banner: banners/Essa-Two-Tooth.webp
 species: Rattkin

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries."
-created: '2026-05-29'
+summary: Heavy woven cloth for sail construction and repair, sold by the square yard at chandleries.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime

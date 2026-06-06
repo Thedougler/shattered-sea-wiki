@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency."
-created: '2026-05-29'
+summary: Priority hull or structural repair — jumps the queue, costs double, and the shipwright decides what qualifies as an emergency.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: service
 rarity: common

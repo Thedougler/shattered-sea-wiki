@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "5e-based rules for running a sports match as a combat encounter. Share with players the session before the match."
-created: '2026-05-29'
+summary: 5e-based rules for running a sports match as a combat encounter. Share with players the session before the match.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - combat
 sources:
-  - "Pointy Hat — Sports Match Rules"
+  - Pointy Hat — Sports Match Rules
 confidence_level: medium
 ---
 

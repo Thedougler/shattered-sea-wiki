@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population."
-created: '2026-05-29'
+summary: The Dockfront's working tavern in Port Tidefall — cheap rum, long benches, and a canvas-screened back section that serves the port's Rattkin population.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - rattkin

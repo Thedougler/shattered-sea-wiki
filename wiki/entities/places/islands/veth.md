@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions."
-created: '2026-05-29'
+summary: The largest Verdant Teeth island and the only sanctioned trade contact point with the Grung clans — western beach only, no inland access, no exceptions.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
@@ -17,7 +17,7 @@ island_type: trade-beach-island
 region_type: island
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
-access: "Sanctioned western beach trade only; no inland access"
+access: Sanctioned western beach trade only; no inland access
 ---
 
 # Veth

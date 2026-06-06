@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: dormant
 audience: dm
 publish: false
-summary: "The true head of the Sentinels of the Eyrie is a Soul Incarnate — a neutral lich whose mummified body-phylactery is sealed beneath High Eyrie, and who has personally maintained the 200-year Maw observation record."
+summary: The true head of the Sentinels of the Eyrie is a Soul Incarnate — a neutral lich whose mummified body-phylactery is sealed beneath High Eyrie, and who has personally maintained the 200-year Maw observation record.
 created: 2026-05-13
 updated: 2026-05-31
 tags:
@@ -13,7 +13,7 @@ tags:
   - undead
   - late-game
 sources:
-  - "Inbox/situations/revelations/Soul-Incarnate.md"
+  - Inbox/situations/revelations/Soul-Incarnate.md
 lifecycle: dormant
 narrative_island: ""
 reveal_tier: late

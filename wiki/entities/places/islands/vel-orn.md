@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The barren black-stone shrine island of the Sunken Crown — Umberlee's Blue Shrine, water-debt obligations, and the island from which Fisk's fleet stole the Pearl of Souls."
-created: '2026-05-29'
+summary: The barren black-stone shrine island of the Sunken Crown — Umberlee's Blue Shrine, water-debt obligations, and the island from which Fisk's fleet stole the Pearl of Souls.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - umberlee
   - sunken-crown
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Vel-Orn.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Vel-Orn.md
 confidence_level: confirmed
 island_type: shrine-island
 region_type: island
@@ -22,7 +22,7 @@ aliases:
   - Vel Orn
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] shrine custom and Umberlee water-debt obligations"
-access: "No harbour; difficult skiff landing by timed surge"
+access: No harbour; difficult skiff landing by timed surge
 ---
 
 # Vel-Orn

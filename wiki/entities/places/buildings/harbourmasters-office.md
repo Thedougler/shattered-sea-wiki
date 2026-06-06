@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter."
-created: '2026-05-29'
+summary: Crown administrative office at the Tidefall Dockfront — vessel ratings, impound fees, commission board, and the only place in port that sells official charts over the counter.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Reginald-Fenn.md"
-  - "Inbox/Harbourmasters-Office.md"
+  - Inbox/Reginald-Fenn.md
+  - Inbox/Harbourmasters-Office.md
 confidence_level: medium
 building_type: office
 aliases:
-  - "Tidefall Harbourmaster"
+  - Tidefall Harbourmaster
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Dockfront
 ---

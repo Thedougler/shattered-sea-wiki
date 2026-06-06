@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Pouches, mortars, and dried plants for characters proficient in herbalism — required for crafting herbal preparations. 5 gp."
-created: '2026-05-29'
+summary: Pouches, mortars, and dried plants for characters proficient in herbalism — required for crafting herbal preparations. 5 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: tool
 rarity: common

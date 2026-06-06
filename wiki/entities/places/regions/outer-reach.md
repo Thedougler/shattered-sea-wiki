@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit."
-created: '2026-05-29'
+summary: The under-governed zone east of the Drowned Maw — no colonial presence, no reliable resupply, few trusted landmarks. Ships go there for salvage, pilgrimage, research, desperation, and profit.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Inbox/Outer-Reach.md"
-  - "Inbox/campaign-overview.md"
+  - Inbox/Outer-Reach.md
+  - Inbox/campaign-overview.md
 confidence_level: medium
 region_type: open-ocean
 parent_location: "[[shattered-sea|The Shattered Sea]]"

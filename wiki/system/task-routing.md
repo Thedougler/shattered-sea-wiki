@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: unknown
 audience: agent
 publish: false
-summary: "Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads."
+summary: Read second after hot.md. Maps every task type to its required pre-reads and skill. Never generate content without completing the listed reads.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
@@ -14,7 +14,7 @@ sources: []
 system_role: task-routing
 token_profile: map
 mandatory_for: []
-update_trigger: "New system file added; task type added; mandatory read list changes"
+update_trigger: New system file added; task type added; mandatory read list changes
 ---
 
 # Task Routing — Shattered Sea

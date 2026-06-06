@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking."
-created: '2026-05-29'
+summary: Félix Aho's salted fish jerky — sweet, tangy, a little spicy, and a genuine dietary adventure for anyone whose gut hasn't made peace with Grung cooking.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: consumable
 rarity: common

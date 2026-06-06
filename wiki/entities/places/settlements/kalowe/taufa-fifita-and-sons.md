@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else."
-created: '2026-05-29'
+summary: The Fifita family chandlery on Kalowe's second island — rope, canvas, lamp oil, navigation tools, and a proprietor who prices trust the same way he prices everything else.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - passage
 sources:
-  - "Inbox/Taufa-Fifita.md"
-  - "Inbox/Taufa-Fifita-and-Sons.md"
+  - Inbox/Taufa-Fifita.md
+  - Inbox/Taufa-Fifita-and-Sons.md
 confidence_level: medium
 building_type: chandlery
 aliases:

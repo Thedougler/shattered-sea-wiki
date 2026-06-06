@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown."
+summary: Agent quick reference for Stripes Bitemore — Battle Master Fighter, currently inactive. Use for reintroduction prep near the Sunken Crown.
 created: 2026-04-23
 updated: 2026-05-31
 tags:
   - player-resource
 sources:
-  - "Inbox/private/system/players/Stripes-Primer.md"
-system_role: "unknown"
+  - Inbox/private/system/players/Stripes-Primer.md
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

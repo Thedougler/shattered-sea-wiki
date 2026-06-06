@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins."
-created: '2026-05-29'
+summary: The easternmost Crown Island — stone cliffs, cold deep water, and a clear view of where the Drowned Maw begins.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
@@ -20,8 +20,8 @@ aliases:
   - Stenmark Island
   - Isle of Stenmark
 parent_location: "[[crown-islands|The Crown Islands]]"
-governance: "Stenmark settlement and [[dravosi-crown|The Dravosi Crown]] signal station"
-access: "Dangerous eastern shelf; western harbour with costly local pilots"
+governance: Stenmark settlement and [[dravosi-crown|The Dravosi Crown]] signal station
+access: Dangerous eastern shelf; western harbour with costly local pilots
 ---
 
 # Stenmark

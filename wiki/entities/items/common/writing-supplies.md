@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official."
-created: '2026-05-29'
+summary: Ink, quills, parchment, wax, and seal — everything needed to put words on paper and make them official.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

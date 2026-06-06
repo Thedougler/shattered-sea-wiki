@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die."
+summary: CR 18 undead lich. Bard lich whose immortality is anchored in living memory — as long as someone remembers its Magnum Opus, it cannot permanently die.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - undead
 sources:
-  - "Inbox/Intoner.md"
+  - Inbox/Intoner.md
 confidence_level: high
 cr: 18
 aliases:
-  - "Intoner"
-  - "Intoner lich"
+  - Intoner
+  - Intoner lich
 ---
 
 # Intoner

@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition."
-created: '2026-05-29'
+summary: Inky tattoo across talons and forearms — makes unarmed strikes magical and once per dawn extends them into 15-ft force-damage tendrils. Ancient Sentinel tradition.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "Inbox/Crissdalynn-Khinriss-Interview.md"
-  - "Inbox/Sentinels-Of-The-Eyrie.md"
+  - Inbox/Crissdalynn-Khinriss-Interview.md
+  - Inbox/Sentinels-Of-The-Eyrie.md
 confidence_level: high
 item_type: wondrous-item
 rarity: uncommon

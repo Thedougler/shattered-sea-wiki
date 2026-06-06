@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone."
+summary: 41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Delmar-Fisk.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Delmar-Fisk.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
 confidence_level: confirmed
 portrait: portraits/Delmar-Fisk.webp
 ---

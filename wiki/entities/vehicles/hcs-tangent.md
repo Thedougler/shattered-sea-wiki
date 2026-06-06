@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural."
-created: '2026-05-29'
+summary: Dravosi Crown warship commanded by Captain Dorian Bishop. Heavier armament than a patrol cutter; appears when Crown pressure becomes naval rather than procedural.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Dorian-Bishop.md"
-  - "Inbox/HCS-Tangent.md"
+  - Inbox/Dorian-Bishop.md
+  - Inbox/HCS-Tangent.md
 confidence_level: medium
 ---
 

@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night."
+summary: Session 01, Beat 1 — DM read-aloud establishing the world, the sea, the factions, and the Saltwright moving through the Midchain at night.
 created: 2026-04-22
 updated: 2026-05-31
 tags:
   - read-aloud
   - maritime
 sources:
-  - "Inbox/sessions/01/Scene-01-The-World.md"
+  - Inbox/sessions/01/Scene-01-The-World.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 1
 table_status: complete
 ---

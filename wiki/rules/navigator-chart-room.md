@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items."
-created: '2026-05-29'
+summary: Tier 1 bastion facility — arcane study adapted for the ship. Grants a weekly Identify charm and supports crafting of arcane focuses, books, and (at level 9+) Common/Uncommon magic items.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - player-resource
 sources:
-  - "Dungeon Master's Guide (2024)"
+  - Dungeon Master's Guide (2024)
 confidence_level: medium
 ---
 

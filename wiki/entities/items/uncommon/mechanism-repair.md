@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required."
-created: '2026-05-29'
+summary: Repair of precision clockwork, firearms, or arcane mechanisms — Catarina works from the bench, referral required.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: service
 rarity: uncommon

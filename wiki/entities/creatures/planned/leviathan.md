@@ -11,10 +11,10 @@ updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Inbox/Leviathan.md"
+  - Inbox/Leviathan.md
 confidence_level: low
 aliases:
-  - "The Leviathan"
+  - The Leviathan
 ---
 
 # The Leviathan

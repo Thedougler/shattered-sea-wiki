@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck; backstory of the Pearl theft and fleet loss; coin trick with Bisou."
+summary: Session 01, Beat 3 — Delmar Fisk introduction on the Saltwright deck; backstory of the Pearl theft and fleet loss; coin trick with Bisou.
 created: 2026-04-22
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-03-Delmar.md"
+  - Inbox/sessions/01/Scene-03-Delmar.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 3
 table_status: complete
 ---

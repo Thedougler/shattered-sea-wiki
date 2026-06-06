@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items."
-created: '2026-05-29'
+summary: Port Tidefall's main Dockfront/Shelf outfitter for ships clearing inspection — naval gear, provisions, tools, weapons, and a modest locked case of magic items.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Nigel-Strutt.md"
-  - "Inbox/Tidefall-Chandlery.md"
+  - Inbox/Nigel-Strutt.md
+  - Inbox/Tidefall-Chandlery.md
 confidence_level: medium
 building_type: chandlery
 aliases:

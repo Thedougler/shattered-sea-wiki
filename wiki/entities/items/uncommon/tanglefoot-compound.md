@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place."
-created: '2026-05-29'
+summary: An area-adhesive alchemical compound that sets in 6 seconds — restrains movement and holds a target in place.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

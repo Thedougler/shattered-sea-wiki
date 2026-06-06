@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left."
+summary: A young Rattkin scout is trapped alive in flooded drainage tunnels below the Warren with a broken arm, a Water Weird in the central chamber, and 2-3 days left.
 created: 2026-05-22
 updated: 2026-06-01
 tags:
   - rattkin
   - combat
 sources:
-  - "Inbox/Warren-Bela-Silt-Paw.md"
+  - Inbox/Warren-Bela-Silt-Paw.md
 portable: false
 entry_points:
   - Nona offers the lead after the reunion scene

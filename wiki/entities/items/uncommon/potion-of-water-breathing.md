@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels."
-created: '2026-05-29'
+summary: A standard maritime consumable — for one hour, the drinker breathes water as easily as air. Common stock on serious sea vessels.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: consumable
 rarity: uncommon

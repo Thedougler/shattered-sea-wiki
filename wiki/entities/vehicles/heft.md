@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: lost
 audience: players
 publish: true
-summary: "Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands."
-created: '2026-05-29'
+summary: Heavy brig and third ship of Fisk's Fleet — captained by Detto Kalash, lost at the Drowned Maw with all hands.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Heft.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Heft.md
 confidence_level: confirmed
 ship_class: Heavy brig
 aliases:
   - Heft
-  - "The Heft"
-banner: "banners/Detto-Kalash.webp"
+  - The Heft
+banner: banners/Detto-Kalash.webp
 ---
 
 # The *Heft*

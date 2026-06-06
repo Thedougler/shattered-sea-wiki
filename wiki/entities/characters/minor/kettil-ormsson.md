@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price."
+summary: Proprietor of Ormsson's Fittings on Kalowe's first island. Runs the dry-dock hardware trade and a quiet back-shelf arms trade. Does not chat; reads a customer fast and gives a price.
 created: 2026-05-17
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Kettil-Ormsson.md"
+  - Inbox/Kettil-Ormsson.md
 confidence_level: medium
 ---
 

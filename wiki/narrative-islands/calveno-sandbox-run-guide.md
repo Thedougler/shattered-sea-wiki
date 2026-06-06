@@ -11,11 +11,11 @@ updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/Calveno-Sandbox-Run-Guide.md"
+  - Inbox/Calveno-Sandbox-Run-Guide.md
 portable: false
 entry_points:
-  - "La Vasca — ship enters dry dock after Session 03 Calveno approach"
-  - "Beffe registration opens the morning after the Surety docks"
+  - La Vasca — ship enters dry dock after Session 03 Calveno approach
+  - Beffe registration opens the morning after the Surety docks
 contains_situations:
   - "[[warren-nonas-table|Warren — Nona's Table]]"
   - "[[warren-bela-silt-paw|Warren — Bela Silt-Paw]]"

@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction."
+summary: CR 12 humanoid pirate admiral. Scimitar and pistol, Rally bonus action, Defensive Stance reaction.
 created: 2026-04-25
 updated: 2026-06-02
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/pirate-admiral.md"
+  - Inbox/pirate-admiral.md
 confidence_level: high
 cr: 12
 ---

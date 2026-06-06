@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp."
-created: '2026-05-29'
+summary: A standard iron lantern with a hinged hood for controlling light — the standard shipboard working light. 5 gp.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: equipment
 rarity: common

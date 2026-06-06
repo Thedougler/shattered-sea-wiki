@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter."
-created: '2026-05-29'
+summary: Custom precision artificer work from Catarina Da'Virelli — referral only, priced per job, the best in the Scatter.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

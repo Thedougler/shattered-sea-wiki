@@ -12,9 +12,9 @@ tags:
   - maritime
   - dm-prep
 sources:
-  - "Inbox/sessions/03/Scene-04-Five-Days.md"
+  - Inbox/sessions/03/Scene-04-Five-Days.md
 session_number: 3
-session_date: "unknown"
+session_date: unknown
 beat_number: 4
 table_status: complete
 ---

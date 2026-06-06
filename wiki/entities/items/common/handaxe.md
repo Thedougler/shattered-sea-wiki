@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp."
-created: '2026-05-29'
+summary: A short-hafted single-bitted axe — works as a tool and a weapon, throwable in either role. 5 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: weapon
 rarity: common

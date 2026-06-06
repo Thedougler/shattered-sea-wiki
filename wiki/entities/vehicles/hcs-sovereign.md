@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy."
-created: '2026-05-29'
+summary: The Dravosi Crown's first-rate flagship and the most powerful warship in the Shattered Sea — 104 guns across three gun decks, the final and definitive statement of Crown naval supremacy.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 ship_class: First-Rate Ship of the Line
 tier: 4
 aliases:
   - Sovereign
-  - "HCS Sovereign"
-  - "The Sovereign"
-banner: "banners/HCS-Sovereign.webp"
+  - HCS Sovereign
+  - The Sovereign
+banner: banners/HCS-Sovereign.webp
 ---
 
 # HCS *Sovereign*

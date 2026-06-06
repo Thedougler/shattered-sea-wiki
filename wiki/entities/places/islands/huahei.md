@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A small overgrown marshy island in the Midchain, notable for an odd fey presence."
-created: '2026-05-29'
+summary: A small overgrown marshy island in the Midchain, notable for an odd fey presence.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 island_type: wilderness-island
 parent_location: "[[midchain|The Midchain]]"
-governance: "Ungoverned"
-access: "Overgrown marshy island; approach not documented"
+governance: Ungoverned
+access: Overgrown marshy island; approach not documented
 ---
 
 # Huahei

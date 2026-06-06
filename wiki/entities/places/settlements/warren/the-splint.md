@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Warren's apothecary and healer — a small, methodical Rattkin named Colla sets bones, closes wounds, and stocks the only reliable supply of healing preparations below Calveno."
-created: '2026-05-29'
+summary: The Warren's apothecary and healer — a small, methodical Rattkin named Colla sets bones, closes wounds, and stocks the only reliable supply of healing preparations below Calveno.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - rattkin
 sources:
-  - "Inbox/Warren-Nonas-Table.md"
-  - "Inbox/The-Splint.md"
+  - Inbox/Warren-Nonas-Table.md
+  - Inbox/The-Splint.md
 confidence_level: medium
 building_type: apothecary
 aliases:

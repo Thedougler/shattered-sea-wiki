@@ -12,9 +12,9 @@ tags:
   - drowned-maw
   - dm-prep
 sources:
-  - "Inbox/sessions/03/Scene-01-Auralis.md"
+  - Inbox/sessions/03/Scene-01-Auralis.md
 session_number: 3
-session_date: "unknown"
+session_date: unknown
 beat_number: 1
 table_status: complete
 ---

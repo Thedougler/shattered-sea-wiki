@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance."
-created: '2026-05-29'
+summary: A pulley system for rigging and cargo work — multiplies hauling force at the cost of rope travel distance.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription."
+summary: Location searched by Master Kyzil when looking for Crissdalynn after her ship went down. Renamed from erroneous 'Firefall' transcription.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - needs-detail
 sources:
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Session-03-Recap.md
 confidence_level: inferred
 ---
 

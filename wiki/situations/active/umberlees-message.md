@@ -12,10 +12,10 @@ tags:
   - umberlee
   - waveservants
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "audio/sessions/session04/recap.md"
+  - Inbox/Session-03-Recap.md
+  - audio/sessions/session04/recap.md
 lifecycle: active
-narrative_island:
+narrative_island: none
 ---
 
 # Umberlee's Message

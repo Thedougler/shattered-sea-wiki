@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp."
-created: '2026-05-29'
+summary: Salt-cured eel — always available at the Low Lamp, an acquired taste that regular Warren residents have mostly acquired. 4 cp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: food
 rarity: common

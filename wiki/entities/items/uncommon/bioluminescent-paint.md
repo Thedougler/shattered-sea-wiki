@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation."
-created: '2026-05-29'
+summary: An alchemical paint that glows for 8 hours before fading without trace — for marking, signalling, and navigation.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation."
+summary: Retired Dravosi patrol officer, large and red-faced — ran the Midchain route for a decade through bribery and goodwill; quietly retired to make room for Rook's operation.
 created: 2026-04-24
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Norrington-Kingsly.md"
+  - Inbox/Norrington-Kingsly.md
 confidence_level: medium
-roleplay_prompt: "Jolly retired small-town cop who knows exactly why he retired when he did"
+roleplay_prompt: Jolly retired small-town cop who knows exactly why he retired when he did
 ---
 
 # Norrington Kingsly

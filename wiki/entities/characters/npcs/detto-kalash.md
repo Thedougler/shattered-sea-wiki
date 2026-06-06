@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: dead
 audience: dm
 publish: false
-summary: "Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk."
+summary: Earth genasi captain of the Heft in Fisk's Fleet — drowned at the Drowned Maw when Umberlee sank the fleet. His soul is inside Delmar Fisk.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Detto-Kalash.md"
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Detto-Kalash.md
 confidence_level: confirmed
 species: earth-genasi
-roleplay_prompt: "Christopher Walken as an earth genasi pirate captain. Flat, deliberate, pauses where you don't expect. Says the true thing immediately. Never raises his voice."
+roleplay_prompt: Christopher Walken as an earth genasi pirate captain. Flat, deliberate, pauses where you don't expect. Says the true thing immediately. Never raises his voice.
 ---
 
 # Detto Kalash

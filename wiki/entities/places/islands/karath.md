@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning."
-created: '2026-05-29'
+summary: A Verdant Teeth island with no harbour, no smoke, no visible reason to stop — and dart fire before you can explain what you were planning.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Inbox/Dreth.md"
-  - "Inbox/Karath.md"
+  - Inbox/Dreth.md
+  - Inbox/Karath.md
 confidence_level: medium
 island_type: hostile-island
 aliases:
-  - "Karath Island"
+  - Karath Island
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
-access: "Hostile reef approach; outsiders met with dart fire"
+access: Hostile reef approach; outsiders met with dart fire
 ---
 
 # Karath

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard."
-created: '2026-05-29'
+summary: Waterproofed canvas for covers, gear bags, and anything that needs to stay dry at sea. 1 gp per yard.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: equipment
 rarity: common

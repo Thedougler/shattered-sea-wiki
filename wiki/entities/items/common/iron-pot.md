@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp."
-created: '2026-05-29'
+summary: A heavy cast iron pot — galley cooking or tar-melting, depending on who's using it. 2 gp.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: equipment
 rarity: common

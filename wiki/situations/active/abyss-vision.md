@@ -11,9 +11,10 @@ updated: 2026-06-01
 tags:
   - mystery
   - drowned-maw
-sources: ["Inbox/Session-03-Recap.md"]
+sources:
+  - Inbox/Session-03-Recap.md
 lifecycle: active
-narrative_island:
+narrative_island: none
 ---
 
 # The Abyss Vision — "Grow"

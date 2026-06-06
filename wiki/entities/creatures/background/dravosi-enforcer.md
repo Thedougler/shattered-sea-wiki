@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: true
-summary: "A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence."
+summary: A Dravosi Crown veteran built for confined boarding fights, crowd suppression, hooks, gangplanks, and procedural violence.
 created: 2026-04-19
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Dravosi-Enforcer.md"
+  - Inbox/Dravosi-Enforcer.md
 confidence_level: medium
-cr: "1/2"
+cr: 1/2
 ---
 
 # Dravosi Enforcer — Stat Block

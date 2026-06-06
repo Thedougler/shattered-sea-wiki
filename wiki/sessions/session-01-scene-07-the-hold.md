@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins."
+summary: Session 01, Beat 7 — Full party in the hold; Rook's inspection shakedown; choice point before the boarding encounter begins.
 created: 2026-04-22
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-07-The-Hold.md"
+  - Inbox/sessions/01/Scene-07-The-Hold.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 7
 table_status: complete
 ---

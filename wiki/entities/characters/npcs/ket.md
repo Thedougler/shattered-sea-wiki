@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: resolved
 audience: dm
 publish: false
-summary: "A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat."
-created: '2026-05-29'
+summary: A feral Moucheron from Murrat, formerly held in the Surety's brig by Barnaby Rook. Freed in Session 02 — fed on Crissdalynn's arm, flew toward Murrat.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - moucheron
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Ket.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Ket.md
 confidence_level: high
-banner: "banners/Ket.webp"
+banner: banners/Ket.webp
 ---
 
 # Ket

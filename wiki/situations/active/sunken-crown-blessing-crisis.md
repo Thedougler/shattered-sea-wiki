@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Umberlee's blessing has withdrawn from the Sunken Crown since the Pearl of Souls theft, destabilizing Keth-Naar — food security, weather protection, and shrine authority all degrading. Stripes Bitemore was sent to find why the sea turned."
+summary: Umberlee's blessing has withdrawn from the Sunken Crown since the Pearl of Souls theft, destabilizing Keth-Naar — food security, weather protection, and shrine authority all degrading. Stripes Bitemore was sent to find why the sea turned.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - umberlee
   - sunken-crown
-sources: ["Inbox/Sunken-Crown-Blessing-Crisis.md"]
+sources:
+  - Inbox/Sunken-Crown-Blessing-Crisis.md
 lifecycle: active
-narrative_island:
-title: Sunken Crown Blessing Crisis
+narrative_island: none
 confidence_level: medium
 region: outer-reach
 ---

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months."
-created: '2026-05-29'
+summary: A shipyard-applied hull coating that dampens acoustic and visual signature at sea — matte grey-black finish, advantage on Stealth checks, reapply every six months.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: ship-upgrade
 rarity: uncommon

@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: inactive
 audience: players
 publish: true
-summary: "Tiger tabaxi fighter sent west by Keth-Naar elders to find why the sea is angry — took passage on the Saltwright, was involved in the Session 01 boarding action, currently absent from the active party."
+summary: Tiger tabaxi fighter sent west by Keth-Naar elders to find why the sea is angry — took passage on the Saltwright, was involved in the Session 01 boarding action, currently absent from the active party.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - passage
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Tabaxi.md"
-  - "Inbox/Stripes-Bitemore.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Tabaxi.md
+  - Inbox/Stripes-Bitemore.md
 confidence_level: confirmed
 species: tabaxi
 aliases:

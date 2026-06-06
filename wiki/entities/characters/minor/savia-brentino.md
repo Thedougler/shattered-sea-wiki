@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Proprietor of Carpenter's Slip in Calveno. Thirty, small, sawdust in her eyebrows. Speaks in structural assessments. Does not quote timelines she cannot keep and does not do cosmetic work."
+summary: Proprietor of Carpenter's Slip in Calveno. Thirty, small, sawdust in her eyebrows. Speaks in structural assessments. Does not quote timelines she cannot keep and does not do cosmetic work.
 created: 2026-05-17
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Calveno-Sandbox-Run-Guide.md"
-  - "Inbox/Savia-Brentino.md"
+  - Inbox/Calveno-Sandbox-Run-Guide.md
+  - Inbox/Savia-Brentino.md
 confidence_level: medium
 ---
 

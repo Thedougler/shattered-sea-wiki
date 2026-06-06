@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone."
+summary: CR 10 dragon. Huge amphibious; Bite plus two Claw attacks, 30-ft Steam Breath cone.
 created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/young-dragon-turtle.md"
+  - Inbox/young-dragon-turtle.md
 confidence_level: high
 cr: 10
 ---

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A legendary Antheri salvage modification enabling controlled temporary submersion — takes the ship to 60 feet and keeps the crew breathing for two hours per day."
-created: '2026-05-29'
+summary: A legendary Antheri salvage modification enabling controlled temporary submersion — takes the ship to 60 feet and keeps the crew breathing for two hours per day.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - antheri

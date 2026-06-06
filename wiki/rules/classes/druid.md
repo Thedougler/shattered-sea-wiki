@@ -25,3 +25,7 @@ confidence_level: medium
 ## Key Feature
 
 **Wild Shape** — Transform into a beast. CR limit scales with level. At L2: CR 1/4 (no fly/swim speed). Significantly more powerful from L5+.
+
+## Campaign
+
+- [[sienne-orre|Sienne Orre]] — Druid captain of the Fernen; Fisk's Fleet; soul inside Delmar Fisk

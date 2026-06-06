@@ -25,3 +25,7 @@ confidence_level: medium
 ## Overview
 
 The Wizard has the largest spell list in the game. They can copy spells into their spellbook from scrolls and other wizards' books, and can cast any ritual they know without preparing it. Exceptional utility spellcaster in addition to offensive capabilities.
+
+## Campaign
+
+- [[estratto|Estratto]] — Tessarine warforged, Divination Wizard 9; compliance auditor and debt-recovery specialist in Calveno

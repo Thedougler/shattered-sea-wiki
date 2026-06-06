@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing."
-created: '2026-05-29'
+summary: Mast stepping, splicing, and repair for vessels up to two masts — the structural work that keeps a ship sailing.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: service
 rarity: common

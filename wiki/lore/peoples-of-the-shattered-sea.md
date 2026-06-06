@@ -11,7 +11,7 @@ updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "Inbox/Demographics.md"
+  - Inbox/Demographics.md
 ---
 
 # Peoples of the Shattered Sea

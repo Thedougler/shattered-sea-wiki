@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Crown chandlery clerk at the Tidefall Chandlery — young, conscientious, and genuinely distressed when a customer's paperwork is not in the right order."
+summary: Crown chandlery clerk at the Tidefall Chandlery — young, conscientious, and genuinely distressed when a customer's paperwork is not in the right order.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Nigel-Strutt.md"
+  - Inbox/Nigel-Strutt.md
 confidence_level: medium
 ---
 

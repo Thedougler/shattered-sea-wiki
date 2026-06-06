@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "PC motivation map for Season 1 — dials, terminal nodes, active friction, and cross-party collision points. Read before tying prep, NPCs, or consequences to player motivations."
+summary: PC motivation map for Season 1 — dials, terminal nodes, active friction, and cross-party collision points. Read before tying prep, NPCs, or consequences to player motivations.
 created: 2026-04-18
 updated: 2026-05-31
 tags:
   - player-resource
 sources:
-  - "Inbox/private/system/players/Player-Gravity-Wells.md"
-system_role: "unknown"
+  - Inbox/private/system/players/Player-Gravity-Wells.md
+system_role: unknown
 token_profile: on-demand
 mandatory_for: []
 update_trigger: ""

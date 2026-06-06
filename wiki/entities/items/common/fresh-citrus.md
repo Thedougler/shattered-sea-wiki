@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else."
-created: '2026-05-29'
+summary: Limes, lemons, and oranges from the interior islands — prevents scurvy, keeps morale, and goes bad faster than everything else.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: provision
 rarity: common

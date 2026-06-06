@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: destroyed
 audience: dm
 publish: false
-summary: "Delmar Fisk's five-ship privateer fleet, destroyed simultaneously in the Drowned Maw after the Pearl of Souls theft. Fisk and Crissdalynn are the only known survivors."
+summary: Delmar Fisk's five-ship privateer fleet, destroyed simultaneously in the Drowned Maw after the Pearl of Souls theft. Fisk and Crissdalynn are the only known survivors.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - fisk-fleet
   - drowned-maw
 sources:
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Delmar-Fisk.md"
-  - "Inbox/Campaign-Timeline.md"
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Delmar-Fisk.md
+  - Inbox/Campaign-Timeline.md
 confidence_level: confirmed
 ---
 

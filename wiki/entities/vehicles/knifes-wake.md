@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power."
-created: '2026-05-29'
+summary: A Tier 1 armed pirate cutter built for ambush, boarding, and reef-channel escapes — dangerous against soft prizes, but too small to trade broadsides with real naval power.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - dravosi
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 ship_class: pirate cutter
 tier: 1
 aliases:
-  - "Knife's Wake"
-  - "The Knife's Wake"
+  - Knife's Wake
+  - The Knife's Wake
 ---
 
 # The *Knife's Wake*

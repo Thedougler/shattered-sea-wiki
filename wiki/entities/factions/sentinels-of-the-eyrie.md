@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter."
+summary: Aarakocra monastic observation order at High Eyrie. They watch the Drowned Maw, record without interpretation, and maintain the most complete Maw ledgers in the Scatter.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - drowned-maw
   - recurring
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Sentinels-Of-The-Eyrie.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Sentinels-Of-The-Eyrie.md
 confidence_level: confirmed
 ---
 

@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance."
+summary: Port Tidefall's only navigation instrument shop — sextants, compasses, chronometers, charts, and a second-hand calibrated spyglass with unknown provenance.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - dravosi
   - maritime
 sources:
-  - "Inbox/Oswald-Crench.md"
-  - "Inbox/Shelf-Instrument-Dealer.md"
+  - Inbox/Oswald-Crench.md
+  - Inbox/Shelf-Instrument-Dealer.md
 confidence_level: medium
 building_type: shop
 district: The Shelf

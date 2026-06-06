@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying."
+summary: Gnome naturalist and author of Clyde's Bestiary of Oceanic Creatures — four feet of impeccable dress and documented contempt for every creature he's spent his life studying.
 created: 2026-05-02
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Algernon-Reginald-Clyde.md"
+  - Inbox/Algernon-Reginald-Clyde.md
 confidence_level: medium
 aliases:
   - A.R. Clyde
   - Clyde
-roleplay_prompt: "Werner Herzog doing the job of David Attenborough — rigorous, meticulous, accurate; his contempt is the fuel, not the product."
+roleplay_prompt: Werner Herzog doing the job of David Attenborough — rigorous, meticulous, accurate; his contempt is the fuel, not the product.
 ---
 
 # Algernon Reginald Clyde

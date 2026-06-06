@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained."
-created: '2026-05-29'
+summary: A jug of clean cistern-collected fresh water — essential at sea and reliable in ports where the cisterns are maintained.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: consumable
 rarity: common

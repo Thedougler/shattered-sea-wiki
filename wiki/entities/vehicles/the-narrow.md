@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: lost
 audience: players
 publish: true
-summary: "Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw."
-created: '2026-05-29'
+summary: Scout sloop and second ship of Fisk's Fleet — captained by Maren, lost at the Drowned Maw.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Narrow.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Narrow.md
 confidence_level: confirmed
 ship_class: scout sloop
 aliases:
-  - "Narrow"
-  - "The Narrow"
-banner: "banners/Maren.webp"
+  - Narrow
+  - The Narrow
+banner: banners/Maren.webp
 ---
 
 # The *Narrow*

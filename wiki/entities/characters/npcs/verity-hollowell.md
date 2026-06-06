@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Port Tidefall factor's daughter who can read a cargo manifest faster than most Crown inspectors — searching records for Geoffrey Draves, sitting on a ledger anomaly that implicates her family's license."
+summary: Port Tidefall factor's daughter who can read a cargo manifest faster than most Crown inspectors — searching records for Geoffrey Draves, sitting on a ledger anomaly that implicates her family's license.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Surety-Missing.md"
-  - "Inbox/Verity-Hollowell.md"
+  - Inbox/Surety-Missing.md
+  - Inbox/Verity-Hollowell.md
 confidence_level: confirmed
 species: human
 ---

@@ -5,23 +5,23 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Former Crown Shipyards blacksmith turned naval gunner — the best man at a cannon the party is likely to meet, who will not tell them that unless someone asks. Holds a master's degree in chemistry that he has never mentioned because it has not come up."
+summary: Former Crown Shipyards blacksmith turned naval gunner — the best man at a cannon the party is likely to meet, who will not tell them that unless someone asks. Holds a master's degree in chemistry that he has never mentioned because it has not come up.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - recurring
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Thunk.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Thunk.md
 confidence_level: observed
 aliases:
-  - "Mr. Thunk"
+  - Mr. Thunk
 species: orc
 pronouns: he/him
 banner: banners/Thunk.webp
 portrait: portraits/Thunk.webp
-roleplay: "Arnold Schwarzenegger as a pirate demolitions expert — reads as gimmicky until he casually drops a surprisingly thorough knowledge of black powder chemistry or cannon physics. The depth is real; the delivery never changes. He just talks like that. Everyone from home talks like that."
+roleplay: Arnold Schwarzenegger as a pirate demolitions expert — reads as gimmicky until he casually drops a surprisingly thorough knowledge of black powder chemistry or cannon physics. The depth is real; the delivery never changes. He just talks like that. Everyone from home talks like that.
 ---
 
 # Thunk

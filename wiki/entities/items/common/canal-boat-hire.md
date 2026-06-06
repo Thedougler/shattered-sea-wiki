@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Flat-bottomed canal boats available for half- or full-day hire at the Ponte Bassa — no questions about destination."
-created: '2026-05-29'
+summary: Flat-bottomed canal boats available for half- or full-day hire at the Ponte Bassa — no questions about destination.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

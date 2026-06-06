@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tier 1 bastion facility — stocking it upgrades defender death dice from d6 to d8 for one Bastion Turn. Cost halved if the ship also has a Carpenter's Shop."
-created: '2026-05-29'
+summary: Tier 1 bastion facility — stocking it upgrades defender death dice from d6 to d8 for one Bastion Turn. Cost halved if the ship also has a Carpenter's Shop.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - player-resource
 sources:
-  - "Dungeon Master's Guide (2024)"
+  - Dungeon Master's Guide (2024)
   - "[[ship-bastion|Ship Bastion]]"
 ---
 

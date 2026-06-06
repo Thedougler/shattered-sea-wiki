@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered."
+summary: Delmar called him 'a friend' when speaking to Beaumont. Surname match suggests a possible family connection to Delmar Fisk. Not yet encountered.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - fisk-fleet
   - needs-detail
 sources:
-  - "Inbox/Session-02-Recap.md"
+  - Inbox/Session-02-Recap.md
 confidence_level: inferred
 ---
 

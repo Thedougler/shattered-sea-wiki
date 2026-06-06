@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp."
-created: '2026-05-29'
+summary: A self-contained ranged weapon requiring no training to use effectively — standard grey-market arms at Midchain free ports. 25 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: weapon
 rarity: common

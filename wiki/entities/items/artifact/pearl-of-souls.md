@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw."
-created: '2026-05-29'
+summary: Umberlee's stolen artifact — a fist-sized black pearl that collects the souls of the drowned; lost at the Red Lady wreck site in the Maw.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - umberlee
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: high
 dm_companion: "[[pearl-of-souls-dm|Pearl of Souls (DM)]]"
 item_type: artifact

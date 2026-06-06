@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest."
-created: '2026-05-29'
+summary: A cramped alcove-stall off the Warren's north channel corridor where a Rattkin broker named Marrow handles deniable cargo, sealed documents, and things that needed to not appear on a manifest.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - rattkin
 sources:
-  - "Inbox/Warren-Marrows-Crate.md"
-  - "Inbox/Marrows.md"
+  - Inbox/Warren-Marrows-Crate.md
+  - Inbox/Marrows.md
 confidence_level: medium
 building_type: shop
 aliases:
-  - "Marrow's"
-  - "Marrow"
+  - Marrow's
+  - Marrow
 parent_location: "[[warren|The Warren]]"
 district: north channel corridor
 ---

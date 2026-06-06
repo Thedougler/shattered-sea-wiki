@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw."
-created: '2026-05-29'
+summary: A +1 shortsword with a notched pommel, found in a sealed confiscation crate aboard the HCS Surety alongside a pendant engraved 'For Mira, from the sea.' Given to Perrin Black-Jaw.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - mystery
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Miras-Blade.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Miras-Blade.md
 confidence_level: observed
 item_type: weapon
 rarity: uncommon

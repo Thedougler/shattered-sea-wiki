@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings."
+summary: Lizardfolk bodyguard for Nona Black-Jaw. Massive, scarred, incapable of pretending not to notice things. He understands Nona because he understands hatchlings.
 created: 2026-05-20
 updated: 2026-06-04
 tags:
   - passage
   - rattkin
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Ruk.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/Ruk.md
 confidence_level: medium
 aliases:
   - Ruk

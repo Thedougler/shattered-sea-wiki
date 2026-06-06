@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept."
-created: '2026-05-29'
+summary: Session zero character option pairing a permanent mechanical drawback (the Mark) with a targeted benefit (the Gift) — a character's limitation and strength express the same concept.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 ---
 

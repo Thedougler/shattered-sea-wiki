@@ -12,9 +12,9 @@ tags:
   - umberlee
   - waveservants
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Umberlee.md"
-  - "Inbox/Waveservants.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Umberlee.md
+  - Inbox/Waveservants.md
 confidence_level: confirmed
 ---
 

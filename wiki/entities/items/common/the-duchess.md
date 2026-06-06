@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last."
-created: '2026-05-29'
+summary: Delmar Fisk's musket, named after his wife Serafina — carried across his back, the weapon he reaches for last.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew
 sources:
-  - "D&D 2024 PHB"
+  - D&D 2024 PHB
   - Homebrew
 confidence_level: high
 item_type: weapon

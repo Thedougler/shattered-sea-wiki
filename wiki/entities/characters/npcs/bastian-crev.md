@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: dead
 audience: dm
 publish: false
-summary: "Captain of the *Loud Argument* and Fisk's combat specialist; died in the Drowned Maw when Umberlee closed the water over the fleet, his soul pressed into Delmar."
-created: '2026-05-29'
+summary: Captain of the *Loud Argument* and Fisk's combat specialist; died in the Drowned Maw when Umberlee closed the water over the fleet, his soul pressed into Delmar.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
@@ -18,12 +18,12 @@ species: human
 aliases:
   - Bastian
 mortis:
-  trigger_forced: "Enemy Deception/Persuasion succeeds against Delmar, or he witnesses powerless person coerced"
-  trigger_env: "Black jackdaw — surfaces fast, warm, generous, expansive; may reach for the bird"
-  skills: "Performance, Deception (Expertise +7)"
-  personality: "Theatrical, all-in, cannot watch injustice pass in silence."
-  cue: "Gets louder and bigger. Makes a scene. Bluffs when inadvisable and commits completely."
-roleplay_prompt: "Nicolas Cage as a pirate captain who prides himself on being impossible to ignore."
+  trigger_forced: Enemy Deception/Persuasion succeeds against Delmar, or he witnesses powerless person coerced
+  trigger_env: Black jackdaw — surfaces fast, warm, generous, expansive; may reach for the bird
+  skills: Performance, Deception (Expertise +7)
+  personality: Theatrical, all-in, cannot watch injustice pass in silence.
+  cue: Gets louder and bigger. Makes a scene. Bluffs when inadvisable and commits completely.
+roleplay_prompt: Nicolas Cage as a pirate captain who prides himself on being impossible to ignore.
 ---
 
 # Bastian Crev

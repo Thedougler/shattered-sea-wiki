@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled."
-created: '2026-05-29'
+summary: Tier 1 homebrew ship bastion facility — stabilizes downed crew, removes conditions, or grants Lesser Restoration once per Bastion Turn. Requires the Surgeon role filled.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

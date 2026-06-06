@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says."
-created: '2026-05-29'
+summary: The main drinking house and lodging on Kalowe's second island — named for the lagoon, runs at full capacity most nights, and Reweti Kahurangi knows more than she says.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Five-Blades.md"
-  - "Inbox/The-Flat-Water.md"
+  - Inbox/Five-Blades.md
+  - Inbox/The-Flat-Water.md
 confidence_level: medium
 building_type: tavern
 aliases:

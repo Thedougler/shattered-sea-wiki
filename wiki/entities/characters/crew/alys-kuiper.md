@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Ship's surgeon — calm, competent, doing inventory while waiting to see if the new management understands what a surgeon's post actually is."
+summary: Ship's surgeon — calm, competent, doing inventory while waiting to see if the new management understands what a surgeon's post actually is.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - recurring
 sources:
-  - "Inbox/Alys-Kuiper.md"
+  - Inbox/Alys-Kuiper.md
 confidence_level: observed
 species: human
 pronouns: she/her
 banner: banners/Alys-Kuiper.webp
 portrait: portraits/Alys-Kuiper.webp
-roleplay: "The medical professional who discusses clinical supply, triage, and recovery with the same warmth others use for the weather, and genuinely cannot tell why that's unsettling."
+roleplay: The medical professional who discusses clinical supply, triage, and recovery with the same warmth others use for the weather, and genuinely cannot tell why that's unsettling.
 ---
 
 # Alys Kuiper

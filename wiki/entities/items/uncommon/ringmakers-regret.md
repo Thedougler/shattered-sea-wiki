@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly."
-created: '2026-05-29'
+summary: A plain silver ring engraved inside with 'For Lisca' — radiates a faint divination aura, has had three previous owners, and Morsani insists it is working correctly.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - mystery

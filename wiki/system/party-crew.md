@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Roster of crew hired by the party — update after each session with new hires, departures, and role changes."
-created: '2026-05-29'
+summary: Roster of crew hired by the party — update after each session with new hires, departures, and role changes.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
@@ -16,7 +16,7 @@ sources:
 system_role: unknown
 token_profile: on-demand
 mandatory_for: []
-update_trigger: ''
+update_trigger: ""
 confidence_level: medium
 ---
 

@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see."
-created: '2026-05-29'
+summary: Basalt sea-stack monastery of the Sentinels of the Eyrie — a remote aarakocra order that has watched the Drowned Maw for two centuries and records without interpreting what they see.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
   - maritime
 sources:
-  - "Inbox/Crissdalynn-Khinriss.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/High-Eyrie.md"
+  - Inbox/Crissdalynn-Khinriss.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/High-Eyrie.md
 confidence_level: medium
 building_type: monastery
 aliases:
-  - "High Eyrie"
+  - High Eyrie
 parent_location: "[[crown-islands|The Crown Islands]]"
 district: northeastern sea stack
 ---

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp."
-created: '2026-05-29'
+summary: A heavy sailmaker's needle and waxed twine for repairing canvas at sea — a ship without these cannot repair torn sails. 3 sp.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: tool
 rarity: common

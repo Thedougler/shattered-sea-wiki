@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin."
-created: '2026-05-29'
+summary: A targeted antidote for reef fish, shellfish, and common sea-creature envenomation — specific and more effective than broad antitoxin.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

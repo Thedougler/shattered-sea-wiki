@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno."
-created: '2026-05-29'
+summary: Senior master of the Sentinels of the Eyrie — barn owl aarakocra, quiet authority, and the man who assigned Crissdalynn her pilgrimage. Currently in Calveno.
+created: 2026-05-29
 updated: 2026-06-01
 tags:
   - drowned-maw
   - recurring
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Master-Kyzil.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/Master-Kyzil.md
 confidence_level: confirmed
 aliases:
-  - "Kyzil"
-banner: "banners/Master-Kyzil.webp"
-roleplay_prompt: "Javier Bardem doing Kenobi — composed enough to be unnerving, cracked exactly once, covering the crack immediately with a question. He says 'I corrected course three times' when he means 'I was scared.' He just hugged someone in public and is still recovering."
+  - Kyzil
+banner: banners/Master-Kyzil.webp
+roleplay_prompt: Javier Bardem doing Kenobi — composed enough to be unnerving, cracked exactly once, covering the crack immediately with a question. He says 'I corrected course three times' when he means 'I was scared.' He just hugged someone in public and is still recovering.
 ---
 
 # Master Kyzil

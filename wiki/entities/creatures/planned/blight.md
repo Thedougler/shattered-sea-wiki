@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain."
+summary: Druid lich whose phylactery is a place — the Death Bloom at the heart of the land it died protecting. Stat block is tiered as the Death Bloom is damaged. Active at Aruhe in the Midchain.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - undead
 sources:
-  - "Inbox/Blight.md"
+  - Inbox/Blight.md
 confidence_level: high
 aliases:
-  - "Blight"
-  - "Druid Lich"
+  - Blight
+  - Druid Lich
 ---
 
 # Blight

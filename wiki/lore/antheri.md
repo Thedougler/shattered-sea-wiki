@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Ancient aquatic civilization that built upward from the bottom of the Drowned Maw around a planar fissure. Their city, biomancy, soul-pledge technology, and disappearance all remain active archaeology threads."
+summary: Ancient aquatic civilization that built upward from the bottom of the Drowned Maw around a planar fissure. Their city, biomancy, soul-pledge technology, and disappearance all remain active archaeology threads.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - antheri
   - drowned-maw
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Antherian.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Antherian.md
 ---
 
 # The Antheri

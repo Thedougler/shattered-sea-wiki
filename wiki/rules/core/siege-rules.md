@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20."
-created: '2026-05-29'
+summary: Large-scale combat overlay for armies, enormous monsters, or conflicts too large for standard 5e. Adds a Siege Phase at initiative count 20.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - combat
   - dm-prep
 sources:
-  - "Pointy Hat — Storm Rising Adventure"
+  - Pointy Hat — Storm Rising Adventure
 confidence_level: high
 ---
 

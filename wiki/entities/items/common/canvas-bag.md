@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship."
-created: '2026-05-29'
+summary: Heavy-duty canvas sacks and cargo nets for moving and securing goods aboard ship.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime

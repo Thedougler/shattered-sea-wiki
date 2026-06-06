@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave."
-created: '2026-05-29'
+summary: A Tier 3 armed pirate frigate — built to take protected prizes, break convoy discipline, and disappear before the Crown responds. Changes how convoys behave.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - drowned-maw
   - late-game
 sources:
-  - "Inbox/Drowned-Maw.md"
-  - "Inbox/The-Glass-Debt.md"
+  - Inbox/Drowned-Maw.md
+  - Inbox/The-Glass-Debt.md
 confidence_level: medium
 ship_class: armed frigate
 tier: 3

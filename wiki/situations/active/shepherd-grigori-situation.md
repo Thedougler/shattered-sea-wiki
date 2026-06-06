@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Grigori left the Uncertainty in Calveno claiming business in the city. His healing magic (red viscous light, no components) defied Arcana 18. His handshake was corpse-cold. He is a Khlysty Hierarch sorcerer-lich expanding a phylactery network through noble heirs — the party does not know any of this."
+summary: Grigori left the Uncertainty in Calveno claiming business in the city. His healing magic (red viscous light, no components) defied Arcana 18. His handshake was corpse-cold. He is a Khlysty Hierarch sorcerer-lich expanding a phylactery network through noble heirs — the party does not know any of this.
 created: 2026-05-28
 updated: 2026-06-01
 tags:
   - mystery
   - undead
 sources:
-  - "Inbox/Shepherd-Grigori copy.md"
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Shepherd-Grigori copy.md
+  - Inbox/Session-03-Recap.md
 lifecycle: active
 narrative_island: shepherd-grigori-island
 confidence_level: high

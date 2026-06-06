@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Rattkin Run anchored at the Warren beneath Calveno, led by Nona Black-Jaw. Smugglers, forgers, fugitive shelters, message-runners, community defense, and underground bank."
+summary: Rattkin Run anchored at the Warren beneath Calveno, led by Nona Black-Jaw. Smugglers, forgers, fugitive shelters, message-runners, community defense, and underground bank.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - rattkin
   - passage
 sources:
-  - "Inbox/Black-Jaw-Run.md"
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Black-Jaw-Run.md
+  - Inbox/Session-03-Recap.md
 confidence_level: confirmed
 ---
 

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships."
-created: '2026-05-29'
+summary: A one-handed martial blade — lighter than a full sword, faster, and sized for close-quarter work aboard ships.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

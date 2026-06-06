@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign."
-created: '2026-05-29'
+summary: A three-deck Dravosi Crown Ship of the Line — 96 guns, mobile Admiralty court, and the prior definitive statement of Crown naval power, now superseded by HCS Sovereign.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 ship_class: Ship of the Line
 tier: 4
 aliases:
   - Ordinance
-  - "HCS Ordinance"
-  - "The Ordinance"
+  - HCS Ordinance
+  - The Ordinance
 ---
 
 # HCS *Ordinance*

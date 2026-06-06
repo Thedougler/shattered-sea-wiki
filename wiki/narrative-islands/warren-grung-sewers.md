@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building."
+summary: Nona assigns the party to investigate Grung sightings in the tunnels under Calveno — reports are too consistent to dismiss. They find signs of real Grung presence, unexplained markings, and no clean answers. First hint that something is building.
 created: 2026-05-26
 updated: 2026-06-04
 tags:
@@ -13,7 +13,7 @@ tags:
   - passage
   - combat
 sources:
-  - "Inbox/Warren-Grung-Sewers.md"
+  - Inbox/Warren-Grung-Sewers.md
 portable: false
 entry_points:
   - Nona hears Jean-Claude is with Perrin (automatic; she offers this first)

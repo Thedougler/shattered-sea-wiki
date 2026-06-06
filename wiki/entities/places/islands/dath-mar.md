@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be."
-created: '2026-05-29'
+summary: The smallest of the five Sunken Crown islands — a hard, exposed rock kept as a refuge for emergencies, solitary decisions, and bad weather. Not comfortable. Not meant to be.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - sunken-crown
@@ -19,7 +19,7 @@ aliases:
   - South Sentinel
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] refuge custom and maintenance obligations"
-access: "Tide-dependent sheltered cut; emergency refuge rather than casual stop"
+access: Tide-dependent sheltered cut; emergency refuge rather than casual stop
 ---
 
 # Dath-Mar

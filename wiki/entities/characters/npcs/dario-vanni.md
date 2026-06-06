@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment."
+summary: Proprietor of Acqua Nera on Calveno's outer harbour. Does prize conversions and hull re-identification work. Never surprised by what a customer needs. Prices discreet jobs at double rate and says so without embarrassment.
 created: 2026-05-17
 updated: 2026-06-03
 tags:
   - maritime
 sources:
-  - "Inbox/Calveno-Sandbox-Run-Guide.md"
-  - "Inbox/Dario-Vanni.md"
+  - Inbox/Calveno-Sandbox-Run-Guide.md
+  - Inbox/Dario-Vanni.md
 confidence_level: medium
 aliases:
   - Dario Vanni

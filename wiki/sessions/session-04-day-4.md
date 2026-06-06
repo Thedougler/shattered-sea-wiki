@@ -13,7 +13,7 @@ tags:
 sources:
   - Homebrew
 session_number: 4
-session_date: "unknown"
+session_date: unknown
 ---
 
 # Session 04 — Day 4: Pre-Raid

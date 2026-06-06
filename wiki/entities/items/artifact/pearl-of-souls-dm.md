@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "DM companion for the Pearl of Souls — the Seven Pearls context, its current location below the planar boundary, the Maw entanglement, and the Aldric risk that drove the Tessarine commission."
+summary: DM companion for the Pearl of Souls — the Seven Pearls context, its current location below the planar boundary, the Maw entanglement, and the Aldric risk that drove the Tessarine commission.
 created: 2026-04-12
 updated: 2026-05-31
 tags:
   - umberlee
 sources:
-  - "Inbox/situations/reference/Pearl-of-Souls-Item.md"
+  - Inbox/situations/reference/Pearl-of-Souls-Item.md
 confidence_level: medium
 dm_companion: true
 public_profile: "[[pearl-of-souls|Pearl of Souls]]"

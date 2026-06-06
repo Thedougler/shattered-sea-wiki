@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it."
-created: '2026-05-29'
+summary: Dark rum mixed with fresh pig blood and lime — not on the board at the Flat Water, but Reweti keeps the blood specifically for it.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

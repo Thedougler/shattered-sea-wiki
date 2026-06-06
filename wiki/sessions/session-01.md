@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing."
+summary: Party boards and seizes the Saltwright; Geoffrey Draves defects and joins as the party's first crew member; Jean-Claude identifies Simone Tabarnack's toxin in the Dravosi Alchemist's bandolier and says nothing.
 created: 2026-05-10
 updated: 2026-05-31
 tags:
   - dravosi
   - maritime
 sources:
-  - "Inbox/Session-01-Recap.md"
+  - Inbox/Session-01-Recap.md
 session_number: 1
 session_date: 2026-05-10
 ---

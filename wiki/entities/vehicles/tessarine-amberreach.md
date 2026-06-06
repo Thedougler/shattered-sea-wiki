@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry."
-created: '2026-05-29'
+summary: The Tessarine Concordat's principal Scatter cargo carrier — a Tier 3 galleon built to carry rather than chase, arriving when she says she will and carrying what she agrees to carry.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - tessarine
@@ -17,7 +17,7 @@ ship_class: cargo galleon
 tier: 3
 captain: "[[oriana-becht|Oriana Becht]]"
 owner: "[[tessarine-concordat|Tessarine Concordat]]"
-current_location: "Central Strait, inbound from the Galewall approaches"
+current_location: Central Strait, inbound from the Galewall approaches
 home_port: "[[calveno|Calveno]]"
 ---
 

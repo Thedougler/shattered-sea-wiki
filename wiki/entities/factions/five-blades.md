@@ -12,8 +12,8 @@ tags:
   - moucheron
   - five-blades
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Five-Blades.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Five-Blades.md
 confidence_level: inferred
 ---
 

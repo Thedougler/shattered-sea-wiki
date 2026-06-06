@@ -12,10 +12,10 @@ tags:
   - waveservants
   - umberlee
 sources:
-  - "Inbox/Shattered-Sea-Pantheon.md"
-  - "Inbox/Umberlee.md"
-  - "Inbox/Valkur.md"
-  - "Inbox/Tyr.md"
+  - Inbox/Shattered-Sea-Pantheon.md
+  - Inbox/Umberlee.md
+  - Inbox/Valkur.md
+  - Inbox/Tyr.md
 ---
 
 # Shattered Sea Pantheon

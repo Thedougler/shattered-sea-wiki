@@ -13,7 +13,7 @@ tags:
   - waveservants
   - player-resource
 sources:
-  - "Inbox/Umberlee.md"
+  - Inbox/Umberlee.md
 ---
 
 # Umberlee and the Waveservants

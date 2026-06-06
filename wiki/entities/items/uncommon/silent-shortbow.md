@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A +1 yew shortbow with a completely silent release — does not reveal the shooter's position when firing from hidden. Carried by Jean-Claude Tabarnack."
+summary: A +1 yew shortbow with a completely silent release — does not reveal the shooter's position when firing from hidden. Carried by Jean-Claude Tabarnack.
 created: 2026-06-01
 updated: 2026-06-04
 tags:
   - homebrew
   - player-resource
 sources:
-  - "audio/sessions/session04/extracts.md"
+  - audio/sessions/session04/extracts.md
 confidence_level: confirmed
 item_type: weapon
 rarity: uncommon

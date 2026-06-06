@@ -12,9 +12,9 @@ tags:
   - combat
   - dm-prep
 sources:
-  - "Inbox/sessions/02/Scene-01-Rook-Final.md"
+  - Inbox/sessions/02/Scene-01-Rook-Final.md
 session_number: 2
-session_date: "unknown"
+session_date: unknown
 beat_number: 1
 table_status: complete
 ---

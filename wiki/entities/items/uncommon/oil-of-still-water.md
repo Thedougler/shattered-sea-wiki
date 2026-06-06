@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait."
-created: '2026-05-29'
+summary: A topical compound that arrests surface bleeding within 10 minutes and leaves no scar tissue — for wounds that can't wait.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: consumable
 rarity: uncommon

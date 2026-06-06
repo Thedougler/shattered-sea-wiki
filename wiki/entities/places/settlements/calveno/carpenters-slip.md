@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches."
+summary: Off-the-books shipyard in Calveno's Le Paludi district. Re-silhouettes vessels so they stop reading as what they are. Warren introduction required — Savia Brentino won't deal with cold approaches.
 created: 2026-05-15
 updated: 2026-06-04
 tags:
@@ -17,9 +17,9 @@ confidence_level: medium
 category: location
 building_type: shipyard
 verb: Conceal
-unstable_condition: "Three cold-approach requests for off-book work this month — Savia refused all three but logged the hulls."
-consequence: "Without re-silhouetting, the Uncertainty reads as a Crown cutter to anyone who knows hull lines. Dravosi patrols, bounty hunters, and port inspectors in Crown-friendly waters will flag the ship on sight."
-link_of_relevance: "Perrin Black-Jaw (Warren connection through Nona)"
+unstable_condition: Three cold-approach requests for off-book work this month — Savia refused all three but logged the hulls.
+consequence: Without re-silhouetting, the Uncertainty reads as a Crown cutter to anyone who knows hull lines. Dravosi patrols, bounty hunters, and port inspectors in Crown-friendly waters will flag the ship on sight.
+link_of_relevance: Perrin Black-Jaw (Warren connection through Nona)
 aliases:
   - The Carpenters Slip
   - Brentino's

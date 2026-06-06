@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike."
-created: '2026-05-29'
+summary: A +1 shortsword ground from a whip shark secondary barb, commissioned from Catarina DaVirelli. Retains trace venom — once per day it can deliver a poisoning strike.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: weapon
 rarity: uncommon

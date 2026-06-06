@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: dormant
 audience: dm
 publish: false
-summary: "The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries."
+summary: The Dravosi Crown was designed by Aldric Drave — a Hierarch lich who seeded his bloodline into every Dravosi noble family and built the Crown's administrative apparatus to track his own phylacteries across centuries.
 created: 2026-05-13
 updated: 2026-05-31
 tags:
@@ -13,7 +13,7 @@ tags:
   - undead
   - late-game
 sources:
-  - "Inbox/situations/revelations/Aldric-Drave-Crown.md"
+  - Inbox/situations/revelations/Aldric-Drave-Crown.md
 lifecycle: dormant
 narrative_island: ""
 reveal_tier: late

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Cook aboard the Saltwright under Beaumont Sel. Stocky, grey-haired, terse, and better at provisions than the provisions deserve."
+summary: Cook aboard the Saltwright under Beaumont Sel. Stocky, grey-haired, terse, and better at provisions than the provisions deserve.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Beaumonts-Crew.md"
+  - Inbox/Beaumonts-Crew.md
 confidence_level: confirmed
 ---
 

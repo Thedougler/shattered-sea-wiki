@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely."
-created: '2026-05-29'
+summary: Martial ranged weapon. Highest damage of any standard crossbow, solid range, but Loading caps it at one shot per action and Heavy shuts out Small creatures entirely.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "D&D 2024 PHB"
+  - D&D 2024 PHB
 confidence_level: high
 item_type: weapon
 rarity: common

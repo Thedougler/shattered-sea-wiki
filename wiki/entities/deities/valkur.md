@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Chaotic Good minor deity of sailors, sea survival, favorable winds, and private courage below decks."
+summary: Chaotic Good minor deity of sailors, sea survival, favorable winds, and private courage below decks.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - maritime
   - waveservants
 sources:
-  - "Inbox/Valkur.md"
-  - "Inbox/Shattered-Sea-Pantheon.md"
+  - Inbox/Valkur.md
+  - Inbox/Shattered-Sea-Pantheon.md
 confidence_level: confirmed
 ---
 

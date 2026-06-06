@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper."
-created: '2026-05-29'
+summary: Port Tidefall's first-stop inspection pier, where incoming vessels tie up for Crown rating, manifest checks, and fees before reaching the dock proper.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 building_type: pier
 aliases:
-  - "Inspection Pier"
+  - Inspection Pier
 parent_location: "[[port-tidefall|Port Tidefall]]"
 district: Dockfront
 ---

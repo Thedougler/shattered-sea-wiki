@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal."
+summary: Session 01, Beat 5 — Perrin Black-Jaw introduction in the Saltwright hold; backstory of the Vestra loss, the stowaway reveal.
 created: 2026-04-22
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-05-Perrin.md"
+  - Inbox/sessions/01/Scene-05-Perrin.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 5
 table_status: complete
 ---

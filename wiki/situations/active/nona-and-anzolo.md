@@ -11,9 +11,10 @@ updated: 2026-06-01
 tags:
   - rattkin
   - passage
-sources: ["Inbox/Session-02-Recap.md"]
+sources:
+  - Inbox/Session-02-Recap.md
 lifecycle: active
-narrative_island:
+narrative_island: none
 ---
 
 # Nona and Anzolo

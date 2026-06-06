@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache."
+summary: CR 1 humanoid pirate statblock. Charming, daggers-out, fights with panache.
 created: 2026-04-25
 updated: 2026-06-02
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/pirate.md"
+  - Inbox/pirate.md
 confidence_level: high
 cr: 1
 ---

@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth."
+summary: Beaumont Sel's capuchin companion — eleven years on his left shoulder, amber-eyed, quick-fingered, and constitutionally opposed to his pipe staying in his mouth.
 created: 2026-05-02
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Bisou.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-02-Recap.md
+  - Inbox/Bisou.md
 confidence_level: medium
 ---
 

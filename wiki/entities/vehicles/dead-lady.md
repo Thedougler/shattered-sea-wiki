@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him."
-created: '2026-05-29'
+summary: The Red Lady, raised by Umberlee as pressure on Delmar Fisk — always upwind, always where you are going. She cannot kill Fisk without losing five captains' souls. She is not trying to kill him.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - undead
@@ -17,7 +17,7 @@ confidence_level: confirmed
 ship_class: brigantine
 tier: 2
 captain: "[[umberlee|Umberlee]]"
-current_location: "Dormant — deployed on Umberlee's order"
+current_location: Dormant — deployed on Umberlee's order
 ---
 
 # The *Dead Lady*

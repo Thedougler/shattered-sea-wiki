@@ -11,12 +11,12 @@ updated: 2026-05-31
 tags:
   - undead
 sources:
-  - "Inbox/Hierarch.md"
+  - Inbox/Hierarch.md
 confidence_level: high
 cr: 19
 aliases:
-  - "Hierarch"
-  - "Hierarch lich"
+  - Hierarch
+  - Hierarch lich
 ---
 
 # Hierarch

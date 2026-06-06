@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: lost
 audience: players
 publish: true
-summary: "Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw."
-created: '2026-05-29'
+summary: Gun brig and fifth ship of Fisk's Fleet — the fleet's dedicated combat vessel, captained by Bastian Crev, lost at the Drowned Maw.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Loud-Argument.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Loud-Argument.md
 confidence_level: confirmed
 ship_class: gun brig
 aliases:
-  - "Loud Argument"
-  - "The Loud Argument"
+  - Loud Argument
+  - The Loud Argument
 ---
 
 # The *Loud Argument*

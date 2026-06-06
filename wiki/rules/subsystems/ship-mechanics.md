@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Hub page for all Shattered Sea ship rules — tiers, crew, operations, bastion, upgrades, and combat."
-created: '2026-05-29'
+summary: Hub page for all Shattered Sea ship rules — tiers, crew, operations, bastion, upgrades, and combat.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime

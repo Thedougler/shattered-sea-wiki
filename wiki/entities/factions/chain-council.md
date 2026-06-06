@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Rarely assembled Midchain council convening in Kalowe when independent islands face problems too large for one island. It also controls Kalowe dry dock access and built Fisk's fleet under commission."
+summary: Rarely assembled Midchain council convening in Kalowe when independent islands face problems too large for one island. It also controls Kalowe dry dock access and built Fisk's fleet under commission.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - tessarine
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Chain-Council.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Chain-Council.md
 confidence_level: confirmed
 ---
 

@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 02, Scene 03 — Shepherd Grigori alone in the galley with the table set; crew behind a locked door; the Question, the Condition, and the Knighton reveal."
+summary: Session 02, Scene 03 — Shepherd Grigori alone in the galley with the table set; crew behind a locked door; the Question, the Condition, and the Knighton reveal.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
@@ -13,9 +13,9 @@ tags:
   - undead
   - dm-prep
 sources:
-  - "Inbox/sessions/02/Scene-03-Grigori.md"
+  - Inbox/sessions/02/Scene-03-Grigori.md
 session_number: 2
-session_date: "unknown"
+session_date: unknown
 beat_number: 3
 table_status: complete
 ---

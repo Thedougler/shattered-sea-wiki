@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business."
-created: '2026-05-29'
+summary: The communal gathering hall of the Warren — a wide, low-ceilinged chamber run by Essa Two-Tooth where all Kin eat, drink, exchange news, and conduct open business.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - rattkin
 sources:
-  - "Inbox/Warren-Nonas-Table.md"
-  - "Inbox/The-Low-Lamp.md"
+  - Inbox/Warren-Nonas-Table.md
+  - Inbox/The-Low-Lamp.md
 confidence_level: medium
 building_type: tavern
 aliases:

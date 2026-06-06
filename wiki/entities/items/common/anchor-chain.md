@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section."
-created: '2026-05-29'
+summary: Heavy drop-forged chain in 10-foot sections, rated for use with small vessel anchors. 6 gp per section.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

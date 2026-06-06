@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Lean shipwright who catalogues damage without being asked and stays if someone demonstrates they understand the difference between a caulked seam and a packed one."
+summary: Lean shipwright who catalogues damage without being asked and stays if someone demonstrates they understand the difference between a caulked seam and a packed one.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - recurring
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Sem-Holst.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Sem-Holst.md
 confidence_level: observed
 species: human
 pronouns: he/him
 banner: banners/Sem-Holst.webp
 portrait: portraits/Sem-Holst.webp
-roleplay: "The shipwright who sees hull damage the way a doctor sees symptoms — as information, not drama — and whose professional opinions are always correct and sometimes annoying."
+roleplay: The shipwright who sees hull damage the way a doctor sees symptoms — as information, not drama — and whose professional opinions are always correct and sometimes annoying.
 ---
 
 # Sem Holst

@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: resolved
 audience: dm
 publish: false
-summary: "Nona's favor was to investigate Grung sightings in the sewers. Party completed it in Session 04 — exposed a coordinated bombing plot, captured Felix Aho, returned with full intel."
+summary: Nona's favor was to investigate Grung sightings in the sewers. Party completed it in Session 04 — exposed a coordinated bombing plot, captured Felix Aho, returned with full intel.
 created: 2026-05-27
 updated: 2026-06-01
 tags:
   - passage
   - rattkin
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "audio/sessions/session04/recap.md"
+  - Inbox/Session-03-Recap.md
+  - audio/sessions/session04/recap.md
 lifecycle: resolved
-narrative_island:
+narrative_island: none
 ---
 
 # Nona's Favor

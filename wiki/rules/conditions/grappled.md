@@ -23,3 +23,5 @@ While you have the Grappled condition, you experience the following effects.
 **Attacks Affected.** You have Disadvantage on attack rolls against any target other than the grappler.
 
 **Movable.** The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.
+
+*2024 change: Grapple no longer automatically imposes [[restrained|Restrained]]. The Grappled condition only reduces Speed to 0.*

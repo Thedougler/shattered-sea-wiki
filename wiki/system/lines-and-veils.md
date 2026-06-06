@@ -11,11 +11,11 @@ updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "Inbox/lines-and-veils.md"
+  - Inbox/lines-and-veils.md
 system_role: unknown
 token_profile: on-demand
 mandatory_for: []
-update_trigger: ''
+update_trigger: ""
 ---
 
 # Lines and Veils

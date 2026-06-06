@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: dead
 audience: players
 publish: true
-summary: "Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest."
-created: '2026-05-29'
+summary: Sorcerer and flag captain of the Red Lady, Fisk's flagship — drowned at the Drowned Maw. His soul is inside Delmar Fisk, and of the five it is the loudest.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Fisks-Fleet.md"
-  - "Inbox/Rael-Corven.md"
+  - Inbox/Fisks-Fleet.md
+  - Inbox/Rael-Corven.md
 confidence_level: confirmed
 aliases:
-  - "Rael"
-banner: "banners/Rael-Corven.webp"
-roleplay_prompt: "Ron Swanson as a pirate captain, who is absolutely furious that he keeps caring about this new crew."
+  - Rael
+banner: banners/Rael-Corven.webp
+roleplay_prompt: Ron Swanson as a pirate captain, who is absolutely furious that he keeps caring about this new crew.
 ---
 
 # Rael Corven

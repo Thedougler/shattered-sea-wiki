@@ -5,17 +5,18 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Empirical combat data from sessions 03–04. Party punches above weight through coordination — bardic inspiration is the force multiplier."
+summary: Empirical combat data from sessions 03–04. Party punches above weight through coordination — bardic inspiration is the force multiplier.
 created: 2026-05-27
 updated: 2026-06-01
 tags:
   - combat
 sources:
-  - "audio/sessions/session04/extracts.md"
+  - audio/sessions/session04/extracts.md
 system_role: dm-intelligence
 token_profile: quick-ref
-mandatory_for: [encounter-design]
-update_trigger: "After each combat; when encounter difficulty patterns become clear"
+mandatory_for:
+  - encounter-design
+update_trigger: After each combat; when encounter difficulty patterns become clear
 ---
 
 # Combat Analytics — Shattered Sea

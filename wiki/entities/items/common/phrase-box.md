@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp."
-created: '2026-05-29'
+summary: A small clockwork device with rows of buttons that emit tones approximating common maritime words and phrases — the standard communication aid for Kenku working on ships. 8 gp.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: wondrous
 rarity: common

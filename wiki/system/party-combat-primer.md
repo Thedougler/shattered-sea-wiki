@@ -5,17 +5,18 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Agent quick reference for party-wide encounter tuning at level 4 — PC combat roles, observed patterns (sessions 1–4), lighting asymmetry, resource budget, and fair pressure distribution."
+summary: Agent quick reference for party-wide encounter tuning at level 4 — PC combat roles, observed patterns (sessions 1–4), lighting asymmetry, resource budget, and fair pressure distribution.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - player-resource
 sources:
-  - "Inbox/private/system/Party-Combat-Primer.md"
+  - Inbox/private/system/Party-Combat-Primer.md
 system_role: party-primer
 token_profile: always-read
-mandatory_for: [encounter-design]
-update_trigger: "PC levels up; new PC joins; mechanical capability changes; combat pattern observed"
+mandatory_for:
+  - encounter-design
+update_trigger: PC levels up; new PC joins; mechanical capability changes; combat pattern observed
 ---
 
 # Party Combat Primer — Shattered Sea

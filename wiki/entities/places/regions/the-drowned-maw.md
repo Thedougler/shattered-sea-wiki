@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters."
-created: '2026-05-29'
+summary: A vast eastern trench where charts, compasses, and sailors grow less confident — the only route east, guarded by bottomless soundings, compass drift, and depth-arranged monsters.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Crissdalynn-Khinriss.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Drowned-Maw.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/Crissdalynn-Khinriss.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Drowned-Maw.md
 confidence_level: confirmed
 region_type: navigation-region
 parent_location: "[[shattered-sea|The Shattered Sea]]"
-governance: "watched by the Sentinels, avoided by sailors, contested around salvage traffic"
-access: "star navigation; no anchoring; compass drift within five miles"
+governance: watched by the Sentinels, avoided by sailors, contested around salvage traffic
+access: star navigation; no anchoring; compass drift within five miles
 aliases:
   - Drowned Maw
   - Maw

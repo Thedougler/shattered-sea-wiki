@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar."
-created: '2026-05-29'
+summary: The exposed watch island at the eastern edge of the Sunken Crown, facing open Maw waters — a signal post maintained by rotating watchers from Keth-Naar.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - sunken-crown
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 island_type: watch-island
 aliases:
-  - "Eastern Gate"
+  - Eastern Gate
 parent_location: "[[sunken-crown|The Sunken Crown]]"
 governance: "[[keth-naar|Keth-Naar]] rotating watchers"
-access: "Exposed watch run facing open Maw waters"
+access: Exposed watch run facing open Maw waters
 ---
 
 # Meth-Var

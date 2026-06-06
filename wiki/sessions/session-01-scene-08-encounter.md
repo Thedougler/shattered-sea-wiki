@@ -13,9 +13,9 @@ tags:
   - dravosi
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-08-Encounter.md"
+  - Inbox/sessions/01/Scene-08-Encounter.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 8
 table_status: complete
 ---

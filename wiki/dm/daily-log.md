@@ -5,7 +5,7 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Log of autonomous daily wiki maintenance runs."
+summary: Log of autonomous daily wiki maintenance runs.
 created: 2026-05-30
 updated: 2026-05-31
 tags: []

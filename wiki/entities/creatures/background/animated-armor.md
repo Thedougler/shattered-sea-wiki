@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks."
+summary: CR 1 construct. Blindsight 60 ft., immune to poison and psychic, two Slam attacks.
 created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat
 sources:
-  - "Inbox/animated-armor.md"
+  - Inbox/animated-armor.md
 confidence_level: high
 cr: 1
 ---

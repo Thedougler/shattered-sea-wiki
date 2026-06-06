@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Ship upgrade that automatically charts the vessel's route in real time; produced charts sell for 50–200 gp each."
-created: '2026-05-29'
+summary: Ship upgrade that automatically charts the vessel's route in real time; produced charts sell for 50–200 gp each.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

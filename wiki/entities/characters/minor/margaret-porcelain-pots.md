@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week."
+summary: Dragonborn potter, peach-and-cream scales, three generations of potters behind her, and the woman who left Delmar Fisk with a shiner that lasted a week.
 created: 2026-05-02
 updated: 2026-06-04
 tags:
   - fisk-fleet
 sources:
-  - "Inbox/Delmar-Fisk.md"
-  - "Inbox/Maggie-Porcelain-Pots.md"
+  - Inbox/Delmar-Fisk.md
+  - Inbox/Maggie-Porcelain-Pots.md
 confidence_level: medium
 aliases:
   - Maggie Porcelain Pots
   - Margaret Porcelain Pots
   - Maggie
-roleplay_prompt: "Dolly Parton if she fired her own kilns and once decked an admiral"
+roleplay_prompt: Dolly Parton if she fired her own kilns and once decked an admiral
 ---
 
 # Maggie Porcelain Pots

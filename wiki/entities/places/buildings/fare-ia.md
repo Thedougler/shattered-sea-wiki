@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell."
-created: '2026-05-29'
+summary: A small Port Tidefall dock-market stall selling sweet, sharp Grung-style fish jerky to sailors, dock workers, and anyone hungry enough to trust the smell.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - grung
 sources:
-  - "Inbox/Fare-Ia.md"
+  - Inbox/Fare-Ia.md
 confidence_level: medium
 building_type: stall
 parent_location: "[[port-tidefall|Port Tidefall]]"

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: agent
 publish: false
-summary: "Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities."
-created: '2026-05-29'
+summary: Agent quick reference for spotlighting and fairly pressuring Crissdalynn's flight, loyalty, and darkness vulnerabilities.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - player-resource
@@ -14,7 +14,7 @@ sources: []
 system_role: unknown
 token_profile: on-demand
 mandatory_for: []
-update_trigger: ''
+update_trigger: ""
 confidence_level: medium
 ---
 

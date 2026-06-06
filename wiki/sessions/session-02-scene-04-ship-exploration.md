@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 02, Scene 04 — The party tours the HCS Surety with Geoffrey Draves as guide. Ship roles, loot by room, crew retention hooks, and Ket in the brig."
+summary: Session 02, Scene 04 — The party tours the HCS Surety with Geoffrey Draves as guide. Ship roles, loot by room, crew retention hooks, and Ket in the brig.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - maritime
   - dm-prep
 sources:
-  - "Inbox/sessions/02/Scene-04-Ship-Exploration.md"
+  - Inbox/sessions/02/Scene-04-Ship-Exploration.md
 session_number: 2
-session_date: "unknown"
+session_date: unknown
 beat_number: 4
 ---
 

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching."
-created: '2026-05-29'
+summary: A directional lantern with a convex glass lens that projects a focused beam — useful for signalling and searching.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - player-resource

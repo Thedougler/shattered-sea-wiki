@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Five low islands on the rim of something drowned — the Blue Hole, and the Tabaxi who have kept watch here longer than any outside record."
-created: '2026-05-29'
+summary: Five low islands on the rim of something drowned — the Blue Hole, and the Tabaxi who have kept watch here longer than any outside record.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - umberlee
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Sunken-Crown.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Sunken-Crown.md
 confidence_level: medium
 region_type: reef-region
 aliases:
   - Sunken Crown
 parent_location: "[[outer-reach|The Outer Reach]]"
-governance: "Keth-Naar elders, watch rotations, and shrine authority"
-access: "dangerous reef approach; local knowledge required"
+governance: Keth-Naar elders, watch rotations, and shrine authority
+access: dangerous reef approach; local knowledge required
 ---
 
 # The Sunken Crown

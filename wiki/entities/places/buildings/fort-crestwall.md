@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should."
-created: '2026-05-29'
+summary: The Dravosi fort crowning Port Tidefall — visible from the harbour approach, cannon on the seaward face, and a garrison currently running heavier than it should.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "Inbox/Fort-Crestwall.md"
+  - Inbox/Fort-Crestwall.md
 confidence_level: medium
 building_type: fort
 parent_location: "[[port-tidefall|Port Tidefall]]"

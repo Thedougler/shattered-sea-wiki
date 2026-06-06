@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "The four working hirelings crewing the Saltwright under Captain Beaumont Sel — navigator, bosun, cook, and ordinary sailor."
+summary: The four working hirelings crewing the Saltwright under Captain Beaumont Sel — navigator, bosun, cook, and ordinary sailor.
 created: 2026-05-03
 updated: 2026-05-31
 tags:
   - maritime
   - recurring
 sources:
-  - "Inbox/Beaumonts-Crew.md"
+  - Inbox/Beaumonts-Crew.md
 confidence_level: medium
 aliases:
-  - "Saltwright Crew"
+  - Saltwright Crew
 ---
 
 # Beaumont's Crew

@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file."
-created: '2026-05-29'
+summary: Sub-basements beneath Fort Crestwall, officially recorded in Crown architectural surveys as sealed errors. Access is not permitted; no further information is on file.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Drave-Vaults.md"
-  - "raw/caldurs-tooth.md"
+  - Inbox/Drave-Vaults.md
+  - raw/caldurs-tooth.md
 confidence_level: low
 site_type: dungeon
 parent_location: "[[fort-crestwall|Fort Crestwall]]"
 governance: "[[dravosi-crown|The Dravosi Crown]]"
-access: "sealed; access not permitted"
+access: sealed; access not permitted
 ---
 
 # Drave Vaults

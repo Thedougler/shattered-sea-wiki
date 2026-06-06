@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships."
+summary: Small Rattkin dockhand with too many pockets and an unread treasure map — unwitting carrier of Detto Kalash's buried cache note, passing through Port Tidefall between ships.
 created: 2026-04-19
 updated: 2026-06-04
 tags:
   - rattkin
 sources:
-  - "Inbox/Vrtek.md"
+  - Inbox/Vrtek.md
 confidence_level: medium
 roleplay_prompt: "Pocket archaeologist — everything gets classified: useful, pretty, mysterious, food"
 ---

@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio."
+summary: Four-foot spike of bone and cartilage from a 60-ft whip shark; serrated on every edge but the base. Recovered by Delmar. Under appraisal at Kat's Curios by Catalina Curio.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - maritime
   - homebrew
 sources:
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Session-03-Recap.md
 confidence_level: observed
 ---
 

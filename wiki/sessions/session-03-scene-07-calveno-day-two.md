@@ -13,7 +13,7 @@ tags:
   - dm-prep
 sources: []
 session_number: 3
-session_date: "unknown"
+session_date: unknown
 ---
 
 # Scene 07 — Calveno Day Two: Kyzil

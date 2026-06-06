@@ -5,19 +5,19 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp."
-created: '2026-05-29'
+summary: A courier-rigged sloop impounded for three years at Port Tidefall — structurally sound, visibly worn, two unmounted cannons in the hold, and a hidden cargo compartment behind the stern bunk. Clears for 374 gp.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
   - dravosi
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 ship_class: sloop (courier-rigged)
 tier: 1
-banner: "banners/Lasting-Insult.webp"
-current_location: "South Harbour Impound, Port Tidefall"
+banner: banners/Lasting-Insult.webp
+current_location: South Harbour Impound, Port Tidefall
 home_port: "[[port-tidefall|Port Tidefall]]"
 ---
 

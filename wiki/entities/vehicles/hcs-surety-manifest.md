@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications."
+summary: Post-Session 02 inventory of the ship (then HCS Surety), organized by room. Updated at La Vasca refit. Tracks original contents, what was taken, and Uncertainty modifications.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Inbox/HCS-Surety-Manifest.md"
+  - Inbox/HCS-Surety-Manifest.md
 confidence_level: medium
 ---
 

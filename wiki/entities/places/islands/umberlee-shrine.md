@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "An old Waveservant shrine cut into black stone on Vel-Orn in the Sunken Crown, tied to water-debt, drowned names, and the old Umberlee worship of the Blue Hole."
-created: '2026-05-29'
+summary: An old Waveservant shrine cut into black stone on Vel-Orn in the Sunken Crown, tied to water-debt, drowned names, and the old Umberlee worship of the Blue Hole.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - umberlee
@@ -21,7 +21,7 @@ aliases:
   - Vel-Orn Shrine
 parent_location: "[[vel-orn|Vel-Orn]]"
 governance: "[[waveservants|Waveservants]]"
-access: "hidden; dangerous reef approach; guide or prior knowledge required"
+access: hidden; dangerous reef approach; guide or prior knowledge required
 ---
 
 # Umberlee's Shrine — Sunken Crown

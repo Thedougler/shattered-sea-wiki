@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best."
-created: '2026-05-29'
+summary: A waist-deep limestone fighting pit on Kalowe's third island — no-holds-barred brawls to unconsciousness, betting managed by pit boss Bala Tane, weight classes a guideline at best.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Bala-Tane.md"
-  - "Inbox/The-Mud-Pits.md"
+  - Inbox/Bala-Tane.md
+  - Inbox/The-Mud-Pits.md
 confidence_level: medium
 site_type: arena
 aliases:

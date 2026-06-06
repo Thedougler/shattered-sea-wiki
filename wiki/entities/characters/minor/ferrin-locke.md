@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found."
+summary: Stub — Calveno chandlery factor and Dravosi intelligence leak; wife and daughter live in Le Paludi; frightened and cooperative if found.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - needs-detail
   - dravosi
 sources:
-  - "Inbox/Warren-Ferrin-Locke.md"
+  - Inbox/Warren-Ferrin-Locke.md
 confidence_level: confirmed
 ---
 

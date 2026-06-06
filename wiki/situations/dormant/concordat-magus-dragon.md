@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: dormant
 audience: dm
 publish: false
-summary: "The Tessarine Concordat has no human leadership. Its true architect is a Magus Dragon who accumulates obligation — leverage over councils, trade routes, and inherited debt — rather than gold."
+summary: The Tessarine Concordat has no human leadership. Its true architect is a Magus Dragon who accumulates obligation — leverage over councils, trade routes, and inherited debt — rather than gold.
 created: 2026-05-13
 updated: 2026-06-01
 tags:
   - tessarine
   - late-game
 sources:
-  - "Inbox/situations/revelations/Concordat-True-Architect.md"
+  - Inbox/situations/revelations/Concordat-True-Architect.md
 lifecycle: dormant
 narrative_island: ""
 reveal_tier: late

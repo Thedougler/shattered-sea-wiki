@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A Sawek has moved into the channel between Kalowe's second and third islands, wrecking fishing boats. The harbour bosses are paying 300gp for the ridge-plate; the lair holds its own loot."
+summary: A Sawek has moved into the channel between Kalowe's second and third islands, wrecking fishing boats. The harbour bosses are paying 300gp for the ridge-plate; the lair holds its own loot.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/situations/islands/Kalowe-Sawek-Bounty.md"
+  - Inbox/situations/islands/Kalowe-Sawek-Bounty.md
 lifecycle: active
 narrative_island: ""
 region: midchain

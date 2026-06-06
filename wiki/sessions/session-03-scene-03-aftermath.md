@@ -11,9 +11,9 @@ updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/03/Scene-03-Aftermath.md"
+  - Inbox/sessions/03/Scene-03-Aftermath.md
 session_number: 3
-session_date: "unknown"
+session_date: unknown
 beat_number: 3
 table_status: complete
 ---

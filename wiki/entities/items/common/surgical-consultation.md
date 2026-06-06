@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A professional assessment of a serious injury and a supply list for a ship's surgeon to operate — 2 gp, the apothecary does not operate herself."
-created: '2026-05-29'
+summary: A professional assessment of a serious injury and a supply list for a ship's surgeon to operate — 2 gp, the apothecary does not operate herself.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - homebrew

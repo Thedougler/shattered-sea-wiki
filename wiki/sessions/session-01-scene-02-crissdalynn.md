@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 2 — Crissdalynn introduction flying above the Saltwright; backstory of the Maw mapping task and fleet loss; Dravosi cutter spotted."
+summary: Session 01, Beat 2 — Crissdalynn introduction flying above the Saltwright; backstory of the Maw mapping task and fleet loss; Dravosi cutter spotted.
 created: 2026-04-22
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-02-Crissdalynn.md"
+  - Inbox/sessions/01/Scene-02-Crissdalynn.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 2
 table_status: complete
 ---

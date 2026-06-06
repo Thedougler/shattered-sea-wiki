@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check."
+summary: Session 01, Beat 4 — Stripes Bitemore introduction on the Saltwright deck; fishing competition with skill check.
 created: 2026-04-25
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-04-Stripes.md"
+  - Inbox/sessions/01/Scene-04-Stripes.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 4
 table_status: complete
 ---

@@ -5,16 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Rupert Knighton will send ships in response to Cap'n Gorgeous's death. Warning came from Shepherd Grigori. Timeline unknown. The party has not yet encountered Knighton."
+summary: Rupert Knighton will send ships in response to Cap'n Gorgeous's death. Warning came from Shepherd Grigori. Timeline unknown. The party has not yet encountered Knighton.
 created: 2026-05-27
 updated: 2026-06-01
 tags:
   - dravosi
   - maritime
   - recurring
-sources: ["Inbox/Session-02-Recap.md"]
+sources:
+  - Inbox/Session-02-Recap.md
 lifecycle: active
-narrative_island:
+narrative_island: none
 ---
 
 # The Knighton Pursuit

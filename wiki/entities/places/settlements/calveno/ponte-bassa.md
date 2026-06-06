@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years."
-created: '2026-05-29'
+summary: Canal-level tavern built into the bridge masonry at the main Calveno crossing — cheap food, basic beds, and a proprietor who has been watching boats arrive for thirty years.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - waveservants
 sources:
-  - "Inbox/Calveno-Sandbox-Run-Guide.md"
-  - "Inbox/Ponte-Bassa.md"
+  - Inbox/Calveno-Sandbox-Run-Guide.md
+  - Inbox/Ponte-Bassa.md
 confidence_level: observed
 building_type: tavern
 aliases:
-  - "Ponte Bassa"
+  - Ponte Bassa
 parent_location: "[[calveno|Calveno]]"
 district: The Bridge
 ---

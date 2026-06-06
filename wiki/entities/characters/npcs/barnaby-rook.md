@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: dead
 audience: dm
 publish: false
-summary: "Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names."
+summary: Crown privateer captain of the HCS Surety — runs the eastern inspection and shakedown pressure campaign. Harder replacement for Norrington Kingsly; less interested in fees, more in leverage and names.
 created: 2026-05-27
 updated: 2026-06-01
 tags:
   - dravosi
   - recurring
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Barnaby-Rook.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Barnaby-Rook.md
 confidence_level: observed
 species: human
 ---

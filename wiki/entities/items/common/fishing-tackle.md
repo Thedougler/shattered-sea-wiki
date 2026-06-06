@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Line, hooks, and leads for fishing — supplements ship's provisions on long passages."
-created: '2026-05-29'
+summary: Line, hooks, and leads for fishing — supplements ship's provisions on long passages.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "PHB"
+  - PHB
 confidence_level: medium
 item_type: tool
 rarity: common

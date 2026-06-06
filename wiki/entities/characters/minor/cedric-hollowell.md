@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Crown-licensed import factor in Port Tidefall and Verity's father — set the financial terms that sent Geoffrey away, has a ledger problem he may or may not know about, and keeps making introductions his daughter keeps not concluding."
+summary: Crown-licensed import factor in Port Tidefall and Verity's father — set the financial terms that sent Geoffrey away, has a ledger problem he may or may not know about, and keeps making introductions his daughter keeps not concluding.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - dravosi
 sources:
-  - "Inbox/Cedric-Hollowell.md"
+  - Inbox/Cedric-Hollowell.md
 confidence_level: confirmed
 species: human
 ---

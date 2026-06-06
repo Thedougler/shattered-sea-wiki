@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it."
-created: '2026-05-29'
+summary: Hand-copied regional navigation charts — accuracy varies by source, region, and how recently the copyist sailed it.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: tool
 rarity: common

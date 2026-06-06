@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Spare planks, bolts, canvas, and rope sold at chandlery rate from working boatyards — stock varies, but a good yard always has the basics."
-created: '2026-05-29'
+summary: Spare planks, bolts, canvas, and rope sold at chandlery rate from working boatyards — stock varies, but a good yard always has the basics.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

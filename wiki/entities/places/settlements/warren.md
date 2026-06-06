@@ -5,25 +5,25 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "The fixed Rattkin city beneath Calveno's Le Paludi drainage network — low old channels, hidden holds, oil lamps, rope bridges, and the deepest anchor of the Passage."
+summary: The fixed Rattkin city beneath Calveno's Le Paludi drainage network — low old channels, hidden holds, oil lamps, rope bridges, and the deepest anchor of the Passage.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - rattkin
   - passage
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Perrin-Black-Jaw.md"
-  - "Inbox/Rattkin.md"
-  - "Inbox/Passage.md"
-  - "Inbox/Black-Jaw-Run.md"
-  - "Inbox/Warren.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Perrin-Black-Jaw.md
+  - Inbox/Rattkin.md
+  - Inbox/Passage.md
+  - Inbox/Black-Jaw-Run.md
+  - Inbox/Warren.md
 confidence_level: confirmed
 settlement_type: hidden-settlement
 region: calveno
 parent_location: "[[calveno|Calveno]]"
 governance: "[[the-passage|The Passage]] and Kin elders"
-access: "Hidden; invitation and kin trust only"
+access: Hidden; invitation and kin trust only
 ---
 
 # The Warren

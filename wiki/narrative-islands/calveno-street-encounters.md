@@ -12,7 +12,7 @@ tags:
   - combat
   - dm-prep
 sources:
-  - "Inbox/Calveno-Street-Encounters.md"
+  - Inbox/Calveno-Street-Encounters.md
 portable: false
 entry_points:
   - Party moves through city districts

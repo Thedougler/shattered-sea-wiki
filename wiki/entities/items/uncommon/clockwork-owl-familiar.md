@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable."
-created: '2026-05-29'
+summary: Antheri-derived brass familiar from Cat's Curios — repairable rather than permanently destroyable, common enough throughout the Shattered Sea to have stopped being remarkable.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - antheri
   - homebrew
 sources:
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Clockwork-Familiar.md"
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Clockwork-Familiar.md
 confidence_level: confirmed
 item_type: construct
 rarity: uncommon

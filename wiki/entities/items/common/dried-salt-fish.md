@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port."
-created: '2026-05-29'
+summary: Air-dried and salted fish — light, shelf-stable, and available fresh-caught at every Midchain free port.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: provision
 rarity: common

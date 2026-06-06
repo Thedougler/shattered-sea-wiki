@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands."
-created: '2026-05-29'
+summary: The Chain Council's dispatch sloop — a Tier 1 speed-built cutter kept at Kalowe to move representatives, sealed orders, and commission documents between Midchain islands.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Chain-Council.md"
-  - "Inbox/The-Quorum.md"
+  - Inbox/Chain-Council.md
+  - Inbox/The-Quorum.md
 confidence_level: confirmed
 ship_class: cutter
 tier: 1

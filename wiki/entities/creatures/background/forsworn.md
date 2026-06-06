@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others."
+summary: CR 21 undead lich. Paladin lich that achieves undeath communally — an entire order swears an undying oath together, making each member a phylactery for all others.
 created: 2026-05-15
 updated: 2026-05-31
 tags:
   - undead
 sources:
-  - "Inbox/Forsworn.md"
+  - Inbox/Forsworn.md
 confidence_level: high
 cr: 21
 aliases:
-  - "Forsworn"
+  - Forsworn
 ---
 
 # Forsworn

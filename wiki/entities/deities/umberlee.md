@@ -11,12 +11,12 @@ updated: 2026-06-01
 tags:
   - waveservants
 sources:
-  - "Inbox/Delmar-Fisk.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Campaign-Timeline.md"
-  - "Inbox/Umberlee.md"
-  - "Inbox/Shattered-Sea-Pantheon.md"
-  - "Inbox/situations/reference/Umberlee-DM.md"
+  - Inbox/Delmar-Fisk.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Campaign-Timeline.md
+  - Inbox/Umberlee.md
+  - Inbox/Shattered-Sea-Pantheon.md
+  - Inbox/situations/reference/Umberlee-DM.md
 confidence_level: confirmed
 ---
 

@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "A professional inspection of hull condition, seams, and keel — an assessment report included with any job at reputable yards."
-created: '2026-05-29'
+summary: A professional inspection of hull condition, seams, and keel — an assessment report included with any job at reputable yards.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: service
 rarity: common

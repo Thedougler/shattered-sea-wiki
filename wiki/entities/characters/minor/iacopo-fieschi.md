@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city."
+summary: Tessarine Concordat envoy to Calveno — the public human face of Concordat operations in the city.
 created: 2026-05-02
 updated: 2026-05-31
 tags:
   - tessarine
 sources:
-  - "Inbox/Calveno.md"
-  - "Inbox/Warren-Marrows-Crate.md"
-  - "Inbox/Calveno-Beffa-Grung-Raid.md"
-  - "Inbox/Iacopo-Fieschi.md"
+  - Inbox/Calveno.md
+  - Inbox/Warren-Marrows-Crate.md
+  - Inbox/Calveno-Beffa-Grung-Raid.md
+  - Inbox/Iacopo-Fieschi.md
 confidence_level: medium
 aliases:
   - Fieschi

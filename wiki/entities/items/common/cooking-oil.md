@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Palm oil or similar clean cooking fat — essential for any galley that does more than boil things."
-created: '2026-05-29'
+summary: Palm oil or similar clean cooking fat — essential for any galley that does more than boil things.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

@@ -5,17 +5,17 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Jean-Claude's caste-bound, slaveholding people in the Verdant Teeth. Their color hierarchy, toxin economy, and Simone's supply line are active Jean-Claude pressures."
+summary: Jean-Claude's caste-bound, slaveholding people in the Verdant Teeth. Their color hierarchy, toxin economy, and Simone's supply line are active Jean-Claude pressures.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - grung
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Jean-Claude-Tabarnack.md"
-  - "Inbox/Grung.md"
-  - "Inbox/Demographics.md"
-  - "Inbox/Grung-Clans.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Jean-Claude-Tabarnack.md
+  - Inbox/Grung.md
+  - Inbox/Demographics.md
+  - Inbox/Grung-Clans.md
 confidence_level: confirmed
 ---
 

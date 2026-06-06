@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: future
 audience: dm
 publish: false
-summary: "Season 2 PC concept — beautiful elf sorcerer/bard with a voice that stops conversation; raised in Halythion, left before being evaluated, marked by a Sawek."
+summary: Season 2 PC concept — beautiful elf sorcerer/bard with a voice that stops conversation; raised in Halythion, left before being evaluated, marked by a Sawek.
 created: 2026-05-28
 updated: 2026-06-04
 tags:
   - waveservants
 sources:
-  - "Inbox/Flappers-the-Seal.md"
-  - "Inbox/Coralyra-Dranra.md"
+  - Inbox/Flappers-the-Seal.md
+  - Inbox/Coralyra-Dranra.md
 confidence_level: medium
 species: elf
 ---

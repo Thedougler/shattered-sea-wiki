@@ -5,18 +5,18 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise."
-created: '2026-05-29'
+summary: An ironworks and hardware shop on Kalowe's first island — anchor chain, deck fittings, tools, and a back shelf of arms that Kettil Ormsson does not advertise.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Kettil-Ormsson.md"
-  - "Inbox/Ormssons-Fittings.md"
+  - Inbox/Kettil-Ormsson.md
+  - Inbox/Ormssons-Fittings.md
 confidence_level: medium
 building_type: shop
 aliases:
-  - "Ormsson's"
+  - Ormsson's
 parent_location: "[[kalowe|Kalowe]]"
 district: First Island, dry-dock quarter
 ---

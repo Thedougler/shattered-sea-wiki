@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: stub
 audience: dm
 publish: false
-summary: "Midchain first mate, sole survivor of the Cormorant wreck; drinking at The Flat Water in Kalowe, looking for divers to recover the captain's strongbox."
+summary: Midchain first mate, sole survivor of the Cormorant wreck; drinking at The Flat Water in Kalowe, looking for divers to recover the captain's strongbox.
 created: 2026-05-30
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/situations/islands/Kalowe-Merrows-Prize.md"
+  - Inbox/situations/islands/Kalowe-Merrows-Prize.md
 confidence_level: medium
 region: midchain
 ---

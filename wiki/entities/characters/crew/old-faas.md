@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Veteran bosun, rated rigger, constitutionally unkillable. Returns from Calveno shore leave with two peg legs and three contradictory stories about how he lost them. Somehow faster on the rigging than before."
+summary: Veteran bosun, rated rigger, constitutionally unkillable. Returns from Calveno shore leave with two peg legs and three contradictory stories about how he lost them. Somehow faster on the rigging than before.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - recurring
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Old-Faas.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Old-Faas.md
 confidence_level: observed
 species: human
 pronouns: he/him
 banner: banners/Old-Faas.webp
 portrait: portraits/Old-Faas.webp
-roleplay: "Scruffy the Janitor as a literally fearless and inexplicably immortal sailor. Flat affect. Short declarative sentences. Does not elaborate unless asked, then elaborates exactly once. Unaware that other people find his situation remarkable."
+roleplay: Scruffy the Janitor as a literally fearless and inexplicably immortal sailor. Flat affect. Short declarative sentences. Does not elaborate unless asked, then elaborates exactly once. Unaware that other people find his situation remarkable.
 ---
 
 # Old Faas

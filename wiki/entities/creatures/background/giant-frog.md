@@ -6,7 +6,7 @@ status: unknown
 audience: players
 publish: true
 summary: Public statblock reference for Giant Frog, a CR 1/4 beast in the Shattered Sea bestiary.
-created: '2026-04-25'
+created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat

@@ -5,8 +5,8 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward."
-created: '2026-05-29'
+summary: Manual reduction of a bone fracture — straightforward breaks only, 1gp, and the apothecary will tell you if it's not straightforward.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - homebrew

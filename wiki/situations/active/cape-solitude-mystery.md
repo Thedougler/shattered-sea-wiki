@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved."
+summary: Three lighthouse crews vanished from Cape Solitude on Calder's Tooth. The pre-colonial tower is older than the Crown's claim. No tools were found. No signs of struggle. Intentionally unresolved.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - mystery
-sources: ["Inbox/Cape-Solitude.md"]
+sources:
+  - Inbox/Cape-Solitude.md
 lifecycle: active
-narrative_island:
-title: Cape Solitude — Dead Light Mystery
+narrative_island: none
 region: crown-islands
 confidence_level: low
 ---

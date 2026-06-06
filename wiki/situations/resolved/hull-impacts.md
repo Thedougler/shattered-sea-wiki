@@ -5,15 +5,17 @@ campaign: shattered-sea
 status: resolved
 audience: dm
 publish: false
-summary: "RESOLVED Session 03 — whip shark (60+ ft) killed in open water by the party. Hull patched with scales during the 5-day transit to Calveno."
+summary: RESOLVED Session 03 — whip shark (60+ ft) killed in open water by the party. Hull patched with scales during the 5-day transit to Calveno.
 created: 2026-05-27
 updated: 2026-05-31
 tags:
   - maritime
   - combat
-sources: ["Inbox/Session-02-Recap.md", "Inbox/Session-03-Recap.md"]
+sources:
+  - Inbox/Session-02-Recap.md
+  - Inbox/Session-03-Recap.md
 lifecycle: resolved
-narrative_island:
+narrative_island: none
 ---
 
 # Hull Impacts

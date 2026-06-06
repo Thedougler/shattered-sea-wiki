@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings."
-created: '2026-05-29'
+summary: Removal and disposal of a vessel's registry plate — no record kept of the previous plate's markings.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - maritime
 sources:
-  - "Homebrew"
+  - Homebrew
 confidence_level: medium
 item_type: service
 rarity: uncommon

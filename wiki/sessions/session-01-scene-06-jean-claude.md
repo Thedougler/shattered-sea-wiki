@@ -5,15 +5,15 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Session 01, Beat 6 — Jean-Claude Tabarnack introduction; fleeing the Verdant Teeth; boarding the Saltwright hull; reef shark escalation; meeting Perrin in the hold."
+summary: Session 01, Beat 6 — Jean-Claude Tabarnack introduction; fleeing the Verdant Teeth; boarding the Saltwright hull; reef shark escalation; meeting Perrin in the hold.
 created: 2026-04-22
 updated: 2026-06-04
 tags:
   - dm-prep
 sources:
-  - "Inbox/sessions/01/Scene-06-Jean-Claude.md"
+  - Inbox/sessions/01/Scene-06-Jean-Claude.md
 session_number: 1
-session_date: "unknown"
+session_date: unknown
 beat_number: 6
 table_status: complete
 ---

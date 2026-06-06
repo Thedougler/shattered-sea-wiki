@@ -5,20 +5,20 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Fifteen, enthusiastic, knows every sailing manual by heart and has sailed on almost none of them — easiest recruit aboard, stays for any destination that sounds interesting."
+summary: Fifteen, enthusiastic, knows every sailing manual by heart and has sailed on almost none of them — easiest recruit aboard, stays for any destination that sounds interesting.
 created: 2026-05-17
 updated: 2026-05-31
 tags:
   - recurring
 sources:
-  - "Inbox/Session-02-Recap.md"
-  - "Inbox/Noor.md"
+  - Inbox/Session-02-Recap.md
+  - Inbox/Noor.md
 confidence_level: observed
 species: human
 pronouns: they/them
 banner: banners/Noor.webp
 portrait: portraits/Noor.webp
-roleplay: "The kid who memorized the textbook and now gets to find out if any of it was right."
+roleplay: The kid who memorized the textbook and now gets to find out if any of it was right.
 ---
 
 # Noor

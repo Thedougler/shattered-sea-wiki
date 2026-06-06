@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himself (Mortis). Carries guilt for a gnome's death and for the slave raids he ran before his conscience woke. Simone is his sister and she betrayed him."
+summary: 12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himself (Mortis). Carries guilt for a gnome's death and for the slave raids he ran before his conscience woke. Simone is his sister and she betrayed him.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Jean-Claude-Tabarnack.md"
-  - "Inbox/Campaign-Timeline.md"
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-03-Recap.md
+  - Inbox/Jean-Claude-Tabarnack.md
+  - Inbox/Campaign-Timeline.md
 confidence_level: confirmed
 portrait: portraits/Jean-Claude-Tabarnack.webp
 ---

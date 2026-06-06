@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Player-facing index of known ships — vessels the party sails, has sailed, or should recognise on sight."
+summary: Player-facing index of known ships — vessels the party sails, has sailed, or should recognise on sight.
 created: 2026-05-04
 updated: 2026-05-31
 tags:
   - player-resource
 sources:
-  - "Inbox/ships/index.md"
+  - Inbox/ships/index.md
 confidence_level: medium
 ---
 

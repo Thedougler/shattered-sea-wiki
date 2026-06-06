@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach."
+summary: CR 8 dragon. Huge sea serpent; Bite, Constrict, Tail, Rime Breath 30-ft cone. Hunts the Outer Reach.
 created: 2026-04-25
 updated: 2026-06-04
 tags:
   - combat
   - maritime
 sources:
-  - "Inbox/young-sea-serpent.md"
+  - Inbox/young-sea-serpent.md
 confidence_level: high
 cr: 8
 ---

@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock."
+summary: Tier 1 patrol cutter, formerly HCS Surety — repainted, renamed, and refitted at La Vasca by Cobb on Nona Black-Jaw's account. Ram bow, shallow keel (4 ft draft), all facilities installed. Captained by Delmar Fisk. Currently in dry dock.
 created: 2026-05-28
 updated: 2026-05-31
 tags:
   - maritime
   - recurring
 sources:
-  - "Inbox/Uncertainty.md"
-  - "Inbox/Session-01-Recap.md"
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Uncertainty.md
+  - Inbox/Session-01-Recap.md
+  - Inbox/Session-03-Recap.md
 confidence_level: high
 ship_class: patrol cutter (private registry)
 captain: "[[delmar-fisk|Delmar Fisk]]"

@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters."
-created: '2026-05-29'
+summary: A Dravosi Crown Tier 2 enforcement brigantine commanding the Central Strait approaches — twelve guns, sealed Admiralty orders, and authority to detain, seize, and issue provisional privateer letters.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dravosi
 sources:
-  - "wiki/situations/active/surety-missing.md"
-  - "wiki/entities/characters/npcs/commander-gideon-ault.md"
-  - "Inbox/HCS-Warrant.md"
+  - wiki/situations/active/surety-missing.md
+  - wiki/entities/characters/npcs/commander-gideon-ault.md
+  - Inbox/HCS-Warrant.md
 confidence_level: medium
 ship_class: enforcement brigantine
 tier: 2
 captain: "[[commander-gideon-ault|Commander Gideon Ault]]"
-current_location: "Central Strait, western patrol route"
-home_port: "Harwick naval anchorage, Crown Islands"
+current_location: Central Strait, western patrol route
+home_port: Harwick naval anchorage, Crown Islands
 ---
 
 # HCS Warrant

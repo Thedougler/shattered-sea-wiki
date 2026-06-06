@@ -5,21 +5,21 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way."
-created: '2026-05-29'
+summary: The second eastern Verdant Teeth island, paired close with Dreth across a narrow shadowed channel — low, green, and quiet in the wrong way.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - grung
 sources:
-  - "Inbox/Dreth.md"
-  - "Inbox/Orak.md"
+  - Inbox/Dreth.md
+  - Inbox/Orak.md
 confidence_level: medium
 island_type: hostile-island
 aliases:
-  - "Orak Island"
+  - Orak Island
 parent_location: "[[verdant-teeth|The Verdant Teeth]]"
 governance: "[[grung-clans|The Grung Clans]]"
-access: "No sanctioned outside access; channel approach is dangerous"
+access: No sanctioned outside access; channel approach is dangerous
 ---
 
 # Orak

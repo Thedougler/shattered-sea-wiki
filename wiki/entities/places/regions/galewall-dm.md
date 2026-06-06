@@ -5,13 +5,13 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something."
-created: '2026-05-29'
+summary: DM companion for the Galewall. Phoenix causality is likely true. Stormwarden is intentionally unresolved. Every crossing costs something.
+created: 2026-05-29
 updated: 2026-05-31
 tags:
   - dm-prep
 sources:
-  - "Inbox/Galewall.md"
+  - Inbox/Galewall.md
 confidence_level: high
 ---
 

@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno."
+summary: Three fertilized whip shark eggs recovered from the body. Jean-Claude's; directed to Marta Orsini at Studio Orsini in Calveno.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - maritime
   - homebrew
 sources:
-  - "Inbox/Session-03-Recap.md"
+  - Inbox/Session-03-Recap.md
 confidence_level: observed
 ---
 

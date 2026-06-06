@@ -6,14 +6,14 @@ status: active
 audience: dm
 publish: false
 summary: "Master run guide for Session 04: the open Calveno week before the Grung raid. Links to day-by-day files covering the Kyzil reunion, Pearl Summons, Warren, handler investigation, Red Lady salvage, and the Beffa."
-created: "2026-05-29"
+created: 2026-05-29
 updated: 2026-06-01
 tags:
   - dm-prep
 sources:
   - Homebrew
 session_number: 4
-session_date: "2026-05-29"
+session_date: 2026-05-29
 ---
 
 # Session 04 — Run Guide: The City That Plays Liar

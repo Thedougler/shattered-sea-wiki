@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: "Umberlee's shrine on the Mercatura canal front — basin fed from the channel, tribute terms facing outward. An unnamed servant is not sleeping here until Delmar arrives."
+summary: Umberlee's shrine on the Mercatura canal front — basin fed from the channel, tribute terms facing outward. An unnamed servant is not sleeping here until Delmar arrives.
 created: 2026-05-27
 updated: 2026-06-04
 tags:
   - umberlee
 sources:
-  - "Inbox/Session-03-Recap.md"
-  - "Inbox/Waveservant-Shrine.md"
+  - Inbox/Session-03-Recap.md
+  - Inbox/Waveservant-Shrine.md
 confidence_level: confirmed
 building_type: shrine
 district: Mercatura

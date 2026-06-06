@@ -5,14 +5,14 @@ campaign: shattered-sea
 status: active
 audience: players
 publish: true
-summary: "Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations."
-created: '2026-05-29'
+summary: Multi-volume naturalist survey of oceanic fauna by A.R. Clyde — the standard maritime reference text across the Scatter; Volume II currently in print. Perrin Black-Jaw carries a copy with margin annotations.
+created: 2026-05-29
 updated: 2026-06-04
 tags:
   - maritime
 sources:
-  - "Inbox/Algernon-Reginald-Clyde.md"
-  - "Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md"
+  - Inbox/Algernon-Reginald-Clyde.md
+  - Inbox/Clydes-Bestiary-of-Oceanic-Creatures.md
 confidence_level: confirmed
 item_type: book
 rarity: common

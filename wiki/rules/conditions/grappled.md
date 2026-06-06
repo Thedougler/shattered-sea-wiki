@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Grappled condition — Speed 0; Disadvantage on attacks against anyone other than the grappler; grappler can move you at cost of 1 extra foot per foot moved.
 created: 2026-04-20
-updated: 2026-05-31
+updated: 2026-06-05
 tags: []
 sources:
   - PHB 2024

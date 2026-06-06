@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: D&D 5e 2024 Druid — WIS-based primal full caster with Wild Shape, nature magic, and strong control/healing options.
 created: 2026-04-21
-updated: 2026-05-31
+updated: 2026-06-05
 tags: []
 sources:
   - PHB 2024

@@ -110,8 +110,8 @@ Script catalog and commands: `.claude/scripts/README.md`.
 
 ## Git Discipline
 
-Global git rules (commit by default, stage specific paths, never amend/force-push/skip hooks)
-live in `~/.claude/CLAUDE.md` and apply here. Project-specific deltas only:
+Global git rules (commit and push by default, stage specific paths, never amend/force-push/skip hooks)
+live in `~/.claude/CLAUDE.md` and apply here. After completing any operation, commit and push to `Thedougler/shattered-sea-wiki` (main) as the final step. Project-specific deltas only:
 
 - This is a solo content repo — commit directly to `main`. Only branch when explicitly asked.
 - Use the commit-prefix table below.

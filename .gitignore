@@ -5,6 +5,7 @@
 
 # Local assistant/runtime settings
 .claude/settings.local.json
+.claude/projects/
 
 # Obsidian per-vault config (workspace layout, plugin state, cache)
 .obsidian/

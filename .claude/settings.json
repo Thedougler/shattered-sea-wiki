@@ -2,48 +2,16 @@
   "excludeDynamicSections": true,
   "permissions": {
     "allow": [
-      "Bash(git log --oneline*)",
-      "Bash(git log --oneline -5)",
-      "Bash(git status)",
-      "Bash(git diff*)",
-      "Bash(git add wiki/*)",
-      "Bash(git add .claude/*)",
-      "Bash(git add Inbox/*)",
-      "Bash(git add .raw/*)",
-      "Bash(git add .gitignore)",
-      "Bash(git mv*)",
-      "Bash(git rm*)",
-      "Bash(git checkout -b*)",
-      "Bash(git push*)",
-      "Bash(git commit -m *)",
-      "Bash(python3 /Users/nick/ai-os/shattered-sea/.claude/scripts/*)",
-      "Bash(find /Users/nick/ai-os/shattered-sea/wiki -type f*)",
-      "Bash(find /Users/nick/ai-os/shattered-sea/.claude -type f*)",
-      "Bash(find /Users/nick/.claude/skills -type f 2>/dev/null | sort)",
-      "Bash(grep -r * /Users/nick/ai-os/shattered-sea/wiki)",
-      "Bash(mkdir -p /Users/nick/ai-os/shattered-sea/*)",
-      "Bash(bash /Users/nick/ai-os/shattered-sea/.claude/hooks/*)",
+      "Bash(node *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(mkdir -p *)",
       "Bash(qmd:*)",
       "Bash(obsidian *)",
       "Bash(markdownlint-cli2 *)"
     ]
   },
   "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Write|Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/block-env-edits.sh"
-          },
-          {
-            "type": "command",
-            "command": "bash /Users/nick/ai-os/shattered-sea/.claude/hooks/block-lockfile-edits.sh"
-          }
-        ]
-      }
-    ],
     "PostToolUse": [
       {
         "matcher": "Write|Edit",

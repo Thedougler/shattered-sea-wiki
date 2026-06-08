@@ -77,9 +77,13 @@ The `shattered-audio laughs` script does the *detection*. This skill does the fi
 things the script can't, because they need judgment:
 
 1. **In-world filter** — discard OOC laughs; keep only moments about the game (see above).
-2. **Full scene, both directions** — extend *backward* to capture all the setup, and *forward*
-   through the burst's `laugh_end` to capture the follow-on jokes/laughter riding the same wave.
-   Capture the complete span, not a distilled excerpt — it's the raw material for the screenplay.
+2. **Full scene + true physical blocking** — extend *backward* to capture all the setup, and
+   *forward* through the burst's `laugh_end` to capture the follow-on jokes riding the same wave.
+   Capture the complete span — but also read **far enough back to establish what is physically
+   happening**: where each character is, whether they're flying / swimming / standing / grappling,
+   and what just happened mechanically (a grapple, a dive, a fall) that sets the scene. The laugh
+   window almost never states the blocking — it was established minutes earlier. **The transcript
+   is ground truth for the physical scene; getting it wrong renders the whole scene wrong.**
 3. **Correct speakers** — resolve attribution against `speaker-map.md`; exclude non-game voices.
 4. **Standalone aligned audio** — cut each moment into its **own** audio file containing
    *exactly* that slice (lead-up + moment), and embed it at the end of that scene's file.
@@ -218,11 +222,14 @@ digraph prereqs {
 
 ## Pipeline
 
-This pipeline is **bookended by two chain-loaded sub-skills**, both mandatory:
-- **Before staging** (step 2c) chain-load **ttrpg-wiki-query** to gather correct, canon-grounded
-  context for every scene — never stage from memory or the transcript's guesses.
-- **After writing** (step 5) chain-load **ttrpg-wiki-lint** to clean up the new pages — frontmatter,
-  tags, and resolving every `[[wikilink]]`.
+Three things make this pipeline work — skip any and scenes come out wrong:
+- **The transcript is ground truth for the physical scene.** Read it back far enough to establish
+  the blocking (flying/swimming/standing/grappling) before staging — the laugh window won't tell you.
+- **Each moment gets its own subagent** (step 3) whose paramount job is accurate recreation — it
+  reads its own slice of transcript deeply, so seven scenes don't share one shallow read.
+- **Bookended by two chain-loaded sub-skills, both mandatory:** chain-load **ttrpg-wiki-query**
+  before staging (canon appearance + facts), and **ttrpg-wiki-lint** after writing (frontmatter,
+  tags, every `[[wikilink]]`).
 
 ### 1. Detect (run the script once)
 
@@ -268,6 +275,17 @@ catch the follow-on jokes/laughter. Capture the **complete** scene across that s
 line, in order, nothing dropped. This is the raw material; you'll stage it as a screenplay in
 step 3. See `references/finding-boundaries.md`.
 
+**a1. Establish the physical blocking — read further back than the bit.** The dialogue around the
+laugh tells you the *joke*; it rarely tells you the *scene*. Before staging, read enough of the
+transcript leading up to the moment — often **2–3 minutes earlier** — to answer concretely:
+*where is each character, and what are they physically doing?* Are they flying, swimming, standing,
+riding, grappling, falling? What just happened mechanically (a grapple landed, someone dove, a
+spell went off) that put them there? Scan for the literal cues — "how high up are we?", "outside
+the tunnel now", "I pulled him 20 feet up" — they pin the blocking precisely. **Never infer the
+physical scene from the laugh window or from the wiki's vibe.** Getting flying-vs-swimming or
+who-holds-whom wrong renders the entire scene wrong (see Common mistakes). The transcript is the
+single source of truth for what is physically happening.
+
 **b. Correct speakers, then wikilink them.** Apply `speaker-map.md` (e.g. `Speaker 1 →
 Crissdalynn` mic drift) and sanity-check by content (a DM narration line shouldn't stay tagged
 as a player). **Exclude** non-game voices. Then resolve every name to its canonical vault page
@@ -296,12 +314,39 @@ ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4
   -t {dur} -ac 1 wiki/assets/sessions/session{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a
 ```
 
-### 3. Write the scene files, then the index
+### 3. Write the scene files — one subagent per moment
 
-For each of the seven moments, write a scene file `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md`
-as a screenplay (see **Screenplay scene files** above + `references/screenplay-format.md`): title →
-Setting block → screenplay (faithful dialogue, action lines, the laugh beat) → `## Audio` embed at
-the end. Then write the thin index `wiki/sessions/session-{NN}-highlights.md`: frontmatter, cast
+**Dispatch one subagent per moment.** Each scene lives or dies on getting *its* details exactly
+right, and that takes a focused read of the transcript around that one moment — more than you can
+do well for seven moments in a single context. So delegate each moment to its own subagent (run
+them in parallel) whose **paramount, non-negotiable job is to recreate the scene accurately.**
+
+Give each subagent everything it needs to stand alone — it does NOT share your context:
+
+- The moment's identity: rank `{n}`, slug, the clip filename, and the `From` provenance
+  (part `{P}`, the laugh window, `laugh_end`).
+- The transcript path: `audio/sessions/session{NN}-part{P}.m4a.csv`.
+- The `speaker-map.md` path for that session.
+- The scene-file path to write: `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md`.
+- The output contract + `references/screenplay-format.md` rules.
+
+And instruct each subagent, in its own words:
+
+> Accuracy is paramount. **Read the transcript starting at least 2–3 minutes before the laugh
+> window** — far enough back to establish the physical blocking: where every character is and what
+> they are physically doing (flying, swimming, standing, grappling, falling), and what just
+> happened mechanically to put them there. Quote the literal cues that pin it ("how high up are
+> we?", "outside the tunnel now"). Do NOT infer the physical scene from the laugh window or the
+> wiki. Resolve speakers via speaker-map.md. Chain-load **ttrpg-wiki-query** for each character's
+> appearance and the in-world facts. Then write the scene file as a screenplay: title → Setting
+> block (Where / Who-with-appearance / Beat) → screenplay (faithful dialogue, declared actions as
+> action lines, the laugh beat) → `## Audio` embed at the end. Report back the blocking you
+> established and the transcript cues that prove it.
+
+Read each subagent's report. **If it can't cite transcript evidence for the blocking, send it back
+to read more** — a confidently-wrong physical scene is the failure this guards against.
+
+Then **you** write the thin index `wiki/sessions/session-{NN}-highlights.md`: frontmatter, cast
 roster, discarded-OOC list, and a ranked list of `[[wikilinks]]` to the seven scene files — mostly
 links, no scripts inline. Output contract is below. Act on any `validate-frontmatter` /
 `check-wikilinks` hook warnings on **every** file — unresolved wikilinks mean a name didn't resolve.
@@ -437,6 +482,8 @@ from the wiki; the story comes from the table.
 
 | Mistake | Fix |
 |---|---|
+| **Getting the physical scene wrong — swimming when they're flying, who holds whom** | Read the transcript 2–3 min back to establish blocking BEFORE staging; quote the cues ("how high up are we?", "20 feet up", "outside the tunnel"). The transcript is ground truth, not the wiki vibe or the laugh window |
+| Writing all seven moments yourself from one context | Dispatch one subagent per moment (step 3) — each reads its own transcript deeply; accuracy per scene is paramount |
 | Including a moment with no in-world scene (jobs, snacks, TV, DM critiquing his own voices) | Discard it — in-world only — and take the next-ranked burst |
 | Discarding an in-world action because mechanics ride along (a PC casting Sending, padding the message) | KEEP it — the spell is in-fiction; frame around the action, trim meta asides |
 | Everything inline in one note | Split it: thin index + one screenplay scene file per moment |
@@ -466,6 +513,9 @@ from the wiki; the story comes from the table.
 
 ## Red flags — you're not done
 
+- **You can't cite a transcript line that proves the scene's physical blocking** (flying? swimming? standing? who holds whom?) — you're guessing, and the render will be wrong
+- You staged the physical scene from the laugh window or the wiki instead of reading the transcript back to where the blocking was established
+- You wrote all seven scenes yourself instead of dispatching a subagent per moment
 - A moment that isn't about the game (real life, pop culture, table logistics)
 - Everything crammed into one note instead of an index + seven scene files
 - A scene that's a bare transcript with no screenplay staging (no slugline, no setting, no appearance)

@@ -7,13 +7,14 @@ the wiki.
 
 ## The fidelity contract (read this first)
 
-Two sources of truth, two jobs:
+Sources of truth, each with its own job:
 
 | Element | Source of truth | Rule |
 |---|---|---|
+| **Physical blocking** | the transcript (read 2–3 min back) | Where each character is and what they are physically doing — flying / swimming / standing / grappling / falling — and what put them there. Establish this *before* writing a word. The laugh window rarely states it; read far enough back to find the literal cues. Getting this wrong renders the whole scene wrong. |
 | **In-character dialogue** | the embedded audio clip | Keep it **faithful** — what the speaker actually said, lightly cleaned (filler/false-starts), never reworded for flavor. The clip is provenance; the script must not drift from it. |
 | **Events / actions** | the transcript | Render what the players *declared* happens, nothing more. Never invent an outcome, a line, or a beat that didn't occur. |
-| **Setting & appearance** | the wiki (`ttrpg-wiki-query`) | This is the enrichment. Slugline, location look, weather/light, and each character's appearance come from their canonical pages. |
+| **Setting & appearance** | the wiki (`ttrpg-wiki-query`) | The enrichment layer — *on top of* the transcript's blocking, never replacing it. Location look, weather/light, and each character's appearance come from their canonical pages. If the wiki vibe and the transcript's blocking disagree, the transcript wins. |
 
 The screenplay reads cinematically, but it invents **nothing** about the story. You are
 re-staging a real moment, not writing fan fiction.

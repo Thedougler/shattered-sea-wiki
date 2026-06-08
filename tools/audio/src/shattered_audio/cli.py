@@ -335,6 +335,68 @@ def profiles(
 
 
 @app.command()
+def delete(
+    name: str = typer.Argument(..., help="Actor or persona name to delete"),
+    actor: Optional[str] = typer.Option(
+        None,
+        "--actor",
+        "-a",
+        help="Delete only this persona under the named actor (omit to delete the whole actor)",
+    ),
+    yes: bool = typer.Option(False, "--yes", "-y", help="Skip confirmation prompt"),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Delete a voice profile — actor (and all their personas) or a single persona."""
+    import shutil
+
+    from .profiles import load_actor_profiles, save_actor_profile
+
+    cfg = Config.load(config_path)
+    actors = load_actor_profiles(cfg.profiles_dir)
+
+    if actor:
+        actor_slug = actor.lower().replace(" ", "-")
+        if actor_slug not in actors:
+            console.print(f"[red]Actor '{actor}' not found[/red]")
+            raise typer.Exit(1)
+        persona_slug = name.lower().replace(" ", "-")
+        act = actors[actor_slug]
+        if persona_slug not in act.personas:
+            console.print(f"[red]Persona '{name}' not found under actor '{actor}'[/red]")
+            raise typer.Exit(1)
+
+        if not yes and not typer.confirm(f"Delete persona '{name}' from actor '{actor}'?"):
+            raise typer.Exit(0)
+
+        actor_dir = cfg.profiles_dir / actor_slug
+        for suffix in (".npy", "_prosody.yaml", "_exemplars.npy", "_meta.yaml"):
+            p = actor_dir / f"{persona_slug}{suffix}"
+            if p.exists():
+                p.unlink()
+        del act.personas[persona_slug]
+        save_actor_profile(act, cfg.profiles_dir)
+        console.print(f"[green]Deleted persona '{name}' from actor '{actor}'[/green]")
+
+    else:
+        actor_slug = name.lower().replace(" ", "-")
+        if actor_slug not in actors:
+            console.print(f"[red]Actor '{name}' not found[/red]")
+            raise typer.Exit(1)
+        act = actors[actor_slug]
+        persona_names = [p.name for p in act.personas.values()]
+
+        if not yes:
+            desc = f"actor '{name}'"
+            if persona_names:
+                desc += f" and {len(persona_names)} persona(s): {', '.join(persona_names)}"
+            if not typer.confirm(f"Delete {desc}?"):
+                raise typer.Exit(0)
+
+        shutil.rmtree(cfg.profiles_dir / actor_slug)
+        console.print(f"[green]Deleted actor '{name}'[/green]")
+
+
+@app.command()
 def retrain(
     transcript: Path = typer.Argument(..., help="Path to corrected transcript markdown"),
     audio_dir: Optional[Path] = typer.Option(
@@ -611,6 +673,161 @@ def devices() -> None:
         default = " [green](default)[/green]" if dev["is_default"] else ""
         console.print(f"  [{dev['id']}] {dev['name']}{default}")
         console.print(f"      Channels: {dev['channels']}  Sample rate: {dev['sample_rate']}")
+
+
+@app.command()
+def watch(
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+    threshold: float = typer.Option(
+        0.015, "--threshold", help="RMS energy threshold for speech detection"
+    ),
+    min_blocks: int = typer.Option(
+        4, "--min-blocks", help="Minimum 100ms blocks to count as an utterance (default: 400ms)"
+    ),
+    silence_blocks: int = typer.Option(
+        8, "--silence", help="100ms silent blocks to end utterance (default: 800ms)"
+    ),
+    history: int = typer.Option(12, "--history", help="Identification rows to show in TUI"),
+    mic: Optional[int] = typer.Option(
+        None,
+        "--mic",
+        help="Device index to listen on (default: system default). Use 'devices' to list.",
+    ),
+) -> None:
+    """Live speaker-identification TUI — listens on mic and prints who is speaking. Ctrl+C to stop.
+
+    No audio is recorded or saved. Needs the live extras (sounddevice); if
+    missing, run the editable install with the all extras in tools/audio/.
+    """
+    import queue as _queue
+    import threading
+    import time as _time
+
+    import numpy as np
+
+    cfg = Config.load(config_path)
+
+    from .profiles import identify_speaker_v2, load_actor_profiles
+
+    actors = load_actor_profiles(cfg.profiles_dir)
+    if not actors:
+        console.print(
+            "[yellow]No voice profiles enrolled — use 'shattered-audio enroll' first.[/yellow]"
+        )
+        raise typer.Exit(1)
+
+    try:
+        import sounddevice as sd
+    except ImportError:
+        console.print(
+            r"[red]sounddevice not installed. Run: pip install -e '.\[all]' in tools/audio/[/red]"
+        )
+        raise typer.Exit(1)
+
+    console.print("[bold]Voice Watch[/bold] — speak to identify\n")
+    for slug, actor in sorted(actors.items()):
+        dm_tag = " [dim](DM)[/dim]" if actor.is_dm else ""
+        personas = [p.name for p in actor.personas.values()]
+        p_str = ("  →  " + ", ".join(f"[cyan]{p}[/cyan]" for p in personas)) if personas else ""
+        console.print(f"  [bold]{actor.name}[/bold]{dm_tag}{p_str}")
+    console.print("\n[dim]Ctrl+C to stop[/dim]\n")
+
+    SAMPLE_RATE_W = 16000
+    BLOCK_SIZE_W = 1600  # 100ms per block
+
+    rows: list[tuple[str, str, str]] = []  # (timestamp, who_markup, conf_markup)
+
+    from rich.live import Live
+    from rich.table import Table
+
+    def make_table() -> Table:
+        t = Table("Time", "Speaker", "Confidence", box=None, padding=(0, 2))
+        display = rows[-history:] if rows else [("—", "[dim]listening…[/dim]", "")]
+        for ts, who, conf in display:
+            t.add_row(ts, who, conf)
+        return t
+
+    audio_q: _queue.Queue = _queue.Queue()
+    stopped = threading.Event()
+
+    def audio_callback(indata, frames, _time_info, _status) -> None:
+        audio_q.put(indata[:, 0].copy())
+
+    def identify_loop() -> None:
+        buf: list[np.ndarray] = []
+        in_speech = False
+        silent_count = 0
+
+        while not stopped.is_set():
+            try:
+                block = audio_q.get(timeout=0.2)
+            except _queue.Empty:
+                continue
+
+            rms = float(np.sqrt(np.mean(block**2)))
+
+            if rms >= threshold:
+                in_speech = True
+                silent_count = 0
+                buf.append(block)
+            elif in_speech:
+                buf.append(block)
+                silent_count += 1
+                if silent_count >= silence_blocks:
+                    if len(buf) >= min_blocks:
+                        utterance = np.concatenate(buf)
+                        try:
+                            match = identify_speaker_v2(
+                                utterance,
+                                actors,
+                                channel_priors=cfg.channel_priors,
+                                channel_boost=cfg.channel_boost,
+                                actor_threshold=cfg.actor_threshold,
+                                persona_threshold=cfg.persona_threshold,
+                                persona_margin=cfg.persona_margin,
+                                prosody_weight=cfg.prosody_weight,
+                            )
+                        except Exception:
+                            match = None
+
+                        ts = _time.strftime("%H:%M:%S")
+                        if match:
+                            if match.persona:
+                                who = f"[bold]{match.actor}[/bold] → [cyan]{match.persona}[/cyan]"
+                            else:
+                                who = f"[bold]{match.name}[/bold]"
+                            color = "green" if match.tier == "high" else "yellow"
+                            conf_str = f"[{color}]{match.confidence:.2f}[/{color}]"
+                        else:
+                            who = "[dim]unknown[/dim]"
+                            conf_str = ""
+                        rows.append((ts, who, conf_str))
+                    buf = []
+                    in_speech = False
+                    silent_count = 0
+
+    with Live(make_table(), refresh_per_second=4, console=console) as live:
+        id_thread = threading.Thread(target=identify_loop, daemon=True)
+        id_thread.start()
+        try:
+            with sd.InputStream(
+                samplerate=SAMPLE_RATE_W,
+                channels=1,
+                dtype="float32",
+                blocksize=BLOCK_SIZE_W,
+                callback=audio_callback,
+                device=mic,
+            ):
+                while True:
+                    _time.sleep(0.1)
+                    live.update(make_table())
+        except KeyboardInterrupt:
+            pass
+        finally:
+            stopped.set()
+            id_thread.join(timeout=2.0)
+
+    console.print("\n[green]Done[/green]")
 
 
 @app.command()

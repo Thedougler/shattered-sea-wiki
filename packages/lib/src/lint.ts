@@ -90,7 +90,8 @@ const INLINE_CODE_RE = /`[^`\n]*`/g;
 
 const ASSET_EXTS = new Set([
   '.webp', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.bmp', '.pdf',
-  '.mp3', '.mp4', '.mov', '.wav', '.ogg', '.json', '.canvas', '.excalidraw',
+  '.mp3', '.m4a', '.aac', '.flac', '.mp4', '.m4v', '.mov', '.webm', '.wav', '.ogg',
+  '.json', '.canvas', '.excalidraw',
 ]);
 
 const STATUS_CANONICAL: Record<string, string> = {

@@ -110,7 +110,7 @@ audience: dm
 publish: false
 summary: "Seven funniest in-world moments of session {NN}, with clips and full scripts."
 session_number: {NN}
-tags: [highlights, comedy]
+tags: [grung]   # canonical content tags only (species/faction/theme) — the lint step rejects unknown & entity-name tags
 ---
 ```
 
@@ -246,6 +246,15 @@ behind — the next reader can't tell scratch from deliverable.
 scaffolding and the clips *your* moments supersede. Don't nuke clips or notes for moments
 outside your scope — that's someone else's in-progress work.
 
+### 5. Lint the note
+
+The note is a new vault page — finish by cleaning it up like any other.
+**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-lint** and run it on the highlights note to
+fix frontmatter (a real `summary`, a sane `tags` set, stamped dates), tag hygiene, and to
+confirm every `[[wikilink]]` resolves. Act on what it reports — resolve or flag any link it
+can't, fill any placeholder frontmatter (`sources`/`session_date` default to "unknown" from the
+hook). The deliverable isn't done until the lint is clean.
+
 ---
 
 ## Output contract
@@ -275,7 +284,7 @@ audience: dm
 publish: false
 summary: "Seven funniest in-world moments of session 04, with clips and full scripts."
 session_number: 4
-tags: [highlights, comedy]
+tags: [grung]   # canonical content tags only (species/faction/theme) — the lint step rejects unknown & entity-name tags
 ---
 
 # Session 04 — Laughter Highlights
@@ -340,5 +349,6 @@ nothing dropped. Do **not** invent lines or change meaning; the clip is the sour
 - A clip whose audio doesn't cover the script's span
 - You never opened `speaker-map.md` or used ttrpg-wiki-query to resolve names
 - Draft scaffolding or rejected clips left behind (you didn't clean up)
+- You finished without chain-loading ttrpg-wiki-lint on the note
 
 All of these mean: go back to the filter/refinement loop.

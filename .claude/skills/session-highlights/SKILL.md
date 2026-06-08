@@ -331,9 +331,16 @@ getting *its* details exactly right, and that takes a focused read of the transc
 moment — more than you can do well for seven moments in one context. So delegate each moment to its
 own subagent whose **paramount, non-negotiable job is to recreate the scene accurately.** The work
 (read a transcript window → translate to a screenplay) is well within a **cheaper model's** ability —
-dispatch the subagents on **Sonnet** (Haiku only for a trivially short moment); keep the top model
-for *your* orchestration (planning, the lore pack, the index). Token efficiency is built into how you
-brief them, below.
+dispatch the subagents on **Sonnet** and keep the top model for *your* orchestration (planning, the
+lore pack, the index). Token efficiency is built into how you brief them, below.
+
+**Model choice — Sonnet is the floor for fidelity.** Tested head-to-head on the hardest blocking
+moment, Haiku got the *physical blocking* right (flying vs. swimming, who holds whom) and cited the
+cues — but it regressed on craft: it emitted entity-name/unknown **tags** the lint rejects, **dropped
+the follow-on jokes** that ride the laugh through `laugh_end`, kept table-meta phrasing as dialogue,
+and invented a small detail (time of day). So: **Sonnet by default.** Use Haiku only for a trivially
+short, single-exchange moment, and if you do, lint the result hard and check the forward boundary
+wasn't truncated.
 
 Give each subagent everything it needs to stand alone — it does NOT share your context:
 

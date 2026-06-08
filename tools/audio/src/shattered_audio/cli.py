@@ -420,5 +420,54 @@ def devices() -> None:
         console.print(f"      Channels: {dev['channels']}  Sample rate: {dev['sample_rate']}")
 
 
+@app.command()
+def laughs(
+    audio: list[Path] = typer.Argument(..., help="Audio part files (sorted by name)"),
+    top: int = typer.Option(25, "--top", help="How many bursts to print"),
+    json_out: Optional[Path] = typer.Option(None, "--json", help="Write ranked results as JSON"),
+    threshold: float = typer.Option(0.10, "--threshold", help="Laughter prob threshold"),
+    min_len: float = typer.Option(0.5, "--min-len", help="Drop bursts shorter than this (s)"),
+    merge_gap: float = typer.Option(1.5, "--merge-gap", help="Merge bursts closer than this (s)"),
+    smooth: float = typer.Option(0.5, "--smooth", help="Smoothing window (s)"),
+    chunk: float = typer.Option(240.0, "--chunk", help="Inference chunk length (s)"),
+    device: str = typer.Option("cpu", "--device", help="cpu or cuda"),
+    clips: Optional[Path] = typer.Option(None, "--clips", help="Extract top-N clips into this dir"),
+    clip_pad: float = typer.Option(4.0, "--clip-pad", help="Lead-in/out around each clip (s)"),
+) -> None:
+    """Rank the biggest laughs in session audio (highlight finder)."""
+    from .laughs import ScanConfig, bursts_to_dicts, extract_clips, render_table
+    from .laughs import scan as scan_laughs
+
+    missing = [p for p in audio if not p.exists()]
+    if missing:
+        console.print(f"[red]Audio file(s) not found: {', '.join(str(m) for m in missing)}[/red]")
+        raise typer.Exit(1)
+
+    cfg = ScanConfig(
+        threshold=threshold,
+        min_len=min_len,
+        merge_gap=merge_gap,
+        smooth_seconds=smooth,
+        chunk_seconds=chunk,
+        device=device,
+    )
+    paths = sorted(audio, key=lambda p: p.name)
+    bursts = scan_laughs(paths, cfg, log=lambda m: console.print(m, style="dim"))
+
+    if json_out:
+        import json as _json
+
+        json_out.write_text(_json.dumps(bursts_to_dicts(bursts), indent=2))
+        console.print(f"[green]Wrote {len(bursts)} bursts to {json_out}[/green]")
+
+    if clips:
+        console.print(f"Extracting top {top} clips to {clips} ...")
+        extract_clips(
+            bursts, paths, clips, top, clip_pad, log=lambda m: console.print(m, style="dim")
+        )
+
+    print(render_table(bursts, top))
+
+
 if __name__ == "__main__":
     app()

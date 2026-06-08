@@ -23,8 +23,14 @@ live = [
     "torch>=2.0",
     "torchaudio>=2.0",
 ]
+# Laughter highlight detection (experiment). Needs ffmpeg + wget on PATH; first run
+# downloads the PANNs checkpoint (~330 MB) to ~/panns_data/.
+laughs = [
+    "panns-inference>=0.1.1",
+    "torch>=2.0",
+]
 all = [
-    "shattered-audio[diarize,live]",
+    "shattered-audio[diarize,live,laughs]",
 ]
 dev = [
     "pytest>=8.0",

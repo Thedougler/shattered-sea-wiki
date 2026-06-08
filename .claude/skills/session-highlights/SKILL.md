@@ -5,26 +5,30 @@ description: >
   downstream use (e.g. an art-generation agent). Triggers: "find the highlights",
   "funniest moments", "biggest laughs", "highlight reel", "best moments of the
   session", "comedy highlights", "what got the biggest laugh", "make an art brief
-  from the session", "session highlights for art". Symptoms: you have session audio
-  parts in audio/sessions/ and want a ranked, wiki-findable note of laugh-out-loud
-  moments with audio clips, wikilinks, and clean dialogue. Runs AFTER session-ingest
+  from the session", "session highlights for art", "highlight screenplays". Symptoms:
+  you have session audio parts in audio/sessions/ and want a wiki-findable set of
+  laugh-out-loud scenes — one screenplay-style scene file per highlight, plus a thin
+  index — with audio clips, wikilinks, and clean dialogue. Runs AFTER session-ingest
   (needs resolved speakers + timestamped transcripts).
 ---
 
 # Session Highlights
 
-Find the moments that got the biggest table laughs and turn each into a **wiki-native
-highlight note**: an embedded audio clip plus the full corrected script of the scene, with
-every character wikilinked into the campaign graph.
+Find the moments that got the biggest table laughs and turn each into its own **screenplay
+scene file**: a self-contained, drawable scene — wiki-staged setting + character appearance,
+in-fiction action lines, faithful in-character dialogue — with the audio clip embedded at the
+end. A thin **index note** ties the seven scenes together with wikilinks.
 
 **Core principle: the laugh is the *aftermath*, not the moment.** The detector finds
 where people laughed; your job is to walk *backward* to where the bit *started*, fix who
-said what, and cut audio that matches. A raw laugh timestamp with a mechanical window is
-not a highlight — it's a starting point.
+said what, cut audio that matches, and **re-stage it as a scene**. A raw laugh timestamp with
+a mechanical window is not a highlight — it's a starting point.
 
-The note is consumed by another agent that generates AI art of each moment, AND it lives in
-the Obsidian vault as durable campaign memory. **Art generation is out of scope** — you
-produce the note, nothing more.
+The output is consumed by another agent that generates AI art of each moment, AND it lives in
+the Obsidian vault as durable campaign memory. The split (one scene per file, enriched with
+drawable detail) exists so that downstream agent can read **one self-contained scene** and
+illustrate it without chasing the campaign graph. **Art generation is out of scope** — you
+produce the scene files and the index, nothing more.
 
 ---
 
@@ -75,32 +79,41 @@ things the script can't, because they need judgment:
 1. **In-world filter** — discard OOC laughs; keep only moments about the game (see above).
 2. **Full scene, both directions** — extend *backward* to capture all the setup, and *forward*
    through the burst's `laugh_end` to capture the follow-on jokes/laughter riding the same wave.
-   Include the complete dialogue of that whole span, not a distilled excerpt.
+   Capture the complete span, not a distilled excerpt — it's the raw material for the screenplay.
 3. **Correct speakers** — resolve attribution against `speaker-map.md`; exclude non-game voices.
 4. **Standalone aligned audio** — cut each moment into its **own** audio file containing
-   *exactly* that slice (lead-up + moment), and embed that file. The highlight links to the
-   slice itself — the reader presses play in place. **Never** point at the original part file
-   plus a timestamp ("open part07 at 24:44") and call that the audio; produce the slice.
-5. **Wiki-native + linked** — write an Obsidian-compliant note in the vault, with frontmatter
-   and `[[wikilinks]]` to every character, resolved to their *canonical* wiki page (see below).
+   *exactly* that slice (lead-up + moment), and embed it at the end of that scene's file.
+   **Never** point at the original part file plus a timestamp ("open part07 at 24:44") and call
+   that the audio; produce the slice.
+5. **Screenplay scene files + thin index** — write each moment as its own vault page: a short
+   **screenplay** that stages the scene with wiki-sourced setting and character appearance, turns
+   the table-talk into action lines + faithful in-character dialogue, and embeds the clip at the
+   end. A thin index note links the seven scenes. Every name is a `[[wikilink]]` to its *canonical*
+   page. See **Screenplay scene files** below and `references/screenplay-format.md`.
 
 If you only run the script and paste its output, you have done none of these. Don't.
 
 ---
 
-## Wiki-native output
+## Output shape: thin index + seven scene files
 
-The note is a vault page, not a loose file — so the llm-wiki indexes it and its links join the
-campaign graph.
+The deliverable is **eight vault pages**, not one — so each scene is self-contained for the
+downstream art agent and the llm-wiki indexes them all:
 
-**Locations (inside the vault):**
-- Note: `wiki/sessions/session-{NN}-highlights.md`
-- Clips: `wiki/assets/sessions/session-{NN}/highlight-clips/` (in the vault → embeddable with
-  `![[clip.m4a]]`). Cut clips straight here; the audio parts stay in `audio/sessions/`.
+| File | What it is |
+|---|---|
+| `wiki/sessions/session-{NN}-highlights.md` | **Thin index** — frontmatter, cast roster, discarded-OOC list, and seven `[[wikilinks]]` to the scene files. Mostly links; no scripts inline. |
+| `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md` ×7 | One **screenplay scene** each: title → setting/cast blocks → screenplay → embedded clip at the end. |
+| `wiki/assets/sessions/session-{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a` ×7 | The standalone audio slices (in the vault → embeddable). Cut straight here; the audio parts stay in `audio/sessions/`. |
 
-**Frontmatter** (the `validate-frontmatter` hook stamps/repairs; write a real `summary`):
+This mirrors the existing `session-{NN}.md` → `session-{NN}-scene-*.md` convention already in the
+vault. The scene files are the deliverable's substance; the index is a table of contents.
+
+**Frontmatter** — both the index and each scene file are `subtype: session-note` (the
+`validate-frontmatter` hook stamps/repairs; write a real `summary` for each):
 
 ```yaml
+# index — session-{NN}-highlights.md
 ---
 type: session
 subtype: session-note
@@ -108,9 +121,22 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Seven funniest in-world moments of session {NN}, with clips and full scripts."
+summary: "Index of the seven funniest in-world moments of session {NN} — links to each screenplay scene."
 session_number: {NN}
 tags: [grung]   # canonical content tags only (species/faction/theme) — the lint step rejects unknown & entity-name tags
+---
+
+# scene — session-{NN}-highlight-{n}-{slug}.md
+---
+type: session
+subtype: session-note
+campaign: shattered-sea
+status: complete
+audience: dm
+publish: false
+summary: "Highlight {n} of session {NN}: {one-line of what the scene is}."
+session_number: {NN}
+tags: [grung]
 ---
 ```
 
@@ -125,10 +151,39 @@ the wiki — not the sound the transcriber guessed.
 - Link NPCs, notable items, and places that have pages too (e.g. `[[sending-stone-nona]]`).
 - **No page exists?** Leave the name as plain text and flag it at the top of the note (don't
   invent a link target, don't `[[red-link]]` silently). Creating the page is out of scope here.
-- Link a character on **first mention per moment** (speaker label is the natural spot); plain
-  text thereafter is fine.
+- Link a character on **first mention per scene file** (the Setting block is the natural spot);
+  plain text thereafter is fine.
 
 Run `sea fm drift --subtype` if unsure the frontmatter type/subtype matches the path.
+
+---
+
+## Screenplay scene files
+
+Each highlight is its own scene file written as a short **screenplay** — a self-contained,
+drawable scene the downstream art agent can illustrate without opening any other page. Full
+template and craft rules: `references/screenplay-format.md`. The essentials:
+
+**Two sources of truth, never crossed:**
+- **What was said and what happened** is fixed by the transcript + the embedded clip. In-character
+  dialogue stays **faithful** (lightly cleaned, never reworded for flavor); declared actions are
+  rendered as written, never invented. The clip is provenance — the script must not drift from it.
+- **How the scene looks** comes from the **wiki** (`ttrpg-wiki-query`): the slugline location, the
+  light/atmosphere, and each character's appearance. This is the enrichment that makes the file
+  drawable. You are re-staging a real moment with real set-dressing — **not** writing fan fiction.
+
+**Translate the table-talk:**
+- In-character speech → **dialogue**, verbatim (e.g. *"I am looking for a bird, a rat, and a sexy
+  human"*).
+- First-person action declarations → **action lines**, third person present tense (e.g. "I pull
+  the dagger out" → *Jean-Claude plucks the dagger from his shirt; it dissolves into smoke*).
+- DM "as the NPC" → **dialogue** under the NPC's name. DM world-narration → action lines.
+- Keep the laugh beat in script order: `> 😂 **— big table laugh —**`.
+
+**Layout (per scene file):** title → `> [!info] Setting` block (Where / Who-with-appearance /
+Beat) → `## Screenplay` (slugline, action, dialogue, the laugh) → `## Audio` (the embed + a
+provenance `From` line) **at the end**. The art agent reads the screenplay top-to-bottom, then can
+press play.
 
 ---
 
@@ -200,42 +255,53 @@ and move to the next burst. Also **merge adjacent bursts from the same scene** i
 (the detector often fires twice on one bit). Stop once you have seven in-world moments (the
 default target; adjust if asked).
 
-**a. Find the scene bounds and capture the FULL script.** Read *backward* from the laugh to the
+**a. Find the scene bounds and capture the full span.** Read *backward* from the laugh to the
 start of the bit (a natural conversational boundary) for all the setup, and read *forward*
 through the burst's **`laugh_end`** (from `laughs.json` — where laughter decays to baseline) to
-catch the follow-on jokes/laughter. Transcribe the **complete** scene across that span — every
-line, in order, nothing dropped. Merge fragmented one-word rows into natural sentences and
-lightly clean filler, but keep all the content. See `references/finding-boundaries.md`.
+catch the follow-on jokes/laughter. Capture the **complete** scene across that span — every
+line, in order, nothing dropped. This is the raw material; you'll stage it as a screenplay in
+step 3. See `references/finding-boundaries.md`.
 
 **b. Correct speakers, then wikilink them.** Apply `speaker-map.md` (e.g. `Speaker 1 →
 Crissdalynn` mic drift) and sanity-check by content (a DM narration line shouldn't stay tagged
 as a player). **Exclude** non-game voices. Then resolve every name to its canonical vault page
-and wikilink it (see **Wiki-native output** above) — `[[crissdalynn-khinriss|Crissdalynn]]`,
+and wikilink it (see **Wikilinks** above) — `[[crissdalynn-khinriss|Crissdalynn]]`,
 not the transcript's phonetic guess.
 
-**c. Cut the clip** from the scene start through `laugh_end` (plus a beat), into the vault
+**c. Pull the staging from the wiki.** For each moment, `ttrpg-wiki-query` the **location** (look,
+light, atmosphere) and each **character's appearance** (species, build, signature gear) — this is
+the drawable detail the screenplay's Setting block and action lines need. Don't invent it; if a
+page is missing, keep staging minimal and flag the gap.
+
+**d. Cut the clip** from the scene start through `laugh_end` (plus a beat), into the vault
 assets, so the audio covers the same span as the script — setup, moment, and follow-on jokes:
 
 ```bash
 # start = scene-start local seconds; end ≈ laugh_end + 1s; dur = end - start
+# clip name MUST match the embed: {rank}_{slug}_part{P}.m4a (P = source part number)
 ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4a \
-  -t {dur} -ac 1 wiki/assets/sessions/session{NN}/highlight-clips/{rank}_{slug}.m4a
+  -t {dur} -ac 1 wiki/assets/sessions/session{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a
 ```
 
-### 3. Write the note
+### 3. Write the scene files, then the index
 
-Assemble the refined moments into `wiki/sessions/session-{NN}-highlights.md` (frontmatter +
-moments). Output contract is below. Act on any `validate-frontmatter` / `check-wikilinks` hook
-warnings before finishing — unresolved wikilinks mean a name didn't resolve to a page.
+For each of the seven moments, write a scene file `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md`
+as a screenplay (see **Screenplay scene files** above + `references/screenplay-format.md`): title →
+Setting block → screenplay (faithful dialogue, action lines, the laugh beat) → `## Audio` embed at
+the end. Then write the thin index `wiki/sessions/session-{NN}-highlights.md`: frontmatter, cast
+roster, discarded-OOC list, and a ranked list of `[[wikilinks]]` to the seven scene files — mostly
+links, no scripts inline. Output contract is below. Act on any `validate-frontmatter` /
+`check-wikilinks` hook warnings on **every** file — unresolved wikilinks mean a name didn't resolve.
 
 ### 4. Clean up after yourself
 
-The deliverable is the wiki note plus the clips it embeds — nothing else. Remove scaffolding:
+The deliverable is the index + seven scene files + the seven clips they embed — nothing else.
+Remove scaffolding:
 
 ```bash
 rm -f audio/sessions/session{NN}/laughs-draft.md audio/sessions/session{NN}/laughs.json
 rm -rf audio/sessions/session{NN}/highlight-clips-draft
-# delete any clip in the vault assets NOT embedded by the final note (rejected/OOC/superseded)
+# delete any clip in the vault assets NOT embedded by a final scene file (rejected/OOC/superseded)
 ```
 
 After cleanup `wiki/assets/sessions/session{NN}/highlight-clips/` holds only embedded clips, and
@@ -243,36 +309,38 @@ no draft scaffolding remains in `audio/sessions/`. Never leave stale or contradi
 behind — the next reader can't tell scratch from deliverable.
 
 **Partial runs:** if you only built *some* moments (a sample, or a resume), delete only the
-scaffolding and the clips *your* moments supersede. Don't nuke clips or notes for moments
+scaffolding and the clips *your* scene files supersede. Don't nuke clips or files for moments
 outside your scope — that's someone else's in-progress work.
 
-### 5. Lint the note
+### 5. Lint the new pages
 
-The note is a new vault page — finish by cleaning it up like any other.
-**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-lint** and run it on the highlights note to
-fix frontmatter (a real `summary`, a sane `tags` set, stamped dates), tag hygiene, and to
-confirm every `[[wikilink]]` resolves. Act on what it reports — resolve or flag any link it
-can't, fill any placeholder frontmatter (`sources`/`session_date` default to "unknown" from the
-hook). The deliverable isn't done until the lint is clean.
+The index and scene files are new vault pages — finish by cleaning them up like any other.
+**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-lint** and run it on the **whole set** (index +
+seven scenes) to fix frontmatter (a real `summary` per file, a sane `tags` set, stamped dates),
+tag hygiene, and to confirm every `[[wikilink]]` resolves — including the index's links to the
+scene files. Act on what it reports — resolve or flag any link it can't, fill any placeholder
+frontmatter (`sources`/`session_date` default to "unknown" from the hook). The deliverable isn't
+done until the lint is clean on all eight pages.
 
 ---
 
 ## Output contract
 
-One vault note: `wiki/sessions/session-{NN}-highlights.md`. Frontmatter, then a header (cast
-roster with wikilinks + the speaker-resolution note), then one section per moment, ranked, each:
-**embedded clip → full script (scene start through the laugh) → section break.**
+Eight vault pages: a thin index plus seven screenplay scene files. Clips live in the vault assets.
 
-Conventions:
+**Conventions:**
 - Every moment is in-world (OOC discarded upstream).
-- **The audio is a standalone slice file, embedded.** Each moment opens with
+- The **index** is mostly wikilinks — no scripts inline. The **scenes** carry the scripts.
+- **The audio is a standalone slice file, embedded at the end of each scene file** under `## Audio`:
   `![[{rank}_{slug}_part{P}.m4a]]` — a real file holding exactly that clip. That embed *is* the
   way to hear the moment; the reader never opens a 30-minute part file to find it.
-- The **From** line is provenance only (so the slice can be re-cut), not a listening instruction:
-  `From session04-part00 @ 12:36–13:04`. The headline anchor is the session-global `session_time`
-  from `laughs.json` (keep the JSON until the note is written), or the part-local laugh time if gone.
-- Every character is `[[wikilinked]]` to a canonical page on first mention per moment.
-- `rank` reflects the moment's order in the final in-world note, not its raw burst rank.
+- The **From** line is provenance only (so the slice can be re-cut), not a listening instruction.
+  The headline/Setting anchor is the session-global `session_time` from `laughs.json` (keep the
+  JSON until the files are written), or the part-local laugh time if gone.
+- Every character is `[[wikilinked]]` to a canonical page on first mention per file.
+- `{n}` / `rank` reflects the moment's final order, not its raw burst rank.
+
+**Index — `session-{NN}-highlights.md`:**
 
 ````markdown
 ---
@@ -282,35 +350,73 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Seven funniest in-world moments of session 04, with clips and full scripts."
+summary: "Index of the seven funniest in-world moments of session 04 — links to each screenplay scene."
 session_number: 4
 tags: [grung]   # canonical content tags only (species/faction/theme) — the lint step rejects unknown & entity-name tags
 ---
 
 # Session 04 — Laughter Highlights
 
-Cast: [[jean-claude-tabarnack|Jean-Claude]] (seabird PC), [[crissdalynn-khinriss|Crissdalynn]],
-[[perrin-black-jaw|Perrin]], [[delmar-fisk|Delmar]], DM (voices [[nona-black-jaw|Nona]],
-[[master-kyzil|Kyzil]]). Speakers resolved against speaker-map.md; every moment is in-world.
-*(Unlinked, no page yet: "Enzo".)*
+Cast: [[jean-claude-tabarnack|Jean-Claude]] (grung ranger), [[crissdalynn-khinriss|Crissdalynn]]
+(crow aarakocra monk), [[perrin-black-jaw|Perrin]] (rattkin bard), [[delmar-fisk|Delmar]], DM
+(voices [[nona-black-jaw|Nona]], [[master-kyzil|Kyzil]]). Speakers resolved against
+speaker-map.md; every scene is in-world. *(Unlinked, no page yet: "Enzo".)*
 
-## 1. {short title} — {session_time}
-![[1_bird-rat-human_part00.m4a]]
-- **From:** session04-part00 @ 12:36–13:04  (peak 0.33, intensity 0.54)  *(provenance, not a listening cue)*
+Seven screenplay scenes, ranked by table laugh:
 
-> **DM:** It doesn't take you long to find them — the four of you are still in downtown Calveno.
-> **[[jean-claude-tabarnack|Jean-Claude]]:** *(to a stranger)* Hello. I am looking for a bird, a rat, and a sexy human.
-> **[[delmar-fisk|Delmar]]:** …all of a sudden he just smiles for no reason.
-> 😂 **— big table laugh —**
+1. [[session-04-highlight-1-grung-capture|"Little secret from Nona" — the grung gets monologued]]
+2. [[session-04-highlight-2-dagger-cigarette|The cigarette assassin — pinned to the chair]]
+3. [[session-04-highlight-3-bird-rat-human|"A bird, a rat, and a sexy human"]]
+4. … (4–7)
 
----
-
-## 2. {short title} — {session_time}
-...
+## Discarded as out-of-world (OOC)
+- **#1 (30:38, loudest burst):** real-life fried-slug food story. Pure table banter.
+- … (the rejected bursts, so the next reader sees what was considered)
 ````
 
-Keep dialogue faithful and **complete** — the full scene script, merged into readable lines but
-nothing dropped. Do **not** invent lines or change meaning; the clip is the source of truth.
+**Scene — `session-{NN}-highlight-{n}-{slug}.md`** (full template in `references/screenplay-format.md`):
+
+````markdown
+---
+type: session
+subtype: session-note
+campaign: shattered-sea
+status: complete
+audience: dm
+publish: false
+summary: "Highlight 3 of session 04: Jean-Claude announces himself to a Calveno crowd looking for 'a bird, a rat, and a sexy human.'"
+session_number: 4
+tags: [grung]
+---
+
+# Session 04 · Highlight 3 — "A bird, a rat, and a sexy human"
+
+> [!info] Setting
+> **Where:** Downtown [[le-paludi|La Paluda]], [[calveno|Calveno]] — a crowded canal-side market, washing strung overhead.
+> **Who:** [[jean-claude-tabarnack|Jean-Claude]] (a tall grung ranger, jewel-bright skin), [[delmar-fisk|Delmar]] ("the Admiral").
+> **Beat:** Jean-Claude bellows his search across a packed market; Delmar reacts with a slow, unexplained grin.
+
+## Screenplay
+
+**EXT. LA PALUDA MARKET — CALVENO — DAY**
+
+*The crowd churns around [[jean-claude-tabarnack|Jean-Claude]]. He cups his hands and bellows over the din.*
+
+**JEAN-CLAUDE** *(to the whole market)*
+Hello. I am looking for a bird, a rat, and a sexy human.
+
+*Beside him, [[delmar-fisk|Delmar]] — for no reason anyone can see — breaks into a slow grin.*
+
+> 😂 **— big table laugh —**
+
+## Audio
+![[3_bird-rat-human_part00.m4a]]
+**From:** session04-part00 @ 12:31–13:01  (peak 0.33, intensity 0.54; laugh_end 13:00) — provenance only, not a listening cue.
+````
+
+In the screenplay, keep in-character **dialogue faithful** to the clip and render declared
+**actions** as written — do not invent lines, outcomes, or beats. The setting and appearance come
+from the wiki; the story comes from the table.
 
 ---
 
@@ -320,35 +426,44 @@ nothing dropped. Do **not** invent lines or change meaning; the clip is the sour
 |---|---|
 | Including a moment with no in-world scene (jobs, snacks, TV, DM critiquing his own voices) | Discard it — in-world only — and take the next-ranked burst |
 | Discarding an in-world action because mechanics ride along (a PC casting Sending, padding the message) | KEEP it — the spell is in-fiction; frame around the action, trim meta asides |
-| Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, clip |
+| Everything inline in one note | Split it: thin index + one screenplay scene file per moment |
+| Index padded with full scripts | The index is mostly `[[wikilinks]]`; the scripts live in the scene files |
+| Audio embed at the top of a scene | Put `## Audio` at the **end** — screenplay reads first, then press play |
+| Bare transcript, no staging | Stage it as a screenplay: slugline, setting + appearance from the wiki, action lines |
+| Inventing dialogue or outcomes to make it "cinematic" | Keep in-character dialogue faithful to the clip; render only the declared actions; invent nothing |
+| Making up the setting/appearance | Pull location look + character appearance from the wiki (`ttrpg-wiki-query`); flag missing pages |
+| Reading a player's "I pull the dagger out" as dialogue | First-person action declarations become **action lines** (third person); only spoken lines are dialogue |
+| Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, staging, clip |
 | Lead-up starts mid-sentence | Walk back to the premise; start at a natural conversational boundary |
 | Missing a setup stored in a run-on row | Transcripts pack long monologues into one 30s+ row — read the row's full text, not just line count |
 | Leaving `Speaker 1` / `Speaker 7` labels | Apply speaker-map.md; exclude external/phone voices |
 | Transcribing a name as heard ("Kaizel", "Crystal") | Resolve to the canonical page via ttrpg-wiki-query; "Kaizel"→[[master-kyzil]], "Crystal"→[[crissdalynn-khinriss]] |
-| Plain-bold names instead of wikilinks | Wikilink every character on first mention so the note joins the graph |
+| Plain-bold names instead of wikilinks | Wikilink every character on first mention so the scene joins the graph |
 | `[[red-link]]` to a page that doesn't exist | Leave as plain text and flag it; don't invent a target |
-| Note written outside the vault (`audio/sessions/`) | Write to `wiki/sessions/`; clips to `wiki/assets/sessions/` so the wiki indexes/embeds them |
+| Files written outside the vault (`audio/sessions/`) | Write to `wiki/sessions/`; clips to `wiki/assets/sessions/` so the wiki indexes/embeds them |
 | Telling the reader to open part07 at 24:44 | Produce a standalone slice file and embed it (`![[…]]`); the part+timestamp is provenance only |
-| Missing frontmatter | Add the YAML block; write a real `summary` (the hook flags a default one) |
-| Distilling the script to a few lines | Include the FULL scene script — every line of the lead-up, merged but not dropped |
+| Missing frontmatter | Add the YAML block to every file; write a real `summary` (the hook flags a default one) |
 | Stopping at the first laugh / button | Extend forward through `laugh_end`; keep the follow-on jokes the table was still laughing at |
 | Trusting mid-laugh labels | During overlapping laughter, labels drift — attribute by content |
 | Clip is laugh±4s only | Cut from the scene start so the clip contains the whole bit, not just the laugh |
 | Ending the clip on the burst | The punchline can land AT or AFTER the detected burst — read forward and include the button |
 | Ranking confusion | `intensity` = biggest sustained laugh (default). `peak` = loudest spike. Default to intensity |
-| Committing draft scaffolding | `laughs-draft.md` / `laughs.json` / `*-draft/` are scratch; the deliverable is the wiki note + embedded clips |
+| Committing draft scaffolding | `laughs-draft.md` / `laughs.json` / `*-draft/` are scratch; the deliverable is the index + scene files + embedded clips |
 
 ## Red flags — you're not done
 
 - A moment that isn't about the game (real life, pop culture, table logistics)
-- Any `Speaker N` left in the note
+- Everything crammed into one note instead of an index + seven scene files
+- A scene that's a bare transcript with no screenplay staging (no slugline, no setting, no appearance)
+- Invented dialogue/outcomes, or setting/appearance you made up instead of pulling from the wiki
+- The audio embed sits at the top of a scene instead of the end
+- Any `Speaker N` left in a file
 - A character that's plain text or a phonetic transcript spelling instead of a resolved `[[wikilink]]`
-- The note lives outside `wiki/`, or has no frontmatter
-- The script is a few cherry-picked lines instead of the full scene
+- A file lives outside `wiki/`, or has no frontmatter
 - A moment with no embedded slice file — just a part name and a timestamp to "go listen"
-- A clip whose audio doesn't cover the script's span
-- You never opened `speaker-map.md` or used ttrpg-wiki-query to resolve names
+- A clip whose audio doesn't cover the scene's span
+- You never opened `speaker-map.md` or used ttrpg-wiki-query to resolve names and staging
 - Draft scaffolding or rejected clips left behind (you didn't clean up)
-- You finished without chain-loading ttrpg-wiki-lint on the note
+- You finished without chain-loading ttrpg-wiki-lint on the index + all seven scenes
 
 All of these mean: go back to the filter/refinement loop.

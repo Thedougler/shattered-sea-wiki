@@ -320,6 +320,129 @@ def extract_clips(
             log(f"  wrote {out}")
 
 
+def parse_ts(s: str) -> float:
+    """Parse 'H:MM:SS' or 'MM:SS' (or plain seconds) to float seconds."""
+    parts = [float(p) for p in str(s).strip().split(":")]
+    if len(parts) == 3:
+        return parts[0] * 3600 + parts[1] * 60 + parts[2]
+    if len(parts) == 2:
+        return parts[0] * 60 + parts[1]
+    return parts[0]
+
+
+@dataclass
+class TranscriptRow:
+    start: float  # seconds, local to the part
+    end: float
+    speaker: str
+    text: str
+
+
+def load_transcript(csv_path: Path) -> list[TranscriptRow]:
+    """Load a per-part transcript CSV (ID,Start,End,Speaker,Text)."""
+    import csv
+
+    rows: list[TranscriptRow] = []
+    with open(csv_path, newline="") as f:
+        for d in csv.DictReader(f):
+            if not d.get("Start") or not d.get("End"):
+                continue
+            try:
+                rows.append(
+                    TranscriptRow(
+                        start=parse_ts(d["Start"]),
+                        end=parse_ts(d["End"]),
+                        speaker=(d.get("Speaker") or "").strip(),
+                        text=(d.get("Text") or "").strip(),
+                    )
+                )
+            except (ValueError, KeyError):
+                continue
+    return rows
+
+
+def _load_part_transcripts(paths: list[Path], log=print) -> dict[str, tuple[list[TranscriptRow], float]]:
+    """Map part stem -> (rows, part_duration). Sibling CSV is '<audio>.csv'."""
+    out: dict[str, tuple[list[TranscriptRow], float]] = {}
+    for p in paths:
+        csv_path = Path(str(p) + ".csv")
+        if not csv_path.exists():
+            log(f"  no transcript for {p.name} (looked for {csv_path.name})")
+            continue
+        rows = load_transcript(csv_path)
+        duration = max((r.end for r in rows), default=0.0)
+        out[p.stem] = (rows, duration)
+    return out
+
+
+def gather_context(
+    burst: Burst,
+    transcripts: dict[str, tuple[list[TranscriptRow], float]],
+    order: list[str],
+    seconds: float,
+) -> list[tuple[str, TranscriptRow]]:
+    """Return (part_stem, row) for transcript lines in the `seconds` before the laugh.
+
+    Spills into the previous part's tail when the window crosses a part boundary.
+    """
+    out: list[tuple[str, TranscriptRow]] = []
+    end = burst.local_start
+    start = end - seconds
+
+    if start < 0 and burst.part in order:
+        idx = order.index(burst.part)
+        if idx > 0:
+            prev = order[idx - 1]
+            prows, pdur = transcripts.get(prev, ([], 0.0))
+            prev_window_start = pdur + start  # start is negative
+            out.extend((prev, r) for r in prows if r.end >= prev_window_start)
+        start = 0.0
+
+    rows, _ = transcripts.get(burst.part, ([], 0.0))
+    out.extend((burst.part, r) for r in rows if r.end >= start and r.start <= end)
+    return out
+
+
+def render_context_report(
+    bursts: list[Burst],
+    paths: list[Path],
+    top: int,
+    seconds: float,
+    log=print,
+) -> str:
+    """Markdown: each top laugh with the `seconds` of transcript leading up to it."""
+    transcripts = _load_part_transcripts(paths, log=log)
+    order = [p.stem for p in sorted(paths, key=lambda p: p.name)]
+
+    lines = [
+        f"# Laughter highlights with transcript context (top {min(top, len(bursts))})",
+        "",
+        f"Each entry shows the {seconds:.0f}s of dialogue leading up to a detected laugh — "
+        "the laugh is usually the payoff, so the setup is just above it.",
+        "",
+    ]
+    for i, b in enumerate(bursts[:top]):
+        lines.append(
+            f"## {i + 1}. {fmt_ts(b.start)} "
+            f"— peak {b.peak:.2f}, intensity {b.integral:.2f}, {b.duration:.1f}s"
+        )
+        lines.append(f"*{b.part} @ {fmt_ts(b.local_start)}*")
+        lines.append("")
+        ctx = gather_context(b, transcripts, order, seconds)
+        if not ctx:
+            lines.append("> _(no transcript context found)_")
+        else:
+            for part_stem, row in ctx:
+                tag = "" if part_stem == b.part else f" [{part_stem}]"
+                speaker = row.speaker or "?"
+                if row.text:
+                    lines.append(f"> **{speaker}** ({fmt_ts(row.start)}{tag}): {row.text}")
+        lines.append(">")
+        lines.append("> 😂 **— laughter detected —**")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="shattered-audio laughs",
@@ -336,6 +459,14 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--device", default="cpu", choices=["cpu", "cuda"])
     p.add_argument("--clips", type=Path, help="Extract top-N bursts as audio clips into this dir")
     p.add_argument("--clip-pad", type=float, default=4.0, help="Lead-in/out around each clip (s)")
+    p.add_argument(
+        "--context-out", type=Path,
+        help="Write a markdown report of top-N laughs with preceding transcript (needs sibling .csv)",
+    )
+    p.add_argument(
+        "--context-seconds", type=float, default=90.0,
+        help="Seconds of transcript to include before each laugh",
+    )
     return p
 
 
@@ -365,6 +496,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.clips:
         log(f"Extracting top {args.top} clips to {args.clips} ...")
         extract_clips(bursts, paths, args.clips, args.top, args.clip_pad, log=log)
+
+    if args.context_out:
+        log(f"Writing transcript-context report to {args.context_out} ...")
+        report = render_context_report(bursts, paths, args.top, args.context_seconds, log=log)
+        args.context_out.write_text(report)
 
     print(render_table(bursts, args.top))
     return 0

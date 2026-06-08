@@ -76,7 +76,10 @@ things the script can't, because they need judgment:
 2. **Full script** — include the *complete* dialogue of the scene leading up to and through
    the moment, not a distilled excerpt. The whole bit's script must be in the note.
 3. **Correct speakers** — resolve attribution against `speaker-map.md`; exclude non-game voices.
-4. **Aligned audio** — cut each clip to cover the same span as the script (lead-up + moment).
+4. **Standalone aligned audio** — cut each moment into its **own** audio file containing
+   *exactly* that slice (lead-up + moment), and embed that file. The highlight links to the
+   slice itself — the reader presses play in place. **Never** point at the original part file
+   plus a timestamp ("open part07 at 24:44") and call that the audio; produce the slice.
 5. **Wiki-native + linked** — write an Obsidian-compliant note in the vault, with frontmatter
    and `[[wikilinks]]` to every character, resolved to their *canonical* wiki page (see below).
 
@@ -251,10 +254,12 @@ roster with wikilinks + the speaker-resolution note), then one section per momen
 
 Conventions:
 - Every moment is in-world (OOC discarded upstream).
-- Clip filename: `{rank}_{slug}_part{P}.m4a`; embed with `![[{rank}_{slug}_part{P}.m4a]]`.
-- **Source** line shows the clip's *actual* span; the headline anchor is the session-global
-  `session_time` from `laughs.json` (keep the JSON until the note is written) — or the part-local
-  laugh time if the JSON is gone.
+- **The audio is a standalone slice file, embedded.** Each moment opens with
+  `![[{rank}_{slug}_part{P}.m4a]]` — a real file holding exactly that clip. That embed *is* the
+  way to hear the moment; the reader never opens a 30-minute part file to find it.
+- The **From** line is provenance only (so the slice can be re-cut), not a listening instruction:
+  `From session04-part00 @ 12:36–13:04`. The headline anchor is the session-global `session_time`
+  from `laughs.json` (keep the JSON until the note is written), or the part-local laugh time if gone.
 - Every character is `[[wikilinked]]` to a canonical page on first mention per moment.
 - `rank` reflects the moment's order in the final in-world note, not its raw burst rank.
 
@@ -280,7 +285,7 @@ Cast: [[jean-claude-tabarnack|Jean-Claude]] (seabird PC), [[crissdalynn-khinriss
 
 ## 1. {short title} — {session_time}
 ![[1_bird-rat-human_part00.m4a]]
-- **Source:** session04-part00 @ 12:36–13:04  (peak 0.33, intensity 0.54)
+- **From:** session04-part00 @ 12:36–13:04  (peak 0.33, intensity 0.54)  *(provenance, not a listening cue)*
 
 > **DM:** It doesn't take you long to find them — the four of you are still in downtown Calveno.
 > **[[jean-claude-tabarnack|Jean-Claude]]:** *(to a stranger)* Hello. I am looking for a bird, a rat, and a sexy human.
@@ -312,6 +317,7 @@ nothing dropped. Do **not** invent lines or change meaning; the clip is the sour
 | Plain-bold names instead of wikilinks | Wikilink every character on first mention so the note joins the graph |
 | `[[red-link]]` to a page that doesn't exist | Leave as plain text and flag it; don't invent a target |
 | Note written outside the vault (`audio/sessions/`) | Write to `wiki/sessions/`; clips to `wiki/assets/sessions/` so the wiki indexes/embeds them |
+| Telling the reader to open part07 at 24:44 | Produce a standalone slice file and embed it (`![[…]]`); the part+timestamp is provenance only |
 | Missing frontmatter | Add the YAML block; write a real `summary` (the hook flags a default one) |
 | Distilling the script to a few lines | Include the FULL scene script — every line of the lead-up, merged but not dropped |
 | Trusting mid-laugh labels | During overlapping laughter, labels drift — attribute by content |
@@ -327,6 +333,7 @@ nothing dropped. Do **not** invent lines or change meaning; the clip is the sour
 - A character that's plain text or a phonetic transcript spelling instead of a resolved `[[wikilink]]`
 - The note lives outside `wiki/`, or has no frontmatter
 - The script is a few cherry-picked lines instead of the full scene
+- A moment with no embedded slice file — just a part name and a timestamp to "go listen"
 - A clip whose audio doesn't cover the script's span
 - You never opened `speaker-map.md` or used ttrpg-wiki-query to resolve names
 - Draft scaffolding or rejected clips left behind (you didn't clean up)

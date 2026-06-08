@@ -33,25 +33,34 @@ an in-character line, a character's action, the DM narrating the world, an in-ga
 spell, a PC's clever move. The art agent illustrates *campaign scenes*; it cannot draw a
 real-world aside.
 
-**Discard out-of-character (OOC) laughs entirely**, no matter how big: real-life table talk
-(jobs, food, family), pop-culture references (Trailer Park Boys, movies), table logistics
-("you're on speaker"), dice/rules meta-jokes. A huge OOC laugh does **not** belong in the
-brief. Drop it and take the next-ranked candidate.
+**The one test:** is there a drawable in-world scene — a character *doing something in the
+fiction*? Casting a spell, swinging a weapon, speaking in character, sending an in-game
+message, making a plan in the world. If yes → **KEEP**, and frame the moment around that
+in-world action. If the whole moment is people at a table talking about something *outside
+the story* → **DISCARD**, no matter how big the laugh.
 
-The detector ranks by laughter, which is OOC-blind — so the loudest bursts are often table
-banter. Filtering those out is the FIRST thing you do, before any refinement. Keep walking
-down the ranking until you have your target count of genuine in-world moments.
+**DISCARD only when there is no in-world scene:**
+- Real life — jobs, food, family ("I ate fried slugs in Florida"); a real-world premise (a
+  coworker wanting a promotion) doesn't become in-world just because a character is name-dropped
+  in the punchline. A **name-drop is not an action** — the character must be *doing* something.
+- Commentary about the game from outside it — the DM critiquing his own NPC voices, "fuck
+  the campaign, he ate slugs," arguing a rule in the abstract.
+- Pure pop-culture tangents and table logistics ("you're on speaker") with no in-fiction action.
 
-**The test for each candidate:** could the art agent draw this as a scene from the Shattered
-Sea? If it's a real coworker, a snack, or a 2010s TV show — no. If it's Jean-Claude announcing
-the party as "a bird, a rat, and a sexy human" to a stranger in Calveno — yes.
+**KEEP in-world actions even when mechanics or a meta-aside ride along.** A character casting
+*Sending* and padding the absurd warning message to hit the word limit is **in-world** — the
+spell is a real thing the character does, and "a panicked PC firing off a ridiculous magical
+warning" is drawable. The word-count haggling is just the vehicle; frame the brief around the
+in-world action (the spell, the message, the scene), not the mechanic. Trim purely-meta asides
+(a Dimension-20 reference) from the quoted log; keep the in-world spine.
 
-**Classify by the line the laugh lands on, not the whole window** — the two mix constantly:
-- In-world payoff, OOC lead-in (build-praise → the character's actual quip): **KEEP**, and
-  start the clip at the in-world line, trimming the OOC setup.
-- In-world activity, OOC punchline (composing an in-game message, but the laugh is the
-  *spell's word-count* or a Dimension-20 aside): **DISCARD** — the art agent can't draw the
-  joke even though fiction surrounds it.
+The detector ranks by laughter, which is scene-blind — so the loudest bursts are often pure
+table banter. Filtering those out is the FIRST thing you do, before any refinement. Keep
+walking down the ranking until you have your target count of genuine in-world moments.
+
+**When payoff and setup mix:** an in-world punchline with an OOC lead-in (build-praise → the
+character's actual quip) is a **KEEP** — start the clip at the in-world line and trim the OOC
+setup. Reserve DISCARD for moments with no in-world action anywhere.
 
 ---
 
@@ -156,6 +165,24 @@ ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4
 
 Assemble the refined moments into the final report. Output contract is below.
 
+### 4. Clean up after yourself
+
+The deliverable is `highlights-for-art.md` plus the final clips it references — nothing else.
+Remove the scaffolding you (or a prior run) created:
+
+```bash
+# draft scaffolding from step 1
+rm -f audio/sessions/session{NN}/laughs-draft.md
+rm -rf audio/sessions/session{NN}/highlight-clips-draft
+# any clip in highlight-clips/ NOT referenced by the final brief (rejected/OOC/superseded)
+```
+
+Delete every clip that didn't make the final cut (discarded OOC moments, re-cut supersedes).
+After cleanup the session folder should contain only `highlights-for-art.md` and the clips it
+links. Keep `laughs.json` only if you want the raw scan record; otherwise remove it too. Never
+leave stale or contradictory briefs/clips behind — the next reader can't tell scratch from
+deliverable.
+
 ---
 
 ## Output contract (read by the art agent)
@@ -203,7 +230,8 @@ clip is the source of truth.
 
 | Mistake | Fix |
 |---|---|
-| Including a big OOC laugh (jobs, snacks, TV references, rules meta) | Discard it — in-world only — and take the next-ranked burst |
+| Including a moment with no in-world scene (jobs, snacks, TV, DM critiquing his own voices) | Discard it — in-world only — and take the next-ranked burst |
+| Discarding an in-world action because mechanics ride along (a PC casting Sending, padding the message) | KEEP it — the spell is in-fiction; frame around the action, trim meta asides |
 | Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, clip |
 | Lead-up starts mid-sentence | Walk back to the premise; start at a natural conversational boundary |
 | Missing a setup stored in a run-on row | Transcripts pack long monologues into one 30s+ row — read the row's full text, not just line count |
@@ -221,5 +249,6 @@ clip is the source of truth.
 - Any highlight whose first line starts mid-thought
 - A clip whose audio doesn't include the joke setup
 - You never opened `speaker-map.md`
+- Draft scaffolding or rejected clips still in the session folder (you didn't clean up)
 
 All of these mean: go back to the filter/refinement loop.

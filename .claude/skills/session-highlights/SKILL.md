@@ -222,14 +222,17 @@ digraph prereqs {
 
 ## Pipeline
 
-Three things make this pipeline work — skip any and scenes come out wrong:
+Four things make this pipeline work — skip any and scenes come out wrong (or expensive):
 - **The transcript is ground truth for the physical scene.** Read it back far enough to establish
   the blocking (flying/swimming/standing/grappling) before staging — the laugh window won't tell you.
-- **Each moment gets its own subagent** (step 3) whose paramount job is accurate recreation — it
-  reads its own slice of transcript deeply, so seven scenes don't share one shallow read.
+- **Gather the shared lore once, up front** (step 2c) into a `lore-pack.md` the subagents read — the
+  recurring cast is looked up a single time, not re-queried inside all seven subagents.
+- **Each moment gets its own subagent on a cheaper model** (step 3) whose paramount job is accurate
+  recreation — it reads its own transcript window deeply and returns a terse report, so seven scenes
+  don't share one shallow read and the orchestration context stays small.
 - **Bookended by two chain-loaded sub-skills, both mandatory:** chain-load **ttrpg-wiki-query**
-  before staging (canon appearance + facts), and **ttrpg-wiki-lint** after writing (frontmatter,
-  tags, every `[[wikilink]]`).
+  before staging (to build the lore pack), and **ttrpg-wiki-lint** after writing (frontmatter, tags,
+  every `[[wikilink]]`).
 
 ### 1. Detect (run the script once)
 
@@ -292,17 +295,24 @@ as a player). **Exclude** non-game voices. Then resolve every name to its canoni
 and wikilink it (see **Wikilinks** above) — `[[crissdalynn-khinriss|Crissdalynn]]`,
 not the transcript's phonetic guess.
 
-**c. Gather staging context from the wiki — chain-load the query skill.**
-**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-query** before staging *any* scene. Do not write a
-Setting block or an action line from memory or from the transcript's phonetic guesses — the
-screenplay must be canon-correct. For each moment, query the wiki for:
-- the **location** (look, light, atmosphere) where the scene happens,
-- each **character's appearance** (species, build, signature gear, colours),
-- the **in-world facts** the scene turns on (what an NPC is, what a spell/item actually does, who
-  knows whom) — so the action lines describe what *really* happened, not a plausible guess.
+**c. Build the shared lore pack — ONCE, up front.** The seven moments share a cast: the same PCs,
+the recurring NPCs, a handful of locations and items show up across many scenes. Looking each one up
+*inside* every subagent means querying the same character six or seven times — wasteful and prone to
+drift. Instead, gather it **once** here and hand the finished pack to every subagent.
 
-This is the drawable, correct detail the Setting block and action lines need. Don't invent it; if a
-page is missing, keep staging minimal and flag the gap (don't fabricate canon to fill it).
+**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-query** (it is cheap to delegate this whole gather to
+a single research subagent on a cheaper model). Collect, from canonical pages — not memory:
+- every **PC**'s appearance (species, build, signature gear, colours) + voice/manner,
+- each **recurring NPC** that appears across the moments, same detail,
+- the **locations** the moments touch (look, light, atmosphere),
+- recurring **items / creatures / in-world facts** the scenes turn on (what a spell or item does,
+  who holds what, a creature's caste/abilities).
+
+Write the result to a scratch file — `audio/sessions/session{NN}/lore-pack.md` — as a compact,
+wikilink-keyed list (one tight line per entity: `[[slug|Name]]: appearance · manner · key fact`).
+Each subagent reads this one file instead of re-querying. **Scene-unique** entities (a one-off NPC in
+just one moment) are *not* in the pack — that moment's subagent looks those up itself. Don't invent;
+if a page is missing, note the gap in the pack. Delete the scratch file in cleanup (step 4).
 
 **d. Cut the clip** from the scene start through `laugh_end` (plus a beat), into the vault
 assets, so the audio covers the same span as the script — setup, moment, and follow-on jokes:
@@ -316,35 +326,44 @@ ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4
 
 ### 3. Write the scene files — one subagent per moment
 
-**Dispatch one subagent per moment.** Each scene lives or dies on getting *its* details exactly
-right, and that takes a focused read of the transcript around that one moment — more than you can
-do well for seven moments in a single context. So delegate each moment to its own subagent (run
-them in parallel) whose **paramount, non-negotiable job is to recreate the scene accurately.**
+**Dispatch one subagent per moment, in parallel, on a cheaper model.** Each scene lives or dies on
+getting *its* details exactly right, and that takes a focused read of the transcript around that one
+moment — more than you can do well for seven moments in one context. So delegate each moment to its
+own subagent whose **paramount, non-negotiable job is to recreate the scene accurately.** The work
+(read a transcript window → translate to a screenplay) is well within a **cheaper model's** ability —
+dispatch the subagents on **Sonnet** (Haiku only for a trivially short moment); keep the top model
+for *your* orchestration (planning, the lore pack, the index). Token efficiency is built into how you
+brief them, below.
 
 Give each subagent everything it needs to stand alone — it does NOT share your context:
 
-- The moment's identity: rank `{n}`, slug, the clip filename, and the `From` provenance
-  (part `{P}`, the laugh window, `laugh_end`).
-- The transcript path: `audio/sessions/session{NN}-part{P}.m4a.csv`.
-- The `speaker-map.md` path for that session.
-- The scene-file path to write: `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md`.
-- The output contract + `references/screenplay-format.md` rules.
+- The moment's identity: rank `{n}`, slug, clip filename, `From` provenance (part `{P}`, laugh
+  window, `laugh_end`), and the scene-file path to write.
+- **The lore-pack path** (`audio/sessions/session{NN}/lore-pack.md`) — its canon source, already
+  gathered. It reads this, and does **not** re-query the recurring cast.
+- The transcript path + a **targeted window**, so it never loads the whole 30-min CSV. Give the
+  byte-cheap extract command, e.g.:
+  ```bash
+  # pull ~3 min before the laugh through laugh_end+ from the part CSV
+  awk -F',' 'NR==1||($2>="{HH:MM}"&&$2<="{HH:MM}")' audio/sessions/session{NN}-part{P}.m4a.csv
+  ```
+- The `speaker-map.md` path, the output contract, and `references/screenplay-format.md`.
 
-And instruct each subagent, in its own words:
+Instruct each subagent, in its own words:
 
-> Accuracy is paramount. **Read the transcript starting at least 2–3 minutes before the laugh
-> window** — far enough back to establish the physical blocking: where every character is and what
-> they are physically doing (flying, swimming, standing, grappling, falling), and what just
-> happened mechanically to put them there. Quote the literal cues that pin it ("how high up are
-> we?", "outside the tunnel now"). Do NOT infer the physical scene from the laugh window or the
-> wiki. Resolve speakers via speaker-map.md. Chain-load **ttrpg-wiki-query** for each character's
-> appearance and the in-world facts. Then write the scene file as a screenplay: title → Setting
-> block (Where / Who-with-appearance / Beat) → screenplay (faithful dialogue, declared actions as
-> action lines, the laugh beat) → `## Audio` embed at the end. Report back the blocking you
-> established and the transcript cues that prove it.
+> Accuracy is paramount. **Read the transcript window from ~3 min before the laugh through
+> `laugh_end`** to establish the physical blocking: where every character is and what they are
+> physically doing (flying / swimming / standing / grappling / falling), and what put them there.
+> Quote the literal cues ("how high up are we?", "20 feet up", "outside the tunnel"). Do NOT infer
+> the scene from the laugh window or from the lore. Read the lore-pack file for appearance + canon
+> facts; only query the wiki yourself for an entity the pack doesn't cover. Resolve speakers via
+> speaker-map.md. Write the scene file as a screenplay (title → Setting block → screenplay → `##
+> Audio` embed at the end). Then reply with a **terse report only** — the blocking you established,
+> the 2–3 transcript cues that prove it, and any gap. **Do not echo the file body back.**
 
-Read each subagent's report. **If it can't cite transcript evidence for the blocking, send it back
-to read more** — a confidently-wrong physical scene is the failure this guards against.
+The terse report keeps the orchestration context small. Read each report; **if it can't cite
+transcript evidence for the blocking, send it back to read more** — a confidently-wrong physical
+scene is the failure this guards against.
 
 Then **you** write the thin index `wiki/sessions/session-{NN}-highlights.md`: frontmatter, cast
 roster, discarded-OOC list, and a ranked list of `[[wikilinks]]` to the seven scene files — mostly
@@ -358,6 +377,7 @@ Remove scaffolding:
 
 ```bash
 rm -f audio/sessions/session{NN}/laughs-draft.md audio/sessions/session{NN}/laughs.json
+rm -f audio/sessions/session{NN}/lore-pack.md   # the shared staging pack — scratch, not a deliverable
 rm -rf audio/sessions/session{NN}/highlight-clips-draft
 # delete any clip in the vault assets NOT embedded by a final scene file (rejected/OOC/superseded)
 ```
@@ -484,6 +504,10 @@ from the wiki; the story comes from the table.
 |---|---|
 | **Getting the physical scene wrong — swimming when they're flying, who holds whom** | Read the transcript 2–3 min back to establish blocking BEFORE staging; quote the cues ("how high up are we?", "20 feet up", "outside the tunnel"). The transcript is ground truth, not the wiki vibe or the laugh window |
 | Writing all seven moments yourself from one context | Dispatch one subagent per moment (step 3) — each reads its own transcript deeply; accuracy per scene is paramount |
+| Re-querying the same recurring cast inside all seven subagents | Build the `lore-pack.md` ONCE up front (step 2c); subagents read it, not the wiki, for the recurring cast |
+| Running the per-moment subagents on the top model | They read a transcript window and write a screenplay — a cheaper model (Sonnet) handles it; reserve the top model for orchestration |
+| Subagent loads the whole 30-min CSV | Give it a `laugh_end`-bounded `awk` window (~3 min back); never the full part transcript |
+| Subagent echoes the whole scene file back in its reply | Ask for a terse blocking report only (cues + gaps); the file is already on disk |
 | Including a moment with no in-world scene (jobs, snacks, TV, DM critiquing his own voices) | Discard it — in-world only — and take the next-ranked burst |
 | Discarding an in-world action because mechanics ride along (a PC casting Sending, padding the message) | KEEP it — the spell is in-fiction; frame around the action, trim meta asides |
 | Everything inline in one note | Split it: thin index + one screenplay scene file per moment |
@@ -491,8 +515,8 @@ from the wiki; the story comes from the table.
 | Audio embed at the top of a scene | Put `## Audio` at the **end** — screenplay reads first, then press play |
 | Bare transcript, no staging | Stage it as a screenplay: slugline, setting + appearance from the wiki, action lines |
 | Inventing dialogue or outcomes to make it "cinematic" | Keep in-character dialogue faithful to the clip; render only the declared actions; invent nothing |
-| Making up the setting/appearance | Chain-load **ttrpg-wiki-query**: pull location look, character appearance, and in-world facts from the wiki; flag missing pages |
-| Staging a scene without querying the wiki first | Step 2c is a REQUIRED chain-load of ttrpg-wiki-query — gather context before you write a single Setting block or action line |
+| Making up the setting/appearance | It comes from canon: the `lore-pack.md` built via **ttrpg-wiki-query** (step 2c); flag missing pages, never invent |
+| Staging with no lore pack at all | Build it ONCE up front (step 2c) before dispatching subagents — they stage from the pack, not from memory |
 | Reading a player's "I pull the dagger out" as dialogue | First-person action declarations become **action lines** (third person); only spoken lines are dialogue |
 | Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, staging, clip |
 | Lead-up starts mid-sentence | Walk back to the premise; start at a natural conversational boundary |
@@ -527,7 +551,7 @@ from the wiki; the story comes from the table.
 - A moment with no embedded slice file — just a part name and a timestamp to "go listen"
 - A clip whose audio doesn't cover the scene's span
 - You never opened `speaker-map.md`
-- You staged a scene without chain-loading **ttrpg-wiki-query** first (names, appearance, location, in-world facts)
+- You staged from memory with no `lore-pack.md` (built once via **ttrpg-wiki-query**), or re-queried the same cast in every subagent
 - Draft scaffolding or rejected clips left behind (you didn't clean up)
 - You finished without chain-loading **ttrpg-wiki-lint** on the index + all seven scenes
 

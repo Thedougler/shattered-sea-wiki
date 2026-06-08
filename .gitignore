@@ -40,6 +40,7 @@ tools/audio/.venv/
 
 # Package build output
 packages/*/dist/
+tools/audio/build/
 
 player-view/.venv/
 

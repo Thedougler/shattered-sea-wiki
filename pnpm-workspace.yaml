@@ -1,3 +1,6 @@
 packages:
   - 'packages/*'
   - 'ui'
+allowBuilds:
+  esbuild: true
+  sharp: true

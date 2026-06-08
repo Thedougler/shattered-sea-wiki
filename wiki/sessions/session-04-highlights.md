@@ -18,21 +18,23 @@ session_date: unknown
 
 # Session 04 — Laughter Highlights
 
-Cast: [[jean-claude-tabarnack|Jean-Claude]] (blue grung ranger), [[crissdalynn-khinriss|Crissdalynn]] (crow aarakocra monk), [[perrin-black-jaw|Perrin]] (rattkin bard), [[delmar-fisk|Delmar]] (the "Admiral"), with the DM voicing [[master-kyzil|Master Kyzil]] (the owl mentor — transcript "Kaizel"), [[nona-black-jaw|Nona]] (on the [[sending-stone-nona|sending stone]]), her bodyguard [[enzo|Enzo]], and the captured [[grung-elite-warrior|grung]].
+Cast: [[jean-claude-tabarnack|Jean-Claude]] (blue grung ranger), [[crissdalynn-khinriss|Crissdalynn]] (crow aarakocra monk), [[perrin-black-jaw|Perrin]] (rattkin bard), [[delmar-fisk|Delmar]] (the "Admiral"), with the DM voicing [[master-kyzil|Master Kyzil]] (Crissdalynn's owl mentor — transcript "Kaizel"), [[nona-black-jaw|Nona]] (on the [[sending-stone-nona|sending stone]]), her bodyguard [[enzo|Enzo]], and the captured purple [[grung-elite-warrior|grung]].
 
-Speakers resolved against `speaker-map.md` (Speaker 1 = Crissdalynn mic drift). Every scene below is in-world. Each is its own screenplay file — title, staged scene, faithful dialogue, and the audio clip embedded at the end — so the art-generation pass can read one self-contained scene at a time.
+Speakers resolved against `speaker-map.md` (Speaker 1 = Crissdalynn mic drift). Every scene below is in-world, and each was rebuilt from the session transcript so the **physical blocking is correct** — who is flying vs. swimming vs. on the rooftop. Each is its own screenplay file (title → staged scene → faithful dialogue → audio embed at the end) so the art-generation pass can read one self-contained scene at a time.
 
-*(All names resolved to canonical pages — none flagged. The cigarette assassin in #2 has no page yet and is left as plain text.)*
+*(All names resolved to canonical pages — none flagged.)*
 
 ## The seven scenes (ranked by table laugh)
 
-1. [[session-04-highlight-1-grung-capture|"Little secret from Nona" — the grung gets monologued underwater]] — 3:41:29
-2. [[session-04-highlight-2-dagger-cigarette|The cigarette assassin — pinned to the chair, unbothered]] — 1:35:54
+1. [[session-04-highlight-1-grung-capture|"Little secret from Nona" — Crissdalynn monologues the pinned grung at the canal's edge]] — 3:41:29
+2. [[session-04-highlight-2-dagger-cigarette|Pinned to his seat mid-spar, Jean-Claude takes a drag]] — 1:35:54
 3. [[session-04-highlight-3-bird-rat-human|"A bird, a rat, and a sexy human"]] — 12:58
 4. [[session-04-highlight-4-sending-black-powder|"Black powder, penis, penis, penis" — Perrin's Sending]] — 4:01:19
-5. [[session-04-highlight-5-drunk-bard-schwa|"Schwaaa" — the drunk bard's healing word]] — 1:16:26
+5. [[session-04-highlight-5-drunk-bard-schwa|"Schwaaa" — the drunk bard's healing word on the rooftop]] — 1:16:26
 6. [[session-04-highlight-6-roof-perverts|"I mean the roof, you perverts"]] — 32:36
 7. [[session-04-highlight-7-kingfisher-tree-frogs|"Kingfisher this bitch" — tree frogs, not frog frogs]] — 3:37:06
+
+**Two recurring scenes you'll see referenced across these:** the **rooftop spar** with Master Kyzil on the Ponte Bassa roof (highlights 2, 5, and 6 all sit on or around it), and the **purple grung chase** through Le Paludi's canals (highlights 1 and 7 — an aerial/surface chase, not underwater).
 
 ## Discarded as out-of-world (OOC)
 

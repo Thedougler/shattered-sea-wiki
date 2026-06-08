@@ -10,8 +10,7 @@ created: 2026-06-08
 updated: 2026-06-08
 tags:
   - grung
-sources:
-  - Unknown
+sources: []
 session_number: 4
 session_date: unknown
 ---
@@ -37,6 +36,8 @@ Hello. I am looking for a bird, a rat, and a sexy human.
 *And Delmar, for no reason anyone watching could name, breaks into a slow, helpless grin.*
 
 > 😂 **— big table laugh —**
+
+*The scene folds back together: across the market, the others catch sight of Jean-Claude in the distance, walking up to rejoin them.*
 
 ## Audio
 ![[3_bird-rat-human_part00.m4a]]

@@ -5,13 +5,12 @@ campaign: shattered-sea
 status: complete
 audience: dm
 publish: false
-summary: "Highlight 5 of session 04: a tipsy Perrin slurs his healing word into a wet 'schwaaa' as he jigs past the Admiral, then insists the music happening behind a barrel counts as cover."
+summary: "Highlight 5 of session 04: mid-spar on the Ponte Bassa rooftop, a tipsy Perrin jigs past the Admiral and slurs his healing word into a wet 'schwaaa' that barely heals, then insists drumming behind a single barrel makes him hidden."
 created: 2026-06-08
 updated: 2026-06-08
 tags:
   - combat
-sources:
-  - Unknown
+sources: []
 session_number: 4
 session_date: unknown
 ---
@@ -19,36 +18,38 @@ session_date: unknown
 # Session 04 · Highlight 5 — "Schwaaa" — the drunk bard's healing word
 
 > [!info] Setting
-> **Where:** A barrel-cluttered corner of a fight in [[calveno|Calveno]] — kegs stacked along the wall, a scrap underway. *(Exact venue not pinned in the wiki; staged from the scene's own barrels-and-brawl detail.)*
-> **Who:** [[perrin-black-jaw|Perrin]] (a three-foot barefoot rattkin bard, bodhran drum at his hip, several drinks deep), [[delmar-fisk|Delmar]] ("the Admiral"), and [[crissdalynn-khinriss|Crissdalynn]] (crow aarakocra, dry as ever).
-> **Beat:** Perrin tries to cast a healing word on Delmar mid-jig but is too drunk to enunciate it — it comes out a wet "schwaaa" and barely fires — and he insists that drumming behind a barrel makes him hidden.
+> **Where:** The rooftop of [[ponte-bassa|the Ponte Bassa]] in [[calveno|Calveno]] — the canal-bridge tavern's flat two-story roof, reached up the back stair, where the monks practice. Barrels and crates sit pushed to the edges; it's broad daylight (Perrin has his sunglasses out against the glare).
+> **Who:** [[perrin-black-jaw|Perrin]] (a three-foot barefoot rattkin bard — black-furred head over a white body, long pink tail, olive hooded cloak, bodhran drum at his hip — several drinks deep), [[delmar-fisk|Delmar]] "the Admiral" (41, sandy-red topknot, greying beard, all charm), and [[crissdalynn-khinriss|Crissdalynn]] (crow aarakocra monk, dry as ever). The Admiral is mid-spar against [[master-kyzil|Master Kyzil]], whose thrown daggers keep vanishing into smoke and reappearing in his hand — all of it non-lethal training.
+> **Beat:** It's Perrin's turn. He drum-dances thirty feet across the roof, tries a healing word on the Admiral but is too drunk to enunciate it — it comes out a wet "schwaaa" and barely heals — then insists that drumming behind a single barrel makes him hidden.
 
 ## Screenplay
 
-**EXT. CALVENO BRAWL — AMONG THE BARRELS — NIGHT**
+**EXT. PONTE BASSA ROOFTOP — CALVENO — DAY**
 
-*[[perrin-black-jaw|Perrin]] strikes up his drum and breaks into a little jig — tipsy, looping and swerving through the fight. As he swerves past [[delmar-fisk|Delmar]], he doesn't bother with the actual healing word. He just goes:*
+*The spar is on — [[delmar-fisk|Delmar]] trading blows with [[master-kyzil|Master Kyzil]], whose daggers vanish into smoke and reappear in his hand. It comes round to Perrin. [[perrin-black-jaw|Perrin]] — barefoot, a little tipsy — starts banging his drum and breaks into a jig, looping and swerving as he waddles thirty feet across the roof. As he weaves past the Admiral he doesn't bother with the actual healing word. He just goes:*
 
-**PERRIN** *(slurring the spell, not a real word)*
+**PERRIN** *(slurring the spell, not enunciating)*
 Schwaaa—
 
-*The magic barely sputters out of him; that is not how the spell is supposed to sound. He keeps banging the drum anyway, conducting the Admiral through it.*
+*The magic barely sputters out — that is not how the spell is supposed to sound. The Admiral takes only the smallest sip of healing. Perrin keeps banging the drum, conducting him through it.*
 
-**PERRIN** *(singing it through)*
-Oh — you'll have to catch me, you're okay, go get him!
+**PERRIN** *(singing it past, half to his drum)*
+Fred, heal him a bit. — You'll have to catch me. You're okay. Go get him!
 
-**[[crissdalynn-khinriss|Crissdalynn]]** *(flat)*
-…I mean, you're still playing drums, though.
+*He declares his whole turn is drumming and wandering, drunk and slithering, and tucks himself behind a barrel at the roof's edge.*
 
-**PERRIN**
+**CRISSDALYNN** *(flat)*
+I mean… you're still playing drums, though.
+
+**PERRIN** *(as if it settles everything)*
 Music happening behind a barrel.
 
 > 😂 **— big table laugh —**
 
-**CRISSDALYNN** *(deadpan, voicing the oblivious enemy)*
-"He'll never find me."
+**CRISSDALYNN** *(deadpan, voicing the oblivious Master Kyzil)*
+He'll never find me.
 
-*Perrin, only half-tucked behind a single keg, maintains he is — at the very least — somewhat obscured. He is not far.*
+*Perrin, only half-hidden behind the one keg, maintains he is — at the very least — somewhat obscured. He's not far. Kyzil knows exactly where he is; he just doesn't have line of sight.*
 
 ## Audio
 ![[5_drunk-bard-schwa_part02.m4a]]

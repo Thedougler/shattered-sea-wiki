@@ -73,8 +73,9 @@ The `shattered-audio laughs` script does the *detection*. This skill does the fi
 things the script can't, because they need judgment:
 
 1. **In-world filter** — discard OOC laughs; keep only moments about the game (see above).
-2. **Full script** — include the *complete* dialogue of the scene leading up to and through
-   the moment, not a distilled excerpt. The whole bit's script must be in the note.
+2. **Full scene, both directions** — extend *backward* to capture all the setup, and *forward*
+   through the burst's `laugh_end` to capture the follow-on jokes/laughter riding the same wave.
+   Include the complete dialogue of that whole span, not a distilled excerpt.
 3. **Correct speakers** — resolve attribution against `speaker-map.md`; exclude non-game voices.
 4. **Standalone aligned audio** — cut each moment into its **own** audio file containing
    *exactly* that slice (lead-up + moment), and embed that file. The highlight links to the
@@ -180,7 +181,8 @@ default brief targets **seven** highlights.
 
 `laughs.json` ranks bursts by **intensity** (loud + sustained = biggest table laughs).
 Each entry has `part`, `part_time` (mm:ss local to that part), `session_time`, `duration`,
-`peak`, `intensity`. The draft context/clips are scaffolding — you refine them next.
+`peak`, `intensity`, and **`laugh_end`** (local mm:ss where the laughter decays to baseline —
+your forward boundary). The draft context/clips are scaffolding — you refine them next.
 
 (If a prior run left only `laughs-draft.md` / `laugh-highlights.md` and no JSON, that markdown
 carries the same per-burst metadata — reuse it rather than re-scanning.)
@@ -198,12 +200,12 @@ and move to the next burst. Also **merge adjacent bursts from the same scene** i
 (the detector often fires twice on one bit). Stop once you have seven in-world moments (the
 default target; adjust if asked).
 
-**a. Find the scene start and capture the FULL script.** Read backward from the laugh to the
-start of the *bit* (a natural conversational boundary), then transcribe the **complete** scene
-from there through one beat after the laugh — every line, in order, nothing dropped. The whole
-script of the lead-up must be in the note, not a 3-line distillation. Merge the transcript's
-fragmented one-word rows into natural sentences and lightly clean filler, but keep all the
-content. See `references/finding-boundaries.md`.
+**a. Find the scene bounds and capture the FULL script.** Read *backward* from the laugh to the
+start of the bit (a natural conversational boundary) for all the setup, and read *forward*
+through the burst's **`laugh_end`** (from `laughs.json` — where laughter decays to baseline) to
+catch the follow-on jokes/laughter. Transcribe the **complete** scene across that span — every
+line, in order, nothing dropped. Merge fragmented one-word rows into natural sentences and
+lightly clean filler, but keep all the content. See `references/finding-boundaries.md`.
 
 **b. Correct speakers, then wikilink them.** Apply `speaker-map.md` (e.g. `Speaker 1 →
 Crissdalynn` mic drift) and sanity-check by content (a DM narration line shouldn't stay tagged
@@ -211,11 +213,11 @@ as a player). **Exclude** non-game voices. Then resolve every name to its canoni
 and wikilink it (see **Wiki-native output** above) — `[[crissdalynn-khinriss|Crissdalynn]]`,
 not the transcript's phonetic guess.
 
-**c. Cut the clip** from the scene start through the button, into the vault assets, so the audio
-covers the same span as the script:
+**c. Cut the clip** from the scene start through `laugh_end` (plus a beat), into the vault
+assets, so the audio covers the same span as the script — setup, moment, and follow-on jokes:
 
 ```bash
-# start/dur are LOCAL seconds within the part file
+# start = scene-start local seconds; end ≈ laugh_end + 1s; dur = end - start
 ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4a \
   -t {dur} -ac 1 wiki/assets/sessions/session{NN}/highlight-clips/{rank}_{slug}.m4a
 ```
@@ -320,6 +322,7 @@ nothing dropped. Do **not** invent lines or change meaning; the clip is the sour
 | Telling the reader to open part07 at 24:44 | Produce a standalone slice file and embed it (`![[…]]`); the part+timestamp is provenance only |
 | Missing frontmatter | Add the YAML block; write a real `summary` (the hook flags a default one) |
 | Distilling the script to a few lines | Include the FULL scene script — every line of the lead-up, merged but not dropped |
+| Stopping at the first laugh / button | Extend forward through `laugh_end`; keep the follow-on jokes the table was still laughing at |
 | Trusting mid-laugh labels | During overlapping laughter, labels drift — attribute by content |
 | Clip is laugh±4s only | Cut from the scene start so the clip contains the whole bit, not just the laugh |
 | Ending the clip on the burst | The punchline can land AT or AFTER the detected burst — read forward and include the button |

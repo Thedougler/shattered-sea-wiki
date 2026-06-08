@@ -27,17 +27,27 @@ A line-count window ("grab the previous 20 rows") will silently skip the whole s
 it lives in one row. Always read the *text and End−Start span* of each row near the laugh —
 a 32-second row is a monologue, not a one-liner. The setup may be entirely inside it.
 
-## Where it ENDS (the button)
+## Where it ENDS (use `laugh_end`, then capture the follow-on)
 
-**The detected burst is where laughter was *heard*, which is often slightly behind the line
-that caused it — so the actual punchline may fall AT or AFTER the burst start.** Always read
-*forward* past the burst until the bit is clearly over. End a beat after the button — the
-reaction line or DM response the laugh fires on (e.g. the DM reading back the over-long in-game
-Sending message: "You're at 30 already. He's still going."). Don't cut on the burst timestamp;
-cut after the line that earned it, even if that line is several seconds past the burst.
+The scan gives you a data-driven forward boundary: each burst's **`laugh_end`** (in
+`laughs.json` and the draft context) is where the laughter decays back to the track's average —
+i.e. where the room goes quiet again. Because laughter stays elevated *between* back-to-back
+jokes, `laugh_end` naturally spans the whole cascade: the punchline, the room's reaction, AND
+the immediately-following jokes/riffs that ride the same wave.
 
-This is why a mechanical "cut on the laugh" clip fails: it ends right as (or before) the
-funniest line lands.
+**Extend the script and the clip forward to `laugh_end`** (plus a beat). Read the transcript
+forward through `laugh_end` and include every follow-on joke and reaction in that window —
+don't stop at the first button. The detected burst is where laughter was *heard*, often slightly
+behind the line that caused it, so the funniest line and its follow-ups frequently land at or
+after the burst; `laugh_end` is past all of them.
+
+A mechanical "cut on the laugh" clip fails twice: it ends as (or before) the funniest line
+lands, and it drops the follow-on jokes the table was still laughing at.
+
+If a purely-meta aside (a pop-culture reference, a rules quip) falls *inside* the `laugh_end`
+window, keep extending the clip/boundary to `laugh_end`, but trim that aside from the *quoted
+script* — keep the in-world spine. The audio span and the written script don't have to be
+line-for-line identical when a stray meta line is in the middle.
 
 ## Translating to clip times
 

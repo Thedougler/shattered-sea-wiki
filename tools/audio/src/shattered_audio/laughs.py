@@ -58,6 +58,9 @@ class Burst:
     integral: float  # area under the probability curve (loud AND sustained)
     part: str  # source file stem the burst falls in
     local_start: float  # offset within that source file (seconds)
+    # Where the laughter decays back to the track's average (baseline) AFTER the peak.
+    # This spans follow-on jokes that ride the same wave; -1 until computed.
+    laugh_end_local: float = -1.0
 
     @property
     def duration(self) -> float:
@@ -213,6 +216,19 @@ def _bursts_from_scores(
             prev.integral += b.integral
         else:
             merged.append(b)
+
+    # Extend each burst forward to where the laughter decays back to the track's average
+    # (baseline). The threshold end cuts on the first lull; this tail keeps following until
+    # the room is genuinely quiet again, so follow-on jokes riding the same wave are included.
+    avg = float(scores.mean())
+    for b in merged:
+        local_end = b.end - part.offset
+        k = int(np.searchsorted(times, local_end))
+        k = min(max(k, 0), n - 1)
+        while k + 1 < n and scores[k + 1] > avg:
+            k += 1
+        b.laugh_end_local = max(local_end, float(times[k]) + frame_period)
+
     return [b for b in merged if b.duration >= min_len]
 
 
@@ -266,6 +282,10 @@ def bursts_to_dicts(bursts: list[Burst]) -> list[dict]:
             "duration": round(b.duration, 2),
             "peak": round(b.peak, 3),
             "intensity": round(b.integral, 3),
+            # Where the laughter (incl. follow-on jokes) decays back to baseline — the
+            # data-driven forward boundary for the clip/script. Local mm:ss + seconds.
+            "laugh_end": fmt_ts(b.laugh_end_local),
+            "laugh_end_seconds": round(b.laugh_end_local, 2),
         }
         for i, b in enumerate(bursts)
     ]
@@ -305,7 +325,10 @@ def extract_clips(
         if src is None:
             continue
         start = max(0.0, b.local_start - pad)
-        dur = b.duration + 2 * pad
+        # End at the laughter tail (where it decays to baseline) so follow-on jokes are kept,
+        # plus a small pad. Falls back to the threshold end if the tail wasn't computed.
+        tail = b.laugh_end_local if b.laugh_end_local >= 0 else (b.local_start + b.duration)
+        dur = max(b.duration, tail - b.local_start) + 2 * pad
         name = f"{i + 1:02d}_{fmt_ts(b.start).replace(':', '-')}_{b.part}.m4a"
         out = out_dir / name
         cmd = [
@@ -426,7 +449,8 @@ def render_context_report(
             f"## {i + 1}. {fmt_ts(b.start)} "
             f"— peak {b.peak:.2f}, intensity {b.integral:.2f}, {b.duration:.1f}s"
         )
-        lines.append(f"*{b.part} @ {fmt_ts(b.local_start)}*")
+        tail = f" → laughter to {fmt_ts(b.laugh_end_local)}" if b.laugh_end_local >= 0 else ""
+        lines.append(f"*{b.part} @ {fmt_ts(b.local_start)}{tail} (read forward to here for follow-on jokes)*")
         lines.append("")
         ctx = gather_context(b, transcripts, order, seconds)
         if not ctx:

@@ -218,6 +218,12 @@ digraph prereqs {
 
 ## Pipeline
 
+This pipeline is **bookended by two chain-loaded sub-skills**, both mandatory:
+- **Before staging** (step 2c) chain-load **ttrpg-wiki-query** to gather correct, canon-grounded
+  context for every scene — never stage from memory or the transcript's guesses.
+- **After writing** (step 5) chain-load **ttrpg-wiki-lint** to clean up the new pages — frontmatter,
+  tags, and resolving every `[[wikilink]]`.
+
 ### 1. Detect (run the script once)
 
 Full session scan is ~1–2 min per 30-min part (CPU). Produces ranking + draft context + draft clips:
@@ -268,10 +274,17 @@ as a player). **Exclude** non-game voices. Then resolve every name to its canoni
 and wikilink it (see **Wikilinks** above) — `[[crissdalynn-khinriss|Crissdalynn]]`,
 not the transcript's phonetic guess.
 
-**c. Pull the staging from the wiki.** For each moment, `ttrpg-wiki-query` the **location** (look,
-light, atmosphere) and each **character's appearance** (species, build, signature gear) — this is
-the drawable detail the screenplay's Setting block and action lines need. Don't invent it; if a
-page is missing, keep staging minimal and flag the gap.
+**c. Gather staging context from the wiki — chain-load the query skill.**
+**REQUIRED SUB-SKILL:** chain-load **ttrpg-wiki-query** before staging *any* scene. Do not write a
+Setting block or an action line from memory or from the transcript's phonetic guesses — the
+screenplay must be canon-correct. For each moment, query the wiki for:
+- the **location** (look, light, atmosphere) where the scene happens,
+- each **character's appearance** (species, build, signature gear, colours),
+- the **in-world facts** the scene turns on (what an NPC is, what a spell/item actually does, who
+  knows whom) — so the action lines describe what *really* happened, not a plausible guess.
+
+This is the drawable, correct detail the Setting block and action lines need. Don't invent it; if a
+page is missing, keep staging minimal and flag the gap (don't fabricate canon to fill it).
 
 **d. Cut the clip** from the scene start through `laugh_end` (plus a beat), into the vault
 assets, so the audio covers the same span as the script — setup, moment, and follow-on jokes:
@@ -431,7 +444,8 @@ from the wiki; the story comes from the table.
 | Audio embed at the top of a scene | Put `## Audio` at the **end** — screenplay reads first, then press play |
 | Bare transcript, no staging | Stage it as a screenplay: slugline, setting + appearance from the wiki, action lines |
 | Inventing dialogue or outcomes to make it "cinematic" | Keep in-character dialogue faithful to the clip; render only the declared actions; invent nothing |
-| Making up the setting/appearance | Pull location look + character appearance from the wiki (`ttrpg-wiki-query`); flag missing pages |
+| Making up the setting/appearance | Chain-load **ttrpg-wiki-query**: pull location look, character appearance, and in-world facts from the wiki; flag missing pages |
+| Staging a scene without querying the wiki first | Step 2c is a REQUIRED chain-load of ttrpg-wiki-query — gather context before you write a single Setting block or action line |
 | Reading a player's "I pull the dagger out" as dialogue | First-person action declarations become **action lines** (third person); only spoken lines are dialogue |
 | Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, staging, clip |
 | Lead-up starts mid-sentence | Walk back to the premise; start at a natural conversational boundary |
@@ -462,8 +476,9 @@ from the wiki; the story comes from the table.
 - A file lives outside `wiki/`, or has no frontmatter
 - A moment with no embedded slice file — just a part name and a timestamp to "go listen"
 - A clip whose audio doesn't cover the scene's span
-- You never opened `speaker-map.md` or used ttrpg-wiki-query to resolve names and staging
+- You never opened `speaker-map.md`
+- You staged a scene without chain-loading **ttrpg-wiki-query** first (names, appearance, location, in-world facts)
 - Draft scaffolding or rejected clips left behind (you didn't clean up)
-- You finished without chain-loading ttrpg-wiki-lint on the index + all seven scenes
+- You finished without chain-loading **ttrpg-wiki-lint** on the index + all seven scenes
 
 All of these mean: go back to the filter/refinement loop.

@@ -56,7 +56,8 @@ in-world action (the spell, the message, the scene), not the mechanic. Trim pure
 
 The detector ranks by laughter, which is scene-blind — so the loudest bursts are often pure
 table banter. Filtering those out is the FIRST thing you do, before any refinement. Keep
-walking down the ranking until you have your target count of genuine in-world moments.
+walking down the ranking until you have **seven** genuine in-world moments (the default
+target). Because filtering rejects many, draw from a deeper candidate pool than seven.
 
 **When payoff and setup mix:** an in-world punchline with an OOC lead-in (build-praise → the
 character's actual quip) is a **KEEP** — start the clip at the in-world line and trim the OOC
@@ -121,9 +122,12 @@ tools/audio/.venv/bin/shattered-audio laughs \
   audio/sessions/session{NN}-part*.m4a \
   --json audio/sessions/session{NN}/laughs.json \
   --context-out audio/sessions/session{NN}/laughs-draft.md \
-  --context-top 10 --context-seconds 60 \
+  --context-top 20 --context-seconds 60 \
   --clips audio/sessions/session{NN}/highlight-clips-draft
 ```
+
+Pull a deep candidate pool (top 20) so seven in-world moments survive the filter — the
+default brief targets **seven** highlights.
 
 `laughs.json` ranks bursts by **intensity** (loud + sustained = biggest table laughs).
 Each entry has `part`, `part_time` (mm:ss local to that part), `session_time`, `duration`,
@@ -142,8 +146,8 @@ the source part CSV (`session{NN}-part{P}.m4a.csv`) and read the dialogue around
 **a0. Is it in-world?** Judge by the line the laugh lands on (see the classify rule above).
 If the laugh is OOC table talk (real life, pop culture, logistics, rules meta), **discard it**
 and move to the next burst. Also **merge adjacent bursts from the same scene** into one moment
-(the detector often fires twice on one bit). Stop once you have your target count of in-world
-moments.
+(the detector often fires twice on one bit). Stop once you have seven in-world moments (the
+default target; adjust if asked).
 
 **a. Find the true setup start.** Read backward from the laugh. The start is the first line
 of the *bit* — where the premise begins — not a fixed N seconds before. End one beat *after*

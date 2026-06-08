@@ -434,10 +434,13 @@ def laughs(
     clips: Optional[Path] = typer.Option(None, "--clips", help="Extract top-N clips into this dir"),
     clip_pad: float = typer.Option(4.0, "--clip-pad", help="Lead-in/out around each clip (s)"),
     context_out: Optional[Path] = typer.Option(
-        None, "--context-out", help="Write markdown report of top-N laughs with preceding transcript"
+        None, "--context-out", help="Write markdown report of biggest laughs with preceding transcript"
+    ),
+    context_top: int = typer.Option(
+        10, "--context-top", help="How many of the biggest laughs to include in the report"
     ),
     context_seconds: float = typer.Option(
-        90.0, "--context-seconds", help="Seconds of transcript before each laugh"
+        60.0, "--context-seconds", help="Seconds of transcript before each laugh"
     ),
 ) -> None:
     """Rank the biggest laughs in session audio (highlight finder)."""
@@ -476,7 +479,7 @@ def laughs(
     if context_out:
         console.print(f"Writing transcript-context report to {context_out} ...")
         report = render_context_report(
-            bursts, paths, top, context_seconds, log=lambda m: console.print(m, style="dim")
+            bursts, paths, context_top, context_seconds, log=lambda m: console.print(m, style="dim")
         )
         context_out.write_text(report)
         console.print(f"[green]Wrote {context_out}[/green]")

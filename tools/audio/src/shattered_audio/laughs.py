@@ -461,10 +461,14 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--clip-pad", type=float, default=4.0, help="Lead-in/out around each clip (s)")
     p.add_argument(
         "--context-out", type=Path,
-        help="Write a markdown report of top-N laughs with preceding transcript (needs sibling .csv)",
+        help="Write a markdown report of the biggest laughs with preceding transcript (needs sibling .csv)",
     )
     p.add_argument(
-        "--context-seconds", type=float, default=90.0,
+        "--context-top", type=int, default=10,
+        help="How many of the biggest laughs to include in the context report",
+    )
+    p.add_argument(
+        "--context-seconds", type=float, default=60.0,
         help="Seconds of transcript to include before each laugh",
     )
     return p
@@ -499,7 +503,9 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.context_out:
         log(f"Writing transcript-context report to {args.context_out} ...")
-        report = render_context_report(bursts, paths, args.top, args.context_seconds, log=log)
+        report = render_context_report(
+            bursts, paths, args.context_top, args.context_seconds, log=log
+        )
         args.context_out.write_text(report)
 
     print(render_table(bursts, args.top))

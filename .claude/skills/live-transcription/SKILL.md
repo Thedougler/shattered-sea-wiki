@@ -110,6 +110,32 @@ Returns persona name if it beats the "self" (actor base) score by
 All commands are under the `shattered-audio` entry point.
 Venv: `tools/audio/.venv`. Install: `pip install -e ".[all]"`.
 
+> **User-facing entry points** are the `record-session-audio` and
+> `transcribe-session-audio` skills — they wrap `record` and `transcribe-session`
+> below. This doc covers the engine and its maintenance commands.
+
+### `shattered-audio record`
+
+Capture every mic to its own isolated, chunked m4a track (ffmpeg per mic, no
+Python audio deps). Runs until SIGINT/SIGTERM; built for 4+ hour sessions.
+
+```
+shattered-audio record --session 12 [--mics 0,1] [--segment-minutes 15]
+```
+
+Output: `audio/sessions/sessionNN/raw/micKK/partNNN.m4a` + `manifest.json`.
+
+### `shattered-audio transcribe-session`
+
+Transcribe a recorded session's per-mic tracks into per-part speaker CSVs
+(`sessionNN-partMM.m4a.csv`, the format `assemble` and `session-ingest` consume).
+Auto-loads voice profiles; mic-of-origin is a speaker prior.
+
+```
+shattered-audio transcribe-session --session 12 [--no-profiles] \
+  [--save-profile "Nick" --from-mic mic01 [--actor Nick]]
+```
+
 ### `shattered-audio live`
 
 Start a recording session. Ctrl+C to stop.

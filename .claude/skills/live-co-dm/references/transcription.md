@@ -1,55 +1,37 @@
-# Session Transcription — how to run it
+# Session Transcription — moved
 
-Continuous, 4h+ live capture with accurate, overlap-aware speaker separation, then a
-high-accuracy offline finalize pass. Complete setup and enroll voice profiles first.
+Recording and transcription now live in two dedicated skills, both backed by the
+`tools/audio` (`shattered-audio`) engine. The old `transcribe_session.sh` /
+`finalize_session.sh` / `voice-transcription/` flow described here is retired.
 
-## Pass 1 — live capture (run at session start, leave running)
+## Record (at session start)
 
-```bash
-./transcribe_session.sh --session 4 --speakers 5
-```
-
-Or manually with the venv active:
+Use the **record-session-audio** skill. One ffmpeg process per mic captures each
+person to an isolated, chunked m4a track — built to run 4+ hours and stop cleanly.
 
 ```bash
-source voice-transcription/.venv/bin/activate
-export HF_TOKEN=hf_...
-python3 -m voice_transcription.cli.transcribe --session 4 --speakers 5
+.claude/skills/record-session-audio/scripts/record.sh --session N
 ```
 
-- `--session N` — session number. Omit to auto-pick the next one.
-- `--speakers N` — **physical people at the table** (not character count). Always set it.
-- `--threshold` — cosine match cutoff for voice ID (default 0.5).
+Output: `audio/sessions/sessionN/raw/micKK/partNNN.m4a` + `manifest.json`.
 
-It captures the mic, splits audio on silence, and continuously writes:
+## Transcribe (after the session)
 
-- `wiki/sessions/.live/session-04/live_transcript.md` — a growing, speaker-attributed
-  transcript (this is what the live co-DM agent reads).
-- `wiki/sessions/.live/session-04/audio/NNNN_HHhMMmSSs.wav` — silence-chunked audio.
-
-Everything under `.live/` is **gitignored** scratch. Each transcript line is flushed to
-disk immediately. Leave it running the whole session; `Ctrl-C` to stop.
-
-## Pass 2 — finalize (after the session)
+Use the **transcribe-session-audio** skill. Whisper large-v3 (+ pyannote when
+`HF_TOKEN` is set) over the per-mic tracks, speaker-labeled by voice profile and
+mic prior.
 
 ```bash
-./finalize_session.sh --session 4 --speakers 5
+.claude/skills/transcribe-session-audio/scripts/transcribe.sh --session N
+tools/audio/.venv/bin/shattered-audio assemble N      # stitch parts → one transcript
 ```
 
-Output: `wiki/sessions/session-04-transcript.md` — a **committed** markdown transcript.
-From there, promote it into canon with `ttrpg-wiki-ingest` (transcript-ingest path).
+Output: `audio/sessions/sessionN-partMM.m4a.csv` (`ID,Start,End,Speaker,Text`),
+consumed by the **session-ingest** skill.
 
-## Closing the loop — correcting voice profiles
+## Voice profiles
 
-After you correct a finalized transcript, **re-save the affected characters' voice
-profiles** (`voice-profiler.md`). The profiler harvests corrected lines and folds real
-in-character audio into the profile.
-
-Keep the session's `.live/session-NN/audio/` directory until you're done improving
-profiles from it.
-
-## If separation is poor
-
-- Confirm `--speakers` matches the people actually talking.
-- Re-enroll thin/echoey profiles in a quieter room.
-- Nudge `--threshold` (up to split confused voices, down to rescue known ones).
+Saved/refreshed through transcribe-session-audio (`--save-profile`), auto-loaded on
+every transcribe. The session-ingest `speaker-map.md` + `shattered-audio retrain
+--speaker-map` loop folds corrections back in, so accuracy improves each session.
+See the **live-transcription** skill for engine internals and speaker-ID tuning.

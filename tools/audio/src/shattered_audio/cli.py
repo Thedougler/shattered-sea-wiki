@@ -403,6 +403,199 @@ def retrain(
         console.print("[yellow]No profiles updated (no labeled speakers found)[/yellow]")
 
 
+@app.command(name="transcribe-session")
+def transcribe_session_cmd(
+    session: int = typer.Option(..., "--session", "-s", help="Session number"),
+    audio_dir: Path = typer.Option(
+        Path("audio/sessions"), "--audio-dir", help="Where session audio is stored"
+    ),
+    no_profiles: bool = typer.Option(
+        False, "--no-profiles", help="Label purely by mic; skip voice-profile identification"
+    ),
+    save_profile: Optional[str] = typer.Option(
+        None, "--save-profile", help="Enroll/refresh a voice profile with this speaker's name"
+    ),
+    from_mic: Optional[str] = typer.Option(
+        None, "--from-mic", help="Mic id to harvest the --save-profile voice from (e.g. mic01)"
+    ),
+    as_actor: Optional[str] = typer.Option(
+        None, "--actor", help="Save --save-profile as a character voice (persona) under this actor"
+    ),
+    model: Optional[str] = typer.Option(None, "--model", help="Whisper model to use"),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Transcribe a recorded session into per-part speaker CSVs.
+
+    Reads the per-mic m4a tracks under ``audio/sessions/sessionNN/`` and writes
+    ``sessionNN-partMM.m4a.csv`` for each part — the format session-ingest and
+    ``assemble`` consume. Voice profiles are loaded automatically; the mic each
+    voice came from is a strong speaker prior.
+    """
+    import logging
+
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+
+    from . import session_transcribe as st
+    from .record import session_dir as _session_dir
+
+    cfg = Config.load(config_path)
+    whisper_model = model or cfg.whisper_model
+
+    sdir = _session_dir(audio_dir, session)
+    if not sdir.exists():
+        console.print(f"[red]No recording found at {sdir}[/red]")
+        raise typer.Exit(1)
+
+    if save_profile:
+        _save_profile_from_session(
+            sdir, save_profile, from_mic, as_actor, cfg, console
+        )
+
+    console.print(f"[bold]Transcribing session {session}[/bold]")
+    console.print(f"  Audio: {sdir}")
+    console.print(f"  Model: {whisper_model}")
+    console.print(f"  Voice profiles: {'off' if no_profiles else 'auto-load'}")
+
+    written = st.transcribe_session(
+        session,
+        audio_dir=audio_dir,
+        use_profiles=not no_profiles,
+        profiles_dir=cfg.profiles_dir,
+        model=whisper_model,
+        channel_boost=cfg.channel_boost,
+        actor_threshold=cfg.actor_threshold,
+        persona_threshold=cfg.persona_threshold,
+        persona_margin=cfg.persona_margin,
+        prosody_weight=cfg.prosody_weight,
+        log=lambda m: console.print(f"  {m}", style="dim"),
+    )
+    console.print(f"[green]Wrote {len(written)} part CSV(s) to {audio_dir}/[/green]")
+    console.print(
+        f"[dim]Next: shattered-audio assemble {session}  →  then the session-ingest skill[/dim]"
+    )
+
+
+def _save_profile_from_session(sdir, name, from_mic, as_actor, cfg, console) -> None:
+    """Harvest a mic's audio from a recorded session and enroll a voice profile."""
+    import numpy as np
+
+    from .session_transcribe import _load_samples, discover_tracks
+
+    tracks = discover_tracks(sdir)
+    if not tracks:
+        console.print("[red]No mic tracks to harvest a profile from[/red]")
+        raise typer.Exit(1)
+
+    if from_mic:
+        track = next((t for t in tracks if t.mic_id == from_mic), None)
+        if track is None:
+            console.print(f"[red]Mic '{from_mic}' not found in this session[/red]")
+            raise typer.Exit(1)
+    elif len(tracks) == 1:
+        track = tracks[0]
+    else:
+        mics = ", ".join(t.mic_id for t in tracks)
+        console.print(f"[red]Multiple mics ({mics}) — pass --from-mic to pick one[/red]")
+        raise typer.Exit(1)
+
+    if not track.parts:
+        console.print(f"[red]Mic '{track.mic_id}' has no audio[/red]")
+        raise typer.Exit(1)
+
+    # Concatenate up to ~60s of this mic's audio for a clean enrollment sample.
+    chunks, total = [], 0
+    for part in track.parts:
+        s = _load_samples(part)
+        chunks.append(s)
+        total += len(s)
+        if total >= 60 * 16000:
+            break
+    samples = np.concatenate(chunks)[: 120 * 16000]
+
+    if as_actor:
+        from .profiles import enroll_persona
+
+        console.print(f"[bold]Saving persona '{name}' under actor '{as_actor}'[/bold]")
+        enroll_persona(name, as_actor, samples, cfg.profiles_dir, max_exemplars=cfg.max_exemplars)
+    else:
+        from .profiles import enroll_actor
+
+        console.print(f"[bold]Saving voice profile '{name}' (from {track.mic_id})[/bold]")
+        enroll_actor(name, samples, cfg.profiles_dir)
+    console.print(f"[green]Saved profile '{name}'[/green]")
+
+
+@app.command()
+def record(
+    session: int = typer.Option(..., "--session", "-s", help="Session number"),
+    mics: Optional[str] = typer.Option(
+        None, "--mics", help="Comma-separated avfoundation device indices (default: all)"
+    ),
+    segment_minutes: int = typer.Option(
+        15, "--segment-minutes", help="Length of each audio chunk in minutes"
+    ),
+    audio_dir: Path = typer.Option(
+        Path("audio/sessions"), "--audio-dir", help="Where session audio is stored"
+    ),
+    max_seconds: Optional[float] = typer.Option(
+        None, "--max-seconds", help="Auto-stop after N seconds (for testing); default: run until stopped"
+    ),
+    config_path: Optional[Path] = typer.Option(None, "--config", help="Config file path"),
+) -> None:
+    """Record a session from all mics — one isolated track per mic, chunked to m4a.
+
+    Fires up one ffmpeg process per microphone and keeps recording until you
+    stop it (Ctrl+C, or the controlling agent sends SIGTERM). Built for 4+ hour
+    sessions: each chunk is flushed to disk as it finishes.
+    """
+    import logging
+
+    from . import record as rec
+
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+
+    cfg = Config.load(config_path)
+
+    devs = rec.list_avfoundation_devices()
+    if not devs:
+        console.print("[red]No avfoundation audio input devices found[/red]")
+        console.print("[dim]Is ffmpeg installed and does the terminal have mic permission?[/dim]")
+        raise typer.Exit(1)
+
+    indices = [int(x) for x in mics.split(",")] if mics else None
+    names = cfg.mic_names if (not indices and cfg.mic_names) else None
+    selected = rec.select_mics(devs, indices=indices, names=names)
+    if not selected:
+        console.print("[red]No microphones selected[/red]")
+        raise typer.Exit(1)
+
+    # Apply mic→speaker priors from config so the manifest carries them forward.
+    for mic in selected:
+        prior = cfg.channel_priors.get(mic.mic_id)
+        if prior:
+            mic.speaker = prior
+
+    console.print(f"[bold]Recording session {session}[/bold]")
+    console.print(f"  Output: {rec.session_dir(audio_dir, session)}/")
+    console.print(f"  Chunk length: {segment_minutes} min")
+    for mic in selected:
+        tag = f" → {mic.speaker}" if mic.speaker else ""
+        console.print(f"  [cyan]{mic.mic_id}[/cyan] [{mic.index}] {mic.name}{tag}")
+    console.print("\n[dim]Recording… press Ctrl+C (or stop the agent) to end the session.[/dim]\n")
+
+    sdir = rec.record_session(
+        session=session,
+        mics=selected,
+        audio_dir=audio_dir,
+        segment_seconds=segment_minutes * 60,
+        max_seconds=max_seconds,
+    )
+
+    parts = sorted(sdir.rglob("*.m4a"))
+    console.print(f"\n[green]Stopped. {len(parts)} chunk(s) written under {sdir}[/green]")
+    console.print(f"[dim]Next: shattered-audio transcribe-session --session {session}[/dim]")
+
+
 @app.command()
 def devices() -> None:
     """List available audio input devices."""

@@ -5,14 +5,13 @@ description: >
   played. Invoke for: "co-DM the session", "live DM help", "I'm running right now",
   "mid-session", "improv help", "the players just...", "what happens next", "they
   went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO
-  the home of the DM's voice tools — invoke for "save a voice profile", "set up a
-  character voice", "improve/correct/optimize a voice profile", "start transcribing
-  the session", "record the session", "finalize the transcript". In live mode it reads
-  the most recent session transcript plus minimal world state and replies FAST and
-  CONCISE, then waits — skipping wiki startup, init, lint, index regen, and routine
-  maintenance so the whole context serves the moment. Bundled scripts do voice
-  profiling (browser teleprompter, self-correcting from finalized transcripts) and
-  continuous 4h+ transcription with accurate, overlap-aware speaker separation.
+  the home of the DM's voice tools — invoke for "set up a character voice",
+  "improve/correct/optimize a voice profile". For "record the session" use the
+  record-session-audio skill; for "transcribe the session" / "save a voice
+  profile" use the transcribe-session-audio skill. In live mode it reads the most
+  recent session transcript plus minimal world state and replies FAST and CONCISE,
+  then waits — skipping wiki startup, init, lint, index regen, and routine
+  maintenance so the whole context serves the moment.
 ---
 
 > Sandbox rules (PC boundary, NPC agency, pressures not plots) are in CLAUDE.md.
@@ -23,9 +22,10 @@ description: >
 This skill has two distinct users:
 
 - **The agent (you), live at the table** — give the DM fast, concise improv help.
-- **The human DM, with the voice-transcription tools** — capture voice profiles and
-  transcribe the session. You do not run these for them; you point them to the right
-  doc. The tools live in `voice-transcription/` at the repo root.
+- **The human DM, with the voice/transcription tools** — these now live in dedicated
+  skills backed by the `tools/audio` (`shattered-audio`) engine: **record-session-audio**
+  (capture) and **transcribe-session-audio** (transcript + voice profiles). Point the
+  DM there; don't run a 4h recording mid-improv.
 
 ---
 
@@ -67,29 +67,24 @@ When you need the deeper grounding/agency contract, read `references/co-dm-behav
 
 ## Mode B — The DM's voice tools (you point, you don't run)
 
-If the DM asks about voices or transcription, route them to the right doc and the
-right command. The tools live in the `voice-transcription/` project at the repo root.
-They need the one-time setup described in the project README (Python venv + HF token +
-mic permission).
+Recording and transcription now live in two dedicated skills, both backed by the
+`tools/audio` (`shattered-audio`) engine. Route the DM there:
 
-| The DM wants to… | Point them to | Command |
+| The DM wants to… | Skill | Entry point |
 |---|---|---|
-| Save / improve a character's voice profile | `references/voice-profiler.md` | `./save_voice.sh --name "Grigori" --player "Dave"` |
-| Transcribe a live session (4h+) | `references/transcription.md` | `./transcribe_session.sh --session 4 --speakers 5` |
-| Produce the canonical transcript | `references/transcription.md` | `./finalize_session.sh --session 4 --speakers 5` |
+| Record the session (multi-mic, 4h+) | **record-session-audio** | `.claude/skills/record-session-audio/scripts/record.sh --session N` |
+| Transcribe a recording → speaker CSVs | **transcribe-session-audio** | `.claude/skills/transcribe-session-audio/scripts/transcribe.sh --session N` |
+| Save / refresh a voice profile | **transcribe-session-audio** | `transcribe.sh --session N --save-profile "Name" --from-mic micKK` |
+| Enroll a character voice (persona) | **transcribe-session-audio** | `transcribe.sh --session N --save-profile "Grigori" --from-mic micKK --actor Nick` |
 
-**Why two passes:** the live run gives a provisional transcript during play; the
-finalize pass re-diarizes the *whole* recording at once with the known speaker count
-— the big accuracy lever for the campaign's heavy crosstalk (5 players, many voices).
-Profiles are one per **character voice**; the `player` field groups the several voices
-one person performs so they can be told apart.
+**Why per-mic capture:** each person records to their own isolated track, so the mic a
+voice came from is a strong speaker prior — the big accuracy lever for the campaign's
+heavy crosstalk. Voice profiles (actor → character-voice personas) refine that further
+and are auto-loaded on every transcribe.
 
-**Self-correcting profiles:** saving a profile also harvests that character's lines from
-corrected, finalized transcripts (whose `.live` audio still exists), folding the real
-in-character audio into the teleprompter anchor. Overlap/low-confidence lines are skipped
-and outliers rejected, so correction only sharpens. The loop: correct a session transcript
-→ re-save that character's profile → it absorbs the fixes for next time. Details in
-`references/voice-profiler.md`.
+**Self-correcting profiles:** the [[session-ingest]] skill emits a `speaker-map.md`;
+`shattered-audio retrain --speaker-map ...` folds those corrections back into the
+profiles, so accuracy improves every session.
 
 ---
 
@@ -99,8 +94,8 @@ and outliers rejected, so correction only sharpens. The loop: correct a session 
 |---|---|---|
 | `latest_session_context.py` | Fast mid-session context bundle | yes |
 
-All voice/transcription code has moved to `voice-transcription/` at the repo root.
-Run its test suite with:
+The recording/transcription engine lives in `tools/audio` (`shattered-audio`). Run its
+test suite with:
 ```bash
-cd voice-transcription && pip install -e ".[dev]" && pytest tests/
+cd tools/audio && .venv/bin/python -m pytest
 ```

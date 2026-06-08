@@ -11,10 +11,11 @@ conversational boundary (a new topic, a question, a scene-set).
 
 Heuristics:
 - **A callback** needs the thing it calls back to. Include it even if it's 40s earlier.
-- **A deadpan deflation** ("So… eel.") needs the tall thing it deflates — include the
-  full rant it punctures.
-- **An in-character line** needs its framing ("you walk into a crowded market and say…").
-- Stop walking back when earlier lines are unrelated table talk.
+- **An in-character bit** needs its framing — the DM's scene-set that makes the line land
+  ("you walk into the crowded Calveno market and announce…").
+- **A deadpan beat** needs the tension it breaks — include the in-game stakes it punctures.
+- Stop walking back when earlier lines are unrelated table talk (and if the whole bit is
+  table talk, it's OOC — discard the moment per the in-world requirement).
 
 There is no fixed window. 60s is the script's default scaffold, not the answer. Some bits
 are 15s; some are 75s.
@@ -31,9 +32,9 @@ a 32-second row is a monologue, not a one-liner. The setup may be entirely insid
 **The detected burst is where laughter was *heard*, which is often slightly behind the line
 that caused it — so the actual punchline may fall AT or AFTER the burst start.** Always read
 *forward* past the burst until the bit is clearly over. End a beat after the button — the
-reaction line or DM response the laugh fires on ("You're at 30 already. He's still going.";
-"Get two birds stoned at once."). Don't cut on the burst timestamp; cut after the line that
-earned it, even if that line is several seconds past the burst.
+reaction line or DM response the laugh fires on (e.g. the DM reading back the over-long in-game
+Sending message: "You're at 30 already. He's still going."). Don't cut on the burst timestamp;
+cut after the line that earned it, even if that line is several seconds past the burst.
 
 This is why a mechanical "cut on the laugh" clip fails: it ends right as (or before) the
 funniest line lands.

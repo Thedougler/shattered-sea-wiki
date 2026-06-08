@@ -26,16 +26,46 @@ The final report is consumed by another agent that generates AI art of each mome
 
 ---
 
-## What this skill owns (the three pillars)
+## Hard requirement: in-world moments only
 
-The `shattered-audio laughs` script does the *detection*. This skill does the three
+**Every moment in the brief MUST be about the game** — something happening in the fiction:
+an in-character line, a character's action, the DM narrating the world, an in-game plan or
+spell, a PC's clever move. The art agent illustrates *campaign scenes*; it cannot draw a
+real-world aside.
+
+**Discard out-of-character (OOC) laughs entirely**, no matter how big: real-life table talk
+(jobs, food, family), pop-culture references (Trailer Park Boys, movies), table logistics
+("you're on speaker"), dice/rules meta-jokes. A huge OOC laugh does **not** belong in the
+brief. Drop it and take the next-ranked candidate.
+
+The detector ranks by laughter, which is OOC-blind — so the loudest bursts are often table
+banter. Filtering those out is the FIRST thing you do, before any refinement. Keep walking
+down the ranking until you have your target count of genuine in-world moments.
+
+**The test for each candidate:** could the art agent draw this as a scene from the Shattered
+Sea? If it's a real coworker, a snack, or a 2010s TV show — no. If it's Jean-Claude announcing
+the party as "a bird, a rat, and a sexy human" to a stranger in Calveno — yes.
+
+**Classify by the line the laugh lands on, not the whole window** — the two mix constantly:
+- In-world payoff, OOC lead-in (build-praise → the character's actual quip): **KEEP**, and
+  start the clip at the in-world line, trimming the OOC setup.
+- In-world activity, OOC punchline (composing an in-game message, but the laugh is the
+  *spell's word-count* or a Dimension-20 aside): **DISCARD** — the art agent can't draw the
+  joke even though fiction surrounds it.
+
+---
+
+## What this skill owns (the four pillars)
+
+The `shattered-audio laughs` script does the *detection*. This skill does the four
 things the script can't, because they need judgment:
 
-1. **Complete setup** — extend each moment's lead-up to the joke's true onset, so the
+1. **In-world filter** — discard OOC laughs; keep only moments about the game (see above).
+2. **Complete setup** — extend each moment's lead-up to the joke's true onset, so the
    payoff has something to land on.
-2. **Correct speakers** — resolve and fix attribution against `speaker-map.md`; exclude
+3. **Correct speakers** — resolve and fix attribution against `speaker-map.md`; exclude
    non-game voices.
-3. **Aligned audio** — re-cut each clip from the setup start through the laugh, so the
+4. **Aligned audio** — re-cut each clip from the setup start through the laugh, so the
    clip matches the dialogue.
 
 If you only run the script and paste its output, you have done none of these. Don't.
@@ -95,9 +125,16 @@ carries the same per-burst metadata — reuse it rather than re-scanning.)
 
 Run `tools/audio/.venv/bin/shattered-audio laughs --help` for all flags.
 
-### 2. Refine each top moment (the judgment loop)
+### 2. Filter, then refine (the judgment loop)
 
-For each of the top ~10 bursts, open the source part CSV (`session{NN}-part{P}.m4a.csv`) and:
+Scan more bursts than you need (the in-world filter will reject many). For each burst, open
+the source part CSV (`session{NN}-part{P}.m4a.csv`) and read the dialogue around the laugh:
+
+**a0. Is it in-world?** Judge by the line the laugh lands on (see the classify rule above).
+If the laugh is OOC table talk (real life, pop culture, logistics, rules meta), **discard it**
+and move to the next burst. Also **merge adjacent bursts from the same scene** into one moment
+(the detector often fires twice on one bit). Stop once you have your target count of in-world
+moments.
 
 **a. Find the true setup start.** Read backward from the laugh. The start is the first line
 of the *bit* — where the premise begins — not a fixed N seconds before. End one beat *after*
@@ -128,31 +165,31 @@ One file: `audio/sessions/session{NN}/highlights-for-art.md`. Header with the ca
 each: **audio path → corrected chat log (setup through the laugh) → section break.**
 
 Conventions:
-- Clip filename: `{rank}_{slug}_part{P}.m4a` (e.g. `6_two-birds-stoned_part06.m4a`).
+- Every moment is in-world (OOC discarded upstream) — no OOC tags appear here.
+- Clip filename: `{rank}_{slug}_part{P}.m4a` (e.g. `2_bird-rat-human_part00.m4a`).
 - **Source** line shows the clip's *actual* span (after you extend setup/button); the headline
   `session_time` is the laugh anchor and may sit inside that span.
-- Tag each moment **[in-character]** or **[OOC]** (out-of-character table banter). Both qualify
-  — laughter is the only ranking signal — but the downstream art agent needs to know, since an
-  OOC real-world riff can't be illustrated as a campaign scene.
+- `rank` reflects the moment's order in the final in-world brief, not its raw burst rank.
 
 ```markdown
 # Session {NN} — Laughter Highlights (art brief)
 
 Cast (for art reference): Jean-Claude (anthropomorphic seabird PC), Delmar (...), ...
 Speakers resolved against speaker-map.md; mic-drift and external voices corrected.
+Every moment below is in-world (out-of-character table banter excluded).
 
-## 1. {short title} — {session_time}  [in-character]
-- **Audio:** audio/sessions/session{NN}/highlight-clips/1_eel_part01.m4a
-- **Source:** session04-part01 @ 0:18–0:42  (peak 0.31, intensity 0.78)
+## 1. {short title} — {session_time}
+- **Audio:** audio/sessions/session{NN}/highlight-clips/1_bird-rat-human_part00.m4a
+- **Source:** session04-part00 @ 12:40–13:04  (peak 0.33, intensity 0.54)
 
-> **Delmar:** …I imagine they do it well in France.
-> **Crissdalyn:** Yeah. Okay. So… eel.
-> **Perrin:** Yeah.
+> **DM:** You're still in downtown Calveno, the district packed around you.
+> **Jean-Claude:** *(to a stranger)* Hello. I am looking for a bird, a rat, and a sexy human.
+> **Delmar:** …all of a sudden he just smiles for no reason.
 > 😂 **— big table laugh —**
 
 ---
 
-## 2. {short title} — {session_time}  [OOC]
+## 2. {short title} — {session_time}
 ...
 ```
 
@@ -166,22 +203,23 @@ clip is the source of truth.
 
 | Mistake | Fix |
 |---|---|
-| Pasting the script's fixed-window context as final | Refine every moment: setup start, speakers, clip |
+| Including a big OOC laugh (jobs, snacks, TV references, rules meta) | Discard it — in-world only — and take the next-ranked burst |
+| Pasting the script's fixed-window context as final | Refine every moment: in-world check, setup start, speakers, clip |
 | Lead-up starts mid-sentence | Walk back to the premise; start at a natural conversational boundary |
 | Missing a setup stored in a run-on row | Transcripts pack long monologues into one 30s+ row — read the row's full text, not just line count |
 | Leaving `Speaker 1` / `Speaker 7` labels | Apply speaker-map.md; exclude external/phone voices |
 | Trusting mid-laugh labels | During overlapping laughter, labels drift — attribute by content |
 | Clip is laugh±4s only | Re-cut from setup start so the clip contains the joke, not just the laugh |
 | Ending the clip on the burst | The punchline can land AT or AFTER the detected burst — read forward and include the button |
-| OOC banter left untagged | Tag [OOC] vs [in-character] so the art agent knows what it can illustrate |
 | Ranking confusion | `intensity` = biggest sustained laugh (default). `peak` = loudest spike. They differ; default to intensity unless asked |
 | Committing draft scaffolding | `laughs-draft.md` and `*-draft/` clips are scratch; the deliverable is `highlights-for-art.md` + refined clips |
 
 ## Red flags — you're not done
 
+- A moment that isn't about the game (real life, pop culture, table logistics)
 - Any `Speaker N` left in the brief
 - Any highlight whose first line starts mid-thought
 - A clip whose audio doesn't include the joke setup
 - You never opened `speaker-map.md`
 
-All of these mean: go back to the refinement loop.
+All of these mean: go back to the filter/refinement loop.

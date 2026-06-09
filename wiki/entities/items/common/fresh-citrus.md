@@ -22,3 +22,7 @@ homebrew: false
 # Fresh Citrus
 
 Limes, lemons, and oranges available when the supply boats from the interior islands have run recently. Prevents scurvy on passages longer than a few weeks. Availability varies; ask at the victualler before counting on it. 5 sp per basket of 20 pieces.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — provisions store aboard the Uncertainty

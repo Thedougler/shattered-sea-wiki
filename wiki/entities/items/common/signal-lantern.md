@@ -22,3 +22,7 @@ homebrew: false
 # Signal Lantern
 
 A shuttered lantern with interchangeable coloured glass panels — red, green, white, and blue — for night signalling between vessels. The shutter allows rapid open/close sequences for coded messages. Standard stock at chandleries; coloured glass panels available separately.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — two units aboard the Uncertainty (aft rail and provisions store)

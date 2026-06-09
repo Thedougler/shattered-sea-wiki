@@ -22,3 +22,7 @@ homebrew: false
 # Dried Beans
 
 Dried legumes — black beans, white beans, and mixed varieties depending on port. Cheap, nutritious, and shelf-stable. Require soaking and long cooking. 3 sp per 10 lb.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — provisions store aboard the Uncertainty

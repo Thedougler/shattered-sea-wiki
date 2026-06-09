@@ -24,3 +24,7 @@ homebrew: false
 Low-alcohol fermented grain drink, essentially non-intoxicating. The fermentation process makes it safer than standing water on long passages. Standard ship's provision where spirits rations are not issued.
 
 **Price:** 6 sp per keg.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — 2 barrels in the provisions store aboard the Uncertainty

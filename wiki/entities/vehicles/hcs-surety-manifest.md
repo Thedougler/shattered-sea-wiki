@@ -31,7 +31,7 @@ confidence_level: medium
 | Stern swivel gun | 1 | Aboard | 180° arc aft; operational |
 | Ram plate | 1 | Aboard | **Refit.** Iron-capped, flush at waterline, forward hull. |
 | New figurehead | 1 | Aboard | **Refit.** Woman mid-stride, hands open, Calveno carving. |
-| Signal lantern (aft rail) | 1 | Aboard | **Refit.** Paired with partner lantern below; 25-word Passage messages up to 30 miles. |
+| [[signal-lantern|Signal lantern]] (aft rail) | 1 | Aboard | **Refit.** Paired with partner lantern below; 25-word Passage messages up to 30 miles. |
 | Capstan | 1 | Aboard | Fixed |
 | Jolly boat | 1 | Aboard | Ship's tender; functional |
 | Spare line (coiled) | — | Aboard | Standard rigging stock |
@@ -95,7 +95,7 @@ confidence_level: medium
 | Suture kit | 1 | Aboard | |
 | Splinting materials | — | Aboard | |
 | Fever treatments | — | Aboard | |
-| Potion of Healing | 3 | Aboard | From Passage medical supply. Not restockable from standard chandlery. |
+| [[potion-of-healing|Potion of Healing]] | 3 | Aboard | From Passage medical supply. Not restockable from standard chandlery. |
 
 ---
 
@@ -128,7 +128,7 @@ confidence_level: medium
 
 | Item | Qty | Status | Notes |
 |---|---|---|---|
-| Anchor chain | — | Aboard | Fixed; heavy |
+| [[anchor-chain|Anchor chain]] | — | Aboard | Fixed; heavy |
 
 ---
 
@@ -150,15 +150,15 @@ confidence_level: medium
 
 | Item | Qty | Status | Notes |
 |---|---|---|---|
-| Salt fish | — | Aboard | |
-| Rice | — | Aboard | |
-| Dried beans | — | Aboard | |
-| Fresh citrus | — | Aboard | |
-| Water cask | 4 | Aboard | |
-| Small beer barrel | 2 | Aboard | |
-| Cooking oil | — | Aboard | |
+| [[dried-salt-fish|Salt fish]] | — | Aboard | |
+| [[rice|Rice]] | — | Aboard | |
+| [[dried-beans|Dried beans]] | — | Aboard | |
+| [[fresh-citrus|Fresh citrus]] | — | Aboard | |
+| [[water-cask|Water cask]] | 4 | Aboard | |
+| [[small-beer|Small beer barrel]] | 2 | Aboard | |
+| [[cooking-oil|Cooking oil]] | — | Aboard | |
 | Emergency ration chest | 1 | Aboard | 7 days for 10 persons. Sealed. Cobb enforces: not opened except at Nona's say-so. |
-| Signal lantern (partner) | 1 | Aboard | Paired with aft rail lantern |
+| [[signal-lantern|Signal lantern]] (partner) | 1 | Aboard | Paired with aft rail lantern |
 | Mending Resin | 2 | Aboard | In carpenter's locker. Each repairs 2d8 Hull HP over 8 hours. |
 | Sem's tool kit | 1 | Aboard | Carpenter's full kit. Not party property. |
 

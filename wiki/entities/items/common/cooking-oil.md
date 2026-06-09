@@ -24,3 +24,7 @@ homebrew: false
 Clean-burning palm oil or equivalent, sold by the quart. Used for frying, preserving, and as a base for other preparations.
 
 **Price:** 4 sp per quart at Midchain victuallers.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — provisions store aboard the Uncertainty

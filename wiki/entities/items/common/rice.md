@@ -22,3 +22,7 @@ homebrew: false
 # Rice
 
 Staple grain for long-haul provisioning. Stored in waxed cloth sacks to manage moisture. Cooks simply; pairs with whatever else is available. 5 sp per 10 lb. Standard stock at Midchain victuallers.
+
+## Related
+
+- [[hcs-surety-manifest|Uncertainty Ship Manifest]] — provisions store aboard the Uncertainty

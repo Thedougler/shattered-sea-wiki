@@ -18,8 +18,13 @@ identification in [[transcribe-session-audio]] and [[record-session-audio]].
 Profiles live at `~/.config/shattered-audio/profiles/` and are **auto-loaded**
 by every transcription run.
 
-**Wrapper:** `.claude/skills/manage-voice-profiles/scripts/voices.sh <subcommand>`
-proxies all args to `shattered-audio` via the repo venv.
+**Wrapper:** `voices.sh <subcommand>` proxies all args to `shattered-audio` via
+the repo venv. Throughout this skill `voices.sh` is shorthand for the real path,
+which you run from the repo root:
+
+```bash
+.claude/skills/manage-voice-profiles/scripts/voices.sh <subcommand>
+```
 
 ## The Actor → Persona Model
 
@@ -49,26 +54,30 @@ DM (actor)
 ### List
 
 ```bash
-.claude/skills/manage-voice-profiles/scripts/voices.sh profiles
-.claude/skills/manage-voice-profiles/scripts/voices.sh profiles "Nick"  # detail view
+voices.sh profiles
+voices.sh profiles "Nick"   # detail view of one actor + personas
 ```
 
 ### Create / Update (Enroll)
 
 ```bash
 # Actor — natural speaking voice. Record 30+ seconds of natural OOC speech.
-.claude/skills/manage-voice-profiles/scripts/voices.sh enroll "Nick" --record 30
+voices.sh enroll "Nick" --record 30
 
 # DM actor (sets the is_dm flag)
-.claude/skills/manage-voice-profiles/scripts/voices.sh enroll "DM" --record 30 --dm
+voices.sh enroll "DM" --record 30 --dm
 
 # Persona — actor must exist first. Speak in character for 30+ seconds.
-.claude/skills/manage-voice-profiles/scripts/voices.sh enroll "Crissdalyn" --actor "Nick" --record 30
+voices.sh enroll "Crissdalyn" --actor "Nick" --record 30
 
 # Enroll from an audio file instead of recording live
-.claude/skills/manage-voice-profiles/scripts/voices.sh enroll "Nick" path/to/nick.m4a
+voices.sh enroll "Nick" path/to/nick.m4a
+```
 
-# Best quality: harvest minutes of speech from a real session
+Best quality: harvest minutes of speech from a real session via the
+[[transcribe-session-audio]] wrapper (note its different script path):
+
+```bash
 .claude/skills/transcribe-session-audio/scripts/transcribe.sh --session 7 --save-profile "Nick" --from-mic mic01
 .claude/skills/transcribe-session-audio/scripts/transcribe.sh --session 7 --save-profile "Crissdalyn" --from-mic mic01 --actor Nick
 ```
@@ -90,19 +99,19 @@ the accurate way to refresh multi-voice profiles from session audio.
 
 ```bash
 # Delete one persona only
-.claude/skills/manage-voice-profiles/scripts/voices.sh delete "Crissdalyn" --actor "Nick"
+voices.sh delete "Crissdalyn" --actor "Nick"
 
 # Delete actor + all their personas
-.claude/skills/manage-voice-profiles/scripts/voices.sh delete "Nick"
+voices.sh delete "Nick"
 
 # Skip confirmation
-.claude/skills/manage-voice-profiles/scripts/voices.sh delete "Nick" --yes
+voices.sh delete "Nick" --yes
 ```
 
 ### Live Test TUI
 
 ```bash
-.claude/skills/manage-voice-profiles/scripts/voices.sh watch
+voices.sh watch
 ```
 
 Listens on the default mic (energy-gated VAD), identifies each utterance, and

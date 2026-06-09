@@ -9,6 +9,12 @@ the pending queue. The source content is never altered — only relocated.
 
 Usage:
     archive_source.py Inbox/Foo.md --type faction-source [--dry-run]
+
+For session/transcript sources, pass --session NN to nest the file under a
+per-session packet (.raw/sessions/session-NN/notes/<filename>) instead of the
+flat .raw/sessions/<filename> default:
+
+    archive_source.py Inbox/sessions/foo.md --type session --session 07
 """
 
 from __future__ import annotations
@@ -68,6 +74,25 @@ def subdir_for(type_str: str) -> str:
     return DEFAULT_SUBDIR
 
 
+def is_session_type(type_str: str) -> bool:
+    """True when the source is session-scoped (session note or transcript)."""
+    t = (type_str or "").lower()
+    return "session" in t or "transcript" in t
+
+
+def dest_subdir(type_str: str, session: str | None) -> str:
+    """Return the .raw subdir path (relative to .raw/) for a source.
+
+    With --session set on a session/transcript source, nest the file in a
+    per-session packet: sessions/session-NN/notes. Otherwise fall back to the
+    flat type-derived subdir (back-compat).
+    """
+    subdir = subdir_for(type_str)
+    if session and is_session_type(type_str):
+        return f"{subdir}/session-{int(session):02d}/notes"
+    return subdir
+
+
 def git(*args, check=True):
     return subprocess.run(
         ["git", "-C", REPO_ROOT, *args], check=check, capture_output=True, text=True
@@ -78,6 +103,12 @@ def main(argv) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("source")
     ap.add_argument("--type", default=None)
+    ap.add_argument(
+        "--session",
+        default=None,
+        help="2-digit session number; nests session/transcript sources under "
+        ".raw/sessions/session-NN/notes/ instead of the flat .raw/sessions/.",
+    )
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
 
@@ -88,11 +119,21 @@ def main(argv) -> int:
     src_rel = rel(src_abs)
 
     type_str = args.type or ""
-    subdir = subdir_for(type_str)
+    if args.session and is_session_type(type_str) and not args.session.isdigit():
+        sys.stderr.write(
+            f"archive_source: --session must be numeric — got {args.session!r}\n"
+        )
+        return 2
+    subdir = dest_subdir(type_str, args.session)
     if not type_str:
         sys.stderr.write(
             f"archive_source: no --type given; defaulting to .raw/{subdir}/. "
             "Pass --type <triage-type> to place it correctly.\n"
+        )
+    if args.session and not is_session_type(type_str):
+        sys.stderr.write(
+            "archive_source: --session ignored for non-session/transcript type "
+            f"{type_str!r}; archiving to .raw/{subdir}/.\n"
         )
     dest_rel = f".raw/{subdir}/{os.path.basename(src_abs)}"
     dest_abs = os.path.join(REPO_ROOT, dest_rel)

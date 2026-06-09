@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """Assemble and manage session transcript parts.
 
+Paths follow the wiki-native per-session packet layout (session-NN, dash form):
+
+    .raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv  (input parts)
+    .raw/sessions/session-NN/transcripts/assembled/session-NN-assembled.csv
+    .raw/sessions/session-NN/transcripts/corrected/session-NN-resolved.csv
+    Inbox/sessions/session-NN/processing/speaker-map.md              (mutable)
+
 Subcommands:
-    assemble  Concatenate parts with continuous timestamps, write assembled.csv
+    assemble  Concatenate parts with continuous timestamps, write the assembled CSV
     status    Report session state: parts available, checkpoint progress
-    resolve   Apply speaker-map.md to assembled.csv → resolved.csv
+    resolve   Apply speaker-map.md to the assembled CSV → corrected resolved CSV
 
 Usage:
     python3 .claude/scripts/assemble_transcript.py assemble <session_number>
@@ -21,7 +28,10 @@ from collections import Counter
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-AUDIO_DIR = REPO_ROOT / "audio" / "sessions"
+# Retained source evidence lives under .raw/sessions/session-NN/; in-progress,
+# mutable workflow files live under Inbox/sessions/session-NN/processing/.
+RAW_DIR = REPO_ROOT / ".raw" / "sessions"
+INBOX_DIR = REPO_ROOT / "Inbox" / "sessions"
 
 
 def parse_timestamp(ts: str) -> int:
@@ -40,12 +50,44 @@ def format_timestamp(seconds: int) -> str:
     return f"{h}:{m:02d}:{s:02d}"
 
 
-def get_session_dir(session: str) -> Path:
-    return AUDIO_DIR / f"session{session}"
+def get_raw_session_dir(session: str) -> Path:
+    """Retained source evidence root: .raw/sessions/session-NN/."""
+    return RAW_DIR / f"session-{session}"
+
+
+def get_inbox_processing_dir(session: str) -> Path:
+    """Mutable workflow root: Inbox/sessions/session-NN/processing/."""
+    return INBOX_DIR / f"session-{session}" / "processing"
+
+
+def get_raw_parts_dir(session: str) -> Path:
+    return get_raw_session_dir(session) / "transcripts" / "raw"
+
+
+def get_assembled_path(session: str) -> Path:
+    return (
+        get_raw_session_dir(session)
+        / "transcripts"
+        / "assembled"
+        / f"session-{session}-assembled.csv"
+    )
+
+
+def get_resolved_path(session: str) -> Path:
+    return (
+        get_raw_session_dir(session)
+        / "transcripts"
+        / "corrected"
+        / f"session-{session}-resolved.csv"
+    )
+
+
+def get_speaker_map_path(session: str) -> Path:
+    return get_inbox_processing_dir(session) / "speaker-map.md"
 
 
 def get_part_files(session: str) -> list:
-    return sorted(AUDIO_DIR.glob(f"session{session}-part*.m4a.csv"))
+    return sorted(get_raw_parts_dir(session).glob(f"session-{session}-part-*.csv"))
 
 
 def cmd_assemble(session: str):
@@ -56,8 +98,9 @@ def cmd_assemble(session: str):
 
     print(f"Found {len(part_files)} parts for session {session}", file=sys.stderr)
 
-    out_dir = get_session_dir(session)
-    out_dir.mkdir(exist_ok=True)
+    out_path = get_assembled_path(session)
+    out_dir = out_path.parent
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     all_rows = []
     time_offset = 0
@@ -90,7 +133,6 @@ def cmd_assemble(session: str):
             file=sys.stderr,
         )
 
-    out_path = out_dir / "assembled.csv"
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f, fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"]
@@ -122,7 +164,8 @@ def cmd_assemble(session: str):
 
 def cmd_status(session: str):
     part_files = get_part_files(session)
-    out_dir = get_session_dir(session)
+    raw_dir = get_raw_session_dir(session)
+    processing_dir = get_inbox_processing_dir(session)
 
     print(f"Session {session} transcript status:")
     print(f"  Parts available: {len(part_files)}")
@@ -136,12 +179,14 @@ def cmd_status(session: str):
         with open(pf, newline="", encoding="utf-8") as f:
             total_source_lines += sum(1 for _ in f) - 1
 
-    assembled = out_dir / "assembled.csv"
-    manifest = out_dir / "parts.txt"
-    speaker_map = out_dir / "speaker-map.md"
-    resolved = out_dir / "resolved.csv"
-    extracts = out_dir / "extracts.md"
-    flags = out_dir / "flags.md"
+    assembled = get_assembled_path(session)
+    manifest = assembled.parent / "parts.txt"
+    speaker_map = get_speaker_map_path(session)
+    resolved = get_resolved_path(session)
+    # Pass 3 work products are mutable until accepted, so they live in the Inbox
+    # processing dir.
+    extracts = processing_dir / "extracts.md"
+    flags = processing_dir / "flags.md"
 
     print("\n  Checkpoints:")
 
@@ -173,8 +218,8 @@ def cmd_status(session: str):
         print("    Pass 2 (speaker resolution): not started")
 
     # Pass 3
-    progress = out_dir / "progress.txt"
-    recap = out_dir / "recap.md"
+    progress = processing_dir / "progress.txt"
+    recap = processing_dir / "recap.md"
     if extracts.exists() or recap.exists():
         if progress.exists():
             chunks_done = len(
@@ -244,9 +289,8 @@ def parse_speaker_map(map_path: Path) -> dict:
 
 
 def cmd_resolve(session: str):
-    out_dir = get_session_dir(session)
-    assembled = out_dir / "assembled.csv"
-    speaker_map = out_dir / "speaker-map.md"
+    assembled = get_assembled_path(session)
+    speaker_map = get_speaker_map_path(session)
 
     if not assembled.exists():
         print("No assembled.csv — run assemble first", file=sys.stderr)
@@ -277,7 +321,8 @@ def cmd_resolve(session: str):
                 changed += 1
             rows.append(row)
 
-    resolved_path = out_dir / "resolved.csv"
+    resolved_path = get_resolved_path(session)
+    resolved_path.parent.mkdir(parents=True, exist_ok=True)
     with open(resolved_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()

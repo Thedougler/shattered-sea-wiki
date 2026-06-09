@@ -309,6 +309,47 @@ class ArchiveSourceSubdirTests(unittest.TestCase):
         self.assertEqual(archive_source.subdir_for("rules-or-homebrew"), "homebrew")
 
 
+class ArchiveSourceDestSubdirTests(unittest.TestCase):
+    def test_is_session_type_session(self):
+        self.assertTrue(archive_source.is_session_type("session"))
+
+    def test_is_session_type_transcript(self):
+        self.assertTrue(archive_source.is_session_type("transcript"))
+
+    def test_is_session_type_false(self):
+        self.assertFalse(archive_source.is_session_type("faction-source"))
+
+    def test_is_session_type_empty(self):
+        self.assertFalse(archive_source.is_session_type(""))
+
+    def test_dest_subdir_no_session_flat(self):
+        self.assertEqual(archive_source.dest_subdir("session", None), "sessions")
+
+    def test_dest_subdir_session_nests(self):
+        self.assertEqual(
+            archive_source.dest_subdir("session", "07"),
+            "sessions/session-07/notes",
+        )
+
+    def test_dest_subdir_transcript_nests(self):
+        self.assertEqual(
+            archive_source.dest_subdir("transcript", "12"),
+            "sessions/session-12/notes",
+        )
+
+    def test_dest_subdir_zero_pads(self):
+        self.assertEqual(
+            archive_source.dest_subdir("session", "3"),
+            "sessions/session-03/notes",
+        )
+
+    def test_dest_subdir_session_ignored_for_non_session_type(self):
+        # --session on a non-session/transcript type falls back to the flat subdir.
+        self.assertEqual(
+            archive_source.dest_subdir("faction-source", "07"), "reference"
+        )
+
+
 class ArchiveSourceSidecarTests(unittest.TestCase):
     def test_no_sidecar_when_no_pdf_field(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -437,6 +478,95 @@ class ArchiveSourceMainTests(unittest.TestCase):
             self.assertEqual(code, 0)
             dest = os.path.join(tmp, ".raw", "sessions", "source.md")
             self.assertTrue(os.path.exists(dest))
+
+    def test_main_dry_run_session_nests(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = os.path.join(tmp, "source.md")
+            open(src, "w").write("content")
+            with patch("archive_source.REPO_ROOT", tmp):
+                out = io.StringIO()
+                with contextlib.redirect_stdout(out):
+                    code = archive_source.main(
+                        [src, "--type", "session", "--session", "07", "--dry-run"]
+                    )
+            self.assertEqual(code, 0)
+            self.assertIn(".raw/sessions/session-07/notes/source.md", out.getvalue())
+
+    def test_main_session_moves_into_packet(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = os.path.join(tmp, "source.md")
+            open(src, "w").write("content")
+
+            def fake_git(*args, check=True):
+                m = MagicMock()
+                m.returncode = 1
+                return m
+
+            with (
+                patch("archive_source.REPO_ROOT", tmp),
+                patch("archive_source.git", side_effect=fake_git),
+            ):
+                out = io.StringIO()
+                with contextlib.redirect_stdout(out):
+                    code = archive_source.main(
+                        [src, "--type", "transcript", "--session", "12"]
+                    )
+            self.assertEqual(code, 0)
+            dest = os.path.join(
+                tmp, ".raw", "sessions", "session-12", "notes", "source.md"
+            )
+            self.assertTrue(os.path.exists(dest))
+
+    def test_main_non_numeric_session_clean_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = os.path.join(tmp, "source.md")
+            open(src, "w").write("content")
+            with patch("archive_source.REPO_ROOT", tmp):
+                err = io.StringIO()
+                out = io.StringIO()
+                with (
+                    contextlib.redirect_stderr(err),
+                    contextlib.redirect_stdout(out),
+                ):
+                    code = archive_source.main(
+                        [src, "--type", "session", "--session", "abc"]
+                    )
+            # Clean usage-style error, non-zero exit, no move performed.
+            self.assertNotEqual(code, 0)
+            self.assertIn("--session must be numeric", err.getvalue())
+            self.assertNotIn("Traceback", err.getvalue())
+            self.assertFalse(
+                os.path.exists(os.path.join(tmp, ".raw", "sessions", "source.md"))
+            )
+
+    def test_main_session_ignored_for_non_session_type(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = os.path.join(tmp, "source.md")
+            open(src, "w").write("content")
+
+            def fake_git(*args, check=True):
+                m = MagicMock()
+                m.returncode = 1
+                return m
+
+            with (
+                patch("archive_source.REPO_ROOT", tmp),
+                patch("archive_source.git", side_effect=fake_git),
+            ):
+                out = io.StringIO()
+                err = io.StringIO()
+                with (
+                    contextlib.redirect_stdout(out),
+                    contextlib.redirect_stderr(err),
+                ):
+                    code = archive_source.main(
+                        [src, "--type", "faction-source", "--session", "07"]
+                    )
+            self.assertEqual(code, 0)
+            # Falls back to the flat reference subdir, warns about the ignored flag.
+            dest = os.path.join(tmp, ".raw", "reference", "source.md")
+            self.assertTrue(os.path.exists(dest))
+            self.assertIn("ignored", err.getvalue())
 
 
 # ---------------------------------------------------------------------------

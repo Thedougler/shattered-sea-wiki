@@ -12,8 +12,49 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-# Import the module — needs AUDIO_DIR patched or we just import functions.
+# Import the module — needs RAW_DIR/INBOX_DIR patched or we just import functions.
 import assemble_transcript as at
+
+# ---------------------------------------------------------------------------
+# Test helpers — build the new per-session packet layout under a tmp root
+# ---------------------------------------------------------------------------
+
+
+@contextlib.contextmanager
+def patched_dirs(tmp):
+    """Patch RAW_DIR, INBOX_DIR (and REPO_ROOT) onto a tmp root."""
+    raw = Path(tmp) / ".raw" / "sessions"
+    inbox = Path(tmp) / "Inbox" / "sessions"
+    with (
+        patch("assemble_transcript.RAW_DIR", raw),
+        patch("assemble_transcript.INBOX_DIR", inbox),
+        patch("assemble_transcript.REPO_ROOT", Path(tmp)),
+    ):
+        yield raw, inbox
+
+
+def _write_part_csv(path: str, rows: list[dict]) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["Start", "End", "Speaker", "Text"])
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def _write_part(tmp, session: str, part: str, rows: list[dict]) -> Path:
+    """Write a raw part CSV to .raw/sessions/session-NN/transcripts/raw/."""
+    path = (
+        Path(tmp)
+        / ".raw"
+        / "sessions"
+        / f"session-{session}"
+        / "transcripts"
+        / "raw"
+        / f"session-{session}-part-{part}.csv"
+    )
+    _write_part_csv(str(path), rows)
+    return path
+
 
 # ---------------------------------------------------------------------------
 # Pure functions
@@ -52,6 +93,57 @@ class FormatTimestampTests(unittest.TestCase):
 
     def test_seconds_only(self):
         self.assertEqual(at.format_timestamp(45), "0:00:45")
+
+
+# ---------------------------------------------------------------------------
+# Path helpers — verify the new dash-form layout
+# ---------------------------------------------------------------------------
+
+
+class PathHelperTests(unittest.TestCase):
+    def test_raw_parts_dir(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patched_dirs(tmp):
+                p = at.get_raw_parts_dir("07")
+            self.assertTrue(
+                str(p).endswith(".raw/sessions/session-07/transcripts/raw"),
+                str(p),
+            )
+
+    def test_assembled_path(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patched_dirs(tmp):
+                p = at.get_assembled_path("07")
+            self.assertTrue(
+                str(p).endswith(
+                    ".raw/sessions/session-07/transcripts/assembled/"
+                    "session-07-assembled.csv"
+                ),
+                str(p),
+            )
+
+    def test_resolved_path(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patched_dirs(tmp):
+                p = at.get_resolved_path("07")
+            self.assertTrue(
+                str(p).endswith(
+                    ".raw/sessions/session-07/transcripts/corrected/"
+                    "session-07-resolved.csv"
+                ),
+                str(p),
+            )
+
+    def test_speaker_map_path(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patched_dirs(tmp):
+                p = at.get_speaker_map_path("07")
+            self.assertTrue(
+                str(p).endswith(
+                    "Inbox/sessions/session-07/processing/speaker-map.md"
+                ),
+                str(p),
+            )
 
 
 class ParseSpeakerMapTests(unittest.TestCase):
@@ -125,40 +217,21 @@ class ParseSpeakerMapTests(unittest.TestCase):
 # ---------------------------------------------------------------------------
 
 
-def _write_part_csv(path: str, rows: list[dict]) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["Start", "End", "Speaker", "Text"])
-        writer.writeheader()
-        writer.writerows(rows)
-
-
 class CmdAssembleTests(unittest.TestCase):
     def test_assembles_single_part(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            part_path = audio_dir / "session01-part00.m4a.csv"
-            _write_part_csv(
-                str(part_path),
+            _write_part(
+                tmp,
+                "01",
+                "00",
                 [
-                    {
-                        "Start": "0:00",
-                        "End": "0:05",
-                        "Speaker": "Nick",
-                        "Text": "Hello",
-                    },
-                    {
-                        "Start": "0:06",
-                        "End": "0:10",
-                        "Speaker": "Jane",
-                        "Text": "World",
-                    },
+                    {"Start": "0:00", "End": "0:05", "Speaker": "Nick", "Text": "Hello"},
+                    {"Start": "0:06", "End": "0:10", "Speaker": "Jane", "Text": "World"},
                 ],
             )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
                 at.cmd_assemble("01")
-            out_path = audio_dir / "session01" / "assembled.csv"
+                out_path = at.get_assembled_path("01")
             self.assertTrue(out_path.exists())
             with open(out_path, newline="") as f:
                 rows = list(csv.DictReader(f))
@@ -166,25 +239,21 @@ class CmdAssembleTests(unittest.TestCase):
 
     def test_assembles_two_parts_continuous_timestamps(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            part0 = audio_dir / "session02-part00.m4a.csv"
-            part1 = audio_dir / "session02-part01.m4a.csv"
-            _write_part_csv(
-                str(part0),
-                [
-                    {"Start": "0:00", "End": "0:10", "Speaker": "A", "Text": "One"},
-                ],
+            _write_part(
+                tmp,
+                "02",
+                "00",
+                [{"Start": "0:00", "End": "0:10", "Speaker": "A", "Text": "One"}],
             )
-            _write_part_csv(
-                str(part1),
-                [
-                    {"Start": "0:00", "End": "0:05", "Speaker": "B", "Text": "Two"},
-                ],
+            _write_part(
+                tmp,
+                "02",
+                "01",
+                [{"Start": "0:00", "End": "0:05", "Speaker": "B", "Text": "Two"}],
             )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
                 at.cmd_assemble("02")
-            out_path = audio_dir / "session02" / "assembled.csv"
+                out_path = at.get_assembled_path("02")
             with open(out_path, newline="") as f:
                 rows = list(csv.DictReader(f))
             self.assertEqual(len(rows), 2)
@@ -194,48 +263,32 @@ class CmdAssembleTests(unittest.TestCase):
 
     def test_no_parts_exits(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            with (
-                patch("assemble_transcript.AUDIO_DIR", audio_dir),
-                self.assertRaises(SystemExit),
-            ):
+            with patched_dirs(tmp), self.assertRaises(SystemExit):
                 at.cmd_assemble("99")
 
     def test_writes_manifest(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            part_path = audio_dir / "session03-part00.m4a.csv"
-            _write_part_csv(
-                str(part_path),
-                [
-                    {"Start": "0:00", "End": "0:05", "Speaker": "Nick", "Text": "Test"},
-                ],
+            _write_part(
+                tmp,
+                "03",
+                "00",
+                [{"Start": "0:00", "End": "0:05", "Speaker": "Nick", "Text": "Test"}],
             )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
                 at.cmd_assemble("03")
-            manifest = audio_dir / "session03" / "parts.txt"
+                manifest = at.get_assembled_path("03").parent / "parts.txt"
             self.assertTrue(manifest.exists())
-            self.assertIn("session03-part00.m4a.csv", manifest.read_text())
+            self.assertIn("session-03-part-00.csv", manifest.read_text())
 
     def test_unresolved_speakers_reported(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            part_path = audio_dir / "session04-part00.m4a.csv"
-            _write_part_csv(
-                str(part_path),
-                [
-                    {
-                        "Start": "0:00",
-                        "End": "0:05",
-                        "Speaker": "Speaker 1",
-                        "Text": "Hi",
-                    },
-                ],
+            _write_part(
+                tmp,
+                "04",
+                "00",
+                [{"Start": "0:00", "End": "0:05", "Speaker": "Speaker 1", "Text": "Hi"}],
             )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
                 at.cmd_assemble("04")
 
 
@@ -247,9 +300,7 @@ class CmdAssembleTests(unittest.TestCase):
 class CmdStatusTests(unittest.TestCase):
     def test_status_no_parts(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            audio_dir.mkdir(parents=True)
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("01")
@@ -259,35 +310,34 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_with_assembled(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session01"
-            session_dir.mkdir(parents=True)
-            part_path = audio_dir / "session01-part00.m4a.csv"
-            _write_part_csv(
-                str(part_path),
-                [
-                    {"Start": "0:00", "End": "0:05", "Speaker": "A", "Text": "Text"},
-                ],
+            _write_part(
+                tmp,
+                "01",
+                "00",
+                [{"Start": "0:00", "End": "0:05", "Speaker": "A", "Text": "Text"}],
             )
-            # Write assembled.csv and manifest
-            with open(session_dir / "assembled.csv", "w", newline="") as f:
-                w = csv.DictWriter(
-                    f, fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"]
+            with patched_dirs(tmp):
+                assembled = at.get_assembled_path("01")
+                assembled.parent.mkdir(parents=True, exist_ok=True)
+                with open(assembled, "w", newline="") as f:
+                    w = csv.DictWriter(
+                        f,
+                        fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"],
+                    )
+                    w.writeheader()
+                    w.writerow(
+                        {
+                            "ID": 1,
+                            "Start": "0:00:00",
+                            "End": "0:00:05",
+                            "Speaker": "A",
+                            "Text": "Text",
+                            "Source": "part00",
+                        }
+                    )
+                (assembled.parent / "parts.txt").write_text(
+                    "session-01-part-00.csv\n"
                 )
-                w.writeheader()
-                w.writerow(
-                    {
-                        "ID": 1,
-                        "Start": "0:00:00",
-                        "End": "0:00:05",
-                        "Speaker": "A",
-                        "Text": "Text",
-                        "Source": "part00",
-                    }
-                )
-            with open(session_dir / "parts.txt", "w") as f:
-                f.write("session01-part00.m4a.csv\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("01")
@@ -295,14 +345,12 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_shows_pass3_when_extracts_present(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session05"
-            session_dir.mkdir(parents=True)
-            (session_dir / "extracts.md").write_text("# Extracts\n")
-            progress_file = session_dir / "progress.txt"
-            progress_file.write_text("chunk 1\nchunk 2\n")
-            (session_dir / "flags.md").write_text("- [ ] unresolved\n- [x] done\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                processing = at.get_inbox_processing_dir("05")
+                processing.mkdir(parents=True, exist_ok=True)
+                (processing / "extracts.md").write_text("# Extracts\n")
+                (processing / "progress.txt").write_text("chunk 1\nchunk 2\n")
+                (processing / "flags.md").write_text("- [ ] unresolved\n- [x] done\n")
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("05")
@@ -311,11 +359,10 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_pass3_no_output_files(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session06"
-            session_dir.mkdir(parents=True)
-            (session_dir / "progress.txt").write_text("chunk 1\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                processing = at.get_inbox_processing_dir("06")
+                processing.mkdir(parents=True, exist_ok=True)
+                (processing / "progress.txt").write_text("chunk 1\n")
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("06")
@@ -323,11 +370,10 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_with_speaker_map_no_resolved(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session07"
-            session_dir.mkdir(parents=True)
-            (session_dir / "speaker-map.md").write_text("# Map\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                speaker_map = at.get_speaker_map_path("07")
+                speaker_map.parent.mkdir(parents=True, exist_ok=True)
+                speaker_map.write_text("# Map\n")
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("07")
@@ -335,27 +381,31 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_stale_assembled(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session08"
-            session_dir.mkdir(parents=True)
-            part0 = audio_dir / "session08-part00.m4a.csv"
-            part1 = audio_dir / "session08-part01.m4a.csv"
-            _write_part_csv(
-                str(part0),
+            _write_part(
+                tmp,
+                "08",
+                "00",
                 [{"Start": "0:00", "End": "0:05", "Speaker": "A", "Text": "T"}],
             )
-            _write_part_csv(
-                str(part1),
+            _write_part(
+                tmp,
+                "08",
+                "01",
                 [{"Start": "0:00", "End": "0:05", "Speaker": "B", "Text": "U"}],
             )
-            with open(session_dir / "assembled.csv", "w", newline="") as f:
-                w = csv.DictWriter(
-                    f, fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"]
+            with patched_dirs(tmp):
+                assembled = at.get_assembled_path("08")
+                assembled.parent.mkdir(parents=True, exist_ok=True)
+                with open(assembled, "w", newline="") as f:
+                    w = csv.DictWriter(
+                        f,
+                        fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"],
+                    )
+                    w.writeheader()
+                # Manifest only knows about part-00 — part-01 is new
+                (assembled.parent / "parts.txt").write_text(
+                    "session-08-part-00.csv\n"
                 )
-                w.writeheader()
-            # Manifest only knows about part00 — part01 is new
-            (session_dir / "parts.txt").write_text("session08-part00.m4a.csv\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("08")
@@ -363,16 +413,10 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_pass4_session_note_exists(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session09"
-            session_dir.mkdir(parents=True)
             wiki_sessions = Path(tmp) / "wiki" / "sessions"
             wiki_sessions.mkdir(parents=True)
             (wiki_sessions / "session-09.md").write_text("# Session 09\n")
-            with (
-                patch("assemble_transcript.AUDIO_DIR", audio_dir),
-                patch("assemble_transcript.REPO_ROOT", Path(tmp)),
-            ):
+            with patched_dirs(tmp):
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("09")
@@ -380,15 +424,11 @@ class CmdStatusTests(unittest.TestCase):
 
     def test_status_pass4_ready_when_extracts_and_recap(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session10"
-            session_dir.mkdir(parents=True)
-            (session_dir / "extracts.md").write_text("# E\n")
-            (session_dir / "recap.md").write_text("# R\n")
-            with (
-                patch("assemble_transcript.AUDIO_DIR", audio_dir),
-                patch("assemble_transcript.REPO_ROOT", Path(tmp)),
-            ):
+            with patched_dirs(tmp):
+                processing = at.get_inbox_processing_dir("10")
+                processing.mkdir(parents=True, exist_ok=True)
+                (processing / "extracts.md").write_text("# E\n")
+                (processing / "recap.md").write_text("# R\n")
                 out = io.StringIO()
                 with contextlib.redirect_stdout(out):
                     at.cmd_status("10")
@@ -401,8 +441,9 @@ class CmdStatusTests(unittest.TestCase):
 
 
 class CmdResolveTests(unittest.TestCase):
-    def _make_assembled(self, session_dir, rows):
-        path = session_dir / "assembled.csv"
+    def _make_assembled(self, session, rows):
+        path = at.get_assembled_path(session)
+        path.parent.mkdir(parents=True, exist_ok=True)
         with open(path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(
                 f, fieldnames=["ID", "Start", "End", "Speaker", "Text", "Source"]
@@ -411,46 +452,44 @@ class CmdResolveTests(unittest.TestCase):
             w.writerows(rows)
         return path
 
-    def _make_map(self, session_dir, content):
-        p = session_dir / "speaker-map.md"
+    def _make_map(self, session, content):
+        p = at.get_speaker_map_path(session)
+        p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(content)
         return p
 
     def test_resolves_speakers(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session01"
-            session_dir.mkdir(parents=True)
-            self._make_assembled(
-                session_dir,
-                [
-                    {
-                        "ID": 1,
-                        "Start": "0:00:00",
-                        "End": "0:00:05",
-                        "Speaker": "Speaker A",
-                        "Text": "Hello",
-                        "Source": "p0",
-                    },
-                    {
-                        "ID": 2,
-                        "Start": "0:00:06",
-                        "End": "0:00:10",
-                        "Speaker": "Speaker B",
-                        "Text": "World",
-                        "Source": "p0",
-                    },
-                ],
-            )
-            self._make_map(
-                session_dir,
-                "| Label | Resolved To | Confidence |\n"
-                "|---|---|---|\n"
-                "| Speaker A | Nick | high |\n",
-            )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                self._make_assembled(
+                    "01",
+                    [
+                        {
+                            "ID": 1,
+                            "Start": "0:00:00",
+                            "End": "0:00:05",
+                            "Speaker": "Speaker A",
+                            "Text": "Hello",
+                            "Source": "p0",
+                        },
+                        {
+                            "ID": 2,
+                            "Start": "0:00:06",
+                            "End": "0:00:10",
+                            "Speaker": "Speaker B",
+                            "Text": "World",
+                            "Source": "p0",
+                        },
+                    ],
+                )
+                self._make_map(
+                    "01",
+                    "| Label | Resolved To | Confidence |\n"
+                    "|---|---|---|\n"
+                    "| Speaker A | Nick | high |\n",
+                )
                 at.cmd_resolve("01")
-            resolved = session_dir / "resolved.csv"
+                resolved = at.get_resolved_path("01")
             self.assertTrue(resolved.exists())
             with open(resolved, newline="") as f:
                 rows = list(csv.DictReader(f))
@@ -459,55 +498,45 @@ class CmdResolveTests(unittest.TestCase):
 
     def test_no_assembled_exits(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session02"
-            session_dir.mkdir(parents=True)
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
-                with self.assertRaises(SystemExit):
-                    at.cmd_resolve("02")
+            with patched_dirs(tmp), self.assertRaises(SystemExit):
+                at.cmd_resolve("02")
 
     def test_no_speaker_map_exits(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session03"
-            session_dir.mkdir(parents=True)
-            self._make_assembled(
-                session_dir,
-                [
-                    {
-                        "ID": 1,
-                        "Start": "0:00:00",
-                        "End": "0:00:05",
-                        "Speaker": "A",
-                        "Text": "T",
-                        "Source": "p",
-                    },
-                ],
-            )
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                self._make_assembled(
+                    "03",
+                    [
+                        {
+                            "ID": 1,
+                            "Start": "0:00:00",
+                            "End": "0:00:05",
+                            "Speaker": "A",
+                            "Text": "T",
+                            "Source": "p",
+                        }
+                    ],
+                )
                 with self.assertRaises(SystemExit):
                     at.cmd_resolve("03")
 
     def test_empty_map_exits(self):
         with tempfile.TemporaryDirectory() as tmp:
-            audio_dir = Path(tmp) / "audio" / "sessions"
-            session_dir = audio_dir / "session04"
-            session_dir.mkdir(parents=True)
-            self._make_assembled(
-                session_dir,
-                [
-                    {
-                        "ID": 1,
-                        "Start": "0:00:00",
-                        "End": "0:00:05",
-                        "Speaker": "A",
-                        "Text": "T",
-                        "Source": "p",
-                    },
-                ],
-            )
-            self._make_map(session_dir, "# No table\n")
-            with patch("assemble_transcript.AUDIO_DIR", audio_dir):
+            with patched_dirs(tmp):
+                self._make_assembled(
+                    "04",
+                    [
+                        {
+                            "ID": 1,
+                            "Start": "0:00:00",
+                            "End": "0:00:05",
+                            "Speaker": "A",
+                            "Text": "T",
+                            "Source": "p",
+                        }
+                    ],
+                )
+                self._make_map("04", "# No table\n")
                 with self.assertRaises(SystemExit):
                     at.cmd_resolve("04")
 

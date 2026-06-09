@@ -150,9 +150,10 @@ A capable agent or the DM replaces this callout with an embed later.
 
 ## Legacy Assets
 
-Older images live in `.raw/assets/` (subdirectories: `session-art/`, `banners/`,
+Older non-session images live in `.raw/assets/` (subdirectories: `banners/`,
 `portraits/`, `maps/`, `handouts/`). These are referenced in existing pages as
 `![[raw/assets/...]]`. Do not move legacy files — new images go in `wiki/assets/`.
+Retained session-art source now lives per-session in `.raw/sessions/session-NN/art/`.
 
 When generating new art for a scene that already has a legacy embed, **replace** the
 legacy embed with the new one. Do not keep both — the placement rules limit each

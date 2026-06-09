@@ -77,5 +77,8 @@ migration_status: complete
 ## Final Assets
 - wiki/assets/sessions/session-03/art/ (17 files)
 
+## Source Art
+- `.raw/sessions/session-03/art/` (retained source illustrations, 22 files; identical to wiki/assets/sessions/session-03/art/)
+
 ## Flags
 - None.

@@ -133,5 +133,8 @@ migration_status: complete
 - wiki/assets/sessions/session-04/highlight-clips/ (13 files — 7 m4a clips + 6 csv transcripts; clip 5 has no csv)
 - wiki/assets/sessions/session-04/generated-video/session-04-highlight-2-dagger-cigarette/ (13 files — contact-sheet + 12 keyframes)
 
+## Source Art
+- `.raw/sessions/session-04/art/` (retained source illustrations, 6 files; identical to wiki/assets/sessions/session-04/art/)
+
 ## Flags
 - None.

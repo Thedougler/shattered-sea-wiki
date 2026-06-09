@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: "Master run guide for Session 04: the open Calveno week before the Grung raid. Links to day-by-day files covering the Kyzil reunion, Pearl Summons, Warren, handler investigation, Red Lady salvage, and the Beffa."
 created: 2026-05-29
-updated: 2026-06-06
+updated: 2026-06-08
 tags:
   - dm-prep
 sources:
@@ -123,7 +123,7 @@ Pacing guide, not a scene order. The party drives — compress or skip days as n
 
 ## Spotlight
 
-![[kyzil-rooftop-spar.png|The Ponte Bassa rooftop spar — Crissdalynn grapples Master Kyzil while Delmar hoists a chair and Perrin beats the bodhran]]
+![[kyzil-rooftop-spar-v2.png|The Ponte Bassa rooftop spar — Crissdalynn grapples Master Kyzil while Delmar hoists a chair and Perrin beats the bodhran]]
 
 | Day | Richest threads available for | Watch for falling behind |
 |---|---|---|

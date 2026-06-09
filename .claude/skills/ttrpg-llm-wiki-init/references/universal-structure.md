@@ -76,7 +76,8 @@ VAULT_ROOT/
 │   │       │   ├── flags.md
 │   │       │   └── combat-summary.md
 │   │       ├── notes/                           ← session notes; subtype: raw-session-note
-│   │       └── exports/                         ← exports; subtype: raw-session-export
+│   │       ├── exports/                         ← exports; subtype: raw-session-export
+│   │       └── art/                             ← retained source illustrations (session-NN-*.png/webp)
 │   │
 │   │   (NOTE: audio/sessions/ is retired — all session source material now lives here)
 │   │
@@ -87,9 +88,8 @@ VAULT_ROOT/
 │   ├── homebrew/                                ← DM-authored game material
 │   ├── reference/
 │   │   └── clippings/                           ← third-party rules text, stat blocks
-│   └── assets/                                  ← media; never text-ingested
-│       ├── session-art/
-│       ├── maps/
+│   └── assets/                                  ← non-session media; never text-ingested
+│       ├── maps/                                 (session art now lives in .raw/sessions/session-NN/art/)
 │       └── banners/
 │
 ├── Inbox/

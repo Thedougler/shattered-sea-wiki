@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the Red Lady with Delmar Fisk; was mapping the Drowned Maw when it sank. Kyzil's student; cast out of the High Eyrie at 14 — the monastery banishment is the wound that makes everything else matter.
 created: 2026-05-27
-updated: 2026-06-06
+updated: 2026-06-08
 tags:
   - waveservants
   - fisk-fleet
@@ -17,7 +17,7 @@ sources:
   - Inbox/Crissdalynn-Khinriss.md
   - Inbox/Campaign-Timeline.md
 confidence_level: confirmed
-portrait: portraits/Crissdalynn-Khinriss.webp
+portrait: portraits/Crissdalynn-Khinriss-v2.png
 ---
 
 # Crissdalynn Khinriss

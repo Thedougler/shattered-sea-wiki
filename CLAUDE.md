@@ -61,24 +61,26 @@ ask the DM before generating.
 **Ideal State.** Every file has complete frontmatter with a concrete `summary`; all wikilinks
 resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects current state.
 
-## Automatic Behaviors
+## Automatic Behaviors & Self-Healing Writes
 
-A PreToolUse hook (`block-env-edits.sh`) prevents edits to `.env` files. PostToolUse hooks
-enforce: frontmatter completeness (`validate-frontmatter.sh`), search index updates
-(`qmd-reindex.sh`), `wiki/index.md` regeneration (`regen-index.sh`, debounced + backgrounded —
-never hand-edit `index.md`), Python formatting (`format-python.sh`), and Python linting
-(`lint-python.sh`).
+PreToolUse hooks block edits to `.env` and lockfiles. PostToolUse hooks (see `.claude/hooks/`)
+fire on every Write/Edit: they complete frontmatter, rebuild the search index and `wiki/index.md`
+(backgrounded — never hand-edit `index.md`), and format/lint Python + TS. Most are silent on success.
 
-Read order: `wiki/hot.md` first → `wiki/system/task-routing.md` → entity/situation files
-the task needs. Never read the full vault before generating content.
+**You must act on hook output that needs judgment:**
+- `FLAG: summary is default` → write a real `summary` before committing.
+- `Unresolved wikilinks` → fix the target or create a stub before committing.
+- A `lint-python` failure blocks the edit → fix it.
 
-Operational references (auto-correct, wikilinks, frontmatter defaults) live in
-`.claude/skills/ttrpg-llm-wiki-init/references/`.
+Commit only clean files (a re-edit produces no warnings). Never suppress or work around hook output.
 
-Hooks auto-fix mechanical issues and *flag* the rest — they do not silently move, rename, or
-restructure content. Escalate to the DM only for: genuine lore contradictions between two
-established facts; ambiguous entity identity (two pages may describe the same entity); and
-lifecycle decisions (e.g. moving a situation active → resolved).
+Read order: `wiki/hot.md` → `wiki/system/task-routing.md` → only the entity/situation files the
+task needs. Never read the full vault before generating. Operational references (auto-correct,
+wikilinks, frontmatter defaults) live in `.claude/skills/ttrpg-llm-wiki-init/references/`.
+
+Hooks auto-fix mechanics and *flag* the rest — they never silently move, rename, or restructure.
+Escalate to the DM only for: genuine lore contradictions between two established facts; ambiguous
+entity identity (two pages may describe the same entity); and lifecycle decisions (active → resolved).
 
 ---
 
@@ -126,36 +128,6 @@ live in `~/.claude/CLAUDE.md` and apply here. After completing any operation, co
 | `prep:` | Prep-skill outputs (encounters, NPCs, locations, items, etc.) |
 | `feat:` | New features in packages or scripts |
 | `refactor:` | Code restructuring in packages or scripts |
-
----
-
-## Self-Healing Writes
-
-PostToolUse hooks run automatically on every Write/Edit to wiki files. They enforce
-correctness that the agent must not duplicate manually — but agents **must act on their
-output**.
-
-### What the hooks do
-
-| Hook | Action | Agent responsibility |
-|---|---|---|
-| `validate-frontmatter.sh` | Adds missing fields, stamps `updated:` (TS CLI preferred, Python fallback) | If it prints `FLAG: summary is default`, write a real summary before committing |
-| `check-wikilinks.sh` | Warns on unresolved `[[wikilinks]]` | Fix the link target or create a stub file before committing |
-| `qmd-reindex.sh` | Rebuilds search index (background) | None — fully automatic |
-| `format-python.sh` | Runs ruff format on Python edits | None — fully automatic |
-| `lint-python.sh` | Runs ruff check on Python edits | Fix any lint errors it surfaces |
-
-### The protocol
-
-1. **Write the file.** Hooks fire automatically.
-2. **Read hook output.** If a hook prints a `FLAG:` or `Unresolved wikilinks` warning, fix
-   the issue in a follow-up edit before moving to the next file.
-3. **Commit only clean files.** Do not commit a file with unresolved hook warnings. A file
-   is clean when a re-edit produces no warnings.
-
-This makes every wiki write self-healing: hooks catch mechanical errors, and the agent
-closes the loop on anything that requires judgment. Never suppress, ignore, or work around
-hook output — the hooks are the source of truth for mechanical correctness.
 
 ---
 

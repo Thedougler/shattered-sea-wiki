@@ -47,4 +47,4 @@ She's still going.
 
 ## Audio
 ![[4_sending-black-powder_part08.m4a]]
-**From:** session04-part08 @ 13:35–14:54  (peak 0.38, intensity 0.52; laugh_end 14:53) — provenance only, not a listening cue.
+**From:** session-04-part-08 @ 13:35–14:54  (peak 0.38, intensity 0.52; laugh_end 14:53) — provenance only, not a listening cue.

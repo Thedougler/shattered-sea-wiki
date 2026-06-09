@@ -56,4 +56,4 @@ And then I let it get away. And I just keep staring at him.
 
 ## Audio
 ![[2_dagger-cigarette_part03.m4a]]
-**From:** session04-part03 @ 5:30–6:35  (peak 0.21/0.29, intensity 0.66; bursts merged @ 5:54 & 6:26, laugh_end 6:32) — provenance only, not a listening cue.
+**From:** session-04-part-03 @ 5:30–6:35  (peak 0.21/0.29, intensity 0.66; bursts merged @ 5:54 & 6:26, laugh_end 6:32) — provenance only, not a listening cue.

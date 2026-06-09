@@ -56,4 +56,4 @@ Well, I didn't see you, so I had to finish the thought. I look around and there'
 
 ## Audio
 ![[1_grung-capture_part07.m4a]]
-**From:** session04-part07 @ 24:31–25:17  (peak 0.25, intensity 0.67; bursts merged @ 24:58 & 25:07, laugh_end 25:10) — provenance only, not a listening cue.
+**From:** session-04-part-07 @ 24:31–25:17  (peak 0.25, intensity 0.67; bursts merged @ 24:58 & 25:07, laugh_end 25:10) — provenance only, not a listening cue.

@@ -7,10 +7,10 @@ audience: dm
 publish: false
 summary: Per-player engagement tracking from sessions 03–04. Jean-Claude and Delmar drove Session 04; Crissdalynn peaked in combat; Perrin played steady support.
 created: 2026-05-27
-updated: 2026-06-06
+updated: 2026-06-08
 tags: []
 sources:
-  - audio/sessions/session04/extracts.md
+  - .raw/sessions/session-04/ingest/extracts.md
 system_role: dm-intelligence
 token_profile: quick-ref
 mandatory_for:

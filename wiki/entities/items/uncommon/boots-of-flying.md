@@ -7,11 +7,11 @@ audience: players
 publish: true
 summary: Winged boots granting up to 4 hours of flight, recharging 2 hours per 12 hours not in use. Carried by Delmar Fisk.
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 tags:
   - player-resource
 sources:
-  - audio/sessions/session04/extracts.md
+  - .raw/sessions/session-04/ingest/extracts.md
 confidence_level: confirmed
 item_type: wondrous-item
 rarity: uncommon

@@ -7,14 +7,14 @@ audience: dm
 publish: false
 summary: Delmar confessed to the fleet's destruction and negotiated with Umberlee through Branca. Party sparred Kyzil on the Ponte Bassa rooftop. Grung bombing plot discovered in the sewers — four attack points, two-day deadline, festival timing. Felix Aho captured.
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 tags:
   - umberlee
   - grung
   - combat
 sources:
-  - audio/sessions/session04/recap.md
-  - audio/sessions/session04/extracts.md
+  - .raw/sessions/session-04/ingest/recap.md
+  - .raw/sessions/session-04/ingest/extracts.md
 session_number: 4
 session_date: 2026-05-31
 ---

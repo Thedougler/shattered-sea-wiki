@@ -53,4 +53,4 @@ He'll never find me.
 
 ## Audio
 ![[5_drunk-bard-schwa_part02.m4a]]
-**From:** session04-part02 @ 15:00–16:37  (peak 0.28, intensity 0.47; laugh_end 16:36) — provenance only, not a listening cue.
+**From:** session-04-part-02 @ 15:00–16:37  (peak 0.28, intensity 0.47; laugh_end 16:36) — provenance only, not a listening cue.

@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Log of lore contradictions and ambiguous entity identity that need a DM decision. Append on conflict; never auto-resolve identity. Both traces stay visible until resolved."
 created: 2026-05-28
-updated: 2026-06-01
+updated: 2026-06-08
 tags: []
 sources: []
 ---
@@ -67,7 +67,7 @@ the prep character's background.
 **Source paths:**
 
 - Prep: `Inbox/Felix-Aho.md`
-- Session: `audio/sessions/session04/recap.md` (Scene 13), `audio/sessions/session04/extracts.md` (Scene 13)
+- Session: `.raw/sessions/session-04/ingest/recap.md` (Scene 13), `.raw/sessions/session-04/ingest/extracts.md` (Scene 13)
 
 **Why it's flagged:** the profiles are incompatible. The prep Felix Aho is an anti-Simone
 defector who destroyed raiding groups; the session Felix Aho works for Simone's operation

@@ -49,4 +49,4 @@ I mean **the roof**, you perverts.
 
 ## Audio
 ![[6_roof-perverts_part01.m4a]]
-**From:** session04-part01 @ 1:56–2:50  (peak 0.26/0.26, intensity 0.38; two bursts merged @ 2:36 & 2:46, laugh_end 2:48) — provenance only, not a listening cue.
+**From:** session-04-part-01 @ 1:56–2:50  (peak 0.26/0.26, intensity 0.38; two bursts merged @ 2:36 & 2:46, laugh_end 2:48) — provenance only, not a listening cue.

@@ -41,4 +41,4 @@ Hello. I am looking for a bird, a rat, and a sexy human.
 
 ## Audio
 ![[3_bird-rat-human_part00.m4a]]
-**From:** session04-part00 @ 12:31–13:01  (peak 0.33, intensity 0.54; laugh_end 13:00) — provenance only, not a listening cue.
+**From:** session-04-part-00 @ 12:31–13:01  (peak 0.33, intensity 0.54; laugh_end 13:00) — provenance only, not a listening cue.

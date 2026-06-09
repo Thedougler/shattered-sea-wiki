@@ -39,7 +39,7 @@ def format_timestamp(seconds: int) -> str:
 
 
 def find_part_files(audio_dir: Path, session: str) -> list[Path]:
-    return sorted(audio_dir.glob(f"session{session}-part*.m4a.csv"))
+    return sorted(audio_dir.glob(f"session-{session}-part-*.csv"))
 
 
 def assemble(audio_dir: Path, session: str) -> list[TranscriptRow]:

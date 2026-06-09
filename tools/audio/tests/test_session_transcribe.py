@@ -21,12 +21,17 @@ from shattered_audio.session_transcribe import (
 
 
 def _make_session(tmp_path, manifest, layout):
-    """layout: {mic_id: [part_filenames]} — create empty m4a placeholders."""
-    sdir = tmp_path / "session07"
-    (sdir / "raw").mkdir(parents=True)
-    (sdir / "manifest.json").write_text(json.dumps(manifest))
+    """layout: {mic_id: [part_filenames]} — create empty m4a placeholders.
+
+    Builds the new packet layout: capture artifacts live under ``<sdir>/audio/``
+    (``audio/manifest.json`` + ``audio/raw/<mic_id>/``).
+    """
+    sdir = tmp_path / "session-07"
+    audio = sdir / "audio"
+    (audio / "raw").mkdir(parents=True)
+    (audio / "manifest.json").write_text(json.dumps(manifest))
     for mic_id, parts in layout.items():
-        d = sdir / "raw" / mic_id
+        d = audio / "raw" / mic_id
         d.mkdir(parents=True)
         for p in parts:
             (d / p).write_bytes(b"\x00")
@@ -52,23 +57,25 @@ def test_discover_tracks_reads_manifest_and_orders_parts(tmp_path):
     sdir = _make_session(
         tmp_path,
         manifest,
-        {"mic00": ["part001.m4a", "part000.m4a"], "mic01": ["part000.m4a"]},
+        {"mic-00": ["part-001.m4a", "part-000.m4a"], "mic-01": ["part-000.m4a"]},
     )
     tracks = discover_tracks(sdir)
+    # mic_id stays in positional manifest form; on-disk dirs are dash-form
     assert [t.mic_id for t in tracks] == ["mic00", "mic01"]
     assert tracks[0].speaker == "DM"
     # parts sorted by name regardless of creation order
-    assert [p.name for p in tracks[0].parts] == ["part000.m4a", "part001.m4a"]
+    assert [p.name for p in tracks[0].parts] == ["part-000.m4a", "part-001.m4a"]
 
 
-def test_discover_tracks_without_manifest_treats_loose_m4a_as_one_mic(tmp_path):
-    sdir = tmp_path / "session09"
-    sdir.mkdir()
-    (sdir / "part000.m4a").write_bytes(b"\x00")
+def test_discover_tracks_without_manifest_treats_loose_parts_as_one_mic(tmp_path):
+    sdir = tmp_path / "session-09"
+    parts_dir = sdir / "audio" / "parts"
+    parts_dir.mkdir(parents=True)
+    (parts_dir / "session-09-part-00.m4a").write_bytes(b"\x00")
     tracks = discover_tracks(sdir)
     assert len(tracks) == 1
     assert tracks[0].speaker is None
-    assert [p.name for p in tracks[0].parts] == ["part000.m4a"]
+    assert [p.name for p in tracks[0].parts] == ["session-09-part-00.m4a"]
 
 
 def test_group_parts_by_index_aligns_mics_on_the_same_window(tmp_path):
@@ -83,7 +90,7 @@ def test_group_parts_by_index_aligns_mics_on_the_same_window(tmp_path):
     sdir = _make_session(
         tmp_path,
         manifest,
-        {"mic00": ["part000.m4a", "part001.m4a"], "mic01": ["part000.m4a"]},
+        {"mic-00": ["part-000.m4a", "part-001.m4a"], "mic-01": ["part-000.m4a"]},
     )
     tracks = discover_tracks(sdir)
     groups = group_parts_by_index(tracks)
@@ -133,7 +140,7 @@ def test_write_part_csv_matches_session_ingest_schema(tmp_path):
     rows = [
         {"ID": 1, "Start": "00:00", "End": "00:01", "Speaker": "DM", "Text": 'He said "hi"'},
     ]
-    out = tmp_path / "session07-part00.m4a.csv"
+    out = tmp_path / "session-07-part-00.csv"
     write_part_csv(rows, out)
     with open(out, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -162,10 +169,10 @@ def test_transcribe_session_real_whisper(tmp_path):
     """Synthesize speech, record it as a session part, transcribe to CSV."""
     from shattered_audio.session_transcribe import transcribe_session
 
-    sdir = tmp_path / "session42"
-    mic_dir = sdir / "raw" / "mic00"
+    sdir = tmp_path / "session-42"
+    mic_dir = sdir / "audio" / "raw" / "mic-00"
     mic_dir.mkdir(parents=True)
-    (sdir / "manifest.json").write_text(
+    (sdir / "audio" / "manifest.json").write_text(
         json.dumps(
             {
                 "session": 42,
@@ -180,13 +187,13 @@ def test_transcribe_session_real_whisper(tmp_path):
     )
     subprocess.run(
         ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(aiff),
-         "-ac", "1", "-ar", "16000", "-c:a", "aac", str(mic_dir / "part000.m4a")],
+         "-ac", "1", "-ar", "16000", "-c:a", "aac", str(mic_dir / "part-000.m4a")],
         check=True,
     )
 
     transcribe_session(42, audio_dir=tmp_path, use_profiles=False)
 
-    csv_path = tmp_path / "session42-part00.m4a.csv"
+    csv_path = sdir / "transcripts" / "raw" / "session-42-part-00.csv"
     assert csv_path.exists(), "expected a per-part CSV"
     with open(csv_path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))

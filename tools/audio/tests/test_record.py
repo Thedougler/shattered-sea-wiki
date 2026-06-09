@@ -71,7 +71,7 @@ def test_select_mics_unknown_index_is_skipped():
 
 
 def test_build_ffmpeg_command_shape():
-    out = Path("/tmp/s07/raw/mic00/part%03d.m4a")
+    out = Path("/tmp/s07/audio/raw/mic-00/part-%03d.m4a")
     cmd = build_ffmpeg_command(device_index=1, out_pattern=out, segment_seconds=900)
     assert cmd[0] == "ffmpeg"
     # avfoundation audio-only input is ":<index>"
@@ -87,11 +87,14 @@ def test_build_ffmpeg_command_shape():
 
 
 def test_session_and_raw_dirs_are_zero_padded():
-    base = Path("/vault/audio/sessions")
-    assert session_dir(base, 7) == base / "session07"
-    assert session_dir(base, 12) == base / "session12"
+    base = Path("/vault/.raw/sessions")
+    assert session_dir(base, 7) == base / "session-07"
+    assert session_dir(base, 12) == base / "session-12"
     mic = RecordMic(index=1, name="EMEET", mic_id="mic00")
-    assert raw_mic_dir(base, 7, mic) == base / "session07" / "raw" / "mic00"
+    assert raw_mic_dir(base, 7, mic) == base / "session-07" / "audio" / "raw" / "mic-00"
+    # a higher positional mic id reformats to dash form too
+    mic1 = RecordMic(index=3, name="USB", mic_id="mic01")
+    assert raw_mic_dir(base, 7, mic1) == base / "session-07" / "audio" / "raw" / "mic-01"
 
 
 def test_build_manifest_records_mic_mapping():
@@ -127,11 +130,11 @@ def test_record_session_real_capture(tmp_path):
     sdir = record.record_session(
         session=99, mics=mics, audio_dir=tmp_path, segment_seconds=2, max_seconds=5.0
     )
-    assert (sdir / "manifest.json").exists()
+    assert (sdir / "audio" / "manifest.json").exists()
     parts = list(sdir.rglob("*.m4a"))
     assert parts, "expected at least one recorded segment"
-    # every selected mic produced its own track directory
+    # every selected mic produced its own track directory (dash-form, under audio/)
     for mic in mics:
-        assert (sdir / "raw" / mic.mic_id).is_dir()
+        assert raw_mic_dir(tmp_path, 99, mic).is_dir()
     # segments are non-trivially sized (not empty/truncated)
     assert all(p.stat().st_size > 256 for p in parts)

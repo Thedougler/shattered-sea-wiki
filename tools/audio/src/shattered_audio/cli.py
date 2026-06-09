@@ -107,24 +107,27 @@ def transcribe(
 def assemble(
     session: int = typer.Argument(..., help="Session number (e.g. 4)"),
     audio_dir: Path = typer.Option(
-        Path("audio/sessions"), "--audio-dir", help="Directory containing audio parts"
+        Path(".raw/sessions"), "--audio-dir", help="Directory containing session packets"
     ),
 ) -> None:
     """Assemble transcript CSV parts into a single continuous transcript."""
     from .assemble import assemble as do_assemble
     from .assemble import speaker_distribution, write_assembled_csv
+    from .record import session_dir as _session_dir
 
     session_str = str(session).zfill(2)
+    sdir = _session_dir(audio_dir, session)
+    parts_dir = sdir / "transcripts" / "raw"
 
     try:
-        rows = do_assemble(audio_dir, session_str)
+        rows = do_assemble(parts_dir, session_str)
     except FileNotFoundError as e:
         console.print(f"[red]{e}[/red]")
         raise typer.Exit(1)
 
-    out_dir = audio_dir / f"session{session_str}"
-    out_dir.mkdir(exist_ok=True)
-    out_path = out_dir / "assembled.csv"
+    out_dir = sdir / "transcripts" / "assembled"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"session-{session_str}-assembled.csv"
 
     write_assembled_csv(rows, out_path)
     console.print(f"[green]Assembled {len(rows)} lines -> {out_path}[/green]")
@@ -469,7 +472,7 @@ def retrain(
 def transcribe_session_cmd(
     session: int = typer.Option(..., "--session", "-s", help="Session number"),
     audio_dir: Path = typer.Option(
-        Path("audio/sessions"), "--audio-dir", help="Where session audio is stored"
+        Path(".raw/sessions"), "--audio-dir", help="Where session audio is stored"
     ),
     no_profiles: bool = typer.Option(
         False, "--no-profiles", help="Label purely by mic; skip voice-profile identification"
@@ -488,10 +491,10 @@ def transcribe_session_cmd(
 ) -> None:
     """Transcribe a recorded session into per-part speaker CSVs.
 
-    Reads the per-mic m4a tracks under ``audio/sessions/sessionNN/`` and writes
-    ``sessionNN-partMM.m4a.csv`` for each part — the format session-ingest and
-    ``assemble`` consume. Voice profiles are loaded automatically; the mic each
-    voice came from is a strong speaker prior.
+    Reads the per-mic m4a tracks under ``.raw/sessions/session-NN/audio/`` and
+    writes ``transcripts/raw/session-NN-part-MM.csv`` for each part — the format
+    session-ingest and ``assemble`` consume. Voice profiles are loaded
+    automatically; the mic each voice came from is a strong speaker prior.
     """
     import logging
 
@@ -531,7 +534,8 @@ def transcribe_session_cmd(
         prosody_weight=cfg.prosody_weight,
         log=lambda m: console.print(f"  {m}", style="dim"),
     )
-    console.print(f"[green]Wrote {len(written)} part CSV(s) to {audio_dir}/[/green]")
+    out_dir = sdir / "transcripts" / "raw"
+    console.print(f"[green]Wrote {len(written)} part CSV(s) to {out_dir}/[/green]")
     console.print(
         f"[dim]Next: shattered-audio assemble {session}  →  then the session-ingest skill[/dim]"
     )
@@ -597,7 +601,7 @@ def record(
         15, "--segment-minutes", help="Length of each audio chunk in minutes"
     ),
     audio_dir: Path = typer.Option(
-        Path("audio/sessions"), "--audio-dir", help="Where session audio is stored"
+        Path(".raw/sessions"), "--audio-dir", help="Where session audio is stored"
     ),
     max_seconds: Optional[float] = typer.Option(
         None, "--max-seconds", help="Auto-stop after N seconds (for testing); default: run until stopped"

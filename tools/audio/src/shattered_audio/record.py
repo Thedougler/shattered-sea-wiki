@@ -10,13 +10,14 @@ needs a recorder that does not drift, leak, or die. ffmpeg's segment muxer is
 battle-tested for exactly this — it flushes each chunk to disk as it goes, so a
 crash at hour 3 still leaves you hours 0-3 of finalized audio.
 
-Output layout (under ``audio/sessions/``)::
+Output layout (under ``.raw/sessions/``)::
 
-    session07/
-      manifest.json
-      raw/
-        mic00/ part000.m4a part001.m4a ...
-        mic01/ part000.m4a part001.m4a ...
+    session-07/
+      audio/
+        manifest.json
+        raw/
+          mic-00/ part-000.m4a part-001.m4a ...
+          mic-01/ part-000.m4a part-001.m4a ...
 
 The pure helpers here (device parsing, command building, mic selection, path
 layout, manifest) are unit-tested; :func:`record_session` does the process
@@ -136,11 +137,15 @@ def select_mics(
 
 
 def session_dir(audio_dir: Path, session: int) -> Path:
-    return audio_dir / f"session{session:02d}"
+    return audio_dir / f"session-{session:02d}"
 
 
 def raw_mic_dir(audio_dir: Path, session: int, mic: RecordMic) -> Path:
-    return session_dir(audio_dir, session) / "raw" / mic.mic_id
+    # mic_id is positional (mic00, mic01, ...); the on-disk dir uses dash form
+    # (mic-00). Derive the numeric index so either id style reformats cleanly.
+    digits = "".join(ch for ch in mic.mic_id if ch.isdigit())
+    mic_index = int(digits) if digits else 0
+    return session_dir(audio_dir, session) / "audio" / "raw" / f"mic-{mic_index:02d}"
 
 
 def build_ffmpeg_command(
@@ -258,15 +263,18 @@ def record_session(
     SIGINT/SIGTERM so the controlling agent can end the session on command.
     """
     sdir = session_dir(audio_dir, session)
-    sdir.mkdir(parents=True, exist_ok=True)
+    audio_subdir = sdir / "audio"
+    audio_subdir.mkdir(parents=True, exist_ok=True)
 
     started_at = time.strftime("%Y-%m-%dT%H:%M:%S")
     manifest = build_manifest(session, mics, segment_seconds, started_at=started_at)
-    (sdir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (audio_subdir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
+    )
 
     procs: list[tuple[RecordMic, subprocess.Popen]] = []
     for mic in mics:
-        out_pattern = raw_mic_dir(audio_dir, session, mic) / "part%03d.m4a"
+        out_pattern = raw_mic_dir(audio_dir, session, mic) / "part-%03d.m4a"
         procs.append((mic, _spawn(mic, out_pattern, segment_seconds, ffmpeg)))
 
     stop_event = threading.Event()

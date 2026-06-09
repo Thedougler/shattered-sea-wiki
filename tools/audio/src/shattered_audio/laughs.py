@@ -1,8 +1,8 @@
 """Laughter highlight detector for session audio.
 
 Experiment: scan one or more session audio files (the multi-part ``.m4a`` recordings
-under ``audio/sessions/``) and rank the moments with the highest concentration of
-laughter. Big group laughs are almost always the immediate aftermath of a session
+under ``.raw/sessions/session-NN/audio/parts/``) and rank the moments with the highest
+concentration of laughter. Big group laughs are almost always the immediate aftermath of a session
 highlight, so the top of this list is a shortlist of "find the funny bits" timestamps.
 
 Approach (see ``compass_artifact_*.md`` for the research that motivated it): we use the
@@ -19,8 +19,8 @@ ffmpeg can read works (m4a, wav, flac, mp3, ...).
 
 Usage::
 
-    python -m shattered_audio.laughs audio/sessions/session04-part*.m4a --top 25
-    python -m shattered_audio.laughs audio/sessions/session04-part00.m4a --json out.json
+    python -m shattered_audio.laughs .raw/sessions/session-04/audio/parts/session-04-part-*.m4a --top 25
+    python -m shattered_audio.laughs .raw/sessions/session-04/audio/parts/session-04-part-00.m4a --json out.json
 
 First run downloads the PANNs checkpoint (~330 MB) to ``~/panns_data/`` (needs wget).
 Also exposed as ``shattered-audio laughs`` via the Typer CLI.

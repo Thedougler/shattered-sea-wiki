@@ -5,8 +5,8 @@ per microphone, chunked into time-aligned parts — and emits the per-part CSVs
 that the ``session-ingest`` skill and ``shattered-audio assemble`` already
 consume::
 
-    audio/sessions/session07-part00.m4a.csv   (ID,Start,End,Speaker,Text)
-    audio/sessions/session07-part01.m4a.csv
+    .raw/sessions/session-07/transcripts/raw/session-07-part-00.csv  (ID,Start,End,Speaker,Text)
+    .raw/sessions/session-07/transcripts/raw/session-07-part-01.csv
     ...
 
 Because every mic is recorded with the same ``segment_time``, part index *MM*
@@ -70,20 +70,31 @@ def _part_index(path: Path) -> int:
 
 
 def discover_tracks(session_dir: Path) -> list[MicTrack]:
-    """Find mic tracks under a session dir, honoring manifest.json if present."""
-    manifest_path = session_dir / "manifest.json"
-    raw = session_dir / "raw"
+    """Find mic tracks for a session, honoring manifest.json if present.
+
+    ``session_dir`` is the session packet root (``.raw/sessions/session-NN/``).
+    Capture artifacts live under its ``audio/`` subdir: ``audio/manifest.json``,
+    per-mic raw tracks under ``audio/raw/mic-XX/``, and any pre-split
+    transcribe-ready parts under ``audio/parts/``.
+    """
+    audio = session_dir / "audio"
+    manifest_path = audio / "manifest.json"
+    raw = audio / "raw"
 
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text())
         tracks: list[MicTrack] = []
         for m in manifest.get("mics", []):
             mic_id = m["mic_id"]
-            parts = sorted((raw / mic_id).glob("*.m4a"), key=lambda p: p.name)
+            # The manifest keeps the positional id (mic00); on disk the raw dir
+            # is dash-form (mic-00), matching record.raw_mic_dir.
+            digits = "".join(ch for ch in mic_id if ch.isdigit())
+            mic_dir_name = f"mic-{int(digits):02d}" if digits else mic_id
+            parts = sorted((raw / mic_dir_name).glob("*.m4a"), key=lambda p: p.name)
             tracks.append(MicTrack(mic_id=mic_id, speaker=m.get("speaker"), parts=parts))
         return tracks
 
-    # No manifest: treat per-mic subdirs if present, else loose m4a as one mic.
+    # No manifest: treat per-mic subdirs if present, else loose parts as one mic.
     if raw.is_dir():
         tracks = []
         for mic_dir in sorted(p for p in raw.iterdir() if p.is_dir()):
@@ -93,7 +104,7 @@ def discover_tracks(session_dir: Path) -> list[MicTrack]:
         if tracks:
             return tracks
 
-    loose = sorted(session_dir.glob("*.m4a"), key=lambda p: p.name)
+    loose = sorted((audio / "parts").glob("*.m4a"), key=lambda p: p.name)
     if loose:
         return [MicTrack(mic_id="mic00", speaker=None, parts=loose)]
     return []
@@ -252,7 +263,12 @@ def transcribe_session(
                 utterances.append(utt)
 
         rows = merge_part_utterances(utterances)
-        out = audio_dir / f"session{session:02d}-part{part_index:02d}.m4a.csv"
+        out = (
+            sdir
+            / "transcripts"
+            / "raw"
+            / f"session-{session:02d}-part-{part_index:02d}.csv"
+        )
         write_part_csv(rows, out)
         written.append(out)
         log(f"Wrote {len(rows)} line(s) → {out.name}")

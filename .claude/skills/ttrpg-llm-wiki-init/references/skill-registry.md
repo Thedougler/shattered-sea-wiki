@@ -77,11 +77,11 @@ before the next. Never invent missing canon to make a source fit.
 skills.
 
 ### `session-ingest`
-**Purpose:** Multi-pass data mining of raw session transcript CSVs in `audio/sessions/`.
+**Purpose:** Multi-pass data mining of raw session transcript CSVs in `.raw/sessions/session-NN/transcripts/`.
 Resolve speakers, consolidate fragments, separate IC/OOC/canon, extract combat data, and
 propagate to the wiki. Each part file is one chunk, processed sequentially with checkpoints.
 **Trigger:** "process the transcript", "mine the session", "clean the transcript", "fix
-speakers", "who is Speaker 1", new `session*.csv` files in `audio/sessions/`.
+speakers", "who is Speaker 1", new transcript CSVs in `.raw/sessions/session-NN/transcripts/raw/`.
 **Critical behaviors:** Checkpoint after every part so work survives context limits. Never
 guess speaker attribution — flag it. Never invent words for unintelligible audio.
 **Coordinates with:** `session-recap`, `world-update`, `pc-combat-primer`

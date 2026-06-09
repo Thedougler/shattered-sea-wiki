@@ -19,11 +19,13 @@ is for running the tooling.
 | Path | What's there |
 |---|---|
 | `wiki/` | The Obsidian vault — all campaign content. Start at `wiki/hot.md` (current state) and `wiki/index.md`. |
-| `wiki/sessions/` | Session notes, recaps, run-guides, and committed finalized transcripts. |
+| `wiki/sessions/` | Session notes, recaps, and run-guides (canon session records). |
 | `wiki/system/` | Doctrine, party primers, routing rules (agent-facing reference). |
 | `.claude/skills/` | Claude Code skills (campaign prep, ingest, lint, live co-DM). |
 | `.claude/scripts/` | Pure-stdlib maintenance scripts (index regen, frontmatter, ingest helpers). |
-| `voice-transcription/` | The voice-profile + transcription Python tools (this README's main subject). |
+| `tools/audio/` | `shattered-audio` — Python voice/transcription package (venv at `tools/audio/.venv`). |
+| `.raw/sessions/session-NN/` | Session source packets: raw audio, transcripts, ingest artifacts. |
+| `Inbox/sessions/session-NN/` | Mutable processing workbench (processing/, scratch/, incoming/). |
 | `Inbox/`, `.raw/` | Source material waiting to be ingested into the wiki. |
 
 ---
@@ -46,101 +48,53 @@ Open the repo root as an Obsidian vault. Conventions worth knowing:
 
 ## Voice & transcription tools
 
-These are the tools you run by hand. They capture per-character **voice profiles**, then
-**transcribe a 4-hour+ session** with overlap-aware speaker separation tuned for a noisy
-table (≈5 players, heavy crosstalk, each voicing several characters).
+The audio pipeline lives in `tools/audio/` (`shattered-audio` Python package, venv at
+`tools/audio/.venv`). Apple Silicon required (MLX Whisper + pyannote on MPS/CPU).
+Use the Claude Code skills — they wrap the underlying CLI and handle venv/token setup.
 
-The code lives in `voice-transcription/` — a proper Python package with `pyproject.toml`.
-Apple Silicon required (Parakeet via MLX + pyannote on MPS/CPU).
+### Session lifecycle
 
-Three convenience wrappers live at the repo root — **start here**. Each one creates the
-virtualenv, installs dependencies on first run, reads `HF_TOKEN` from `.env`, and then runs
-the underlying Python tool. Flags pass straight through.
-
-```bash
-./save_voice.sh         --name "Grigori" --player "Dave"
-./transcribe_session.sh --session 4 --speakers 5
-./finalize_session.sh   --session 4 --speakers 5
 ```
+Record  →  .raw/sessions/session-NN/audio/raw/mic-XX/part-000.m4a
+              + .raw/sessions/session-NN/audio/manifest.json
+
+Transcribe  →  .raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv
+
+Assemble  →  .raw/sessions/session-NN/transcripts/assembled/session-NN-assembled.csv
+
+Ingest (session-ingest skill)  →  .raw/sessions/session-NN/ingest/{speaker-map,recap,extracts,flags,combat-summary}.md
+
+Active processing workbench  →  Inbox/sessions/session-NN/{processing,scratch,incoming}/
+
+Canon session notes  →  wiki/sessions/session-NN*.md  (UNCHANGED)
+```
+
+### Skills
+
+| Skill | What it does |
+|---|---|
+| `record-session-audio` | Captures every mic to isolated chunked m4a tracks (ffmpeg per mic). |
+| `transcribe-session-audio` | Whisper large-v3 + pyannote over per-mic tracks; speaker-labeled by voice profile. |
+| `manage-voice-profiles` | CRUD for actor/persona voice profiles used by the transcription engine. |
+| `session-ingest` | Multi-pass mining of transcript CSVs → wiki propagation. |
 
 ### One-time setup
 
 ```bash
-# 1. Virtualenv + dependencies (the venv is gitignored)
-python3.11 -m venv voice-transcription/.venv
-source voice-transcription/.venv/bin/activate
-pip install -e voice-transcription/
+# Virtualenv + dependencies
+pip install -e "tools/audio/[all]"
 
-# 2. Hugging Face token (pyannote models are gated — free account)
-#    Accept the license for pyannote/speaker-diarization-3.1 + the embedding model
-#    on their HF model pages, then:
-export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
-
-# 3. macOS microphone permission
-#    System Settings -> Privacy & Security -> Microphone -> enable your terminal app
+# Hugging Face token (pyannote models are gated)
+# Accept license at https://huggingface.co/pyannote/speaker-diarization-3.1
+# Then put in .env:
+HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
 ```
-
-> The wrappers do all of the above for you. Put your token in `.env` once
-> (`HF_TOKEN=hf_...`) and you never need to activate the venv or export anything.
-
-### Save a voice profile
-
-One profile per **character voice**. Run once per voice each table member performs.
-
-```bash
-./save_voice.sh --name "Grigori" --player "Dave"
-```
-
-Then open the printed URL (default `http://localhost:8080`), click **Start** (the ASR
-model loads, then recording begins). Read the teleprompter aloud *in character* — words
-grey out as they are recognized. Click **Stop & Save**; the process exits cleanly.
-
-| Flag | Meaning |
-|---|---|
-| `--name` | The **character voice** (e.g. `Grigori`, `Captain Nona`). One profile per voice. |
-| `--player` | The **physical person** performing it (e.g. `Dave`). Groups one person's many voices. |
-| `--script-file PATH` | Optional. Use your own teleprompter text instead of the bundled passage. |
-| `--port N` | Optional. Change the web port. |
-
-Profiles are written to `voice-transcription/profiles/<slug>.json` and **committed** to the
-repo. Re-running with the same `--name` overwrites that profile.
-
-### Transcribe a session
-
-**Pass 1 — live capture.** Start at session open and leave running; `Ctrl-C` to stop.
-
-```bash
-./transcribe_session.sh --session 4 --speakers 5
-```
-
-| Flag | Meaning |
-|---|---|
-| `--session N` | Session number. Omit to auto-pick the next one. |
-| `--speakers N` | **Physical people at the table** (not character count). Always set it. |
-| `--threshold` | Cosine match cutoff for voice ID (default `0.5`). |
-
-**Pass 2 — finalize** (after the session):
-
-```bash
-./finalize_session.sh --session 4 --speakers 5
-```
-
-Output: `wiki/sessions/session-04-transcript.md` (committed).
 
 ### Correction loop
 
-Profiles get sharper every session: correct the finalized transcript, then re-save the
-affected profiles. The profiler harvests corrected audio automatically. Keep the session's
-`.live/` audio until you're done improving profiles from it.
-
-### Transcript markers
-
-```
-**Delmar** (Ben) [01:12:04]: hold fast, she's coming about
-**Nona (?)** (Sam) [01:12:05] [overlap]: belay that
-```
-
-`(?)` = low-confidence attribution. `[overlap]` = crosstalk region.
+After each session: review the assembled transcript, correct speaker labels, then run
+`shattered-audio retrain` with the corrected file and a `--speaker-map` from session-ingest.
+Profiles improve automatically each session via weighted blending.
 
 ---
 
@@ -162,11 +116,11 @@ but they're plain CLI:
 The voice/transcription logic has a unit suite that needs **no ML stack**:
 
 ```bash
-cd voice-transcription && pip install -e ".[dev]" && pytest tests/
+cd tools/audio && pip install -e ".[dev]" && pytest tests/
 ```
 
 Optional real-adapter checks (venv active + `HF_TOKEN` set):
 
 ```bash
-RUN_ML_TESTS=1 pytest tests/test_ml_integration.py -v
+pytest tools/audio/tests/test_session_transcribe.py tools/audio/tests/test_record.py -v
 ```

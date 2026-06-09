@@ -13,7 +13,7 @@ person to an isolated, chunked m4a track — built to run 4+ hours and stop clea
 .claude/skills/record-session-audio/scripts/record.sh --session N
 ```
 
-Output: `audio/sessions/sessionN/raw/micKK/partNNN.m4a` + `manifest.json`.
+Output: `.raw/sessions/session-NN/audio/raw/mic-KK/part-000.m4a` (one file per mic per 15-min part) + `.raw/sessions/session-NN/audio/manifest.json`.
 
 ## Transcribe (after the session)
 
@@ -26,7 +26,7 @@ mic prior.
 tools/audio/.venv/bin/shattered-audio assemble N      # stitch parts → one transcript
 ```
 
-Output: `audio/sessions/sessionN-partMM.m4a.csv` (`ID,Start,End,Speaker,Text`),
+Output: `.raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv` (`ID,Start,End,Speaker,Text`),
 consumed by the **session-ingest** skill.
 
 ## Voice profiles

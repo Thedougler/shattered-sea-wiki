@@ -16,10 +16,10 @@ losing fidelity or introducing assumptions.
 
 When extracting combat data, prefer sources in this order:
 
-1. **Session-ingest combat summary** (`audio/sessions/session{NN}/combat-summary.md`)
+1. **Session-ingest combat summary** (`.raw/sessions/session-NN/ingest/combat-summary.md`)
    — already structured with per-PC tables and encounter headers. If this exists,
    it is the primary source — skip re-processing transcripts.
-2. **Session-ingest extracts** (`audio/sessions/session{NN}/extracts.md`, `[COMBAT]` blocks)
+2. **Session-ingest extracts** (`.raw/sessions/session-NN/ingest/extracts.md`, `[COMBAT]` blocks)
    — same data, interleaved with other tags. Use if combat-summary.md doesn't exist yet.
 3. **Session scene files** (`wiki/sessions/session-{NN}-scene-*`) — structured but
    may lack per-PC granularity.
@@ -105,9 +105,9 @@ If Perrin's Bardic Inspiration turned Delmar's miss into a hit:
 ### Step 1: Identify Combat Data
 
 Check sources in priority order (see Source Priority above):
-- If `audio/sessions/session{NN}/combat-summary.md` exists → use it directly,
+- If `.raw/sessions/session-NN/ingest/combat-summary.md` exists → use it directly,
   skip to Step 3
-- If `extracts.md` exists with `[COMBAT]` blocks → compile them, skip to Step 3
+- If `.raw/sessions/session-NN/ingest/extracts.md` exists with `[COMBAT]` blocks → compile them, skip to Step 3
 - Otherwise scan scene files for `tags: [combat]`, `## What Happened (Played)`,
   initiative descriptions, attack rolls, damage numbers
 
@@ -214,7 +214,7 @@ When `session-ingest` processes a session with combat:
 
 1. Session-ingest extracts `[COMBAT]` blocks with per-PC tables during Pass 2
 2. After the final part, session-ingest compiles all `[COMBAT]` blocks into
-   `audio/sessions/session{NN}/combat-summary.md`
+   `.raw/sessions/session-NN/ingest/combat-summary.md`
 3. The handoff notes: "Combat data available — run pc-combat-primer to update
    affected profiles."
 4. This skill reads `combat-summary.md` and maps each per-PC table row directly

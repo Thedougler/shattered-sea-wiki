@@ -22,7 +22,7 @@
     {
       "id": 4,
       "prompt": "Ingest the reviewed clean transcript for session 04.",
-      "expected_output": "Refuses raw or unresolved transcript ingest, extracts durable session changes, creates or updates the session note, updates affected entity/situation/faction files, then archives the clean transcript to audio/sessions/ so it drops off check_ingest.py.",
+      "expected_output": "Refuses raw or unresolved transcript ingest, extracts durable session changes, creates or updates the session note, updates affected entity/situation/faction files, then archives the clean transcript to .raw/sessions/session-NN/transcripts/ so it drops off check_ingest.py.",
       "files": []
     }
   ]

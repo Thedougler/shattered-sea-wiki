@@ -123,12 +123,13 @@ Python audio deps). Runs until SIGINT/SIGTERM; built for 4+ hour sessions.
 shattered-audio record --session 12 [--mics 0,1] [--segment-minutes 15]
 ```
 
-Output: `audio/sessions/sessionNN/raw/micKK/partNNN.m4a` + `manifest.json`.
+Output: `.raw/sessions/session-NN/audio/raw/mic-KK/part-000.m4a` (one file per mic per part) + `.raw/sessions/session-NN/audio/manifest.json`.
 
 ### `shattered-audio transcribe-session`
 
 Transcribe a recorded session's per-mic tracks into per-part speaker CSVs
-(`sessionNN-partMM.m4a.csv`, the format `assemble` and `session-ingest` consume).
+(`session-NN-part-PP.csv`, the format `assemble` and `session-ingest` consume).
+Output written to `.raw/sessions/session-NN/transcripts/raw/`.
 Auto-loads voice profiles; mic-of-origin is a speaker prior.
 
 ```
@@ -194,7 +195,7 @@ labels during parsing — no manual find-replace needed:
 
 ```
 shattered-audio retrain Inbox/s12-chunk-001.md \
-  --speaker-map audio/sessions/session12/speaker-map.md \
+  --speaker-map .raw/sessions/session-12/ingest/speaker-map.md \
   --audio-dir Inbox/ --blend 0.7
 ```
 

@@ -103,7 +103,13 @@ When a required field is missing, add it with the default below and log the addi
 | `system/players/` (sheet) | `pc-sheet` |
 | `system/` | `system-file` |
 | `dm/` | `dm-file` |
-| `audio/sessions/` | `raw-session` |
+| `.raw/sessions/session-NN/audio/` | `raw-session-audio` |
+| `.raw/sessions/session-NN/transcripts/` | `raw-session-transcript` |
+| `.raw/sessions/session-NN/ingest/` | `raw-session-ingest` |
+| `.raw/sessions/session-NN/notes/` | `raw-session-note` |
+| `.raw/sessions/session-NN/exports/` | `raw-session-export` |
+| `.raw/sessions/session-NN/source-manifest.md` | `session-manifest` |
+| `.raw/sessions/` (other files) | `raw-session` |
 | `.raw/characters/` | `raw-character` |
 | `.raw/homebrew/` | `raw-homebrew` |
 

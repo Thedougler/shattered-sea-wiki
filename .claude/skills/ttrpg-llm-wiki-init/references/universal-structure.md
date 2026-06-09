@@ -54,10 +54,31 @@ VAULT_ROOT/
 ├── .raw/                                        ← IMMUTABLE SOURCE MATERIAL
 │   │                                               files here are never edited; all work in copies
 │   ├── sessions/
-│   │   └── sNNN/                                ← one folder per session
-│   │       ├── sNNN-raw.md                      ← exact transcription output; never touch
-│   │       ├── sNNN-clean.md                    ← agent-cleaned version; DM may edit
-│   │       └── sNNN-flags.md                    ← items needing DM review
+│   │   └── session-NN/                          ← wiki-native session source packet (dash form, kebab-case)
+│   │       ├── source-manifest.md               ← packet index; subtype: session-manifest
+│   │       ├── audio/
+│   │       │   ├── manifest.json                ← capture manifest
+│   │       │   ├── raw/
+│   │       │   │   └── mic-XX/
+│   │       │   │       └── part-000.m4a         ← raw per-mic capture; subtype: raw-session-audio
+│   │       │   └── parts/
+│   │       │       └── session-NN-part-PP.m4a   ← transcribe-ready stitched parts
+│   │       ├── transcripts/
+│   │       │   ├── raw/
+│   │       │   │   └── session-NN-part-PP.csv   ← per-part transcript (ID,Start,End,Speaker,Text); subtype: raw-session-transcript
+│   │       │   ├── assembled/
+│   │       │   │   └── session-NN-assembled.csv ← full session transcript
+│   │       │   └── corrected/                   ← DM-reviewed corrections
+│   │       ├── ingest/                          ← accepted ingest artifacts; subtype: raw-session-ingest
+│   │       │   ├── speaker-map.md
+│   │       │   ├── recap.md
+│   │       │   ├── extracts.md
+│   │       │   ├── flags.md
+│   │       │   └── combat-summary.md
+│   │       ├── notes/                           ← session notes; subtype: raw-session-note
+│   │       └── exports/                         ← exports; subtype: raw-session-export
+│   │
+│   │   (NOTE: audio/sessions/ is retired — all session source material now lives here)
 │   │
 │   ├── characters/
 │   │   ├── interviews/                          ← session zero player interviews
@@ -70,6 +91,13 @@ VAULT_ROOT/
 │       ├── session-art/
 │       ├── maps/
 │       └── banners/
+│
+├── Inbox/
+│   └── sessions/
+│       └── session-NN/                          ← mutable processing workbench (not immutable)
+│           ├── processing/                      ← active work in progress
+│           ├── scratch/                         ← throwaway working files
+│           └── incoming/                        ← new drops awaiting triage
 │
 └── wiki/                                        ← COMPILED KNOWLEDGE
     │
@@ -234,9 +262,10 @@ Is it how the GAME works (mechanics, not world)?
     Encounter tools → rules/encounter-design/
 
 Is it a session record?
-  Raw transcript → audio/sessions/ (CSV per part)
-  Agent-facing summary → wiki/sessions/sNNN-summary.md
-  Player-facing recap → wiki/sessions/sNNN-recap.md
+  Raw capture / transcripts / ingest artifacts → .raw/sessions/session-NN/ (source packet)
+  Active processing workbench → Inbox/sessions/session-NN/processing/
+  Canon session notes → wiki/sessions/session-NN*.md (UNCHANGED)
+  (audio/sessions/ is retired — do not create new files there)
 
 Cannot categorize?
   → Inbox/ with one-line note explaining why

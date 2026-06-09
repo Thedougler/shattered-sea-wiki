@@ -55,10 +55,15 @@ update_trigger: New system file added; task type added; mandatory read list chan
 
 ### Task: `transcript-ingestion`
 
+Source packets live at `.raw/sessions/session-NN/` (transcripts, ingest artifacts).
+Active processing workbench is at `Inbox/sessions/session-NN/processing/`.
+Use the `session-ingest` skill; it handles CSV → wiki propagation end-to-end.
+
 | # | File | Depth | Why |
 |---|---|---|---|
 | 1 | `wiki/system/players/[all-pcs]-sheet.md` | `[FULL]` | Current mechanical state |
 | 2 | `wiki/hot.md` | `[FULL]` | World state at session start |
+| 3 | `.raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv` | `[FULL]` | Per-part transcript source (CSV: ID,Start,End,Speaker,Text) |
 
 ### Task: `wiki-audit`
 

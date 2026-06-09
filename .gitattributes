@@ -1,1 +1,10 @@
+# Session audio source (capture + transcribe-ready parts) is stored via Git LFS.
+# Legacy reference captures:
 .raw/assets/audio/*.m4a filter=lfs diff=lfs merge=lfs -text
+# Wiki-native session packets (.raw/sessions/session-NN/audio/...):
+.raw/sessions/**/*.m4a filter=lfs diff=lfs merge=lfs -text
+.raw/sessions/**/*.wav filter=lfs diff=lfs merge=lfs -text
+
+# NOTE: wiki/assets/sessions/**/highlight-clips/*.m4a are intentionally NOT
+# LFS-tracked — they are small, player-facing, and embedded directly in
+# Obsidian notes, which need the real file rather than an LFS pointer.

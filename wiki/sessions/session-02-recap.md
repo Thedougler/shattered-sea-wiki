@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Player recap of Session 02 — the taking of the HCS Surety, the galley below, and the moral weight of a caged Moucheron. Canon events as they happened.
 created: 2026-05-18
-updated: 2026-06-06
+updated: 2026-06-08
 tags:
   - fisk-fleet
   - mystery
@@ -23,7 +23,7 @@ session_date: 2026-05-18
 
 [[barnaby-rook|Barnaby Rook]] had been in the water once. The [[flask-of-endless-water|Flask of Endless Water]] hadn't been enough. He hauled himself back over the rail, cold and furious, crew dead or defected. The ship's bell rang. Gun ports ground open.
 
-![[sessions/session-art/session-02-01-rook-final.webp|Barnaby Rook knocked from the HCS Surety rigging into dark water]]
+![[sessions/session-02/art/session-02-01-rook-final.webp|Barnaby Rook knocked from the HCS Surety rigging into dark water]]
 
 [[crissdalynn-khinriss|Crissdalynn]]'s wind bent him toward the rail, then away. He fired his flintlock at close range. She caught it on her bracers.
 
@@ -33,7 +33,7 @@ Rook went back up the rigging. Delmar picked up a chair, called for the wind, th
 
 [[crissdalynn-khinriss|Crissdalynn]] fished out his admiral hat with a boat hook. [[beaumont-sel|Beaumont]] said it belonged to the captain.
 
-![[sessions/session-art/session-02-02-beaumont-reckoning.webp|Beaumont Sel settles accounts with the party on the captured HCS Surety]]
+![[sessions/session-02/art/session-02-02-beaumont-reckoning.webp|Beaumont Sel settles accounts with the party on the captured HCS Surety]]
 
 Beaumont settled accounts.
 
@@ -43,11 +43,11 @@ Beaumont slid a [[truth-stone|Truth Stone]] across the decking to [[jean-claude-
 
 [[geoffrey-draves|Geoffrey]] led them below, leading with the cook.
 
-![[sessions/session-art/session-02-03-grigori-galley.webp|Shepherd Grigori hosts the party in the HCS Surety galley]]
+![[sessions/session-02/art/session-02-03-grigori-galley.webp|Shepherd Grigori hosts the party in the HCS Surety galley]]
 
 The galley smelled wrong for a ship — bread, herbs, something on a low heat. [[shepherd-grigori|Shepherd Grigori]] waited at the head of the table: dark wild hair, a [[tessarine-concordat|Tessarine]] shirt, a [[dravosi-crown|Dravosi]] naval coat rolled to the sleeves. He asked what kind of pirates they were. No trafficking, no cannibalism, Robin Hood — near enough. He told them about Cap'n Gorgeous, and [[rupert-knighton|Rupert Knighton]], who will send ships. His condition: anyone who wants off at the next port walks free. Then he mentioned they'd forgotten to feed Ket. Every sailor found something to look at on the ceiling.
 
-![[sessions/session-art/session-02-04-ket-cage.webp|Ket watches from his brass cage in the HCS Surety hold]]
+![[sessions/session-02/art/session-02-04-ket-cage.webp|Ket watches from his brass cage in the HCS Surety hold]]
 
 [[ket|Ket]] was a [[moucheron|Moucheron]] — pigeon-sized, sentient, a starving humanoid mosquito from [[murrat|Murrat]]. Rook had taken him as a specimen, curious about the mercenaries out of [[kalowe|Kalowe]] — the [[five-blades|Five Blades]].
 
@@ -55,7 +55,7 @@ The galley smelled wrong for a ship — bread, herbs, something on a low heat. [
 
 [[perrin-black-jaw|Perrin]] drew his longsword and moved for the cage. [[crissdalynn-khinriss|Crissdalynn]] got there first, deflected the blade, put herself between Perrin and the bars — and stepped past the safe distance. Ket fed from her arm. She pulled back. Perrin cast Tasha's Hideous Laughter. Ket went down giggling in mosquito honks.
 
-![[sessions/session-art/session-02-05-ket-release.webp|Ket feeds from Ensign Wouters' body and leaves the opened cage]]
+![[sessions/session-02/art/session-02-05-ket-release.webp|Ket feeds from Ensign Wouters' body and leaves the opened cage]]
 
 They used Wouters' body as a lure. Perrin sprung the cage with Mage Hand from across the room. Ket fed for a minute, lifted off, and flew toward home. Grigori said he was glad.
 
@@ -63,7 +63,7 @@ Crew assembled: [[geoffrey-draves|Geoffrey Draves]], [[sem-holst|Sem Holst]] the
 
 Perrin told the crew who he was: a Black-Jaw. The [[the-passage|Passage]] code alongside captain's law.
 
-![[sessions/session-art/session-02-06-beaumont-departure.webp|The party watches the Saltwright depart from the captured HCS Surety]]
+![[sessions/session-02/art/session-02-06-beaumont-departure.webp|The party watches the Saltwright depart from the captured HCS Surety]]
 
 Rook's cabin: 45 gp, letters of marque, a blunderbuss. Under the floor: 110 gp, two garnets. The cargo held a pendant engraved *For Mira, from the sea*, and a crate — flintlocks, [[miras-blade|Mira's Blade]], twenty vials of Grung poison tincture, the same preparation Jean-Claude had recognised on the Alchemist's bandolier. Mira's Blade went to Perrin.
 
@@ -71,7 +71,7 @@ Morning. Beaumont warned the weather toward [[calveno|Calveno]], said he could b
 
 The [[hcs-surety|HCS Surety]] set heading for Calveno: still Crown-marked, still needing a name.
 
-![[sessions/session-art/session-02-07-storm.webp|The HCS Surety holds anchor in a storm as something strikes the hull|355x200]]
+![[sessions/session-02/art/session-02-07-storm.webp|The HCS Surety holds anchor in a storm as something strikes the hull|355x200]]
 
 Two hours out, a tropical storm hit from the east — roaring winds, rain horizontal, the sea steep and grey. Canvas down, anchors out. Jean-Claude was seasick.
 

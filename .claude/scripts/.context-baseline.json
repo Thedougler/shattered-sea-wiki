@@ -1,0 +1,245 @@
+{
+  "tokenizer": "tiktoken:o200k_base",
+  "skills": [
+    {
+      "skill": "cli-improvement",
+      "chars": 277,
+      "tokens": 63
+    },
+    {
+      "skill": "continuous-self-improvement",
+      "chars": 455,
+      "tokens": 94
+    },
+    {
+      "skill": "cross-linker",
+      "chars": 304,
+      "tokens": 69
+    },
+    {
+      "skill": "daily-update",
+      "chars": 374,
+      "tokens": 76
+    },
+    {
+      "skill": "enforced-in-code",
+      "chars": 391,
+      "tokens": 89
+    },
+    {
+      "skill": "live-co-dm",
+      "chars": 833,
+      "tokens": 201
+    },
+    {
+      "skill": "live-transcription",
+      "chars": 629,
+      "tokens": 131
+    },
+    {
+      "skill": "manage-voice-profiles",
+      "chars": 554,
+      "tokens": 120
+    },
+    {
+      "skill": "obsidian-bases",
+      "chars": 313,
+      "tokens": 75
+    },
+    {
+      "skill": "obsidian-cli",
+      "chars": 602,
+      "tokens": 145
+    },
+    {
+      "skill": "obsidian-json-canvas",
+      "chars": 468,
+      "tokens": 114
+    },
+    {
+      "skill": "obsidian-markdown",
+      "chars": 288,
+      "tokens": 71
+    },
+    {
+      "skill": "openrouter-image-edit",
+      "chars": 351,
+      "tokens": 82
+    },
+    {
+      "skill": "openrouter-image-gen",
+      "chars": 263,
+      "tokens": 61
+    },
+    {
+      "skill": "organize",
+      "chars": 291,
+      "tokens": 68
+    },
+    {
+      "skill": "pc-combat-primer",
+      "chars": 435,
+      "tokens": 94
+    },
+    {
+      "skill": "player-view-dev",
+      "chars": 292,
+      "tokens": 68
+    },
+    {
+      "skill": "prep-creature",
+      "chars": 357,
+      "tokens": 92
+    },
+    {
+      "skill": "prep-dungeon",
+      "chars": 583,
+      "tokens": 129
+    },
+    {
+      "skill": "prep-encounter",
+      "chars": 488,
+      "tokens": 114
+    },
+    {
+      "skill": "prep-faction",
+      "chars": 542,
+      "tokens": 123
+    },
+    {
+      "skill": "prep-hb-item",
+      "chars": 527,
+      "tokens": 128
+    },
+    {
+      "skill": "prep-island",
+      "chars": 773,
+      "tokens": 163
+    },
+    {
+      "skill": "prep-location",
+      "chars": 427,
+      "tokens": 99
+    },
+    {
+      "skill": "prep-npc",
+      "chars": 455,
+      "tokens": 108
+    },
+    {
+      "skill": "prep-session",
+      "chars": 950,
+      "tokens": 212
+    },
+    {
+      "skill": "prep-ship",
+      "chars": 482,
+      "tokens": 119
+    },
+    {
+      "skill": "prep-situation",
+      "chars": 544,
+      "tokens": 115
+    },
+    {
+      "skill": "record-session-audio",
+      "chars": 443,
+      "tokens": 100
+    },
+    {
+      "skill": "roll-dice",
+      "chars": 420,
+      "tokens": 101
+    },
+    {
+      "skill": "sandbox-narrative",
+      "chars": 450,
+      "tokens": 87
+    },
+    {
+      "skill": "session-highlights",
+      "chars": 700,
+      "tokens": 152
+    },
+    {
+      "skill": "session-ingest",
+      "chars": 521,
+      "tokens": 118
+    },
+    {
+      "skill": "session-recap",
+      "chars": 484,
+      "tokens": 100
+    },
+    {
+      "skill": "skill-creator",
+      "chars": 319,
+      "tokens": 60
+    },
+    {
+      "skill": "tag-taxonomy",
+      "chars": 514,
+      "tokens": 111
+    },
+    {
+      "skill": "tdd",
+      "chars": 399,
+      "tokens": 95
+    },
+    {
+      "skill": "transcribe-session-audio",
+      "chars": 568,
+      "tokens": 128
+    },
+    {
+      "skill": "ttrpg-llm-wiki-init",
+      "chars": 651,
+      "tokens": 141
+    },
+    {
+      "skill": "ttrpg-visual-aids",
+      "chars": 459,
+      "tokens": 98
+    },
+    {
+      "skill": "ttrpg-wiki-ingest",
+      "chars": 397,
+      "tokens": 91
+    },
+    {
+      "skill": "ttrpg-wiki-lint",
+      "chars": 1037,
+      "tokens": 231
+    },
+    {
+      "skill": "ttrpg-wiki-organize",
+      "chars": 565,
+      "tokens": 116
+    },
+    {
+      "skill": "ttrpg-wiki-query",
+      "chars": 1023,
+      "tokens": 226
+    },
+    {
+      "skill": "ttrpg-writing",
+      "chars": 436,
+      "tokens": 98
+    },
+    {
+      "skill": "vault-health",
+      "chars": 162,
+      "tokens": 33
+    },
+    {
+      "skill": "world-update",
+      "chars": 927,
+      "tokens": 210
+    }
+  ],
+  "skill_total_chars": 23723,
+  "skill_total_tokens": 5319,
+  "skill_count": 47,
+  "claude_md_chars": 8001,
+  "claude_md_tokens": 2088
+}

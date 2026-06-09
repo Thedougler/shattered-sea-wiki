@@ -27,8 +27,8 @@ Three passes, not four. Parts are processed directly — no assembly step.
 
 **Requires agent judgment.** Read `references/speaker-resolution.md`.
 
-Input: all `session{NN}-part*.m4a.csv` files
-Output: `speaker-map.md`
+Input: all `.raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv` files
+Output: `Inbox/sessions/session-{NN}/processing/speaker-map.md`
 
 Goal: every "Speaker 1", "Speaker N", and "Unknown" label mapped to a known
 identity with evidence and confidence.
@@ -37,7 +37,7 @@ identity with evidence and confidence.
 
 1. **Quick scan** — grep each part for non-standard speaker labels:
    ```bash
-   grep -h 'Speaker' audio/sessions/session{NN}-part*.m4a.csv | \
+   grep -h 'Speaker' .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv | \
      cut -d',' -f2 | sort | uniq -c | sort -rn
    ```
    If no Speaker N labels exist (only DM, Delmar, Perrin, Jean Claude,
@@ -108,7 +108,7 @@ capture), skip this step — there's no timestamped audio to retrain from.
 
    ```bash
    shattered-audio retrain Inbox/s{NN}-chunk-001.md \
-     --speaker-map audio/sessions/session{NN}/speaker-map.md \
+     --speaker-map Inbox/sessions/session-{NN}/processing/speaker-map.md \
      --audio-dir Inbox/ --blend 0.7
    ```
 
@@ -225,7 +225,7 @@ normal.
 ```markdown
 # Session {NN} Recap
 
-Source: audio/sessions/session{NN}-part*.m4a.csv
+Source: .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv
 Extraction date: {YYYY-MM-DD}
 
 ---
@@ -270,10 +270,10 @@ to happen in the next part (you can tell from trailing context), mention it.
 Enough for the next agent to maintain perfect continuity.}
 
 ## Files to Read First
-- `audio/sessions/session{NN}/progress.txt` — part history
-- Tail of `audio/sessions/session{NN}/recap.md` — last 2 scenes for continuity
-- `audio/sessions/session{NN}/flags.md` — open flags
-- `audio/sessions/session{NN}/speaker-map.md` — speaker resolutions
+- `Inbox/sessions/session-{NN}/processing/progress.txt` — part history
+- Tail of `Inbox/sessions/session-{NN}/processing/recap.md` — last 2 scenes for continuity
+- `Inbox/sessions/session-{NN}/processing/flags.md` — open flags
+- `Inbox/sessions/session-{NN}/processing/speaker-map.md` — speaker resolutions
 ```
 
 ### Final Part
@@ -301,7 +301,7 @@ primer workflows — it saves the primer skill from re-reading raw transcripts.
 ```markdown
 # Session {NN} Combat Summary
 
-Source: audio/sessions/session{NN}/extracts.md
+Source: Inbox/sessions/session-{NN}/processing/extracts.md
 Compiled: {YYYY-MM-DD}
 Encounters: {count}
 

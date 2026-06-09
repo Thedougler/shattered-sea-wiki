@@ -197,7 +197,7 @@ Organize extracts by scene in `extracts.md`:
 ```markdown
 # Session {NN} Extracts
 
-Source: audio/sessions/session{NN}-part*.m4a.csv
+Source: .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv
 Extraction date: {YYYY-MM-DD}
 
 ---

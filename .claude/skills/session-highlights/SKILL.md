@@ -6,7 +6,7 @@ description: >
   "funniest moments", "biggest laughs", "highlight reel", "best moments of the
   session", "comedy highlights", "what got the biggest laugh", "make an art brief
   from the session", "session highlights for art", "highlight screenplays". Symptoms:
-  you have session audio parts in audio/sessions/ and want a wiki-findable set of
+  you have session audio parts in .raw/sessions/ and want a wiki-findable set of
   laugh-out-loud scenes — one screenplay-style scene file per highlight, plus a thin
   index — with audio clips, wikilinks, and clean dialogue. Runs AFTER session-ingest
   (needs resolved speakers + timestamped transcripts).
@@ -108,7 +108,7 @@ downstream art agent and the llm-wiki indexes them all:
 |---|---|
 | `wiki/sessions/session-{NN}-highlights.md` | **Thin index** — frontmatter, cast roster, discarded-OOC list, and seven `[[wikilinks]]` to the scene files. Mostly links; no scripts inline. |
 | `wiki/sessions/session-{NN}-highlight-{n}-{slug}.md` ×7 | One **screenplay scene** each: title → setting/cast blocks → screenplay → embedded clip at the end. |
-| `wiki/assets/sessions/session-{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a` ×7 | The standalone audio slices (in the vault → embeddable). Cut straight here; the audio parts stay in `audio/sessions/`. |
+| `wiki/assets/sessions/session-{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a` ×7 | The standalone audio slices (in the vault → embeddable). Cut straight here; the audio parts stay in `.raw/sessions/`. |
 
 This mirrors the existing `session-{NN}.md` → `session-{NN}-scene-*.md` convention already in the
 vault. The scene files are the deliverable's substance; the index is a table of contents.
@@ -197,7 +197,7 @@ press play.
 digraph prereqs {
   node [shape=diamond];
   ts [label="Per-part CSVs have\nStart/End timestamps?" shape=diamond];
-  sm [label="session{NN}/speaker-map.md\nexists & parts resolved?" shape=diamond];
+  sm [label="Inbox/sessions/session-{NN}/processing/\nspeaker-map.md exists & parts resolved?" shape=diamond];
   node [shape=box];
   trans [label="STOP. Re-run transcription\n(timestamps required) — see live-transcription"];
   ingest [label="STOP. Run session-ingest first\n(resolves Speaker N -> real names)"];
@@ -209,9 +209,9 @@ digraph prereqs {
 }
 ```
 
-- Transcripts: `audio/sessions/session{NN}-part*.m4a.csv` with `ID,Start,End,Speaker,Text`.
+- Transcripts: `.raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv` with `ID,Start,End,Speaker,Text`.
   No timestamps → you cannot align dialogue to laughs; re-run transcription.
-- Speaker map: `audio/sessions/session{NN}/speaker-map.md` from **session-ingest**. Without
+- Speaker map: `Inbox/sessions/session-{NN}/processing/speaker-map.md` (or `.raw/sessions/session-{NN}/ingest/speaker-map.md` if already accepted) from **session-ingest**. Without
   it, attribution will be wrong (mic drift labels `Speaker 1`, etc.). **REQUIRED SUB-SKILL:**
   use session-ingest if speakers are unresolved.
 - Tooling: the `shattered-audio` venv. Run the CLI as
@@ -240,11 +240,11 @@ Full session scan is ~1–2 min per 30-min part (CPU). Produces ranking + draft 
 
 ```bash
 tools/audio/.venv/bin/shattered-audio laughs \
-  audio/sessions/session{NN}-part*.m4a \
-  --json audio/sessions/session{NN}/laughs.json \
-  --context-out audio/sessions/session{NN}/laughs-draft.md \
+  .raw/sessions/session-{NN}/audio/parts/session-{NN}-part-*.m4a \
+  --json .raw/sessions/session-{NN}/laughs.json \
+  --context-out .raw/sessions/session-{NN}/laughs-draft.md \
   --context-top 20 --context-seconds 60 \
-  --clips audio/sessions/session{NN}/highlight-clips-draft
+  --clips Inbox/sessions/session-{NN}/scratch/highlight-clips-draft
 ```
 
 Pull a deep candidate pool (top 20) so seven in-world moments survive the filter — the
@@ -263,7 +263,7 @@ Run `tools/audio/.venv/bin/shattered-audio laughs --help` for all flags.
 ### 2. Filter, then refine (the judgment loop)
 
 Scan more bursts than you need (the in-world filter will reject many). For each burst, open
-the source part CSV (`session{NN}-part{P}.m4a.csv`) and read the dialogue around the laugh:
+the source part CSV (`.raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-{P}.csv`) and read the dialogue around the laugh:
 
 **a0. Is it in-world?** Judge by the line the laugh lands on (see the classify rule above).
 If the laugh is OOC table talk (real life, pop culture, logistics, rules meta), **discard it**
@@ -308,7 +308,7 @@ a single research subagent on a cheaper model). Collect, from canonical pages �
 - recurring **items / creatures / in-world facts** the scenes turn on (what a spell or item does,
   who holds what, a creature's caste/abilities).
 
-Write the result to a scratch file — `audio/sessions/session{NN}/lore-pack.md` — as a compact,
+Write the result to a scratch file — `.raw/sessions/session-{NN}/lore-pack.md` — as a compact,
 wikilink-keyed list (one tight line per entity: `[[slug|Name]]: appearance · manner · key fact`).
 Each subagent reads this one file instead of re-querying. **Scene-unique** entities (a one-off NPC in
 just one moment) are *not* in the pack — that moment's subagent looks those up itself. Don't invent;
@@ -319,9 +319,9 @@ assets, so the audio covers the same span as the script — setup, moment, and f
 
 ```bash
 # start = scene-start local seconds; end ≈ laugh_end + 1s; dur = end - start
-# clip name MUST match the embed: {rank}_{slug}_part{P}.m4a (P = source part number)
-ffmpeg -v error -nostdin -y -ss {start} -i audio/sessions/session{NN}-part{P}.m4a \
-  -t {dur} -ac 1 wiki/assets/sessions/session{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a
+# clip name MUST match the embed: {rank}_{slug}_part{P}.m4a (P = source part number, no dash)
+ffmpeg -v error -nostdin -y -ss {start} -i .raw/sessions/session-{NN}/audio/parts/session-{NN}-part-{PP}.m4a \
+  -t {dur} -ac 1 wiki/assets/sessions/session-{NN}/highlight-clips/{rank}_{slug}_part{P}.m4a
 ```
 
 ### 3. Write the scene files — one subagent per moment
@@ -346,13 +346,13 @@ Give each subagent everything it needs to stand alone — it does NOT share your
 
 - The moment's identity: rank `{n}`, slug, clip filename, `From` provenance (part `{P}`, laugh
   window, `laugh_end`), and the scene-file path to write.
-- **The lore-pack path** (`audio/sessions/session{NN}/lore-pack.md`) — its canon source, already
+- **The lore-pack path** (`.raw/sessions/session-{NN}/lore-pack.md`) — its canon source, already
   gathered. It reads this, and does **not** re-query the recurring cast.
 - The transcript path + a **targeted window**, so it never loads the whole 30-min CSV. Give the
   byte-cheap extract command, e.g.:
   ```bash
   # pull ~3 min before the laugh through laugh_end+ from the part CSV
-  awk -F',' 'NR==1||($2>="{HH:MM}"&&$2<="{HH:MM}")' audio/sessions/session{NN}-part{P}.m4a.csv
+  awk -F',' 'NR==1||($2>="{HH:MM}"&&$2<="{HH:MM}")' .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-{P}.csv
   ```
 - The `speaker-map.md` path, the output contract, and `references/screenplay-format.md`.
 
@@ -383,14 +383,14 @@ The deliverable is the index + seven scene files + the seven clips they embed �
 Remove scaffolding:
 
 ```bash
-rm -f audio/sessions/session{NN}/laughs-draft.md audio/sessions/session{NN}/laughs.json
-rm -f audio/sessions/session{NN}/lore-pack.md   # the shared staging pack — scratch, not a deliverable
-rm -rf audio/sessions/session{NN}/highlight-clips-draft
+rm -f .raw/sessions/session-{NN}/laughs-draft.md .raw/sessions/session-{NN}/laughs.json
+rm -f .raw/sessions/session-{NN}/lore-pack.md   # the shared staging pack — scratch, not a deliverable
+rm -rf Inbox/sessions/session-{NN}/scratch/highlight-clips-draft
 # delete any clip in the vault assets NOT embedded by a final scene file (rejected/OOC/superseded)
 ```
 
-After cleanup `wiki/assets/sessions/session{NN}/highlight-clips/` holds only embedded clips, and
-no draft scaffolding remains in `audio/sessions/`. Never leave stale or contradictory clips
+After cleanup `wiki/assets/sessions/session-{NN}/highlight-clips/` holds only embedded clips, and
+no draft scaffolding remains in `.raw/sessions/` or `Inbox/sessions/`. Never leave stale or contradictory clips
 behind — the next reader can't tell scratch from deliverable.
 
 **Partial runs:** if you only built *some* moments (a sample, or a resume), delete only the
@@ -496,7 +496,7 @@ Hello. I am looking for a bird, a rat, and a sexy human.
 
 ## Audio
 ![[3_bird-rat-human_part00.m4a]]
-**From:** session04-part00 @ 12:31–13:01  (peak 0.33, intensity 0.54; laugh_end 13:00) — provenance only, not a listening cue.
+**From:** session-04-part-00 @ 12:31–13:01  (peak 0.33, intensity 0.54; laugh_end 13:00) — provenance only, not a listening cue.
 ````
 
 In the screenplay, keep in-character **dialogue faithful** to the clip and render declared
@@ -532,7 +532,7 @@ from the wiki; the story comes from the table.
 | Transcribing a name as heard ("Kaizel", "Crystal") | Resolve to the canonical page via ttrpg-wiki-query; "Kaizel"→[[master-kyzil]], "Crystal"→[[crissdalynn-khinriss]] |
 | Plain-bold names instead of wikilinks | Wikilink every character on first mention so the scene joins the graph |
 | `[[red-link]]` to a page that doesn't exist | Leave as plain text and flag it; don't invent a target |
-| Files written outside the vault (`audio/sessions/`) | Write to `wiki/sessions/`; clips to `wiki/assets/sessions/` so the wiki indexes/embeds them |
+| Files written outside the vault (`.raw/sessions/` or `Inbox/`) | Write to `wiki/sessions/`; clips to `wiki/assets/sessions/` so the wiki indexes/embeds them |
 | Telling the reader to open part07 at 24:44 | Produce a standalone slice file and embed it (`![[…]]`); the part+timestamp is provenance only |
 | Missing frontmatter | Add the YAML block to every file; write a real `summary` (the hook flags a default one) |
 | Stopping at the first laugh / button | Extend forward through `laugh_end`; keep the follow-on jokes the table was still laughing at |

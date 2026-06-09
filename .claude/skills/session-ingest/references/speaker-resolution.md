@@ -183,12 +183,13 @@ uncertain. Low-confidence entries are excluded from retrain automatically.
 
 ## Scanning Across Parts
 
-Speaker resolution reads all available part CSVs (`session{NN}-part*.m4a.csv`)
-to build a unified map. Useful approaches:
+Speaker resolution reads all available part CSVs from
+`.raw/sessions/session-{NN}/transcripts/raw/` to build a unified map.
+Useful approaches:
 
 1. **Quick grep** — find all Speaker N lines across parts:
    ```bash
-   grep -hn 'Speaker' audio/sessions/session{NN}-part*.m4a.csv
+   grep -hn 'Speaker' .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv
    ```
 2. **Sample windows** — for each unknown label, read 10–15 surrounding lines
    from the part where it appears most frequently

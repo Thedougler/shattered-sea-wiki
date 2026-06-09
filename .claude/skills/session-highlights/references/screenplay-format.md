@@ -70,7 +70,7 @@ Players narrate in first person, mixing speech and stage-direction. Split that s
 
 ## Audio
 ![[{rank}_{slug}_part{P}.m4a]]
-**From:** session{NN}-part{P} @ {mm:ss}–{mm:ss}  (peak {p}, intensity {i}; laugh_end {mm:ss}) — provenance only, not a listening cue.
+**From:** session-{NN}-part-{PP} @ {mm:ss}–{mm:ss}  (peak {p}, intensity {i}; laugh_end {mm:ss}) — provenance only, not a listening cue.
 ```
 
 ## Notes

@@ -1,12 +1,12 @@
 ---
 name: session-ingest
 description: >
-  Use when raw session transcript CSVs in audio/sessions/ need processing. Triggers:
+  Use when raw session transcript CSVs in .raw/sessions/ need processing. Triggers:
   "process the transcript", "mine the session", "clean the transcript", "what's in
-  the session audio", "fix speakers", "who is Speaker 1", new session*.csv files in
-  audio/sessions/. Also use when combat stats need recording from session audio, or
-  when wiki needs updating from transcript data. Symptoms: Speaker 1/Unknown labels
-  in transcript, OOC chatter mixed with canon, fragmented 1-second utterances,
+  the session audio", "fix speakers", "who is Speaker 1", new session-NN-part-PP.csv
+  files in .raw/sessions/. Also use when combat stats need recording from session
+  audio, or when wiki needs updating from transcript data. Symptoms: Speaker 1/Unknown
+  labels in transcript, OOC chatter mixed with canon, fragmented 1-second utterances,
   unprocessed session audio.
 ---
 
@@ -27,8 +27,8 @@ Downstream consumers: `transcript-ingest.md`, `session-recap`, `world-update`,
 digraph entry {
   rankdir=TB;
   node [shape=diamond];
-  start [label="List parts\naudio/sessions/session{NN}-part*.m4a.csv" shape=box];
-  has_work [label="session{NN}/\ndirectory exists?"];
+  start [label="List parts\n.raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv" shape=box];
+  has_work [label="Inbox/sessions/session-{NN}/\nprocessing/ exists?"];
   has_handoff [label="handoff.md\nexists?"];
   has_speakermap [label="speaker-map.md\nexists?"];
   has_unknown [label="Unresolved\nSpeaker N in parts?"];
@@ -53,8 +53,8 @@ digraph entry {
 
 Every invocation:
 
-1. List available parts: `ls audio/sessions/session{NN}-part*.m4a.csv`
-2. Check for working directory: `audio/sessions/session{NN}/`
+1. List available parts: `ls .raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-*.csv`
+2. Check for working directory: `Inbox/sessions/session-{NN}/processing/`
 3. If `handoff.md` exists → read it and resume where it says
 4. If `speaker-map.md` exists but no handoff → start Pass 2 (extraction)
 5. If neither exists → check parts for Speaker N labels → Pass 1 if needed, else straight to Pass 2
@@ -70,7 +70,7 @@ prose for wiki pages. Sandbox rules are in CLAUDE.md (always loaded).
 
 | File | Format | Location |
 |---|---|---|
-| Transcript parts | CSV: `ID,Speaker,Text` | `audio/sessions/session{NN}-part{PP}.m4a.csv` |
+| Transcript parts | CSV: `ID,Speaker,Text` | `.raw/sessions/session-{NN}/transcripts/raw/session-{NN}-part-{PP}.csv` |
 
 Each part is one audio segment (~250–1000 lines). The transcription tool applies
 the custom dictionary automatically — CSVs already have corrected spellings.
@@ -81,19 +81,22 @@ them in order: part00, part01, part02, etc.
 
 ## Working Directory
 
-Each session: `audio/sessions/session{NN}/`
+Each session (mutable processing files): `Inbox/sessions/session-{NN}/processing/`
 
 All intermediate files live here. These are checkpoints — resume from the latest.
 
 | File | Produced By | Purpose |
 |---|---|---|
-| `speaker-map.md` | Pass 1 | Speaker resolution decisions with evidence |
+| `speaker-map.md` | Pass 1 | Speaker resolution decisions with evidence (MUTABLE — edited during resolution) |
 | `recap.md` | Pass 2 (cumulative) | Condensed IC-only scene summaries |
 | `extracts.md` | Pass 2 (cumulative) | Tagged canon extracts organized by scene |
 | `flags.md` | Pass 2 (cumulative) | Unresolved ambiguities for DM review |
 | `combat-summary.md` | Pass 2 (after final part) | Structured per-PC combat data for primer updates |
 | `progress.txt` | Pass 2 (per part) | Which parts have been processed |
 | `handoff.md` | Pass 2 (per part) | Self-contained prompt for the next agent |
+
+After the DM accepts the ingest, retained artifacts are copied to:
+`.raw/sessions/session-{NN}/ingest/` (`speaker-map.md`, `recap.md`, `extracts.md`, `flags.md`, `combat-summary.md`)
 
 ---
 
@@ -121,7 +124,7 @@ Full per-pass procedures, file formats, and the final-part wrap-up live in
 
 | Pass | Goal | Input → Output | Judgment ref |
 |---|---|---|---|
-| **1: Resolve Speakers** | Map every `Speaker N`/`Unknown` to a known identity with evidence + confidence. Skip entirely if all labels are known. | all part CSVs → `speaker-map.md` | `references/speaker-resolution.md` |
+| **1: Resolve Speakers** | Map every `Speaker N`/`Unknown` to a known identity with evidence + confidence. Skip entirely if all labels are known. | all part CSVs → `Inbox/sessions/session-{NN}/processing/speaker-map.md` | `references/speaker-resolution.md` |
 | **1b: Retrain Profiles** | Feed speaker corrections back to voice profiles so future sessions have fewer unknowns. Runs automatically after Pass 1 if cold-pass chunks + WAVs exist in `Inbox/`. | `speaker-map.md` + `Inbox/sNN-chunk-*.md` + WAVs → updated voice profiles | `references/pass-architecture.md` |
 | **2: Extract & Recap** | One part per agent: classify IC/OOC/META, merge fragments, split scenes, extract tagged canon, then commit + handoff + **stop**. No wiki writes. | part CSV + `speaker-map.md` + `hot.md` → `recap.md` + `extracts.md` + `flags.md` (cumulative); `combat-summary.md` after final part | `references/extraction-targets.md` |
 | **3: Wiki Integration** | Fold recap + extracts into the wiki via the existing ingest pipeline once `flags.md` is clear. | `recap.md` + `extracts.md` + `flags.md` → wiki files | load `ttrpg-wiki-ingest` (`references/transcript-ingest.md`) + `ttrpg-writing` |
@@ -153,7 +156,7 @@ add new work at the end.
 
 | Mode | Trigger | Action |
 |---|---|---|
-| `status` | "transcript status", "what's available" | List sessions with CSVs, report progress |
+| `status` | "transcript status", "what's available" | List sessions with part CSVs in `.raw/sessions/`, report progress |
 | `process` | "process session N transcript" | Run all passes for session N |
 | `resume` | "continue session N" | Read `handoff.md` → process next part |
 | `speakers` | "fix speakers", "who is Speaker 1" | Run Pass 1 only |
@@ -207,24 +210,29 @@ After Pass 3:
 
 Sessions started under the old skill version may have `assembled.csv`,
 `resolved.csv`, and line-range-based `progress.txt` entries (e.g.
-`chunk-3: lines 1630–2450`). To continue these:
+`chunk-3: lines 1630–2450`), and processing files in the old silo
+directory (pre-migration path, now unused). To continue these:
 
 1. Ignore `assembled.csv`, `resolved.csv`, and `parts.txt` — these are
-   legacy intermediates. Read raw part CSVs instead.
-2. Find where you left off by content, not line arithmetic: read the last
+   legacy intermediates. Read raw part CSVs from
+   `.raw/sessions/session-{NN}/transcripts/raw/` instead.
+2. Move any usable processing files (`speaker-map.md`, `recap.md`,
+   `extracts.md`, `flags.md`, `progress.txt`, `handoff.md`) from the
+   old silo to `Inbox/sessions/session-{NN}/processing/`.
+3. Find where you left off by content, not line arithmetic: read the last
    scene in `recap.md` (or the handoff's context block), then scan the
    first ~10 lines of each part CSV to find which part starts after the
    last recap content. Part IDs restart at 1 per file and do not match
    `assembled.csv` line numbers.
-3. Start processing from that part file onward.
-4. Switch `progress.txt` to the new format going forward:
+4. Start processing from that part file onward.
+5. Switch `progress.txt` to the new format going forward:
    ```
    # legacy (old format):
    chunk-3: lines 1630–2450 (2026-06-01)
    # new format:
    part04: 779 lines (2026-06-01)
    ```
-5. The handoff may reference `resolved.csv` — ignore that, read raw parts +
+6. The handoff may reference `resolved.csv` — ignore that, read raw parts +
    speaker-map.md instead.
 
 ---

@@ -80,8 +80,44 @@ describe('inferSubtype', () => {
     expect(inferSubtype('wiki/sessions/session-04-day-1.md')).toBe('session-note');
   });
 
-  it('infers raw-session subtype', () => {
+  it('infers raw-session subtype for legacy flat session files', () => {
     expect(inferSubtype('.raw/sessions/s04/s04-raw.md')).toBe('raw-session');
+  });
+
+  it('infers raw-session-audio subtype', () => {
+    expect(inferSubtype('.raw/sessions/session-04/audio/part01.wav')).toBe('raw-session-audio');
+  });
+
+  it('infers raw-session-transcript subtype', () => {
+    expect(inferSubtype('.raw/sessions/session-04/transcripts/part01.csv')).toBe(
+      'raw-session-transcript',
+    );
+  });
+
+  it('infers raw-session-ingest subtype', () => {
+    expect(inferSubtype('.raw/sessions/session-04/ingest/cleaned.md')).toBe('raw-session-ingest');
+  });
+
+  it('infers raw-session-note subtype', () => {
+    expect(inferSubtype('.raw/sessions/session-04/notes/dm-notes.md')).toBe('raw-session-note');
+  });
+
+  it('infers raw-session-export subtype', () => {
+    expect(inferSubtype('.raw/sessions/session-04/exports/recap.md')).toBe('raw-session-export');
+  });
+
+  it('infers session-manifest subtype for source-manifest.md in the session dir', () => {
+    expect(inferSubtype('.raw/sessions/session-04/source-manifest.md')).toBe('session-manifest');
+  });
+
+  it('returns raw-session-audio (not session-manifest) for source-manifest.md nested under audio/', () => {
+    expect(inferSubtype('.raw/sessions/session-04/audio/source-manifest.md')).toBe(
+      'raw-session-audio',
+    );
+  });
+
+  it('falls back to raw-session for other files in the session dir', () => {
+    expect(inferSubtype('.raw/sessions/session-04/random.md')).toBe('raw-session');
   });
 
   it('returns unknown for unmatched paths', () => {

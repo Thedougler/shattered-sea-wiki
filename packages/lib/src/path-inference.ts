@@ -83,14 +83,38 @@ const SUBTYPE_TABLE: Array<[string, string]> = [
   ['wiki/system/players/', 'pc-sheet'],
   ['wiki/system/', 'system-file'],
   ['wiki/dm/', 'dm-file'],
-  ['.raw/sessions/', 'raw-session'],
   ['.raw/characters/', 'raw-character'],
   ['.raw/homebrew/', 'raw-homebrew'],
   ['.raw/reference/', 'raw-reference'],
   ['.raw/assets/', 'raw-asset'],
 ];
 
+// Session source packets live under `.raw/sessions/session-NN/` with typed
+// subdirs. The session-id segment is variable, so the first segment *after* it
+// determines the subtype. Legacy flat files fall through to `raw-session`.
+const SESSION_PACKET_SUBTYPES: Record<string, string> = {
+  audio: 'raw-session-audio',
+  transcripts: 'raw-session-transcript',
+  ingest: 'raw-session-ingest',
+  notes: 'raw-session-note',
+  exports: 'raw-session-export',
+};
+
+function inferSessionSubtype(relpath: string): string {
+  // relpath starts with '.raw/sessions/'; segments after that are
+  // [session-id, next, ...].
+  const segments = relpath.slice('.raw/sessions/'.length).split('/');
+  if (segments.length >= 2) {
+    const next = segments[1];
+    if (segments.length === 2 && next === 'source-manifest.md') return 'session-manifest';
+    const mapped = SESSION_PACKET_SUBTYPES[next];
+    if (mapped) return mapped;
+  }
+  return 'raw-session';
+}
+
 export function inferSubtype(relpath: string): string {
+  if (relpath.startsWith('.raw/sessions/')) return inferSessionSubtype(relpath);
   for (const [prefix, value] of SUBTYPE_TABLE) {
     if (relpath.startsWith(prefix)) return value;
   }

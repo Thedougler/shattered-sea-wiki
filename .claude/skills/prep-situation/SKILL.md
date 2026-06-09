@@ -1,16 +1,19 @@
 ---
 name: prep-situation
 description: >
-  Create or expand a situation file for the Shattered Sea campaign. Invoke for:
-  "create a situation for [conflict]", "track [event] with a clock", "this needs a
-  lifecycle", "file this as a situation", any world pressure with a timeline or trigger
-  condition. Generates frontmatter with lifecycle and narrative_island fields, clock definition,
-  trigger conditions, involved entities, possible outcomes, Three Clue placement (when
-  applicable), and DM notes. Places correctly in wiki/situations/active/ or
-  wiki/situations/dormant/ per lifecycle state.
+  Create or expand a situation file for the Shattered Sea campaign. Generates lifecycle
+  and narrative_island frontmatter, clock definition, Three Clue placement, and files into
+  wiki/situations/active/ or dormant/ per lifecycle state. Canonical triggers: "create a
+  situation for [conflict]", "track [event] with a clock", "file this as a situation".
+  Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create a situation for [conflict]", "track [event] with a clock", "this needs a lifecycle", "file this as a situation", any world pressure with a timeline or trigger condition.
+
 Domain-specific: determine whether this situation has a hidden conclusion (mystery, secret faction, hidden cause) — if yes, the Three Clue Rule applies (below).
 
 ---

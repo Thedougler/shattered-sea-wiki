@@ -1,17 +1,17 @@
 ---
 name: ttrpg-wiki-organize
 description: >
-  Use when the wiki's file and folder structure should be evaluated or
-  improved for LLM-agent navigability. Trigger on: "organize the wiki",
-  "is the structure good?", "sort these files", "should we restructure?",
-  "too many files in this directory", "propose improvements", "clean up
-  the layout", misplaced files found during other work, directories that
-  feel overcrowded or too sparse, or after bulk ingest when new files land
-  unsorted. Also trigger when frontmatter type/subtype doesn't match the
-  file's path, or when proposing new directories or structural changes.
+  Evaluate or improve the wiki's file and folder structure for LLM-agent navigability.
+  Also triggers when frontmatter type/subtype doesn't match the file's path, or when
+  proposing new directories. Canonical triggers: "organize the wiki", "is the structure
+  good?", "clean up the layout". Full trigger list in the skill body.
 ---
 
 # TTRPG Wiki Organize
+
+## When to use
+
+Full trigger set: "organize the wiki", "is the structure good?", "sort these files", "should we restructure?", "too many files in this directory", "propose improvements", "clean up the layout", misplaced files found during other work, directories that feel overcrowded or too sparse, or after bulk ingest when new files land unsorted. Also trigger when frontmatter type/subtype doesn't match the file's path, or when proposing new directories or structural changes.
 
 Proactive, autonomous organizer for the LLM-wiki file and folder structure.
 Analyzes content to determine what structure serves agents best, executes

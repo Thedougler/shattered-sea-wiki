@@ -1,15 +1,17 @@
 ---
 name: prep-encounter
 description: >
-  Use when designing any encounter for the Shattered Sea campaign — combat, social,
-  skill challenge, or hybrid. Invoke for: "design an encounter", "I need a fight",
-  "build an encounter with [enemy]", "make an encounter around [location]", "how many
-  [monsters] should I use", "balance this fight", "I need a tense scene at [place]",
-  "social encounter with [NPC]", "skill challenge for [obstacle]". Also invoked by
-  prep-dungeon (Phase 2) and prep-session when encounter calibration is needed.
+  Design any encounter for the Shattered Sea campaign — combat, social, skill challenge,
+  or hybrid. Also invoked by prep-dungeon (Phase 2) and prep-session for calibration.
+  Canonical triggers: "design an encounter", "I need a fight", "balance this fight".
+  Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "design an encounter", "I need a fight", "build an encounter with [enemy]", "make an encounter around [location]", "how many [monsters] should I use", "balance this fight", "I need a tense scene at [place]", "social encounter with [NPC]", "skill challenge for [obstacle]". Also invoked by prep-dungeon (Phase 2) and prep-session when encounter calibration is needed.
 
 Read these before generating any encounter content:
 1. `wiki/system/party-combat-primer.md` — party combat patterns, Avoid flags (binding)

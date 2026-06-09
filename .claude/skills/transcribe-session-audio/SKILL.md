@@ -1,17 +1,21 @@
 ---
 name: transcribe-session-audio
 description: >
-  Use after a Shattered Sea session has been recorded, to turn the captured
-  audio into a speaker-labeled transcript. Triggers: "/transcribe-session-audio",
-  "transcribe the session", "transcribe the audio", "make the transcript",
-  "who said what", "turn the recording into text", "process the session
-  recording", "save a voice profile". Runs Whisper large-v3 + pyannote over the
-  per-mic tracks in .raw/sessions/session-NN/audio/raw/ and writes per-part CSV
-  chat logs with timestamps and speaker names. Auto-loads saved voice profiles. Runs
-  BEFORE the session-ingest skill.
+  Turn a recorded Shattered Sea session into a speaker-labeled transcript (Whisper
+  large-v3 + pyannote over the per-mic tracks in .raw/sessions/session-NN/audio/raw/,
+  writing per-part CSV chat logs). Auto-loads saved voice profiles; runs BEFORE
+  session-ingest. Triggers: "/transcribe-session-audio", "transcribe the session",
+  "who said what". The voice-profile model lives in manage-voice-profiles. Full
+  trigger list in the skill body.
 ---
 
 # Transcribe Session Audio
+
+## When to use
+
+Full trigger set: "/transcribe-session-audio", "transcribe the session",
+"transcribe the audio", "make the transcript", "who said what", "turn the recording
+into text", "process the session recording", "save a voice profile".
 
 Turn a recorded session into per-part CSV chat logs with timestamps and speaker
 labels. Reads the isolated per-mic m4a tracks captured by

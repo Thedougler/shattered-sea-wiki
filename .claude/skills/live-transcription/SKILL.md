@@ -1,18 +1,25 @@
 ---
 name: live-transcription
 description: >
-  Use when working on the shattered-audio live transcription system —
-  multi-mic capture, real-time transcription, voice profiles, speaker
-  identification, character voice separation, persona enrollment, chunking,
-  cold-pass diarization. Triggers: "live transcription", "shattered-audio
-  live", "voice profiles", "enroll speaker", "enroll character voice",
-  "retrain profiles", "audio devices", "recording session", "transcription
-  pipeline", "persona", "character voice", mic/capture/VAD issues, speaker
-  ID problems, cold pass errors. Also use when maintaining, debugging, or
-  extending any module under tools/audio/src/shattered_audio/.
+  Architecture & maintenance reference for the shattered-audio system (multi-mic
+  capture, diarization, voice profiles, persona enrollment, chunking, cold-pass).
+  Read when debugging or extending modules under tools/audio/src/shattered_audio/ —
+  not a user-facing command. For "record the session" use record-session-audio; for
+  "transcribe the session" use transcribe-session-audio; for profile CRUD use
+  manage-voice-profiles. Full trigger list in the skill body.
 ---
 
 # Live Transcription System
+
+## When to use
+
+This is a system reference — read it to understand or modify the audio pipeline, not
+to run an end-to-end session task (those have dedicated skills, above). Full trigger set:
+"live transcription", "shattered-audio live", "voice profiles", "enroll speaker",
+"enroll character voice", "retrain profiles", "audio devices", "recording session",
+"transcription pipeline", "persona", "character voice", mic/capture/VAD issues,
+speaker ID problems, cold pass errors. Also use when maintaining, debugging, or
+extending any module under `tools/audio/src/shattered_audio/`.
 
 Multi-source live D&D session transcription with character voice separation.
 Captures from all attached microphones, writes a rolling real-time transcript

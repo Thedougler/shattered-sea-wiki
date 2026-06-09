@@ -1,14 +1,17 @@
 ---
 name: obsidian-json-canvas
 description: >
-  Create and edit Obsidian JSON Canvas files (.canvas) — nodes, edges, groups, and connections
-  following the JSON Canvas 1.0 spec. Triggers on "create a canvas", "edit a .canvas file", "make
-  a mind map", "build a flowchart", "node graph", "relationship map as a canvas", "diagram in
-  obsidian", "connect these notes visually", "obsidian canvas", or any mention of a Canvas file.
+  Create and edit Obsidian JSON Canvas files (.canvas) following the JSON Canvas 1.0 spec.
   Use for spatial/visual node-and-edge layouts; for prose notes use obsidian-markdown instead.
+  Canonical triggers: "create a canvas", "make a mind map", "build a flowchart".
+  Full trigger list in the skill body.
 ---
 
 # JSON Canvas Skill
+
+## When to use
+
+Full trigger set: "create a canvas", "edit a .canvas file", "make a mind map", "build a flowchart", "node graph", "relationship map as a canvas", "diagram in obsidian", "connect these notes visually", "obsidian canvas", or any mention of a Canvas file. Use for spatial/visual node-and-edge layouts; for prose notes use obsidian-markdown instead.
 
 ## File Structure
 

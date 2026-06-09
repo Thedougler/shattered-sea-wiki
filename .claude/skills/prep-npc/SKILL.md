@@ -1,15 +1,18 @@
 ---
 name: prep-npc
 description: >
-  Create or expand a named NPC wiki page for the Shattered Sea campaign. Invoke for:
-  "prep an NPC", "create a page for [NPC]", "flesh out [NPC]", "I need an NPC who...",
-  "expand [NPC]'s entry", any NPC that will appear at the table. Generates frontmatter,
-  toy fields, lore sheet, read-aloud appearance, voice notes, connections, and DM
-  companion page. Checks wiki/index.md for stubs before creating. Also use for villain
-  NPCs needing stat block integration.
+  Create or expand a named NPC wiki page for the Shattered Sea campaign. Checks
+  wiki/index.md for stubs before creating; handles villain NPCs needing stat block
+  integration. Canonical triggers: "prep an NPC", "create a page for [NPC]", "flesh
+  out [NPC]". Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "prep an NPC", "create a page for [NPC]", "flesh out [NPC]", "I need an NPC who...", "expand [NPC]'s entry", any NPC that will appear at the table. Also use for villain NPCs needing stat block integration.
+
 ## Interview
 
 If the user message doesn't already answer these, ask all at once — not one at a time:

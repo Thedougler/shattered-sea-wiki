@@ -2,12 +2,16 @@
 name: obsidian-bases
 description: >
   Create and edit Obsidian Bases (.base files): Obsidian's native database layer for
-  dynamic tables, card views, list views, filters, formulas, and summaries over vault
-  notes. Triggers on: "create a base", "obsidian bases", "base view", "filter notes",
-  "formula", "database view", "dynamic table", "dashboard base".
+  dynamic tables, card views, list views, filters, formulas, and summaries over vault notes.
+  Canonical triggers: "create a base", "obsidian bases", "database view".
+  Full trigger list in the skill body.
 ---
 
 # Obsidian Bases: Obsidian's Database Layer
+
+## When to use
+
+Full trigger set: "create a base", "obsidian bases", "base view", "filter notes", "formula", "database view", "dynamic table", "dashboard base".
 
 Obsidian Bases (launched 2025) turns vault notes into queryable, dynamic views. Tables,
 cards, lists. Defined in `.base` files. No plugin required — it is a core Obsidian feature

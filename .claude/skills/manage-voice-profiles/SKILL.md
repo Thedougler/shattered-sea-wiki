@@ -1,16 +1,21 @@
 ---
 name: manage-voice-profiles
 description: >
-  Use when adding, viewing, updating, deleting, or testing voice profiles for
-  session speaker identification. Triggers: "/manage-voice-profiles", "enroll voice",
-  "save my voice", "add voice profile", "voice profile", "list profiles", "delete
-  profile", "test voice recognition", "who is speaking", "watch voices", "speaker ID",
-  "save character voice", "new player setup", "voice profiles", "player voices".
-  Authoritative reference for all voice profile CRUD — use instead of
-  transcribe-session-audio when the task is managing profiles, not processing audio.
+  Add, view, update, delete, or test voice profiles for session speaker
+  identification — the authoritative reference for all voice-profile CRUD and the
+  actor→persona model. Use instead of transcribe-session-audio when the task is
+  managing profiles, not processing audio. Triggers: "/manage-voice-profiles",
+  "enroll voice", "voice profile", "speaker ID". Full trigger list in the skill body.
 ---
 
 # Manage Voice Profiles
+
+## When to use
+
+Full trigger set: "/manage-voice-profiles", "enroll voice", "save my voice",
+"add voice profile", "voice profile", "list profiles", "delete profile",
+"test voice recognition", "who is speaking", "watch voices", "speaker ID",
+"save character voice", "new player setup", "voice profiles", "player voices".
 
 CRUD and live-testing for the voice profiles that drive automatic speaker
 identification in [[transcribe-session-audio]] and [[record-session-audio]].

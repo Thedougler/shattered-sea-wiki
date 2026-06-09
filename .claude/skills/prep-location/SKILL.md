@@ -1,14 +1,18 @@
 ---
 name: prep-location
 description: >
-  Create or expand a location wiki page for the Shattered Sea campaign. Invoke for:
-  "create a page for [place]", "detail [location]", "what does [place] look like",
-  "flesh out [settlement/building/dungeon/island]", "design this location". Generates
-  frontmatter, toy fields, read-aloud opening, lore, notable sub-locations, inhabitants.
-  Applies to all location subtypes: regions, islands, settlements, buildings, dungeons, planes.
+  Create or expand a location wiki page for the Shattered Sea campaign. Applies to all
+  subtypes: regions, islands, settlements, buildings, dungeons, planes. Canonical triggers:
+  "create a page for [place]", "detail [location]", "design this location".
+  Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create a page for [place]", "detail [location]", "what does [place] look like", "flesh out [settlement/building/dungeon/island]", "design this location". Applies to all location subtypes: regions, islands, settlements, buildings, dungeons, planes.
+
 **Dungeon routing:** If the location is a multi-room dungeon, lair, ruin, or adventure
 site that players will explore room-by-room, route to `prep-dungeon` instead. That skill
 handles phased generation, room keying, spatial topology, and encounter calibration.

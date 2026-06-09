@@ -1,14 +1,18 @@
 ---
 name: prep-creature
 description: >
-  Create or expand a creature or monster entry for the Shattered Sea campaign. Invoke
-  for: "create stats for [creature]", "I need a [monster] for the encounter", "expand
-  the entry for [creature type]", "make a homebrew monster", "design a [creature]",
-  "statblock for [enemy]", "bestiary entry for [creature]", "named villain statblock",
-  "make me a [monster]".
+  Create or expand a creature or monster entry for the Shattered Sea campaign. Covers
+  homebrew monsters and named villain stat blocks. Canonical triggers: "create stats for
+  [creature]", "make a homebrew monster", "statblock for [enemy]".
+  Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create stats for [creature]", "I need a [monster] for the encounter", "expand the entry for [creature type]", "make a homebrew monster", "design a [creature]", "statblock for [enemy]", "bestiary entry for [creature]", "named villain statblock", "make me a [monster]".
+
 **Named entity or creature type?**
 - Named creature (specific individual): `wiki/entities/characters/npcs/{slug}.md` + statblock
 - Creature type/species lore: `wiki/lore/creatures/{slug}.md`

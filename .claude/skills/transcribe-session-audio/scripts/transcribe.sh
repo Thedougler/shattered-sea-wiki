@@ -2,7 +2,9 @@
 # Transcribe a recorded session into per-part speaker CSVs.
 #
 # Thin wrapper over `shattered-audio transcribe-session` — reads the per-mic
-# m4a tracks under audio/sessions/sessionNN/ and writes sessionNN-partMM.m4a.csv
+# m4a tracks under .raw/sessions/session-NN/audio/raw/, writes transcribe-ready
+# parts to .raw/sessions/session-NN/audio/parts/, and writes per-part CSVs to
+# .raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv
 # (ID,Start,End,Speaker,Text), the format the session-ingest skill consumes.
 # Voice profiles are auto-loaded by default.
 #

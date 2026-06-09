@@ -6,8 +6,8 @@ description: >
   "transcribe the session", "transcribe the audio", "make the transcript",
   "who said what", "turn the recording into text", "process the session
   recording", "save a voice profile". Runs Whisper large-v3 + pyannote over the
-  per-mic tracks in audio/sessions/sessionNN/ and writes per-part CSV chat logs
-  with timestamps and speaker names. Auto-loads saved voice profiles. Runs
+  per-mic tracks in .raw/sessions/session-NN/audio/raw/ and writes per-part CSV
+  chat logs with timestamps and speaker names. Auto-loads saved voice profiles. Runs
   BEFORE the session-ingest skill.
 ---
 
@@ -45,7 +45,7 @@ Run the bundled script (resolves the venv, runs from the repo root):
 
 | Flag | Purpose |
 |---|---|
-| `--session NN` | **Required.** Reads `audio/sessions/sessionNN/`. |
+| `--session NN` | **Required.** Reads `.raw/sessions/session-NN/audio/raw/`; writes parts to `.raw/sessions/session-NN/audio/parts/` and transcripts to `.raw/sessions/session-NN/transcripts/raw/`. |
 | `--no-profiles` | Label purely by mic prior; skip voice-profile identification. |
 | `--save-profile "Name"` | Enroll/refresh a voice profile from this session's audio. |
 | `--from-mic mic01` | Which mic to harvest the `--save-profile` voice from. |
@@ -82,7 +82,7 @@ Inspect what's enrolled: `tools/audio/.venv/bin/shattered-audio profiles`.
 | Mistake | Fix |
 |---|---|
 | Running before recording finished | Stop [[record-session-audio]] first — needs finalized m4a chunks. |
-| Expecting `assembled.csv` to be the deliverable | The per-part `sessionNN-partMM.m4a.csv` files are what session-ingest reads. |
+| Expecting `assembled.csv` to be the deliverable | The per-part `.raw/sessions/session-NN/transcripts/raw/session-NN-part-PP.csv` files are what session-ingest reads. |
 | Worrying that pyannote is "missing" | It's optional. Without `HF_TOKEN` the mic-isolated labels are already strong. |
 | Speakers all show `Speaker micNN` | No profiles enrolled and no `channel_priors` set — add priors or `--save-profile`. |
 
@@ -90,7 +90,7 @@ Inspect what's enrolled: `tools/audio/.venv/bin/shattered-audio profiles`.
 
 - **`No recording found`** → wrong session number, or recording wrote elsewhere
   (`--audio-dir`).
-- **`No mic tracks`** → the session dir has no `raw/micKK/*.m4a` and no loose
-  `*.m4a`. Confirm [[record-session-audio]] actually captured audio.
+- **`No mic tracks`** → `.raw/sessions/session-NN/audio/raw/` has no `mic-XX/*.m4a`
+  files. Confirm [[record-session-audio]] actually captured audio.
 - **Wrong character labels** → see the speaker-ID tuning table in the
   [[live-transcription]] reference (`actor_threshold`, `persona_margin`, etc.).

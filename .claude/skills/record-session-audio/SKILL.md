@@ -13,8 +13,8 @@ description: >
 
 Start a multi-mic recording of a live D&D session. One ffmpeg process per
 microphone writes an isolated, chunked m4a track under
-`audio/sessions/sessionNN/` — physically separating the DM and each player so
-[[transcribe-session-audio]] can tell who said what.
+`.raw/sessions/session-NN/audio/raw/mic-XX/` — physically separating the DM
+and each player so [[transcribe-session-audio]] can tell who said what.
 
 The recorder is built to run untouched for 4+ hours and to stop cleanly on
 command. **Your job is to start it, confirm it's healthy, then get out of the
@@ -23,7 +23,7 @@ way and wait.**
 ## The Protocol
 
 1. **Get the session number.** Ask the DM if it isn't obvious. Check existing
-   `audio/sessions/sessionNN/` dirs to pick the next number.
+   `.raw/sessions/session-NN/` dirs to pick the next number.
 2. **Start the recorder in the background.** Run with the Bash tool's
    `run_in_background: true`:
    ```
@@ -54,19 +54,20 @@ way and wait.**
 
 | Flag | Purpose |
 |---|---|
-| `--session NN` | **Required.** Session number → `audio/sessions/sessionNN/`. |
+| `--session NN` | **Required.** Session number → `.raw/sessions/session-NN/`. |
 | `--segment-minutes N` | Chunk length (default 15). Smaller = more frequent flushes. |
 | `--mics 0,1` | Restrict to specific avfoundation indices (default: all available). |
-| `--audio-dir PATH` | Override output root (default `audio/sessions`). |
+| `--audio-dir PATH` | Override output root (default `.raw/sessions`). |
 
 List mics first if unsure: `tools/audio/.venv/bin/shattered-audio devices`
 (or `ffmpeg -f avfoundation -list_devices true -i ""`).
 
 ## How It Works
 
-- Each mic → `audio/sessions/sessionNN/raw/micKK/partNNN.m4a` (mono, 16 kHz AAC).
-- `manifest.json` records the mic→speaker mapping (set mic priors via
-  `channel_priors` in `tools/audio/config.yaml` so the DM's mic is labeled "DM").
+- Each mic → `.raw/sessions/session-NN/audio/raw/mic-XX/part-000.m4a` (mono, 16 kHz AAC).
+- `manifest.json` at `.raw/sessions/session-NN/audio/manifest.json` records the
+  mic→speaker mapping (set mic priors via `channel_priors` in
+  `tools/audio/config.yaml` so the DM's mic is labeled "DM").
 - Chunks are flushed as they finish, so a crash at hour 3 still leaves hours 0–3.
 
 ## Troubleshooting

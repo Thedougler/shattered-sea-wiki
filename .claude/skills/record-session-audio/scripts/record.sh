@@ -2,7 +2,7 @@
 # Fire-and-wait multi-mic session recorder.
 #
 # Thin wrapper over `shattered-audio record` — records every available mic to
-# its own isolated, chunked m4a track under audio/sessions/sessionNN/. Built to
+# its own isolated, chunked m4a track under .raw/sessions/session-NN/audio/raw/. Built to
 # run for 4+ hours and stop cleanly on SIGTERM/SIGINT (finalizing the current
 # chunk), so the controlling agent can end the session on command.
 #
@@ -23,5 +23,5 @@ if [[ ! -x "$SA" ]]; then
   exit 1
 fi
 
-cd "$REPO"   # so the default --audio-dir audio/sessions resolves to the repo
+cd "$REPO"   # so the default --audio-dir .raw/sessions resolves to the repo
 exec "$SA" record "$@"

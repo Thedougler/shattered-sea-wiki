@@ -1,16 +1,17 @@
 ---
 name: prep-hb-item
 description: >
-  Create a homebrewed D&D 5e item for the Shattered Sea campaign. Invoke for:
-  "homebrew an item for [PC]", "design a [item concept]", "make a custom [item]",
-  "I want an item that does [effect]", "create a magic item for [PC]",
-  "invent an item for the setting". Do NOT use for standard 5e items that already
-  exist in RAW — check wiki/entities/items/ first. Symptoms requiring this skill:
-  desired item doesn't exist in RAW, needs setting-specific mechanics or flavor,
-  or the DM wants to tie an item to a specific PC's story thread.
+  Create a homebrewed D&D 5e item for the Shattered Sea campaign. Triggers: "homebrew an item
+  for [PC]", "design a [item concept]", "make a custom [item]". Do NOT use for standard 5e items
+  that already exist in RAW — check wiki/entities/items/ first. Full trigger list in the skill
+  body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "homebrew an item for [PC]", "design a [item concept]", "make a custom [item]", "I want an item that does [effect]", "create a magic item for [PC]", "invent an item for the setting". Symptoms requiring this skill: desired item doesn't exist in RAW, needs setting-specific mechanics or flavor, or the DM wants to tie an item to a specific PC's story thread.
 ## Prerequisites
 
 Check `wiki/index.md` for existing item stubs before creating. A reskinned RAW item

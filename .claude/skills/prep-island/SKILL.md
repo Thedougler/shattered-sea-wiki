@@ -1,18 +1,20 @@
 ---
 name: prep-island
 description: >
-  Create or expand a narrative island for the Shattered Sea campaign — a self-contained,
-  portable cluster of situations, NPCs, and locations organized around a coherent premise.
-  Invoke for: "create a narrative island", "prep [location] as a sandbox node", "create
-  a portable scenario around [entity]", "design an island I can drop anywhere", "make a
-  self-contained adventure site", "prep [thing] as an island". A narrative island is a
-  PLOT DEVICE (a portable scenario cluster), not a geographic landmass — for an actual
-  island place (a real landmass like Calder's Tooth) use prep-location instead. Narrative
-  islands contain situations — if the content is a single condition with a clock, use
-  prep-situation instead. Always loads sandbox-narrative for anti-railroading review.
+  Create or expand a narrative island for the Shattered Sea campaign — a portable cluster of
+  situations, NPCs, and locations on a coherent premise. Triggers: "create a narrative island",
+  "design an island I can drop anywhere", "prep [thing] as an island". A narrative island is a
+  PLOT DEVICE (portable scenario cluster), not a geographic landmass — for a real island place
+  use prep-location; for a single condition with a clock use prep-situation. Loads
+  sandbox-narrative for anti-railroading review. Full trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create a narrative island", "prep [location] as a sandbox node", "create a portable scenario around [entity]", "design an island I can drop anywhere", "make a self-contained adventure site", "prep [thing] as an island".
+
 Domain-specific: **Is this actually a narrative island?** Two things this is NOT, because the word "island" is overloaded:
 
 - **A geographic island** (an actual landmass in the world — Calder's Tooth, Aldenmere) is a *place*. Use `prep-location`; it files under `wiki/entities/places/islands/` as `type: entity`. A narrative island is a *plot device*, not a place — it can sit on a ship, in a city quarter, anywhere.

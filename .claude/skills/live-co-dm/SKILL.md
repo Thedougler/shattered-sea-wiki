@@ -2,17 +2,19 @@
 name: live-co-dm
 description: >
   Real-time co-DM for the Shattered Sea campaign while a session is actively being
-  played. Invoke for: "co-DM the session", "live DM help", "I'm running right now",
-  "mid-session", "improv help", "the players just...", "what happens next", "they
-  went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO
-  the home of the DM's voice tools — invoke for "set up a character voice",
-  "improve/correct/optimize a voice profile". For "record the session" use the
-  record-session-audio skill; for "transcribe the session" / "save a voice
-  profile" use the transcribe-session-audio skill. In live mode it reads the most
-  recent session transcript plus minimal world state and replies FAST and CONCISE,
-  then waits — skipping wiki startup, init, lint, index regen, and routine
-  maintenance so the whole context serves the moment.
+  played. Invoke for: "co-DM the session", "live DM help", "improv help", "/co-dm".
+  ALSO home of the DM's voice tools ("set up a character voice"). For "record the
+  session" use record-session-audio; for "transcribe the session" use
+  transcribe-session-audio. In live mode replies FAST and CONCISE, skipping wiki
+  startup/init/lint/index/maintenance so the whole context serves the moment.
+  Full trigger list in the skill body.
 ---
+
+# Live Co-DM
+
+## When to use
+
+Full trigger set: "co-DM the session", "live DM help", "I'm running right now", "mid-session", "improv help", "the players just...", "what happens next", "they went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO the home of the DM's voice tools — invoke for "set up a character voice", "improve/correct/optimize a voice profile". For "record the session" use the record-session-audio skill; for "transcribe the session" / "save a voice profile" use the transcribe-session-audio skill.
 
 > Sandbox rules (PC boundary, NPC agency, pressures not plots) are in CLAUDE.md.
 > **In live mode you deliberately skip most operational rules** — see below.

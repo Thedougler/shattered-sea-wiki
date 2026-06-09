@@ -1,18 +1,17 @@
 ---
 name: session-highlights
 description: >
-  Use when finding the funniest / most entertaining moments of a played session for
-  downstream use (e.g. an art-generation agent). Triggers: "find the highlights",
-  "funniest moments", "biggest laughs", "highlight reel", "best moments of the
-  session", "comedy highlights", "what got the biggest laugh", "make an art brief
-  from the session", "session highlights for art", "highlight screenplays". Symptoms:
-  you have session audio parts in .raw/sessions/ and want a wiki-findable set of
-  laugh-out-loud scenes — one screenplay-style scene file per highlight, plus a thin
-  index — with audio clips, wikilinks, and clean dialogue. Runs AFTER session-ingest
-  (needs resolved speakers + timestamped transcripts).
+  Use when extracting the funniest moments of a played session into screenplay-style
+  scene files for downstream art generation. Triggers: "find the highlights",
+  "funniest moments", "highlight reel". Runs AFTER session-ingest (needs resolved
+  speakers + timestamped transcripts). Full trigger list in the skill body.
 ---
 
 # Session Highlights
+
+## When to use
+
+Full trigger set: "find the highlights", "funniest moments", "biggest laughs", "highlight reel", "best moments of the session", "comedy highlights", "what got the biggest laugh", "make an art brief from the session", "session highlights for art", "highlight screenplays". Symptoms: you have session audio parts in .raw/sessions/ and want a wiki-findable set of laugh-out-loud scenes — one screenplay-style scene file per highlight, plus a thin index — with audio clips, wikilinks, and clean dialogue.
 
 Find the moments that got the biggest table laughs and turn each into its own **screenplay
 scene file**: a self-contained, drawable scene — wiki-staged setting + character appearance,

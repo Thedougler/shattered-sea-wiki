@@ -2,15 +2,16 @@
 name: session-ingest
 description: >
   Use when raw session transcript CSVs in .raw/sessions/ need processing. Triggers:
-  "process the transcript", "mine the session", "clean the transcript", "what's in
-  the session audio", "fix speakers", "who is Speaker 1", new session-NN-part-PP.csv
-  files in .raw/sessions/. Also use when combat stats need recording from session
-  audio, or when wiki needs updating from transcript data. Symptoms: Speaker 1/Unknown
-  labels in transcript, OOC chatter mixed with canon, fragmented 1-second utterances,
-  unprocessed session audio.
+  "process the transcript", "mine the session", "fix speakers", "who is Speaker 1".
+  Also records combat stats and updates the wiki from transcript data. Full trigger
+  list in the skill body.
 ---
 
 # Session Ingest
+
+## When to use
+
+Full trigger set: "process the transcript", "mine the session", "clean the transcript", "what's in the session audio", "fix speakers", "who is Speaker 1", new session-NN-part-PP.csv files in .raw/sessions/. Also use when combat stats need recording from session audio, or when wiki needs updating from transcript data. Symptoms: Speaker 1/Unknown labels in transcript, OOC chatter mixed with canon, fragmented 1-second utterances, unprocessed session audio.
 
 Multi-pass data mining of raw session transcription CSVs. Each part file is one
 chunk — process them sequentially, one per agent turn. Checkpoints after every

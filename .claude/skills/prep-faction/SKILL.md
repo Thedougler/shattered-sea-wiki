@@ -1,16 +1,17 @@
 ---
 name: prep-faction
 description: >
-  Create or expand a faction wiki page for the Shattered Sea campaign. Invoke for:
-  "create a page for [faction]", "detail [faction]", "who runs [organization]", "expand
-  [faction]'s entry", "I need a faction that...", "what does [group] want", "add a
-  faction clock", "flesh out [organization]". Generates frontmatter, membership
-  structure, agenda, clocks, public vs private face, and relationships to other factions.
-  Determines whether the faction warrants a clock in hot.md. Always checks index.md
-  for existing stubs before creating a new page.
+  Create or expand a faction wiki page for the Shattered Sea campaign. Triggers: "create a page
+  for [faction]", "detail [faction]", "who runs [organization]". Checks index.md for existing
+  stubs before creating, and decides whether the faction warrants a clock in hot.md. Full trigger
+  list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create a page for [faction]", "detail [faction]", "who runs [organization]", "expand [faction]'s entry", "I need a faction that...", "what does [group] want", "add a faction clock", "flesh out [organization]".
 ## Faction Page Structure
 
 **Frontmatter:** universal/entity fields auto-fill. Author the domain values: `status` (`active | dormant | dissolved`) and a `summary` of 2 sentences (what they want + how they operate).

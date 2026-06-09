@@ -1,16 +1,18 @@
 ---
 name: prep-dungeon
 description: >
-  Design a dungeon, lair, ruin, or adventure site for the Shattered Sea campaign using
-  phased generation. Invoke for: "design a dungeon", "prep an adventure site", "build a
-  lair for [creature]", "create a ruin", "I need a dungeon for this session", "map out
-  [underground/submerged/ruined location]", "key this dungeon", any multi-room site that
-  players will explore room-by-room. Enforces the four-phase pipeline (architecture →
-  entities → spatial logic → micro-detail) with DM review between phases. Coordinates
-  with prep-encounter for combat calibration and prep-npc for inhabitants.
+  Design a dungeon, lair, ruin, or adventure site for the Shattered Sea campaign via phased
+  generation (architecture → entities → spatial logic → micro-detail, with DM review between
+  phases). Triggers: "design a dungeon", "prep an adventure site", "build a lair for [creature]".
+  Coordinates with prep-encounter for combat calibration and prep-npc for inhabitants. Full
+  trigger list in the skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "design a dungeon", "prep an adventure site", "build a lair for [creature]", "create a ruin", "I need a dungeon for this session", "map out [underground/submerged/ruined location]", "key this dungeon", any multi-room site that players will explore room-by-room.
 
 Read these before generating any dungeon content:
 1. `wiki/hot.md` — current campaign state, active faction clocks

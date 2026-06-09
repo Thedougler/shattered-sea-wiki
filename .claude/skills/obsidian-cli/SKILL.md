@@ -2,15 +2,17 @@
 name: obsidian-cli
 description: >
   Interact with a running Obsidian vault from the command line — read, create, search, and
-  manage notes, tasks, and properties — and develop/debug Obsidian plugins and themes (reload
-  plugins, run JavaScript, capture errors, screenshot, inspect the DOM). Triggers on "obsidian
-  cli", "open this note in Obsidian", "run obsidian command", "search my vault", "create a note
-  via cli", "set a property on", "reload my plugin", "run js in obsidian", "obsidian screenshot",
-  "inspect the dom", "debug my obsidian plugin/theme". Use when interacting with the live
-  Obsidian app (not just editing .md files on disk).
+  manage notes, tasks, and properties — and develop/debug Obsidian plugins and themes (reload,
+  run JS, screenshot, inspect the DOM). Triggers on "obsidian cli", "search my vault", "reload
+  my plugin", "debug my obsidian plugin/theme". Use when interacting with the live Obsidian app
+  (not just editing .md files on disk). Full trigger list in the skill body.
 ---
 
 # Obsidian CLI
+
+## When to use
+
+Full trigger set: "obsidian cli", "open this note in Obsidian", "run obsidian command", "search my vault", "create a note via cli", "set a property on", "reload my plugin", "run js in obsidian", "obsidian screenshot", "inspect the dom", "debug my obsidian plugin/theme". Use when interacting with the live Obsidian app (not just editing .md files on disk).
 
 Use the `obsidian` CLI to interact with a running Obsidian instance. Requires Obsidian to be open.
 

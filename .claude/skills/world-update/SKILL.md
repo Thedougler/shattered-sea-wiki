@@ -1,19 +1,19 @@
 ---
 name: world-update
 description: >
-  Advance the living world for the Shattered Sea campaign — the canon owner of faction-clock
-  writes. Two modes. POST-SESSION (default): after every session, run the full tick — triage
-  every thread into hot/warm/cold, roll d20 for each, weave PC arcs, write all changes. Trigger
-  on: "world update", "post-session update", "update after session N", "run the world forward",
-  "tick the world", "advance the world after session". ON-DEMAND / MID-SESSION clock advance:
-  advance specific faction clocks in response to party action or inaction without the full
-  ritual. Trigger on: "advance the factions", "advance the clocks", "what do the factions do",
-  "what happened offscreen", "what is [faction] doing right now", "between sessions", "faction
-  clock", "world tick", "simulate the world". Never advances a clock without citing the situation
-  that justifies it. Never fires a triggered (filled) clock without flagging it to the DM first.
+  Advance the living world for the Shattered Sea campaign — canon owner of faction-clock
+  writes. Two modes: POST-SESSION (default) runs the full tick after a session ("world
+  update", "post-session update", "tick the world"); ON-DEMAND advances specific clocks
+  mid-session or between sessions ("advance the factions", "advance the clocks", "what
+  happened offscreen"). Never advances a clock without citing its justifying situation;
+  never fires a filled clock without flagging the DM first. Full trigger list in the skill body.
 ---
 
 # World Update — Living-World Advancement
+
+## When to use
+
+POST-SESSION full trigger set: "world update", "post-session update", "update after session N", "run the world forward", "tick the world", "advance the world after session". ON-DEMAND / MID-SESSION full trigger set: "advance the factions", "advance the clocks", "what do the factions do", "what happened offscreen", "what is [faction] doing right now", "between sessions", "faction clock", "world tick", "simulate the world".
 
 The world didn't pause while the party played. Now it moves.
 

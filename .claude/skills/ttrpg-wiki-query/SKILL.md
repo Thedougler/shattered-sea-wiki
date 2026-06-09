@@ -3,22 +3,18 @@ name: ttrpg-wiki-query
 metadata:
   version: "1.0"
 description: >
-  The mandatory default method for finding anything in the Shattered Sea wiki. Use
-  this ANY time you need in-world information — whether the user explicitly asks you
-  to look something up, or you need context before answering, prepping, or writing.
-  Invoke it BEFORE asserting, inventing, or assuming any campaign fact: NPCs,
-  locations, ships, factions, creatures and stat blocks, items, deities, lore,
-  situations, session history, the party, or current world state. Trigger on phrases
-  like "look up", "what do we know about", "is there a page for", "find the entry
-  for", "does the wiki say", "search the wiki", "what's the current state of", "who
-  is", "where is", "what happened with". Also trigger silently whenever you would
-  otherwise guess a campaign detail — if you are not certain something is established
-  canon, search first. Every other Shattered Sea skill defers to this one for lookups.
-  Uses a tiered search (in-context index/hot → frontmatter → qmd semantic search):
-  fast on easy lookups, comprehensive on hard ones.
+  Mandatory default for finding anything in the Shattered Sea wiki. Invoke BEFORE
+  asserting, inventing, or assuming any campaign fact — if not certain it's canon,
+  search first. Triggers: "look up", "what do we know about", "who is", "where is".
+  Tiered search (in-context index/hot → frontmatter → qmd semantic): fast on easy
+  lookups, comprehensive on hard ones. Full trigger list in the skill body.
 ---
 
 # TTRPG Wiki Query — Shattered Sea
+
+## When to use
+
+Full trigger set: "look up", "what do we know about", "is there a page for", "find the entry for", "does the wiki say", "search the wiki", "what's the current state of", "who is", "where is", "what happened with". Use this ANY time you need in-world information — whether the user explicitly asks you to look something up, or you need context before answering, prepping, or writing. Invoke it BEFORE asserting, inventing, or assuming any campaign fact: NPCs, locations, ships, factions, creatures and stat blocks, items, deities, lore, situations, session history, the party, or current world state. Also trigger silently whenever you would otherwise guess a campaign detail — if you are not certain something is established canon, search first. Every other Shattered Sea skill defers to this one for lookups.
 
 **This is how you find things. Use it before you state anything.**
 

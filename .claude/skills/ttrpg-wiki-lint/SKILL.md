@@ -3,24 +3,22 @@ name: ttrpg-wiki-lint
 metadata:
   version: "4.0"
 description: >
-  Lint the Shattered Sea wiki, fix what's safe to fix, and track improvement
-  over time. Checks vault health: frontmatter standardization, broken wikilinks,
-  orphans, deadends, lore consistency (dead entity refs, parent-location gaps,
-  narrative-island mismatches, status drift), tag hygiene (aliases, deprecated,
-  unknown, over-limit, variants), singleton properties.
-  Auto-fixes: status-drift synonyms, lifecycle-folder mismatches, tag aliases,
-  deprecated frontmatter/system tags. Supports incremental linting (--since),
-  priority-ordered action lists (--top), and snapshot diffing (--diff) for
-  measuring improvement.
-  Trigger on: "lint the wiki", "check wiki health", "fix the frontmatter",
-  "fix tags", "find broken links/orphans/deadends", "lore consistency", "check
-  consistency", "status drift", "tag hygiene", "audit the wiki", "clean up the
-  vault", "timeline issues", "temporal consistency",
-  "what improved", "lint diff", "top issues", "highest priority fixes",
-  "incremental lint", "lint changed files", "self-improvement", "wiki quality".
+  Lint the Shattered Sea wiki, auto-fix what's safe, and track health over time —
+  frontmatter, broken wikilinks, orphans/deadends, lore consistency, tag hygiene.
+  Triggers: "lint the wiki", "check wiki health", "fix the frontmatter/tags",
+  "audit the wiki". Supports --since, --top, --diff. Full trigger list and the
+  checks/auto-fix catalog are in the skill body.
 ---
 
 # TTRPG Wiki Lint — Shattered Sea
+
+## When to use
+
+Full trigger set: "lint the wiki", "check wiki health", "fix the frontmatter", "fix tags",
+"find broken links/orphans/deadends", "lore consistency", "check consistency", "status drift",
+"tag hygiene", "audit the wiki", "clean up the vault", "timeline issues", "temporal consistency",
+"what improved", "lint diff", "top issues", "highest priority fixes", "incremental lint",
+"lint changed files", "self-improvement", "wiki quality".
 
 The `sea` CLI does the heavy lifting: `node packages/cli/dist/cli.js lint` (or
 `sea lint` if linked). It splits every problem into two piles:

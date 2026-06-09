@@ -1,20 +1,22 @@
 ---
 name: prep-session
 description: >
-  Build the at-the-table operating document for one session of the Shattered Sea sandbox — a
-  scannable run guide the DM runs cold, written like a professional adventure module. Invoke for:
-  "prep for next session", "give me a session plan", "what do I run Saturday", "help me run
-  tonight", "session prep", "build a run guide", "prep tonight's session", "/run-guide",
-  "/strong-start", "/thread-review", "/spotlight". Also use when an existing guide is hard to use
-  at the table: NPC info scattered across files, content organized by in-game day instead of
-  thread, images breaking scan flow, too many files open during play, dense tables that don't
-  scan. Grounds every beat in hot.md, active situations, the last recap, and entity pages.
-  Presents a scene menu the players choose from — never a plot. Inlines what the DM needs to run
-  each beat (NPC wants, key rolls, stat lines, secrets); links only for depth. Always spotlights
-  the PC who has been waiting.
+  Build the at-the-table run guide for one session of the Shattered Sea sandbox — a scannable
+  DM-only operating document run cold, written like a published adventure module (scene menu, not
+  a plot). Triggers: "prep for next session", "session prep", "build a run guide", "/run-guide",
+  "/strong-start", "/thread-review", "/spotlight". Full trigger list in the skill body.
 ---
 
 # Prep Session — Session Run Guide
+
+## When to use
+
+Full trigger set: "prep for next session", "give me a session plan", "what do I run Saturday",
+"help me run tonight", "session prep", "build a run guide", "prep tonight's session",
+"/run-guide", "/strong-start", "/thread-review", "/spotlight". Also use when an existing guide is
+hard to use at the table: NPC info scattered across files, content organized by in-game day
+instead of thread, images breaking scan flow, too many files open during play, dense tables that
+don't scan.
 
 A **session run guide**: one DM-only file you open at the table and never leave. Not a story, not
 a script, not a recap, not a table of contents linking elsewhere. Written in the voice and

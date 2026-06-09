@@ -1,15 +1,17 @@
 ---
 name: prep-ship
 description: >
-  Create or expand a ship or vehicle wiki page for the Shattered Sea campaign. Invoke
-  for: "create the [ship name] wiki entry", "detail [ship]", "flesh out [vessel]",
-  "I need a ship page for [name]", "what's the [ship]'s layout", "crew manifest for
-  [ship]", "naval encounter with [vessel]", "design a ship", "the [ship name]". Uses
-  a tiered detail model based on how central the vessel is to the campaign. Also handles
-  travel encounters and sea events when designing maritime content.
+  Create or expand a ship or vehicle wiki page for the Shattered Sea campaign. Triggers: "detail
+  [ship]", "flesh out [vessel]", "design a ship". Uses a tiered detail model based on how central
+  the vessel is to the campaign, and also handles travel/sea encounters. Full trigger list in the
+  skill body.
 ---
 
 > **Shared prep conventions** — stub check, interview + PC-connection requirement, combat calibration, prose pass, and filing — live in [`prep-family-standards`](../ttrpg-llm-wiki-init/references/prep-family-standards.md). Read it before generating; this file covers only what's specific to this content type.
+
+## When to use
+
+Full trigger set: "create the [ship name] wiki entry", "detail [ship]", "flesh out [vessel]", "I need a ship page for [name]", "what's the [ship]'s layout", "crew manifest for [ship]", "naval encounter with [vessel]", "design a ship", "the [ship name]".
 
 ## Tier Model
 

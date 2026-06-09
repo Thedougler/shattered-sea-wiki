@@ -3,17 +3,18 @@ name: ttrpg-llm-wiki-init
 metadata:
   version: "2.0"
 description: >
-  Foundation skill for all TTRPG LLM-wiki operations. Run this skill first, every
-  session, before any other skill or content task — even if the task seems simple.
-  Validates vault structure, auto-corrects deviations without asking, resumes any
-  interrupted work, and routes to the correct downstream skill. Trigger on: any new
-  wiki session, wiki health questions, structural repair, vault initialization, task
-  routing needs, or any of these phrases: "set up the wiki", "initialize", "audit
-  the wiki", "check the wiki", "fix the structure", "what's the wiki status", "start
-  fresh". The health check is fast. The routing is mandatory. Never skip this skill.
+  Foundation skill for all TTRPG LLM-wiki operations. Run FIRST every session, before
+  any other skill — even if the task seems simple. Validates structure, auto-corrects,
+  resumes interrupted work, and routes to the correct skill; routing is mandatory, never
+  skip. Triggers: "set up the wiki", "initialize", "audit the wiki", "check the wiki".
+  Full trigger list in the skill body.
 ---
 
 # TTRPG LLM-Wiki — Foundation Skill v2.0
+
+## When to use
+
+Full trigger set: "set up the wiki", "initialize", "audit the wiki", "check the wiki", "fix the structure", "what's the wiki status", "start fresh". Trigger on: any new wiki session, wiki health questions, structural repair, vault initialization, task routing needs. The health check is fast. The routing is mandatory. Never skip this skill.
 
 **Runs first. Every session. No exceptions.**
 Three responsibilities: validate the vault, resume interrupted work, route to the right skill.

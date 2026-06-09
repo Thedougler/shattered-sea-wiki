@@ -350,18 +350,54 @@ sessions. Every other Shattered Sea skill defers to this one for lookups.
 ## Layer 6 — Live Play & Tooling
 
 ### `live-co-dm`
-**Purpose:** Real-time co-DM mid-session — fast, concise improv help — plus the home of the
-DM's voice-transcription tools (voice profiling teleprompter, continuous overlap-aware
-transcription).
+**Purpose:** Real-time co-DM mid-session — fast, concise improv help. Also points the DM to
+the dedicated audio skills (it does not run them itself).
 **Trigger:** "co-DM the session", "live DM help", "I'm running right now", "mid-session",
-"the players just...", "what happens next", "/live-dm", "/co-dm"; also "save a voice
-profile", "set up a character voice", "start transcribing the session", "finalize the
-transcript".
+"the players just...", "what happens next", "/live-dm", "/co-dm".
 **Critical behaviors:** In live mode, deliberately skip wiki startup, init, lint, index
 regen, and routine maintenance — read only the latest transcript plus minimal world state,
 reply FAST and CONCISE, then wait. Grounding/agency non-negotiables shared with
 `prep-session`.
-**Coordinates with:** `prep-session`, `session-ingest`
+**Coordinates with:** `prep-session`, `session-ingest`, `record-session-audio`,
+`transcribe-session-audio`, `manage-voice-profiles`
+
+### `record-session-audio`
+**Purpose:** Capture live table audio — one isolated, chunked m4a track per microphone —
+for later transcription. Fire-and-wait; runs the whole session until stopped.
+**Trigger:** "/record-session-audio", "record the session", "start recording", "we're
+starting", "capture tonight's session".
+**Critical behaviors:** Run the bundled `record.sh --session N` in the background; confirm
+mics once, then stop only when the DM says so. Never self-stop.
+**Coordinates with:** `transcribe-session-audio`, `live-co-dm`
+
+### `transcribe-session-audio`
+**Purpose:** Turn a recording into speaker-labeled per-part CSVs (Whisper large-v3 +
+pyannote), auto-loading saved voice profiles. Runs BEFORE `session-ingest`.
+**Trigger:** "/transcribe-session-audio", "transcribe the session", "who said what",
+"make the transcript".
+**Critical behaviors:** Needs finalized m4a chunks first. Can also harvest/refresh a voice
+profile from session audio via `--save-profile`. The voice-profile model itself lives in
+`manage-voice-profiles`; engine internals in `live-transcription`.
+**Coordinates with:** `record-session-audio`, `manage-voice-profiles`, `session-ingest`
+
+### `manage-voice-profiles`
+**Purpose:** Authoritative skill for all voice-profile CRUD and the actor→persona model —
+create, list, update, delete, and live-test the profiles that drive speaker separation.
+**Trigger:** "/manage-voice-profiles", "enroll voice", "voice profile", "save a character
+voice", "test voice recognition", "new player setup", "who is speaking".
+**Critical behaviors:** Outputs ready-to-run `voices.sh` terminal commands for the operator.
+Each player = one actor + one persona per character voice; the DM has many personas.
+**Coordinates with:** `transcribe-session-audio`, `live-transcription`
+
+### `live-transcription`
+**Purpose:** Architecture & maintenance reference for the `shattered-audio` engine
+(multi-mic capture, diarization, voice profiles, chunking, cold-pass, speaker-ID tuning).
+Read when debugging or extending modules under `tools/audio/src/shattered_audio/`.
+**Trigger:** Not user-facing — consult when maintaining the engine or tuning speaker-ID
+parameters (`actor_threshold`, `persona_margin`, etc.).
+**Critical behaviors:** Reference only; the operator entry points are the three skills above.
+**Coordinates with:** `record-session-audio`, `transcribe-session-audio`,
+`manage-voice-profiles`
 
 ### `roll-dice`
 **Purpose:** Produce real random outcomes for any dice roll via the bundled `roll.sh`

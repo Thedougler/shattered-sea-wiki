@@ -3,9 +3,9 @@ name: live-co-dm
 description: >
   Real-time co-DM for the Shattered Sea campaign while a session is actively being
   played. Invoke for: "co-DM the session", "live DM help", "improv help", "/co-dm".
-  ALSO home of the DM's voice tools ("set up a character voice"). For "record the
-  session" use record-session-audio; for "transcribe the session" use
-  transcribe-session-audio. In live mode replies FAST and CONCISE, skipping wiki
+  ALSO points the DM to the voice tools. For "record the session" use
+  record-session-audio; for "transcribe the session" use transcribe-session-audio;
+  for voice-profile setup/CRUD use manage-voice-profiles. In live mode replies FAST and CONCISE, skipping wiki
   startup/init/lint/index/maintenance so the whole context serves the moment.
   Full trigger list in the skill body.
 ---
@@ -14,7 +14,7 @@ description: >
 
 ## When to use
 
-Full trigger set: "co-DM the session", "live DM help", "I'm running right now", "mid-session", "improv help", "the players just...", "what happens next", "they went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO the home of the DM's voice tools — invoke for "set up a character voice", "improve/correct/optimize a voice profile". For "record the session" use the record-session-audio skill; for "transcribe the session" / "save a voice profile" use the transcribe-session-audio skill.
+Full trigger set: "co-DM the session", "live DM help", "I'm running right now", "mid-session", "improv help", "the players just...", "what happens next", "they went off-book", "I need an NPC/name/twist right now", "/live-dm", "/co-dm". ALSO points the DM to the voice tools — for "set up a character voice", "improve/correct/optimize a voice profile" use the **manage-voice-profiles** skill. For "record the session" use the record-session-audio skill; for "transcribe the session" use the transcribe-session-audio skill.
 
 > Sandbox rules (PC boundary, NPC agency, pressures not plots) are in CLAUDE.md.
 > **In live mode you deliberately skip most operational rules** — see below.
@@ -69,15 +69,16 @@ When you need the deeper grounding/agency contract, read `references/co-dm-behav
 
 ## Mode B — The DM's voice tools (you point, you don't run)
 
-Recording and transcription now live in two dedicated skills, both backed by the
-`tools/audio` (`shattered-audio`) engine. Route the DM there:
+Recording, transcription, and voice profiles now live in three dedicated skills, all
+backed by the `tools/audio` (`shattered-audio`) engine. Route the DM there:
 
 | The DM wants to… | Skill | Entry point |
 |---|---|---|
 | Record the session (multi-mic, 4h+) | **record-session-audio** | `.claude/skills/record-session-audio/scripts/record.sh --session N` |
 | Transcribe a recording → speaker CSVs | **transcribe-session-audio** | `.claude/skills/transcribe-session-audio/scripts/transcribe.sh --session N` |
-| Save / refresh a voice profile | **transcribe-session-audio** | `transcribe.sh --session N --save-profile "Name" --from-mic micKK` |
-| Enroll a character voice (persona) | **transcribe-session-audio** | `transcribe.sh --session N --save-profile "Grigori" --from-mic micKK --actor Nick` |
+| Set up / list / delete / test a voice profile | **manage-voice-profiles** | `.claude/skills/manage-voice-profiles/scripts/voices.sh <subcommand>` |
+| Enroll an actor or character-voice persona | **manage-voice-profiles** | `voices.sh enroll "Grigori" --actor "Nick" --record 30` |
+| Refresh a profile from real session audio | **transcribe-session-audio** | `transcribe.sh --session N --save-profile "Name" --from-mic micKK` |
 
 **Why per-mic capture:** each person records to their own isolated track, so the mic a
 voice came from is a strong speaker prior — the big accuracy lever for the campaign's

@@ -1,72 +1,53 @@
-# Voice Profiler — how to run it
+# Voice Profiler — moved
 
-Captures a clean voice sample for **one character voice** and saves a reusable
-profile the transcriber uses to separate speakers. Complete setup first (see
-the README at `voice-transcription/` or `references/setup.md`).
+Voice-profile capture and management now live in the **manage-voice-profiles** skill,
+backed by the `tools/audio` (`shattered-audio`) engine. The old `save_voice.sh` /
+`voice-transcription/` teleprompter flow described here is retired.
 
-## Run
+Profiles can also be saved directly from real session audio via the **transcribe-session-audio**
+skill's `--save-profile` flag.
 
-The easiest way — the wrapper handles venv + HF token:
+## Actor → persona model
+
+Each real person at the table is an **actor** (their natural, out-of-character voice). Each
+character voice they perform is a **persona** enrolled under that actor. A player who does
+three voices = 1 actor + up to 3 personas. Enroll only the voices you actually need; you can
+add personas later.
+
+Profiles live at `~/.config/shattered-audio/profiles/` on each machine.
+
+## Key commands
+
+`voices.sh` is shorthand for `.claude/skills/manage-voice-profiles/scripts/voices.sh`, run
+from repo root.
 
 ```bash
-./save_voice.sh --name "Grigori" --player "Dave"
+# Enroll an actor (real person, natural OOC voice)
+voices.sh enroll "Nick" --record 30
+
+# Enroll a persona (character voice, grouped under an actor)
+voices.sh enroll "Grigori" --actor "Nick" --record 30
+
+# List all enrolled actors and personas
+voices.sh profiles
+
+# Live speaker-ID test — TUI that shows who the mic hears in real time
+voices.sh watch
 ```
 
-Or manually with the venv active:
+## Correction loop
 
-```bash
-source voice-transcription/.venv/bin/activate
-export HF_TOKEN=hf_...
-python3 -m voice_transcription.cli.save_voice --name "Grigori" --player "Dave"
-```
+After each session the **session-ingest** `speaker-map.md` + `shattered-audio retrain
+--speaker-map` loop folds transcript corrections back into the profiles. Accuracy improves
+session over session without re-recording.
 
-Then open the printed URL (default http://localhost:8080) in a browser.
-
-- `--name` — the **character voice** (e.g. `Grigori`, `Captain Nona`). One profile per
-  voice, so a player who does three voices gets three profiles.
-- `--player` — the **physical person** performing it (e.g. `Dave`). This groups a
-  person's multiple character voices so the identifier can tell them apart.
-- `--script-file PATH` — optional. Override the bundled teleprompter passage with your
-  own text.
-- `--port N` — optional, change the web port.
-
-## At the keyboard
-
-1. Click **Start**. The ASR model loads (a few seconds on first run), then recording
-   begins. Read the teleprompter aloud — *in character* — at a natural pace. Words
-   grey out as they are recognized, so you can see your progress. The default passage
-   is deliberately funny and phonetically rich (~60–90s).
-2. Click **Stop & Save**. The tool embeds the audio, shows status in the browser and
-   terminal, and exits cleanly.
-3. If it warns the new voice resembles an existing profile, that's expected for two
-   voices by the same player — but if two *different* people collide, re-record one in a
-   quieter room or with more vocal contrast.
-
-## Where profiles go
-
-`voice-transcription/profiles/<slug>.json` — small JSON (embedding as a float array +
-metadata). These are **committed** to the repo so the whole table's voices travel with
-the wiki. Re-running with the same `--name` overwrites that character's profile.
-
-## Self-correcting profiles (correction loop)
-
-Every time you save a profile, the tool doesn't just use the teleprompter read — it also
-**harvests that character's lines from corrected past sessions** and folds them in:
-
-1. The deliberate teleprompter read is the **anchor** (weighted heavily — it's clean,
-   single-speaker, and long).
-2. For each committed `wiki/sessions/session-NN-transcript.md` that still has its `.live`
-   audio, the tool finds the spans attributed to **this character**, slices that audio,
-   and embeds it. Lines marked `[overlap]` or low-confidence `(?)` are **skipped**.
-3. Each harvested embedding is accepted only if it's similar enough to the anchor; stray
-   mis-attributions are **rejected**, so correction can only sharpen a profile.
-
-**The payoff:** after you correct and finalize a session transcript, just **re-save that
-character's profile** — it automatically absorbs the corrected audio and gets more
-accurate for next session.
+See the **live-transcription** skill for engine internals and speaker-ID tuning parameters.
 
 ## Tips for separable profiles
 
 - Quiet room, consistent mic distance.
 - Perform the *character* voice you'll actually use at the table, not your neutral voice.
-- Longer and more varied beats short and flat — the teleprompter is built for this.
+- Longer and more varied samples beat short and flat ones — aim for at least 30 seconds of
+  natural speech with varied cadence.
+- If two voices collide (similarity warning), re-record one with more vocal contrast or in a
+  quieter environment.

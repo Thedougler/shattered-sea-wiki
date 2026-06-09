@@ -1,66 +1,76 @@
-# Setup — voice tools (one-time)
+# Setup — shattered-audio engine (one-time)
 
-The voice-transcription tools run on **Apple Silicon** (Parakeet v3 via MLX;
-pyannote/diart on MPS or CPU). The code lives at `voice-transcription/` in the
-repo root.
+The `shattered-audio` engine lives at `tools/audio/` in the repo root. The wrapper scripts
+(record.sh / transcribe.sh / voices.sh) auto-resolve the venv — you only need to build it
+once.
 
 ## 1. Virtualenv + dependencies
 
-The wrapper scripts (`save_voice.sh` / `transcribe_session.sh` /
-`finalize_session.sh`) build and populate the venv automatically — they pick a
-Python >= 3.11 and install deps from `pyproject.toml`, so you normally don't run
-these by hand. To do it manually:
+Python 3.11+ required. No Python 3.11?
 
 ```bash
-python3.11 -m venv voice-transcription/.venv   # or any python3.11+
-source voice-transcription/.venv/bin/activate
-pip install -e voice-transcription/
+brew install python@3.11
 ```
 
-No `python3.11`? Install one with `brew install python@3.11`.
+Then from `tools/audio/`:
 
-The venv directory is gitignored.
+```bash
+cd tools/audio
+python3.11 -m venv .venv
+.venv/bin/pip install -e '.[all]'
+```
 
-## 2. Hugging Face token + model licenses
+The venv directory is gitignored. After this, all three wrapper scripts find it automatically.
 
-pyannote's diarization and embedding models are gated. Once:
+## 2. Hugging Face token + model license (optional — for diarization)
 
-1. Create a (free) Hugging Face account and a read token.
-2. Accept the user conditions for **`pyannote/speaker-diarization-3.1`** and the
-   embedding model on their HF model pages.
-3. Export the token before running:
+pyannote speaker diarization is gated behind a free HF account. Without `HF_TOKEN`, each
+microphone track is treated as a single speaker — perfectly fine for the usual
+one-mic-per-person table setup.
+
+To enable diarization:
+
+1. Create a free [Hugging Face](https://huggingface.co) account and generate a read token.
+2. Accept the user conditions for **`pyannote/speaker-diarization-3.1`** on its HF model page.
+3. Export the token before running any audio skill:
    ```bash
    export HF_TOKEN=hf_xxxxxxxxxxxxxxxxx
    ```
 
-First run downloads the Parakeet and pyannote weights (a few minutes); they cache
-locally after that.
+Model weights download on first use and cache locally.
 
-## 3. Microphone permission
+## 3. Microphone permission (macOS)
 
-On macOS, grant microphone access to the terminal/app you launch the scripts from
-(System Settings -> Privacy & Security -> Microphone). For the cleanest profiles and
-transcripts, use a decent mic in a quiet room.
+Grant microphone access to your terminal app: System Settings → Privacy & Security →
+Microphone. Do this before the first recording session.
 
-## 4. Verify
+## Operations
 
-```bash
-# Pure logic — must pass with no ML stack:
-cd voice-transcription && pip install -e ".[dev]" && pytest tests/
+The three operator-facing skills handle all actual work:
 
-# Real adapters (with venv active + HF_TOKEN set), optional:
-RUN_ML_TESTS=1 pytest tests/test_ml_integration.py -v
-```
+- **record-session-audio** — captures multi-mic table audio.
+  ```bash
+  .claude/skills/record-session-audio/scripts/record.sh --session N
+  ```
+- **transcribe-session-audio** — Whisper large-v3 + pyannote (when `HF_TOKEN` is set),
+  speaker-labeled by voice profile and mic prior.
+  ```bash
+  .claude/skills/transcribe-session-audio/scripts/transcribe.sh --session N
+  ```
+- **manage-voice-profiles** — all voice-profile CRUD and the actor→persona model.
+  ```bash
+  .claude/skills/manage-voice-profiles/scripts/voices.sh <subcommand>
+  ```
 
 ## Accuracy levers
 
-- **Tell pyannote the speaker count.** Pass `--speakers N` (physical people at the
-  table, not characters).
-- **Enroll long, varied samples.** The teleprompter targets ~60–90s per character
-  voice.
-- **Profile per character, group by player.** Each profile's `player` field lets the
-  identifier disambiguate the several voices one person performs.
-- **Two passes.** The live pass is provisional. The finalize pass re-diarizes the
-  whole recording at once for global clustering — that's the canon.
-- **Overlap is preserved, not guessed.** Crosstalk regions emit stacked `[overlap]`
-  lines; low-confidence IDs are marked `(?)`.
+- **Enroll long, varied samples.** Aim for 30+ seconds of natural speech with varied cadence
+  per voice. Longer and more varied beats short and flat.
+- **One persona per character voice, grouped under the actor.** Each real person is an actor;
+  each character voice they perform is a persona under that actor. This lets the identifier
+  disambiguate multiple voices from one person.
+- **Corrections fold back via the retrain loop.** After each session, the session-ingest
+  `speaker-map.md` + `shattered-audio retrain --speaker-map` loop sharpens profiles
+  automatically — accuracy improves session over session.
+
+See the **live-transcription** skill for engine internals and speaker-ID tuning parameters.

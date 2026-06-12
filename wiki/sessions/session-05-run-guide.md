@@ -10,6 +10,8 @@ summary: "At-table run guide for Session 05: Grung counter-operation through the
 created: 2026-06-01
 updated: 2026-06-12
 tags:
+  - session-prep
+  - run-guide
   - dm-prep
   - grung
   - combat
@@ -21,7 +23,7 @@ session_date: 2026-06-13
 
 # Session 05 — Run Guide: Under the Festival
 
-> Scene menu, not a script. The party picks; you react. Nothing breaks if they wander.
+> Scene menu, not a script. The party picks; you react. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* before you panic.
 
 ## Session Snapshot
 
@@ -143,6 +145,9 @@ Then stop. Let the party react. Do not narrate what they decide about the second
 ---
 
 #### Beat 1 — Second-Pass Interrogation
+
+> [!read-aloud]
+> The next room is smaller and smells like sweat and lamp oil. Felix sits against the far wall with his knees drawn up, Ruk's shadow filling the doorway behind him. His hands are still. His eyes are not.
 
 | Felix at table | Use |
 |---|---|
@@ -308,6 +313,11 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 
 **General features:** Dim light (oil lamps at junctions, bioluminescent algae). Ceilings 5–6 ft in collectors (Medium creatures move normally, cannot jump), 8 ft in main collector, 15 ft in primary chamber. Ankle-deep standing water throughout (difficult terrain without swim speed), with deeper sumps and channels where noted. Combat noise in any room is audible in adjacent rooms.
 
+**Grung saturation.** The Grung have lived and worked these tunnels for days. Their skin secretions coat every surface they've touched — ladder rungs, barrel lashings, rope handles — leaving a faint iridescent residue that catches lamplight. The standing water carries their chemical runoff: an oily film and a sweetly acrid smell, like overripe fruit soaked in ammonia, that worsens with depth. By Room 4 the air tastes wrong. By Room 7 it burns.
+
+> [!mechanic]
+> **Contact poison (environmental).** Grung-touched surfaces (rungs, ropes, barrel handles) — DC 12 CON on bare-skin contact or poisoned for 10 minutes. Gloves or cloth wrapping negates. JC is immune (Grung physiology). Call for one roll per room when a PC handles something, not on every rung.
+
 **Common routes to the primary chamber:**
 
 | Route | Path | Character |
@@ -327,11 +337,12 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 > - **Elite:** Multiattack — 2× shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned); Mesmerizing Chirr (Recharge 6) if 2+ PCs within 15 ft (DC 12 WIS or stunned 1 round).
 > - **Morale:** green-caste flee if handler dies; handler breaks at half HP.
 > - **Alert:** kill all three silently to prevent a report. Any escape puts all remaining sentries on active defense.
+> - **Poison craft:** The Grung think in poison the way soldiers think in steel. Barrel lashings are pre-coated with concentrated skin secretions (DC 12 CON on bare-skin contact or poisoned 10 min; gloves negate). Elite handlers carry a sealed glass vial of torpor extract — if cornered with no escape, they crack it: 5-ft cloud, DC 12 CON or speed halved for 1 minute as limbs go heavy and sluggish. Retreating greens smear the same secretions on any surface they pass.
 
 **Magazine neutralization (any secondary site):**
 
 > [!mechanic]
-> **Blackpowder barrels (×6):** Tar-sealed, timber-wedged at structural weak points. DC 10 Investigation: blackpowder. Fire or thunder damage within 10 ft: **4d6 fire, 20-ft radius, DC 14 DEX half. Ceiling collapse: 2d6 bludgeoning, buried, DC 14 STR to free.** Safe removal: 1 minute careful work, or DC 12 Sleight of Hand as an action to pull wedges (barrels roll — magazine neutralized, but noise alerts adjacent rooms). Each neutralized magazine removes one detonation site from tomorrow's raid.
+> **Blackpowder barrels (×6):** Tar-sealed, timber-wedged at structural weak points. Barrel lashings and handles coated with Grung contact poison (DC 12 CON or poisoned 10 min; gloves negate). DC 10 Investigation: blackpowder. Fire or thunder damage within 10 ft: **4d6 fire, 20-ft radius, DC 14 DEX half. Ceiling collapse: 2d6 bludgeoning, buried, DC 14 STR to free.** Safe removal: 1 minute careful work, or DC 12 Sleight of Hand as an action to pull wedges (barrels roll — magazine neutralized, but noise alerts adjacent rooms). Each neutralized magazine removes one detonation site from tomorrow's raid.
 
 ---
 
@@ -340,14 +351,14 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 **Room 1 — Le Paludi Access Shaft.** 15 × 20 ft lower landing beneath a 5 × 5 ft shaft, 15 ft deep. The Warren runner's charcoal mark on the frame.
 
 > [!read-aloud]
-> The ladder is iron, bolted into limestone, and each rung is slick. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The lantern from the street catches rust, moss, and a low arch leading south. Scrape marks run along the stone at knee height — something heavy was carried down this shaft recently.
+> The ladder is iron, bolted into limestone, and each rung is slick with something that isn't water — a faint iridescent sheen, sweetly chemical. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The air changes immediately: damp stone and something else underneath it, organic and sharp, like overripe fruit left in a drain. Scrape marks on the wall at knee height, and whatever made them left the same wet residue on the stone.
 
 DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 
 **Room 2 — Y-Junction.** Roughly 35 × 30 ft. Three exits: north landing, east/right branch (Bridge connector), southwest/left branch (Magazine Alpha). Sunken sump, raised edges, collapsed masonry (half cover).
 
 > [!read-aloud]
-> The landing opens into a junction where three collector lines meet around a sunken sump. Water gathers in the middle, dark and still, with raised stone lips along the edges. To the right, the tunnel narrows into shadow, while to the left the silt is churned with prints and drag marks. Low on the left wall: three cuts in the limestone, small, clean, deliberate.
+> The landing opens into a junction where three collector lines meet around a sunken sump. Water gathers in the middle, dark and still, its surface carrying an oily rainbow film that has no business in a sewer. The chemical smell is thicker here — concentrated, catching in the throat. To the left the silt is churned with prints and drag marks; to the right the tunnel narrows into shadow. Low on the left wall: three cuts in the limestone, small, clean, deliberate.
 
 **Key features:**
 
@@ -360,6 +371,9 @@ DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 **Optional encounter:** 2 Canal Crocodiles (CR 1/2 each). AC 12, HP 19. Bite +4 (1d10+2, target grappled DC 12). Stealth +2 (advantage submerged). Attack on vibration. Flee if both bloodied. DC 14 Stealth to bypass (disadvantage in armor heavier than leather).
 
 **Room 3 — Bridge Connector.** 70 × 20 ft connector. Ceiling drops to 4 ft after 35 ft. Medium creatures: half speed, disadvantage on two-handed/heavy melee. Barred side culvert leads toward the Bridge district magazine.
+
+> [!read-aloud]
+> The connector stretches ahead — sixty feet of straight tunnel with the ceiling dropping fast. By the halfway mark the stone presses close, your shoulders brush the walls, and the chemical smell concentrates into a physical weight in the lungs. Something slick coats the stone at shoulder height where hands have steadied loads in the dark. Ahead, a barred culvert branches right, and past it, the sound of slow water moving somewhere you can't see.
 
 **Optional encounter:** 1 Grung Elite Warrior (CR 2, HP 49) — a late handler finishing a route check. Moves toward the far hatch at full speed. Attacks only if blocked. Does not speak. If JC addresses her in Grung, she stops one beat, then continues. **If she escapes:** all sentry teams go to heightened alert. **Surrenders below half HP if escape is impossible.** Gives nothing except: "The schedule moved."
 
@@ -377,7 +391,7 @@ Sentry team as above. Drainage overflow pipe (4-ft diameter) connects to Room 6 
 **Room 5 — Magazine Beta (Working Yards).** 40 × 30 ft working bay. **The incomplete site** — accelerated timeline left the scaffolding half-built.
 
 > [!read-aloud]
-> This chamber mirrors the last only in purpose. Scaffolding climbs one wall, half-built, one support beam unsecured. Barrels sit on the stones and in the flooded corner, not yet stacked. A hand drill, coils of rope, and a wooden bowl of cold rice sit beside the work.
+> This chamber mirrors the last only in purpose. Scaffolding climbs one wall, half-built, one support beam unsecured. Barrels sit on the stones and in the flooded corner, not yet raised into position. Beside the work tools — a hand drill, rope, a bowl of cold rice — a leather roll lies open with six small glass vials, each a different shade of amber. The tools of a trade older than the blackpowder.
 
 **Key features:**
 
@@ -467,11 +481,26 @@ The party is beaten up from two Hard encounters and the social encounter with [[
 - **Second watch:** If Ruma's check-in was not spoofed, faint pipe-clicks travel through the stone — a handler code no one in the room answers. If spoofed, a canal crocodile investigates the drainage pipe. Two amber eyes in the lamplight. It sniffs and withdraws.
 - **Third watch:** Silence. The standing water in adjacent tunnels stops flowing for several minutes — a tidal shift. Then it resumes. The air carries something faintly wrong from the deeper tunnels. Mineral, organic, not quite nameable.
 
-**On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, ready. Do not mention the feast.
+> [!read-aloud]
+> You wake to silence and dry stone. The oil lamp burns low — someone refilled it during the night. The air still carries that sweet chemical weight, fainter in this alcove but patient, settled into the stone like it means to stay. Beyond the desk and the barrels, the deeper passage waits.
+
+**On waking:** The party is rested. Full HP, full spell slots, full inspiration. Do not mention the feast.
 
 **If engaged:** the party pushes into the Main Collector and the primary chamber.
 **If ignored (party refuses to rest):** they enter the primary chamber with depleted resources but active Heroes' Feast buffs. The fight is still hard — they are low on HP and slots. The feast provides the safety margin the Rattle would otherwise provide. Both paths produce a dangerous fight.
 **Hook out:** Room 7, then the primary chamber.
+
+---
+
+#### Room 7 — Main Collector
+
+90 × 25 ft vaulted tunnel, 8-ft ceiling — tall enough to stand upright for the first time since the shaft. Running water down the centre channel. All trail markers converge here.
+
+> [!read-aloud]
+> The tunnel opens and the ceiling lifts — eight feet, room to breathe for the first time in hours. Running water splits the collector down the centre, fast enough to carry the chemical film in long iridescent streaks toward a grate you can hear but not see. The air is worse here, not better: organic, mineral, thick enough to taste at the back of the throat. Every trail marker you've followed converges on the south wall, and above them, carved in faded commission letters: MERCATURA NEXUS 200 PAS.
+
+> [!dm]
+> Decompression room. The party stands upright, breathes (poorly), and plans before the climax. The converging markers tell JC every caste, every lane, points the same direction. Two hundred paces south.
 
 ---
 
@@ -521,6 +550,9 @@ Solange does not fight. She channels. The four Elite Warriors are the encounter 
 > **Solange's reaction choice.** If a spellcaster targets the circle or threatens her concentration, she Counterspells (auto-counters 3rd level or lower, +5 check for higher). Each Counterspell spends one of two Pact Magic slots and prevents Detonate until her next turn. Force the choice: protect the ritual or keep the dead-man switch ready.
 
 **Terrain shift (round 3):** If the circle is not disrupted, bright light expands to 20-ft radius (most of the chamber — JC's Umbral Sight ceases to function anywhere). Water in channels reverses, rising to 4 ft deep (Medium creatures: half speed, disadvantage on melee).
+
+> [!read-aloud]
+> The circle flares white. Light floods the chamber, bleaching the stone, burning away every shadow. The water in the drainage channels shivers, stops, and rises — past ankles, past knees — warm and thick with the chemical taste of everything these tunnels hold. The hum becomes a sound you feel in your teeth.
 
 #### Phase 2 — The Ceiling Falls
 
@@ -796,6 +828,13 @@ Keep these **unassigned** — give each to the first action that earns it.
 | A fisherman at the [[le-paludi\|Le Paludi]] dock crosses himself. "Something under the boats this morning. Big. Glowing." | Perrin | [[abyss-vision\|The whale]] |
 | [[sem-holst\|Sem]]'s voice from the street: "Ship's done. I need a name or she goes out blank." | [[perrin-black-jaw\|Perrin]] / [[delmar-fisk\|Delmar]] | Ship decision (untouched from [[session-04\|Session 04]]) |
 | A Warren runner, breathless: "Old tortle at the outer quay. Asking for Nona." | Perrin | [[nona-and-anzolo\|Anzolo's arrival]] |
+
+---
+
+## Spotlight
+
+- **[[perrin-black-jaw|Perrin]]:** Two sessions without personal thread advancement. The Whale Beneath gives him second contact — make sure he's on a boat when it fires. Anzolo's arrival pulls his family thread. Between the two, Perrin has a session.
+- **[[crissdalynn-khinriss|Crissdalynn]]:** The Kyzil conversation is her non-combat spotlight beat — Missing Sentinels, Read the Current. If the Grung crisis eats the session, Kyzil stays available; flag for Session 06 rather than cutting it.
 
 ---
 

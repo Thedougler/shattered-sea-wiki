@@ -1,4 +1,5 @@
 ---
+title: "Session 05 — Run Guide"
 type: session
 subtype: run-guide
 campaign: shattered-sea
@@ -7,7 +8,7 @@ audience: dm
 publish: false
 summary: "At-table run guide for Session 05: Grung counter-operation through the sewer magazine network, primary chamber climax with Solange Barret, Perrin's whale contact, Anzolo's arrival, and the detonation endgame if the clock runs out. ~4 hrs."
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-12
 tags:
   - dm-prep
   - grung
@@ -15,7 +16,7 @@ tags:
 sources:
   - Homebrew
 session_number: 5
-session_date: 2026-06-07
+session_date: 2026-06-13
 ---
 
 # Session 05 — Run Guide: Under the Festival
@@ -26,72 +27,78 @@ session_date: 2026-06-07
 
 | | |
 |---|---|
-| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. [[felix-aho\|Felix Aho]] in custody ([[ruk\|Ruk]] guarding) — not yet interrogated. Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). The 24-hour clock is ticking — do not mention this to the players. |
-| **Last break** | [[session-04\|Session 04]] ended at the safe house. One Grung ship destroyed, one purple handler killed, Felix captured. The party knows Felix worked the operation but has not extracted his intel yet. |
-| **Hottest pressure** | The Grung accelerated — the party doesn't know their timeline. The detonation fires tomorrow at crowd peak on [[il-gioco-delle-beffe\|La Finestra]]'s final day. Felix has intel on the secondary sites but the Mercatura primary (Slaad + packed ceiling) is above his clearance. The session opens with the interrogation. |
-| **Table time** | ~4–5 hrs. The sewer dungeon is the session's spine, with a designed long rest at Room 6 that strips Heroes' Feast before the climax. Plan 7 scenes, 1 optional. |
+| **Party is** | [[nona-black-jaw\|Nona]]'s safe house, [[le-paludi\|Le Paludi]], [[calveno\|Calveno]]. [[felix-aho\|Felix Aho]] is in custody ([[ruk\|Ruk]] guarding). Baseline intel already earned: 4 underground attack points, blackpowder scaffolding, 2-day estimate, purple garrisons/red leaders, 6 ships. Hero's Feast buffs still active (immune poison/frightened, Wis adv, +2d10 max HP for 24 hrs from Nona's cooking). The 24-hour clock is ticking — do not mention this to the players. |
+| **Last break** | [[session-04\|Session 04]] ended at the safe house. One Grung ship destroyed, one purple handler killed, Felix captured and cooperative. The party knows enough to act; the missing pieces are the fifth site, the accelerated timeline, and how to reach the primary. |
+| **Hottest pressure** | The Grung accelerated — the party still thinks they have ~2 days. The detonation fires tomorrow at crowd peak on [[il-gioco-delle-beffe\|La Finestra]]'s final day. Felix can refine the secondary-site picture, but the Mercatura primary (Slaad + packed ceiling) is above his clearance. Open with a second-pass war-table interrogation, not a reset. |
+| **Table time** | ~4–5 hrs. The sewer dungeon is the spine. Room 6 offers a safe long rest that strips Heroes' Feast, but Ruma's check-in clock makes the rest an informed trade-off. Plan 6 scene cards plus fail-forward detonation reference. |
+
+## Scene Menu
+
+| Card | Pull when | DM job |
+|---|---|---|
+| Nona's War Table | Session opens / party stalls | Turn earned intel into a fifth-site path; allocate support |
+| Kyzil on the Roof | Party seeks him / Crissdalynn bites | Land Missing Sentinels beat; choose Kyzil deployment |
+| Magazine Network | Party enters sewers | Find/neutralize sites; start Ruma check-in clock |
+| Primary Chamber | Clues converge on Mercatura | Pressure Solange/circle choice; resolve detonation/Otar |
+| Whale Beneath | Party takes any boat | Give Perrin second contact, no answers yet |
+| Anzolo at the Door | Mid-session / Nona distracted | Add family + Tessarine pressure |
+| Fail-forward raid | Primary missed / clock expires | Run raid cold; set captive scale |
 
 ---
 
 ## What They Know
 
-Quick-reference for information management. **Left column is what they walk in with.** Felix's intel moves to the right column as the interrogation earns it — then the DM can cross items off in real time.
-
-| They know (session start) | They don't know (until Felix / dungeon) |
+| They know (session start) | They don't know (until second pass / dungeon) |
 |---|---|
-| Felix is a green-caste Grung labourer who worked the operation | 4 underground attack points (Felix — free) |
-| One Grung ship destroyed, one purple handler killed | Sentry composition: "two greens and a blue" per site (Felix — free) |
-| Grung organized operation, purple-caste command structure | ~2-day deadline (Felix — free; estimate is **wrong**) |
-| Hero's Feast buffs active (poison immune, Wis adv, +2d10 max HP) | The convoy had more purple-only boats than a 4-site job needs (Felix — DC 10) |
-| Festival timing makes the city vulnerable | More blackpowder was transported than unloaded — a 5th site exists (Felix — DC 12) |
-| [[nona-black-jaw\|Nona]] has sewer maps and Warren tunnel knowledge | "The circle site" — Felix was rotated out, heard screaming (Felix — DC 10 Insight) |
-| | Accelerated timeline (~1.5 days, not 2) |
-| | The 5th primary site beneath the Mercatura |
-| | The summoning circle / Slaad |
-| | [[solange-barret\|Solange Barret]]'s existence or role |
-| | [[simone-tabarnack\|Simone]]'s direct involvement |
+| Felix is a green-caste Grung labourer who worked the operation | Exact sentry pattern: "two greens and a blue" per secondary site |
+| 4 underground attack points, scaffolding against sewer ceilings, blackpowder | The convoy had more purple-only boats than a 4-site job needs |
+| ~2-day deadline from Felix's first interrogation (estimate is **wrong**) | Barrel math: 32 transported, 22 placed — 10 missing |
+| Purple garrisons + red leaders at each point; 6 ships total | "The circle site" — Felix was rotated out, heard screaming |
+| One Grung ship destroyed, one purple handler killed | Accelerated timeline (~1.5 days, not 2) |
+| Grung organized operation, purple-caste command structure | Ruma's 2-hour check-in clock and how to spoof it |
+| Hero's Feast buffs active (poison immune, Wis adv, +2d10 max HP) | The 5th primary site beneath the Mercatura |
+| Festival timing makes the city vulnerable | The summoning circle / Slaad |
+| [[simone-tabarnack\|Simone]]'s operation is implicated | [[solange-barret\|Solange Barret]]'s existence or role |
+| [[nona-black-jaw\|Nona]] has sewer maps and Warren tunnel knowledge | Whether Simone learns [[jean-claude-tabarnack\|JC]] is alive and active |
 | | The hidden passage from Room 6 to the primary |
 | | Sewer entry points — 3 routes (Nona reveals during planning) |
-| | That Ruma's 2-hour check-in starts a clock |
 
 ---
 
 ## Festival Atmosphere
 
-The [[il-gioco-delle-beffe|Beffa]] has been running for days. This is the dramatic irony engine — the city has trained itself not to believe what it sees.
-
-- **Crowd conditioning:** Three days of false alarms have taught [[calveno|Calveno]] to laugh first, look second. The first seconds of any real crisis will read as another prank.
-- **Grung normalization:** Grung-themed jokes, costumes, and bits have been seeded by paid performers. Seeing Grung in the streets is festival normal. See [[calveno-raid-signs|Raid Prep Signs]] for specific beats.
-- **Watch threshold:** The gate sergeants will not respond to screams during festival week unless someone makes them. Their intervention threshold is the highest it will be all year.
-- **The gap:** The crowd's hesitation buys the raid 3–5 seconds at each strike point. Those seconds are the operational window.
-
-Use one or two of these as ambient texture before the party goes underground — a false alarm that makes the crowd laugh, a Grung mask vendor doing brisk trade, a watch sergeant shaking his head at runners.
+| Lever | At-table use |
+|---|---|
+| Crowd conditioning | False alarms taught [[calveno\|Calveno]] to laugh first. Real screams get 3–5 seconds of hesitation. |
+| Grung normalization | Grung jokes, masks, and paid bits make small amphibian figures festival-normal. |
+| Watch threshold | Gate sergeants ignore screams unless forced; festival week has raised their disbelief ceiling. |
+| Ambient beat | Use one: false alarm laugh, Grung mask vendor, watch sergeant waving off runners. |
 
 ---
 
 ## Strong Start
 
 > [!read-aloud]
-> Nona's kitchen smells like fish stock and charcoal. She has not slept. The table is cleared — no food, no plates, just an oiled cloth spread flat with a chalk grid of Calveno's sewer system. No marks on it yet. From the next room, muffled: a small voice saying something, then stopping. Then starting again. Then stopping.
->
-> Nona does not look up when you come in. She says: "He'll talk. He wants to. But every time he starts, something in him locks up. I need someone who knows what that is." She is looking at Jean-Claude.
+> Nona's kitchen smells like fish stock and charcoal. The table is cleared: no food, no plates, just an oiled cloth spread flat with a chalk grid of Calveno's sewer system. Four X marks have already been circled in black, beside a column of numbers that does not add up, while a small voice in the next room starts, stops, and starts again. "He talked enough for us to move," Nona says without looking up, "but the parts that do not fit are still locked inside him," and her eyes go to Jean-Claude.
 
-Then stop. Let the party react. Do not narrate what they decide about the interrogation.
+Then stop. Let the party react. Do not narrate what they decide about the second pass.
 
 > [!dm]
-> [[felix-aho|Felix]] has been trying to cooperate since they brought him in. The problem is not hostility — it is conditioning. Green-caste Grung are trained from birth to defer to higher castes and never share operational details with outsiders. Felix's conscious mind wants to help. His conditioning clamps down every time he reaches for specifics. [[nona-black-jaw|Nona]] recognized the pattern (she has seen conditioning in ex-slaves before) but does not have the Grung-specific knowledge to break through it. [[jean-claude-tabarnack|JC]] does — he broke the same conditioning in himself.
+> Run this as a second pass, not a reset. Felix already gave the baseline; the locked material is red/purple-caste detail green labourers were trained not to notice. [[jean-claude-tabarnack|JC]] can lower the wall because he broke the same conditioning in himself.
 
 ---
 
-## Threads
+## Threads & Live Triggers
 
-| Thread | Right now | If ignored | Tick they'll see |
-|---|---|---|---|
-| [[calveno-beffa-grung-raid\|Grung Raid]] | 4 known magazines, 1 hidden primary ([[otar-the-foul\|Slaad]]). Accelerated timeline — detonation fires tomorrow at crowd peak | Ground opens. Slaad at the [[calveno\|Mercatura]]. Hundreds taken | [[nona-black-jaw\|Nona]]'s map; [[felix-aho\|Felix]]'s fear when asked about "the big one" |
-| [[crissdalynns-pilgrimage\|Kyzil Alliance]] | [[master-kyzil\|Kyzil]] investigated "the foul wind" independently — fragments only. Ready to share Missing Sentinels + Read the Current with [[crissdalynn-khinriss\|Crissdalynn]] | Kyzil acts alone, less effectively; Crissdalynn misses the Sentinels conversation | Kyzil at the [[ponte-bassa\|Ponte Bassa]], sharpening a dagger, watching the canal |
-| [[abyss-vision\|The Whale]] | Bioluminescent shape in [[calveno\|Calveno]]'s harbor approach. Fishermen report a pale shape under hulls | Second contact fires when [[perrin-black-jaw\|Perrin]] is on the water — the whale surfaces | A fisherman crosses himself at the dock; something large moves under a tied boat |
-| [[nona-and-anzolo\|Anzolo Arrives]] | Within hours of Calveno. Tessarine tail one stop behind. [[nona-black-jaw\|Nona]] doesn't know he's coming | [[anzolo\|Anzolo]] walks into the safe house during the counter-operation, Tessarine behind him | A Warren runner arrives breathless: "Someone's asking for Nona at the outer quay" |
-| [[umberlees-message\|Umberlee's Net]] | Harbor gossip spreading — Waveservants watching for "the man in the scarlet coat." [[delmar-fisk\|Delmar]]'s reversed coat is becoming identifiable | Delmar is spotted during the counter-op; [[umberlee\|Umberlee]]'s patience runs out | A dockhand eyes Delmar's coat and looks away too fast |
+| Thread | Trigger | Fire this | If ignored | Tick |
+|---|---|---|---|---|
+| Grung raid | Party stalls at safe house | Felix whimpers; Nona taps the impossible barrel count | Warren runners miss red-caste trail and die underground | Raid clock advances |
+| Kyzil | Party mentions Kyzil or Crissdalynn pulls away | Kyzil at the [[ponte-bassa\|Ponte Bassa]], sharpening a dagger | He enters alone and trips the alert network | Primary fortifies |
+| Perrin whale | Perrin takes any boat | Pale bioluminescent shape passes under hull | Fishermen report it next day | Vision thread sharpens |
+| Anzolo/Tessarine | Party is underground or Nona is distracted | Runner: "Old tortle at the outer quay" | Tessarine patrol docks and asks after Black-Jaw | Safe house exposure |
+| Umberlee | Delmar is visible in harbor district | Dockhand eyes the scarlet coat and looks away too fast | Gossip reaches Waveservants | Harbor pressure rises |
+| Ruma relay | Ruma captured, killed, or delayed | Start **Ruma check-in clock** | Primary loses surprise unless spoofed/hidden route used | T+2h alert |
+| Primary chamber | Room 8 fire/thunder damage or 2nd elite falls | Solange detonates now | Otar manifests / plaza collapses | Resolve Phase 2 |
 
 ---
 
@@ -99,10 +106,10 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 
 | Name | Grab when | Handle | First line |
 |---|---|---|---|
-| [[nona-black-jaw\|Nona]] | War council, any safe house scene | Feeds you first, names what you owe second. Has not slept. Recognized Felix's conditioning but can't break through it herself. | "He'll talk. He wants to. But every time he starts, something in him locks up." |
-| [[felix-aho\|Felix Aho]] | Session opens with his interrogation | Conditioned green-caste. Wants to help but conditioning clamps down on operational details. Needs gentle pressure, not force. JC lowers his defenses. | "I... yes. Four. There are four places I carried powder to. Four." *(stops, waits for permission to continue)* |
+| [[nona-black-jaw\|Nona]] | War council, any safe house scene | Feeds first, names the debt second. Has not slept. Recognized Felix's conditioning but can't break through authority-layer details herself. | "He talked. But the parts that do not fit are still locked inside him." |
+| [[felix-aho\|Felix Aho]] | Second-pass interrogation / map refinement | Conditioned green-caste. Wants to help but conditioning clamps down on red/purple-caste details. Needs gentle pressure, not force. JC lowers his defenses. | "I counted wrong. No — I counted right. That is worse." |
 | [[enzo\|Enzo]] | Nona offers resources after interrogation | Black jaguar tabaxi. Nona's bodyguard. Does not raise his voice; does not hurry. Comfortable with violence. | *(tap of cigar, shift of weight, glance at Nona)* |
-| [[master-kyzil\|Kyzil]] | Crissdalynn, or anyone briefs him on Grung | Owl Obi-Wan — monastic discipline cracks when he hears "Slaad." Becomes a general. | "I know why you are here. Something is under this city." |
+| [[master-kyzil\|Kyzil]] | Crissdalynn, or anyone briefs him on Grung | Austere mentor; monastic discipline cracks when he hears "Slaad." Becomes a general. | "I know why you are here. Something is under this city." |
 | [[ruk\|Ruk]] | Safe house logistics, combat muscle | Doesn't speak. Nods once. Carries a cleaver the size of a cutting board. | *(nods once)* |
 | [[ruma-delacroix\|Ruma Delacroix]] | Handler relay in the sewers (Room 6) | Blue-caste quartermaster. Values her life over the operation. Flat voice, no hesitation when negotiating. | *(does not hear you yet)* |
 | [[solange-barret\|Solange Barret]] | Primary chamber (Room 8) | Red-caste warlock. Seminary dropout meets demolitions engineer. Professional, not fanatical. | *(does not speak unless spoken to)* |
@@ -110,9 +117,9 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 
 ---
 
-## Day Tracker
+## Clock State
 
-| Thread | This morning | Tonight | Tomorrow dawn |
+| Thread | Now | After rest / tonight | Tomorrow crowd peak |
 |---|---|---|---|
 | **Raid** | 4 known + 1 hidden magazine. Sentries on alert after [[le-paludi\|Le Paludi]] compromise. One secondary site has incomplete scaffolding | Final handler deployment. All five lanes confirmed. [[otar-the-foul\|Slaad]] materials in final position | **Detonation fires at crowd peak.** [[il-gioco-delle-beffe\|La Finestra]] last day. The ground opens |
 | **Kyzil** | At the [[ponte-bassa\|Ponte Bassa]]. Senses "something foul from the south" — fragments only | If briefed: tactical assessment complete, ready to act. If not: restless | If briefed: accompanies or diverts. If not: acts alone, less effectively |
@@ -129,37 +136,45 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 ### Nona's War Table *(Grung Raid)*
 
 *Pull: All PCs. Register: social.*
-*Available: session opens here. Two beats: the interrogation, then the planning.*
+*Available: session opens here. Two beats: second-pass interrogation, then planning.*
 
-**What's true:** [[felix-aho|Felix Aho]] is in the next room with [[ruk|Ruk]]. He has been trying to talk since they brought him in, but his green-caste conditioning locks him up every time he reaches for operational specifics. [[nona-black-jaw|Nona]] has a blank sewer map on oiled cloth, waiting for intel to mark. The party — specifically [[jean-claude-tabarnack|JC]] — needs to break through Felix's conditioning to get the picture. The timeline is shorter than anyone in this room knows.
+**What's true:** [[felix-aho|Felix Aho]] is in the next room with [[ruk|Ruk]]. He already gave the Session 04 baseline, but his green-caste conditioning locks him up every time he reaches for red/purple-caste details. [[nona-black-jaw|Nona]] has four X marks on the sewer map and a barrel count that does not add up. The party — specifically [[jean-claude-tabarnack|JC]] — needs to break through Felix's conditioning to turn "something is missing" into a path underground. The timeline is shorter than anyone in this room knows.
 
 ---
 
-#### Beat 1 — The Interrogation
+#### Beat 1 — Second-Pass Interrogation
 
-**NPC — [[felix-aho|Felix Aho]]:** Green-caste labourer. Not hostile. Not withholding. Conditioned. He defaults to deference, stops mid-sentence when he realizes he's sharing operational details, and physically flinches when he contradicts caste hierarchy. He wants to help — his conscious mind is ahead of his reflexes, and the gap between the two is the scene.
-
-**Roleplay handle:** Kermit the Frog being questioned by the FBI. Earnest, overwhelmed, perpetually apologetic. Keeps saying "I'm sorry, I don't know more" and meaning it. When pressed gently, he gives more than he thought he knew. He counts on his fingers. He draws in the air with a shaking hand. He is not a spy — he is a labourer who loaded barrels and counted them because counting is what he does.
+| Felix at table | Use |
+|---|---|
+| State | Green-caste labourer; not hostile, not withholding, conditioned |
+| Handle | Nervous witness questioned by the FBI: earnest, overwhelmed, apologetic |
+| Tell | Counts on fingers; draws routes in the air with a shaking hand |
+| Pressure | Gentle questions get more; intimidation silences him for 1d4 minutes |
 
 > [!mechanic]
-> **Felix's Conditioning — Social Encounter.** Felix volunteers baseline intel freely. Deeper details require DC 10–12 Persuasion or Insight checks — not because he is lying, but because his conditioning clamps down reflexively when he nears operational specifics. **[[jean-claude-tabarnack|JC]] speaking Grung or demonstrating defector knowledge lowers all DCs by 2** (Felix recognizes someone who broke the same conditioning). Intimidation works but shuts him down for 1d4 minutes afterward — the conditioning reads aggression as caste authority and he goes silent.
+> **Felix's Conditioning.** Baseline intel is already earned; roll only for locked red/purple details.
+>
+> - DC 10–12 Persuasion or Insight: guide him through authority-layer details.
+> - [[jean-claude-tabarnack|JC]] speaking Grung or naming defector experience: lower DCs by 2.
+> - Intimidation succeeds on facts but shuts him down for 1d4 minutes afterward.
 
-**Intel reveals (in order of accessibility):**
+**Second-pass reveals (in order of accessibility):**
 
-**Free — Felix volunteers without prompting:**
+**Free recap — already earned in Session 04; do not make them roll again:**
 
 - Four underground sites where he carried blackpowder barrels. Locations relative to surface landmarks ("under the yards," "near the bridge drain," "the one by the low hatch," "close to the harbour wall").
-- Sentry pattern at each: "Two greens and a blue. The blue carries a whistle. The greens carry the barrels."
+- Purple garrisons and red leaders somewhere in the network; exact sentry composition is not earned yet.
 - Timeline: "Two days. They said two days from when the boats came in." (This estimate is **wrong** — the acceleration after Le Paludi shortened it to ~1.5 days, but Felix doesn't know that.)
 - Festival timing: "The purple said the noise would cover everything."
 
-**DC 10 Persuasion — the purple boats:**
+**DC 10 Persuasion — sentries / purple boats / scale mismatch:**
 
-- Felix hesitates. Conditioning flicker — he is about to describe purple-caste operations, which greens are not supposed to notice. He noticed because greens load the boats and he counted.
+- "Two greens and a blue at each work site. The blue carries the whistle. The greens carry the barrels."
+- Felix hesitates. Conditioning flicker — he is about to describe purple-caste operations, which greens are not supposed to notice. He noticed because greens load boats and count cargo.
 - "There were... a lot of boats. More than four sites need. And most of them were purple-only. No greens, no blues on those ones. Just purple." He pauses. "Purple-only boats means combat crews. That's not cargo work. That's a raid."
 - **What this tells the party:** The operational footprint is larger than four detonation sites. Purple-only vessels are combat-rated. The scale hints at mass extraction, not sabotage.
 
-**DC 12 Persuasion (or Felix volunteers if the party is patient and gentle):**
+**DC 12 Persuasion (or Felix volunteers if the party is patient and gentle) — the barrel count:**
 
 - Felix has been doing arithmetic in his head since they captured him. The numbers bother him more than anything else.
 - "I counted barrels. I carried them. Thirty-two barrels through the tunnels, over three days. Six to the first site, six to the second, six to the third, four to the fourth. That's twenty-two." He holds up his fingers. "Where did the other ten go?"
@@ -173,9 +188,7 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 - DC 10 Insight: he is telling the truth. He is more afraid of the circle site than of anything else, and the fear is specific — not generalized anxiety but a memory of a sound that should not have come from underground.
 
 > [!dm]
-> [[felix-aho|Felix]]'s "circle site" is the first hint of the primary chamber. He cannot locate it — the primary is compartmentalized above green-caste clearance. But the name gives JC something to look for underground: a fifth position on any map, trail markers using red-caste notation instead of green/blue. Plant it early. It pays off in Rooms 2, 5, and 6.
->
-> Felix's barrel count (32 transported, 22 accounted for) is the concrete version of Nona's instinct that "four isn't enough." If the party does the math, they have independent confirmation of a hidden site before they enter the tunnels.
+> [[felix-aho|Felix]] cannot locate the circle site; it is above green-caste clearance. Use the name and barrel count to point at a fifth position and red-caste trail marks in Rooms 2, 5, and 6. If the party does the math, confirm a hidden site before descent.
 
 **Felix's ask:** one month of protection. Somewhere the purple-caste cannot find him. He will not go back underground. He will draw everything he remembers on the map if they give him chalk. *(He draws with his left hand, shaking. The marks are precise.)*
 
@@ -183,7 +196,7 @@ Then stop. Let the party react. Do not narrate what they decide about the interr
 
 #### Beat 2 — Nona's War Table
 
-Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She works fast — cross-referencing Felix's landmarks with [[warren|Warren]] knowledge of the tunnel system. Four X marks in charcoal. A question mark where Felix's surplus powder points.
+After the second pass, [[nona-black-jaw|Nona]] tightens the map. She works fast — cross-referencing Felix's landmarks with [[warren|Warren]] knowledge of the tunnel system. Four X marks are already in charcoal. The question mark where Felix's surplus powder points gets circled twice.
 
 **NPC — [[nona-black-jaw|Nona]]:** Has not slept. She processed Felix's barrel count before the party did. "Ten barrels unaccounted for. Four sites is a distraction pattern, not a primary operation. There is a fifth." If the party asks how she knows: "Because I would."
 
@@ -192,7 +205,7 @@ Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She 
 **Nona's resources — what she offers:**
 
 > [!dm]
-> Nona lays this out after the intel is on the map. This is a resource allocation beat — the party decides what support they take and what trade-offs they accept. Let them discuss. Do not push them toward a choice.
+> Nona lays this out after the intel is on the map. This is a resource allocation beat: the party decides what support they take and what trade-offs they accept. Let them discuss without pushing a choice.
 
 | Resource | What it provides | Trade-off |
 |---|---|---|
@@ -202,19 +215,32 @@ Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She 
 | Seal hatches (Warren runners) | Tell Nona which hatches to close behind the party. Prevents Grung reinforcements from entering; each sealed hatch also blocks one extraction lane | Hatches seal both ways — the party cannot retreat through a sealed hatch without Warren help reopening it |
 | [[master-kyzil\|Kyzil]] (party's own idea — Nona doesn't know him) | Crissdalynn sparred him yesterday; any PC who remembers he's at the [[ponte-bassa\|Ponte Bassa]] can suggest seeking him out. CR 14 monk, already suspicious of underground activity | Costs time before the descent. Nona has no opinion — he is outside her network |
 
+**Decision checklist before they leave:**
+
+- [ ] Entry route: Le Paludi hatch / Bridge far hatch / La Vasca tidal passage
+- [ ] Hatches to seal behind them
+- [ ] Enzo with party or guarding Nona
+- [ ] Warren fighters assigned to secondary sites or held back
+- [ ] Kyzil briefed, ignored, or saved for reserve
+- [ ] Watch / Canal Commission warned or kept out
+- [ ] Felix protection promised
+
+> [!dm]
+> If the table lingers on loot, Ruk sets the sewer vials beside the party's older toxin cache. To non-Grung they look standard; to [[jean-claude-tabarnack|JC]], the preparation matches Simone's compound. No monologue, just evidence in the same room.
+
 **Planning options:**
 
 | Plan | What it requires | What it gains |
 |---|---|---|
 | Hit the magazines directly | JC leads; party enters the sewer network | Each neutralized magazine removes one detonation site |
-| Brief Kyzil first | Someone goes to the [[ponte-bassa\|Ponte Bassa]] (Scene 2) | CR 14 ally — accompanies underground or creates surface diversion |
+| Brief Kyzil first | Someone goes to the [[ponte-bassa\|Ponte Bassa]] | CR 14 ally — accompanies underground or creates surface diversion |
 | Warn the watch / Canal Commission | Someone goes to a magistrate or gate sergeant | The watch raises alert — but their intervention threshold is high during festival week. They may not believe it |
 | Split the party | Half underground, half topside | Covers more ground; each group is weaker |
 | Take Enzo into the tunnels | Nona agrees, pulls Enzo from her side | CR 5 melee fighter with Interpose reaction — strong in tight corridors. Nona is unguarded |
 
 **If engaged:** The party has a plan, resources, and Felix's map. They know the entry points, the sentry pattern, and that a fifth site exists somewhere. The dungeon begins.
 **If ignored:** Nona does not ask twice. She sends Warren runners into the tunnels — but without JC's Grung expertise, they miss the trail markers, trigger sentries, and die in the dark. The clock keeps ticking.
-**Hook out:** Kyzil briefing (Scene 2) or straight into the sewers (Scene 3).
+**Hook out:** Kyzil briefing or straight into the sewers.
 
 ---
 
@@ -224,14 +250,14 @@ Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She 
 *Available: any time the party seeks [[master-kyzil\|Kyzil]] at the [[ponte-bassa\|Ponte Bassa]].*
 
 > [!read-aloud]
-> Kyzil is on the Ponte Bassa roof where he sparred you yesterday. He is not meditating. He is sharpening a dagger on a whetstone, watching the canal below with the focused stillness of a raptor on a thermal. He heard you on the stairs. He does not turn around. "I know why you are here. Something is under this city. I have felt it for two days."
+> Kyzil is on the Ponte Bassa roof where he sparred yesterday, sharpening a dagger on a whetstone. He watches the canal below with absolute stillness and does not turn when the stairs creak. "I know why you are here," he says. "Something is under this city, and I have felt it for two days."
 
 **What's true:** Kyzil has been independently investigating his "foul wind" instinct — underground vibrations, unusual foot traffic patterns at storm drains, fragments that didn't coalesce into a picture. He was one or two days from acting alone. The party's intel completes his picture instantly.
 
 **NPC — Kyzil:** Monastic discipline cracks when he processes the scale. The spar was play. This is not. *Wants:* to protect Calveno and Crissdalynn. *Reveals:* (a) his tactical assessment of the party — "The drum is your fulcrum. Protect the bard." (b) if Crissdalynn pushes: the Missing Sentinels. "Three of us were sent to chart the southern currents. None returned. [[sentinels-of-the-eyrie|The Eyrie]] does not speak of them. I have carried their names for eleven years."
 
 > [!dm]
-> **Crissdalynn's spotlight beat.** The Missing Sentinels conversation is the non-combat moment she's owed. It develops her pilgrimage arc and deepens the Kyzil relationship. Let it breathe before the tactical discussion takes over. If the session is running long, the Sentinels can fire after the dungeon — Kyzil will still be here.
+> Give Crissdalynn one quiet Missing Sentinels exchange before tactics. If the session is running long, move it after the dungeon. Kyzil remains available.
 
 **Kyzil's tactical offer (if briefed on the raid):**
 
@@ -242,11 +268,11 @@ Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She 
 | **Stays in reserve** | Monitors the Ponte Bassa and intervenes if the situation deteriorates | Safety net. Arrives after round 5 of any surface combat the party is losing |
 
 > [!dm]
-> Kyzil accompanying the party trivializes the sentry encounters. In the primary chamber, he accelerates Phase 1 (the garrison falls faster, triggering Phase 2 sooner) and is likely the only one standing after the detonation — he becomes the anchor for the Otar fight. If Kyzil reaches the circle and disrupts it before Phase 2, the Slaad is prevented but [[solange-barret|Solange]] detonates and escapes. Trade-off: certainty of preventing [[otar-the-foul|Otar]] vs. [[simone-tabarnack|Simone]] learning about [[jean-claude-tabarnack|JC]].
+> Kyzil trivializes sentries and accelerates Phase 1. If he disrupts the circle before Phase 2, [[otar-the-foul|Otar]] is prevented but [[solange-barret|Solange]] detonates as cover and escapes. Frame the trade-off as certainty of prevention vs. [[simone-tabarnack|Simone]] learning [[jean-claude-tabarnack|JC]] is active.
 
 **If engaged:** Kyzil is an ally. The party chooses his deployment.
 **If ignored:** Kyzil acts alone within 24 hours. He enters the tunnels, finds the secondary sites, and triggers the alert network — making the primary garrison go to maximum readiness.
-**Hook out:** the sewer descent (Scene 3).
+**Hook out:** the sewer descent.
 
 ---
 
@@ -255,37 +281,52 @@ Once [[felix-aho|Felix]] has talked, [[nona-black-jaw|Nona]] marks the map. She 
 *Pull: [[jean-claude-tabarnack\|Jean-Claude]] (primary), full party. Register: exploratory → combat.*
 *Available: when the party enters the sewers.*
 
-The session's spine. The party descends into [[calveno|Calveno]]'s sewer collectors to find and neutralize the blackpowder magazines. The dungeon has three acts: **Discovery** (Rooms 1–3), **Disruption** (Rooms 4–6), and **Confrontation** (the primary — Scene 4). Full keyed dungeon: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines]].
+![[wiki/assets/sessions/session-05/maps/session-05-calveno-sewer-magazines-overview-battlemap-realistic.png|Sewer magazine network overview battlemap — eight-room collector system with entry hatches, magazine sites, the handler relay, and the primary chamber beneath the Mercatura.]]
+
+> [!dm]
+> **Print maps (one per room, landscape).** All eight room battlemaps are in `wiki/assets/sessions/session-05/maps/` as `session-05-room-0N-<name>-battlemap-realistic.png`:
+> Room 1 `le-paludi-access-shaft` · Room 2 `y-junction` · Room 3 `bridge-connector` · Room 4 `magazine-alpha` · Room 5 `magazine-beta` · Room 6 `handler-relay` · Room 7 `main-collector` · Room 8 `primary-detonation-chamber`. Use the overview above at the table; lay down the room map as the party reaches each one.
+
+The session's spine. The party descends into [[calveno|Calveno]]'s sewer collectors to find and neutralize the blackpowder magazines. The dungeon has three acts: **Discovery** (Rooms 1–3), **Disruption** (Rooms 4–6), and **Confrontation** (the primary chamber).
 
 #### Room Quick Reference
 
 | Room | Name | Size | Key Feature | Encounter |
 |---|---|---|---|---|
-| 1 | Le Paludi Access Shaft | 5×5 shaft | Iron ladder, 15 ft drop | DC 10 Athletics (quiet descent) |
-| 2 | Y-Junction | 15×20 | Trail markers (**Clue #3** — red-caste notation) | Optional: 2 canal crocodiles |
-| 3 | Bridge Connector | 60×10 | 4-ft ceiling after 30 ft | Optional: 1 [[grung-elite-warrior\|elite warrior]] |
-| 4 | Magazine Alpha | 20×15 | First magazine — 6 barrels, teaches the pattern | Sentry team (standard) |
-| 5 | Magazine Beta | 20×15 | Incomplete scaffolding (**Clue #1** — builder's notation) | Sentry team (distracted — adv. on Stealth) |
-| 6 | Handler Relay | 15×10 | [[ruma-delacroix\|Ruma]], route map (**Clue #2**), hidden passage, *Globe of Invulnerability* scroll | Social or combat |
-| 7 | Main Collector | 80 ft corridor | "MERCATURA NEXUS 200 PAS" — transition zone | — |
-| 8 | Primary Chamber | 40×40, 15-ft ceiling | Summoning circle, packed ceiling, [[solange-barret\|Solange]] + 4 elites | **Boss encounter** |
+| 1 | Le Paludi Access Shaft | 15×20 landing below 5×5 shaft | Iron ladder, 15 ft drop | DC 10 Athletics (quiet descent) |
+| 2 | Y-Junction | 35×30 irregular | Sunken sump; trail markers (**Clue #3** — red-caste notation) | Optional: 2 canal crocodiles |
+| 3 | Bridge Connector | 70×20 | 4-ft ceiling after 35 ft; barred side culvert | Optional: 1 [[grung-elite-warrior\|elite warrior]] |
+| 4 | Magazine Alpha | 35×25 | Raised ledge, drain trench, 6 barrels, teaches the pattern | Sentry team (standard) |
+| 5 | Magazine Beta | 40×30 | Flooded corner, incomplete scaffolding (**Clue #1** — builder's notation) | Sentry team (distracted — adv. on Stealth) |
+| 6 | Handler Relay | 30×25 | [[ruma-delacroix\|Ruma]], route map (**Clue #2**), hidden passage, *Globe of Invulnerability* scroll | Social or combat |
+| 7 | Main Collector | 90×25 | "MERCATURA NEXUS 200 PAS" — transition zone | — |
+| 8 | Primary Chamber | 60×50 irregular, 15-ft ceiling | Summoning circle, packed ceiling, [[solange-barret\|Solange]] + 4 elites | **Boss encounter** |
+| T1 | Bridge Magazine | template | Barred culvert from Room 3 | Sentry team; use secondary magazine neutralization |
+| T2 | Harbour Approach Magazine | template | Flood overflow vent from Room 7 | Sentry team; use secondary magazine neutralization |
 
 #### Dungeon Overview
 
-**General features:** Dim light (oil lamps at junctions, bioluminescent algae). Ceilings 5–6 ft in collectors (Medium creatures move normally, cannot jump), 8 ft in main collector, 15 ft in primary chamber. Ankle-deep standing water throughout (difficult terrain without swim speed). Combat noise in any room is audible in adjacent rooms.
+**General features:** Dim light (oil lamps at junctions, bioluminescent algae). Ceilings 5–6 ft in collectors (Medium creatures move normally, cannot jump), 8 ft in main collector, 15 ft in primary chamber. Ankle-deep standing water throughout (difficult terrain without swim speed), with deeper sumps and channels where noted. Combat noise in any room is audible in adjacent rooms.
 
-**Three routes to the primary chamber:**
+**Common routes to the primary chamber:**
 
 | Route | Path | Character |
 |---|---|---|
-| A (Bridge) | Entry → Y-Junction → Bridge Connector → Main Collector → Primary | Bypasses magazines — fastest, no intel |
-| B (Le Paludi) | Entry → Y-Junction → Magazine Alpha → Handler Relay → Main Collector → Primary | Encounters handler intel — the investigation route |
-| C (Hidden) | Entry → Y-Junction → Magazine Alpha → Handler Relay → *(hidden passage)* → Primary | Direct, unguarded approach to the climax |
+| A (Bridge hatch) | Bridge district far hatch → Room 3 → Room 7 → Room 8 | Bypasses magazines — fastest, almost no intel |
+| B (Le Paludi) | Room 1 → Room 2 → Room 4 → Room 6 → Room 7 → Room 8 | Investigation route; finds Ruma and clue map |
+| C (Hidden) | Room 1 → Room 2 → Room 4 → Room 6 → hidden passage → Room 8 | Best tactical route; unguarded approach to climax |
+| D (La Vasca) | La Vasca tidal passage → Room 7 → Room 8 | Slow/flooded; bypasses upper network and most clues |
 
 **Reusable stat block — Sentry Team (per secondary magazine):**
 
 > [!mechanic]
-> **Sentry Team.** 2 [[grung-npc|Grung]] (CR 1/4, AC 11, HP 11) + 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2, AC 13, HP 49). Standing orders: hide (Stealth +4/+5, advantage in dim light near water), let intruders pass, report after. Break cover only if the party touches the barrels. Elite Warrior covers retreat with shortbow +5 (1d6+3 + 2d4 poison, DC 12 Con or poisoned). Green-caste flee if the handler dies. Handler breaks at half HP. Mesmerizing Chirr: DC 12 WIS or stunned 1 round if 2+ PCs within 15 ft. **Kill all three silently to prevent a report. Difficulty: Hard (1100 adj. XP).**
+> **Sentry Team.** 2 [[grung-npc|Grung]] (CR 1/4, AC 12, HP 11) + 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2, AC 13, HP 49). **Difficulty: Hard (1100 adj. XP).**
+>
+> - **Orders:** hide (Stealth +4/+5, advantage in dim light near water), let intruders pass, report after.
+> - **Break cover:** only if the party touches barrels, blocks escape, or exposes the team.
+> - **Elite:** Multiattack — 2× shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned); Mesmerizing Chirr (Recharge 6) if 2+ PCs within 15 ft (DC 12 WIS or stunned 1 round).
+> - **Morale:** green-caste flee if handler dies; handler breaks at half HP.
+> - **Alert:** kill all three silently to prevent a report. Any escape puts all remaining sentries on active defense.
 
 **Magazine neutralization (any secondary site):**
 
@@ -296,17 +337,17 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 
 #### Act 1 — Discovery (Rooms 1–3)
 
-**Room 1 — Le Paludi Access Shaft.** 5 × 5 ft shaft, 15 ft deep. The Warren runner's charcoal mark on the frame.
+**Room 1 — Le Paludi Access Shaft.** 15 × 20 ft lower landing beneath a 5 × 5 ft shaft, 15 ft deep. The Warren runner's charcoal mark on the frame.
 
 > [!read-aloud]
-> The ladder is iron, bolted into limestone. Each rung is slick. Fifteen feet down, your boots find standing water and flat stone. The lantern from above casts a cone that reaches the first junction and stops. The walls are close. Scrape marks run along the stone at knee height — something heavy was carried down this shaft recently.
+> The ladder is iron, bolted into limestone, and each rung is slick. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The lantern from the street catches rust, moss, and a low arch leading south. Scrape marks run along the stone at knee height — something heavy was carried down this shaft recently.
 
 DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 
-**Room 2 — Y-Junction.** 15 × 20 ft. Three exits: shaft up, right branch (Bridge connector), left branch (Magazine Alpha). Standing water, collapsed masonry (half cover).
+**Room 2 — Y-Junction.** Roughly 35 × 30 ft. Three exits: north landing, east/right branch (Bridge connector), southwest/left branch (Magazine Alpha). Sunken sump, raised edges, collapsed masonry (half cover).
 
 > [!read-aloud]
-> The shaft opens into a junction where the collector splits. Water pools ankle-deep. To the right, the tunnel narrows into shadow. To the left, the silt is churned — prints and drag marks disappearing around the bend. Low on the left wall, three cuts in the limestone. Small, clean, deliberate.
+> The landing opens into a junction where three collector lines meet around a sunken sump. Water gathers in the middle, dark and still, with raised stone lips along the edges. To the right, the tunnel narrows into shadow, while to the left the silt is churned with prints and drag marks. Low on the left wall: three cuts in the limestone, small, clean, deliberate.
 
 **Key features:**
 
@@ -314,11 +355,11 @@ DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 - **Trail markers:** Three cuts, knee-height, left wall (green/blue directional). Plus a separate set — older, deeper — pointing right toward the Mercatura. **JC reads automatically:** the three are green/blue-caste directional. The older set is **red-caste priority notation** — a different authority level, pointing a different direction. **This is Three Clue #3 for the primary site.**
 
 > [!dm]
-> The red-caste markers are the earliest clue. If JC is present and examines them, he knows a higher-authority path leads right toward the Mercatura. If he's not here or doesn't look, this clue is invisible. Two more clues await in Rooms 5 and 6.
+> The red-caste markers are the earliest clue. If JC is present and examines them, he knows a higher-authority path leads right toward the Mercatura. If he's not here or doesn't look, this clue is invisible; two more clues await in Rooms 5 and 6.
 
 **Optional encounter:** 2 Canal Crocodiles (CR 1/2 each). AC 12, HP 19. Bite +4 (1d10+2, target grappled DC 12). Stealth +2 (advantage submerged). Attack on vibration. Flee if both bloodied. DC 14 Stealth to bypass (disadvantage in armor heavier than leather).
 
-**Room 3 — Bridge Connector.** 60 × 10 ft corridor. Ceiling drops to 4 ft after 30 ft. Medium creatures: half speed, disadvantage on two-handed/heavy melee.
+**Room 3 — Bridge Connector.** 70 × 20 ft connector. Ceiling drops to 4 ft after 35 ft. Medium creatures: half speed, disadvantage on two-handed/heavy melee. Barred side culvert leads toward the Bridge district magazine.
 
 **Optional encounter:** 1 Grung Elite Warrior (CR 2, HP 49) — a late handler finishing a route check. Moves toward the far hatch at full speed. Attacks only if blocked. Does not speak. If JC addresses her in Grung, she stops one beat, then continues. **If she escapes:** all sentry teams go to heightened alert. **Surrenders below half HP if escape is impossible.** Gives nothing except: "The schedule moved."
 
@@ -326,35 +367,40 @@ DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
 
 #### Act 2 — Disruption (Rooms 4–6)
 
-**Room 4 — Magazine Alpha (Le Paludi Yards).** 20 × 15 ft side chamber. The first magazine encounter — teaches the party how sentry teams work and what the blackpowder means.
+**Room 4 — Magazine Alpha (Le Paludi Yards).** 35 × 25 ft side magazine with a raised ledge and drain trench. The first magazine encounter — teaches the party how sentry teams work and what the blackpowder means.
 
 > [!read-aloud]
-> The tunnel opens into a wider section where a side chamber branches left. The air changes — dry, chemical, sharp enough to taste. Against the far wall: barrels. Six of them, stacked two high and three across, lashed with rope and wedged tight with fresh-cut timber.
+> The tunnel opens into a side magazine cut around an old drain trench. The air changes — dry, chemical, sharp enough to taste. Against the far ledge: barrels. Six of them, stacked two high and three across, lashed with rope and wedged tight with fresh-cut timber.
 
 Sentry team as above. Drainage overflow pipe (4-ft diameter) connects to Room 6 — Medium creatures must crawl (half speed, prone, disadvantage on attacks). Small creatures walk normally. JC's climb speed applies.
 
-**Room 5 — Magazine Beta (Working Yards).** 20 × 15 ft. **The incomplete site** — accelerated timeline left the scaffolding half-built.
+**Room 5 — Magazine Beta (Working Yards).** 40 × 30 ft working bay. **The incomplete site** — accelerated timeline left the scaffolding half-built.
 
 > [!read-aloud]
-> This chamber mirrors the last, but the work is unfinished. Scaffolding climbs one wall — half-built, one support beam unsecured. Barrels sit on the floor, not yet stacked. A hand drill and coils of rope lie beside a wooden bowl of cold rice. Someone was eating here recently.
+> This chamber mirrors the last only in purpose. Scaffolding climbs one wall, half-built, one support beam unsecured. Barrels sit on the stones and in the flooded corner, not yet stacked. A hand drill, coils of rope, and a wooden bowl of cold rice sit beside the work.
 
 **Key features:**
 
-- **Incomplete scaffolding:** DC 12 Athletics to collapse it, dumping barrels into standing water. Powder soaks — magazine neutralized without detonation risk. Loud.
+- **Incomplete scaffolding:** DC 12 Athletics to collapse it, dumping barrels into the flooded corner. Powder soaks — magazine neutralized without detonation risk. Loud.
 - **Builder's notation:** Scratched into the unsecured beam in Grung shorthand. DC 15 Investigation to notice. **JC reads automatically:** "anchor south of M — tie to main." DC 12 INT to parse "M" as a Mercatura reference. **This is Three Clue #1 for the primary site.**
 - **Builder's tools:** Chisels, rope, hand drill. Usable for disarming other magazines (grants advantage on DC 12 Sleight of Hand).
 
 Sentry team as standard but distracted — **party gains advantage on Stealth checks to approach.**
 
-**Room 6 — Handler Relay.** 15 × 10 ft dry alcove. Oil lamp, plank desk on barrels. **The intelligence pivot.**
+**Room 6 — Handler Relay.** 30 × 25 ft dry relay alcove raised above the service corridor. Oil lamp, plank desk on barrels. **The intelligence pivot.**
 
 > [!read-aloud]
-> The passage opens into a dry alcove. Swept stone, no standing water. An oil lamp burns low on a plank desk balanced across two barrels. Waxed papers are pinned to the wall — routes, numbers, tide markings in a hand too small for human fingers. A small red-skinned figure sits at the desk with her back to the entrance, cross-referencing one chart against another. She has not heard you yet.
+> The passage rises onto dry, swept stone. An oil lamp burns low on a plank desk balanced across two barrels, with more barrels stacked into a wall behind it. Waxed papers are pinned to the limestone: routes, numbers, tide markings in a hand too small for human fingers. A small blue-skinned figure sits with her back to the entrance, cross-referencing one chart against another, and has not heard the party yet.
 
 **NPC — [[ruma-delacroix|Ruma Delacroix]]:** Blue-caste handler, quartermaster. AC 13, HP 49 ([[grung-elite-warrior|Grung Elite Warrior]] stats). Hand crossbow + signal whistle. **If she blows the whistle:** all sentry teams go to active defense. Reaching for the whistle costs her action. If the party acts before she whistles, she can be talked to.
 
 > [!mechanic]
-> **Ruma — Social Encounter.** Does not want to fight. Surrenders if disarmed and outnumbered. Values survival over operational security. **Triggers:** naming Felix Aho (same rotation — she reacts); JC speaking Grung in handler-register (freezes — profoundly wrong to her). **What she knows:** four secondary sites and status; accelerated timeline ("detonation was two days — now less"); a fifth site exists under red-caste authority ("the circle site"); sentry compositions; egress vent positions. **What she doesn't know:** primary site location, circle purpose, Solange's identity, Simone's identity. **Warning:** if Ruma doesn't check in, the handler network knows within 2 hours. Clock starts.
+> **Ruma — Social Encounter.** She values survival over operational security.
+>
+> - **Triggers:** naming Felix Aho; JC speaking Grung in handler-register.
+> - **Knows:** four secondary sites/status, accelerated timeline, fifth red-caste site, sentry compositions, egress vents.
+> - **Doesn't know:** usable primary route, circle purpose, [[solange-barret|Solange]]'s identity, [[simone-tabarnack|Simone]]'s identity.
+> - **Key use:** her map proves a fifth authority marker exists; JC/trail-marker synthesis makes it navigable.
 
 **Key features:**
 
@@ -362,10 +408,22 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 - ***Globe of Invulnerability* scroll (×1):** Waxed tube under desk. Single-use, 6th-level abjuration. DC 16 Arcana to activate (caster level below spell level). 10-ft radius barrier blocking spells of 5th level or lower. Intended as raid extraction shielding — useful if the party needs to survive their own detonation.
 - **Hidden passage:** Behind stacked barrels along the south wall. DC 16 Investigation. [[ruma-delacroix|Ruma]] does not know it exists — built by [[solange-barret|Solange]]'s team. Leads directly to Room 8 (the primary chamber) from the direction the garrison is not watching. **This is the party's best tactical advantage for the climax encounter.**
 
+**Ruma check-in clock:**
+
+| Time | If not spoofed | If spoofed |
+|---|---|---|
+| T+0 | Ruma captured/killed/delayed; clock starts | JC/Ruma sends routine status |
+| T+1h | Pipe-click inquiry from another handler | No change |
+| T+2h | Handler network marks Room 6 missing; primary garrison goes active defense | No change |
+| T+3h | Remaining secondary teams begin evacuating nonessential labourers | No change |
+| T+8h | Party finishes rest; no patrol enters Room 6, but no surprise in Room 8 unless they use hidden passage | Party finishes rest; hidden passage grants surprise as written |
+
+**Spoofing the check-in:** DC 13 Deception, Intimidation, or Performance using handler-register Grung; JC speaking Grung has advantage. Captured Ruma can do it if promised believable protection.
+
 > [!dm]
-> Room 6 is the long rest location — dry, defensible, no patrols. Sell the rest hard. The party has fought two Hard encounters back-to-back (Rooms 4–5) and is resource-depleted. Describe the dry stone, the oil lamp warmth, the defensible chokepoints. This room is where they sleep.
->
-> It is also the decision point: the party now knows a fifth site exists and has the tools (route map, trail markers, hidden passage) to find it. If they have two of the three clues, the trail converges toward the Mercatura collector. If JC is present, the red-caste markers from Room 2 + the route map here make the direction clear.
+> Room 6 is the long-rest offer: dry, defensible, no patrols. Once Ruma is handled, put the check-in clock on the table. The choice is spoof and rest, rest while the primary fortifies, or press on depleted.
+
+**Primary path:** With two of three clues, the trail converges toward the Mercatura collector. If JC is present, Room 2 red-caste markers + Ruma's route map make the direction clear.
 
 ---
 
@@ -380,32 +438,33 @@ Sentry team as standard but distracted — **party gains advantage on Stealth ch
 | 3 | Red-caste priority trail markers pointing toward the Mercatura, distinct from green/blue | 2 (Y-junction) | JC automatic; impossible without Grung expertise | Yes (entry room) |
 
 > [!dm]
-> Any two clues are enough to find the primary. The trail markers (Room 2) + the commission sign in the main collector ("MERCATURA NEXUS 200 PAS") give JC a direction. The route map (Room 6) confirms the target. All three clues are available without combat.
+> Any two clues are enough to find the primary. The trail markers (Room 2) + the commission sign in the main collector ("MERCATURA NEXUS 200 PAS") give JC a direction. The route map (Room 6) confirms the target; all three clues are available without combat.
 
 **If engaged:** the party rests in Room 6, then follows the clues to the primary chamber.
 **If ignored:** the primary site remains operational. The Slaad summons at detonation.
-**Hook out:** the rest, then Room 7 (Main Collector — 80-ft vaulted tunnel, 8-ft ceiling, running water, trail markers converging). Commission sign on the wall: "MERCATURA NEXUS 200 PAS."
+**Hook out:** the rest, then Room 7 (Main Collector — 90-ft vaulted tunnel, 8-ft ceiling, running water, trail markers converging). Commission sign on the wall: "MERCATURA NEXUS 200 PAS."
 
 ---
 
-### The Rest *(Grung Raid)*
-
-*Pull: all PCs. Register: downtime.*
-*Available: after Room 6 is cleared and the party has intel on the primary site.*
+#### Rest Decision — Room 6
 
 The party is beaten up from two Hard encounters and the social encounter with [[ruma-delacroix|Ruma]]. Room 6 is dry, swept, defensible. The drainage pipe and mortared breach are narrow chokepoints a single watchkeeper can cover. [[ruma-delacroix|Ruma]]'s desk makes a barricade. The party should feel safe here.
 
-> [!dm]
-> **Push the rest.** Make it feel obvious, safe, and smart. Describe the dry stone, the warmth of the oil lamp, the silence after hours of wet tunnels and combat. If the party hesitates, have a PC notice how quiet it is — no patrols, no water, no movement. The festival above is a muffled hum through stone.
->
-> A Warren runner's voice echoes through a maintenance pipe during the first hour — [[nona-black-jaw|Nona]] confirming that Warren fighters are handling the secondary sites the party flagged. The runner also reports: "Nona says rest. She says you'll need it." This gives the party explicit permission to stop and sleep.
->
-> **Heroes' Feast.** The party ate the feast the previous evening at [[nona-black-jaw|Nona]]'s safe house. The 24-hour duration expires during this 8-hour rest. **Do not mention this.** Do not hint at it. Do not volunteer the math. If a player asks when they ate the feast, answer honestly — the calculation is theirs to make, not yours to telegraph. The moment of realization comes when Foul Miasma deals poison damage to someone and they discover they are not immune.
+**Before the rest:** resolve Ruma's check-in. If spoofed, the primary remains unaware. If not, the party still rests safely, but Room 8 loses normal surprise unless they use the hidden passage.
 
-**Watch beats (narrate briefly — none are genuine threats):**
+> [!dm]
+> Make the room feel obvious, safe, and smart: dry stone, warm oil lamp, silence after wet tunnels. During the first hour, a Warren runner reports the flagged secondary sites are handled and says, "Nona says rest; she says you'll need it." This gives explicit permission to stop.
+
+**Heroes' Feast expiration:**
+
+- Feast was eaten the previous evening at [[nona-black-jaw|Nona]]'s safe house; the 24-hour duration expires during this 8-hour rest.
+- Do not mention it, hint at it, or volunteer the math.
+- If asked when they ate, answer honestly; the realization lands when Foul Miasma deals poison damage.
+
+**Watch beats (narrate briefly — none are direct threats):**
 
 - **First watch:** Distant sounds from deeper in the collector — stone settling, water shifting. The festival is muffled through stone overhead. A Warren runner's voice through the maintenance pipe: Nona's confirmation. Nothing approaches.
-- **Second watch:** A canal crocodile investigates the drainage pipe. Two amber eyes in the lamplight. It sniffs and withdraws. Atmosphere only.
+- **Second watch:** If Ruma's check-in was not spoofed, faint pipe-clicks travel through the stone — a handler code no one in the room answers. If spoofed, a canal crocodile investigates the drainage pipe. Two amber eyes in the lamplight. It sniffs and withdraws.
 - **Third watch:** Silence. The standing water in adjacent tunnels stops flowing for several minutes — a tidal shift. Then it resumes. The air carries something faintly wrong from the deeper tunnels. Mineral, organic, not quite nameable.
 
 **On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, ready. Do not mention the feast.
@@ -421,25 +480,24 @@ The party is beaten up from two Hard encounters and the social encounter with [[
 *Pull: [[jean-claude-tabarnack\|Jean-Claude]], [[crissdalynn-khinriss\|Crissdalynn]]. Register: combat.*
 *Available: when the party follows the clues past the main collector.*
 
-The climax encounter. A vaulted collector nexus beneath the Mercatura — 40 × 40 ft, 15-ft ceiling, four drainage channels converging on a central summoning circle. Every crack in the ceiling is packed with blackpowder. [[solange-barret|Solange Barret]] is mid-ritual and will not stop. The fight has three phases: **Garrison** (the party fights four purple-caste elites while Solange channels), **Detonation** (Solange collapses the ceiling when the garrison falters), and **Manifestation** ([[otar-the-foul|Otar the Foul]] erupts through Solange's body into the rubble).
+The climax encounter. A vaulted collector nexus beneath the Mercatura — roughly 60 × 50 ft, 15-ft ceiling, four drainage channels converging on a central summoning circle. Every crack in the ceiling is packed with blackpowder. [[solange-barret|Solange Barret]] is mid-ritual and will not stop. The fight has three phases: **Garrison** (the party fights four purple-caste elites while Solange channels), **Detonation** (Solange collapses the ceiling when the garrison falters), and **Manifestation** ([[otar-the-foul|Otar the Foul]] erupts through Solange's body into the rubble).
 
-![[primary-chamber-battlemap.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
+![[wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic.png|Primary detonation chamber battlemap — vaulted collector nexus with convergent drainage channels, central summoning circle, and scaffolding firing positions.]]
+
+> [!dm]
+> **Print map:** `wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic.png`. Put this on its own landscape page if printing.
 
 > [!read-aloud]
-> The passage opens into a vaulted chamber. The ceiling soars fifteen feet overhead — pale stone, old masonry, the kind that holds up a plaza. Every crack and join in that ceiling is packed with dark powder, held by crude timber scaffolding climbing the walls on all sides. The sheer quantity stops you cold.
->
-> In the centre of the floor, cut into the stone, a circle. Symbols scored deep and precise. Water flows through four channels from the edges of the room, parting around the circle in shallow trenches that keep the stone dry. The circle is bone-white against wet grey. Something about it hums at the edge of hearing.
->
-> A red-skinned Grung kneels at the circle's edge, one hand flat against the stone, the other tracing a final arc with powdered chalk. She does not look up. She does not stop. Four purple-caste warriors hold positions at the drainage channels, weapons drawn, facing outward. They saw you first.
+> The passage opens into a vaulted collector nexus broad enough to swallow the sound of your steps. Fifteen feet overhead, every crack and join in the pale stone ceiling is packed with dark powder, held by crude timber scaffolding. In the centre of the floor, a bone-white circle hums where four drainage channels part around it. A red-skinned Grung kneels at the circle's edge, one hand on stone, while four purple-caste warriors hold the channels with weapons drawn.
 
-**What's true:** [[solange-barret|Solange Barret]] is channeling the summoning ritual. She uses her action each turn to sustain it — she cannot attack, cast offensive spells, or move more than 5 ft from the circle. Mirror Image already active (3 duplicates). Her reaction is reserved for one thing: detonating the ceiling. Four purple-caste [[grung-elite-warrior|Elite Warriors]] hold the drainage channel entrances. Standing order: **shoot on sight.** The hidden passage from Room 6 emerges behind the south scaffolding — the garrison is not watching this direction.
+**What's true:** [[solange-barret|Solange Barret]] is channeling the summoning ritual. She uses her action each turn to sustain it — she cannot attack, cast offensive spells, or move more than 5 ft from the circle. Mirror Image already active (3 duplicates). Her reaction is the pressure point: she can Counterspell or Detonate, not both in the same round. Four purple-caste [[grung-elite-warrior|Elite Warriors]] hold the drainage channel entrances. Standing order: **shoot on sight.** The hidden passage from Room 6 emerges behind the south scaffolding — the garrison is not watching this direction.
 
 #### The Garrison
 
 > [!mechanic]
 > **[[solange-barret|Solange Barret]] (CR 3).** AC 15 (Circle Ward). HP 66. Mirror Image active (3 duplicates). **Channeling:** uses her action each turn to sustain the summoning ritual. Cannot attack or cast offensive spells. Can use her reaction for Counterspell OR Detonate (see Phase 2). **Poisonous Skin:** DC 12 CON or poisoned on contact. **Circle Ward:** within 10 ft of circle, AC 15, advantage on concentration saves. The summoning circle deflects the detonation blast — Solange takes no damage from the ceiling collapse.
 >
-> **4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each).** AC 13, HP 49. Multiattack: 2 × shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned). Standing Leap 25 ft. Mesmerizing Chirr: DC 12 WIS, stun 1 round. One per drainage channel entrance — 40-ft spread forces individual engagement. **They are expendable. Solange does not protect them.**
+> **4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each).** AC 13, HP 49. Multiattack: 2 × shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned). Standing Leap 25 ft. Mesmerizing Chirr (Recharge 6): DC 12 WIS, stun 1 round. One per drainage channel entrance — 50-ft spread forces individual engagement. **They are expendable. Solange does not protect them.**
 >
 > **Difficulty: Extremely Deadly (5000 adj. XP).** Rewards stealth, planning, and environmental creativity over direct assault.
 
@@ -451,71 +509,67 @@ Solange does not fight. She channels. The four Elite Warriors are the encounter 
 
 **Terrain (Phase 1):**
 
-- **Summoning circle:** 10-ft diameter. Bright light 10-ft radius, dim light 10 ft beyond. **JC's Umbral Sight does not function in the bright zone.** DC 14 Arcana: extraplanar summoning. DC 20 or critical: configured for a Slaad, unbound. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line.
-- **Scaffolding:** 8 ft. Elevated positions: +2 AC vs. melee from below. DC 10 Athletics to climb. Destroying a section: DC 12 Athletics or 10 HP — collapses, 1d6 bludgeoning, difficult terrain.
+- **Summoning circle:** 15-ft diameter. Bright light 10-ft radius, dim light 10 ft beyond. **JC's Umbral Sight does not function in the bright zone.** DC 14 Arcana: extraplanar summoning. DC 20 or critical: configured for a Slaad, unbound. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line.
+- **Scaffolding:** 10 ft. Elevated positions: +2 AC vs. melee from below. DC 10 Athletics to climb. Destroying a section: DC 12 Athletics or 10 HP — collapses, 1d6 bludgeoning, difficult terrain.
 - **Drainage channels (×4):** 3 ft deep, 5 ft wide. Difficult terrain. Half cover for prone creatures.
 - **Blackpowder ceiling:** Fire or thunder damage anywhere in the room triggers the full detonation (see Phase 2). The party should understand this risk before anyone lights a torch.
 
 > [!dm]
-> Solange's channeling is visible and legible. She is kneeling, one hand on stone, drawing with the other. DC 12 Arcana: sustaining a ritual that requires unbroken concentration. DC 15 Arcana: close to completion — minutes, not hours. The hum grows louder each round. This telegraphs that she is the objective, not the elites.
->
-> Solange can still use her reaction. If a spellcaster targets the circle or casts a control spell threatening her concentration, she Counterspells (auto-counters 3rd level or lower, +5 check for higher). She has two Pact Magic slots — each Counterspell burns half her resources and costs her the detonation trigger for that round. Force her to choose: protect the ritual or save the dead-man switch.
+> Solange's channeling is legible: kneeling, one hand on stone, the hum growing each round. DC 12 Arcana: sustaining a ritual that requires unbroken concentration; DC 15: close to completion, minutes not hours. This telegraphs Solange/circle as the objective, not the elites.
+
+> [!mechanic]
+> **Solange's reaction choice.** If a spellcaster targets the circle or threatens her concentration, she Counterspells (auto-counters 3rd level or lower, +5 check for higher). Each Counterspell spends one of two Pact Magic slots and prevents Detonate until her next turn. Force the choice: protect the ritual or keep the dead-man switch ready.
 
 **Terrain shift (round 3):** If the circle is not disrupted, bright light expands to 20-ft radius (most of the chamber — JC's Umbral Sight ceases to function anywhere). Water in channels reverses, rising to 4 ft deep (Medium creatures: half speed, disadvantage on melee).
 
 #### Phase 2 — The Ceiling Falls
 
-**Trigger:** the second Elite Warrior drops to 0 HP.
+**Trigger:** first of the following: the second Elite Warrior drops to 0 HP; the circle is disrupted; Solange starts her turn with no Elite within 10 ft of the circle; fire or thunder damage happens anywhere in the room.
 
 > [!mechanic]
-> **Detonate (Reaction).** Solange uses her reaction the instant the second Elite Warrior falls. This cannot be counterspelled — it is not a spell. It is a command word keyed to alchemical fuses in the scaffolding.
+> **Detonate (Reaction).** Solange uses her reaction the instant a trigger fires. If she already spent her reaction on Counterspell, the detonation waits until her next turn unless fire/thunder has already ignited the powder. This cannot be counterspelled — it is not a spell. It is a command word keyed to alchemical fuses in the scaffolding.
 >
-> **8d6 fire damage, 40-ft radius (entire chamber), DC 16 DEX half. Ceiling collapse: 4d6 bludgeoning, DC 16 STR or buried** (restrained, DC 16 STR to escape as an action).
+> **8d6 fire damage across the chamber and 10 ft into each exit, DC 16 DEX half. Ceiling collapse: 4d6 bludgeoning, DC 16 STR or buried** (restrained, DC 16 STR to escape as an action).
 >
 > **Solange takes no damage.** The summoning circle is a closed ward — it deflects the blast in a 10-ft radius. Anyone outside the circle takes the full detonation. The surviving Elite Warriors are not protected. They are spent.
 >
 > **The Mercatura plaza collapses.** A 30-ft section of ceiling — and the plaza floor above — drops into the chamber. Daylight and dust flood in. The room is now a crater open to the sky.
 
+> [!mechanic]
+> **Detonation checklist**
+>
+> 1. Check whether Solange has a reaction; if not, detonation delays unless fire/thunder ignited powder.
+> 2. Resolve *Globe of Invulnerability* if pre-cast/activated.
+> 3. Roll DC 16 DEX saves for 8d6 fire.
+> 4. Roll DC 16 STR saves for collapse; failures are buried/restrained.
+> 5. Mark prone/cover/rubble and collapse the Mercatura plaza.
+> 6. Solange remains untouched inside the circle and completes the ritual next turn unless the circle was disrupted.
+
 > [!read-aloud]
-> One word. She says one word, and the ceiling becomes light.
->
-> The blast hits your chest before you hear it. Stone and fire and a pressure wave that throws you off your feet. Timber splinters. Masonry falls in slabs. The world is dust and heat and the ringing silence after a sound too loud to process. Above — where the ceiling was — sky. Broken cobblestones and festival cloth hang from the edges of a hole thirty feet wide. Daylight cuts through the dust in pale shafts. The Mercatura plaza is open above you, and people up there are screaming.
->
-> She is still kneeling at the circle. Untouched. Dust settles around her in a perfect ring, as if the explosion parted around the inscriptions and kept going. Her hand has not left the stone.
+> One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. Solange is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
 
 > [!dm]
-> The party is damaged, possibly buried, possibly prone. Solange is untouched and still channeling. They have one round — maybe two — before Phase 3. The *Globe of Invulnerability* scroll from Room 6 would block the blast if activated before the detonation (the scroll was designed for surviving self-inflicted detonation — rule it works). DC 16 Arcana to activate. If a PC anticipated this and pre-cast the scroll, they are shielded. If [[master-kyzil|Kyzil]] is present, he has the HP and saves to survive — he is likely the only one still standing.
+> Give the party one round, maybe two, before Phase 3. *Globe of Invulnerability* blocks the blast only if activated before detonation (DC 16 Arcana). If [[master-kyzil|Kyzil]] is present, he is likely still standing.
 
 #### Phase 3 — Otar the Foul
 
 On Solange's next turn after the detonation, she completes the ritual.
 
 > [!read-aloud]
-> She finishes the last line. The chalk hits the stone and the circle ignites — not fire, not light. Darkness. A shadow pools at her feet, thick and fast, spreading outward from the inscriptions like spilled ink. It reaches her knees and stops.
->
-> Then it moves upward. The shadow gathers against her body, climbing her skin like something alive. It forms a shape at her feet — a jaw, wide and blunt, too large for the thing casting it. The jaw opens. It closes around her.
->
-> Black ichor. That is what the shadow becomes — a thick black fluid that coats her red skin, hissing where it touches, sizzling like fat on a hot pan. She does not scream. Her mouth opens but the sound that comes out is not hers. It is lower. Older. Wrong.
->
-> Her body changes. Not slowly. The bones in her arms crack and lengthen. Her spine arches and keeps arching past where a spine should stop. Skin splits along her shoulders and only partly heals — red tissue visible beneath, already hardening into something that is not skin anymore. Her hands hit the stone and they are not hands. She grows. The circle cracks beneath the weight. She grows more.
->
-> Two seconds. Maybe three. Solange Barret is gone. What stands in the circle is red, enormous, and breathing in a way that sounds like stone grinding against stone. It opens a mouth wider than a mouth should open, and it looks at you the way a fire looks at a building.
+> She finishes the last line, and the circle ignites into darkness. Shadow pools at her feet, rises like black ichor, and forms a blunt jaw that closes around her. Her bones crack, her spine lengthens, and her hands hit the stone as something else. Two seconds, maybe three, and Solange Barret is gone; what stands in the circle is red, enormous, and breathing like stone grinding on stone.
 
 Above the crater, the crowd has not caught up. The explosion read as spectacle — festival week, the [[il-gioco-delle-beffe|Beffa]] still running. Dust settles. People edge closer. One woman leans over the broken lip of the plaza, squinting down through the haze at the shape standing in the rubble.
 
 > [!read-aloud]
 > "It looks so real!" she says.
 >
-> The tongue moves faster than the eye can follow. Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls. She is off the edge and in the air and gone before the word "real" has finished echoing off the canal walls. The mouth opens. It closes. The scream of surprise is cut short by a sound that is not a sound anyone in that crowd will ever forget — a wet, heavy crunch, like a boot through thin ice.
->
-> Silence. One heartbeat. Two.
->
-> Then the screaming starts.
+> Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls. She is off the edge and gone before the word "real" finishes echoing off the canal walls. The mouth opens, closes, and a wet crunch cuts the scream short as the crowd finally starts screaming.
 
 > [!dm]
-> This is the moment the Beffa conditioning breaks. Three days of false alarms trained this crowd to laugh first. Now a woman is dead and the thing in the crater is chewing. Let the table sit with it before rolling initiative for Phase 3. Solange was never the boss. She was the delivery system.
->
-> Otar does not know where he is. He does not care. He is hungry and confused and enormous and standing in a crater full of injured people. He acts on instinct — the nearest moving thing gets his attention first. The transformation cannot be reversed. Solange is consumed.
+> The Beffa conditioning breaks here: the crowd laughed first, then watched someone die. Let the silence land before Phase 3 initiative. Solange was the delivery system, not the boss.
+
+> [!dm]
+> Otar is hungry, confused, and enormous. The nearest moving thing gets his attention first. Solange is consumed; there is no reversal.
 
 **[[otar-the-foul|Otar the Foul]] (CR 8).** AC 15. HP 152. Speed 40 ft, climb 20 ft. Legendary Resistance (1/Day). Magic Resistance. Full stat block: [[otar-the-foul|Otar the Foul]].
 
@@ -536,9 +590,16 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 **Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation).
 
 > [!dm]
-> **The clock still runs.** Every round of the Otar fight is a round the extraction runs at any secondary site the party didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save.
+> Every Otar round advances extraction at unneutralized sites: after round 3, DC 12 Perception hears screams from the Bridge; after round 5, smoke rises from Le Paludi. Force the stay-and-kill vs. split-and-save decision.
+
+> [!mechanic]
+> **Brutal by design.** The party is rested but Heroes' Feast expired during the Room 6 long rest.
 >
-> **The fight is brutal by design.** The party is rested (full HP, full slots) but Heroes' Feast expired during the long rest in Room 6. Foul Miasma now deals 1d6 poison per turn in melee range. Elite Warrior poison arrows connect (2d4 + DC 12 poisoned). Mesmerizing Chirr has no Wisdom advantage to resist. The +2d10 max HP buffer is gone. The party has resource depth instead of defensive buffs — a different kind of hard. If the fight tilts toward a TPK, the Rattle fires (see Safety Valve below).
+> - Foul Miasma deals 1d6 poison per turn in melee range.
+> - Elite poison arrows matter again: 2d4 poison + DC 12 poisoned.
+> - Mesmerizing Chirr no longer faces Wisdom-save advantage.
+> - The +2d10 max HP buffer is gone.
+> - If a TPK forms, fire the Rattle.
 
 #### Safety Valve — The Rattle
 
@@ -550,7 +611,7 @@ The detonation collapsed the Mercatura plaza. The sound carries into [[le-paludi
 > **The Rattle at the Mercatura.** On the round after the trigger fires (initiative 20), the party hears it — metal on metal, cascading through stone, the same rhythm they heard as a drill in Session 04.
 
 > [!read-aloud]
-> Metal on metal. Faint, through the rubble, through the stone — a pan, struck in a rhythm you know. Another answers. Then another. The sound climbs through vents and pipes and broken masonry until it seems to come from everywhere at once. You have heard this before. In a kitchen. In a place that smelled like garlic and bread. It was thirty seconds then. It is thirty seconds now.
+> Metal on metal. Faint through the rubble, a pan strikes a rhythm you know. Another answers, then another, until the sound comes from every vent and broken pipe at once. You heard it in a kitchen that smelled like garlic and bread; it was thirty seconds then, and it is thirty seconds now.
 
 > [!mechanic]
 > **Next round (initiative 20):** [[warren|Warren]] community emerges from alleys, canal access points, and festival crowd edges. Not soldiers. The community:
@@ -564,17 +625,15 @@ The detonation collapsed the Mercatura plaza. The sound carries into [[le-paludi
 > **Net effect:** Healing, fire (regen suppression), and breathing room. Otar wastes legendary actions on civilians. The Rattle does not kill Otar — it buys the party space to regroup and finish the fight.
 
 > [!dm]
-> **[[perrin-black-jaw|Perrin]]'s moment.** He hears the Rattle and knows what it means. The thing his grandmother built — not a military, not a militia, but a community that decided simultaneously to fight. The same sound he heard as a drill in a kitchen that smelled like garlic. Now it is real, and it is saving his life. This is the emotional payoff for two sessions of family-thread setup. Let it land before you return to initiative.
->
-> **Two quick taps after silence** — when Otar falls. The Rattle stops. The pans go back behind the cutting boards. But this time, life does not resume as if nothing happened. A Slaad is dead in the Mercatura. The Warren showed its face to Calveno. Nothing goes back.
+> **[[perrin-black-jaw|Perrin]]'s moment.** He knows what the Rattle means: the community chose to fight. Let that recognition land, then return to initiative. When Otar falls, two quick taps end the Rattle and the Warren has shown its face to Calveno.
 
 #### Tactical Summary
 
 | Phase | Trigger | Party Goal | Danger |
 |---|---|---|---|
 | **1 — Garrison** | Combat starts | Reach Solange or disrupt the circle | Elite Warriors stun + poison; Solange Counterspells |
-| **2 — Detonation** | 2nd Elite Warrior drops | Survive | 8d6 fire + 4d6 bludgeoning; buried; plaza collapse |
-| **3 — Manifestation** | Solange's next turn | Kill Otar | CR 8 boss vs. damaged party; secondary-site clock |
+| **2 — Detonation** | 2nd Elite drops, circle disrupted, no guard, or fire/thunder | Survive | 8d6 fire + 4d6 bludgeoning; buried; plaza collapse |
+| **3 — Manifestation** | Solange's next turn, unless circle disrupted | Kill Otar | CR 8 boss vs. damaged party; secondary-site clock |
 
 #### Party Advantages
 
@@ -582,26 +641,26 @@ The party enters the primary chamber rested (full HP, slots, inspiration) but wi
 
 - **Full resources:** The long rest means every spell slot, every Bardic Inspiration die, every Ki/Focus point. The party is at peak capacity. This is the tradeoff for losing the feast.
 - **Hidden passage:** Reverses surprise. May let a PC reach Solange before elites react.
-- **Circle disruption (DC 18 Arcana):** If disrupted before Phase 2, the summoning fails. Solange still detonates and escapes via Misty Step + Dimension Door. Plaza collapses, no Otar. This is the "clean" win — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
+- **Circle disruption (DC 18 Arcana):** If disrupted before Phase 2, the summoning fails. Solange still detonates as cover and escapes by *Dimension Door* or a prepared route. Plaza collapses, no Otar. This is the "clean" win — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
 - **Globe of Invulnerability scroll:** DC 16 Arcana to activate before detonation — shields a 10-ft radius from the blast. Reward for carrying Room 6 loot into the fight.
 - **Vertical terrain:** 15-ft ceilings (Phase 1) and open sky (Phase 3) reward [[crissdalynn-khinriss\|Crissdalynn]]'s flight and [[delmar-fisk\|Delmar]]'s [[boots-of-flying\|boots]].
 - **Bardic inspiration:** [[perrin-black-jaw\|Perrin]]'s d8 makes DC 12 Chirr saves manageable and turns AC 13 misses into hits. Without the feast's Wisdom save advantage, Perrin's inspiration is the PRIMARY defense against Chirr stuns. Protecting him is the tactical key.
 - **Kyzil (if present):** Survives the detonation. Becomes the anchor for Phase 3.
-- **The Rattle:** If the fight goes badly, the [[warren|Warren]] responds. See "Safety Valve — The Rattle" below.
+- **The Rattle:** If the fight goes badly, the [[warren|Warren]] responds. See "Safety Valve — The Rattle" above.
 
 #### If the Circle Is Disrupted Before Phase 2
 
-The summoning fails. Solange uses Misty Step to escape the blast zone, detonates the ceiling, then Dimension Doors to the surface. She reports to [[simone-tabarnack|Simone]]: the primary is compromised, a Grung defector identified caste notation. **Simone now knows JC is alive and active.** No Otar. The plaza still collapses. The party survives a building collapse but the boss fight does not happen.
+The summoning fails. Solange detonates the ceiling as cover and escapes by Dimension Door or a prepared route through the rubble. She reports to [[simone-tabarnack|Simone]]: the primary is compromised, a Grung defector identified caste notation. **Simone now knows JC is alive and active.** No Otar. The plaza still collapses. The party survives a building collapse but the boss fight does not happen.
 
 #### Aftermath
 
 **Otar killed:** The body falls. Bleeds iridescent fluid into the rubble. A thirty-foot crater in the Mercatura — festival cloth hanging from broken edges, dust settling, civilians screaming. The summoning circle is cracked and dark beneath the corpse. Solange is consumed. She will not report to [[simone-tabarnack|Simone]].
 
-**Party defeated:** Otar rampages through the crater into the Mercatura crowds. The city's armed response arrives within minutes but Otar fixes them while the extraction runs. Worst outcome. Use the Raid Scale table (Scene 7) for consequences.
+**Party defeated:** Otar rampages through the crater into the Mercatura crowds. The city's armed response arrives within minutes but Otar fixes them while the extraction runs. Worst outcome. Use the Raid Scale table in "The Detonation Fires" for consequences.
 
 **If engaged:** the party has stopped the worst of the raid. What remains depends on how many secondary sites they neutralized.
-**If ignored:** the primary fires tomorrow on the shortened timeline. Scene 7.
-**Hook out:** aftermath and recovery — or the secondary detonations (Scene 7) if the clock is running.
+**If ignored:** the primary fires tomorrow on the shortened timeline. Use "The Detonation Fires."
+**Hook out:** aftermath and recovery — or the secondary detonations if the clock is running.
 
 ---
 
@@ -611,18 +670,16 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 *Available: when the party takes a boat — to reach waterside attack points, the [[hcs-surety\|Uncertainty]], or the outer quay.*
 
 > [!read-aloud]
-> The canal boat clears the inner harbor. The water changes — darker, deeper, the festival noise behind you thinning to wind and wave. Perrin feels it before he sees it: a pressure in his chest, the same low hum he heard in the dream off Auralis. Something is under the boat. Something large. Something that has been waiting.
->
-> A pale shape passes beneath the hull — bioluminescent, enormous, slow. It is not a fish. It is not a whale. It is something that wants to be seen. And it is looking up.
+> The canal boat clears the inner harbor. The water changes: darker, deeper, the festival noise behind you thinning to wind and wave. Perrin: the same low hum from the dream off Auralis answers from below. A pale bioluminescent shape passes beneath the hull, enormous and slow, not fish, not whale, looking up.
 
 > [!dm]
-> **Perrin's spotlight.** He has gone two sessions without personal thread advancement. This is his moment. The whale — the "Grow" entity from the [[abyss-vision|Abyss Vision]] — is making second contact. It does not attack. It does not communicate in words. It presses a feeling: recognition, patience, hunger that is not hostile. The other PCs see the shape under the water. Only Perrin feels the hum.
->
-> Let the player decide what Perrin does. If he reaches toward the water, the light beneath intensifies — then fades. Contact made. No answers given. The entity is patient. It will come again.
+> This is Perrin's second contact with the "Grow" entity from the [[abyss-vision|Abyss Vision]]. It does not attack or speak; it presses recognition, patience, and non-hostile hunger. Other PCs see the shape; only Perrin hears the hum.
 
-> [!check] Perception (DC 12) — Other PCs
-> Success: the shape is at least 40 feet long. The bioluminescence pulses in a pattern — not random, not natural.
-> Failure: something large under the boat. Gone before they get a good look.
+> [!check] Perception — Other PCs see the whale
+> DC 12.
+> - Fail: something large under the boat, gone before a clear look.
+> - Success: the shape is at least 40 feet long.
+> - Crit success: the bioluminescence pulses in a pattern — not random, not natural.
 
 **If engaged:** Perrin has made contact. The entity's interest is confirmed. This thread is now personal and immediate — when Perrin next dreams, the vision will be clearer.
 **If ignored:** The whale follows the boat to the harbor mouth, then descends. Fishermen report it the next day. The thread advances whether Perrin acknowledges it or not.
@@ -636,19 +693,17 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 *Available: mid-session — fires when the party is underground or otherwise occupied.*
 
 > [!dm]
-> Time this for maximum complication. The best moment: while the party is in the sewers and Nona is coordinating the Warren response from the safe house. A Warren runner arrives breathless at whatever entrance the party used, or finds them when they surface. The message: "Old tortle at the outer quay. Asking for Nona. Asking for a Rattkin named Black-Jaw."
+> Fire this while Nona is coordinating and party attention is split. Message: "Old tortle at the outer quay; asking for Nona and Black-Jaw."
 
 > [!read-aloud]
-> The Warren runner is young and out of breath. She finds Nona — or whoever is at the safe house — and speaks fast: "There's a tortle at the outer quay. Old. Big. Asking for you by name, Nona. And asking for someone called Black-Jaw. He's been to three ports looking."
+> The Warren runner is young, soaked, and out of breath. "There's a tortle at the outer quay: old, big, asking for Nona by name." She swallows and looks at Perrin. "He's asking for someone called Black-Jaw; he says he has been to three ports looking."
 
 **What's true:** [[anzolo|Anzolo]] has arrived in [[calveno|Calveno]]. He has been hunting for Perrin through the [[the-passage|Passage]] network for weeks. He does not know the search is over — Nona's call-off never reached him. Behind him, one stop: a [[tessarine-concordat|Tessarine]] patrol that followed his wake. The patrol will dock in Calveno within hours.
 
 **NPC — Anzolo:** Old tortle. Nona's enforcer-turned-searcher. Traveled weeks through dangerous waters. He is tired, relieved, and confused — the safe house is running a military operation and nobody told him why. *Wants:* to see Perrin; to report to Nona. *Reveals:* "I've been followed. I didn't see them until the last strait. Small patrol ship. Tessarine colors." (He does not know they're still behind him.)
 
 > [!dm]
-> **The convergence:** Anzolo arriving at the safe house during the Grung counter-operation creates a double crisis. Nona's attention is split between the bombing plot and her returning enforcer. If the Tessarine patrol follows Anzolo to Nona's safe house, the Passage's Calveno operations are exposed at exactly the worst moment.
->
-> **Perrin's choice:** does he go to Anzolo now (interrupting the counter-operation) or finish the mission first (leaving his family thread hanging while the Tessarine close in)?
+> Anzolo's arrival splits Nona's attention during the counter-operation. If the Tessarine follows him to the safe house, the Passage's Calveno operations are exposed at the worst moment. Perrin chooses: go now, or finish the mission while the patrol closes in.
 
 **If engaged:** Perrin meets Anzolo. The reunion is real but interrupted by the crisis. Nona must decide: move Anzolo to a different safe house (splitting her resources) or bring him inside the operation (risking Tessarine discovery).
 **If ignored:** Anzolo waits at the outer quay. The Tessarine patrol docks. They begin asking questions in the harbor district. Within hours, someone mentions "the Rattkin woman who feeds people in Le Paludi."
@@ -656,40 +711,36 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 
 ---
 
-### The Detonation Fires *(Grung Raid) (optional)*
+## Fail-Forward: The Detonation Fires
 
 *Pull: All PCs. Register: combat.*
 *Available: if the party fails to stop the primary site, or if you end the session on the raid itself.*
 
 > [!dm]
-> **This scene fires only if the party did not reach the primary chamber.** If they fought in Room 8, the detonation and Otar manifestation already happened during Scene 4 — use only the secondary-strike and aftermath portions of this scene. If the party focused on secondary sites and never found the primary, or the timeline runs out, this scene covers the surface-level consequences: Solange completes the ritual underground, transforms into Otar's host (consumed in the process), and Otar claws out of the rubble into the Mercatura. It can also serve as a cliffhanger — end on the first detonation sound and save the combat for Session 06.
+> Fire this only if the party did not reach the primary chamber. If they fought in Room 8, use only the secondary-strike and aftermath portions here. This can also be a cliffhanger: end on the first detonation sound and save Otar for Session 06.
 
 **The moment:**
 
 > [!read-aloud]
-> The sound comes from below. Not thunder — thunder has a sky. This has stone. The Mercatura plaza shudders once, a ripple running through the cobblestones like a wave through water. Then the centre drops. Twenty feet of plaza collapses inward — stone, earth, festival cloth, people — falling into a cloud of dust and noise that swallows everything. The crowd does not scream. They are waiting for the punchline.
->
-> Then something hauls itself out of the hole.
+> The sound comes from below, not thunder; thunder has a sky, and this has stone. The Mercatura plaza shudders once, then the centre drops inward — stone, earth, festival cloth, people. The crowd does not scream yet; they are waiting for the punchline. Then something hauls itself out of the hole.
 
 > [!read-aloud]
-> It is red. It is enormous. Arms too long for its body, a mouth that opens wider than a mouth should, and eyes that look at the crowd the way a fire looks at a building. The Slaad shakes the dust from its back, opens that impossible mouth, and roars.
+> It is red and enormous. Arms too long for its body, a mouth that opens wider than a mouth should, and eyes that look at the crowd the way a fire looks at a building. The Slaad shakes the dust from its back, opens that impossible mouth, and roars. The screaming starts.
+
+> [!mechanic]
+> **Otar cold-run card (CR 8).** AC 15, HP 152, Speed 40 ft/climb 20 ft, Legendary Resistance 1/day, Magic Resistance.
 >
-> The screaming starts.
-
-**[[otar-the-foul|Otar the Foul]] (CR 8).** AC 15. HP 152. Speed 40 ft, climb 20 ft. Legendary Resistance (1/Day). Magic Resistance.
-
-- **Multiattack:** Bite (+8, 2d8+5 + DC 15 Con Slaad egg), Claw (+8, 2d6+5, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft + grappled).
-- **Foul Miasma:** 10-ft radius, lightly obscured, 1d6 poison/turn.
-- **Entropic Regeneration:** 10 HP/round. **Suppressed by fire or acid.**
-- **Chaos Pulse (Recharge 5–6):** 20-ft radius, DC 15 Dex, 4d10 force + prone.
-- **Unstable Form (≤75 HP):** Melee attacks +1d6 acid; melee attackers within 5 ft take 1d10 acid.
-- **Legendary Actions (2/round):** Lash (Tongue Lash), Thrash (5-ft DC 16 Str push + prone), Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
-- **Rubble Surge (reaction):** Hurls rubble at creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0.
+> - Multiattack: Bite +8 (2d8+5 + DC 15 Con Slaad egg), Claw +8 (2d6+5, 10-ft reach), Tongue Lash +8 (1d8+5, 30-ft reach, DC 16 Str or pulled 25 ft + grappled).
+> - Foul Miasma: 10-ft radius, 1d6 poison/turn.
+> - Entropic Regeneration: 10 HP/round; suppressed by fire or acid.
+> - Chaos Pulse (Recharge 5–6): 20-ft radius, DC 15 Dex, 4d10 force + prone.
+> - Legendary Actions (2/round): Lash, Thrash, or Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
+> - Full kit (Unstable Form ≤75 HP, Rubble Surge reaction, Shattered Chamber lair actions): see **The Primary Chamber → Phase 3**.
 
 **Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart — 2 flasks of alchemist's fire (DC 14 Investigation). [[ruk|Ruk]] arrives after round 5 with a lit torch and a cleaver if the party is struggling.
 
 > [!dm]
-> Every round the party fights Otar is a round the extraction runs at any secondary site they didn't neutralize. After round 3: DC 12 Perception hears screams from the Bridge. After round 5: smoke visible from Le Paludi. The party must decide: stay and kill, or split and save. A fully intact raid takes 200–300 captives. Each lane the party closed reduces the count.
+> Every Otar round advances extraction at unneutralized sites. Round 3: DC 12 Perception hears screams from the Bridge; round 5: smoke rises from Le Paludi, forcing stay-and-kill vs. split-and-save. A fully intact raid takes 200–300 captives; each closed lane reduces the count.
 
 **Raid Scale — Based on Party Actions:**
 
@@ -697,16 +748,16 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 |---|---|---|---|
 | **Fully intact** (0 sites neutralized) | 200–300 | Summoned, fights at Mercatura | Watershed — the Shattered Sea dates from this |
 | **Partially disrupted** (1–2 sites) | 100–200 | Summoned if primary intact | Unprecedented. Smaller scale, same proof of concept |
-| **Heavily disrupted** (3+ sites, primary found) | 30–60 | Not summoned | The attempt is the story. Calveno knows what almost happened |
-| **Broken** (primary destroyed, network compromised) | 0–20 | Not summoned | The Grung came, were stopped, and the [[dravosi-crown|Dravosi]] gap is a public question |
+| **Heavily disrupted** (3+ secondary sites neutralized, primary disrupted/destroyed) | 30–60 | Not summoned | The attempt is the story. Calveno knows what almost happened |
+| **Broken** (primary disrupted/destroyed, network compromised) | 0–20 | Not summoned | The Grung came, were stopped, and the [[dravosi-crown|Dravosi]] gap is a public question |
 
 **[[nona-black-jaw\|Nona]]'s emergence (aftermath):** Within the hour, Nona walks into the dust of the Mercatura with a ladle and a loaf of bread. [[enzo\|Enzo]] in his suit, [[ruk\|Ruk]] with a cauldron. She feeds the injured. Then she speaks:
 
 > [!read-aloud]
-> "I know what this is. I know what it is to look for someone who was here a minute ago and find nothing. My people have been disappearing for decades. Today it happened to you. The Passage stands with the citizens of Calveno. I will assemble a crew. We will make chase. And we will bring your brothers and your sons and your fathers back."
+> "I know what this is: to look for someone who was here a minute ago and find nothing. My people have been disappearing for decades, and today it happened to you. The Passage stands with the citizens of Calveno; I will assemble a crew and make chase. We will bring your brothers and your sons and your fathers back."
 
 > [!dm]
-> Nona's vow is the session's emotional anchor if the raid fires. She can provide: the *Brezza Nera* (fast sloop), eight Warren volunteers, Passage intelligence on the *vethka* heading, and a Tangle resupply contact at Marengo. Perrin's existing favor covers the party. The pursuit is Session 06.
+> Nona's vow anchors the raid aftermath. She can provide the *Brezza Nera*, eight Warren volunteers, Passage intelligence on the *vethka* heading, and a Tangle resupply contact at Marengo; Perrin's existing favor covers the party. The pursuit is Session 06.
 
 **If engaged:** the party fights Otar and/or responds to the secondary strikes. The world changes.
 **If ignored:** the raid runs its full course. Nona assembles the pursuit without the party.
@@ -719,6 +770,7 @@ The summoning fails. Solange uses Misty Step to escape the blast zone, detonates
 Keep these **unassigned** — give each to the first action that earns it.
 
 - [[felix-aho|Felix]]'s barrel count doesn't add up — 32 transported, 22 placed at four sites. The missing 10 barrels point to a fifth location he was never allowed to see — via **DC 12 Persuasion during interrogation** or **Felix volunteers under patient questioning**.
+- Exact secondary sentry pattern is two greens and one blue handler, with the blue carrying the whistle — via **DC 10 Persuasion during second-pass interrogation** or **Ruma's relay notes**.
 - The convoy included far more purple-only boats than a four-site job requires. Purple-only means combat-rated crews — this is a mass raid, not sabotage — via **DC 10 Persuasion during interrogation**.
 - Felix trembles when asked about "the circle site" — he was rotated out before he saw it, but he heard screaming from that direction once. Not pain. Something else — via **DC 10 Insight during interrogation** or **JC asks directly**.
 - The incomplete magazine (Room 5) has builder's notation in Grung shorthand referencing a primary site south of the Mercatura — via **Room 5 beam**, **Room 6 route map**, or **Room 2 trail markers** (JC automatic).
@@ -726,11 +778,12 @@ Keep these **unassigned** — give each to the first action that earns it.
 - The summoning circle uses techniques the Grung did not develop — via **DC 20 Arcana in Room 8** or **examining Solange's ritual components** after the fight.
 - A dockhand at the outer quay mentions "a tortle, big one, asking after Rattkin" — via **any PC at the harbor** or **a Warren runner**.
 - [[umberlee|Umberlee]]'s gossip has reached the [[ponte-bassa|Ponte Bassa]] — "the man who owes the sea goddess" is a drinking story now. [[delmar-fisk|Delmar]]'s reversed coat is becoming a description — via **tavern gossip** or **a dockhand who eyes Delmar too long**.
+- The sewer toxin vials and the party's older cache share Simone's compound preparation — via **JC examining both caches in the same room**.
 
 **Raid-adjacent — use only if the party looks:**
 
 > [!dm]
-> The Dravosi patrol schedule has a three-day minimum gap starting today. Any harbour factor can quote the dates. Three dark-hulled *vethka* sit at anchor past the patrol line — double-outrigger, no pennant. Anyone with Grung/Midchain maritime knowledge identifies them as extraction vessels.
+> The Dravosi patrol schedule has a three-day minimum gap starting today; any harbour factor can quote the dates. Three dark-hulled *vethka* sit at anchor past the patrol line — double-outrigger, no pennant. Grung/Midchain maritime knowledge identifies them as extraction vessels.
 
 ---
 
@@ -783,7 +836,9 @@ For drop-in combat encounters: [[calveno-street-encounters|Street Encounters]].
 
 ---
 
-## Context Read
+## Prep Appendix — Context Read
+
+Print note: omit this appendix from the table packet unless doing pre-session review.
 
 **Session state:**
 

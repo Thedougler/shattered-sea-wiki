@@ -311,133 +311,55 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 
 #### Dungeon Overview
 
-**General features:** Dim light (oil lamps at junctions, bioluminescent algae). Ceilings 5–6 ft in collectors (Medium creatures move normally, cannot jump), 8 ft in main collector, 15 ft in primary chamber. Ankle-deep standing water throughout (difficult terrain without swim speed), with deeper sumps and channels where noted. Combat noise in any room is audible in adjacent rooms.
+**Full room keys, read-alouds, stat blocks, and mechanics:** see **[[calveno-sewers-grung-magazines|Calveno Sewer Magazines]]** (print alongside this guide). Use that document for room-by-room reference at the table. This guide covers session flow, scene triggers, and the climax encounter.
 
-**Grung saturation.** The Grung have lived and worked these tunnels for days. Their skin secretions coat every surface they've touched — ladder rungs, barrel lashings, rope handles — leaving a faint iridescent residue that catches lamplight. The standing water carries their chemical runoff: an oily film and a sweetly acrid smell, like overripe fruit soaked in ammonia, that worsens with depth. By Room 4 the air tastes wrong. By Room 7 it burns.
-
-> [!mechanic]
-> **Contact poison (environmental).** Grung-touched surfaces (rungs, ropes, barrel handles) — DC 12 CON on bare-skin contact or poisoned for 10 minutes. Gloves or cloth wrapping negates. JC is immune (Grung physiology). Call for one roll per room when a PC handles something, not on every rung.
+**Quick features:** Dim light. 5–6 ft ceilings (8 ft collector, 15 ft primary). Standing water (difficult terrain). Grung secretions coat touched surfaces — environmental contact poison (DC 12 CON, poisoned 10 min; gloves negate; JC immune). Chemical smell escalates room by room. See dungeon file General Features for the three poison types (contact secretion, torpor extract, weapon poison) and full mechanics.
 
 **Common routes to the primary chamber:**
 
 | Route | Path | Character |
 |---|---|---|
-| A (Bridge hatch) | Bridge district far hatch → Room 3 → Room 7 → Room 8 | Bypasses magazines — fastest, almost no intel |
-| B (Le Paludi) | Room 1 → Room 2 → Room 4 → Room 6 → Room 7 → Room 8 | Investigation route; finds Ruma and clue map |
-| C (Hidden) | Room 1 → Room 2 → Room 4 → Room 6 → hidden passage → Room 8 | Best tactical route; unguarded approach to climax |
-| D (La Vasca) | La Vasca tidal passage → Room 7 → Room 8 | Slow/flooded; bypasses upper network and most clues |
-
-**Reusable stat block — Sentry Team (per secondary magazine):**
-
-> [!mechanic]
-> **Sentry Team.** 2 [[grung-npc|Grung]] (CR 1/4, AC 12, HP 11) + 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2, AC 13, HP 49). **Difficulty: Hard (1100 adj. XP).**
->
-> - **Orders:** hide (Stealth +4/+5, advantage in dim light near water), let intruders pass, report after.
-> - **Break cover:** only if the party touches barrels, blocks escape, or exposes the team.
-> - **Elite:** Multiattack — 2× shortbow +5 (1d6+3 + 2d4 poison, DC 12 CON or poisoned); Mesmerizing Chirr (Recharge 6) if 2+ PCs within 15 ft (DC 12 WIS or stunned 1 round).
-> - **Morale:** green-caste flee if handler dies; handler breaks at half HP.
-> - **Alert:** kill all three silently to prevent a report. Any escape puts all remaining sentries on active defense.
-> - **Poison craft:** The Grung think in poison the way soldiers think in steel. Barrel lashings are pre-coated with concentrated skin secretions (DC 12 CON on bare-skin contact or poisoned 10 min; gloves negate). Elite handlers carry a sealed glass vial of torpor extract — if cornered with no escape, they crack it: 5-ft cloud, DC 12 CON or speed halved for 1 minute as limbs go heavy and sluggish. Retreating greens smear the same secretions on any surface they pass.
-
-**Magazine neutralization (any secondary site):**
-
-> [!mechanic]
-> **Blackpowder barrels (×6):** Tar-sealed, timber-wedged at structural weak points. Barrel lashings and handles coated with Grung contact poison (DC 12 CON or poisoned 10 min; gloves negate). DC 10 Investigation: blackpowder. Fire or thunder damage within 10 ft: **4d6 fire, 20-ft radius, DC 14 DEX half. Ceiling collapse: 2d6 bludgeoning, buried, DC 14 STR to free.** Safe removal: 1 minute careful work, or DC 12 Sleight of Hand as an action to pull wedges (barrels roll — magazine neutralized, but noise alerts adjacent rooms). Each neutralized magazine removes one detonation site from tomorrow's raid.
+| A (Bridge hatch) | 3 → 7 → 8 | Bypasses magazines — fastest, almost no intel |
+| B (Le Paludi) | 1 → 2 → 4 → 6 → 7 → 8 | Investigation route; finds Ruma and clue map |
+| C (Hidden) | 1 → 2 → 4 → 6 → 8 | Best tactical route; unguarded approach to climax |
+| D (La Vasca) | 7 → 8 | Slow/flooded; bypasses upper network and most clues |
 
 ---
 
 #### Act 1 — Discovery (Rooms 1–3)
 
-**Room 1 — Le Paludi Access Shaft.** 15 × 20 ft lower landing beneath a 5 × 5 ft shaft, 15 ft deep. The Warren runner's charcoal mark on the frame.
+Read-alouds, features, and encounter stats: see dungeon file Rooms 1–3.
 
-> [!read-aloud]
-> The ladder is iron, bolted into limestone, and each rung is slick with something that isn't water — a faint iridescent sheen, sweetly chemical. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The air changes immediately: damp stone and something else underneath it, organic and sharp, like overripe fruit left in a drain. Scrape marks on the wall at knee height, and whatever made them left the same wet residue on the stone.
+**Room 1 (Le Paludi Access Shaft).** Orientation room. The iridescent residue on the ladder rungs is the first toxic hint. Let the party absorb the shift from festival streets to underground.
 
-DC 10 Athletics to descend quietly. Failure: metallic clang audible in Room 2.
+**Room 2 (Y-Junction).** Hub room. **Three Clue #3** — red-caste trail markers that only JC can read. If JC is not present, this clue is invisible; two more await in Rooms 5 and 6. Optional canal crocodile encounter.
 
-**Room 2 — Y-Junction.** Roughly 35 × 30 ft. Three exits: north landing, east/right branch (Bridge connector), southwest/left branch (Magazine Alpha). Sunken sump, raised edges, collapsed masonry (half cover).
-
-> [!read-aloud]
-> The landing opens into a junction where three collector lines meet around a sunken sump. Water gathers in the middle, dark and still, its surface carrying an oily rainbow film that has no business in a sewer. The chemical smell is thicker here — concentrated, catching in the throat. To the left the silt is churned with prints and drag marks; to the right the tunnel narrows into shadow. Low on the left wall: three cuts in the limestone, small, clean, deliberate.
-
-**Key features:**
-
-- **Silt disturbance:** DC 10 Survival — multiple individuals, multiple passes, last 48 hours. DC 15 Nature — non-human prints.
-- **Trail markers:** Three cuts, knee-height, left wall (green/blue directional). Plus a separate set — older, deeper — pointing right toward the Mercatura. **JC reads automatically:** the three are green/blue-caste directional. The older set is **red-caste priority notation** — a different authority level, pointing a different direction. **This is Three Clue #3 for the primary site.**
-
-> [!dm]
-> The red-caste markers are the earliest clue. If JC is present and examines them, he knows a higher-authority path leads right toward the Mercatura. If he's not here or doesn't look, this clue is invisible; two more clues await in Rooms 5 and 6.
-
-**Optional encounter:** 2 Canal Crocodiles (CR 1/2 each). AC 12, HP 19. Bite +4 (1d10+2, target grappled DC 12). Stealth +2 (advantage submerged). Attack on vibration. Flee if both bloodied. DC 14 Stealth to bypass (disadvantage in armor heavier than leather).
-
-**Room 3 — Bridge Connector.** 70 × 20 ft connector. Ceiling drops to 4 ft after 35 ft. Medium creatures: half speed, disadvantage on two-handed/heavy melee. Barred side culvert leads toward the Bridge district magazine.
-
-> [!read-aloud]
-> The connector stretches ahead — sixty feet of straight tunnel with the ceiling dropping fast. By the halfway mark the stone presses close, your shoulders brush the walls, and the chemical smell concentrates into a physical weight in the lungs. Something slick coats the stone at shoulder height where hands have steadied loads in the dark. Ahead, a barred culvert branches right, and past it, the sound of slow water moving somewhere you can't see.
-
-**Optional encounter:** 1 Grung Elite Warrior (CR 2, HP 49) — a late handler finishing a route check. Moves toward the far hatch at full speed. Attacks only if blocked. Does not speak. If JC addresses her in Grung, she stops one beat, then continues. **If she escapes:** all sentry teams go to heightened alert. **Surrenders below half HP if escape is impossible.** Gives nothing except: "The schedule moved."
+**Room 3 (Bridge Connector).** Transition and potential chase. 4-ft ceiling after 35 ft punishes mobility. **Optional fleeing handler** — if she escapes, ALL sentry teams go to heightened alert (no more hide-and-report; active defense everywhere). This is the difference between a stealth run and a combat gauntlet.
 
 ---
 
 #### Act 2 — Disruption (Rooms 4–6)
 
-**Room 4 — Magazine Alpha (Le Paludi Yards).** 35 × 25 ft side magazine with a raised ledge and drain trench. The first magazine encounter — teaches the party how sentry teams work and what the blackpowder means.
+Read-alouds, features, stat strips, and poison craft: see dungeon file Rooms 4–6.
 
-> [!read-aloud]
-> The tunnel opens into a side magazine cut around an old drain trench. The air changes — dry, chemical, sharp enough to taste. Against the far ledge: barrels. Six of them, stacked two high and three across, lashed with rope and wedged tight with fresh-cut timber.
+**Room 4 (Magazine Alpha).** First sentry encounter — teaches the barrel/sentry/poison pattern. The overflow pipe to Room 6 bypasses main corridors. **First Hard encounter.**
 
-Sentry team as above. Drainage overflow pipe (4-ft diameter) connects to Room 6 — Medium creatures must crawl (half speed, prone, disadvantage on attacks). Small creatures walk normally. JC's climb speed applies.
+**Room 5 (Magazine Beta).** Incomplete scaffolding — easiest magazine to neutralize (DC 12 Athletics, water-soak). **Three Clue #1** — builder's notation: "anchor south of M — tie to main." Distracted sentry team: **party gains advantage on Stealth.** **Second Hard encounter.**
 
-**Room 5 — Magazine Beta (Working Yards).** 40 × 30 ft working bay. **The incomplete site** — accelerated timeline left the scaffolding half-built.
+**Room 6 (Handler Relay).** **The intelligence pivot.** See dungeon file for full room key, read-aloud, Ruma's social encounter details, and the check-in clock table.
 
-> [!read-aloud]
-> This chamber mirrors the last only in purpose. Scaffolding climbs one wall, half-built, one support beam unsecured. Barrels sit on the stones and in the flooded corner, not yet raised into position. Beside the work tools — a hand drill, rope, a bowl of cold rice — a leather roll lies open with six small glass vials, each a different shade of amber. The tools of a trade older than the blackpowder.
-
-**Key features:**
-
-- **Incomplete scaffolding:** DC 12 Athletics to collapse it, dumping barrels into the flooded corner. Powder soaks — magazine neutralized without detonation risk. Loud.
-- **Builder's notation:** Scratched into the unsecured beam in Grung shorthand. DC 15 Investigation to notice. **JC reads automatically:** "anchor south of M — tie to main." DC 12 INT to parse "M" as a Mercatura reference. **This is Three Clue #1 for the primary site.**
-- **Builder's tools:** Chisels, rope, hand drill. Usable for disarming other magazines (grants advantage on DC 12 Sleight of Hand).
-
-Sentry team as standard but distracted — **party gains advantage on Stealth checks to approach.**
-
-**Room 6 — Handler Relay.** 30 × 25 ft dry relay alcove raised above the service corridor. Oil lamp, plank desk on barrels. **The intelligence pivot.**
-
-> [!read-aloud]
-> The passage rises onto dry, swept stone. An oil lamp burns low on a plank desk balanced across two barrels, with more barrels stacked into a wall behind it. Waxed papers are pinned to the limestone: routes, numbers, tide markings in a hand too small for human fingers. A small blue-skinned figure sits with her back to the entrance, cross-referencing one chart against another, and has not heard the party yet.
-
-**NPC — [[ruma-delacroix|Ruma Delacroix]]:** Blue-caste handler, quartermaster. AC 13, HP 49 ([[grung-elite-warrior|Grung Elite Warrior]] stats). Hand crossbow + signal whistle. **If she blows the whistle:** all sentry teams go to active defense. Reaching for the whistle costs her action. If the party acts before she whistles, she can be talked to.
+- [[ruma-delacroix|Ruma]]: Blue-caste quartermaster. Whistle = all sentries go active defense. If the party acts first, she can be talked to.
+- Route map: **Three Clue #2** — shows 5 positions, not 4. Red-caste authority on the fifth.
+- *Globe of Invulnerability* scroll: under the desk. DC 16 Arcana to activate. Shields 10-ft radius from spells ≤5th level — designed for the detonation.
+- Hidden passage: behind stacked barrels, DC 16 Investigation. Ruma doesn't know it exists. Leads to Room 8 unguarded. **Party's best tactical advantage for the climax.**
 
 > [!mechanic]
-> **Ruma — Social Encounter.** She values survival over operational security.
->
-> - **Triggers:** naming Felix Aho; JC speaking Grung in handler-register.
-> - **Knows:** four secondary sites/status, accelerated timeline, fifth red-caste site, sentry compositions, egress vents.
-> - **Doesn't know:** usable primary route, circle purpose, [[solange-barret|Solange]]'s identity, [[simone-tabarnack|Simone]]'s identity.
-> - **Key use:** her map proves a fifth authority marker exists; JC/trail-marker synthesis makes it navigable.
-
-**Key features:**
-
-- **Waxed route map:** Shows **5 positions, not 4.** Four in green-caste notation. The fifth marked with a red-caste authority symbol. DC 12 Investigation. [[ruma-delacroix|Ruma]] refers to it as "the circle site" but doesn't know where it is. **This is Three Clue #2 for the primary site.**
-- ***Globe of Invulnerability* scroll (×1):** Waxed tube under desk. Single-use, 6th-level abjuration. DC 16 Arcana to activate (caster level below spell level). 10-ft radius barrier blocking spells of 5th level or lower. Intended as raid extraction shielding — useful if the party needs to survive their own detonation.
-- **Hidden passage:** Behind stacked barrels along the south wall. DC 16 Investigation. [[ruma-delacroix|Ruma]] does not know it exists — built by [[solange-barret|Solange]]'s team. Leads directly to Room 8 (the primary chamber) from the direction the garrison is not watching. **This is the party's best tactical advantage for the climax encounter.**
-
-**Ruma check-in clock:**
-
-| Time | If not spoofed | If spoofed |
-|---|---|---|
-| T+0 | Ruma captured/killed/delayed; clock starts | JC/Ruma sends routine status |
-| T+1h | Pipe-click inquiry from another handler | No change |
-| T+2h | Handler network marks Room 6 missing; primary garrison goes active defense | No change |
-| T+3h | Remaining secondary teams begin evacuating nonessential labourers | No change |
-| T+8h | Party finishes rest; no patrol enters Room 6, but no surprise in Room 8 unless they use hidden passage | Party finishes rest; hidden passage grants surprise as written |
-
-**Spoofing the check-in:** DC 13 Deception, Intimidation, or Performance using handler-register Grung; JC speaking Grung has advantage. Captured Ruma can do it if promised believable protection.
+> **Spoofing Ruma's check-in:** DC 13 Deception/Intimidation/Performance in handler-register Grung; JC has advantage. Captured Ruma can do it if promised believable protection. **T+2h without spoof:** primary garrison goes active defense. **T+8h:** party finishes rest either way.
 
 > [!dm]
 > Room 6 is the long-rest offer: dry, defensible, no patrols. Once Ruma is handled, put the check-in clock on the table. The choice is spoof and rest, rest while the primary fortifies, or press on depleted.
 
-**Primary path:** With two of three clues, the trail converges toward the Mercatura collector. If JC is present, Room 2 red-caste markers + Ruma's route map make the direction clear.
+**Primary path:** With two of three clues, the trail converges toward the Mercatura collector. JC's trail-marker literacy + Ruma's route map make the direction clear.
 
 ---
 
@@ -516,8 +438,7 @@ The climax encounter. A vaulted collector nexus beneath the Mercatura — roughl
 > [!dm]
 > **Print map:** `wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic.png`. Put this on its own landscape page if printing.
 
-> [!read-aloud]
-> The passage opens into a vaulted collector nexus broad enough to swallow the sound of your steps. Fifteen feet overhead, every crack and join in the pale stone ceiling is packed with dark powder, held by crude timber scaffolding. In the centre of the floor, a bone-white circle hums where four drainage channels part around it. A red-skinned Grung kneels at the circle's edge, one hand on stone, while four purple-caste warriors hold the channels with weapons drawn.
+Entry read-aloud: use dungeon file Room 8 (canonical version with toxic atmosphere).
 
 **What's true:** [[solange-barret|Solange Barret]] is channeling the summoning ritual. She uses her action each turn to sustain it — she cannot attack, cast offensive spells, or move more than 5 ft from the circle. Mirror Image already active (3 duplicates). Her reaction is the pressure point: she can Counterspell or Detonate, not both in the same round. Four purple-caste [[grung-elite-warrior|Elite Warriors]] hold the drainage channel entrances. Standing order: **shoot on sight.** The hidden passage from Room 6 emerges behind the south scaffolding — the garrison is not watching this direction.
 
@@ -760,14 +681,7 @@ The summoning fails. Solange detonates the ceiling as cover and escapes by Dimen
 > It is red and enormous. Arms too long for its body, a mouth that opens wider than a mouth should, and eyes that look at the crowd the way a fire looks at a building. The Slaad shakes the dust from its back, opens that impossible mouth, and roars. The screaming starts.
 
 > [!mechanic]
-> **Otar cold-run card (CR 8).** AC 15, HP 152, Speed 40 ft/climb 20 ft, Legendary Resistance 1/day, Magic Resistance.
->
-> - Multiattack: Bite +8 (2d8+5 + DC 15 Con Slaad egg), Claw +8 (2d6+5, 10-ft reach), Tongue Lash +8 (1d8+5, 30-ft reach, DC 16 Str or pulled 25 ft + grappled).
-> - Foul Miasma: 10-ft radius, 1d6 poison/turn.
-> - Entropic Regeneration: 10 HP/round; suppressed by fire or acid.
-> - Chaos Pulse (Recharge 5–6): 20-ft radius, DC 15 Dex, 4d10 force + prone.
-> - Legendary Actions (2/round): Lash, Thrash, or Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
-> - Full kit (Unstable Form ≤75 HP, Rubble Surge reaction, Shattered Chamber lair actions): see **The Primary Chamber → Phase 3**.
+> **Otar cold-run card:** see **The Primary Chamber → Phase 3** for full stat block, lair actions, and tactical notes. Key numbers: AC 15, HP 152, Entropic Regeneration 10 HP/round (suppressed by fire or acid), Tongue Lash 30-ft reach.
 
 **Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart — 2 flasks of alchemist's fire (DC 14 Investigation). [[ruk|Ruk]] arrives after round 5 with a lit torch and a cleaver if the party is struggling.
 

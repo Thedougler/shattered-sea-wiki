@@ -80,6 +80,8 @@ Unless noted otherwise in a room key, these apply throughout:
 | **Torpor extract** | 5-ft cloud (vial crack) | Speed halved 1 min | 12 CON | Elite handlers, cornered |
 | **Weapon poison** | Arrow/dagger hit | +2d4 poison damage + poisoned 1 min | 12 CON | All Grung combatants |
 
+<div style="page-break-before: always;"></div>
+
 ## Map Key
 
 ```text
@@ -155,6 +157,8 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Room 1 — Le Paludi Access Shaft
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-01-le-paludi-access-shaft-battlemap-realistic.png|Room 1 battlemap — Le Paludi Access Shaft with iron ladder, wet limestone, standing water, and 5-foot tactical grid.]]
@@ -225,6 +229,8 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Room 4 — Magazine Alpha (Le Paludi Yards)
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-04-magazine-alpha-battlemap-realistic.png|Room 4 battlemap — Magazine Alpha with stacked blackpowder barrels, timber wedges, drainage pipe, cover, and 5-foot tactical grid.]]
@@ -282,6 +288,8 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 > **Sentry Team.** Same composition as Room 4 (2 Grung + 1 Elite Warrior). One green-caste laborer is actively building rather than watching. Handler's attention is split. **Party gains advantage on Stealth checks to approach.** Same poison craft as Room 4 (coated surfaces, torpor extract, retreating secretion smear). **Difficulty: Hard (1100 adj. XP, mitigated by advantage).**
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Room 6 — Handler Relay
 
@@ -373,6 +381,8 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Room 8 — Primary Detonation Chamber (Mercatura)
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic.png|Room 8 battlemap — Primary Detonation Chamber with converging drainage channels, central summoning circle, scaffolding, powder storage, and 5-foot tactical grid.]]
@@ -449,6 +459,8 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Room T1 — Magazine Gamma (Bridge District)
 
 Use the Room 4 battlemap as the tactical template.
@@ -490,6 +502,8 @@ Use the Room 4 battlemap as the tactical template.
 > Delta is the extraction-lane room. The vent matters more than the barrels if the party is trying to reduce captives.
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Three Clue Audit
 
@@ -533,6 +547,8 @@ Use the Room 4 battlemap as the tactical template.
 | **Total monetary** | **~250 gp** + scroll | |
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Running This Dungeon
 
@@ -579,6 +595,8 @@ Ruma Delacroix (Room 6) is the negotiation path. She values her life over the op
 
 She cannot give them the primary site's location (she does not know it). But the route map on her wall shows five positions, and the trail markers in the network converge. The party can navigate to Room 8 using the clues even without Ruma's cooperation.
 
+<div style="page-break-before: always;"></div>
+
 ### The Primary Chamber — Tactical Options
 
 The Room 8 encounter is Extremely Deadly by the numbers (5000 adjusted XP vs. a 2000 threshold) — and that is before Phase 2 detonates the ceiling and Phase 3 drops a CR 8 Slaad on a wounded party. The fight rewards preparation:
@@ -618,6 +636,8 @@ Use this during the Otar fight for any secondary site the party did not neutrali
 | 5 | Smoke visible from Le Paludi | 10–20 captives per active lane |
 | 7 | Harbour runners reach T2 egress if open | Loading begins toward waiting *vethka* |
 | Fight ends | Count active lanes | Use Raid Scale in Session 05 run guide |
+
+<div style="page-break-before: always;"></div>
 
 ### Safety Valve — The Rattle
 

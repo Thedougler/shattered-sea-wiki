@@ -78,6 +78,8 @@ session_date: 2026-06-13
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Strong Start
 
 > [!read-aloud]
@@ -130,6 +132,8 @@ Then stop. Let the party react. Do not narrate what they decide about the second
 | **Ship** | Day 5 of ~5. Hull complete. Registry plate needs a decision if not already made | Ship ready to sail | *[[hcs-surety\|Uncertainty]]* is available — but who crews it? |
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Scenes
 
@@ -249,6 +253,8 @@ After the second pass, [[nona-black-jaw|Nona]] tightens the map. She works fast 
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ### Kyzil on the Roof *(Crissdalynn's Pilgrimage / Grung Raid)*
 
 *Pull: [[crissdalynn-khinriss\|Crissdalynn]] (primary), any PC who seeks Kyzil. Register: social / revelation.*
@@ -280,6 +286,8 @@ After the second pass, [[nona-black-jaw|Nona]] tightens the map. She works fast 
 **Hook out:** the sewer descent.
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ### The Magazine Network *(Grung Raid)*
 
@@ -382,6 +390,8 @@ Read-alouds, features, stat strips, and poison craft: see dungeon file Rooms 4�
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 #### Rest Decision — Room 6
 
 The party is beaten up from two Hard encounters and the social encounter with [[ruma-delacroix|Ruma]]. Room 6 is dry, swept, defensible. The drainage pipe and mortared breach are narrow chokepoints a single watchkeeper can cover. [[ruma-delacroix|Ruma]]'s desk makes a barricade. The party should feel safe here.
@@ -425,6 +435,8 @@ The party is beaten up from two Hard encounters and the social encounter with [[
 > Decompression room. The party stands upright, breathes (poorly), and plans before the climax. The converging markers tell JC every caste, every lane, points the same direction. Two hundred paces south.
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ### The Primary Chamber *(Grung Raid)*
 
@@ -475,6 +487,8 @@ Solange does not fight. She channels. The four Elite Warriors are the encounter 
 > [!read-aloud]
 > The circle flares white. Light floods the chamber, bleaching the stone, burning away every shadow. The water in the drainage channels shivers, stops, and rises — past ankles, past knees — warm and thick with the chemical taste of everything these tunnels hold. The hum becomes a sound you feel in your teeth.
 
+<div style="page-break-before: always;"></div>
+
 #### Phase 2 — The Ceiling Falls
 
 **Trigger:** first of the following: the second Elite Warrior drops to 0 HP; the circle is disrupted; Solange starts her turn with no Elite within 10 ft of the circle; fire or thunder damage happens anywhere in the room.
@@ -503,6 +517,8 @@ Solange does not fight. She channels. The four Elite Warriors are the encounter 
 
 > [!dm]
 > Give the party one round, maybe two, before Phase 3. *Globe of Invulnerability* blocks the blast only if activated before detonation (DC 16 Arcana). If [[master-kyzil|Kyzil]] is present, he is likely still standing.
+
+<div style="page-break-before: always;"></div>
 
 #### Phase 3 — Otar the Foul
 
@@ -553,6 +569,8 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 > - Mesmerizing Chirr no longer faces Wisdom-save advantage.
 > - The +2d10 max HP buffer is gone.
 > - If a TPK forms, fire the Rattle.
+
+<div style="page-break-before: always;"></div>
 
 #### Safety Valve — The Rattle
 
@@ -617,6 +635,8 @@ The summoning fails. Solange detonates the ceiling as cover and escapes by Dimen
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ### The Whale Beneath *(Abyss Vision)*
 
 *Pull: [[perrin-black-jaw\|Perrin]]. Register: revelation.*
@@ -664,6 +684,8 @@ The summoning fails. Solange detonates the ceiling as cover and escapes by Dimen
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Fail-Forward: The Detonation Fires
 
 *Pull: All PCs. Register: combat.*
@@ -710,6 +732,8 @@ The summoning fails. Solange detonates the ceiling as cover and escapes by Dimen
 **Hook out:** pursuit of the *vethka* — Session 06.
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## Secrets & Clues
 

@@ -37,3 +37,36 @@ test("parseGrid throws on a ragged row", () => {
 test("parseGrid throws on empty input", () => {
   assert.throws(() => parseGrid("   \n  "), /empty grid/);
 });
+
+import { validateGrid } from "../lib/grid.mjs";
+import { loadManifest } from "../lib/manifest.mjs";
+
+test("validateGrid passes a well-formed room (incl. an exterior door)", () => {
+  const m = loadManifest();
+  const g = parseGrid(fixture("guard-room.csv"));
+  const r = validateGrid(g, m);
+  assert.equal(r.ok, true, JSON.stringify(r.errors));
+});
+
+test("validateGrid flags an unknown token", () => {
+  const m = loadManifest();
+  const g = parseGrid("WL,ZZ\nFL,FL");
+  const r = validateGrid(g, m);
+  assert.equal(r.ok, false);
+  assert.match(r.errors.join("\n"), /unknown token: ZZ/);
+});
+
+test("validateGrid flags a floating door (no passable neighbor)", () => {
+  const m = loadManifest();
+  const g = parseGrid("WL,WL,WL\nWL,DR,WL\nWL,WL,WL");
+  const r = validateGrid(g, m);
+  assert.equal(r.ok, false);
+  assert.match(r.errors.join("\n"), /floating door/);
+});
+
+test("validateGrid accepts a door between two passable cells", () => {
+  const m = loadManifest();
+  const g = parseGrid("WL,FL,WL\nWL,DR,WL\nWL,FL,WL");
+  const r = validateGrid(g, m);
+  assert.equal(r.ok, true, JSON.stringify(r.errors));
+});

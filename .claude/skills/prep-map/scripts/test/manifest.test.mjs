@@ -39,3 +39,15 @@ test("effectiveCode substitutes playerFallback for dm tokens", () => {
 test("loadManifest throws on a malformed entry", () => {
   assert.throws(() => loadManifest(new URL("./fixtures/bad-manifest.json", import.meta.url)));
 });
+
+import { existsSync } from "node:fs";
+import { dirname, resolve, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+test("every glyph-bearing token has its SVG file on disk", () => {
+  const m = loadManifest();
+  const svgDir = resolve(dirname(fileURLToPath(import.meta.url)), "../../tokens/svg");
+  for (const [code, e] of Object.entries(m)) {
+    if (e.glyph) assert.ok(existsSync(join(svgDir, e.glyph)), `${code}: missing glyph file ${e.glyph}`);
+  }
+});

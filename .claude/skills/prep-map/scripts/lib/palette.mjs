@@ -85,7 +85,9 @@ const isBigRegion = (cat) => BIG_REGION_CATS.has(cat);
  *
  * Thresholds are tuned for a ~30-material palette: dark materials compress in CIEDE2000
  * (two near-blacks cannot exceed ~18 ΔE in sRGB), so 16/10 is the achievable bar that
- * still keeps every pair clearly distinguishable.
+ * still keeps every pair clearly distinguishable. Several feature pairs sit intentionally
+ * close to the loose floor (~10 ΔE) — expected for a dense glyph-disambiguated object
+ * palette; don't assume slack when adding or nudging feature colors.
  */
 export function checkSeparation(manifest, { strict = 16, loose = 10 } = {}) {
   const entries = Object.entries(manifest).filter(([, e]) => e.layer !== "dm");

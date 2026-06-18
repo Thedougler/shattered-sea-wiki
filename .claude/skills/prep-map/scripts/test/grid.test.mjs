@@ -86,3 +86,12 @@ test("asciiPreview renders one glyph char per cell, space for void", () => {
   const v = parseGrid("WL, ,WL");
   assert.equal(asciiPreview(v, m), "# #");
 });
+
+test("validateGrid warns (no error) when a both-layer token has no img2img fragment", () => {
+  // a both-layer token with fragment:null is valid to render but flagged for the beautify pass
+  const m = { XX: { name: "x", category: "feature", color: "#abcdef", layer: "both", fragment: null } };
+  const g = parseGrid("XX,XX");
+  const r = validateGrid(g, m);
+  assert.equal(r.ok, true, JSON.stringify(r.errors));
+  assert.ok(r.warnings.some((w) => /XX/.test(w) && /fragment/.test(w)), JSON.stringify(r.warnings));
+});

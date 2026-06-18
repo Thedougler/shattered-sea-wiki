@@ -46,9 +46,14 @@ export function buildBaseSvg(grid, manifest, tile) {
 /** SVG of the grid overlay — subtle low-opacity dark lines (transparent elsewhere). */
 export function buildGridSvg(grid, tile, { stroke = "#15151b", opacity = 0.55, weight = 2 } = {}) {
   const W = grid.width * tile, H = grid.height * tile;
+  const h = weight / 2;
+  // Inset the outermost lines by half the stroke width so the full border stays on-canvas;
+  // a centered stroke at x=0 or x=W would clip to half thickness (asymmetric border).
+  const cx = (x) => (x === 0 ? h : x === grid.width ? W - h : x * tile);
+  const cy = (y) => (y === 0 ? h : y === grid.height ? H - h : y * tile);
   const lines = [];
-  for (let x = 0; x <= grid.width; x++) lines.push(`<line x1="${x * tile}" y1="0" x2="${x * tile}" y2="${H}"/>`);
-  for (let y = 0; y <= grid.height; y++) lines.push(`<line x1="0" y1="${y * tile}" x2="${W}" y2="${y * tile}"/>`);
+  for (let x = 0; x <= grid.width; x++) lines.push(`<line x1="${cx(x)}" y1="0" x2="${cx(x)}" y2="${H}"/>`);
+  for (let y = 0; y <= grid.height; y++) lines.push(`<line x1="0" y1="${cy(y)}" x2="${W}" y2="${cy(y)}"/>`);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><g stroke="${stroke}" stroke-opacity="${opacity}" stroke-width="${weight}">${lines.join("")}</g></svg>`;
 }
 

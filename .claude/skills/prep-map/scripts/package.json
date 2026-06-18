@@ -1,0 +1,13 @@
+{
+  "name": "@shattered-sea/prep-map",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Deterministic battlemap render engine (Phase A) for the prep-map skill.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "sharp": "^0.35.1"
+  }
+}

@@ -70,3 +70,19 @@ test("validateGrid accepts a door between two passable cells", () => {
   const r = validateGrid(g, m);
   assert.equal(r.ok, true, JSON.stringify(r.errors));
 });
+
+import { geometry, asciiPreview } from "../lib/grid.mjs";
+
+test("geometry computes exact pixel dimensions at the given ppi", () => {
+  const g = parseGrid(fixture("guard-room.csv")); // 6 x 5
+  assert.deepEqual(geometry(g, 300), { ppi: 300, tilePx: 300, widthPx: 1800, heightPx: 1500 });
+  assert.deepEqual(geometry(g, 64), { ppi: 64, tilePx: 64, widthPx: 384, heightPx: 320 });
+});
+
+test("asciiPreview renders one glyph char per cell, space for void", () => {
+  const m = loadManifest();
+  const g = parseGrid("WL,WL,WL\nWL,FL,WL\nWL,DR,WL");
+  assert.equal(asciiPreview(g, m), "###\n#.#\n#+#");
+  const v = parseGrid("WL, ,WL");
+  assert.equal(asciiPreview(v, m), "# #");
+});

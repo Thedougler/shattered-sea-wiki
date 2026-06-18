@@ -61,3 +61,15 @@ export function validateGrid(grid, manifest, legend = {}) {
 
   return { ok: errors.length === 0, errors, warnings };
 }
+
+/** Pixel geometry at a given pixels-per-tile (= pixels-per-inch; 1 tile = 1 inch). */
+export function geometry(grid, ppi = 300) {
+  return { ppi, tilePx: ppi, widthPx: grid.width * ppi, heightPx: grid.height * ppi };
+}
+
+/** Dwarf-Fortress-style ASCII render: manifest `ascii` char per token, space for void. */
+export function asciiPreview(grid, manifest) {
+  return grid.cells
+    .map((row) => row.map((code) => (code ? manifest[code]?.ascii ?? code[0] : " ")).join(""))
+    .join("\n");
+}

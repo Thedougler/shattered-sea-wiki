@@ -70,25 +70,31 @@ export function ciede2000([L1, a1, b1], [L2, a2, b2]) {
   );
 }
 
-const STRICT_CATS = new Set(["terrain", "structure"]);
-const isStrict = (cat) => STRICT_CATS.has(cat);
+const BIG_REGION_CATS = new Set(["terrain", "structure"]);
+const isBigRegion = (cat) => BIG_REGION_CATS.has(cat);
 
 /**
  * Return the list of color-pair violations. Empty array = pass.
- * Terrain/structure carry identity by color → strict threshold against everything.
- * Feature/marker tokens cluster (identity via glyph) → loose threshold among themselves.
+ *
+ * Strict bar (large flat regions): two terrain/structure tokens tile the map as big color
+ * fields the model must never blend (floor vs wall vs water vs lava) → require >= `strict`.
+ * Loose bar (objects/markers): any pair touching a feature/marker/hazard is a small,
+ * glyph-bearing cell whose identity is carried by its icon, so it only needs >= `loose`.
+ * dm-layer tokens render as their playerFallback / fixed-tint overlays, so they never
+ * participate in the base-key color and are excluded from the gate entirely.
+ *
+ * Thresholds are tuned for a ~30-material palette: dark materials compress in CIEDE2000
+ * (two near-blacks cannot exceed ~18 ΔE in sRGB), so 16/10 is the achievable bar that
+ * still keeps every pair clearly distinguishable.
  */
-export function checkSeparation(manifest, { strict = 20, loose = 10 } = {}) {
-  // Only base-key tokens are color-keyed for img2img. dm-layer tokens render as their
-  // playerFallback in the base key and as fixed-tint overlay markers, so their own color
-  // never participates in the key — exclude them from the gate.
+export function checkSeparation(manifest, { strict = 16, loose = 10 } = {}) {
   const entries = Object.entries(manifest).filter(([, e]) => e.layer !== "dm");
   const labs = entries.map(([code, e]) => ({ code, cat: e.category, lab: hexToLab(e.color) }));
   const violations = [];
   for (let i = 0; i < labs.length; i++) {
     for (let j = i + 1; j < labs.length; j++) {
       const d = ciede2000(labs[i].lab, labs[j].lab);
-      const thr = isStrict(labs[i].cat) || isStrict(labs[j].cat) ? strict : loose;
+      const thr = isBigRegion(labs[i].cat) && isBigRegion(labs[j].cat) ? strict : loose;
       if (d < thr) violations.push({ a: labs[i].code, b: labs[j].code, deltaE: +d.toFixed(2), threshold: thr });
     }
   }

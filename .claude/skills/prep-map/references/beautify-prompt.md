@@ -28,9 +28,16 @@ tag-matcher. So (see the `prompting-nano-banana-2` skill for the full craft):
 
 The prep-map-specific moves, in order:
 
-1. **Lead with annotation-removal, and split labels by location.** State up front that the input is
-   a diagram with text labels + colored outlines drawn on top. Then handle the labels explicitly by
-   *where* they sit — the model removes them far more reliably when told the fate of each kind:
+1. **Lead with annotation-removal — two SEPARATE jobs.** The guide has two kinds of overlay, and the
+   model handles them far better when you split them explicitly (don't fold one into the other):
+
+   **(A) The colored outline boxes — ALL of them get painted over. Unconditional.** State it as its own
+   top-level rule: "none of the colored outline rectangles, boxes, or borders survive — paint over every
+   one completely; the finished map has no colored outlines anywhere." This is easy to under-state when
+   you're busy describing labels; with many regions the bright boxes leak unless you forbid them outright.
+
+   **(B) The text labels — by location.** The model removes/keeps them reliably only when told the fate of
+   each kind:
    - **BORDER labels** naming an off-map exit (the `ARCHWAY` labels at the map edges): **KEEP these** —
      they are useful exit markers. Leave the word legible at the edge AND paint a real open
      tunnel-mouth in the wall there. These are the **only** labels that survive into the final image.
@@ -87,9 +94,10 @@ variations included — is an **outlined, labeled region** in a plain color:
 ```
 You are painting a single finished top-down tabletop battlemap FROM A PLANNING DIAGRAM.
 
-THE INPUT IS A DIAGRAM, NOT A SCENE. It is a flat floor plan with colored outlined regions and
-UPPERCASE TEXT LABELS drawn on top — annotations telling you what to paint where, not objects.
-Handle the labels by WHERE they sit:
+THE INPUT IS A DIAGRAM, NOT A SCENE. It is a flat floor plan with bright colored OUTLINE RECTANGLES
+and UPPERCASE TEXT LABELS drawn on top — annotations telling you what to paint where, not objects.
+First: NONE of the colored outline rectangles or boxes survive — paint over every one completely, so
+the finished map has no colored outlines or boxes anywhere. Then handle the TEXT labels by WHERE they sit:
 - BORDER labels naming an off-map exit (the ARCHWAY labels at the map's edges) → KEEP the word
   legible at the edge and paint a real open tunnel-mouth in the wall there. These are the only words
   that stay; the openings are plain arches — NO doors, gates, or hatches.

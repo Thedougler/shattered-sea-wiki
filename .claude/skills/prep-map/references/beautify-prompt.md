@@ -7,9 +7,21 @@ No token manifest, no auto-legend — the agent writes the prompt. The guide is 
 
 This structure was tuned empirically (nano-banana-2). The load-bearing moves, in order:
 
-1. **Lead with annotation-removal.** State up front that the input is a diagram and the boxes /
-   outlines / letters / words must NOT appear in the output. Burying this at the end fails — the
-   model preserves the overlays.
+1. **Lead with annotation-removal, and split labels by location.** State up front that the input is
+   a diagram with text labels + colored outlines drawn on top. Then handle the labels explicitly by
+   *where* they sit — the model removes them far more reliably when told the fate of each kind:
+   - **BORDER labels** naming an off-map exit (the `ARCHWAY` labels at the map edges): **KEEP these** —
+     they are useful exit markers. Leave the word legible at the edge AND paint a real open
+     tunnel-mouth in the wall there. These are the **only** labels that survive into the final image.
+   - **INTERIOR labels** naming something inside the play area (`DEEP WATER`, `SHALLOW WATER`,
+     `RUBBLE`, `TORCH`, props, traps): these **must NOT remain as text or marks**. Replace each
+     **entirely** with the real thing it names, naturally woven into the painted scene. No words,
+     letters, boxes or outlines anywhere in the playable map.
+
+   Tell the model "keep the edge labels, remove the inside ones" explicitly — a blanket "remove all
+   text" scrubs the exit markers too (over-correction), and a blanket "keep the labels" leaks the
+   interior ones. The location split is what makes it selective.
+   Naming the labels and their location is load-bearing; a generic "remove annotations" alone leaks.
 2. **Lock the layout, not the annotations.** Tell it to keep walls/floor/proportions/aspect exactly,
    but to paint *over* every colored box and label.
 3. **Place, don't centre — but lock structure.** Loose props (barrels, sacks, crates, a lantern)
@@ -54,11 +66,15 @@ variations included — is an **outlined, labeled region** in a plain color:
 ```
 You are painting a single finished top-down tabletop battlemap FROM A PLANNING DIAGRAM.
 
-THE INPUT IS A DIAGRAM, NOT A SCENE. It is a flat color-blocked floor plan with bright colored
-rectangles and UPPERCASE TEXT LABELS drawn on top. Those boxes, outlines, letters and words are
-ANNOTATIONS telling you what to paint where — they are NOT objects. The finished painting must
-contain ZERO text, letters, colored outlines, rectangles/boxes, or grid lines. Paint over every
-annotation completely.
+THE INPUT IS A DIAGRAM, NOT A SCENE. It is a flat floor plan with colored outlined regions and
+UPPERCASE TEXT LABELS drawn on top — annotations telling you what to paint where, not objects.
+Handle the labels by WHERE they sit:
+- BORDER labels naming an off-map exit (the ARCHWAY labels at the map's edges) → KEEP the word
+  legible at the edge and paint a real open tunnel-mouth in the wall there. These are the only words
+  that stay; the openings are plain arches — NO doors, gates, or hatches.
+- INTERIOR labels naming anything inside the room (DEEP WATER, SHALLOW WATER, RUBBLE, TORCH, …) →
+  these MUST NOT remain as text or marks. Replace each ENTIRELY with the real thing it names, woven
+  naturally into the scene. NO words, letters, outlines, boxes or grid lines inside the playable map.
 
 STYLE: a 2-Minute Tabletop hand-painted battlemap — painterly, illustrated, stylized realism,
 strictly orthographic bird's-eye top-down, NOT a photo. Soft short contact shadows only;

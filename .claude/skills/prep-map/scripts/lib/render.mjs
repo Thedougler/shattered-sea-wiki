@@ -120,8 +120,16 @@ export function buildBaseSvg(grid, manifest, tile) {
     const col = outlineColor(e);
     const sw = Math.max(2, tile * 0.05);
     outlines.push(regionOutline(r.cells, tile, col, sw));
-    const cx = (r.cells.reduce((s, c) => s + c[0], 0) / r.cells.length + 0.5) * tile;
-    const cy = (r.cells.reduce((s, c) => s + c[1], 0) / r.cells.length + 0.5) * tile;
+    // Snap the label to the region cell nearest the centroid, so donut/ring regions (e.g. water
+    // wrapping a sump) don't drop their label into the hole and collide with the inner region.
+    const mx = r.cells.reduce((s, c) => s + c[0], 0) / r.cells.length;
+    const my = r.cells.reduce((s, c) => s + c[1], 0) / r.cells.length;
+    const [lx, ly] = r.cells.reduce(
+      (best, c) => ((c[0] - mx) ** 2 + (c[1] - my) ** 2 < (best[0] - mx) ** 2 + (best[1] - my) ** 2 ? c : best),
+      r.cells[0],
+    );
+    const cx = (lx + 0.5) * tile;
+    const cy = (ly + 0.5) * tile;
     const fs = Math.max(11, tile * 0.2);
     labels.push(
       `<text x="${cx}" y="${cy}" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="${fs}" fill="${col}" stroke="#000" stroke-width="${fs * 0.08}" paint-order="stroke" text-anchor="middle" dominant-baseline="central">${e.name.toUpperCase()}</text>`,

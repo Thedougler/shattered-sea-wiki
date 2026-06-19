@@ -57,10 +57,11 @@ The prep-map-specific moves, in order:
    should settle *naturally* — against the nearest wall or into a corner, never floating dead-centre.
    But **structural features (ladders, stairs, doors, archways, exits) must stay exactly in their
    marked cell** — they are tactical positions minis interact with; do not let the model relocate them.
-3b. **Exactly one of each — no duplicates.** State plainly: paint exactly one feature per labelled
-   box and **do not add, duplicate, or echo** any feature elsewhere (the model will happily paint a
-   second ladder/door if not forbidden). "Do not invent extra exits" must also mean "do not invent
-   extra *anything*."
+3b. **Exactly one of each TACTICAL feature — no duplicates.** Paint exactly one feature per labelled
+   box and **do not add, duplicate, or echo** any *tactical* feature elsewhere — no second
+   ladder/door/exit/chest/terrain zone (the model invents these unless forbidden). This bans extra
+   **interactive / keyed** things and exits. It does **not** ban ambient texture — that you positively
+   *want* (rule 6). "Don't invent extra *features*" ≠ "don't add detail."
 4. **Hidden things are NOT on the map at all.** This is a player-facing map; fog of war (the VTT)
    covers every secret. The model's urge to *reveal* a hidden thing it was told about is too strong to
    suppress (label it "secret" and it paints a glowing trap door). So **never author a region for a
@@ -76,7 +77,19 @@ The prep-map-specific moves, in order:
    boundary. Verified: an outlined `DEEP WATER` region holds its bounds; the old solid blue *fill*
    grew to swallow the room. **Word shallow water as a visible material**, e.g. "a thin sheet of
    reflective standing water *covering* the floor" — "ankle-deep over stone" reads as plain wet stone.
-6. **Close with a clean-output check** — no boxes, outlines, rectangles, text, labels, letters, grid.
+6. **Make it a real, lived-in place — add incidental detail.** Keyed features are the skeleton; a
+   believable space also has *non-interactive* texture and the **traces of who uses it**. Once the
+   features are placed, direct the model to enrich the surfaces — explicitly **drawn from the canon
+   history** you pulled in §1, not generic grime: drag-trails and scuff paths where the inhabitants
+   haul through, residue/film concentrated where they work, water tide-lines and mineral staining on
+   the walls, soot above a lamp, eroded mortar and cracked/patched masonry, rust streaks under iron,
+   grime deepening into the corners, a little scattered mundane debris (a dropped lid, coiled rope,
+   silt, grit). This is what turns an atmospheric *empty set* into a place that is used. Three
+   guardrails: it stays **subordinate to tactical legibility** (never bury where minis stand or
+   obscure a keyed feature), strictly **non-interactive** (nothing that reads as a lootable prop,
+   exit, or hazard), and it **implies nothing hidden** (rule 4 still holds — ambient wear hints at no
+   secret). Without this line the map comes back clean and empty between features; with it, inhabited.
+7. **Close with a clean-output check** — no boxes, outlines, rectangles, text, labels, letters, grid.
 
 ## Color roles in the guide
 
@@ -117,11 +130,12 @@ strictly orthographic bird's-eye top-down, NOT a photo. Soft short contact shado
 <LIGHTING>; solid near-black outside the walls.
 
 THEME: <§1's atmosphere brief, in two or three rich sentences — THIS exact place's materials,
-light and colour, residue/stains/algae, wear, clutter, and mood. This line is the window into the
-DM's world; make it read as this specific room, never a generic one>.
+light and colour, residue/stains/algae, wear, clutter, the traces of who uses it, and mood. This
+line is the window into the DM's world; make it read as this specific room, never a generic one>.
 
-PAINT EXACTLY ONE of each labelled feature. Do NOT add, duplicate, echo, or invent any extra
-feature anywhere.
+PAINT EXACTLY ONE of each labelled TACTICAL feature (exits, props, terrain zones). Do NOT add,
+duplicate, echo, or invent any extra exit, prop, hazard, or terrain zone. (Ambient texture is NOT a
+feature — see LIVED-IN DETAIL below; that you SHOULD add.)
 
 LAYOUT — preserve exactly: the dark-grey border is stone WALL, keep every wall where it is; the
 plain light region is walkable FLOOR. Keep the same aspect ratio and proportions. Do not add,
@@ -139,13 +153,18 @@ STRUCTURAL FEATURES STAY LOCKED in the exact cell their box marks (do not reloca
 LOOSE PROPS settle naturally — against the nearest wall or into a corner, never floating dead-centre:
 - where the green <PROP LABEL> box is → <the object, placed naturally>.
 
-HIDDEN FEATURES (players must search for these — hint only, never obvious):
-- where the yellow <TRAP> box is → ordinary floor with at most a faint seam; no visible mechanism.
-- where the orange <SECRET DOOR> box is → unbroken wall, no visible door.
-- <trap doors are shut and flush, never open>.
+LIVED-IN DETAIL — make it a used, real place (non-interactive texture only; never a new feature,
+never a hint of anything hidden):
+- traces of use from canon: <e.g. churned silt and drag-trails where barrels were hauled; residue/film
+  heaviest where they worked; foot-worn paths into the floor>.
+- material + age: <eroded mortar; cracked/patched brick vs limestone; mineral seepage; rust streaks
+  under iron fittings; soot above the lamp; grime deepening into the corners>.
+- light: <warm lamp falloff and reflections on the wet stone; darker, cooler corners>.
+Keep all of it subordinate to the tactical layout — never obscure a keyed feature or where minis stand.
+(Hidden things get NO box and NO mention — see rule 4; there is nothing to draw for them.)
 
 FINAL OUTPUT = only the painted room. No boxes, outlines, rectangles, text, labels, letters, grid.
 ```
 
-Worked examples that produced clean maps live in this skill's history; keep the five rules above
-intact and only swap THEME and the per-box lines.
+Worked examples that produced clean maps live in this skill's history; keep the rules above intact
+and only swap THEME, the per-box lines, and the lived-in detail.

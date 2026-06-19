@@ -219,6 +219,7 @@ session's asset folder.
 | Reading the scripts / a prior scene to learn the format, or oversizing the room | The schema on this page is **complete** — don't spelunk. Size to canon: **1 cell = 5 ft**. |
 | Interior labels leaking into the art | Prompt per-location: **keep** edge exit labels, **replace** every interior label with its entity. |
 | Duplicated/invented features | Say "**exactly one of each, no duplicates**" — the model adds extras unless forbidden. |
+| Map feels like an empty mood-lit set | Add incidental **lived-in detail** from canon (traces of use, wear, stains, debris). "No invented features" bans extra *tactical* features, not texture. See [beautify-prompt.md](references/beautify-prompt.md) rule 6. |
 | Hidden trap/door rendered obviously | The prompt hints **subtly** (a trap door shut and flush); the guide still labels it normally. |
 | Colors too similar to read | Pick simple, distinct CSS colors; your prompt references them by name. |
 | `Cannot find module 'sharp'` | First-run setup: `cd scripts && npm install`. |

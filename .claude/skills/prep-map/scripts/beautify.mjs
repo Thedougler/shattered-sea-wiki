@@ -17,7 +17,7 @@ import sharp from "sharp";
 import { runWithRetry, saveOutput } from "../../use-replicate/scripts/lib.mjs";
 
 function parseArgs(argv) {
-  const o = { _: [], model: "google/nano-banana-2", res: "2K", in: 1536, out: null };
+  const o = { _: [], model: "google/nano-banana-pro", res: "2K", in: 1536, out: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--model") o.model = argv[++i];
@@ -52,9 +52,13 @@ const input = {
   aspect_ratio: "match_input_image",
   resolution: args.res,
   output_format: "png",
-  image_search: false,
-  google_search: false,
 };
+// nano-banana-2 takes web/image search flags — turn them OFF so it can't invent geometry.
+// nano-banana-pro has no such params (don't send them), and follows the prompt more reliably.
+if (/nano-banana-2/.test(args.model)) {
+  input.image_search = false;
+  input.google_search = false;
+}
 
 const output = await runWithRetry(args.model, { input });
 const out = args.out || resolve(basePath.replace(/\.png$/i, ".art.png"));

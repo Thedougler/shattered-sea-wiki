@@ -60,9 +60,15 @@ The prep-map-specific moves, in order:
    box and **do not add, duplicate, or echo** any feature elsewhere (the model will happily paint a
    second ladder/door if not forbidden). "Do not invent extra exits" must also mean "do not invent
    extra *anything*."
-4. **Hide what players must find.** Traps, trap doors, secret doors, hidden caches — only a *subtle*
-   visual hint, never obvious. A trap door is shut and flush with the floor, not standing open; a
-   secret door reads as plain wall. If a feature is meant to be discovered, it must not announce itself.
+4. **Hidden things are NOT on the map at all.** This is a player-facing map; fog of war (the VTT)
+   covers every secret. The model's urge to *reveal* a hidden thing it was told about is too strong to
+   suppress (label it "secret" and it paints a glowing trap door). So **never author a region for a
+   secret door, hidden passage, trap, or concealed cache, and never write the words
+   hidden / secret / concealed / trap / passage in the prompt.** A secret door is just unbroken wall;
+   a trap tile is just ordinary floor; a hidden cache isn't drawn. The DM tracks where these are from
+   canon, not the map. At most, ask for a *mundane* detail in that spot (a hairline crack in the mortar,
+   a draft-stirred cobweb) that reads as ordinary wear and hints at **nothing** — and only if it earns
+   its place atmospherically.
 5. **Terrain is regions too — fill each within its bounds.** Water, deep water, lava, grass, etc. are
    outlined labeled *areas* (not just props). Tell the model to fill each region with its material
    **only within that outline** and not let it spread; call out the depth/material change at the

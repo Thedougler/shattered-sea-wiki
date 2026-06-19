@@ -98,8 +98,9 @@ Run from the repo root. `--ppi` = pixels per tile = pixels per inch (300 = print
 | `map.mjs composite <art.png> <scene.json> [--ppi N] [--out dir]` | free | `<stem>.player.png` (finished, gridded) |
 
 `render`, `composite` also accept a `.csv` (legacy token path) or `dungeon.json` (see **Dungeons**).
-`beautify.mjs` downsamples the guide, locks output aspect to it (`match_input_image`), and runs the
-model with web search **off** so it can't invent geometry. It is the only paid step.
+`beautify.mjs` downsamples the guide and locks output aspect to it (`match_input_image`); it defaults
+to `google/nano-banana-pro` (on `nano-banana-2` it also forces web search **off** so it can't invent
+geometry). It is the only paid step.
 
 ## Pipeline — one room
 
@@ -116,8 +117,9 @@ model with web search **off** so it can't invent geometry. It is the only paid s
 4. **Write the prompt** from [beautify-prompt.md](references/beautify-prompt.md) — this is the real
    authoring job. It is a nano-banana *edit brief*: name what each color/label becomes, **preserve-lock**
    the walls + aspect, keep the **edge exit labels** but replace every interior label with its entity,
-   one of each (no duplicates), hidden things only subtly hinted. Pull material details (read-aloud,
-   props, lighting) straight from the canon you queried. Save as `prompt.txt`.
+   one of each (no duplicates). **Hidden things (secret doors, traps, caches) are NOT on the map at all**
+   — don't author a region or name them; fog of war covers them, the DM tracks them from canon. Pull
+   material details (read-aloud, props, lighting) straight from the canon you queried. Save as `prompt.txt`.
 5. **Beautify ($) → composite (free).**
    ```bash
    node .claude/skills/prep-map/scripts/beautify.mjs room.base.png prompt.txt --out room.art.png --res 2K
@@ -130,10 +132,11 @@ model with web search **off** so it can't invent geometry. It is the only paid s
 
 ## Choosing the model
 
-`beautify.mjs` defaults to **`google/nano-banana-2`** — fast, cheap, ~95% of flagship quality; right
-for drafts and most maps. For a **hero / print final**, pass `--model google/nano-banana-pro`: it is
-the best text renderer (sharper kept `ARCHWAY` labels) and the print/4K tier. Pro is slower and
-2–3× the cost — reach for it on the final pass, not iterations.
+`beautify.mjs` defaults to **`google/nano-banana-pro`** — the SOTA tier, and the right call because a
+prep-map output **is the deliverable, not a draft**. Pro **reliably obeys the "paint over every colored
+box" erase-instruction** (nano-banana-2 only sometimes does — the colored guide boxes leak on it), and
+renders the kept edge labels crisply. For **cheap layout/prompt iteration** before the real pass, pass
+`--model google/nano-banana-2` (faster, ~⅓ the cost) — then do the final on pro. Don't ship an nb2 map.
 
 ## Outputs
 

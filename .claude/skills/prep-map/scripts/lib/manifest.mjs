@@ -25,6 +25,17 @@ export function loadManifest(pathOrUrl = DEFAULT_PATH) {
   return raw;
 }
 
+// Only the two BASE surfaces flood-fill: stone WALL and the default stone FLOOR. Everything else —
+// terrain variations (water, deep water, lava, grass…), doors, stairs, props, traps, markers — is a
+// labeled REGION drawn as a colored OUTLINE on the floor, so the img2img model fills that bounded
+// area with the named material and no flat color survives or drifts past its tiles.
+export function isSurface(e) {
+  return !!e && (e.name === "wall" || e.name === "stone floor");
+}
+export function isObjectToken(e) {
+  return !!e && !isSurface(e);
+}
+
 /** Resolve the img2img fragment for a token, applying per-map legend overrides. */
 export function resolveFragment(manifest, code, legend = {}) {
   return legend[code] ?? manifest[code]?.fragment ?? null;

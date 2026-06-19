@@ -5,7 +5,7 @@ import { parseGrid } from "../lib/grid.mjs";
 import { loadManifest } from "../lib/manifest.mjs";
 import { renderLayers } from "../lib/render.mjs";
 
-const TILE = 16; // tiny ppi keeps tests fast
+const TILE = 64; // big enough that label/outline don't crowd the sampled pixels
 
 // read the RGBA byte at the center of tile (cx,cy)
 async function centerPixel(buf, cx, cy, tile = TILE) {
@@ -17,22 +17,41 @@ async function centerPixel(buf, cx, cy, tile = TILE) {
 }
 const hex = ([r, g, b]) => "#" + [r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("");
 
-test("base layer has exact dimensions and the wall color at a wall-cell center", async () => {
+// is a color ~(r,g,b) present anywhere inside tile (cx,cy)? (used to detect outline/label color)
+async function cellHasColor(buf, cx, cy, pred, tile = TILE) {
+  const { data, info } = await sharp(buf).raw().toBuffer({ resolveWithObject: true });
+  for (let y = cy * tile; y < (cy + 1) * tile; y++) {
+    for (let x = cx * tile; x < (cx + 1) * tile; x++) {
+      const i = (y * info.width + x) * info.channels;
+      if (pred(data[i], data[i + 1], data[i + 2])) return true;
+    }
+  }
+  return false;
+}
+
+test("only wall and floor flood-fill; terrain is drawn as an outline on floor", async () => {
   const m = loadManifest();
   const g = parseGrid("WL,FL\nFL,WS"); // 2x2
   const { base } = await renderLayers(g, m, TILE);
   const meta = await sharp(base).metadata();
   assert.equal(meta.width, 2 * TILE);
   assert.equal(meta.height, 2 * TILE);
-  assert.equal(hex(await centerPixel(base, 0, 0)), "#2a2723"); // WL
-  assert.equal(hex(await centerPixel(base, 1, 1)), "#4aa3c7"); // WS
+  assert.equal(hex(await centerPixel(base, 0, 0)), "#3a3a3a"); // WL → dark wall fill
+  assert.equal(hex(await centerPixel(base, 1, 0)), "#d8d2c4"); // FL → light floor fill
+  // WS is no longer a solid blue fill — it's a cyan (deepskyblue ~0,191,255) outline on floor
+  const cyan = (r, gg, b) => r < 70 && gg > 150 && b > 200;
+  assert.ok(await cellHasColor(base, 1, 1, cyan), "shallow water drawn as a cyan outline");
 });
 
-test("dm token renders its playerFallback color in the base layer (TR -> floor)", async () => {
+test("a non-surface token (TR) rests on floor with a colored outline, not a solid fill", async () => {
   const m = loadManifest();
   const g = parseGrid("FL,TR\nFL,FL");
   const { base } = await renderLayers(g, m, TILE);
-  assert.equal(hex(await centerPixel(base, 1, 0)), "#9a948a"); // FL, not the trap red
+  // floor (~#d8d2c4) shows under the trap (sampling presence dodges the centered label)
+  const floorP = (r, gg, b) => r > 200 && r < 230 && gg > 195 && gg < 225 && b > 175 && b < 215;
+  assert.ok(await cellHasColor(base, 1, 0, floorP), "floor shows under the trap");
+  const yellow = (r, gg, b) => r > 200 && gg > 200 && b < 90;
+  assert.ok(await cellHasColor(base, 1, 0, yellow), "trap drawn as a yellow outline");
 });
 
 test("grid layer is transparent in cell interiors and opaque on a gridline", async () => {

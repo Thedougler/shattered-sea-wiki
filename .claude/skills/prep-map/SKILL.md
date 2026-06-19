@@ -103,22 +103,30 @@ model with web search **off** so it can't invent geometry. It is the only paid s
 
 ## Pipeline — one room
 
-1. **Author `scene.json`** — grid + legend (above). Frame with wall; exits in the border.
-2. **`preview` then `render --ppi 300` (free).** `render` writes the **`base.png`** guide. **Look at
-   it** — confirm every region is outlined and labeled where you meant.
-3. **Write the prompt** from [beautify-prompt.md](references/beautify-prompt.md) — this is the real
+1. **Ground it in canon FIRST — chain-load `ttrpg-wiki-query`.** Before you draw anything, invoke the
+   `ttrpg-wiki-query` skill (Skill tool) and pull what the wiki already says about this space — its
+   **dimensions, exits, terrain, features, and read-aloud** for the scene / location / encounter /
+   dungeon room you're mapping. The map must match **exactly** what the DM will describe at the table:
+   every wall, water zone, exit, and keyed feature comes from canon, not invention. If the wiki gives
+   "35 × 20 ft, narrows to a 5-ft crawl, far hatch, barred side culvert", your grid reproduces that to
+   the tile. Only invent where the source is silent, and keep it consistent with the established space.
+2. **Author `scene.json`** — grid + legend (above), built from that canon. Frame with wall; exits in the border.
+3. **`preview` then `render --ppi 300` (free).** `render` writes the **`base.png`** guide. **Look at
+   it** — confirm every region is outlined and labeled where you meant, and matches the wiki's layout.
+4. **Write the prompt** from [beautify-prompt.md](references/beautify-prompt.md) — this is the real
    authoring job. It is a nano-banana *edit brief*: name what each color/label becomes, **preserve-lock**
    the walls + aspect, keep the **edge exit labels** but replace every interior label with its entity,
-   one of each (no duplicates), hidden things only subtly hinted. Save as `prompt.txt`.
-4. **Beautify ($) → composite (free).**
+   one of each (no duplicates), hidden things only subtly hinted. Pull material details (read-aloud,
+   props, lighting) straight from the canon you queried. Save as `prompt.txt`.
+5. **Beautify ($) → composite (free).**
    ```bash
    node .claude/skills/prep-map/scripts/beautify.mjs room.base.png prompt.txt --out room.art.png --res 2K
    node .claude/skills/prep-map/scripts/map.mjs composite room.art.png room.json --ppi 300 --out <dir>
    ```
    → **`room.player.png`** (styled art + crisp grid).
-5. **Validate before accepting:** geometry/exits/terrain match the guide; aspect unchanged; only the
-   edge exit labels survive; nothing invented. **Wrong terrain extent is an *authoring* bug — fix the
-   grid, don't re-prompt.** Then store + embed per `ttrpg-visual-aids`.
+6. **Validate before accepting:** geometry/exits/terrain match **both the guide and the canon**; aspect
+   unchanged; only the edge exit labels survive; nothing invented. **Wrong terrain extent is an
+   *authoring* bug — fix the grid, don't re-prompt.** Then store + embed per `ttrpg-visual-aids`.
 
 ## Choosing the model
 
@@ -179,6 +187,8 @@ session's asset folder.
 
 ## Related
 
+- `ttrpg-wiki-query` — **chain-load it first** (pipeline §1) to ground the map in canon: the wiki's
+  dimensions, exits, terrain, features and read-aloud for the space, so the map matches what the DM narrates.
 - [beautify-prompt.md](references/beautify-prompt.md) — **the prompt template + rules. Read it before
   every beautify** — it's the real authoring work, tuned for nano-banana.
 - `prompting-nano-banana-2` — deeper nano-banana prompting (brief-not-tags, edit locks, 2 vs Pro).

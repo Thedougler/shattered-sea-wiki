@@ -66,17 +66,23 @@ function connectedRegions(grid, isRegion) {
   return out;
 }
 
-/** SVG <text> label for a region, snapped to the region cell nearest its centroid. */
-function regionLabelSvg(cells, tile, color, text) {
+/** SVG <text> label for a region, snapped to the region cell nearest its centroid, then clamped so
+ *  the whole word stays on-canvas. A long label centered (text-anchor=middle) on a border-ring EXIT
+ *  cell would render half its width past x=0 / x=W and clip — so we nudge the anchor inward by a
+ *  conservative half-text estimate (bold caps ≈ 0.6em/char). This removes the #1 authoring thrash:
+ *  hand-padding the grid just to keep edge exit labels legible. */
+function regionLabelSvg(cells, tile, color, text, W, H) {
   const mx = cells.reduce((s, c) => s + c[0], 0) / cells.length;
   const my = cells.reduce((s, c) => s + c[1], 0) / cells.length;
   const [lx, ly] = cells.reduce(
     (best, c) => ((c[0] - mx) ** 2 + (c[1] - my) ** 2 < (best[0] - mx) ** 2 + (best[1] - my) ** 2 ? c : best),
     cells[0],
   );
-  const cx = (lx + 0.5) * tile;
-  const cy = (ly + 0.5) * tile;
   const fs = Math.max(11, tile * 0.2);
+  const halfW = text.length * fs * 0.31 + tile * 0.06; // est. half text width + a little breathing room
+  const halfH = fs * 0.6;
+  const cx = Math.min(Math.max((lx + 0.5) * tile, halfW), W - halfW);
+  const cy = Math.min(Math.max((ly + 0.5) * tile, halfH), H - halfH);
   return `<text x="${cx}" y="${cy}" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="${fs}" fill="${color}" stroke="#000" stroke-width="${fs * 0.08}" paint-order="stroke" text-anchor="middle" dominant-baseline="central">${text}</text>`;
 }
 
@@ -132,7 +138,7 @@ export function buildBaseSvg(grid, manifest, tile) {
     const e = manifest[r.key];
     const col = outlineColor(e);
     outlines.push(regionOutline(r.cells, tile, col, Math.max(2, tile * 0.05)));
-    labels.push(regionLabelSvg(r.cells, tile, col, e.name.toUpperCase()));
+    labels.push(regionLabelSvg(r.cells, tile, col, e.name.toUpperCase(), W, H));
   }
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="${VOID_COLOR}"/>${fills.join("")}${outlines.join("")}${labels.join("")}</svg>`;
 }
@@ -158,7 +164,7 @@ export function buildSceneSvg(grid, legend, tile) {
   for (const r of connectedRegions(grid, (k) => !!legend[k]?.outline)) {
     const e = legend[r.key];
     outlines.push(regionOutline(r.cells, tile, e.outline, Math.max(2, tile * 0.05)));
-    labels.push(regionLabelSvg(r.cells, tile, e.outline, String(e.label).toUpperCase()));
+    labels.push(regionLabelSvg(r.cells, tile, e.outline, String(e.label).toUpperCase(), W, H));
   }
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="${VOID_COLOR}"/>${fills.join("")}${outlines.join("")}${labels.join("")}</svg>`;
 }

@@ -3,7 +3,8 @@ import assert from "node:assert/strict";
 import sharp from "sharp";
 import { parseGrid } from "../lib/grid.mjs";
 import { loadManifest } from "../lib/manifest.mjs";
-import { renderLayers } from "../lib/render.mjs";
+import { renderLayers, buildSceneSvg } from "../lib/render.mjs";
+import { normalizeScene } from "../lib/scene.mjs";
 
 const TILE = 64; // big enough that label/outline don't crowd the sampled pixels
 
@@ -64,6 +65,28 @@ test("grid layer is transparent in cell interiors and opaque on a gridline", asy
   const { data, info } = await sharp(grid).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const px = (x, y) => data[(y * info.width + x) * info.channels + 3]; // alpha
   assert.ok(px(TILE, Math.floor(TILE / 2)) > 0, "gridline should be drawn");
+});
+
+test("edge-region labels stay fully on-canvas horizontally (no clip)", () => {
+  // A single-cell EXIT region in the border ring carries a wide label. Centered on an edge cell it
+  // would render half its width past x=0 / x=W and clip — the renderer must clamp the anchor inward.
+  const TILE = 100;
+  const fs = Math.max(11, TILE * 0.2);
+  const label = "TO ROOM 4";
+  const half = label.length * fs * 0.3; // conservative half text-width estimate (bold caps ~0.6em/char)
+  const floor = { fill: "#d8d2c4" };
+  const exit = { outline: "orange", label };
+  const xOf = (svg) => +svg.match(/<text x="([\d.]+)"/)[1];
+
+  const left = normalizeScene({ grid: ["A" + ".".repeat(8)], legend: { A: exit, ".": floor } });
+  const Wl = left.grid.width * TILE;
+  const xl = xOf(buildSceneSvg(left.grid, left.legend, TILE));
+  assert.ok(xl >= half - 1, `left-edge label x=${xl} clips left margin (needs >= ${half.toFixed(0)})`);
+
+  const right = normalizeScene({ grid: [".".repeat(8) + "A"], legend: { A: exit, ".": floor } });
+  const Wr = right.grid.width * TILE;
+  const xr = xOf(buildSceneSvg(right.grid, right.legend, TILE));
+  assert.ok(xr <= Wr - half + 1, `right-edge label x=${xr} clips right margin (needs <= ${(Wr - half).toFixed(0)})`);
 });
 
 test("dm layer is empty when there are no dm tokens, present when there are", async () => {

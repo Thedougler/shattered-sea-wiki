@@ -60,7 +60,7 @@ rooms be non-rectangular) plus a `legend` mapping each char to how it draws.
 {
   "grid": [
     "########",
-    "#..TB..#",
+    "#..RB..#",
     "#.~~~.C#",
     "L..~~..#",
     "########"
@@ -70,7 +70,7 @@ rooms be non-rectangular) plus a `legend` mapping each char to how it draws.
     ".": { "fill": "#cfc9ba",     "as": "damp flagstone floor" },
     "~": { "outline": "deepskyblue", "label": "WATER",     "as": "ankle-deep standing water" },
     "L": { "outline": "limegreen",   "label": "ARCHWAY",   "as": "an open tunnel-mouth exit" },
-    "T": { "outline": "yellow",      "label": "TRAP",      "as": "a hidden pressure plate" },
+    "R": { "outline": "sienna",      "label": "RUBBLE",    "as": "a heap of fallen masonry (half cover)" },
     "B": { "outline": "orange",      "label": "BARRELS",   "as": "a stack of powder barrels" },
     "C": { "outline": "gold",        "label": "CHEST",     "as": "a banded strongbox" }
   }
@@ -91,6 +91,18 @@ Rules of thumb: fill **only** wall + floor; make everything else an `outline` re
 blobs leak into the art and drift their bounds — outlines hold). Use **simple, distinct, obvious
 colors** so your prompt can name them ("the gold CHEST region…"). Frame the room with wall on every
 side and put exits in that border ring.
+
+**Author it in one pass — this schema is complete.** Everything you need to write a scene is on this
+page; you do **not** need to read `map.mjs`, `scene.mjs`, the token library, or a prior room's scene
+to learn the format. Three things keep it to a single draft:
+
+- **Size to canon — 1 cell = 5 ft.** A 35 × 30 ft room is **7 × 6 interior cells** inside the wall
+  ring. Translate the wiki's dimensions to cells directly; don't oversize "to make room" for anything.
+- **Exits are one border cell + a short label** (`TO ROOM 3`, `ARCHWAY`). The renderer **keeps every
+  edge label fully on-canvas by construction** — it nudges long labels inward automatically. So never
+  widen a cell, add a padding column, or re-render to stop a label clipping. Place it once and move on.
+- **`preview` once to sanity-check dims, `render` once.** Re-render only if the *geometry* is wrong,
+  never to chase label placement.
 
 ## Commands
 
@@ -203,6 +215,8 @@ session's asset folder.
 | Stopping at `render`/`flat.png` | The guide isn't the map. The finished map is `player.png`, after **beautify → composite**. |
 | Feeding `flat.png` (with grid) to beautify | Feed `base.png` (the guide, no grid). The grid is composited last, crisp. |
 | Re-prompting to fix wrong terrain extent | That's an **authoring** bug — fix the grid; each region holds its own bounds. |
+| Padding the grid / re-rendering so an edge label fits | Unneeded — the renderer **auto-clamps every label on-canvas**. Author the exit as one border cell; re-render only for wrong *geometry*. |
+| Reading the scripts / a prior scene to learn the format, or oversizing the room | The schema on this page is **complete** — don't spelunk. Size to canon: **1 cell = 5 ft**. |
 | Interior labels leaking into the art | Prompt per-location: **keep** edge exit labels, **replace** every interior label with its entity. |
 | Duplicated/invented features | Say "**exactly one of each, no duplicates**" — the model adds extras unless forbidden. |
 | Hidden trap/door rendered obviously | The prompt hints **subtly** (a trap door shut and flush); the guide still labels it normally. |

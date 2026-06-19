@@ -2,10 +2,31 @@
 
 The beautify step feeds the image model **only two things**: the rendered guide PNG and this prompt.
 No token manifest, no auto-legend — the agent writes the prompt. The guide is a *planning diagram*
-(flat surfaces + colored outline boxes + UPPERCASE labels); the model must paint the scene and
-**erase every annotation**.
+(filled surfaces + colored outline regions + UPPERCASE labels); the model must paint the scene and
+**erase every interior annotation**.
 
-This structure was tuned empirically (nano-banana-2). The load-bearing moves, in order:
+## Write it as a nano-banana *edit brief*
+
+Nano-banana reasons about a scene like a creative director reading a brief — **not** a diffusion
+tag-matcher. So (see the `prompting-nano-banana-2` skill for the full craft):
+
+- **Prose, not tags.** Full sentences describing the finished map. No comma-keyword strings, no quality
+  boosters ("masterpiece, 4k"), and **no negative prompts** — to exclude a thing, describe the positive
+  state ("plain unbroken wall", not "no door").
+- **State the purpose first:** "a finished top-down battlemap for tabletop RPG play, …" — intent sharpens it.
+- **Frame it as an edit: name what CHANGES and what STAYS.** This is the structure lock. Always include an
+  explicit *preserve* clause: "PRESERVE exactly — do not move, add, or resize — the wall layout, the
+  proportions and aspect ratio, the position of every region; keep the whole composition identical."
+  The words *preserve / keep / identical* are what hold the geometry.
+- **Name materials, not categories** ("rough wet limestone", "banded iron grate"), and put any kept text in
+  **quotes** (`the word "ARCHWAY"`).
+- **Direct camera + light:** "strictly orthographic bird's-eye top-down, no perspective; soft short contact
+  shadows; warm lamplight". One style family only (painterly illustrated battlemap).
+- **Close with the output spec:** match the input's aspect ratio, 2K (or 4K for a print final).
+- **Model:** `google/nano-banana-2` for drafts; `--model google/nano-banana-pro` for the hero/print final —
+  best text (sharper kept labels) and 4K, at 2–3× cost.
+
+The prep-map-specific moves, in order:
 
 1. **Lead with annotation-removal, and split labels by location.** State up front that the input is
    a diagram with text labels + colored outlines drawn on top. Then handle the labels explicitly by

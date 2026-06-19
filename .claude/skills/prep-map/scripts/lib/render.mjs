@@ -36,15 +36,14 @@ function outlineColor(e) {
   return "limegreen"; // furniture / props / stairs / features
 }
 
-/** Connected same-token feature regions (4-connectivity) → one label per region. */
-function featureRegions(grid, manifest) {
+/** Connected same-key regions (4-connectivity) where `isRegion(key)` → one label per region. */
+function connectedRegions(grid, isRegion) {
   const seen = Array.from({ length: grid.height }, () => Array(grid.width).fill(false));
-  const isFeat = (code) => isObjectToken(manifest[code]);
   const out = [];
   for (let y = 0; y < grid.height; y++) {
     for (let x = 0; x < grid.width; x++) {
-      const code = grid.cells[y][x];
-      if (seen[y][x] || !isFeat(code)) continue;
+      const key = grid.cells[y][x];
+      if (seen[y][x] || !key || !isRegion(key)) continue;
       const cells = [];
       const stack = [[x, y]];
       seen[y][x] = true;
@@ -55,16 +54,30 @@ function featureRegions(grid, manifest) {
           const nx = cx + dx;
           const ny = cy + dy;
           if (nx < 0 || ny < 0 || nx >= grid.width || ny >= grid.height || seen[ny][nx]) continue;
-          if (grid.cells[ny][nx] === code) {
+          if (grid.cells[ny][nx] === key) {
             seen[ny][nx] = true;
             stack.push([nx, ny]);
           }
         }
       }
-      out.push({ code, cells });
+      out.push({ key, cells });
     }
   }
   return out;
+}
+
+/** SVG <text> label for a region, snapped to the region cell nearest its centroid. */
+function regionLabelSvg(cells, tile, color, text) {
+  const mx = cells.reduce((s, c) => s + c[0], 0) / cells.length;
+  const my = cells.reduce((s, c) => s + c[1], 0) / cells.length;
+  const [lx, ly] = cells.reduce(
+    (best, c) => ((c[0] - mx) ** 2 + (c[1] - my) ** 2 < (best[0] - mx) ** 2 + (best[1] - my) ** 2 ? c : best),
+    cells[0],
+  );
+  const cx = (lx + 0.5) * tile;
+  const cy = (ly + 0.5) * tile;
+  const fs = Math.max(11, tile * 0.2);
+  return `<text x="${cx}" y="${cy}" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="${fs}" fill="${color}" stroke="#000" stroke-width="${fs * 0.08}" paint-order="stroke" text-anchor="middle" dominant-baseline="central">${text}</text>`;
 }
 
 /** SVG <g> tracing the outer perimeter of a connected region, inset slightly inward. */
@@ -115,27 +128,49 @@ export function buildBaseSvg(grid, manifest, tile) {
   }
   // One contiguous perimeter outline + one bold label per connected region, in its role color.
   const labels = [];
-  for (const r of featureRegions(grid, manifest)) {
-    const e = manifest[r.code];
+  for (const r of connectedRegions(grid, (k) => isObjectToken(manifest[k]))) {
+    const e = manifest[r.key];
     const col = outlineColor(e);
-    const sw = Math.max(2, tile * 0.05);
-    outlines.push(regionOutline(r.cells, tile, col, sw));
-    // Snap the label to the region cell nearest the centroid, so donut/ring regions (e.g. water
-    // wrapping a sump) don't drop their label into the hole and collide with the inner region.
-    const mx = r.cells.reduce((s, c) => s + c[0], 0) / r.cells.length;
-    const my = r.cells.reduce((s, c) => s + c[1], 0) / r.cells.length;
-    const [lx, ly] = r.cells.reduce(
-      (best, c) => ((c[0] - mx) ** 2 + (c[1] - my) ** 2 < (best[0] - mx) ** 2 + (best[1] - my) ** 2 ? c : best),
-      r.cells[0],
-    );
-    const cx = (lx + 0.5) * tile;
-    const cy = (ly + 0.5) * tile;
-    const fs = Math.max(11, tile * 0.2);
-    labels.push(
-      `<text x="${cx}" y="${cy}" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="${fs}" fill="${col}" stroke="#000" stroke-width="${fs * 0.08}" paint-order="stroke" text-anchor="middle" dominant-baseline="central">${e.name.toUpperCase()}</text>`,
-    );
+    outlines.push(regionOutline(r.cells, tile, col, Math.max(2, tile * 0.05)));
+    labels.push(regionLabelSvg(r.cells, tile, col, e.name.toUpperCase()));
   }
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="${VOID_COLOR}"/>${fills.join("")}${outlines.join("")}${labels.join("")}</svg>`;
+}
+
+// ── Scene mode: agent-authored legend (key → {fill | outline+label}) drives the guide ─────────
+const SCENE_BG = "#d8d2c4"; // default floor a region sits on, if the legend entry has no `fill`
+
+/** Build the guide SVG from an agent legend: `fill` keys flood-fill; `outline`+`label` keys
+ *  become contiguous outlined, labelled regions. Colors are whatever CSS names the agent chose. */
+export function buildSceneSvg(grid, legend, tile) {
+  const W = grid.width * tile, H = grid.height * tile;
+  const fills = [];
+  for (let y = 0; y < grid.height; y++) {
+    for (let x = 0; x < grid.width; x++) {
+      const e = legend[grid.cells[y][x]];
+      if (!e) continue;
+      const bg = e.fill || (e.outline ? SCENE_BG : null);
+      if (bg) fills.push(`<rect x="${x * tile}" y="${y * tile}" width="${tile}" height="${tile}" fill="${bg}"/>`);
+    }
+  }
+  const outlines = [];
+  const labels = [];
+  for (const r of connectedRegions(grid, (k) => !!legend[k]?.outline)) {
+    const e = legend[r.key];
+    outlines.push(regionOutline(r.cells, tile, e.outline, Math.max(2, tile * 0.05)));
+    labels.push(regionLabelSvg(r.cells, tile, e.outline, String(e.label).toUpperCase()));
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="${VOID_COLOR}"/>${fills.join("")}${outlines.join("")}${labels.join("")}</svg>`;
+}
+
+/** Render scene base + grid layers (scenes have no DM layer). */
+export async function renderSceneLayers(grid, legend, tile = 300, gridStyle = {}) {
+  const W = grid.width * tile, H = grid.height * tile;
+  const [base, gridL] = await Promise.all([
+    rasterize(buildSceneSvg(grid, legend, tile), W, H),
+    rasterize(buildGridSvg(grid, tile, gridStyle), W, H),
+  ]);
+  return { base, grid: gridL };
 }
 
 /** SVG of the grid overlay — subtle low-opacity dark lines (transparent elsewhere). */
@@ -210,10 +245,9 @@ export async function finishMap(beautifiedBuf, grid, manifest, tile = 300, gridS
   const H = grid.height * tile;
   const base = await resizeTo(beautifiedBuf, W, H);
   const gridL = await rasterize(buildGridSvg(grid, tile, gridStyle), W, H);
+  const player = await compositePng(base, [gridL]);
+  if (!manifest) return { player }; // scene mode has no DM layer
   const dm = await rasterize(buildDmSvg(grid, manifest, tile), W, H);
-  const [player, dmMap] = await Promise.all([
-    compositePng(base, [gridL]),
-    compositePng(base, [gridL, dm]),
-  ]);
+  const dmMap = await compositePng(base, [gridL, dm]);
   return { player, dm: dmMap };
 }

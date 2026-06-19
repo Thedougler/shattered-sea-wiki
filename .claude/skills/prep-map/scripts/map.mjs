@@ -3,8 +3,9 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { resolve, join, basename, dirname } from "node:path";
 import { loadManifest } from "./lib/manifest.mjs";
 import { parseGrid, validateGrid, geometry, asciiPreview } from "./lib/grid.mjs";
-import { renderLayers, compositePng, finishMap } from "./lib/render.mjs";
+import { renderLayers, renderSceneLayers, compositePng, finishMap } from "./lib/render.mjs";
 import { assembleDungeon } from "./lib/compose.mjs";
+import { isSceneSpec, normalizeScene } from "./lib/scene.mjs";
 
 function parseArgs(argv) {
   const out = { _: [], ppi: 300, out: ".", legend: null };
@@ -41,6 +42,28 @@ function gridFromInput(inputPath) {
   return { grid: parseGrid(readFileSync(abs, "utf8")), stem: basename(inputPath).replace(/\.csv$/i, "") };
 }
 
+/** If `path` is a JSON scene spec, load + normalize it; otherwise null (CSV / dungeon). */
+function tryLoadScene(path) {
+  if (!/\.json$/i.test(path)) return null;
+  const raw = JSON.parse(readFileSync(resolve(path), "utf8"));
+  return isSceneSpec(raw) ? normalizeScene(raw) : null;
+}
+
+const sceneAscii = (grid) => grid.cells.map((row) => row.map((k) => k || " ").join("")).join("\n");
+
+/** Render a scene (agent legend + grid) to base/grid/flat. No DM layer, no manifest. */
+async function writeSceneArtifacts(scene, ppi, outDir, stem) {
+  const geo = geometry(scene.grid, ppi);
+  const { base, grid: gridL } = await renderSceneLayers(scene.grid, scene.legend, geo.tilePx);
+  const flat = await compositePng(base, [gridL]);
+  mkdirSync(resolve(outDir), { recursive: true });
+  const w = (s, b) => writeFileSync(join(resolve(outDir), `${stem}.${s}.png`), b);
+  w("base", base);
+  w("grid", gridL);
+  w("flat", flat);
+  return geo;
+}
+
 /** Render a validated grid to base/grid/DM-overlay/flat files. Shared by `render` and `compose`. */
 async function writeRenderArtifacts(grid, manifest, _legend, ppi, outDir, stem) {
   const geo = geometry(grid, ppi);
@@ -66,6 +89,20 @@ const manifest = loadManifest();
 if (cmd === "preview" || cmd === "render") {
   const csvPath = args._[1];
   if (!csvPath) fail(USAGE);
+
+  const scene = tryLoadScene(csvPath);
+  if (scene) {
+    const stem = basename(csvPath).replace(/\.json$/i, "");
+    if (cmd === "preview") {
+      console.log(sceneAscii(scene.grid));
+      console.log(`\nscene — ${scene.grid.width}x${scene.grid.height} tiles, ${Object.keys(scene.legend).length} legend keys`);
+      process.exit(0);
+    }
+    const geo = await writeSceneArtifacts(scene, args.ppi, args.out, stem);
+    console.log(`rendered ${stem} (scene) @ ${geo.widthPx}x${geo.heightPx}px (${args.ppi} ppi) → ${args.out}`);
+    process.exit(0);
+  }
+
   const grid = parseGrid(readFileSync(resolve(csvPath), "utf8"));
   const legend = loadLegendFile(args.legend);
   const report = validateGrid(grid, manifest, legend);
@@ -93,7 +130,19 @@ if (cmd === "preview" || cmd === "render") {
 // ── composite — finish a beautified base into player.png + dm.png ──────────────
 if (cmd === "composite") {
   const [, imgPath, mapPath] = args._;
-  if (!imgPath || !mapPath) fail("usage: map.mjs composite <beautified.png> <tiles.csv|dungeon.json> [--ppi N] [--out dir]");
+  if (!imgPath || !mapPath) fail("usage: map.mjs composite <beautified.png> <tiles.csv|scene.json|dungeon.json> [--ppi N] [--out dir]");
+
+  const scene = tryLoadScene(mapPath);
+  if (scene) {
+    const beautified = readFileSync(resolve(imgPath));
+    const { player } = await finishMap(beautified, scene.grid, null, geometry(scene.grid, args.ppi).tilePx);
+    const stem = basename(mapPath).replace(/\.json$/i, "");
+    mkdirSync(resolve(args.out), { recursive: true });
+    writeFileSync(join(resolve(args.out), `${stem}.player.png`), player);
+    console.log(`composited ${stem} (scene) @ ${scene.grid.width * args.ppi}x${scene.grid.height * args.ppi}px → ${stem}.player.png`);
+    process.exit(0);
+  }
+
   const { grid, stem } = gridFromInput(mapPath);
   const report = validateGrid(grid, manifest, loadLegendFile(args.legend));
   if (!report.ok) {

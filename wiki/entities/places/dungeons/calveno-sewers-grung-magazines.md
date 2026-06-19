@@ -149,11 +149,13 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 | Room 1 | `wiki/assets/sessions/session-05/maps/session-05-room-01-le-paludi-access-shaft-battlemap-realistic.png` |
 | Room 2 | `wiki/assets/sessions/session-05/maps/session-05-room-02-y-junction-battlemap-realistic.png` |
 | Room 3 | `wiki/assets/sessions/session-05/maps/session-05-room-03-bridge-connector-battlemap-realistic.png` |
-| Room 4 / T1 / T2 | `wiki/assets/sessions/session-05/maps/session-05-room-04-magazine-alpha-battlemap-realistic.png` |
+| Room 4 | `wiki/assets/sessions/session-05/maps/session-05-room-04-magazine-alpha-battlemap-realistic.png` |
 | Room 5 | `wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png` |
 | Room 6 | `wiki/assets/sessions/session-05/maps/session-05-room-06-handler-relay-battlemap-realistic.png` |
 | Room 7 | `wiki/assets/sessions/session-05/maps/session-05-room-07-main-collector-battlemap-realistic.png` |
 | Room 8 | `wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic.png` |
+| Room T1 (Gamma) | `wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png` |
+| Room T2 (Delta) | `wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png` |
 
 ---
 
@@ -463,7 +465,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 
 ## Room T1 — Magazine Gamma (Bridge District)
 
-Use the Room 4 battlemap as the tactical template.
+![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 battlemap — Magazine Gamma: low old-brick magazine with four blackpowder barrels under a fresh timber-braced seam, barred culvert to Room 3, rusted street drain, and 5-foot tactical grid.]]
 
 **Dimensions:** 30 × 20 ft low service magazine. Ceiling 5 ft. Exits: barred culvert to Room 3, rusted street drain toward the Bridge district.
 
@@ -484,7 +486,7 @@ Use the Room 4 battlemap as the tactical template.
 
 ## Room T2 — Magazine Delta (Harbour Approach)
 
-Use the Room 4 battlemap as the tactical template.
+![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 battlemap — Magazine Delta: tidal harbour-approach magazine with six barrels at the wet seam, flood overflow vent to Room 7, barred quay egress vent with daylight, and 5-foot tactical grid.]]
 
 **Dimensions:** 35 × 25 ft tidal magazine beside a 3-ft egress vent. Ceiling 6 ft. Exits: flood overflow vent to Room 7, outer-quay vent above the waterline.
 

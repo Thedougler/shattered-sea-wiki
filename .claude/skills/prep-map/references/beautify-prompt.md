@@ -51,8 +51,23 @@ The prep-map-specific moves, in order:
    text" scrubs the exit markers too (over-correction), and a blanket "keep the labels" leaks the
    interior ones. The location split is what makes it selective.
    Naming the labels and their location is load-bearing; a generic "remove annotations" alone leaks.
+
+   **In-world text the players SHOULD see** (a carved wall sign, a commission plaque, a name over a
+   door) is a special case: **describe it in the prompt prose at its wall location with the exact words
+   in quotes — do NOT author it as an outlined region/label.** A region's colored box leaks (magenta is
+   the worst offender), and the keep-the-text-but-erase-the-box combination confuses the model. Prose-
+   placed signs render cleanly; specify orientation ("upright, readable with the top of the map as up")
+   so it doesn't come out mirrored or upside-down.
 2. **Lock the layout, not the annotations.** Tell it to keep walls/floor/proportions/aspect exactly,
-   but to paint *over* every colored box and label.
+   but to paint *over* every colored box and label. Two locks the model breaks on big/irregular rooms
+   unless you state them forcefully:
+   - **True top-down projection.** The camera points *straight down at the floor*. Walls are seen only
+     as their **tops**, never their vertical inner faces — **no perspective, no vanishing point, no 3D
+     extrusion, not a room photographed at an angle.** A flat floor plan. (On wide corridors and large
+     chambers the model drifts into an angled 3D "room view"; say this loudly or it will.)
+   - **Interior walls are real walls.** Wall blocks that jut *into* the room — a single-file pinch, a
+     pillar, a divider — are solid stone; keep them exactly as drawn. The model's instinct is to "heal"
+     them open into one smooth chamber; forbid that explicitly.
 3. **Place, don't centre — but lock structure.** Loose props (barrels, sacks, crates, a lantern)
    should settle *naturally* — against the nearest wall or into a corner, never floating dead-centre.
    But **structural features (ladders, stairs, doors, archways, exits) must stay exactly in their
@@ -125,8 +140,10 @@ the finished map has no colored outlines or boxes anywhere. Then handle the TEXT
   these MUST NOT remain as text or marks. Replace each ENTIRELY with the real thing it names, woven
   naturally into the scene. NO words, letters, outlines, boxes or grid lines inside the playable map.
 
-STYLE: a 2-Minute Tabletop hand-painted battlemap — painterly, illustrated, stylized realism,
-strictly orthographic bird's-eye top-down, NOT a photo. Soft short contact shadows only;
+STYLE: a 2-Minute Tabletop hand-painted battlemap — painterly, illustrated, stylized realism.
+STRICTLY ORTHOGRAPHIC TOP-DOWN: the camera points straight DOWN at the floor; you see only the TOPS
+of the walls, never their vertical inner faces; NO perspective, NO vanishing point, NO 3D extrusion —
+a flat floor plan, not a room photographed at an angle. Soft short contact shadows only;
 <LIGHTING>; solid near-black outside the walls.
 
 THEME: <§1's atmosphere brief, in two or three rich sentences — THIS exact place's materials,
@@ -139,7 +156,9 @@ feature — see LIVED-IN DETAIL below; that you SHOULD add.)
 
 LAYOUT — preserve exactly: the dark-grey border is stone WALL, keep every wall where it is; the
 plain light region is walkable FLOOR. Keep the same aspect ratio and proportions. Do not add,
-move, or remove any wall or opening.
+move, or remove any wall or opening. INTERIOR wall blocks that jut into the room (a single-file
+pinch, a pillar, a divider) are SOLID stone — keep them exactly as drawn; do NOT open, smooth, or
+merge them into the floor.
 
 FILL EACH OUTLINED TERRAIN REGION with its material, kept WITHIN its outline (do not spread past it):
 - the cyan <SHALLOW WATER> region → a thin sheet of reflective standing water covering the floor.

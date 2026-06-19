@@ -17,7 +17,13 @@ prep-map turns a **paint-by-numbers guide you author** into a print-ready, grid-
 hand-painted battlemap. A bundled deterministic script (`map.mjs`) owns all the geometry, so the
 1-inch grid is **exact by construction**; a SOTA image model (nano-banana) does only the styling
 and never invents layout — the guide pins it. Quality bar: **2-Minute Tabletop-class** painterly
-top-down art (not photoreal).
+top-down art (not photoreal) that reads as **a little window looking down into this exact place in
+the DM's world** — grounded in canon *geometry* **and** canon *atmosphere*, never a generic tile.
+
+**Two skills carry this, chain-loaded by default** (Skill tool, not optional): `ttrpg-wiki-query`
+grounds the room in canon (§1 — geometry *and* vibe); `prompting-nano-banana-2` governs the beautify
+prompt (§4 — the model-specific craft). Both fire on every map unless you have already loaded them
+this session.
 
 **The load-bearing idea — you author the legend.** There is no fixed token library boxing you in.
 For each map you write a tiny **scene** — a character grid plus a legend *you choose*: which colors
@@ -105,21 +111,37 @@ geometry). It is the only paid step.
 ## Pipeline — one room
 
 1. **Ground it in canon FIRST — chain-load `ttrpg-wiki-query`.** Before you draw anything, invoke the
-   `ttrpg-wiki-query` skill (Skill tool) and pull what the wiki already says about this space — its
-   **dimensions, exits, terrain, features, and read-aloud** for the scene / location / encounter /
-   dungeon room you're mapping. The map must match **exactly** what the DM will describe at the table:
-   every wall, water zone, exit, and keyed feature comes from canon, not invention. If the wiki gives
-   "35 × 20 ft, narrows to a 5-ft crawl, far hatch, barred side culvert", your grid reproduces that to
-   the tile. Only invent where the source is silent, and keep it consistent with the established space.
+   `ttrpg-wiki-query` skill (Skill tool). Pull **two things from canon — both load-bearing, not one
+   then maybe the other:**
+
+   - **(a) Geometry & layout.** Dimensions, ceiling, every exit and where it leads, terrain, keyed
+     features. The map must match **exactly** what the DM will describe: every wall, water zone, exit,
+     and feature comes from canon, not invention. If the wiki gives "35 × 20 ft, narrows to a 5-ft
+     crawl, far hatch, barred side culvert", your grid reproduces that to the tile.
+   - **(b) Atmosphere & vibe.** The room's materials, light and colour, smell-made-visible (residue,
+     film, stains, algae), wear, signs of recent use, and its **mood and narrative function**. Mine
+     this from the room **read-aloud**, the dungeon's **general features** (light / smell / saturation),
+     and the parent location's feel. This is **not** optional dressing: a map that nails the grid but
+     paints a generic tile has failed half the job. The finished map should read as **a little window
+     looking down into this exact place in the DM's world** — so it matches the dread, the colour, and
+     the texture the DM is narrating the instant it hits the table.
+
+   Capture both as a short brief before authoring the scene: geometry drives the grid; atmosphere
+   drives the legend `as:` notes and the beautify **THEME** (§4). Only invent where canon is silent,
+   and keep inventions consistent with the established space.
 2. **Author `scene.json`** — grid + legend (above), built from that canon. Frame with wall; exits in the border.
 3. **`preview` then `render --ppi 300` (free).** `render` writes the **`base.png`** guide. **Look at
    it** — confirm every region is outlined and labeled where you meant, and matches the wiki's layout.
-4. **Write the prompt** from [beautify-prompt.md](references/beautify-prompt.md) — this is the real
-   authoring job. It is a nano-banana *edit brief*: name what each color/label becomes, **preserve-lock**
-   the walls + aspect, keep the **edge exit labels** but replace every interior label with its entity,
-   one of each (no duplicates). **Hidden things (secret doors, traps, caches) are NOT on the map at all**
-   — don't author a region or name them; fog of war covers them, the DM tracks them from canon. Pull
-   material details (read-aloud, props, lighting) straight from the canon you queried. Save as `prompt.txt`.
+4. **Write the prompt — chain-load `prompting-nano-banana-2` first (Skill tool, by default).** The
+   beautify step *is* a nano-banana call, so load that skill every time before writing the brief — it
+   owns the model-specific craft (prose-not-tags, the change/preserve edit lock, quoting kept text, 2 vs
+   Pro). Then write the prompt with [beautify-prompt.md](references/beautify-prompt.md), the prep-map-tuned
+   structure. This is the real authoring job: name what each color/label becomes, **preserve-lock** the
+   walls + aspect, keep the **edge exit labels** but replace every interior label with its entity, one of
+   each (no duplicates). **Hidden things (secret doors, traps, caches) are NOT on the map at all** — don't
+   author a region or name them; fog of war covers them, the DM tracks them from canon. The **THEME line
+   is where §1's atmosphere brief lands** — pour the room's materials, light, colour, wear and mood
+   straight in, so the painting is that *window into the DM's world*, not a generic sewer. Save as `prompt.txt`.
 5. **Beautify ($) → composite (free).**
    ```bash
    node .claude/skills/prep-map/scripts/beautify.mjs room.base.png prompt.txt --out room.art.png --res 2K
@@ -190,11 +212,13 @@ session's asset folder.
 
 ## Related
 
-- `ttrpg-wiki-query` — **chain-load it first** (pipeline §1) to ground the map in canon: the wiki's
-  dimensions, exits, terrain, features and read-aloud for the space, so the map matches what the DM narrates.
+- `ttrpg-wiki-query` — **chain-load it first** (pipeline §1) to ground the map in canon — **both** the
+  geometry (dimensions, exits, terrain, features) **and** the atmosphere/vibe (materials, light, residue,
+  mood) — so the map is a window into the DM's world, not just the right shape.
+- `prompting-nano-banana-2` — **chain-load it before writing the prompt** (pipeline §4): the model-specific
+  craft for the beautify call (brief-not-tags, change/preserve edit locks, quoting kept text, 2 vs Pro).
 - [beautify-prompt.md](references/beautify-prompt.md) — **the prompt template + rules. Read it before
-  every beautify** — it's the real authoring work, tuned for nano-banana.
-- `prompting-nano-banana-2` — deeper nano-banana prompting (brief-not-tags, edit locks, 2 vs Pro).
+  every beautify** — the prep-map-tuned structure layered on top of `prompting-nano-banana-2`.
 - `ttrpg-visual-aids` — storage paths, embedding syntax, campaign art style.
 - `use-replicate` — `beautify.mjs` reuses its Replicate client/auth; default model `google/nano-banana-2`.
 - `prep-dungeon` — designs the room layouts and dungeon connectivity that prep-map renders.

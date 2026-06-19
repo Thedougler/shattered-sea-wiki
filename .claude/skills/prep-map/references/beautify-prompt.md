@@ -8,7 +8,8 @@ No token manifest, no auto-legend — the agent writes the prompt. The guide is 
 ## Write it as a nano-banana *edit brief*
 
 Nano-banana reasons about a scene like a creative director reading a brief — **not** a diffusion
-tag-matcher. So (see the `prompting-nano-banana-2` skill for the full craft):
+tag-matcher. **Chain-load the `prompting-nano-banana-2` skill first** (Skill tool, every beautify) —
+it owns the full model-specific craft; this file is the prep-map-specific layer on top of it. So:
 
 - **Prose, not tags.** Full sentences describing the finished map. No comma-keyword strings, no quality
   boosters ("masterpiece, 4k"), and **no negative prompts** — to exclude a thing, describe the positive
@@ -115,7 +116,9 @@ STYLE: a 2-Minute Tabletop hand-painted battlemap — painterly, illustrated, st
 strictly orthographic bird's-eye top-down, NOT a photo. Soft short contact shadows only;
 <LIGHTING>; solid near-black outside the walls.
 
-THEME: <one or two rich sentences: place, materials, wear, atmosphere, clutter>.
+THEME: <§1's atmosphere brief, in two or three rich sentences — THIS exact place's materials,
+light and colour, residue/stains/algae, wear, clutter, and mood. This line is the window into the
+DM's world; make it read as this specific room, never a generic one>.
 
 PAINT EXACTLY ONE of each labelled feature. Do NOT add, duplicate, echo, or invent any extra
 feature anywhere.

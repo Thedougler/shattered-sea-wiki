@@ -18,6 +18,7 @@ sources:
   - Inbox/Catarina_Da_Vrelle.md
   - Inbox/Caterina-da-virelli.md
   - Inbox/Caterina-da-virelli.pdf
+  - .raw/characters/Caterina-da-virelli-v2.pdf
 confidence_level: confirmed
 aliases:
   - Catarina Da'Virelli
@@ -74,11 +75,11 @@ Operates [[kats-curios|Cat's Curios]] by referral only — no advertising, no wa
 
 ## Mechanics
 
-**Species:** [[human|Human]] (Variant, Linguist feat) | **Class:** [[artificer|Artificer]] (Artillerist) 5 | **Background:** [[artisan|Artisan]] / [[merchant|Merchant]] (Guild Artisan / Guild Merchant)
+**Species:** [[human|Human]] (Variant, Alert feat) | **Class:** [[artificer|Artificer]] (Artillerist) 5 | **Background:** [[artisan|Artisan]] / [[merchant|Merchant]] (Guild Artisan / Guild Merchant)
 
 **Mortis:** +2 INT, physically weak and fragile. She knows it — always been this way.
 
-**Combat role:** Eldritch Cannon (1/long rest), Infuse Item, Magical Tinkering. Fire Bolt and Shocking Grasp as primary cantrips; Flintlock Pistol as backup. AC 16, HP 43.
+**Combat role:** Eldritch Cannon (1/long rest), Infuse Item, Magical Tinkering. Fire Bolt and Shocking Grasp as primary cantrips; Flintlock Pistol as backup. AC 16, HP 38, Initiative +7. No War Caster — see [[catarina-primer|Catarina Primer]] for concentration and Alert design notes.
 
 ## Relationships
 

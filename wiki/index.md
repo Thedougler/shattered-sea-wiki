@@ -485,6 +485,7 @@ sources: []
 ## system
 - [[art-style|Art Style Guide]] — Visual style guide for AI-generated campaign art — agents read this before every image generation task
 - [[blm-prep-framework|BLM Prep Framework]] — Brennan Lee Mulligan's prep methodology: reactive toys over predicted outcomes, narrative tentpoles that Schrödinger into position, player gravity as the essential anchor. Read before generating session prep, NPC toys, or faction structures.
+- [[catarina-primer|Catarina Primer]] — Agent quick reference for pressuring Catarina's concentration (no War Caster) and designing around her Alert feat — she can't be ambushed, so surprise pressure has to land on someone else.
 - [[character-creation-three-pillars|Character Creation: Three Pillars]] — Pointy Hat's three-pillar framework for character identity before mechanics: Gimmick (surface), Conflict (wound), Want (engine). Use before helping create or evaluate any PC concept.
 - [[character-interview-guide|Character Interview Guide]] — A blank questionnaire for players to establish character foundations before or during session zero. No wrong answers.
 - [[city-creation-guide|City Creation Guide (Theme Park Method)]] — Pointy Hat's Theme Park Method for city design: choose one legible theme, build attractions players can interact with (not a lore museum), adapt every element to the theme. Read before creating any city, port, or district hub.

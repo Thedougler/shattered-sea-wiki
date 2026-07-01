@@ -45,6 +45,7 @@ The price is submission to the document. A vessel is safe because its papers say
 - Patrol cutters (HCS-class) with cannon and armed crew.
 - Contracted Grung toxin canisters.
 - Privateer captains with authority to board and seize vessels.
+- Commissioned artificer work (ship upgrades, soldier kit) from independent contractors like [[caterina-da-virelle|Caterina Da Virelle]].
 
 ## Texture
 

@@ -15,7 +15,7 @@ sources: []
 # Wiki Index — Shattered Sea
 
 ## entities/characters/pcs
-- [[caterina-da-virelle|Caterina Da Virelle]] — Guest PC — human Artificer 5 (Artillerist). White-haired artificer for hire in Calveno, commissioned by the Dravosi Crown for ship and soldier upgrades. Building the first flying machine without magic; her father's fate after the kidnapping raid she escaped from remains unknown.
+- [[catarina-davirelli|Catarina Da'Virelli]] — Human Artificer 5 (Artillerist) — Calveno's foremost Antheri-materials expert, runs Cat's Curios by referral only, and holds a binding Dravosi Crown fleet contract. Guest PC, not yet introduced at the table; her father's fate after the kidnapping raid she escaped remains unknown.
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]] — Fourteen-year-old crow aarakocra monk (Kensei 4). Sole survivor of the Red Lady with Delmar Fisk; was mapping the Drowned Maw when it sank. Kyzil's student; cast out of the High Eyrie at 14 — the monastery banishment is the wound that makes everything else matter.
 - [[delmar-fisk|Delmar Atticus Fisk]] — 41-year-old human Swashbuckler Rogue 4. Self-appointed Admiral; carries five captains' souls pressed into him by Umberlee when his fleet sank. His crime triggered the sinking. He hasn't told anyone.
 - [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — 12-year-old blue Grung Gloomstalker Ranger 4. Cannot lie or mask himself (Mortis). Carries guilt for a gnome's death and for the slave raids he ran before his conscience woke. Simone is his sister and she betrayed him.
@@ -34,7 +34,6 @@ sources: []
 - [[beaumont-sel|Beaumont Sel]] — Tortle captain of the *Saltwright*; pulled Crissdalynn and Delmar from the water after the fleet went down and carried them west along the Midchain.
 - [[bice-riva|Bice Riva]] — Halfling proprietor of Al Fondale in Calveno's Le Paludi; knows about the Passage's Warren entrance in her cellar and has kept it quiet for two years.
 - [[branca|Branca]] — Senior Waveservant assigned to Delmar Fisk; delivers Umberlee's claim with the warmth of a scheduler, arriving before the harder instruments do.
-- [[catarina-davirelli|Catarina Da'Virelli]] — An artificer operating out of Calveno by referral only — the foremost living expert on Antheri materials, and the person to find if you need something built that shouldn't exist yet.
 - [[commander-gideon-ault|Commander Gideon Ault]] — [stub] Stub — Commander of HCS Warrant; most likely Phase 3 Crown enforcement response for the missing HCS Surety. Authority includes detention, cargo seizure, and crew arrest.
 - [[cosimo-verantio|Cosimo Verantio]] — Elderly white-bearded Principal of the Tessarine Concordat — the visible human face of a Magus Dragon who has maintained this form for two centuries. Surfaces only when the Concordat's obligation network is directly threatened.
 - [[cotter-foss|Cotter Foss]] — Halfling manager and public face of the Nimmik Vollask — takes orders, quotes prices from memory, pours the coffee, and maintains professional composure while sixty gnomes operate below her feet.

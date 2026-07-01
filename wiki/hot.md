@@ -7,7 +7,7 @@ audience: agent
 publish: false
 summary: "Current world state, open threads, faction clocks, and predictions. Read first, always."
 created: 2026-05-27
-updated: 2026-06-06
+updated: 2026-07-01
 tags: [dm-prep]
 sources: []
 ---
@@ -16,7 +16,7 @@ sources: []
 
 ## Recent Activity
 
-- 2026-07-01: Guest PC ingested — [[caterina-da-virelle|Caterina Da Virelle]], human Artificer 5 (Artillerist), Calveno-based, commissioned by the [[dravosi-crown|Dravosi Crown]]. Not yet introduced at the table; treat as a present PC once she is.
+- 2026-07-01: [[catarina-davirelli|Catarina Da'Virelli]] promoted from established NPC (Cat's Curios artificer) to guest PC — same continuous history, now treated as a core party member per DM call. Human Artificer 5 (Artillerist). Not yet introduced at the table.
 - 2026-06-08: Cross-link pass — 20 links across 11 pages; bidirectional links added between [[hcs-surety-manifest|Uncertainty Ship Manifest]] and 10 item pages (signal-lantern, anchor-chain, potion-of-healing, dried-salt-fish, rice, dried-beans, fresh-citrus, water-cask, small-beer, cooking-oil); dario.md flagged again as duplicate of dario-vanni.md — DM judgment needed.
 - 2026-06-06: Cross-link pass — 9 links across 5 pages; linked [[simone-tabarnack|Simone Tabarnack]] in calveno-beffa-grung-raid; [[enzo|Enzo]] + [[le-paludi|Le Paludi]] in nona-and-anzolo; [[anzolo|Anzolo]], [[enzo|Enzo]], [[ruk|Ruk]] in warren-situation; [[barnaby-rook|Rook]], [[karath|Karath]], [[pell|Pell]] in jean-claudes-desertion.
 - 2026-06-05: Cross-link pass — 12 links across 8 pages; linked [[hierarch|Hierarch]] creature type from 6 DM pages that reference "Hierarch abilities/lichdom" without the stat block (aldric-drave, aldric-drave-designed-the-crown, shepherd-grigori-island, who-commissioned-the-theft, fisks-fleet-dm, pearl-of-souls-dm); linked [[casa-lupo|Casa Lupo]], [[studio-orsini|Studio Orsini]], [[marta-orsini|Marta Orsini]] in session-03; [[casa-lupo|Casa Lupo]] + [[lavinia-sordi|Lavinia Sordi]] in calveno-districts.
@@ -41,6 +41,7 @@ Party at [[nona-black-jaw|Nona]]'s safe house in [[le-paludi|Le Paludi]], [[calv
 - **[[delmar-fisk|Delmar Fisk]]:** Umberlee deal negotiated but Pearl retrieval not started. **Umberlee gossip is now in the harbor district** — Waveservant clergy watching for "the man in the scarlet coat." His reversed coat and Dravosi appearance are becoming identifiable. Boots of flying. Abstaining from alcohol. Water still tracking him.
 - **[[jean-claude-tabarnack|Jean-Claude Tabarnack]]:** Led the sewer investigation. Killed the purple handler who recognized him as a defector — but the identification died with the handler (roll 6). His anonymity holds for now. Wants Felix alive for defector intel. The Canister secret still unspoken — three toxin caches in party inventory, no one connecting them. Best positioned for next session (Grung operations are Simone's).
 - **[[crissdalynn-khinriss|Crissdalynn Khinriss]]:** Sparred Kyzil, kingfishered the purple Grung. Kyzil is ready to share the missing Sentinels and offer "Read the Current" at next meeting. Needs a non-combat spotlight moment — the Kyzil conversation is the natural beat.
+- **[[catarina-davirelli|Catarina Da'Virelli]]:** Guest PC, not yet at the table. Already has two live threads with the present party: [[puntura|Puntura]] (Delmar's commissioned whip-shark-barb shortsword, last status pending) and [[the-snap|The Snap]] (built for Perrin, never delivered). Binding Dravosi Crown contract and declined Tessarine purchase orders are running in the background. Her father's fate since the kidnapping raid she escaped is unresolved.
 
 ## Faction Clocks
 

@@ -7,7 +7,7 @@ audience: players
 publish: true
 summary: Referral-only artificer workshop in Calveno — no sign, no walk-ins, and the best work in the Scatter.
 created: 2026-05-02
-updated: 2026-06-04
+updated: 2026-07-01
 tags:
   - tessarine
   - maritime
@@ -61,6 +61,28 @@ A narrow door in a Calveno side-street — brass fittings, no name. Inside: long
 - Artificer commission — *"Describe the mechanism. I'll tell you if it's something I'll do, and what it takes."*
 - Mechanism repair — *"Bring it in. I'll assess it on the bench."*
 - Antheri-alloy mechanisms (specimen cabinet) — trade only; no cash price
+- Ship enhancements at standard + 10% surcharge; custom cannon mods 400–900 gp. She will not repeat work she's concluded doesn't work — she'll explain why instead.
+
+### Personal Items
+
+| Item | Price |
+|---|---|
+| [[clockwork-owl-familiar\|Clockwork Owl Familiar]] | 1,800 gp |
+| [[pneumatic-grapple\|Pneumatic Grapple]] | 600 gp |
+| Depth Charge | 180 gp |
+| Calibrated Spyglass | 350 gp |
+| [[spark-pistol\|Spark Pistol]] — PROTO | 2,200 gp |
+
+### Ship Enhancements
+
+| Item | Price |
+|---|---|
+| [[clockwork-deck-crew\|Clockwork Deck Crew]] | 2,800 gp (×4) |
+| [[auto-helm\|Auto-Helm]] | 1,400 gp |
+| Pressurized Bilge Pump | 500 gp |
+| Signal Rocket Array | 700 gp |
+| Depth Charge Rack — PROTO | 3,500 gp |
+| [[hull-patch-automaton\|Hull-Patch Automaton]] | 1,600 gp |
 
 ## Access
 

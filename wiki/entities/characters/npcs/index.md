@@ -8,7 +8,7 @@ summary: Index for recurring Shattered Sea NPC character pages.
 type: index
 campaign: shattered-sea
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-07-01
 tags:
   - player-resource
 sources:
@@ -27,8 +27,6 @@ Recurring NPCs with ongoing narrative presence. Private motives and GM mechanics
 **[[bastian-crev|Bastian Crev]]** *(deceased)* — Combat specialist and captain of the *Loud Argument*, Fisk's gun brig. Drowned at the [[the-drowned-maw|Drowned Maw]]. His soul is inside [[delmar-fisk|Delmar Fisk]].
 
 **[[beaumont-sel|Beaumont Sel]]** — Tortle captain of the *Saltwright*. Eleven years on the [[midchain|Midchain]]. Patient, practical, and rarely without his capuchin on his shoulder.
-
-**[[catarina-davirelli|Catarina Da'Virelli]]** — [[calveno|Calveno]] artificer, referral only. The woman who sparked the [[shelfworks|Shelfworks]] Goldrush. Builds things that shouldn't exist yet.
 
 **[[detto-kalash|Detto Kalash]]** — Earth Genasi captain of the *Heft*. Drowned at the Maw when Umberlee sank Fisk's fleet. His soul is inside [[delmar-fisk|Delmar Fisk]].
 

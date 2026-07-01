@@ -7,7 +7,7 @@ audience: dm
 publish: false
 summary: Naval/imperial Crown power operating in the Shattered Sea. Sent Barnaby Rook and a boarding crew against the Saltwright in Session 01. Receiving Grung-made toxin supply from an unknown source.
 created: 2026-05-27
-updated: 2026-06-06
+updated: 2026-07-01
 tags:
   - dravosi
   - maritime
@@ -45,7 +45,7 @@ The price is submission to the document. A vessel is safe because its papers say
 - Patrol cutters (HCS-class) with cannon and armed crew.
 - Contracted Grung toxin canisters.
 - Privateer captains with authority to board and seize vessels.
-- Commissioned artificer work (ship upgrades, soldier kit) from independent contractors like [[caterina-da-virelle|Caterina Da Virelle]].
+- Fleet artificer work (ship upgrades, soldier kit) under a binding contract with [[catarina-davirelli|Catarina Da'Virelli]].
 
 ## Texture
 

@@ -4,7 +4,7 @@ category: index
 type: index
 campaign: shattered-sea
 created: 2026-05-03
-updated: 2026-05-31
+updated: 2026-07-01
 publish: true
 visibility: public
 audience: players
@@ -22,6 +22,7 @@ status: unknown
 
 ## Player Characters
 
+- [[catarina-davirelli|Catarina Da'Virelli]]
 - [[crissdalynn-khinriss|Crissdalynn Khinriss]]
 - [[delmar-fisk|Delmar Fisk]]
 - [[jean-claude-tabarnack|Jean Claude Tabarnack]]

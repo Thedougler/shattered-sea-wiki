@@ -296,10 +296,6 @@ After the second pass, [[nona-black-jaw|Nona]] tightens the map. She works fast 
 
 ![[wiki/assets/sessions/session-05/maps/session-05-calveno-sewer-magazines-overview-battlemap-realistic.png|Sewer magazine network overview battlemap — eight-room collector system with entry hatches, magazine sites, the handler relay, and the primary chamber beneath the Mercatura.]]
 
-> [!dm]
-> **Print maps (one per room, landscape).** All eight room battlemaps are in `wiki/assets/sessions/session-05/maps/` as `session-05-room-0N-<name>-battlemap-realistic.png`:
-> Room 1 `le-paludi-access-shaft` · Room 2 `y-junction` · Room 3 `bridge-connector` · Room 4 `magazine-alpha` · Room 5 `magazine-beta` · Room 6 `handler-relay` · Room 7 `main-collector` · Room 8 `primary-detonation-chamber`. Use the overview above at the table; lay down the room map as the party reaches each one.
-
 The session's spine. The party descends into [[calveno|Calveno]]'s sewer collectors to find and neutralize the blackpowder magazines. The dungeon has three acts: **Discovery** (Rooms 1–3), **Disruption** (Rooms 4–6), and **Confrontation** (the primary chamber).
 
 #### Room Quick Reference
@@ -310,12 +306,12 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 | 2 | Y-Junction | 35×30 irregular | Sunken sump; trail markers (**Clue #3** — red-caste notation) | Optional: 2 canal crocodiles |
 | 3 | Bridge Connector | 70×20 | 4-ft ceiling after 35 ft; barred side culvert | Optional: 1 [[grung-elite-warrior\|elite warrior]] |
 | 4 | Magazine Alpha | 35×25 | Raised ledge, drain trench, 6 barrels, teaches the pattern | Sentry team (standard) |
-| 5 | Magazine Beta | 40×30 | Flooded corner, incomplete scaffolding (**Clue #1** — builder's notation) | Sentry team (distracted — adv. on Stealth) |
+| 5 | Magazine Beta | 40×30 | Flooded corner, incomplete scaffolding (**Clue #1** — builder's notation) | [[bazzoth-the-steeped\|Bazzoth, the Steeped]] (CR 6) + 2 Grung — escalated, ~4,800 adj. XP |
 | 6 | Handler Relay | 30×25 | [[ruma-delacroix\|Ruma]], route map (**Clue #2**), hidden passage, *Globe of Invulnerability* scroll | Social or combat |
 | 7 | Main Collector | 90×25 | "MERCATURA NEXUS 200 PAS" — transition zone | — |
 | 8 | Primary Chamber | 60×50 irregular, 15-ft ceiling | Summoning circle, packed ceiling, [[solange-barret\|Solange]] + 4 elites | **Boss encounter** |
-| T1 | Bridge Magazine | template | Barred culvert from Room 3 | Sentry team; use secondary magazine neutralization |
-| T2 | Harbour Approach Magazine | template | Flood overflow vent from Room 7 | Sentry team; use secondary magazine neutralization |
+| T1 | Bridge Magazine | template | Barred culvert from Room 3 | [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] (CR 5) + 1 [[purple-caste-enforcer\|Purple-Caste Enforcer]] |
+| T2 | Harbour Approach Magazine | template | Flood overflow vent from Room 7 | [[ozvok-the-vermillion-distiller\|Ozvok, the Vermillion Distiller]] (CR 5, solo) |
 
 #### Dungeon Overview
 
@@ -352,7 +348,7 @@ Read-alouds, features, stat strips, and poison craft: see dungeon file Rooms 4�
 
 **Room 4 (Magazine Alpha).** First sentry encounter — teaches the barrel/sentry/poison pattern. The overflow pipe to Room 6 bypasses main corridors. **First Hard encounter.**
 
-**Room 5 (Magazine Beta).** Incomplete scaffolding — easiest magazine to neutralize (DC 12 Athletics, water-soak). **Three Clue #1** — builder's notation: "anchor south of M — tie to main." Distracted sentry team: **party gains advantage on Stealth.** **Second Hard encounter.**
+**Room 5 (Magazine Beta).** Incomplete scaffolding — easiest magazine to neutralize (DC 12 Athletics, water-soak). **Three Clue #1** — builder's notation: "anchor south of M — tie to main." Guarded by [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) plus 2 Grung; distracted attention gives the party advantage on Stealth. **Escalated encounter (~4,800 adj. XP) — verify against current party resources.**
 
 **Room 6 (Handler Relay).** **The intelligence pivot.** See dungeon file for full room key, read-aloud, Ruma's social encounter details, and the check-in clock table.
 
@@ -518,6 +514,11 @@ Solange does not fight. She channels. The four Elite Warriors are the encounter 
 > [!dm]
 > Give the party one round, maybe two, before Phase 3. *Globe of Invulnerability* blocks the blast only if activated before detonation (DC 16 Arcana). If [[master-kyzil|Kyzil]] is present, he is likely still standing.
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic-aftermath.png|Primary detonation chamber aftermath battlemap — destroyed ceiling, daylight from the roof breach, rubble-covered floor, damaged circle, and clear tactical grid for the Otar fight.]]
+
+> [!dm]
+> **Phase 3 map swap:** use `wiki/assets/sessions/session-05/maps/session-05-room-08-primary-detonation-chamber-battlemap-realistic-aftermath.png` after the ceiling falls. It has no Otar or other creatures on it.
+
 <div style="page-break-before: always;"></div>
 
 #### Phase 3 — Otar the Foul
@@ -540,21 +541,27 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 > [!dm]
 > Otar is hungry, confused, and enormous. The nearest moving thing gets his attention first. Solange is consumed; there is no reversal.
 
-**[[otar-the-foul|Otar the Foul]] (CR 8).** AC 15. HP 152. Speed 40 ft, climb 20 ft. Legendary Resistance (1/Day). Magic Resistance. Full stat block: [[otar-the-foul|Otar the Foul]].
+**[[otar-the-foul|Otar the Foul]] (CR 12, recalibrated post-Session 04).** AC 17. HP 241. Speed 40 ft, climb 20 ft. Legendary Resistance (3/Day). Magic Resistance. Full stat block: [[otar-the-foul|Otar the Foul]].
 
-- **Multiattack:** Bite (+8, 2d8+5 + DC 15 Con Slaad egg), Claw (+8, 2d6+5, 10-ft reach), Tongue Lash (+8, 1d8+5, **30-ft reach**, DC 16 Str or pulled 25 ft + grappled).
-- **Foul Miasma:** 10-ft radius, lightly obscured, 1d6 poison/turn.
-- **Entropic Regeneration:** 10 HP/round. **Suppressed by fire or acid.**
-- **Chaos Pulse (Recharge 5–6):** 20-ft radius, DC 15 Dex, 4d10 force + prone.
-- **Unstable Form (≤75 HP):** Melee attacks +1d6 acid; melee attackers within 5 ft take 1d10 acid.
-- **Legendary Actions (2/round):** Lash (Tongue Lash), Thrash (5-ft DC 16 Str push + prone), Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
-- **Rubble Surge (reaction):** Hurls rubble at creature moving 15+ ft within 30 ft — DC 15 Dex, 2d10 bludgeoning + speed 0.
+> [!dm]
+> Bumped from CR 8 — the party has been landing very few hits and taking little damage across sessions 1–4 ([[party-combat-primer|Party Combat Primer]]: punches ~1–2 CR above standard math). This is the campaign's boss fight; it should cost them something.
+
+- **Multiattack:** Bite (+11, 3d8+7 + DC 17 Con Slaad egg), Claw (+11, 3d6+7, 10-ft reach), Tongue Lash (+11, 2d8+7, **40-ft reach**, DC 17 Str or pulled 35 ft + grappled).
+- **Foul Miasma:** 10-ft radius, lightly obscured, 2d6 poison/turn.
+- **Entropic Regeneration:** 12 HP/round. **Suppressed by fire or acid.** [[catarina-davirelli|Catarina]]'s Wand of Pyrotechnics is the party's first innate fire source once she's in range.
+- **Chaos Pulse (Recharge 5–6):** 20-ft radius, DC 17 Dex, 6d10 force + prone.
+- **Unstable Form (≤120 HP):** Melee attacks +2d6 acid; melee attackers within 5 ft take 2d8 acid.
+- **Legendary Actions (3/round):** Lash (Tongue Lash), Thrash (5-ft DC 17 Str push + prone), Bile Spray (2 actions, 15-ft cone, DC 17 Con, 6d6 acid).
+- **Rubble Surge (reaction):** Hurls rubble at creature moving 15+ ft within 30 ft — DC 17 Dex, 3d10 bludgeoning + speed 0. Can target flying creatures — relevant with Crissdalynn and Delmar both airborne.
+
+> [!mechanic]
+> **Catarina's staggered entry.** She's 2–3 turns of movement from the crater when Otar manifests, but her [[clockwork-owl-familiar|owl familiar]] (Owl stat block, already perched and watching) and her Eldritch Cannon ("cannon backpack," pre-deployed, Tiny construct AC 18 HP 25) are on site from round 1. Unattended, the cannon auto-fires Force Ballista (2d8 force, ≈+7 to hit) at the nearest hostile each round — no command action needed until she's within 60 ft to take it over directly. This is effectively a 5th action-economy contributor from turn 1, already priced into the CR 12 rebuild above — don't soften Otar further because she "isn't really there yet." Full detail: [[otar-the-foul|Otar the Foul]] § Encounter Adaptation.
 
 **Lair Actions — The Shattered Chamber.** The detonation left the chamber structurally unsound and open to the sky. On initiative count 20 (losing ties), one effect fires. Same effect cannot repeat two rounds in a row:
 
-- **Aftershock.** 15-ft radius around crater edge, DC 13 DEX or prone.
+- **Aftershock.** 15-ft radius around crater edge, DC 15 DEX or prone.
 - **Choking Dust.** 15-ft sphere, heavily obscured until initiative 20 next round.
-- **Masonry Collapse.** One creature within 40 ft, DC 13 DEX or 2d6 bludgeoning + restrained (escape DC 13).
+- **Masonry Collapse.** One creature within 40 ft, DC 15 DEX or 3d6 bludgeoning + restrained (escape DC 15).
 
 **Fire sources in the rubble:** Festival torch racks (DC 12 Investigation). Chandler's lamp oil from [[moretti-and-sons|Moretti & Sons]] (DC 14 Investigation). Alchemist's cart debris — 2 flasks of alchemist's fire (DC 14 Investigation).
 
@@ -562,12 +569,13 @@ Above the crater, the crowd has not caught up. The explosion read as spectacle �
 > Every Otar round advances extraction at unneutralized sites: after round 3, DC 12 Perception hears screams from the Bridge; after round 5, smoke rises from Le Paludi. Force the stay-and-kill vs. split-and-save decision.
 
 > [!mechanic]
-> **Brutal by design.** The party is rested but Heroes' Feast expired during the Room 6 long rest.
+> **Brutal by design.** The party is rested but Heroes' Feast expired during the Room 6 long rest — and Otar himself hits much harder than the fights this party has seen so far (see recalibration note above).
 >
-> - Foul Miasma deals 1d6 poison per turn in melee range.
+> - Foul Miasma deals 2d6 poison per turn in melee range.
 > - Elite poison arrows matter again: 2d4 poison + DC 12 poisoned.
 > - Mesmerizing Chirr no longer faces Wisdom-save advantage.
 > - The +2d10 max HP buffer is gone.
+> - Legendary Resistance is now 3/day — a single well-timed save (Chaos Bolt, a grapple, Tasha's Hideous Laughter) won't lock the fight down the way Kyzil's did in Session 04.
 > - If a TPK forms, fire the Rattle.
 
 <div style="page-break-before: always;"></div>
@@ -831,6 +839,12 @@ Print note: omit this appendix from the table packet unless doing pre-session re
 - [[ruma-delacroix|Ruma Delacroix]] — handler relay NPC (Room 6)
 - [[grung-elite-warrior|Grung Elite Warrior]] — reusable sentry/garrison stat block
 - [[grung-npc|Grung]] — base creature stat block
+- [[bazzoth-the-steeped|Bazzoth, the Steeped]] — Room 5 guardian (CR 6)
+- [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] — Room T1 guardian (CR 5)
+- [[purple-caste-enforcer|Purple-Caste Enforcer]] — Vashu's escort (CR 1/2)
+- [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]] — Room T2 guardian, solo (CR 5)
+- [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] — mobile reserve (CR 8)
+- [[purple-caste-zealot|Purple-Caste Zealot]] — Ozzeth's escort (CR 3)
 
 **Situations:**
 

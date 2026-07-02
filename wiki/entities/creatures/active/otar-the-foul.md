@@ -5,16 +5,16 @@ campaign: shattered-sea
 status: active
 audience: dm
 publish: false
-summary: Otar the Foul — named Red Slaad boss (CR 8) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs.
+summary: Otar the Foul — named Red Slaad boss (CR 12, recalibrated) for the Calveno raid. A red-caste slaad whose transformation stalled centuries ago, leaving him rotting and toxic. Summoned unbound through Simone's keyed circle as a chaotic distraction while the extraction runs.
 created: 2026-05-30
-updated: 2026-06-06
+updated: 2026-07-01
 tags:
   - combat
   - homebrew
 sources:
   - Homebrew
 confidence_level: high
-cr: 8
+cr: 12
 aliases:
   - Otar the Foul
   - The Mercatura Slaad
@@ -57,10 +57,13 @@ The party trivialized Barnaby Rook via environmental repositioning (gusts, throw
 
 The fight should feel like containing a disaster, not outmaneuvering a commander. Every round the party spends on Otar is a round the extraction at the four secondary sites runs unopposed. The real boss is the clock.
 
+> [!dm]
+> **Recalibration (post-Session 04).** [[party-combat-primer|Party Combat Primer]] confirms the party punches ~1–2 CR above standard math — coordinated focus fire, save-stacking (Bardic Inspiration), and grapple lockdown have made every fight through Session 04 land soft; the DM reports rarely landing a hit or denting a HP pool. The original CR 8 build undertuned that gap and would have been a non-event. Rebuilt to CR 12: AC 17, HP 241, +11 to hit, DC 17 saves, 3 legendary actions/round, Legendary Resistance 3/day (up from 1 — a single failed save no longer ends the fight against a party with Stunning Strike incoming at level 5 and an established grapple-lockdown pattern). This also has to absorb [[catarina-davirelli|Catarina]]'s [[clockwork-owl-familiar|owl familiar]] and Eldritch Cannon being active from round 1 even though she personally is 2–3 turns out — see **Encounter Adaptation** below. The Rattle safety valve is unchanged and now more likely to matter; that's the intended pressure release, not a bug.
+
 ## Behavioral Profile
 
 - **Opening move:** Stands where Solange was — disoriented, newly embodied, in a crater full of dust and injured people. Tongue Lash the nearest visible creature, pull into melee range, then close. If 3+ creatures cluster within 20 feet, opens with Chaos Pulse instead.
-- **Escalation (75 HP):** Unstable Form activates — skin splits, melee attacks gain acid, attackers take acid splash. Combined with Foul Miasma, melee range now costs ~9 damage per round passively. Otar becomes more erratic, moving toward the largest cluster of creatures.
+- **Escalation (120 HP):** Unstable Form activates — skin splits, melee attacks gain acid, attackers take acid splash. Combined with Foul Miasma, melee range now costs ~16 damage per round passively. Otar becomes more erratic, moving toward the largest cluster of creatures.
 - **Legendary actions:** Not tactical choices. Otar lashes reflexively at motion (Lash), thrashes when surrounded (Thrash), and vomits when pressured (Bile Spray). The DM picks whichever feels most chaotic.
 - **Morale:** None. Does not retreat, surrender, or reason. Fights until dead.
 - **Role:** Brute / hazard. Tactical personality: Chaotic — an obstacle, not an opponent.
@@ -73,67 +76,67 @@ name: "Otar the Foul"
 size: Large
 type: aberration
 alignment: "chaotic neutral"
-ac: 15
+ac: 17
 ac_note: "natural armor"
-hp: 152
-hit_dice: "16d10 + 64"
+hp: 241
+hit_dice: "21d10 + 126"
 speed: "40 ft., climb 20 ft."
-stats: [20, 12, 18, 5, 8, 6]
+stats: [24, 12, 22, 5, 8, 6]
 saves:
-  - constitution: 7
-  - strength: 8
+  - strength: 11
+  - constitution: 10
 skillsaves:
-  - athletics: 8
-  - perception: 2
+  - athletics: 11
+  - perception: 3
 damage_resistances: "cold, lightning, thunder"
-condition_immunities: "charmed, frightened"
-senses: "darkvision 60 ft., passive Perception 12"
+condition_immunities: "charmed, frightened, poisoned"
+senses: "darkvision 60 ft., passive Perception 13"
 languages: "Slaad (does not communicate)"
-cr: 8
-source: "Homebrew — Shattered Sea"
+cr: 12
+source: "Homebrew — Shattered Sea (recalibrated post-Session 04)"
 traits:
   - name: Foul Miasma
-    desc: "Otar exudes a 10-foot radius of noxious fumes — the byproduct of a stalled caste transformation. The area is lightly obscured. Creatures other than Otar that start their turn in the miasma take 3 (1d6) poison damage."
+    desc: "Otar exudes a 10-foot radius of noxious fumes — the byproduct of a stalled caste transformation. The area is lightly obscured. Creatures other than Otar that start their turn in the miasma take 7 (2d6) poison damage."
   - name: Entropic Regeneration
-    desc: "Otar regains 10 hit points at the start of its turn if it has at least 1 hit point. If Otar takes fire or acid damage, this trait doesn't function at the start of its next turn."
-  - name: Legendary Resistance (1/Day)
+    desc: "Otar regains 12 hit points at the start of its turn if it has at least 1 hit point. If Otar takes fire or acid damage, this trait doesn't function at the start of its next turn."
+  - name: Legendary Resistance (3/Day)
     desc: "If Otar fails a saving throw, it can choose to succeed instead."
   - name: Magic Resistance
     desc: "Otar has advantage on saving throws against spells and other magical effects."
   - name: Unstable Form
-    desc: "When Otar is reduced to half its hit points (75 HP) or fewer, its skin splits and weeps iridescent fluid. Its melee attacks deal an additional 1d6 acid damage, and any creature that hits it with a melee attack within 5 feet takes 5 (1d10) acid damage."
+    desc: "When Otar is reduced to half its hit points (120 HP) or fewer, its skin splits and weeps iridescent fluid. Its melee attacks deal an additional 2d6 acid damage, and any creature that hits it with a melee attack within 5 feet takes 9 (2d8) acid damage."
 actions:
   - name: Multiattack
     desc: "Otar makes three attacks: one Bite, one Claw, and one Tongue Lash. It can replace the Tongue Lash with a second Claw attack."
   - name: Bite
-    desc: "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. On a hit, the target must succeed on a DC 15 Constitution saving throw or be infected with a Slaad egg (Slaad Tadpole disease — no immediate effect; 3 months to manifest)."
+    desc: "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) piercing damage. On a hit, the target must succeed on a DC 17 Constitution saving throw or be infected with a Slaad egg (Slaad Tadpole disease — no immediate effect; 3 months to manifest)."
   - name: Claw
-    desc: "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    desc: "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (3d6 + 7) slashing damage."
   - name: Tongue Lash
-    desc: "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be pulled up to 25 feet toward Otar and grappled (escape DC 16). Otar can grapple one creature this way at a time."
+    desc: "Melee Weapon Attack: +11 to hit, reach 40 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage, and the target must succeed on a DC 17 Strength saving throw or be pulled up to 35 feet toward Otar and grappled (escape DC 17). Otar can grapple one creature this way at a time."
   - name: "Chaos Pulse (Recharge 5-6)"
-    desc: "Otar slams both fists into the ground. Each creature within 20 feet must make a DC 15 Dexterity saving throw. On a failure, a creature takes 22 (4d10) force damage and is knocked prone. On a success, a creature takes half damage and isn't knocked prone. Rubble and debris in the area become difficult terrain."
+    desc: "Otar slams both fists into the ground. Each creature within 20 feet must make a DC 17 Dexterity saving throw. On a failure, a creature takes 33 (6d10) force damage and is knocked prone. On a success, a creature takes half damage and isn't knocked prone. Rubble and debris in the area become difficult terrain."
 reactions:
   - name: Rubble Surge
-    desc: "When a creature Otar can see moves more than 15 feet in a single turn while within 30 feet of it, Otar can use its reaction to hurl a chunk of plaza rubble. The target must succeed on a DC 15 Dexterity saving throw or take 11 (2d10) bludgeoning damage and have its speed reduced to 0 until the end of its current turn. This reaction can target flying creatures."
+    desc: "When a creature Otar can see moves more than 15 feet in a single turn while within 30 feet of it, Otar can use its reaction to hurl a chunk of plaza rubble. The target must succeed on a DC 17 Dexterity saving throw or take 17 (3d10) bludgeoning damage and have its speed reduced to 0 until the end of its current turn. This reaction can target flying creatures."
 legendary_actions:
   - name: ""
-    desc: "Otar can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Otar regains spent legendary actions at the start of its turn."
+    desc: "Otar can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Otar regains spent legendary actions at the start of its turn."
   - name: Lash
     desc: "Otar makes one Tongue Lash attack."
   - name: Thrash
-    desc: "Otar thrashes violently. Each creature within 5 feet must succeed on a DC 16 Strength saving throw or be pushed 10 feet and knocked prone."
+    desc: "Otar thrashes violently. Each creature within 5 feet must succeed on a DC 17 Strength saving throw or be pushed 10 feet and knocked prone."
   - name: Bile Spray (Costs 2 Actions)
-    desc: "Otar vomits a 15-foot cone of caustic bile. Each creature in the cone must succeed on a DC 15 Constitution saving throw or take 10 (3d6) acid damage."
+    desc: "Otar vomits a 15-foot cone of caustic bile. Each creature in the cone must succeed on a DC 17 Constitution saving throw or take 21 (6d6) acid damage."
 ```
 
 ## Lair Actions — The Shattered Plaza
 
 The summoning circle's detonation left the Mercatura plaza structurally unsound. These effects are not controlled by Otar — they happen because the ground is falling apart. On initiative count 20 (losing ties), one of the following effects occurs. The same effect can't occur two rounds in a row.
 
-- **Aftershock.** The crater groans and shifts. Each creature on the ground within 15 feet of the crater edge must succeed on a DC 13 Dexterity saving throw or fall prone.
+- **Aftershock.** The crater groans and shifts. Each creature on the ground within 15 feet of the crater edge must succeed on a DC 15 Dexterity saving throw or fall prone.
 - **Choking Dust.** A plume of pulverized stone erupts from the rubble. A 15-foot-radius sphere centered on a point within the plaza becomes heavily obscured until initiative count 20 of the next round.
-- **Masonry Collapse.** A section of wall or archway gives way. One creature within 40 feet of the crater (DM's choice) must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) bludgeoning damage and be restrained by rubble (escape DC 13, or another creature can use an action to free them).
+- **Masonry Collapse.** A section of wall or archway gives way. One creature within 40 feet of the crater (DM's choice) must succeed on a DC 15 Dexterity saving throw or take 11 (3d6) bludgeoning damage and be restrained by rubble (escape DC 15, or another creature can use an action to free them).
 
 ## Encounter Notes
 
@@ -147,7 +150,7 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 
 **Legendary Actions:** Otar gets 2 per round. These are reflexive, not tactical — use Lash when a PC moves to range, Thrash when surrounded in melee, Bile Spray when pressured and a cluster presents itself. Never use them strategically. Otar is not smart enough to optimize.
 
-**Weakness — Fire/Acid:** Suppressing the regeneration is the tactical key. The party has no innate fire or acid damage. They need to find it — a festival torch, a lantern, Perrin's spells if he has any fire options, or an alchemical solution from the rubble (DC 14 Investigation to find a chandler's oil stock scattered by the blast — improvised fire damage 1d6, bonus action to ignite). Otar's own Bile Spray deals acid damage — if it hits a PC near Otar, the splash suppresses Otar's own regen. He's too dumb to avoid this. Reward creative fire use. With fire, the fight takes 5–6 rounds. Without it, 6–7.
+**Weakness — Fire/Acid:** Suppressing the 12 HP/round regeneration is the tactical key — at 241 HP, without it the party is fighting a wall that heals back most of a round's damage every round. Sources: a festival torch, a lantern, Perrin's spells if he has any fire options, or an alchemical solution from the rubble (DC 14 Investigation to find a chandler's oil stock scattered by the blast — improvised fire damage 1d6, bonus action to ignite). Otar's own Bile Spray deals acid damage — if it hits a PC near Otar, the splash suppresses Otar's own regen. He's too dumb to avoid this. **[[catarina-davirelli|Catarina]]'s Wand of Pyrotechnics is a fire source the moment she's in range** — the party's first innate answer to this puzzle rather than an improvised one. Reward creative fire use. With fire suppressing regen from early on, the fight runs 6–7 rounds. Without it, 8+.
 
 **Scaling:**
 
@@ -158,9 +161,23 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 
 **Death:** When Otar dies, the lair actions cease. It does not dissolve or vanish. It falls. It bleeds iridescent fluid into the rubble. The body is real, heavy, and wrong — something from outside the planes, dead in the middle of a Tessarine commercial plaza. The summoning circle beneath the rubble is still faintly visible. Someone brought this thing here on purpose, and they knew its name.
 
+## Encounter Adaptation — Catarina's Staggered Entry
+
+[[catarina-davirelli|Catarina]] is introduced at the table during this fight. She is 2–3 turns of movement from the crater when Otar manifests, but two pieces of her kit are already on site and active from round 1 — treat this as a partial 5th combatant from the opening bell, not a clean 4-PC fight with a late reinforcement.
+
+> [!mechanic]
+> **The Eldritch Cannon (on site, unattended).** Reflavored as Catarina's "cannon backpack" — she deploys it ahead of herself rather than carrying it in. Tiny construct, AC 18, HP 25, immune to poison/psychic, can't be charmed/frightened/paralyzed. Set to **Force Ballista** (ranged spell attack, 60 ft, 2d8 force; use Catarina's Int mod + proficiency, ≈ +7 — confirm against her sheet). RAW the cannon needs a bonus-action command from her to act; she isn't in range for that yet. **Ruling for this fight:** while unattended, it defaults to firing at the nearest hostile creature it can see each round — no command needed. Once Catarina is within 60 ft and free to act (her arrival turn), she can command it normally, including swapping it to Protector for temp HP if the party is bleeding out.
+>
+> **The owl familiar (on site, perched).** [[clockwork-owl-familiar|Clockwork Owl Familiar]] — use the Owl stat block (Tiny beast/construct, AC 11, HP 1, flying 60 ft, Flyby, Keen Hearing and Sight). It scouted ahead and is already watching the crater. At 1 HP it dies to almost anything that touches it — Chaos Pulse's splash radius or a stray Claw ends it instantly. It can Help a PC (advantage on their next attack against a creature within 5 ft of the owl) or just feed Catarina's player real-time intel before she's in earshot. **Table beat:** if Otar's AoE catches it, that's a legitimate gut-punch moment, not a rules problem — let it land.
+>
+> **Why this raises Otar's target CR rather than lowering it:** the cannon is a second attacker from turn 1 even though Catarina's body isn't. By the time she's fully in (turn 4ish), the party is effectively fighting at 5-PC action economy plus a stationary ranged attacker. The CR 12 rebuild above already prices this in — don't additionally soften Otar because "Catarina isn't really there yet." She kind of already is.
+
+**Catarina's arrival (suggested pacing, not scripted):** turns 1–3 are Dash/move only — no attacks, no spells, she isn't in range. Turn 4 (or whenever movement math lands her within 60 ft) she's fully live: cannon command, Fire Bolt/Shocking Grasp, Wand of Pyrotechnics if the fire-suppression puzzle is still open. A clean beat, if it lines up naturally: have her arrival coincide with or just follow Otar crossing into Unstable Form (120 HP) — reinforcements landing as the fight turns, not before. Don't force it if the table's pacing goes differently.
+
 ## Connections
 
 - [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] — the operation that summoned Otar
 - [[session-04-day-5|Session 04 — Day 5]] — encounter context
 - [[warren-grung-sewers|Warren — Grung in the Sewers]] — the summoning circle
 - [[simone-tabarnack|Simone Tabarnack]] — contracted the summoning
+- [[catarina-davirelli|Catarina Da'Virelli]] — introduced at this fight; owl familiar and Eldritch Cannon are active from round 1, she arrives 2–3 turns later

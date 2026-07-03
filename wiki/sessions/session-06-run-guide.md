@@ -32,7 +32,7 @@ sources:
 | **Party is** | [[calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
 | **Last break** | Session 05 ended in Room 6. [[calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, opening solo against [[rupert-knighton\|Rupert Knighton]] — first live appearance of a name that's only been a pressure gauge until now. |
-| **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton, then cut to the party), then a route choice at Room 6 decides which of two prepped branches fires — both are ready. |
+| **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton, then cut to the party). **Start a timer when focus returns to the party** — Catarina arrives ~1hr later regardless of state; spend that hour draining resources toward the Room 6 rest (see Scene Order). Route choice at Room 6 then decides which of two prepped branches fires — both are ready. |
 
 ---
 
@@ -54,7 +54,7 @@ sources:
 **Knighton's offer:** evacuation, Crown launch, no charge, no explanation beyond "a venting fault." He is not lying about danger existing underground — he is lying about what it is. Anyone who actually goes down there finds Grung blackpowder and a summoning circle, not gas.
 
 > [!check] Passive Insight — automatic, no roll needed
-> Catarina's passive 14 clears DC 13 without a roll: the urgency in his voice is genuine, but he's vague on specifics in a way a real Commission incident wouldn't be.
+> Catarina's passive Insight (14) clears DC 13 without a roll: the urgency in his voice is genuine, but he's vague on specifics in a way a real Commission incident wouldn't be.
 
 > [!check] Insight/Investigation — DC 15, if her player presses him actively
 > Fail: reads as sincere concern; no contradiction surfaces yet, but nothing confirms the story either.
@@ -121,7 +121,11 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 *Fixed continuation. Run this before opening the Scene Menu below.*
 
 > [!dm]
-> **Hour One — what you're steering toward.** Once focus cuts back to the party, you have roughly an hour of table time before Catarina arrives (see *Catarina's Entry Window* below — her arrival is on a clock, not just a trigger). Your goal in that hour: make the [[calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants* to make, so Heroes' Feast expires before Otar rather than carrying into the fight — Otar's CR 12 rebuild and poison-heavy kit assume it's gone. Don't force the rest. Spend the hour draining HP, slots, and inspiration through whatever the fiction actually offers (a slipped check-in, a magazine guardian) so that stopping in Room 6 reads as the obviously smart call, not a suggestion. If they push on without resting anyway, that's a legitimate outcome — the No-Rest Branch under Branch A already covers it.
+> **Hour One — start a timer now.** The moment focus cuts back to the party, note the time (or set a phone timer for 60 min) — Catarina arrives on that clock regardless of what's happening (see *Catarina's Entry Window* below).
+>
+> - **Goal:** make the [[calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants*, so Heroes' Feast expires before Otar — his CR 12 rebuild and poison-heavy kit assume it's gone.
+> - **How:** drain HP, slots, and inspiration through whatever the fiction offers (a slipped check-in, a magazine guardian) so stopping reads as the smart call, not a suggestion. Don't force it.
+> - **If they push on without resting anyway:** legitimate outcome — the No-Rest Branch under Branch A already covers it.
 
 ### Room 6 — Ruma's Nap Room
 
@@ -131,12 +135,12 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 
 **The check-in clock is still live, but it's Ruma's problem to manage, not the party's roll to make.** She answers the pipe-clicks herself. Play this as ambient tension — a beat where she goes quiet, listens, taps back a routine response, then exhales — rather than a DC anyone needs to hit. If you want it to matter mechanically once, a single botched check-in (her choice to fumble it, or an interruption at the wrong moment) is what escalates the network's alert posture, not a failed party roll.
 
-**Open scene beat, before anything else moves:** let the table sit with her for a minute. She's relieved to have people who don't just report barrel counts at her. This is a good, low-stakes place for banter, not just a data dump.
+**Open scene beat, before anything else moves:** let the table sit with her for a minute. She's relieved to have people who don't just report barrel counts at her. This is a good, low-stakes place for banter, not just a data dump. First line if you need one: *"You're back. Good — I was starting to run out of things to draw."*
 
 > [!mechanic]
 > **Attrition toolkit — spend before offering the rest.** Ruma isn't a fight, so don't look to her for resource drain. What's actually available:
 >
-> - **If the check-in slips** (Ruma's choice, or bad timing), the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — have it be a 2-Grung patrol physically checking the relay. Light fight, real resource cost, fully justified by existing canon, and Ruma is horrified rather than useful during it (she's hiding, not helping).
+> - **If the check-in slips** (Ruma's choice, or bad timing), the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — send a 2-Grung patrol to check the relay in person. Light fight, real resource cost. Ruma is horrified rather than useful during it (she's hiding, not helping). **Green Grung (×2):** AC 12 · HP 11 · Dagger +4, 1d4+2 + 2d4 poison · flees if reduced below half or alone. Full block: [[grung-npc|Grung]].
 > - **Room 5 (Beta) is one mortared breach away** from Room 6. A cautious party often pokes at the nearest door before committing to rest — if they do, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, and it doubles as both the attrition *and* (per the timing rule below) likely where Catarina shows up.
 > - Once they've paid a real cost, land the permission beat: Ruma herself can offer it now instead of a Warren runner — *"You can sleep here. I'm not going anywhere."* Room 6 is dry, defensible, two chokepoints, and she has every reason to want them rested and gone quickly.
 
@@ -149,9 +153,10 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 | From Room 6, they can... | Leads to |
 |---|---|
 | Take the mortared breach into Room 5 (Beta) | **Branch B** — [[bazzoth-the-steeped|Bazzoth]] |
+| Take the hidden passage direct to Room 8 (DC 16 Investigation, south wall behind the barrels — Ruma doesn't know it's there, so she can't point it out even helping) | **Branch A** — surprise approach, garrison isn't watching this side |
+| Head to Room 7, then the ascending passage to Room 8 (main approach — the garrison watches this one) | **Branch A** — the primary chamber |
 | Head to Room 7, then backtrack to Room 3's barred culvert (T1) | **Branch B** — [[vashu-the-weeping-veil|Vashu]] + escort |
 | Head to Room 7, then the flood vent to T2 | **Branch B** — [[ozvok-the-vermillion-distiller|Ozvok]] |
-| Push straight through Room 7 into Room 8 (main approach or the hidden passage) | **Branch A** — the primary chamber |
 
 **The rule for tonight:** whichever combat the party reaches *first* after leaving Room 6 is where Catarina arrives — Branch B for a secondary magazine, Branch A for the primary. If the party somehow reaches Room 8 without a single fight along the way, default to Branch A. But see the timing override below: combat isn't the only thing that can trigger her.
 
@@ -160,7 +165,7 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 Her arrival isn't purely a combat trigger — it's a clock running in parallel with whatever the party is doing, targeting roughly the one-hour mark since focus returned to them. Use whichever of these actually matches the table when that hour is up:
 
 - **They're mid-fight (Branch A or B) at the hour mark:** run the staggered entry exactly as written in that branch — owl and cannon first, she arrives 2–3 rounds later.
-- **They're not in a fight yet** — still resting in Room 6, still negotiating, still deciding a route: her owl finds *them* instead of the reverse. It noses through a grate or the drainage pipe, spots the party, and banks off. A minute or two later — mid-rest is fine, even good, as an interruption — she arrives at their location, cannon backpack deployed just outside in the corridor (same unattended auto-fire rule if anything's hostile nearby, otherwise just parked), owl perched and watching. She found them by following the noise and the map, not by luck; she doesn't yet know what's actually under the city.
+- **They're not in a fight yet** — still resting, still negotiating, still deciding a route: her owl finds *them* instead. It noses through a grate or the drainage pipe, spots the party, banks off. A minute or two later she arrives at their location — cannon backpack parked just outside (auto-fires only if something hostile is actually nearby), owl perched and watching. Mid-rest is a fine, even good, place for this to land. She found them by following the noise and the map, not luck — she doesn't yet know what's actually under the city.
 
 > [!dm]
 > If the hour lands mid-rest, this is a great, low-stakes way to have the table meet her outside of combat — a few minutes of introductions in a dry, safe room, before the fiction moves back to the fight. Don't skip the "they think it's a threat first" beat: an unfamiliar construct auto-firing into a corridor before anyone's seen its owner is a legitimate mini-scare, even at rest.
@@ -214,7 +219,7 @@ Whichever site the party hits first, Catarina arrives partway through — she wa
 > - **The Owl:** AC 11, HP 1, fly 60 ft., Flyby, Keen Hearing/Sight — scouts ahead, can Help a PC.
 > - **Arrival:** 2–3 rounds of movement-only, then she's live at 60 ft. — cannon command, Fire Bolt/Shocking Grasp, Wand of Pyrotechnics if fire matters here.
 >
-> **Balance note:** unlike Otar, none of these three lieutenants were re-costed to absorb a 5th combatant — they were tuned as written before Catarina entered the picture. If the fight is trending too easy with her cannon and owl in the mix, use the tool the dungeon already gives you rather than inventing new numbers: **[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are an established mobile reserve** — the dungeon file explicitly leaves "who shows up next and where" as a DM call. Send them in.
+> **Balance note:** unlike Otar, these three lieutenants weren't re-costed for a 5th combatant. If the fight is trending too easy with the cannon and owl in the mix, don't invent new numbers — **[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are an established mobile reserve**, already written into the dungeon file as a DM call for "who shows up next." Send them in.
 
 **If Room 5 — Bazzoth, the Steeped:**
 

@@ -75,7 +75,7 @@ Cold, bureaucratic, and true — which is worse. The Crown protects its assets, 
 > [!dm]
 > **Do not confirm or deny the toxin connection.** [[simone-tabarnack|Simone]] is already confirmed to be supplying the [[dravosi-crown|Dravosi Crown]] with Grung toxin ([[simone-tabarnack|Simone Tabarnack]] page) — how much the Crown itself knows about the arrangement is an open question on her own page, not yet answered anywhere. Knighton's silence here can plausibly be that, but don't surface it — seed for later, not a reveal.
 
-**If she declines the launch outright, or asks what happens if she just looks into it herself:**
+**How she closes it out — she doesn't take the launch:**
 
 > [!read-aloud]
 > A pause — the first one. "As you wish. Two days, Miss Da'Virelli. I'd rather not need the launch, but I'd rather have it than not." He inclines his head, precisely the correct number of degrees for the situation, and lets himself out. The guards fall in behind him.
@@ -85,7 +85,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 **Then stop the flashback.** Let the player finish playing the moment however they land it — the outcome is already settled (this is history, not a live branch): she doesn't take the launch. She spends the two days investigating instead.
 
 > [!read-aloud]
-> Two days. A dockhand who owes her a favor for the pneumatic grapple. A Canal Commission clerk who's never heard of a venting order for Le Paludi. A smell, when she finally finds the right grate, that isn't gas at all. Whatever set the Grung's timeline moving faster is the same thing she's been tracing — and tonight, it leads her down.
+> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all. Whatever set the Grung's timeline moving faster is the same thing you've been tracing — and tonight, it leads you down.
 
 ---
 
@@ -323,14 +323,13 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 
 ## Possible Cliffhanger
 
-- **Knighton's visit ends the flashback:** stop right there before cutting forward — let the line "I'd rather have it than not" hang in the room.
 - **Catarina reaches the party mid-fight:** end on the cannon's first shot landing before anyone's seen her yet.
 - **Found the primary chamber:** end on the read-aloud — packed ceiling, the circle, the hum.
 - **The detonation fires:** end on the first wrong sound — a scream the crowd laughs at, then doesn't. Save the Slaad fight for Session 07.
 
 ## Capture For Next Time
 
-- However the flashback actually played (her exact words declining the launch) — characterization worth keeping for later Knighton scenes.
+- Note how the flashback actually played (her exact words declining the launch) — characterization worth keeping for later Knighton scenes.
 - Did the party take the Room 6 long rest? Heroes' Feast active or expired going into whatever fight comes next — this changes Otar's difficulty if Branch A hasn't fired yet.
 - Which branch fired (A or B), and which lieutenant (if B) — update [[hot|hot.md]] Recent Activity.
 - Which magazines are neutralized, which remain; was the primary found; was the circle disrupted; was Otar summoned.

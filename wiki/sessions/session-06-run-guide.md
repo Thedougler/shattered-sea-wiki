@@ -8,7 +8,7 @@ audience: dm
 publish: false
 session_number: 6
 session_date: 2026-07-02
-summary: "At-table run guide for Session 06: Catarina Da'Virelli's guest-PC debut opens on Rupert Knighton's first appearance and his lie about the sewers, then cuts to the party resuming at Room 6 — their route out determines whether Catarina arrives at the primary chamber (Otar) or a secondary magazine fight first. ~4 hrs."
+summary: "At-table run guide for Session 06: Catarina Da'Virelli's guest-PC debut opens on a flashback to Rupert Knighton's in-person warning two days prior, then cuts to the party resuming at Room 6 — their route out determines whether Catarina arrives at the primary chamber (Otar) or a secondary magazine fight first. ~4 hrs."
 created: 2026-07-02
 updated: 2026-07-02
 tags:
@@ -31,7 +31,7 @@ sources:
 |---|---|
 | **Party is** | [[calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
 | **Last break** | Session 05 ended in Room 6. [[calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
-| **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, opening solo against [[rupert-knighton\|Rupert Knighton]] — first live appearance of a name that's only been a pressure gauge until now. |
+| **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, opening on a flashback to [[rupert-knighton\|Rupert Knighton]]'s in-person visit two days ago — first live appearance of a name that's only been a pressure gauge until now. |
 | **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton, then cut to the party). **Start a timer when focus returns to the party** — Catarina arrives ~1hr later regardless of state; spend that hour draining resources toward the Room 6 rest (see Scene Order). Route choice at Room 6 then decides which of two prepped branches fires — both are ready. |
 
 ---
@@ -41,17 +41,17 @@ sources:
 *Fixed. This is Catarina's table introduction — hand it to her player before anything else happens tonight.*
 
 > [!dm]
-> Before reading anything aloud, ask Catarina's player to set the scene themselves: what she's working on at the bench, how she's standing, what she looks like today. This is her character's first appearance at this table — let her introduce herself in her own words. Once she's done, the interruption below fires.
+> Frame this as a flashback: **"Two days ago."** The visit already happened and she already made her choice — she's spent the two days since investigating, not evacuating — but the table hasn't seen any of it yet, so it plays live. Before reading anything aloud, ask Catarina's player to set the scene themselves: what she's working on at the bench, how she's standing, what she looks like today. Let her introduce herself in her own words. Once she's done, the visit below fires.
 
 > [!read-aloud]
-> A brass fixture on the workbench wall — coiled glass tube, faint blue hum — clicks and comes alive. A voice arrives clear and close, as if the speaker stood at your shoulder rather than somewhere across the city. "Da'Virelli. I won't waste your time with pleasantries you don't want."
+> Two days ago. The workshop door doesn't creak — it never does, she keeps the hinges oiled — but you hear it open anyway, because whoever's standing in it hasn't said a word and isn't going to knock. Commodore Rupert Knighton fills the frame like he was measured for it, Crown-grey coat immaculate, two Dravosi guards holding the street outside. "Da'Virelli. I won't waste your time with pleasantries you don't want."
 
-**What's true:** The Farspeaker Coil is Crown-issued hardware, part of the fleet contract's standing terms — a direct line for contract business, not a courtesy. [[rupert-knighton|Rupert Knighton]] is on the other end, live. This is his first appearance in the campaign; play him exactly to type — composed, unhurried, never raises his voice, states outcomes rather than requests.
+**What's true:** [[rupert-knighton|Rupert Knighton]] came in person — a Commodore doesn't visit a contractor's shop for something routine, and that fact alone is most of the message. This is his first appearance in the campaign; play him exactly to type — composed, unhurried, never raises his voice, states outcomes rather than requests.
 
 > [!read-aloud]
-> "There is a venting fault in the Calveno collectors. Foul gas, possibly explosive. The Canal Commission is calling it contained. It is not contained. I have a launch two streets from your door — it can have you aboard a Knight-class cutter within the hour, and you'll want for nothing until this passes."
+> "There is a venting fault developing in the Calveno collectors. Foul gas, possibly explosive. The Canal Commission will call it contained; it will not be. You have two days. Pack what matters — the prototypes, the specimen cabinet, anything the Crown has an interest in protecting. A launch will be waiting at the quay when you're ready. I'd rather not need it."
 
-**Knighton's offer:** evacuation, Crown launch, no charge, no explanation beyond "a venting fault." He is not lying about danger existing underground — he is lying about what it is. Anyone who actually goes down there finds Grung blackpowder and a summoning circle, not gas.
+**Knighton's offer:** two days to prepare, Crown launch, no charge, no explanation beyond "a venting fault." He is not lying about danger existing underground — he is lying about what it is. Anyone who actually goes down there finds Grung blackpowder and a summoning circle, not gas.
 
 > [!check] Passive Insight — automatic, no roll needed
 > Catarina's passive Insight (14) clears DC 13 without a roll: the urgency in his voice is genuine, but he's vague on specifics in a way a real Commission incident wouldn't be.
@@ -73,21 +73,19 @@ Cold, bureaucratic, and true — which is worse. The Crown protects its assets, 
 > "I make it my business to know what happens under cities where the Crown has interests." He does not elaborate. He will not.
 
 > [!dm]
-> **Do not confirm or deny the toxin connection.** [[simone-tabarnack|Simone]] is already confirmed to be supplying the [[dravosi-crown|Dravosi Crown]] with Grung toxin ([[simone-tabarnack|Simone Tabarnack]] page) — how much the Crown itself knows about the arrangement is an open question on her own page, not yet answered anywhere. Knighton's silence tonight can plausibly be that, but don't surface it — seed for later, not a reveal.
+> **Do not confirm or deny the toxin connection.** [[simone-tabarnack|Simone]] is already confirmed to be supplying the [[dravosi-crown|Dravosi Crown]] with Grung toxin ([[simone-tabarnack|Simone Tabarnack]] page) — how much the Crown itself knows about the arrangement is an open question on her own page, not yet answered anywhere. Knighton's silence here can plausibly be that, but don't surface it — seed for later, not a reveal.
 
-**If she declines and states she's investigating herself:**
+**If she declines the launch outright, or asks what happens if she just looks into it herself:**
 
 > [!read-aloud]
-> A pause — the first one. "As you wish. I trust the contract terms remain to your satisfaction." The coil clicks dead.
+> A pause — the first one. "As you wish. Two days, Miss Da'Virelli. I'd rather not need the launch, but I'd rather have it than not." He inclines his head, precisely the correct number of degrees for the situation, and lets himself out. The guards fall in behind him.
 
 No threat. No argument. He doesn't threaten — he replaces, and he just told her so without saying it.
 
-**Then stop.** This is her decision to make, not yours to narrate. Whatever she chooses, she ends up moving toward the sewers on her own — if the player wants a beat of *why* (professional stubbornness, distrust of being managed, plain refusal to be the only one saved), let them play it.
+**Then stop the flashback.** Let the player finish playing the moment however they land it — the outcome is already settled (this is history, not a live branch): she doesn't take the launch. She spends the two days investigating instead.
 
-> [!dm]
-> **If she actually takes the evacuation:** don't force a reversal. Let her reach the cutter, then have the sound/sight of the Le Paludi commotion (smoke, alarm bells, a runner's shout) reach the launch before it casts off — she countermands her own exit and heads for the noise instead. One line is enough; don't relitigate the scene.
-
-**Offscreen, in parallel with what follows:** Catarina descends into the collectors through the Bridge district hatch, following the "gas" story to where it actually leads. She won't resurface until she finds the party.
+> [!read-aloud]
+> Two days. A dockhand who owes her a favor for the pneumatic grapple. A Canal Commission clerk who's never heard of a venting order for Le Paludi. A smell, when she finally finds the right grate, that isn't gas at all. Whatever set the Grung's timeline moving faster is the same thing she's been tracing — and tonight, it leads her down.
 
 ---
 
@@ -96,7 +94,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 | Thread | Right now | If ignored | Tick they'll see |
 |---|---|---|---|
 | [[calveno-beffa-grung-raid\|Grung Raid]] | Timeline ~1.5 days from Le Paludi compromise; 3 secondary sites + primary still live | Detonation fires on schedule, unopposed at the primary | Ruma's check-in clock (below); heavier sentry posture network-wide |
-| [[knighton-pursuit\|Knighton / Dravosi Crown]] | Knighton made direct contact for the first time — no longer background pressure | He doesn't chase; he notes. His attention on Catarina's contract sharpens quietly | Farspeaker Coil stays live for future contact |
+| [[knighton-pursuit\|Knighton / Dravosi Crown]] | Knighton made his first in-person contact (2 days ago, played as flashback tonight) — no longer background pressure | He doesn't chase; he notes. His attention on Catarina's contract sharpens quietly | The launch offer still stands, unclaimed, at the quay |
 | [[abyss-vision\|Perrin's Whale]] | Dormant tonight — party is underground, no boat access | Advances off-screen; fishermen keep reporting it | Surfaces if the party reaches open water |
 | [[nona-and-anzolo\|Anzolo / Tessarine tail]] | Anzolo within hours of Calveno; Tessarine one stop behind | Docks and starts asking after "the Rattkin woman who feeds people in Le Paludi" | Fires if the party surfaces to Nona's safe house |
 
@@ -106,7 +104,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 
 | Name | Grab when | Handle |
 |---|---|---|
-| [[rupert-knighton\|Rupert Knighton]] | Strong Start (fixed) | Posh, unhurried, never threatens — states outcomes. Voice only, via the coil. |
+| [[rupert-knighton\|Rupert Knighton]] | Strong Start (fixed, flashback) | Posh, unhurried, never threatens — states outcomes. Visits in person; doesn't send subordinates for things that matter. |
 | [[ruma-delacroix\|Ruma Delacroix]] | Room 6, any time | Ally, unarmed, non-combatant. Dry and wry, relieved to have company. Hiding the party; keeps her own check-ins normal to hold the cover. |
 | [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Branch B, if Room 5 | Fearless, soused on his own reagent-spirits, never panics. |
 | [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Branch B, if Room T1 | Blind, unbothered by fog/darkness/invisibility — reads the room by vibration. |
@@ -304,7 +302,7 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 
 | Hook | Comes to | Pulls toward |
 |---|---|---|
-| The Farspeaker Coil clicks once more — no words, just an open line, then silence | Catarina | Knighton hasn't forgotten the call |
+| A Crown-liveried runner finds her mid-search, quietly relaying that the launch is still waiting if she changes her mind | Catarina | Knighton hasn't forgotten the offer |
 | A Warren runner, breathless: "A tortle at the outer quay. Asking for Nona." | Perrin | Anzolo's arrival |
 | Grung trail markers the party hasn't read yet, converging toward the Mercatura | [[jean-claude-tabarnack|Jean-Claude]] | The primary chamber, if stalled |
 
@@ -325,14 +323,14 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 
 ## Possible Cliffhanger
 
-- **Knighton's call ends the cold open:** stop right there before cutting to the party — let the line "I trust the contract terms remain to your satisfaction" hang in the room.
+- **Knighton's visit ends the flashback:** stop right there before cutting forward — let the line "I'd rather have it than not" hang in the room.
 - **Catarina reaches the party mid-fight:** end on the cannon's first shot landing before anyone's seen her yet.
 - **Found the primary chamber:** end on the read-aloud — packed ceiling, the circle, the hum.
 - **The detonation fires:** end on the first wrong sound — a scream the crowd laughs at, then doesn't. Save the Slaad fight for Session 07.
 
 ## Capture For Next Time
 
-- Did Catarina accept or refuse Knighton's evacuation? Either way, note her stated reason — it's characterization for later scenes with him.
+- However the flashback actually played (her exact words declining the launch) — characterization worth keeping for later Knighton scenes.
 - Did the party take the Room 6 long rest? Heroes' Feast active or expired going into whatever fight comes next — this changes Otar's difficulty if Branch A hasn't fired yet.
 - Which branch fired (A or B), and which lieutenant (if B) — update [[hot|hot.md]] Recent Activity.
 - Which magazines are neutralized, which remain; was the primary found; was the circle disrupted; was Otar summoned.
@@ -358,5 +356,5 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 
 > [!dm]
 > Two scene images were scoped but not generated this pass. Generate before the table if wanted:
-> 1. *Cat's Curios workshop, night* — Catarina at her bench, Farspeaker Coil glowing on the wall, mechanical owl perched nearby. Archer-style adult animated illustration, clean vector-like linework, cel-shaded lighting, 16:9. No text/watermarks/photorealism.
+> 1. *Cat's Curios workshop, Knighton's visit* — Rupert Knighton filling the workshop doorway in a Crown-grey coat, two guards visible in the street behind him, Catarina at her bench with a mechanical owl perched nearby. Archer-style adult animated illustration, clean vector-like linework, cel-shaded lighting, 16:9. No text/watermarks/photorealism.
 > 2. *Catarina's arrival in the tunnels* — a Tiny construct cannon mid-fire from a sewer side passage, mechanical owl banking overhead, Catarina running into frame from a side tunnel, dim green bioluminescent light. Same style as above.

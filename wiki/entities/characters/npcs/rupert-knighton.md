@@ -82,6 +82,7 @@ Whether Knighton would extend consideration to a nephew who has defected to work
 - [[barnaby-rook|Barnaby Rook]] — subordinate; dead
 - [[capn-gorgeous|Cap'n Gorgeous]] — effectively his son; dead; unreported to him yet
 - [[dorian-bishop|Dorian Bishop]] — subordinate; next escalation before Knighton moves
+- [[catarina-davirelli|Catarina Da'Virelli]] — Crown-contracted artificer; visited her workshop in person to warn her off the streets ahead of the Grung crisis and offer evacuation. She declined and investigated instead — first time the party's circle has seen him act directly.
 
 ## Pressure Points
 

@@ -84,6 +84,7 @@ Operates [[kats-curios|Cat's Curios]] by referral only — no advertising, no wa
 ## Relationships
 
 - [[dravosi-crown|Dravosi Crown]] — binding fleet contract; pragmatic trust, not affection
+- [[rupert-knighton|Rupert Knighton]] — visited her in person two days before the sewer crisis, warned her off the streets, and offered evacuation for her and her inventions. She declined and investigated the "gas leak" story herself instead — that trail leads her to the party.
 - [[delmar-fisk|Delmar Fisk]] — commissioned Puntura from the whip shark barb he recovered (Session 03)
 - [[perrin-black-jaw|Perrin Black-Jaw]] — built The Snap for him; not yet delivered
 - [[beaumont-sel|Beaumont Sel]] — sold him [[salvaged-antheri-plate|Salvaged Antheri Plate]] to patch his shell (1490 DR)

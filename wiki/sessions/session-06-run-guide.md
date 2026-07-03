@@ -72,7 +72,7 @@ Cold, bureaucratic, and true — which is worse. The Crown protects its assets, 
 > "I make it my business to know what happens under cities where the Crown has interests." He does not elaborate. He will not.
 
 > [!dm]
-> **Do not confirm or deny the toxin connection.** [[dravosi-crown|Dravosi Crown]]'s known capabilities include "Contracted Grung toxin canisters" and an unexplained Grung-sourced toxin supply — a live DM inference (not stated canon) that the Crown's silence here isn't ignorance, it's proximity. Do not surface this tonight; it's a seed for later, not a reveal.
+> **Do not confirm or deny the toxin connection.** [[simone-tabarnack|Simone]] is already confirmed to be supplying the [[dravosi-crown|Dravosi Crown]] with Grung toxin ([[simone-tabarnack|Simone Tabarnack]] page) — how much the Crown itself knows about the arrangement is an open question on her own page, not yet answered anywhere. Knighton's silence tonight can plausibly be that, but don't surface it — seed for later, not a reveal.
 
 **If she declines and states she's investigating herself:**
 
@@ -111,7 +111,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 | [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Branch B, if Room T1 | Blind, unbothered by fog/darkness/invisibility — reads the room by vibration. |
 | [[ozvok-the-vermillion-distiller\|Ozvok, the Vermillion Distiller]] | Branch B, if Room T2 | Drunk-brave alchemist; escalates hard once hurt. |
 | [[solange-barret\|Solange Barret]] | Branch A / primary chamber | Channeling, silent, professional — not fanatical. |
-| [[anzolo\|Anzolo]] | If session reaches Nona's safe house | Old tortle, tired and relieved, doesn't know the search is over. |
+| [[anzolo\|Anzolo]] | If session reaches Nona's safe house | Slow-talking, methodical, relentless — warmth and violence coexist without irony. Doesn't know the search is over. |
 
 ---
 
@@ -126,7 +126,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 
 **This is resolved, not resuming a fight.** Session 05 ended with the party sneaking up on [[ruma-delacroix|Ruma]] and grabbing her — she's unarmed and non-combatant, so there was nothing to fight. What actually happened: they found her doodles (chemical formulas drawn out like star charts, complete with invented mythology and fan-fiction about the compounds) while restraining her, and that was the whole negotiation. She's an ally now, hiding them in Room 6 — what she calls her "nap room" — and still answering her network's check-ins herself, in character, to hold the cover for everyone.
 
-**Ruma quick reference:** unarmed, non-combatant, do not use Grung Elite Warrior stats for her — she isn't a threat and isn't a resource in a fight. *Wants:* the cover to hold; she'll help from the room, not walk into danger. *Knows:* four secondary sites and their status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — she volunteers all of this freely now, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
+**Ruma quick reference:** unarmed, non-combatant — helps from the room, not the fight. *Wants:* the cover to hold. *Knows:* four secondary sites and their status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — volunteers all of it freely, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
 
 **The check-in clock is still live, but it's Ruma's problem to manage, not the party's roll to make.** She answers the pipe-clicks herself. Play this as ambient tension — a beat where she goes quiet, listens, taps back a routine response, then exhales — rather than a DC anyone needs to hit. If you want it to matter mechanically once, a single botched check-in (her choice to fumble it, or an interruption at the wrong moment) is what escalates the network's alert posture, not a failed party roll.
 
@@ -260,11 +260,11 @@ Full block + optional Legendary Actions (use only if he's fighting alone, which 
 *Available: only if the session reaches Nona's safe house (aftermath, or the party surfaces mid-session).*
 
 > [!read-aloud]
-> A Warren runner is young, soaked, out of breath. "There's a tortle at the outer quay — old, big, asking for Nona by name." She looks at Perrin. "He's asking for someone called Black-Jaw. Says he's been to three ports looking."
+> A Warren runner is young, soaked, out of breath. "There's a tortle at the outer quay, big, asking for Nona by name." She looks at Perrin. "He's asking for someone called Black-Jaw."
 
-**What's true:** [[anzolo|Anzolo]] has arrived, hunting for Perrin through [[the-passage|the Passage]] network. He doesn't know the search is over — Nona's call-off never reached him. One stop behind him: a [[tessarine-concordat|Tessarine]] patrol that followed his wake, due to dock within hours.
+**What's true:** [[anzolo|Anzolo]] has arrived, still hunting for Perrin on outdated orders — Nona's call-off is in transit but hasn't reached him. His inquiries at an eastern port flagged a [[tessarine-concordat|Tessarine]] informant; a patrol now knows a tortle matching his description was asking about Black-Jaw movements and heading west, and it's due to dock within hours. He doesn't know he has a tail.
 
-**NPC — Anzolo:** old tortle, tired, relieved, confused why the safe house is running a military operation. *Wants:* to see Perrin, to report to Nona. *Reveals:* "I've been followed. Small patrol ship. Tessarine colors." He doesn't know they're still behind him.
+**NPC — Anzolo:** slow-talking, methodical, relentless — warmth and violence coexist without irony. Not looking for trouble; trouble just made the mistake of standing on his route. *Wants:* to see Perrin, to report to Nona. *Reveals:* "I've been followed. Small patrol ship. Tessarine colors." He doesn't know they're still behind him.
 
 **If engaged:** the reunion is real but interrupted by the crisis — Nona must split resources or risk exposure.
 **If ignored:** the Tessarine patrol docks and starts asking questions in the harbor district within hours.
@@ -290,7 +290,7 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 ## Secrets & Clues
 
 - Knighton's "venting fault" doesn't hold up to scrutiny — via **Catarina's passive Insight (automatic)** or **active Insight/Investigation DC 15** during the Strong Start.
-- The Crown's silence on *what* is under Calveno may connect to its own undisclosed Grung-toxin supply chain ([[dravosi-crown|Dravosi Crown]]: "Contracted Grung toxin canisters," unexplained toxin source) — **DM inference, not confirmed canon.** Do not surface outright; a future session's thread, not tonight's.
+- [[simone-tabarnack|Simone]] already supplies the [[dravosi-crown|Dravosi Crown]] with Grung toxin (confirmed on her page) — Knighton's silence on "what's under Calveno" can plausibly trace back to this. The Crown's actual awareness level is still an open question. Not tonight's reveal — a future thread.
 - Ruma's route map and the trail-marker clues from Session 05 (builder's notation, red-caste markers, the "circle site") remain valid if not already spent — see [[calveno-sewers-grung-magazines|dungeon file § Three Clue Audit]].
 - If Bazzoth's Shed the Years is broken mid-fight, his gourd (the rite's source) is a lootable curiosity — connects to red-caste ritual practice, same territory as Solange's ritual components.
 
@@ -299,7 +299,7 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 | Hook | Comes to | Pulls toward |
 |---|---|---|
 | The Farspeaker Coil clicks once more — no words, just an open line, then silence | Catarina | Knighton hasn't forgotten the call |
-| A Warren runner, breathless: "Old tortle at the outer quay. Asking for Nona." | Perrin | Anzolo's arrival |
+| A Warren runner, breathless: "A tortle at the outer quay. Asking for Nona." | Perrin | Anzolo's arrival |
 | Grung trail markers the party hasn't read yet, converging toward the Mercatura | [[jean-claude-tabarnack|Jean-Claude]] | The primary chamber, if stalled |
 
 ## Spotlight
@@ -344,9 +344,11 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 - [[catarina-primer|Catarina Primer]] — concentration/Alert design notes
 - [[rupert-knighton|Rupert Knighton]] — NPC page, manner, tactics
 - [[knighton-pursuit|The Knighton Pursuit]] — situation file
-- [[dravosi-crown|Dravosi Crown]] — faction page (toxin-supply inference source)
+- [[dravosi-crown|Dravosi Crown]], [[simone-tabarnack|Simone Tabarnack]] — toxin-supply connection
+- [[anzolo|Anzolo]], [[nona-black-jaw|Nona Black-Jaw]] — voice and current state for the Anzolo scene
+- [[ruma-delacroix|Ruma Delacroix]] — ally status, voice, what she knows
 - [[bazzoth-the-steeped|Bazzoth]], [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[ozvok-the-vermillion-distiller|Ozvok]], [[ozzeth-the-twiceborn|Ozzeth]] — Branch B stat blocks
-- [[otar-the-foul|Otar the Foul]] — full stat block, Encounter Adaptation (Catarina's staggered entry, source of both versions above)
+- [[otar-the-foul|Otar the Foul]], [[solange-barret|Solange Barret]] — full stat blocks, Encounter Adaptation (Catarina's staggered entry)
 
 > [!visual-aid]
 > Two images were scoped but not generated this pass — flagging prompts for later if wanted:

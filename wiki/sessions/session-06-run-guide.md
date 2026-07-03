@@ -180,7 +180,29 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 *Pull: Full party, [[jean-claude-tabarnack|Jean-Claude]] · Register: combat*
 *Available: if the party's first fight after Room 6 is the primary chamber.*
 
-The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a Slaad summoning while four Elite Warriors hold the drainage channels; the fight runs Garrison → Detonation → Manifestation. Full room key, read-alouds, and phase-by-phase mechanics: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 8]] and [[session-05-run-guide|Session 05 Run Guide § The Primary Chamber]] (identical content, already fully prepped — reuse it directly).
+The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a Slaad summoning while four Elite Warriors hold the drainage channels; the fight runs **Garrison → Detonation → Manifestation**. The full narration arc is inlined below — open this cold and read straight down. The phase **mechanics** (exact triggers, detonation DCs/checklist, the Rattle safety valve) live in [[session-05-run-guide|Session 05 Run Guide § The Primary Chamber]] — identical content, already fully prepped; reach for it for the numbers, not the narration. Room key + terrain: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 8]].
+
+**Entry — as they come through the passage:**
+
+> [!read-aloud]
+> The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and something else beneath both, something that tastes of ozone and wrongness rising from the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
+
+**Round ~3, if the circle still stands (Solange keeps channeling):**
+
+> [!read-aloud]
+> The circle flares white. Light floods the chamber, bleaching the stone, burning away every shadow. The water in the drainage channels shivers, stops, and rises — past ankles, past knees — warm and thick with the chemical taste of everything these tunnels hold. The hum becomes a sound you feel in your teeth.
+
+**Detonation fires (trigger: 2nd Elite drops, circle disrupted, no Elite within 10 ft of Solange, or any fire/thunder in the room):**
+
+> [!read-aloud]
+> One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. Solange is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
+
+**Manifestation — Solange's next turn after detonation:**
+
+> [!read-aloud]
+> She finishes the last line, and the circle ignites into darkness. Shadow pools at her feet, rises like black ichor, and forms a blunt jaw that closes around her. Her bones crack, her spine lengthens, and her hands hit the stone as something else. Two seconds, maybe three, and Solange Barret is gone; what stands in the circle is red, enormous, and breathing like stone grinding on stone.
+>
+> Above the crater, the crowd hasn't caught up — the blast read as festival spectacle. One woman leans over the broken lip of the plaza, squinting down through the haze. "It looks so real!" Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls her off the edge before the word finishes echoing. A wet crunch cuts the scream short — and the crowd finally starts screaming.
 
 **Compact combat card:**
 

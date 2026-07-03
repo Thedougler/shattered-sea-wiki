@@ -48,8 +48,8 @@ From inside the primary chamber, the party witnesses the full body horror. From 
 
 The party trivialized Barnaby Rook via environmental repositioning (gusts, thrown objects) and the whip shark through concentrated damage output. Otar is built to punish both patterns:
 
-- **Foul Miasma** makes melee range costly — 1d6 poison per turn just for standing near him. Melee-heavy parties pay a tax; ranged parties lose nothing, which is why Tongue Lash exists.
-- **Entropic Regeneration** (10 HP/round, suppressed only by fire or acid) demands sustained pressure — they cannot burst him in two rounds and move on.
+- **Foul Miasma** makes melee range costly — 2d6 poison per turn just for standing near him. Melee-heavy parties pay a tax; ranged parties lose nothing, which is why Tongue Lash exists.
+- **Entropic Regeneration** (12 HP/round, suppressed only by fire or acid) demands sustained pressure — they cannot burst him in two rounds and move on.
 - **Tongue Lash** (30 ft. grapple + pull) counters ranged kiting, specifically threatening Jean-Claude's preferred distance.
 - **Chaos Pulse** punishes clustering and concentration, forcing the party to spread.
 - **Legendary actions (2/round)** give Otar between-turn reactivity without making him tactical. Lash pulls someone in, Thrash clears melee, Bile Spray punishes clustering — all reflexive, none smart.
@@ -142,7 +142,7 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 
 **Environment:** Collapsed Mercatura plaza. 20-ft-diameter crater at centre, 10 ft deep. Rubble and broken stone in a 40-ft radius. Festival cloth, splintered registration desks, dust. Dim light from the dust cloud for 2–3 rounds after detonation.
 
-**Civilians:** 2d6 injured civilians are trapped in rubble within 30 feet of the crater at the start of combat. Otar attacks them if no PC is within reach. Each round a civilian is adjacent to Otar, roll a d6: on a 1–2, Otar targets that civilian instead of a PC. Rescuing a civilian from rubble takes one action and a DC 12 Athletics check. Foul Miasma affects civilians too — a trapped civilian inside the 10-foot radius takes 1d6 poison per round.
+**Civilians:** 2d6 injured civilians are trapped in rubble within 30 feet of the crater at the start of combat. Otar attacks them if no PC is within reach. Each round a civilian is adjacent to Otar, roll a d6: on a 1–2, Otar targets that civilian instead of a PC. Rescuing a civilian from rubble takes one action and a DC 12 Athletics check. Foul Miasma affects civilians too — a trapped civilian inside the 10-foot radius takes 2d6 poison per round.
 
 **The Clock:** Every round of combat at the Mercatura is a round the extraction runs at the four secondary sites. After round 3, a PC who succeeds on a DC 12 Perception check hears screams from the Bridge district — a second strike point is active. After round 5, smoke is visible from Le Paludi. The party must decide: stay and kill Otar, or split and save people.
 

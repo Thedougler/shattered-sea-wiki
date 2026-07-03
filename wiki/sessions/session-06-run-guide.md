@@ -44,7 +44,7 @@ sources:
 > Frame this as a flashback: **"Two days ago."** The visit already happened and she already made her choice — she's spent the two days since investigating, not evacuating — but the table hasn't seen any of it yet, so it plays live. Before reading anything aloud, ask Catarina's player to set the scene themselves: what she's working on at the bench, how she's standing, what she looks like today. Let her introduce herself in her own words. Once she's done, the visit below fires.
 
 > [!read-aloud]
-> Two days ago. The workshop door doesn't creak — it never does, she keeps the hinges oiled — but you hear it open anyway, because whoever's standing in it hasn't said a word and isn't going to knock. Commodore Rupert Knighton fills the frame like he was measured for it, Crown-grey coat immaculate, two Dravosi guards holding the street outside. "Da'Virelli. I won't waste your time with pleasantries you don't want."
+> Two days ago. Your workshop door opens without a knock. Commodore Rupert Knighton fills the frame — Crown-grey coat, not a crease in it, two Dravosi guards holding the street behind him. "Da'Virelli. I won't waste your time with pleasantries you don't want."
 
 **What's true:** [[rupert-knighton|Rupert Knighton]] came in person — a Commodore doesn't visit a contractor's shop for something routine, and that fact alone is most of the message. This is his first appearance in the campaign; play him exactly to type — composed, unhurried, never raises his voice, states outcomes rather than requests.
 
@@ -65,12 +65,12 @@ sources:
 > [!read-aloud]
 > "The offer is extended to Crown-contracted personnel. I have no authority to evacuate a Tessarine port, Miss Da'Virelli — and if I did, Calveno would rightly ask why a Dravosi commodore thinks he can order its streets."
 
-Cold, bureaucratic, and true — which is worse. The Crown protects its assets, not the city. This is the tell the scene exists to deliver.
+Cold, bureaucratic, and true. The Crown protects its assets, not the city. This is the tell the scene exists to deliver.
 
 **If pushed on how he knows about a "gas leak" in a city that isn't his:**
 
 > [!read-aloud]
-> "I make it my business to know what happens under cities where the Crown has interests." He does not elaborate. He will not.
+> "I make it my business to know what happens under cities where the Crown has interests." The sentence is the whole answer.
 
 > [!dm]
 > **Do not confirm or deny the toxin connection.** [[simone-tabarnack|Simone]] is already confirmed to be supplying the [[dravosi-crown|Dravosi Crown]] with Grung toxin ([[simone-tabarnack|Simone Tabarnack]] page) — how much the Crown itself knows about the arrangement is an open question on her own page, not yet answered anywhere. Knighton's silence here can plausibly be that, but don't surface it — seed for later, not a reveal.
@@ -78,11 +78,11 @@ Cold, bureaucratic, and true — which is worse. The Crown protects its assets, 
 **How she closes it out — she doesn't take the launch:**
 
 > [!read-aloud]
-> A pause — the first one. "As you wish. Two days, Miss Da'Virelli. I'd rather not need the launch, but I'd rather have it than not." He inclines his head, precisely the correct number of degrees for the situation, and lets himself out. The guards fall in behind him.
+> A pause — the first one. "As you wish. Two days, Miss Da'Virelli. I hope the launch stays empty. I mean to have it ready regardless." He inclines his head, precisely the correct number of degrees for the situation, and lets himself out. The guards fall in behind him.
 
-No threat. No argument. He doesn't threaten — he replaces, and he just told her so without saying it.
+He doesn't threaten — he replaces. He just told her so, without saying it.
 
-**Then stop the flashback.** Let the player finish playing the moment however they land it — the outcome is already settled (this is history, not a live branch): she doesn't take the launch. She spends the two days investigating instead.
+**Then stop the flashback** — let the player finish playing the moment however they land it. The outcome is history, not a live branch: she doesn't take the launch. She spends the two days investigating instead.
 
 > [!read-aloud]
 > Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all. Whatever set the Grung's timeline moving faster is the same thing you've been tracing — and tonight, it leads you down.
@@ -208,7 +208,7 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 *Pull: Full party · Register: combat*
 *Available: if the party's first fight after Room 6 is a secondary site (Room 5, T1, or T2).*
 
-Whichever site the party hits first, Catarina arrives partway through — she was already moving through the tunnels toward the sound of a real fight (unlike the surface-audible detonation in Branch A, this is close-range: General Features notes combat noise carries to adjacent rooms in this network).
+Whichever site the party hits first, Catarina arrives partway through. She's already moving toward the sound of the fight — close-range this time, not the city-wide detonation from Branch A. Combat noise carries to adjacent rooms in this network (dungeon file, General Features).
 
 > [!mechanic]
 > **Catarina's staggered entry (secondary-site version).** Identical mechanics to the Branch A adaptation — same kit, same day, same character:
@@ -249,7 +249,7 @@ Full block + optional Legendary Actions (use only if he's fighting alone, which 
 *Available: only if the session reaches open water — unlikely mid-dungeon, but live the moment the party takes a boat (aftermath, or an unexpected surface trip).*
 
 > [!read-aloud]
-> The canal boat clears the inner harbor. The water changes — darker, deeper, festival noise thinning to wind and wave. The same low hum from the dream off Auralis answers from below. A pale bioluminescent shape passes beneath the hull, enormous and slow, not fish, not whale, looking up.
+> The canal boat clears the inner harbor. The water goes darker, deeper, the festival noise thinning to wind and wave. The same low hum from the dream off Auralis answers from below. A pale, bioluminescent shape passes beneath the hull — slow, enormous, looking up.
 
 **What's true:** second contact with the "Grow" entity. It doesn't attack or speak — recognition, patience, non-hostile hunger. Other PCs can see the shape (DC 12 Perception: at least 40 ft. long; crit: the bioluminescence pulses in a pattern, not random); only Perrin hears the hum.
 
@@ -281,7 +281,7 @@ Full block + optional Legendary Actions (use only if he's fighting alone, which 
 *Available: only if the party doesn't reach the primary chamber tonight, or you choose to end the session on the raid itself.*
 
 > [!read-aloud]
-> The sound comes from below, not thunder — thunder has a sky, and this has stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd doesn't scream yet; they're waiting for the punchline. Then something hauls itself out of the hole.
+> The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them to. Then something hauls itself out of the hole.
 
 Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block per Branch A above.
 
@@ -325,7 +325,7 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 
 - **Catarina reaches the party mid-fight:** end on the cannon's first shot landing before anyone's seen her yet.
 - **Found the primary chamber:** end on the read-aloud — packed ceiling, the circle, the hum.
-- **The detonation fires:** end on the first wrong sound — a scream the crowd laughs at, then doesn't. Save the Slaad fight for Session 07.
+- **The detonation fires:** end on the crowd's laugh cutting off mid-breath. Save the Slaad fight for Session 07.
 
 ## Capture For Next Time
 

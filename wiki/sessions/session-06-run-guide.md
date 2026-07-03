@@ -40,6 +40,8 @@ sources:
 
 *Fixed. This is Catarina's table introduction — hand it to her player before anything else happens tonight.*
 
+![[wiki/assets/sessions/session-06/06-cats-curios-knighton-visit.webp|Cinematic establishing still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text or lettering. Foreground at a cluttered artificer's workbench: Catarina Da'Virelli, a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, in a full-sleeved white linen chemise laced under a rust-red brocade bodice with brass fittings and a gold gear pendant, ornate brass clockwork gauntlets; she looks up sharply from her work, a small brass clockwork owl with one glowing blue eye perched beside her. Filling the open street doorway, backlit by cold rainy daylight: Commodore Rupert Knighton, an older tall imposing naval officer in an immaculate Crown-grey Age-of-Sail naval frock coat with gold facings, high collar and white cravat, slicked-back dark hair greying at the temples, thick dark mustache, black eyepatch over one eye, calm and commanding; two marine guards in period coats and black tricorne hats behind him. Warm lamplit interior against cold exterior. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
 > [!dm]
 > Frame this as a flashback: **"Two days ago."** History, not a live branch — she declines the launch and investigates instead; the table just hasn't seen it happen yet. Before reading anything aloud, ask Catarina's player to introduce herself: what she's working on at the bench, how she's standing, what she looks like today. Once she's done, the visit below fires.
 
@@ -232,6 +234,8 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 *Pull: Full party · Register: combat*
 *Available: if the party's first fight after Room 6 is a secondary site (Room 5, T1, or T2).*
 
+![[wiki/assets/sessions/session-06/06-catarina-tunnel-arrival.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, diagonal action composition. A grimy vaulted stone sewer tunnel lit by eerie green bioluminescent fungus, wet stone glinting. Catarina Da'Virelli runs in from a side passage on the right — a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, a full-sleeved white linen chemise under a rust-red brocade bodice with a leather utility belt, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised in one hand. A small brass clockwork owl with one glowing blue eye banks overhead. On the left, a small brass clockwork cannon-construct on spoked wheels braces in a side archway and fires a bright force blast. Cold green glow against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
 Whichever site the party hits first, Catarina arrives partway through. She's already moving toward the sound of the fight — close-range this time, not the city-wide detonation from Branch A. Combat noise carries to adjacent rooms in this network (dungeon file, General Features).
 
 > [!mechanic]
@@ -372,8 +376,3 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 - [[ruma-delacroix|Ruma Delacroix]] — ally status, voice, what she knows
 - [[bazzoth-the-steeped|Bazzoth]], [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[ozvok-the-vermillion-distiller|Ozvok]], [[ozzeth-the-twiceborn|Ozzeth]] — Branch B stat blocks
 - [[otar-the-foul|Otar the Foul]], [[solange-barret|Solange Barret]] — full stat blocks, Encounter Adaptation (Catarina's staggered entry)
-
-> [!dm]
-> Two scene images were scoped but not generated this pass. Generate before the table if wanted:
-> 1. *Cat's Curios workshop, Knighton's visit* — Rupert Knighton filling the workshop doorway in a Crown-grey coat, two guards visible in the street behind him, Catarina at her bench with a mechanical owl perched nearby. Archer-style adult animated illustration, clean vector-like linework, cel-shaded lighting, 16:9. No text/watermarks/photorealism.
-> 2. *Catarina's arrival in the tunnels* — a Tiny construct cannon mid-fire from a sewer side passage, mechanical owl banking overhead, Catarina running into frame from a side tunnel, dim green bioluminescent light. Same style as above.

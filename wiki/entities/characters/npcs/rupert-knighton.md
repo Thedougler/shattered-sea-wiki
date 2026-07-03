@@ -46,6 +46,10 @@ Knighton refers to every ship under his command as one of his Knights — not by
 
 ---
 
+## Appearance
+
+Older, tall, and broad — a commander's frame that fills a doorway. Slicked-back dark hair greying at the temples, a thick dark mustache, and a black eyepatch over one eye. Wears an immaculate, crease-free Crown-grey Age-of-Sail naval frock coat with gold facings, a high collar, and a white cravat. Composed menace under a genial surface; authority carried in stillness, not posture. *(First rendered in [[session-06-run-guide|Session 06]] — the "King Bradley" register.)*
+
 ## Manner
 
 Posh in the old way — the kind that doesn't need to announce itself. He doesn't shout. He doesn't threaten. He gives orders, and the orders happen. His reputation is built on outcomes, not style. He is fearsome precisely because he is not theatrical about it.

@@ -62,6 +62,14 @@ Avoid these drift points:
 
 ---
 
+## Era & Costume
+
+The Shattered Sea is a **Renaissance / Age of Sail** world (roughly 16th–18th-century dress and technology). Keep clothing, uniforms, and props period-appropriate: frock coats, doublets, brocade bodices, full-sleeved linen chemises, waistcoats, tricornes and bicornes, buckled boots, cravats and lace. Brass-and-clockwork artifice ([[antheri|Antheri]] devices, [[catarina-davirelli|Catarina]]'s gauntlets and owl) is the setting's one flourish — ornate gearwork, never electronics.
+
+**Avoid anachronism:** no modern or industrial-era military dress (peaked service caps, WWI/WWII greatcoats, epaulette-and-necktie uniforms), no zippers, no modern eyewear, no contemporary tailoring. Naval and Crown officers wear age-of-sail dress — long naval frock coats with gold facings and high collars, tricornes or bicornes — not modern service uniforms.
+
+---
+
 ## Category Overrides
 
 ### Portraits
@@ -118,3 +126,4 @@ the DM before generating.
 | Perrin Black-Jaw | Very small (3 ft) black-and-white fancy-rat Rattkin sailor, olive-drab hooded cloak, cream shirt, bodhran drum, long pink tail, oversized longsword |
 | Jean-Claude Tabarnack | Three-foot lean humanoid poison dart frog (electric-blue skin, large black underside patches, geometric black bands), red beret, false black moustache, ranger harness, shortbow and quiver |
 | Delmar Fisk | Sandy red hair in messy topknot, thick sandy-red beard and curled moustache with grey edges, salt-stiff scarlet admiral coat with gold epaulettes, musket |
+| Catarina Da'Virelli | Lean, slight human artificer; youthful face, voluminous silver-white wavy hair, brass goggles pushed up in her hair; full-sleeved white linen chemise under a rust-red brocade bodice, gold gear-and-cross pendant; ornate articulated brass clockwork gauntlets; brass clockwork owl (one glowing blue eye) at her side |

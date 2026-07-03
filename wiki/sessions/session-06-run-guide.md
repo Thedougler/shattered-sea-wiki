@@ -29,8 +29,8 @@ sources:
 
 | | |
 |---|---|
-| **Party is** | [[calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay). [[ruma-delacroix\|Ruma Delacroix]] encounter pending/in progress — resume exactly where Session 05 left off. |
-| **Last break** | Session 05 ended mid-Room 6. [[calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
+| **Party is** | [[calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
+| **Last break** | Session 05 ended in Room 6. [[calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, opening solo against [[rupert-knighton\|Rupert Knighton]] — first live appearance of a name that's only been a pressure gauge until now. |
 | **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton, then cut to the party), then a route choice at Room 6 decides which of two prepped branches fires — both are ready. |
 
@@ -106,7 +106,7 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 | Name | Grab when | Handle |
 |---|---|---|
 | [[rupert-knighton\|Rupert Knighton]] | Strong Start (fixed) | Posh, unhurried, never threatens — states outcomes. Voice only, via the coil. |
-| [[ruma-delacroix\|Ruma Delacroix]] | Resuming Room 6 | Flat, unhurried, no wasted words. Values her life over the operation. |
+| [[ruma-delacroix\|Ruma Delacroix]] | Room 6, any time | Ally, unarmed, non-combatant. Dry and wry, relieved to have company. Hiding the party; keeps her own check-ins normal to hold the cover. |
 | [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Branch B, if Room 5 | Fearless, soused on his own reagent-spirits, never panics. |
 | [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Branch B, if Room T1 | Blind, unbothered by fog/darkness/invisibility — reads the room by vibration. |
 | [[ozvok-the-vermillion-distiller\|Ozvok, the Vermillion Distiller]] | Branch B, if Room T2 | Drunk-brave alchemist; escalates hard once hurt. |
@@ -120,30 +120,26 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 *Fixed continuation. Run this before opening the Scene Menu below.*
 
 > [!dm]
-> **Hour One — what you're steering toward.** Once focus cuts back to the party, you have roughly an hour of table time before Catarina arrives (see *Catarina's Entry Window* below — her arrival is on a clock, not just a trigger). Your goal in that hour: make the [[calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants* to make, so Heroes' Feast expires before Otar rather than carrying into the fight — Otar's CR 12 rebuild and poison-heavy kit assume it's gone. Don't force the rest. Spend the hour draining HP, slots, and inspiration through whatever the fiction actually offers (Ruma, a magazine guardian, the check-in clock) so that stopping in Room 6 reads as the obviously smart call, not a suggestion. If they push on without resting anyway, that's a legitimate outcome — the No-Rest Branch under Branch A already covers it.
+> **Hour One — what you're steering toward.** Once focus cuts back to the party, you have roughly an hour of table time before Catarina arrives (see *Catarina's Entry Window* below — her arrival is on a clock, not just a trigger). Your goal in that hour: make the [[calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants* to make, so Heroes' Feast expires before Otar rather than carrying into the fight — Otar's CR 12 rebuild and poison-heavy kit assume it's gone. Don't force the rest. Spend the hour draining HP, slots, and inspiration through whatever the fiction actually offers (a slipped check-in, a magazine guardian) so that stopping in Room 6 reads as the obviously smart call, not a suggestion. If they push on without resting anyway, that's a legitimate outcome — the No-Rest Branch under Branch A already covers it.
 
-### Room 6 — Picking Up Ruma
+### Room 6 — Ruma's Nap Room
 
-Resume the table exactly where Session 05 stopped — mid-negotiation or mid-fight with Ruma, whichever it was.
+**This is resolved, not resuming a fight.** Session 05 ended with the party sneaking up on [[ruma-delacroix|Ruma]] and grabbing her — she's unarmed and non-combatant, so there was nothing to fight. What actually happened: they found her doodles (chemical formulas drawn out like star charts, complete with invented mythology and fan-fiction about the compounds) while restraining her, and that was the whole negotiation. She's an ally now, hiding them in Room 6 — what she calls her "nap room" — and still answering her network's check-ins herself, in character, to hold the cover for everyone.
 
-**Ruma quick reference (if you need to re-enter cold):**
+**Ruma quick reference:** unarmed, non-combatant, do not use Grung Elite Warrior stats for her — she isn't a threat and isn't a resource in a fight. *Wants:* the cover to hold; she'll help from the room, not walk into danger. *Knows:* four secondary sites and their status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — she volunteers all of this freely now, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
 
-**Ruma Delacroix:** AC 13 · HP 49 (Grung Elite Warrior stats) · hand crossbow +5, 1d6+3 + 2d4 poison · signal whistle (reaching for it costs her action; if blown, all sentry teams go active defense) · *Wants:* to survive — talks if approached before she whistles. *Knows:* four secondary sites, accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents. *Doesn't know:* the primary's location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]] · [[calveno-sewers-grung-magazines|Room 6 key]].
+**The check-in clock is still live, but it's Ruma's problem to manage, not the party's roll to make.** She answers the pipe-clicks herself. Play this as ambient tension — a beat where she goes quiet, listens, taps back a routine response, then exhales — rather than a DC anyone needs to hit. If you want it to matter mechanically once, a single botched check-in (her choice to fumble it, or an interruption at the wrong moment) is what escalates the network's alert posture, not a failed party roll.
 
-**If not yet spoofed, the check-in clock is live:** T+2h primary garrison goes active defense; T+8h party finishes rest regardless. Spoof: DC 13 Deception/Intimidation/Performance in handler-register Grung; JC has advantage.
-
-**If engaged:** Ruma talked down or handled quietly, the route map and hidden passage are in play, the party has what they need to choose a direction.
-**If ignored (fight already run/resolved differently):** proceed straight to the fork — Ruma's fate doesn't gate the next beat, only how much intel the party is holding.
+**Open scene beat, before anything else moves:** let the table sit with her for a minute. She's relieved to have people who don't just report barrel counts at her. This is a good, low-stakes place for banter, not just a data dump.
 
 > [!mechanic]
-> **Attrition toolkit — spend before offering the rest.** Don't invent new set-pieces; these are already live:
+> **Attrition toolkit — spend before offering the rest.** Ruma isn't a fight, so don't look to her for resource drain. What's actually available:
 >
-> - **If Ruma's fight is still open,** run it straight — a CR 2 elite warrior with poison arrows and Mesmerizing Chirr is real HP/slot cost on its own.
-> - **If the check-in wasn't spoofed and the party lingers,** the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — have it be a 2-Grung patrol physically checking the relay. Light fight, real resource cost, fully justified by existing canon.
+> - **If the check-in slips** (Ruma's choice, or bad timing), the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — have it be a 2-Grung patrol physically checking the relay. Light fight, real resource cost, fully justified by existing canon, and Ruma is horrified rather than useful during it (she's hiding, not helping).
 > - **Room 5 (Beta) is one mortared breach away** from Room 6. A cautious party often pokes at the nearest door before committing to rest — if they do, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, and it doubles as both the attrition *and* (per the timing rule below) likely where Catarina shows up.
-> - Once they've paid a real cost, land the permission beat: a Warren runner through the maintenance pipe — *"Nona says rest; she says you'll need it."* Room 6 is dry, defensible, two chokepoints. Let it feel like the smart move because by then it is one.
+> - Once they've paid a real cost, land the permission beat: Ruma herself can offer it now instead of a Warren runner — *"You can sleep here. I'm not going anywhere."* Room 6 is dry, defensible, two chokepoints, and she has every reason to want them rested and gone quickly.
 
-**Heroes' Feast reminder:** it was eaten the evening before at Nona's safe house; the 24-hour window expires during this 8-hour rest. Do not mention it, hint at it, or volunteer the math — if asked when they ate, answer honestly, but the realization is supposed to land later, when Foul Miasma deals poison damage with no immunity to stop it. Full rest beats (watch narration, waking description): [[session-05-run-guide|Session 05 Run Guide § Rest Decision — Room 6]].
+**Heroes' Feast reminder:** it was eaten the evening before at Nona's safe house; the 24-hour window expires during this 8-hour rest. Do not mention it, hint at it, or volunteer the math — if asked when they ate, answer honestly, but the realization is supposed to land later, when Foul Miasma deals poison damage with no immunity to stop it. Full rest beats (watch narration, waking description): [[session-05-run-guide|Session 05 Run Guide § Rest Decision — Room 6]] — reflavor the "Warren runner" watch beat as Ruma herself if it plays better with her actually in the room.
 
 ### The Fork
 

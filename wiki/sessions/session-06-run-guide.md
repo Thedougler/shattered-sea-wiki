@@ -32,7 +32,7 @@ sources:
 | **Party is** | [[calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
 | **Last break** | Session 05 ended in Room 6. [[calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, opening on a flashback to [[rupert-knighton\|Rupert Knighton]]'s in-person visit two days ago — first live appearance of a name that's only been a pressure gauge until now. |
-| **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton), then the party at Room 6 — Hour One's resource-drain goal and Catarina's ~1hr entry clock are both in Scene Order. Route choice at Room 6 then decides which of two prepped branches fires — both are ready. |
+| **Table time** | ~4 hrs. Fixed opening (Catarina vs. Knighton), then the party at Room 6 — Hour One's resource-drain goal and Catarina's ~1hr entry clock are both in Scene Order. Route choice at Room 6 decides which branch fires first; if there's time, Branch B (one or more remaining secondary sites) can lead straight into Branch A (Otar) before the night's over — both are fully prepped either way. |
 
 ---
 
@@ -158,6 +158,8 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 
 **The rule for tonight:** whichever combat the party reaches *first* after leaving Room 6 is where Catarina arrives — Branch B for a secondary magazine, Branch A for the primary. If the party reaches Room 8 without a single fight along the way, default to Branch A.
 
+**Passing through Room 7 (Main Collector):** no encounter there, but it's new ground tonight — vaulted, high-ceilinged, the trail markers converging toward the primary and the "MERCATURA NEXUS 200 PAS" commission sign on the wall. Room key, terrain, read-aloud: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 7 — Main Collector]].
+
 ### Catarina's Entry Window (~1 hour)
 
 **Start a timer the moment focus cuts back to the party.** Catarina arrives on that clock about an hour later, regardless of what's happening — not purely a combat trigger. Use whichever of these matches the table when the hour is up:
@@ -215,19 +217,19 @@ Whichever site the party hits first, Catarina arrives partway through. She's alr
 >
 > **Balance note:** unlike Otar, these three lieutenants weren't re-costed for a 5th combatant. If the fight is trending too easy, don't invent new numbers — **[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are an established mobile reserve**, already written into the dungeon file as a DM call for "who shows up next." Send them in.
 
-**If Room 5 — Bazzoth, the Steeped:**
+**If Room 5 — Bazzoth, the Steeped:** room key, terrain, read-aloud: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 5 — Magazine Beta]].
 
 **Bazzoth:** AC 15 · HP 132 · Multiattack 2× (Hurled Flask +6, 2d8+2 acid/poison, *or* Envenomed Lash +6, reach 10 ft., 2d6+2 poison, DC 15 Con or poisoned) · Sump-Reek Bomb (Recharge 5–6, 20-ft radius, DC 15 Con, 6d6 poison) · Reeking Step (3/day, teleport 30 ft. as a reaction when damaged) · Shed the Years (self-buff: +2 AC, +15 ft. speed, extra attack, melee becomes magical — concentration, breaks on a failed Con save) · Legendary Resistance 1/day. Plus 2 Grung laborers. Full block: [[bazzoth-the-steeped|Bazzoth, the Steeped]].
 *Tactic:* breaks concentration on Shed the Years and he loses the extra attack/mobility — focus fire is the counter to his buffed phase.
 
-**If Room T1 — Vashu, the Weeping Veil + Purple-Caste Enforcer:**
+**If Room T1 — Vashu, the Weeping Veil + Purple-Caste Enforcer:** room key, terrain, read-aloud: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T1 — Magazine Gamma]].
 
 **Vashu:** AC 16 · HP 97 · blindsight 30 ft. (ignores fog, darkness, invisibility — including her own Veil) · Multiattack 3× Still-Water Strike +7, 1d6+4 bludgeoning (+2d6 poison if target already poisoned) · Weeping Veil (Recharge 5–6, 20-ft. blinding/poisoning mist, DC 14 Con, she's immune) · Pressure Point (Recharge 5–6, DC 14 Con or stunned) · Evasion · Still-Water Deflection (reduces ranged damage, can redirect it back).
 **Purple-Caste Enforcer:** AC 14 · HP 22 · Venom-Coated Spear +4, 1d6+2 + poison · Binding Tongue (10 ft., DC 12 Dex or grappled+restrained) · Pack Tactics.
 Full blocks: [[vashu-the-weeping-veil|Vashu, the Weeping Veil]], [[purple-caste-enforcer|Purple-Caste Enforcer]].
 *Tactic:* Enforcer's Binding Tongue sets the grapple, Vashu's Pressure Point finishes it — kill or disable the Enforcer first to break the combo. Low 5-ft ceiling punishes reach weapons and flight.
 
-**If Room T2 — Ozvok, the Vermillion Distiller (solo):**
+**If Room T2 — Ozvok, the Vermillion Distiller (solo):** room key, terrain, read-aloud: [[calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T2 — Magazine Delta]].
 
 **Ozvok:** AC 14 (17 after Chemical Awakening) · HP 130 · Hurl Concoction (60 ft., 15-ft radius: Caustic 6d6 acid DC 15 Dex, Reeking Draught 4d8 poison DC 15 Con, or Sticky Bomb 3d6 acid + restrain DC 15 Dex) · Sludge Bottle +6, 2d8+3 poison · The Vintage (Recharge 5–6, 20-ft radius, 10d6 poison DC 15 Con) · Vanishing Draught (1/day, teleport 90 ft. + invisible, triggers at ≤45 HP or on choosing to flee).
 **Chemical Awakening (free, triggers on first melee hit taken or ≤90 HP):** AC→17, speed→40 ft./climb 40 ft., +22 temp HP, gains Multiattack (2× Toxin-Slick Blade +7, 2d4+4 piercing + 2d6 poison) and Chemical Leap.
@@ -236,7 +238,7 @@ Full block + optional Legendary Actions (use only if he's fighting alone, which 
 
 **If engaged:** the magazine is cleared (or Catarina's arrival tips a losing fight), Catarina is now with the party for whatever comes next, and one more detonation lane is closed.
 **If ignored (party bypasses this site entirely):** the lieutenant stays in position; that lane stays live for the raid's final scale count.
-**Hook out:** with Catarina now attached, the party proceeds toward Room 7 and the primary chamber — **Branch A fires next, but skip her staggered entry** (see the DM note under Branch A).
+**Hook out:** Catarina stays with the party from here — her staggered entry doesn't repeat. If they push on to another un-cleared secondary site (Room 5, T1, or T2), rerun this card for that room; nothing about her presence changes. Once they head for the primary, **Branch A fires — but skip her staggered entry** (see the DM note under Branch A).
 
 ---
 

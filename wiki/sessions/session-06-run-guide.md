@@ -21,7 +21,7 @@ sources:
   - Homebrew
 ---
 
-# Session 06 — Run Guide: The Second Artificer
+# Session 06 — Run Guide: No Rest for the Curious
 
 > Scene menu after a fixed opening — the party picks from there; you react. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* before you panic.
 

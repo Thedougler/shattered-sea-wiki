@@ -119,6 +119,9 @@ No threat. No argument. He doesn't threaten — he replaces, and he just told he
 
 *Fixed continuation. Run this before opening the Scene Menu below.*
 
+> [!dm]
+> **Hour One — what you're steering toward.** Once focus cuts back to the party, you have roughly an hour of table time before Catarina arrives (see *Catarina's Entry Window* below — her arrival is on a clock, not just a trigger). Your goal in that hour: make the [[calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants* to make, so Heroes' Feast expires before Otar rather than carrying into the fight — Otar's CR 12 rebuild and poison-heavy kit assume it's gone. Don't force the rest. Spend the hour draining HP, slots, and inspiration through whatever the fiction actually offers (Ruma, a magazine guardian, the check-in clock) so that stopping in Room 6 reads as the obviously smart call, not a suggestion. If they push on without resting anyway, that's a legitimate outcome — the No-Rest Branch under Branch A already covers it.
+
 ### Room 6 — Picking Up Ruma
 
 Resume the table exactly where Session 05 stopped — mid-negotiation or mid-fight with Ruma, whichever it was.
@@ -132,9 +135,19 @@ Resume the table exactly where Session 05 stopped — mid-negotiation or mid-fig
 **If engaged:** Ruma talked down or handled quietly, the route map and hidden passage are in play, the party has what they need to choose a direction.
 **If ignored (fight already run/resolved differently):** proceed straight to the fork — Ruma's fate doesn't gate the next beat, only how much intel the party is holding.
 
+> [!mechanic]
+> **Attrition toolkit — spend before offering the rest.** Don't invent new set-pieces; these are already live:
+>
+> - **If Ruma's fight is still open,** run it straight — a CR 2 elite warrior with poison arrows and Mesmerizing Chirr is real HP/slot cost on its own.
+> - **If the check-in wasn't spoofed and the party lingers,** the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — have it be a 2-Grung patrol physically checking the relay. Light fight, real resource cost, fully justified by existing canon.
+> - **Room 5 (Beta) is one mortared breach away** from Room 6. A cautious party often pokes at the nearest door before committing to rest — if they do, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, and it doubles as both the attrition *and* (per the timing rule below) likely where Catarina shows up.
+> - Once they've paid a real cost, land the permission beat: a Warren runner through the maintenance pipe — *"Nona says rest; she says you'll need it."* Room 6 is dry, defensible, two chokepoints. Let it feel like the smart move because by then it is one.
+
+**Heroes' Feast reminder:** it was eaten the evening before at Nona's safe house; the 24-hour window expires during this 8-hour rest. Do not mention it, hint at it, or volunteer the math — if asked when they ate, answer honestly, but the realization is supposed to land later, when Foul Miasma deals poison damage with no immunity to stop it. Full rest beats (watch narration, waking description): [[session-05-run-guide|Session 05 Run Guide § Rest Decision — Room 6]].
+
 ### The Fork
 
-Once Room 6 is settled, the party chooses where to go next. Don't announce this as a decision point — just track which door they walk through.
+Once Room 6 is settled — rested or not — the party chooses where to go next. Don't announce this as a decision point — just track which door they walk through.
 
 | From Room 6, they can... | Leads to |
 |---|---|
@@ -143,7 +156,17 @@ Once Room 6 is settled, the party chooses where to go next. Don't announce this 
 | Head to Room 7, then the flood vent to T2 | **Branch B** — [[ozvok-the-vermillion-distiller|Ozvok]] |
 | Push straight through Room 7 into Room 8 (main approach or the hidden passage) | **Branch A** — the primary chamber |
 
-**The rule for tonight:** whichever combat the party reaches *first* after leaving Room 6 is where Catarina arrives. If it's a secondary magazine, run **Branch B**; if it's the primary chamber, run **Branch A**. If the party somehow reaches Room 8 without a single fight along the way, default to **Branch A** — she catches up there regardless.
+**The rule for tonight:** whichever combat the party reaches *first* after leaving Room 6 is where Catarina arrives — Branch B for a secondary magazine, Branch A for the primary. If the party somehow reaches Room 8 without a single fight along the way, default to Branch A. But see the timing override below: combat isn't the only thing that can trigger her.
+
+### Catarina's Entry Window (~1 hour)
+
+Her arrival isn't purely a combat trigger — it's a clock running in parallel with whatever the party is doing, targeting roughly the one-hour mark since focus returned to them. Use whichever of these actually matches the table when that hour is up:
+
+- **They're mid-fight (Branch A or B) at the hour mark:** run the staggered entry exactly as written in that branch — owl and cannon first, she arrives 2–3 rounds later.
+- **They're not in a fight yet** — still resting in Room 6, still negotiating, still deciding a route: her owl finds *them* instead of the reverse. It noses through a grate or the drainage pipe, spots the party, and banks off. A minute or two later — mid-rest is fine, even good, as an interruption — she arrives at their location, cannon backpack deployed just outside in the corridor (same unattended auto-fire rule if anything's hostile nearby, otherwise just parked), owl perched and watching. She found them by following the noise and the map, not by luck; she doesn't yet know what's actually under the city.
+
+> [!dm]
+> If the hour lands mid-rest, this is a great, low-stakes way to have the table meet her outside of combat — a few minutes of introductions in a dry, safe room, before the fiction moves back to the fight. Don't skip the "they think it's a threat first" beat: an unfamiliar construct auto-firing into a corridor before anyone's seen its owner is a legitimate mini-scare, even at rest.
 
 ---
 
@@ -308,6 +331,7 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 ## Capture For Next Time
 
 - Did Catarina accept or refuse Knighton's evacuation? Either way, note her stated reason — it's characterization for later scenes with him.
+- Did the party take the Room 6 long rest? Heroes' Feast active or expired going into whatever fight comes next — this changes Otar's difficulty if Branch A hasn't fired yet.
 - Which branch fired (A or B), and which lieutenant (if B) — update [[hot|hot.md]] Recent Activity.
 - Which magazines are neutralized, which remain; was the primary found; was the circle disrupted; was Otar summoned.
 - Solange's fate (escaped vs. consumed) — determines whether [[simone-tabarnack|Simone]] learns [[jean-claude-tabarnack|JC]] is alive.

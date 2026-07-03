@@ -7,10 +7,10 @@ status: active
 audience: dm
 publish: false
 session_number: 6
-session_date: "2026-07-02"
+session_date: 2026-07-02
 summary: "At-table run guide for Session 06: Catarina Da'Virelli's guest-PC debut opens on Rupert Knighton's first appearance and his lie about the sewers, then cuts to the party resuming at Room 6 — their route out determines whether Catarina arrives at the primary chamber (Otar) or a secondary magazine fight first. ~4 hrs."
-created: "2026-07-02"
-updated: "2026-07-02"
+created: 2026-07-02
+updated: 2026-07-02
 tags:
   - session-prep
   - run-guide
@@ -53,11 +53,12 @@ sources:
 
 **Knighton's offer:** evacuation, Crown launch, no charge, no explanation beyond "a venting fault." He is not lying about danger existing underground — he is lying about what it is. Anyone who actually goes down there finds Grung blackpowder and a summoning circle, not gas.
 
-> [!check] Passive Insight (14) — automatic, no roll needed
-> Catarina's passive Insight clears DC 13 without a roll: the urgency in his voice is genuine, but he's vague on specifics in a way a real Commission incident wouldn't be. If her player wants to press him actively:
+> [!check] Passive Insight — automatic, no roll needed
+> Catarina's passive 14 clears DC 13 without a roll: the urgency in his voice is genuine, but he's vague on specifics in a way a real Commission incident wouldn't be.
 
-> [!skill-check] Insight or Investigation (DC 15)
-> Success: the story doesn't match procedure — a venting fault this serious would already be posted at every collector hatch in the district, and it isn't. Failure: reads as sincere concern; no contradiction surfaces yet, but nothing confirms the story either.
+> [!check] Insight/Investigation — DC 15, if her player presses him actively
+> Fail: reads as sincere concern; no contradiction surfaces yet, but nothing confirms the story either.
+> Success: the story doesn't match procedure — a venting fault this serious would already be posted at every collector hatch in the district, and it isn't.
 
 **If she asks why only her:**
 
@@ -350,7 +351,7 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 - [[bazzoth-the-steeped|Bazzoth]], [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[ozvok-the-vermillion-distiller|Ozvok]], [[ozzeth-the-twiceborn|Ozzeth]] — Branch B stat blocks
 - [[otar-the-foul|Otar the Foul]], [[solange-barret|Solange Barret]] — full stat blocks, Encounter Adaptation (Catarina's staggered entry)
 
-> [!visual-aid]
-> Two images were scoped but not generated this pass — flagging prompts for later if wanted:
+> [!dm]
+> Two scene images were scoped but not generated this pass. Generate before the table if wanted:
 > 1. *Cat's Curios workshop, night* — Catarina at her bench, Farspeaker Coil glowing on the wall, mechanical owl perched nearby. Archer-style adult animated illustration, clean vector-like linework, cel-shaded lighting, 16:9. No text/watermarks/photorealism.
 > 2. *Catarina's arrival in the tunnels* — a Tiny construct cannon mid-fire from a sewer side passage, mechanical owl banking overhead, Catarina running into frame from a side tunnel, dim green bioluminescent light. Same style as above.

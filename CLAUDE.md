@@ -61,7 +61,18 @@ ask the DM before generating.
 **Ideal State.** Every file has complete frontmatter with a concrete `summary`; all wikilinks
 resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects current state.
 
-## Prose Style (apply to all wiki prose — read-aloud, descriptions, summaries)
+## Writing Rules (apply to all content — creating or editing)
+
+**Required reading: the `ttrpg-writing` skill.** Before creating or editing *any* wiki
+content — prose, read-aloud, DM notes, even frontmatter summaries — load the
+**`ttrpg-writing`** skill and write to its standards. It is not optional and not only for
+"polish" passes: invoke it at the start of every content create/edit task, alongside
+whatever domain skill applies (`prep-*`, ingest, lint, etc.).
+
+**Clarity and brevity are non-negotiable.** Say it in the fewest words that stay clear,
+concrete, and usable at the table. Cut filler, hedging, throat-clearing, and restatement;
+prefer the short plain word to the long ornate one. A DM scanning mid-session should find
+the answer fast. Length is not thoroughness — when in doubt, delete.
 
 **No "wrong" as atmosphere.** Never lean on *wrong*, *wrongness*, *off*, *unnatural*, or
 similar portentous adjectives to manufacture unease. They describe nothing — they are a

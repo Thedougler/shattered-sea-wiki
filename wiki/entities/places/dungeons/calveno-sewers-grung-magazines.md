@@ -70,7 +70,7 @@ Unless noted otherwise in a room key, these apply throughout:
 - **Sound:** Water echo carries. Combat noise in any room is audible in adjacent rooms. Stealth-critical encounters note specific DCs.
 - **Smell:** Tidal brine, old stone, fish oil from the lamps. The Grung chemical signature — sweetly acrid, like overripe fruit and ammonia — increases deeper in the network. Faint in Room 1, present in Room 2, obvious by Room 4, oppressive by Room 7. Jean-Claude identifies it automatically as concentrated skin secretion runoff.
 - **Water:** Ankle-deep standing water in most tunnels (difficult terrain for creatures without swim speed). Old collector sumps and channels are 2–4 ft deep where noted.
-- **Grung saturation.** The Grung have lived and worked these tunnels for days. Their skin secretions coat every surface they've touched — ladder rungs, barrel lashings, rope handles — leaving a faint iridescent residue that catches lamplight. The standing water carries their chemical runoff: an oily film and a sweetly acrid smell, like overripe fruit soaked in ammonia, that worsens with depth. By Room 4 the air tastes wrong. By Room 7 it burns.
+- **Grung saturation.** The Grung have lived and worked these tunnels for days. Their skin secretions coat every surface they've touched — ladder rungs, barrel lashings, rope handles — leaving a faint iridescent residue that catches lamplight. The standing water carries their chemical runoff: an oily film and a sweetly acrid smell, like overripe fruit soaked in ammonia, that worsens with depth. By Room 4 the air tastes of it — sweet, acrid, clinging to the back of the throat. By Room 7 it burns.
 
 > [!mechanic]
 > **Contact poison (environmental).** Grung-touched surfaces (rungs, ropes, barrel handles) — DC 12 CON on bare-skin contact or poisoned for 10 minutes. Gloves or cloth wrapping negates. Jean-Claude is immune (Grung physiology). Call for one roll per room when a PC handles something, not on every rung.
@@ -171,7 +171,7 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 **Dimensions:** 15 × 20 ft lower service landing beneath a 5 × 5 ft shaft. Hatch at street level, ladder descends 15 ft. Exit to Room 2 through a low south arch.
 
 > [!read-aloud]
-> The ladder is iron, bolted into limestone, and each rung is slick — not just with moisture. Something iridescent catches the light where hands have gripped the metal, a faint chemical film that is not rust. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The air is wrong at the bottom: brine and old stone, yes, but threaded through with something sweetly acrid, like fruit left to ferment in mineral water. A low arch leads south. Scrape marks run along the stone at knee height, recent enough that the dust has not settled back into them.
+> The ladder is iron, bolted into limestone, and each rung is slick — not just with moisture. Something iridescent catches the light where hands have gripped the metal, a faint chemical film that is not rust. Fifteen feet down, your boots find standing water and a maintenance landing wider than the hatch above. The air changes at the bottom: brine and old stone, yes, but threaded through with something sweetly acrid, like fruit left to ferment in mineral water. A low arch leads south. Scrape marks run along the stone at knee height, recent enough that the dust has not settled back into them.
 
 **Features:**
 
@@ -197,7 +197,7 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 **Features:**
 
 - **Sunken sump**: 15-ft-wide pool, 2 ft deep at the centre; ankle-deep water elsewhere. Difficult terrain for creatures without swim speed. (2 Crocodiles submerged here — optional encounter, see below.)
-- **Silt disturbance**: Left branch has heavier foot traffic. (DC 10 Survival: multiple individuals, multiple passes, within the last 48 hours. DC 15 Nature: prints are wrong — weight distribution and toe shape are non-human.)
+- **Silt disturbance**: Left branch has heavier foot traffic. (DC 10 Survival: multiple individuals, multiple passes, within the last 48 hours. DC 15 Nature: the prints aren't human — the weight sits too far forward and the toes splay wide.)
 - **Trail markers**: Three cuts in the limestone, knee-height, left wall. Plus a separate set — older, deeper — pointing down the right branch toward the Mercatura. (Jean-Claude identifies automatically: the three cuts are green/blue-caste directional markers. The older set uses red-caste priority notation — a different authority level, pointing a different direction. **Three Clue #3.**)
 - **Collapsed masonry**: Right wall and sump edge. (Half cover for two creatures; climbing over costs 5 ft extra movement.)
 
@@ -364,7 +364,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 >
 > **Third watch:** Silence. Complete silence. The standing water in the adjacent tunnels stops flowing for several minutes. Then it resumes — a tidal shift somewhere in the system, nothing more. The air is still. The oil lamp burns steady.
 >
-> **On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, focused, ready. The air from the deeper tunnels carries something faintly wrong — mineral, organic, not quite identifiable. The trail markers converge ahead. The primary site is waiting.
+> **On waking:** The party is rested. Full HP, full spell slots, full inspiration. Describe them feeling sharp, focused, ready. The air from the deeper tunnels carries something faint — mineral, organic, not quite identifiable. The trail markers converge ahead. The primary site is waiting.
 
 ---
 
@@ -398,7 +398,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 **Dimensions:** Roughly 60 × 50 ft irregular vaulted collector nexus. Ceiling 15 ft. Four drainage channels (3 ft deep, 5 ft wide) converge from cardinal directions. Central dry stone platform (15 ft diameter) with summoning circle. Scaffolding along all walls to 10 ft height, with powder packed into the ceiling joints. Exits: ascending passage to Room 7 (north), hidden passage to Room 6 (south, behind scaffolding).
 
 > [!read-aloud]
-> The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and something else beneath both, something that tastes of ozone and wrongness rising from the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
+> The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and beneath both a sharp, electric ozone bite that pricks the throat and lifts the hair on your arms, rising off the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
 
 **Features:**
 
@@ -569,7 +569,7 @@ The dungeon has four natural acts:
 1. **Discovery (Rooms 1–3):** The party enters the network and encounters the first signs of Grung presence. The toxic atmosphere begins as a hint — iridescent residue on ladder rungs, an oily film on the water, a chemical smell that shouldn't be here. Optional encounters (crocodiles, fleeing handler) set the tone. Stealth and investigation dominate.
 2. **Disruption (Rooms 4–6):** The party finds and disarms secondary magazines. The Grung saturation becomes obvious: coated surfaces, chemical air sharp enough to taste, secretion residue on every rope and handle. Two Hard encounters (sentry teams) back-to-back drain resources. The handler relay is the intelligence pivot — what the party learns from Ruma (or the route map) determines whether they discover the primary site.
 3. **The Rest (Room 6):** The party has burned spell slots, inspiration, and HP through Acts 1–2. Room 6 is dry, defensible, and quiet — a respite from the chemical oppression. See "Long Rest — Room 6" in the Room 6 key. The rest gives the party a full resource reset before the climax, but Heroes' Feast (consumed the previous evening) expires during the 8-hour rest. The party enters the primary chamber fresh but without poison immunity, Wisdom save advantage, or the max HP buffer.
-4. **Confrontation (Rooms 7–8):** The toxic escalation peaks. Room 7's air burns. Room 8 layers blackpowder, Grung secretion, and summoning-circle ozone into air that tastes actively wrong. The hidden passage from Room 6 is the party's best tactical advantage.
+4. **Confrontation (Rooms 7–8):** The toxic escalation peaks. Room 7's air burns. Room 8 layers blackpowder, Grung secretion, and summoning-circle ozone into air that stings the eyes and coats the throat. The hidden passage from Room 6 is the party's best tactical advantage.
 
 ### If Loud
 

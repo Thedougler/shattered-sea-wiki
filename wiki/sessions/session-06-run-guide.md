@@ -125,7 +125,7 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 **Then let the flashback breathe** — let the player finish playing the moment. She doesn't take the launch; she spends the two days investigating instead. Close the scene on the fade below, and cut to the present.
 
 > [!read-aloud]
-> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all — it's something worked, deliberate, chemical, and wrong. Whatever's actually down there is what you've been chasing all along — and tonight, it leads you down.
+> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all — it's sweet and ammoniac and chemical, and it's rising from a grate that ought to breathe nothing but silt. Whatever's actually down there is what you've been chasing all along — and tonight, it leads you down.
 >
 > *(Fade to black. Where that grate is — and what she finds at the bottom of it — is Scene 3. Hold it.)*
 
@@ -196,23 +196,31 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 *Each trail is Catarina's two days of investigation converging on a specific grate above a specific magazine. They are mutually exclusive from the table's point of view — the other three didn't happen. All four assume she has already established (Scene 1 fade) that the "venting fault" is a lie and the smell isn't gas.*
 
 > [!dm]
-> Common thread to every trail: Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice the wrong details without asking for rolls. What she has figured out by the end of any trail: something is packed into the collectors on purpose, it's chemical and deliberate, and whoever did it is working entirely outside the Canal Commission. **What she does *not* know going in — keep all of this off the table until she's actually at the bottom of the grate looking at them:** *who* is down there (she has odd prints and a wrong smell, not a culprit — she has no idea it's Grung until she sees them), that it's a *summoning* rather than a bombing (only Trail 4 gets near that), and that one of the people she's about to fight beside is a friendly Grung. Do not let her — or the read-aloud — name the Grung before the reveal lands.
+> Common thread to every trail: Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice the details that don't add up without asking for rolls. What she has figured out by the end of any trail: something is packed into the collectors on purpose, it's chemical and deliberate, and whoever did it is working entirely outside the Canal Commission. **Each trail also earns her one *distinct* piece of the picture — the tailored lore drop noted in each below; run only the one for the site the party chose.** **What she does *not* know going in — keep all of this off the table until she's actually at the bottom of the grate looking at them:** *who* is down there (she has odd prints and a smell no Commission fault would make, not a culprit — she has no idea it's Grung until she sees them), the full shape of it, and that one of the people she's about to fight beside is a friendly Grung. Do not let her — or the read-aloud — name the Grung before the reveal lands.
 
 #### Trail 1 — The Le Paludi Yards *(→ Room 5 / Beta / Bazzoth)*
 
 > [!read-aloud]
-> The dockhand's favor pays off in Le Paludi. He points you at the working yards — the part of the district that smells of pitch and rope even on a feast day. But there's a second smell now, sweet and wrong, coming up through a maintenance grate the Commission's map doesn't bother to name. The iron is slick with something iridescent that isn't oil. Someone's been up and down this ladder, recently, carrying weight.
+> The dockhand's favor pays off in Le Paludi. He points you at the working yards — the part of the district that smells of pitch and rope even on a feast day. But there's a second smell now, sweet and ammoniac, like overripe fruit left in a chamber pot, coming up through a maintenance grate the Commission's map doesn't bother to name. The iron is slick with something iridescent that isn't oil. Someone's been up and down this ladder, recently, carrying weight.
 
 **The trail:** a Le Paludi barrel-runner mentions "the crew that pays double for quiet cartage and never uses the front canal." Follow the cartage and it dead-ends at the yards, at a grate directly over the working magazine. Fresh timber, fresh residue, the acrid-sweet reek strongest here.
+
+> [!dm]
+> **What this leg reveals — the harvest.** Tailored lore for the Le Paludi path. Chasing the cartage, she hears the other half of it: over the last week Le Paludi has been quietly losing people — a lamplighter, two of the Tangle kids, a woman who mends nets — no bodies, no ransom notes, just gone. The "quiet cartage" crew hauls barrels *in* on some nights and, on others, covered loads *out* that shift their own weight against the porters' hands. Whatever's being built down here isn't only meant to level a plaza; it's meant to *take people*. She's reached the raid's extraction purpose from the victims' side — she doesn't know the scale (200–300) or where they'd go, only that this is a harvest, not just a bomb.
+
 **What she finds at the bottom:** the sounds of a fight already starting one chamber over — the party hitting Bazzoth's bench.
 **Cut back** to the party as Bazzoth's fight opens; Catarina is inbound through the Le Paludi collector line.
 
 #### Trail 2 — The Bridge *(→ Room T1 / Gamma / Vashu)*
 
 > [!read-aloud]
-> The Bridge is wall-to-wall festival — Ponte Bassa packed, feet drumming on old stone. You'd never smell it up here over the fried dough and the crowd, except you're not looking up. A rusted street drain in a maintenance alcove off the Bridge breathes cold air that tastes of powder and rust and that same sweet chemical wrongness. Somebody pried this grate and put it back badly.
+> The Bridge is wall-to-wall festival — Ponte Bassa packed, feet drumming on old stone. You'd never smell it up here over the fried dough and the crowd, except you're not looking up. A rusted street drain in a maintenance alcove off the Bridge breathes cold air that tastes of powder and rust and that same sweet, ammoniac chemical film. Somebody pried this grate and put it back badly.
 
 **The trail:** a Commission clerk (the same one with no venting order) grumbles that a Bridge-district drain crew "signed off on work nobody scheduled." Chase the paperwork to the alcove; the grate to Gamma is behind it, and it's been used from below.
+
+> [!dm]
+> **What this leg reveals — the clock and the crowd.** Tailored lore for the Bridge path. The paperwork hands her the *when*: every scrap of the un-scheduled "drain work" is dated to finish before the last day of La Finestra, exactly when the Bridge and Mercatura crowds crest. And standing in the crush, she works out the *why here* — the Beffa has spent the whole festival training this crowd to hear a bang and laugh, to treat a shock as part of the show. The first blast won't send them running; it'll get applause and a held breath before anyone understands. Maximum bodies, minimum panic, engineered into the festival's own rhythm. She has the timing and the cruelty of it, if not the count.
+
 **What she finds at the bottom:** the low old-brick magazine, and the party arriving on Vashu through the barred culvert. The 5-ft ceiling makes descending awkward — she comes in low and cramped.
 **Cut back** to Vashu's fight; Catarina is inbound through the Bridge drain.
 
@@ -222,6 +230,10 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 > The trail runs saltward, toward the Arsenal side, where the Commission's authority thins and the water does the governing. Past Acqua Nera's quiet anchorages there's a three-foot egress vent above the waterline, rigging knocking against a mast somewhere close. Salt cuts the air here — but not enough. Under it: the same sweet chemical film, riding the tidal slap, coming out of the city instead of into it.
 
 **The trail:** a quay hand who owes her (or is easily bought) mentions "a crew that loads nothing onto boats that still leave heavy, and never uses the front canal." Follow the boats to the outer-quay vent; the residue on the bars glows in the filtered light.
+
+> [!dm]
+> **What this leg reveals — the ships.** Tailored lore for the quay path. She counts them from the anchorage: low, dark hulls standing off past the outer harbour, more than any festival needs, riding high and half-empty as though waiting to be filled. The "boats that leave heavy" run a shuttle no manifest lists. Whatever comes up out of these vents is meant to go *aboard* and out to open water, somewhere the city's authority can't follow. She's found the *way out* — a seaborne extraction fleet holding station off Calveno — without yet knowing what (or who) it's meant to carry. (This is the *vethka*; connects to the outer-quay egress vent and Session 07's pursuit.)
+
 **What she finds at the bottom:** the party mid-fight in the tidal magazine — and a chromatic-skinned Grung caster she has no frame for. The vent she came through is one more space he can simply teleport to; there is no cornering him.
 **Cut back** to Ozzeth's fight; Catarina is inbound through the quay egress vent.
 
@@ -230,9 +242,13 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 *The climax path. She is, unknowingly, standing directly above where Otar will erupt.*
 
 > [!read-aloud]
-> Every thread you've pulled runs back to the same place: the Mercatura, the commercial spine, the plaza where the Beffa registration table will stand at feast peak. The Commission's own faded sign reads MERCATURA NEXUS 200 PAS — two hundred paces to the collector nexus, straight down. The crowd is thickest here, laughing on cue the way the Beffa trained them. And under two hundred paces of festival cobblestone, the chemical stink isn't just powder anymore. There's a note in it that tastes of ozone and wrongness — something that has nothing to do with a gas leak.
+> Every thread you've pulled runs back to the same place: the Mercatura, the commercial spine, the plaza where the Beffa registration table will stand at feast peak. The Commission's own faded sign reads MERCATURA NEXUS 200 PAS — two hundred paces to the collector nexus, straight down. The crowd is thickest here, laughing on cue the way the Beffa trained them. And under two hundred paces of festival cobblestone, the stink isn't just powder anymore. There's a note in it with no business in a sewer: ozone, sharp and electric, the smell of the air just before lightning — nothing a gas leak has ever made.
 
 **The trail:** the convergence of everything — the cartage, the paperwork, the boats, all pointing inward to the Mercatura nexus. A collector hatch at the plaza's edge, and below it the ascending passage or the descending trail-markers toward Room 8.
+
+> [!dm]
+> **What this leg reveals — it isn't just powder.** Tailored lore for the Mercatura path, and the one that lands hardest on *her*. She feels it before she reasons it: a low hum carrying up through two hundred paces of stone, ozone that lifts the hair on her arms, a charge that sets her tools humming in their loops. Catarina has spent her whole life proving that ingenuity does what other people waste spells on — and she knows arcane work when it prickles the back of her neck. Someone is running *magic* down there, on a scale she has never seen bought or sold, and that — more than the powder, more than the missing people — is what sends her down the hatch. Of the four trails she comes closest to the truth: this is a working, not just a bombing. **What it's actually meant to call stays for the bottom** (the circle, the Slaad) — keep that off the table until she's standing in Room 8.
+
 **What she finds at the bottom:** the primary chamber — the bone-white circle, the packed ceiling, Solange kneeling, and the party arriving on the same fight. She has walked into the one site even Ruma couldn't locate.
 **Cut back** to the primary chamber (Branch A). Catarina is inbound; her owl and cannon reach the crater first (see the Branch A staggered-entry card).
 
@@ -277,7 +293,7 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 **Entry — as they come through the passage:**
 
 > [!read-aloud]
-> The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and something else beneath both, something that tastes of ozone and wrongness rising from the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
+> The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and beneath both a sharp, electric ozone bite that pricks the throat and lifts the hair on your arms, rising off the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
 
 **Round ~3, if the circle still stands (Solange keeps channeling):**
 

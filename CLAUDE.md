@@ -61,6 +61,26 @@ ask the DM before generating.
 **Ideal State.** Every file has complete frontmatter with a concrete `summary`; all wikilinks
 resolve; durable relationships are bidirectional; no orphans; `hot.md` reflects current state.
 
+## Prose Style (apply to all wiki prose — read-aloud, descriptions, summaries)
+
+**No "wrong" as atmosphere.** Never lean on *wrong*, *wrongness*, *off*, *unnatural*, or
+similar portentous adjectives to manufacture unease. They describe nothing — they are a
+promise of description the sentence never pays. **Either name the concrete sensory detail —
+what it smells, tastes, sounds, looks, or feels like — or write nothing.** Silence beats
+"wrongness." Doing nothing is strictly better than reaching for these words.
+
+- **Banned as mood words:** "the air tastes wrong," "a sense of wrongness," "something
+  faintly wrong," "tastes of ozone and wrongness," "it felt off," "an unnatural stillness."
+- **Fix by describing the actual thing:** "the air tastes of overripe fruit and ammonia";
+  "ozone, sharp and electric, the smell just before lightning"; "the water stopped moving
+  and stayed stopped for a full minute."
+- **Still fine — the *literal* sense only:** *wrong* meaning **incorrect** — "the wrong
+  target," "a wrong estimate," "took a wrong turn." Not ominous; just factually mistaken.
+
+The test: if *wrong* is doing mood work rather than meaning *incorrect*, delete it and
+describe the real thing, or cut the sentence. Using *wrong/wrongness* as an evocative
+adjective is a hard fail, not a stylistic preference.
+
 ## Automatic Behaviors & Self-Healing Writes
 
 PreToolUse hooks block edits to `.env` and lockfiles. PostToolUse hooks (see `.claude/hooks/`)

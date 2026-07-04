@@ -271,8 +271,8 @@ Catarina arrives to *stop a Grung plot*. One of the people she's about to fight 
 > [!mechanic]
 > **Catarina's staggered entry.** She's 2–3 turns of movement out when the fight opens — but her kit reaches the field first and is live from round 1. This is already priced into the encounter math (see the Otar note); don't soften the enemy because "she isn't really there yet."
 >
-> - **The Cannon (unattended):** her "cannon backpack," pre-deployed. Tiny construct, AC 18, HP 25, immune poison/psychic, can't be charmed/frightened/paralyzed. Set to Force Ballista: 60 ft., 2d8 force, ≈+7 to hit. While unattended it auto-fires at the nearest **hostile** each round — no command needed until Catarina is within 60 ft. (It does not target JC — he isn't hostile.)
-> - **The Owl:** [[clockwork-owl-familiar|owl familiar]] (Tiny beast/construct, AC 11, HP 1, fly 60 ft., Flyby, Keen Hearing/Sight). Already scouting, perched and watching. Can Help a PC, or feed real-time intel to Catarina's player. A stray AoE killing it at 1 HP is a legitimate gut-punch, not a rules problem.
+> - **The Cannon (unattended):** her pre-deployed "cannon backpack." While unattended it auto-fires at the nearest **hostile** each round — no command needed until Catarina is within 60 ft. (It does not target JC — he isn't hostile.) Stat block (AC/HP, Force Ballista): [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
+> - **The Owl:** her [[clockwork-owl-familiar|clockwork owl]] (runs on the MM Owl stat block), already scouting — perched and watching. Can Help a PC, or feed real-time intel to Catarina's player. At 1 HP a stray AoE ends it — a legitimate gut-punch, not a rules problem. Numbers: [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
 > - **Arrival (suggested pacing):** turns 1–3 are movement only. Turn 4ish she's within 60 ft and fully live — cannon command, Fire Bolt/Shocking Grasp, Wand of Pyrotechnics (a fire source, which matters against Otar's regen). Full adaptation notes: [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
 
 > [!dm]
@@ -312,14 +312,14 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 >
 > Above the crater, the crowd hasn't caught up — the blast read as festival spectacle. One woman leans over the broken lip of the plaza, squinting down through the haze. "It looks so real!" Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls her off the edge before the word finishes echoing. A wet crunch cuts the scream short — and the crowd finally starts screaming.
 
-**Compact combat card:**
+**Combatants — stat blocks on their pages:**
 
-**Solange Barret:** AC 15 (Circle Ward) · HP 66 · channels the ritual each turn (can't attack), reaction Counterspell *or* Detonate, not both · Mirror Image (3 duplicates) active.
-**4× Grung Elite Warrior:** AC 13 · HP 49 each · 2× shortbow +5, 1d6+3 + 2d4 poison · Mesmerizing Chirr (Recharge 6, DC 12 Wis, stun) · expendable, Solange doesn't protect them.
-**Otar the Foul (Phase 3, CR 12 recalibrated):** AC 17 · HP 241 · Bite/Claw/Tongue Lash +11 · Foul Miasma 2d6 poison/turn · Entropic Regeneration 12/round (suppressed by fire/acid) · Legendary Resistance 3/day · full stat block and lair actions: [[otar-the-foul|Otar the Foul]].
+- **[[solange-barret|Solange Barret]]** — channels the ritual each turn (can't attack); reaction is Counterspell *or* Detonate, not both; Mirror Image (3 duplicates) up.
+- **4× [[grung-elite-warrior|Grung Elite Warrior]]** — Mesmerizing Chirr (stun) is the ability to watch; expendable, Solange doesn't protect them.
+- **[[otar-the-foul|Otar the Foul]]** (Phase 3, CR 12 recalibrated) — full stat block, Foul Miasma, Entropic Regeneration (needs fire/acid to suppress), legendary and lair actions all on the page.
 
 > [!mechanic]
-> **Catarina arrives via staggered entry** (see *Staggered Entry* above for the cannon/owl numbers). In the primary chamber she's 2–3 turns from the crater when Otar manifests; the owl and cannon are on site from round 1. A clean beat if it lines up: have her arrival land as Otar crosses into Unstable Form (≤120 HP) — reinforcements as the fight turns, not before. This is already priced into Otar's CR 12 rebuild; don't soften him further. **If she joined earlier (a Branch B fight ran first),** skip the staggered entry — she's in from turn 1.
+> **Catarina arrives via staggered entry** (see *Staggered Entry* above; cannon/owl stat blocks live on [[otar-the-foul|Otar the Foul § Encounter Adaptation]]). In the primary chamber she's 2–3 turns from the crater when Otar manifests; the owl and cannon are on site from round 1. A clean beat if it lines up: have her arrival land as Otar crosses into Unstable Form (≤120 HP) — reinforcements as the fight turns, not before. This is already priced into Otar's CR 12 rebuild; don't soften him further. **If she joined earlier (a Branch B fight ran first),** skip the staggered entry — she's in from turn 1.
 
 **If engaged:** the party fights the garrison, survives or avoids the detonation, and either kills Otar, disrupts the circle before manifestation, or is overrun — see [[session-05-run-guide|Session 05 Run Guide § Aftermath]] for all three outcomes.
 **If ignored:** the primary fires uncontested on the shortened timeline — see the Fail-Forward section below.
@@ -336,19 +336,17 @@ Whichever site the party hits first, Catarina arrives partway through her stagge
 
 **If Room 5 — Bazzoth, the Steeped:** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 5 — Magazine Beta]].
 
-**Bazzoth:** AC 15 · HP 132 · Multiattack 2× (Hurled Flask +6, 2d8+2 acid/poison, *or* Envenomed Lash +6, reach 10 ft., 2d6+2 poison, DC 15 Con or poisoned) · Sump-Reek Bomb (Recharge 5–6, 20-ft radius, DC 15 Con, 6d6 poison) · Reeking Step (3/day, teleport 30 ft. as a reaction when damaged) · Shed the Years (self-buff: +2 AC, +15 ft. speed, extra attack, melee becomes magical — concentration, breaks on a failed Con save) · Legendary Resistance 1/day. Plus 2 Grung laborers. Full block: [[bazzoth-the-steeped|Bazzoth, the Steeped]].
+**[[bazzoth-the-steeped|Bazzoth, the Steeped]]** (CR 6) + 2 [[grung-npc|Grung]] laborers. Levers to know at the table: **Shed the Years** (concentration self-buff — extra attack, +AC, mobility, magical melee) and **Sump-Reek Bomb** (recharge poison AoE). Full stat block: [[bazzoth-the-steeped|Bazzoth]].
 *Tactic:* breaks concentration on Shed the Years and he loses the extra attack/mobility — focus fire is the counter to his buffed phase.
 
 **If Room T1 — Vashu, the Weeping Veil + Purple-Caste Enforcer:** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T1 — Magazine Gamma]].
 
-**Vashu:** AC 16 · HP 97 · blindsight 30 ft. (ignores fog, darkness, invisibility — including her own Veil) · Multiattack 3× Still-Water Strike +7, 1d6+4 bludgeoning (+2d6 poison if target already poisoned) · Weeping Veil (Recharge 5–6, 20-ft. blinding/poisoning mist, DC 14 Con, she's immune) · Pressure Point (Recharge 5–6, DC 14 Con or stunned) · Evasion · Still-Water Deflection (reduces ranged damage, can redirect it back).
-**Purple-Caste Enforcer:** AC 14 · HP 22 · Venom-Coated Spear +4, 1d6+2 + poison · Binding Tongue (10 ft., DC 12 Dex or grappled+restrained) · Pack Tactics.
-Full blocks: [[vashu-the-weeping-veil|Vashu, the Weeping Veil]], [[purple-caste-enforcer|Purple-Caste Enforcer]].
+**[[vashu-the-weeping-veil|Vashu, the Weeping Veil]]** + 1 **[[purple-caste-enforcer|Purple-Caste Enforcer]]**. Levers to know: Vashu's **blindsight 30 ft.** (ignores fog/darkness/invisibility, including her own **Weeping Veil** mist) and **Pressure Point** stun; the Enforcer's **Binding Tongue** grapple. Full stat blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]].
 *Tactic:* Enforcer's Binding Tongue sets the grapple, Vashu's Pressure Point finishes it — kill or disable the Enforcer first to break the combo. Low 5-ft ceiling punishes reach weapons and flight.
 
 **If Room T2 — Ozzeth, the Twiceborn (+ Purple-Caste Zealot escort):** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T2 — Magazine Delta]].
 
-**Ozzeth:** AC 16 (mage armour; +5 from *Shield* as a reaction) · HP 130 · swim 30 ft. · 9th-level INT caster (spell save DC 16, +8 to hit) casting with **no verbal components — *Silence* does not shut him down** · Venom Lash +6, reach 10 ft., 1d4+3 + 2d6 poison, pulls Medium-or-smaller 5 ft. · Poison Spray cantrip (DC 16 Con, 2d10) · key spells: *dominate person* (1× 5th), *hypnotic pattern*, *hold person*, *fear*, *fireball*, *greater invisibility*, *dimension door*, *misty step*, *mirror image* · Legendary Resistance 2/day · Legendary Actions (Weeping Cantrip, Slip the Skin, Pull the Thread) · Twiceborn Will (advantage on concentration and vs. charm/frighten). Plus the **[[purple-caste-zealot|Purple-Caste Zealot]]** — a suicidal powder-charge minion that closes to detonate. Full block: [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]].
+**[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]]** (CR 8) + a **[[purple-caste-zealot|Purple-Caste Zealot]]** escort. A 9th-level INT control caster who casts with **no verbal components — *Silence* is useless on him.** Spells to expect: *dominate person*, *hypnotic pattern*, *hold person* (control) and *misty step* / *dimension door* / *greater invisibility* (mobility). The Zealot is a suicidal powder-charge that closes to detonate. Full stat block, spell list, and legendary actions: [[ozzeth-the-twiceborn|Ozzeth]].
 *Tactic:* a control caster, not a brawler. Expect *dominate person* or *hold person* to pull a PC out of the fight, *hypnotic pattern* to freeze the melee, and *misty step* / *greater invisibility* to stay untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop the domination/pattern; kill the Zealot before it reaches the backline or a barrel stack; and don't waste *Silence* — his casting has no verbal components. In the tidal Delta he's as at home in the water (swim 30) as the party is off-balance in it.
 
 **If engaged:** the magazine is cleared (or Catarina's arrival tips a losing fight), Catarina is now with the party for whatever comes next, and one more detonation lane is closed.

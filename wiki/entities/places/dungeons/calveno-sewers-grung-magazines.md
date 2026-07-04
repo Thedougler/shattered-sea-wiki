@@ -42,7 +42,7 @@ region: calveno
 [[simone-tabarnack|Simone Tabarnack]]'s Grung operatives have converted five structural weak points in Calveno's sewer collector system into blackpowder magazines, timed to detonate simultaneously during the final day of [[il-gioco-delle-beffe|La Finestra]]. Four secondary sites will buckle the ground and open extraction breaches. The primary site beneath the [[calveno|Mercatura]] will collapse the plaza and summon [[otar-the-foul|Otar the Foul]] through the rubble. The party knows about the four secondary sites from [[felix-aho|Felix Aho]]'s interrogation. The primary site is compartmentalized above his clearance.
 
 > [!dm]
-> **Session 06 framing (see [[session-06-run-guide|Session 06 Run Guide]] for the full script).** This dungeon is the back half of the campaign's current arc; the party is resuming from Room 6 after Session 05. Session 06 adds [[catarina-davirelli|Catarina Da'Virelli]] as a temporary 5th PC. She is **not** placed in a room here — she arrives via a **staggered entry** (clockwork owl + Eldritch Cannon on site first, she follows 2–3 rounds later) at *whichever site the party commits to first*. The run guide opens that arrival with one of four location-specific investigation-flashback trails — Le Paludi yards (Beta), the Bridge (Gamma), the outer quay (Delta), or the Mercatura (primary) — and runs only the one matching the party's chosen door. **Because the party is now five, the primary-chamber Otar uses the recalibrated CR 12 build ([[otar-the-foul|Otar the Foul]]), not the CR 8 cold-run below** — the CR 8 card is retained as the original 4-PC / Session-05 reference. Catarina is also unaware, on arrival, that [[jean-claude-tabarnack|Jean-Claude]] (disguised Grung defector) is a party ally; treat that as a live pressure, not a scripted reveal.
+> **Session 06 framing (see [[session-06-run-guide|Session 06 Run Guide]] for the full script).** This dungeon is the back half of the campaign's current arc; the party is resuming from Room 6 after Session 05. Session 06 adds [[catarina-davirelli|Catarina Da'Virelli]] as a temporary 5th PC. She is **not** placed in a room here — she arrives via a **staggered entry** (clockwork owl + Eldritch Cannon on site first, she follows 2–3 rounds later) at *whichever site the party commits to first*. The run guide opens that arrival with one of four location-specific investigation-flashback trails — Le Paludi yards (Beta), the Bridge (Gamma), the outer quay (Delta), or the Mercatura (primary) — and runs only the one matching the party's chosen door. **Because the party is now five, the primary-chamber Otar uses the recalibrated CR 12 build — run him straight from [[otar-the-foul|Otar the Foul]].** Catarina is also unaware, on arrival, that [[jean-claude-tabarnack|Jean-Claude]] (disguised Grung defector) is a party ally; treat that as a live pressure, not a scripted reveal.
 
 ## Intel Baseline
 
@@ -230,7 +230,7 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 > Transition room and potential chase encounter. The tight quarters punish the party's mobility advantages (no flight, no leaping, cramped melee). If the fleeing handler is here, the chase rewards speed and reach over raw damage.
 
 > [!mechanic]
-> **Optional Encounter — The Late Handler.** 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2). AC 13, HP 49. Multiattack: 2 × shortbow +5 (1d6+3 + 2d4 poison). Standing Leap 25 ft. A blue-caste handler finishing a late route check. She moves toward the far hatch at full speed. Attacks only if blocked or grappled. Does not speak. If Jean-Claude addresses her in Grung, she stops for one beat — recalibrating — then continues. **If she escapes:** all sentry teams go to heightened alert (no more hide-and-report; active defense at all secondary sites). **Morale:** escape only. Surrenders below half HP if escape is impossible. Gives nothing except "the schedule moved." **Difficulty: Easy (200 adj. XP).**
+> **Optional Encounter — The Late Handler.** 1 [[grung-elite-warrior|Grung Elite Warrior]] (CR 2 — stat block on the page), a blue-caste handler finishing a late route check. She moves toward the far hatch at full speed. Attacks only if blocked or grappled. Does not speak. If Jean-Claude addresses her in Grung, she stops for one beat — recalibrating — then continues. **If she escapes:** all sentry teams go to heightened alert (no more hide-and-report; active defense at all secondary sites). **Morale:** escape only. Surrenders below half HP if escape is impossible. Gives nothing except "the schedule moved." **Difficulty: Easy (200 adj. XP).**
 
 ---
 
@@ -259,8 +259,8 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 > [!mechanic]
 > **Sentry Team.** 2 [[grung-npc|Grung]] + 1 [[grung-elite-warrior|Grung Elite Warrior]]. **Difficulty: Hard (1100 adj. XP).**
 >
-> - **Green Grung:** CR 1/4, AC 12, HP 11, Stealth +4, Perception 12, climb 25 ft. Dagger +4 (1d4+2 + 2d4 poison). Poisonous Skin: DC 12 Con or poisoned 1 minute on direct contact.
-> - **Elite Handler:** CR 2, AC 13, HP 49, Stealth +5, Perception 12, climb 25 ft. Multiattack 2x shortbow +5 (1d6+3 + 2d4 poison). Mesmerizing Chirr (Recharge 6): 15 ft, DC 12 Wis or stunned until end of grung's next turn.
+> - **Green Grung** (CR 1/4) — full stat block: [[grung-npc|Grung]].
+> - **Elite Handler** (CR 2) — Mesmerizing Chirr (stun) is the ability to watch; full stat block: [[grung-elite-warrior|Grung Elite Warrior]].
 > - **Orders:** hide, let intruders pass, report after. Break cover only if the party touches barrels.
 > - **On discovery:** handler signals laborers through drainage pipe, then covers retreat from three-quarters cover.
 > - **Morale:** green-caste flee if handler dies; handler breaks at half HP. Killing all three silently prevents a report.
@@ -307,7 +307,7 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 
 **Features:**
 
-- **Ruma Delacroix**: Blue-caste handler, quartermaster for the secondary magazine network. Use [[grung-elite-warrior|Grung Elite Warrior]] stats (CR 2, HP 49). Carries a hand crossbow (shortbow stats) and a signal whistle. (If she blows the whistle: all sentry teams go to active defense — no more hide-and-report. Reaching for the whistle costs her action. If the party acts before she whistles, she can be talked to.)
+- **Ruma Delacroix**: Blue-caste handler, quartermaster for the secondary magazine network. If she ever fights, use [[grung-elite-warrior|Grung Elite Warrior]] stats. Carries a hand crossbow (shortbow stats) and a signal whistle. (If she blows the whistle: all sentry teams go to active defense — no more hide-and-report. Reaching for the whistle costs her action. If the party acts before she whistles, she can be talked to.)
 - **Waxed route map**: Pinned to the wall. Shows 5 positions, not 4. Four marked with green-caste notation. The fifth marked with a red-caste authority symbol — a different command level. (**Three Clue #2.** DC 12 Investigation to examine the map. The fifth position is not labelled with a location — only the authority marker. Ruma refers to it as "the circle site" but does not know where it is.)
 - **Raised dry floor**: 1 ft above the adjacent wet service corridor. (Counts as normal terrain; the corridor lip provides half cover to prone creatures.)
 - *Globe of Invulnerability Scroll (×1)*: In a waxed tube under the desk. (Single-use. 6th-level abjuration. Requires DC 16 Arcana check to use — the caster's level is below the spell's level. Creates a 10-ft-radius barrier that blocks spells of 5th level or lower. Thematic: raid equipment intended to shield extraction teams from their own detonation blast.)
@@ -406,7 +406,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 - **Summoning circle**: 15-ft diameter, cut into stone, kept dry by water-routing trenches. Sheds bright light in a 10-ft radius and dim light for 10 ft beyond that. Jean-Claude's Umbral Sight does not function in the bright zone. (DC 14 Arcana: summoning circle for an extraplanar entity, not fiend or celestial, outer planes. DC 20 Arcana or critical: configured for a **Slaad**, unbound, uncontrolled. Keyed to activate on detonation — the explosion and the summoning are one event. **Disruption:** 1 minute of careful work, or DC 18 Arcana as an action to sever a key resonance line. Prevents summoning even if detonation fires.)
 - **Scaffolding**: Timber frames along all walls, rising to 10 ft. (Elevated positions: +2 AC vs. melee from below, no cover vs. ranged. Two [[grung-elite-warrior|Elite Warriors]] fire from here. Climbing the scaffolding: DC 10 Athletics. Destroying a scaffold section: DC 12 Athletics or 10 HP damage — collapses that section, dealing 1d6 bludgeoning to anyone on it and creating difficult terrain.)
 - **Drainage channels (×4)**: 3 ft deep, 5 ft wide, flowing water. (Difficult terrain. Half cover for a prone creature inside a channel. Small creatures are chest-deep — move at half speed, disadvantage on melee attacks.)
-- **[[solange-barret|Solange Barret]]**: Red-caste warlock, channeling the summoning ritual. Uses her action each turn to sustain it — cannot attack or cast offensive spells. Mirror Image active (3 duplicates). (AC 15 within circle, advantage on concentration saves. Reaction: Counterspell OR Detonate, not both in the same round. Circle deflects the blast; everyone outside takes full detonation. Completes the ritual on her next turn unless the circle was disrupted — [[otar-the-foul|Otar]] manifests through her body, consuming her.)
+- **[[solange-barret|Solange Barret]]**: Red-caste warlock, channeling the summoning ritual. Uses her action each turn to sustain it — cannot attack or cast offensive spells. Mirror Image active (3 duplicates). Within the circle she has advantage on concentration saves; her reaction is Counterspell OR Detonate, not both in the same round. The circle deflects the blast (everyone outside takes full detonation). She completes the ritual on her next turn unless it's disrupted — [[otar-the-foul|Otar]] manifests through her body, consuming her. Full stat block: [[solange-barret|Solange Barret]].
 - **4 [[grung-elite-warrior|Grung Elite Warriors]]**: Purple-caste. Concealed at the four drainage channel entrances. (DC 16 Perception to detect before surprise round. Shortbow from concealment, then melee + Mesmerizing Chirr.)
 - *Solange's ritual components*: Chalk, powdered limestone, an iridescent pigment that does not wash off. (50 gp to an arcane collector. Also: evidence of formal arcane training — the techniques in this circle are not Grung-developed. Connects to the open question of who designed it.)
 
@@ -414,7 +414,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 > Run Room 8 as three phases: garrison, detonation, manifestation. The hidden passage reverses surprise and may let a PC reach Solange before Phase 2. If the circle is disrupted before manifestation, no Otar; Solange detonates as cover and escapes by *Dimension Door* or a prepared route.
 
 > [!mechanic]
-> **Phase 1 — Primary Site Garrison.** 4 Grung Elite Warriors (CR 2 each, HP 49, AC 13) + [[solange-barret|Solange Barret]] (CR 3, HP 66, AC 15, channeling, Mirror Image active). Standing order: shoot on sight. One Elite Warrior per drainage channel entrance — 50-ft spread forces individual engagement.
+> **Phase 1 — Primary Site Garrison.** 4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each) + [[solange-barret|Solange Barret]] (channeling, Mirror Image active) — stat blocks on their pages. Standing order: shoot on sight. One Elite Warrior per drainage channel entrance — 50-ft spread forces individual engagement.
 >
 > - **Hidden passage approach:** passive Perception 12 from the south scaffolding; surprise if no alert is active.
 > - **Main approach:** DC 16 Perception to detect elites before they shoot from concealment.
@@ -452,20 +452,9 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 | Clock | Otar manifests on Solange's next turn unless circle was disrupted |
 
 > [!mechanic]
-> **Phase 3 — Otar Cold-Run Card (CR 8 — original 4-PC / Session-05 build).** For Session 06's five-PC party, use the recalibrated **CR 12** build instead ([[otar-the-foul|Otar the Foul]]: AC 17, HP 241, +11, DC 17 saves, 3 legendary actions, LR 3/day, Foul Miasma 2d6, Entropic Regeneration 12/round). The CR 8 card below stands for reference and for a four-PC table.
+> **Phase 3 — Otar manifests.** Run him straight from his stat block: **[[otar-the-foul|Otar the Foul]]** (CR 12, recalibrated for the five-PC Session-06 party). The page carries AC/HP, Foul Miasma, Entropic Regeneration, Chaos Pulse, Unstable Form, legendary and lair actions, plus the Catarina staggered-entry adaptation. Suppressing Entropic Regeneration with fire or acid is the tactical key.
 >
-> AC 15, HP 152, Speed 40 ft/climb 20 ft, Legendary Resistance 1/day, Magic Resistance.
->
-> - Multiattack: Bite +8 (2d8+5 + DC 15 Con Slaad egg), Claw +8 (2d6+5, 10-ft reach), Tongue Lash +8 (1d8+5, 30-ft reach, DC 16 Str or pulled 25 ft + grappled).
-> - Foul Miasma: 10-ft radius, 1d6 poison/turn.
-> - Entropic Regeneration: 10 HP/round; suppressed by fire or acid.
-> - Chaos Pulse (Recharge 5–6): 20-ft radius, DC 15 Dex, 4d10 force + prone.
-> - Unstable Form (≤75 HP): melee attacks +1d6 acid; melee attackers within 5 ft take 1d10 acid.
-> - Legendary Actions (2/round): Lash, Thrash, or Bile Spray (2 actions, 15-ft cone, DC 15 Con, 3d6 acid).
-> - Rubble Surge reaction: moving 15+ ft within 30 ft triggers DC 15 Dex or 2d10 bludgeoning + speed 0.
-> - Lair action, initiative 20: Aftershock (15-ft radius, DC 13 Dex or prone), Choking Dust (15-ft sphere heavily obscured), or Masonry Collapse (one creature within 40 ft, DC 13 Dex or 2d6 bludgeoning + restrained). Do not repeat the same lair action twice in a row.
->
-> **Difficulty: Extremely Deadly (5000 adj. XP before Otar).** Rewards stealth, planning, and environmental creativity over direct assault.
+> **Difficulty: Extremely Deadly.** Rewards stealth, planning, and environmental creativity over direct assault.
 
 ---
 
@@ -611,7 +600,7 @@ She cannot give them the primary site's location (she does not know it). But the
 
 ### The Primary Chamber — Tactical Options
 
-The Room 8 encounter is Extremely Deadly by the numbers (5000 adjusted XP vs. a 2000 threshold) — and that is before Phase 2 detonates the ceiling and Phase 3 drops a CR 8 Slaad on a wounded party. The fight rewards preparation:
+The Room 8 encounter is Extremely Deadly by the numbers — and that is before Phase 2 detonates the ceiling and Phase 3 drops a Slaad ([[otar-the-foul|Otar]]) on a wounded party. The fight rewards preparation:
 
 - **Hidden passage (Room 6 → 8):** Reverses surprise. The party enters behind the garrison — may let a PC reach Solange before elites react.
 - **Circle disruption (DC 18 Arcana):** If the circle is disrupted before manifestation, Solange cannot complete the summoning. She detonates as cover and escapes by *Dimension Door* or a prepared route. No Otar — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
@@ -669,7 +658,7 @@ The fight is brutal by design. If it tilts toward a TPK, the [[warren|Warren]] r
 > | [[essa-two-tooth|Essa Two-Tooth]] | Organizes water, planks, and crowd lanes; clears one hazard path through rubble | 3 rounds |
 > | Fire bearers | Bring torches/lamp oil/brazier; 1d6 improvised fire, bonus action to ignite weapon or hurl torch | Until Otar dies |
 > | Distraction mob | Initiative 20: Otar DC 10 Wis or spends one legendary action on civilians instead of a PC | Each round |
-> | [[ruk|Ruk]] | AC 15, HP 68; 2d6+4 slashing + 1d6 improvised fire per round | Until dropped |
+> | [[ruk|Ruk]] | Arrives with a lit brazier and cleaver — stats: [[ruk|Ruk]] | Until dropped |
 >
 > Net effect: healing, fire, and breathing room. The Rattle does not kill Otar; it buys the party space to finish the fight. Two quick taps end the Rattle when Otar falls.
 
@@ -680,7 +669,7 @@ Rewards party strengths if they prepare. The party is rested (full HP, slots, in
 - **Hidden passage (Room 6 → 8):** Reverses surprise — the party's strongest observed pattern pays off here.
 - **Full resources.** The long rest means full spell slots, full Bardic Inspiration, full Ki/Focus. Perrin has every slot and every inspiration die. This is the tradeoff for losing the feast — they enter the fight at peak capacity.
 - **Vertical terrain.** 15-ft ceilings and 10-ft scaffolding reward Crissdalynn's flight and Delmar's boots. A flier above scaffolding has advantage on melee vs. prone warriors and partial cover from ground-level ranged.
-- **Bardic inspiration.** Perrin's d8 makes DC 12 Chirr saves manageable and turns AC 13 misses into hits. Without the feast's Wisdom advantage, his inspiration is now the PRIMARY defense against Chirr stuns. Protecting him is the tactical key — Kyzil identified this.
+- **Bardic inspiration.** Perrin's d8 makes Mesmerizing Chirr saves manageable and turns near-misses into hits. Without the feast's Wisdom advantage, his inspiration is now the PRIMARY defense against Chirr stuns. Protecting him is the tactical key — Kyzil identified this.
 - **Circle disruption.** If disrupted before Phase 2 triggers, the summoning fails. Solange detonates and escapes — no Otar, but Simone learns about JC.
 - **Allies.** If the party briefed [[master-kyzil|Kyzil]] (CR 14), he can accompany or create a surface diversion. If he personally disrupts the circle, Otar is likely prevented but Solange escapes with proof JC is active. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
 - **The Rattle.** If the fight goes badly, the Warren responds. See "Safety Valve — The Rattle" above.

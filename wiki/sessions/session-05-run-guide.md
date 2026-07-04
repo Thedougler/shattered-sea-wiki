@@ -315,7 +315,7 @@ The session's spine. The party descends into [[calveno|Calveno]]'s sewer collect
 
 #### Dungeon Overview
 
-**Full room keys, read-alouds, stat blocks, and mechanics:** see **[[calveno-sewers-grung-magazines|Calveno Sewer Magazines]]** (print alongside this guide). Use that document for room-by-room reference at the table. This guide covers session flow, scene triggers, and the climax encounter.
+**Full room keys, read-alouds, stat blocks, and mechanics:** see **[[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines]]** (print alongside this guide). Use that document for room-by-room reference at the table. This guide covers session flow, scene triggers, and the climax encounter.
 
 **Quick features:** Dim light. 5–6 ft ceilings (8 ft collector, 15 ft primary). Standing water (difficult terrain). Grung secretions coat touched surfaces — environmental contact poison (DC 12 CON, poisoned 10 min; gloves negate; JC immune). Chemical smell escalates room by room. See dungeon file General Features for the three poison types (contact secretion, torpor extract, weapon poison) and full mechanics.
 
@@ -593,15 +593,9 @@ The detonation collapsed the Mercatura plaza. The sound carries into [[le-paludi
 > Metal on metal. Faint through the rubble, a pan strikes a rhythm you know. Another answers, then another, until the sound comes from every vent and broken pipe at once. You heard it in a kitchen that smelled like garlic and bread; it was thirty seconds then, and it is thirty seconds now.
 
 > [!mechanic]
-> **Next round (initiative 20):** [[warren|Warren]] community emerges from alleys, canal access points, and festival crowd edges. Not soldiers. The community:
+> **Who emerges (initiative 20):** the [[warren|Warren]] community, not soldiers — [[colla|Colla]] the splint-healer (gets close enough to throw a potion and no closer), [[essa-two-tooth|Essa Two-Tooth]] directing bodies like [[nona-black-jaw|Nona]] in miniature, fire bearers hauling torches and lamp-oil, a mob of civilians with rocks and pans, and [[ruk|Ruk]] with a lit brazier and his cleaver.
 >
-> - **[[colla|Colla]] (The Splint):** Arrives with 1–2 [[potion-of-healing|potions of healing]] (2d4+2 HP). Tosses them to downed or wounded PCs. He is not brave — he gets close enough to throw and no closer. A healer doing the only thing he knows how.
-> - **[[essa-two-tooth|Essa Two-Tooth]]:** Directs people. Not fighting — pointing, organizing. "You — water from the fountain. You — planks from the chandler's cart." [[nona-black-jaw|Nona]] in miniature.
-> - **Fire bearers (2–3 Warren residents):** Festival torches, a lamp oil jug from a canal-side kitchen, a brazier dragged from a food stall. They bring fire. Suppresses Otar's Entropic Regeneration (improvised fire damage, 1d6, bonus action to ignite a weapon or hurl a torch). The one resource the party was missing — delivered by the community.
-> - **Distraction mob (4–6 civilians):** Rattkin and non-Rattkin. Rocks, pans, festival debris. Each round on initiative 20: Otar makes a DC 10 WIS save or uses one legendary action on a civilian instead of a PC. Civilians scatter when targeted — they know the Rattle drill. They come back.
-> - **[[ruk|Ruk]]:** Arrives with a lit brazier in one hand and his cleaver in the other. Does not speak. Hits the thing. (2d6+4 slashing + 1d6 improvised fire per round. AC 15, HP 68.)
->
-> **Net effect:** Healing, fire (regen suppression), and breathing room. Otar wastes legendary actions on civilians. The Rattle does not kill Otar — it buys the party space to regroup and finish the fight.
+> **The mechanic:** this is run as **lair and legendary actions the party temporarily gains** — a Rattle lair action on initiative 20 (Human Chain / Fire Brigade / Din of Pans) and a shared 3-legendary-action pool (Colla's Toss / Shoulder In / Ruk Wades In). Full menu and numbers: [[otar-the-foul|Otar the Foul § The Rattle — The Warren Fights Beside You]]. Net effect unchanged — healing, fire (regen suppression), and breathing room; it does not kill Otar.
 
 > [!dm]
 > **[[perrin-black-jaw|Perrin]]'s moment.** He knows what the Rattle means: the community chose to fight. Let that recognition land, then return to initiative. When Otar falls, two quick taps end the Rattle and the Warren has shown its face to Calveno.
@@ -833,7 +827,7 @@ Print note: omit this appendix from the table packet unless doing pre-session re
 
 **The dungeon:**
 
-- [[calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — full keyed dungeon (8 rooms)
+- [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — full keyed dungeon (8 rooms)
 - [[otar-the-foul|Otar the Foul]] — full stat block and design intent
 - [[solange-barret|Solange Barret]] — full stat block and tactical behavior
 - [[ruma-delacroix|Ruma Delacroix]] — handler relay NPC (Room 6)

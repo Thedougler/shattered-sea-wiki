@@ -138,6 +138,27 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 - **Choking Dust.** A plume of pulverized stone erupts from the rubble. A 15-foot-radius sphere centered on a point within the plaza becomes heavily obscured until initiative count 20 of the next round.
 - **Masonry Collapse.** A section of wall or archway gives way. One creature within 40 feet of the crater (DM's choice) must succeed on a DC 15 Dexterity saving throw or take 11 (3d6) bludgeoning damage and be restrained by rubble (escape DC 15, or another creature can use an action to free them).
 
+## The Rattle — The Warren Fights Beside You
+
+*The safety valve, expressed as action economy. When the fight tips toward a TPK the [[warren|Warren]] floods the shattered plaza — and mechanically that means the **party** gains its own lair action and a shared pool of legendary actions, mirroring Otar. Both sides now have a lair; the crowd is the party's.*
+
+**Trigger (unchanged):** two PCs unconscious at once, OR party aggregate HP below 25%, OR the DM reads a forming TPK. On initiative 20 the round after the threshold is met, the Rattle starts — the same metal-on-metal rhythm the party drilled in Session 04, cascading through the rubble. It lasts until Otar falls (two quick taps end it when he does). It does **not** kill Otar; it buys the party room to finish.
+
+> [!mechanic]
+> **The Rattle Lair Action.** On initiative count 20 — right after Otar's own lair action — the Warren takes **one** lair action. DM or party picks; don't repeat the same one two rounds running.
+>
+> - **Human Chain.** The crowd hauls at the stone. One prone, buried, restrained, or grappled PC is freed and may move up to half their speed toward the crater edge without provoking opportunity attacks. *([[essa-two-tooth|Essa Two-Tooth]]'s crew clearing a lane.)*
+> - **Fire Brigade.** Braziers and lamp-oil, passed hand to hand. Until initiative 20 next round, any PC may add **1d6 fire** to one hit, and that hit suppresses Otar's **Entropic Regeneration** until the start of Otar's next turn. *(The fire bearers — the single most important effect while regen is up.)*
+> - **Din of Pans.** The whole quarter beats metal at once. Otar must succeed on a **DC 10 Wisdom save** or lose one of its legendary actions next round, lashing at the noise instead of a PC. *(The distraction mob.)*
+>
+> **The Rattle Legendary Actions.** The party gains a **shared pool of 3 legendary actions** (dial to 2 if the swing is too strong). Any player may spend one at the end of any turn that isn't a PC's — usually at the end of Otar's turn. Only one at a time; the pool refreshes to full on initiative 20.
+>
+> - **Colla's Toss (1 action).** A [[potion-of-healing|healing potion]] arcs from the crowd to one downed or wounded PC within 30 ft of the crater edge: 2d4+2 HP, or stabilize a dying PC. *([[colla|Colla]].)*
+> - **Shoulder In (1 action).** Warren fighters body-block for a beat. One PC immediately moves up to their speed without provoking opportunity attacks, or takes the Dodge action.
+> - **Ruk Wades In (2 actions).** [[ruk|Ruk]] throws himself in with brazier and cleaver — make one melee attack against Otar (his stat block), or he grapples/shoves to break a grapple Otar has on a PC.
+>
+> **Why this shape:** it hands the party, in reverse, roughly the economy Otar has been beating them with — a deliberate, table-visible swing. Fire it **late and once**, as the last-resort valve it is; don't pre-empt a fight the party can still win on its own.
+
 ## Encounter Notes
 
 **Environment:** Collapsed Mercatura plaza. 20-ft-diameter crater at centre, 10 ft deep. Rubble and broken stone in a 40-ft radius. Festival cloth, splintered registration desks, dust. Dim light from the dust cloud for 2–3 rounds after detonation.
@@ -154,12 +175,12 @@ The summoning circle's detonation left the Mercatura plaza structurally unsound.
 
 **Scaling:**
 
-- **If the fight is too hard — The Rattle fires.** The detonation carries into [[le-paludi|Le Paludi]]. The [[warren|Warren]] feels the ground shake. Someone strikes a pan. **Trigger:** two PCs unconscious simultaneously, OR party aggregate HP below 25%, OR the DM reads a TPK forming. On the round after the trigger (initiative 20), the party hears the Rattle through the rubble — the same rhythm from Session 04. Next round: [[warren|Warren]] community emerges from alleys and festival edges. [[colla|Colla]] tosses 1–2 [[potion-of-healing|healing potions]] (2d4+2) to downed PCs. [[essa-two-tooth|Essa Two-Tooth]] directs people. Fire bearers (2–3 residents) bring festival torches and lamp oil — suppresses Entropic Regeneration. Distraction mob (4–6 civilians) throws rocks and pans — each round Otar makes DC 10 WIS or wastes a legendary action on a civilian. [[ruk|Ruk]] arrives with a lit brazier and his cleaver (2d6+4 slashing + 1d6 fire, AC 15, HP 68). The Rattle does not kill Otar — it buys the party space to regroup and finish. Two quick taps after silence when he falls.
+- **If the fight is too hard — the Rattle fires.** The [[warren|Warren]] floods the plaza and the **party** gains its own lair action and a shared legendary-action pool for the rest of the fight. Full trigger and menu: **The Rattle — The Warren Fights Beside You** (above). It buys room; it does not kill Otar.
 - **If the fight is too easy:** Otar targets a cluster of trapped civilians in the rubble, forcing the party to reposition rather than focus-fire. Uses Tongue Lash to pull a PC into the crater, creating a bad position. Uses Thrash legendary action to clear melee and charge toward civilians.
 - **If the party splits early:** Otar pursues the nearest target for 2 rounds, then loses interest and attacks civilians. It does not chase strategically — it is chaos, not tactics.
-- **If the party still has Heroes' Feast** (skipped the long rest): the feast provides poison immunity and Wisdom save advantage — a significant buffer. The Rattle is less likely to trigger. Ruk arrives solo after round 5 with a torch and cleaver as the backup safety valve.
+- **If the party still has Heroes' Feast** (skipped the long rest): the feast provides poison immunity and Wisdom save advantage — a significant buffer. The Rattle is less likely to trigger. If things still sour past round 5, hand the party just the **Ruk Wades In** legendary action as a lighter, single-option valve rather than the full Rattle.
 
-**Death:** When Otar dies, the lair actions cease. It does not dissolve or vanish. It falls. It bleeds iridescent fluid into the rubble. The body is real, heavy, and wrong — something from outside the planes, dead in the middle of a Tessarine commercial plaza. The summoning circle beneath the rubble is still faintly visible. Someone brought this thing here on purpose, and they knew its name.
+**Death:** When Otar dies, the lair actions cease — Otar's and the Rattle's both. It does not dissolve or vanish. It falls. It bleeds iridescent fluid into the rubble. The body is real and heavy — thirty feet of dead outsider cooling in the middle of a Tessarine commercial plaza, cracked hide still weeping. The summoning circle beneath the rubble is still faintly visible. Someone brought this thing here on purpose, and they knew its name.
 
 ## Encounter Adaptation — Catarina's Staggered Entry
 

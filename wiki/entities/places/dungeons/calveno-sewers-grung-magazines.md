@@ -642,25 +642,14 @@ Use this during the Otar fight for any secondary site the party did not neutrali
 
 ### Safety Valve — The Rattle
 
-The fight is brutal by design. If it tilts toward a TPK, the [[warren|Warren]] responds.
+The fight is brutal by design. If it tilts toward a TPK, the [[warren|Warren]] responds — represented as **lair and legendary actions the party temporarily gains**, mirroring Otar's own.
 
-**Trigger:** Two PCs unconscious simultaneously, OR party aggregate HP drops below 25% of maximum, OR the DM reads the table and sees a TPK forming.
+**Trigger:** Two PCs unconscious simultaneously, OR party aggregate HP drops below 25% of maximum, OR the DM reads the table and sees a TPK forming. Fires on initiative 20 the round after the threshold is met; lasts until Otar falls.
 
 **The detonation collapsed the Mercatura plaza.** The sound carries into [[le-paludi|Le Paludi]]. The Warren feels the ground shake. Someone strikes a pan.
 
 > [!mechanic]
-> **The Rattle at the Mercatura.** Trigger fires on initiative 20 the round after the safety threshold is met.
->
-> | Arrival | Effect | Duration |
-> |---|---|---|
-> | Metal-on-metal signal | Announces Warren response; no mechanics yet | 1 round |
-> | [[colla|Colla]] | Throws 1–2 [[potion-of-healing|potions of healing]] (2d4+2 HP) to downed/wounded PCs | Once |
-> | [[essa-two-tooth|Essa Two-Tooth]] | Organizes water, planks, and crowd lanes; clears one hazard path through rubble | 3 rounds |
-> | Fire bearers | Bring torches/lamp oil/brazier; 1d6 improvised fire, bonus action to ignite weapon or hurl torch | Until Otar dies |
-> | Distraction mob | Initiative 20: Otar DC 10 Wis or spends one legendary action on civilians instead of a PC | Each round |
-> | [[ruk|Ruk]] | Arrives with a lit brazier and cleaver — stats: [[ruk|Ruk]] | Until dropped |
->
-> Net effect: healing, fire, and breathing room. The Rattle does not kill Otar; it buys the party space to finish the fight. Two quick taps end the Rattle when Otar falls.
+> **Full mechanic:** the party's Rattle **lair action** (Human Chain / Fire Brigade / Din of Pans) and shared **3-legendary-action pool** (Colla's Toss / Shoulder In / Ruk Wades In) live on **[[otar-the-foul|Otar the Foul § The Rattle — The Warren Fights Beside You]]**. Net effect: healing, fire (regen suppression), and breathing room. It does not kill Otar; two quick taps end it when he falls.
 
 ### Advantage Window (Primary Chamber)
 

@@ -339,6 +339,9 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 
 **Spoofing the check-in:** DC 13 Deception, Intimidation, or Performance using handler-register Grung; Jean-Claude speaking Grung has advantage. Captured Ruma can do it if promised believable protection.
 
+> [!dm]
+> **Session 06: this clock is moot.** Ruma is a party ally and answers every check-in herself — no detection clock, no spoof roll, no patrol. The table above is retained for a run where she is *not* turned; in Session 06, skip it. (See [[session-06-run-guide|Session 06 Run Guide § Scene 2]].)
+
 ### Long Rest — Room 6
 
 The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), plus whatever fired in Rooms 2 and 3. By the time they reach Room 6 and neutralize Ruma, expect depleted slots, inspiration, and HP. Room 6 is dry stone, swept clean, defensible from two chokepoints, and silent.
@@ -503,10 +506,10 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 - **Blackpowder barrels (×6)**: Full secondary charge. (Same neutralization and detonation rules as Room 4.)
 - **Outer-quay egress vent**: 3 ft wide, above the waterline. (Sealing/blocking it disrupts harbour-side extraction even if detonation fires.)
 - **Tidal slap**: Water rises 1 ft per hour near high tide. (After 2 hours, Stealth checks here have disadvantage from splashing unless creatures have swim speed.)
-- **Guardian**: [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]] (CR 5), alone. His stat block's Legendary Actions are written for exactly this — a solo guardian. Amphibious and comfortable in the tidal water; Chemical Awakening triggers the first time he's hit in melee or drops to 90 HP, after which he's fast enough (40 ft., climb 40 ft.) to chase anyone who tries to disable the vent instead of fighting him.
+- **Guardian**: [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) with a [[purple-caste-zealot|Purple-Caste Zealot]] escort. A 9th-level INT caster with swim 30 ft. — as comfortable in the tidal water as anyone here. His control magic (*dominate person*, *hypnotic pattern*, *hold person*) and mobility (*misty step*, *dimension door*, *greater invisibility*) make him a slippery backline threat; the Zealot is a walking powder-charge that closes to detonate. His casting has no verbal components, so *Silence* does nothing.
 
 > [!dm]
-> Delta is the extraction-lane room. The vent matters more than the barrels if the party is trying to reduce captives. Ozvok will use Vanishing Draught to escape toward the vent rather than die guarding barrels — treat him as willing to abandon the site once Chemical Awakening's temp HP are gone.
+> Delta is the extraction-lane room. The vent matters more than the barrels if the party is trying to reduce captives. Ozzeth won't die guarding barrels — he'll *dominate* whoever moves to disable the vent and turn them back on their own party, teleporting clear (*dimension door* to the outer-quay side) once the fight sours. Watch the Zealot near the barrel stack: a suicidal charge next to blackpowder is its own detonation risk. *(Session 06 roster: Ozzeth was promoted here from the former mobile reserve, which has been dropped — see [[session-06-run-guide|Session 06 Run Guide]].)*
 
 ---
 
@@ -578,7 +581,7 @@ The party fights through the sentry teams and makes noise. Each combat alert pro
 
 If the entire network is alerted, the primary chamber garrison has time to prepare: the Elite Warriors set ambush positions and the party loses any chance of surprise. Solange continues channeling regardless — the ritual does not accelerate, but the garrison is ready. The encounter in Room 8 becomes a fortified position rather than a working site caught mid-task.
 
-**Reserve.** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are not tied to a specific room — held back as a mobile response force. If the network goes to full alert, or if a magazine's guardian falls and the party lingers, Ozzeth is the DM's call for who shows up next and where.
+**No mobile reserve (Session 06).** The lieutenant roster is now three placed guardians — [[bazzoth-the-steeped|Bazzoth]] (Beta), [[vashu-the-weeping-veil|Vashu]] (Gamma), [[ozzeth-the-twiceborn|Ozzeth]] + [[purple-caste-zealot|Purple-Caste Zealot]] (Delta) — with no roving response force. [[ozzeth-the-twiceborn|Ozzeth]], who used to hold that role, now guards Delta himself. If the network goes to full alert, the guardians brace in place and combat noise draws the nearest working crew (a green [[grung-npc|laborer]] or two); "who shows up next" is proximity, not a reserve boss. ([[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]] is shelved for this run — his block is retained for future use.)
 
 ### If Stealthy
 
@@ -731,4 +734,4 @@ See [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] for full consequen
 - [[warren|The Warren]] — the Rattkin settlement sharing this tunnel system
 - [[master-kyzil|Master Kyzil]] — potential CR 14 ally if briefed
 - [[grung-npc|Grung (Green-Caste NPC)]], [[grung-elite-warrior|Grung Elite Warrior]], [[grung-wildling|Grung Wildling]] — creature stat blocks
-- [[vashu-the-weeping-veil|Vashu, the Weeping Veil]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[bazzoth-the-steeped|Bazzoth, the Steeped]], [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]], [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]], [[purple-caste-zealot|Purple-Caste Zealot]] — grung lieutenant stat blocks prepped for the back half (room/encounter placement TBD)
+- [[bazzoth-the-steeped|Bazzoth, the Steeped]] (Room 5/Beta), [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] + [[purple-caste-enforcer|Purple-Caste Enforcer]] (Room T1/Gamma), [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] + [[purple-caste-zealot|Purple-Caste Zealot]] (Room T2/Delta) — the three magazine lieutenants. [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]] — shelved for this run

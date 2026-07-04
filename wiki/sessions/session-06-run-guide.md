@@ -66,9 +66,9 @@ sources:
 |---|---|---|
 | [[rupert-knighton\|Rupert Knighton]] | Scene 1 (fixed, flashback) | Posh, unhurried, never threatens — states outcomes. Visits in person; doesn't send subordinates for things that matter. |
 | [[ruma-delacroix\|Ruma Delacroix]] | Scene 2, Room 6 | Ally, unarmed, non-combatant. Dry and wry, relieved to have company. Hiding the party; keeps her own check-ins normal to hold the cover. |
-| [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Scene 3, if Room 5 (Beta) | Fearless, soused on his own reagent-spirits, never panics. |
-| [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Scene 3, if Room T1 (Gamma) | Blind, unbothered by fog/darkness/invisibility — reads the room by vibration. |
-| [[ozvok-the-vermillion-distiller\|Ozvok, the Vermillion Distiller]] | Scene 3, if Room T2 (Delta) | Drunk-brave alchemist; escalates hard once hurt. |
+| [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Scene 3, if Room 5 (Beta) | Drunk alchemist-brawler — soused on his own reagent-spirits, which has pickled the fear out of him. Never panics. |
+| [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Scene 3, if Room T1 (Gamma) | Blind monk — sightless, reads the room by vibration and scent. Blindsight ignores fog, darkness, and invisibility, even her own Veil. Still and unhurried. |
+| [[ozzeth-the-twiceborn\|Ozzeth, the Twiceborn]] | Scene 3, if Room T2 (Delta) | Prodigal mage / caste-abomination — skin runs blue and red at once, a caster where a Grung is never meant to be one. Cold, precise, unbothered; his own body already broke every rule, so no one else's frighten him. |
 | [[solange-barret\|Solange Barret]] | Scene 3, primary chamber (Room 8) | Channeling, silent, professional — not fanatical. |
 | [[anzolo\|Anzolo]] | Optional, if session reaches Nona's safe house | Slow-talking, methodical, relentless — warmth and violence coexist without irony. Doesn't know the search is over. |
 
@@ -125,7 +125,7 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 **Then let the flashback breathe** — let the player finish playing the moment. She doesn't take the launch; she spends the two days investigating instead. Close the scene on the fade below, and cut to the present.
 
 > [!read-aloud]
-> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all. Whatever set the Grung's timeline moving faster is the same thing you've been tracing — and tonight, it leads you down.
+> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all — it's something worked, deliberate, chemical, and wrong. Whatever's actually down there is what you've been chasing all along — and tonight, it leads you down.
 >
 > *(Fade to black. Where that grate is — and what she finds at the bottom of it — is Scene 3. Hold it.)*
 
@@ -136,10 +136,9 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 *Fixed continuation, live play. Cut from the fade to the present: the party at Room 6. ~30 min. This scene ends the moment they commit to a guarded magazine — that choice is the handoff into Scene 3.*
 
 > [!dm]
-> **The resource-drain goal.** While the party settles, work toward this:
+> **The rest is the whole point of this scene.** The party already burned through the Session 05 fights to reach Room 6. You don't need to harass them further — Ruma keeps them safe, so just make the [[wiki/sessions/calveno-sewers-grung-magazines|Room 6 long rest]] the obvious, wanted choice, because Heroes' Feast expires during it and Otar's CR 12 rebuild and poison-heavy kit assume it's gone.
 >
-> - **Goal:** make the [[wiki/sessions/calveno-sewers-grung-magazines|Room 6 long rest]] the choice the party *wants*, so Heroes' Feast expires before Otar — his CR 12 rebuild and poison-heavy kit assume it's gone.
-> - **How:** drain HP, slots, and inspiration through whatever the fiction offers, so stopping reads as the smart call, not a suggestion. Don't force it.
+> - **Ruma is why it's safe.** She's an ally now and covers every network check-in herself — no detection clock, no patrols, no spoof rolls. That tension is retired; don't put it back on the table (see below).
 > - **If they push on without resting anyway:** legitimate outcome — Heroes' Feast stays active into the fight (poison/frightened immunity, Wisdom-save advantage, +2d10 max HP), so the primary is less poison-brutal but more resource-starved. Full no-rest handling: [[wiki/sessions/calveno-sewers-grung-magazines|dungeon file § The Primary Chamber — Tactical Options]] and [[session-05-run-guide|Session 05 Run Guide § The Primary Chamber]].
 
 ### Room 6 — Ruma's Nap Room
@@ -148,16 +147,14 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 
 **Ruma quick reference:** unarmed, non-combatant — helps from the room, not the fight. *Wants:* the cover to hold. *Knows:* four secondary sites and their status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — volunteers all of it freely, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
 
-**The check-in clock is still live, but it's Ruma's problem to manage, not the party's roll to make.** She answers the pipe-clicks herself. Play this as ambient tension — a beat where she goes quiet, listens, taps back a routine response, then exhales — rather than a DC anyone needs to hit. If you want it to matter mechanically once, a single botched check-in (her choice to fumble it, or an interruption at the wrong moment) is what escalates the network's alert posture, not a failed party roll.
+**Ruma covers the network, full stop.** She answers the pipe-click check-ins herself, in handler-register, the way she has since Session 05 — so there's no detection clock to track, no spoof roll for the party, no patrol inbound. Play it once as flavor if you like (she goes quiet, listens, taps back, exhales), then let it go. The old check-in-clock minigame is retired now that she's an ally; don't reintroduce it.
 
 **Open scene beat, before anything else moves:** let the table sit with her for a minute. She's relieved to have people who don't just report barrel counts at her. This is a good, low-stakes place for banter, not just a data dump. First line if you need one: *"You're back. Good — I was starting to run out of things to draw."*
 
 > [!mechanic]
-> **Attrition toolkit — spend before offering the rest.** What's actually available:
+> **Landing the rest.** No harassment needed — the fights are behind them and Ruma holds the cover. Just make Room 6 read as the smart place to stop: dry stone, oil-lamp warmth, two chokepoints, Ruma's desk as a barricade. Her line if you need it: *"You can sleep here. I'm not going anywhere."*
 >
-> - **If the check-in slips** (Ruma's choice, or bad timing), the T+1h "pipe-click inquiry from another handler" (dungeon file, Room 6 check-in clock) doesn't have to stay abstract — send a 2-Grung patrol to check the relay in person. Light fight, real resource cost. Ruma is horrified rather than useful during it (she's hiding, not helping). **Green Grung (×2):** AC 12 · HP 11 · Dagger +4, 1d4+2 + 2d4 poison · flees if reduced below half or alone. Full block: [[grung-npc|Grung]].
-> - **Room 5 (Beta) is one mortared breach away** from Room 6. A cautious party often pokes at the nearest door before committing to rest — but note: opening that door *is* committing to a guarded magazine. If they push through it, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, Scene 3 fires (Trail 1 below), and the rest never happens. Poke ≠ commit; walking in and drawing steel does.
-> - Once they've paid a real cost, land the permission beat: Ruma herself can offer the rest now instead of a Warren runner — *"You can sleep here. I'm not going anywhere."* Room 6 is dry, defensible, two chokepoints, and she has every reason to want them rested and gone quickly.
+> **One clarification for the Fork:** Room 5 (Beta) is one mortared breach away. A cautious party often pokes at the nearest door before resting — but *opening that door and walking in is committing to a guarded magazine.* If they do, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, Scene 3 fires (Trail 1), and the rest never happens. Poke ≠ commit; drawing steel does.
 
 **Heroes' Feast reminder:** it was eaten the evening before at Nona's safe house; the 24-hour window expires during this 8-hour rest. Do not mention it, hint at it, or volunteer the math — if asked when they ate, answer honestly, but the realization is supposed to land later, when Foul Miasma deals poison damage with no immunity to stop it. Full rest beats (watch narration, waking description): [[session-05-run-guide|Session 05 Run Guide § Rest Decision — Room 6]] — reflavor the "Warren runner" watch beat as Ruma herself if it plays better with her actually in the room.
 
@@ -169,7 +166,7 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 |---|---|---|
 | The mortared breach into Room 5 (Beta) | [[bazzoth-the-steeped\|Bazzoth]] | **Trail 1 — Le Paludi Yards** |
 | Room 7, then backtrack to Room 3's barred culvert (T1) | [[vashu-the-weeping-veil\|Vashu]] + escort | **Trail 2 — The Bridge** |
-| Room 7, then the flood vent to T2 | [[ozvok-the-vermillion-distiller\|Ozvok]] | **Trail 3 — The Outer Quay** |
+| Room 7, then the flood vent to T2 | [[ozzeth-the-twiceborn\|Ozzeth]] + Zealot | **Trail 3 — The Outer Quay** |
 | The hidden passage direct to Room 8 (DC 16 Investigation, south wall behind the barrels — Ruma can't point it out) | Primary chamber — [[solange-barret\|Solange]] → [[otar-the-foul\|Otar]] | **Trail 4 — The Mercatura** |
 | Room 7, then the ascending passage to Room 8 (main approach — garrison watches this) | Primary chamber — [[solange-barret\|Solange]] → [[otar-the-foul\|Otar]] | **Trail 4 — The Mercatura** |
 
@@ -199,7 +196,7 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 *Each trail is Catarina's two days of investigation converging on a specific grate above a specific magazine. They are mutually exclusive from the table's point of view — the other three didn't happen. All four assume she has already established (Scene 1 fade) that the "venting fault" is a lie and the smell isn't gas.*
 
 > [!dm]
-> Common thread to every trail: Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice the wrong details without asking for rolls. What she has figured out by the end of any trail: something is packed into the collectors on purpose, it's chemical and deliberate, and small clawed hands did the packing. What she does **not** know going in: that it's a *summoning*, not just a bombing (only Trail 4 gets close to that), and that there's a friendly Grung in the party she's about to meet.
+> Common thread to every trail: Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice the wrong details without asking for rolls. What she has figured out by the end of any trail: something is packed into the collectors on purpose, it's chemical and deliberate, and whoever did it is working entirely outside the Canal Commission. **What she does *not* know going in — keep all of this off the table until she's actually at the bottom of the grate looking at them:** *who* is down there (she has odd prints and a wrong smell, not a culprit — she has no idea it's Grung until she sees them), that it's a *summoning* rather than a bombing (only Trail 4 gets near that), and that one of the people she's about to fight beside is a friendly Grung. Do not let her — or the read-aloud — name the Grung before the reveal lands.
 
 #### Trail 1 — The Le Paludi Yards *(→ Room 5 / Beta / Bazzoth)*
 
@@ -219,14 +216,14 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 **What she finds at the bottom:** the low old-brick magazine, and the party arriving on Vashu through the barred culvert. The 5-ft ceiling makes descending awkward — she comes in low and cramped.
 **Cut back** to Vashu's fight; Catarina is inbound through the Bridge drain.
 
-#### Trail 3 — The Outer Quay *(→ Room T2 / Delta / Ozvok)*
+#### Trail 3 — The Outer Quay *(→ Room T2 / Delta / Ozzeth)*
 
 > [!read-aloud]
 > The trail runs saltward, toward the Arsenal side, where the Commission's authority thins and the water does the governing. Past Acqua Nera's quiet anchorages there's a three-foot egress vent above the waterline, rigging knocking against a mast somewhere close. Salt cuts the air here — but not enough. Under it: the same sweet chemical film, riding the tidal slap, coming out of the city instead of into it.
 
-**The trail:** a quay hand who owes her (or is easily bought) mentions "purple-skinned crew loading nothing onto boats that leave heavy." Follow the boats to the outer-quay vent; the residue on the bars glows in the filtered light.
-**What she finds at the bottom:** Ozvok's tidal magazine and the party engaging him. The vent she came through is the same one he'll try to flee toward.
-**Cut back** to Ozvok's fight; Catarina is inbound through the quay egress vent.
+**The trail:** a quay hand who owes her (or is easily bought) mentions "a crew that loads nothing onto boats that still leave heavy, and never uses the front canal." Follow the boats to the outer-quay vent; the residue on the bars glows in the filtered light.
+**What she finds at the bottom:** the party mid-fight in the tidal magazine — and a chromatic-skinned Grung caster she has no frame for. The vent she came through is one more space he can simply teleport to; there is no cornering him.
+**Cut back** to Ozzeth's fight; Catarina is inbound through the quay egress vent.
 
 #### Trail 4 — The Mercatura *(→ Room 8 / Primary / Solange → Otar)*
 
@@ -319,7 +316,7 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 Whichever site the party hits first, Catarina arrives partway through her staggered entry — moving toward the sound of the fight, close-range this time, not a city-wide detonation. Combat noise carries to adjacent rooms in this network (dungeon file, General Features).
 
 > [!mechanic]
-> **Balance note:** unlike Otar, these three lieutenants weren't re-costed for a 5th combatant. If the fight is trending too easy with Catarina in it, don't invent new numbers — **[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are the established mobile reserve**, already written into the dungeon file as the DM call for "who shows up next." Send them in.
+> **Balance note:** unlike Otar, the three magazine lieutenants weren't re-costed for Catarina as a 5th combatant. If a fight trends too easy with her in it, don't invent new numbers — lean on the site's own escalation (Bazzoth's Shed the Years, Vashu's Weeping Veil, Ozzeth's *Dominate Person* / *Hypnotic Pattern*) and add a green [[grung-npc|laborer]] or two from the working crew. **There is no mobile reserve** — Ozzeth, who used to be it, now holds Delta himself (below), so "who shows up next" is just combat noise carrying to the next room, not a roving boss.
 
 **If Room 5 — Bazzoth, the Steeped:** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 5 — Magazine Beta]].
 
@@ -333,12 +330,10 @@ Whichever site the party hits first, Catarina arrives partway through her stagge
 Full blocks: [[vashu-the-weeping-veil|Vashu, the Weeping Veil]], [[purple-caste-enforcer|Purple-Caste Enforcer]].
 *Tactic:* Enforcer's Binding Tongue sets the grapple, Vashu's Pressure Point finishes it — kill or disable the Enforcer first to break the combo. Low 5-ft ceiling punishes reach weapons and flight.
 
-**If Room T2 — Ozvok, the Vermillion Distiller (solo):** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T2 — Magazine Delta]].
+**If Room T2 — Ozzeth, the Twiceborn (+ Purple-Caste Zealot escort):** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T2 — Magazine Delta]].
 
-**Ozvok:** AC 14 (17 after Chemical Awakening) · HP 130 · Hurl Concoction (60 ft., 15-ft radius: Caustic 6d6 acid DC 15 Dex, Reeking Draught 4d8 poison DC 15 Con, or Sticky Bomb 3d6 acid + restrain DC 15 Dex) · Sludge Bottle +6, 2d8+3 poison · The Vintage (Recharge 5–6, 20-ft radius, 10d6 poison DC 15 Con) · Vanishing Draught (1/day, teleport 90 ft. + invisible, triggers at ≤45 HP or on choosing to flee).
-**Chemical Awakening (free, triggers on first melee hit taken or ≤90 HP):** AC→17, speed→40 ft./climb 40 ft., +22 temp HP, gains Multiattack (2× Toxin-Slick Blade +7, 2d4+4 piercing + 2d6 poison) and Chemical Leap.
-Full block + optional Legendary Actions (use only if he's fighting alone, which he is): [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]].
-*Tactic:* he's a caster-turned-brawler — expect him to open at range with Hurl Concoction, then Awaken and close once he's tagged. Vanishing Draught means he can disengage and re-engage; don't assume a "dead" retreat is final until he's actually out of resources.
+**Ozzeth:** AC 16 (mage armour; +5 from *Shield* as a reaction) · HP 130 · swim 30 ft. · 9th-level INT caster (spell save DC 16, +8 to hit) casting with **no verbal components — *Silence* does not shut him down** · Venom Lash +6, reach 10 ft., 1d4+3 + 2d6 poison, pulls Medium-or-smaller 5 ft. · Poison Spray cantrip (DC 16 Con, 2d10) · key spells: *dominate person* (1× 5th), *hypnotic pattern*, *hold person*, *fear*, *fireball*, *greater invisibility*, *dimension door*, *misty step*, *mirror image* · Legendary Resistance 2/day · Legendary Actions (Weeping Cantrip, Slip the Skin, Pull the Thread) · Twiceborn Will (advantage on concentration and vs. charm/frighten). Plus the **[[purple-caste-zealot|Purple-Caste Zealot]]** — a suicidal powder-charge minion that closes to detonate. Full block: [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]].
+*Tactic:* a control caster, not a brawler. Expect *dominate person* or *hold person* to pull a PC out of the fight, *hypnotic pattern* to freeze the melee, and *misty step* / *greater invisibility* to stay untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop the domination/pattern; kill the Zealot before it reaches the backline or a barrel stack; and don't waste *Silence* — his casting has no verbal components. In the tidal Delta he's as at home in the water (swim 30) as the party is off-balance in it.
 
 **If engaged:** the magazine is cleared (or Catarina's arrival tips a losing fight), Catarina is now with the party for whatever comes next, and one more detonation lane is closed.
 **If ignored (party bypasses this site entirely):** the lieutenant stays in position; that lane stays live for the raid's final scale count.
@@ -434,7 +429,7 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 - Which branch fired (A or B), and which lieutenant (if B) — update [[hot|hot.md]] Recent Activity.
 - Which magazines are neutralized, which remain; was the primary found; was the circle disrupted; was Otar summoned.
 - Solange's fate (escaped vs. consumed) — determines whether [[simone-tabarnack|Simone]] learns [[jean-claude-tabarnack|JC]] is alive.
-- Whether [[ozzeth-the-twiceborn|Ozzeth]] was deployed as reinforcement in Branch B.
+- If Delta (T2) fired: whether [[ozzeth-the-twiceborn|Ozzeth]] landed a Dominate/Hypnotic lock, and whether the [[purple-caste-zealot|Purple-Caste Zealot]] detonated.
 - Crissdalynn's Kyzil beat — still owed, carry to Session 07.
 - Advance faction clocks in [[hot|hot.md]]: [[calveno-beffa-grung-raid|Grung]] (based on outcome), [[knighton-pursuit|Crown/Knighton]] (first direct contact made), [[nona-and-anzolo|Anzolo/Tessarine]] if it fired.
 
@@ -451,5 +446,5 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 - [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — the Grung defector in the party; the *When She Joins* tension
 - [[anzolo|Anzolo]], [[nona-black-jaw|Nona Black-Jaw]] — voice and current state for the Anzolo scene
 - [[ruma-delacroix|Ruma Delacroix]] — ally status, voice, what she knows
-- [[bazzoth-the-steeped|Bazzoth]], [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[ozvok-the-vermillion-distiller|Ozvok]], [[ozzeth-the-twiceborn|Ozzeth]] — Branch B stat blocks
+- [[bazzoth-the-steeped|Bazzoth]] (Beta), [[vashu-the-weeping-veil|Vashu]] + [[purple-caste-enforcer|Purple-Caste Enforcer]] (Gamma), [[ozzeth-the-twiceborn|Ozzeth]] + [[purple-caste-zealot|Purple-Caste Zealot]] (Delta) — Branch B stat blocks. [[ozvok-the-vermillion-distiller|Ozvok]] is shelved for this run.
 - [[otar-the-foul|Otar the Foul]], [[solange-barret|Solange Barret]] — full stat blocks, Encounter Adaptation (Catarina's staggered entry)

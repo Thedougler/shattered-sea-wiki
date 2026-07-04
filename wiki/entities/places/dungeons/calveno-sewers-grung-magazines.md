@@ -41,6 +41,9 @@ region: calveno
 
 [[simone-tabarnack|Simone Tabarnack]]'s Grung operatives have converted five structural weak points in Calveno's sewer collector system into blackpowder magazines, timed to detonate simultaneously during the final day of [[il-gioco-delle-beffe|La Finestra]]. Four secondary sites will buckle the ground and open extraction breaches. The primary site beneath the [[calveno|Mercatura]] will collapse the plaza and summon [[otar-the-foul|Otar the Foul]] through the rubble. The party knows about the four secondary sites from [[felix-aho|Felix Aho]]'s interrogation. The primary site is compartmentalized above his clearance.
 
+> [!dm]
+> **Session 06 framing (see [[session-06-run-guide|Session 06 Run Guide]] for the full script).** This dungeon is the back half of the campaign's current arc; the party is resuming from Room 6 after Session 05. Session 06 adds [[catarina-davirelli|Catarina Da'Virelli]] as a temporary 5th PC. She is **not** placed in a room here — she arrives via a **staggered entry** (clockwork owl + Eldritch Cannon on site first, she follows 2–3 rounds later) at *whichever site the party commits to first*. The run guide opens that arrival with one of four location-specific investigation-flashback trails — Le Paludi yards (Beta), the Bridge (Gamma), the outer quay (Delta), or the Mercatura (primary) — and runs only the one matching the party's chosen door. **Because the party is now five, the primary-chamber Otar uses the recalibrated CR 12 build ([[otar-the-foul|Otar the Foul]]), not the CR 8 cold-run below** — the CR 8 card is retained as the original 4-PC / Session-05 reference. Catarina is also unaware, on arrival, that [[jean-claude-tabarnack|Jean-Claude]] (disguised Grung defector) is a party ally; treat that as a live pressure, not a scripted reveal.
+
 ## Intel Baseline
 
 | Source | Table-use facts |
@@ -287,7 +290,7 @@ Print at 100%. Session 05 battlemap PNGs are 150 DPI; one grid square is 5 ft. P
 > Investigation room. The incomplete scaffolding is the easiest magazine to neutralize — water-soak the powder instead of risking detonation. The builder's notation is the first clue pointing toward the primary site. The sentry team here is distracted (one laborer building, handler split between tasks) — party gains advantage on initial Stealth checks.
 
 > [!mechanic]
-> **Sentry Team.** Same composition as Room 4 (2 Grung + 1 Elite Warrior). One green-caste laborer is actively building rather than watching. Handler's attention is split. **Party gains advantage on Stealth checks to approach.** Same poison craft as Room 4 (coated surfaces, torpor extract, retreating secretion smear). **Difficulty: Hard (1100 adj. XP, mitigated by advantage).**
+> **Bazzoth's Bench.** [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) has claimed Beta as his working magazine — the flooded corner is his mixing station, the incomplete scaffolding his excuse to stay hands-on. He fights alongside 2 [[grung-npc|Grung]] laborers (one actively building, one watching); handler's attention is split. **Party gains advantage on Stealth checks to approach.** Same poison craft as Room 4 (coated surfaces, torpor extract, retreating secretion smear) plus Bazzoth's own Sump-Reek Bomb and Clinging Ichor. **Escalated — roughly 4,800 adj. XP (Bazzoth 2300 + 2×Grung 50, ×2 for 3 monsters), well past Hard.** Verify against the party's current HP/resources before running; the Stealth advantage and his single-target Shed the Years concentration are the intended outs.
 
 ---
 
@@ -446,7 +449,9 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 | Clock | Otar manifests on Solange's next turn unless circle was disrupted |
 
 > [!mechanic]
-> **Phase 3 — Otar Cold-Run Card (CR 8).** AC 15, HP 152, Speed 40 ft/climb 20 ft, Legendary Resistance 1/day, Magic Resistance.
+> **Phase 3 — Otar Cold-Run Card (CR 8 — original 4-PC / Session-05 build).** For Session 06's five-PC party, use the recalibrated **CR 12** build instead ([[otar-the-foul|Otar the Foul]]: AC 17, HP 241, +11, DC 17 saves, 3 legendary actions, LR 3/day, Foul Miasma 2d6, Entropic Regeneration 12/round). The CR 8 card below stands for reference and for a four-PC table.
+>
+> AC 15, HP 152, Speed 40 ft/climb 20 ft, Legendary Resistance 1/day, Magic Resistance.
 >
 > - Multiattack: Bite +8 (2d8+5 + DC 15 Con Slaad egg), Claw +8 (2d6+5, 10-ft reach), Tongue Lash +8 (1d8+5, 30-ft reach, DC 16 Str or pulled 25 ft + grappled).
 > - Foul Miasma: 10-ft radius, 1d6 poison/turn.
@@ -477,10 +482,10 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 - **Blackpowder barrels (×4)**: Smaller charge, enough to buckle ground rather than open a full breach. (Same neutralization and detonation rules as Room 4.)
 - **Low ceiling**: 5 ft. (No jumping; Medium creatures cannot use reach over allies cleanly.)
 - **Rusted street drain**: Leads to a Bridge district maintenance alcove. (Small creatures pass freely; Medium creatures need DC 13 Athletics or thieves' tools to force the grate.)
-- **Sentry team**: Use the Room 4 Sentry Team stat strip, morale, and poison craft.
+- **Guardian**: [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) plus 1 [[purple-caste-enforcer|Purple-Caste Enforcer]]. Vashu's blindsight ignores the low light and cramped sightlines entirely — she does not need to see in a 5-ft-ceiling room. The enforcer's Binding Tongue sets up a grapple; Vashu's Pressure Point finishes it. **~2,850 adj. XP (Vashu 1800 + Enforcer 100, ×1.5 for 2 monsters).**
 
 > [!dm]
-> Gamma is the low-ceiling variant. Use it to punish flight/leaping without adding new rules. If neutralized, Bridge captives drop by one lane.
+> Gamma is the low-ceiling variant. Use it to punish flight/leaping without adding new rules. If neutralized, Bridge captives drop by one lane. Vashu's Weeping Veil (blinding/poisoning mist) is brutal in this footprint — telegraph it before she pops it if the party has no way to disengage.
 
 ---
 
@@ -498,10 +503,10 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 - **Blackpowder barrels (×6)**: Full secondary charge. (Same neutralization and detonation rules as Room 4.)
 - **Outer-quay egress vent**: 3 ft wide, above the waterline. (Sealing/blocking it disrupts harbour-side extraction even if detonation fires.)
 - **Tidal slap**: Water rises 1 ft per hour near high tide. (After 2 hours, Stealth checks here have disadvantage from splashing unless creatures have swim speed.)
-- **Sentry team**: Use the Room 4 Sentry Team stat strip, morale, and poison craft.
+- **Guardian**: [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]] (CR 5), alone. His stat block's Legendary Actions are written for exactly this — a solo guardian. Amphibious and comfortable in the tidal water; Chemical Awakening triggers the first time he's hit in melee or drops to 90 HP, after which he's fast enough (40 ft., climb 40 ft.) to chase anyone who tries to disable the vent instead of fighting him.
 
 > [!dm]
-> Delta is the extraction-lane room. The vent matters more than the barrels if the party is trying to reduce captives.
+> Delta is the extraction-lane room. The vent matters more than the barrels if the party is trying to reduce captives. Ozvok will use Vanishing Draught to escape toward the vent rather than die guarding barrels — treat him as willing to abandon the site once Chemical Awakening's temp HP are gone.
 
 ---
 
@@ -572,6 +577,8 @@ The party fights through the sentry teams and makes noise. Each combat alert pro
 - Room 6 whistle alerts all secondary sites and the primary garrison
 
 If the entire network is alerted, the primary chamber garrison has time to prepare: the Elite Warriors set ambush positions and the party loses any chance of surprise. Solange continues channeling regardless — the ritual does not accelerate, but the garrison is ready. The encounter in Room 8 becomes a fortified position rather than a working site caught mid-task.
+
+**Reserve.** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) and his [[purple-caste-zealot|Purple-Caste Zealot]] escort are not tied to a specific room — held back as a mobile response force. If the network goes to full alert, or if a magazine's guardian falls and the party lingers, Ozzeth is the DM's call for who shows up next and where.
 
 ### If Stealthy
 
@@ -724,3 +731,4 @@ See [[calveno-beffa-grung-raid|Calveno — Beffa Grung Raid]] for full consequen
 - [[warren|The Warren]] — the Rattkin settlement sharing this tunnel system
 - [[master-kyzil|Master Kyzil]] — potential CR 14 ally if briefed
 - [[grung-npc|Grung (Green-Caste NPC)]], [[grung-elite-warrior|Grung Elite Warrior]], [[grung-wildling|Grung Wildling]] — creature stat blocks
+- [[vashu-the-weeping-veil|Vashu, the Weeping Veil]], [[purple-caste-enforcer|Purple-Caste Enforcer]], [[bazzoth-the-steeped|Bazzoth, the Steeped]], [[ozvok-the-vermillion-distiller|Ozvok, the Vermillion Distiller]], [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]], [[purple-caste-zealot|Purple-Caste Zealot]] — grung lieutenant stat blocks prepped for the back half (room/encounter placement TBD)

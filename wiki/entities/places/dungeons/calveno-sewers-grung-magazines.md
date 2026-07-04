@@ -411,7 +411,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 - *Solange's ritual components*: Chalk, powdered limestone, an iridescent pigment that does not wash off. (50 gp to an arcane collector. Also: evidence of formal arcane training — the techniques in this circle are not Grung-developed. Connects to the open question of who designed it.)
 
 > [!dm]
-> Run Room 8 as three phases: garrison, detonation, manifestation. The hidden passage reverses surprise and may let a PC reach Solange before Phase 2. If the circle is disrupted before manifestation, no Otar; Solange detonates as cover and escapes by *Dimension Door* or a prepared route.
+> Run Room 8 as three phases: garrison, detonation, manifestation. The hidden passage reverses surprise — see § Fight Modifiers, below. If the circle is disrupted before manifestation — see § If Solange Escapes.
 
 > [!mechanic]
 > **Phase 1 — Primary Site Garrison.** 4 [[grung-elite-warrior|Grung Elite Warriors]] (CR 2 each) + [[solange-barret|Solange Barret]] (channeling, Mirror Image active) — stat blocks on their pages. Standing order: shoot on sight. One Elite Warrior per drainage channel entrance — 50-ft spread forces individual engagement.
@@ -557,8 +557,8 @@ The dungeon has four natural acts:
 
 1. **Discovery (Rooms 1–3):** The party enters the network and encounters the first signs of Grung presence. The toxic atmosphere begins as a hint — iridescent residue on ladder rungs, an oily film on the water, a chemical smell that shouldn't be here. Optional encounters (crocodiles, fleeing handler) set the tone. Stealth and investigation dominate.
 2. **Disruption (Rooms 4–6):** The party finds and disarms secondary magazines. The Grung saturation becomes obvious: coated surfaces, chemical air sharp enough to taste, secretion residue on every rope and handle. Two Hard encounters (sentry teams) back-to-back drain resources. The handler relay is the intelligence pivot — what the party learns from Ruma (or the route map) determines whether they discover the primary site.
-3. **The Rest (Room 6):** The party has burned spell slots, inspiration, and HP through Acts 1–2. Room 6 is dry, defensible, and quiet — a respite from the chemical oppression. See "Long Rest — Room 6" in the Room 6 key. The rest gives the party a full resource reset before the climax, but Heroes' Feast (consumed the previous evening) expires during the 8-hour rest. The party enters the primary chamber fresh but without poison immunity, Wisdom save advantage, or the max HP buffer.
-4. **Confrontation (Rooms 7–8):** The toxic escalation peaks. Room 7's air burns. Room 8 layers blackpowder, Grung secretion, and summoning-circle ozone into air that stings the eyes and coats the throat. The hidden passage from Room 6 is the party's best tactical advantage.
+3. **The Rest (Room 6):** The party has burned slots, inspiration, and HP through Acts 1–2. Room 6 is dry, defensible, and quiet. Full resource reset before the climax — but Heroes' Feast expires during it (see "Long Rest — Room 6" above) and won't cover the fight ahead.
+4. **Confrontation (Rooms 7–8):** The toxic escalation peaks — Room 7's air burns, Room 8 layers blackpowder, secretion, and summoning-circle ozone into air that stings the eyes. The hidden passage from Room 6 is the party's best tactical opening — see § Fight Modifiers.
 
 ### If Loud
 
@@ -598,33 +598,35 @@ She cannot give them the primary site's location (she does not know it). But the
 
 <div style="page-break-before: always;"></div>
 
-### The Primary Chamber — Tactical Options
+### Fight Modifiers — Primary Chamber
 
-The Room 8 encounter is Extremely Deadly by the numbers — and that is before Phase 2 detonates the ceiling and Phase 3 drops a Slaad ([[otar-the-foul|Otar]]) on a wounded party. The fight rewards preparation:
+The Room 8 fight is Extremely Deadly by the numbers, before Phase 2 drops the ceiling and Phase 3 drops a Slaad on a wounded party. It swings hard on prep and on how cleanly Phase 1 goes.
 
-- **Hidden passage (Room 6 → 8):** Reverses surprise. The party enters behind the garrison — may let a PC reach Solange before elites react.
-- **Circle disruption (DC 18 Arcana):** If the circle is disrupted before manifestation, Solange cannot complete the summoning. She detonates as cover and escapes by *Dimension Door* or a prepared route. No Otar — but [[simone-tabarnack|Simone]] learns about [[jean-claude-tabarnack|JC]].
-- **Globe of Invulnerability scroll (Room 6):** DC 16 Arcana to activate before Phase 2. Shields a 10-ft radius from the detonation blast. The scroll was designed for this — reward the party for carrying it.
-- **Environmental weapons:** Collapsing scaffolding (DC 12) drops sentries from elevated positions. Water channels provide half cover for prone characters.
-- **Allies:** If the party briefed [[master-kyzil|Kyzil]] (CR 14 monk), he accelerates Phase 1 and survives Phase 2. If he reaches the circle, he tries to destroy it himself — likely preventing Otar while letting Solange escape and report JC. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
-- **Split approach:** Two PCs through the main passage (Room 7), two through the hidden passage. The garrison cannot watch both directions.
+**Against the party** (the expired Heroes' Feast):
+
+- **Foul Miasma bites.** No poison immunity: 1d6 poison/turn near Otar. Elite Warrior poison arrows (2d4 + DC 12 poisoned) now connect. A PC hit by both an arrow and cracked torpor extract is poisoned, slowed, and taking passive damage every round — melee range is genuinely costly.
+- **No Wisdom advantage.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration without save advantage. Stagger it: first warrior fires round 1, hold the rest for when Perrin is drumming.
+- **No HP buffer.** The party is at natural HP pools against Phase 2 (8d6 fire + 4d6 bludgeoning). Anyone hurt in Phase 1 may go down.
+- **The dead-man switch.** Dropping the 2nd Elite, leaving Solange unguarded, disrupting the circle, or fire/thunder anywhere all collapse the ceiling. Winning Phase 1 too cleanly is the tension.
+- **Bright light.** The circle's bright zone (expands round 3) blinds Jean-Claude's Umbral Sight. He chooses: snipe from the dim edge, or approach where he's visible.
+- **No fire/acid on hand (Phase 3).** Otar's Entropic Regeneration needs fire or acid to suppress. Fire sources are in the rubble above (DC 12–14 Investigation); his own uncontrolled Bile Spray can also do it.
+
+**For the party** (full rest — see "No-rest branch" below for the alternative):
+
+- **Hidden passage (Room 6 → 8).** Reverses surprise — the party enters behind the garrison, may reach Solange before the elites react.
+- **Full resources.** Full slots, full Bardic Inspiration, full Ki/Focus — the trade for losing the feast. Perrin's inspiration is now the primary defense against Chirr stuns; protecting him is the tactical key.
+- **Vertical terrain.** 15-ft ceilings and 10-ft scaffolding reward flight — advantage on melee vs. prone warriors below, partial cover from ground-level ranged.
+- **Circle disruption (DC 18 Arcana).** Prevents the summoning outright — see § If Solange Escapes for the outcome.
+- **Globe of Invulnerability scroll (Room 6).** DC 16 Arcana to activate before Phase 2. Shields a 10-ft radius from the detonation — built for this exact use.
+- **Allies.** [[master-kyzil|Kyzil]] (CR 14), if briefed, accelerates Phase 1 and survives Phase 2; if he disrupts the circle himself, Otar is likely prevented but Solange escapes with proof JC is alive. [[nona-black-jaw|Nona]], if informed, can have Warren runners seal hatches behind the party.
+- **Split approach.** Two PCs through the main passage (Room 7), two through the hidden passage — the garrison can't watch both.
+- **The Rattle.** If the fight goes badly, the Warren responds — see § Safety Valve, below.
+
+**No-rest branch:** if the party skips the Room 6 long rest, Heroes' Feast is still active — poison immunity, frightened immunity, Wisdom-save advantage, +2d10 max HP. They enter Room 8 depleted on slots, HP, and inspiration instead: less poison-brutal, more resource-starved. Fire the Rattle later unless two PCs drop.
 
 ### If Solange Escapes
 
 Solange escapes only if the circle is disrupted before manifestation. She detonates the ceiling as cover and escapes by *Dimension Door* or a prepared rubble route. She reports to [[simone-tabarnack|Simone]]: the primary is compromised, a Grung defector identified caste notation. **Simone now knows JC is alive and active.** If the ritual completes, Solange is consumed by the manifestation — she does not escape and Simone does not learn about JC from this source.
-
-### Pressure Valve (Primary Chamber)
-
-Targets party weaknesses — amplified by the expired Heroes' Feast:
-
-- **Foul Miasma bites.** Without poison immunity, 1d6 poison per turn for standing near Otar. Elite Warrior poison arrows (2d4 + DC 12 poisoned condition) now connect. The torpor extract any surviving handler cracks adds speed-halved on top of the poisoned condition — a party member hit by both is poisoned, slowed, and taking passive poison damage every round. Melee range is genuinely costly.
-- **No Wisdom advantage.** Mesmerizing Chirr (DC 12 WIS, stun) from 4 Elite Warriors threatens Perrin's concentration without the feast's save advantage. Stagger Chirr: first warrior fires round 1, hold the rest for rounds when Perrin is drumming.
-- **No HP buffer.** The +2d10 max HP from the feast is gone. The party is at their natural HP pools against Phase 2's detonation (8d6 fire + 4d6 bludgeoning). Characters who took damage in Phase 1 may go down.
-- **The dead-man switch.** The party's success at clearing the garrison can trigger the detonation. Dropping the 2nd Elite, leaving Solange unguarded, disrupting the circle, or using fire/thunder all collapse the ceiling. Winning Phase 1 too cleanly is the encounter's core tension.
-- **Bright light zone.** The summoning circle's bright light (expanding at round 3) neutralizes Jean-Claude's Umbral Sight. He must choose: snipe from the dim edges or approach the circle where he's visible.
-- **No fire or acid (Phase 3).** After the detonation, Otar's Entropic Regeneration demands fire or acid to suppress. Fire sources are in the rubble above (DC 12–14 Investigation), and Otar's uncontrolled Bile Spray can also suppress his regeneration.
-
-**No-rest branch:** If the party skips the Room 6 long rest, Heroes' Feast remains active: poison immunity, frightened immunity, Wisdom-save advantage, and +2d10 max HP. They enter Room 8 depleted on HP, slots, inspiration, and focus. The fight becomes less poison-brutal but more resource-starved; fire the Rattle later unless two PCs drop.
 
 ### Secondary Extraction Clock
 
@@ -651,18 +653,6 @@ The fight is brutal by design. If it tilts toward a TPK, the [[warren|Warren]] r
 > [!mechanic]
 > **Full mechanic:** the party's Rattle **lair action** (Human Chain / Fire Brigade / Din of Pans) and shared **3-legendary-action pool** (Colla's Toss / Shoulder In / Ruk Wades In) live on **[[otar-the-foul|Otar the Foul § The Rattle — The Warren Fights Beside You]]**. Net effect: healing, fire (regen suppression), and breathing room. It does not kill Otar; two quick taps end it when he falls.
 
-### Advantage Window (Primary Chamber)
-
-Rewards party strengths if they prepare. The party is rested (full HP, slots, inspiration) — their advantage is resource depth, not feast buffs:
-
-- **Hidden passage (Room 6 → 8):** Reverses surprise — the party's strongest observed pattern pays off here.
-- **Full resources.** The long rest means full spell slots, full Bardic Inspiration, full Ki/Focus. Perrin has every slot and every inspiration die. This is the tradeoff for losing the feast — they enter the fight at peak capacity.
-- **Vertical terrain.** 15-ft ceilings and 10-ft scaffolding reward Crissdalynn's flight and Delmar's boots. A flier above scaffolding has advantage on melee vs. prone warriors and partial cover from ground-level ranged.
-- **Bardic inspiration.** Perrin's d8 makes Mesmerizing Chirr saves manageable and turns near-misses into hits. Without the feast's Wisdom advantage, his inspiration is now the PRIMARY defense against Chirr stuns. Protecting him is the tactical key — Kyzil identified this.
-- **Circle disruption.** If disrupted before Phase 2 triggers, the summoning fails. Solange detonates and escapes — no Otar, but Simone learns about JC.
-- **Allies.** If the party briefed [[master-kyzil|Kyzil]] (CR 14), he can accompany or create a surface diversion. If he personally disrupts the circle, Otar is likely prevented but Solange escapes with proof JC is active. If [[nona-black-jaw|Nona]] knows, Warren runners can seal maintenance hatches behind the party.
-- **The Rattle.** If the fight goes badly, the Warren responds. See "Safety Valve — The Rattle" above.
-
 ### Drama Suite (Primary Chamber)
 
 | DC | Effect |
@@ -675,11 +665,7 @@ Rewards party strengths if they prepare. The party is rested (full HP, slots, in
 | 18 | Sever a circle resonance line (Arcana, action) |
 | 20 | Identify circle as Slaad-configured (Arcana), identify ritual techniques as non-Grung-developed |
 
-**Shenanigan offers:**
-
-- Use the *Globe of Invulnerability* scroll (Room 6) before Phase 2 triggers. DC 16 Arcana. Shields a 10-ft radius from the detonation — the scroll was designed for this exact use.
-- Incapacitate Solange before Phase 2 (break her concentration, grapple, Silence). Prevents both detonation and summoning. Extremely hard given Circle Ward and Mirror Image.
-- Turn Otar's Bile Spray (acid) against his own regeneration — the uncontrolled splash can suppress his regen. Reward creative positioning.
+**Shenanigan offer:** incapacitate Solange before Phase 2 (break her concentration, grapple, Silence). Prevents both detonation and summoning outright — extremely hard given Circle Ward and Mirror Image, but reward the attempt if the party finds it.
 
 **Box of Doom flags:**
 

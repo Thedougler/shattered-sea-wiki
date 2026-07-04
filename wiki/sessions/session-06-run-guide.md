@@ -23,14 +23,14 @@ sources:
 
 # Session 06 — Run Guide: No Rest for the Curious
 
-> Three scenes, run in order. Two are fixed flashbacks that bookend the live play in the middle; the party's route choice inside Scene 2 decides which of four flashbacks you run to open Scene 3, and which fight it drops into. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* before you panic.
+> Three scenes, run in order. Two are fixed flashbacks that bookend the live play in the middle; the party's route choice inside Scene 2 decides which of four flashbacks you run to open Scene 3, and which fight it drops into. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* if they go off-script.
 
 ## Session Snapshot
 
 | | |
 |---|---|
-| **Party is** | [[wiki/sessions/calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
-| **Last break** | Session 05 ended in Room 6. [[wiki/sessions/calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
+| **Party is** | [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
+| **Last break** | Session 05 ended in Room 6. [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she's covering for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — still running whether or not the party is watching. Tonight is also [[catarina-davirelli\|Catarina Da'Virelli]]'s table debut, framed as two flashbacks: [[rupert-knighton\|Rupert Knighton]]'s in-person visit two days ago (Scene 1), then her two days of investigation converging on the party (Scene 3). |
 | **Table time** | ~4 hrs. **Scene 1** (Cat vs. Knighton flashback) ~15–30 min → **Scene 2** (party at Room 6; resource-drain + rest decision) ~30 min, ends the moment they commit to a guarded magazine → **Scene 3** (Catarina's trail flashback, then she joins for the rest of the dungeon) ~3–3.5 hrs. Everything is prepped for whichever site they pick. |
 
@@ -45,7 +45,7 @@ sources:
 3. **Scene 3 — Catarina's Trail (flashback → join → the gauntlet).** The instant they commit to a site, freeze the party and cut to Catarina. Play **one** of four investigation trails — the one matching where they're headed. It walks her to the grate above that exact magazine. Cut back; she arrives (staggered entry), joins the party unaware there's a friendly Grung among them, and from here it's the remaining rooms, traps, ambushes, lieutenants, and Otar. ~3–3.5 hrs.
 
 > [!dm]
-> The two flashbacks are the spine. Scene 1 establishes *why* Catarina is underground; Scene 3 shows *how her trail reached the exact spot the party chose*, which is why you don't pick her arrival point — the party does, in Scene 2, by choosing a door. You only ever run one of the four trails. The other three didn't happen from the table's point of view.
+> You don't pick Catarina's arrival point — the party does, in Scene 2, by choosing a door. Run only the trail matching that door; the other three didn't happen from the table's point of view.
 
 ---
 
@@ -125,9 +125,9 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 **Then let the flashback breathe** — let the player finish playing the moment. She doesn't take the launch; she spends the two days investigating instead. Close the scene on the fade below, and cut to the present.
 
 > [!read-aloud]
-> Two days. You call in a favor from a dockhand who owes you for the pneumatic grapple. A Canal Commission clerk has never heard of a venting order for Le Paludi. The smell, when you finally find the right grate, isn't gas at all — it's sweet and ammoniac and chemical, and it's rising from a grate that ought to breathe nothing but silt. Whatever's actually down there is what you've been chasing all along — and tonight, it leads you down.
+> Two days. You spend them calling in favors and chasing paperwork that doesn't add up — no venting order on file anywhere, nobody at the Commission who's heard of this "fault." Every lead traces back underground, and whatever's down there is not gas. Tonight, one of those leads finally pays off.
 >
-> *(Fade to black. Where that grate is — and what she finds at the bottom of it — is Scene 3. Hold it.)*
+> *(Fade to black. Which lead, which grate, and what she finds at the bottom is Scene 3 — hold it for whichever site the party picks.)*
 
 ---
 
@@ -136,33 +136,32 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 *Fixed continuation, live play. Cut from the fade to the present: the party at Room 6. ~30 min. This scene ends the moment they commit to a guarded magazine — that choice is the handoff into Scene 3.*
 
 > [!dm]
-> **The rest is the whole point of this scene.** The party already burned through the Session 05 fights to reach Room 6. You don't need to harass them further — Ruma keeps them safe, so just make the [[wiki/sessions/calveno-sewers-grung-magazines|Room 6 long rest]] the obvious, wanted choice, because Heroes' Feast expires during it and Otar's CR 12 rebuild and poison-heavy kit assume it's gone.
+> **Land the rest as the obvious, wanted choice — don't harass them into it.** The fights are behind them and Ruma keeps them safe. Heroes' Feast expires during the rest, and Otar's kit assumes it's gone — why/what to say if asked: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Long Rest — Room 6]].
 >
-> - **Ruma is why it's safe.** She's an ally now and covers every network check-in herself — no detection clock, no patrols, no spoof rolls. That tension is retired; don't put it back on the table (see below).
-> - **If they push on without resting anyway:** legitimate outcome — Heroes' Feast stays active into the fight (poison/frightened immunity, Wisdom-save advantage, +2d10 max HP), so the primary is less poison-brutal but more resource-starved. Full no-rest handling: [[wiki/sessions/calveno-sewers-grung-magazines|dungeon file § The Primary Chamber — Tactical Options]] and [[session-05-run-guide|Session 05 Run Guide § The Primary Chamber]].
+> **If they push on without resting anyway:** a legitimate outcome. Heroes' Feast stays active into the fight — less poison-brutal, more resource-starved. Full handling: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Fight Modifiers — Primary Chamber]].
 
 ### Room 6 — Ruma's Nap Room
 
-**This is resolved, not resuming a fight** — Session 05 ended with the party sneaking up on [[ruma-delacroix|Ruma]] and grabbing her; there was nothing to fight. They found her doodles (chemical formulas drawn out like star charts, complete with invented mythology and fan-fiction about the compounds) while restraining her, and that was the whole negotiation. She's an ally now, hiding them in Room 6 — what she calls her "nap room" — and still answering her network's check-ins herself, in character, to hold the cover for everyone.
+**This is resolved, not resuming a fight** — Session 05 ended with the party sneaking up on [[ruma-delacroix|Ruma]] and grabbing her; there was nothing to fight. They found her doodles (chemical formulas drawn out like star charts, complete with invented mythology and fan-fiction about the compounds) while restraining her, and that was the whole negotiation. She's an ally now, hiding them in Room 6 — what she calls her "nap room."
 
 **Ruma quick reference:** unarmed, non-combatant — helps from the room, not the fight. *Wants:* the cover to hold. *Knows:* four secondary sites and their status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — volunteers all of it freely, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
 
-**Ruma covers the network, full stop.** She answers the pipe-click check-ins herself, in handler-register, the way she has since Session 05 — so there's no detection clock to track, no spoof roll for the party, no patrol inbound. Play it once as flavor if you like (she goes quiet, listens, taps back, exhales), then let it go. The old check-in-clock minigame is retired now that she's an ally; don't reintroduce it.
+**Ruma covers the network, full stop.** She answers the pipe-click check-ins herself, in handler-register, the way she has since Session 05 — no detection clock, no spoof roll, no patrol inbound. Play it once as flavor if you like (she goes quiet, listens, taps back, exhales), then let it go. The old check-in-clock minigame is retired; don't reintroduce it.
 
-**Open scene beat, before anything else moves:** let the table sit with her for a minute. She's relieved to have people who don't just report barrel counts at her. This is a good, low-stakes place for banter, not just a data dump. First line if you need one: *"You're back. Good — I was starting to run out of things to draw."*
+**Open scene beat, before anything else moves:** let the table sit with her for a minute — she's relieved to have people who don't just report barrel counts at her. Good, low-stakes banter, not a data dump. First line if you need one: *"You're back. Good — I was starting to run out of things to draw."*
 
 > [!mechanic]
-> **Landing the rest.** No harassment needed — the fights are behind them and Ruma holds the cover. Just make Room 6 read as the smart place to stop: dry stone, oil-lamp warmth, two chokepoints, Ruma's desk as a barricade. Her line if you need it: *"You can sleep here. I'm not going anywhere."*
+> Room 6 reads as the smart place to stop on its own — dry stone, oil-lamp warmth, two chokepoints, Ruma's desk as a barricade. Her line if you need it: *"You can sleep here. I'm not going anywhere."*
 >
 > **One clarification for the Fork:** Room 5 (Beta) is one mortared breach away. A cautious party often pokes at the nearest door before resting — but *opening that door and walking in is committing to a guarded magazine.* If they do, that's [[bazzoth-the-steeped|Bazzoth]]'s fight, Scene 3 fires (Trail 1), and the rest never happens. Poke ≠ commit; drawing steel does.
 
-**Heroes' Feast reminder:** it was eaten the evening before at Nona's safe house; the 24-hour window expires during this 8-hour rest. Do not mention it, hint at it, or volunteer the math — if asked when they ate, answer honestly, but the realization is supposed to land later, when Foul Miasma deals poison damage with no immunity to stop it. Full rest beats (watch narration, waking description): [[session-05-run-guide|Session 05 Run Guide § Rest Decision — Room 6]] — reflavor the "Warren runner" watch beat as Ruma herself if it plays better with her actually in the room.
+**Heroes' Feast expires during this rest** — don't mention it or hint at the math; the payoff lands later, when Foul Miasma connects with no poison immunity to stop it. Why/when, plus the watch-by-watch rest narration: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Long Rest — Room 6]] — reflavor the "Warren runner" watch beat as Ruma herself, since she's actually in the room tonight.
 
 ### The Fork — where they go decides everything
 
-Once Room 6 is settled — rested or not — the party chooses where to go next. Don't announce this as a decision point — just track which door they walk through. **This choice does two jobs at once: it picks the fight, and it picks which of the four Scene 3 flashback trails you run.**
+Once Room 6 is settled — rested or not — the party chooses where to go next. Don't announce this as a decision point — just track which door they walk through. **This choice does two jobs at once: it picks the fight, and it picks which of the four Scene 3 trails you run.**
 
-| From Room 6, they head for... | Fight (Scene 3) | Flashback trail to run |
+| From Room 6, they head for... | Fight (Scene 3) | Trail to run |
 |---|---|---|
 | The mortared breach into Room 5 (Beta) | [[bazzoth-the-steeped\|Bazzoth]] | **Trail 1 — Le Paludi Yards** |
 | Room 7, then backtrack to Room 3's barred culvert (T1) | [[vashu-the-weeping-veil\|Vashu]] + escort | **Trail 2 — The Bridge** |
@@ -172,7 +171,7 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 
 **The trigger rule for tonight:** whichever site the party *commits to* first — walks in, draws steel, or opens the fight — is where Catarina's trail led. Freeze the party at that threshold and cut to Scene 3's matching trail. If they thread the whole network to Room 8 without a single fight, run Trail 4.
 
-**Passing through Room 7 (Main Collector):** no encounter there, but it's new ground tonight — vaulted, high-ceilinged, the trail markers converging toward the primary and the "MERCATURA NEXUS 200 PAS" commission sign on the wall. Room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 7 — Main Collector]].
+**Passing through Room 7 (Main Collector):** no encounter there, but it's new ground tonight — vaulted, high-ceilinged, the trail markers converging toward the primary and the "MERCATURA NEXUS 200 PAS" commission sign on the wall. Room key, terrain, read-aloud: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 7 — Main Collector]].
 
 > [!dm]
 > **If they stall — the ~1-hour soft clock.** If the party rests long, negotiates in circles, or can't pick a door, don't wait forever. About an hour of table-focus in, Catarina's owl finds *them* instead: it noses through a grate or the drainage pipe, spots the party, banks off, and a minute later she arrives at their location — cannon parked outside (auto-fires only if something hostile is actually nearby), owl perched and watching. In that case, run the **Mercatura trail (Trail 4)** as her flashback if they're near the primary, or the nearest-site trail otherwise, and let the introductions happen at rest before the fiction moves back to a fight. Don't skip the "they think it's a threat first" beat — an unfamiliar construct auto-firing into a corridor before anyone's seen its owner is a legitimate mini-scare, even at rest.
@@ -181,50 +180,84 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 
 ## Scene 3 — Catarina's Trail *(flashback → join → the gauntlet)*
 
-*The remaining 3–3.5 hours. Opens with one flashback, then runs live through the rest of the dungeon: traps, ambushes, lieutenants, and Otar.*
+*The remaining 3–3.5 hours. Opens with one flashback matching the party's chosen door, then runs live through the rest of the dungeon. Each trail below is fully self-contained — read-aloud, her lore find, the cut back, her arrival, and the fight — so once you know the destination you read one section top to bottom and run it.*
 
-### How to run Scene 3
+### Running This Scene
 
-1. **Freeze the party** at the threshold of the site they committed to in Scene 2.
-2. **Cut to Catarina.** Run **one** trail below — the one matching their destination. This is her scene; hand the roleplay to her player and play the district, the clerks, the grate as environment and NPCs. Where she goes and what she does with what she finds is hers. ~10–15 min.
-3. **Cut back** to the party as the fight opens. Catarina is now inbound on her **staggered entry** (owl + cannon first, her body 2–3 rounds later). Details in *Staggered Entry* below.
-4. **She joins.** The moment she's on the field, she's a temporary 5th party member — unaware that one of the people she's fighting alongside is a friendly Grung ([[jean-claude-tabarnack|Jean-Claude]]). See *When She Joins* below.
-5. **The gauntlet continues.** From here the party + Catarina work through the remaining magazines and/or the primary — every fight after the first uses the same cast of hazards and lieutenants, minus the staggered entry (she's already here).
-
-### The Four Trails — run ONLY the one matching their destination
-
-*Each trail is Catarina's two days of investigation converging on a specific grate above a specific magazine. They are mutually exclusive from the table's point of view — the other three didn't happen. All four assume she has already established (Scene 1 fade) that the "venting fault" is a lie and the smell isn't gas.*
+1. **Freeze the party** at the threshold of the site they just committed to.
+2. **Cut to Catarina.** Jump to the trail below matching their destination and run it start to finish, including the fight. This is her scene — hand the roleplay to her player, you play the district, the clerks, the grate.
+3. **If they stall instead of choosing** — see the ~1-hour soft clock at the end of Scene 2.
 
 > [!dm]
-> Common thread to every trail: Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice the details that don't add up without asking for rolls. What she has figured out by the end of any trail: something is packed into the collectors on purpose, it's chemical and deliberate, and whoever did it is working entirely outside the Canal Commission. **Each trail also earns her one *distinct* piece of the picture — the tailored lore drop noted in each below; run only the one for the site the party chose.** **What she does *not* know going in — keep all of this off the table until she's actually at the bottom of the grate looking at them:** *who* is down there (she has odd prints and a smell no Commission fault would make, not a culprit — she has no idea it's Grung until she sees them), the full shape of it, and that one of the people she's about to fight beside is a friendly Grung. Do not let her — or the read-aloud — name the Grung before the reveal lands.
+> All four trails assume Scene 1's fade already established the "venting fault" is a lie and the smell isn't gas. Catarina reads scenes fast (passive Investigation 18, Insight 14) — let her notice what doesn't add up without asking for rolls. By the end of any trail she's confirmed the baseline: something is packed into the collectors on purpose, it's chemical and deliberate, and whoever did it works entirely outside the Canal Commission. Each trail then earns her one *further*, distinct piece — noted in its own lore-drop callout below.
+>
+> What she does **not** know going in, and what stays off the table until she's standing over the fight: who is down there (Grung — she has odd prints and an unplaceable smell, not a culprit), the full shape of the operation, and that one of the people she's about to fight beside is a friendly Grung. Don't let the read-aloud name the Grung before the reveal lands.
 
-#### Trail 1 — The Le Paludi Yards *(→ Room 5 / Beta / Bazzoth)*
+### Shared Mechanics — Arrival and the Grung in the Room
+
+*Applies to whichever fight this scene opens on.*
+
+![[wiki/assets/sessions/session-06/06-catarina-tunnel-arrival.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, diagonal action composition. A grimy vaulted stone sewer tunnel lit by eerie green bioluminescent fungus, wet stone glinting. Catarina Da'Virelli runs in from a side passage on the right — a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, a full-sleeved white linen chemise under a rust-red brocade bodice with a leather utility belt, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised in one hand. A small brass clockwork owl with one glowing blue eye banks overhead. On the left, a small brass clockwork cannon-construct on spoked wheels braces in a side archway and fires a bright force blast. Cold green glow against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
+> [!mechanic]
+> **Staggered entry.** Catarina is 2–3 rounds of movement out when the fight opens — but her kit reaches the field first and is live from round 1. This is already priced into the encounter math; don't soften the enemy because "she isn't really there yet." For a secondary site (Trails 1–3), she's closing in on the sound of a fight already breaking out, not a city-wide blast — combat noise carries to adjacent rooms (dungeon file, General Features).
+>
+> - **The cannon (unattended):** her pre-deployed backpack construct. Auto-fires at the nearest hostile each round — no command needed until she's within 60 ft. Never targets [[jean-claude-tabarnack|Jean-Claude]] — he isn't hostile. Stat block: [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
+> - **The owl:** her [[clockwork-owl-familiar|clockwork owl]] (MM Owl stat block), already scouting. Can Help a PC or feed intel to Catarina's player. 1 HP — a stray AoE ends it; a gut-punch, not a rules problem.
+> - **Arrival pacing:** rounds 1–3 are movement only. Round ~4 she's within 60 ft and fully live — cannon command, Fire Bolt/Shocking Grasp, Wand of Pyrotechnics (a fire source — matters against Otar's regen).
+> - **She joins once.** After her first fight, she's simply with the party for every room after — no repeat arrival.
+
+Catarina arrives to *stop a Grung plot*. One of the people she's about to fight beside is a Grung — [[jean-claude-tabarnack|Jean-Claude]], in a red beret and a false moustache, maybe skin-dyed green as a city disguise. She has no idea he's an ally; he cannot lie or mask what he is (Mortis).
+
+> [!dm]
+> **Play it as a pressure, not a plot.** Offer it, let the table decide:
+> - She may not clock him mid-combat at all — fair, the field is chaos and a bereted three-foot figure fighting *the* Grung isn't the obvious read.
+> - She may clock him and hesitate. Don't auto-fire her cannon at JC — it targets hostiles, and he isn't one. If her player wants the misunderstanding, let her drive it.
+> - JC can't sell a cover story any better to her than to anyone else — whatever the party says to vouch for him, he confirms flatly and strangely. That's the character, not a failure.
+> - Her red line: Catarina won't let her inventions harm people, and treats every species the same ([[catarina-davirelli|her page]]). A friendly Grung is dissonant with her mission, not with who she is.
+> - This doesn't need to resolve tonight. "A Crown-contracted human and a Grung defector are fighting on the same side and haven't talked about it" carries fine into Session 07.
+
+---
+
+### Trail 1 — Le Paludi Yards → Bazzoth (Room 5 / Beta)
 
 > [!read-aloud]
-> The dockhand's favor pays off in Le Paludi. He points you at the working yards — the part of the district that smells of pitch and rope even on a feast day. But there's a second smell now, sweet and ammoniac, like overripe fruit left in a chamber pot, coming up through a maintenance grate the Commission's map doesn't bother to name. The iron is slick with something iridescent that isn't oil. Someone's been up and down this ladder, recently, carrying weight.
+> Two days of favors and dead ends pay off in Le Paludi. A barrel-runner points you at the working yards — the part of the district that smells of pitch and rope even on a feast day. But there's a second smell now, sweet and ammoniac, like overripe fruit left in a chamber pot, coming up through a maintenance grate the Commission's map doesn't bother to name. The iron is slick with something iridescent that isn't oil. Someone's been up and down this ladder, recently, carrying weight.
 
-**The trail:** a Le Paludi barrel-runner mentions "the crew that pays double for quiet cartage and never uses the front canal." Follow the cartage and it dead-ends at the yards, at a grate directly over the working magazine. Fresh timber, fresh residue, the acrid-sweet reek strongest here.
+**The trail:** the barrel-runner mentions "the crew that pays double for quiet cartage and never uses the front canal." Follow the cartage and it dead-ends at the yards, at a grate directly over the working magazine. Fresh timber, fresh residue, the acrid-sweet reek strongest here.
 
 > [!dm]
-> **What this leg reveals — the offload.** Tailored lore for the Le Paludi path. The "quiet cartage" isn't only hauling barrels *in*. In the working yards she finds the other half of the operation being *readied*: a cleared holding space no cargo would need, coils of cheap chain and cut rope far past anything barrel-lashing takes, cart beds braced for weight that walks, and a tally sheet counting in *bodies* — hundreds of them — not crates. Nobody's been taken yet. But everything here is staged to move hundreds of people out, fast, the moment something up top pulls every eye off the streets. She's found the raid's real purpose — mass extraction — before she's found the thing meant to trigger it. (She doesn't know the number is 200–300, where they'd go, or that the "distraction" is a summoning.)
+> **What this leg reveals — the offload.** The "quiet cartage" isn't only hauling barrels *in*. In the working yards she finds the other half of the operation being *readied*: a cleared holding space no cargo would need, coils of cheap chain and cut rope far past anything barrel-lashing takes, cart beds braced for weight that walks, and a tally sheet counting in *bodies* — hundreds — not crates. Nobody's been taken yet. Everything here is staged to move hundreds out, fast, the moment something up top pulls every eye off the streets. She's found the raid's real purpose — mass extraction — before she's found what's meant to trigger it. She doesn't know the number is 200–300, where they'd go, or that the "distraction" is a summoning.
 
-**What she finds at the bottom:** the sounds of a fight already starting one chamber over — the party hitting Bazzoth's bench.
-**Cut back** to the party as Bazzoth's fight opens; Catarina is inbound through the Le Paludi collector line.
+**What she finds at the bottom:** the sounds of a fight already starting one chamber over — the party hitting Bazzoth's bench. Cut back to the party as his fight opens; Catarina is inbound through the Le Paludi collector line.
 
-#### Trail 2 — The Bridge *(→ Room T1 / Gamma / Vashu)*
+**The fight:** [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) + 2 [[grung-npc|Grung]] laborers. He wasn't re-costed for a 5th combatant — if it trends too easy, add a green laborer or two rather than inventing new numbers. Levers to know: **Shed the Years** (concentration self-buff — extra attack, +AC, mobility, magical melee) and **Sump-Reek Bomb** (recharge poison AoE). Breaking his concentration on Shed the Years strips the extra attack and mobility — focus fire is the counter. Full stat block: [[bazzoth-the-steeped|Bazzoth]].
+
+**If engaged:** the magazine is cleared and Catarina is with the party from here.
+**If ignored** (party bypasses this site): the lieutenant stays in position; that lane stays live for the raid's final scale count.
+
+---
+
+### Trail 2 — The Bridge → Vashu (Room T1 / Gamma)
 
 > [!read-aloud]
 > The Bridge is wall-to-wall festival — Ponte Bassa packed, feet drumming on old stone. You'd never smell it up here over the fried dough and the crowd, except you're not looking up. A rusted street drain in a maintenance alcove off the Bridge breathes cold air that tastes of powder and rust and that same sweet, ammoniac chemical film. Somebody pried this grate and put it back badly.
 
-**The trail:** a Commission clerk (the same one with no venting order) grumbles that a Bridge-district drain crew "signed off on work nobody scheduled." Chase the paperwork to the alcove; the grate to Gamma is behind it, and it's been used from below.
+**The trail:** a Commission clerk — the one with no venting order on file — grumbles that a Bridge-district drain crew "signed off on work nobody scheduled." Chase the paperwork to the alcove; the grate to Gamma is behind it, and it's been used from below.
 
 > [!dm]
-> **What this leg reveals — the clock and the crowd.** Tailored lore for the Bridge path. The paperwork hands her the *when*: every scrap of the un-scheduled "drain work" is dated to finish before the last day of La Finestra, exactly when the Bridge and Mercatura crowds crest. And standing in the crush, she works out the *why here* — the Beffa has spent the whole festival training this crowd to hear a bang and laugh, to treat a shock as part of the show. The first blast won't send them running; it'll get applause and a held breath before anyone understands. Maximum bodies, minimum panic, engineered into the festival's own rhythm. She has the timing and the cruelty of it, if not the count.
+> **What this leg reveals — the clock and the crowd.** The paperwork hands her the *when*: every scrap of the un-scheduled "drain work" is dated to finish right when the Bridge and Mercatura crowds crest. Standing in the crush, she works out the *why here*: the Beffa has spent the whole festival training this crowd to hear a bang and laugh, to treat a shock as part of the show. The first blast won't send them running — it'll get applause and a held breath before anyone understands. Maximum bodies, minimum panic, engineered into the festival's own rhythm. She has the timing and the cruelty of it, not the count.
 
-**What she finds at the bottom:** the low old-brick magazine, and the party arriving on Vashu through the barred culvert. The 5-ft ceiling makes descending awkward — she comes in low and cramped.
-**Cut back** to Vashu's fight; Catarina is inbound through the Bridge drain.
+**What she finds at the bottom:** the low old-brick magazine, and the party arriving on Vashu through the barred culvert — the 5-ft ceiling makes her descent cramped and awkward. Cut back to Vashu's fight; Catarina is inbound through the Bridge drain.
 
-#### Trail 3 — The Outer Quay *(→ Room T2 / Delta / Ozzeth)*
+**The fight:** [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) + 1 [[purple-caste-enforcer|Purple-Caste Enforcer]]. Not re-costed for a 5th combatant — add a green laborer or two if it trends easy, don't invent new numbers. Levers to know: Vashu's **blindsight 30 ft.** (ignores fog, darkness, invisibility — including her own Weeping Veil mist) and **Pressure Point** stun; the Enforcer's **Binding Tongue** grapple. Kill or disable the Enforcer first to break the grapple-into-stun combo. The low 5-ft ceiling punishes reach weapons and flight. Full stat blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]].
+
+**If engaged:** the magazine is cleared and Catarina is with the party from here.
+**If ignored:** the lieutenant stays in position; that lane stays live for the raid's final scale count.
+
+---
+
+### Trail 3 — The Outer Quay → Ozzeth (Room T2 / Delta)
 
 > [!read-aloud]
 > The trail runs saltward, toward the Arsenal side, where the Commission's authority thins and the water does the governing. Past Acqua Nera's quiet anchorages there's a three-foot egress vent above the waterline, rigging knocking against a mast somewhere close. Salt cuts the air here — but not enough. Under it: the same sweet chemical film, riding the tidal slap, coming out of the city instead of into it.
@@ -232,65 +265,34 @@ Once Room 6 is settled — rested or not — the party chooses where to go next.
 **The trail:** a quay hand who owes her (or is easily bought) mentions "a crew that loads nothing onto boats that still leave heavy, and never uses the front canal." Follow the boats to the outer-quay vent; the residue on the bars glows in the filtered light.
 
 > [!dm]
-> **What this leg reveals — the ships.** Tailored lore for the quay path. She counts them from the anchorage: low, dark hulls standing off past the outer harbour, more than any festival needs, riding high and half-empty as though waiting to be filled. The "boats that leave heavy" run a shuttle no manifest lists. Whatever comes up out of these vents is meant to go *aboard* and out to open water, somewhere the city's authority can't follow. She's found the *way out* — a seaborne extraction fleet holding station off Calveno — without yet knowing what (or who) it's meant to carry. (This is the *vethka*; connects to the outer-quay egress vent and Session 07's pursuit.)
+> **What this leg reveals — the ships.** She counts them from the anchorage: low, dark hulls standing off past the outer harbour, more than any festival needs, riding high and half-empty as if waiting to be filled. The "boats that leave heavy" run a shuttle no manifest lists. Whatever comes up out of these vents is meant to go *aboard* and out to open water, past the city's reach. She's found the *way out* — a seaborne extraction fleet holding station off Calveno — without yet knowing what it's meant to carry. (This is the *vethka*; connects to Session 07's pursuit.)
 
-**What she finds at the bottom:** the party mid-fight in the tidal magazine — and a chromatic-skinned Grung caster she has no frame for. The vent she came through is one more space he can simply teleport to; there is no cornering him.
-**Cut back** to Ozzeth's fight; Catarina is inbound through the quay egress vent.
+**What she finds at the bottom:** the party mid-fight in the tidal magazine — and a chromatic-skinned Grung caster she has no frame for. The vent she came through is one more space he can simply teleport to; there's no cornering him. Cut back to Ozzeth's fight; Catarina is inbound through the quay egress vent.
 
-#### Trail 4 — The Mercatura *(→ Room 8 / Primary / Solange → Otar)*
+**The fight:** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) + [[purple-caste-zealot|Purple-Caste Zealot]] escort. Not re-costed for a 5th combatant — add a green laborer or two if it trends easy. A 9th-level INT control caster with **no verbal components** — *Silence* does nothing to him. Expect *dominate person*, *hypnotic pattern*, *hold person* to pull a PC out of the fight, and *misty step*/*dimension door*/*greater invisibility* to keep him untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop the domination/pattern; kill the Zealot before it reaches the backline or a barrel stack. In the tidal water he's as at home (swim 30) as the party is off-balance. Full stat block, spells, legendary actions: [[ozzeth-the-twiceborn|Ozzeth]].
+
+**If engaged:** the magazine is cleared and Catarina is with the party from here.
+**If ignored:** the lieutenant stays in position; that lane stays live for the raid's final scale count.
+
+---
+
+### Trail 4 — The Mercatura → the Primary Chamber (Room 8, Solange → Otar)
 
 *The climax path. She is, unknowingly, standing directly above where Otar will erupt.*
+
+![[wiki/assets/sessions/session-06/06-catarina-otar-entry.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A collapsed underground vaulted stone chamber turned crater, a thirty-foot ceiling breach pouring a shaft of pale daylight and dust onto rubble and a bone-white summoning circle. In the background rises Otar the Foul, a massive hulking red toad-like slaad with cracked perpetually-molting hide weeping iridescent fluid, a wide blunt-toothed maw, and sickly green toxic miasma billowing from the splits in its skin. In the foreground, arriving first, a small brass clockwork cannon-construct on the rubble fires a bright force blast toward the creature and a small brass clockwork owl with one glowing blue eye sweeps ahead; running in behind them toward the crater is Catarina Da'Virelli — voluminous silver-white wavy hair, brass goggles pushed up in her hair, white linen chemise under a rust-red brocade bodice, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised. Cold green toxic glow and a daylight shaft against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > Every thread you've pulled runs back to the same place: the Mercatura, the commercial spine, the plaza where the Beffa registration table will stand at feast peak. The Commission's own faded sign reads MERCATURA NEXUS 200 PAS — two hundred paces to the collector nexus, straight down. The crowd is thickest here, laughing on cue the way the Beffa trained them. And under two hundred paces of festival cobblestone, the stink isn't just powder anymore. There's a note in it with no business in a sewer: ozone, sharp and electric, the smell of the air just before lightning — nothing a gas leak has ever made.
 
-**The trail:** the convergence of everything — the cartage, the paperwork, the boats, all pointing inward to the Mercatura nexus. A collector hatch at the plaza's edge, and below it the ascending passage or the descending trail-markers toward Room 8.
+**The trail:** the convergence of everything — the cartage, the paperwork, the boats, all pointing inward to the Mercatura nexus. A collector hatch at the plaza's edge, and below it the passage toward Room 8.
 
 > [!dm]
-> **What this leg reveals — it isn't just powder.** Tailored lore for the Mercatura path, and the one that lands hardest on *her*. She feels it before she reasons it: a low hum carrying up through two hundred paces of stone, ozone that lifts the hair on her arms, a charge that sets her tools humming in their loops. Catarina has spent her whole life proving that ingenuity does what other people waste spells on — and she knows arcane work when it prickles the back of her neck. Someone is running *magic* down there, on a scale she has never seen bought or sold, and that — more than the powder, more than the missing people — is what sends her down the hatch. Of the four trails she comes closest to the truth: this is a working, not just a bombing. **What it's actually meant to call stays for the bottom** (the circle, the Slaad) — keep that off the table until she's standing in Room 8.
+> **What this leg reveals — it isn't just powder.** She feels it before she reasons it: a low hum through two hundred paces of stone, ozone that lifts the hair on her arms, a charge that sets her tools humming in their loops. Catarina has spent her whole life proving that ingenuity does what other people waste spells on, and she knows arcane work when it prickles the back of her neck. Someone is running *magic* down there, on a scale she's never seen bought or sold — that, more than the powder, more than the missing people, is what sends her down the hatch. Of the four trails she comes closest to the truth: this is a working, not just a bombing. What it's actually meant to call stays for the bottom — keep the circle and the Slaad off the table until she's standing in Room 8.
 
-**What she finds at the bottom:** the primary chamber — the bone-white circle, the packed ceiling, Solange kneeling, and the party arriving on the same fight. She has walked into the one site even Ruma couldn't locate.
-**Cut back** to the primary chamber (Branch A). Catarina is inbound; her owl and cannon reach the crater first (see the Branch A staggered-entry card).
+**What she finds at the bottom:** the primary chamber — the bone-white circle, the packed ceiling, Solange kneeling, and the party arriving on the same fight. She's walked into the one site even Ruma couldn't locate. Cut back to the primary chamber; her owl and cannon reach the crater first.
 
-### When She Joins — the Grung in the room
-
-Catarina arrives to *stop a Grung plot*. One of the people she's about to fight beside is a Grung — [[jean-claude-tabarnack|Jean-Claude]], in a red beret and a false moustache, possibly with his skin dyed green as a city disguise. She has no idea he's an ally; he cannot lie or mask what he is (Mortis). This is live tension, not a scripted reveal.
-
-> [!dm]
-> **Play it as a pressure, not a plot.** Don't decide how it lands — offer it and let the table:
-> - She may not clock him at all mid-combat (fair — the crater is chaos, and a bereted three-foot figure fighting *the* Grung isn't the first read). Let the party choose whether to explain now or later.
-> - She may clock him and hesitate — a beat where an ally's cannon might swing toward the wrong target. Do **not** auto-fire it at JC; the cannon targets *hostiles*, and JC isn't one. If her player wants the misunderstanding, let her drive it.
-> - JC can't sell a cover story to her any more than to anyone else — whatever the party says to vouch for him, he'll confirm flatly and strangely. That's the character, not a failure.
-> - **Her red line matters:** Catarina won't let her inventions harm people and treats everyone the same regardless of species ([[catarina-davirelli|her page]]). A friendly Grung is dissonant with the mission she thinks she's on, but not with who she is. There's a trust-building beat here if the table reaches for it — don't force it, don't foreclose it.
-> - This does not have to resolve tonight. "A Crown-contracted human and a Grung defector are now fighting on the same side and haven't talked about it" is a perfectly good thread to carry into Session 07.
-
-### Staggered Entry — the arrival mechanic
-
-*Applies to whichever fight Scene 3 opens on. She joins the same way whether it's a secondary site or the primary; only the flavor of what arrives first differs.*
-
-> [!mechanic]
-> **Catarina's staggered entry.** She's 2–3 turns of movement out when the fight opens — but her kit reaches the field first and is live from round 1. This is already priced into the encounter math (see the Otar note); don't soften the enemy because "she isn't really there yet."
->
-> - **The Cannon (unattended):** her pre-deployed "cannon backpack." While unattended it auto-fires at the nearest **hostile** each round — no command needed until Catarina is within 60 ft. (It does not target JC — he isn't hostile.) Stat block (AC/HP, Force Ballista): [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
-> - **The Owl:** her [[clockwork-owl-familiar|clockwork owl]] (runs on the MM Owl stat block), already scouting — perched and watching. Can Help a PC, or feed real-time intel to Catarina's player. At 1 HP a stray AoE ends it — a legitimate gut-punch, not a rules problem. Numbers: [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
-> - **Arrival (suggested pacing):** turns 1–3 are movement only. Turn 4ish she's within 60 ft and fully live — cannon command, Fire Bolt/Shocking Grasp, Wand of Pyrotechnics (a fire source, which matters against Otar's regen). Full adaptation notes: [[otar-the-foul|Otar the Foul § Encounter Adaptation]].
-
-> [!dm]
-> **She joins once.** After her first fight, the staggered entry is spent — she's simply *with* the party for every subsequent room. If the party clears a secondary site and moves to another (or to the primary), don't re-run the arrival; she's already a 5th combatant. When they reach Otar having joined earlier, she's integrated from turn 1 — the CR 12 rebuild assumes 5-PC economy by mid-fight regardless, so that's if anything slightly easier than the staggered case.
-
----
-
-### The Fights — Branch A (Primary) and Branch B (Secondary)
-
-*Open whichever the party committed to. Both are fully prepped; if there's table time, Branch B fights can chain into Branch A before the night ends.*
-
-#### Branch A — the Primary Chamber *(Room 8 · Solange → Otar)*
-
-![[wiki/assets/sessions/session-06/06-catarina-otar-entry.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A collapsed underground vaulted stone chamber turned crater, a thirty-foot ceiling breach pouring a shaft of pale daylight and dust onto rubble and a bone-white summoning circle. In the background rises Otar the Foul, a massive hulking red toad-like slaad with cracked perpetually-molting hide weeping iridescent fluid, a wide blunt-toothed maw, and sickly green toxic miasma billowing from the splits in its skin. In the foreground, arriving first, a small brass clockwork cannon-construct on the rubble fires a bright force blast toward the creature and a small brass clockwork owl with one glowing blue eye sweeps ahead; running in behind them toward the crater is Catarina Da'Virelli — voluminous silver-white wavy hair, brass goggles pushed up in her hair, white linen chemise under a rust-red brocade bodice, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised. Cold green toxic glow and a daylight shaft against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
-
-The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a Slaad summoning while four Elite Warriors hold the drainage channels; the fight runs **Garrison → Detonation → Manifestation**. The full narration arc is inlined below — open this cold and read straight down. The phase **mechanics** (exact triggers, detonation DCs/checklist) live in [[session-05-run-guide|Session 05 Run Guide § The Primary Chamber]] — identical content, already fully prepped; reach for it for the numbers, not the narration. The **Rattle safety valve** is now run as the party's own temporary lair + legendary actions: [[otar-the-foul|Otar the Foul § The Rattle — The Warren Fights Beside You]]. Room key + terrain: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 8]].
-
-**Entry — as they come through the passage:**
+**Entry — as the party comes through the passage:**
 
 > [!read-aloud]
 > The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and beneath both a sharp, electric ozone bite that pricks the throat and lifts the hair on your arms, rising off the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
@@ -300,7 +302,7 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 > [!read-aloud]
 > The circle flares white. Light floods the chamber, bleaching the stone, burning away every shadow. The water in the drainage channels shivers, stops, and rises — past ankles, past knees — warm and thick with the chemical taste of everything these tunnels hold. The hum becomes a sound you feel in your teeth.
 
-**Detonation fires (trigger: 2nd Elite drops, circle disrupted, no Elite within 10 ft of Solange, or any fire/thunder in the room):**
+**Detonation fires** (trigger: 2nd Elite drops, circle disrupted, no Elite within 10 ft of Solange, or any fire/thunder in the room):
 
 > [!read-aloud]
 > One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. Solange is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
@@ -312,46 +314,27 @@ The climax encounter, unchanged from prep: [[solange-barret|Solange]] channels a
 >
 > Above the crater, the crowd hasn't caught up — the blast read as festival spectacle. One woman leans over the broken lip of the plaza, squinting down through the haze. "It looks so real!" Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls her off the edge before the word finishes echoing. A wet crunch cuts the scream short — and the crowd finally starts screaming.
 
-**Combatants — stat blocks on their pages:**
+**The fight:**
 
 - **[[solange-barret|Solange Barret]]** — channels the ritual each turn (can't attack); reaction is Counterspell *or* Detonate, not both; Mirror Image (3 duplicates) up.
 - **4× [[grung-elite-warrior|Grung Elite Warrior]]** — Mesmerizing Chirr (stun) is the ability to watch; expendable, Solange doesn't protect them.
 - **[[otar-the-foul|Otar the Foul]]** (Phase 3, CR 12 recalibrated) — full stat block, Foul Miasma, Entropic Regeneration (needs fire/acid to suppress), legendary and lair actions all on the page.
 
+Full phase mechanics — triggers, detonation DCs, the checklist — live in [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Room 8]]; open this cold and read straight down for the narration, reach for the dungeon file for the numbers. Fight modifiers (Heroes' Feast gone, hidden passage, circle disruption) and the Warren's safety-valve Rattle: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Fight Modifiers — Primary Chamber]] and [[otar-the-foul|Otar the Foul § The Rattle — The Warren Fights Beside You]].
+
 > [!mechanic]
-> **Catarina arrives via staggered entry** (see *Staggered Entry* above; cannon/owl stat blocks live on [[otar-the-foul|Otar the Foul § Encounter Adaptation]]). In the primary chamber she's 2–3 turns from the crater when Otar manifests; the owl and cannon are on site from round 1. A clean beat if it lines up: have her arrival land as Otar crosses into Unstable Form (≤120 HP) — reinforcements as the fight turns, not before. This is already priced into Otar's CR 12 rebuild; don't soften him further. **If she joined earlier (a Branch B fight ran first),** skip the staggered entry — she's in from turn 1.
+> **Her arrival here specifically:** she's 2–3 rounds from the crater when Otar manifests; owl and cannon are on site from round 1 regardless (Shared Mechanics, above). A clean beat if it lines up: land her arrival as Otar crosses into Unstable Form (≤120 HP) — reinforcements as the fight turns, not before. **If she joined at an earlier site,** skip this — she's in from turn 1.
 
 **If engaged:** the party fights the garrison, survives or avoids the detonation, and either kills Otar, disrupts the circle before manifestation, or is overrun — see [[session-05-run-guide|Session 05 Run Guide § Aftermath]] for all three outcomes.
-**If ignored:** the primary fires uncontested on the shortened timeline — see the Fail-Forward section below.
+**If ignored:** the primary fires uncontested on the shortened timeline — see *Fail-Forward: The Detonation Fires* below.
 **Hook out:** aftermath at the Mercatura, or the Fail-Forward detonation if the clock runs out first.
 
-#### Branch B — One More Magazine *(Room 5 / T1 / T2 · a lieutenant)*
+---
 
-![[wiki/assets/sessions/session-06/06-catarina-tunnel-arrival.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, diagonal action composition. A grimy vaulted stone sewer tunnel lit by eerie green bioluminescent fungus, wet stone glinting. Catarina Da'Virelli runs in from a side passage on the right — a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, a full-sleeved white linen chemise under a rust-red brocade bodice with a leather utility belt, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised in one hand. A small brass clockwork owl with one glowing blue eye banks overhead. On the left, a small brass clockwork cannon-construct on spoked wheels braces in a side archway and fires a bright force blast. Cold green glow against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+### After the First Fight
 
-Whichever site the party hits first, Catarina arrives partway through her staggered entry — moving toward the sound of the fight, close-range this time, not a city-wide detonation. Combat noise carries to adjacent rooms in this network (dungeon file, General Features).
-
-> [!mechanic]
-> **Balance note:** unlike Otar, the three magazine lieutenants weren't re-costed for Catarina as a 5th combatant. If a fight trends too easy with her in it, don't invent new numbers — lean on the site's own escalation (Bazzoth's Shed the Years, Vashu's Weeping Veil, Ozzeth's *Dominate Person* / *Hypnotic Pattern*) and add a green [[grung-npc|laborer]] or two from the working crew. **There is no mobile reserve** — Ozzeth, who used to be it, now holds Delta himself (below), so "who shows up next" is just combat noise carrying to the next room, not a roving boss.
-
-**If Room 5 — Bazzoth, the Steeped:** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 5 — Magazine Beta]].
-
-**[[bazzoth-the-steeped|Bazzoth, the Steeped]]** (CR 6) + 2 [[grung-npc|Grung]] laborers. Levers to know at the table: **Shed the Years** (concentration self-buff — extra attack, +AC, mobility, magical melee) and **Sump-Reek Bomb** (recharge poison AoE). Full stat block: [[bazzoth-the-steeped|Bazzoth]].
-*Tactic:* breaks concentration on Shed the Years and he loses the extra attack/mobility — focus fire is the counter to his buffed phase.
-
-**If Room T1 — Vashu, the Weeping Veil + Purple-Caste Enforcer:** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T1 — Magazine Gamma]].
-
-**[[vashu-the-weeping-veil|Vashu, the Weeping Veil]]** + 1 **[[purple-caste-enforcer|Purple-Caste Enforcer]]**. Levers to know: Vashu's **blindsight 30 ft.** (ignores fog/darkness/invisibility, including her own **Weeping Veil** mist) and **Pressure Point** stun; the Enforcer's **Binding Tongue** grapple. Full stat blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]].
-*Tactic:* Enforcer's Binding Tongue sets the grapple, Vashu's Pressure Point finishes it — kill or disable the Enforcer first to break the combo. Low 5-ft ceiling punishes reach weapons and flight.
-
-**If Room T2 — Ozzeth, the Twiceborn (+ Purple-Caste Zealot escort):** room key, terrain, read-aloud: [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room T2 — Magazine Delta]].
-
-**[[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]]** (CR 8) + a **[[purple-caste-zealot|Purple-Caste Zealot]]** escort. A 9th-level INT control caster who casts with **no verbal components — *Silence* is useless on him.** Spells to expect: *dominate person*, *hypnotic pattern*, *hold person* (control) and *misty step* / *dimension door* / *greater invisibility* (mobility). The Zealot is a suicidal powder-charge that closes to detonate. Full stat block, spell list, and legendary actions: [[ozzeth-the-twiceborn|Ozzeth]].
-*Tactic:* a control caster, not a brawler. Expect *dominate person* or *hold person* to pull a PC out of the fight, *hypnotic pattern* to freeze the melee, and *misty step* / *greater invisibility* to stay untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop the domination/pattern; kill the Zealot before it reaches the backline or a barrel stack; and don't waste *Silence* — his casting has no verbal components. In the tidal Delta he's as at home in the water (swim 30) as the party is off-balance in it.
-
-**If engaged:** the magazine is cleared (or Catarina's arrival tips a losing fight), Catarina is now with the party for whatever comes next, and one more detonation lane is closed.
-**If ignored (party bypasses this site entirely):** the lieutenant stays in position; that lane stays live for the raid's final scale count.
-**Hook out:** Catarina stays with the party from here — her staggered entry doesn't repeat. If they push on to another un-cleared secondary site (Room 5, T1, or T2), rerun this card for that room; nothing about her presence changes. Once they head for the primary, **Branch A fires — but skip her staggered entry** (she's already in).
+- **Only the first site gets a flashback.** Whichever door the party opened first is the trail you ran. If they clear another secondary site afterward, it's a straightforward fight — no new flashback, she's already there. Stat blocks/tactics for whichever comes next live in the dungeon file's room key (T1, T2, or Room 5).
+- **Heading to the primary next:** jump straight to Trail 4's fight. Skip its flashback and her arrival — she's already in.
 
 ---
 
@@ -387,9 +370,9 @@ Whichever site the party hits first, Catarina arrives partway through her stagge
 *Available: only if the party doesn't reach the primary chamber tonight, or you choose to end the session on the raid itself.*
 
 > [!read-aloud]
-> The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them to. Then something hauls itself out of the hole.
+> The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them. Then something hauls itself out of the hole.
 
-Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block per Branch A above.
+Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block: see Trail 4 above, or [[otar-the-foul|Otar the Foul]] directly.
 
 **If engaged:** the party fights Otar and/or responds to secondary strikes.
 **If ignored:** the raid runs its full course; Nona assembles the pursuit without the party.
@@ -401,8 +384,8 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 
 - Knighton's "venting fault" doesn't hold up to scrutiny — via **Catarina's passive Insight (automatic)** or **active Insight/Investigation DC 15** during Scene 1.
 - [[simone-tabarnack|Simone]] already supplies the [[dravosi-crown|Dravosi Crown]] with Grung toxin (confirmed on her page) — Knighton's silence on "what's under Calveno" can plausibly trace back to this. The Crown's actual awareness level is still an open question. Not tonight's reveal — a future thread.
-- **A Crown-contracted human and a Grung defector are now on the same side and haven't discussed it** — the [[jean-claude-tabarnack|JC]]/Catarina tension from *When She Joins* is a live, unresolved thread whether or not it surfaces tonight.
-- Ruma's route map and the trail-marker clues from Session 05 (builder's notation, red-caste markers, the "circle site") remain valid if not already spent — see [[wiki/sessions/calveno-sewers-grung-magazines|dungeon file § Three Clue Audit]].
+- **A Crown-contracted human and a Grung defector are now on the same side and haven't discussed it** — the [[jean-claude-tabarnack|JC]]/Catarina tension from Shared Mechanics is a live, unresolved thread whether or not it surfaces tonight.
+- Ruma's route map and the trail-marker clues from Session 05 (builder's notation, red-caste markers, the "circle site") remain valid if not already spent — see [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Three Clue Audit]].
 - If Bazzoth's Shed the Years is broken mid-fight, his gourd (the rite's source) is a lootable curiosity — connects to red-caste ritual practice, same territory as Solange's ritual components.
 
 ## Stall Hooks
@@ -421,7 +404,7 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 
 ## If They Surprise You
 
-1. **Place the request.** Underground → collector tunnels (use [[wiki/sessions/calveno-sewers-grung-magazines|dungeon file]] topology). Surface/harbor → [[calveno-districts|District Layout]].
+1. **Place the request.** Underground → collector tunnels (use [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file]] topology). Surface/harbor → [[calveno-districts|District Layout]].
 2. **Give one competent local** who wants one small thing now — a Warren runner, a sentry, a chandler. Use [[calveno-improv|Improv Reference]] for names and voices.
 3. **Attach one live pressure** from the Threads table so the detour still feeds the session.
 4. **Let the choice stand.** Note what changed, tick the clock, move on.
@@ -438,9 +421,9 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 
 - Note how the Scene 1 flashback actually played (her exact words declining the launch) — characterization worth keeping for later Knighton scenes.
 - **Which of the four trails you ran in Scene 3**, and how her player played the investigation — establishes her voice going forward.
-- Did the party take the Room 6 long rest? Heroes' Feast active or expired going into the first fight — this changes Otar's difficulty if Branch A hasn't fired yet.
+- Did the party take the Room 6 long rest? Heroes' Feast active or expired going into the first fight — this changes Otar's difficulty if the primary chamber hasn't fired yet.
 - **How the JC/Catarina "Grung in the room" beat landed** — resolved, deferred, or still un-surfaced.
-- Which branch fired (A or B), and which lieutenant (if B) — update [[hot|hot.md]] Recent Activity.
+- Which fight fired first — the primary chamber, or a secondary site (and which lieutenant) — update [[hot|hot.md]] Recent Activity.
 - Which magazines are neutralized, which remain; was the primary found; was the circle disrupted; was Otar summoned.
 - Solange's fate (escaped vs. consumed) — determines whether [[simone-tabarnack|Simone]] learns [[jean-claude-tabarnack|JC]] is alive.
 - If Delta (T2) fired: whether [[ozzeth-the-twiceborn|Ozzeth]] landed a Dominate/Hypnotic lock, and whether the [[purple-caste-zealot|Purple-Caste Zealot]] detonated.
@@ -450,15 +433,15 @@ For drop-in combat: [[calveno-street-encounters|Street Encounters]].
 ## Context Read
 
 - [[hot|hot.md]] — current world state, threads, clocks, spotlight tracking (recap system is down; hot.md's Recent Activity is the authoritative record of what happened in Session 05)
-- [[session-05-run-guide|Session 05 Run Guide]] — parent session; Otar/Solange full phase mechanics reused directly in Branch A
-- [[wiki/sessions/calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — full dungeon key
+- [[session-05-run-guide|Session 05 Run Guide]] — parent session; Otar/Solange full phase mechanics reused directly here
+- [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|Calveno Sewer Magazines]] — full dungeon key
 - [[catarina-davirelli|Catarina Da'Virelli]] — PC page, gear, mechanics
 - [[catarina-primer|Catarina Primer]] — concentration/Alert design notes
 - [[rupert-knighton|Rupert Knighton]] — NPC page, manner, tactics
 - [[knighton-pursuit|The Knighton Pursuit]] — situation file
 - [[dravosi-crown|Dravosi Crown]], [[simone-tabarnack|Simone Tabarnack]] — toxin-supply connection
-- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — the Grung defector in the party; the *When She Joins* tension
+- [[jean-claude-tabarnack|Jean-Claude Tabarnack]] — the Grung defector in the party; the Shared Mechanics tension
 - [[anzolo|Anzolo]], [[nona-black-jaw|Nona Black-Jaw]] — voice and current state for the Anzolo scene
 - [[ruma-delacroix|Ruma Delacroix]] — ally status, voice, what she knows
-- [[bazzoth-the-steeped|Bazzoth]] (Beta), [[vashu-the-weeping-veil|Vashu]] + [[purple-caste-enforcer|Purple-Caste Enforcer]] (Gamma), [[ozzeth-the-twiceborn|Ozzeth]] + [[purple-caste-zealot|Purple-Caste Zealot]] (Delta) — Branch B stat blocks. [[ozvok-the-vermillion-distiller|Ozvok]] is shelved for this run.
+- [[bazzoth-the-steeped|Bazzoth]] (Beta), [[vashu-the-weeping-veil|Vashu]] + [[purple-caste-enforcer|Purple-Caste Enforcer]] (Gamma), [[ozzeth-the-twiceborn|Ozzeth]] + [[purple-caste-zealot|Purple-Caste Zealot]] (Delta) — secondary-site stat blocks. [[ozvok-the-vermillion-distiller|Ozvok]] is shelved for this run.
 - [[otar-the-foul|Otar the Foul]], [[solange-barret|Solange Barret]] — full stat blocks, Encounter Adaptation (Catarina's staggered entry)

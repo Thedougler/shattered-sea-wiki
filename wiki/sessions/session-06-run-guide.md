@@ -23,7 +23,7 @@ sources:
 
 # Session 06 — Run Guide: No Rest for the Curious
 
-> Seven scenes. Scenes 1, 2, and 7 run in fixed order — flashback, push, primary chamber. Scene 3 (Catarina) drops in on *your* clock, not theirs. Scenes 4–6 (the three secondary magazines) are independent and order-agnostic — run whichever one the party walks into, in whatever order they pick, and skip any they never visit. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* if they go off-script.
+> Seven scenes; the shape is in *How Tonight Runs* below. It's a menu, not a script — the party picks, you react. Nothing breaks if they wander: ignored pressure moves, it doesn't vanish. See *If They Surprise You* if they go off-script.
 
 ## Session Snapshot
 
@@ -32,26 +32,24 @@ sources:
 | **Party is** | [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
 | **Last break** | Session 05 ended in Room 6. [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she covers for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — running whether or not the party watches. Tonight also debuts [[catarina-davirelli\|Catarina Da'Virelli]], in two parts: an opening flashback ([[rupert-knighton\|Knighton]]'s visit two days ago, Scene 1), then her in-dungeon introduction whenever you drop it (Scene 3). |
-| **Table time** | ~4 hrs. **Scene 1** (Cat vs. Knighton flashback) ~15–30 min → **Scene 2** (Room 6 rest + push through the sewers) → **Scene 3** (Catarina's introduction — dropped mid-push at your mark, ~15–20 min) → **Scenes 4–6** (Beta/Gamma/Delta magazines — independent, order-agnostic, run only the ones the party visits) → **Scene 7** (primary chamber). |
+| **Table time** | ~4 hrs. Budget **Scene 1** ~15–30 min and **Scene 3** ~15–20 min; Scenes 2, 4–7 fill the rest. If time runs short, cut secondary magazines, not the primary chamber. |
 
 ---
 
 ## How Tonight Runs — Scene Flow
 
-*Read this once so the shape is in your head; detail is in each scene below.*
+*The shape in one screen. Detail is in each scene card below.*
 
-1. **Scene 1 — Cat's Curios (flashback, fixed).** Two days ago. Knighton visits Catarina's workshop in person, warns her off the streets, offers a Crown evacuation launch. She declines and spends the two days investigating instead. Fades to black. *This is Catarina's table introduction — hand it to her player.* ~15–30 min.
-2. **Scene 2 — Back Underground (live).** Cut to the present: the party at Room 6 with Ruma. Banter, the resource-drain goal, the long-rest decision, then a free push through the secondary magazines toward the primary. The party picks the route.
-3. **Scene 3 — The Owl and the Cannon (Catarina's introduction).** *You* choose the moment. The party sees and hears a chase in the tunnels ahead — Grung driving [[catarina-davirelli\|Catarina]]'s clockwork owl **Strix** back, then those same Grung fleeing screaming as her cannon-backpack **Ragnetto** spider-walks after them, blasting. They investigate; they find her, flintlock drawn, questioning a cornered Grung. One cut-to-black narration covers how her investigation led her down here, then she joins for the rest of the dungeon. ~15–20 min.
-4. **Scene 4 — Magazine Beta (optional, independent).** [[bazzoth-the-steeped|Bazzoth, the Steeped]] holds Room 5, if the party goes there.
-5. **Scene 5 — Magazine Gamma (optional, independent).** [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] holds Room T1, if the party goes there.
-6. **Scene 6 — Magazine Delta (optional, independent).** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] holds Room T2, if the party goes there.
-7. **Scene 7 — The Primary Chamber (live).** Room 7's approach into Room 8: Solange's circle, the detonation, and Otar. The climax. Catarina is already with the party by now.
+| # | Scene | Timing | What happens |
+|---|---|---|---|
+| **1** | Cat's Curios | **Fixed** — opens the night | Flashback, "two days ago": Knighton warns Catarina off the streets, offers a Crown launch. She declines and investigates. *Hand it to her player.* ~15–30 min. |
+| **2** | Back Underground | **Fixed** — live present | Room 6 with Ruma: banter, the long-rest decision, then a free push. The party picks the route. |
+| **3** | The Owl and the Cannon | **Your call** — drop mid-push | Catarina's debut: a tunnel chase, her constructs routing a Grung crew, first contact. She joins for good. Best staged in Room 7. ~15–20 min. |
+| **4–6** | Beta / Gamma / Delta | **Optional, any order** | The three secondary magazines — [[bazzoth-the-steeped\|Bazzoth]] (Room 5), [[vashu-the-weeping-veil\|Vashu]] (Room T1), [[ozzeth-the-twiceborn\|Ozzeth]] (Room T2). Run the ones they reach; skip the rest, self-contained each. |
+| **7** | The Primary Chamber | **Fixed** — the climax | Room 7 into Room 8: Solange's circle, the detonation, Otar. Catarina is already with the party. |
 
 > [!dm]
-> **One Catarina introduction, your timing — not four branching trails.** Her investigation collapses to a single narrated bridge; you decide when to drop the Scene 3 set-piece, not the party's door choice. Good marks: a lull after they've cleared or scouted one secondary site (so the stakes read), ideally in Room 7 where the sightlines carry a chase. If they stall or blitz, see the timing note in Scene 3.
->
-> **Scenes 4–6 run in whatever order the party's door choices dictate — none, some, or all three.** Each is self-contained: read it cold when they arrive, resolve it, move on. Skipping a magazine doesn't skip content elsewhere; see each scene's *If Ignored*.
+> **You decide when Scene 3 fires — not the party's door choice.** It's one narrated bridge, not four branching trails. Drop it on a lull after they've cleared or scouted a secondary site, ideally in Room 7 where the sightlines carry a chase. Stalled or blitzing? See the timing note in Scene 3.
 
 ---
 
@@ -127,7 +125,7 @@ Cold, bureaucratic, and true. The Crown protects its assets, not the city. This 
 > [!read-aloud]
 > A pause — the first one. "As you wish. Two days, Miss Da'Virelli. I hope the launch stays empty. I mean to have it ready regardless." He inclines his head, precisely the correct number of degrees for the situation, and lets himself out. The guards fall in behind him.
 
-He doesn't threaten — he replaces. He just told her so, without saying it.
+He doesn't threaten — he replaces. The launch waiting empty *is* the message.
 
 **Then let the flashback breathe** — let the player finish playing the moment. She doesn't take the launch; she spends the two days investigating instead. Close on the fade below, and cut to the present.
 
@@ -181,7 +179,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 **Passing through Room 7 (Main Collector):** no encounter, but new ground tonight — 90 ft, vaulted, 8 ft ceiling, a central channel, the trail markers converging toward the primary and the faded "MERCATURA NEXUS 200 PAS" sign on the south wall. Room key, terrain, read-aloud: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 7 — Main Collector]]. **This is also the best stage for Scene 3** — the sightlines carry a chase down the tunnel.
 
-**The three secondary magazines are Scenes 4–6, below** — independent and order-agnostic. Run whichever door they open, in whatever order they open it; skip any they never reach. None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.
+**The three secondary magazines are Scenes 4–6, below.** None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.
 
 > [!dm]
 > **If they stall — this is your Scene 3 cue.** If the party rests long, negotiates in circles, or can't pick a door, don't wait forever. Drop the introduction: Strix noses through a grate and finds *them*, and a minute later the chase (Scene 3) breaks out down the nearest open tunnel. The stall becomes the introduction.
@@ -199,9 +197,9 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 ![[wiki/assets/sessions/session-06/06-catarina-investigation.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night in a rain-slick Calveno canal-side alley. Catarina Da'Virelli kneels over a pried-open forgotten iron street grate, levering the last bar aside with a brass clockwork gauntlet — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, dark breeches and boots. A brass lantern throws warm light into the black shaft; ledger papers under one arm; her brass clockwork owl Strix (one glowing blue eye) on the grate rim. Iridescent chemical sheen rising from the grate. Cold rainy night against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> Two days ago Commodore Knighton stood in your workshop and warned you off the streets: a venting fault in the collectors, foul gas, take the Crown's launch and go. You didn't. You spent the two days proving him a liar. No venting order on file. No clerk at the Commission who had heard of any fault — only cartage that paid double and never touched the front canal, work orders signed for jobs nobody scheduled, and the same reek rising off grate after grate, overripe fruit and ammonia sharp enough to sting.
+> You spent two days proving Knighton a liar. No venting order on file, no clerk at the Commission who'd heard of any fault — only cartage that paid double, work orders for jobs nobody scheduled, and the same reek off grate after grate: overripe fruit and ammonia, sharp enough to sting. Every lead pointed the same way. Down.
 >
-> The trail ended at a forgotten maintenance grate, its iron slick with something that wasn't oil. You pried it up and climbed down. Whatever is under Calveno, it isn't gas. It's blackpowder, stacked in barrels. Cut chain and cleared floor — space made for people, not cargo. Tally sheets counting them in the hundreds. Under it all, the prickle of live magic runs through the stone, more than you have ever felt in one place. So you went looking for whoever is behind it.
+> The trail ended at a forgotten maintenance grate, its iron slick with a chemical sheen that caught the lamplight. You pried it up and climbed down. It's blackpowder under Calveno — crates of it, being unloaded by Grung. So you went looking for whoever's behind it.
 
 ### Beat B — What they see and hear *(live)*
 
@@ -243,7 +241,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ## Scene 4 — Magazine Beta: Bazzoth *(optional, independent)*
 
-*Room 5, off the mortared breach from Room 6. Order-agnostic with Scenes 5 and 6 — run it only if the party opens this door, whenever they do.*
+*Room 5, off the mortared breach from Room 6. Run only if they open this door.*
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
 
@@ -267,7 +265,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ## Scene 5 — Magazine Gamma: Vashu *(optional, independent)*
 
-*Room T1, reached via Room 7 backtracking to Room 3's barred culvert. Order-agnostic with Scenes 4 and 6 — run it only if the party opens this door, whenever they do.*
+*Room T1, via Room 7 then backtrack to Room 3's barred culvert. Run only if they open this door.*
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
 
@@ -289,7 +287,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ## Scene 6 — Magazine Delta: Ozzeth *(optional, independent)*
 
-*Room T2, reached via the flood overflow vent off Room 7. Order-agnostic with Scenes 4 and 5 — run it only if the party opens this door, whenever they do.*
+*Room T2, via the flood overflow vent off Room 7. Run only if they open this door.*
 
 ![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
 
@@ -355,37 +353,6 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 **If engaged:** the party fights the garrison, survives or avoids the detonation, and either kills Otar, disrupts the circle before manifestation, or is overrun — see [[session-05-run-guide|Session 05 Run Guide § Aftermath]] for all three outcomes.
 **If ignored:** the primary fires uncontested on the shortened timeline — see *Fail-Forward: The Detonation Fires* below.
 **Hook out:** aftermath at the Mercatura, or the Fail-Forward detonation if the clock runs out first.
-
----
-
-## Optional Scenes — only if the session surfaces
-
-*Both are dormant while the party is underground. Live the moment the party reaches open water or Nona's safe house (aftermath, or an unexpected surface trip).*
-
-### The Whale Beneath *(Abyss Vision)*
-*Pull: [[perrin-black-jaw|Perrin]] · Register: revelation · Available only on open water.*
-
-![[wiki/assets/sessions/session-06/06-whale-beneath.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night on dark water outside Calveno's harbor, distant festival lights on shore. A small wooden canal boat; at the rail stands Perrin Black-Jaw, a very small three-foot black-and-white fancy-rat Rattkin sailor in an olive-drab hooded cloak and cream shirt, bodhran drum, long pink tail, looking down. Beneath the hull glides an immense pale bioluminescent whale glowing cold blue-white, one great eye turned upward. Cold underwater glow against warm shore lights. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
-
-> [!read-aloud]
-> The canal boat clears the inner harbor. The water goes darker, deeper, the festival noise thinning to wind and wave. The same low hum from the dream off Auralis answers from below. A pale, bioluminescent shape passes beneath the hull — slow, enormous, looking up.
-
-**What's true:** second contact with the "Grow" entity. It doesn't attack or speak — recognition, patience, non-hostile hunger. Other PCs can see the shape (DC 12 Perception: at least 40 ft. long; crit: the bioluminescence pulses in a pattern, not random); only Perrin hears the hum.
-**If engaged:** the entity's interest is confirmed — personal and immediate. Perrin's next dream sharpens.
-**If ignored:** the whale follows the boat to the harbor mouth, then descends. Fishermen report it the next day regardless.
-
-### Anzolo at the Door *(Nona and Anzolo)*
-*Pull: [[perrin-black-jaw|Perrin]] · Register: social · Available only at Nona's safe house.*
-
-![[wiki/assets/sessions/session-06/06-anzolo-at-the-quay.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night at a torchlit outer stone quay in Calveno, moored age-of-sail ships and rigging behind, dark harbor water, rain. A large broad-shouldered tortle (turtle-folk), Anzolo — thick shell, weathered beak, calm — in age-of-sail dress: heavy canvas longcoat, wide belt, buckled boots. In the foreground a small soaked Warren ratfolk runner points back toward him, breathless. Warm torchlight against cold wet night. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
-
-> [!read-aloud]
-> A Warren runner is young, soaked, out of breath. "There's a tortle at the outer quay, big, asking for Nona by name." She looks at Perrin. "He's asking for someone called Black-Jaw."
-
-**What's true:** [[anzolo|Anzolo]] has arrived, still hunting for Perrin on outdated orders — Nona's call-off is in transit but hasn't reached him. His inquiries at an eastern port flagged a [[tessarine-concordat|Tessarine]] informant; a patrol now knows a tortle matching his description was asking about Black-Jaw movements and heading west, and it's due to dock within hours. He doesn't know he has a tail.
-**NPC — Anzolo:** slow-talking, methodical, relentless — warmth and violence coexist without irony. *Wants:* to see Perrin, to report to Nona. *Reveals:* "I've been followed. Small patrol ship. Tessarine colors."
-**If engaged:** the reunion is real but interrupted by the crisis — Nona must split resources or risk exposure.
-**If ignored:** the Tessarine patrol docks and starts asking questions in the harbor district within hours.
 
 ---
 

@@ -243,12 +243,14 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 *Room 5, off the mortared breach from Room 6. Run only if they open this door.*
 
-![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
+![[wiki/assets/sessions/session-06/06-magazine-beta-bazzoth.webp|Cinematic establishing still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text or lettering. A grimy vaulted underground sewer magazine bay lit by pale green bioluminescent fungus and a low lantern. Half-built timber scaffolding climbs the left wall, one beam braced to the ceiling and another leaning loose; wooden blackpowder barrels sit on wet stone and half-sunk in a flooded corner, beside a hand drill, coiled rope with an iridescent chemical sheen, and a wooden bowl of cold rice. At a cluttered alchemist's mixing station in the wet corner stands Bazzoth, a thick heavyset small poison-dart-frog grung with smooth deep-blue skin, webbed hands, and a broad blunt frog face with heavy-lidded fearless eyes; he wears a bone-plate apron and a bench-harness of glass vials, and reaches for a battered drinking gourd, unhurried. Chemical haze hangs in the air. Cold green glow against warm lantern light. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > The breach opens into a working bay, and the chemical bite here is worse — concentrated, with nowhere to vent. Scaffolding climbs one wall half-built, one beam braced to the ceiling, another leaning loose. Barrels sit on the stones and in the flooded corner, not yet stacked, beside a hand drill, coiled rope slick with iridescent residue, and a wooden bowl of cold rice. A thick blue Grung looks up from a mixing station in the wet corner, unhurried, and reaches for his gourd.
 
 **What's true:** [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) has claimed Beta as his working magazine, backed by 2 [[grung-npc|Grung]] laborers — one building the scaffold, one watching the tunnel mouth. His attention is split; the party gains **advantage on Stealth to approach.** Six blackpowder barrels sit loose, not stacked.
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
 
 > [!mechanic]
 > **Quiet neutralization.** DC 12 Athletics (action) collapses the unsecured scaffold beam, dumping the barrels into the flooded corner — powder soaks, magazine neutralized, no detonation risk. The collapse is loud: audible in Room 6 and adjacent corridors.
@@ -267,12 +269,14 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 *Room T1, via Room 7 then backtrack to Room 3's barred culvert. Run only if they open this door.*
 
-![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
+![[wiki/assets/sessions/session-06/06-magazine-gamma-vashu.webp|Cinematic establishing still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text or lettering. A cramped, low old-brick underground magazine with a five-foot ceiling pressing close to the waterline, dim and claustrophobic. Four wooden blackpowder barrels sit under a stone seam braced with fresh pale timber; rust, powder, and an iridescent chemical film coat the wet brick. Against the far wall stands Vashu, a small poison-dart-frog grung monk with smooth muted blue-grey skin and webbed hands, utterly still, head tilted as if listening; her eyes are blind and clouded milky-white, and she is wrapped in a tattered grey rag veil and simple monastic cloth wraps. A single dim shaft of light falls from a drain grate above. Cool, shadowed, tense. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > The culvert opens into older brickwork, lower and tighter — a five-foot ceiling that puts your face near the waterline. Four barrels sit under a stone seam braced with fresh timber. Powder, rust, and the same sweet chemical film thicken in the tight space until breathing feels deliberate. Festival feet drum faintly through the Bridge stones overhead. A blind Grung in a rag veil stands utterly still against the far wall, head tilted, listening.
 
 **What's true:** [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) guards Gamma with 1 [[purple-caste-enforcer|Purple-Caste Enforcer]]. Her **blindsight 30 ft.** ignores the low light and cramped sightlines entirely — she doesn't need to see in a 5-ft-ceiling room, and it also ignores fog, darkness, invisibility, even her own Weeping Veil mist. A rusted street drain leads to a Bridge district maintenance alcove: Small creatures pass freely, Medium creatures need DC 13 Athletics or thieves' tools to force the grate.
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
 
 > [!mechanic]
 > **The 5-ft ceiling punishes reach weapons and flight** — no jumping, and Medium creatures can't use reach over allies cleanly. The Enforcer's **Binding Tongue** grapple sets up Vashu's **Pressure Point** stun; kill or disable the Enforcer first to break the combo.
@@ -289,12 +293,14 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 *Room T2, via the flood overflow vent off Room 7. Run only if they open this door.*
 
-![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
+![[wiki/assets/sessions/session-06/06-magazine-delta-ozzeth.webp|Cinematic establishing still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text or lettering. A tidal underground harbour-approach magazine: six wooden blackpowder barrels wedged against a wet stone seam, black water slapping below a barred iron vent that leaks pale daylight, iridescent chemical residue glinting on the rope lashings, a ship's mast and rigging visible beyond the bars. Standing knee-deep in the tidal water, unbothered by it, is Ozzeth, a small poison-dart-frog grung mage whose smooth skin runs blue and red at once, the two colours shifting and bleeding across each other; cold, precise, unblinking. He raises one webbed hand in a silent spell-gesture, a faint shimmering chromatic ward haloing him and threads of coloured light drifting in the air instead of spoken words. Cool sea light against dark wet stone. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > Salt air cuts the chemical film here — the first breath that doesn't taste of Grung. Six barrels are wedged against a wet seam while black water slaps below an iron vent, the iridescent residue on the lashings catching light that leaks in from outside. Rigging knocks against a mast somewhere beyond the bars. Standing in the tidal water, unbothered by it, is a Grung whose skin runs blue and red at once — a caster where a Grung is never meant to be one.
 
 **What's true:** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) guards Delta with a [[purple-caste-zealot|Purple-Caste Zealot]] escort. A 9th-level INT control caster with **no verbal components** — *Silence* does nothing. Expect *dominate person*, *hypnotic pattern*, *hold person* to pull a PC out of the fight, and *misty step*/*dimension door*/*greater invisibility* to keep him untouchable while the Zealot walks a live charge into the party or the powder. Swim 30 — the tidal water is his, not the party's.
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
 
 > [!mechanic]
 > **Tidal slap:** water rises 1 ft per hour near high tide. After 2 hours, Stealth checks here have disadvantage from splashing unless the creature has a swim speed. The **outer-quay egress vent** (3 ft wide, above the waterline) matters more than the barrels if the party is trying to reduce captives — sealing or blocking it disrupts harbour-side extraction even if the detonation fires.

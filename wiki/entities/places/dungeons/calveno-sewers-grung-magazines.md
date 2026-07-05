@@ -387,6 +387,9 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 > [!dm]
 > Decompression and escalation. The ceiling lifts but the air worsens — this is the toxic peak before the climax. The vaulted space lets the party stand upright and plan, but the chemical saturation communicates that they are deeper in the Grung's territory than ever. Trail markers and commission sign both point forward. After this room, the party is committed to the primary chamber approach.
 
+> [!dm]
+> **Session 06 — recommended stage for Catarina's introduction.** Room 7's 90-ft sightlines carry the chase: a loose green work-crew drives her owl **Strix** back up a shaft, then flees screaming as her cannon **Ragnetto** spider-walks after them, firing. Drop it at your mark (full script: [[session-06-run-guide|Session 06 Run Guide § Scene 3]]); after the party finds her, she joins for the rest of the dungeon.
+
 ---
 
 <div style="page-break-before: always;"></div>
@@ -452,7 +455,7 @@ The party has likely fought two Hard encounters back-to-back (Rooms 4 and 5), pl
 | Clock | Otar manifests on Solange's next turn unless circle was disrupted |
 
 > [!mechanic]
-> **Phase 3 — Otar manifests.** Run him straight from his stat block: **[[otar-the-foul|Otar the Foul]]** (CR 12, recalibrated for the five-PC Session-06 party). The page carries AC/HP, Foul Miasma, Entropic Regeneration, Chaos Pulse, Unstable Form, legendary and lair actions, plus the Catarina staggered-entry adaptation. Suppressing Entropic Regeneration with fire or acid is the tactical key.
+> **Phase 3 — Otar manifests.** Run him straight from his stat block: **[[otar-the-foul|Otar the Foul]]** (CR 12, recalibrated for the five-PC Session-06 party). The page carries AC/HP, Foul Miasma, Entropic Regeneration, Chaos Pulse, Unstable Form, legendary and lair actions, plus Catarina's cannon/owl stats (**Ragnetto**, **Strix**) and the staggered-entry *fallback* — she is normally already in the fight by Room 8, having joined during the run guide's Scene 3. Suppressing Entropic Regeneration with fire or acid is the tactical key; Catarina's Wand of Pyrotechnics is the party's innate fire source.
 >
 > **Difficulty: Extremely Deadly.** Rewards stealth, planning, and environmental creativity over direct assault.
 

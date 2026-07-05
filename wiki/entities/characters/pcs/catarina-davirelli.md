@@ -33,7 +33,7 @@ portrait: portraits/Catarina-DaVirelli.webp
 
 Youthful face, white hair that says otherwise — the kind of double-take that lands before she's said a word. Lean, quick-handed, a mind that outpaces a body built for benchwork, not the rough stuff. In [[calveno|Calveno]] she *is* [[kats-curios|Cat's Curios]]: a narrow side-street door with brass fittings and no name, referral only, no walk-ins. She is the foremost living expert on [[antheri|Antheri]] materials in the Scatter — the woman who touched off the [[shelfworks|Shelfworks]] Goldrush in 1488 DR, then came home and put her own workshop into production instead of joining the rush.
 
-Carries her father's flask of scotch, sealed, saved for a celebration she can't yet name — and the mechanical owl she built early in her career, one of her first real creations, still ticking at her side. It doesn't talk. It doesn't need to. (That owl is the working prototype behind the [[clockwork-owl-familiar|Clockwork Owl Familiar]] she now sells across the Shattered Sea.)
+Carries her father's flask of scotch, sealed, saved for a celebration she can't yet name — and **Strix**, the mechanical owl she built early in her career, one of her first real creations, still ticking at her side. It doesn't talk. It doesn't need to. (That owl is the working prototype behind the [[clockwork-owl-familiar|Clockwork Owl Familiar]] she now sells across the Shattered Sea.)
 
 > [!dm]
 > The worst thing she's ever done: the binding contract with the [[dravosi-crown|Dravosi Crown]] fleet — ship upgrades and soldier kit, made with open eyes, for money and protection. She doesn't talk about it. Her blind spot: she's certain the flying machine is a pure pursuit — no magic, for ordinary people — and can't yet see how far that conviction might take her.
@@ -59,7 +59,8 @@ Operates [[kats-curios|Cat's Curios]] by referral only — no advertising, no wa
 ## Gear
 
 **Carried:**
-- Mechanical owl — early build, communicates in clicks and whirs, doesn't talk
+- **Strix** — mechanical owl, early build, communicates in clicks and whirs, doesn't talk (the working prototype behind the [[clockwork-owl-familiar|Clockwork Owl Familiar]]; MM Owl stat block in play)
+- **Ragnetto** — her Eldritch Cannon (Artillerist), deployed as a spider-walking backpack construct rather than carried in
 - Father's flask of scotch — sealed, saved for an undetermined celebration
 - All-Purpose Tool, +1
 - Wand of Pyrotechnics

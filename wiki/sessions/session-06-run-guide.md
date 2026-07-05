@@ -8,7 +8,7 @@ audience: dm
 publish: false
 session_number: 6
 session_date: 2026-07-02
-summary: "At-table run guide for Session 06, simplified to four ordered scenes: (1) an opening flashback — Rupert Knighton's in-person warning two days ago and Catarina Da'Virelli's guest-PC debut; (2) the party resuming from Room 6 — the rest decision, then a free push through the secondary magazines; (3) Catarina's introduction, dropped by the DM at the right mark — the party witnesses her clockwork owl Strix and Eldritch-cannon backpack Ragnetto rout a Grung work-crew, a single cut-to-black narration of the investigation that led her underground, then first contact as she joins; (4) the primary chamber — Solange, the detonation, and Otar. ~4 hrs."
+summary: "At-table run guide for Session 06, simplified to four ordered scenes: (1) an opening flashback — Rupert Knighton's in-person warning two days ago and Catarina Da'Virelli's guest-PC debut; (2) the party resuming from Room 6 — the rest decision, then a free push through the secondary magazines; (3) Catarina's introduction, dropped by the DM at the right mark — a single narration of the investigation that led her underground, then the party witnesses her clockwork owl Strix and Eldritch-cannon backpack Ragnetto rout a Grung work-crew, then first contact as she joins; (4) the primary chamber — Solange, the detonation, and Otar. ~4 hrs."
 created: 2026-07-02
 updated: 2026-07-03
 tags:
@@ -216,9 +216,23 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 ![[wiki/assets/sessions/session-06/06-catarina-tunnel-arrival.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, diagonal action composition. A grimy vaulted stone sewer tunnel lit by eerie green bioluminescent fungus, wet stone glinting. Catarina Da'Virelli runs in from a side passage on the right — a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, a full-sleeved white linen chemise under a rust-red brocade bodice with a leather utility belt, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised in one hand. Her small brass clockwork owl Strix with one glowing blue eye banks overhead. On the left, her small brass clockwork cannon-construct Ragnetto braces on spoked legs in a side archway and fires a bright force blast. Cold green glow against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!dm]
-> **Three beats, back to back:** (A) the party *witnesses* the chase, live; (B) you *cut to black* and narrate her investigation — one collapsed trail, no rolls, no branches; (C) you *cut back* and she's standing in front of them. Then she joins. Hand the roleplay to her player at Beat C; you play the tunnel and the cornered Grung.
+> **Three beats, back to back:** (A) you narrate her investigation — one collapsed trail, no rolls, no branches; (B) cut to live — the party *witnesses* the chase; (C) they close in and get first contact. Hand the roleplay to her player at Beat C; you play the tunnel and the cornered Grung.
 
-### Beat A — What they see and hear *(live)*
+### Beat A — Her investigation *(DM narration, opens the scene)*
+
+> [!dm]
+> Deliver this straight, in your own voice — narrative, not read-aloud dialogue. It's the whole of her two-day investigation, collapsed to one telling. No checks. Land it, then cut to the tunnel, live.
+
+![[wiki/assets/sessions/session-06/06-catarina-investigation.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night in a rain-slick Calveno canal-side alley. Catarina Da'Virelli kneels over a pried-open forgotten iron street grate, levering the last bar aside with a brass clockwork gauntlet — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, dark breeches and boots. A brass lantern throws warm light into the black shaft; ledger papers under one arm; her brass clockwork owl Strix (one glowing blue eye) on the grate rim. Iridescent chemical sheen rising from the grate. Cold rainy night against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
+> [!read-aloud]
+> Two days ago a Commodore stood in her doorway and lied to her about gas, and Catarina has spent every hour since proving it. No venting order on file. No Commission clerk who'd heard of the fault. But quiet cartage that paid double and never used the front canal; work orders signed off on jobs nobody scheduled; and everywhere the trail went, the same sweetly acrid reek — overripe fruit and ammonia — coming *up* out of grates the maps don't bother to name.
+>
+> It led her to a maintenance grate the Commission forgot, iron slick with something that isn't oil. She pried it, dropped into the dark, and started counting. Not barrels. *Bodies* — cleared holding space no cargo needs, cut rope and chain far past anything a barrel takes, tally sheets counting people in the hundreds. And under the powder, riding the stone, a charge that lifts the hair on her arms: someone is running arcane work down here, at a scale she has never seen bought or sold. Not just a bombing. A *working*.
+>
+> So she went looking for someone to answer for it.
+
+### Beat B — What they see and hear *(live)*
 
 > [!read-aloud]
 > Down the tunnel, movement. A knot of green Grung — laborers, not warriors — are chasing something small and fast that banks off the vaulted stone: a brass owl, one eye burning cold blue, staying just out of their reach. Then it's gone up a shaft, and the Grung slow, confused.
@@ -228,21 +242,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 **What's true:** [[catarina-davirelli|Catarina]] broke into the collectors from a grate above, sent her owl **Strix** ahead to scout, and ran into a loose Grung work-crew. She deployed her Eldritch-cannon backpack **Ragnetto** — the walking construct — and routed them. She's a corridor or two away, closing on foot with her flintlock out. The party is watching the tail end of a fight she's already winning.
 
 > [!dm]
-> **Combat is optional here.** She's essentially won. If the party wants a piece of it, leave one or two green [[grung-npc|laborers]] still scrambling for them to drop — a quick beat, not an encounter. If they hang back and watch, that's fine too; move to Beat B when they close to look.
-
-### Beat B — Her investigation *(cut to black, DM narration)*
-
-> [!dm]
-> Deliver this straight, in your own voice — narrative, not read-aloud dialogue. It's the whole of her two-day investigation, collapsed to one telling. No checks. Land it, then cut back.
-
-![[wiki/assets/sessions/session-06/06-catarina-investigation.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night in a rain-slick Calveno canal-side alley. Catarina Da'Virelli kneels over a pried-open forgotten iron street grate, levering the last bar aside with a brass clockwork gauntlet — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, dark breeches and boots. A brass lantern throws warm light into the black shaft; ledger papers under one arm; her brass clockwork owl Strix (one glowing blue eye) on the grate rim. Iridescent chemical sheen rising from the grate. Cold rainy night against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
-
-> [!read-aloud]
-> Cut to black. Two days ago a Commodore stood in her doorway and lied to her about gas, and Catarina has spent every hour since proving it. No venting order on file. No Commission clerk who'd heard of the fault. But quiet cartage that paid double and never used the front canal; work orders signed off on jobs nobody scheduled; and everywhere the trail went, the same sweetly acrid reek — overripe fruit and ammonia — coming *up* out of grates the maps don't bother to name.
->
-> It led her to a maintenance grate the Commission forgot, iron slick with something that isn't oil. She pried it, dropped into the dark, and started counting. Not barrels. *Bodies* — cleared holding space no cargo needs, cut rope and chain far past anything a barrel takes, tally sheets counting people in the hundreds. And under the powder, riding the stone, a charge that lifts the hair on her arms: someone is running arcane work down here, at a scale she has never seen bought or sold. Not just a bombing. A *working*.
->
-> So she went looking for someone to answer for it. Cut back.
+> **Combat is optional here.** She's essentially won. If the party wants a piece of it, leave one or two green [[grung-npc|laborers]] still scrambling for them to drop — a quick beat, not an encounter. If they hang back and watch, that's fine too; move to Beat C when they close to look.
 
 ### Beat C — First contact *(live)*
 
@@ -373,7 +373,7 @@ Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run
 ## Secrets & Clues
 
 - Knighton's "venting fault" doesn't hold up to scrutiny — via **Catarina's passive Insight (automatic)** or **active Insight/Investigation DC 15** during Scene 1.
-- The raid's real purpose is **mass extraction**, not just a bombing — Catarina worked this out independently (Scene 3, Beat B) and corroborates it; the party may also read it from the staging in the yards or the route map. Multiple vectors.
+- The raid's real purpose is **mass extraction**, not just a bombing — Catarina worked this out independently (Scene 3, Beat A) and corroborates it; the party may also read it from the staging in the yards or the route map. Multiple vectors.
 - There is **arcane work** under the Mercatura at a scale Catarina can't place — she feels the charge before Room 8 confirms the circle. Foreshadows the Slaad; keep the summoning off the table until Room 8.
 - [[simone-tabarnack|Simone]] already supplies the [[dravosi-crown|Dravosi Crown]] with Grung toxin (confirmed on her page) — Knighton's silence on "what's under Calveno" can plausibly trace back to this. The Crown's actual awareness level is still an open question. Not tonight's reveal — a future thread.
 - **A Crown-contracted human and a Grung defector are now on the same side and haven't discussed it** — the [[jean-claude-tabarnack|JC]]/Catarina tension from Scene 3 is a live, unresolved thread whether or not it surfaces tonight.

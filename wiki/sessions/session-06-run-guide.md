@@ -45,7 +45,7 @@ sources:
 | **1** | Cat's Curios | **Fixed** — opens the night | Flashback, "two days ago": Knighton warns Catarina off the streets, offers a Crown launch. She declines and investigates. *Hand it to her player.* ~15–30 min. |
 | **2** | Back Underground | **Fixed** — live present | Room 6 with Ruma: banter, the long-rest decision, then a free push. The party picks the route. |
 | **3** | The Owl and the Cannon | **Your call** — drop mid-push | Catarina's debut: a tunnel chase, her constructs routing a Grung crew, first contact. She joins for good. Best staged in Room 7. ~15–20 min. |
-| **4–6** | Beta / Gamma / Delta | **Optional, any order** | The three secondary magazines — [[bazzoth-the-steeped\|Bazzoth]] (Room 5), [[vashu-the-weeping-veil\|Vashu]] (Room T1), [[ozzeth-the-twiceborn\|Ozzeth]] (Room T2). Run the ones they reach; skip the rest, self-contained each. |
+| **4–6** | Beta / Gamma / Delta | **Optional, any order** | The three secondary magazines — [[bazzoth-the-steeped\|Bazzoth]] (Room 5), [[vashu-the-weeping-veil\|Vashu]] (Room T1), [[ozzeth-the-twiceborn\|Ozzeth]] (Room T2). Run the ones they reach; skip the rest — each is self-contained. |
 | **7** | The Primary Chamber | **Fixed** — the climax | Room 7 into Room 8: Solange's circle, the detonation, Otar. Catarina is already with the party. |
 
 > [!dm]
@@ -318,6 +318,11 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 **Approach — Room 7 into Room 8.** The trail markers and the MERCATURA sign both point here; after Room 7 the party is committed to the primary approach. The **hidden passage from Room 6** (DC 16 Investigation) enters behind the garrison and reverses surprise — the party's best tactical opening.
 
+**What's true:** [[solange-barret|Solange]] kneels at the circle, channeling the summoning; four [[grung-elite-warrior|Grung Elite Warriors]] hold the channel mouths. The ceiling overhead is packed with powder — the detonation is a *when*, not an *if*, and the blast is what births [[otar-the-foul|Otar]]. Combat behavior for all three is under *The fight*, below.
+
+> [!dm]
+> **Sequence:** party enters → (~round 3) the circle flares → detonation opens the Mercatura → on Solange's next turn she becomes Otar → the Slaad fight. The four read-alouds below run in that order.
+
 > [!read-aloud]
 > The passage opens into a vaulted collector nexus broad enough to swallow footsteps. The chemical saturation peaks here — the air is thick, acrid, layered: blackpowder above, Grung secretion on every surface, and beneath both a sharp, electric ozone bite that pricks the throat and lifts the hair on your arms, rising off the stone floor. Fifteen feet overhead, pale stone and old masonry hold up the Mercatura, every crack packed with dark powder and crude timber scaffolding. In the centre, four drainage channels part around a bone-white circle cut deep into dry stone. The circle hums at the edge of hearing while a red-skinned Grung kneels beside it and four purple warriors hold the channels.
 
@@ -326,7 +331,10 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 > [!read-aloud]
 > The circle flares white. Light floods the chamber, bleaching the stone, burning away every shadow. The water in the drainage channels shivers, stops, and rises — past ankles, past knees — warm and thick with the chemical taste of everything these tunnels hold. The hum becomes a sound you feel in your teeth.
 
-**Detonation fires** (trigger: 2nd Elite drops, circle disrupted, no Elite within 10 ft of Solange, or any fire/thunder in the room):
+> [!mechanic]
+> **Detonation fires** the instant any one of these is true: 2nd Elite drops · circle disrupted · no Elite within 10 ft of Solange · any fire or thunder damage in the room. (DCs and blast math: dungeon file § Room 8.)
+
+Read the detonation aloud the moment it triggers:
 
 ![[wiki/assets/sessions/session-06/06-mercatura-detonation.webp|Dynamic cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. The instant of detonation: the packed-powder ceiling blows open into a thirty-foot wound of shattered cobblestone and torn festival cloth, daylight and dust pouring onto rubble and a glowing bone-white summoning circle. At the circle's centre a small red-skinned Grung warlock kneels untouched, dust settling in a perfect ring. Blackpowder scaffolding, flooded channels, debris mid-fall. Daylight and firelight against dark stone. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
@@ -365,7 +373,7 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 > [!read-aloud]
 > The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them. Then something hauls itself out of the hole.
 
-Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block: Scene 7 above, or [[otar-the-foul|Otar the Foul]] directly.
+Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar: his ability summary is in Scene 7's *The fight* above; full block on [[otar-the-foul|his page]].
 
 **If engaged:** the party fights Otar and/or responds to secondary strikes.
 **If ignored:** the raid runs its full course; Nona assembles the pursuit without the party.

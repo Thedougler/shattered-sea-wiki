@@ -190,45 +190,34 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ## Scene 3 — The Owl and the Cannon *(Catarina's introduction)*
 
-*Dropped mid-Scene-2 at your mark. One introduction, one narration, then she's with the party for the rest of the night. ~15–20 min. Best staged in Room 7, or any open stretch with sightlines down a tunnel.*
+*Best staged in Room 7, or any open stretch with sightlines down a tunnel.*
 
 ![[wiki/assets/sessions/session-06/06-catarina-tunnel-arrival.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, diagonal action composition. A grimy vaulted stone sewer tunnel lit by eerie green bioluminescent fungus, wet stone glinting. Catarina Da'Virelli runs in from a side passage on the right — a lean youthful woman with voluminous silver-white wavy hair and brass goggles pushed up in her hair, a full-sleeved white linen chemise under a rust-red brocade bodice with a leather utility belt, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised in one hand. Her small brass clockwork owl Strix with one glowing blue eye banks overhead. On the left, her small brass clockwork cannon-construct Ragnetto braces on spoked legs in a side archway and fires a bright force blast. Cold green glow against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
-> [!dm]
-> **Three beats, back to back:** (A) you narrate her investigation — one collapsed trail, no rolls, no branches; (B) cut to live — the party *witnesses* the chase; (C) they close in and get first contact. Hand the roleplay to her player at Beat C; you play the tunnel and the cornered Grung.
-
 ### Beat A — Her investigation *(DM narration, opens the scene)*
-
-> [!dm]
-> Deliver this straight, in your own voice — narrative, not read-aloud dialogue. It's the whole of her two-day investigation, collapsed to one telling. No checks. Land it, then cut to the tunnel, live.
 
 ![[wiki/assets/sessions/session-06/06-catarina-investigation.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night in a rain-slick Calveno canal-side alley. Catarina Da'Virelli kneels over a pried-open forgotten iron street grate, levering the last bar aside with a brass clockwork gauntlet — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, dark breeches and boots. A brass lantern throws warm light into the black shaft; ledger papers under one arm; her brass clockwork owl Strix (one glowing blue eye) on the grate rim. Iridescent chemical sheen rising from the grate. Cold rainy night against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> Two days ago a Commodore stood in her doorway and lied to her about gas, and Catarina has spent every hour since proving it. No venting order on file. No Commission clerk who'd heard of the fault. But quiet cartage that paid double and never used the front canal; work orders signed off on jobs nobody scheduled; and everywhere the trail went, the same sweetly acrid reek — overripe fruit and ammonia — coming *up* out of grates the maps don't bother to name.
+> Two days ago Commodore Knighton stood in your workshop and warned you off the streets: a venting fault in the collectors, foul gas, take the Crown's launch and go. You didn't. You spent the two days proving him a liar. No venting order on file. No clerk at the Commission who had heard of any fault — only cartage that paid double and never touched the front canal, work orders signed for jobs nobody scheduled, and the same reek rising off grate after grate, overripe fruit and ammonia sharp enough to sting.
 >
-> It led her to a maintenance grate the Commission forgot, iron slick with something that isn't oil. She pried it, dropped into the dark, and started counting. Not barrels. *Bodies* — cleared holding space no cargo needs, cut rope and chain far past anything a barrel takes, tally sheets counting people in the hundreds. And under the powder, riding the stone, a charge that lifts the hair on her arms: someone is running arcane work down here, at a scale she has never seen bought or sold. Not just a bombing. A *working*.
->
-> So she went looking for someone to answer for it.
+> The trail ended at a forgotten maintenance grate, its iron slick with something that wasn't oil. You pried it up and climbed down. Whatever is under Calveno, it isn't gas. It's blackpowder, stacked in barrels. Cut chain and cleared floor — space made for people, not cargo. Tally sheets counting them in the hundreds. Under it all, the prickle of live magic runs through the stone, more than you have ever felt in one place. So you went looking for whoever is behind it.
 
 ### Beat B — What they see and hear *(live)*
 
 > [!read-aloud]
-> Down the tunnel, movement. A knot of green Grung — laborers, not warriors — are chasing something small and fast that banks off the vaulted stone: a brass owl, one eye burning cold blue, staying just out of their reach. Then it's gone up a shaft, and the Grung slow, confused.
+> Down the tunnel, movement. Half a dozen green Grung in work-harness are chasing something small and fast that banks off the vaulted stone — a brass owl, one eye burning cold blue, always a wingbeat out of reach. It darts up a shaft and is gone, and the Grung slow, milling, confused.
 >
-> A beat. Two. Then the same Grung come back the other way — screaming. A flat concussive *crack* throws green light down the tunnel, then another, and under it a rapid mechanical tapping, chitinous, closing. Around the far corner comes the source: a brass cannon the size of a dog, walking on spoked legs, spider-quick, tracking the fleeing workers and firing.
+> A beat. Two. Then the same Grung come back the other way, screaming. A flat concussive *crack*, and light flares down the tunnel; then another, closer, and under them a fast tapping of metal legs on stone. Around the far corner comes the source: a brass cannon the size of a dog, walking on spoked legs, spider-quick, tracking the fleeing workers and firing.
 
 **What's true:** [[catarina-davirelli|Catarina]] broke into the collectors from a grate above, sent her owl **Strix** ahead to scout, and ran into a loose Grung work-crew. She deployed her Eldritch-cannon backpack **Ragnetto** — the walking construct — and routed them. She's a corridor or two away, closing on foot with her flintlock out. The party is watching the tail end of a fight she's already winning.
-
-> [!dm]
-> **Combat is optional here.** She's essentially won. If the party wants a piece of it, leave one or two green [[grung-npc|laborers]] still scrambling for them to drop — a quick beat, not an encounter. If they hang back and watch, that's fine too; move to Beat C when they close to look.
 
 ### Beat C — First contact *(live)*
 
 ![[wiki/assets/sessions/session-06/06-catarina-interrogation.webp|Cinematic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A green-lit vaulted sewer tunnel. Catarina Da'Virelli levels a flintlock pistol at a single cornered green poison-dart-frog Grung laborer (leather work-harness, webbed hands raised) crouched against the wet wall — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, brass clockwork gauntlets, a glowing brass all-purpose tool in her other hand. Behind her, her brass cannon-construct Ragnetto braced on spoked spider legs, barrel glowing; her brass owl Strix (one glowing blue eye) on an overhead pipe. Cold green glow, warm brass. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> The tunnel opens up ahead. The brass cannon stands braced on its spoked legs, barrel still glowing. The owl drops onto a pipe and folds its wings. Between them — flintlock leveled at a cornered, shaking green Grung, a brass multitool spinning idle in her other hand — stands a woman you've never met: white hair, brass goggles pushed up, watching you like she expected you. "You're not Grung," she says, pistol steady. "Either of you have a reason to be down here, or should I assume you're with *them*?"
+> The tunnel opens ahead. The brass cannon stands braced on its legs, barrel still glowing; the owl drops onto a pipe and folds its wings. Between them stands a woman — white hair loose around a young face, brass goggles pushed up on her brow, a rust-red coat over travel-stained linen. One hand holds a flintlock leveled at a cornered, shaking Grung; the other turns a brass multitool over and over, idle. Her eyes leave the Grung and settle on you, and the pistol never wavers. "You're not Grung," she says. "So either you've got a reason to be down here, or you're with *them*."
 
 **She joins from here.** Play the introduction however the table takes it — she reads people fast (passive Insight 14) and treats everyone the same, beggar to noble. Once she's satisfied the party is against the raid, she's on their side for the rest of the dungeon: no repeat arrival, no staggered entry, she acts on her own initiative in every fight after this.
 

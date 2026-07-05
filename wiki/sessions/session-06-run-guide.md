@@ -144,6 +144,11 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 
 ### Room 6 — Ruma's Nap Room
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-06-handler-relay-battlemap-realistic.png|Room 6 (Handler Relay) battlemap — Ruma's dry relay alcove: plank desk across two barrels, stacked barrels along the south wall (hidden passage behind them), two chokepoints. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> Cut to now, and the dark closes back in — swept dry stone, an oil lamp burning low on a plank desk balanced across two barrels, the sweet-acrid tunnel air held off at the corridor lip. Waxed charts cover the wall in a hand too small for human fingers. The small blue-skinned figure at the desk sets down her chalk and turns before anyone says a word.
+
 **This is resolved, not resuming a fight.** Session 05 ended with the party sneaking up on [[ruma-delacroix|Ruma]] and grabbing her; there was nothing to fight. They found her doodles (chemical formulas drawn like star charts, complete with invented mythology and fan-fiction about the compounds) while restraining her, and that was the whole negotiation. She's an ally now, hiding them in what she calls her "nap room."
 
 **Ruma quick reference:** unarmed, non-combatant — helps from the room, not the fight. *Wants:* the cover to hold. *Knows:* four secondary sites and status, the accelerated timeline, a fifth red-caste "circle site" she can't locate, sentry rotations, egress vents — volunteers all of it freely, no roll needed. *Doesn't know:* the primary's exact location, the circle's purpose, Solange's or Simone's identity. Full detail: [[ruma-delacroix|Ruma Delacroix]].
@@ -173,13 +178,28 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ### Secondary Sites — run when they hit one
 
-*Each is self-contained. Full room read-aloud, terrain, and stat blocks live in the dungeon file's room key; here's the runnable minimum. None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.*
+*Each is self-contained — battlemap, scene-setter, the runnable minimum, and if-ignored. Full terrain and stat blocks live in the dungeon file's room key. None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.*
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> The breach opens into a working bay, and the chemical bite here is worse — concentrated, with nowhere to vent. Scaffolding climbs one wall half-built, one beam braced to the ceiling, another leaning loose. Barrels sit on the stones and in the flooded corner, not yet stacked, beside a hand drill, coiled rope slick with iridescent residue, and a wooden bowl of cold rice. A thick blue Grung looks up from a mixing station in the wet corner, unhurried, and reaches for his gourd.
 
 **Room 5 / Beta — [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) + 2 [[grung-npc|Grung]] laborers.** Party gains **advantage on Stealth to approach** (his attention is split — one laborer building, one watching). Levers: **Shed the Years** (concentration self-buff — extra attack, +AC, mobility, magical melee; break his concentration with focus fire to strip it) and **Sump-Reek Bomb** (recharge poison AoE). Full block: [[bazzoth-the-steeped|Bazzoth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room 5]].
 **If engaged:** magazine cleared. **If ignored:** Bazzoth holds Beta; that lane stays live for the final captive count.
 
+![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> The culvert opens into older brickwork, lower and tighter — a five-foot ceiling that puts your face near the waterline. Four barrels sit under a stone seam braced with fresh timber. Powder, rust, and the same sweet chemical film thicken in the tight space until breathing feels deliberate. Festival feet drum faintly through the Bridge stones overhead. A blind Grung in a rag veil stands utterly still against the far wall, head tilted, listening.
+
 **Room T1 / Gamma — [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) + 1 [[purple-caste-enforcer|Purple-Caste Enforcer]].** Levers: Vashu's **blindsight 30 ft.** (ignores fog, darkness, invisibility — including her own Weeping Veil mist) and **Pressure Point** stun; the Enforcer's **Binding Tongue** grapple. Kill or disable the Enforcer first to break the grapple-into-stun combo. The **5-ft ceiling** punishes reach weapons and flight. Full blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room T1]].
 **If engaged:** magazine cleared. **If ignored:** Vashu holds Gamma; that lane stays live.
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> Salt air cuts the chemical film here — the first breath that doesn't taste of Grung. Six barrels are wedged against a wet seam while black water slaps below an iron vent, the iridescent residue on the lashings catching light that leaks in from outside. Rigging knocks against a mast somewhere beyond the bars. Standing in the tidal water, unbothered by it, is a Grung whose skin runs blue and red at once — a caster where a Grung is never meant to be one.
 
 **Room T2 / Delta — [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) + [[purple-caste-zealot|Purple-Caste Zealot]] escort.** A 9th-level INT control caster with **no verbal components** — *Silence* does nothing. Expect *dominate person*, *hypnotic pattern*, *hold person* to pull a PC out of the fight, and *misty step*/*dimension door*/*greater invisibility* to keep him untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop domination/pattern; kill the Zealot before it reaches the backline or a barrel stack. Swim 30 — the tidal water is his, not the party's. Full block, spells, legendary actions: [[ozzeth-the-twiceborn|Ozzeth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room T2]].
 **If engaged:** magazine cleared. **If ignored:** Ozzeth holds Delta; that lane and its outer-quay egress vent stay live.
@@ -215,6 +235,8 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 > [!dm]
 > Deliver this straight, in your own voice — narrative, not read-aloud dialogue. It's the whole of her two-day investigation, collapsed to one telling. No checks. Land it, then cut back.
 
+![[wiki/assets/sessions/session-06/06-catarina-investigation.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night in a rain-slick Calveno canal-side alley. Catarina Da'Virelli kneels over a pried-open forgotten iron street grate, levering the last bar aside with a brass clockwork gauntlet — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, dark breeches and boots. A brass lantern throws warm light into the black shaft; ledger papers under one arm; her brass clockwork owl Strix (one glowing blue eye) on the grate rim. Iridescent chemical sheen rising from the grate. Cold rainy night against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
 > [!read-aloud]
 > Cut to black. Two days ago a Commodore stood in her doorway and lied to her about gas, and Catarina has spent every hour since proving it. No venting order on file. No Commission clerk who'd heard of the fault. But quiet cartage that paid double and never used the front canal; work orders signed off on jobs nobody scheduled; and everywhere the trail went, the same sweetly acrid reek — overripe fruit and ammonia — coming *up* out of grates the maps don't bother to name.
 >
@@ -223,6 +245,8 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 > So she went looking for someone to answer for it. Cut back.
 
 ### Beat C — First contact *(live)*
+
+![[wiki/assets/sessions/session-06/06-catarina-interrogation.webp|Cinematic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A green-lit vaulted sewer tunnel. Catarina Da'Virelli levels a flintlock pistol at a single cornered green poison-dart-frog Grung laborer (leather work-harness, webbed hands raised) crouched against the wet wall — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, brass clockwork gauntlets, a glowing brass all-purpose tool in her other hand. Behind her, her brass cannon-construct Ragnetto braced on spoked spider legs, barrel glowing; her brass owl Strix (one glowing blue eye) on an overhead pipe. Cold green glow, warm brass. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > The tunnel opens up ahead. Ragnetto stands braced on its legs, barrel still glowing down. Strix drops onto a pipe and folds its wings. And between them, flintlock leveled at a cornered, shaking green Grung, an All-Purpose Tool spinning idle in her other hand, stands a woman you've never met — white hair, brass goggles pushed up, entirely unsurprised to see you. "You're not Grung," she says, not lowering the pistol. "Either of you have a reason to be down here, or should I assume you're with *them*?"
@@ -253,7 +277,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 *The climax. Room 7's approach into Room 8: Solange, the detonation, Otar. Catarina is already with the party by now (Scene 3).*
 
-![[wiki/assets/sessions/session-06/06-catarina-otar-entry.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A collapsed underground vaulted stone chamber turned crater, a thirty-foot ceiling breach pouring a shaft of pale daylight and dust onto rubble and a bone-white summoning circle. In the background rises Otar the Foul, a massive hulking red toad-like slaad with cracked perpetually-molting hide weeping iridescent fluid, a wide blunt-toothed maw, and sickly green toxic miasma billowing from the splits in its skin. In the foreground, a small brass clockwork cannon-construct Ragnetto braces on the rubble and fires a bright force blast toward the creature and the small brass clockwork owl Strix with one glowing blue eye sweeps ahead; advancing on the crater behind them is Catarina Da'Virelli — voluminous silver-white wavy hair, brass goggles pushed up in her hair, white linen chemise under a rust-red brocade bodice, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised. Cold green toxic glow and a daylight shaft against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+![[wiki/assets/sessions/session-06/06-solange-chamber.webp|Cinematic establishing still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A wide vaulted underground stone collector nexus, fifteen-foot ceiling packed with dark blackpowder and timber scaffolding. Four flooded drainage channels converge on a raised central platform cut with a glowing bone-white summoning circle. A small red-skinned Grung warlock (Solange) kneels channeling in a sleeveless leather harness, hands chalk-stained. Four purple-skinned Grung warriors with shortbows hold the channel mouths. Electric ozone haze; cold circle-light against warm lantern glow. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!dm]
 > **Catarina is in from turn 1.** She joined in Scene 3, so run her as a full 5th PC — no arrival pacing. **Only if the party blitzed straight to Room 8 before you dropped Scene 3:** fall back to the staggered-entry adaptation ([[otar-the-foul|Otar the Foul § Encounter Adaptation]]) — Strix and Ragnetto on site from round 1, Catarina 2–3 turns behind. Otar is built for a five-PC party either way — run the recalibrated CR 12 straight from his page.
@@ -270,10 +294,14 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 **Detonation fires** (trigger: 2nd Elite drops, circle disrupted, no Elite within 10 ft of Solange, or any fire/thunder in the room):
 
+![[wiki/assets/sessions/session-06/06-mercatura-detonation.webp|Dynamic cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. The instant of detonation: the packed-powder ceiling blows open into a thirty-foot wound of shattered cobblestone and torn festival cloth, daylight and dust pouring onto rubble and a glowing bone-white summoning circle. At the circle's centre a small red-skinned Grung warlock kneels untouched, dust settling in a perfect ring. Blackpowder scaffolding, flooded channels, debris mid-fall. Daylight and firelight against dark stone. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
 > [!read-aloud]
 > One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. Solange is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
 
 **Manifestation — Solange's next turn after detonation:**
+
+![[wiki/assets/sessions/session-06/06-catarina-otar-entry.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A collapsed underground vaulted stone chamber turned crater, a thirty-foot ceiling breach pouring a shaft of pale daylight and dust onto rubble and a bone-white summoning circle. In the background rises Otar the Foul, a massive hulking red toad-like slaad with cracked perpetually-molting hide weeping iridescent fluid, a wide blunt-toothed maw, and sickly green toxic miasma billowing from the splits in its skin. In the foreground, a small brass clockwork cannon-construct Ragnetto braces on the rubble and fires a bright force blast toward the creature and the small brass clockwork owl Strix with one glowing blue eye sweeps ahead; advancing on the crater behind them is Catarina Da'Virelli — voluminous silver-white wavy hair, brass goggles pushed up in her hair, white linen chemise under a rust-red brocade bodice, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised. Cold green toxic glow and a daylight shaft against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > She finishes the last line, and the circle ignites into darkness. Shadow pools at her feet, rises like black ichor, and forms a blunt jaw that closes around her. Her bones crack, her spine lengthens, and her hands hit the stone as something else. Two seconds, maybe three, and Solange Barret is gone; what stands in the circle is red, enormous, and breathing like stone grinding on stone.
@@ -301,6 +329,8 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 ### The Whale Beneath *(Abyss Vision)*
 *Pull: [[perrin-black-jaw|Perrin]] · Register: revelation · Available only on open water.*
 
+![[wiki/assets/sessions/session-06/06-whale-beneath.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night on dark water outside Calveno's harbor, distant festival lights on shore. A small wooden canal boat; at the rail stands Perrin Black-Jaw, a very small three-foot black-and-white fancy-rat Rattkin sailor in an olive-drab hooded cloak and cream shirt, bodhran drum, long pink tail, looking down. Beneath the hull glides an immense pale bioluminescent whale glowing cold blue-white, one great eye turned upward. Cold underwater glow against warm shore lights. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
+
 > [!read-aloud]
 > The canal boat clears the inner harbor. The water goes darker, deeper, the festival noise thinning to wind and wave. The same low hum from the dream off Auralis answers from below. A pale, bioluminescent shape passes beneath the hull — slow, enormous, looking up.
 
@@ -310,6 +340,8 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 
 ### Anzolo at the Door *(Nona and Anzolo)*
 *Pull: [[perrin-black-jaw|Perrin]] · Register: social · Available only at Nona's safe house.*
+
+![[wiki/assets/sessions/session-06/06-anzolo-at-the-quay.webp|Cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. Night at a torchlit outer stone quay in Calveno, moored age-of-sail ships and rigging behind, dark harbor water, rain. A large broad-shouldered tortle (turtle-folk), Anzolo — thick shell, weathered beak, calm — in age-of-sail dress: heavy canvas longcoat, wide belt, buckled boots. In the foreground a small soaked Warren ratfolk runner points back toward him, breathless. Warm torchlight against cold wet night. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > A Warren runner is young, soaked, out of breath. "There's a tortle at the outer quay, big, asking for Nona by name." She looks at Perrin. "He's asking for someone called Black-Jaw."
@@ -324,6 +356,8 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 ## Fail-Forward: The Detonation Fires
 
 *Available: only if the party doesn't reach the primary chamber tonight, or you choose to end the session on the raid itself.*
+
+![[wiki/assets/sessions/session-06/06-mercatura-detonation.webp|Dynamic cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. The instant of detonation: the packed-powder ceiling blows open into a thirty-foot wound of shattered cobblestone and torn festival cloth, daylight and dust pouring onto rubble and a glowing bone-white summoning circle. At the circle's centre a small red-skinned Grung warlock kneels untouched, dust settling in a perfect ring. Blackpowder scaffolding, flooded channels, debris mid-fall. Daylight and firelight against dark stone. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
 > The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them. Then something hauls itself out of the hole.

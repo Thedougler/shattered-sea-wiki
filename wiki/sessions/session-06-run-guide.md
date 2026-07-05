@@ -8,7 +8,7 @@ audience: dm
 publish: false
 session_number: 6
 session_date: 2026-07-02
-summary: "At-table run guide for Session 06, simplified to four ordered scenes: (1) an opening flashback — Rupert Knighton's in-person warning two days ago and Catarina Da'Virelli's guest-PC debut; (2) the party resuming from Room 6 — the rest decision, then a free push through the secondary magazines; (3) Catarina's introduction, dropped by the DM at the right mark — a single narration of the investigation that led her underground, then the party witnesses her clockwork owl Strix and Eldritch-cannon backpack Ragnetto rout a Grung work-crew, then first contact as she joins; (4) the primary chamber — Solange, the detonation, and Otar. ~4 hrs."
+summary: "At-table run guide for Session 06: (1) an opening flashback — Rupert Knighton's in-person warning two days ago and Catarina Da'Virelli's guest-PC debut; (2) the party resuming from Room 6 — the rest decision, then a free push through the secondary magazines; (3) Catarina's introduction, dropped by the DM at the right mark — a single narration of the investigation that led her underground, then the party witnesses her clockwork owl Strix and Eldritch-cannon backpack Ragnetto rout a Grung work-crew, then first contact as she joins; (4)-(6) three independent, order-agnostic secondary-magazine scenes — Bazzoth (Beta), Vashu (Gamma), Ozzeth (Delta) — run whichever the party reaches, skip any they don't; (7) the primary chamber — Solange, the detonation, and Otar. ~4 hrs."
 created: 2026-07-02
 updated: 2026-07-03
 tags:
@@ -23,7 +23,7 @@ sources:
 
 # Session 06 — Run Guide: No Rest for the Curious
 
-> Four scenes, run roughly in order: an opening flashback, the party's push through the sewers, Catarina's introduction dropped in when the moment's right, and the primary chamber. The dungeon's geography is a menu — the party picks the route. Only Catarina's introduction runs on *your* clock, not theirs. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* if they go off-script.
+> Seven scenes. Scenes 1, 2, and 7 run in fixed order — flashback, push, primary chamber. Scene 3 (Catarina) drops in on *your* clock, not theirs. Scenes 4–6 (the three secondary magazines) are independent and order-agnostic — run whichever one the party walks into, in whatever order they pick, and skip any they never visit. Nothing breaks if they wander — ignored pressure moves, it doesn't vanish. See *If They Surprise You* if they go off-script.
 
 ## Session Snapshot
 
@@ -32,7 +32,7 @@ sources:
 | **Party is** | [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|the sewer magazine dungeon]], Room 6 (Handler Relay) — [[ruma-delacroix\|Ruma Delacroix]]'s "nap room." She's an ally (unarmed, non-combatant, captured peacefully) hiding them there. |
 | **Last break** | Session 05 ended in Room 6. [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines\|Magazine Alpha (Room 4)]] neutralized — powder soaked, several Grung killed, bodies hidden. Their absence will be noticed: named lieutenants now hold the remaining sites. Ruma was won over after the party found her doodles; she covers for them. Primary chamber (Room 8 — [[solange-barret\|Solange]] + [[otar-the-foul\|Otar]]) still undiscovered. |
 | **Hottest pressure** | The Grung timeline is ~1.5 days from the Le Paludi compromise — running whether or not the party watches. Tonight also debuts [[catarina-davirelli\|Catarina Da'Virelli]], in two parts: an opening flashback ([[rupert-knighton\|Knighton]]'s visit two days ago, Scene 1), then her in-dungeon introduction whenever you drop it (Scene 3). |
-| **Table time** | ~4 hrs. **Scene 1** (Cat vs. Knighton flashback) ~15–30 min → **Scene 2** (Room 6 rest + push through the sewers) → **Scene 3** (Catarina's introduction — dropped mid-Scene-2 at your mark, ~15–20 min) → **Scene 4** (primary chamber). |
+| **Table time** | ~4 hrs. **Scene 1** (Cat vs. Knighton flashback) ~15–30 min → **Scene 2** (Room 6 rest + push through the sewers) → **Scene 3** (Catarina's introduction — dropped mid-push at your mark, ~15–20 min) → **Scenes 4–6** (Beta/Gamma/Delta magazines — independent, order-agnostic, run only the ones the party visits) → **Scene 7** (primary chamber). |
 
 ---
 
@@ -43,10 +43,15 @@ sources:
 1. **Scene 1 — Cat's Curios (flashback, fixed).** Two days ago. Knighton visits Catarina's workshop in person, warns her off the streets, offers a Crown evacuation launch. She declines and spends the two days investigating instead. Fades to black. *This is Catarina's table introduction — hand it to her player.* ~15–30 min.
 2. **Scene 2 — Back Underground (live).** Cut to the present: the party at Room 6 with Ruma. Banter, the resource-drain goal, the long-rest decision, then a free push through the secondary magazines toward the primary. The party picks the route.
 3. **Scene 3 — The Owl and the Cannon (Catarina's introduction).** *You* choose the moment. The party sees and hears a chase in the tunnels ahead — Grung driving [[catarina-davirelli\|Catarina]]'s clockwork owl **Strix** back, then those same Grung fleeing screaming as her cannon-backpack **Ragnetto** spider-walks after them, blasting. They investigate; they find her, flintlock drawn, questioning a cornered Grung. One cut-to-black narration covers how her investigation led her down here, then she joins for the rest of the dungeon. ~15–20 min.
-4. **Scene 4 — The Primary Chamber (live).** Room 7's approach into Room 8: Solange's circle, the detonation, and Otar. The climax. Catarina is already with the party by now.
+4. **Scene 4 — Magazine Beta (optional, independent).** [[bazzoth-the-steeped|Bazzoth, the Steeped]] holds Room 5, if the party goes there.
+5. **Scene 5 — Magazine Gamma (optional, independent).** [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] holds Room T1, if the party goes there.
+6. **Scene 6 — Magazine Delta (optional, independent).** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] holds Room T2, if the party goes there.
+7. **Scene 7 — The Primary Chamber (live).** Room 7's approach into Room 8: Solange's circle, the detonation, and Otar. The climax. Catarina is already with the party by now.
 
 > [!dm]
-> **One introduction, your timing — not four branching trails.** Her investigation collapses to a single narrated bridge; you decide when to drop the Scene 3 set-piece, not the party's door choice. Good marks: a lull after they've cleared or scouted one secondary site (so the stakes read), ideally in Room 7 where the sightlines carry a chase. If they stall or blitz, see the timing note in Scene 3.
+> **One Catarina introduction, your timing — not four branching trails.** Her investigation collapses to a single narrated bridge; you decide when to drop the Scene 3 set-piece, not the party's door choice. Good marks: a lull after they've cleared or scouted one secondary site (so the stakes read), ideally in Room 7 where the sightlines carry a chase. If they stall or blitz, see the timing note in Scene 3.
+>
+> **Scenes 4–6 run in whatever order the party's door choices dictate — none, some, or all three.** Each is self-contained: read it cold when they arrive, resolve it, move on. Skipping a magazine doesn't skip content elsewhere; see each scene's *If Ignored*.
 
 ---
 
@@ -68,10 +73,10 @@ sources:
 | [[rupert-knighton\|Rupert Knighton]] | Scene 1 (fixed, flashback) | Posh, unhurried, never threatens — states outcomes. Visits in person; doesn't send subordinates for things that matter. |
 | [[ruma-delacroix\|Ruma Delacroix]] | Scene 2, Room 6 | Ally, unarmed, non-combatant. Dry and wry, relieved to have company. Hiding the party; keeps her own check-ins normal to hold the cover. |
 | [[catarina-davirelli\|Catarina Da'Virelli]] | Scene 3 onward | Guest PC. Youthful face, white hair. Treats everyone the same; honest to a fault; won't let her inventions harm people. Reads a room faster than anyone asks her to. |
-| [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Scene 2, if Room 5 (Beta) | Drunk alchemist-brawler — soused on his own reagent-spirits, which pickled the fear out of him. Never panics. |
-| [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Scene 2, if Room T1 (Gamma) | Blind monk — reads the room by vibration and scent. Blindsight ignores fog, darkness, invisibility, even her own Veil. Still and unhurried. |
-| [[ozzeth-the-twiceborn\|Ozzeth, the Twiceborn]] | Scene 2, if Room T2 (Delta) | Prodigal mage / caste-abomination — skin runs blue and red at once, a caster where a Grung is never meant to be one. Cold, precise, unbothered. |
-| [[solange-barret\|Solange Barret]] | Scene 4, primary chamber (Room 8) | Channeling, silent, professional — not fanatical. |
+| [[bazzoth-the-steeped\|Bazzoth, the Steeped]] | Scene 4, if Room 5 (Beta) | Drunk alchemist-brawler — soused on his own reagent-spirits, which pickled the fear out of him. Never panics. |
+| [[vashu-the-weeping-veil\|Vashu, the Weeping Veil]] | Scene 5, if Room T1 (Gamma) | Blind monk — reads the room by vibration and scent. Blindsight ignores fog, darkness, invisibility, even her own Veil. Still and unhurried. |
+| [[ozzeth-the-twiceborn\|Ozzeth, the Twiceborn]] | Scene 6, if Room T2 (Delta) | Prodigal mage / caste-abomination — skin runs blue and red at once, a caster where a Grung is never meant to be one. Cold, precise, unbothered. |
+| [[solange-barret\|Solange Barret]] | Scene 7, primary chamber (Room 8) | Channeling, silent, professional — not fanatical. |
 | [[anzolo\|Anzolo]] | Optional, if session reaches Nona's safe house | Slow-talking, methodical, relentless — warmth and violence coexist without irony. Doesn't know the search is over. |
 
 ---
@@ -168,41 +173,15 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 | From Room 6, they head for... | What's there |
 |---|---|
-| The mortared breach into Room 5 (Beta) | [[bazzoth-the-steeped\|Bazzoth]]'s working magazine |
-| Room 7, then backtrack to Room 3's barred culvert (T1) | [[vashu-the-weeping-veil\|Vashu]] + escort (Gamma) |
-| Room 7, then the flood vent to T2 | [[ozzeth-the-twiceborn\|Ozzeth]] + Zealot (Delta) |
-| Room 7, then the ascending passage to Room 8 (main approach — garrison watches this) | Primary chamber — Scene 4 |
-| The hidden passage direct to Room 8 (DC 16 Investigation, south wall behind the barrels — Ruma can't point it out) | Primary chamber, from the unguarded side — Scene 4 |
+| The mortared breach into Room 5 (Beta) | [[bazzoth-the-steeped\|Bazzoth]]'s working magazine — Scene 4 |
+| Room 7, then backtrack to Room 3's barred culvert (T1) | [[vashu-the-weeping-veil\|Vashu]] + escort (Gamma) — Scene 5 |
+| Room 7, then the flood vent to T2 | [[ozzeth-the-twiceborn\|Ozzeth]] + Zealot (Delta) — Scene 6 |
+| Room 7, then the ascending passage to Room 8 (main approach — garrison watches this) | Primary chamber — Scene 7 |
+| The hidden passage direct to Room 8 (DC 16 Investigation, south wall behind the barrels — Ruma can't point it out) | Primary chamber, from the unguarded side — Scene 7 |
 
 **Passing through Room 7 (Main Collector):** no encounter, but new ground tonight — 90 ft, vaulted, 8 ft ceiling, a central channel, the trail markers converging toward the primary and the faded "MERCATURA NEXUS 200 PAS" sign on the south wall. Room key, terrain, read-aloud: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|Calveno Sewer Magazines § Room 7 — Main Collector]]. **This is also the best stage for Scene 3** — the sightlines carry a chase down the tunnel.
 
-### Secondary Sites — run when they hit one
-
-*Each is self-contained — battlemap, scene-setter, the runnable minimum, and if-ignored. Full terrain and stat blocks live in the dungeon file's room key. None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.*
-
-![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
-
-> [!read-aloud]
-> The breach opens into a working bay, and the chemical bite here is worse — concentrated, with nowhere to vent. Scaffolding climbs one wall half-built, one beam braced to the ceiling, another leaning loose. Barrels sit on the stones and in the flooded corner, not yet stacked, beside a hand drill, coiled rope slick with iridescent residue, and a wooden bowl of cold rice. A thick blue Grung looks up from a mixing station in the wet corner, unhurried, and reaches for his gourd.
-
-**Room 5 / Beta — [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) + 2 [[grung-npc|Grung]] laborers.** Party gains **advantage on Stealth to approach** (his attention is split — one laborer building, one watching). Levers: **Shed the Years** (concentration self-buff — extra attack, +AC, mobility, magical melee; break his concentration with focus fire to strip it) and **Sump-Reek Bomb** (recharge poison AoE). Full block: [[bazzoth-the-steeped|Bazzoth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room 5]].
-**If engaged:** magazine cleared. **If ignored:** Bazzoth holds Beta; that lane stays live for the final captive count.
-
-![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
-
-> [!read-aloud]
-> The culvert opens into older brickwork, lower and tighter — a five-foot ceiling that puts your face near the waterline. Four barrels sit under a stone seam braced with fresh timber. Powder, rust, and the same sweet chemical film thicken in the tight space until breathing feels deliberate. Festival feet drum faintly through the Bridge stones overhead. A blind Grung in a rag veil stands utterly still against the far wall, head tilted, listening.
-
-**Room T1 / Gamma — [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) + 1 [[purple-caste-enforcer|Purple-Caste Enforcer]].** Levers: Vashu's **blindsight 30 ft.** (ignores fog, darkness, invisibility — including her own Weeping Veil mist) and **Pressure Point** stun; the Enforcer's **Binding Tongue** grapple. Kill or disable the Enforcer first to break the grapple-into-stun combo. The **5-ft ceiling** punishes reach weapons and flight. Full blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room T1]].
-**If engaged:** magazine cleared. **If ignored:** Vashu holds Gamma; that lane stays live.
-
-![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
-
-> [!read-aloud]
-> Salt air cuts the chemical film here — the first breath that doesn't taste of Grung. Six barrels are wedged against a wet seam while black water slaps below an iron vent, the iridescent residue on the lashings catching light that leaks in from outside. Rigging knocks against a mast somewhere beyond the bars. Standing in the tidal water, unbothered by it, is a Grung whose skin runs blue and red at once — a caster where a Grung is never meant to be one.
-
-**Room T2 / Delta — [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) + [[purple-caste-zealot|Purple-Caste Zealot]] escort.** A 9th-level INT control caster with **no verbal components** — *Silence* does nothing. Expect *dominate person*, *hypnotic pattern*, *hold person* to pull a PC out of the fight, and *misty step*/*dimension door*/*greater invisibility* to keep him untouchable while the Zealot walks a live charge into the party or the powder. Counters: break his concentration to drop domination/pattern; kill the Zealot before it reaches the backline or a barrel stack. Swim 30 — the tidal water is his, not the party's. Full block, spells, legendary actions: [[ozzeth-the-twiceborn|Ozzeth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|§ Room T2]].
-**If engaged:** magazine cleared. **If ignored:** Ozzeth holds Delta; that lane and its outer-quay egress vent stay live.
+**The three secondary magazines are Scenes 4–6, below** — independent and order-agnostic. Run whichever door they open, in whatever order they open it; skip any they never reach. None was re-costed for a 5th combatant — if a fight trends easy, add a green [[grung-npc|laborer]] or two rather than inventing numbers.
 
 > [!dm]
 > **If they stall — this is your Scene 3 cue.** If the party rests long, negotiates in circles, or can't pick a door, don't wait forever. Drop the introduction: Strix noses through a grate and finds *them*, and a minute later the chase (Scene 3) breaks out down the nearest open tunnel. The stall becomes the introduction.
@@ -273,7 +252,75 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 
 ---
 
-## Scene 4 — The Primary Chamber *(live)*
+## Scene 4 — Magazine Beta: Bazzoth *(optional, independent)*
+
+*Room 5, off the mortared breach from Room 6. Order-agnostic with Scenes 5 and 6 — run it only if the party opens this door, whenever they do.*
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-05-magazine-beta-battlemap-realistic.png|Room 5 (Magazine Beta) battlemap — working bay: half-built scaffolding on one wall, loose barrels on stone and in the flooded corner, plank bridge, mortared breach to Room 6. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> The breach opens into a working bay, and the chemical bite here is worse — concentrated, with nowhere to vent. Scaffolding climbs one wall half-built, one beam braced to the ceiling, another leaning loose. Barrels sit on the stones and in the flooded corner, not yet stacked, beside a hand drill, coiled rope slick with iridescent residue, and a wooden bowl of cold rice. A thick blue Grung looks up from a mixing station in the wet corner, unhurried, and reaches for his gourd.
+
+**What's true:** [[bazzoth-the-steeped|Bazzoth, the Steeped]] (CR 6) has claimed Beta as his working magazine, backed by 2 [[grung-npc|Grung]] laborers — one building the scaffold, one watching the tunnel mouth. His attention is split; the party gains **advantage on Stealth to approach.** Six blackpowder barrels sit loose, not stacked.
+
+> [!mechanic]
+> **Quiet neutralization.** DC 12 Athletics (action) collapses the unsecured scaffold beam, dumping the barrels into the flooded corner — powder soaks, magazine neutralized, no detonation risk. The collapse is loud: audible in Room 6 and adjacent corridors.
+>
+> **Builder's notation** (Three Clue #1). Scratched into the unsecured beam in Grung shorthand: "anchor south of M — tie to main." DC 15 Investigation to notice; DC 12 Intelligence to parse "M" as the Mercatura. [[jean-claude-tabarnack|Jean-Claude]] reads it automatically — "anchor to the primary, south of the Mercatura collector."
+
+> [!dm]
+> **Levers:** **Shed the Years** (Bazzoth's concentration self-buff — extra attack, +AC, mobility, magical melee; focus fire to break concentration and strip it) and **Sump-Reek Bomb** (recharge poison AoE). Full block: [[bazzoth-the-steeped|Bazzoth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Room 5]].
+
+**If engaged:** magazine cleared; the builder's notation is in hand if anyone thought to look.
+**If ignored:** Bazzoth holds Beta; that lane stays live for the final captive count.
+
+---
+
+## Scene 5 — Magazine Gamma: Vashu *(optional, independent)*
+
+*Room T1, reached via Room 7 backtracking to Room 3's barred culvert. Order-agnostic with Scenes 4 and 6 — run it only if the party opens this door, whenever they do.*
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-t1-magazine-gamma-battlemap-realistic.png|Room T1 (Magazine Gamma) battlemap — low old-brick magazine, 5-ft ceiling: four barrels under a timber-braced stone seam, barred culvert to Room 3, rusted street drain to the Bridge. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> The culvert opens into older brickwork, lower and tighter — a five-foot ceiling that puts your face near the waterline. Four barrels sit under a stone seam braced with fresh timber. Powder, rust, and the same sweet chemical film thicken in the tight space until breathing feels deliberate. Festival feet drum faintly through the Bridge stones overhead. A blind Grung in a rag veil stands utterly still against the far wall, head tilted, listening.
+
+**What's true:** [[vashu-the-weeping-veil|Vashu, the Weeping Veil]] (CR 5) guards Gamma with 1 [[purple-caste-enforcer|Purple-Caste Enforcer]]. Her **blindsight 30 ft.** ignores the low light and cramped sightlines entirely — she doesn't need to see in a 5-ft-ceiling room, and it also ignores fog, darkness, invisibility, even her own Weeping Veil mist. A rusted street drain leads to a Bridge district maintenance alcove: Small creatures pass freely, Medium creatures need DC 13 Athletics or thieves' tools to force the grate.
+
+> [!mechanic]
+> **The 5-ft ceiling punishes reach weapons and flight** — no jumping, and Medium creatures can't use reach over allies cleanly. The Enforcer's **Binding Tongue** grapple sets up Vashu's **Pressure Point** stun; kill or disable the Enforcer first to break the combo.
+
+> [!dm]
+> Telegraph the Weeping Veil (blinding/poisoning mist) before Vashu pops it if the party has no way to disengage in this footprint — it's brutal at close range. Full blocks: [[vashu-the-weeping-veil|Vashu]], [[purple-caste-enforcer|Enforcer]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Room T1]].
+
+**If engaged:** magazine cleared; Bridge district captives drop by one lane.
+**If ignored:** Vashu holds Gamma; that lane stays live.
+
+---
+
+## Scene 6 — Magazine Delta: Ozzeth *(optional, independent)*
+
+*Room T2, reached via the flood overflow vent off Room 7. Order-agnostic with Scenes 4 and 5 — run it only if the party opens this door, whenever they do.*
+
+![[wiki/assets/sessions/session-05/maps/session-05-room-t2-magazine-delta-battlemap-realistic.png|Room T2 (Magazine Delta) battlemap — tidal harbour-approach magazine: six barrels at the wet seam, flood overflow vent to Room 7, barred outer-quay egress vent with daylight. Rising tide. 5-ft grid; DM tactical reference.]]
+
+> [!read-aloud]
+> Salt air cuts the chemical film here — the first breath that doesn't taste of Grung. Six barrels are wedged against a wet seam while black water slaps below an iron vent, the iridescent residue on the lashings catching light that leaks in from outside. Rigging knocks against a mast somewhere beyond the bars. Standing in the tidal water, unbothered by it, is a Grung whose skin runs blue and red at once — a caster where a Grung is never meant to be one.
+
+**What's true:** [[ozzeth-the-twiceborn|Ozzeth, the Twiceborn]] (CR 8) guards Delta with a [[purple-caste-zealot|Purple-Caste Zealot]] escort. A 9th-level INT control caster with **no verbal components** — *Silence* does nothing. Expect *dominate person*, *hypnotic pattern*, *hold person* to pull a PC out of the fight, and *misty step*/*dimension door*/*greater invisibility* to keep him untouchable while the Zealot walks a live charge into the party or the powder. Swim 30 — the tidal water is his, not the party's.
+
+> [!mechanic]
+> **Tidal slap:** water rises 1 ft per hour near high tide. After 2 hours, Stealth checks here have disadvantage from splashing unless the creature has a swim speed. The **outer-quay egress vent** (3 ft wide, above the waterline) matters more than the barrels if the party is trying to reduce captives — sealing or blocking it disrupts harbour-side extraction even if the detonation fires.
+
+> [!dm]
+> Ozzeth won't die guarding barrels — he'll *dominate* whoever moves to disable the vent and turn them back on their own party, then teleport clear (*dimension door* to the outer-quay side) once the fight sours. Counters: break his concentration to drop domination/pattern; kill the Zealot before it reaches the backline or a barrel stack — a suicidal charge next to blackpowder is its own detonation risk. Full block, spells, legendary actions: [[ozzeth-the-twiceborn|Ozzeth]]. Room key: [[wiki/entities/places/dungeons/calveno-sewers-grung-magazines|dungeon file § Room T2]].
+
+**If engaged:** magazine cleared; the outer-quay egress vent can be sealed.
+**If ignored:** Ozzeth holds Delta; that lane and its outer-quay egress vent stay live.
+
+---
+
+## Scene 7 — The Primary Chamber *(live)*
 
 *The climax. Room 7's approach into Room 8: Solange, the detonation, Otar. Catarina is already with the party by now (Scene 3).*
 
@@ -362,7 +409,7 @@ Full phase mechanics — triggers, detonation DCs, the checklist — live in [[w
 > [!read-aloud]
 > The sound comes from underfoot, stone grinding on stone. The Mercatura plaza shudders once, then the centre drops inward. The crowd laughs — a beat too early, the way the Beffa trained them. Then something hauls itself out of the hole.
 
-Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block: Scene 4 above, or [[otar-the-foul|Otar the Foul]] directly.
+Full cold-run card, raid scale table, and Nona's aftermath vow: [[session-05-run-guide|Session 05 Run Guide § Fail-Forward: The Detonation Fires]] (unchanged content, still current). Otar's stat block: Scene 7 above, or [[otar-the-foul|Otar the Foul]] directly.
 
 **If engaged:** the party fights Otar and/or responds to secondary strikes.
 **If ignored:** the raid runs its full course; Nona assembles the pursuit without the party.

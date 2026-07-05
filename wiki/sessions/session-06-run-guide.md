@@ -128,8 +128,8 @@ He doesn't threaten — he replaces. He just told her so, without saying it.
 
 > [!read-aloud]
 > Two days. You spend them calling in favors and chasing paperwork that doesn't add up — no venting order on file anywhere, nobody at the Commission who's heard of this "fault." Every lead traces the same direction: down. Whatever is under Calveno is not gas.
->
-> *(Fade to black. Where that trail takes her, and what she does when she reaches the bottom, is Scene 3 — you'll drop it into the dungeon when the moment's right.)*
+
+*Fade to black. Where that trail leads, and what she finds at the bottom, is Scene 3 — drop it into the dungeon when the moment's right.*
 
 ---
 
@@ -249,7 +249,7 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 ![[wiki/assets/sessions/session-06/06-catarina-interrogation.webp|Cinematic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A green-lit vaulted sewer tunnel. Catarina Da'Virelli levels a flintlock pistol at a single cornered green poison-dart-frog Grung laborer (leather work-harness, webbed hands raised) crouched against the wet wall — voluminous silver-white wavy hair, brass goggles pushed up, white linen chemise under a rust-red brocade bodice, leather utility belt, brass clockwork gauntlets, a glowing brass all-purpose tool in her other hand. Behind her, her brass cannon-construct Ragnetto braced on spoked spider legs, barrel glowing; her brass owl Strix (one glowing blue eye) on an overhead pipe. Cold green glow, warm brass. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> The tunnel opens up ahead. Ragnetto stands braced on its legs, barrel still glowing down. Strix drops onto a pipe and folds its wings. And between them, flintlock leveled at a cornered, shaking green Grung, an All-Purpose Tool spinning idle in her other hand, stands a woman you've never met — white hair, brass goggles pushed up, entirely unsurprised to see you. "You're not Grung," she says, not lowering the pistol. "Either of you have a reason to be down here, or should I assume you're with *them*?"
+> The tunnel opens up ahead. The brass cannon stands braced on its spoked legs, barrel still glowing. The owl drops onto a pipe and folds its wings. Between them — flintlock leveled at a cornered, shaking green Grung, a brass multitool spinning idle in her other hand — stands a woman you've never met: white hair, brass goggles pushed up, watching you like she expected you. "You're not Grung," she says, pistol steady. "Either of you have a reason to be down here, or should I assume you're with *them*?"
 
 **She joins from here.** Play the introduction however the table takes it — she reads people fast (passive Insight 14) and treats everyone the same, beggar to noble. Once she's satisfied the party is against the raid, she's on their side for the rest of the dungeon: no repeat arrival, no staggered entry, she acts on her own initiative in every fight after this.
 
@@ -297,14 +297,14 @@ Once Room 6 is settled — rested or not — the party chooses where to head. Do
 ![[wiki/assets/sessions/session-06/06-mercatura-detonation.webp|Dynamic cinematic still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. The instant of detonation: the packed-powder ceiling blows open into a thirty-foot wound of shattered cobblestone and torn festival cloth, daylight and dust pouring onto rubble and a glowing bone-white summoning circle. At the circle's centre a small red-skinned Grung warlock kneels untouched, dust settling in a perfect ring. Blackpowder scaffolding, flooded channels, debris mid-fall. Daylight and firelight against dark stone. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. Solange is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
+> One word. The ceiling becomes light. Stone, fire, and pressure hit before sound reaches you, and the Mercatura opens above in a thirty-foot wound of broken cobblestone and festival cloth. The red-skinned Grung is still kneeling at the circle, untouched, dust settling around her in a perfect ring.
 
 **Manifestation — Solange's next turn after detonation:**
 
 ![[wiki/assets/sessions/session-06/06-catarina-otar-entry.webp|Dynamic action still, Renaissance / Age-of-Sail world, adult animated cel-shaded illustration in the style of the TV show Archer — bold clean ink outlines, flat graphic color, hard cel shadows, no text. A collapsed underground vaulted stone chamber turned crater, a thirty-foot ceiling breach pouring a shaft of pale daylight and dust onto rubble and a bone-white summoning circle. In the background rises Otar the Foul, a massive hulking red toad-like slaad with cracked perpetually-molting hide weeping iridescent fluid, a wide blunt-toothed maw, and sickly green toxic miasma billowing from the splits in its skin. In the foreground, a small brass clockwork cannon-construct Ragnetto braces on the rubble and fires a bright force blast toward the creature and the small brass clockwork owl Strix with one glowing blue eye sweeps ahead; advancing on the crater behind them is Catarina Da'Virelli — voluminous silver-white wavy hair, brass goggles pushed up in her hair, white linen chemise under a rust-red brocade bodice, dark breeches and buckled boots, ornate brass clockwork gauntlets, a glowing brass wand raised. Cold green toxic glow and a daylight shaft against the warm blast. Generated with Nano Banana Pro (gemini-3-pro-image), 16:9.]]
 
 > [!read-aloud]
-> She finishes the last line, and the circle ignites into darkness. Shadow pools at her feet, rises like black ichor, and forms a blunt jaw that closes around her. Her bones crack, her spine lengthens, and her hands hit the stone as something else. Two seconds, maybe three, and Solange Barret is gone; what stands in the circle is red, enormous, and breathing like stone grinding on stone.
+> She finishes the last line, and the circle ignites into darkness. Shadow pools at her feet, rises like black ichor, and forms a blunt jaw that closes around her. Her bones crack, her spine lengthens, and her hands hit the stone as something else. Two seconds, maybe three, and the kneeling Grung is gone; what stands in the circle is red, enormous, and breathing like stone grinding on stone.
 >
 > Above the crater, the crowd hasn't caught up — the blast read as festival spectacle. One woman leans over the broken lip of the plaza, squinting down through the haze. "It looks so real!" Thirty feet of wet muscle uncoils from that impossible mouth, wraps around her waist, and pulls her off the edge before the word finishes echoing. A wet crunch cuts the scream short — and the crowd finally starts screaming.
 
